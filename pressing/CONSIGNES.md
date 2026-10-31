@@ -22,14 +22,15 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 
 ## Sources autorisées
 
-Le champ `url` doit pointer vers l'un de ces sites (ou un de leurs sous-domaines). Le vérificateur refuse tout autre site.
+**Chaque carte s'appuie sur un article de journal.** Le champ `url` doit pointer vers un article de l'un de ces journaux ou agences de presse (ou un de leurs sous-domaines). Le vérificateur refuse tout autre site.
 
-- **Institutions et agences** : insee.fr, banque-france.fr, ecb.europa.eu, europa.eu, imf.org, oecd.org, worldbank.org, ine.es, destatis.de, arbeitsagentur.de, gouvernement.fr, economie.gouv.fr, bundesregierung.de, gov.uk, ons.gov.uk, bankofengland.co.uk, federalreserve.gov, afp.com, reuters.com, apnews.com
-- **Presse française** : lemonde.fr, lesechos.fr, lefigaro.fr, liberation.fr, la-croix.com, ouest-france.fr, francetvinfo.fr, radiofrance.fr, franceculture.fr, france24.com, rfi.fr, latribune.fr, challenges.fr, alternatives-economiques.fr, lexpress.fr, lepoint.fr, nouvelobs.com, courrierinternational.com, mediapart.fr, publicsenat.fr, vie-publique.fr
+Les sites officiels (Insee, BCE, Banque de France, Eurostat, INE, Destatis, gouvernements…) ne sont **jamais** la source d'une carte : tu peux t'en servir pour vérifier un chiffre, mais la carte renvoie vers l'article de presse qui traite l'actu. Pour l'ESH, privilégie Les Échos, Le Monde, Le Figaro, La Tribune, Alternatives économiques, le Financial Times, The Economist, Reuters ou l'AFP.
+
+- **Agences de presse** : afp.com, reuters.com, apnews.com
+- **Presse française** : lemonde.fr, lesechos.fr, lefigaro.fr, liberation.fr, la-croix.com, ouest-france.fr, francetvinfo.fr, radiofrance.fr, franceculture.fr, france24.com, rfi.fr, latribune.fr, challenges.fr, alternatives-economiques.fr, lexpress.fr, lepoint.fr, nouvelobs.com, courrierinternational.com, mediapart.fr, publicsenat.fr
 - **Presse anglophone** : bbc.com, bbc.co.uk, theguardian.com, ft.com, economist.com, telegraph.co.uk, thetimes.com, independent.co.uk, nytimes.com, washingtonpost.com, wsj.com, bloomberg.com, politico.com, politico.eu, npr.org, cnn.com, axios.com, theatlantic.com
 - **Presse hispanophone** : elpais.com, elmundo.es, abc.es, lavanguardia.com, eldiario.es, elconfidencial.com, rtve.es, europapress.es, efe.com, expansion.com, cincodias.elpais.com, clarin.com, lanacion.com.ar, eluniversal.com.mx, eltiempo.com, latercera.com, bbc.com/mundo
 - **Presse germanophone** : tagesschau.de, zdf.de, dw.com, spiegel.de, zeit.de, faz.net, sueddeutsche.de, handelsblatt.com, welt.de, tagesspiegel.de, taz.de, nzz.ch, derstandard.at, diepresse.com
-- **Agences en anglais** : Reuters, AP, AFP (voir plus haut).
 
 `source` porte le vrai nom du média (« Le Monde », « El País », « Tagesschau »…).
 

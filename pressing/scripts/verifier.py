@@ -13,12 +13,10 @@ MATS = ["esh", "anglais", "espagnol", "allemand"]
 errors = []
 warnings = []
 
-SOURCES = """insee.fr banque-france.fr ecb.europa.eu europa.eu imf.org oecd.org worldbank.org ine.es destatis.de
-arbeitsagentur.de gouvernement.fr economie.gouv.fr bundesregierung.de gov.uk ons.gov.uk bankofengland.co.uk
-federalreserve.gov afp.com reuters.com apnews.com lemonde.fr lesechos.fr lefigaro.fr liberation.fr la-croix.com
+SOURCES = """afp.com reuters.com apnews.com lemonde.fr lesechos.fr lefigaro.fr liberation.fr la-croix.com
 ouest-france.fr francetvinfo.fr radiofrance.fr franceculture.fr france24.com rfi.fr latribune.fr challenges.fr
 alternatives-economiques.fr lexpress.fr lepoint.fr nouvelobs.com courrierinternational.com mediapart.fr
-publicsenat.fr vie-publique.fr bbc.com bbc.co.uk theguardian.com ft.com economist.com telegraph.co.uk thetimes.com
+publicsenat.fr bbc.com bbc.co.uk theguardian.com ft.com economist.com telegraph.co.uk thetimes.com
 independent.co.uk nytimes.com washingtonpost.com wsj.com bloomberg.com politico.com politico.eu npr.org cnn.com
 axios.com theatlantic.com elpais.com elmundo.es abc.es lavanguardia.com eldiario.es elconfidencial.com rtve.es
 europapress.es efe.com expansion.com clarin.com lanacion.com.ar eluniversal.com.mx eltiempo.com latercera.com
@@ -80,7 +78,7 @@ for c in cards:
     if not str(c.get("url", "")).startswith("http"):
         errors.append(f"{cid} : url invalide")
     elif not allowed(c["url"], SOURCES):
-        errors.append(f"{cid} : source non autorisée ({host(c['url'])}) — prends un média de la liste de CONSIGNES.md")
+        errors.append(f"{cid} : source non autorisée ({host(c['url'])}) — il faut un article de journal de la liste de CONSIGNES.md")
     img = c.get("image")
     if not img:
         warnings.append(f"{cid} : pas de photo")

@@ -4,8 +4,8 @@
   {
    "id": "2026-10-31-esh-1",
    "matiere": "esh",
-   "source": "Insee",
-   "url": "https://www.insee.fr/fr/statistiques/8664157",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/10/30/recul-surprise-du-pib-au-troisieme-trimestre-l-economie-francaise-flirte-avec-la-recession_6802918_3234.html",
    "minutes": 3,
    "titre": "Le PIB français recule de 0,1 % au troisième trimestre, l'inflation remonte à 3,4 %",
    "faits": "Selon la première estimation de l'Insee publiée le 30 octobre, le PIB de la France a reculé de 0,1 % au troisième trimestre 2026, après une stagnation au deuxième (0,0 %) et une baisse de 0,2 % au premier. La cause principale est la chute des exportations (−1,7 %), qui retirent 0,6 point à la croissance. La consommation des ménages accélère légèrement (+0,4 %), mais l'investissement recule pour le troisième trimestre d'affilée (−0,6 %). L'acquis de croissance pour 2026 n'est plus que de 0,2 %. Le même jour, l'Insee estime que l'inflation a rebondi à 3,4 % sur un an en octobre, après 3,1 % en septembre, tirée par l'envolée des prix de l'énergie (+24,1 %).",
@@ -44,8 +44,8 @@
   {
    "id": "2026-10-31-esh-2",
    "matiere": "esh",
-   "source": "BCE",
-   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~cb175b9f4b.en.html",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/oct/29/europes-central-bank-chief-christine-lagarde-steps-down-for-freedom-of-speech",
    "minutes": 3,
    "titre": "La BCE maintient ses taux à 2,5 % et Christine Lagarde annonce son départ en février",
    "faits": "À l'issue de sa réunion du 29 octobre, la Banque centrale européenne a maintenu son taux de dépôt à 2,50 %, après deux hausses depuis l'été. Le Conseil des gouverneurs souligne que la hausse des prix de l'énergie fait peser un risque de rebond sur l'inflation et un risque de baisse sur la croissance. Comme l'inflation sous-jacente reste stable et que le crédit s'est déjà durci, la BCE préfère attendre et décider réunion par réunion. Le même jour, Christine Lagarde a annoncé qu'elle quitterait la présidence le 7 février 2027, près de neuf mois avant la fin de son mandat de huit ans. Son successeur devra être désigné par le Conseil européen.",
@@ -84,8 +84,8 @@
   {
    "id": "2026-10-31-esh-3",
    "matiere": "esh",
-   "source": "Ministère de l'Économie",
-   "url": "https://www.economie.gouv.fr/files/files/2026/CP-Notation-Fitch-30102026.pdf",
+   "source": "Financial Times",
+   "url": "https://www.ft.com/content/afce0244-f465-4a85-9b2a-38a2c26df7c5",
    "minutes": 3,
    "titre": "Fitch place la note de la France sous perspective négative en plein débat budgétaire",
    "faits": "Le 30 octobre, l'agence de notation Fitch a maintenu la note souveraine de la France à A+, mais a abaissé sa perspective de « stable » à « négative », une semaine après une décision similaire de Moody's. L'agence invoque le recul du PIB au troisième trimestre, un déficit plus élevé que prévu, la cherté des emprunts publics et une dette qui passerait d'environ 116 % du PIB à près de 124 % en 2028. Elle pointe aussi la fragmentation politique et les tensions sociales autour du budget 2027, contre lequel l'intersyndicale (CFDT, CGT, FO, Unsa, FSU) appelle à la grève le 5 novembre. Dans un communiqué, le ministre de l'Économie Roland Lescure juge « indispensable » de voter un budget ramenant le déficit à 5 %.",
@@ -226,7 +226,7 @@
   {
    "id": "2026-10-31-anglais-3",
    "matiere": "anglais",
-   "source": "CNN / Marist Poll",
+   "source": "CNN",
    "url": "https://www.cnn.com/2026/10/27/politics/midterms-trump-democrats-analysis/index.html",
    "minutes": 3,
    "titre": "Midterms américaines : les démocrates en tête des sondages et un vote anticipé massif",
@@ -277,7 +277,7 @@
   {
    "id": "2026-10-31-espagnol-1",
    "matiere": "espagnol",
-   "source": "INE / RTVE",
+   "source": "RTVE",
    "url": "https://www.rtve.es/noticias/20261030/pib-espana-crecio-06-tercer-trimestre-2026-situa-27-interanual/16298504.shtml",
    "minutes": 3,
    "titre": "L'Espagne affiche 0,6 % de croissance au troisième trimestre mais son chômage repasse au-dessus de 10 %",
@@ -379,8 +379,8 @@
   {
    "id": "2026-10-31-espagnol-3",
    "matiere": "espagnol",
-   "source": "El País / EFE",
-   "url": "https://elpais.com/internacional/2023-07-19/una-alcatraz-hondurena-xiomara-castro-pretende-construir-en-una-isla-una-prision-para-2000-pandilleros.html",
+   "source": "ABC",
+   "url": "https://www.abc.es/sociedad/video-honduras-apuesta-megacrcel-modelo-bukele-20261030182334-vid.html",
    "minutes": 3,
    "titre": "Le Honduras durcit son code pénal et adopte le « modèle Bukele » contre les gangs",
    "faits": "Fin octobre, le Congrès national du Honduras a adopté un ensemble de réformes pénales et pénitentiaires très dures, impulsées par le président Nasry Asfura contre les gangs MS-13 et Barrio 18. Les simples membres d'une « association terroriste » encourent désormais de 30 à 40 ans de prison sans liberté conditionnelle, et la prison à perpétuité est instaurée pour les chefs, les financiers et les auteurs de meurtres de policiers, de juges ou de procureurs. La réforme porte la garde à vue de 24 à 48 heures, rend la détention provisoire obligatoire, autorise les perquisitions sans mandat judiciaire en cas d'urgence et permet d'utiliser les tatouages comme preuves devant les tribunaux. Les députés ont aussi approuvé le financement d'une méga-prison de haute sécurité inspirée du CECOT salvadorien. Le Haut-Commissariat de l'ONU aux droits de l'homme met en garde contre le risque de détentions arbitraires.",
@@ -430,8 +430,8 @@
   {
    "id": "2026-10-31-allemand-1",
    "matiere": "allemand",
-   "source": "Destatis",
-   "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/bip-in-deutschland-wirtschaftsleistung-legt-im-dritten-quartal-leicht-zu-a-fd34e9f5-40ab-41c2-bc12-2c34fb488c3f",
    "minutes": 3,
    "titre": "L'économie allemande croît de 0,2 % au troisième trimestre et l'inflation recule à 2,8 %",
    "faits": "Selon la première estimation publiée par l'office fédéral de la statistique (Destatis) le 30 octobre, le PIB de l'Allemagne a augmenté de 0,2 % au troisième trimestre 2026 par rapport au trimestre précédent, et de 1,3 % sur un an. Ce résultat dépasse légèrement les attentes des économistes et de la Bundesbank, qui tablaient sur une stagnation après +0,4 % au premier trimestre et +0,3 % au deuxième. La croissance a été soutenue par la consommation publique et privée, tandis que l'investissement en équipements et en construction a de nouveau reculé et que les exportations ont ralenti. Le même jour, Destatis a annoncé un net repli de l'inflation à 2,8 % sur un an en octobre, contre 3,3 % en septembre. Ce recul s'explique par le retour temporaire du « Tankrabatt », une baisse des taxes sur les carburants entrée en vigueur le 1er octobre jusqu'à la fin de l'année.",
@@ -481,8 +481,8 @@
   {
    "id": "2026-10-31-allemand-2",
    "matiere": "allemand",
-   "source": "Die Zeit / Bundesagentur für Arbeit",
-   "url": "https://www.zeit.de/wirtschaft/2026-10/arbeitslosenzahlen-deutschland-oktober-2024-arbeitslosenquote-bundesagentur-fuer-arbeit-gxe",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/arbeitsmarkt-zahl-der-arbeitslosen-sinkt-im-oktober-auf-2-95-millionen-a-20059b5d-9ee2-4ff8-9ca4-9ab44cbf8a3b",
    "minutes": 3,
    "titre": "Marché du travail allemand : 2,955 millions de chômeurs et une reprise d'automne très faible",
    "faits": "Selon les chiffres publiés le 30 octobre à Nuremberg par l'Agence fédérale pour l'emploi (BA), l'Allemagne comptait 2,955 millions de chômeurs en octobre, soit un taux de chômage de 6,3 %. Le nombre de demandeurs d'emploi baisse de 40 000 sur un mois grâce aux embauches saisonnières, mais augmente de 4 000 en données corrigées des variations saisonnières et de 44 000 sur un an. La présidente de l'Agence, Andrea Nahles, juge que la reprise habituelle d'automne (Herbstbelebung) reste « comparativement faible » et que les conditions économiques ne suffisent toujours pas à redresser le marché du travail. Les entreprises restent prudentes : 654 000 postes vacants sont déclarés auprès des agences, pendant que de nombreuses places d'apprentissage restent non pourvues faute de correspondance entre les candidats et les besoins.",
