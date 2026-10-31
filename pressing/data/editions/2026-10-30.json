@@ -1,0 +1,584 @@
+{
+ "date": "2026-10-30",
+ "cards": [
+  {
+   "id": "2026-10-30-esh-1",
+   "matiere": "esh",
+   "source": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/web/main/news/euro-indicators",
+   "minutes": 3,
+   "titre": "Croissance au troisième trimestre : la zone euro accélère à 0,4 %, mais la France décroche",
+   "faits": "Selon l'estimation rapide publiée par Eurostat le 30 octobre, le PIB de la zone euro a augmenté de 0,4 % au troisième trimestre 2026 (et de 0,5 % dans l'Union européenne), deux fois plus que le consensus des économistes (+0,2 %). Sur un an, la croissance atteint 1,3 % dans la zone euro. Les écarts entre États membres sont toutefois spectaculaires : l'Irlande bondit de 5,5 %, l'Espagne et les Pays-Bas progressent de 0,6 % et l'Allemagne retrouve une légère hausse (+0,2 %), tandis que l'Italie stagne (0,0 %). La France (−0,1 %) et la Lituanie (−1,0 %) sont les deux seuls pays publiés à enregistrer un recul de leur activité sur le trimestre.",
+   "enjeux": "Ces chiffres révèlent une forte **hétérogénéité conjoncturelle** au sein de l'Union économique et monétaire. Depuis la crise sanitaire, les pays du Sud comme l'Espagne tirent la croissance grâce au tourisme, aux services et aux fonds européens **Next Generation**, alors que le cœur industriel franco-allemand tourne au ralenti. Le bond irlandais illustre pour sa part le poids du **dumping fiscal**, qui attire les sièges et les brevets des multinationales américaines et gonfle artificiellement le PIB. Cette divergence complique la tâche de la Banque centrale européenne : un taux d'intérêt unique s'applique à des économies qui n'en sont pas au même point du cycle, ce qui pose la question d'une **zone monétaire optimale**.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg/1280px-European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+    "alt": "L'hémicycle du Parlement européen à Strasbourg",
+    "credit": "Colin Smith (Diliff) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg"
+   },
+   "programme": {
+    "module": "3 - La mondialisation économique et financière",
+    "chapitre": "3.3 - L'intégration européenne"
+   },
+   "auteurs": [
+    {
+     "nom": "Robert Mundell",
+     "ouvrage": "« A Theory of Optimum Currency Areas »",
+     "annee": "1961",
+     "ref": null,
+     "texte": "Mundell définit une **zone monétaire optimale** : des pays qui partagent une même monnaie renoncent au taux de change et à leur politique monétaire nationale. En cas de **choc asymétrique** ou de divergence de croissance, comme aujourd'hui entre l'Espagne et la France, l'ajustement exige une forte mobilité du travail ou des transferts budgétaires fédéraux, qui restent limités dans la zone euro. À mobiliser dans tout sujet sur les forces et faiblesses de l'euro."
+    },
+    {
+     "nom": "Paul Krugman",
+     "ouvrage": "Geography and Trade",
+     "annee": "1991",
+     "ref": null,
+     "texte": "Fondateur de la **nouvelle économie géographique**, Krugman montre que l'intégration commerciale favorise l'**agglomération** des activités par **économies d'échelle** : chaque région se spécialise davantage. Au lieu de faire converger les économies européennes, le marché unique peut donc accentuer leurs écarts sectoriels (industrie en Allemagne, tourisme au Sud, numérique et pharmacie en Irlande). À mobiliser pour nuancer l'idée que l'intégration européenne réduit mécaniquement les écarts entre pays."
+    }
+   ],
+   "sujets": [
+    "La zone euro est-elle une zone monétaire optimale ?",
+    "L'intégration européenne favorise-t-elle la convergence des économies ?"
+   ]
+  },
+  {
+   "id": "2026-10-30-esh-2",
+   "matiere": "esh",
+   "source": "Vie publique",
+   "url": "https://www.vie-publique.fr/discours/301298-roland-lescure-david-amiel-07102026-projet-de-loi-de-finances-pour-2027",
+   "minutes": 3,
+   "titre": "Budget 2027 : l'Assemblée nationale supprime la surtaxe sur les bénéfices des grandes entreprises",
+   "faits": "Lors de l'examen de la partie « recettes » du projet de loi de finances pour 2027, l'Assemblée nationale a voté, par 79 voix contre 77 et contre l'avis du gouvernement, la suppression de l'article 15 qui prolongeait la contribution exceptionnelle sur les bénéfices des grandes entreprises. Cette surtaxe visait les groupes réalisant plus de 1,5 milliard d'euros de chiffre d'affaires et devait rapporter environ 5 milliards d'euros à l'État. Les amendements de suppression, déposés par la droite, le Rassemblement national, Horizons et des députés macronistes, dénonçaient un impôt reconduit une troisième année bien qu'annoncé comme temporaire. Le gouvernement de Sébastien Lecornu pourrait toutefois rétablir la mesure lors du vote solennel ou en engageant sa responsabilité via l'article 49.3.",
+   "enjeux": "Ce vote cristallise le dilemme de toute consolidation budgétaire : faut-il réduire le déficit en coupant les dépenses publiques ou en augmentant les **prélèvements obligatoires** ? Pour le gouvernement, taxer les bénéfices des très grands groupes permet de répartir l'effort et de rendre les 54 milliards d'économies socialement acceptables. Pour la majorité des députés qui l'ont rejetée, alourdir l'**impôt sur les sociétés** dégrade la **compétitivité** du site France, freine l'investissement déjà en recul et alimente l'instabilité fiscale. Cet épisode illustre aussi le coût économique de la fragmentation parlementaire : l'imprévisibilité de l'impôt entretient l'attentisme des entreprises.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Assemblee_Nationale_fa%C3%A7ade.jpg/1280px-Assemblee_Nationale_fa%C3%A7ade.jpg",
+    "alt": "La façade du palais Bourbon, siège de l'Assemblée nationale à Paris",
+    "credit": "Funky Tee / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Assemblee_Nationale_fa%C3%A7ade.jpg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - L'intervention économique des pouvoirs publics"
+   },
+   "auteurs": [
+    {
+     "nom": "Arthur Laffer",
+     "ouvrage": "The Wanniski-Laffer Curve",
+     "annee": "1974",
+     "ref": null,
+     "texte": "Selon la **courbe de Laffer**, résumée par la formule « trop d'impôt tue l'impôt », au-delà d'un certain seuil de pression fiscale, les recettes publiques diminuent car les agents réduisent leur activité, investissent moins ou délocalisent. C'est l'argument des économistes de l'**offre** et des députés qui ont supprimé la surtaxe dans un pays où les prélèvements obligatoires figurent déjà parmi les plus élevés de l'OCDE. À mobiliser dans un sujet sur la fiscalité ou la compétitivité."
+    },
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "The Theory of Public Finance",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "texte": "Musgrave distingue les trois fonctions de l'État : **allocation**, **redistribution** et **stabilisation**. Une surtaxe ciblée sur les très grandes entreprises relève de la redistribution et du financement des biens collectifs sans amputer directement la consommation des ménages modestes, dont la propension marginale à consommer est forte. À mobiliser pour justifier la progressivité de l'impôt et montrer que le choix entre hausse d'impôts et baisse des dépenses n'est jamais neutre."
+    }
+   ],
+   "sujets": [
+    "Faut-il réduire les déficits publics par la baisse des dépenses ou par la hausse des impôts ?",
+    "La fiscalité des entreprises nuit-elle à la compétitivité de la France ?"
+   ]
+  },
+  {
+   "id": "2026-10-30-esh-3",
+   "matiere": "esh",
+   "source": "Insee",
+   "url": "https://www.insee.fr/fr/statistiques/8664182",
+   "minutes": 3,
+   "titre": "Consommation en berne et recul de l'emploi privé : les ménages français épargnent par précaution",
+   "faits": "Outre le recul du PIB au troisième trimestre, les publications de l'Insee du 30 octobre confirment l'essoufflement de la demande intérieure et du marché du travail en France. Les dépenses de consommation des ménages en biens ont diminué de 0,5 % sur un mois en septembre, après une baisse déjà de 0,5 % en août, pénalisées par le repli des achats alimentaires et d'énergie. En parallèle, l'emploi salarié du secteur privé a reculé de 0,1 % au troisième trimestre, soit environ 25 800 destructions nettes de postes, et baisse de 0,3 % sur un an. Dans le même temps, le taux d'épargne des ménages français se maintient au-dessus de 17 % de leur revenu disponible, nettement au-dessus de la moyenne de la zone euro.",
+   "enjeux": "Ces indicateurs mettent en lumière le **paradoxe de l'épargne** en France : bien que les salaires aient en partie rattrapé l'inflation passée, les ménages n'augmentent pas leurs achats de biens et préfèrent mettre de l'argent de côté. Cette **épargne de précaution** s'explique par le rebond des prix de l'énergie, par le retournement du marché de l'emploi privé qui ravive la peur du chômage, et par la crainte de futures hausses d'impôts pour combler le déficit public. Or la consommation des ménages représente plus de la moitié du PIB français : tant que la confiance ne revient pas, ce comportement individuellement prudent prive les entreprises de débouchés et bloque la reprise.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Airbus_Factory_Toulouse.jpg/1280px-Airbus_Factory_Toulouse.jpg",
+    "alt": "Chaîne d'assemblage industriel d'Airbus à Toulouse",
+    "credit": "José Goulão / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Airbus_Factory_Toulouse.jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.2 - Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "John Maynard Keynes",
+     "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+     "annee": "1936",
+     "ref": null,
+     "texte": "Pour Keynes, la consommation dépend du revenu courant selon une **loi psychologique fondamentale**, et l'épargne n'est qu'un résidu. Mais il met en évidence le **paradoxe de la frugalité** : si tous les ménages épargnent davantage par crainte de l'avenir, la **demande effective** chute, les entreprises réduisent l'emploi — comme les 25 800 postes perdus ce trimestre — et le revenu national baisse. À mobiliser pour expliquer comment un excès d'épargne freine la croissance."
+    },
+    {
+     "nom": "Robert Barro",
+     "ouvrage": "« Are Government Bonds Net Wealth? »",
+     "annee": "1974",
+     "ref": "equivalence-ricardienne",
+     "texte": "Selon le théorème de l'**équivalence ricardienne**, face à un déficit et à une dette publique élevés, les ménages anticipent rationnellement que l'État devra augmenter les impôts demain. Ils augmentent donc leur épargne dès aujourd'hui au lieu de consommer. À mobiliser pour expliquer pourquoi le taux d'épargne français dépasse 17 % en plein débat sur le budget 2027."
+    }
+   ],
+   "sujets": [
+    "L'épargne est-elle toujours favorable à la croissance économique ?",
+    "La consommation des ménages reste-t-elle le moteur principal de la croissance française ?"
+   ]
+  },
+  {
+   "id": "2026-10-30-anglais-1",
+   "matiere": "anglais",
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+   "minutes": 3,
+   "titre": "La Fed maintient ses taux entre 3,75 % et 4 %, mais deux gouverneures votent pour une hausse",
+   "faits": "À l'issue de sa réunion du 28 octobre, la Réserve fédérale américaine (Fed) a décidé de maintenir son principal taux directeur dans la fourchette de 3,75 % à 4,00 %. Dans son communiqué, le comité de politique monétaire (FOMC) souligne que l'activité économique progresse à un rythme soutenu, que les dépenses intérieures restent solides et que les créations d'emplois suivent la croissance de la population active, mais que l'inflation demeure élevée. Fait rare, la décision a été prise par dix voix contre deux : la gouverneure Lisa Cook et la présidente de la Fed de Cleveland, Beth Hammack, ont voté contre le statu quo et réclamé une hausse immédiate de 0,25 point. À quelques jours des élections de mi-mandat du 3 novembre, les marchés y voient une « pause restrictive ».",
+   "enjeux": "Cette division au sein du FOMC illustre la position délicate de la banque centrale américaine face au second choc énergétique provoqué par le conflit avec l'Iran. Contrairement à la BCE qui ne vise que la stabilité des prix, la Fed obéit à un **double mandat** fixé par le Congrès : le plein emploi et une inflation autour de 2 %. Comme la croissance et l'emploi américains résistent beaucoup mieux qu'en Europe, l'aile des « faucons » (**hawks**) craint que la vigueur de la demande n'entretienne la hausse des prix. En refusant de baisser ses taux juste avant les **midterms**, la Fed réaffirme aussi son **indépendance politique** face à la Maison-Blanche, tout en maintenant un dollar fort qui renchérit les importations du reste du monde.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Eccles_Building_%2826088200676%29.jpg/1280px-Eccles_Building_%2826088200676%29.jpg",
+    "alt": "Le bâtiment Marriner S. Eccles, siège de la Réserve fédérale à Washington",
+    "credit": "Britt Leckman / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg"
+   },
+   "vo": {
+    "titre": "The Fed holds rates at 3.75%–4%, as two officials dissent in favour of a hike",
+    "faits": "At the close of its 28 October meeting, the US Federal Reserve kept its benchmark federal funds rate in the 3.75% to 4.00% target range. In its statement, the Federal Open Market Committee (FOMC) noted that economic activity is expanding at a solid pace, domestic spending remains resilient and job gains are keeping up with the growing workforce, while inflation remains elevated. Unusually, the vote was split 10–2: Governor Lisa Cook and Cleveland Fed President Beth Hammack dissented, calling for an immediate 25-basis-point rate hike. Just days before the 3 November midterm elections, financial markets read the decision as a \"hawkish pause\".",
+    "enjeux": "The split on the FOMC highlights the tightrope the US central bank is walking amid the energy shock triggered by the conflict with Iran. Unlike the ECB, whose sole primary objective is price stability, the Fed operates under a congressional dual mandate: maximum employment and 2% inflation. Because US growth and hiring have proved far more resilient than Europe's, monetary hawks worry that strong domestic demand could keep inflation entrenched. By refusing to cut borrowing costs right before the midterms, the Fed is also asserting its political independence from the White House, while keeping the dollar strong and exporting tighter financial conditions worldwide."
+   },
+   "vocab": [
+    [
+     "the federal funds rate",
+     "le principal taux directeur de la Fed"
+    ],
+    [
+     "a hawkish pause",
+     "une pause restrictive (prête à remonter les taux)"
+    ],
+    [
+     "to dissent",
+     "exprimer un vote dissident"
+    ],
+    [
+     "a basis point",
+     "un point de base (0,01 point de pourcentage)"
+    ],
+    [
+     "the dual mandate",
+     "le double mandat (plein emploi et stabilité des prix)"
+    ],
+    [
+     "borrowing costs",
+     "les coûts d'emprunt"
+    ]
+   ],
+   "sujets": [
+    "Can the Federal Reserve remain truly independent from American electoral politics?",
+    "Why has the US economy weathered recent global shocks better than Europe?"
+   ]
+  },
+  {
+   "id": "2026-10-30-anglais-2",
+   "matiere": "anglais",
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/economy-growth-third-quarter-gdp-consumer-spending-ai-76846e1e1b9fe7e952fd8d93e0ff0b08",
+   "minutes": 3,
+   "titre": "États-Unis : la croissance bondit à 3,4 % au troisième trimestre grâce à la consommation et à l'IA",
+   "faits": "Selon la première estimation publiée le 29 octobre par le département du Commerce (BEA), le PIB américain a progressé au rythme annualisé de 3,4 % au troisième trimestre 2026, après 2,2 % au deuxième trimestre. Ce chiffre vigoureux s'explique par deux moteurs : les dépenses de consommation des ménages, en hausse de 3,8 % en rythme annualisé, et la forte accélération de l'investissement privé dans les équipements technologiques et les centres de données liés à l'intelligence artificielle. Cette publication intervient à cinq jours des élections de mi-mandat du 3 novembre. Malgré cette vigueur macroéconomique, les sondages montrent que la majorité des électeurs américains restent mécontents du coût de la vie, du prix de l'essence et des taux d'intérêt immobiliers.",
+   "enjeux": "Ce chiffre confirme le **décrochage économique** entre les États-Unis et l'Europe : alors que la France recule et que l'Allemagne croît à peine, l'économie américaine profite de son autonomie énergétique, de la profondeur de ses marchés de capitaux et de sa domination dans l'**intelligence artificielle**. Les investissements géants des géants de la Tech agissent comme un véritable plan de relance privé. Sur le plan politique, ce bilan illustre pourtant le phénomène de **vibecession** déjà observé en 2024 : un décalage profond entre d'excellents indicateurs globaux (PIB, chômage) et le ressenti quotidien des classes moyennes, dont le pouvoir d'achat reste comprimé par plusieurs années d'inflation cumulée et de crédit cher.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wall_Street_-_New_York_Stock_Exchange.jpg/1280px-Wall_Street_-_New_York_Stock_Exchange.jpg",
+    "alt": "La façade de la Bourse de New York à Wall Street",
+    "credit": "Carlos Delgado / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg"
+   },
+   "vo": {
+    "titre": "US economy surges at a 3.4% annual rate in the third quarter, driven by consumers and AI",
+    "faits": "According to the advance estimate released by the Commerce Department (BEA) on 29 October, US gross domestic product grew at an annualised rate of 3.4% in the third quarter of 2026, up from 2.2% in the second quarter. The unexpectedly strong reading was powered by two engines: resilient consumer spending, which rose at a 3.8% annualised pace, and a surge in private business investment in high-tech equipment and artificial intelligence data centres. The figures landed just five days before the 3 November midterm elections. Yet despite the headline boom, opinion polls show most American voters remain dissatisfied with the cost of living, petrol prices and high mortgage rates.",
+    "enjeux": "The report underscores the widening economic divergence between the United States and Europe: while France shrinks and Germany barely grows, the US economy benefits from energy independence, deep capital markets and global leadership in artificial intelligence. Massive capital expenditure by Big Tech is acting as a de facto private stimulus package. Politically, however, the numbers point to the same \"vibecession\" paradox seen in 2024: a sharp disconnect between buoyant macroeconomic indicators and the everyday experience of middle-class households squeezed by years of cumulative inflation and expensive credit."
+   },
+   "vocab": [
+    [
+     "an annualised rate",
+     "un rythme annualisé"
+    ],
+    [
+     "consumer spending",
+     "les dépenses de consommation des ménages"
+    ],
+    [
+     "capital expenditure (capex)",
+     "les dépenses d'investissement"
+    ],
+    [
+     "mortgage rates",
+     "les taux des crédits immobiliers"
+    ],
+    [
+     "the cost-of-living squeeze",
+     "la compression du pouvoir d'achat"
+    ],
+    [
+     "economic divergence",
+     "le décrochage / la divergence économique"
+    ]
+   ],
+   "sujets": [
+    "Why do strong macroeconomic figures often fail to convince voters at the ballot box?",
+    "Is artificial intelligence widening the economic gap between the United States and Europe?"
+   ]
+  },
+  {
+   "id": "2026-10-30-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/2026/oct/29/the-breathing-space-budget-breathing-space-for-the-government-that-is",
+   "minutes": 3,
+   "titre": "Budget britannique : l'OBR prévoit un recul du niveau de vie en 2027 malgré les aides au logement",
+   "faits": "Au lendemain de la présentation du budget d'automne par le chancelier John Healey, les analyses publiées les 29 et 30 octobre par l'Office for Budget Responsibility (OBR) et les instituts économiques (IFS, Resolution Foundation) ont refroidi l'optimisme du gouvernement d'Andy Burnham. L'OBR a abaissé ses prévisions et avertit que le revenu disponible réel des ménages britanniques par habitant devrait stagner, puis reculer de 0,6 % en 2027 sous l'effet de l'inflation énergétique et du gel des barèmes fiscaux. Le budget débloque néanmoins 1,5 milliard de livres supplémentaires pour construire environ 10 000 logements sociaux en Angleterre et double les crédits contre le sans-abrisme. Les associations Shelter et Crisis saluent cette avancée mais déplorent le gel des allocations logement face à l'envolée des loyers privés.",
+   "enjeux": "Cette radiographie post-budget met en lumière le phénomène de **fiscal drag** : même sans relever les taux d'imposition affichés, le gel des seuils de l'impôt sur le revenu fait basculer des millions de salariés dans des tranches supérieures à mesure que leurs salaires nominaux suivent l'inflation. La crise du **logement social** reste par ailleurs l'un des problèmes structurels les plus lourds du Royaume-Uni depuis la politique du **Right to Buy** lancée par Margaret Thatcher en 1980, qui a réduit le parc municipal sans le remplacer. En concentrant ses maigres marges sur les HLM (**council housing**) et les maires des grandes métropoles, Andy Burnham tente de réorienter l'investissement public, mais sans pouvoir empêcher une nouvelle baisse du pouvoir d'achat en 2027.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Terraced_houses_in_Hulme_%281555535629%29.jpg/1280px-Terraced_houses_in_Hulme_%281555535629%29.jpg",
+    "alt": "Maisons mitoyennes dans le quartier de Hulme à Manchester",
+    "credit": "Mikey / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Terraced_houses_in_Hulme_(1555535629).jpg"
+   },
+   "vo": {
+    "titre": "UK Budget: OBR forecasts a dip in living standards in 2027 despite new social housing funds",
+    "faits": "In the wake of Chancellor John Healey's Autumn Budget, assessments published on 29 and 30 October by the Office for Budget Responsibility (OBR) and leading think tanks – the IFS and the Resolution Foundation – tempered the mood inside Andy Burnham's government. The OBR downgraded its outlook, warning that real household disposable income per person is set to stall and then fall by 0.6% in 2027, hit by energy inflation and frozen tax thresholds. The Budget did, however, allocate an extra £1.5bn to build around 10,000 social rent homes in England and doubled funding to tackle rough sleeping. Housing charities Shelter and Crisis welcomed the boost, but warned that keeping housing benefit frozen while private rents soar will leave thousands at risk of homelessness.",
+    "enjeux": "This post-Budget scrutiny highlights the power of \"fiscal drag\": even without raising headline tax rates, freezing income tax thresholds pulls millions of workers into higher tax brackets as nominal wages rise with inflation. Meanwhile, the shortage of affordable homes remains one of Britain's deepest structural flaws ever since Margaret Thatcher's 1980 Right to Buy scheme depleted local council stock without replacing it. By channelling his limited fiscal headroom into council housing and metro mayors, Andy Burnham is trying to rebuild public infrastructure, yet he cannot prevent another squeeze on British living standards in 2027."
+   },
+   "vocab": [
+    [
+     "real disposable income",
+     "le revenu disponible réel (corrigé de l'inflation)"
+    ],
+    [
+     "living standards",
+     "le niveau de vie"
+    ],
+    [
+     "fiscal drag / frozen tax thresholds",
+     "l'alourdissement fiscal par le gel des barèmes"
+    ],
+    [
+     "social rent / council housing",
+     "le logement social / municipal"
+    ],
+    [
+     "rough sleeping",
+     "le sans-abrisme (dormir à la rue)"
+    ],
+    [
+     "housing benefit",
+     "les allocations logement"
+    ]
+   ],
+   "sujets": [
+    "Why has successive British governments' promise to fix the housing crisis repeatedly failed?",
+    "Can public services in the UK be rebuilt without raising headline income taxes?"
+   ]
+  },
+  {
+   "id": "2026-10-30-espagnol-1",
+   "matiere": "espagnol",
+   "source": "INE",
+   "url": "https://www.ine.es/prensa/ipr_tabla_prensa.htm",
+   "minutes": 3,
+   "titre": "Espagne : l'inflation se maintient à 4,9 % en octobre, tirée par le gaz et le tourisme",
+   "faits": "Selon l'indicateur avancé de l'indice des prix à la consommation (IPC) publié par l'INE le 30 octobre, l'inflation en Espagne s'est maintenue à 4,9 % sur un an en octobre 2026, exactement au même niveau qu'en septembre, et en hausse de 0,6 % sur un mois. C'est le troisième mois consécutif que la hausse des prix dépasse les 4 %. L'inflation sous-jacente (hors énergie et produits alimentaires frais) reste elle aussi inchangée à 3,1 %. Si les prix des carburants à la pompe ont légèrement reculé par rapport à octobre 2025, cette baisse a été effacée par le renchérissement du gaz, des combustibles liquides et des forfaits touristiques. Ce chiffre place l'inflation espagnole nettement au-dessus de celle de la France (3,4 %) et de l'Allemagne (2,8 %).",
+   "enjeux": "Cette inflation persistante proche de 5 % constitue le point noir du bilan économique de Pedro Sánchez à quatre semaines des élections générales du 29 novembre. Alors que le gouvernement met en avant la forte croissance du PIB (+0,6 % au troisième trimestre) et le record d'emploi, l'opposition de droite (PP et Vox) concentre ses attaques sur la perte de **pouvoir d'achat** des familles face au coût du panier de courses, de l'énergie et des loyers. La hausse des prix des forfaits touristiques montre aussi le revers de la médaille du boom du **tourisme** : moteur de la croissance espagnole, il tire vers le haut les prix des services et de l'hébergement pour les résidents locaux.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gasolinera_en_Ceutaa_1.jpg/1280px-Gasolinera_en_Ceutaa_1.jpg",
+    "alt": "Une station-service en Espagne, symbole du poids de l'énergie dans l'inflation",
+    "credit": "Xemenendura / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gasolinera_en_Ceutaa_1.jpg"
+   },
+   "vo": {
+    "titre": "España: la inflación se mantiene en el 4,9 % en octubre, impulsada por el gas y el turismo",
+    "faits": "Según el indicador adelantado del Índice de Precios de Consumo (IPC) publicado por el INE el 30 de octubre, la inflación interanual en España se mantuvo en el 4,9 % en octubre de 2026, exactamente el mismo nivel que en septiembre, con un repunte mensual del 0,6 %. Es el tercer mes consecutivo en que la subida de precios supera la barrera del 4 %. La inflación subyacente, que excluye la energía y los alimentos no elaborados, permanece igualmente sin cambios en el 3,1 %. Aunque los carburantes se abarataron ligeramente respecto a octubre de 2025, ese alivio quedó anulado por el encarecimiento del gas, de los combustibles líquidos y de los paquetes turísticos. El dato sitúa la inflación española muy por encima de la de Francia (3,4 %) y Alemania (2,8 %).",
+    "enjeux": "Esta inflación persistente cercana al 5 % es el principal punto débil del balance económico de Pedro Sánchez a cuatro semanas de las elecciones generales del 29 de noviembre. Mientras el Gobierno presume del fuerte crecimiento del PIB (+0,6 % en el tercer trimestre) y del récord de ocupación, la oposición de derechas (PP y Vox) centra sus críticas en la pérdida de poder adquisitivo de los hogares ante la cesta de la compra, las facturas energéticas y los alquileres. El encarecimiento de los paquetes turísticos muestra además la otra cara del auge del turismo: motor del crecimiento español, también presiona al alza los precios de los servicios y del alojamiento para los propios residentes."
+   },
+   "vocab": [
+    [
+     "el Índice de Precios de Consumo (IPC)",
+     "l'indice des prix à la consommation"
+    ],
+    [
+     "la inflación subyacente",
+     "l'inflation sous-jacente"
+    ],
+    [
+     "la cesta de la compra",
+     "le panier de la ménagère / les courses alimentaires"
+    ],
+    [
+     "el encarecimiento",
+     "le renchérissement / la hausse des prix"
+    ],
+    [
+     "abaratarse",
+     "baisser de prix / devenir moins cher"
+    ],
+    [
+     "el poder adquisitivo",
+     "le pouvoir d'achat"
+    ]
+   ],
+   "sujets": [
+    "¿Por qué el buen crecimiento macroeconómico de España no siempre se traduce en bienestar para los hogares?",
+    "El turismo masivo en España: ¿motor económico o fuente de desigualdades?"
+   ]
+  },
+  {
+   "id": "2026-10-30-espagnol-2",
+   "matiere": "espagnol",
+   "source": "RTVE / Europa Press",
+   "url": "https://www.rtve.es/noticias/20261027/gobierno-aprueba-201-millones-para-construir-2500-viviendas-alquiler-asequible/16295100.shtml",
+   "minutes": 3,
+   "titre": "Crise du logement en Espagne : 201 millions d'euros pour construire 2 500 loyers plafonnés avec « Casa 47 »",
+   "faits": "Pour répondre à l'urgence immobilière qui a provoqué la chute de la législature et la convocation des élections du 29 novembre, le gouvernement espagnol a adopté un décret débloquant 201 millions d'euros de subventions directes pour bâtir 2 500 logements à loyer abordable. Ces immeubles seront construits par des promoteurs privés sur des terrains publics déjà viabilisés, apportés par la nouvelle entité étatique de logement baptisée « Casa 47 », dans des provinces sous forte tension comme Malaga, Séville, Valence ou la Cantabrie. L'État conservera la propriété des sols avec des baux allant jusqu'à 75 ans, et Casa 47 fixera les prix afin que le loyer ne dépasse jamais 30 % des revenus du foyer. Le gouvernement déploie en parallèle des aides allant jusqu'à 12 000 euros pour les propriétaires qui rénovent un bien et le mettent en location protégée.",
+   "enjeux": "Le nom **Casa 47** renvoie directement à l'**article 47 de la Constitution espagnole de 1978**, qui garantit le droit de tous les Espagnols à un logement digne et commande aux pouvoirs publics d'empêcher la spéculation. Pourtant, l'Espagne possède l'un des parcs de logement social les plus faibles d'Europe (moins de 3 % des résidences principales, contre environ 17 % en France), car la politique immobilière a longtemps privilégié l'accession à la propriété. Aujourd'hui, la flambée des loyers dans les grandes villes et les zones touristiques retarde l'**émancipation des jeunes**, qui quittent le foyer parental à plus de 30 ans en moyenne. Ce plan de partenariat public-privé tente de combler ce retard, mais ses effets ne se verront qu'à moyen terme, bien après le scrutin du 29 novembre.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Madrid-Sanchinarro-view.jpg/1280px-Madrid-Sanchinarro-view.jpg",
+    "alt": "Immeubles résidentiels dans le quartier de Sanchinarro à Madrid",
+    "credit": "Håkan Svensson (Xauxa) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Madrid-Sanchinarro-view.jpg"
+   },
+   "vo": {
+    "titre": "Crisis de la vivienda en España: 201 millones de euros para levantar 2.500 alquileres asequibles con «Casa 47»",
+    "faits": "Para responder a la emergencia habitacional que precipitó el fin de la legislatura y la convocatoria de las elecciones del 29 de noviembre, el Gobierno español aprobó un real decreto que destina 201 millones de euros en subvenciones directas a la construcción de 2.500 viviendas de alquiler asequible. Los edificios serán levantados por promotores privados sobre suelos públicos ya urbanizados cedidos por la nueva Entidad Estatal de Vivienda, bautizada como «Casa 47», en provincias tensionadas como Málaga, Sevilla, Valencia o Cantabria. El Estado mantendrá la titularidad pública de los inmuebles con concesiones de hasta 75 años, y Casa 47 fijará las condiciones para que el alquiler nunca supere el 30 % de los ingresos familiares. En paralelo, se activan ayudas de hasta 12.000 euros para propietarios que rehabiliten pisos y los incorporen al alquiler protegido.",
+    "enjeux": "El nombre de Casa 47 alude directamente al artículo 47 de la Constitución española de 1978, que reconoce el derecho a disfrutar de una vivienda digna y ordena a los poderes públicos impedir la especulación. Sin embargo, España cuenta con uno de los parques de vivienda social más reducidos de Europa (menos del 3 % del total, frente a cerca del 17 % en Francia), porque durante décadas se apostó casi en exclusiva por la compra en propiedad. Hoy, la escalada de los alquileres en las grandes ciudades y zonas turísticas retrasa la emancipación juvenil por encima de los 30 años de media. Esta fórmula de colaboración público-privada busca corregir ese déficit histórico, aunque sus resultados tardarán años en materializarse, mucho después de las urnas del 29-N."
+   },
+   "vocab": [
+    [
+     "la vivienda digna y asequible",
+     "le logement digne et abordable"
+    ],
+    [
+     "el parque de vivienda social",
+     "le parc de logement social"
+    ],
+    [
+     "la colaboración público-privada",
+     "le partenariat public-privé"
+    ],
+    [
+     "la titularidad pública",
+     "la propriété publique"
+    ],
+    [
+     "la emancipación juvenil",
+     "le départ des jeunes du foyer parental"
+    ],
+    [
+     "una zona tensionada",
+     "une zone tendue (où les loyers flambent)"
+    ]
+   ],
+   "sujets": [
+    "¿Por qué España no ha logrado construir un verdadero parque de vivienda pública desde la Transición?",
+    "Las dificultades de emancipación de los jóvenes en España: ¿un problema generacional y demográfico?"
+   ]
+  },
+  {
+   "id": "2026-10-30-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-10-20/los-nuevos-gobiernos-de-america-latina-centran-su-discurso-en-seguridad-mientras-relegan-el-desarrollo-economico.html",
+   "minutes": 3,
+   "titre": "Amérique latine : la croissance plafonne à 2 % en 2026 tandis que l'insécurité domine l'agenda politique",
+   "faits": "Dans son bilan de fin octobre, la Commission économique pour l'Amérique latine et les Caraïbes (CEPAL) a maintenu à un modeste 2,0 % sa prévision de croissance du PIB régional pour l'année 2026, avant un léger rebond attendu à 2,5 % en 2027. Derrière cette moyenne, le Brésil renforce son leadership pétrolier et gazier en Amérique du Sud grâce à Petrobras, tandis que l'Argentine poursuit son ajustement budgétaire rigoureux en misant sur le gisement de Vaca Muerta. Dans le même temps, le rapport semestriel de la Banque d'Espagne sur l'économie latino-américaine souligne un basculement majeur : dans toute la région, la lutte contre le crime organisé et la sécurité citoyenne ont relégué le développement économique au second plan des priorités gouvernementales, malgré des dettes publiques élevées et le coût élevé du financement international.",
+   "enjeux": "La décennie actuelle ressemble pour l'Amérique latine à un nouveau cycle de **croissance médiocre**, insuffisant pour réduire durablement la pauvreté et le secteur informel, qui emploie encore près de la moitié des travailleurs de la région. L'analyse de la Banque d'Espagne éclaire le lien étroit entre économie et sécurité : le narcotrafic, le racket et les homicides freinent l'investissement privé, font fuir les capitaux et absorbent une part croissante de budgets publics déjà contraints par les taux d'intérêt élevés de la Fed. Faute de marges fiscales pour financer l'éducation, les infrastructures ou la transition numérique — où seuls le Chili, le Brésil et l'Uruguay tirent leur épingle du jeu selon l'indice ILIA 2026 de la CEPAL —, nombre de dirigeants privilégient des réponses sécuritaires immédiates aux réformes structurelles.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Edificio_de_la_CEPAL_en_Chile_-_Reflejos_02.jpg/1280px-Edificio_de_la_CEPAL_en_Chile_-_Reflejos_02.jpg",
+    "alt": "Le siège de la CEPAL (Commission économique pour l'Amérique latine et les Caraïbes) à Santiago du Chili",
+    "credit": "Orly Winer / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Edificio_de_la_CEPAL_en_Chile_-_Reflejos_02.jpg"
+   },
+   "vo": {
+    "titre": "América Latina: el crecimiento se estanca en el 2 % en 2026 mientras la inseguridad copa la agenda política",
+    "faits": "En su balance de cierre de octubre, la Comisión Económica para América Latina y el Caribe (CEPAL) mantuvo en un modesto 2,0 % su previsión de crecimiento del PIB regional para 2026, con un ligero repunte estimado al 2,5 % en 2027. Detrás de esa media, Brasil afianza su liderazgo petrolero y gasístico en Sudamérica impulsado por Petrobras, mientras Argentina mantiene un duro ajuste fiscal apoyado en el yacimiento de Vaca Muerta. Al mismo tiempo, el informe semestral del Banco de España sobre la economía latinoamericana destaca un cambio de paradigma: en toda la región, la lucha contra el crimen organizado y la seguridad ciudadana han desplazado al desarrollo económico en las prioridades de los gobiernos, pese al elevado endeudamiento público y a la carestía de la financiación exterior.",
+    "enjeux": "La década actual perfila para América Latina un nuevo ciclo de bajo crecimiento, insuficiente para reducir de forma duradera la pobreza y la informalidad laboral, que todavía afecta a cerca de la mitad de los trabajadores de la región. El análisis del Banco de España subraya el vínculo directo entre economía y seguridad: el narcotráfico, la extorsión y la violencia lastran la inversión privada, ahuyentan el capital y absorben una parte creciente de unos presupuestos públicos ya estrechados por los altos tipos de interés de la Reserva Federal. Sin margen fiscal para invertir en educación, infraestructuras o inteligencia artificial –campo en el que solo Chile, Brasil y Uruguay destacan según el índice ILIA 2026 de la CEPAL–, muchos gobiernos priorizan la urgencia policial frente a las reformas estructurales."
+   },
+   "vocab": [
+    [
+     "el estancamiento económico",
+     "la stagnation économique"
+    ],
+    [
+     "el crimen organizado",
+     "le crime organisé"
+    ],
+    [
+     "la informalidad laboral",
+     "le travail informel"
+    ],
+    [
+     "el margen fiscal",
+     "la marge de manœuvre budgétaire"
+    ],
+    [
+     "el ajuste fiscal",
+     "l'ajustement (la rigueur) budgétaire"
+    ],
+    [
+     "la brecha digital y tecnológica",
+     "la fracture numérique et technologique"
+    ]
+   ],
+   "sujets": [
+    "¿Es la inseguridad el principal obstáculo para el desarrollo económico de América Latina?",
+    "¿Cómo puede América Latina salir de la trampa del bajo crecimiento?"
+   ]
+  },
+  {
+   "id": "2026-10-30-allemand-1",
+   "matiere": "allemand",
+   "source": "Bundesregierung",
+   "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-asienreise-2458230",
+   "minutes": 3,
+   "titre": "À Séoul, Friedrich Merz achève sa tournée asiatique pour réduire la dépendance allemande à la Chine",
+   "faits": "Le chancelier Friedrich Merz a conclu le 30 octobre en Corée du Sud sa première grande tournée en Asie, qui l'avait mené du 26 au 30 octobre à Singapour (avec le Premier ministre Lawrence Wong), puis à Tokyo (avec la Première ministre Sanae Takaichi) et enfin à Séoul (avec le président Lee Jae-myung). Accompagné d'une importante délégation de chefs d'entreprise, il a ouvert à Séoul la 19e Conférence Asie-Pacifique de l'économie allemande (APK), rappelant que la région concentre près de 40 % du commerce mondial. Le voyage a abouti à un plan de travail stratégique avec Singapour, à un renforcement de la coopération militaire et technologique avec le Japon — invité comme pays partenaire de la Foire de Hanovre 2028 — et à une déclaration commune avec la Corée du Sud sur la sécurité économique, les semi-conducteurs, l'IA et les matières premières critiques. Merz a terminé sa visite sur la zone démilitarisée (DMZ) à la frontière nord-coréenne.",
+   "enjeux": "Cette tournée de cinq jours incarne la réorientation géoéconomique de Berlin autour du **de-risking** : sans rompre avec Pékin, l'Allemagne cherche à sécuriser ses chaînes d'approvisionnement en terres rares et en composants électroniques auprès de démocraties alliées de l'Indo-Pacifique. Le modèle industriel allemand, et en particulier ses constructeurs automobiles comme Volkswagen, souffre en effet d'une double vulnérabilité : le recul de ses parts de marché en Chine face aux concurrents locaux et la montée du protectionnisme américain. En associant accords commerciaux, défense et haute technologie à Tokyo et Séoul, Friedrich Merz inscrit aussi la politique commerciale allemande dans la **Zeitenwende**, où économie et sécurité nationale deviennent indissociables.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Downtown_Seoul_skyline.jpg/1280px-Downtown_Seoul_skyline.jpg",
+    "alt": "Le quartier d'affaires de Séoul, dernière étape de la tournée asiatique de Friedrich Merz",
+    "credit": "Minseong Kim / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Downtown_Seoul_skyline.jpg"
+   },
+   "vo": {
+    "titre": "In Seoul beendet Friedrich Merz seine Asienreise für weniger Abhängigkeit von China",
+    "faits": "Bundeskanzler Friedrich Merz hat am 30. Oktober in Südkorea seine bislang längste Auslandsreise abgeschlossen, die ihn vom 26. bis 30. Oktober nach Singapur (zu Premierminister Lawrence Wong), Tokio (zu Premierministerin Sanae Takaichi) und Seoul (zu Präsident Lee Jae-myung) führte. Begleitet von einer hochrangigen Wirtschaftsdelegation eröffnete er in Seoul die 19. Asien-Pazifik-Konferenz der Deutschen Wirtschaft (APK) und betonte, dass auf die Region rund 40 Prozent des Welthandels entfallen. Vereinbart wurden ein strategischer Arbeitsplan mit Singapur, eine engere Rüstungs- und Technologiekooperation mit Japan – das Partnerland der Hannover Messe 2028 wird – sowie eine gemeinsame Erklärung mit Südkorea zu Wirtschaftssicherheit, Halbleitern, KI und kritischen Rohstoffen. Zum Abschluss besuchte Merz die Demilitarisierte Zone (DMZ) an der Grenze zu Nordkorea.",
+    "enjeux": "Die fünftägige Reise steht für die geoökonomische Neuausrichtung Berlins im Zeichen des De-Risking: Ohne mit Peking zu brechen, will Deutschland seine Lieferketten bei seltenen Erden und Hightech-Bauteilen durch enge Partnerschaften mit gefestigten Demokratien im Indopazifik krisenfester machen. Das deutsche Industriemodell – allen voran Autobauer wie Volkswagen – leidet unter einer doppelten Verwundbarkeit: sinkenden Marktanteilen in China gegenüber einheimischen Herstellern und wachsendem US-Protektionismus. Indem Merz in Tokio und Seoul Handelsfragen eng mit Rüstung und Sicherheitspolitik verknüpft, überträgt er die Zeitenwende auch auf die deutsche Außenwirtschaftspolitik."
+   },
+   "vocab": [
+    [
+     "der Indopazifik",
+     "la région indo-pacifique"
+    ],
+    [
+     "die Wirtschaftsdelegation",
+     "la délégation d'entreprises"
+    ],
+    [
+     "die Wirtschaftssicherheit",
+     "la sécurité économique"
+    ],
+    [
+     "Lieferketten krisenfester machen",
+     "rendre les chaînes d'approvisionnement plus résilientes"
+    ],
+    [
+     "Halbleiter und seltene Erden",
+     "les semi-conducteurs et les terres rares"
+    ],
+    [
+     "die Außenwirtschaftspolitik",
+     "la politique économique extérieure"
+    ]
+   ],
+   "sujets": [
+    "Kann der Indopazifik China als Wachstumsmotor für die deutsche Exportwirtschaft ersetzen?",
+    "Wirtschaft und Sicherheitspolitik: Braucht Deutschland eine neue Außenhandelsstrategie?"
+   ]
+  },
+  {
+   "id": "2026-10-30-allemand-2",
+   "matiere": "allemand",
+   "source": "Der Spiegel / Die Welt",
+   "url": "https://www.spiegel.de/politik/ausland/eu-haushalt-friedrich-merz-legt-sich-mit-den-bremsern-in-der-eu-an-er-sollte-hart-bleiben-kommentar-a-00000000-0000-0000-0000-000000847230",
+   "minutes": 3,
+   "titre": "Budget européen 2028-2034 : Friedrich Merz prend la tête des « six frugaux » contre Bruxelles",
+   "faits": "Dans le bras de fer engagé cet automne sur le futur cadre financier pluriannuel de l'Union européenne pour la période 2028-2034, le chancelier Friedrich Merz a pris la tête d'une alliance de six pays contributeurs nets — Allemagne, Autriche, Pays-Bas, Suède, Danemark et Finlande, surnommés les « six frugaux ». Merz juge « tout simplement impayable » le projet initial de la Commission européenne, proche de 2 000 milliards d'euros, et a également rejeté fin octobre une piste de compromis de la présidence irlandaise autour de 1 830 milliards. Il exige des coupes de plusieurs centaines de milliards d'euros, faisant valoir que tous les États membres doivent économiser dans leurs budgets nationaux. Berlin laisse même entendre qu'une absence d'accord fin 2027, qui plafonnerait automatiquement les versements à Bruxelles, serait financièrement plus avantageuse pour l'Allemagne.",
+   "enjeux": "Ce durcissement marque une inflexion majeure de la politique européenne de Berlin : alors qu'Angela Merkel avait accepté en 2020 un plan de relance européen de 750 milliards d'euros financé par une dette commune exceptionnelle, Friedrich Merz revient à l'orthodoxie traditionnelle du premier **contributeur net** de l'Union. Sa fermeté s'explique par la pression budgétaire interne (un trou de plus de 100 milliards d'euros dans la planification allemande 2028-2030) et par la poussée de l'AfD, hostile aux transferts financiers européens. Mais cette ligne se heurte à dix-sept autres États membres et pose un dilemme stratégique : comment financer les nouvelles priorités européennes — défense commune, transition verte et compétitivité face aux États-Unis et à la Chine — avec un budget communautaire plafonné à environ 1 % du revenu national brut ?",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bruxelles_-_Europa_building_%2823191466719%29.jpg/1280px-Bruxelles_-_Europa_building_%2823191466719%29.jpg",
+    "alt": "Le bâtiment Europa à Bruxelles, siège du Conseil européen",
+    "credit": "Fred Romero / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bruxelles_-_Europa_building_(23191466719).jpg"
+   },
+   "vo": {
+    "titre": "EU-Haushalt 2028–2034: Friedrich Merz führt die „sparsamen Sechs“ gegen Brüssel an",
+    "faits": "Im Ringen um den künftigen Mehrjährigen Finanzrahmen (MFR) der Europäischen Union für die Jahre 2028 bis 2034 hat sich Bundeskanzler Friedrich Merz an die Spitze einer Allianz von sechs Nettozahler-Staaten gestellt – Deutschland, Österreich, die Niederlande, Schweden, Dänemark und Finnland, die sogenannten „sparsamen Sechs“. Merz hält den ursprünglichen Entwurf der EU-Kommission von knapp zwei Billionen Euro für „schlicht unbezahlbar“ und wies im Oktober auch einen irischen Kompromissvorschlag über rund 1,83 Billionen Euro als unzureichend zurück. Er fordert Kürzungen von mehreren hundert Milliarden Euro mit dem Argument, dass auch die Mitgliedstaaten in ihren nationalen Haushalten konsolidieren müssen. Aus Berlin heißt es sogar, ein Scheitern der Verhandlungen bis Ende 2027 – wodurch die Zahlungen nach Brüssel gedeckelt blieben – wäre für die Nettozahler rein finanziell die günstigste Lösung.",
+    "enjeux": "Dieser harte Kurs markiert eine deutliche Wende in der deutschen Europapolitik: Während Angela Merkel 2020 in der Corona-Krise noch einem 750 Milliarden Euro schweren Wiederaufbaufonds über gemeinsame EU-Schulden zugestimmt hatte, kehrt Friedrich Merz zur klassischen Haushaltsdisziplin des größten europäischen Nettozahlers zurück. Hintergrund sind die eigene Milliardenlücke im Bundeshaushalt ab 2028 sowie der innenpolitische Druck durch die europakritische AfD. Doch die Blockade stößt bei 17 anderen Mitgliedstaaten auf heftigen Widerstand und wirft ein strategisches Dilemma auf: Wie soll die EU neue Gemeinschaftsaufgaben wie Verteidigung, grüne Transformation und Wettbewerbsfähigkeit gegenüber den USA und China finanzieren, wenn ihr Budget streng begrenzt bleibt?"
+   },
+   "vocab": [
+    [
+     "der Mehrjährige Finanzrahmen (MFR)",
+     "le cadre financier pluriannuel (de l'UE)"
+    ],
+    [
+     "der Nettozahler",
+     "le pays contributeur net (qui verse plus qu'il ne reçoit)"
+    ],
+    [
+     "die „sparsamen Sechs“",
+     "les « six frugaux »"
+    ],
+    [
+     "die Haushaltskonsolidierung",
+     "la consolidation (l'assainissement) budgétaire"
+    ],
+    [
+     "gemeinsame Schulden",
+     "la dette commune / mutualisée"
+    ],
+    [
+     "die Handlungsfähigkeit",
+     "la capacité d'action"
+    ]
+   ],
+   "sujets": [
+    "Bremst Deutschlands Sparkurs die Handlungsfähigkeit der Europäischen Union?",
+    "Braucht Europa gemeinsame Schulden, um im globalen Wettbewerb mitzuhalten?"
+   ]
+  },
+  {
+   "id": "2026-10-30-allemand-3",
+   "matiere": "allemand",
+   "source": "Die Welt",
+   "url": "https://www.welt.de/politik/deutschland/article253921344/Naechster-Krach-in-der-Bundesregierung-Union-lehnt-Plastiksteuer-Plan-ab.html",
+   "minutes": 3,
+   "titre": "Taxe sur les emballages plastiques : 42 fédérations patronales somment la chancellerie de reculer",
+   "faits": "Le 29 octobre, une large coalition de 42 fédérations économiques et industrielles allemandes — dont la puissante fédération de l'industrie (BDI), celle du commerce (HDE) et celle de la construction mécanique (VDMA) — a adressé une lettre commune à la cheffe de la chancellerie fédérale, Nina Warken (CDU). Les organisations patronales demandent au gouvernement de retirer de l'ordre du jour du Conseil des ministres du 4 novembre le projet de taxe nationale sur les emballages en plastique (Kunststoffverpackungssteuer). Elles reprochent à la coalition de vouloir faire passer cette nouvelle taxe en procédure accélérée, via un simple amendement à la loi d'accompagnement du budget 2027, sans étude d'impact ni consultation régulière. Elles dénoncent un surcoût bureaucratique et financier majeur pour une industrie déjà en récession.",
+   "enjeux": "Depuis 2021, l'Union européenne prélève auprès des États membres une contribution de 0,80 euro par kilo de déchets d'emballages plastiques non recyclés, soit environ 1,4 milliard d'euros par an pour l'Allemagne. Jusqu'ici, Berlin payait cette somme sur le budget fédéral ; pour combler ses déficits, le gouvernement cherche désormais à la répercuter directement sur les entreprises qui mettent le plastique sur le marché. Ce conflit résume la contradiction centrale de la coalition de Friedrich Merz : arrivé au pouvoir en promettant un « choc de débureaucratisation » (**Bürokratieabbau**) et un allègement des charges pour sauver le **Standort Deutschland**, le gouvernement est poussé par ses propres contraintes budgétaires à créer de nouveaux prélèvements, au risque de diviser la CDU et le SPD.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Zapfendorf_Plastic_Recycling-20180621-RM-114359.jpg/1280px-Zapfendorf_Plastic_Recycling-20180621-RM-114359.jpg",
+    "alt": "Balles d'emballages plastiques triés dans un centre de recyclage en Allemagne",
+    "credit": "Reinhold Möller (Ermell) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Zapfendorf_Plastic_Recycling-20180621-RM-114359.jpg"
+   },
+   "vo": {
+    "titre": "Plastiksteuer: 42 Wirtschaftsverbände fordern Stopp der Regierungspläne im Kanzleramt",
+    "faits": "Am 29. Oktober hat sich ein breites Bündnis aus 42 deutschen Wirtschafts- und Industrieverbänden – darunter der Bundesverband der Deutschen Industrie (BDI), der Handelsverband (HDE) und der Maschinenbauverband (VDMA) – in einem gemeinsamen Schreiben an Kanzleramtschefin Nina Warken (CDU) gewandt. Die Verbände fordern, die geplante Einführung einer nationalen Kunststoffverpackungssteuer von der Tagesordnung der Kabinettssitzung am 4. November zu streichen. Sie werfen der Bundesregierung vor, die Steuer im Eilverfahren als Änderungsantrag zum Haushaltsbegleitgesetz 2027 durchzudrücken, ohne reguläre Ressortabstimmung und umfassende Folgenabschätzung. Für die ohnehin angeschlagene Industrie bedeute das Vorhaben massive Zusatzkosten und neue Bürokratie.",
+    "enjeux": "Seit 2021 erhebt die Europäische Union von den Mitgliedstaaten eine Abgabe von 0,80 Euro pro Kilogramm nicht recycelten Plastikverpackungsmülls – für Deutschland rund 1,4 Milliarden Euro im Jahr. Bislang beglich Berlin diesen Betrag aus dem Bundeshaushalt; angesichts leerer Kassen will die Koalition die Kosten nun direkt auf die Unternehmen umlegen. Der Streit bringt den Grundwiderspruch der Regierung von Friedrich Merz auf den Punkt: Angetreten mit dem Versprechen von Bürokratieabbau und Entlastungen zur Rettung des Standorts Deutschland, treibt die Haushaltsnot die Koalition dazu, neue Abgaben einzuführen – ein Kurs, der auch innerhalb der Union auf Widerstand stößt."
+   },
+   "vocab": [
+    [
+     "die Kunststoffverpackungssteuer / Plastiksteuer",
+     "la taxe sur les emballages plastiques"
+    ],
+    [
+     "der Wirtschaftsverband",
+     "la fédération patronale / économique"
+    ],
+    [
+     "das Eilverfahren",
+     "la procédure d'urgence / accélérée"
+    ],
+    [
+     "der Bürokratieabbau",
+     "la réduction de la bureaucratie"
+    ],
+    [
+     "Kosten umlegen auf (+ A)",
+     "répercuter des coûts sur"
+    ],
+    [
+     "die Kreislaufwirtschaft",
+     "l'économie circulaire"
+    ]
+   ],
+   "sujets": [
+    "Umweltsteuern in der Wirtschaftskrise: Notwendige Lenkung oder Gefahr für den Standort Deutschland?",
+    "Warum fällt der versprochene Bürokratieabbau in Deutschland so schwer?"
+   ]
+  }
+ ]
+}
