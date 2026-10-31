@@ -1,0 +1,454 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Press'ing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..700&display=swap">
+<style>
+/* Boutique de mode épurée : noir et blanc, petites capitales espacées, colonnes étroites et beaucoup d'air */
+:root {
+  --bg: #ffffff;
+  --fg: #111110;
+  --muted: #6b6966;
+  --line: #e7e5e2;
+  --soft: #f5f4f2;
+  --invert-bg: #111110; --invert-fg: #ffffff;
+  --m-esh: #111110; --m-esh-fg: #ffffff;
+  --m-anglais: #e9e6e1; --m-anglais-fg: #111110;
+  --m-espagnol: #d6d1c9; --m-espagnol-fg: #111110;
+  --m-allemand: #f3f2ef; --m-allemand-fg: #111110;
+  --font: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --title: var(--font);
+  --serif: var(--font);
+  --c-esh: #3550c7; --c-anglais: #b8432a; --c-espagnol: #a5781c; --c-allemand: #6d3fb8;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0c0c0b; --fg: #f2f1ef; --muted: #a29f9a; --line: #2a2927; --soft: #171716;
+  --invert-bg: #f2f1ef; --invert-fg: #0c0c0b;
+  --m-esh: #f2f1ef; --m-esh-fg: #0c0c0b;
+  --m-anglais: #252422; --m-anglais-fg: #f2f1ef;
+  --m-espagnol: #34322f; --m-espagnol-fg: #f2f1ef;
+  --m-allemand: #1b1a19; --m-allemand-fg: #f2f1ef;
+  --c-esh: #8197ff; --c-anglais: #f0846a; --c-espagnol: #e0b452; --c-allemand: #b18cf2;
+  color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0c0c0b; --fg: #f2f1ef; --muted: #a29f9a; --line: #2a2927; --soft: #171716;
+  --invert-bg: #f2f1ef; --invert-fg: #0c0c0b;
+  --m-esh: #f2f1ef; --m-esh-fg: #0c0c0b;
+  --m-anglais: #252422; --m-anglais-fg: #f2f1ef;
+  --m-espagnol: #34322f; --m-espagnol-fg: #f2f1ef;
+  --m-allemand: #1b1a19; --m-allemand-fg: #f2f1ef;
+  --c-esh: #8197ff; --c-anglais: #f0846a; --c-espagnol: #e0b452; --c-allemand: #b18cf2;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+:focus-visible { outline: 1px solid var(--fg); outline-offset: 3px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.narrow { max-width: 680px; margin: 0 auto; }
+.label { font-size: 10.5px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
+.muted { color: var(--muted); }
+
+/* En-tête */
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--bg); border-bottom: 1px solid var(--line); }
+.top-row { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; padding-block: 16px; }
+.brand { grid-column: 2; font-stretch: 125%; font-weight: 600; font-size: 17px; letter-spacing: 0.08em; line-height: 1; }
+.top-nav { display: none; gap: 24px; }
+.top-nav a { color: var(--muted); padding-block: 4px; }
+.top-nav a[aria-current="page"] { color: var(--fg); }
+.top-date { justify-self: end; }
+
+nav.bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--bg); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+nav.bottom a { text-align: center; padding-block: 17px; color: var(--muted); }
+nav.bottom a[aria-current="page"] { color: var(--fg); }
+main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+
+/* Accueil : choix de la matière au centre */
+.home { min-height: calc(100svh - 140px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 28px; padding-block: 40px; }
+.home h1 { margin: 0; font-size: clamp(22px, 4.6vw, 30px); font-weight: 400; letter-spacing: -0.01em; text-wrap: balance; }
+.choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 460px; }
+.choice { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 26px 12px; border: 1px solid var(--line); transition: background 0.25s, color 0.25s, border-color 0.25s; }
+.choice .name { font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; }
+.choice:hover, .choice:focus-visible { background: var(--invert-bg); color: var(--invert-fg); border-color: var(--invert-bg); }
+.choice:hover .muted, .choice:focus-visible .muted { color: inherit; opacity: 0.7; }
+.home-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; }
+.home-links a { color: var(--muted); border-bottom: 1px solid transparent; }
+.home-links a:hover { color: var(--fg); border-bottom-color: var(--fg); }
+
+/* Édition façon magazine */
+.ed-jump { position: sticky; }
+.ed-head { padding-block: 32px 20px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; }
+.ed-stats { display: flex; flex-wrap: wrap; gap: 8px 26px; align-items: center; }
+.ed-jump { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-left: auto; }
+.ed-jump a { display: inline-flex; align-items: center; gap: 7px; color: var(--fg); border: 1px solid var(--line); padding: 8px 12px; }
+.ed-jump a:hover { border-color: var(--fg); }
+.ed-jump a:hover { color: var(--fg); }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.dot.big { width: 11px; height: 11px; }
+.dot { display: none; }
+.num { color: var(--muted); }
+.mag { padding-block: 56px 8px; }
+.mag + .mag { margin-top: 24px; }
+.mag-head { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
+.mag-head h2 { margin: 0; font-stretch: 125%; font-weight: 600; font-size: clamp(22px, 4.4vw, 30px); letter-spacing: 0.02em; text-transform: uppercase; line-height: 1; }
+.mag-head { padding-bottom: 14px; border-bottom: 1px solid var(--fg); }
+.mag-rule { visibility: hidden; }
+.mag-rule { flex: 1; height: 1px; background: var(--line); min-width: 20px; }
+.mag-grid { display: grid; gap: 28px; }
+.num { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; }
+.mag-grid { margin-top: 22px; }
+.lead, .small { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.lead { padding: 26px 24px 24px; background: var(--soft); gap: 12px; }
+.lead:hover { background: var(--line); }
+.lead h3 { margin: 0; font-weight: 500; font-size: clamp(21px, 3.6vw, 27px); line-height: 1.22; letter-spacing: -0.015em; text-wrap: balance; }
+.chapo { margin: 0; font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 52ch; }
+.side { display: grid; gap: 0; }
+.small { padding-block: 18px 22px; border-top: 1px solid var(--line); }
+.small h3 { margin: 0; font-weight: 500; font-size: 16.5px; line-height: 1.35; text-wrap: balance; }
+.lead:hover h3, .small:hover h3 { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+@media (min-width: 820px) {
+  .mag-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 48px; }
+  .side { align-content: start; }
+  .small:first-child { padding-top: 4px; border-top: 0; }
+}
+
+/* Liste d'une matière */
+.subtabs { display: flex; gap: 20px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); margin-top: 8px; }
+.subtabs::-webkit-scrollbar { display: none; }
+.subtabs a { padding-block: 12px; color: var(--muted); white-space: nowrap; border-bottom: 1px solid transparent; margin-bottom: -1px; }
+.subtabs a[aria-current="page"] { color: var(--fg); border-bottom-color: var(--fg); }
+.page-head { display: flex; flex-direction: column; gap: 6px; padding-block: 32px 20px; }
+.page-head h1 { margin: 0; font-size: clamp(22px, 4.4vw, 28px); font-weight: 500; letter-spacing: -0.01em; }
+.row { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 16px; padding-block: 20px; border-top: 1px solid var(--line); align-items: start; }
+.row:last-child { border-bottom: 1px solid var(--line); }
+.thumb { aspect-ratio: 4 / 5; max-width: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 7px; }
+.thumb .n { font-size: 9px; letter-spacing: 0.12em; }
+.thumb .m { font-stretch: 70%; font-weight: 700; font-size: 15px; text-transform: uppercase; line-height: 0.9; }
+[data-m="esh"] { background: var(--m-esh); color: var(--m-esh-fg); }
+[data-m="anglais"] { background: var(--m-anglais); color: var(--m-anglais-fg); }
+[data-m="espagnol"] { background: var(--m-espagnol); color: var(--m-espagnol-fg); }
+[data-m="allemand"] { background: var(--m-allemand); color: var(--m-allemand-fg); }
+.row-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.row h2 { margin: 0; font-size: 16.5px; font-weight: 500; line-height: 1.35; text-wrap: balance; }
+.row p { margin: 0; color: var(--muted); font-size: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.row:hover h2 { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.lue { color: var(--muted); }
+.group-title { padding-block: 32px 4px; }
+
+/* Article */
+.back { display: inline-flex; padding-block: 18px 6px; color: var(--muted); }
+.back:hover { color: var(--fg); }
+article.card { padding-block: 16px 24px; display: flex; flex-direction: column; gap: 18px; }
+.band { height: 4px; }
+.card h1 { margin: 0; font-size: clamp(23px, 4.6vw, 32px); font-weight: 500; line-height: 1.2; letter-spacing: -0.015em; text-wrap: balance; }
+.seg { display: inline-grid; grid-template-columns: repeat(2, auto); align-self: flex-start; border: 1px solid var(--fg); }
+.seg button { padding: 10px 16px; }
+.seg button[aria-pressed="true"] { background: var(--invert-bg); color: var(--invert-fg); }
+.sec { display: flex; flex-direction: column; gap: 10px; padding-top: 22px; border-top: 1px solid var(--line); }
+.sec h2 { margin: 0; }
+.prose p { margin: 0; font-size: 16px; line-height: 1.75; max-width: 65ch; }
+.prose p + p { margin-top: 12px; }
+.vocab { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 16px; }
+.vocab div { padding-block: 9px; border-bottom: 1px solid var(--line); font-size: 14.5px; }
+.vocab div:nth-child(odd) { font-weight: 600; }
+.vocab div:nth-child(even) { color: var(--muted); }
+.notion { display: flex; flex-direction: column; gap: 3px; padding-block: 10px; border-bottom: 1px solid var(--line); }
+.notion:last-child { border-bottom: 0; }
+.notion .t { font-weight: 600; font-size: 14.5px; text-align: left; }
+button.t { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.notion span { color: var(--muted); font-size: 14.5px; }
+.sujets { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.sujets li { display: grid; grid-template-columns: 28px minmax(0, 1fr); font-size: 15px; }
+.sujets li b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.source a { text-decoration: underline; text-underline-offset: 3px; }
+.bar { position: sticky; bottom: calc(53px + env(safe-area-inset-bottom, 0px)); background: var(--bg); border-top: 1px solid var(--line); display: flex; gap: 8px; padding-block: 10px; margin-top: 8px; }
+.fav-btn { width: 48px; height: 48px; flex-shrink: 0; border: 1px solid var(--fg); display: flex; align-items: center; justify-content: center; }
+.fav-btn[aria-pressed="true"] svg { fill: currentColor; }
+.next-btn { flex-grow: 1; height: 48px; background: var(--invert-bg); color: var(--invert-fg); display: flex; align-items: center; justify-content: center; }
+
+.auteur { display: flex; flex-direction: column; gap: 8px; padding-block: 6px 14px; }
+.auteur + .auteur { border-top: 1px solid var(--line); padding-top: 16px; }
+.auteur h3 { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.35; }
+.auteur h3 em { font-weight: 400; }
+.more { align-self: flex-start; color: var(--muted); border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+.more:hover { color: var(--fg); }
+.prog { background: var(--soft); padding: 18px 20px; display: flex; flex-direction: column; gap: 8px; }
+.prog p { margin: 0; font-size: 14.5px; }
+.prose strong { font-weight: 600; }
+/* Référentiel */
+.search { width: 100%; height: 46px; border: 0; border-bottom: 1px solid var(--fg); background: transparent; color: var(--fg); padding: 0; font: inherit; font-size: 16px; border-radius: 0; }
+.search::placeholder { color: var(--muted); }
+.list-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 16px; border-bottom: 1px solid var(--line); width: 100%; text-align: left; }
+.list-row .t { font-size: 15.5px; font-weight: 500; }
+.list-row:hover .t { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.cat-head { display: flex; justify-content: space-between; padding-block: 32px 10px; border-bottom: 1px solid var(--fg); }
+.pill { border: 1px solid var(--fg); padding: 4px 8px; }
+.idee { font-size: clamp(18px, 3.6vw, 22px); line-height: 1.4; font-weight: 400; margin: 0; max-width: 40ch; text-wrap: pretty; }
+.steps { margin: 0; padding: 0; list-style: none; counter-reset: s; display: flex; flex-direction: column; gap: 10px; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 28px minmax(0, 1fr); font-size: 15.5px; }
+.steps li::before { content: counter(s); font-weight: 600; font-variant-numeric: tabular-nums; }
+.apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+.app { border: 1px solid var(--line); padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; }
+.app strong { font-weight: 600; font-size: 14.5px; }
+.app span { color: var(--muted); font-size: 14px; }
+.lien { display: grid; grid-template-columns: 24px minmax(0, 1fr); padding-block: 8px; border-bottom: 1px solid var(--line); font-size: 14.5px; }
+.lien:last-child { border-bottom: 0; }
+.lien b { font-weight: 600; }
+.empty { padding-block: 48px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; max-width: 46ch; }
+.btn { display: inline-block; border: 1px solid var(--fg); padding: 13px 24px; }
+.btn:hover { background: var(--invert-bg); color: var(--invert-fg); }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(130px + env(safe-area-inset-bottom, 0px)); background: var(--invert-bg); color: var(--invert-fg); padding: 11px 18px; z-index: 40; }
+
+@media (min-width: 1000px) {
+  .top-nav { display: flex; grid-column: 1; grid-row: 1; }
+  nav.bottom { display: none; }
+  main { padding-bottom: 56px; }
+  .bar { bottom: 0; }
+  .home { min-height: calc(100svh - 60px); }
+  .row { grid-template-columns: 96px minmax(0, 1fr); gap: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { .choice { transition: none; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="top-row">
+      <nav class="top-nav label" aria-label="Sections">
+        <a href="#accueil" data-nav="accueil">Édition</a>
+        <a href="#referentiel" data-nav="referentiel">Référentiel</a>
+        <a href="#archives" data-nav="archives">Archives</a>
+        <a href="#favoris" data-nav="favoris">Favoris</a>
+      </nav>
+      <a href="#accueil" class="brand" aria-label="Press'ing, accueil">PRESS'ING</a>
+      <span class="label muted top-date" id="top-date"></span>
+    </div>
+  </div>
+</header>
+
+<main id="app" class="wrap" aria-live="polite">
+  <div class="home"><p class="label muted">Chargement de l'édition…</p></div>
+</main>
+
+<nav class="bottom label" aria-label="Sections">
+  <a href="#accueil" data-nav="accueil">Édition</a>
+  <a href="#referentiel" data-nav="referentiel">Référentiel</a>
+  <a href="#archives" data-nav="archives">Archives</a>
+  <a href="#favoris" data-nav="favoris">Favoris</a>
+</nav>
+
+<script>
+(function () {
+  const MATS = ["esh", "anglais", "espagnol", "allemand"];
+  const NOM = { esh: "ESH", anglais: "Anglais", espagnol: "Espagnol", allemand: "Allemand", tout: "Tout" };
+  const VO_LABEL = { anglais: "English", espagnol: "Español", allemand: "Deutsch" };
+  const MOIS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
+  const JOURS = ["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
+  const state = { index: [], editions: {}, ref: null, date: null, lang: {}, view: "accueil" };
+  const app = document.getElementById("app");
+
+  function load(k, f) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : f; } catch (e) { return f; } }
+  function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  let favs = load("pressing:favs", {});
+  let lues = load("pressing:lues", {});
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
+  function fmt(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>"); }
+  function pd(d) { const [y, m, j] = d.split("-").map(Number); return new Date(y, m - 1, j); }
+  function dLong(d) { const x = pd(d); return JOURS[x.getDay()] + " " + x.getDate() + " " + MOIS[x.getMonth()] + " " + x.getFullYear(); }
+  function dShort(d) { const x = pd(d); return String(x.getDate()).padStart(2, "0") + "." + String(x.getMonth() + 1).padStart(2, "0") + "." + String(x.getFullYear()).slice(2); }
+  function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+  function firstSentence(t) { const m = t.match(/^.*?[.!?](\s|$)/); return m ? m[0] : t; }
+  function toast(msg) { const t = document.createElement("div"); t.className = "toast label"; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 1800); }
+  const BOOKMARK = '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>';
+
+  async function getJSON(p) { const r = await fetch(p, { cache: "no-cache" }); if (!r.ok) throw new Error(p); return r.json(); }
+  async function edition(d) { if (!state.editions[d]) state.editions[d] = await getJSON("data/editions/" + d + ".json"); return state.editions[d]; }
+  async function referentiel() { if (!state.ref) state.ref = await getJSON("data/referentiel.json"); return state.ref; }
+
+  function thumb(c, n) { return '<div class="thumb" data-m="' + c.matiere + '" aria-hidden="true"><span class="n">N°' + String(n).padStart(2, "0") + '</span><span class="m">' + NOM[c.matiere] + '</span></div>'; }
+  function row(c, n) {
+    return '<a class="row" href="#' + c.id + '">' + thumb(c, n) +
+      '<div class="row-body"><span class="label muted">' + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · <span class="lue">Lue</span>' : '') + '</span>' +
+      '<h2>' + esc(c.titre) + '</h2><p>' + esc(firstSentence(c.faits)) + '</p></div></a>';
+  }
+  function setNav() {
+    const sec = state.view === "fiche" ? "referentiel" : (["referentiel", "archives", "favoris"].includes(state.view) ? state.view : "accueil");
+    document.querySelectorAll("[data-nav]").forEach(a => a.dataset.nav === sec ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+    document.getElementById("top-date").textContent = state.date ? dShort(state.date) : "";
+  }
+  function latestNote() {
+    return state.date === state.index[0] ? "" : '<p class="label muted" style="margin:16px 0 0">Édition du ' + dLong(state.date) + ' · <a href="#accueil" data-latest style="text-decoration:underline">Revenir à aujourd\'hui</a></p>';
+  }
+
+  // Accueil
+  async function viewAccueil() {
+    const ed = await edition(state.date);
+    const mats = MATS.filter(m => ed.cards.some(c => c.matiere === m));
+    const minutes = ed.cards.reduce((s, c) => s + (c.minutes || 0), 0);
+    let h = latestNote();
+    h += '<div class="ed-head"><div class="ed-date"><span class="label muted">' + cap(dLong(state.date)) + '</span></div>' +
+      '<div class="ed-stats label"><span>' + ed.cards.length + ' actualités</span><span>' + mats.length + ' matières</span><span>' + minutes + ' minutes</span>' +
+      '<span class="ed-jump">' + mats.map(m => '<a href="#' + m + '"><i class="dot" data-dot="' + m + '"></i>' + NOM[m] + '</a>').join("") + '</span></div></div>';
+    mats.forEach(m => {
+      const cs = ed.cards.filter(c => c.matiere === m);
+      const [lead, ...rest] = cs;
+      h += '<section class="mag">' +
+        '<div class="mag-head"><i class="dot big" data-dot="' + m + '"></i><h2><a href="#' + m + '">' + NOM[m] + '</a></h2><span class="mag-rule"></span><span class="label muted">' + cs.length + ' actualités</span></div>' +
+        '<div class="mag-grid">' +
+          '<a class="lead" href="#' + lead.id + '"><span class="num" data-num="' + m + '">01</span>' +
+            '<h3>' + esc(lead.titre) + '</h3><p class="chapo">' + esc(firstSentence(lead.faits)) + '</p>' +
+            '<span class="label muted">' + esc(lead.source) + ' · ' + lead.minutes + ' min' + (lues[lead.id] ? ' · Lue' : '') + '</span></a>' +
+          '<div class="side">' + rest.map((c, i) => '<a class="small" href="#' + c.id + '"><span class="num" data-num="' + m + '">0' + (i + 2) + '</span>' +
+            '<h3>' + esc(c.titre) + '</h3><span class="label muted">' + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · Lue' : '') + '</span></a>').join("") + '</div>' +
+        '</div></section>';
+    });
+    app.innerHTML = h;
+  }
+
+  // Liste
+  async function viewMatiere(m) {
+    const ed = await edition(state.date);
+    const all = ed.cards.map((c, i) => Object.assign({ n: i + 1 }, c));
+    let html = latestNote() + '<nav class="subtabs label narrow" aria-label="Matières">' + ["tout"].concat(MATS).map(x => '<a href="#' + x + '"' + (x === m ? ' aria-current="page"' : '') + '>' + NOM[x] + '</a>').join("") + '</nav>';
+    html += '<div class="narrow"><div class="page-head"><span class="label muted">' + cap(dLong(state.date)) + '</span><h1>' + (m === "tout" ? "L'édition complète" : NOM[m]) + '</h1></div>';
+    if (m === "tout") {
+      html += MATS.map(x => { const cs = all.filter(c => c.matiere === x); return cs.length ? '<h2 class="label group-title">' + NOM[x] + '</h2><div>' + cs.map(c => row(c, c.n)).join("") + '</div>' : ""; }).join("");
+    } else {
+      const cs = all.filter(c => c.matiere === m);
+      html += cs.length ? '<div>' + cs.map(c => row(c, c.n)).join("") + '</div>' : '<div class="empty"><p>Pas d\'actu dans cette matière pour cette édition.</p></div>';
+    }
+    app.innerHTML = html + '</div>';
+  }
+
+  // Article
+  async function viewCarte(id) {
+    const d = id.slice(0, 10);
+    const ed = await edition(d);
+    const idx = ed.cards.findIndex(c => c.id === id);
+    if (idx < 0) { app.innerHTML = '<div class="empty narrow"><p>Cette actu est introuvable.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>'; return; }
+    const c = ed.cards[idx];
+    lues[id] = 1; save("pressing:lues", lues);
+    const lang = state.lang[id] || "fr";
+    const t = lang === "vo" && c.vo ? c.vo : c;
+    const same = ed.cards.filter(x => x.matiere === c.matiere);
+    const pos = same.findIndex(x => x.id === id);
+    const next = same[pos + 1] || ed.cards[(idx + 1) % ed.cards.length];
+    let h = '<div class="narrow"><a class="back label" href="#' + c.matiere + '">← ' + NOM[c.matiere] + '</a>';
+    h += '<article class="card"><div class="band" data-m="' + c.matiere + '"></div>';
+    h += '<span class="label muted">' + NOM[c.matiere] + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
+    h += '<h1>' + esc(t.titre) + '</h1>';
+    if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? "What happened" : "Ce qui s'est passé") + '</h2><div class="prose"><p>' + esc(t.faits) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? "Why it matters" : "Les enjeux") + '</h2><div class="prose"><p>' + esc(t.enjeux) + '</p></div></section>';
+    if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
+    if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
+    if (c.programme) h += '<aside class="prog"><span class="label">Lien avec le programme</span><p><strong>Module</strong> · ' + esc(c.programme.module) + '</p><p><strong>Chapitre</strong> · ' + esc(c.programme.chapitre) + '</p></aside>';
+    h += '<section class="sec"><h2 class="label">Sujets possibles</h2><ol class="sujets">' + c.sujets.map((s, i) => '<li><b>0' + (i + 1) + '</b><span>' + esc(s) + '</span></li>').join("") + '</ol></section>';
+    h += '<p class="label muted source">Source · <a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.source) + ' ↗</a></p>';
+    h += '<div class="bar"><button type="button" class="fav-btn" data-fav="' + c.id + '" aria-pressed="' + !!favs[c.id] + '" aria-label="' + (favs[c.id] ? "Retirer des favoris" : "Ajouter aux favoris") + '">' + BOOKMARK + '</button><a class="next-btn label" href="#' + next.id + '">Actu suivante</a></div>';
+    app.innerHTML = h + '</article></div>';
+    window.scrollTo(0, 0);
+  }
+
+  function viewArchives() {
+    app.innerHTML = '<div class="narrow"><div class="page-head"><span class="label muted">Toutes les éditions</span><h1>Archives</h1></div><div style="border-top:1px solid var(--fg)">' +
+      state.index.map(d => '<button type="button" class="list-row" data-date="' + d + '"><span class="t">' + cap(dLong(d)) + '</span><span class="label muted">Ouvrir →</span></button>').join("") + '</div></div>';
+  }
+
+  function viewFavoris() {
+    const ids = Object.keys(favs).sort().reverse();
+    let h = '<div class="narrow"><div class="page-head"><span class="label muted">Sur cet appareil</span><h1>Favoris</h1></div>';
+    if (!ids.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici et te faire un récap avant une khôlle.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
+    else h += '<div>' + ids.map((id, i) => { const f = favs[id]; return '<a class="row" href="#' + id + '">' + thumb(f, i + 1) + '<div class="row-body"><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h2>' + esc(f.titre) + '</h2></div></a>'; }).join("") + '</div>';
+    app.innerHTML = h + '</div>';
+  }
+
+  function matchF(q) { return f => !q || JSON.stringify([f.nom, f.auteur, f.accroche, f.blocs]).toLowerCase().includes(q); }
+  function refResults(ref, q) {
+    const fs = ref.fiches.filter(matchF(q));
+    if (!fs.length) return '<div class="empty"><p>Rien pour « ' + esc(q) + ' ».</p><p class="muted">Essaie un nom d\'auteur ou un mot plus court.</p></div>';
+    return ref.categories.map(cat => { const l = fs.filter(f => f.categorie === cat.id); return l.length ? '<section><div class="cat-head"><h2 class="label" style="margin:0">' + esc(cat.nom) + '</h2><span class="label muted">' + l.length + '</span></div>' + l.map(f => '<button type="button" class="list-row" data-fiche="' + f.id + '"><span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span class="t">' + esc(f.nom) + '</span><span class="muted" style="font-size:13.5px">' + esc(f.auteur) + ', ' + esc(f.annee) + '</span></span><span class="label muted">→</span></button>').join("") + '</section>' : ""; }).join("");
+  }
+  async function viewReferentiel() {
+    const ref = await referentiel();
+    app.innerHTML = '<div class="narrow"><div class="page-head"><span class="label muted">Auteurs, théories, notions</span><h1>Référentiel</h1><p class="muted" style="margin:4px 0 0">Ce qu\'on attend de toi, et surtout ce que chaque théorie permet de montrer.</p></div>' +
+      '<label class="label muted" for="ref-search">Chercher un auteur, une notion</label><input id="ref-search" class="search" type="search" placeholder="Ricardo, dette, aléa moral…" autocomplete="off">' +
+      '<div id="ref-results">' + refResults(ref, "") + '</div></div>';
+    const input = document.getElementById("ref-search");
+    input.addEventListener("input", () => { document.getElementById("ref-results").innerHTML = refResults(ref, input.value.trim().toLowerCase()); });
+  }
+  function bloc(b) {
+    let inner = "";
+    if (b.type === "texte") inner = '<div class="prose">' + b.paras.map(p => '<p>' + fmt(p) + '</p>').join("") + '</div>';
+    else if (b.type === "cartes") inner = '<div class="apps">' + b.items.map(i => '<div class="app"><strong>' + fmt(i.t) + '</strong><span>' + fmt(i.d) + '</span></div>').join("") + '</div>';
+    else if (b.type === "etapes") inner = '<ol class="steps">' + b.items.map(i => '<li><span>' + fmt(i) + '</span></li>').join("") + '</ol>';
+    else if (b.type === "liens") inner = '<div>' + b.items.map(l => '<div class="lien"><b>' + esc(l.sens) + '</b><span><b>' + esc(l.nom) + '</b> <span class="muted">(' + esc(l.idee) + ')</span></span></div>').join("") + '</div><p class="label muted" style="margin:0">= va dans le même sens · ≠ va contre ou nuance</p>';
+    return '<section class="sec"><h2 class="label">' + esc(b.titre) + '</h2>' + inner + '</section>';
+  }
+  async function viewFiche(id) {
+    const ref = await referentiel();
+    const f = ref.fiches.find(x => x.id === id);
+    const cat = ref.categories.find(c => c.id === f.categorie);
+    let h = '<div class="narrow"><a class="back label" href="#referentiel">← Référentiel</a><article class="card">';
+    h += '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap" class="label"><span class="pill">' + esc(f.type) + ' · ' + esc(f.annee) + '</span><span class="muted">' + esc(cat ? cat.nom : "") + '</span></div>';
+    h += '<h1>' + esc(f.nom) + '</h1><p class="idee">' + fmt(f.accroche) + '</p>';
+    h += f.blocs.map(bloc).join("");
+    app.innerHTML = h + '</article></div>';
+    window.scrollTo(0, 0);
+  }
+
+  async function route() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    try {
+      if (/^\d{4}-\d{2}-\d{2}-/.test(h)) { state.view = "carte"; setNav(); await viewCarte(h); }
+      else if (MATS.includes(h) || h === "tout") { state.view = "matiere"; setNav(); await viewMatiere(h); }
+      else if (h === "referentiel") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
+      else if (h === "archives") { state.view = "archives"; setNav(); viewArchives(); }
+      else if (h === "favoris") { state.view = "favoris"; setNav(); viewFavoris(); }
+      else if (h && h !== "accueil") {
+        const ref = await referentiel().catch(() => null);
+        if (ref && ref.fiches.some(f => f.id === h)) { state.view = "fiche"; setNav(); await viewFiche(h); }
+        else { state.view = "accueil"; setNav(); await viewAccueil(); }
+      }
+      else { state.view = "accueil"; setNav(); await viewAccueil(); }
+    } catch (e) {
+      app.innerHTML = '<div class="empty narrow"><p>Impossible de charger cette page.</p><p class="muted">Les données de l\'édition ne répondent pas. Recharge la page dans un instant.</p></div>';
+    }
+  }
+
+  document.addEventListener("click", async e => {
+    const t = e.target.closest("[data-lang],[data-fav],[data-fiche],[data-date],[data-latest]");
+    if (!t) return;
+    if (t.dataset.lang) { const id = location.hash.slice(1); state.lang[id] = t.dataset.lang; viewCarte(id); }
+    else if (t.dataset.fav) {
+      const id = t.dataset.fav; const c = (await edition(id.slice(0, 10))).cards.find(x => x.id === id);
+      if (favs[id]) { delete favs[id]; toast("Retirée des favoris"); } else { favs[id] = { titre: c.titre, matiere: c.matiere }; toast("Ajoutée aux favoris"); }
+      save("pressing:favs", favs);
+      t.setAttribute("aria-pressed", String(!!favs[id])); t.setAttribute("aria-label", favs[id] ? "Retirer des favoris" : "Ajouter aux favoris");
+    }
+    else if (t.dataset.fiche) { location.hash = t.dataset.fiche; }
+    else if (t.dataset.date) { state.date = t.dataset.date; if (location.hash === "#accueil") route(); else location.hash = "accueil"; }
+    else if (t.hasAttribute("data-latest")) { state.date = state.index[0]; if (location.hash === "#accueil") { e.preventDefault(); route(); } }
+  });
+  window.addEventListener("hashchange", () => { route().then(() => window.scrollTo(0, 0)); });
+
+  (async function start() {
+    try {
+      const idx = await getJSON("data/index.json");
+      state.index = idx.editions.slice().sort().reverse();
+      state.date = state.index[0];
+      await route();
+    } catch (e) {
+      app.innerHTML = '<div class="empty narrow"><p>Pas encore d\'édition.</p><p class="muted">La première revue de presse arrive dès sa publication.</p></div>';
+    }
+  })();
+})();
+</script>
+
+</body></html>

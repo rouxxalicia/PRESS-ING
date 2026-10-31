@@ -1,0 +1,1130 @@
+{
+ "categories": [
+  {
+   "id": "fondamentaux",
+   "nom": "Les fondamentaux",
+   "desc": "Microéconomie, information, incitations."
+  },
+  {
+   "id": "commerce",
+   "nom": "Commerce international et mondialisation",
+   "desc": "Échanges, spécialisation, protectionnisme."
+  },
+  {
+   "id": "croissance",
+   "nom": "Croissance, innovation et développement",
+   "desc": "Les moteurs de la croissance longue."
+  },
+  {
+   "id": "politiques",
+   "nom": "Politiques économiques et institutions",
+   "desc": "Rôle de l'État, budget, dette."
+  },
+  {
+   "id": "monnaie",
+   "nom": "Monnaie, banque et finance",
+   "desc": "Taux d'intérêt, inflation, marchés financiers."
+  },
+  {
+   "id": "societe",
+   "nom": "Société et sciences sociales",
+   "desc": "École, classes sociales, mobilité."
+  }
+ ],
+ "fiches": [
+  {
+   "id": "avantages-comparatifs",
+   "nom": "Avantages comparatifs",
+   "categorie": "commerce",
+   "type": "Théorie",
+   "annee": "1817",
+   "auteur": "David Ricardo",
+   "accroche": "Un pays gagne à échanger même s'il est moins efficace que ses partenaires partout : il lui suffit de se spécialiser là où son retard est le plus faible.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**David Ricardo**, *Des principes de l'économie politique et de l'impôt* (1817), chapitre 7 « Du commerce extérieur ».",
+      "Avant lui, **Adam Smith** (1776) expliquait l'échange par les **avantages absolus** : chaque pays exporte ce qu'il produit moins cher que les autres. Mais alors, un pays moins productif dans tous les domaines n'aurait rien à vendre. Ricardo montre que c'est faux : ce qui compte n'est pas le coût absolu, mais le **coût relatif**."
+     ]
+    },
+    {
+     "titre": "L'exemple du vin et du drap",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le Portugal",
+       "d": "Il lui faut **80 heures** de travail pour le vin et **90** pour le drap. Il est plus efficace partout, mais son avance est **plus grande sur le vin**."
+      },
+      {
+       "t": "L'Angleterre",
+       "d": "Il lui faut **120 heures** pour le vin et **100** pour le drap. Elle est moins efficace partout, mais son retard est **plus faible sur le drap**."
+      },
+      {
+       "t": "Le résultat",
+       "d": "Le Portugal se spécialise dans le vin, l'Angleterre dans le drap. En échangeant, **chaque pays consomme plus** que s'il produisait tout lui-même."
+      }
+     ]
+    },
+    {
+     "titre": "La clé : le coût d'opportunité",
+     "type": "texte",
+     "paras": [
+      "Au Portugal, produire une unité de vin coûte l'équivalent de 80/90 ≈ **0,9 unité de drap**. En Angleterre, elle en coûte 120/100 = **1,2**. Le vin est donc relativement moins cher au Portugal : c'est là qu'est son **avantage comparatif**.",
+      "Le raisonnement repose sur des hypothèses fortes : le **travail** est la seule source de valeur, les facteurs ne circulent pas entre pays mais passent sans coût d'un secteur à l'autre à l'intérieur d'un pays, et il y a **plein emploi**."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "L'échange international **n'est pas un jeu à somme nulle**, contrairement à ce que pensaient les mercantilistes : tous les pays peuvent y gagner, y compris les moins productifs. C'est l'argument fondateur du **libre-échange**, de l'abrogation des Corn Laws en Angleterre (1846) au GATT (1947) puis à l'OMC (1995)."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Heckscher, Ohlin, Samuelson (HOS)",
+       "d": "Les avantages viennent des **dotations en facteurs** : un pays riche en capital exporte des biens intensifs en capital."
+      },
+      {
+       "t": "Le paradoxe de Leontief (1953)",
+       "d": "Les États-Unis, riches en capital, exportent pourtant des biens plutôt **intensifs en travail** : premier coup porté à HOS."
+      },
+      {
+       "t": "Paul Krugman (1979)",
+       "d": "La **nouvelle théorie du commerce international** : les rendements croissants et le goût pour la variété expliquent l'**échange intra-branche** entre pays semblables."
+      },
+      {
+       "t": "Les avantages construits",
+       "d": "Japon, Corée, Chine : les avantages se **fabriquent** par la politique industrielle et l'apprentissage, ils ne sont pas donnés."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Ricardo ne dit pas que **tout le monde** gagne dans chaque pays : le gain est national et global. Le théorème de **Stolper-Samuelson** (1941) montre que l'ouverture fait perdre le facteur rare. Autor, Dorn et Hanson (2013) ont mesuré ce « **choc chinois** » : des pertes d'emplois industriels concentrées dans certaines régions américaines, qui ne se sont pas reconverties."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La voiture électrique chinoise",
+       "d": "La Chine a construit un avantage sur les batteries : Volvo et Volkswagen perdent des parts de marché."
+      },
+      {
+       "t": "L'entrée de la Chine à l'OMC (2001)",
+       "d": "Spécialisation dans le travail peu qualifié, puis montée en gamme."
+      },
+      {
+       "t": "L'accord UE-Mercosur",
+       "d": "Gains globaux attendus, mais agriculteurs européens perdants."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Heckscher-Ohlin-Samuelson",
+       "idee": "même logique de spécialisation, fondée sur les dotations en facteurs"
+      },
+      {
+       "sens": "≠",
+       "nom": "Friedrich List (1841)",
+       "idee": "protéger une industrie naissante avant d'ouvrir"
+      },
+      {
+       "sens": "≠",
+       "nom": "Stolper-Samuelson (1941)",
+       "idee": "l'ouverture fait des perdants à l'intérieur du pays"
+      },
+      {
+       "sens": "≠",
+       "nom": "Paul Krugman (1979)",
+       "idee": "l'échange entre pays semblables s'explique par les économies d'échelle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "protectionnisme-educateur",
+   "nom": "Protectionnisme éducateur",
+   "categorie": "commerce",
+   "type": "Théorie",
+   "annee": "1841",
+   "auteur": "Friedrich List",
+   "accroche": "Une industrie naissante ne peut pas affronter d'emblée des concurrents plus avancés : il faut la protéger le temps qu'elle grandisse, puis ouvrir les frontières.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Friedrich List**, *Système national d'économie politique* (1841).",
+      "List écrit pour une Allemagne encore morcelée et agricole, face à une Angleterre déjà industrialisée. Il a vécu aux États-Unis, où **Alexander Hamilton** avait défendu dès 1791, dans son *Rapport sur les manufactures*, la protection des jeunes industries américaines. Il soutient aussi le **Zollverein** (1834), l'union douanière qui unifie le marché allemand."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "L'État protège une **industrie naissante** par des droits de douane.",
+      "À l'abri de la concurrence, elle produit plus, **apprend** et profite d'**économies d'échelle**.",
+      "Ses coûts baissent jusqu'à devenir compétitifs face aux pays avancés.",
+      "La protection est alors **levée** : le libre-échange devient profitable."
+     ]
+    },
+    {
+     "titre": "Les conditions posées par List",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Temporaire",
+       "d": "La protection doit **disparaître** une fois l'industrie mûre. Elle prépare le libre-échange, elle ne le remplace pas."
+      },
+      {
+       "t": "Ciblée",
+       "d": "Elle vise les industries **d'avenir**, pas l'agriculture ni les secteurs sans potentiel."
+      },
+      {
+       "t": "Liée au stade de développement",
+       "d": "Elle concerne les pays **en rattrapage**. Pour un pays leader, le libre-échange reste préférable."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Le libre-échange profite surtout aux pays **déjà développés**. List accuse l'Angleterre de « **retirer l'échelle** » après s'en être servie : elle s'est industrialisée à l'abri de protections, puis prêche l'ouverture aux autres. **Ha-Joon Chang** reprend l'image dans *Kicking Away the Ladder* (2002)."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le Japon et la Corée du Sud",
+       "d": "Industrialisation des années 1950 à 1980 sous protection et pilotage de l'État."
+      },
+      {
+       "t": "La Chine et l'électrique",
+       "d": "Subventions, marché intérieur protégé, puis domination mondiale."
+      },
+      {
+       "t": "La réponse occidentale",
+       "d": "Droits compensateurs européens de 2024 sur les véhicules électriques chinois."
+      }
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "Une protection censée être temporaire tend à **durer** : les entreprises protégées cherchent à conserver leur rente. **Anne Krueger** (1974) parle de **recherche de rente**. S'y ajoutent le coût pour les consommateurs, qui paient plus cher, et le risque de **représailles**, comme lors des guerres commerciales des années 1930."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Alexander Hamilton (1791)",
+       "idee": "protéger les industries naissantes américaines"
+      },
+      {
+       "sens": "=",
+       "nom": "Ha-Joon Chang (2002)",
+       "idee": "les pays riches se sont développés sous protection"
+      },
+      {
+       "sens": "≠",
+       "nom": "David Ricardo (1817)",
+       "idee": "le libre-échange profite à tous"
+      },
+      {
+       "sens": "≠",
+       "nom": "Anne Krueger (1974)",
+       "idee": "la protection crée des rentes et des gaspillages"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "destruction-creatrice",
+   "nom": "Destruction créatrice",
+   "categorie": "croissance",
+   "type": "Théorie",
+   "annee": "1942",
+   "auteur": "Joseph Schumpeter",
+   "accroche": "L'innovation fait naître de nouvelles activités en détruisant les anciennes : ce mouvement n'est pas un accident du capitalisme, c'est son moteur.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Joseph Schumpeter**, *Théorie de l'évolution économique* (1911), puis *Capitalisme, socialisme et démocratie* (1942), où apparaît l'expression « destruction créatrice ».",
+      "Schumpeter place au centre de l'économie l'**entrepreneur innovateur**, distinct du capitaliste qui apporte les fonds : c'est lui qui rompt la routine. Son innovation est financée par le **crédit bancaire**, qui avance l'argent avant que les profits n'existent."
+     ]
+    },
+    {
+     "titre": "Les cinq formes d'innovation",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Un nouveau produit",
+       "d": "L'automobile, le smartphone, la voiture électrique."
+      },
+      {
+       "t": "Un nouveau procédé",
+       "d": "Le travail à la chaîne, la robotisation."
+      },
+      {
+       "t": "Un nouveau débouché",
+       "d": "L'ouverture d'un marché étranger."
+      },
+      {
+       "t": "Une nouvelle source de matières premières",
+       "d": "Le pétrole de schiste, le lithium pour les batteries."
+      },
+      {
+       "t": "Une nouvelle organisation",
+       "d": "La création ou la rupture d'un monopole, la plateforme numérique."
+      }
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "L'entrepreneur innove et obtient une **rente de monopole** temporaire.",
+      "Attirés par ce profit, des **imitateurs** se lancent : l'innovation se diffuse.",
+      "Les entreprises et les métiers liés à l'ancienne technologie **disparaissent**.",
+      "Les innovations arrivent en **grappes**, ce qui explique les **cycles longs** de Kondratiev (environ 50 ans)."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Les faillites, les suppressions d'emplois et les crises sectorielles peuvent **accompagner la croissance** au lieu de la contredire. La concurrence qui compte n'est pas celle des prix mais celle de l'**innovation**. La théorie sert à analyser toutes les grandes mutations : machine à vapeur, électricité, numérique, voiture électrique, intelligence artificielle."
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Schumpeter n'est pas un optimiste béat. En 1942, il prédit que le capitalisme pourrait **s'éteindre** : les grandes entreprises bureaucratisent l'innovation dans leurs laboratoires et rendent l'entrepreneur inutile. On distingue ainsi un « Schumpeter I » (l'entrepreneur individuel) et un « Schumpeter II » (la grande firme qui innove)."
+     ]
+    },
+    {
+     "titre": "Les prolongements",
+     "type": "texte",
+     "paras": [
+      "**Philippe Aghion** et **Peter Howitt** formalisent en 1992 une croissance fondée sur la destruction créatrice. Avec **Joel Mokyr**, ils reçoivent le **prix Nobel d'économie 2025**. Aghion insiste sur le rôle de l'État : financer la recherche, protéger les perdants de l'innovation et maintenir la concurrence pour que les entreprises en place ne bloquent pas les nouveaux entrants."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La transition vers l'électrique",
+       "d": "Les constructeurs historiques reculent face à Tesla et BYD."
+      },
+      {
+       "t": "Le numérique",
+       "d": "Les plateformes remplacent les intermédiaires : agences de voyage, disquaires, taxis."
+      },
+      {
+       "t": "L'intelligence artificielle",
+       "d": "Le débat actuel sur les emplois détruits et créés."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Aghion et Howitt (1992)",
+       "idee": "modèle de croissance schumpétérien, Nobel 2025"
+      },
+      {
+       "sens": "=",
+       "nom": "Nikolaï Kondratiev (1926)",
+       "idee": "les cycles longs d'environ 50 ans"
+      },
+      {
+       "sens": "≠",
+       "nom": "Robert Solow (1956)",
+       "idee": "le progrès technique est exogène, sans entrepreneur"
+      },
+      {
+       "sens": "≠",
+       "nom": "Robert Gordon (2016)",
+       "idee": "les innovations récentes portent moins la croissance que les anciennes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fonctions-etat",
+   "nom": "Les trois fonctions de l'État",
+   "categorie": "politiques",
+   "type": "Théorie",
+   "annee": "1959",
+   "auteur": "Richard Musgrave",
+   "accroche": "L'État intervient dans l'économie pour trois raisons distinctes : mieux allouer les ressources, redistribuer les revenus et stabiliser l'activité.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Richard Musgrave**, *The Theory of Public Finance* (1959).",
+      "Musgrave cherche à ordonner les raisons de l'intervention publique, devenue massive après la crise des années 1930 et la Seconde Guerre mondiale. Sa grille reste la façon la plus simple de classer une politique publique."
+     ]
+    },
+    {
+     "titre": "Les trois fonctions",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Allocation",
+       "d": "Corriger les **défaillances de marché** : produire les biens collectifs, corriger les externalités, encadrer les monopoles. Exemple : financer le nucléaire, une route, la recherche."
+      },
+      {
+       "t": "Redistribution",
+       "d": "Corriger la répartition des revenus jugée **injuste** par l'impôt progressif et les prestations sociales."
+      },
+      {
+       "t": "Stabilisation",
+       "d": "Lisser les **cycles** : relancer en récession, freiner en surchauffe, par le budget (et la monnaie)."
+      }
+     ]
+    },
+    {
+     "titre": "Les défaillances de marché à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les biens collectifs",
+       "d": "Non rivaux et non excluables (Samuelson, 1954) : personne ne veut les payer, chacun en profite. Exemple : la défense."
+      },
+      {
+       "t": "Les externalités",
+       "d": "Un coût ou un bénéfice que le marché ne fait pas payer (Pigou, 1920). Exemple : la pollution."
+      },
+      {
+       "t": "Le monopole naturel",
+       "d": "Des coûts fixes si élevés qu'une seule entreprise est efficace. Exemple : le réseau électrique."
+      },
+      {
+       "t": "L'information imparfaite",
+       "d": "Aléa moral et sélection adverse faussent les échanges (Akerlof, Arrow)."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "L'intervention de l'État n'est pas seulement idéologique : elle répond à des **limites précises du marché**. La grille permet de **classer** n'importe quelle mesure : le contrat pour différence des EPR2 relève de l'allocation, un impôt progressif de la redistribution, un plan de relance de la stabilisation."
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "L'école du **choix public** (Buchanan et Tullock, *The Calculus of Consent*, 1962) rappelle que l'État a aussi ses **défaillances** : les élus et les bureaucrates poursuivent leurs propres intérêts. Les trois fonctions peuvent aussi se contredire : stabiliser par le déficit alourdit la dette."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Keynes (1936)",
+       "idee": "la fonction de stabilisation par la demande"
+      },
+      {
+       "sens": "=",
+       "nom": "Pigou (1920)",
+       "idee": "taxer les externalités négatives"
+      },
+      {
+       "sens": "≠",
+       "nom": "Buchanan et Tullock (1962)",
+       "idee": "les défaillances de l'État"
+      },
+      {
+       "sens": "≠",
+       "nom": "Hayek (1944)",
+       "idee": "l'intervention menace la liberté et l'information des prix"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "effet-boule-de-neige",
+   "nom": "Effet boule de neige",
+   "categorie": "politiques",
+   "type": "Notion",
+   "annee": "1944",
+   "auteur": "Evsey Domar",
+   "accroche": "Quand le taux d'intérêt dépasse le taux de croissance, la dette rapportée au PIB augmente d'elle-même, même sans nouveau déficit.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Evsey Domar**, « The \"Burden of the Debt\" and the National Income » (1944).",
+      "Pendant la Seconde Guerre mondiale, les dettes publiques explosent. Domar montre que ce qui compte n'est pas le **montant** de la dette, mais son **poids par rapport au PIB** et la façon dont il évolue."
+     ]
+    },
+    {
+     "titre": "La règle",
+     "type": "texte",
+     "paras": [
+      "La variation du ratio dette/PIB dépend de deux choses : le **solde primaire** (le déficit hors intérêts) et l'écart entre le **taux d'intérêt (r)** et le **taux de croissance (g)** du PIB nominal.",
+      "Si r > g, les intérêts font grossir la dette plus vite que le PIB : il faut un **excédent primaire** pour la stabiliser. Si r < g, la croissance « efface » une partie de la dette, même avec un léger déficit."
+     ]
+    },
+    {
+     "titre": "Les trois cas",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "r > g",
+       "d": "**Effet boule de neige** : le ratio monte tout seul. C'est la situation de la France depuis la remontée des taux."
+      },
+      {
+       "t": "r = g",
+       "d": "Le ratio est stable si le budget est à l'**équilibre primaire**."
+      },
+      {
+       "t": "r < g",
+       "d": "Le ratio baisse sans effort : l'État peut garder un petit déficit. C'était le cas des années 2010."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Un même niveau de dette peut être **soutenable ou explosif** selon les taux et la croissance. La notion explique pourquoi la dette semblait indolore quand les taux étaient proches de zéro, et pourquoi la remontée des taux depuis 2022 inquiète autant : la charge d'intérêts française dépassera 100 milliards d'euros dès 2028."
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "L'effet boule de neige ne dit pas qu'une dette élevée mène forcément à la **faillite**. Le Japon a une dette supérieure à 200 % du PIB, mais elle est détenue surtout par ses propres épargnants et par sa banque centrale, à des taux très bas. La question est moins le niveau que la **confiance des prêteurs**."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "France 2026",
+       "d": "OAT à 10 ans proche de 5 % : les intérêts passent de 79 à 104 milliards en deux ans."
+      },
+      {
+       "t": "Grèce 2010",
+       "d": "Récession et taux élevés : la dette s'envole malgré l'austérité."
+      },
+      {
+       "t": "Les années 2010",
+       "d": "Taux bas : de nombreux pays stabilisent leur dette malgré des déficits."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Reinhart et Rogoff (2010)",
+       "idee": "au-delà de 90 % du PIB, la croissance ralentirait (résultat contesté)"
+      },
+      {
+       "sens": "≠",
+       "nom": "Olivier Blanchard (2019)",
+       "idee": "avec r < g, la dette coûte peu et l'investissement public se justifie"
+      },
+      {
+       "sens": "≠",
+       "nom": "Keynes",
+       "idee": "le déficit relance la croissance, ce qui peut faire baisser le ratio"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "equivalence-ricardienne",
+   "nom": "Équivalence ricardienne",
+   "categorie": "politiques",
+   "type": "Théorie",
+   "annee": "1974",
+   "auteur": "Robert Barro",
+   "accroche": "Financer une dépense par la dette ou par l'impôt revient au même : les ménages épargnent aujourd'hui pour payer les impôts de demain.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Robert Barro**, « Are Government Bonds Net Wealth? » (1974).",
+      "L'intuition remonte à **David Ricardo** (*Essay on the Funding System*, 1820), qui l'évoque tout en doutant qu'elle se vérifie. Barro la formalise dans le cadre de la **nouvelle économie classique**, qui suppose des agents aux anticipations rationnelles."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "L'État baisse les impôts ou dépense plus, **en s'endettant**.",
+      "Les ménages comprennent qu'il faudra **rembourser** par des impôts futurs.",
+      "Ils **épargnent** le surplus de revenu au lieu de le consommer, pour eux ou pour leurs enfants.",
+      "La demande ne bouge pas : le **multiplicateur budgétaire est nul**."
+     ]
+    },
+    {
+     "titre": "Les hypothèses nécessaires",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Des ménages rationnels",
+       "d": "Ils anticipent parfaitement les impôts futurs."
+      },
+      {
+       "t": "Un horizon infini",
+       "d": "Ils se soucient de leurs **descendants** et leur laissent de quoi payer la dette."
+      },
+      {
+       "t": "Pas de contrainte de crédit",
+       "d": "Ils peuvent emprunter et épargner librement."
+      },
+      {
+       "t": "Des impôts forfaitaires",
+       "d": "Les impôts futurs ne modifient pas les comportements."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Une **relance budgétaire** financée par la dette peut rester sans effet sur l'activité. La théorie sert à critiquer les politiques **keynésiennes** et à expliquer pourquoi certaines relances déçoivent, comme celles du Japon depuis les années 1990."
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "Ses hypothèses sont rarement réunies : beaucoup de ménages sont **contraints** et consomment tout supplément de revenu. Les études empiriques ne la vérifient que **partiellement**. Blanchard et Leigh (2013) ont même montré que pendant l'austérité européenne, les **multiplicateurs** étaient plus élevés que prévu : couper les dépenses a freiné la croissance plus que le FMI ne l'attendait."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Robert Lucas (1976)",
+       "idee": "les anticipations rationnelles neutralisent les politiques économiques"
+      },
+      {
+       "sens": "≠",
+       "nom": "Keynes (1936)",
+       "idee": "le multiplicateur : une dépense publique relance l'activité"
+      },
+      {
+       "sens": "≠",
+       "nom": "Blanchard et Leigh (2013)",
+       "idee": "des multiplicateurs élevés pendant l'austérité"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alea-moral",
+   "nom": "Aléa moral",
+   "categorie": "fondamentaux",
+   "type": "Notion",
+   "annee": "1963",
+   "auteur": "Kenneth Arrow",
+   "accroche": "Une fois protégé contre un risque, on fait moins d'efforts pour l'éviter, parce qu'on n'en supporte plus les conséquences.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Kenneth Arrow**, « Uncertainty and the Welfare Economics of Medical Care » (1963).",
+      "Le terme vient de l'assurance. Arrow l'analyse à propos de la santé : un patient assuré consomme plus de soins, puisqu'il n'en paie pas le coût. La notion appartient à l'**économie de l'information**, qui étudie les situations où une partie d'un contrat sait des choses que l'autre ignore : c'est l'**asymétrie d'information**."
+     ]
+    },
+    {
+     "titre": "Les trois problèmes d'information à ne pas confondre",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La sélection adverse",
+       "d": "**Avant** le contrat : l'acheteur ne connaît pas la qualité. Akerlof (1970), le marché des voitures d'occasion, où les mauvaises chassent les bonnes."
+      },
+      {
+       "t": "L'aléa moral",
+       "d": "**Après** le contrat : on ne peut pas observer les efforts de l'autre. L'assuré, couvert, prend plus de risques."
+      },
+      {
+       "t": "Le signal",
+       "d": "La partie informée **envoie un signal** coûteux pour se distinguer. Spence (1973) : le diplôme signale la productivité."
+      }
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "Un contrat protège une partie contre un risque.",
+      "L'autre partie ne peut pas **observer** tous ses efforts.",
+      "La partie protégée prend plus de risques ou fait **moins d'efforts**.",
+      "Le protecteur répond par des **franchises**, des **contrôles** ou des **bonus-malus**."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Toute garantie **modifie les comportements** : assurance, indemnisation du chômage, prêteur en dernier ressort, prix garanti par l'État, sauvetage des banques. La notion explique de nombreuses règles des contrats et des politiques publiques. Akerlof, Spence et Stiglitz ont reçu le **prix Nobel 2001** pour leurs travaux sur l'information imparfaite."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les banques « too big to fail »",
+       "d": "Sûres d'être sauvées, elles prennent plus de risques : crise de 2008."
+      },
+      {
+       "t": "Le contrat pour différence des EPR2",
+       "d": "Des recettes garanties réduisent l'incitation à tenir les coûts."
+      },
+      {
+       "t": "Le salaire d'efficience",
+       "d": "Shapiro et Stiglitz (1984) : payer plus que le marché pour que le salarié ait intérêt à ne pas tirer au flanc."
+      }
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "L'ampleur réelle de l'aléa moral est souvent discutée : les comportements dépendent aussi de **normes sociales**, et une protection peut encourager une prise de risque **utile**, comme entreprendre ou se former. Le débat sur l'assurance chômage en France oppose ainsi ceux qui y voient une désincitation au travail et ceux qui y voient le temps de trouver un emploi adapté."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Jensen et Meckling (1976)",
+       "idee": "théorie de l'agence : le mandataire n'agit pas toujours dans l'intérêt du mandant"
+      },
+      {
+       "sens": "=",
+       "nom": "Stiglitz et Weiss (1981)",
+       "idee": "rationnement du crédit dû à l'information imparfaite"
+      },
+      {
+       "sens": "≠",
+       "nom": "Akerlof (1970)",
+       "idee": "la sélection adverse joue avant le contrat, pas après"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "concours-de-beaute",
+   "nom": "Le concours de beauté",
+   "categorie": "monnaie",
+   "type": "Théorie",
+   "annee": "1936",
+   "auteur": "John Maynard Keynes",
+   "accroche": "Sur les marchés financiers, on ne cherche pas la vraie valeur d'un actif, mais à deviner ce que les autres vont en penser.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**John Maynard Keynes**, *Théorie générale de l'emploi, de l'intérêt et de la monnaie* (1936), chapitre 12 « L'état de la prévision à long terme ».",
+      "Keynes compare la Bourse à un concours de journal de l'époque : les lecteurs doivent choisir les six plus jolis visages parmi cent photos, et gagnent s'ils choisissent ceux que **la majorité** aura choisis. Pour gagner, il ne faut donc pas choisir les visages qu'on trouve beaux, mais ceux que les autres trouveront beaux."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "L'avenir est **incertain** : personne ne connaît la vraie valeur d'un actif.",
+      "Chacun cherche à anticiper ce que pensent les autres, puis ce que les autres pensent que les autres pensent.",
+      "Les opinions convergent vers une **convention** commune, qui peut être sans rapport avec les fondamentaux.",
+      "Quand la convention bascule, tout le monde vend en même temps : bulles et krachs."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Les marchés financiers ne sont pas forcément **efficients** : les prix peuvent s'écarter durablement de la valeur réelle. Les anticipations peuvent devenir **auto-réalisatrices** : si chacun croit qu'un État aura du mal à rembourser, les taux montent… et l'État a vraiment du mal à rembourser. La théorie justifie une **régulation** de la finance."
+     ]
+    },
+    {
+     "titre": "Les notions voisines",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les esprits animaux (animal spirits)",
+       "d": "Keynes : les décisions d'investir dépendent d'un optimisme spontané plus que d'un calcul."
+      },
+      {
+       "t": "Le mimétisme",
+       "d": "André Orléan, *Le Pouvoir de la finance* (1999) : imiter les autres est rationnel quand on manque d'information."
+      },
+      {
+       "t": "Les prophéties auto-réalisatrices",
+       "d": "Robert K. Merton (1948) : une croyance fausse finit par se réaliser parce qu'on agit en fonction d'elle."
+      }
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les agences de notation",
+       "d": "Leurs notes servent de convention commune : tout le monde réagit à la même information."
+      },
+      {
+       "t": "La crise de la zone euro (2010-2012)",
+       "d": "Les taux grecs et italiens s'envolent jusqu'au « whatever it takes » de Draghi."
+      },
+      {
+       "t": "Les bulles",
+       "d": "Internet en 2000, immobilier américain en 2007, cryptomonnaies."
+      }
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "Eugene **Fama** (1970) défend au contraire l'**hypothèse d'efficience des marchés** : les prix intègrent toute l'information disponible, et il est impossible de battre durablement le marché. Les crises répétées ont affaibli cette hypothèse, mais la finance comportementale (Shiller, Nobel 2013) a surtout montré que les deux visions coexistent."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "André Orléan (1999)",
+       "idee": "les marchés fonctionnent par mimétisme et conventions"
+      },
+      {
+       "sens": "=",
+       "nom": "Hyman Minsky (1986)",
+       "idee": "la stabilité engendre l'instabilité financière"
+      },
+      {
+       "sens": "≠",
+       "nom": "Eugene Fama (1970)",
+       "idee": "les marchés sont efficients"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "relation-de-fisher",
+   "nom": "Relation de Fisher",
+   "categorie": "monnaie",
+   "type": "Théorie",
+   "annee": "1930",
+   "auteur": "Irving Fisher",
+   "accroche": "Le taux d'intérêt réel, celui qui compte vraiment, est le taux nominal moins l'inflation.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Irving Fisher**, *The Theory of Interest* (1930).",
+      "Fisher distingue le **taux nominal**, affiché par la banque, du **taux réel**, qui mesure le gain en pouvoir d'achat. Il en tire une relation simple : **taux réel ≈ taux nominal − inflation**."
+     ]
+    },
+    {
+     "titre": "Un exemple",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Livret A à 1,7 % et inflation à 3 %",
+       "d": "Taux réel ≈ **−1,3 %** : l'épargnant perd du pouvoir d'achat."
+      },
+      {
+       "t": "Prêt immobilier à 3,5 % et inflation à 3 %",
+       "d": "Taux réel ≈ **0,5 %** : l'emprunteur rembourse avec une monnaie qui vaut moins."
+      },
+      {
+       "t": "Années 1970",
+       "d": "Inflation à deux chiffres et taux réels **négatifs** : les dettes fondent."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "L'inflation **redistribue** la richesse : elle avantage les **emprunteurs** (ménages endettés, État) et pénalise les **créanciers et épargnants**. Keynes parlait d'« euthanasie du rentier ». La relation sert aussi à juger une politique monétaire : une banque centrale n'est vraiment restrictive que si son taux réel est positif."
+     ]
+    },
+    {
+     "titre": "Fisher et la déflation par la dette",
+     "type": "texte",
+     "paras": [
+      "En 1933, après le krach, Fisher décrit la **déflation par la dette** : quand les prix baissent, le poids réel des dettes augmente, les débiteurs vendent leurs biens pour rembourser, ce qui fait encore baisser les prix. C'est une spirale qui explique la gravité de la crise de 1929, et la peur des banques centrales face à la déflation."
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "La relation suppose que les agents **anticipent** correctement l'inflation. Si l'inflation surprend, les taux nominaux n'ont pas le temps de s'ajuster, ce qui crée des gagnants et des perdants inattendus. On parle d'**illusion monétaire** quand les agents raisonnent en nominal au lieu du réel."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Keynes (1923, 1936)",
+       "idee": "l'inflation organise l'« euthanasie du rentier »"
+      },
+      {
+       "sens": "=",
+       "nom": "Milton Friedman (1968)",
+       "idee": "seules les anticipations d'inflation comptent à long terme"
+      },
+      {
+       "sens": "≠",
+       "nom": "Illusion monétaire",
+       "idee": "les agents raisonnent souvent en nominal, pas en réel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reproduction-sociale",
+   "nom": "Reproduction sociale",
+   "categorie": "societe",
+   "type": "Théorie",
+   "annee": "1964 · 1970",
+   "auteur": "Pierre Bourdieu et Jean-Claude Passeron",
+   "accroche": "L'école, censée récompenser le mérite, transforme des inégalités sociales en inégalités scolaires qui paraissent légitimes.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Pierre Bourdieu** et **Jean-Claude Passeron**, *Les Héritiers. Les étudiants et la culture* (1964), puis *La Reproduction* (1970).",
+      "Ils constatent que les enfants de cadres sont massivement surreprésentés à l'université par rapport aux enfants d'ouvriers. Ils cherchent pourquoi l'école, gratuite et ouverte à tous, n'efface pas ces écarts."
+     ]
+    },
+    {
+     "titre": "Les trois capitaux",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le capital économique",
+       "d": "Les revenus et le patrimoine."
+      },
+      {
+       "t": "Le capital culturel",
+       "d": "Les diplômes, les livres, les manières de parler et de penser transmises par la famille. C'est le plus important pour l'école."
+      },
+      {
+       "t": "Le capital social",
+       "d": "Le réseau de relations qu'on peut mobiliser."
+      }
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "Les enfants de milieux favorisés reçoivent dans leur famille un **capital culturel** proche de la culture scolaire.",
+      "L'école évalue ces qualités comme des **dons** personnels, sans enseigner explicitement ses attentes.",
+      "Les élèves favorisés réussissent mieux, les autres se jugent « pas faits pour les études ».",
+      "L'école **légitime** ainsi l'ordre social : c'est la **violence symbolique**."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La méritocratie scolaire peut **masquer** une reproduction des positions sociales. La théorie explique pourquoi la massification de l'enseignement n'a pas suffi à démocratiser l'accès aux filières prestigieuses (grandes écoles, médecine)."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Parcoursup",
+       "d": "Critères opaques, poids du lycée d'origine, lettres de motivation : avantage à ceux qui maîtrisent les codes."
+      },
+      {
+       "t": "Les grandes écoles",
+       "d": "Les enfants de cadres y restent largement majoritaires."
+      },
+      {
+       "t": "Les enquêtes PISA",
+       "d": "La France est l'un des pays où l'origine sociale pèse le plus sur les résultats."
+      }
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "La théorie est jugée **déterministe** : elle explique mal les réussites « improbables » d'enfants de milieux populaires (Bernard Lahire, *Tableaux de familles*, 1995). Raymond **Boudon** propose une autre explication, fondée sur les choix rationnels des familles plutôt que sur la culture."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Bernard Lahire (1995)",
+       "idee": "le rôle de la famille, mais avec des configurations variées"
+      },
+      {
+       "sens": "≠",
+       "nom": "Raymond Boudon (1973)",
+       "idee": "les inégalités viennent des choix rationnels des familles"
+      },
+      {
+       "sens": "≠",
+       "nom": "Méritocratie républicaine",
+       "idee": "l'école récompense l'effort et le talent individuel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "boudon-choix-rationnel",
+   "nom": "L'inégalité des chances",
+   "categorie": "societe",
+   "type": "Théorie",
+   "annee": "1973",
+   "auteur": "Raymond Boudon",
+   "accroche": "À résultats scolaires égaux, les familles populaires choisissent des études plus courtes, parce qu'elles calculent autrement les coûts et les bénéfices.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Raymond Boudon**, *L'Inégalité des chances. La mobilité sociale dans les sociétés industrielles* (1973).",
+      "Boudon appartient à l'**individualisme méthodologique** : pour expliquer un phénomène social, il faut partir des choix des individus, qui ont de bonnes raisons d'agir comme ils le font."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "À chaque palier d'orientation, la famille compare le **coût**, le **risque** et le **bénéfice** attendu d'une poursuite d'études.",
+      "Pour une famille modeste, le coût paraît plus lourd et l'échec plus grave.",
+      "Le bénéfice paraît plus faible : un bac pro représente déjà une ascension par rapport aux parents ouvriers.",
+      "Les écarts s'**accumulent** à chaque palier : c'est l'effet de cascade."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Les inégalités scolaires ne viennent pas seulement de la culture transmise, mais de **décisions rationnelles** prises dans des situations différentes. Boudon montre aussi le **paradoxe** de la massification : plus de diplômés n'entraîne pas forcément plus de mobilité sociale, car les diplômes perdent de leur valeur relative."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'autocensure sur Parcoursup",
+       "d": "Les lycéens de milieux modestes demandent moins les filières sélectives."
+      },
+      {
+       "t": "L'orientation en seconde",
+       "d": "Mieux informer les familles réduit les choix par défaut."
+      },
+      {
+       "t": "Les bourses et l'internat",
+       "d": "Baisser le coût des études modifie le calcul des familles."
+      }
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "Bourdieu lui reproche d'oublier que les **préférences** elles-mêmes sont façonnées par le milieu social : les « bonnes raisons » des familles ne sont pas indépendantes de leur position. Les deux approches sont souvent présentées comme complémentaires dans les dissertations."
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Individualisme méthodologique (Weber)",
+       "idee": "partir des raisons des acteurs"
+      },
+      {
+       "sens": "≠",
+       "nom": "Bourdieu et Passeron (1964, 1970)",
+       "idee": "l'école reproduit l'ordre social par la culture"
+      },
+      {
+       "sens": "≠",
+       "nom": "Méritocratie",
+       "idee": "l'orientation reflète seulement le niveau scolaire"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

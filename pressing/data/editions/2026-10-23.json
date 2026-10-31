@@ -1,0 +1,512 @@
+{
+ "date": "2026-10-23",
+ "cards": [
+  {
+   "id": "2026-10-23-esh-1",
+   "matiere": "esh",
+   "source": "Euronews",
+   "url": "https://www.euronews.com/2026/10/23/volvo-cars-announces-2500-job-cuts-as-it-swings-to-quarterly-loss",
+   "minutes": 3,
+   "titre": "Volvo Cars supprime 2 500 postes, pris en étau entre la Chine et les droits de douane américains",
+   "faits": "Le 23 octobre, Volvo Cars a publié une perte au troisième trimestre et annoncé 2 500 suppressions de postes, soit environ 6 % de ses effectifs. L'action a perdu plus d'un quart de sa valeur dans la journée. Son directeur général reconnaît que l'effondrement des ventes en Chine est arrivé plus vite que prévu. Le constructeur suédois, propriété du groupe chinois Geely depuis 2010, subit aussi les droits de douane américains, qui renchérissent ses voitures exportées vers les États-Unis. Ce plan s'ajoute aux 3 000 suppressions de postes déjà annoncées en 2025.",
+   "enjeux": "Le paradoxe est frappant : une marque détenue par un groupe chinois est fragilisée par la concurrence chinoise. Les constructeurs chinois, BYD en tête, dominent la voiture électrique grâce à leurs volumes, à leur maîtrise des batteries et au soutien public. L'Union européenne a répondu dès 2024 par des droits compensateurs sur les véhicules électriques chinois, tandis que les États-Unis relèvent leurs propres barrières : les constructeurs européens perdent à la fois des parts de marché en Chine et un accès facile au marché américain. Le cas illustre le déplacement des avantages comparatifs dans une industrie qui pèse plusieurs millions d'emplois en Europe, et relance le débat sur une politique industrielle européenne capable de protéger sans isoler.",
+   "sujets": [
+    "La concurrence chinoise menace-t-elle l'industrie européenne ?",
+    "Le protectionnisme est-il une réponse efficace à la désindustrialisation ?"
+   ],
+   "programme": {
+    "module": "3 - La mondialisation économique et financière",
+    "chapitre": "3.1 - La dynamique de la mondialisation économique"
+   },
+   "auteurs": [
+    {
+     "nom": "David Ricardo",
+     "ouvrage": "Des principes de l'économie politique et de l'impôt",
+     "annee": "1817",
+     "ref": "avantages-comparatifs",
+     "texte": "Ricardo montre qu'un pays gagne à se spécialiser là où son avantage relatif est le plus fort, même s'il est moins efficace partout. Les avantages ne sont pas figés : la Chine, d'abord spécialisée dans les biens à forte intensité en travail, a construit un avantage dans la voiture électrique et les batteries. La spécialisation mondiale se déplace, et des constructeurs européens comme Volvo se retrouvent du mauvais côté. À mobiliser pour expliquer les recompositions de la division internationale du travail, en ajoutant la limite de Stolper-Samuelson : l'ouverture fait des perdants à l'intérieur de chaque pays."
+    },
+    {
+     "nom": "Friedrich List",
+     "ouvrage": "Système national d'économie politique",
+     "annee": "1841",
+     "ref": "protectionnisme-educateur",
+     "texte": "List défend un protectionnisme éducateur : protéger temporairement une industrie naissante, le temps qu'elle devienne compétitive, puis ouvrir les frontières. La Chine a appliqué cette logique à l'automobile électrique, avec des subventions massives et un marché intérieur protégé. Les droits compensateurs européens de 2024 et les droits de douane américains en sont la réplique. À mobiliser dans une dissertation sur le retour du protectionnisme ou la politique industrielle européenne, en nuançant avec le risque de rentes et de représailles."
+    }
+   ]
+  },
+  {
+   "id": "2026-10-23-esh-2",
+   "matiere": "esh",
+   "source": "Renseignement économique",
+   "url": "https://renseignementeconomique.fr/un-contrat-pour-difference-pour-financer-les-six-epr2-quel-partage-des-risques-entre-etat-edf-et-consommateurs",
+   "minutes": 3,
+   "titre": "EPR2 : l'État propose un « contrat pour différence » pour financer six réacteurs nucléaires",
+   "faits": "La France a soumis à la Commission européenne un contrat pour différence destiné à financer les six réacteurs EPR2 annoncés en 2022. Le principe : EDF reçoit un prix de référence garanti pendant 40 ans. Quand le prix de marché passe sous ce niveau, l'État verse la différence ; quand il le dépasse, EDF reverse l'excédent. Le dispositif doit être validé par Bruxelles au titre des aides d'État, et s'accompagne d'un prêt public. La décision finale d'investissement est attendue fin 2026, pour des mises en service pas avant 2038.",
+   "enjeux": "Un réacteur nucléaire coûte des milliards à construire mais presque rien à faire tourner : il ne devient rentable qu'après des décennies. Or sur le marché européen, le prix de l'électricité est fixé par la dernière centrale appelée, souvent au gaz, ce qui le rend très volatil, comme l'a montré la crise de 2022. Avec des recettes aussi incertaines, aucun investisseur ne finance seul un tel projet : le marché sous-investit. Le contrat pour différence, déjà utilisé au Royaume-Uni pour Hinkley Point C et encouragé par la réforme du marché électrique européen de 2024, stabilise les recettes. Mais il transfère le risque vers l'État, donc vers les contribuables et les consommateurs, au moment où le chantier de Flamanville, achevé avec plus d'une décennie de retard, rappelle la fréquence des dérives de coûts.",
+   "sujets": [
+    "L'État doit-il garantir le prix de l'énergie ?",
+    "Marché et transition énergétique : alliés ou contradictoires ?"
+   ],
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - L'intervention économique des pouvoirs publics"
+   },
+   "auteurs": [
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "The Theory of Public Finance",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "texte": "Musgrave distingue trois fonctions de l'État : allocation, redistribution et stabilisation. Le financement des EPR2 relève de la fonction d'allocation : quand le marché ne finance pas un investissement utile à la collectivité, parce que l'horizon est trop long et le risque trop élevé, l'État intervient. Le contrat pour différence en est un instrument moderne, plus fin qu'une nationalisation ou une subvention. À mobiliser pour justifier l'intervention publique dans l'énergie et la transition écologique."
+    },
+    {
+     "nom": "Kenneth Arrow",
+     "ouvrage": "« Uncertainty and the Welfare Economics of Medical Care »",
+     "annee": "1963",
+     "ref": "alea-moral",
+     "texte": "Arrow analyse l'aléa moral : une fois protégé contre un risque, on fait moins d'efforts pour l'éviter. Un prix garanti pendant 40 ans protège EDF contre la baisse des prix, mais réduit aussi son incitation à tenir ses coûts et ses délais, alors que Flamanville a accumulé plus d'une décennie de retard. C'est pourquoi Bruxelles examine la répartition des risques. À mobiliser pour nuancer : l'intervention publique corrige une défaillance de marché mais peut créer ses propres effets pervers."
+    }
+   ]
+  },
+  {
+   "id": "2026-10-23-esh-3",
+   "matiere": "esh",
+   "source": "Renseignement économique",
+   "url": "https://renseignementeconomique.fr/la-charge-d-interets-de-la-dette-francaise-depassera-100-milliards-des-2028-selon-le-plf-2027",
+   "minutes": 3,
+   "titre": "Dette : la charge d'intérêts dépassera 100 milliards d'euros dès 2028",
+   "faits": "Selon le rapport annexé au projet de loi de finances 2027, les intérêts de la dette publique atteindraient 79 milliards d'euros en 2026, 91 milliards en 2027 et 104 milliards en 2028. Ces prévisions reposent sur un taux de l'OAT à 10 ans de 4,2 à 4,3 %, alors qu'il frôle déjà 5 %. Les hypothèses de Bercy paraissent donc optimistes. La Cour des comptes estime qu'une hausse d'un point des taux coûterait environ 40 milliards d'euros par an au bout de sept ans.",
+   "enjeux": "Pendant les années de taux bas, l'État empruntait presque gratuitement et le niveau de la dette inquiétait peu. La remontée des taux change la donne : comme la dette est renouvelée progressivement, chaque année d'emprunts plus chers alourdit durablement la facture. Quand le taux d'intérêt dépasse la croissance, la dette rapportée au PIB augmente mécaniquement : c'est l'effet boule de neige. Les dégradations de la note de la France par Moody's (2024) puis Fitch (2025) renchérissent encore le crédit et creusent l'écart avec l'Allemagne. Chaque milliard d'intérêts est un milliard qui ne va ni à l'éducation, ni à la défense, ni à la transition écologique : l'État doit arbitrer entre baisse des dépenses, hausse des impôts ou nouvelle dette.",
+   "sujets": [
+    "Faut-il craindre la dette publique ?",
+    "La hausse des taux condamne-t-elle la politique budgétaire ?"
+   ],
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - L'intervention économique des pouvoirs publics"
+   },
+   "auteurs": [
+    {
+     "nom": "Evsey Domar",
+     "ouvrage": "« The Burden of the Debt and the National Income »",
+     "annee": "1944",
+     "ref": "effet-boule-de-neige",
+     "texte": "Domar montre que ce qui compte n'est pas le montant de la dette mais sa dynamique par rapport au PIB, qui dépend de l'écart entre le taux d'intérêt et le taux de croissance. Avec une OAT proche de 5 % et une croissance faible, la France entre dans la zone où r dépasse g : la dette grossit d'elle-même. Olivier Blanchard (2019) rappelait à l'inverse qu'avec des taux bas, la dette coûtait peu : la remontée des taux depuis 2022 a renversé son argument. À mobiliser pour tout sujet sur la soutenabilité de la dette."
+    },
+    {
+     "nom": "Robert Barro",
+     "ouvrage": "« Are Government Bonds Net Wealth? »",
+     "annee": "1974",
+     "ref": "equivalence-ricardienne",
+     "texte": "Selon l'équivalence ricardienne, les ménages anticipent que la dette d'aujourd'hui sera payée par les impôts de demain et épargnent en conséquence : une relance par le déficit n'a pas d'effet. L'argument éclaire le débat français : malgré des déficits élevés, l'épargne des ménages reste forte et la croissance faible. À mobiliser pour discuter l'efficacité de la politique budgétaire, en rappelant que ses hypothèses (ménages parfaitement rationnels, sans contrainte de crédit) sont rarement réunies."
+    }
+   ]
+  },
+  {
+   "id": "2026-10-23-anglais-1",
+   "matiere": "anglais",
+   "source": "SCOTUSblog",
+   "url": "https://www.scotusblog.com/2026/10/supreme-court-allows-new-hampshire-to-restrict-use-of-student-ids-in-voting/",
+   "minutes": 3,
+   "titre": "La Cour suprême laisse le New Hampshire refuser les cartes d'étudiant pour voter",
+   "faits": "Le 22 octobre, la Cour suprême a suspendu par une courte ordonnance la décision d'un juge fédéral : le New Hampshire peut refuser les cartes d'étudiant comme pièce d'identité pour obtenir un bulletin, le temps que l'appel soit jugé. La loi HB 323, adoptée en avril et en vigueur depuis juin, les a retirées de la liste des documents valables. Une association, la Coalition for Open Democracy, l'avait attaquée en estimant qu'elle visait les jeunes électeurs. Le juge avait seulement bloqué une consigne du secrétaire d'État décourageant les agents d'accepter ces cartes. Seule la juge Ketanji Brown Jackson s'est opposée à la décision.",
+   "enjeux": "Les voter ID laws se multiplient depuis que l'arrêt Shelby County v. Holder (2013) a supprimé le contrôle fédéral préalable des lois électorales prévu par le Voting Rights Act de 1965. Elles sont justifiées par la lutte contre une fraude quasi inexistante, mais pèsent surtout sur les jeunes et les minorités, plutôt démocrates : leurs opposants parlent de voter suppression. La Cour, à majorité conservatrice (6 juges sur 9), invoque le principe Purcell : les tribunaux ne doivent pas changer les règles électorales à l'approche d'un scrutin. À quelques jours des midterms du 3 novembre, le dossier illustre la polarisation partisane et le poids du fédéralisme, chaque État fixant ses propres règles de vote.",
+   "vo": {
+    "titre": "Supreme Court lets New Hampshire bar student IDs at the polls",
+    "faits": "On 22 October the Supreme Court issued a brief order staying a federal judge's ruling, so New Hampshire can refuse student IDs as proof of identity to obtain a ballot while its appeal goes on. HB 323, passed in April and in force since June, struck them off the list of valid documents. A non-profit, the Coalition for Open Democracy, challenged the law, arguing that it targeted young voters. The judge had only blocked a directive from the Secretary of State discouraging officials from accepting those cards. Justice Ketanji Brown Jackson was the lone dissenter.",
+    "enjeux": "Voter ID laws have spread since Shelby County v. Holder (2013) struck down the federal preclearance of election laws set by the Voting Rights Act of 1965. They are defended as a safeguard against fraud that barely exists, yet they weigh most on young and minority voters, who lean Democratic: critics call it voter suppression. The Court, with its 6-3 conservative majority, relied on the Purcell principle: courts should not change election rules close to a vote. Days before the 3 November midterms, the case shows both partisan polarisation and the weight of federalism, since each state sets its own voting rules."
+   },
+   "vocab": [
+    [
+     "to bar / to ban",
+     "interdire"
+    ],
+    [
+     "voter ID law",
+     "loi sur l'identification des électeurs"
+    ],
+    [
+     "voter suppression",
+     "entrave au vote"
+    ],
+    [
+     "to stay a ruling",
+     "suspendre une décision"
+    ],
+    [
+     "lone dissenter",
+     "seule voix dissidente"
+    ],
+    [
+     "preclearance",
+     "contrôle préalable (fédéral)"
+    ]
+   ],
+   "sujets": [
+    "Voting rights in the US: is American democracy under strain?",
+    "Federalism and elections: who should set the rules?"
+   ]
+  },
+  {
+   "id": "2026-10-23-anglais-2",
+   "matiere": "anglais",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/news/uk/2026/10/23/uk-government-advises-stockpiling-water-and-food/",
+   "minutes": 3,
+   "titre": "Le Royaume-Uni demande à chaque foyer de tenir trois jours en autonomie",
+   "faits": "Le 23 octobre, le gouvernement britannique a publié une liste de réserves que chaque foyer devrait garder pour tenir trois jours seul : eau en bouteille, nourriture non périssable, lampe, piles, radio, espèces, copies des documents importants, couvertures. Le ministre de la Sécurité Dan Jarvis a présenté la mesure au Parlement. Il cite les intempéries, la sécheresse, les inondations, l'intelligence artificielle et les activités hostiles de la Russie et de l'Iran, en rappelant les tempêtes de l'hiver dernier et les incendies de cet été. Le lancement avait été repoussé sous le précédent Premier ministre, par crainte de paraître trop pessimiste.",
+   "enjeux": "Le Royaume-Uni rejoint ses voisins européens : la Suède a envoyé en 2024 une brochure « En cas de crise ou de guerre » à tous les foyers, et l'Union européenne recommande depuis 2025 de pouvoir tenir 72 heures. La sécurité n'est plus seulement l'affaire de l'armée et de l'État : on parle de résilience de toute la société face aux menaces hybrides (cyberattaques, sabotages). Le changement climatique devient lui aussi une question de sécurité nationale : étés plus chauds, besoins en eau des centres de données, et aucun réservoir construit depuis 1992. Le gouvernement doit pourtant rassurer sans affoler, pour éviter les achats de panique de 2020.",
+   "vo": {
+    "titre": "Britain tells every household to be ready to cope alone for three days",
+    "faits": "On 23 October the British government published a list of supplies every household should keep to get through three days on its own: bottled water, non-perishable food, a torch, batteries, a radio, cash, copies of important documents and blankets. Security Minister Dan Jarvis set out the plan in Parliament. He named severe weather, drought, flooding, artificial intelligence and hostile activity by Russia and Iran, pointing to last winter's storms and this summer's wildfires. The launch had been shelved under the previous prime minister for fear of sounding too gloomy.",
+    "enjeux": "Britain is falling into line with its European neighbours: Sweden sent every household an \"If crisis or war comes\" booklet in 2024, and the EU has advised since 2025 that people be able to cope for 72 hours. Security is no longer just a matter for the armed forces and the state: the buzzword is whole-of-society resilience against hybrid threats such as cyberattacks and sabotage. Climate change is also becoming a national security issue, with hotter summers, thirsty data centres and no new reservoir built since 1992. Yet the government must reassure without alarming, to avoid a repeat of the 2020 panic buying."
+   },
+   "vocab": [
+    [
+     "to stockpile",
+     "faire des réserves"
+    ],
+    [
+     "emergency supplies",
+     "provisions d'urgence"
+    ],
+    [
+     "whole-of-society resilience",
+     "résilience de toute la société"
+    ],
+    [
+     "hybrid threats",
+     "menaces hybrides"
+    ],
+    [
+     "panic buying",
+     "achats de panique"
+    ],
+    [
+     "to shelve a plan",
+     "mettre un projet au placard"
+    ]
+   ],
+   "sujets": [
+    "Is Britain ready for the next crisis?",
+    "Climate change: the new frontier of national security?"
+   ]
+  },
+  {
+   "id": "2026-10-23-anglais-3",
+   "matiere": "anglais",
+   "source": "Social Care Today",
+   "url": "https://socialcare.today/2026/10/23/over-80000-children-wait-over-a-year-for-community-health-appointments/",
+   "minutes": 3,
+   "titre": "NHS : plus de 80 000 enfants attendent un rendez-vous depuis plus d'un an",
+   "faits": "Le rapport annuel State of Care de la Care Quality Commission, régulateur indépendant de la santé en Angleterre, publié le 23 octobre, révèle que plus de 80 000 enfants attendent depuis plus d'un an un rendez-vous de santé de proximité, souvent pour un diagnostic d'autisme ou de TDAH. Les enfants sont 11 fois plus exposés que les adultes à ces attentes. Les demandes de premier contact en santé mentale ont bondi de 31 % en deux ans. Le nombre d'infirmières scolaires a baissé de 38 % depuis 2010. Les écarts géographiques sont nets : les enfants des quartiers pauvres ont deux fois plus de caries, et le Nord est plus touché que Londres et le Sud-Est.",
+   "enjeux": "Le NHS, créé en 1948 par Aneurin Bevan sur le principe de soins gratuits pour tous, reste le symbole de l'État-providence britannique. Mais les années d'austérité après 2010 ont réduit les services de prévention, et les listes d'attente ont atteint des records après la pandémie. Le rapport montre un effet en chaîne : faute de suivi précoce, les jeunes patients finissent aux urgences ou en psychiatrie de crise, ce qui coûte plus cher. Les inégalités de santé selon le lieu de vie, déjà dénoncées par le rapport Marmot en 2010, se creusent : c'est la « postcode lottery ».",
+   "vo": {
+    "titre": "NHS: more than 80,000 children have waited over a year for care",
+    "faits": "The Care Quality Commission's annual State of Care report, published on 23 October by England's independent health regulator, finds that more than 80,000 children have waited over a year for a community health appointment, often for an autism or ADHD assessment. Children are 11 times more likely than adults to face such waits. Requests for a first contact with mental health services have jumped by 31% in two years. School nurse numbers have fallen by 38% since 2010. The regional gaps are stark: children in deprived areas have twice as much tooth decay, and the North is harder hit than London and the South-East.",
+    "enjeux": "The NHS, founded in 1948 by Aneurin Bevan on the principle of care free at the point of use, remains the symbol of the British welfare state. But the austerity years after 2010 cut preventive services, and waiting lists hit record highs after the pandemic. The report shows a knock-on effect: without early care, young patients end up in A&E or crisis mental health services, which costs more. Health inequalities by place, already highlighted by the 2010 Marmot Review, are widening: the so-called postcode lottery."
+   },
+   "vocab": [
+    [
+     "waiting list",
+     "liste d'attente"
+    ],
+    [
+     "community health services",
+     "soins de proximité"
+    ],
+    [
+     "deprived area",
+     "quartier défavorisé"
+    ],
+    [
+     "free at the point of use",
+     "gratuit au moment des soins"
+    ],
+    [
+     "postcode lottery",
+     "inégalités selon le lieu de vie"
+    ],
+    [
+     "A&E (Accident and Emergency)",
+     "les urgences"
+    ]
+   ],
+   "sujets": [
+    "Is the NHS still fit for purpose?",
+    "What is the legacy of austerity on British public services?"
+   ]
+  },
+  {
+   "id": "2026-10-23-espagnol-1",
+   "matiere": "espagnol",
+   "source": "Mundiario",
+   "url": "https://www.mundiario.com/articulo/sociedad/huelga-general-iberica-sindicatos-espana-portugal-negocian-movilizacion-11-noviembre/20261023025318448519.html",
+   "minutes": 3,
+   "titre": "Espagne et Portugal vers une grève générale ibérique le 11 novembre",
+   "faits": "Les syndicats espagnols CCOO et UGT discutent avec leurs homologues portugais d'une grève générale commune le 11 novembre, a confirmé Unai Sordo, secrétaire général de CCOO. La grève espagnole était déjà prévue ; la participation du Portugal dépend de ses syndicats, qui n'ont pas encore tranché. Les motifs : la crise du logement, des loyers qui augmentent plus vite que les revenus, la perte de pouvoir d'achat et l'inquiétude sur les retraites. Au Portugal, la police a démantelé des campements de protestation à Lisbonne et Porto. D'autres grèves sont annoncées en France le 5 novembre et en Italie le 20.",
+   "enjeux": "Le logement est devenu le premier problème social de la péninsule : la pression touristique, les locations saisonnières et la faiblesse du logement social font flamber les prix dans les grandes villes. En Espagne, la loi sur le logement de 2023 n'a pas suffi, et le rejet par le Congrès des décrets de Pedro Sánchez a provoqué des élections anticipées : la grève tombera donc en pleine campagne. Une grève ibérique aurait un précédent, celle du 14 novembre 2012 contre l'austérité. Elle montre aussi une européanisation des mobilisations sociales, avec un calendrier coordonné entre plusieurs pays.",
+   "vo": {
+    "titre": "España y Portugal, hacia una huelga general ibérica el 11 de noviembre",
+    "faits": "Los sindicatos CCOO y UGT negocian con sus homólogos portugueses una huelga general conjunta el 11 de noviembre, según confirmó Unai Sordo, secretario general de CCOO. La huelga española ya estaba convocada; la participación de Portugal depende de sus sindicatos, que aún no han decidido. Los motivos: la crisis de la vivienda, unos alquileres que suben más rápido que los ingresos, la pérdida de poder adquisitivo y la preocupación por las pensiones. En Portugal, la policía ha desmantelado acampadas de protesta en Lisboa y Oporto. También hay huelgas anunciadas en Francia el 5 de noviembre y en Italia el 20.",
+    "enjeux": "La vivienda se ha convertido en el primer problema social de la península: la presión turística, los pisos turísticos y la escasez de vivienda social disparan los precios en las grandes ciudades. En España, la Ley de Vivienda de 2023 no ha bastado, y el rechazo del Congreso a los decretos de Pedro Sánchez provocó elecciones anticipadas: la huelga coincidirá con la campaña. Una huelga ibérica tendría un precedente, la del 14 de noviembre de 2012 contra la austeridad. Refleja además una europeización de las movilizaciones sociales, con un calendario coordinado entre varios países."
+   },
+   "vocab": [
+    [
+     "la huelga general",
+     "la grève générale"
+    ],
+    [
+     "convocar",
+     "appeler à (une grève, des élections)"
+    ],
+    [
+     "el poder adquisitivo",
+     "le pouvoir d'achat"
+    ],
+    [
+     "el alquiler",
+     "le loyer"
+    ],
+    [
+     "los pisos turísticos",
+     "les locations touristiques"
+    ],
+    [
+     "la acampada",
+     "le campement"
+    ]
+   ],
+   "sujets": [
+    "La crisis de la vivienda en España: ¿fracaso de las políticas públicas?",
+    "¿Sigue siendo la huelga un arma eficaz para los trabajadores?"
+   ]
+  },
+  {
+   "id": "2026-10-23-espagnol-2",
+   "matiere": "espagnol",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/espana/2026/10/23/elecciones-generales-en-espana-29-n-en-directo-ultima-hora-de-los-sondeos-los-debates-y-las-entrevistas-a-pedro-sanchez-y-feijoo/",
+   "minutes": 3,
+   "titre": "Élections du 29 novembre : PP et Vox en tête, le PSOE réduit l'écart",
+   "faits": "Les Espagnols votent le 29 novembre, après la dissolution décidée par Pedro Sánchez ; les partis ont jusqu'au 26 octobre pour déposer leurs listes. Tous les sondages sauf celui du CIS, l'institut public, donnent au PP et à Vox une majorité pour gouverner. Selon IMOP, le PSOE réduit l'écart et le PP perd des sièges au profit de Vox. Un face-à-face Feijóo–Sánchez est prévu le 16 novembre. En meeting à Valence, Alberto Núñez Feijóo affirme que l'Espagne a besoin « d'un serviteur et non d'un imposteur » ; Pedro Sánchez reconnaît s'être trompé en faisant confiance à José Luis Ábalos et accuse les régions du PP de saboter sa politique du logement.",
+   "enjeux": "Depuis 2015, la fin du bipartisme PP-PSOE a fragmenté le Parlement : Podemos et Ciudadanos, puis Vox, entré au Congrès en 2019, rendent toute majorité difficile. Le pays a déjà connu des blocages d'investiture et des élections répétées en 2016 et 2019. La loi d'amnistie de 2024 et les affaires de corruption autour d'Ábalos ont durci la polarisation. Si le PP dépend de Vox pour gouverner, la question des alliances avec l'extrême droite sera centrale. C'est le cœur du thème « España cada vez menos gobernable ».",
+   "vo": {
+    "titre": "Elecciones del 29-N: PP y Vox, en cabeza; el PSOE recorta distancias",
+    "faits": "Los españoles votan el 29 de noviembre, tras la disolución de las Cortes decidida por Pedro Sánchez; los partidos tienen hasta el 26 de octubre para registrar sus listas. Todas las encuestas salvo la del CIS, el instituto público, dan a PP y Vox mayoría para gobernar. Según IMOP, el PSOE recorta distancias y el PP pierde escaños en favor de Vox. Habrá un cara a cara Feijóo–Sánchez el 16 de noviembre. En un mitin en València, Alberto Núñez Feijóo afirmó que España necesita «un servidor y no un impostor»; Pedro Sánchez admite que se equivocó al confiar en José Luis Ábalos y acusa a las comunidades del PP de sabotear su política de vivienda.",
+    "enjeux": "Desde 2015, el fin del bipartidismo PP-PSOE ha fragmentado el Parlamento: Podemos y Ciudadanos, y luego Vox, que entró en el Congreso en 2019, complican cualquier mayoría. El país ya vivió bloqueos de investidura y elecciones repetidas en 2016 y 2019. La ley de amnistía de 2024 y los casos de corrupción en torno a Ábalos han endurecido la polarización. Si el PP depende de Vox para gobernar, los pactos con la extrema derecha estarán en el centro del debate. Es el núcleo del tema «España cada vez menos gobernable»."
+   },
+   "vocab": [
+    [
+     "las elecciones anticipadas",
+     "les élections anticipées"
+    ],
+    [
+     "el sondeo / la encuesta",
+     "le sondage"
+    ],
+    [
+     "el escaño",
+     "le siège (de député)"
+    ],
+    [
+     "recortar distancias",
+     "réduire l'écart"
+    ],
+    [
+     "el bipartidismo",
+     "le bipartisme"
+    ],
+    [
+     "la investidura",
+     "l'investiture (du chef du gouvernement)"
+    ]
+   ],
+   "sujets": [
+    "¿Es España cada vez menos gobernable?",
+    "El auge de Vox: ¿fin del bipartidismo en España?"
+   ]
+  },
+  {
+   "id": "2026-10-23-espagnol-3",
+   "matiere": "espagnol",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/espana/agencias/2026/10/23/las-fuerzas-de-seguridad-desalojan-200-migrantes-de-garajes-azoteas-y-viviendas-en-ceuta/",
+   "minutes": 3,
+   "titre": "Ceuta : 200 migrants délogés, trois mois après l'entrée massive de l'été",
+   "faits": "Le 23 octobre, la police nationale et la Guardia Civil ont délogé environ 200 migrants installés dans des garages, sur des toits et dans des logements du quartier d'El Príncipe, à Ceuta, depuis l'entrée massive de fin juillet. Selon le ministre Ángel Víctor Torres, 13 101 personnes sont retournées au Maroc depuis le 10 août, et 6 100 des quelque 8 000 places d'accueil sont occupées. Ceuta a enregistré 3 434 mineurs non accompagnés ; seuls quelques centaines ont été transférés vers la péninsule ou rendus à leur famille. Le ministre appelle à ne pas « diaboliser » le Maroc, malgré la présence de bateaux marocains dans les eaux espagnoles voisines.",
+   "enjeux": "Ceuta et Melilla sont les seules frontières terrestres de l'Union européenne en Afrique, ce qui en fait des points de pression permanents. En mai 2021 déjà, environ 10 000 personnes étaient entrées à Ceuta après l'accueil en Espagne du chef du Front Polisario : le Maroc utilise la pression migratoire comme levier diplomatique. Depuis 2022, Madrid soutient le plan d'autonomie marocain pour le Sahara occidental et ménage Rabat, d'où la prudence du gouvernement. La répartition des mineurs isolés oppose aussi l'État aux communautés autonomes dirigées par le PP, en pleine campagne électorale.",
+   "vo": {
+    "titre": "Ceuta: desalojan a 200 migrantes tres meses después de la entrada masiva del verano",
+    "faits": "El 23 de octubre, la Policía Nacional y la Guardia Civil desalojaron a unos 200 migrantes que vivían en garajes, azoteas y viviendas del barrio de El Príncipe, en Ceuta, desde la entrada masiva de finales de julio. Según el ministro Ángel Víctor Torres, 13.101 personas han regresado a Marruecos desde el 10 de agosto, y 6.100 de las casi 8.000 plazas de acogida están ocupadas. Ceuta ha registrado 3.434 menores no acompañados; solo unos cientos han sido trasladados a la península o reagrupados con sus familias. El ministro pide no «demonizar» a Marruecos, pese a la presencia de embarcaciones marroquíes en aguas españolas cercanas.",
+    "enjeux": "Ceuta y Melilla son las únicas fronteras terrestres de la Unión Europea en África, lo que las convierte en puntos de presión permanentes. Ya en mayo de 2021, unas 10.000 personas entraron en Ceuta tras la acogida en España del líder del Frente Polisario: Marruecos usa la presión migratoria como palanca diplomática. Desde 2022, Madrid apoya el plan de autonomía marroquí para el Sáhara Occidental y cuida la relación con Rabat, de ahí la prudencia del Gobierno. El reparto de los menores no acompañados enfrenta además al Estado con las comunidades autónomas del PP, en plena campaña electoral."
+   },
+   "vocab": [
+    [
+     "desalojar",
+     "déloger, évacuer"
+    ],
+    [
+     "los menores no acompañados",
+     "les mineurs non accompagnés"
+    ],
+    [
+     "la acogida",
+     "l'accueil"
+    ],
+    [
+     "la presión migratoria",
+     "la pression migratoire"
+    ],
+    [
+     "la palanca diplomática",
+     "le levier diplomatique"
+    ],
+    [
+     "la azotea",
+     "le toit-terrasse"
+    ]
+   ],
+   "sujets": [
+    "Ceuta y Melilla: ¿fronteras de España o de Europa?",
+    "La inmigración, ¿un arma diplomática en manos de Marruecos?"
+   ]
+  },
+  {
+   "id": "2026-10-23-allemand-1",
+   "matiere": "allemand",
+   "source": "ARIVA / dpa",
+   "url": "https://www.ariva.de/news/merz-optimistisch-ueber-einigung-in-koalition-zur-12176278",
+   "minutes": 3,
+   "titre": "Retraites : Merz promet un compromis sur le départ anticipé",
+   "faits": "Le 21 octobre, le chancelier Friedrich Merz s'est dit confiant dans un accord entre la CDU et le SPD sur la retraite sans décote après 45 ans de cotisations, une solution « dont tout le monde sera satisfait ». Il refuse de supprimer ce dispositif mais veut discuter des cas de rigueur. Pour lui, le cœur de la réforme est une retraite par capitalisation (Kapitalrente) dont les rendements doivent relever le niveau des pensions à partir de 2040. Ces mesures viennent d'une commission sur les retraites, qui a fait 33 recommandations, dont l'indexation de l'âge de départ sur l'espérance de vie. Le projet de loi, préparé par la ministre Bärbel Bas (SPD), devrait passer en Conseil des ministres cette année et au Bundestag au premier trimestre 2027, plus tard que prévu.",
+   "enjeux": "L'Allemagne vieillit vite : les baby-boomers partent à la retraite et de moins en moins d'actifs financent de plus en plus de pensionnés dans le système par répartition (Umlageverfahren). La retraite après 45 ans de cotisations, introduite en 2014, est populaire mais coûteuse. La coalition se divise : la CDU veut faire travailler plus longtemps, le SPD défend les carrières longues et le niveau des pensions. Dès 2025, de jeunes députés CDU s'étaient opposés au paquet retraites au nom de l'équité entre générations. L'introduction d'une part de capitalisation marque un tournant pour un modèle bismarckien fondé sur la répartition.",
+   "vo": {
+    "titre": "Rente: Merz verspricht einen Kompromiss bei der Frühverrentung",
+    "faits": "Am 21. Oktober zeigte sich Bundeskanzler Friedrich Merz zuversichtlich, dass CDU und SPD sich bei der abschlagsfreien Rente nach 45 Beitragsjahren einigen, mit einer Lösung, „mit der alle zufrieden sein werden“. Abschaffen will er sie nicht, über Härtefälle müsse aber gesprochen werden. Kern der Reform ist für ihn eine Kapitalrente, deren Erträge das Rentenniveau ab 2040 anheben sollen. Die Vorschläge stammen aus einer Rentenkommission mit 33 Empfehlungen, darunter die Kopplung des Renteneintritts an die Lebenserwartung. Den Gesetzentwurf erarbeitet Arbeitsministerin Bärbel Bas (SPD); das Kabinett soll ihn noch dieses Jahr beschließen, der Bundestag erst im ersten Quartal 2027, später als geplant.",
+    "enjeux": "Deutschland altert schnell: Die Babyboomer gehen in Rente, und immer weniger Erwerbstätige finanzieren im Umlageverfahren immer mehr Rentner. Die Rente nach 45 Beitragsjahren, 2014 eingeführt, ist beliebt, aber teuer. Die Koalition ist gespalten: Die CDU will längeres Arbeiten, die SPD verteidigt lange Erwerbsbiografien und das Rentenniveau. Schon 2025 hatten junge CDU-Abgeordnete das Rentenpaket im Namen der Generationengerechtigkeit abgelehnt. Eine kapitalgedeckte Säule wäre eine Wende für das bismarcksche, umlagefinanzierte Modell."
+   },
+   "vocab": [
+    [
+     "die Frühverrentung",
+     "le départ anticipé à la retraite"
+    ],
+    [
+     "das Beitragsjahr",
+     "l'année de cotisation"
+    ],
+    [
+     "abschlagsfrei",
+     "sans décote"
+    ],
+    [
+     "das Umlageverfahren",
+     "le système par répartition"
+    ],
+    [
+     "die Generationengerechtigkeit",
+     "l'équité entre générations"
+    ],
+    [
+     "der Härtefall",
+     "le cas de rigueur"
+    ]
+   ],
+   "sujets": [
+    "Ist das deutsche Rentensystem noch zukunftsfähig?",
+    "Generationengerechtigkeit: Wer zahlt für die alternde Gesellschaft?"
+   ]
+  },
+  {
+   "id": "2026-10-23-allemand-2",
+   "matiere": "allemand",
+   "source": "Bundesbank / Verbraucherschutzforum",
+   "url": "https://verbraucherschutzforum.berlin/2026-10-22/wirtschaftsueberblick-vom-22-oktober-2026-deutsche-wirtschaft-stagniert-sap-meldet-rekordumsatz-und-milliardenstrafe-gegen-meta-441801/",
+   "minutes": 3,
+   "titre": "L'économie allemande à l'arrêt au troisième trimestre, selon la Bundesbank",
+   "faits": "Dans son rapport mensuel du 21 octobre, la Bundesbank estime que l'économie allemande a stagné au troisième trimestre, après la reprise du premier semestre. Elle cite l'énergie chère, les difficultés de l'industrie, la crise de l'automobile et le niveau très bas du Rhin, qui a gêné le transport de marchandises. Elle craint que les prix élevés de l'énergie se diffusent aux autres biens et services, et prévoit de nouvelles charges début 2027 avec les réformes de la santé et la fin d'aides temporaires sur le carburant. Elle ne voit pas pour autant de rupture durable de la reprise. Le même jour, l'éditeur de logiciels SAP annonçait un chiffre d'affaires trimestriel record de plus de 10 milliards d'euros.",
+   "enjeux": "Le modèle allemand reposait sur deux piliers : une énergie bon marché, en grande partie le gaz russe jusqu'en 2022, et l'exportation de biens industriels, notamment vers la Chine. Les deux vacillent. Le contraste entre l'industrie en panne et SAP en pleine forme montre que la croissance se déplace vers le numérique. Le Rhin à sec rappelle que le changement climatique pèse déjà sur la logistique. Pour relancer, Berlin a assoupli en 2025 son frein à l'endettement pour la défense et lancé un fonds de 500 milliards d'euros pour les infrastructures. Le débat sur l'Allemagne « homme malade de l'Europe » revient.",
+   "vo": {
+    "titre": "Bundesbank: Deutsche Wirtschaft stagniert im dritten Quartal",
+    "faits": "In ihrem Monatsbericht vom 21. Oktober geht die Bundesbank davon aus, dass die deutsche Wirtschaft im dritten Quartal nach der Erholung im ersten Halbjahr stagniert hat. Sie nennt hohe Energiepreise, Probleme in der Industrie, die Krise der Autobranche und das Niedrigwasser im Rhein, das den Warentransport erschwerte. Sie befürchtet, dass die hohen Energiepreise auf andere Waren und Dienstleistungen durchschlagen, und erwartet Anfang 2027 zusätzliche Belastungen durch Änderungen im Gesundheitswesen und das Auslaufen befristeter Kraftstoffentlastungen. Einen dauerhaften Abbruch der Erholung sieht sie aber nicht. Am selben Tag meldete SAP erstmals einen Quartalsumsatz von über zehn Milliarden Euro.",
+    "enjeux": "Das deutsche Modell ruhte auf zwei Säulen: billiger Energie, bis 2022 vor allem russischem Gas, und dem Export von Industriegütern, besonders nach China. Beide wanken. Der Kontrast zwischen der schwächelnden Industrie und dem boomenden SAP zeigt, dass sich das Wachstum ins Digitale verlagert. Das Niedrigwasser im Rhein erinnert daran, dass der Klimawandel schon die Logistik belastet. Um gegenzusteuern, hat Berlin 2025 die Schuldenbremse für Verteidigung gelockert und ein Sondervermögen von 500 Milliarden Euro für Infrastruktur aufgelegt. Die Debatte über Deutschland als „kranken Mann Europas“ kehrt zurück."
+   },
+   "vocab": [
+    [
+     "die Konjunktur",
+     "la conjoncture"
+    ],
+    [
+     "stagnieren",
+     "stagner"
+    ],
+    [
+     "das Niedrigwasser",
+     "les basses eaux"
+    ],
+    [
+     "durchschlagen auf",
+     "se répercuter sur"
+    ],
+    [
+     "das Sondervermögen",
+     "le fonds spécial (hors budget)"
+    ],
+    [
+     "der kranke Mann Europas",
+     "l'homme malade de l'Europe"
+    ]
+   ],
+   "sujets": [
+    "Ist Deutschland wieder der kranke Mann Europas?",
+    "Hat das deutsche Exportmodell ausgedient?"
+   ]
+  },
+  {
+   "id": "2026-10-23-allemand-3",
+   "matiere": "allemand",
+   "source": "onvista / dpa",
+   "url": "https://www.onvista.de/news/2026/10-22-steuerschaetzung-bringt-bund-kaum-entlastung-klingbeil-sieht-sparbedarf-0-20-26567380",
+   "minutes": 3,
+   "titre": "Recettes fiscales : « pas de nouveaux trous, mais pas de nouvelles marges » pour Berlin",
+   "faits": "Selon l'estimation fiscale publiée le 22 octobre, les recettes de l'État fédéral, des Länder et des communes augmenteront de 43,4 milliards d'euros d'ici 2030 par rapport aux prévisions, mais l'État fédéral n'en récupère qu'une faible part. Pour 2027, ses 4,1 milliards de recettes supplémentaires seront absorbés par la réforme de l'impôt sur le revenu et une marge d'endettement réduite. Le ministre des Finances Lars Klingbeil (SPD) résume : pas de nouveaux trous, mais pas de nouvelles marges. Il n'y a pas d'argent pour baisser la taxe sur l'électricité pour tous les ménages. Il manque toujours plus de 100 milliards d'euros dans la planification 2028-2030, et le budget 2027 doit être finalisé en commission le 12 novembre.",
+   "enjeux": "Berlin doit consolider ses finances alors que l'économie stagne, ce qui rend chaque choix douloureux. Le frein à l'endettement, inscrit dans la Loi fondamentale en 2009, limite le déficit structurel de l'État fédéral, même s'il a été assoupli en 2025 pour la défense et les infrastructures. La baisse de la taxe sur l'électricité, promesse de la coalition, cristallise le débat : elle soulagerait les ménages mais creuserait le trou. Le fédéralisme fiscal joue aussi : les Länder et les communes profitent davantage de la hausse des recettes. Économiser ou investir, c'est la question qui domine la préparation du budget 2027.",
+   "vo": {
+    "titre": "Steuerschätzung: „Keine neuen Lücken, aber auch keine neuen Spielräume“",
+    "faits": "Laut der am 22. Oktober veröffentlichten Steuerschätzung nehmen Bund, Länder und Gemeinden bis 2030 insgesamt 43,4 Milliarden Euro mehr ein als erwartet, doch beim Bund kommt davon nur ein kleiner Teil an. Seine 4,1 Milliarden Euro Mehreinnahmen für 2027 werden durch die geplante Einkommensteuerreform und einen geringeren Verschuldungsspielraum aufgezehrt. Finanzminister Lars Klingbeil (SPD) fasst zusammen: keine neuen Lücken, aber auch keine neuen Spielräume. Für eine Senkung der Stromsteuer für alle Haushalte fehle das Geld. In der Finanzplanung 2028 bis 2030 fehlen weiterhin mehr als 100 Milliarden Euro; der Haushaltsausschuss will den Etat 2027 am 12. November abschließend beraten.",
+    "enjeux": "Berlin muss konsolidieren, während die Wirtschaft stagniert: Jede Entscheidung tut weh. Die Schuldenbremse, seit 2009 im Grundgesetz, begrenzt das strukturelle Defizit des Bundes, auch wenn sie 2025 für Verteidigung und Infrastruktur gelockert wurde. Die Senkung der Stromsteuer, ein Versprechen der Koalition, bündelt den Streit: Sie würde die Haushalte entlasten, aber die Lücke vergrößern. Auch der Steuerföderalismus spielt eine Rolle: Länder und Gemeinden profitieren stärker von den Mehreinnahmen. Sparen oder investieren, das ist die Kernfrage beim Haushalt 2027."
+   },
+   "vocab": [
+    [
+     "die Steuerschätzung",
+     "l'estimation des recettes fiscales"
+    ],
+    [
+     "die Mehreinnahmen",
+     "les recettes supplémentaires"
+    ],
+    [
+     "der Spielraum",
+     "la marge de manœuvre"
+    ],
+    [
+     "die Haushaltslücke",
+     "le trou budgétaire"
+    ],
+    [
+     "die Schuldenbremse",
+     "le frein à l'endettement"
+    ],
+    [
+     "die Stromsteuer",
+     "la taxe sur l'électricité"
+    ]
+   ],
+   "sujets": [
+    "Schuldenbremse: Garant der Stabilität oder Investitionsbremse?",
+    "Sparen oder investieren: Wie schließt Deutschland seine Haushaltslücke?"
+   ]
+  }
+ ]
+}

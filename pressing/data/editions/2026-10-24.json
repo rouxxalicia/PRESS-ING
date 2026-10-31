@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-24",
+  "cards": [
+    {
+      "id": "2026-10-24-esh-1",
+      "matiere": "esh",
+      "source": "Echos Plus / Reuters",
+      "url": "https://echosplus.com/2026/10/24/dette-francaise-moodys-maintient-la-note-aa3-sous-reserve-dun-redressement-budgetaire/",
+      "minutes": 3,
+      "titre": "Moody's maintient la note de la France, mais le sursis est conditionnel",
+      "faits": "Le 23 octobre au soir, Moody's a maintenu la note de la France à Aa3, avec une perspective négative. La plupart des analystes s'attendaient à une dégradation d'un cran, à A1. L'agence conditionne ce statu quo à l'adoption d'un budget 2027 qui réduise vraiment le déficit, et à une détente des coûts de financement et des tensions sociales. La perspective négative signifie qu'une dégradation reste possible dans les prochains mois. Fitch et S&P notent déjà la France A+, un cran en dessous de Moody's. Le gouvernement de Sébastien Lecornu vise un déficit de 5 % du PIB, alors que le taux d'emprunt à 10 ans a franchi 5 %.",
+      "enjeux": "Une note souveraine mesure le risque que l'État ne rembourse pas ses dettes. Elle compte parce que de nombreux investisseurs, comme les fonds de pension ou les assureurs, ne peuvent détenir que des titres bien notés : une dégradation peut les obliger à vendre, ce qui fait monter les taux. C'est un mécanisme qui s'auto-entretient : plus les taux montent, plus la dette coûte cher, plus le risque augmente. Le répit de Moody's montre aussi que les agences jugent autant la stabilité politique que les chiffres : un pays sans budget voté et secoué par des manifestations inquiète davantage qu'un pays très endetté mais stable. Le rôle des agences reste contesté depuis 2008, quand elles avaient bien noté des produits financiers toxiques.",
+      "programme": {"module": "4 - Déséquilibres, régulation et action publique", "chapitre": "4.2 - L'intervention économique des pouvoirs publics"},
+      "auteurs": [
+        {"nom": "John Maynard Keynes", "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie", "annee": "1936", "ref": "concours-de-beaute",
+         "texte": "Avec l'image du **concours de beauté**, Keynes explique que sur les marchés financiers, chacun cherche moins à estimer la vraie valeur d'un actif qu'à deviner ce que les autres vont penser. Une note d'agence joue ce rôle de repère commun : même si elle n'apprend rien de nouveau, tout le monde réagit en anticipant la réaction des autres, ce qui peut rendre une crise de la dette **auto-réalisatrice**. À mobiliser pour montrer que la soutenabilité d'une dette dépend aussi de la confiance, pas seulement de son niveau."},
+        {"nom": "Evsey Domar", "ouvrage": "« The Burden of the Debt and the National Income »", "annee": "1944", "ref": "effet-boule-de-neige",
+         "texte": "Domar montre que la dette devient explosive quand le taux d'intérêt dépasse le taux de croissance. Une dégradation de la note fait monter les taux d'emprunt, donc rapproche la France de cette zone dangereuse où la dette grossit d'elle-même. La note et l'effet boule de neige s'alimentent : c'est pourquoi le gouvernement redoute tant chaque décision d'agence. À mobiliser dans un sujet sur la soutenabilité de la dette ou les contraintes de la politique budgétaire."}
+      ],
+      "sujets": [
+        "Les marchés financiers doivent-ils dicter les politiques budgétaires ?",
+        "Faut-il réformer le rôle des agences de notation ?"
+      ]
+    },
+    {
+      "id": "2026-10-24-esh-2",
+      "matiere": "esh",
+      "source": "Renseignement économique",
+      "url": "https://renseignementeconomique.fr/le-livret-a-pourrait-grimper-a-2-50-en-fevrier-2027-selon-les-projections",
+      "minutes": 3,
+      "titre": "Le Livret A pourrait passer de 1,7 % à 2,5 % en février, signe d'une inflation qui repart",
+      "faits": "Le taux du Livret A, à 1,70 % aujourd'hui, pourrait remonter à environ 2,50 % au 1er février 2027. Son taux est calculé par une formule : la moyenne de l'inflation hors tabac et du taux interbancaire à court terme (€STR) sur six mois. Or l'inflation est repartie : 3,0 % sur un an en septembre selon l'Insee, un niveau inédit depuis février 2024, tirée par l'énergie (+21,2 %) dans le contexte du conflit au Moyen-Orient. La BCE a de son côté relevé son taux de dépôt à 2,50 % en deux étapes depuis juin. Malgré la hausse annoncée, les Français ont continué de retirer de l'argent de leur Livret A en septembre.",
+      "enjeux": "La hausse du Livret A est une bonne nouvelle en apparence, mais elle révèle surtout le retour de l'inflation. Ce qui compte pour l'épargnant, c'est le taux réel : le taux nominal moins l'inflation. À 1,7 % avec 3 % d'inflation, l'épargne perd du pouvoir d'achat. Le choc vient de l'énergie, c'est donc une inflation importée, par les coûts, et non une surchauffe de la demande. La BCE fait face à un dilemme : monter ses taux pour éviter que l'inflation s'installe, au risque de freiner une croissance déjà faible et d'alourdir la dette publique. Le Livret A n'est pas seulement une épargne : la Caisse des dépôts utilise une grande partie des fonds pour financer le logement social, dont le coût de financement augmentera avec le taux.",
+      "programme": {"module": "4 - Déséquilibres, régulation et action publique", "chapitre": "4.1 - Équilibres et déséquilibres macroéconomiques"},
+      "auteurs": [
+        {"nom": "Irving Fisher", "ouvrage": "The Theory of Interest", "annee": "1930", "ref": "relation-de-fisher",
+         "texte": "Fisher distingue le taux d'intérêt **nominal** du taux **réel**, qui retranche l'inflation. Un Livret A à 1,7 % avec 3 % d'inflation a un taux réel négatif d'environ 1,3 point : l'épargnant s'appauvrit. La remontée prévue à 2,5 % ne fera que réduire cette perte. À mobiliser pour expliquer qui gagne et qui perd avec l'inflation : les emprunteurs à taux fixe gagnent, les épargnants perdent."},
+        {"nom": "Milton Friedman", "ouvrage": "« The Role of Monetary Policy »", "annee": "1968", "ref": null,
+         "texte": "Pour Friedman, « l'inflation est toujours et partout un phénomène monétaire » : elle vient d'une création de monnaie trop rapide. Le choc actuel nuance cette idée : il vient d'abord du prix de l'énergie, un choc d'offre importé, comme en 1973 et en 2022. Mais Friedman reste utile pour comprendre la réaction de la BCE : si les agents anticipent une inflation durable, les salaires et les prix s'emballent, d'où la nécessité de monter les taux tôt pour ancrer les anticipations."}
+      ],
+      "sujets": [
+        "Le retour de l'inflation : quels gagnants, quels perdants ?",
+        "La politique monétaire peut-elle lutter contre une inflation importée ?"
+      ]
+    },
+    {
+      "id": "2026-10-24-esh-3",
+      "matiere": "esh",
+      "source": "Sud Radio / AFP",
+      "url": "https://www.sudradio.fr/societe/concertation-sur-parcoursup-les-pistes-pour-amender-le-systeme",
+      "minutes": 3,
+      "titre": "Parcoursup : le gouvernement promet de réformer la plateforme sans la supprimer",
+      "faits": "Face à la mobilisation des lycéens et des étudiants, le gouvernement a lancé une « concertation flash » sur Parcoursup, présidée par Gilles Roussel, qui dure une dizaine de jours. Les pistes : plus d'orientation dès la seconde, la publication des critères de classement et des algorithmes locaux, des épreuves communes pour harmoniser le contrôle continu, un nouveau calendrier, voire un nouveau nom. La création de places à l'université est discutée, mais elle demande de l'argent : les organisations étudiantes réclament 250 000 places supplémentaires, les présidents d'université en évoquent 2 000. Retirer le lycée d'origine des dossiers est jugé compliqué. Le Snes-FSU et la CGT ont boycotté les travaux, et l'Unsa a quitté la réunion en dénonçant un « simulacre ».",
+      "enjeux": "Parcoursup, créé en 2018 pour remplacer APB et son tirage au sort, est accusé d'être opaque et de reproduire les inégalités. Les formations sélectives classent les dossiers avec des critères mal connus, et le lycée d'origine pèse : un bon élève d'un lycée réputé est souvent mieux classé qu'un bon élève d'un lycée de banlieue. Les notes de contrôle continu, qui comptent depuis la réforme du bac de 2019, varient d'un établissement à l'autre. Derrière la plateforme se pose une question plus large : faut-il sélectionner à l'entrée de l'université, et comment le faire sans désavantager les élèves issus des milieux populaires ? Le débat oppose une vision méritocratique et une vision qui voit dans l'école un lieu de reproduction sociale.",
+      "programme": {"module": "2 - Croissance et développement", "chapitre": "2.2 - Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle"},
+      "auteurs": [
+        {"nom": "Pierre Bourdieu et Jean-Claude Passeron", "ouvrage": "Les Héritiers ; La Reproduction", "annee": "1964 ; 1970", "ref": "reproduction-sociale",
+         "texte": "Pour Bourdieu et Passeron, l'école valorise un **capital culturel** que les enfants de milieux favorisés reçoivent dans leur famille : aisance à l'écrit, culture générale, codes du monde scolaire. En jugeant ces qualités comme des « dons » personnels, elle transforme une inégalité sociale en inégalité scolaire légitime. Parcoursup en offre une illustration : les lettres de motivation, les activités extrascolaires et la réputation du lycée favorisent ceux qui maîtrisent déjà les attentes de l'enseignement supérieur. À mobiliser pour montrer que la sélection « au mérite » peut masquer une reproduction sociale."},
+        {"nom": "Raymond Boudon", "ouvrage": "L'Inégalité des chances", "annee": "1973", "ref": "boudon-choix-rationnel",
+         "texte": "Boudon explique les inégalités scolaires par les **choix rationnels** des familles : à notes égales, un enfant de milieu populaire choisit des études plus courtes, car le coût et le risque lui paraissent plus élevés et le bénéfice plus incertain. Parcoursup renforce ces décisions : les vœux formulés dépendent de l'information dont disposent les familles. Les élèves de milieux modestes s'autocensurent et demandent moins les filières sélectives. À mobiliser pour expliquer pourquoi plus d'orientation dès la seconde est une des pistes de la réforme."}
+      ],
+      "sujets": [
+        "L'école peut-elle réduire les inégalités sociales ?",
+        "Sélection et méritocratie : l'enseignement supérieur est-il juste ?"
+      ]
+    },
+    {
+      "id": "2026-10-24-anglais-1",
+      "matiere": "anglais",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/video/2026/10/23/trump-says-he-has-the-right-to-seek-a-third-presidential-term",
+      "minutes": 3,
+      "titre": "Trump affirme avoir « le droit » de briguer un troisième mandat",
+      "faits": "Lors d'un meeting dans l'Iowa, à quelques jours des midterms du 3 novembre, Donald Trump a de nouveau laissé entendre qu'il pourrait se présenter en 2028. Il reconnaît que la Constitution laisse peu de place à l'interprétation, mais estime qu'il devrait pouvoir se représenter parce que l'élection de 2020 lui aurait été « volée ». Ses accusations de fraude n'ont jamais été prouvées. Ce n'est pas la première fois : en 2025, il avait dit qu'il existait des « méthodes » pour un troisième mandat, et sa boutique vendait des casquettes « Trump 2028 ». Dans le camp démocrate, des élus ont déposé des textes pour réaffirmer l'interdiction.",
+      "enjeux": "Le 22e amendement, ratifié en 1951, interdit d'être élu président plus de deux fois. Il a été adopté après les quatre victoires de Franklin D. Roosevelt, pour éviter qu'un président ne s'installe durablement au pouvoir. Le modifier exigerait les deux tiers du Congrès et la ratification par trois quarts des États, ce qui est hors de portée. Les propos de Trump comptent donc moins sur le plan juridique que sur le plan politique : ils entretiennent le récit de l'élection volée, mobilisent sa base avant les midterms et testent les limites des contre-pouvoirs. Ils nourrissent le débat sur la fragilité des normes démocratiques américaines, qui reposent autant sur des usages que sur des textes.",
+      "vo": {
+        "titre": "Trump says he has \"the right\" to seek a third term",
+        "faits": "At a rally in Iowa, days before the 3 November midterms, Donald Trump once again hinted that he might run in 2028. He acknowledged that the Constitution leaves little room for interpretation, but argued that he should be allowed to run again because the 2020 election was allegedly \"stolen\" from him. His fraud claims have never been substantiated. It is not the first time: in 2025 he said there were \"methods\" to secure a third term, and his store sold \"Trump 2028\" hats. Democratic lawmakers have introduced measures to reaffirm the ban.",
+        "enjeux": "The 22nd Amendment, ratified in 1951, bars anyone from being elected president more than twice. It was passed after Franklin D. Roosevelt's four victories, to prevent a president from entrenching himself in power. Amending it would require two thirds of Congress and ratification by three quarters of the states, which is out of reach. Trump's remarks therefore matter less legally than politically: they keep the stolen-election narrative alive, fire up his base ahead of the midterms and test the limits of checks and balances. They feed the debate on how fragile American democratic norms are, since they rest on conventions as much as on written rules."
+      },
+      "vocab": [
+        ["to run for a third term", "briguer un troisième mandat"],
+        ["the 22nd Amendment", "le 22e amendement (limite à deux mandats)"],
+        ["unsubstantiated claims", "accusations sans fondement"],
+        ["checks and balances", "les contre-pouvoirs"],
+        ["to entrench oneself in power", "s'installer durablement au pouvoir"],
+        ["a rally", "un meeting"]
+      ],
+      "sujets": [
+        "Is American democracy under threat?",
+        "Can the US Constitution still restrain presidential power?"
+      ]
+    },
+    {
+      "id": "2026-10-24-anglais-2",
+      "matiere": "anglais",
+      "source": "The British Eye",
+      "url": "https://thebritisheye.com/2026/10/23/uk-immigration-reforms-cabinet-backla/",
+      "minutes": 3,
+      "titre": "Immigration : Andy Burnham divisé avec son propre camp sur la résidence permanente",
+      "faits": "Le gouvernement d'Andy Burnham, Premier ministre depuis juillet, hésite sur une réforme qui allongerait le délai avant d'obtenir la résidence permanente (indefinite leave to remain). Présentée en novembre 2025, elle pourrait faire passer l'attente de cinq à dix ans, et jusqu'à quinze ans pour certains travailleurs du secteur des soins. Burnham refuse de s'engager sur l'ensemble du texte : pour lui, l'installation doit être « un droit qui se mérite », mais la décision finale attendra la consultation. Plusieurs ministres critiquent surtout l'application rétroactive aux personnes déjà présentes. Le gouvernement dément toute division au sein du cabinet.",
+      "enjeux": "L'immigration est au cœur de la vie politique britannique depuis le Brexit, dont la promesse était de « reprendre le contrôle » des frontières. Paradoxalement, l'immigration nette a atteint des records après 2021, portée par les visas de travail et d'étudiants. Le parti Reform UK de Nigel Farage, en tête de nombreux sondages depuis 2025, pousse les travaillistes à durcir leur position. Mais le pays dépend des travailleurs étrangers, en particulier dans le NHS et les soins aux personnes âgées. Burnham, élu sur une ligne plus à gauche que Starmer, doit concilier fermeté et valeurs de son parti.",
+      "vo": {
+        "titre": "Immigration: Andy Burnham at odds with his own side over settlement",
+        "faits": "Andy Burnham's government, in power since July, is hesitating over a reform that would lengthen the wait for indefinite leave to remain. Unveiled in November 2025, it could double the wait from five to ten years, and up to fifteen for some care workers. Burnham has declined to commit to the plans in full: settlement should be \"a right to be earned\", he says, but the final decision will follow a consultation. Several ministers object mainly to applying the rules retrospectively to people already in the country. The government denies any cabinet split.",
+        "enjeux": "Immigration has been at the heart of British politics since Brexit, whose promise was to \"take back control\" of the borders. Paradoxically, net migration hit record highs after 2021, driven by work and student visas. Nigel Farage's Reform UK, leading many polls since 2025, is pushing Labour to toughen its stance. Yet the country relies on foreign workers, especially in the NHS and social care. Burnham, who rose on a more left-wing platform than Starmer, must reconcile firmness with his party's values."
+      },
+      "vocab": [
+        ["indefinite leave to remain", "titre de résidence permanente"],
+        ["earned settlement", "installation qu'il faut mériter"],
+        ["retrospective", "rétroactif"],
+        ["net migration", "solde migratoire"],
+        ["cabinet split", "division au sein du gouvernement"],
+        ["care worker", "aide-soignant(e), auxiliaire de vie"]
+      ],
+      "sujets": [
+        "Has Brexit delivered on its promise to take back control of borders?",
+        "Can Britain do without immigration?"
+      ]
+    },
+    {
+      "id": "2026-10-24-anglais-3",
+      "matiere": "anglais",
+      "source": "ITV News / Prepared Britain",
+      "url": "https://www.itv.com/news/westcountry/2026-10-23/thousands-without-power-as-storm-austen-batters-south-west",
+      "minutes": 2,
+      "titre": "Tempête Austen : des dizaines de milliers de foyers privés d'électricité au Royaume-Uni",
+      "faits": "La tempête Austen, première tempête nommée de la saison 2026-2027, a frappé le sud-ouest de l'Angleterre dans la nuit du 22 au 23 octobre, avec des rafales jusqu'à 80 mph (130 km/h) sur les côtes. Au plus fort, environ 74 000 foyers ont été privés d'électricité, surtout en Cornouailles et dans le Somerset. Des écoles ont fermé, des trains ont circulé au ralenti et des routes ont été bloquées par des arbres. Le Met Office avait émis une alerte orange au vent pour la Cornouailles et le Devon. Andy Burnham a prévenu que le pays devait se préparer à un « hiver d'inondations plus fortes ».",
+      "enjeux": "La tempête arrive au lendemain de l'appel du gouvernement à garder trois jours de réserves à la maison : le risque climatique devient une question de sécurité nationale. Les tempêtes et les inondations sont plus fréquentes et plus violentes avec le réchauffement. Selon l'Agence de l'environnement, environ 6 millions de logements en Angleterre sont situés dans des zones à risque d'inondation. Les défenses contre les crues, souvent anciennes, manquent d'entretien après les années d'austérité. La question est de savoir qui paiera l'adaptation : l'État, les collectivités ou les assureurs.",
+      "vo": {
+        "titre": "Storm Austen leaves tens of thousands of British homes without power",
+        "faits": "Storm Austen, the first named storm of the 2026-27 season, hit south-west England overnight on 22-23 October, with gusts of up to 80 mph on exposed coasts. At its peak, around 74,000 homes were off power, mainly in Cornwall and Somerset. Schools closed, trains ran at reduced speed and roads were blocked by fallen trees. The Met Office had issued an amber wind warning for Cornwall and Devon. Andy Burnham warned that the country should brace for a \"winter of greater flooding\".",
+        "enjeux": "The storm comes a day after the government urged households to keep three days of supplies at home: climate risk is becoming a national security issue. Storms and floods are getting more frequent and more violent as the planet warms. According to the Environment Agency, around 6 million homes in England are in areas at risk of flooding. Flood defences, often old, have been poorly maintained after the austerity years. The question is who will pay for adaptation: central government, local authorities or insurers."
+      },
+      "vocab": [
+        ["to batter", "frapper violemment"],
+        ["a power cut", "une coupure de courant"],
+        ["an amber warning", "une alerte orange"],
+        ["gusts", "des rafales"],
+        ["flood defences", "les défenses contre les crues"],
+        ["climate adaptation", "l'adaptation au changement climatique"]
+      ],
+      "sujets": [
+        "Is Britain prepared for climate change?",
+        "Who should pay for climate adaptation?"
+      ]
+    },
+    {
+      "id": "2026-10-24-espagnol-1",
+      "matiere": "espagnol",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/politica/feijoo-reabre-debate-aborto-eliminara-ministerio-igualdad-estudiara-viabilidad-pensiones_1_13608554.html",
+      "minutes": 3,
+      "titre": "Feijóo n'exclut pas de gouverner avec Vox et veut rouvrir le débat sur l'avortement",
+      "faits": "Dans un entretien à la radio Cadena SER le 23 octobre, Alberto Núñez Feijóo, candidat du PP aux élections du 29 novembre, n'a pas exclu de faire entrer Vox au gouvernement si les électeurs lui en donnent la majorité. Il veut rouvrir le débat sur l'avortement : une mineure de 16 ans devrait selon lui en informer ses parents, sans que leur accord soit obligatoire. Il annonce une réforme de la loi sur l'euthanasie pour donner plus de poids aux médecins. Il supprimerait le ministère de l'Égalité, refusant de garder « 22 ministères ». Il promet d'indexer les retraites sur l'inflation et ne relèverait le salaire minimum qu'avec l'accord du patronat.",
+      "enjeux": "Feijóo se positionne pour la première fois clairement sur une alliance avec Vox au niveau national, alors que le PP gouverne déjà avec ou grâce à Vox dans plusieurs régions. Il cherche à récupérer les électeurs partis vers l'extrême droite, quitte à rompre avec la ligne modérée qu'il affichait. Les lois sur l'avortement (2010, réformée en 2023) et l'euthanasie (2021) sont des marqueurs des gouvernements socialistes : les remettre en cause fait de la campagne un choix de société. La gauche utilise ces déclarations pour mobiliser contre un « gouvernement PP-Vox ».",
+      "vo": {
+        "titre": "Feijóo no descarta gobernar con Vox y reabre el debate sobre el aborto",
+        "faits": "En una entrevista en la Cadena SER el 23 de octubre, Alberto Núñez Feijóo, candidato del PP a las elecciones del 29 de noviembre, no descartó meter a Vox en el Gobierno si los votantes le dan esa mayoría. Quiere reabrir el debate sobre el aborto: una menor de 16 años debería, según él, informar a sus padres, aunque sin que su consentimiento sea obligatorio. Anuncia una reforma de la ley de eutanasia para dar más peso a los médicos. Suprimiría el Ministerio de Igualdad, porque no piensa mantener «22 ministerios». Promete revalorizar las pensiones con el IPC y solo subiría el salario mínimo con el acuerdo de la patronal.",
+        "enjeux": "Feijóo se posiciona por primera vez con claridad sobre una alianza con Vox a nivel nacional, cuando el PP ya gobierna con Vox o gracias a Vox en varias comunidades. Busca recuperar a los votantes que se fueron a la extrema derecha, aunque eso suponga romper con la línea moderada que exhibía. Las leyes del aborto (2010, reformada en 2023) y de eutanasia (2021) son señas de identidad de los gobiernos socialistas: cuestionarlas convierte la campaña en una elección de modelo de sociedad. La izquierda usa estas declaraciones para movilizar contra un «gobierno PP-Vox»."
+      },
+      "vocab": [
+        ["no descartar", "ne pas exclure"],
+        ["el aborto", "l'avortement"],
+        ["la eutanasia", "l'euthanasie"],
+        ["revalorizar las pensiones", "revaloriser les retraites"],
+        ["la patronal", "le patronat"],
+        ["el salario mínimo (SMI)", "le salaire minimum"]
+      ],
+      "sujets": [
+        "¿Puede el PP gobernar sin Vox?",
+        "Derechos sociales en España: ¿avances irreversibles?"
+      ]
+    },
+    {
+      "id": "2026-10-24-espagnol-2",
+      "matiere": "espagnol",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/espana/2026/10/23/el-rey-felipe-vi-manda-un-mensaje-a-los-politicos-antes-del-29-n-desde-los-premios-princesa-de-asturias-la-democracia-requiere-de-un-cuidado-de-sus-formas-e-instituciones/",
+      "minutes": 2,
+      "titre": "Felipe VI rappelle aux politiques que « la démocratie ne se résume pas aux élections »",
+      "faits": "Le 23 octobre, lors de la cérémonie des prix Princesse des Asturies au théâtre Campoamor d'Oviedo, le roi Felipe VI a déclaré que la démocratie exige « un engagement quotidien » et « un soin de ses formes et de ses institutions ». À cinq semaines des élections du 29 novembre, il a rappelé la « très haute responsabilité » des citoyens et renvoyé à la Transition et à la Constitution de 1978. Il a aussi mis en garde contre le « bombardement d'informations » et l'intelligence artificielle. Au même moment, en meeting à Valence, Feijóo qualifiait Pedro Sánchez de « traître ». La princesse Leonor a évoqué l'accès des jeunes au logement.",
+      "enjeux": "Le roi n'a pas de pouvoir politique : la Constitution de 1978 fait de lui un arbitre et un symbole d'unité, tenu à la neutralité. Il ne peut donc pas critiquer un parti, mais ses discours servent de rappel à l'ordre lorsque la vie politique se durcit. Le contraste avec les invectives de la campagne illustre la polarisation espagnole. La monarchie cherche aussi à renforcer sa légitimité après les scandales de Juan Carlos Ier, en mettant en avant l'héritière, Leonor, de plus en plus présente.",
+      "vo": {
+        "titre": "Felipe VI recuerda a los políticos que «la democracia no se agota en unas elecciones»",
+        "faits": "El 23 de octubre, en la ceremonia de los Premios Princesa de Asturias en el Teatro Campoamor de Oviedo, el rey Felipe VI afirmó que la democracia requiere «un compromiso diario» y «un cuidado de sus formas e instituciones». A cinco semanas de las elecciones del 29 de noviembre, recordó la «altísima responsabilidad» de los ciudadanos y aludió a la Transición y a la Constitución de 1978. También advirtió contra el «bombardeo informativo» y la inteligencia artificial. Mientras tanto, en un mitin en València, Feijóo llamaba «traidor» a Pedro Sánchez. La princesa Leonor habló del acceso de los jóvenes a la vivienda.",
+        "enjeux": "El rey no tiene poder político: la Constitución de 1978 lo convierte en árbitro y símbolo de unidad, obligado a la neutralidad. No puede criticar a ningún partido, pero sus discursos sirven de llamada al orden cuando la vida política se crispa. El contraste con los insultos de la campaña refleja la polarización española. La monarquía también busca reforzar su legitimidad tras los escándalos de Juan Carlos I, dando protagonismo a la heredera, Leonor."
+      },
+      "vocab": [
+        ["el discurso", "le discours"],
+        ["la crispación", "les tensions, la polarisation"],
+        ["la heredera", "l'héritière"],
+        ["la Transición", "la transition démocratique (1975-1982)"],
+        ["el bombardeo informativo", "le bombardement d'informations"],
+        ["arbitrar y moderar", "arbitrer et modérer (rôle du roi)"]
+      ],
+      "sujets": [
+        "¿Sigue siendo útil la monarquía en la España de hoy?",
+        "La polarización, ¿amenaza para la democracia española?"
+      ]
+    },
+    {
+      "id": "2026-10-24-espagnol-3",
+      "matiere": "espagnol",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/extremadura/economia/cuatro-centros-datos-previstos-extremadura-amenazan-absorber-energia-produce-comunidad-ano_1_13510621.html",
+      "minutes": 3,
+      "titre": "Estrémadure : quatre centres de données qui consommeraient l'électricité de toute la région",
+      "faits": "Quatre projets de centres de données sont annoncés en Estrémadure, à Badajoz, Navalmoral de la Mata, Valdecaballeros et Cáceres. Selon Ecologistas en Acción, ils demanderaient 3,5 à 4 GW de puissance : en fonctionnant en continu, ils consommeraient autant d'électricité que la région en produit en un an. Ils ont aussi besoin de grandes quantités d'eau pour refroidir les serveurs. La Junta d'Estrémadure, dirigée par le PP, soutient les projets et demande le retrait de la réglementation de l'État qui les encadre. Le 21 octobre, le PP et Vox ont refusé qu'un scientifique du CSIC vienne s'exprimer sur le sujet devant le Parlement régional.",
+      "enjeux": "L'Espagne, avec son soleil, son vent et ses terrains disponibles, attire les géants du numérique, qui ont besoin d'énergie bon marché pour l'intelligence artificielle. Pour l'Estrémadure, l'une des régions les plus pauvres et les plus dépeuplées du pays, c'est une promesse d'investissement dans l'« Espagne vidée ». Mais les projets créent peu d'emplois une fois construits et pèsent lourd sur l'eau, rare dans une région frappée par les sécheresses. Le conflit oppose développement économique et protection des ressources, ainsi que les régions et l'État central sur la question de qui fixe les règles.",
+      "vo": {
+        "titre": "Extremadura: cuatro centros de datos que consumirían la electricidad de toda la región",
+        "faits": "En Extremadura se anuncian cuatro proyectos de centros de datos, en Badajoz, Navalmoral de la Mata, Valdecaballeros y Cáceres. Según Ecologistas en Acción, necesitarían entre 3,5 y 4 GW de potencia: funcionando sin parar, consumirían tanta electricidad como la que produce la comunidad en un año. También requieren grandes cantidades de agua para refrigerar los servidores. La Junta de Extremadura, gobernada por el PP, apoya los proyectos y pide retirar la normativa estatal que los regula. El 21 de octubre, PP y Vox vetaron la comparecencia de un científico del CSIC sobre el tema en la Asamblea regional.",
+        "enjeux": "España, con su sol, su viento y su suelo disponible, atrae a los gigantes tecnológicos, que necesitan energía barata para la inteligencia artificial. Para Extremadura, una de las comunidades más pobres y despobladas del país, es una promesa de inversión en la «España vaciada». Pero los proyectos crean poco empleo una vez construidos y pesan mucho sobre el agua, escasa en una región castigada por las sequías. El conflicto enfrenta desarrollo económico y protección de los recursos, y también a las comunidades autónomas con el Estado central sobre quién fija las reglas."
+      },
+      "vocab": [
+        ["el centro de datos", "le centre de données"],
+        ["la España vaciada", "l'Espagne vidée (rurale, dépeuplée)"],
+        ["la sequía", "la sécheresse"],
+        ["refrigerar", "refroidir"],
+        ["la Junta", "le gouvernement régional"],
+        ["vetar una comparecencia", "refuser une audition"]
+      ],
+      "sujets": [
+        "La España vaciada: ¿una oportunidad para la transición digital?",
+        "Desarrollo económico y medio ambiente: ¿un equilibrio posible?"
+      ]
+    },
+    {
+      "id": "2026-10-24-allemand-1",
+      "matiere": "allemand",
+      "source": "onvista / dpa",
+      "url": "https://www.onvista.de/news/2026/10-23-gesamtmetall-tausenden-betrieben-droht-schrumpfung-oder-aus-0-20-26567716",
+      "minutes": 3,
+      "titre": "Industrie allemande : 42 % des entreprises de la métallurgie prévoient de supprimer des emplois",
+      "faits": "Selon une enquête de Gesamtmetall, la fédération patronale de la métallurgie et de l'électrotechnique publiée le 23 octobre, deux entreprises sur cinq jugent leur situation mauvaise et 42 % prévoient de réduire leurs effectifs. Plus de 10 000 entreprises s'attendent à rétrécir d'ici trois à cinq ans, et environ 1 000 sites risquent de fermer. La production devrait baisser de 2 % en 2026, ce qui ferait une troisième année de récession dans le secteur. Le secteur, premier employeur industriel du pays avec 3,7 millions de salariés, a perdu environ 350 000 emplois depuis 2018 et en perd encore 10 000 par mois. Son directeur général, Oliver Zander, réclame des réformes sur les impôts, les cotisations sociales et la bureaucratie.",
+      "enjeux": "L'enquête confirme le déclin de l'industrie allemande, pilier du modèle exportateur. Les entreprises citent le coût du travail, le prix de l'énergie et la bureaucratie. Surtout, 65 % des commandes ne profitent qu'en partie ou pas du tout aux usines allemandes : « commandes intérieures ne veut pas dire production intérieure ». Les entreprises produisent de plus en plus à l'étranger, où c'est moins cher. On parle de désindustrialisation. Le patronat s'en sert aussi pour faire pression sur le gouvernement avant le budget 2027 et les négociations salariales, comme celles de Volkswagen qui commencent le 24 novembre.",
+      "vo": {
+        "titre": "Metallindustrie: 42 Prozent der Betriebe planen Stellenabbau",
+        "faits": "Laut einer am 23. Oktober veröffentlichten Umfrage des Arbeitgeberverbands Gesamtmetall bewerten zwei von fünf Unternehmen der Metall- und Elektroindustrie ihre Lage als schlecht, 42 Prozent planen Personalabbau. Über 10.000 Betriebe erwarten, in drei bis fünf Jahren zu schrumpfen, rund 1.000 Standorten droht die Schließung. Die Produktion dürfte 2026 um zwei Prozent sinken, das dritte Rezessionsjahr in Folge. Die Branche, mit 3,7 Millionen Beschäftigten Deutschlands größte Industriesparte, hat seit 2018 rund 350.000 Stellen verloren und baut derzeit 10.000 pro Monat ab. Hauptgeschäftsführer Oliver Zander fordert Reformen bei Steuern, Sozialabgaben und Bürokratie.",
+        "enjeux": "Die Umfrage bestätigt den Niedergang der deutschen Industrie, einer Säule des Exportmodells. Die Unternehmen nennen Arbeitskosten, Energiepreise und Bürokratie. Vor allem kommen 65 Prozent der Aufträge der Fertigung in Deutschland kaum oder nur teilweise zugute: „Inlandsaufträge bedeuten nicht Inlandsproduktion“. Die Firmen produzieren zunehmend im günstigeren Ausland. Man spricht von Deindustrialisierung. Der Verband nutzt die Zahlen auch, um vor dem Haushalt 2027 und den Tarifverhandlungen Druck zu machen, etwa bei Volkswagen, wo die Gespräche am 24. November beginnen."
+      },
+      "vocab": [
+        ["der Stellenabbau", "les suppressions d'emplois"],
+        ["der Arbeitgeberverband", "la fédération patronale"],
+        ["die Deindustrialisierung", "la désindustrialisation"],
+        ["die Sozialabgaben", "les cotisations sociales"],
+        ["der Standort", "le site (de production)"],
+        ["die Tarifverhandlungen", "les négociations salariales"]
+      ],
+      "sujets": [
+        "Erlebt Deutschland eine Deindustrialisierung?",
+        "Ist der Standort Deutschland noch wettbewerbsfähig?"
+      ]
+    },
+    {
+      "id": "2026-10-24-allemand-2",
+      "matiere": "allemand",
+      "source": "Handelsblatt / Reuters",
+      "url": "https://www.handelsblatt.com/unternehmen/industrie/uebernahme-basf-bietet-jetzt-mehr-als-elf-milliarden-euro-fuer-evonik/100264522.html",
+      "minutes": 2,
+      "titre": "Chimie : BASF relève son offre pour racheter Evonik, à plus de 11 milliards d'euros",
+      "faits": "Selon Reuters et Bloomberg, le géant de la chimie BASF a relevé son offre de rachat de son concurrent Evonik à 24 euros par action, contre 22,15 auparavant, soit plus de 11 milliards d'euros. Evonik avait rejeté une première approche à 10,3 milliards, jugée trop basse. La décision dépend surtout de la fondation RAG, qui détient environ 44 % d'Evonik et finance les charges héritées des mines de charbon de la Ruhr. Le patron de BASF, Markus Kamieth, promet qu'il n'y aura pas de licenciements contraints jusqu'en 2032. Le gouvernement de Rhénanie-du-Nord-Westphalie prévient que les emplois « ne doivent pas être mis en danger ».",
+      "enjeux": "La chimie allemande souffre de l'énergie chère depuis la fin du gaz russe et de la concurrence chinoise. Pour BASF, la concentration est « inévitable » : en rachetant Evonik, il réaliserait des économies d'échelle et intégrerait Evonik dans son système de production intégré (Verbund). Mais une fusion entre deux leaders réduit la concurrence et devra être examinée par les autorités de la concurrence. Elle pose aussi la question de l'emploi dans la Ruhr, région déjà marquée par la fin du charbon et de l'acier. C'est un cas typique de restructuration industrielle face à la mondialisation.",
+      "vo": {
+        "titre": "Chemie: BASF erhöht Angebot für Evonik auf über elf Milliarden Euro",
+        "faits": "Laut Reuters und Bloomberg hat der Chemiekonzern BASF sein Übernahmeangebot für den Konkurrenten Evonik auf 24 Euro je Aktie erhöht, nach zuvor 22,15 Euro, insgesamt über elf Milliarden Euro. Evonik hatte einen ersten Vorstoß über 10,3 Milliarden als zu niedrig abgelehnt. Entscheidend ist die RAG-Stiftung, die rund 44 Prozent an Evonik hält und die Ewigkeitslasten des Ruhrbergbaus finanziert. BASF-Chef Markus Kamieth verspricht, betriebsbedingte Kündigungen bis 2032 auszuschließen. Die Landesregierung von Nordrhein-Westfalen warnt, Arbeitsplätze dürften „nicht gefährdet werden“.",
+        "enjeux": "Die deutsche Chemie leidet unter teurer Energie seit dem Ende des russischen Gases und unter chinesischer Konkurrenz. Für BASF ist die Konsolidierung „unausweichlich“: Mit Evonik würde der Konzern Größenvorteile erzielen und Evonik in sein Verbundsystem einbinden. Doch eine Fusion zweier Marktführer schwächt den Wettbewerb und muss von den Kartellbehörden geprüft werden. Sie wirft auch die Frage nach Arbeitsplätzen im Ruhrgebiet auf, das schon vom Ende von Kohle und Stahl geprägt ist. Ein typischer Fall industrieller Umstrukturierung in der Globalisierung."
+      },
+      "vocab": [
+        ["die Übernahme", "le rachat"],
+        ["das Angebot je Aktie", "l'offre par action"],
+        ["betriebsbedingte Kündigungen", "les licenciements économiques"],
+        ["die Konsolidierung", "la concentration (du secteur)"],
+        ["die Kartellbehörde", "l'autorité de la concurrence"],
+        ["die Ewigkeitslasten", "les charges héritées (des mines)"]
+      ],
+      "sujets": [
+        "Fusionen in der Industrie: Rettung oder Gefahr für Arbeitsplätze?",
+        "Hat die deutsche Chemieindustrie noch eine Zukunft?"
+      ]
+    },
+    {
+      "id": "2026-10-24-allemand-3",
+      "matiere": "allemand",
+      "source": "ZDFheute",
+      "url": "https://www.zdfheute.de/politik/deutschland/bayern-parteitag-csu-100.html",
+      "minutes": 2,
+      "titre": "Congrès de la CSU : Söder appelle à résister « aux radicaux de gauche et de droite »",
+      "faits": "Le congrès de la CSU, le parti conservateur bavarois allié de la CDU, se tient à Munich jusqu'au 24 octobre, avec un discours attendu du chancelier Friedrich Merz. Le président de la CSU, Markus Söder, a appelé à combattre les radicaux de gauche comme de droite, a exclu toute coopération avec l'AfD et a qualifié la coalition au pouvoir de « dernière cartouche de la démocratie ». Il a soutenu Ilse Aigner comme future présidente fédérale, lors de l'élection prévue le 30 janvier, alors que la CDU refuse de s'engager. L'ambiance est réservée envers Merz, dont beaucoup jugent l'action peu convaincante. La coalition est aussi secouée par des réformes contestées.",
+      "enjeux": "La CSU, qui ne se présente qu'en Bavière mais forme un groupe commun avec la CDU au Bundestag, a toujours pesé sur la ligne de l'Union. La montée de l'AfD, qui a encore progressé lors d'élections régionales cette année, met la droite sous pression. Le « cordon sanitaire » (Brandmauer) qui interdit de gouverner avec l'AfD est de plus en plus discuté. L'image de la « dernière cartouche » traduit une inquiétude : si la grande coalition échoue, les partis extrêmes pourraient en profiter. Le choix du prochain président fédéral, qui succédera à Frank-Walter Steinmeier, devient lui aussi un enjeu politique.",
+      "vo": {
+        "titre": "CSU-Parteitag: Söder ruft zum Kampf gegen Radikale von links und rechts auf",
+        "faits": "Der Parteitag der CSU, der bayerischen Schwesterpartei der CDU, läuft in München bis zum 24. Oktober; zum Abschluss wird Kanzler Friedrich Merz erwartet. CSU-Chef Markus Söder rief zum Kampf gegen Radikale von links und rechts auf, schloss jede Zusammenarbeit mit der AfD aus und nannte die Koalition „die letzte Patrone der Demokratie“. Er warb für Ilse Aigner als künftige Bundespräsidentin bei der Wahl am 30. Januar, während sich die CDU nicht festlegen will. Die Stimmung gegenüber Merz ist verhalten, viele halten seine Regierungsarbeit für glücklos. Auch umstrittene Reformvorhaben belasten die Koalition.",
+        "enjeux": "Die CSU tritt nur in Bayern an, bildet aber mit der CDU eine gemeinsame Bundestagsfraktion und prägt seit jeher den Kurs der Union. Der Aufstieg der AfD, die bei Landtagswahlen in diesem Jahr weiter zulegte, setzt die Konservativen unter Druck. Die Brandmauer, die eine Zusammenarbeit mit der AfD ausschließt, wird zunehmend diskutiert. Das Bild der „letzten Patrone“ zeigt die Sorge: Scheitert die Koalition, könnten die Ränder profitieren. Auch die Wahl des nächsten Staatsoberhaupts als Nachfolger von Frank-Walter Steinmeier wird zur politischen Frage."
+      },
+      "vocab": [
+        ["der Parteitag", "le congrès du parti"],
+        ["die Schwesterpartei", "le parti frère (CDU/CSU)"],
+        ["die Brandmauer", "le cordon sanitaire (contre l'AfD)"],
+        ["der/die Bundespräsident(in)", "le/la président(e) fédéral(e)"],
+        ["die Bundesversammlung", "l'assemblée qui élit le président fédéral"],
+        ["verhalten", "réservé, mitigé"]
+      ],
+      "sujets": [
+        "Soll die Union an der Brandmauer zur AfD festhalten?",
+        "Wie stabil ist die Demokratie in Deutschland?"
+      ]
+    }
+  ]
+}
