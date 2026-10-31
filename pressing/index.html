@@ -257,6 +257,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 (function () {
   const MATS = ["esh", "anglais", "espagnol", "allemand"];
   const NOM = { esh: "ESH", anglais: "Anglais", espagnol: "Espagnol", allemand: "Allemand", tout: "Tout" };
+  const VO_HEAD = {anglais: ["What happened", "Why it matters"], espagnol: ["Qué ha pasado", "Por qué importa"], allemand: ["Was passiert ist", "Warum es wichtig ist"]};
   const VO_LABEL = { anglais: "English", espagnol: "Español", allemand: "Deutsch" };
   const MOIS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
   const JOURS = ["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
@@ -356,13 +357,13 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     h += '<span class="label muted">' + NOM[c.matiere] + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
     h += '<h1>' + esc(t.titre) + '</h1>';
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? "What happened" : "Ce qui s'est passé") + '</h2><div class="prose"><p>' + esc(t.faits) + '</p></div></section>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? "Why it matters" : "Les enjeux") + '</h2><div class="prose"><p>' + esc(t.enjeux) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose"><p>' + esc(t.faits) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose"><p>' + esc(t.enjeux) + '</p></div></section>';
     if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
     if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
     if (c.programme) h += '<aside class="prog"><span class="label">Lien avec le programme</span><p><strong>Module</strong> · ' + esc(c.programme.module) + '</p><p><strong>Chapitre</strong> · ' + esc(c.programme.chapitre) + '</p></aside>';
     h += '<section class="sec"><h2 class="label">Sujets possibles</h2><ol class="sujets">' + c.sujets.map((s, i) => '<li><b>0' + (i + 1) + '</b><span>' + esc(s) + '</span></li>').join("") + '</ol></section>';
-    h += '<p class="label muted source">Source · <a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.source) + ' ↗</a></p>';
+    h += '<p class="label muted source">Source · <a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.source) + ' ↗</a> · <a href="https://www.google.com/search?q=' + encodeURIComponent((() => { try { return "site:" + new URL(c.url).hostname.replace(/^www\./, "") + " "; } catch (e) { return ""; } })() + (c.vo ? c.vo.titre : c.titre)) + '" target="_blank" rel="noopener">Lien cassé ? Chercher l\'article</a></p>';
     h += '<div class="bar"><button type="button" class="fav-btn" data-fav="' + c.id + '" aria-pressed="' + !!favs[c.id] + '" aria-label="' + (favs[c.id] ? "Retirer des favoris" : "Ajouter aux favoris") + '">' + BOOKMARK + '</button><a class="next-btn label" href="#' + next.id + '">Actu suivante</a></div>';
     app.innerHTML = h + '</article></div>';
     window.scrollTo(0, 0);

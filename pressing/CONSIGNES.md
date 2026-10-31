@@ -17,7 +17,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 5. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
 6. Écris `data/editions/<date>.json` (format ci-dessous), avec les 12 cartes dans l'ordre esh, anglais, espagnol, allemand.
 7. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
-8. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ».
+8. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
 9. Termine par un message très court à Alicia : les 12 titres, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
 
 ## Sources autorisées
@@ -56,7 +56,8 @@ Chaque carte a un champ `image` :
 - **Rien d'inutile.** Pas de détails, de chiffres ou d'exemples qu'Alicia ne pourra pas réutiliser en dissertation ou en khôlle.
 - `faits` : 5 à 7 phrases en français sur ce qui s'est passé.
 - `enjeux` : 5 à 7 phrases en français sur pourquoi c'est important pour les concours : le contexte utile, les mécanismes, les notions à retenir (en **gras** avec `**…**`).
-- `source` : le média principal. `url` : l'adresse exacte d'un article que tu as réellement consulté. `minutes` : 3.
+- `source` : le média principal. `minutes` : 3.
+- `url` : **ouvre l'article dans le navigateur et copie l'adresse depuis la barre d'adresse.** N'écris **jamais** une adresse de mémoire, ne la reconstitue pas à partir du titre, n'invente pas d'identifiant (un lien inventé tombe sur une page d'erreur). Pas de page de direct, de vidéo ou de tag : un article. Si tu ne retrouves pas l'article exact, choisis une autre actu.
 - `id` : `<date>-<matiere>-<numéro>`, par exemple `2026-11-01-esh-1`.
 - `sujets` : 2 sujets de dissertation (en français pour l'ESH, dans la langue étrangère pour les langues).
 

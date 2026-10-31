@@ -1,6 +1,7 @@
 """Vérifie la dernière édition de Press'ing avant publication.
 
-Usage : python3 scripts/verifier.py [AAAA-MM-JJ]
+Usage : python3 scripts/verifier.py [AAAA-MM-JJ] [--sans-liens]
+Ouvre chaque lien d'article pour vérifier qu'il existe (internet nécessaire).
 Sans date, vérifie l'édition la plus récente de data/index.json.
 """
 import json
@@ -34,12 +35,34 @@ def allowed(url, domains):
     h = host(url)
     return any(h == d or h.endswith("." + d) for d in domains)
 
+
+def check_link(url):
+    """Ouvre vraiment le lien. Renvoie None si l'article existe, sinon le problème."""
+    import urllib.request, urllib.error
+    from urllib.parse import urlparse
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+        "Accept": "text/html,application/xhtml+xml", "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            final = r.geturl()
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 402, 403, 429, 451):
+            return None  # site qui bloque les robots ou paywall : on ne peut pas trancher
+        return f"le lien ne marche pas (erreur {e.code}), l'adresse est fausse"
+    except Exception as e:
+        return "le lien ne s'ouvre pas (adresse fausse, ou pas de connexion internet)"
+    if len(urlparse(final).path.strip("/")) < 12 <= len(urlparse(url).path.strip("/")):
+        return "le lien renvoie vers la page d'accueil du journal, l'article n'existe pas à cette adresse"
+    return None
+
 try:
     index = json.loads((DATA / "index.json").read_text(encoding="utf-8"))
 except Exception as e:
     sys.exit(f"data/index.json illisible : {e}")
 
-date = sys.argv[1] if len(sys.argv) > 1 else sorted(index.get("editions", []), reverse=True)[0]
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
+date = args[0] if args else sorted(index.get("editions", []), reverse=True)[0]
 path = DATA / "editions" / f"{date}.json"
 if date not in index.get("editions", []):
     errors.append(f"{date} n'est pas dans data/index.json")
@@ -79,6 +102,10 @@ for c in cards:
         errors.append(f"{cid} : url invalide")
     elif not allowed(c["url"], SOURCES):
         errors.append(f"{cid} : source non autorisée ({host(c['url'])}) — il faut un article de journal de la liste de CONSIGNES.md")
+    elif "--sans-liens" not in sys.argv:
+        pb = check_link(c["url"])
+        if pb:
+            errors.append(f"{cid} : {pb}. Retrouve le vrai article et copie l'adresse depuis la barre du navigateur.")
     img = c.get("image")
     if not img:
         warnings.append(f"{cid} : pas de photo")
