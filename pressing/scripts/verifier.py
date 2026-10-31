@@ -11,6 +11,30 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 MATS = ["esh", "anglais", "espagnol", "allemand"]
 errors = []
+warnings = []
+
+SOURCES = """insee.fr banque-france.fr ecb.europa.eu europa.eu imf.org oecd.org worldbank.org ine.es destatis.de
+arbeitsagentur.de gouvernement.fr economie.gouv.fr bundesregierung.de gov.uk ons.gov.uk bankofengland.co.uk
+federalreserve.gov afp.com reuters.com apnews.com lemonde.fr lesechos.fr lefigaro.fr liberation.fr la-croix.com
+ouest-france.fr francetvinfo.fr radiofrance.fr franceculture.fr france24.com rfi.fr latribune.fr challenges.fr
+alternatives-economiques.fr lexpress.fr lepoint.fr nouvelobs.com courrierinternational.com mediapart.fr
+publicsenat.fr vie-publique.fr bbc.com bbc.co.uk theguardian.com ft.com economist.com telegraph.co.uk thetimes.com
+independent.co.uk nytimes.com washingtonpost.com wsj.com bloomberg.com politico.com politico.eu npr.org cnn.com
+axios.com theatlantic.com elpais.com elmundo.es abc.es lavanguardia.com eldiario.es elconfidencial.com rtve.es
+europapress.es efe.com expansion.com clarin.com lanacion.com.ar eluniversal.com.mx eltiempo.com latercera.com
+tagesschau.de zdf.de dw.com spiegel.de zeit.de faz.net sueddeutsche.de handelsblatt.com welt.de tagesspiegel.de
+taz.de nzz.ch derstandard.at diepresse.com""".split()
+IMAGE_HOSTS = ["upload.wikimedia.org", "images.unsplash.com"]
+
+
+def host(url):
+    from urllib.parse import urlparse
+    return (urlparse(url).hostname or "").lower()
+
+
+def allowed(url, domains):
+    h = host(url)
+    return any(h == d or h.endswith("." + d) for d in domains)
 
 try:
     index = json.loads((DATA / "index.json").read_text(encoding="utf-8"))
@@ -55,6 +79,17 @@ for c in cards:
             errors.append(f"{cid} : champ {k} manquant ou vide")
     if not str(c.get("url", "")).startswith("http"):
         errors.append(f"{cid} : url invalide")
+    elif not allowed(c["url"], SOURCES):
+        errors.append(f"{cid} : source non autorisée ({host(c['url'])}) — prends un média de la liste de CONSIGNES.md")
+    img = c.get("image")
+    if not img:
+        warnings.append(f"{cid} : pas de photo")
+    else:
+        if not allowed(str(img.get("url", "")), IMAGE_HOSTS):
+            errors.append(f"{cid} : photo hors Wikimedia Commons / Unsplash ({host(str(img.get('url', '')))})")
+        for k in ("alt", "credit", "source"):
+            if not img.get(k):
+                errors.append(f"{cid} : photo sans {k}")
     if len(c.get("sujets", [])) < 2:
         errors.append(f"{cid} : il faut 2 sujets")
     if len(str(c.get("faits", ""))) < 300 or len(str(c.get("enjeux", ""))) < 300:
@@ -81,6 +116,8 @@ for c in cards:
         if len(voc) < 5 or any(not isinstance(v, list) or len(v) != 2 for v in voc):
             errors.append(f"{cid} : vocab doit contenir 6 paires [mot, traduction]")
 
+for w in warnings:
+    print(" (à noter)", w)
 if errors:
     print(f"{len(errors)} problème(s) dans l'édition du {date} :")
     for e in errors:

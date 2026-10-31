@@ -12,11 +12,41 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    - **anglais** : Royaume-Uni et États-Unis (politique, société, économie).
    - **espagnol** : Espagne et Amérique latine.
    - **allemand** : Allemagne (Autriche ou Suisse seulement si c'est vraiment marquant).
+   **Uniquement des médias reconnus**, ceux de la liste « Sources autorisées » ci-dessous. Si tu trouves une info ailleurs, retrouve-la dans un de ces médias avant de l'utiliser ; sinon, choisis une autre actu.
    Privilégie les sujets qui tombent au concours : institutions, politique économique, inégalités, élections, mondialisation, Europe, transition écologique. Évite les faits divers sans portée.
-5. Écris `data/editions/<date>.json` (format ci-dessous), avec les 12 cartes dans l'ordre esh, anglais, espagnol, allemand.
-6. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
-7. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ».
-8. Termine par un message très court à Alicia : les 12 titres, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+5. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
+6. Écris `data/editions/<date>.json` (format ci-dessous), avec les 12 cartes dans l'ordre esh, anglais, espagnol, allemand.
+7. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
+8. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ».
+9. Termine par un message très court à Alicia : les 12 titres, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+
+## Sources autorisées
+
+Le champ `url` doit pointer vers l'un de ces sites (ou un de leurs sous-domaines). Le vérificateur refuse tout autre site.
+
+- **Institutions et agences** : insee.fr, banque-france.fr, ecb.europa.eu, europa.eu, imf.org, oecd.org, worldbank.org, ine.es, destatis.de, arbeitsagentur.de, gouvernement.fr, economie.gouv.fr, bundesregierung.de, gov.uk, ons.gov.uk, bankofengland.co.uk, federalreserve.gov, afp.com, reuters.com, apnews.com
+- **Presse française** : lemonde.fr, lesechos.fr, lefigaro.fr, liberation.fr, la-croix.com, ouest-france.fr, francetvinfo.fr, radiofrance.fr, franceculture.fr, france24.com, rfi.fr, latribune.fr, challenges.fr, alternatives-economiques.fr, lexpress.fr, lepoint.fr, nouvelobs.com, courrierinternational.com, mediapart.fr, publicsenat.fr, vie-publique.fr
+- **Presse anglophone** : bbc.com, bbc.co.uk, theguardian.com, ft.com, economist.com, telegraph.co.uk, thetimes.com, independent.co.uk, nytimes.com, washingtonpost.com, wsj.com, bloomberg.com, politico.com, politico.eu, npr.org, cnn.com, axios.com, theatlantic.com
+- **Presse hispanophone** : elpais.com, elmundo.es, abc.es, lavanguardia.com, eldiario.es, elconfidencial.com, rtve.es, europapress.es, efe.com, expansion.com, cincodias.elpais.com, clarin.com, lanacion.com.ar, eluniversal.com.mx, eltiempo.com, latercera.com, bbc.com/mundo
+- **Presse germanophone** : tagesschau.de, zdf.de, dw.com, spiegel.de, zeit.de, faz.net, sueddeutsche.de, handelsblatt.com, welt.de, tagesspiegel.de, taz.de, nzz.ch, derstandard.at, diepresse.com
+- **Agences en anglais** : Reuters, AP, AFP (voir plus haut).
+
+`source` porte le vrai nom du média (« Le Monde », « El País », « Tagesschau »…).
+
+## Photos
+
+Chaque carte a un champ `image` :
+
+```json
+"image": {"url": "https://upload.wikimedia.org/…/1280px-….jpg", "alt": "Façade du Bundestag à Berlin", "credit": "Nom du photographe / Wikimedia Commons", "source": "https://commons.wikimedia.org/wiki/File:…"}
+```
+
+- **Seulement des photos libres de droits**, prises sur **Wikimedia Commons** (`upload.wikimedia.org`) ou **Unsplash** (`images.unsplash.com`). **Jamais** une photo d'un article de presse, d'une agence (AFP, Reuters, Getty…) ou d'un site quelconque : elles sont protégées.
+- `url` : le lien **direct** vers le fichier image (il doit finir par .jpg, .jpeg, .png ou .webp, ou être un lien images.unsplash.com). Pour Wikimedia, prends une version de 1 000 à 1 600 px de large. Vérifie que l'adresse s'ouvre bien et affiche l'image.
+- `source` : la page de la photo (page « File: » sur Commons, page de la photo sur Unsplash). `credit` : l'auteur indiqué sur cette page, suivi de « / Wikimedia Commons » ou « / Unsplash ».
+- Choisis une **illustration du sujet** : un lieu (parlement, banque centrale, ville), un bâtiment, un drapeau, une usine, un port, un symbole. **Évite les photos de personnes reconnaissables.**
+- Photo horizontale de préférence, nette, sans texte incrusté. Évite d'utiliser deux fois la même photo dans une édition.
+- Si tu ne trouves vraiment rien de correct, mets `"image": null` plutôt qu'une image douteuse.
 
 ## Règles de rédaction
 
@@ -51,6 +81,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
   {
    "id": "2026-11-01-esh-1", "matiere": "esh", "source": "…", "url": "https://…", "minutes": 3,
    "titre": "…", "faits": "…", "enjeux": "…",
+   "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "programme": {"module": "…", "chapitre": "…"},
    "auteurs": [{"nom": "…", "ouvrage": "…", "annee": "…", "ref": null, "texte": "…"}],
    "sujets": ["…", "…"]
@@ -58,6 +89,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
   {
    "id": "2026-11-01-anglais-1", "matiere": "anglais", "source": "…", "url": "https://…", "minutes": 3,
    "titre": "…", "faits": "…", "enjeux": "…",
+   "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "vo": {"titre": "…", "faits": "…", "enjeux": "…"},
    "vocab": [["…", "…"]],
    "sujets": ["…", "…"]
@@ -66,4 +98,4 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 }
 ```
 
-Le modèle le plus fidèle est `data/editions/2026-10-31.json` : même ton, même longueur, même niveau d'analyse.
+Le modèle le plus fidèle est `data/editions/2026-10-31.json` : même ton, même longueur, même niveau d'analyse. Il sert de modèle pour le **style uniquement** : certaines de ses sources ne sont pas dans la liste autorisée et ne doivent pas être reprises.

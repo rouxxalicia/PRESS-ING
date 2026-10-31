@@ -112,6 +112,17 @@ main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
 .small { padding-block: 18px 22px; border-top: 1px solid var(--line); }
 .small h3 { margin: 0; font-weight: 500; font-size: 16.5px; line-height: 1.35; text-wrap: balance; }
 .lead:hover h3, .small:hover h3 { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+/* Photos */
+.ph { position: relative; overflow: hidden; background: var(--soft); margin: 0; }
+.ph img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.lead .ph { aspect-ratio: 16 / 10; margin: -26px -24px 6px; }
+.small.has-img { display: grid; grid-template-columns: minmax(0, 1fr) 96px; column-gap: 16px; align-items: start; }
+.small.has-img .ph { grid-column: 2; grid-row: 1 / span 3; aspect-ratio: 1; }
+.small.has-img > :not(.ph) { grid-column: 1; }
+.row .ph { aspect-ratio: 4 / 5; }
+.hero { aspect-ratio: 16 / 9; }
+.credit { font-size: 11.5px; color: var(--muted); margin-top: -10px; }
+.credit a { text-decoration: underline; text-underline-offset: 2px; }
 @media (min-width: 820px) {
   .mag-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 48px; }
   .side { align-content: start; }
@@ -271,7 +282,8 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
   async function edition(d) { if (!state.editions[d]) state.editions[d] = await getJSON("data/editions/" + d + ".json"); return state.editions[d]; }
   async function referentiel() { if (!state.ref) state.ref = await getJSON("data/referentiel.json"); return state.ref; }
 
-  function thumb(c, n) { return '<div class="thumb" data-m="' + c.matiere + '" aria-hidden="true"><span class="n">N°' + String(n).padStart(2, "0") + '</span><span class="m">' + NOM[c.matiere] + '</span></div>'; }
+  function photo(c, cls) { const i = c.image; if (!i || !/^https:\/\//.test(i.url || "")) return ""; return '<figure class="ph' + (cls ? " " + cls : "") + '"><img src="' + esc(i.url) + '" alt="' + esc(i.alt || "") + '" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'figure\').remove()"></figure>'; }
+  function thumb(c, n) { if (c.image && c.image.url) return photo(c); return '<div class="thumb" data-m="' + c.matiere + '" aria-hidden="true"><span class="n">N°' + String(n).padStart(2, "0") + '</span><span class="m">' + NOM[c.matiere] + '</span></div>'; }
   function row(c, n) {
     return '<a class="row" href="#' + c.id + '">' + thumb(c, n) +
       '<div class="row-body"><span class="label muted">' + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · <span class="lue">Lue</span>' : '') + '</span>' +
@@ -301,10 +313,10 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       h += '<section class="mag">' +
         '<div class="mag-head"><i class="dot big" data-dot="' + m + '"></i><h2><a href="#' + m + '">' + NOM[m] + '</a></h2><span class="mag-rule"></span><span class="label muted">' + cs.length + ' actualités</span></div>' +
         '<div class="mag-grid">' +
-          '<a class="lead" href="#' + lead.id + '"><span class="num" data-num="' + m + '">01</span>' +
+          '<a class="lead" href="#' + lead.id + '">' + photo(lead) + '<span class="num" data-num="' + m + '">01</span>' +
             '<h3>' + esc(lead.titre) + '</h3><p class="chapo">' + esc(firstSentence(lead.faits)) + '</p>' +
             '<span class="label muted">' + esc(lead.source) + ' · ' + lead.minutes + ' min' + (lues[lead.id] ? ' · Lue' : '') + '</span></a>' +
-          '<div class="side">' + rest.map((c, i) => '<a class="small" href="#' + c.id + '"><span class="num" data-num="' + m + '">0' + (i + 2) + '</span>' +
+          '<div class="side">' + rest.map((c, i) => '<a class="small' + (c.image && c.image.url ? ' has-img' : '') + '" href="#' + c.id + '">' + photo(c) + '<span class="num" data-num="' + m + '">0' + (i + 2) + '</span>' +
             '<h3>' + esc(c.titre) + '</h3><span class="label muted">' + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · Lue' : '') + '</span></a>').join("") + '</div>' +
         '</div></section>';
     });
@@ -340,7 +352,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     const pos = same.findIndex(x => x.id === id);
     const next = same[pos + 1] || ed.cards[(idx + 1) % ed.cards.length];
     let h = '<div class="narrow"><a class="back label" href="#' + c.matiere + '">← ' + NOM[c.matiere] + '</a>';
-    h += '<article class="card"><div class="band" data-m="' + c.matiere + '"></div>';
+    h += '<article class="card">' + (c.image && c.image.url ? photo(c, "hero") + (c.image.credit ? '<p class="credit">Photo · ' + (c.image.source ? '<a href="' + esc(c.image.source) + '" target="_blank" rel="noopener">' + esc(c.image.credit) + '</a>' : esc(c.image.credit)) + '</p>' : '') : '<div class="band" data-m="' + c.matiere + '"></div>');
     h += '<span class="label muted">' + NOM[c.matiere] + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
     h += '<h1>' + esc(t.titre) + '</h1>';
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
