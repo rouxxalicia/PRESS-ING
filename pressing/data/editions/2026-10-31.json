@@ -4,12 +4,18 @@
   {
    "id": "2026-10-31-esh-1",
    "matiere": "esh",
-   "source": "Insee / Économie Matin",
-   "url": "https://www.economiematin.fr/pib-france-troisieme-trimestre-2026-recul-exportations-insee-301026-263",
+   "source": "Insee",
+   "url": "https://www.insee.fr/fr/statistiques/8664157",
    "minutes": 3,
-   "titre": "Le PIB français recule de 0,1 % au troisième trimestre",
-   "faits": "Selon la première estimation de l'Insee publiée le 30 octobre, le PIB de la France a reculé de 0,1 % au troisième trimestre 2026, après une stagnation au deuxième et une baisse de 0,2 % au premier. La Banque de France attendait au contraire une légère hausse. La cause principale est l'effondrement des exportations (−1,7 %), qui retirent 0,6 point à la croissance. La consommation des ménages progresse un peu (+0,4 %), mais l'investissement continue de reculer (−0,6 %). L'acquis de croissance pour 2026 n'est plus que de 0,2 %.",
-   "enjeux": "Ce chiffre montre une économie à l'arrêt : trois trimestres sans croissance, ce qui n'est pas encore une « récession technique » (deux trimestres de baisse consécutifs) mais s'en approche. Le recul de l'investissement est le signal le plus inquiétant, car il prépare la croissance de demain : les entreprises attendent de voir clair sur le budget, les impôts et les taux avant d'investir. L'incertitude politique devient donc un coût économique. C'est aussi un piège budgétaire : moins de croissance signifie moins de recettes fiscales, donc un déficit plus difficile à réduire, alors que le gouvernement prépare 54 milliards d'économies qui risquent elles-mêmes de freiner l'activité.",
+   "titre": "Le PIB français recule de 0,1 % au troisième trimestre, l'inflation remonte à 3,4 %",
+   "faits": "Selon la première estimation de l'Insee publiée le 30 octobre, le PIB de la France a reculé de 0,1 % au troisième trimestre 2026, après une stagnation au deuxième (0,0 %) et une baisse de 0,2 % au premier. La cause principale est la chute des exportations (−1,7 %), qui retirent 0,6 point à la croissance. La consommation des ménages accélère légèrement (+0,4 %), mais l'investissement recule pour le troisième trimestre d'affilée (−0,6 %). L'acquis de croissance pour 2026 n'est plus que de 0,2 %. Le même jour, l'Insee estime que l'inflation a rebondi à 3,4 % sur un an en octobre, après 3,1 % en septembre, tirée par l'envolée des prix de l'énergie (+24,1 %).",
+   "enjeux": "Ces deux chiffres décrivent une économie proche de la **stagflation** : trois trimestres sans croissance pendant que l'inflation repart à cause d'un **choc d'offre** importé sur l'énergie, lié aux tensions au Moyen-Orient. Le recul continu de l'**investissement** est le signal le plus inquiétant, car il prépare la croissance future : les entreprises attendent de voir clair sur le budget, les impôts et les taux avant d'engager des dépenses. L'incertitude politique devient ainsi un coût économique. C'est aussi un piège budgétaire : moins de croissance réduit les recettes fiscales, alors que le gouvernement prépare d'importantes économies pour 2027 qui risquent elles-mêmes de freiner la **demande globale**.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Minist%C3%A8re_de_l%27%C3%89conomie_et_des_Finances_Mars_2022.jpg/1280px-Minist%C3%A8re_de_l%27%C3%89conomie_et_des_Finances_Mars_2022.jpg",
+    "alt": "Le ministère de l'Économie et des Finances à Bercy, à Paris",
+    "credit": "ZeusUpsistos / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Minist%C3%A8re_de_l%27%C3%89conomie_et_des_Finances_Mars_2022.jpg"
+   },
    "programme": {
     "module": "4 - Déséquilibres, régulation et action publique",
     "chapitre": "4.1 - Équilibres et déséquilibres macroéconomiques"
@@ -20,30 +26,36 @@
      "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
      "annee": "1936",
      "ref": null,
-     "texte": "Keynes montre que l'investissement dépend des **anticipations** des entrepreneurs, qu'il appelle leurs « esprits animaux » : quand l'avenir est incertain, ils reportent leurs projets, et la demande globale baisse. Il défend aussi le **multiplicateur** : une baisse de la dépense publique réduit le revenu national de plus que son montant. À mobiliser pour montrer qu'une politique d'austérité en période de croissance nulle peut aggraver la situation qu'elle veut corriger."
+     "texte": "Keynes montre que l'investissement dépend des **anticipations** des entrepreneurs, qu'il appelle leurs « **esprits animaux** » : quand l'avenir est incertain, ils reportent leurs projets et la demande globale faiblit. Il défend aussi le **multiplicateur budgétaire** : réduire la dépense publique fait baisser le revenu national de plus que le montant économisé. À mobiliser pour montrer qu'une cure d'austérité en période de croissance nulle peut aggraver le ralentissement qu'elle cherche à corriger."
     },
     {
      "nom": "Alberto Alesina et Silvia Ardagna",
      "ouvrage": "« Large Changes in Fiscal Policy »",
      "annee": "2010",
      "ref": null,
-     "texte": "À l'inverse, Alesina défend l'idée d'une **austérité expansive** : une baisse crédible des dépenses rassure les ménages et les marchés, fait baisser les taux et relance l'investissement. Cette thèse a été très discutée après 2010, notamment par le FMI, qui a montré que les multiplicateurs étaient plus élevés que prévu en période de crise. À mobiliser pour construire le débat sur l'effet des économies budgétaires sur la croissance."
+     "texte": "À l'inverse, Alesina et Ardagna défendent la thèse d'une **austérité expansive** : une baisse crédible des dépenses publiques rassure les ménages et les marchés financiers, fait baisser les taux d'intérêt et relance l'investissement privé. Cette idée a été vivement contestée après 2010 par Olivier Blanchard et le FMI, qui ont montré que les multiplicateurs étaient sous-estimés en temps de crise. À mobiliser pour construire le débat sur le bon rythme de réduction du déficit."
     }
    ],
    "sujets": [
     "Faut-il réduire le déficit public en période de faible croissance ?",
-    "L'incertitude est-elle un frein à la croissance ?"
+    "L'incertitude est-elle un frein majeur à l'investissement ?"
    ]
   },
   {
    "id": "2026-10-31-esh-2",
    "matiere": "esh",
-   "source": "Echos Plus",
-   "url": "https://echosplus.com/2026/10/29/bce-les-taux-restent-inchanges-christine-lagarde-annonce-son-depart/",
+   "source": "BCE",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~cb175b9f4b.en.html",
    "minutes": 3,
-   "titre": "La BCE garde ses taux à 2,5 %, Christine Lagarde partira en février",
-   "faits": "Le 29 octobre, la Banque centrale européenne a laissé son taux de dépôt à 2,5 %, après deux hausses depuis le début de l'année. L'inflation est repartie à la hausse dans la zone euro, poussée par l'énergie et les tensions au Moyen-Orient. La BCE estime que les conditions de financement se sont déjà durcies et préfère attendre avant de monter encore. Le même jour, Christine Lagarde a annoncé qu'elle quitterait la présidence le 7 février 2027, près de neuf mois avant la fin de son mandat. Son successeur sera désigné par le Conseil européen. La Fed américaine avait elle aussi maintenu ses taux la veille.",
-   "enjeux": "La BCE est face à un dilemme classique : l'inflation remonte, ce qui pousserait à monter les taux, mais la croissance est très faible, ce qui pousserait à les baisser. C'est une situation proche de la **stagflation** des années 1970, où un choc pétrolier fait à la fois monter les prix et ralentir l'activité. Monter les taux freine l'inflation mais aggrave le ralentissement et alourdit le coût de la dette des États, dont la France. Le départ anticipé de Lagarde pose une autre question : celle de l'indépendance de la banque centrale. Dès février 2026, la presse évoquait un départ avant la présidentielle française de 2027, pour que le choix du successeur ne dépende pas du futur président.",
+   "titre": "La BCE maintient ses taux à 2,5 % et Christine Lagarde annonce son départ en février",
+   "faits": "À l'issue de sa réunion du 29 octobre, la Banque centrale européenne a maintenu son taux de dépôt à 2,50 %, après deux hausses depuis l'été. Le Conseil des gouverneurs souligne que la hausse des prix de l'énergie fait peser un risque de rebond sur l'inflation et un risque de baisse sur la croissance. Comme l'inflation sous-jacente reste stable et que le crédit s'est déjà durci, la BCE préfère attendre et décider réunion par réunion. Le même jour, Christine Lagarde a annoncé qu'elle quitterait la présidence le 7 février 2027, près de neuf mois avant la fin de son mandat de huit ans. Son successeur devra être désigné par le Conseil européen.",
+   "enjeux": "La BCE retrouve le dilemme classique des années 1970 face à un choc énergétique : relever les **taux directeurs** freine l'inflation mais casse une croissance déjà fragile et alourdit le coût de la dette des États. À l'inverse, laisser filer les prix risque de désancrer les **anticipations d'inflation** et d'enclencher une boucle prix-salaires. Le départ anticipé de Christine Lagarde ouvre en parallèle une négociation politique sensible entre capitales européennes. Il rappelle que l'**indépendance de la banque centrale**, inscrite dans les traités pour isoler la monnaie des pressions électorales, dépend aussi du choix de ses dirigeants.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+    "alt": "Le siège de la Banque centrale européenne à Francfort",
+    "credit": "Thomas Wolf / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_Frankfurt.jpg"
+   },
    "programme": {
     "module": "4 - Déséquilibres, régulation et action publique",
     "chapitre": "4.2 - L'intervention économique des pouvoirs publics"
@@ -51,71 +63,83 @@
    "auteurs": [
     {
      "nom": "Irving Fisher",
-     "ouvrage": "The Purchasing Power of Money",
-     "annee": "1911",
+     "ouvrage": "The Theory of Interest",
+     "annee": "1930",
      "ref": "relation-de-fisher",
-     "texte": "Fisher distingue le **taux d'intérêt nominal** du **taux réel** (taux nominal moins l'inflation). Avec une inflation qui remonte, un taux de 2,5 % peut rester faible, voire négatif en réel : la politique monétaire n'est donc pas forcément aussi restrictive qu'elle en a l'air. À mobiliser pour expliquer pourquoi une banque centrale peut juger qu'elle doit encore monter ses taux."
+     "texte": "Fisher distingue le **taux d'intérêt nominal** du **taux réel**, égal au taux nominal diminué de l'inflation. Quand l'inflation dépasse 3 %, un taux directeur de 2,5 % correspond à un taux réel négatif : la politique monétaire reste moins restrictive qu'il n'y paraît. À mobiliser dans un sujet sur la monnaie pour expliquer pourquoi une banque centrale surveille l'écart entre ses taux et l'inflation."
     },
     {
      "nom": "Finn Kydland et Edward Prescott",
      "ouvrage": "« Rules Rather than Discretion »",
      "annee": "1977",
      "ref": null,
-     "texte": "Kydland et Prescott montrent qu'un gouvernement a toujours la tentation de relancer l'économie par l'inflation, surtout avant une élection : c'est l'**incohérence temporelle**. D'où l'intérêt de confier la monnaie à une banque centrale **indépendante**, dirigée par quelqu'un de crédible. À mobiliser pour expliquer pourquoi le calendrier du départ de Lagarde et le choix de son successeur sont des enjeux politiques."
+     "texte": "Kydland et Prescott montrent qu'un gouvernement soumis au calendrier électoral est tenté de relancer l'activité par une surprise d'inflation : c'est l'**incohérence temporelle**. Pour rendre la lutte contre l'inflation **crédible**, il faut confier la monnaie à une banque centrale **indépendante** qui suit une règle claire. À mobiliser pour expliquer le statut de la BCE et les enjeux politiques autour de la succession de Christine Lagarde."
     }
    ],
    "sujets": [
-    "La politique monétaire peut-elle lutter à la fois contre l'inflation et le chômage ?",
-    "L'indépendance des banques centrales est-elle encore justifiée ?"
+    "La politique monétaire peut-elle lutter à la fois contre l'inflation et le ralentissement économique ?",
+    "L'indépendance des banques centrales est-elle toujours justifiée ?"
    ]
   },
   {
    "id": "2026-10-31-esh-3",
    "matiere": "esh",
-   "source": "Économie Matin / CGT",
-   "url": "https://www.economiematin.fr/coupes-budgetaires-54-milliards-pouvoir-achat-2026",
+   "source": "Ministère de l'Économie",
+   "url": "https://www.economie.gouv.fr/files/files/2026/CP-Notation-Fitch-30102026.pdf",
    "minutes": 3,
-   "titre": "Contre le budget 2027, les syndicats préparent la grève du 5 novembre",
-   "faits": "L'intersyndicale (CFDT, CGT, FO, Unsa, FSU) appelle à une grève interprofessionnelle le jeudi 5 novembre, dans le public comme dans le privé. Elle conteste le projet de budget 2027 du gouvernement Lecornu, qui prévoit 54 milliards d'euros d'économies, soit près de 2 % du PIB. Les mesures visées sont le gel du point d'indice des fonctionnaires et le blocage de la revalorisation automatique des prestations sociales, alors que l'inflation dépasse 3 %. Les syndicats demandent des hausses de salaires indexées sur les prix et une réforme fiscale taxant davantage patrimoines et dividendes. La CGT appelle aussi à manifester dès ce 31 octobre, après les mobilisations du 29 septembre et le mouvement lycéen et étudiant.",
-   "enjeux": "Ce conflit oppose deux lectures de la dette : pour le gouvernement, il faut réduire le déficit pour éviter la hausse des taux ; pour les syndicats, l'effort repose trop sur les salariés et les ménages modestes. Geler salaires et prestations quand les prix montent, c'est une **baisse du pouvoir d'achat réel** : on revient au débat sur l'indexation des salaires sur l'inflation, supprimée en France en 1983. L'unité des cinq grandes confédérations, rare, montre l'ampleur du rejet. Ce mouvement illustre enfin la question du consentement à l'impôt et à l'effort : une politique budgétaire jugée injuste peut devenir politiquement impossible, ce qui renforce l'instabilité que les agences de notation reprochent à la France.",
+   "titre": "Fitch place la note de la France sous perspective négative en plein débat budgétaire",
+   "faits": "Le 30 octobre, l'agence de notation Fitch a maintenu la note souveraine de la France à A+, mais a abaissé sa perspective de « stable » à « négative », une semaine après une décision similaire de Moody's. L'agence invoque le recul du PIB au troisième trimestre, un déficit plus élevé que prévu, la cherté des emprunts publics et une dette qui passerait d'environ 116 % du PIB à près de 124 % en 2028. Elle pointe aussi la fragmentation politique et les tensions sociales autour du budget 2027, contre lequel l'intersyndicale (CFDT, CGT, FO, Unsa, FSU) appelle à la grève le 5 novembre. Dans un communiqué, le ministre de l'Économie Roland Lescure juge « indispensable » de voter un budget ramenant le déficit à 5 %.",
+   "enjeux": "Après Moody's le 23 octobre, cet avertissement non programmé de Fitch montre que les **marchés financiers** exercent une surveillance permanente sur la trajectoire budgétaire française. Avec un taux à dix ans proche de 5 % et une croissance quasi nulle, la France subit l'**effet boule de neige** : le poids de la dette dans le PIB augmente mécaniquement. Mais le gouvernement est pris en étau entre deux contraintes : rassurer les créanciers par des coupes budgétaires, ou préserver le **consentement à l'effort** face aux syndicats qui dénoncent le gel du point d'indice et des prestations sociales en pleine poussée d'inflation. L'instabilité politique et sociale devient elle-même un facteur de dégradation financière.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Palais_Brongniart_Facade.jpg/1280px-Palais_Brongniart_Facade.jpg",
+    "alt": "La façade du palais Brongniart, ancienne Bourse de Paris",
+    "credit": "Mbzt / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palais_Brongniart_Facade.jpg"
+   },
    "programme": {
-    "module": "2 - Croissance et développement",
-    "chapitre": "2.2 - Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle"
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - L'intervention économique des pouvoirs publics"
    },
    "auteurs": [
+    {
+     "nom": "Evsey Domar",
+     "ouvrage": "« The Burden of the Debt and the National Income »",
+     "annee": "1944",
+     "ref": "effet-boule-de-neige",
+     "texte": "Domar montre que le ratio dette/PIB dépend de l'écart entre le **taux d'intérêt** (r) et le **taux de croissance** (g). Lorsque r dépasse g, comme en France aujourd'hui, les intérêts font grossir la dette plus vite que la richesse nationale : c'est l'**effet boule de neige**, qui exige un excédent primaire pour être stoppé. À mobiliser pour analyser l'inquiétude de Fitch face au recul simultané du PIB et à la hausse des taux."
+    },
     {
      "nom": "Mancur Olson",
      "ouvrage": "La Logique de l'action collective",
      "annee": "1965",
      "ref": null,
-     "texte": "Olson pose le **paradoxe de l'action collective** : chacun a intérêt à ce que la grève réussisse, mais aussi à ne pas la faire lui-même pour ne pas perdre de salaire (le **passager clandestin**). Les syndicats doivent donc offrir des incitations ou une forte légitimité. À mobiliser pour expliquer pourquoi une intersyndicale unie est un atout : elle rend la mobilisation plus visible et réduit le coût individuel de l'engagement."
-    },
-    {
-     "nom": "Albert Hirschman",
-     "ouvrage": "Exit, Voice and Loyalty",
-     "annee": "1970",
-     "ref": null,
-     "texte": "Hirschman distingue trois réactions face à une situation insatisfaisante : partir (**exit**), protester (**voice**) ou rester fidèle (**loyalty**). Pour les fonctionnaires, quitter l'État est difficile : la prise de parole collective devient le principal moyen de pression. À mobiliser pour analyser les formes de contestation et leur efficacité."
+     "texte": "Olson explique le **paradoxe de l'action collective** : chacun a intérêt à ce qu'une mobilisation réussisse sans en payer le coût individuel, en se comportant en **passager clandestin**. L'union des cinq grandes confédérations syndicales pour le 5 novembre abaisse ce frein en donnant une forte visibilité à la grève. À mobiliser pour comprendre pourquoi une rigueur budgétaire jugée mal répartie se heurte à des blocages sociaux."
     }
    ],
    "sujets": [
-    "Les conflits sociaux sont-ils encore un moteur du changement social ?",
+    "La dette publique réduit-elle la souveraineté économique des États ?",
     "La rigueur budgétaire est-elle socialement soutenable ?"
    ]
   },
   {
    "id": "2026-10-31-anglais-1",
    "matiere": "anglais",
-   "source": "ITV News",
-   "url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/28/healey-gives-households-100-to-help-navigate-global-economic-storms",
    "minutes": 3,
-   "titre": "Andy Burnham admet que son premier budget n'est « pas idéal »",
-   "faits": "Le 28 octobre, John Healey, devenu chancelier de l'Échiquier, a présenté le premier budget du gouvernement d'Andy Burnham, Premier ministre depuis la démission de Keir Starmer le 20 juillet. Les mesures phares : un chèque énergie de 100 £ pour environ 20 millions de foyers, financé par le doublement de la surtaxe sur les banques (6 %), et 10 milliards de £ d'aide supplémentaire à l'Ukraine. Healey a refusé toute hausse générale d'impôts. Deux jours plus tard, Burnham a reconnu que ce budget n'était « pas idéal » : sa marge de manœuvre était trop faible, notamment à cause de la hausse des charges d'intérêts de la dette. L'IFS estime qu'il prépare des coupes « brutales » à venir.",
-   "enjeux": "Burnham, figure de la gauche travailliste et ancien maire de Manchester, avait promis une rupture avec Starmer. Ce budget prudent montre la contrainte qui pèse sur tous les gouvernements britanniques depuis 2022, quand le mini-budget de Liz Truss avait affolé les marchés et fait chuter la livre. Depuis, aucun chancelier ne veut paraître laxiste. Burnham cite d'ailleurs les manifestations en France comme exemple de l'instabilité à éviter. Il renvoie le vrai changement à un plan sur dix ans attendu d'ici la fin de l'année. Les conservateurs de Kemi Badenoch réclament des élections anticipées, que Burnham exclut pour 2027.",
+   "titre": "Royaume-Uni : un premier budget prudent pour Andy Burnham et John Healey",
+   "faits": "Le 28 octobre, le chancelier de l'Échiquier John Healey a présenté le premier budget du gouvernement d'Andy Burnham, devenu Premier ministre en juillet après la démission de Keir Starmer. Mesure phare : un chèque énergie de 100 livres pour environ 20 millions de foyers, financé par une surtaxe sur les banques, ainsi que l'annulation de la hausse prévue de la taxe sur les carburants. Healey a écarté toute hausse des grands impôts sur les ménages (impôt sur le revenu, cotisations sociales, TVA) mais a dégagé 1,5 milliard de livres de capacité d'emprunt pour les maires des grandes régions. En interview le 30 octobre, Burnham a reconnu que ce budget était moins ambitieux qu'il ne l'aurait souhaité, à cause de la guerre au Moyen-Orient et de la hausse des intérêts de la dette.",
+   "enjeux": "Ancien maire de Manchester et figure de l'aile gauche du Parti travailliste, Andy Burnham avait promis en septembre de rompre avec quarante ans de néolibéralisme et d'austérité. Ce premier budget très mesuré montre l'ampleur de la **contrainte financière** qui pèse sur Londres depuis le mini-budget de Liz Truss en 2022, qui avait provoqué une crise obligataire et fait chuter la livre. Pour rassurer la City et faire baisser les taux d'emprunt, le gouvernement respecte des **règles budgétaires** strictes, au risque de décevoir sa base électorale et les syndicats. Seul marqueur vraiment propre à Burnham : l'accent mis sur la **dévolution**, qui donne plus d'autonomie financière aux élus locaux face à Westminster.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Houses_of_Parliament_in_2022_%28cropped%29.jpg/1280px-Houses_of_Parliament_in_2022_%28cropped%29.jpg",
+    "alt": "Le palais de Westminster et Big Ben à Londres",
+    "credit": "Colin / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament_in_2022_(cropped).jpg"
+   },
    "vo": {
-    "titre": "Andy Burnham admits his first Budget was \"not ideal\"",
-    "faits": "On 28 October, John Healey, now Chancellor of the Exchequer, delivered the first Budget of Andy Burnham's government; Burnham has been Prime Minister since Keir Starmer resigned on 20 July. The headline measures: a £100 energy payment for around 20 million households, funded by doubling the bank surcharge to 6%, and an extra £10 billion in support for Ukraine. Healey ruled out broad tax rises. Two days later, Burnham conceded the Budget was \"not ideal\": he had less room for manoeuvre than he wanted, partly because of rising debt interest costs. The IFS says it paves the way for \"brutal\" cuts down the line.",
-    "enjeux": "Burnham, a figure of Labour's soft left and former mayor of Greater Manchester, had promised a break with Starmer. This cautious Budget shows the constraint every British government has faced since 2022, when Liz Truss's mini-budget spooked the markets and sent the pound tumbling. Since then, no Chancellor wants to look reckless. Burnham even cited the protests in France as the kind of instability to avoid. He is pinning real change on a ten-year plan due by the end of the year. Kemi Badenoch's Conservatives are calling for an early election, which Burnham has ruled out for 2027."
+    "titre": "UK: a cautious first Budget for Andy Burnham and John Healey",
+    "faits": "On 28 October, Chancellor of the Exchequer John Healey delivered the first Budget of Andy Burnham's government, three months after Burnham succeeded Keir Starmer as Prime Minister. The headline measure is a £100 energy payment for around 20 million households, funded by a windfall levy on banks, alongside the cancellation of a planned fuel duty rise. Healey ruled out increases to major personal taxes – income tax, National Insurance and VAT – while unlocking a £1.5bn borrowing facility for regional mayors. In interviews on 30 October, Burnham conceded the package was less radical than he would have liked, citing the war in the Middle East and rising debt interest costs.",
+    "enjeux": "As the former mayor of Greater Manchester and a leading figure on Labour's soft left, Andy Burnham had pledged in September to break with forty years of neoliberalism and austerity. This cautious first Budget highlights the tight fiscal constraint facing every British government since Liz Truss's 2022 mini-budget spooked the bond market and sent the pound tumbling. To reassure the City and keep gilt yields down, the government has stuck to strict fiscal rules, at the risk of disappointing its own supporters and trade unions. The one unmistakable Burnham hallmark is a push for devolution, giving local leaders greater financial autonomy from Westminster."
    },
    "vocab": [
     [
@@ -123,65 +147,71 @@
      "le ministre des Finances britannique"
     ],
     [
-     "a bank surcharge",
-     "une surtaxe sur les banques"
+     "a windfall tax / levy",
+     "une taxe sur les superprofits"
     ],
     [
-     "room for manoeuvre",
-     "une marge de manœuvre"
+     "fiscal headroom",
+     "la marge de manœuvre budgétaire"
     ],
     [
-     "debt interest costs",
-     "la charge des intérêts de la dette"
+     "gilt yields",
+     "les taux d'emprunt de l'État britannique"
     ],
     [
-     "to spook the markets",
-     "affoler les marchés"
+     "devolution",
+     "la décentralisation / le transfert de compétences"
     ],
     [
-     "a snap election",
-     "des élections anticipées"
+     "to come cap in hand",
+     "venir quémander (auprès du pouvoir central)"
     ]
    ],
    "sujets": [
-    "Can a Labour government still deliver radical change?",
-    "Are financial markets the real masters of British fiscal policy?"
+    "Can a Labour government still deliver radical economic change?",
+    "Does Britain need far-reaching devolution to fix its regional divide?"
    ]
   },
   {
    "id": "2026-10-31-anglais-2",
    "matiere": "anglais",
-   "source": "Press Association / Irish News",
-   "url": "https://www.irishnews.com/news/uk/andy-burnham-open-to-calls-for-british-formal-apology-for-slavery-R6BX22F74RJ2ZAJSWRNWAME3MU/",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/30/british-people-wrongs-slavery-history-andy-burnham",
    "minutes": 3,
-   "titre": "Esclavage : Burnham « ouvert » à des excuses, mais pas aux réparations",
-   "faits": "Avant le sommet des chefs de gouvernement du Commonwealth (Chogm) qui se tient la semaine prochaine à Antigua, Andy Burnham s'est dit « ouvert » à l'idée d'excuses formelles du Royaume-Uni pour son rôle dans la traite négrière. Dans une tribune au Guardian, il qualifie la traite de « brutale et barbare » et propose un « dialogue structuré » avec les pays concernés. Il exclut en revanche, comme ses prédécesseurs, toute réparation financière. À la place, il propose une initiative sur la dette des pays caribéens, pour leur permettre de rembourser plus longtemps et à de meilleurs taux. Les 15 pays de la Caricom réclament excuses et réparations, alors que le roi Charles est en tournée dans la région.",
-   "enjeux": "La question des réparations revient à chaque sommet du Commonwealth depuis 2023, quand la Caricom a chiffré la dette historique de la Grande-Bretagne. Le Royaume-Uni a aboli la traite en 1807 et l'esclavage en 1833, mais en indemnisant les propriétaires d'esclaves, pas les esclaves : une dette que les contribuables britanniques ont fini de rembourser seulement en 2015. Burnham va plus loin que Starmer, qui refusait même d'en parler en 2024, mais reste prudent : des excuses formelles pourraient ouvrir la voie à des demandes juridiques. Ce débat interroge la mémoire impériale britannique et l'avenir du Commonwealth, dont plusieurs membres caribéens envisagent de quitter la monarchie.",
+   "titre": "Esclavage : Andy Burnham se dit « ouvert » à des excuses officielles, mais exclut des réparations",
+   "faits": "Dans une tribune publiée par le Guardian le 30 octobre, à la veille du sommet des chefs de gouvernement du Commonwealth (CHOGM) à Antigua-et-Barbuda, le Premier ministre Andy Burnham s'est dit « ouvert » aux demandes d'excuses officielles de l'État britannique pour la traite transatlantique. Exprimant à titre personnel sa « tristesse » et ses « regrets » face à un commerce qu'il qualifie de « brutal et barbare », il propose d'ouvrir un « dialogue structuré » avec les pays et associations concernés. Il écarte en revanche toute réparation financière, estimant que les citoyens britanniques d'aujourd'hui ne peuvent pas être tenus juridiquement ou financièrement responsables de fautes commises à une autre époque. Il propose plutôt d'aider les pays vulnérables à alléger le service de leur dette.",
+   "enjeux": "La question de la **justice réparatrice** domine les sommets du Commonwealth depuis que les quinze États caribéens de la Caricom ont établi un plan commun de revendications. Le Royaume-Uni a aboli la traite en 1807 puis l'esclavage en 1833, mais en indemnisant les propriétaires d'esclaves et non les victimes, un emprunt que les contribuables britanniques ont achevé de rembourser en 2015. En acceptant de discuter d'excuses d'État, Burnham va plus loin que Keir Starmer au sommet des Samoa en 2024, tout en maintenant une ligne rouge financière par crainte d'ouvrir la voie à des recours juridiques chiffrés en milliards. Ce débat interroge le rapport du Royaume-Uni à son **héritage impérial** et la survie même de la monarchie dans plusieurs royaumes des Caraïbes.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Royal_Albert_Dock.jpg/1280px-Royal_Albert_Dock.jpg",
+    "alt": "Le Royal Albert Dock à Liverpool, ancien grand port du commerce atlantique britannique",
+    "credit": "Ats Toomsalu / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Albert_Dock.jpg"
+   },
    "vo": {
-    "titre": "Slavery: Burnham \"open\" to an apology, but not to reparations",
-    "faits": "Ahead of next week's Commonwealth Heads of Government Meeting (Chogm) in Antigua, Andy Burnham said he was \"open\" to the idea of a formal British apology for the country's role in the slave trade. In a Guardian op-ed, he called the trade \"brutal and barbaric\" and proposed a \"structured dialogue\" with the countries affected. Like his predecessors, however, he ruled out financial reparations. Instead, he is offering a debt initiative to let Caribbean countries repay over a longer period and at better rates. The 15 Caricom nations are demanding both an apology and reparations, while King Charles is touring the region.",
-    "enjeux": "Reparations have come up at every Commonwealth summit since 2023, when Caricom put a figure on Britain's historical debt. Britain abolished the slave trade in 1807 and slavery in 1833, but it compensated slave owners, not enslaved people – a debt British taxpayers only finished paying off in 2015. Burnham goes further than Starmer, who refused even to discuss the issue in 2024, but he remains cautious: a formal apology could open the door to legal claims. The debate raises questions about Britain's imperial memory and the future of the Commonwealth, several of whose Caribbean members are considering leaving the monarchy."
+    "titre": "Slavery: Andy Burnham says he is \"open\" to a formal apology, but rules out reparations",
+    "faits": "In a Guardian op-ed published on 30 October, ahead of the Commonwealth Heads of Government Meeting (CHOGM) in Antigua and Barbuda, Prime Minister Andy Burnham said he was \"open\" to calls for a formal state apology for Britain's role in the transatlantic slave trade. Expressing his personal \"sorrow and regret\" over what he called a \"brutal and barbaric\" trade, he offered a \"structured dialogue\" with affected nations and campaign groups. However, he firmly ruled out financial reparations, arguing that British citizens today cannot be held legally or financially liable for historical wrongs committed in a different age. Instead, he proposed initiatives to ease debt servicing for vulnerable countries.",
+    "enjeux": "Demands for reparatory justice have dominated Commonwealth summits since the fifteen Caribbean nations of Caricom drew up a joint action plan. Britain abolished the slave trade in 1807 and slavery itself in 1833, yet it compensated slave owners rather than enslaved people – a loan British taxpayers only finished paying off in 2015. By opening the door to a state apology, Burnham has gone further than Keir Starmer did at the 2024 Samoa summit, while holding a firm financial red line for fear of triggering multibillion-pound legal claims. The debate goes to the heart of Britain's reckoning with its imperial legacy and the future of the monarchy across several Caribbean realms."
    },
    "vocab": [
     [
-     "the slave trade",
-     "la traite négrière"
+     "the transatlantic slave trade",
+     "la traite négrière transatlantique"
     ],
     [
-     "a formal apology",
-     "des excuses officielles"
+     "a formal state apology",
+     "des excuses officielles de l'État"
     ],
     [
-     "reparations",
-     "des réparations"
+     "reparatory justice / reparations",
+     "la justice réparatrice / les réparations"
     ],
     [
-     "to rule out",
-     "exclure"
+     "to hold someone liable for",
+     "tenir quelqu'un pour responsable de"
     ],
     [
-     "an op-ed",
-     "une tribune"
+     "debt servicing",
+     "le service (remboursement) de la dette"
     ],
     [
      "imperial legacy",
@@ -189,77 +219,136 @@
     ]
    ],
    "sujets": [
-    "Should Britain apologise for its colonial past?",
-    "Is the Commonwealth still relevant today?"
+    "Should Britain offer a formal apology and reparations for its colonial past?",
+    "Does the Commonwealth still have a meaningful role in the twenty-first century?"
    ]
   },
   {
    "id": "2026-10-31-anglais-3",
    "matiere": "anglais",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+   "source": "CNN / Marist Poll",
+   "url": "https://www.cnn.com/2026/10/27/politics/midterms-trump-democrats-analysis/index.html",
    "minutes": 3,
-   "titre": "Midterms : à trois jours du vote, les démocrates en tête et une participation record",
-   "faits": "Les Américains votent mardi 3 novembre pour renouveler toute la Chambre des représentants et un tiers du Sénat. Dans la moyenne des sondages, les démocrates devancent les républicains d'environ 8 points au niveau national. La Chambre devrait très probablement basculer côté démocrate ; le Sénat, détenu par les républicains, reste plus incertain, avec sept courses jugées serrées. Le vote anticipé explose : plus de 43 millions d'électeurs ont déjà voté, près de 10 millions de plus qu'à la même date en 2022. Au Texas, la hausse atteint 50 %. La guerre en Iran pèse sur la campagne.",
-   "enjeux": "Les midterms sont traditionnellement un vote sanction contre le président en place : son parti perd presque toujours des sièges. Si les démocrates reprennent la Chambre, Trump perdrait le contrôle de l'agenda législatif et du budget, et la Chambre pourrait lancer des commissions d'enquête, voire une procédure d'**impeachment**. C'est le principe des **checks and balances** : le Congrès est le premier contre-pouvoir face à l'exécutif. Le niveau de participation, très élevé pour une élection de mi-mandat, montre aussi la forte polarisation du pays : l'élection est vécue comme un référendum pour ou contre Trump.",
+   "titre": "Midterms américaines : les démocrates en tête des sondages et un vote anticipé massif",
+   "faits": "À trois jours des élections de mi-mandat du mardi 3 novembre, qui renouvellent les 435 sièges de la Chambre des représentants et un tiers du Sénat, la participation anticipée dépasse nettement celle de 2022 dans les États clés. Dans le dernier sondage national NPR/PBS News/Marist publié fin octobre, les candidats démocrates devancent les républicains de 8 points parmi les électeurs probables (52 % contre 44 %), et de 13 points chez les électeurs indépendants (52 % contre 39 %). Près de 44 % des électeurs interrogés disent voter avant tout contre Donald Trump, dont la cote d'approbation reste sous les 40 %, contre 21 % qui votent pour le soutenir. Si la Chambre semble à la portée des démocrates, le contrôle du Sénat dépend d'une poignée d'États très disputés comme l'Ohio, le Maine et le Texas.",
+   "enjeux": "Les **midterms** fonctionnent presque toujours comme un vote sanction contre la Maison-Blanche : le parti du président perd des sièges à la quasi-totalité des scrutins depuis la Seconde Guerre mondiale. Une victoire démocrate à la Chambre priverait Donald Trump de majorité pour faire adopter ses lois et son budget pour les deux dernières années de son mandat, le transformant en **lame duck** sur le plan intérieur. Elle redonnerait aussi à l'opposition le pouvoir de créer des commissions d'enquête parlementaires et de convoquer les membres de l'administration, illustrant le mécanisme constitutionnel des **checks and balances**. Enfin, l'ampleur du vote anticipé et le poids du rejet de Trump chez les indépendants montrent à quel point chaque scrutin local est désormais nationalisé et polarisé.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/United_States_Capitol_west_front_edit2.jpg/1280px-United_States_Capitol_west_front_edit2.jpg",
+    "alt": "Le Capitole des États-Unis à Washington, siège du Congrès",
+    "credit": "Martin Falbisoner / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg"
+   },
    "vo": {
-    "titre": "Midterms: three days out, Democrats lead amid record early turnout",
-    "faits": "Americans vote on Tuesday 3 November to elect the entire House of Representatives and a third of the Senate. In the polling average, Democrats lead Republicans by around 8 points nationally. The House is very likely to flip to the Democrats; the Republican-held Senate is less certain, with seven races rated toss-ups. Early voting has surged: more than 43 million people have already cast a ballot, nearly 10 million more than at the same point in 2022. In Texas, early turnout is up 50%. The war in Iran is weighing on the campaign.",
-    "enjeux": "Midterms are traditionally a referendum on the sitting president: his party almost always loses seats. If Democrats win back the House, Trump would lose control of the legislative agenda and the budget, and the House could open investigations or even impeachment proceedings. This is the principle of checks and balances: Congress is the first counterweight to the executive. Turnout, very high for a midterm election, also reflects how polarised the country is: the vote is seen as a referendum for or against Trump."
+    "titre": "US midterms: Democrats lead in final polls amid a surge in early voting",
+    "faits": "Three days before the Tuesday 3 November midterm elections, which will decide all 435 seats in the House of Representatives and a third of the Senate, early and mail-in turnout is running well ahead of 2022 levels across key battlegrounds. In the final late-October NPR/PBS News/Marist national poll, Democrats lead Republicans by 8 points among likely voters on the generic congressional ballot (52% to 44%), and by 13 points among independents (52% to 39%). Some 44% of likely voters say their ballot is mainly a vote against Donald Trump, whose approval rating remains below 40%, compared with 21% voting to back him. While Democrats are favoured to win back the House, control of the Senate hangs on razor-thin races in states such as Ohio, Maine and Texas.",
+    "enjeux": "Midterm elections almost always act as a referendum on the incumbent administration: the president's party has lost seats in nearly every midterm since the Second World War. A Democratic takeover of the House would strip Donald Trump of a legislative majority to pass bills and budgets for the final two years of his term, turning him into a domestic lame duck. It would also hand the opposition subpoena power to launch congressional investigations into the administration, a textbook example of constitutional checks and balances. Finally, surging early turnout and the strong anti-Trump swing among independents show how thoroughly nationalised and polarised every local race has become."
    },
    "vocab": [
     [
-     "the midterms",
+     "the midterm elections",
      "les élections de mi-mandat"
     ],
     [
-     "to flip a seat",
-     "faire basculer un siège"
+     "the generic congressional ballot",
+     "l'intention de vote nationale pour le Congrès"
     ],
     [
-     "a toss-up",
-     "une course indécise"
+     "early / mail-in voting",
+     "le vote anticipé / par correspondance"
     ],
     [
-     "early voting / turnout",
-     "le vote anticipé / la participation"
+     "swing / independent voters",
+     "les électeurs indécis / indépendants"
     ],
     [
-     "impeachment proceedings",
-     "une procédure de destitution"
+     "subpoena power",
+     "le pouvoir de convocation et d'enquête (du Congrès)"
     ],
     [
-     "a lame duck",
+     "a lame-duck president",
      "un président affaibli en fin de mandat"
     ]
    ],
    "sujets": [
-    "Are the midterms always a vote against the president?",
-    "Is American democracy becoming too polarised to function?"
+    "Are US midterm elections merely a referendum on the sitting president?",
+    "Has partisan polarisation broken America's system of checks and balances?"
    ]
   },
   {
    "id": "2026-10-31-espagnol-1",
    "matiere": "espagnol",
-   "source": "Infobae",
-   "url": "https://www.infobae.com/espana/2026/10/27/asi-estan-las-encuestas-para-el-29-de-noviembre-pp-y-vox-mantienen-la-mayoria-absoluta-el-psoe-gana-terreno-y-la-izquierda-fragmentada-no-logra-remontar/",
+   "source": "INE / RTVE",
+   "url": "https://www.rtve.es/noticias/20261030/pib-espana-crecio-06-tercer-trimestre-2026-situa-27-interanual/16298504.shtml",
    "minutes": 3,
-   "titre": "Élections du 29 novembre : le PP et Vox gardent la majorité absolue dans les sondages",
-   "faits": "Pedro Sánchez a dissous les Cortes le 5 octobre et convoqué des élections générales anticipées pour le 29 novembre. Le déclencheur : le rejet de ses deux décrets sur le logement, après le vote contre de Junts. Les trois derniers sondages placent le PP de Feijóo en tête, autour de 31-33 %, devant le PSOE (26-27 %) et Vox (19-20 %). Ensemble, PP et Vox dépasseraient largement les 176 sièges de la majorité absolue. Le PSOE gagne du terrain mais reste loin. À gauche, le Frente Amplio d'Ada Colau ne ferait qu'entre 6 et 12 sièges, contre 31 pour Sumar en 2023, et Podemos pourrait disparaître.",
-   "enjeux": "Cette législature illustre la difficulté à gouverner l'Espagne depuis la fin du bipartisme PP-PSOE en 2015 : Sánchez dépendait de partis indépendantistes comme Junts, qui pouvaient bloquer chaque texte. Il n'a d'ailleurs fait voter aucun budget propre de toute la législature. Il mise sur la crise du logement, devenue la première préoccupation des Espagnols, pour mobiliser la gauche. Mais une victoire du bloc de droite ferait entrer Vox au gouvernement national pour la première fois, comme il l'a déjà fait dans plusieurs régions. Ce serait une première depuis la Transition pour un parti d'extrême droite.",
+   "titre": "L'Espagne affiche 0,6 % de croissance au troisième trimestre mais son chômage repasse au-dessus de 10 %",
+   "faits": "Selon l'estimation publiée par l'INE le 30 octobre, le PIB espagnol a progressé de 0,6 % au troisième trimestre 2026 (après +0,7 % au deuxième) et de 2,7 % sur un an, porté par la demande intérieure. L'Espagne reste ainsi en tête des grandes économies de la zone euro, loin devant l'Allemagne (+0,2 %) et la France (−0,1 %). Trois jours plus tôt, l'enquête EPA de l'INE montrait un marché du travail tout aussi contrasté : le pays atteint un record historique de 22,85 millions d'actifs occupés (+465 500 en un an), mais le taux de chômage remonte à 10,18 % (2,59 millions de chômeurs). Ce paradoxe s'explique par l'arrivée de 169 500 actifs supplémentaires en un trimestre, liée en grande partie à l'immigration.",
+   "enjeux": "Ces chiffres résument le paradoxe du modèle économique espagnol à un mois des élections générales anticipées du 29 novembre. D'un côté, l'Espagne tire la croissance européenne grâce au tourisme, à la consommation et aux fonds européens **Next Generation**, ce qui permet à Pedro Sánchez de défendre son bilan. De l'autre, elle conserve le taux de **chômage structurel** le plus élevé de l'Union européenne et une faible croissance de la productivité. L'essor de la population active montre aussi que l'**immigration** est devenue indispensable pour fournir de la main-d'œuvre et financer les retraites d'un pays vieillissant, un constat économique qui heurte de plein fouet le discours anti-immigration de Vox dans la campagne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Banco_de_Espa%C3%B1a_%28Madrid%29_05.jpg/1280px-Banco_de_Espa%C3%B1a_%28Madrid%29_05.jpg",
+    "alt": "Le siège de la Banque d'Espagne à Madrid",
+    "credit": "Luis García (Zaqarbal) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Banco_de_Espa%C3%B1a_(Madrid)_05.jpg"
+   },
    "vo": {
-    "titre": "Elecciones del 29N: PP y Vox mantienen la mayoría absoluta en las encuestas",
-    "faits": "Pedro Sánchez disolvió las Cortes el 5 de octubre y convocó elecciones generales anticipadas para el 29 de noviembre. El detonante fue el rechazo de sus dos decretos de vivienda, tras el voto en contra de Junts. Los tres últimos sondeos sitúan al PP de Feijóo en cabeza, en torno al 31-33 %, por delante del PSOE (26-27 %) y de Vox (19-20 %). Juntos, PP y Vox superarían con holgura los 176 escaños de la mayoría absoluta. El PSOE gana terreno, pero sigue lejos. En la izquierda, el Frente Amplio de Ada Colau obtendría entre 6 y 12 escaños, frente a los 31 de Sumar en 2023, y Podemos podría desaparecer.",
-    "enjeux": "Esta legislatura ilustra lo difícil que es gobernar España desde el fin del bipartidismo PP-PSOE en 2015: Sánchez dependía de partidos independentistas como Junts, capaces de bloquear cada ley. De hecho, no aprobó ningún presupuesto propio en toda la legislatura. Apuesta por la crisis de la vivienda, convertida en la principal preocupación de los españoles, para movilizar a la izquierda. Pero una victoria del bloque de derechas llevaría a Vox al Gobierno central por primera vez, como ya ocurre en varias comunidades autónomas. Sería algo inédito para un partido de extrema derecha desde la Transición."
+    "titre": "España crece un 0,6 % en el tercer trimestre, pero el paro vuelve a superar el 10 %",
+    "faits": "Según el avance publicado por el INE el 30 de octubre, el PIB español creció un 0,6 % en el tercer trimestre de 2026 (tras el 0,7 % del segundo) y un 2,7 % interanual, impulsado por la demanda nacional. España se mantiene así en cabeza de las grandes economías de la eurozona, muy por delante de Alemania (+0,2 %) y Francia (−0,1 %). Tres días antes, la encuesta EPA del INE reflejaba un mercado laboral igual de contrastado: el país alcanza un máximo histórico de 22,85 millones de ocupados (+465.500 en un año), pero la tasa de paro sube al 10,18 % (2,59 millones de desempleados). La paradoja se explica por la incorporación de 169.500 activos más en un solo trimestre, ligada en gran parte a la inmigración.",
+    "enjeux": "Estas cifras resumen la paradoja del modelo económico español a un mes de las elecciones generales anticipadas del 29 de noviembre. Por un lado, España lidera el crecimiento europeo gracias al turismo, al consumo y a los fondos europeos Next Generation, lo que permite a Pedro Sánchez reivindicar su gestión. Por otro, conserva la tasa de paro estructural más alta de la Unión Europea y un débil aumento de la productividad. El fuerte crecimiento de la población activa demuestra además que la inmigración se ha vuelto imprescindible para aportar mano de obra y sostener las pensiones de un país envejecido, un dato económico que choca de lleno con el discurso antiinmigración de Vox en la campaña."
    },
    "vocab": [
     [
-     "adelantar las elecciones",
-     "avancer les élections"
+     "el Producto Interior Bruto (PIB)",
+     "le produit intérieur brut (PIB)"
     ],
     [
-     "disolver las Cortes",
-     "dissoudre le Parlement"
+     "la demanda nacional / interna",
+     "la demande intérieure"
+    ],
+    [
+     "la Encuesta de Población Activa (EPA)",
+     "l'enquête sur la population active"
+    ],
+    [
+     "la tasa de paro",
+     "le taux de chômage"
+    ],
+    [
+     "un máximo histórico de ocupados",
+     "un record historique d'actifs occupés"
+    ],
+    [
+     "el paro estructural",
+     "le chômage structurel"
+    ]
+   ],
+   "sujets": [
+    "¿Es sostenible el milagro económico español?",
+    "¿Es la inmigración imprescindible para el futuro económico de España?"
+   ]
+  },
+  {
+   "id": "2026-10-31-espagnol-2",
+   "matiere": "espagnol",
+   "source": "RTVE",
+   "url": "https://www.rtve.es/noticias/20261026/encuestas-elecciones-generales-29n-pp-vox-diputados/01792042095926.shtml",
+   "minutes": 3,
+   "titre": "Élections du 29 novembre en Espagne : le bloc PP-Vox garde la majorité absolue dans les sondages",
+   "faits": "À un mois des élections générales anticipées du 29 novembre, convoquées par Pedro Sánchez après le rejet au Congrès de ses décrets sur le logement avec le vote contre de Junts, la moyenne des sondages privés compilée par RTVE donne une nette majorité à la droite. Le Parti populaire (PP) d'Alberto Núñez Feijóo arriverait en tête avec environ 31,5 % des voix (133 à 136 sièges), devant le PSOE à 26,8 % (environ 107 sièges). Vox connaît la plus forte progression, autour de 19 % (65 à 66 sièges) : ensemble, le PP et Vox totaliseraient près de 200 députés, bien au-delà de la majorité absolue de 176 sièges. À gauche du PSOE, la coalition Frente Amplio plafonne entre 6 et 7 % (11 à 12 sièges), pénalisée par sa rupture avec Podemos. Seul le baromètre public du CIS place le PSOE en tête (34 %).",
+   "enjeux": "Cette campagne illustre la crise de la **gouvernabilité** espagnole depuis la fin du bipartisme en 2015. Faute de majorité stable, Pedro Sánchez dépendait à chaque vote des indépendantistes catalans de Junts, au point de ne pas avoir pu faire adopter un seul budget propre durant la législature. Pour tenter de mobiliser l'électorat progressiste, le gouvernement vient d'approuver 201 millions d'euros d'aides via l'entité publique Casa 47 afin de construire 2 500 logements à loyer plafonné à 30 % des revenus. Mais la division entre Frente Amplio et Podemos coûte très cher à la gauche dans un mode de scrutin proportionnel par province qui pénalise les petits partis. Une victoire du bloc de droite ouvrirait la porte à l'entrée de Vox au gouvernement central, une première pour l'extrême droite depuis la Transition.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Madrid_-_Congreso_de_los_Diputados_01.jpg/1280px-Madrid_-_Congreso_de_los_Diputados_01.jpg",
+    "alt": "La façade du Congrès des députés à Madrid",
+    "credit": "Selbymay / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Madrid_-_Congreso_de_los_Diputados_01.jpg"
+   },
+   "vo": {
+    "titre": "Elecciones del 29-N en España: el bloque PP-Vox mantiene la mayoría absoluta en los sondeos",
+    "faits": "A un mes de las elecciones generales anticipadas del 29 de noviembre, convocadas por Pedro Sánchez tras el rechazo en el Congreso de sus decretos de vivienda con el voto en contra de Junts, el promedio de encuestas privadas recopilado por RTVE otorga una clara mayoría a la derecha. El Partido Popular (PP) de Alberto Núñez Feijóo encabezaría las urnas con cerca del 31,5 % de los votos (entre 133 y 136 escaños), por delante del PSOE con un 26,8 % (unos 107 escaños). Vox registra la mayor subida, en torno al 19 % (65 o 66 escaños): juntos, PP y Vox rondarían los 200 diputados, muy por encima de los 176 de la mayoría absoluta. A la izquierda del PSOE, la coalición Frente Amplio se queda entre el 6 % y el 7 % (11 o 12 escaños), lastrada por su ruptura con Podemos. Solo el barómetro público del CIS sitúa al PSOE en primera posición (34 %).",
+    "enjeux": "Esta campaña refleja la crisis de gobernabilidad que arrastra España desde el fin del bipartidismo en 2015. Sin una mayoría estable, Pedro Sánchez dependía en cada votación de los independentistas catalanes de Junts, hasta el punto de no haber logrado aprobar ni un solo presupuesto propio en toda la legislatura. Para intentar movilizar al votante progresista, el Ejecutivo acaba de aprobar 201 millones de euros en ayudas a través de la entidad pública Casa 47 para levantar 2.500 viviendas con alquileres limitados al 30 % de los ingresos familiares. Sin embargo, la división entre Frente Amplio y Podemos penaliza duramente a la izquierda en un sistema electoral provincial que castiga la fragmentación. Una victoria del bloque conservador abriría la puerta a la entrada de Vox en el Gobierno central, algo inédito para la extrema derecha desde la Transición."
+   },
+   "vocab": [
+    [
+     "el adelanto electoral",
+     "la convocation d'élections anticipées"
     ],
     [
      "la mayoría absoluta",
@@ -267,11 +356,15 @@
     ],
     [
      "un escaño",
-     "un siège"
+     "un siège de député"
     ],
     [
-     "el fin del bipartidismo",
-     "la fin du bipartisme"
+     "la fragmentación de la izquierda",
+     "l'émiettement de la gauche"
+    ],
+    [
+     "la vivienda de alquiler asequible",
+     "le logement à loyer abordable"
     ],
     [
      "la gobernabilidad",
@@ -279,89 +372,50 @@
     ]
    ],
    "sujets": [
-    "¿Es España cada vez menos gobernable?",
-    "¿Ha muerto definitivamente el bipartidismo en España?"
-   ]
-  },
-  {
-   "id": "2026-10-31-espagnol-2",
-   "matiere": "espagnol",
-   "source": "INE / Qué!",
-   "url": "https://www.que.es/2026/10/28/epa-tercer-trimestre-2026-paro-2/",
-   "minutes": 3,
-   "titre": "Espagne : emploi record, mais le chômage repasse au-dessus de 10 %",
-   "faits": "Selon l'enquête EPA publiée par l'INE, l'Espagne compte 22,85 millions d'actifs occupés au troisième trimestre 2026, un record. Pourtant, le taux de chômage remonte à 10,18 %, avec 2,59 millions de chômeurs. Le paradoxe s'explique par la forte hausse de la population active : 443 500 personnes de plus en un an, portée notamment par l'immigration. Le chômage des jeunes reste très élevé, à 23,3 %. Les écarts régionaux sont énormes : 14,9 % en Andalousie contre 4,6 % aux Baléares. Le ministre de l'Économie Carlos Cuerpo souligne que le pays « enchaîne 25 trimestres de création d'emplois ».",
-   "enjeux": "L'Espagne est l'économie la plus dynamique de la zone euro depuis la pandémie, mais garde le taux de chômage le plus élevé de l'UE : c'est un **chômage structurel**, lié à un marché du travail longtemps dual (CDI très protégés, CDD très précaires) et à un modèle tourné vers le tourisme et la construction. La réforme du travail de 2021 a fortement réduit la précarité en limitant les CDD, et le gouvernement s'en sert comme argument électoral. Les chiffres montrent aussi le rôle de l'immigration, qui soutient la croissance et finance les retraites, un thème central dans la campagne face à Vox.",
-   "vo": {
-    "titre": "España: empleo récord, pero el paro vuelve a superar el 10 %",
-    "faits": "Según la EPA publicada por el INE, España cuenta con 22,85 millones de ocupados en el tercer trimestre de 2026, un récord. Sin embargo, la tasa de paro sube al 10,18 %, con 2,59 millones de parados. La paradoja se explica por el fuerte aumento de la población activa: 443.500 personas más en un año, impulsado sobre todo por la inmigración. El paro juvenil sigue muy alto, en el 23,3 %. Las diferencias regionales son enormes: 14,9 % en Andalucía frente al 4,6 % en Baleares. El ministro de Economía, Carlos Cuerpo, subraya que el país «encadena 25 trimestres de creación de empleo».",
-    "enjeux": "España es la economía más dinámica de la eurozona desde la pandemia, pero mantiene la tasa de paro más alta de la UE: es un paro estructural, ligado a un mercado laboral históricamente dual (indefinidos muy protegidos, temporales muy precarios) y a un modelo volcado en el turismo y la construcción. La reforma laboral de 2021 redujo mucho la precariedad al limitar los contratos temporales, y el Gobierno la usa como argumento electoral. Las cifras muestran también el papel de la inmigración, que sostiene el crecimiento y financia las pensiones, un tema central de la campaña frente a Vox."
-   },
-   "vocab": [
-    [
-     "la tasa de paro",
-     "le taux de chômage"
-    ],
-    [
-     "los ocupados",
-     "les actifs occupés"
-    ],
-    [
-     "la población activa",
-     "la population active"
-    ],
-    [
-     "el paro juvenil",
-     "le chômage des jeunes"
-    ],
-    [
-     "la reforma laboral",
-     "la réforme du travail"
-    ],
-    [
-     "un contrato temporal / indefinido",
-     "un CDD / un CDI"
-    ]
-   ],
-   "sujets": [
-    "¿Es el modelo económico español sostenible?",
-    "¿Es la inmigración una oportunidad para España?"
+    "¿Es España un país cada vez más difícil de gobernar?",
+    "¿Por qué la vivienda se ha convertido en el eje central de la política española?"
    ]
   },
   {
    "id": "2026-10-31-espagnol-3",
    "matiere": "espagnol",
-   "source": "EFE / Infobae",
-   "url": "https://www.infobae.com/america/agencias/2026/10/30/honduras-apuesta-por-penas-mas-severas-y-megacarcel-modelo-bukele-contra-las-pandillas/",
+   "source": "El País / EFE",
+   "url": "https://elpais.com/internacional/2023-07-19/una-alcatraz-hondurena-xiomara-castro-pretende-construir-en-una-isla-una-prision-para-2000-pandilleros.html",
    "minutes": 3,
-   "titre": "Honduras adopte le « modèle Bukele » : perpétuité et méga-prison contre les gangs",
-   "faits": "Le Congrès du Honduras a adopté cette semaine une réforme pénale très dure, poussée par le président Nasry Asfura. Les membres de gangs encourent désormais 30 à 40 ans de prison, et les chefs et financiers la perpétuité. La détention provisoire devient obligatoire pour « association terroriste » et la garde à vue passe de 24 à 48 heures. Le pays prévoit aussi une prison de haute sécurité pour 1 300 détenus, sur le modèle du CECOT salvadorien. Les gangs MS-13 et Barrio 18 compteraient 40 000 membres. L'ONU met en garde contre des violations des droits humains.",
-   "enjeux": "Honduras rejoint une vague régionale : le Costa Rica a ouvert sa méga-prison, et plusieurs pays d'Amérique latine copient Nayib Bukele. Au Salvador, sa politique de « mano dura » a fait chuter les homicides de façon spectaculaire, ce qui le rend très populaire dans toute la région. Mais elle repose sur un état d'exception permanent, des arrestations massives sans procès et un affaiblissement de la justice. Le débat oppose donc sécurité et État de droit, et interroge les causes de la violence : pauvreté, manque d'emploi et d'éducation chez les jeunes, que la seule répression ne règle pas.",
+   "titre": "Le Honduras durcit son code pénal et adopte le « modèle Bukele » contre les gangs",
+   "faits": "Fin octobre, le Congrès national du Honduras a adopté un ensemble de réformes pénales et pénitentiaires très dures, impulsées par le président Nasry Asfura contre les gangs MS-13 et Barrio 18. Les simples membres d'une « association terroriste » encourent désormais de 30 à 40 ans de prison sans liberté conditionnelle, et la prison à perpétuité est instaurée pour les chefs, les financiers et les auteurs de meurtres de policiers, de juges ou de procureurs. La réforme porte la garde à vue de 24 à 48 heures, rend la détention provisoire obligatoire, autorise les perquisitions sans mandat judiciaire en cas d'urgence et permet d'utiliser les tatouages comme preuves devant les tribunaux. Les députés ont aussi approuvé le financement d'une méga-prison de haute sécurité inspirée du CECOT salvadorien. Le Haut-Commissariat de l'ONU aux droits de l'homme met en garde contre le risque de détentions arbitraires.",
+   "enjeux": "Cette réforme confirme l'exportation dans toute l'Amérique latine de la politique de **mano dura** menée par Nayib Bukele au Salvador. Confrontés au racket et aux homicides des **maras**, de plus en plus d'électeurs et de gouvernements de la région — du Honduras au Costa Rica jusqu'à l'Équateur — reprennent ses méthodes : méga-prisons, peines exemplaires et recul des garanties judiciaires. Comme le souligne un rapport récent de la Banque d'Espagne, la sécurité citoyenne a supplanté le développement économique au sommet de l'agenda politique latino-américain. Mais ce virage sécuritaire pose un dilemme majeur pour l'**État de droit** : juger sur la base d'un tatouage ou perquisitionner sans juge affaiblit l'indépendance de la justice, sans traiter les racines sociales de la violence que sont la pauvreté et le manque d'emplois formels.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tegucigalpa_Skyline_Summer.jpg/1280px-Tegucigalpa_Skyline_Summer.jpg",
+    "alt": "Vue panoramique de Tegucigalpa, capitale du Honduras",
+    "credit": "Luis Alfredo Romero / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tegucigalpa_Skyline_Summer.jpg"
+   },
    "vo": {
-    "titre": "Honduras adopta el «modelo Bukele»: cadena perpetua y megacárcel contra las pandillas",
-    "faits": "El Congreso de Honduras aprobó esta semana una reforma penal muy dura, impulsada por el presidente Nasry Asfura. Los pandilleros se enfrentan ahora a entre 30 y 40 años de prisión, y los cabecillas y financiadores, a cadena perpetua. La prisión preventiva pasa a ser obligatoria por «asociación terrorista» y el plazo de detención antes de ver a un juez sube de 24 a 48 horas. El país prevé además una cárcel de máxima seguridad para 1.300 reos, siguiendo el modelo del CECOT salvadoreño. Las maras MS-13 y Barrio 18 contarían con 40.000 miembros. La ONU advierte de posibles violaciones de derechos humanos.",
-    "enjeux": "Honduras se suma a una ola regional: Costa Rica ya abrió su megacárcel, y varios países latinoamericanos imitan a Nayib Bukele. En El Salvador, su política de mano dura hizo caer los homicidios de forma espectacular, lo que le da una enorme popularidad en toda la región. Pero se basa en un régimen de excepción permanente, detenciones masivas sin juicio y un debilitamiento de la justicia. El debate enfrenta así seguridad y Estado de derecho, y plantea las causas de la violencia: pobreza, falta de empleo y de educación entre los jóvenes, que la represión por sí sola no resuelve."
+    "titre": "Honduras endurece su Código Penal y adopta el «modelo Bukele» contra las pandillas",
+    "faits": "A finales de octubre, el Congreso Nacional de Honduras aprobó un paquete de reformas penales y penitenciarias de máxima dureza, impulsado por el presidente Nasry Asfura contra las maras MS-13 y Barrio 18. Los integrantes rasos de una «asociación terrorista» se enfrentan ahora a penas de entre 30 y 40 años de cárcel sin libertad condicional, mientras que se instaura la cadena perpetua para cabecillas, financiadores y asesinos de policías, jueces o fiscales. La reforma amplía la detención policial de 24 a 48 horas, impone la prisión preventiva obligatoria, autoriza allanamientos sin orden judicial en casos urgentes y permite usar los tatuajes como prueba ante los tribunales. Además, el Parlamento aprobó financiar una megacárcel de máxima seguridad inspirada en el CECOT salvadoreño. La oficina de la ONU para los Derechos Humanos advierte del riesgo de detenciones arbitrarias.",
+    "enjeux": "Esta reforma confirma la expansión por toda América Latina de la política de mano dura aplicada por Nayib Bukele en El Salvador. Acosados por la extorsión y los homicidios de las maras, cada vez más votantes y gobiernos de la región –desde Honduras y Costa Rica hasta Ecuador– copian sus métodos: megacárceles, penas ejemplarizantes y recorte de garantías procesales. Como señala un informe reciente del Banco de España, la seguridad ciudadana ha desplazado al desarrollo económico como prioridad absoluta de la agenda política latinoamericana. Sin embargo, este giro punitivo plantea un grave dilema para el Estado de derecho: condenar por un tatuaje o registrar viviendas sin juez debilita las garantías democráticas, sin atacar las raíces sociales de la violencia, como la pobreza y la falta de empleo formal."
    },
    "vocab": [
     [
      "las maras / las pandillas",
-     "les gangs"
+     "les gangs criminels"
     ],
     [
-     "la mano dura",
-     "la politique de répression"
+     "la política de mano dura",
+     "la politique de répression sévère"
     ],
     [
      "la cadena perpetua",
-     "la perpétuité"
+     "la prison à perpétuité"
     ],
     [
-     "la megacárcel",
-     "la méga-prison"
+     "un allanamiento sin orden judicial",
+     "une perquisition sans mandat judiciaire"
     ],
     [
-     "el régimen de excepción",
-     "l'état d'exception"
+     "la prisión preventiva",
+     "la détention provisoire"
     ],
     [
      "el Estado de derecho",
@@ -369,68 +423,80 @@
     ]
    ],
    "sujets": [
-    "¿Es el modelo Bukele una solución para América Latina?",
-    "¿Seguridad o libertad: hay que elegir?"
+    "¿Es el «modelo Bukele» una solución duradera contra la violencia en América Latina?",
+    "Seguridad ciudadana y Estado de derecho: ¿dónde está el límite en la lucha contra el crimen?"
    ]
   },
   {
    "id": "2026-10-31-allemand-1",
    "matiere": "allemand",
-   "source": "Bundesregierung",
-   "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskanzler-asienreise-2458230",
+   "source": "Destatis",
+   "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_381_811.html",
    "minutes": 3,
-   "titre": "Merz en Asie : Singapour, Japon, Corée du Sud pour réduire la dépendance à la Chine",
-   "faits": "Du 27 au 30 octobre, le chancelier Friedrich Merz a effectué une tournée en Asie : Singapour, puis Tokyo avec la Première ministre Sanae Takaichi, puis Séoul avec le président Lee Jae-myung. Au programme : coopération en matière de défense et d'armement avec le Japon, cybersécurité avec Singapour, futur accord sur les technologies de pointe avec la Corée du Sud. Merz a proposé une « alliance politique mondiale pour un commerce fondé sur des règles » et soutenu des accords UE-ASEAN et UE-CPTPP. Il a aussi parlé matières premières critiques, IA et fusion nucléaire. Le voyage s'est terminé par une visite de la zone démilitarisée entre les deux Corées.",
-   "enjeux": "Ce voyage traduit la stratégie de **de-risking** : réduire les dépendances de l'Allemagne envers la Chine sans rompre avec elle. Le modèle allemand, fondé sur les exportations industrielles et une énergie russe bon marché, est en crise depuis 2022 : il faut trouver de nouveaux marchés et de nouveaux fournisseurs de matières premières. Face au protectionnisme américain, Merz cherche des alliés attachés au libre-échange. Le volet défense marque aussi la **Zeitenwende** : l'Allemagne, longtemps réticente, devient un acteur militaire qui coopère avec les démocraties asiatiques.",
+   "titre": "L'économie allemande croît de 0,2 % au troisième trimestre et l'inflation recule à 2,8 %",
+   "faits": "Selon la première estimation publiée par l'office fédéral de la statistique (Destatis) le 30 octobre, le PIB de l'Allemagne a augmenté de 0,2 % au troisième trimestre 2026 par rapport au trimestre précédent, et de 1,3 % sur un an. Ce résultat dépasse légèrement les attentes des économistes et de la Bundesbank, qui tablaient sur une stagnation après +0,4 % au premier trimestre et +0,3 % au deuxième. La croissance a été soutenue par la consommation publique et privée, tandis que l'investissement en équipements et en construction a de nouveau reculé et que les exportations ont ralenti. Le même jour, Destatis a annoncé un net repli de l'inflation à 2,8 % sur un an en octobre, contre 3,3 % en septembre. Ce recul s'explique par le retour temporaire du « Tankrabatt », une baisse des taxes sur les carburants entrée en vigueur le 1er octobre jusqu'à la fin de l'année.",
+   "enjeux": "Ces chiffres montrent que l'Allemagne échappe à la récession qui touche la France, mais sans retrouver son moteur traditionnel. Sa modeste reprise repose surtout sur la **dépense publique** — rendue possible par l'assouplissement du frein à l'endettement pour la défense et le fonds spécial de 500 milliards d'euros pour les infrastructures — alors que l'**investissement privé** et l'industrie d'exportation restent en difficulté. Quant au ralentissement de l'inflation, il est en partie artificiel : en subventionnant l'essence et le diesel face à la flambée du pétrole liée au conflit avec l'Iran, la coalition de Friedrich Merz soulage le pouvoir d'achat à court terme mais brouille le **signal-prix** écologique et prépare un rebond mécanique des prix dès janvier 2027.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Frankfurt_am_Main%2C_Skyline_mit_Fl%C3%B6%C3%9Ferbr%C3%BCcke_2.jpg/1280px-Frankfurt_am_Main%2C_Skyline_mit_Fl%C3%B6%C3%9Ferbr%C3%BCcke_2.jpg",
+    "alt": "Le quartier financier de Francfort-sur-le-Main",
+    "credit": "Jörg Braukmann / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Skyline_mit_Fl%C3%B6%C3%9Ferbr%C3%BCcke_2.jpg"
+   },
    "vo": {
-    "titre": "Merz in Asien: Singapur, Japan und Südkorea gegen die Abhängigkeit von China",
-    "faits": "Vom 27. bis 30. Oktober reiste Bundeskanzler Friedrich Merz nach Asien: zuerst nach Singapur, dann nach Tokio zu Premierministerin Sanae Takaichi und schließlich nach Seoul zu Präsident Lee Jae-myung. Auf dem Programm standen Rüstungszusammenarbeit mit Japan, Cybersicherheit mit Singapur und ein künftiges Abkommen über Spitzentechnologien mit Südkorea. Merz schlug eine „globale politische Allianz für regelbasierten Handel“ vor und unterstützte Abkommen zwischen der EU und der ASEAN sowie dem CPTPP. Außerdem ging es um kritische Rohstoffe, KI und Kernfusion. Die Reise endete mit einem Besuch der entmilitarisierten Zone zwischen den beiden Koreas.",
-    "enjeux": "Die Reise steht für die Strategie des De-Risking: Abhängigkeiten von China verringern, ohne mit Peking zu brechen. Das deutsche Modell, das auf Industrieexporten und billiger russischer Energie beruhte, steckt seit 2022 in der Krise: Deutschland braucht neue Märkte und neue Rohstofflieferanten. Angesichts des amerikanischen Protektionismus sucht Merz Partner, die am Freihandel festhalten. Der Verteidigungsaspekt zeigt zudem die Zeitenwende: Das lange zurückhaltende Deutschland wird zu einem militärischen Akteur, der mit asiatischen Demokratien kooperiert."
+    "titre": "Deutsche Wirtschaft wächst im dritten Quartal um 0,2 Prozent, Inflation sinkt auf 2,8 Prozent",
+    "faits": "Nach einer ersten Schätzung des Statistischen Bundesamtes (Destatis) vom 30. Oktober ist das deutsche Bruttoinlandsprodukt im dritten Quartal 2026 gegenüber dem Vorquartal um 0,2 % und im Jahresvergleich um 1,3 % gewachsen. Das Ergebnis übertrifft leicht die Erwartungen der Ökonomen und der Bundesbank, die nach +0,4 % im ersten und +0,3 % im zweiten Quartal nur mit einer Stagnation gerechnet hatten. Getragen wurde das Plus vom privaten und staatlichen Konsum, während die Investitionen erneut sanken und die Exporte an Schwung verloren. Am selben Tag meldete Destatis einen Rückgang der Inflationsrate auf 2,8 % im Oktober, nach 3,3 % im September. Hauptgrund ist der befristete Tankrabatt, mit dem die Regierung seit dem 1. Oktober bis Jahresende die Energiesteuer auf Kraftstoffe senkt.",
+    "enjeux": "Die Zahlen zeigen, dass Deutschland zwar der Rezession entgeht, unter der Frankreich leidet, aber seinen traditionellen Wachstumsmotor noch nicht wiedergefunden hat. Die leichte Erholung stützt sich vor allem auf staatliche Ausgaben – ermöglicht durch die gelockerte Schuldenbremse für Verteidigung und das 500-Milliarden-Euro-Sondervermögen für Infrastruktur –, während private Investitionen und die Exportindustrie weiter schwächeln. Auch der Rückgang der Inflation ist teilweise künstlich: Indem die Koalition von Friedrich Merz Benzin und Diesel wegen des Iran-Konflikts subventioniert, entlastet sie zwar kurzfristig die Haushalte, schwächt aber die ökologische Lenkungswirkung hoher Energiepreise und verschiebt den Preisanstieg nur auf Januar 2027."
    },
    "vocab": [
     [
-     "die Abhängigkeit",
-     "la dépendance"
+     "das Bruttoinlandsprodukt (BIP)",
+     "le produit intérieur brut (PIB)"
     ],
     [
-     "kritische Rohstoffe",
-     "les matières premières critiques"
+     "das Vorquartal",
+     "le trimestre précédent"
     ],
     [
-     "der regelbasierte Handel",
-     "le commerce fondé sur des règles"
+     "die Inflationsrate / die Teuerung",
+     "le taux d'inflation / le renchérissement"
     ],
     [
-     "die Rüstungszusammenarbeit",
-     "la coopération en matière d'armement"
+     "der Tankrabatt",
+     "la remise fiscale sur les carburants"
     ],
     [
-     "die Zeitenwende",
-     "le changement d'époque (tournant stratégique)"
+     "die privaten Investitionen",
+     "les investissements privés"
     ],
     [
-     "das Exportmodell",
-     "le modèle exportateur"
+     "die Lenkungswirkung",
+     "l'effet incitatif (d'une taxe ou d'un prix)"
     ]
    ],
    "sujets": [
-    "Ist das deutsche Exportmodell am Ende?",
-    "Kann Deutschland sich von China unabhängig machen?"
+    "Hat Deutschland die Wirtschaftskrise wirklich überwunden?",
+    "Sind staatliche Subventionen wie der Tankrabatt das richtige Mittel gegen hohe Energiepreise?"
    ]
   },
   {
    "id": "2026-10-31-allemand-2",
    "matiere": "allemand",
-   "source": "Bundesagentur für Arbeit / Regionalupdate",
-   "url": "https://regionalupdate.de/2026/10/30/bundesagentur-arbeitsmarkt-oktober-2026-ausbildungsbilanz-bund/",
+   "source": "Die Zeit / Bundesagentur für Arbeit",
+   "url": "https://www.zeit.de/wirtschaft/2026-10/arbeitslosenzahlen-deutschland-oktober-2024-arbeitslosenquote-bundesagentur-fuer-arbeit-gxe",
    "minutes": 3,
-   "titre": "Près de 3 millions de chômeurs et un apprentissage au plus bas depuis la réunification",
-   "faits": "L'Agence fédérale pour l'emploi a publié ses chiffres d'octobre : 2,955 millions de chômeurs, soit un taux de 6,3 %, 44 000 de plus qu'il y a un an. La reprise saisonnière d'automne est restée faible. Le bilan de l'apprentissage est encore plus frappant : seuls 40 % des candidats ont trouvé une place, la part la plus basse depuis la réunification. 46 000 jeunes restent sans solution, alors que 48 000 places ne sont pas pourvues, notamment dans le bâtiment, l'hôtellerie et la métallurgie. La présidente de l'Agence, Andrea Nahles, parle de « grands problèmes d'appariement ».",
-   "enjeux": "Le système **dual** (formation partagée entre l'entreprise et l'école professionnelle) est un pilier du modèle allemand et l'une des raisons de son faible chômage des jeunes. Que des jeunes restent sans place pendant que des postes restent vacants illustre un **chômage d'inadéquation** : l'offre et la demande ne correspondent ni par métier ni par région. L'Allemagne est ainsi face à un double problème : une industrie en crise qui supprime des emplois, et une pénurie de main-d'œuvre qualifiée liée au vieillissement. C'est un enjeu central pour la coalition de Merz.",
+   "titre": "Marché du travail allemand : 2,955 millions de chômeurs et une reprise d'automne très faible",
+   "faits": "Selon les chiffres publiés le 30 octobre à Nuremberg par l'Agence fédérale pour l'emploi (BA), l'Allemagne comptait 2,955 millions de chômeurs en octobre, soit un taux de chômage de 6,3 %. Le nombre de demandeurs d'emploi baisse de 40 000 sur un mois grâce aux embauches saisonnières, mais augmente de 4 000 en données corrigées des variations saisonnières et de 44 000 sur un an. La présidente de l'Agence, Andrea Nahles, juge que la reprise habituelle d'automne (Herbstbelebung) reste « comparativement faible » et que les conditions économiques ne suffisent toujours pas à redresser le marché du travail. Les entreprises restent prudentes : 654 000 postes vacants sont déclarés auprès des agences, pendant que de nombreuses places d'apprentissage restent non pourvues faute de correspondance entre les candidats et les besoins.",
+   "enjeux": "Ce bilan illustre le décalage entre une croissance légèrement positive et un marché de l'emploi qui continue de se dégrader dans l'industrie. L'Allemagne affronte un double défi structurel : d'un côté, les restructurations dans l'automobile, la chimie et la métallurgie détruisent des emplois bien payés ; de l'autre, le vieillissement démographique entretient une **pénurie de main-d'œuvre qualifiée** (Fachkräftemangel) dans l'artisanat, le bâtiment, la santé et l'hôtellerie. Le fait que des dizaines de milliers de jeunes restent sans place d'apprentissage alors que des postes demeurent vacants révèle un **chômage d'inadéquation** géographique et professionnelle, qui fragilise le système **dual** de formation en alternance, longtemps considéré comme la grande force du modèle allemand.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Bundesagentur_f%C3%BCr_Arbeit%2C_Zentrale.jpg/1280px-Bundesagentur_f%C3%BCr_Arbeit%2C_Zentrale.jpg",
+    "alt": "Le siège de l'Agence fédérale pour l'emploi (Bundesagentur für Arbeit) à Nuremberg",
+    "credit": "Zepraba / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bundesagentur_f%C3%BCr_Arbeit,_Zentrale.jpg"
+   },
    "vo": {
-    "titre": "Fast drei Millionen Arbeitslose und so wenige Azubis wie nie seit der Einheit",
-    "faits": "Die Bundesagentur für Arbeit hat ihre Oktoberzahlen veröffentlicht: 2,955 Millionen Arbeitslose, eine Quote von 6,3 %, 44.000 mehr als vor einem Jahr. Die Herbstbelebung blieb schwach. Noch auffälliger ist die Ausbildungsbilanz: Nur 40 % der Bewerber fanden einen Platz, der niedrigste Anteil seit der Wiedervereinigung. 46.000 Jugendliche sind ohne Lösung geblieben, während 48.000 Stellen unbesetzt sind, vor allem auf dem Bau, in der Gastronomie und in der Metallverarbeitung. BA-Chefin Andrea Nahles spricht von „großen Passungsproblemen“.",
-    "enjeux": "Das duale System – die Ausbildung in Betrieb und Berufsschule – ist eine Säule des deutschen Modells und ein Grund für die niedrige Jugendarbeitslosigkeit. Dass Jugendliche ohne Platz bleiben, während Stellen unbesetzt sind, zeigt eine Arbeitslosigkeit durch Fehlanpassung: Angebot und Nachfrage passen weder beruflich noch regional zusammen. Deutschland hat damit ein doppeltes Problem: eine kriselnde Industrie, die Stellen abbaut, und einen Fachkräftemangel infolge der Alterung. Das ist eine zentrale Herausforderung für die Koalition von Merz."
+    "titre": "Deutscher Arbeitsmarkt: 2,955 Millionen Arbeitslose und eine schwache Herbstbelebung",
+    "faits": "Nach den am 30. Oktober in Nürnberg veröffentlichten Zahlen der Bundesagentur für Arbeit (BA) waren im Oktober in Deutschland 2,955 Millionen Menschen arbeitslos gemeldet, was einer Quote von 6,3 % entspricht. Zwar sank die Zahl gegenüber September saisonbedingt um 40.000, doch saisonbereinigt stieg sie um 4.000 und lag um 44.000 höher als vor einem Jahr. BA-Vorstandschefin Andrea Nahles betonte, die übliche Herbstbelebung falle „vergleichsweise schwach“ aus und die wirtschaftlichen Rahmenbedingungen reichten für eine Trendwende nach wie vor nicht aus. Die Nachfrage nach Personal bleibt verhalten: 654.000 offene Stellen sind gemeldet, während zugleich auf dem Ausbildungsmarkt zahlreiche Plätze und Bewerber wegen großer Passungsprobleme nicht zusammenfinden.",
+    "enjeux": "Die Bilanz verdeutlicht die Kluft zwischen einem leichten Wirtschaftswachstum und einem Arbeitsmarkt, der vor allem in der Industrie weiter unter Druck steht. Deutschland steht vor einem doppelten Strukturproblem: Einerseits fallen in der Auto-, Chemie- und Metallbranche gut bezahlte Industriearbeitsplätze weg; andererseits sorgt der demografische Wandel für einen anhaltenden Fachkräftemangel im Handwerk, auf dem Bau, in der Pflege und in der Gastronomie. Dass zehntausende Jugendliche keinen Ausbildungsplatz finden, während gleichzeitig Lehrstellen unbesetzt bleiben, zeigt eine berufliche und regionale Fehlanpassung, die das duale Ausbildungssystem – lange ein Markenzeichen des deutschen Modells – zunehmend infrage stellt."
    },
    "vocab": [
     [
@@ -438,29 +504,29 @@
      "le taux de chômage"
     ],
     [
-     "der Ausbildungsplatz / der Azubi",
-     "la place d'apprentissage / l'apprenti"
+     "die Herbstbelebung",
+     "la reprise saisonnière d'automne"
     ],
     [
-     "das duale System",
-     "le système de formation en alternance"
+     "saisonbereinigt",
+     "corrigé des variations saisonnières"
+    ],
+    [
+     "offene / unbesetzte Stellen",
+     "les postes vacants / non pourvus"
     ],
     [
      "der Fachkräftemangel",
      "la pénurie de main-d'œuvre qualifiée"
     ],
     [
-     "unbesetzte Stellen",
-     "les postes non pourvus"
-    ],
-    [
-     "die Herbstbelebung",
-     "la reprise saisonnière d'automne"
+     "das duale Ausbildungssystem",
+     "le système de formation en alternance"
     ]
    ],
    "sujets": [
-    "Ist das duale Ausbildungssystem noch ein Erfolgsmodell?",
-    "Wie kann Deutschland den Fachkräftemangel bekämpfen?"
+    "Steigende Arbeitslosigkeit trotz Fachkräftemangel: Wie lässt sich dieses deutsche Paradox erklären?",
+    "Ist das duale Ausbildungssystem in Deutschland noch ein Erfolgsmodell?"
    ]
   },
   {
@@ -469,43 +535,49 @@
    "source": "Tagesspiegel",
    "url": "https://www.tagesspiegel.de/politik/afd-in-umfrage-weiter-elf-punkte-vor-union-mehrheit-erwartet-bruch-der-merz-regierung--13-prozent-noch-in-diesem-jahr-16199276.html",
    "minutes": 3,
-   "titre": "L'AfD à 30 %, onze points devant la CDU de Merz",
-   "faits": "Dans le dernier sondage Insa, l'AfD atteint 30 % des intentions de vote, loin devant la CDU-CSU (19 %), les Verts et le SPD (14 % chacun) et Die Linke (10 %). Selon YouGov, seuls 23 % des Allemands pensent que la coalition entre la CDU-CSU et le SPD tiendra jusqu'aux élections de 2029. La coalition est minée par les disputes sur les réformes et sur l'attitude à adopter face à l'AfD. Le SPD cherche une nouvelle direction et la CDU se divise sur l'élection du prochain président fédéral. En septembre, les élections régionales avaient déjà marqué de fortes pertes pour la CDU et le SPD.",
-   "enjeux": "L'AfD, classée en partie comme extrémiste par les services de renseignement, est devenue le premier parti d'Allemagne dans les sondages. Les autres partis maintiennent le **cordon sanitaire** (Brandmauer) : ils refusent toute coalition avec elle. Mais plus l'AfD est forte, plus il devient difficile de former une majorité sans elle, ce qui oblige à des coalitions larges et fragiles, comme la « Kenia » (CDU, SPD, Verts) évoquée par Insa. On retrouve un phénomène commun à l'Europe : fragmentation politique, recul des partis de gouvernement et montée de la droite radicale, que l'on observe aussi en Espagne avec Vox.",
+   "titre": "L'AfD à 30 % dans les sondages, pendant que Merz cherche de nouveaux alliés en Asie",
+   "faits": "Dans les enquêtes d'opinion d'octobre de l'institut Insa, l'AfD se maintient autour de 30 % des intentions de vote au niveau fédéral, dix à onze points devant la CDU-CSU du chancelier Friedrich Merz (18 à 19 %), tandis que le SPD et les Verts stagnent autour de 14 %. Selon un sondage cité par le Tagesspiegel, une nette majorité d'Allemands s'attend désormais à une rupture prématurée de la coalition entre les conservateurs et les sociaux-démocrates avant la fin de la législature en 2029. C'est dans ce climat intérieur difficile que Friedrich Merz a achevé le 30 octobre à Séoul sa première grande tournée en Asie (Singapour, Japon, Corée du Sud), où il a ouvert la 19e Conférence Asie-Pacifique de l'économie allemande et signé des accords sur les technologies de pointe, la défense et les matières premières critiques.",
+   "enjeux": "Ce double tableau résume les tensions politiques et géopolitiques de l'Allemagne actuelle. Sur le plan extérieur, le voyage de Merz à Singapour, Tokyo et Séoul met en œuvre la stratégie de **de-risking** : diversifier les chaînes d'approvisionnement et les débouchés des entreprises allemandes en s'appuyant sur les démocraties indo-pacifiques, afin de réduire la dépendance envers la Chine et de parer au protectionnisme américain. Mais sur le plan intérieur, la percée historique de l'AfD à 30 % fragilise l'autorité du chancelier et met à l'épreuve le **cordon sanitaire** (Brandmauer) qui exclut toute alliance avec l'extrême droite. Plus les partis de la grande coalition reculent, plus les compromis sur le budget, les retraites ou l'immigration deviennent difficiles à trouver à Berlin.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Reichstag_building_Berlin_view_from_west_before_sunset.jpg/1280px-Reichstag_building_Berlin_view_from_west_before_sunset.jpg",
+    "alt": "Le palais du Reichstag à Berlin, siège du Bundestag",
+    "credit": "Jürgen Matern / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Reichstag_building_Berlin_view_from_west_before_sunset.jpg"
+   },
    "vo": {
-    "titre": "AfD bei 30 Prozent, elf Punkte vor der Union von Merz",
-    "faits": "In der jüngsten Insa-Umfrage kommt die AfD auf 30 %, weit vor CDU/CSU (19 %), Grünen und SPD (je 14 %) und der Linken (10 %). Laut YouGov glauben nur 23 % der Deutschen, dass die Koalition aus Union und SPD bis zur Wahl 2029 hält. Die Koalition wird von Streit über Reformen und über den Umgang mit der AfD geschwächt. Die SPD sucht eine neue Führung, und in der Union gibt es Streit über die Wahl des nächsten Bundespräsidenten. Schon bei den Landtagswahlen im September hatten Union und SPD deutlich verloren.",
-    "enjeux": "Die AfD, die vom Verfassungsschutz teilweise als extremistisch eingestuft wird, ist in den Umfragen stärkste Kraft in Deutschland. Die anderen Parteien halten an der Brandmauer fest: Sie schließen jede Koalition mit ihr aus. Doch je stärker die AfD wird, desto schwieriger wird es, ohne sie eine Mehrheit zu bilden – das erzwingt breite und fragile Bündnisse wie die von Insa genannte Kenia-Koalition (Union, SPD, Grüne). Das ist ein europäisches Phänomen: politische Zersplitterung, Schwäche der Regierungsparteien und Aufstieg der radikalen Rechten, wie auch in Spanien mit Vox."
+    "titre": "AfD in Umfragen bei 30 Prozent, während Merz in Asien neue Partner sucht",
+    "faits": "In den Oktober-Umfragen des Instituts Insa behauptet sich die AfD bundesweit bei rund 30 % der Stimmen und liegt damit zehn bis elf Punkte vor der CDU/CSU von Bundeskanzler Friedrich Merz (18 bis 19 %), während SPD und Grüne bei etwa 14 % verharren. Laut einer vom Tagesspiegel zitierten Erhebung rechnet inzwischen eine klare Mehrheit der Deutschen mit einem vorzeitigen Bruch der schwarz-roten Koalition vor dem regulären Wahltermin 2029. Vor diesem schwierigen innenpolitischen Hintergrund beendete Friedrich Merz am 30. Oktober in Seoul seine erste große Asienreise nach Singapur, Japan und Südkorea: Dort eröffnete er die 19. Asien-Pazifik-Konferenz der Deutschen Wirtschaft und vereinbarte eine engere Zusammenarbeit bei Zukunftstechnologien, Verteidigung und kritischen Rohstoffen.",
+    "enjeux": "Dieses Doppelbild zeigt die politischen und geopolitischen Spannungen des heutigen Deutschlands. Außenpolitisch setzt Merz in Singapur, Tokio und Seoul die Strategie des De-Risking um: Lieferketten und Absatzmärkte der deutschen Wirtschaft sollen mit demokratischen Partnern im Indopazifik breiter aufgestellt werden, um die einseitige Abhängigkeit von China zu verringern und dem amerikanischen Protektionismus zu begegnen. Innenpolitisch jedoch schwächt das Umfragehoch der AfD bei 30 % die Autorität des Kanzlers und stellt die Brandmauer nach rechts auf eine harte Probe. Je weiter die Parteien der großen Koalition zurückfallen, desto schwieriger werden in Berlin Kompromisse bei Haushalt, Rente oder Migration."
    },
    "vocab": [
     [
-     "die Umfrage / die Sonntagsfrage",
-     "le sondage / les intentions de vote"
-    ],
-    [
-     "stärkste Kraft",
-     "le premier parti"
+     "die Sonntagsfrage / die Umfrage",
+     "le sondage sur les intentions de vote"
     ],
     [
      "die Brandmauer",
-     "le cordon sanitaire"
+     "le cordon sanitaire (contre l'extrême droite)"
     ],
     [
      "der Koalitionsbruch",
-     "l'éclatement de la coalition"
+     "la rupture de la coalition"
     ],
     [
-     "der Verfassungsschutz",
-     "le renseignement intérieur"
+     "einseitige Abhängigkeiten abbauen",
+     "réduire les dépendances unilatérales"
     ],
     [
-     "die Zersplitterung",
-     "la fragmentation"
+     "kritische Rohstoffe",
+     "les matières premières critiques"
+    ],
+    [
+     "die Lieferketten",
+     "les chaînes d'approvisionnement"
     ]
    ],
    "sujets": [
-    "Ist die Brandmauer gegen die AfD noch haltbar?",
-    "Wird Deutschland unregierbar?"
+    "Kann Deutschland seine wirtschaftliche Abhängigkeit von China wirklich verringern?",
+    "AfD bei 30 Prozent: Ist die Brandmauer der deutschen Parteien noch haltbar?"
    ]
   }
  ]
