@@ -38,13 +38,14 @@ def allowed(url, domains):
 
 def check_link(url):
     """Ouvre vraiment le lien. Renvoie None si l'article existe, sinon le problème."""
-    import urllib.request, urllib.error
+    import os, ssl, urllib.request, urllib.error
     from urllib.parse import urlparse
+    ctx = ssl.create_default_context(cafile="/etc/ssl/cert.pem") if os.path.exists("/etc/ssl/cert.pem") else None
     req = urllib.request.Request(url, headers={
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
         "Accept": "text/html,application/xhtml+xml", "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"})
     try:
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with urllib.request.urlopen(req, timeout=20, context=ctx) as r:
             final = r.geturl()
     except urllib.error.HTTPError as e:
         if e.code in (401, 402, 403, 429, 451):
