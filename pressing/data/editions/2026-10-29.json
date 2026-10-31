@@ -1,0 +1,584 @@
+{
+ "date": "2026-10-29",
+ "cards": [
+  {
+   "id": "2026-10-29-esh-1",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conjoncture/budget-2027-les-deputes-votent-28-milliards-d-euros-de-depenses-supplementaires-20261029",
+   "minutes": 3,
+   "titre": "Budget 2027 : les députés votent 28 milliards d'euros de dépenses supplémentaires en commission",
+   "faits": "Lors de l'examen en commission des finances du projet de loi de finances pour 2027, les députés ont adopté des amendements représentant environ 28 milliards d'euros de dépenses supplémentaires par rapport à la copie initiale du gouvernement, selon le décompte publié le 29 octobre par le rapporteur général Philippe Juvin. Ces rallonges, votées principalement par la gauche avec l'appui ponctuel d'autres groupes d'opposition, ciblent la transition écologique, les transports ferroviaires, l'hébergement d'urgence et les collectivités locales. Elles prennent le contre-pied du plan gouvernemental qui vise 54 milliards d'euros d'économies et de recettes nouvelles pour ramener le déficit public de 5,4 % à 5,0 % du PIB. Comme les votes en commission ne lient pas l'hémicycle, le gouvernement repartira de son texte initial en séance publique, quitte à recourir à l'article 49.3.",
+   "enjeux": "Cet épisode illustre la difficulté de mener une **consolidation budgétaire** dans une Assemblée nationale privée de majorité absolue. Chaque groupe parlementaire défend des dépenses visibles pour son électorat tout en rejetant le coût global de l'ajustement : c'est le problème du **fonds commun** (*common pool*), où la somme des demandes particulières dégrade le solde public. En face, l'exécutif invoque le respect des **règles budgétaires européennes** et la surveillance des marchés obligataires, alors que la charge de la dette approche les 80 milliards d'euros par an. Le débat oppose aussi deux visions macroéconomiques : préserver l'investissement public dans la transition écologique et les infrastructures, ou donner la priorité absolue au désendettement.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Fa%C3%A7ade_Palais_Bourbon_3.jpg/1280px-Fa%C3%A7ade_Palais_Bourbon_3.jpg",
+    "alt": "La colonnade du palais Bourbon, siège de l'Assemblée nationale à Paris",
+    "credit": "ZeusUpsistos / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_Palais_Bourbon_3.jpg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - L'intervention économique des pouvoirs publics"
+   },
+   "auteurs": [
+    {
+     "nom": "James Buchanan et Gordon Tullock",
+     "ouvrage": "The Calculus of Consent",
+     "annee": "1962",
+     "ref": null,
+     "texte": "Fondateurs de l'école du **choix public** (*Public Choice*), Buchanan et Tullock appliquent le raisonnement économique aux décideurs politiques : élus et partis cherchent avant tout à maximiser leurs chances de réélection. Ils ont donc intérêt à voter des dépenses ciblées, immédiatement populaires, tout en reportant la charge fiscale sur l'ensemble des contribuables ou sur les générations futures via le **déficit public**. À mobiliser pour expliquer le biais dépensier des parlements et justifier l'existence de règles budgétaires."
+    },
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "The Theory of Public Finance",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "texte": "Musgrave distingue les trois fonctions de l'État : **allocation**, **redistribution** et **stabilisation**. Les crédits votés par les députés pour le rail ou la rénovation thermique relèvent de la fonction d'allocation, là où le marché sous-investit face aux **externalités négatives** du climat. À mobiliser pour nuancer une rigueur purement comptable : couper indistinctement dans les dépenses publiques peut sacrifier des investissements d'avenir qui soutiennent la croissance potentielle."
+    }
+   ],
+   "sujets": [
+    "Les règles budgétaires sont-elles nécessaires pour maîtriser la dépense publique ?",
+    "Peut-on réduire le déficit public sans sacrifier les investissements d'avenir ?"
+   ]
+  },
+  {
+   "id": "2026-10-29-esh-2",
+   "matiere": "esh",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/vw-volkswagen-meldet-im-dritten-quartal-milliardenverlust-a-d227b2a9-c12e-4b2a-8c9f-d31e9c20a4b7",
+   "minutes": 3,
+   "titre": "Crise de l'automobile européenne : Volkswagen plonge dans le rouge avec 5,8 milliards d'euros de pertes",
+   "faits": "Le premier constructeur automobile européen, Volkswagen, a annoncé fin octobre une perte nette de 5,82 milliards d'euros au troisième trimestre 2026, tandis que son chiffre d'affaires reculait de 6,3 % à 75,3 milliards d'euros. Ses livraisons mondiales ont chuté de 14,3 % sur un an, à 1,89 million de véhicules, pénalisées par le décrochage de ses ventes en Chine. Ce résultat s'explique aussi par une dépréciation exceptionnelle de 6,4 milliards d'euros liée à sa filiale Porsche et par les coûts de restructuration du groupe. Dans le même temps, une étude de l'institut Bruegel relayée par le Spiegel avertit que les droits de douane européens sur les voitures électriques chinoises risquent de renchérir les véhicules pour les ménages sans suffire à restaurer la compétitivité des constructeurs européens.",
+   "enjeux": "Les pertes de Volkswagen symbolisent la crise structurelle d'un secteur qui représente plus de 13 millions d'emplois directs et indirects en Europe. Longtemps dominateurs sur le moteur thermique grâce à leur **compétitivité hors-prix**, les constructeurs européens accusent un retard technologique et industriel sur les batteries et les logiciels face aux groupes chinois comme BYD, qui bénéficient d'**économies d'échelle** et d'un fort soutien public. Le marché chinois, qui tirait autrefois les profits allemands, se retourne désormais contre eux. Cette mutation industrielle place l'Union européenne devant un dilemme entre **protectionnisme** défensif, qui protège l'emploi à court terme mais freine l'adoption des voitures électriques, et accélération de sa propre transition productive.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/VW_Logo_am_Heizkraftwerk_Wolfsburg_Nord.jpg/1280px-VW_Logo_am_Heizkraftwerk_Wolfsburg_Nord.jpg",
+    "alt": "L'usine historique de Volkswagen et sa centrale à Wolfsburg, en Allemagne",
+    "credit": "High Contrast / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:VW_Logo_am_Heizkraftwerk_Wolfsburg_Nord.jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.1 - Croissance et fluctuations depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Joseph Schumpeter",
+     "ouvrage": "Capitalisme, socialisme et démocratie",
+     "annee": "1942",
+     "ref": "destruction-creatrice",
+     "texte": "Schumpeter décrit le capitalisme comme un processus de **destruction créatrice** : des **grappes d'innovations** font émerger de nouvelles activités et condamnent les entreprises qui restent attachées aux technologies anciennes. Le passage de la voiture thermique au véhicule électrique et logiciel bouleverse ainsi les positions acquises de Volkswagen. À mobiliser dans tout sujet sur l'innovation ou les crises industrielles pour montrer que le déclin d'une branche historique accompagne le renouvellement du système productif."
+    },
+    {
+     "nom": "Paul Krugman",
+     "ouvrage": "« Import Protection as Export Promotion »",
+     "annee": "1984",
+     "ref": null,
+     "texte": "Avec la **nouvelle théorie du commerce international**, Krugman montre que dans des secteurs à forts coûts fixes comme l'automobile et les batteries, les **rendements croissants** donnent un avantage décisif aux premiers entrants qui produisent en très grande série. Cet argument éclaire l'avance prise par la Chine grâce à la taille de son marché intérieur et à ses subventions. À mobiliser pour discuter l'opportunité d'une **politique commerciale stratégique** européenne, tout en rappelant le coût pour les consommateurs."
+    }
+   ],
+   "sujets": [
+    "L'industrie européenne est-elle condamnée au déclin face à la Chine et aux États-Unis ?",
+    "La destruction créatrice suffit-elle à expliquer les crises industrielles contemporaines ?"
+   ]
+  },
+  {
+   "id": "2026-10-29-esh-3",
+   "matiere": "esh",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-middle-east-conflict-oil-gas-prices",
+   "minutes": 3,
+   "titre": "Choc énergétique : les bénéfices de Shell doublent à 10,8 milliards de dollars grâce à l'envolée du pétrole",
+   "faits": "Le géant pétrolier et gazier britannique Shell a annoncé le 29 octobre que son bénéfice ajusté avait plus que doublé au troisième trimestre 2026 pour atteindre 10,8 milliards de dollars (environ 10 milliards d'euros), dépassant nettement les attentes des marchés. Cette manne s'explique par la flambée des cours du brut et du gaz ainsi que par des marges de raffinage records sur le diesel et l'essence, provoquées par le conflit au Moyen-Orient et les perturbations dans le détroit d'Ormuz. Fort de ces résultats, le groupe a annoncé un nouveau programme de rachat d'actions de plusieurs milliards de dollars au profit de ses actionnaires. Ces chiffres suscitent de vives critiques des ONG climatiques et des associations de lutte contre la précarité énergétique, au moment où les factures des ménages européens repartent à la hausse.",
+   "enjeux": "Cet épisode illustre les effets redistributifs d'un **choc d'offre négatif** sur l'énergie : la hausse brutale des prix du pétrole et du gaz ampute le pouvoir d'achat des ménages et comprime les marges des industries consommatrices d'énergie, mais génère une **rente** exceptionnelle pour les compagnies extractives. Le fait que Shell consacre une grande partie de ces superprofits à des **rachats d'actions** (*share buybacks*) plutôt qu'aux énergies renouvelables relance le débat sur le partage de la valeur ajoutée et le financement de la **transition énergétique**. Il pose aussi aux gouvernements européens la question de la taxation des **profits exceptionnels** (*windfall profits*) pour financer les boucliers tarifaires sans creuser les déficits publics.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Shell_Pernis_refinery_2019.jpg/1280px-Shell_Pernis_refinery_2019.jpg",
+    "alt": "La raffinerie pétrolière de Shell à Pernis, dans le port de Rotterdam",
+    "credit": "Steven Lek / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Shell_Pernis_refinery_2019.jpg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.1 - Équilibres et déséquilibres macroéconomiques"
+   },
+   "auteurs": [
+    {
+     "nom": "David Ricardo",
+     "ouvrage": "Des principes de l'économie politique et de l'impôt",
+     "annee": "1817",
+     "ref": null,
+     "texte": "Ricardo élabore la théorie de la **rente différentielle** : lorsque la demande ou la rareté fait monter le prix d'une ressource naturelle, les producteurs dont les coûts d'extraction restent bas encaissent un surprofit qui ne rémunère ni un effort d'investissement ni une prise de risque supplémentaire. Les 10,8 milliards de dollars gagnés par Shell grâce aux tensions géopolitiques relèvent exactement de cette mécanique de rente. À mobiliser pour justifier économiquement une taxation exceptionnelle des superprofits énergétiques sans décourager la production."
+    },
+    {
+     "nom": "William Baumol et Wallace Oates",
+     "ouvrage": "The Theory of Environmental Policy",
+     "annee": "1975",
+     "ref": null,
+     "texte": "Dans la lignée de Pigou, Baumol et Oates montrent que le marché laissé à lui-même oriente les capitaux vers les activités les plus rentables à court terme, sans intégrer le coût social des émissions de gaz à effet de serre. Lorsque le pétrole cher gonfle les profits fossiles et les rachats d'actions, l'incitation privée à investir dans les énergies propres faiblit si les pouvoirs publics n'imposent pas une **fiscalité écologique** et des normes crédibles. À mobiliser dans un sujet sur les défaillances du marché face au changement climatique."
+    }
+   ],
+   "sujets": [
+    "Les chocs énergétiques accélèrent-ils ou freinent-ils la transition écologique ?",
+    "Faut-il taxer les superprofits des grandes entreprises ?"
+   ]
+  },
+  {
+   "id": "2026-10-29-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/oct/29/lloyds-executive-criticises-healey-for-linking-bank-tax-rises-to-energy-bill-support",
+   "minutes": 3,
+   "titre": "Royaume-Uni : la banque Lloyds attaque la surtaxe bancaire du budget Healey",
+   "faits": "Le 29 octobre, au lendemain de la présentation du budget britannique, le directeur financier de Lloyds Banking Group, William Chalmers, a vivement critiqué la décision du chancelier John Healey de financer les aides sur les factures d'énergie par une hausse de la fiscalité sur les banques. Le budget double en effet la surtaxe sur les bénéfices bancaires, qui passe de 3 % à 6 % à partir de janvier 2027 pour une durée de quinze mois, afin de lever 1,5 milliard de livres et de financer le chèque énergie de 100 livres accordé à 20 millions de foyers. Le dirigeant de Lloyds estime qu'il n'existe « aucun lien logique entre les prix de l'énergie et la fiscalité bancaire » et prévient que cette ponction nuira à la compétitivité de la City et à la distribution de crédit. Il met aussi en garde le gouvernement contre toute tentation de prolonger la taxe au-delà de mars 2028.",
+   "enjeux": "Cette passe d'armes illustre la relation ambiguë entre le Parti travailliste d'Andy Burnham et la **City de Londres**, premier secteur exportateur de services et premier contribuable du Royaume-Uni. Depuis la remontée des taux d'intérêt de la Banque d'Angleterre, les grandes banques britanniques réalisent des marges d'intérêt élevées sur les dépôts, ce qui en fait une cible politique idéale pour financer la redistribution sans augmenter l'impôt sur le revenu des classes moyennes. Mais le secteur financier agite la menace d'une perte d'attractivité face à New York ou aux places européennes depuis le **Brexit**. Le débat pose une question classique de politique économique : une taxe sectorielle présentée comme temporaire risque-t-elle de devenir permanente et de freiner le financement de l'économie réelle ?",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canary_Wharf_Skyline_1%2C_London_UK_-_Oct_2012.jpg/1280px-Canary_Wharf_Skyline_1%2C_London_UK_-_Oct_2012.jpg",
+    "alt": "Le quartier financier de Canary Wharf à Londres",
+    "credit": "David Iliff (Diliff) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Canary_Wharf_Skyline_1,_London_UK_-_Oct_2012.jpg"
+   },
+   "vo": {
+    "titre": "UK: Lloyds Bank attacks Healey's Budget over bank tax hike to fund energy support",
+    "faits": "On 29 October, a day after the UK Autumn Budget, Lloyds Banking Group's chief financial officer, William Chalmers, sharply criticised Chancellor John Healey's decision to fund household energy bill relief through a higher tax on banks. The Budget doubles the corporation tax surcharge on banking profits from 3% to 6% for fifteen months starting in January 2027, raising £1.5bn to pay for a £100 energy rebate for 20 million homes. Chalmers argued there was \"no obvious linkage between energy prices and bank taxes\", warning that the levy was unhelpful for growth, international competitiveness and lending to the real economy. He also urged the Treasury not to extend the surcharge beyond its scheduled expiry in March 2028.",
+    "enjeux": "The clash highlights the delicate balancing act between Andy Burnham's Labour government and the City of London, Britain's largest service exporter and corporate taxpayer. Since the Bank of England raised interest rates, high-street banks have enjoyed fat net interest margins, making them an attractive political target to fund redistribution without raising headline income taxes on working households. Yet financial executives regularly warn that heavier taxation undermines London's post-Brexit competitiveness against New York and rival European hubs. The row raises a classic fiscal question: whether a temporary windfall levy risks becoming a permanent fixture that dampens credit supply."
+   },
+   "vocab": [
+    [
+     "a corporation tax surcharge",
+     "une surtaxe sur l'impôt sur les sociétés"
+    ],
+    [
+     "an energy bill rebate",
+     "une remise / un chèque sur les factures d'énergie"
+    ],
+    [
+     "high-street banks",
+     "les grandes banques de détail"
+    ],
+    [
+     "lending to the real economy",
+     "l'octroi de crédits à l'économie réelle"
+    ],
+    [
+     "international competitiveness",
+     "la compétitivité internationale"
+    ],
+    [
+     "a temporary levy",
+     "un prélèvement temporaire"
+    ]
+   ],
+   "sujets": [
+    "Should British banks and energy giants bear the brunt of the cost-of-living crisis?",
+    "Is the City of London still an asset or a constraint for the British economy?"
+   ]
+  },
+  {
+   "id": "2026-10-29-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/oct/28/obama-trump-cheesecake-factory-georgia-rally",
+   "minutes": 3,
+   "titre": "Campagne des midterms : en Géorgie, Barack Obama concentre ses attaques sur l'inflation et le coût de la vie",
+   "faits": "Les 28 et 29 octobre, à moins d'une semaine des élections de mi-mandat du 3 novembre, l'ancien président Barack Obama a multiplié les meetings de campagne dans la banlieue d'Atlanta, en Géorgie, pour soutenir le sénateur démocrate sortant Jon Ossoff et la candidate au poste de gouverneure Keisha Lance Bottoms. Devant des milliers d'électeurs, Obama a accusé l'administration de Donald Trump de mobiliser tout l'appareil gouvernemental dans des polémiques culturelles et médiatiques plutôt que de s'attaquer à l'inflation et à la cherté de l'essence. De son côté, Donald Trump tenait meeting dans l'Ohio et rejetait la responsabilité de la flambée des carburants — à 4,24 dollars le gallon en moyenne nationale — sur la guerre en Ukraine. La Géorgie fait partie, avec l'Ohio et le Maine, des États pivots qui décideront de la majorité au Sénat.",
+   "enjeux": "Cette fin de campagne confirme que l'économie et le coût de la vie restent le premier déterminant du vote américain lors des **midterms**, devant les questions sociétales. En Géorgie, ancien bastion conservateur du **Deep South** devenu un **swing state** décisif grâce à la croissance démographique de la métropole d'Atlanta et à la mobilisation de l'électorat afro-américain et diplômé des banlieues, chaque camp joue sa survie au Sénat. Le recours massif à Barack Obama montre aussi la difficulté du Parti démocrate à faire émerger de nouvelles figures nationales fédératrices depuis 2024. Pour la Maison-Blanche, le prix du gallon d'essence agit comme un baromètre politique immédiat que les électeurs imputent systématiquement au président en exercice.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Notting_Hill.JPG/1280px-Notting_Hill.JPG",
+    "alt": "Rue résidentielle commerçante",
+    "credit": "Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Notting_Hill.JPG"
+   },
+   "vo": {
+    "titre": "Midterm campaign: in Georgia, Barack Obama zeroes in on inflation and the cost of living",
+    "faits": "On 28 and 29 October, less than a week before the 3 November midterm elections, former president Barack Obama headlined campaign rallies in suburban Atlanta, Georgia, to boost incumbent Democratic Senator Jon Ossoff and gubernatorial candidate Keisha Lance Bottoms. Addressing thousands of voters, Obama accused Donald Trump's administration of mounting a \"whole-of-government response\" to trivial culture-war rows instead of tackling inflation and high grocery and fuel bills. Meanwhile, Trump held rallies in Ohio and sought to blame the surge in US petrol prices – averaging $4.24 a gallon nationwide – on the war in Ukraine. Alongside Ohio and Maine, Georgia is one of the handful of battleground states that will determine control of the US Senate.",
+    "enjeux": "The closing stretch of the campaign confirms that kitchen-table economics and the cost of living remain the decisive driver of voting behaviour in US midterms, ahead of cultural grievances. In Georgia – a former Republican stronghold in the Deep South turned pivotal swing state by Atlanta's rapid suburban growth and a diverse electorate – both parties are fighting for control of the upper chamber. Democrats' heavy reliance on Barack Obama as their star campaigner also underscores the party's struggle to anoint a new generation of national leaders since 2024. For the White House, the price of a gallon of petrol acts as a relentless political barometer for which voters invariably hold the sitting president accountable."
+   },
+   "vocab": [
+    [
+     "a battleground / swing state",
+     "un État pivot / indécis"
+    ],
+    [
+     "kitchen-table issues",
+     "les préoccupations économiques du quotidien"
+    ],
+    [
+     "an incumbent senator",
+     "un sénateur sortant"
+    ],
+    [
+     "a gubernatorial election",
+     "une élection au poste de gouverneur"
+    ],
+    [
+     "culture-war rows",
+     "les polémiques sociétales / guerres culturelles"
+    ],
+    [
+     "to hold someone accountable for",
+     "tenir quelqu'un pour responsable de"
+    ]
+   ],
+   "sujets": [
+    "Do kitchen-table economics always trump culture wars in American elections?",
+    "How are demographic shifts reshaping the electoral map of the American South?"
+   ]
+  },
+  {
+   "id": "2026-10-29-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/oct/29/what-is-it-like-to-work-when-your-co-workers-are-ai-agents",
+   "minutes": 3,
+   "titre": "Travailler avec des « agents IA » : comment l'intelligence artificielle autonome transforme les emplois de bureau",
+   "faits": "Dans une enquête publiée le 29 octobre, le Guardian analyse le basculement des entreprises américaines et britanniques des simples robots conversationnels vers des « agents d'intelligence artificielle » capables d'exécuter seuls des chaînes de tâches complexes. Dans plusieurs start-up et services tertiaires, une poignée de salariés humains supervisent désormais des dizaines d'agents logiciels chargés du code informatique, de la prospection commerciale, de la comptabilité ou du service client. Le travail quotidien des employés consiste de moins en moins à rédiger ou programmer eux-mêmes, et de plus en plus à vérifier, corriger et coordonner ces assistants autonomes sur des messageries d'entreprise comme Slack. Si les directions vantent de forts gains de productivité, l'enquête souligne une fatigue cognitive accrue chez les salariés et un net ralentissement des embauches de jeunes diplômés.",
+   "enjeux": "Cette évolution marque une nouvelle étape dans l'impact de l'**intelligence artificielle** sur le marché du travail des pays anglo-saxons. Contrairement aux vagues d'automatisation industrielle du XXe siècle qui remplaçaient des tâches manuelles routinières, l'IA dite « agentique » touche les **cols blancs** qualifiés (juristes, développeurs, analystes financiers). Le risque principal à court terme n'est pas tant le licenciement massif des cadres expérimentés que l'assèchement des postes d'entrée de carrière (**entry-level jobs**), où les jeunes acquéraient jusqu'ici leur expérience professionnelle. Ce bouleversement relance le débat sur la **polarisation des emplois**, la régulation algorithmique au travail et l'adaptation des systèmes universitaires.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Aerial_view_of_Silicon_Valley.jpg/1280px-Aerial_view_of_Silicon_Valley.jpg",
+    "alt": "Vue aérienne de la Silicon Valley en Californie, berceau des géants du numérique",
+    "credit": "Patrick Nouhailler / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Silicon_Valley.jpg"
+   },
+   "vo": {
+    "titre": "Working alongside \"AI agents\": how autonomous artificial intelligence is reshaping white-collar jobs",
+    "faits": "In a feature published on 29 October, the Guardian examined how US and British companies are moving beyond simple chatbots to deploy autonomous \"AI agents\" capable of executing complex workflows on their own. Across a growing number of tech firms and service-sector offices, a small team of human staff now oversees dozens of specialised software agents handling coding, sales outreach, accounting and customer onboarding. Employees spend less of their day writing or programming from scratch, and far more time supervising, auditing and steering digital co-workers through platforms such as Slack. While executives tout steep productivity gains, workers report mounting cognitive fatigue, and recruiters warn of a sharp contraction in graduate and entry-level hiring.",
+    "enjeux": "This shift marks a new phase in how artificial intelligence is reshaping the Anglo-Saxon labour market. Unlike twentieth-century factory automation, which displaced routine manual labour, agentic AI directly targets skilled white-collar professions such as software engineering, law and financial analysis. In the near term, the biggest threat is not necessarily mass redundancies among senior staff, but the hollowing-out of entry-level jobs where young graduates traditionally learned their trade. The trend revives fundamental questions about job polarisation, algorithmic management in the workplace and how universities should prepare students for an AI-driven economy."
+   },
+   "vocab": [
+    [
+     "white-collar workers",
+     "les cols blancs (employés de bureau et cadres)"
+    ],
+    [
+     "entry-level / graduate jobs",
+     "les emplois de début de carrière / pour jeunes diplômés"
+    ],
+    [
+     "autonomous AI agents",
+     "les agents d'intelligence artificielle autonomes"
+    ],
+    [
+     "productivity gains",
+     "les gains de productivité"
+    ],
+    [
+     "to hollow out",
+     "vider de sa substance / assécher (le marché de l'emploi)"
+    ],
+    [
+     "human oversight",
+     "la supervision humaine"
+    ]
+   ],
+   "sujets": [
+    "Will artificial intelligence destroy the career ladder for young graduates?",
+    "Does technological progress inevitably widen inequalities in the workplace?"
+   ]
+  },
+  {
+   "id": "2026-10-29-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-10-29/el-376-de-los-trabajadores-espanoles-estan-sobrecualificados-para-el-puesto-que-desempenan.html",
+   "minutes": 3,
+   "titre": "Marché du travail en Espagne : 37,6 % des salariés occupent un emploi inférieur à leur niveau d'études",
+   "faits": "Selon l'étude « Productivité, compétences et avenir en Espagne » publiée le 29 octobre par la Fondation Afi, 37,6 % des actifs occupés espagnols sont surqualifiés pour le poste qu'ils occupent, soit le taux le plus élevé de l'Union européenne. À l'inverse, 10,9 % des travailleurs exercent un métier pour lequel ils manquent de certaines compétences requises, ce qui porte à près de la moitié des salariés la proportion touchée par une inadéquation entre formation et emploi. Le rapport souligne qu'entre 2002 et 2025, le nombre de diplômés de l'enseignement supérieur en Espagne a bondi de 119 %, passant de 6 à plus de 14 millions de personnes, beaucoup plus vite que la montée en gamme du tissu productif. Les jeunes diplômés et les travailleurs immigrés — freinés par la lenteur de l'homologation de leurs diplômes — sont les plus touchés par ce déclassement.",
+   "enjeux": "Cette étude éclaire la principale faiblesse structurelle de l'économie espagnole : malgré une forte croissance du PIB et un nombre record d'emplois, la **productivité du travail** stagne et les salaires restent nettement inférieurs à la moyenne européenne. Le tissu économique espagnol demeure dominé par des petites entreprises et des secteurs à faible valeur ajoutée (hôtellerie, restauration, commerce, construction) qui absorbent des jeunes très diplômés dans des postes peu qualifiés. Parallèlement, le pays souffre d'un déficit de formations professionnelles techniques intermédiaires (**Formación Profesional**), créant une structure en sablier : trop d'universitaires pour les postes de cadres disponibles, et pas assez de techniciens spécialisés pour l'industrie et le numérique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Madrid_-_Complutense_University.jpg/1280px-Madrid_-_Complutense_University.jpg",
+    "alt": "Faculté de l'université Complutense de Madrid",
+    "credit": "Tiia Monto / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Madrid_-_Complutense_University.jpg"
+   },
+   "vo": {
+    "titre": "Mercado laboral en España: el 37,6 % de los trabajadores están sobrecualificados para su puesto",
+    "faits": "Según el estudio «Productividad, habilidades y futuro en España», presentado el 29 de octubre por la Fundación Afi, el 37,6 % de los ocupados españoles están sobrecualificados para el puesto que desempeñan, la tasa más elevada de la Unión Europea. En el extremo opuesto, un 10,9 % sufre infracualificación, de modo que casi la mitad de los trabajadores padece algún desajuste entre su formación y su empleo real. El informe destaca que entre 2002 y 2025 la población con estudios superiores pasó en España de seis a más de 14 millones de personas (un aumento del 119 %), un ritmo muy superior a la transformación del tejido empresarial. Los jóvenes recién titulados y los trabajadores inmigrantes –frenados por las trabas para homologar sus títulos– son los colectivos más golpeados.",
+    "enjeux": "Esta radiografía explica la principal debilidad estructural de la economía española: pese al vigoroso crecimiento del PIB y al récord de afiliación, la productividad laboral apenas avanza y los salarios siguen lejos de la media europea. El tejido productivo español continúa dominado por pequeñas empresas y sectores de bajo valor añadido –hostelería, comercio, turismo y construcción– que emplean a universitarios en puestos de baja cualificación. Al mismo tiempo, persiste un déficit histórico de técnicos medios de Formación Profesional, lo que dibuja un mercado laboral en forma de reloj de arena: un exceso de titulados superiores para los empleos cualificados disponibles y escasez de perfiles técnicos para la industria y la digitalización."
+   },
+   "vocab": [
+    [
+     "la sobrecualificación",
+     "la surqualification / le déclassement professionnel"
+    ],
+    [
+     "el tejido productivo / empresarial",
+     "le tissu productif / entrepreneurial"
+    ],
+    [
+     "el desajuste educativo y laboral",
+     "l'inadéquation entre formation et emploi"
+    ],
+    [
+     "el valor añadido",
+     "la valeur ajoutée"
+    ],
+    [
+     "la Formación Profesional (FP)",
+     "la formation professionnelle et technique"
+    ],
+    [
+     "la homologación de títulos",
+     "la reconnaissance (l'équivalence) des diplômes étrangers"
+    ]
+   ],
+   "sujets": [
+    "¿Por qué la economía española no logra aprovechar el talento de sus jóvenes titulados?",
+    "Educación y mercado laboral en España: ¿cómo corregir el desajuste entre universidad y empresa?"
+   ]
+  },
+  {
+   "id": "2026-10-29-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-10-28/el-mercado-da-una-tregua-a-lula-mientras-escruta-los-primeros-pasos-de-su-politica-fiscal.html",
+   "minutes": 3,
+   "titre": "Brésil : après la réélection de Lula, les marchés financiers exigent des gages de rigueur budgétaire",
+   "faits": "Trois jours après la victoire historique de Luiz Inácio Lula da Silva au second tour de l'élection présidentielle brésilienne du 25 octobre face au candidat d'extrême droite Flávio Bolsonaro (51,78 % contre 48,22 %), les marchés financiers ont accordé un répit prudent à Brasília les 28 et 29 octobre. Au lendemain du scrutin, la Bourse de São Paulo (Bovespa) avait nettement reculé et le réal brésilien s'était déprécié face au dollar, les investisseurs redoutant une hausse des dépenses sociales au cours de ce quatrième mandat inédit de Lula. Pour calmer la tempête, l'équipe économique du ministre des Finances Fernando Haddad a promis un plan d'économies structurelles afin de respecter le cadre budgétaire et d'enrayer la hausse de la dette publique. En parallèle, la Cour suprême brésilienne a ouvert une enquête sur d'éventuels financements étrangers de la campagne de Flávio Bolsonaro, parti aux États-Unis le 28 octobre.",
+   "enjeux": "Cette séquence résume la double contrainte politique et économique du Brésil contemporain. Sur le plan électoral, Lula est devenu le premier candidat depuis le retour de la démocratie en 1989 à remporter le second tour après être arrivé deuxième au premier (45 % contre 47 % le 4 octobre), mais face à un pays profondément coupé en deux et à un Congrès dominé par la droite conservatrice. Sur le plan économique, le gouvernement du Parti des travailleurs est sous la surveillance étroite des marchés et de la banque centrale, qui maintient des taux d'intérêt très élevés pour contenir l'inflation. Lula doit ainsi arbitrer en permanence entre ses promesses de lutte contre les inégalités et l'**équilibre budgétaire** exigé par les investisseurs pour éviter une chute de la monnaie.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/National_Congress_of_Brazil.jpg",
+    "alt": "Le Congrès national du Brésil à Brasília, dessiné par Oscar Niemeyer",
+    "credit": "Marcelo Jorge Vieira / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Congress_of_Brazil.jpg"
+   },
+   "vo": {
+    "titre": "Brasil: tras la reelección de Lula, los mercados financieros exigen señales de disciplina fiscal",
+    "faits": "Tres días después de la histórica victoria de Luiz Inácio Lula da Silva en la segunda vuelta presidencial brasileña del 25 de octubre frente al candidato ultraderechista Flávio Bolsonaro (51,78 % contra 48,22 %), los mercados financieros concedieron una tregua vigilante a Brasilia los días 28 y 29 de octubre. En la jornada posterior a las urnas, la Bolsa de São Paulo (Bovespa) había caído con fuerza y el real se había depreciado frente al dólar, ante el temor de los inversores a un aumento del gasto público en el inédito cuarto mandato de Lula. Para calmar las turbulencias, el equipo del ministro de Hacienda, Fernando Haddad, prometió anunciar recortes estructurales que garanticen el cumplimiento del marco fiscal y frenen la deuda pública. Al mismo tiempo, el Tribunal Supremo abrió una investigación sobre posibles apoyos financieros extranjeros a la campaña de Flávio Bolsonaro, quien viajó a Estados Unidos el 28 de octubre.",
+    "enjeux": "Este episodio resume la doble encrucijada política y económica del Brasil actual. En el plano electoral, Lula se ha convertido en el primer candidato desde el retorno de la democracia directa en 1989 que logra remontar en el balotaje tras haber quedado segundo en la primera vuelta (45 % frente a 47 % el 4 de octubre), pero gobernará un país partido en dos y con un Congreso dominado por la derecha. En el terreno económico, el Ejecutivo del Partido de los Trabajadores está sometido al escrutinio constante de los inversores y del Banco Central, que mantiene tipos de interés muy altos para controlar la inflación. Lula se ve obligado a equilibrar sus promesas de gasto social contra la desigualdad con la ortodoxia fiscal que exigen los mercados para evitar una crisis cambiaria."
+   },
+   "vocab": [
+    [
+     "la segunda vuelta / el balotaje",
+     "le second tour de l'élection présidentielle"
+    ],
+    [
+     "protagonizar una remontada",
+     "réussir une remontée électorale"
+    ],
+    [
+     "dar una tregua",
+     "accorder un répit / une trêve"
+    ],
+    [
+     "la disciplina / el marco fiscal",
+     "la discipline / le cadre budgétaire"
+    ],
+    [
+     "depreciarse frente al dólar",
+     "se déprécier face au dollar"
+    ],
+    [
+     "el gasto social",
+     "les dépenses sociales"
+    ]
+   ],
+   "sujets": [
+    "¿Puede un gobierno de izquierda en América Latina aplicar políticas sociales ambiciosas sin chocar con los mercados financieros?",
+    "Tras la victoria de Lula frente a Flávio Bolsonaro, ¿ha superado Brasil la polarización del bolsonarismo?"
+   ]
+  },
+  {
+   "id": "2026-10-29-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/america-colombia/2026-10-28/el-congreso-salva-la-reforma-pensional-del-expresidente-petro.html",
+   "minutes": 3,
+   "titre": "Colombie : le Congrès sauve in extremis la réforme des retraites de l'ancien président Gustavo Petro",
+   "faits": "Le 28 octobre, la Chambre des représentants de Colombie a définitivement sauvé la réforme des retraites qui constituait la mesure sociale phare du mandat de l'ancien président de gauche Gustavo Petro (2022-2026). La Cour constitutionnelle avait renvoyé neuf articles du texte devant le Parlement afin de corriger des vices de procédure constatés lors de leur adoption initiale. Pour éviter une commission mixte avec le Sénat qui aurait fait capoter la loi avant la date butoir fixée par les juges, la majorité des députés a voté ces neuf articles sans y changer une seule virgule. Le texte crée un système par piliers qui oblige tous les salariés à cotiser d'abord à la caisse publique Colpensiones jusqu'à un plafond de 2,3 salaires minimums, et accorde une pension de solidarité aux personnes âgées pauvres, aux paysans et aux communautés indigènes et afro-colombiennes.",
+   "enjeux": "Cette adoption définitive met fin à deux ans de bataille parlementaire et judiciaire autour du système de protection sociale colombien. Jusqu'ici, la Colombie faisait coexister en concurrence directe un régime public par répartition (**Colpensiones**) et des fonds de pension privés par capitalisation hérités des réformes néolibérales des années 1990, dans un pays où plus de la moitié des travailleurs relèvent de l'**économie informelle** et n'avaient droit à aucune retraite. En instaurant un pilier solidaire universel financé par l'impôt et un socle public obligatoire, la réforme réduit les inégalités face à la vieillesse. Mais les économistes et le ministère des Finances s'inquiètent déjà de son coût budgétaire à long terme face au vieillissement rapide de la population colombienne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Capitolio_Nacional_de_Colombia.JPG/1280px-Capitolio_Nacional_de_Colombia.JPG",
+    "alt": "Le Capitole national à Bogotá, siège du Congrès de la République de Colombie",
+    "credit": "Javier Benítez / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Capitolio_Nacional_de_Colombia.JPG"
+   },
+   "vo": {
+    "titre": "Colombia: el Congreso salva in extremis la reforma pensional del expresidente Gustavo Petro",
+    "faits": "El 28 de octubre, el pleno de la Cámara de Representantes de Colombia salvó de forma definitiva la reforma pensional, el proyecto social más emblemático del mandato del expresidente izquierdista Gustavo Petro (2022-2026). La Corte Constitucional había devuelto nueve artículos de la ley al Legislativo para subsanar vicios de trámite cometidos durante su aprobación original. Para evitar una conciliación con el Senado que habría hecho naufragar el texto antes de que venciera el plazo judicial, la mayoría de los diputados aprobó los nueve artículos sin modificar una sola coma. La norma implanta un sistema de pilares que obliga a todos los trabajadores a cotizar primero al fondo público Colpensiones hasta un umbral de 2,3 salarios mínimos, y garantiza una renta solidaria a los ancianos sin recursos, campesinos, indígenas y afrodescendientes.",
+    "enjeux": "Este voto cierra dos años de pulso parlamentario y judicial en torno al Estado del bienestar en Colombia. Hasta ahora, el país mantenía un modelo en el que el régimen público de reparto (Colpensiones) competía directamente con los fondos privados de capitalización creados en los años noventa, mientras más de la mitad de la población activa trabajaba en la informalidad y llegaba a la vejez sin pensión alguna. Al establecer un pilar solidario básico y un tramo público obligatorio, la ley busca reducir la desigualdad en la tercera edad. No obstante, los analistas y el propio Ministerio de Hacienda advierten del elevado coste fiscal que supondrá la medida a medio plazo ante el rápido envejecimiento demográfico del país."
+   },
+   "vocab": [
+    [
+     "la reforma pensional",
+     "la réforme des retraites"
+    ],
+    [
+     "subsanar un vicio de trámite",
+     "corriger un vice de procédure"
+    ],
+    [
+     "el sistema de reparto / de capitalización",
+     "le système par répartition / par capitalisation"
+    ],
+    [
+     "cotizar a un fondo público",
+     "cotiser à une caisse publique"
+    ],
+    [
+     "el umbral",
+     "le seuil / le plafond"
+    ],
+    [
+     "el envejecimiento demográfico",
+     "le vieillissement démographique"
+    ]
+   ],
+   "sujets": [
+    "¿Cómo financiar un sistema de pensiones justo en países con una alta tasa de informalidad laboral?",
+    "¿Qué balance deja el giro a la izquierda en Colombia tras la presidencia de Gustavo Petro?"
+   ]
+  },
+  {
+   "id": "2026-10-29-allemand-1",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/politik/ausland/2026-10/frank-walter-steinmeier-china-besuch-handelsbeziehungen-xi-jinping",
+   "minutes": 3,
+   "titre": "En visite d'État en Chine, Frank-Walter Steinmeier réclame à Pékin des échanges plus équilibrés",
+   "faits": "Lors de sa visite d'État en Chine du 27 au 31 octobre — sa première depuis huit ans —, le président fédéral allemand Frank-Walter Steinmeier a rencontré à Pékin le Premier ministre Li Qiang puis le président Xi Jinping, après une étape industrielle dans la province de l'Anhui où est implantée une coentreprise de Volkswagen. Devant les dirigeants chinois et lors d'un discours à l'université de Pékin, Steinmeier a demandé à la Chine de réduire son excédent commercial massif vis-à-vis de l'Allemagne, qui a frôlé les 90 milliards d'euros l'an dernier. Il a averti que la quête d'autonomie chinoise ne devait pas conduire à une « vulnérabilité unilatérale » de l'Europe face à l'afflux de produits chinois subventionnés. Xi Jinping a de son côté appelé Berlin à une politique « rationnelle et pragmatique » et au refus du protectionnisme.",
+   "enjeux": "Ce voyage présidentiel, mené au moment même où le chancelier Friedrich Merz visitait le Japon et la Corée du Sud, illustre l'équilibre délicat de la diplomatie économique allemande. Pendant deux décennies, la Chine a été le débouché providentiel du **modèle exportateur** allemand (machines-outils, chimie, voitures haut de gamme). Aujourd'hui, la relation s'est inversée : la Chine monte en gamme, subventionne ses propres champions industriels et exporte ses **surcapacités** vers l'Europe tout en restreignant l'accès à son marché intérieur. En dénonçant une concurrence asymétrique tout en saluant le compromis récent entre Bruxelles et Pékin sur les voitures hybrides, Steinmeier montre que l'Allemagne refuse le découplage brutal (**Decoupling**) à l'américaine, mais exige désormais de la réciprocité.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Great_Hall_of_the_People_%2854135740967%29.jpg/1280px-Great_Hall_of_the_People_%2854135740967%29.jpg",
+    "alt": "Le Palais de l'Assemblée du Peuple sur la place Tiananmen à Pékin",
+    "credit": "Xiquinho Silva / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Great_Hall_of_the_People_(54135740967).jpg"
+   },
+   "vo": {
+    "titre": "Staatsbesuch in China: Frank-Walter Steinmeier fordert in Peking ausgewogenere Handelsbeziehungen",
+    "faits": "Bei seinem Staatsbesuch in der Volksrepublik China vom 27. bis 31. Oktober – seiner ersten Reise dorthin seit acht Jahren – ist Bundespräsident Frank-Walter Steinmeier in Peking mit Ministerpräsident Li Qiang und Staatschef Xi Jinping zusammengetroffen, nachdem er zuvor in der Provinz Anhui unter anderem ein Gemeinschaftsunternehmen von Volkswagen besucht hatte. Gegenüber der chinesischen Führung und in einer Rede an der Peking-Universität drängte Steinmeier auf einen Abbau des hohen chinesischen Handelsüberschusses gegenüber Deutschland, der im Vorjahr bei fast 90 Milliarden Euro lag. Er warnte vor einer „einseitigen Verwundbarkeit“ Europas, wenn stark subventionierte chinesische Waren auf den EU-Markt drängten, während europäische Firmen in China auf Hürden stießen. Xi Jinping warb im Gegenzug für eine „rationale und pragmatische“ Chinapolitik und gegen Abschottung.",
+    "enjeux": "Die Reise des Bundespräsidenten, die zeitgleich zur Asienreise von Kanzler Friedrich Merz nach Tokio und Seoul stattfand, verdeutlicht den schwierigen Balanceakt der deutschen Außenwirtschaftspolitik. Zwei Jahrzehnte lang war China der wichtigste Absatzmarkt für das deutsche Exportmodell im Maschinenbau, in der Chemie und in der Autoindustrie. Inzwischen hat sich das Verhältnis umgekehrt: China ist technologisch aufgerückt, subventioniert seine eigenen Industriekonzerne und exportiert Überkapazitäten nach Europa. Indem Steinmeier faire Wettbewerbsbedingungen anmahnt, zugleich aber jüngste Einigungen im Streit um Hybridautos begrüßt, macht Berlin deutlich, dass es zwar kein radikales Decoupling nach US-Vorbild will, aber auf Gegenseitigkeit besteht."
+   },
+   "vocab": [
+    [
+     "der Staatsbesuch",
+     "la visite d'État"
+    ],
+    [
+     "der Handelsüberschuss / das Handelsdefizit",
+     "l'excédent / le déficit commercial"
+    ],
+    [
+     "eine einseitige Verwundbarkeit",
+     "une vulnérabilité unilatérale"
+    ],
+    [
+     "gleiche Wettbewerbsbedingungen",
+     "des conditions de concurrence équitables (level playing field)"
+    ],
+    [
+     "die Überkapazitäten",
+     "les surcapacités de production"
+    ],
+    [
+     "die Gegenseitigkeit / Reziprozität",
+     "la réciprocité"
+    ]
+   ],
+   "sujets": [
+    "Partner, Wettbewerber, systemischer Rivale: Wie sollte Deutschland seine Beziehungen zu China gestalten?",
+    "Warum ist China vom Wachstumsmotor zum größten Konkurrenten der deutschen Industrie geworden?"
+   ]
+  },
+  {
+   "id": "2026-10-29-allemand-2",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/arbeit/2026-10/ig-metall-startet-warnstreiks-am-sonntag",
+   "minutes": 3,
+   "titre": "Métallurgie allemande : IG Metall appelle 3,7 millions de salariés à des grèves d'avertissement",
+   "faits": "Après l'échec du deuxième cycle de négociations salariales dans la métallurgie et l'industrie électrique (Metall- und Elektroindustrie), le puissant syndicat IG Metall a appelé les 28 et 29 octobre à une vague nationale de grèves d'avertissement (Warnstreiks) dès l'expiration de l'obligation de paix sociale dans la nuit du 31 octobre au 1er novembre. Le syndicat réclame une hausse de salaire de 5 % sur douze mois pour les 3,7 millions de salariés de la branche, ainsi que des garanties pour l'emploi et les sites industriels. En face, la fédération patronale Gesamtmetall propose seulement une augmentation de 1,3 % à partir de juillet 2028, dans le cadre d'un accord de 26 mois, assortie d'une prime unique supprimable pour les entreprises en difficulté. La présidente d'IG Metall, Christiane Benner, dénonce une « provocation » et une baisse de salaire réel en pleine remontée de l'inflation.",
+   "enjeux": "Ce conflit social touche le cœur battant de l'industrie allemande (automobile, équipementiers, machines-outils) au pire moment conjoncturel, après trois années de baisse de la production. Il met à rude épreuve le modèle allemand du **partenariat social** (*Sozialpartnerschaft*) et de l'**autonomie tarifaire** (*Tarifautonomie*), qui permettait traditionnellement de négocier des compromis sans grèves longues. Les syndicats estiment qu'il faut soutenir le pouvoir d'achat et la consommation intérieure après des années d'inflation, tandis que les employeurs affirment que les coûts salariaux allemands — parmi les plus élevés au monde — accélèrent les délocalisations et les fermetures d'usines. L'écart grandissant entre les rares entreprises florissantes (comme dans l'armement) et les sous-traitants automobiles en crise complique un accord unique pour toute la branche.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Duisburg-Bruckhausen_Stahlwerk_Thyssenkrupp.jpg/1280px-Duisburg-Bruckhausen_Stahlwerk_Thyssenkrupp.jpg",
+    "alt": "Complexe sidérurgique et industriel de Thyssenkrupp à Duisbourg, dans la Ruhr",
+    "credit": "Mabit1 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Duisburg-Bruckhausen_Stahlwerk_Thyssenkrupp.jpg"
+   },
+   "vo": {
+    "titre": "Metall- und Elektroindustrie: IG Metall ruft 3,7 Millionen Beschäftigte zu Warnstreiks auf",
+    "faits": "Nach dem ergebnislosen Verlauf der zweiten Verhandlungsrunde in der Metall- und Elektroindustrie hat die Gewerkschaft IG Metall am 28. und 29. Oktober bundesweite Warnstreiks angekündigt, die unmittelbar mit dem Ende der Friedenspflicht in der Nacht zum 1. November beginnen. Für die rund 3,7 Millionen Beschäftigten der Schlüsselbranche fordert die IG Metall fünf Prozent mehr Lohn bei einer Laufzeit von zwölf Monaten sowie tarifliche Zusagen zur Standortsicherung. Die Arbeitgeberverbände um Gesamtmetall bieten hingegen lediglich eine Entgelterhöhung von 1,3 Prozent ab Juli 2028 bei einer Laufzeit von 26 Monaten sowie eine streichbare Einmalzahlung an. IG-Metall-Chefin Christiane Benner wies das Angebot als „Provokation“ und Reallohnverlust angesichts steigender Energiepreise zurück.",
+    "enjeux": "Der Tarifkonflikt trifft das Herzstück der deutschen Industrie – Autobauer, Zulieferer und Maschinenbau – inmitten einer schweren Strukturkrise nach drei Rezessionsjahren. Er stellt die deutsche Sozialpartnerschaft und die Tarifautonomie auf eine harte Probe, die jahrzehntelang für verlässliche Kompromisse und sozialen Frieden sorgten. Während die Gewerkschaft argumentiert, höhere Löhne seien notwendig, um die Kaufkraft und den privaten Konsum zu stützen, warnen die Arbeitgeber, zusätzliche Arbeitskosten würden die ohnehin geschwächte Wettbewerbsfähigkeit weiter untergraben und Standortverlagerungen beschleunigen. Die wachsende Kluft zwischen kriselnden Autozulieferern und boomenden Rüstungsbetrieben erschwert zudem einen einheitlichen Flächentarifvertrag."
+   },
+   "vocab": [
+    [
+     "der Warnstreik",
+     "la grève d'avertissement (courte et ciblée)"
+    ],
+    [
+     "die Friedenspflicht",
+     "l'obligation légale de paix sociale pendant la validité d'un accord"
+    ],
+    [
+     "die Tarifautonomie / Sozialpartnerschaft",
+     "l'autonomie des partenaires sociaux / le partenariat social"
+    ],
+    [
+     "der Flächentarifvertrag",
+     "la convention collective de branche"
+    ],
+    [
+     "der Reallohnverlust",
+     "la perte de salaire réel (corrigé de l'inflation)"
+    ],
+    [
+     "die Standortsicherung",
+     "la garantie de maintien des sites de production"
+    ]
+   ],
+   "sujets": [
+    "Ist die deutsche Sozialpartnerschaft in Zeiten der Industriekrise noch ein Erfolgsmodell?",
+    "Höhere Löhne für mehr Kaufkraft oder Lohnzurückhaltung für mehr Wettbewerbsfähigkeit: Welchen Weg braucht Deutschland?"
+   ]
+  },
+  {
+   "id": "2026-10-29-allemand-3",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/wirtschaft/2026-10/ifo-beschaeftigungsbarometer-unternehmen-wollen-laut-ifo-institut-etwas-weniger-stellen-streichen",
+   "minutes": 3,
+   "titre": "Baromètre Ifo de l'emploi : les entreprises allemandes ralentissent les suppressions de postes, sauf dans l'automobile",
+   "faits": "Selon le baromètre de l'emploi publié fin octobre par l'institut économique Ifo de Munich, l'indicateur des intentions d'embauche des entreprises allemandes a légèrement progressé en octobre 2026, passant de 95,1 à 95,5 points. Son responsable, Klaus Wohlrabe, indique que les entreprises restent globalement en phase de réduction d'effectifs, mais qu'elles deviennent plus prudentes avant de licencier. La situation demeure très contrastée selon les secteurs : les services et les agences d'intérim recommencent à prévoir des embauches, tandis que le commerce et le bâtiment continuent de réduire leurs équipes. Dans l'industrie manufacturière, le climat se dégrade encore, tiré vers le bas par l'automobile où d'importantes suppressions de postes restent programmées.",
+   "enjeux": "Cette enquête de l'institut Ifo éclaire la résilience particulière du marché du travail allemand face aux crises, souvent appelée **rétention de main-d'œuvre** (*Arbeitskräftehortung*). Échaudées par la pénurie démographique de travailleurs qualifiés (**Fachkräftemangel**), nombre de PME du **Mittelstand** et d'entreprises de services hésitent à se séparer de leurs salariés, de peur de ne plus pouvoir recruter lorsque la conjoncture repartira. Mais ce mécanisme protecteur ne suffit plus dans la construction automobile, où la transition vers l'électrique exige moins d'heures de travail par véhicule et entraîne des destructions d'emplois définitives. On assiste ainsi à une **tertiarisation** progressive de l'emploi allemand, des usines vers les services.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/IFO_institute.JPG/1280px-IFO_institute.JPG",
+    "alt": "Le siège de l'institut de recherche économique Ifo à Munich",
+    "credit": "Carl Steinbeißer / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:IFO_institute.JPG"
+   },
+   "vo": {
+    "titre": "Ifo-Beschäftigungsbarometer: Deutsche Unternehmen bremsen den Stellenabbau – außer in der Autoindustrie",
+    "faits": "Nach dem Ende Oktober veröffentlichten Beschäftigungsbarometer des Münchner Ifo-Instituts ist der Indikator für die Personalplanungen der deutschen Wirtschaft im Oktober 2026 leicht von 95,1 auf 95,5 Punkte gestiegen. Laut Befragungsleiter Klaus Wohlrabe überwiegt zwar insgesamt weiterhin der Personalabbau, doch gehen viele Firmen bei Entlassungen inzwischen vorsichtiger vor, weil der konjunkturelle Aufschwung noch schwach bleibt. Zwischen den Branchen zeigt sich jedoch eine tiefe Spaltung: Während Dienstleister und Zeitarbeitsfirmen wieder häufiger Neueinstellungen planen, streichen Handel und Baugewerbe weiter Stellen. In der Industrie hat sich die Lage nochmals eingetrübt, vor allem weil in der Automobilbranche weiterhin ein massiver Stellenabbau angekündigt ist.",
+    "enjeux": "Die Ifo-Zahlen beleuchten ein typisches Merkmal des deutschen Arbeitsmarktes in Krisenzeiten: das sogenannte Horten von Arbeitskräften. Aus Angst vor dem demografisch bedingten Fachkräftemangel zögern viele mittelständische Betriebe und Dienstleister, qualifiziertes Personal zu entlassen, das sie bei einer späteren Erholung kaum wiederfinden würden. In der Automobilindustrie greift dieser Schutzmechanismus allerdings immer weniger, da der Übergang zur Elektromobilität dauerhaft weniger Fertigungsstunden erfordert und zu einem strukturellen Arbeitsplatzabbau führt. Damit beschleunigt sich auch in Deutschland der Strukturwandel von der klassischen Industrie hin zum Dienstleistungssektor."
+   },
+   "vocab": [
+    [
+     "das Beschäftigungsbarometer",
+     "le baromètre de l'emploi"
+    ],
+    [
+     "die Neueinstellung / die Entlassung",
+     "l'embauche / le licenciement"
+    ],
+    [
+     "Arbeitskräfte horten",
+     "retenir / garder sa main-d'œuvre malgré la crise"
+    ],
+    [
+     "der Strukturwandel",
+     "la mutation structurelle de l'économie"
+    ],
+    [
+     "der Dienstleistungssektor",
+     "le secteur tertiaire (des services)"
+    ],
+    [
+     "die Zeitarbeit / Leiharbeit",
+     "le travail intérimaire"
+    ]
+   ],
+   "sujets": [
+    "Verliert Deutschland seine Rolle als Industrienation zugunsten des Dienstleistungssektors?",
+    "Warum bleibt der deutsche Arbeitsmarkt trotz jahrelanger Konjunkturschwäche vergleichsweise robust?"
+   ]
+  }
+ ]
+}
