@@ -15,6 +15,11 @@ html.unlocked #gate { display: none; }
 #gate input { font: inherit; font-size: 16px; padding: 14px 12px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); text-align: center; border-radius: 0; }
 #gate input:focus { outline: none; border-color: var(--fg); }
 #gate button { font: inherit; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; padding: 15px; border: 0; background: var(--invert-bg); color: var(--invert-fg); cursor: pointer; }
+#gate .g-field { position: relative; display: flex; }
+#gate .g-field input { flex: 1; min-width: 0; padding-inline: 48px; }
+#gate .g-eye { position: absolute; right: 0; top: 0; bottom: 0; width: 48px; padding: 0; display: flex; align-items: center; justify-content: center; background: none; color: var(--muted); letter-spacing: 0; }
+#gate .g-eye:hover, #gate .g-eye[aria-pressed="true"] { color: var(--fg); }
+#gate .g-eye[aria-pressed="true"] .g-slash { display: none; }
 #gate .g-err { min-height: 1.2em; font-size: 13px; color: var(--muted); margin: 0; }
 /* Boutique de mode épurée : noir et blanc, petites capitales espacées, colonnes étroites et beaucoup d'air */
 :root {
@@ -237,16 +242,24 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 }
 @media (prefers-reduced-motion: reduce) { .choice { transition: none; } }
 </style>
-<div id="gate"><form autocomplete="off"><p class="g-brand">PRESS'ING</p><label class="g-label" for="g-code">Code d'accès</label><input id="g-code" type="password" required><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
+<div id="gate"><form autocomplete="off"><p class="g-brand">PRESS'ING</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
 (function () {
-  var HASH = "d951499840a268ed25a0fddfa68b2c974e971b6a925b5298a39266e211a2df91"; /* empreinte du code d'accès : demande à Claude pour le changer */
+  var HASH = "6e43ca820a388641ccbe433feaf19aa0e382e66e5a4acd9b4762d7ee6f747309"; /* empreinte du code d'accès : demande à Claude pour le changer */
   var KEY = "pressing-acces";
   function ok() { document.documentElement.classList.add("unlocked"); }
   try { if (localStorage.getItem(KEY) === HASH) ok(); } catch (e) {}
   function sha(t) { return crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)).then(function (b) { return Array.from(new Uint8Array(b)).map(function (x) { return x.toString(16).padStart(2, "0"); }).join(""); }); }
   var f = document.querySelector("#gate form"), i = document.getElementById("g-code"), err = document.getElementById("g-err");
   if (!document.documentElement.classList.contains("unlocked")) i.focus();
+  var eye = document.getElementById("g-eye");
+  eye.addEventListener("click", function () {
+    var show = i.type === "password";
+    i.type = show ? "text" : "password";
+    eye.setAttribute("aria-pressed", show);
+    eye.setAttribute("aria-label", show ? "Masquer le code" : "Afficher le code");
+    i.focus();
+  });
   f.addEventListener("submit", function (e) {
     e.preventDefault();
     sha(i.value.trim().toLowerCase()).then(function (h) {
