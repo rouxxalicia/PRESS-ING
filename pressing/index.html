@@ -1,5 +1,7 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Press'ing</title>
+<meta name="google" content="notranslate">
+<script>document.documentElement.lang = "fr"; document.documentElement.setAttribute("translate", "no"); document.documentElement.classList.add("notranslate");</script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -393,6 +395,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     lues[id] = 1; save("pressing:lues", lues);
     const lang = state.lang[id] || "fr";
     const t = lang === "vo" && c.vo ? c.vo : c;
+    const L = lang === "vo" && c.vo ? ({ anglais: "en", espagnol: "es", allemand: "de" })[c.matiere] || "fr" : "fr";
     const same = ed.cards.filter(x => x.matiere === c.matiere);
     const pos = same.findIndex(x => x.id === id);
     const next = same[pos + 1] || ed.cards[(idx + 1) % ed.cards.length];
@@ -401,8 +404,8 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     h += '<span class="label muted">' + NOM[c.matiere] + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
     h += '<h1>' + esc(t.titre) + '</h1>';
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose"><p>' + esc(t.faits) + '</p></div></section>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose"><p>' + esc(t.enjeux) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.faits) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.enjeux) + '</p></div></section>';
     if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
     if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
     if (c.programme) h += '<aside class="prog"><span class="label">Lien avec le programme</span><p><strong>Module</strong> · ' + esc(c.programme.module) + '</p><p><strong>Chapitre</strong> · ' + esc(c.programme.chapitre) + '</p></aside>';
