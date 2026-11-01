@@ -1,0 +1,584 @@
+{
+ "date": "2026-11-01",
+ "cards": [
+  {
+   "id": "2026-11-01-esh-1",
+   "matiere": "esh",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-01/la-multimillonaria-quema-de-caja-por-la-inversion-en-ia-castiga-a-los-gigantes-de-internet.html",
+   "minutes": 3,
+   "titre": "Intelligence artificielle : la « brûlure de trésorerie » des géants de la Tech fait chuter le Nasdaq",
+   "faits": "À l'issue de la publication des résultats du troisième trimestre 2026, les grandes valeurs technologiques américaines ont subi une violente correction boursière qui a effacé près de 1 000 milliards de dollars de capitalisation sur le Nasdaq en une semaine, et environ 2 000 milliards sur l'ensemble du mois d'octobre. Les investisseurs sanctionnent l'explosion des dépenses d'investissement (capex) consacrées aux centres de données et aux puces d'intelligence artificielle : Amazon prévoit à lui seul près de 220 milliards de dollars d'investissements annuels en équipements et infrastructures. Cet effort financier inédit a fait basculer les flux de trésorerie disponibles (free cash flow) d'Amazon, d'Alphabet et de Meta en territoire négatif ou sous forte pression. Wall Street redoute désormais que ces centaines de milliards engloutis ne mettent des années à générer des profits suffisants, au moment où les activités historiques comme le commerce en ligne ou la publicité ralentissent.",
+   "enjeux": "Cette secousse boursière pose la question d'une **bulle spéculative** autour de l'intelligence artificielle, comparable à celle d'Internet en 2000. D'un côté, l'IA constitue une **technologie à usage général** dont le déploiement exige d'immenses **coûts fixes** avant de produire des gains de productivité dans l'ensemble de l'économie : chaque géant du numérique est pris dans un **dilemme du prisonnier** où sous-investir reviendrait à céder le monopole de demain à ses rivaux. De l'autre, l'écart croissant entre le coût immédiat des infrastructures (serveurs, réseaux électriques, semi-conducteurs) et la monétisation réelle auprès des entreprises fait craindre un **surinvestissement**. Ce phénomène illustre aussi le **paradoxe de Solow** : une révolution technologique met toujours du temps à se traduire dans la rentabilité financière et la productivité globale.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Nasdaq_MarketSite_%2851494550508%29.jpg/1280px-Nasdaq_MarketSite_%2851494550508%29.jpg",
+    "alt": "La façade du Nasdaq MarketSite à Times Square, à New York",
+    "credit": "Ajay Suresh / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.1 - Croissance et fluctuations depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "John Maynard Keynes",
+     "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+     "annee": "1936",
+     "ref": "concours-de-beaute",
+     "texte": "Par la métaphore du **concours de beauté**, Keynes montre que sur les marchés financiers, les investisseurs n'évaluent pas la valeur fondamentale de long terme d'une entreprise, mais cherchent à deviner l'opinion moyenne des autres acteurs. Ce **mimétisme** explique pourquoi la Bourse a d'abord porté les géants de l'IA à des sommets avant de les sanctionner brutalement dès que leurs flux de trésorerie ont déçu. À mobiliser dans tout sujet sur l'instabilité financière et les bulles boursières."
+    },
+    {
+     "nom": "Robert Solow",
+     "ouvrage": "« We'd Better Watch Out »",
+     "annee": "1987",
+     "ref": null,
+     "texte": "Solow résume le décalage entre l'essor de l'informatique et la croissance par une formule célèbre : « On voit les ordinateurs partout, sauf dans les statistiques de la productivité ». Ce **paradoxe de Solow** s'explique par le délai nécessaire pour réorganiser les entreprises et former les travailleurs autour d'une **grappe d'innovations**. À mobiliser pour nuancer l'idée que les investissements massifs dans l'IA génèrent immédiatement de la croissance et des profits."
+    }
+   ],
+   "sujets": [
+    "L'intelligence artificielle est-elle le moteur d'un nouveau cycle de croissance ou d'une nouvelle bulle financière ?",
+    "Les marchés financiers allouent-ils efficacement le capital vers l'innovation ?"
+   ]
+  },
+  {
+   "id": "2026-11-01-esh-2",
+   "matiere": "esh",
+   "source": "Frankfurter Allgemeine Zeitung",
+   "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/evonik-lehnt-hoeheres-basf-angebot-ab-accg-201635618.html",
+   "minutes": 3,
+   "titre": "Chimie européenne en crise : Evonik rejette l'offre de rachat relevée à 11,2 milliards d'euros de BASF",
+   "faits": "Le groupe allemand de chimie de spécialités Evonik a officiellement rejeté l'offre publique d'achat améliorée de son compatriote BASF, qui proposait 24 euros par action, soit une valorisation totale d'environ 11,2 milliards d'euros. Après examen, le directoire d'Evonik et son principal actionnaire, la fondation RAG, ont refusé d'entrer en négociation afin de préserver l'indépendance stratégique de l'entreprise. De son côté, BASF s'est dit surpris par ce refus malgré une prime de 39 % sur le cours de Bourse et des garanties promises pour l'emploi et les sites allemands. Cette opération aurait constitué la plus grande fusion-acquisition dans la chimie européenne depuis des années. Le gouvernement régional de Rhénanie-du-Nord-Westphalie a salué la décision d'Evonik de rester autonome.",
+   "enjeux": "Cette tentative de rachat avortée illustre les grandes manœuvres d'une **industrie chimique européenne** fragilisée par le coût durablement élevé de l'énergie depuis la fin du gaz russe bon marché et le nouveau choc pétrolier au Moyen-Orient. Pour un géant de la chimie de base comme BASF, racheter Evonik visait à réaliser une **concentration horizontale** et à monter en gamme vers la **chimie de spécialités**, moins énergivore et dotée d'un plus fort **pouvoir de marché**. En période de stagnation industrielle, la croissance externe par **fusions-acquisitions** apparaît souvent plus rapide que l'investissement interne pour acquérir des brevets et des parts de marché. Mais le refus d'Evonik et des autorités régionales rappelle que ces concentrations suscitent la crainte de restructurations et de suppressions de postes en Allemagne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/BASF_Ludwigshafen_panorama_2023-1.jpg/1280px-BASF_Ludwigshafen_panorama_2023-1.jpg",
+    "alt": "Le site chimique historique de BASF au bord du Rhin à Ludwigshafen, en Allemagne",
+    "credit": "Norbert Nagel / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:BASF_Ludwigshafen_panorama_2023-1.jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.2 - Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Ronald Coase",
+     "ouvrage": "« The Nature of the Firm »",
+     "annee": "1937",
+     "ref": null,
+     "texte": "Coase explique que les entreprises choisissent entre faire elles-mêmes ou passer par le marché en comparant les **coûts de transaction** aux coûts d'organisation interne. Dans une industrie chimique frappée par la hausse des coûts de l'énergie, fusionner permettrait à BASF d'internaliser des activités complémentaires à forte valeur ajoutée, mais au risque d'alourdir la gestion d'un conglomérat géant. À mobiliser dans un sujet sur la taille des firmes et les stratégies de fusion-acquisition."
+    },
+    {
+     "nom": "Michael Porter",
+     "ouvrage": "L'Avantage concurrentiel des nations",
+     "annee": "1990",
+     "ref": null,
+     "texte": "Porter distingue la **compétitivité-prix** de la **compétitivité hors-prix**, fondée sur la différenciation, la qualité et l'innovation. Alors que l'Allemagne ne peut plus rivaliser sur les coûts énergétiques avec les États-Unis ou le Moyen-Orient dans la chimie de base, la chimie de spécialités d'Evonik incarne cette montée en gamme qui protège les marges. À mobiliser pour expliquer comment l'industrie européenne cherche à survivre à la perte de ses avantages de coûts."
+    }
+   ],
+   "sujets": [
+    "Les fusions-acquisitions permettent-elles de sauver la compétitivité de l'industrie européenne ?",
+    "L'Europe est-elle condamnée à la désindustrialisation face au coût de l'énergie ?"
+   ]
+  },
+  {
+   "id": "2026-11-01-esh-3",
+   "matiere": "esh",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/01/were-doomed-anyway-young-people-disheartened-about-the-future-are-splashing-out-on-the-present",
+   "minutes": 3,
+   "titre": "Du « doomspending » à l'essor de Vinted : comment la crise du pouvoir d'achat transforme la consommation",
+   "faits": "Deux enquêtes publiées par le Guardian les 31 octobre et 1er novembre éclairent les nouveaux arbitrages de consommation dans les pays anglo-saxons. D'un côté, de nombreux jeunes actifs pratiquent le « doomspending » : convaincus que l'achat d'un logement leur est devenu inaccessible face aux prix de l'immobilier et aux taux d'intérêt élevés, ils renoncent à épargner pour l'avenir et multiplient les petits plaisirs immédiats (cafés, voyages, loisirs). De l'autre, le marché britannique des vêtements de seconde main a quadruplé en dix ans pour atteindre 8,8 milliards de livres par an, mais ce boom profite aux plateformes numériques entre particuliers comme Vinted et Depop. Privées des dons de vêtements de qualité que les ménages préfèrent désormais revendre en ligne, les boutiques caritatives traditionnelles plongent dans le rouge : le bénéfice commercial d'Oxfam a chuté de 23 % à 4,9 millions de livres et la British Heart Foundation ferme 150 magasins.",
+   "enjeux": "Ces deux tendances montrent comment l'inflation cumulée et la cherté du patrimoine modifient en profondeur la **fonction de consommation** et l'**arbitrage intertemporel** des ménages. Lorsque l'accès à la propriété — pilier historique de l'accumulation patrimoniale des classes moyennes — semble hors de portée, l'**incitation à l'épargne** s'effondre chez les jeunes générations au profit du présent. En parallèle, l'essor de Vinted illustre l'ambivalence de l'**économie de plateforme** : en abaissant les coûts de transaction, le numérique transforme un geste autrefois fondé sur le **don** aux associations en un marché marchand de pair à pair où chacun cherche à compléter son revenu. Les boutiques caritatives ne reçoivent plus que les rebuts invendables de la *fast fashion*, ce qui fragilise à la fois le commerce de centre-ville et le financement du secteur associatif.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cancer_Research_UK_charity_shop_shopfront%2C_High_Street%2C_St_Ives%2C_December_2025.jpg/1280px-Cancer_Research_UK_charity_shop_shopfront%2C_High_Street%2C_St_Ives%2C_December_2025.jpg",
+    "alt": "La devanture d'une boutique caritative (charity shop) dans une rue commerçante au Royaume-Uni",
+    "credit": "Mutney / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cancer_Research_UK_charity_shop_shopfront,_High_Street,_St_Ives,_December_2025.jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.2 - Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Franco Modigliani",
+     "ouvrage": "« Utility Analysis and the Consumption Function »",
+     "annee": "1954",
+     "ref": null,
+     "texte": "Selon la théorie du **cycle de vie** de Modigliani, les individus lissent leur consommation tout au long de leur existence : ils s'endettent puis épargnent durant leur vie active afin de se constituer un patrimoine et de financer leur retraite. Le phénomène de *doomspending* met en échec ce modèle rationnel : quand le prix de l'immobilier devient inatteignable, les jeunes renoncent à l'effort d'épargne de long terme. À mobiliser dans tout sujet sur les déterminants de la consommation et de l'épargne."
+    },
+    {
+     "nom": "Karl Polanyi",
+     "ouvrage": "La Grande Transformation",
+     "annee": "1944",
+     "ref": null,
+     "texte": "Polanyi distingue trois formes d'intégration économique : la **réciprocité** (le don), la **redistribution** et l'**échange marchand**, et montre comment le capitalisme tend à **marchandiser** des sphères sociales qui échappaient jusque-là aux prix. Le basculement du don de vêtements aux *charity shops* vers la revente individuelle sur Vinted illustre ce recul de la réciprocité au profit du marché. À mobiliser pour analyser les effets sociaux de la numérisation et de la baisse du pouvoir d'achat."
+    }
+   ],
+   "sujets": [
+    "L'évolution de la consommation des ménages ne dépend-elle que du pouvoir d'achat ?",
+    "Le numérique favorise-t-il une économie plus sobre et solidaire ?"
+   ]
+  },
+  {
+   "id": "2026-11-01-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/31/elon-musk-midterms-spending-visualized",
+   "minutes": 3,
+   "titre": "Midterms américaines : Elon Musk a dépensé le montant record de 446 millions de dollars pour le camp républicain",
+   "faits": "Selon les données de la Commission électorale fédérale (FEC) compilées par le Guardian le 31 octobre, à trois jours des élections de mi-mandat du 3 novembre, le milliardaire Elon Musk a versé 445,77 millions de dollars aux comités d'action politique (PAC) républicains au cours de ce cycle électoral. Ce montant dépasse déjà les quelque 290 millions de dollars qu'il avait dépensés lors de la présidentielle de 2024 et fait de lui le plus grand donateur individuel de toute l'histoire politique américaine moderne. Près de la moitié de cette somme (216 millions de dollars) a alimenté son propre comité, America PAC, tandis que 168 millions sont allés au Senate Leadership Fund — notamment pour soutenir Ken Paxton au Texas — et 30 millions au Congressional Leadership Fund. Ses versements se sont fortement accélérés au cours des dernières semaines pour tenter de sauver la majorité républicaine au Congrès.",
+   "enjeux": "Cette manne financière met en lumière le poids démesuré de l'argent dans la démocratie américaine depuis l'arrêt **Citizens United v. FEC** rendu par la Cour suprême en 2010. En assimilant les dépenses électorales à la liberté d'expression protégée par le Premier Amendement, la Cour a autorisé la création des **Super PACs**, qui peuvent recevoir des dons illimités de milliardaires et d'entreprises tant qu'ils ne sont pas officiellement coordonnés avec l'équipe du candidat. L'engagement d'Elon Musk pose en outre un problème inédit de **conflit d'intérêts** : ses entreprises (SpaceX, Tesla, Starlink) dépendent directement des contrats fédéraux de la Nasa et du Pentagone ainsi que des réglementations que le prochain Congrès contrôlera. Cette concentration du financement électoral nourrit chez de nombreux électeurs le sentiment d'une dérive **ploutocratique** des institutions américaines.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/US_Supreme_Court_-_corrected.jpg/1280px-US_Supreme_Court_-_corrected.jpg",
+    "alt": "La Cour suprême des États-Unis à Washington, dont l'arrêt Citizens United de 2010 a déplafonné les dépenses électorales",
+    "credit": "Jarek Tuszyński / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Supreme_Court_-_corrected.jpg"
+   },
+   "vo": {
+    "titre": "US midterms: Elon Musk has spent a record $446m backing Republicans",
+    "faits": "According to Federal Election Commission (FEC) filings analysed by the Guardian on 31 October, just three days before the 3 November midterm elections, tech billionaire Elon Musk has funnelled $445.77m into Republican-aligned political action committees (PACs) during this election cycle. That figure comfortably surpasses the roughly $290m he spent in the 2024 presidential race, making him the largest single-cycle political donor in modern American history. Nearly half of the money ($216m) went into his own America PAC, while $168m flowed to the Senate Leadership Fund – helping bankroll high-stakes races such as Ken Paxton's campaign in Texas – and $30m went to the Congressional Leadership Fund. His contributions surged in the final weeks of the campaign in a bid to defend the Republicans' narrow congressional majority.",
+    "enjeux": "This unprecedented financial outlay underscores the outsized role of big money in American democracy since the Supreme Court's landmark 2010 Citizens United v FEC ruling. By equating campaign spending with free speech protected under the First Amendment, the Court paved the way for Super PACs, which can raise unlimited sums from billionaires and corporations provided they do not formally coordinate with a candidate's campaign. Musk's intervention also raises acute conflict-of-interest questions: his companies, including SpaceX, Tesla and Starlink, rely heavily on federal contracts from Nasa and the Pentagon and on regulatory decisions overseen by Congress. For many voters, such extreme concentration of campaign finance fuels perceptions that US politics is sliding towards plutocracy."
+   },
+   "vocab": [
+    [
+     "campaign finance",
+     "le financement des campagnes électorales"
+    ],
+    [
+     "a political action committee (Super PAC)",
+     "un comité de financement électoral indépendant"
+    ],
+    [
+     "a single-cycle political donor",
+     "un donateur sur un seul cycle électoral"
+    ],
+    [
+     "to bankroll a campaign",
+     "financer massivement une campagne"
+    ],
+    [
+     "a conflict of interest",
+     "un conflit d'intérêts"
+    ],
+    [
+     "plutocracy / big money in politics",
+     "la ploutocratie / le poids de l'argent en politique"
+    ]
+   ],
+   "sujets": [
+    "Does unlimited campaign spending undermine American democracy?",
+    "Have tech billionaires acquired too much political power in the United States?"
+   ]
+  },
+  {
+   "id": "2026-11-01-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/environment/2026/oct/30/john-healey-budget-cuts-miss-green-heating-targets",
+   "minutes": 3,
+   "titre": "Royaume-Uni : les coupes du budget Healey compromettent les objectifs de chauffage décarboné",
+   "faits": "Selon les analyses d'instituts de recherche et d'ONG publiées le 30 octobre par le Guardian, le budget d'automne du chancelier John Healey a amputé de plusieurs centaines de millions de livres les crédits pluriannuels du ministère de l'Énergie afin de financer la hausse du budget de la défense et les aides immédiates sur les factures. Si la prime individuelle de 7 500 livres pour l'installation d'une pompe à chaleur est maintenue, l'enveloppe globale du programme Boiler Upgrade Scheme est réduite d'environ 700 à 741 millions de livres sur les prochaines années, tout comme les fonds dédiés au plan d'isolation Warm Homes et au captage du carbone. Le centre de recherche Nesta estime désormais « très difficile de voir comment le Royaume-Uni pourra atteindre ses objectifs de chauffage propre ». Les défenseurs de l'environnement y voient un net recul par rapport aux ambitions climatiques portées auparavant par Ed Miliband.",
+   "enjeux": "Cet arbitrage budgétaire illustre le dilemme politique de la **transition énergétique** au Royaume-Uni : face à la guerre au Moyen-Orient et au mécontentement des ménages sur le coût de la vie, le gouvernement travailliste d'Andy Burnham privilégie le soulagement immédiat des factures et le réarmement au détriment des investissements verts de long terme. Or le chauffage résidentiel représente près d'un cinquième des émissions britanniques de gaz à effet de serre, car le parc immobilier du pays est l'un des plus anciens et des moins bien isolés d'Europe, encore massivement dépendant des chaudières à gaz. En freinant le déploiement des **pompes à chaleur** (*heat pumps*), Londres risque de manquer ses **budgets carbone** pourtant juridiquement contraignants depuis le *Climate Change Act* de 2008, et de prolonger paradoxalement la vulnérabilité des ménages britanniques aux chocs gaziers.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Air_Source_Heat_Pump_-_Vailliant_aroTherm_Plus_on_a_terraced_house.jpg/1280px-Air_Source_Heat_Pump_-_Vailliant_aroTherm_Plus_on_a_terraced_house.jpg",
+    "alt": "Une pompe à chaleur installée devant une maison mitoyenne au Royaume-Uni",
+    "credit": "Southend-on-Sea Borough Council / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Air_Source_Heat_Pump_-_Vailliant_aroTherm_Plus_on_a_terraced_house.jpg"
+   },
+   "vo": {
+    "titre": "UK: Healey's Budget cuts put Britain on course to miss green heating targets",
+    "faits": "According to thinktank and industry assessments reported by the Guardian on 30 October, Chancellor John Healey's Autumn Budget stripped hundreds of millions of pounds from the energy department's multi-year spending pot to help pay for higher defence spending and immediate energy bill relief. While the individual £7,500 household grant for installing a heat pump has been kept in place, projected funding for the Boiler Upgrade Scheme has been scaled back by roughly £700m to £741m over the coming years, alongside cuts to the Warm Homes insulation plan and carbon capture projects. The innovation charity Nesta warned it is now \"very difficult to see how we can hit our clean heating targets\". Green campaigners view the move as a sharp retreat from the ambitious decarbonisation agenda championed by former energy secretary Ed Miliband.",
+    "enjeux": "This fiscal trade-off highlights the political dilemma surrounding Britain's net zero transition: confronted with war in the Middle East and voter anger over the cost of living, Andy Burnham's Labour government is prioritising short-term bill rebates and defence over long-term green capital spending. Yet home heating accounts for nearly a fifth of UK greenhouse gas emissions, as Britain has some of the oldest and draughtiest housing stock in Europe, still overwhelmingly reliant on gas boilers. By slowing the rollout of heat pumps, London risks breaching its legally binding carbon budgets under the 2008 Climate Change Act – and, paradoxically, leaving British households exposed to future gas price shocks for longer."
+   },
+   "vocab": [
+    [
+     "an air-source heat pump",
+     "une pompe à chaleur"
+    ],
+    [
+     "legally binding carbon budgets",
+     "des budgets carbone juridiquement contraignants"
+    ],
+    [
+     "draughty housing stock",
+     "un parc immobilier mal isolé (des passoires thermiques)"
+    ],
+    [
+     "to scale back funding",
+     "réduire / raboter les financements"
+    ],
+    [
+     "a fiscal trade-off",
+     "un arbitrage budgétaire"
+    ],
+    [
+     "the net zero transition",
+     "la transition vers la neutralité carbone"
+    ]
+   ],
+   "sujets": [
+    "Should governments slow down net zero policies during a cost-of-living crisis?",
+    "Why has Britain struggled to decarbonise its housing stock?"
+   ]
+  },
+  {
+   "id": "2026-11-01-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/2026/oct/31/keir-starmer-uk-europe-us-relationship-trump",
+   "minutes": 3,
+   "titre": "À Dublin, Keir Starmer appelle le Royaume-Uni à se rapprocher de l'Europe face au repli américain",
+   "faits": "Dans un discours remarqué devant la Chambre de commerce britannico-irlandaise à Dublin le 31 octobre, l'ancien Premier ministre travailliste Keir Starmer — qui a quitté Downing Street en juillet — a exhorté le Royaume-Uni et les pays européens à resserrer leurs liens. Selon lui, la prise de distance des États-Unis sous la présidence de Donald Trump n'est pas une parenthèse passagère mais un basculement durable : « les choses ne reviendront pas comme avant » après le départ de Trump de la Maison-Blanche, car Washington ne veut plus payer pour la sécurité du continent. Starmer estime que l'Europe s'est laissé surprendre deux fois par des réalités pourtant prévisibles : l'invasion russe de l'Ukraine, puis l'exigence américaine que les alliés financent leur propre défense. Il plaide pour un cadre européen de sécurité commun doublé d'un rapprochement économique avec le marché unique.",
+   "enjeux": "Cette intervention de l'ancien chef du gouvernement illustre la remise en question du dogme de la **relation spéciale** (*special relationship*) qui structure la politique étrangère britannique depuis 1945. Dix ans après le référendum sur le **Brexit** de 2016, le retour de l'**isolationnisme américain** et des menaces douanières de Washington place Londres dans un inconfort stratégique : trop éloigné de l'Union européenne pour peser pleinement à Bruxelles, mais incapable de compter aveuglément sur le parapluie américain. En parlant depuis Dublin, Keir Starmer pousse son successeur Andy Burnham à franchir les « lignes rouges » travaillistes qui excluaient jusqu'ici tout retour dans le marché unique ou l'union douanière. Le débat montre que la **sécurité européenne** et l'intégration économique sont désormais étroitement liées au Royaume-Uni.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Convention_Centre_Dublin_in_2019.jpg/1280px-The_Convention_Centre_Dublin_in_2019.jpg",
+    "alt": "Le Centre de conventions de Dublin, sur les quais de la Liffey en Irlande",
+    "credit": "Metro Centric / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Convention_Centre_Dublin_in_2019.jpg"
+   },
+   "vo": {
+    "titre": "In Dublin, Keir Starmer urges the UK to draw closer to Europe as the US steps back",
+    "faits": "In a high-profile speech to the British Irish Chamber of Commerce in Dublin on 31 October, former Labour Prime Minister Keir Starmer – who stepped down in July – urged the UK and European nations to forge much closer ties. He warned that the shift in relations with Washington under Donald Trump is permanent rather than a temporary aberration: \"things will not go back to the way they were\" once Trump leaves the Oval Office, because the US has made clear it will no longer bankroll European security. Starmer argued that Europe had twice been caught asleep by predictable geopolitical realities: first by Russia's invasion of Ukraine, and second by America's insistence that European allies shoulder their own defence burden. He called for a common European security framework alongside deeper economic alignment with the single market.",
+    "enjeux": "Starmer's intervention highlights a profound reassessment of the \"special relationship\" that has anchored British foreign policy since 1945. Ten years after the 2016 Brexit referendum, renewed American isolationism and tariff threats have left Britain in an awkward strategic bind: outside the European Union's decision-making rooms, yet unable to take the US security umbrella for granted. Speaking from Dublin, Starmer is nudging his successor, Andy Burnham, to move beyond Labour's self-imposed red lines that ruled out rejoining the single market or customs union. The speech shows how European defence cooperation and post-Brexit economic ties have become inseparable in British politics."
+   },
+   "vocab": [
+    [
+     "the special relationship",
+     "la « relation spéciale » entre Londres et Washington"
+    ],
+    [
+     "to bankroll European security",
+     "financer la sécurité européenne"
+    ],
+    [
+     "to shoulder the burden",
+     "assumer le fardeau / la charge"
+    ],
+    [
+     "the US security umbrella",
+     "le parapluie militaire américain"
+    ],
+    [
+     "the single market and customs union",
+     "le marché unique et l'union douanière"
+    ],
+    [
+     "a temporary aberration",
+     "une parenthèse / anomalie passagère"
+    ]
+   ],
+   "sujets": [
+    "Is the UK-US \"special relationship\" coming to an end?",
+    "Ten years after the referendum, is Brexit being quietly undone by geopolitical reality?"
+   ]
+  },
+  {
+   "id": "2026-11-01-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-10-30/el-euribor-no-da-tregua-cierra-octubre-en-el-3239-y-sigue-encareciendo-las-hipotecas.html",
+   "minutes": 3,
+   "titre": "L'Euribor clôture octobre à 3,239 % et continue de renchérir les prêts immobiliers en Espagne",
+   "faits": "Selon les données de fin de mois publiées le 30 octobre par El País, l'Euribor à douze mois — l'indice de référence de la majorité des prêts immobiliers à taux variable en Espagne — a terminé le mois d'octobre 2026 à 3,239 %. Si ce taux marque un très léger repli de huit millièmes de point par rapport à septembre (3,247 %) après trois mois de hausse consécutive, il reste à son niveau le plus élevé depuis plus de deux ans. Surtout, il demeure supérieur de plus d'un point à son niveau d'octobre 2025 (2,187 %), avant que le conflit au Moyen-Orient et le rebond de l'inflation énergétique ne poussent la BCE à relever ses taux à 2,50 %. Pour un ménage espagnol ayant un crédit variable moyen de 150 000 euros sur vingt-cinq ans révisé chaque année, cela représente un surcoût d'environ 80 à 90 euros par mois, soit près de 1 000 euros par an.",
+   "enjeux": "Cette tension sur l'Euribor illustre la rapidité du **canal de transmission de la politique monétaire** en Espagne : contrairement à la France où dominent les crédits à taux fixe, une part importante des ménages espagnols rembourse encore des **prêts hypothécaires à taux variable** (*hipotecas variables*), directement indexés sur les anticipations de taux de la BCE. Ce renchérissement du crédit s'ajoute à la flambée des loyers et des prix d'achat, aggravant la **crise de l'accès au logement** au cœur de la campagne pour les élections générales du 29 novembre. C'est aussi dans ce contexte monétaire tendu que l'ancien gouverneur de la Banque d'Espagne et actuel patron de la BRI, **Pablo Hernández de Cos**, soutenu à la fois par Pedro Sánchez et par Alberto Núñez Feijóo, fait figure de grand favori pour succéder à Christine Lagarde à la tête de la BCE en février 2027.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Basel_-_Bank_f%C3%BCr_internationalen_Zahlungsausgleich1.jpg/1280px-Basel_-_Bank_f%C3%BCr_internationalen_Zahlungsausgleich1.jpg",
+    "alt": "La tour de la Banque des règlements internationaux (BRI) à Bâle, dirigée par l'Espagnol Pablo Hernández de Cos",
+    "credit": "Taxiarchos228 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Basel_-_Bank_f%C3%BCr_internationalen_Zahlungsausgleich1.jpg"
+   },
+   "vo": {
+    "titre": "El euríbor cierra octubre en el 3,239 % y sigue encareciendo las hipotecas en España",
+    "faits": "Según los datos de cierre mensual publicados el 30 de octubre por El País, el euríbor a doce meses –el índice al que están referenciadas la mayoría de las hipotecas variables en España– terminó octubre de 2026 en el 3,239 %. Aunque esta media supone un levísimo descenso de ocho milésimas respecto a septiembre (3,247 %) tras tres meses seguidos de subidas, el indicador se mantiene en máximos de más de dos años. Sobre todo, supera en más de un punto porcentual el nivel de octubre de 2025 (2,187 %), antes de que el conflicto en Oriente Próximo y el repunte de la inflación energética llevaran al BCE a situar los tipos en el 2,50 %. Para una familia española con una hipoteca media de 150.000 euros a 25 años con revisión anual, esto se traduce en un encarecimiento de entre 80 y 90 euros al mes, unos 1.000 euros más al año.",
+    "enjeux": "Esta resistencia del euríbor por encima del 3 % muestra la rapidez con que se transmite la política monetaria en España: a diferencia de Francia, donde predominan los préstamos a tipo fijo, una parte muy importante de los hogares españoles sigue pagando hipotecas a tipo variable, directamente expuestas a las decisiones del BCE. El encarecimiento del crédito se suma a la escalada de los alquileres y del precio de compra, agravando la crisis de acceso a la vivienda en plena campaña para las elecciones generales del 29 de noviembre. En este complejo escenario monetario, el exgobernador del Banco de España y actual director general del BPI, Pablo Hernández de Cos –respaldado tanto por Pedro Sánchez como por Alberto Núñez Feijóo–, se perfila como uno de los grandes favoritos para suceder a Christine Lagarde al frente del BCE en febrero de 2027."
+   },
+   "vocab": [
+    [
+     "el euríbor a doce meses",
+     "l'Euribor à douze mois (taux interbancaire européen)"
+    ],
+    [
+     "una hipoteca a tipo variable / fijo",
+     "un prêt immobilier à taux variable / fixe"
+    ],
+    [
+     "la cuota hipotecaria",
+     "la mensualité de remboursement immobilier"
+    ],
+    [
+     "la revisión anual",
+     "la révision annuelle (du taux d'emprunt)"
+    ],
+    [
+     "los tipos de interés del BCE",
+     "les taux d'intérêt de la BCE"
+    ],
+    [
+     "el acceso a la vivienda",
+     "l'accès au logement"
+    ]
+   ],
+   "sujets": [
+    "¿Por qué el mercado hipotecario y de la vivienda es tan vulnerable a los tipos de interés en España?",
+    "¿Qué aportaría un presidente español al frente del Banco Central Europeo?"
+   ]
+  },
+  {
+   "id": "2026-11-01-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-01/la-banca-cobra-hasta-276-euros-al-ano-al-cliente-poco-vinculado-y-despistado.html",
+   "minutes": 3,
+   "titre": "Espagne : les banques facturent jusqu'à 276 euros de frais annuels aux clients les moins liés",
+   "faits": "Selon une étude de l'association d'usagers financiers Asufin publiée le 1er novembre par El País, les grandes banques traditionnelles espagnoles facturent jusqu'à 276 euros par an de commissions (tenue de compte courant et carte de débit) aux clients dits « peu liés ». CaixaBank et Cajamar arrivent en tête avec 276 euros annuels, devant Banco Santander et Banco Sabadell (240 euros), puis BBVA (195 euros). Ces frais frappent les clients qui ne domicilient pas un salaire suffisant, ne réalisent pas un nombre minimal d'achats par carte ou ne souscrivent pas de produits supplémentaires comme des assurances ou des fonds d'investissement. Un simple passage au chômage ou un départ à la retraite peut ainsi faire perdre la gratuité du compte. À l'inverse, les comptes purement en ligne restent gratuits, tandis que le « compte de paiement de base » plafonné par la loi à 36 euros par an (ou gratuit pour les personnes vulnérables) demeure très peu connu.",
+   "enjeux": "Cette tarification bancaire met en lumière une forme de **régressivité sociale** et de **fracture numérique** (*brecha digital*) en Espagne. Les ménages aisés ou les jeunes actifs familiers des banques en ligne échappent facilement aux commissions, tandis que les travailleurs précaires, les chômeurs et les personnes âgées attachées au guichet physique paient le prix fort. Depuis les fusions qui ont suivi la crise financière de 2008, le secteur bancaire espagnol présente une forte **concentration oligopolistique**, ce qui réduit la concurrence sur les tarifs de détail et a multiplié les **déserts bancaires** dans l'Espagne rurale (*la España vaciada*). Malgré les bénéfices records dégagés par les banques grâce à la hausse des taux, l'accès effectif aux services bancaires de base reste un sujet de tension sociale récurrent.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Building_Caixa_Bank_%287400315154%29.jpg/1280px-Building_Caixa_Bank_%287400315154%29.jpg",
+    "alt": "Le siège de CaixaBank sur l'avenue Diagonal à Barcelone",
+    "credit": "Oh-Barcelona.com / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Building_Caixa_Bank_(7400315154).jpg"
+   },
+   "vo": {
+    "titre": "España: la banca cobra hasta 276 euros al año en comisiones al cliente poco vinculado",
+    "faits": "Según un estudio de la asociación de usuarios financieros Asufin publicado el 1 de noviembre por El País, los grandes bancos tradicionales españoles cobran hasta 276 euros anuales en comisiones por el mantenimiento de la cuenta corriente y la tarjeta de débito a los clientes con menor vinculación. CaixaBank y Cajamar encabezan la clasificación con 276 euros al año, seguidos de Banco Santander y Banco Sabadell (240 euros) y BBVA (195 euros). Estas tarifas penalizan a quienes no domicilian una nómina mínima, no utilizan con suficiente frecuencia la tarjeta o no contratan productos adicionales como seguros o fondos de inversión, de modo que perder el empleo o jubilarse puede bastar para perder la bonificación. Mientras tanto, las cuentas exclusivamente digitales siguen siendo gratuitas y la «cuenta de pago básica» regulada por ley –con un tope de 36 euros anuales o gratuita para colectivos vulnerables– sigue siendo una gran desconocida.",
+    "enjeux": "Esta estructura de comisiones pone de relieve una doble desigualdad económica y digital en España. Los clientes con rentas estables o los jóvenes acostumbrados a la banca por internet esquivan fácilmente los cobros, mientras que los trabajadores precarios, los desempleados y las personas mayores que dependen de la sucursal física soportan los costes más altos. Tras la oleada de fusiones posterior a la crisis de 2008, el sector bancario español presenta una fuerte concentración oligopolística, lo que limita la competencia minorista y ha dejado sin oficinas a numerosos municipios de la España vaciada. Pese a los beneficios récord obtenidos por la banca con los tipos de interés altos, la exclusión financiera sigue siendo una asignatura pendiente."
+   },
+   "vocab": [
+    [
+     "las comisiones bancarias",
+     "les frais / commissions bancaires"
+    ],
+    [
+     "domiciliar la nómina",
+     "domicilier son salaire"
+    ],
+    [
+     "el cliente vinculado",
+     "le client multibancarisé / lié par plusieurs contrats"
+    ],
+    [
+     "la exclusión financiera",
+     "l'exclusion bancaire et financière"
+    ],
+    [
+     "la brecha digital",
+     "la fracture numérique"
+    ],
+    [
+     "la concentración bancaria",
+     "la concentration du secteur bancaire"
+    ]
+   ],
+   "sujets": [
+    "¿Ha provocado la digitalización y concentración de la banca una nueva forma de exclusión social en España?",
+    "¿Debe el Estado intervenir más para regular las comisiones y los servicios básicos de la banca?"
+   ]
+  },
+  {
+   "id": "2026-11-01-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/america/2026-10-30/el-gobernador-de-sao-paulo-emerge-como-figura-de-la-derecha-brasilena-tras-la-fuga-de-flavio-bolsonaro.html",
+   "minutes": 3,
+   "titre": "Brésil : après la fuite de Flávio Bolsonaro par l'Argentine, la droite se cherche un chef avec Tarcísio de Freitas",
+   "faits": "Battu au second tour de l'élection présidentielle brésilienne d'octobre 2026 par Luiz Inácio Lula da Silva, le candidat d'extrême droite Flávio Bolsonaro a fui le Brésil dans la nuit du 27 octobre malgré l'interdiction de quitter le territoire et la confiscation de son passeport ordonnées par la Cour suprême. Après avoir franchi le pont international Tancredo Neves vers l'Argentine, il s'est envolé en jet privé depuis Puerto Iguazú vers Miami, aux États-Unis. Le ministère brésilien des Affaires étrangères a convoqué le 30 octobre la représentante diplomatique de l'Argentine à Brasilia pour demander des explications au gouvernement de Javier Milei sur les facilités accordées à cette fuite. Ce départ précipité laisse le camp bolsonariste décapité et propulse au premier plan le gouverneur réélu de l'État de São Paulo, Tarcísio de Freitas, qui a reconnu la victoire de Lula.",
+   "enjeux": "Cet épisode ouvre une double crise diplomatique et politique en Amérique du Sud. Sur le plan régional, le passage de Flávio Bolsonaro par l'Argentine vers les États-Unis de Donald Trump illustre la constitution d'un **axe idéologique des droites radicales** américaines, prêt à contourner les décisions de la justice brésilienne et à tendre un peu plus les relations entre **Lula et Milei** au sein du Mercosur. Sur le plan intérieur brésilien, l'incarcération de Jair Bolsonaro pour tentative de coup d'État, suivie de la défaite et de la fuite de son fils aîné, marque l'essoufflement de la stratégie de confrontation permanente contre les **institutions démocratiques**. En s'appuyant sur le poids économique de São Paulo et sur le soutien des milieux d'affaires, **Tarcísio de Freitas** incarne la tentative d'institutionnaliser une droite conservatrice et libérale capable de tourner la page du bolsonarisme familial.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Pal%C3%A1cio_dos_Bandeirantes_Fotos_gerais_e_detalhes_do_Pal%C3%A1cio_dos_Bandeirantes._%2833638921998%29.jpg/1280px-Pal%C3%A1cio_dos_Bandeirantes_Fotos_gerais_e_detalhes_do_Pal%C3%A1cio_dos_Bandeirantes._%2833638921998%29.jpg",
+    "alt": "Le palais des Bandeirantes, siège du gouvernement de l'État de São Paulo au Brésil",
+    "credit": "Governo do Estado de São Paulo / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_dos_Bandeirantes_Fotos_gerais_e_detalhes_do_Pal%C3%A1cio_dos_Bandeirantes._(33638921998).jpg"
+   },
+   "vo": {
+    "titre": "Brasil: tras la fuga de Flávio Bolsonaro por Argentina, Tarcísio de Freitas emerge como líder de la derecha",
+    "faits": "Derrotado en la segunda vuelta de las elecciones presidenciales brasileñas de octubre de 2026 frente a Luiz Inácio Lula da Silva, el candidato ultraderechista Flávio Bolsonaro huyó de Brasil la noche del 27 de octubre pese a tener prohibida la salida del país y el pasaporte retenido por orden del Tribunal Supremo. Tras cruzar el puente internacional Tancredo Neves hacia Argentina, tomó un vuelo privado desde Puerto Iguazú con destino a Miami (Estados Unidos). El Ministerio de Exteriores brasileño convocó el 30 de octubre a la representante diplomática de Argentina en Brasilia para exigir explicaciones al Gobierno de Javier Milei por las facilidades prestadas en la huida. Esta marcha abrupta deja descabezado al bolsonarismo e impulsa al reelegido gobernador de São Paulo, Tarcísio de Freitas, que sí reconoció la victoria de Lula.",
+    "enjeux": "El episodio abre una doble fractura diplomática y política en Sudamérica. En el plano regional, el tránsito de Flávio Bolsonaro por la Argentina de Milei rumbo a los Estados Unidos de Donald Trump evidencia una red de alianzas ideológicas de la ultraderecha continental dispuesta a sortear órdenes judiciales nacionales, enfriando aún más la relación entre Brasilia y Buenos Aires dentro del Mercosur. En la política interna brasileña, con Jair Bolsonaro en prisión por golpismo y su hijo primogénito fugado tras perder las urnas, se agota la estrategia de choque frontal contra las instituciones democráticas. Respaldado por el poder económico de São Paulo y el empresariado, Tarcísio de Freitas representa el intento de construir una derecha conservadora más pragmática e institucional para la etapa posbolsonarista."
+   },
+   "vocab": [
+    [
+     "la segunda vuelta (el balotaje)",
+     "le second tour de l'élection présidentielle"
+    ],
+    [
+     "eludir la acción de la justicia",
+     "se soustraire à la justice"
+    ],
+    [
+     "convocar al embajador / representante diplomático",
+     "convoquer l'ambassadeur / le représentant diplomatique"
+    ],
+    [
+     "dejar descabezado un movimiento",
+     "laisser un mouvement décapité (sans chef)"
+    ],
+    [
+     "el empresariado / la élite económica",
+     "le patronat / les milieux d'affaires"
+    ],
+    [
+     "la derecha institucional",
+     "la droite républicaine / respectueuse des institutions"
+    ]
+   ],
+   "sujets": [
+    "¿Puede la derecha brasileña reinventarse sin el apellido Bolsonaro?",
+    "¿Cómo influyen las afinidades ideológicas de los gobiernos en las relaciones diplomáticas de América Latina?"
+   ]
+  },
+  {
+   "id": "2026-11-01-allemand-1",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/unternehmen/ueberlastetes-netz-bahn-erwaegt-reduzierung-des-zugverkehrs-fuer-mehr-puenktlichkeit-a-9bfc605e-c05d-4cfd-af52-2a7cbe8f6d46",
+   "minutes": 3,
+   "titre": "Réseau saturé : la Deutsche Bahn envisage de réduire le nombre de trains pour améliorer sa ponctualité",
+   "faits": "Confrontée à des retards chroniques, la compagnie ferroviaire publique allemande Deutsche Bahn (et sa filiale d'infrastructure DB InfraGO) met en place le 3 novembre une commission d'experts indépendante baptisée « Horaire robuste » (Robuster Fahrplan), épaulée par le cabinet suisse spécialisé SMA. Selon les informations publiées fin octobre par le Spiegel, cette commission doit évaluer la capacité réelle d'un réseau ferré vétuste où plus de 10 % des trains circulaient en 2025 sur des tronçons déclarés en surcharge extrême. L'ancien délégué fédéral au rail Enak Ferlemann, membre de la commission, résume le diagnostic sans détour : « Au vu de l'état du réseau, il y a beaucoup trop de trains qui roulent sur nos voies ». Pour créer des marges de sécurité et éviter qu'un incident ne paralyse tout le pays, la Bahn envisage désormais de supprimer des liaisons, par exemple en passant d'une cadence de trente minutes à une heure sur certains grands axes comme Berlin-Hambourg.",
+   "enjeux": "Ce constat d'aveu d'impuissance symbolise la dégradation des **infrastructures publiques** allemandes après des décennies de sous-investissement liées à l'orthodoxie budgétaire et au **frein à l'endettement** (*Schuldenbremse*). Alors que le pays s'était fixé pour objectif politique de doubler le trafic ferroviaire voyageurs d'ici 2030 afin de réussir la **transition écologique des transports** (*Verkehrswende*), l'état physique des rails, des aiguillages et des ponts oblige au contraire à rationner l'offre. Le paradoxe est que les grands chantiers de rénovation par corridors lancés par Berlin et financés par le nouveau fonds spécial de 500 milliards d'euros réduisent encore davantage la capacité disponible à court terme. La crise de la Deutsche Bahn est ainsi devenue le symbole d'un **Standort Deutschland** qui peine à entretenir ses réseaux de base.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg/1280px-DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg",
+    "alt": "Un train à grande vitesse ICE de la Deutsche Bahn en gare centrale de Munich",
+    "credit": "Julian Herzog / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg"
+   },
+   "vo": {
+    "titre": "Überlastetes Netz: Deutsche Bahn erwägt Reduzierung des Zugverkehrs für mehr Pünktlichkeit",
+    "faits": "Angesichts chronischer Verspätungen setzt die Deutsche Bahn (beziehungsweise ihre Infrastrukturtochter DB InfraGO) zum 3. November eine unabhängige Expertenkommission namens „Robuster Fahrplan“ ein, unterstützt vom spezialisierten Schweizer Beratungsunternehmen SMA. Wie der Spiegel Ende Oktober berichtete, soll das Gremium ermitteln, wie viel Verkehr das marode deutsche Schienennetz im aktuellen Zustand überhaupt noch verträgt, nachdem 2025 mehr als zehn Prozent aller Züge auf als überlastet geltenden Strecken fuhren. Der frühere Bahnbeauftragte der Bundesregierung und Kommissionsmitglied Enak Ferlemann brachte die Diagnose auf den Punkt: „Angesichts des Zustands fahren auf unseren Gleisen viel zu viele Züge.“ Um Zeitpuffer zu schaffen und Kettenreaktionen bei Störungen zu verhindern, erwägt die Bahn nun eine Ausdünnung des Angebots – etwa auf Hauptachsen wie Berlin–Hamburg statt eines Halbstundentakts nur noch einen Einstundentakt anzubieten.",
+    "enjeux": "Dieses Eingeständnis steht exemplarisch für den Verschleiß der öffentlichen Infrastruktur in Deutschland nach Jahrzehnten zu geringer Investitionen im Zeichen der schwarzen Null und der Schuldenbremse. Während die Politik das Ziel ausgegeben hatte, die Zahl der Bahnreisenden bis 2030 für die Verkehrswende zu verdoppeln, zwingt der reale Zustand von Gleisen, Weichen und Stellwerken nun im Gegenteil zu einer Verknappung des Angebots. Erschwerend kommt hinzu, dass die dringend notwendigen Korridorsanierungen, die aus dem neuen 500-Milliarden-Euro-Sondervermögen finanziert werden, die Netzkapazität auf Jahre hinaus weiter einschränken. Die Dauerkrise der Deutschen Bahn ist damit zum Sinnbild eines Wirtschaftsstandorts geworden, dessen Grundinfrastruktur an ihre Belastungsgrenze stößt."
+   },
+   "vocab": [
+    [
+     "das marode Schienennetz",
+     "le réseau ferroviaire vétuste / délabré"
+    ],
+    [
+     "die Überlastung",
+     "la surcharge / la saturation"
+    ],
+    [
+     "den Takt / das Angebot ausdünnen",
+     "réduire la fréquence / l'offre de transport"
+    ],
+    [
+     "die Verkehrswende",
+     "la transition écologique des transports"
+    ],
+    [
+     "der Investitionsstau",
+     "le retard accumulé d'investissement"
+    ],
+    [
+     "die Korridorsanierung",
+     "la rénovation complète des grands axes ferroviaires"
+    ]
+   ],
+   "sujets": [
+    "Scheitert die deutsche Verkehrswende an der maroden Infrastruktur?",
+    "Wie konnte das einstige Vorzeigemodell der deutschen Infrastruktur in eine solche Krise geraten?"
+   ]
+  },
+  {
+   "id": "2026-11-01-allemand-2",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/politik/deutschland/2026-10/cdu-unzufriedenheit-basis-austritte-friedrich-merz-gxe",
+   "minutes": 3,
+   "titre": "Fronde à la base de la CDU : des présidents de fédération suggèrent à Friedrich Merz de lâcher la tête du parti",
+   "faits": "À la veille d'une réunion des responsables locaux avec le chancelier et président de la CDU Friedrich Merz à Berlin, plusieurs chefs de fédérations d'arrondissement (Kreisvorsitzende), notamment dans le Brandebourg, ont exprimé le 31 octobre dans Die Zeit un profond mécontentement de la base militante. Ils attribuent une vague actuelle de démissions d'adhérents aux compromis et aux renoncements du gouvernement fédéral. La présidente de la CDU de Francfort-sur-l'Oder, Désirée Schrade, estime que le voyant d'alerte est « rouge foncé » et remet ouvertement en question le cumul par Friedrich Merz de la chancellerie et de la présidence du parti. De son côté, le responsable de Potsdam-Mittelmark, Christian Große, avertit qu'en ne tenant pas ses promesses, la CDU « ouvre la voie aux populistes » dans les Länder de l'Est.",
+   "enjeux": "Cette fronde interne éclaire le dilemme structurel de la CDU depuis son retour au pouvoir en grande coalition avec le SPD. Pour gouverner au centre et faire voter ses budgets avec les sociaux-démocrates, Friedrich Merz a dû assouplir le frein à l'endettement et édulcorer plusieurs promesses sur les baisses d'impôts ou la maîtrise de l'immigration, ce qui déçoit l'électorat conservateur traditionnel. Dans les Länder d'Allemagne de l'Est comme le Brandebourg, où l'**AfD** domine largement les sondages pendant que la CDU patine sous les 20 % au niveau fédéral, les élus locaux craignent un effondrement durable des **partis populaires traditionnels** (*Volksparteien*). Le débat sur la séparation entre la **chancellerie** (*Kanzleramt*) et la **présidence du parti** (*Parteivorsitz*) rappelle aussi le précédent d'Angela Merkel en 2018 : lorsqu'une coalition s'use, le parti cherche à retrouver un profil idéologique distinct de l'action gouvernementale.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Berlin_Konrad-Adenauer-Haus-20241207-RM-102533.jpg/1280px-Berlin_Konrad-Adenauer-Haus-20241207-RM-102533.jpg",
+    "alt": "La Konrad-Adenauer-Haus à Berlin, siège fédéral de la CDU",
+    "credit": "Reinhold Möller (Ermell) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Berlin_Konrad-Adenauer-Haus-20241207-RM-102533.jpg"
+   },
+   "vo": {
+    "titre": "Unmut an der CDU-Basis: Kreischefs bringen Trennung von Kanzleramt und Parteivorsitz bei Merz ins Spiel",
+    "faits": "Vor einem Treffen der Kreisvorsitzenden mit Bundeskanzler und CDU-Chef Friedrich Merz in Berlin haben mehrere Kommunalpolitiker der Partei, insbesondere aus Brandenburg, am 31. Oktober in der Zeit massive Kritik am Kurs der Bundesregierung geäußert. Sie machen die Kompromisse der schwarz-roten Koalition für eine spürbare Welle von Parteiaustritten an der Basis verantwortlich. Die Vorsitzende des Kreisverbands Frankfurt (Oder), Désirée Schrade, sprach von einer „dunkelroten“ Alarmlampe und stellte angesichts der Doppelbelastung offen infrage, ob Kanzleramt und Parteivorsitz weiterhin in einer Hand liegen sollten. Der Kreischef von Potsdam-Mittelmark, Christian Große, warnte zugleich, durch mangelndes politisches Liefern mache die Union im Osten „den Populisten den Weg frei“.",
+    "enjeux": "Der offene Unmut beleuchtet das strukturelle Dilemma der CDU seit ihrer Rückkehr an die Regierung in einer großen Koalition mit der SPD. Um mit den Sozialdemokraten regieren zu können, musste Friedrich Merz die Schuldenbremse lockern und zentrale Wahlversprechen bei Steuersenkungen, Bürokratieabbau und Migration abschwächen – was Stammwähler und Parteimitglieder enttäuscht. Gerade in ostdeutschen Ländern wie Brandenburg, wo die AfD die Umfragen klar anführt, während die Union bundesweit unter 20 Prozent verharrt, fürchten Kommunalpolitiker eine dauerhafte Erosion der letzten großen Volkspartei. Die Debatte über eine Trennung von Kanzleramt und Parteivorsitz erinnert zudem an Angela Merkels Rückzug vom CDU-Vorsitz 2018: Wenn eine Koalition an Rückhalt verliert, verlangt die Partei nach einem eigenständigen Profil."
+   },
+   "vocab": [
+    [
+     "die Parteibasis",
+     "la base militante du parti"
+    ],
+    [
+     "der Parteiaustritt",
+     "la démission d'un parti / le rendu de carte"
+    ],
+    [
+     "die Trennung von Kanzleramt und Parteivorsitz",
+     "la séparation entre la chancellerie et la présidence du parti"
+    ],
+    [
+     "der Kreisverband",
+     "la fédération locale (d'arrondissement) d'un parti"
+    ],
+    [
+     "die Volkspartei",
+     "le grand parti populaire de rassemblement"
+    ],
+    [
+     "Wahlversprechen einlösen / brechen",
+     "tenir / rompre ses promesses électorales"
+    ]
+   ],
+   "sujets": [
+    "Verlieren die traditionellen Volksparteien in Deutschland endgültig ihre Bindungskraft?",
+    "Zwingen Koalitionsregierungen Parteien zwangsläufig zur Verwässerung ihres Profils?"
+   ]
+  },
+  {
+   "id": "2026-11-01-allemand-3",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/unterhaltsvorschuss-bundesfamilienministerin-will-nachverhandeln-a-10ddf2c5-b6d1-4bc7-90b3-d732572a6ad1",
+   "minutes": 3,
+   "titre": "Familles monoparentales : face au tollé, la ministre Karin Prien veut renégocier la coupe sur les pensions alimentaires",
+   "faits": "Sous le feu des critiques des associations caritatives, des Länder et d'une partie du SPD, la ministre fédérale de la Famille Karin Prien (CDU) a annoncé le 30 octobre vouloir renégocier la suppression prévue de l'avance publique sur pension alimentaire (Unterhaltsvorschuss) pour les jeunes de 16 et 17 ans. Dans le cadre des économies du budget fédéral 2027, son ministère avait proposé cet été d'arrêter le versement de cette aide dès le seizième anniversaire de l'enfant, au lieu de dix-huit ans aujourd'hui. Cette prestation est versée par l'État aux parents isolés — des mères dans la grande majorité des cas — lorsque l'autre parent ne paie pas la pension alimentaire due, et concerne entre 80 000 et plus de 100 000 adolescents en Allemagne. Karin Prien reconnaît désormais qu'il est « difficilement défendable » de faire des économies sur cette aide au regard des autres dépenses de l'État.",
+   "enjeux": "Ce recul gouvernemental met en lumière la question de la **pauvreté des enfants** (*Kinderarmut*) et de la vulnérabilité des **familles monoparentales** (*Alleinerziehende*) dans l'une des plus riches économies du monde. En Allemagne, plus de 40 % des foyers monoparentaux sont exposés au risque de pauvreté, car le manque de places de garde à temps plein et la fiscalité du couple marié (*Ehegattensplitting*) pénalisent structurellement les mères seules. Couper l'avance sur pension alimentaire à 16 ans, au moment précis où les adolescents terminent leur scolarité ou débutent un apprentissage, revenait à faire porter l'effort de **consolidation budgétaire** sur les ménages les plus fragiles, d'autant que l'État ne parvient à récupérer auprès des parents défaillants qu'environ un cinquième des sommes avancées. Ce débat illustre les limites politiques d'une rigueur budgétaire qui touche au cœur de l'**État social** (*Sozialstaat*).",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Berlin_-_Eckhaus_Unter_den_Linden_-_Glinkastra%C3%9Fe.jpg/1280px-Berlin_-_Eckhaus_Unter_den_Linden_-_Glinkastra%C3%9Fe.jpg",
+    "alt": "L'angle d'Unter den Linden et de la Glinkastraße à Berlin, quartier du ministère fédéral de la Famille",
+    "credit": "Taxiarchos228 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Berlin_-_Eckhaus_Unter_den_Linden_-_Glinkastra%C3%9Fe.jpg"
+   },
+   "vo": {
+    "titre": "Alleinerziehende: Nach heftiger Kritik will Familienministerin Karin Prien beim Unterhaltsvorschuss nachverhandeln",
+    "faits": "Nach massivem Widerstand von Sozialverbänden, Bundesländern und Teilen der SPD hat Bundesfamilienministerin Karin Prien (CDU) am 30. Oktober angekündigt, über die geplante Kürzung beim Unterhaltsvorschuss für 16- und 17-Jährige im Bundestag noch einmal nachzuverhandeln. Im Zuge der Sparvorgaben für den Bundeshaushalt 2027 hatte ihr Haus im Sommer vorgeschlagen, die staatliche Leistung künftig mit dem 16. statt wie bisher mit dem 18. Geburtstag enden zu lassen. Der Unterhaltsvorschuss springt ein, wenn der getrennt lebende Elternteil seinen Unterhaltspflichten nicht nachkommt, und unterstützt bundesweit zwischen 80.000 und mehr als 100.000 ältere Jugendliche – überwiegend bei alleinerziehenden Müttern. Prien räumte nun ein, es sei angesichts anderer Staatsausgaben „kaum vermittelbar“, ausgerechnet an dieser Stelle zu kürzen.",
+    "enjeux": "Die Kehrtwende wirft ein Schlaglicht auf das Problem der Kinderarmut und die prekäre Lage von Alleinerziehenden in einer der wohlhabendsten Volkswirtschaften der Welt. In Deutschland gelten über 40 Prozent der Ein-Eltern-Familien als armutsgefährdet, weil fehlende Ganztagsbetreuung und das steuerliche Ehegattensplitting Alleinerziehende strukturell benachteiligen. Den Vorschuss gerade bei 16- und 17-Jährigen kurz vor dem Schulabschluss oder Ausbildungsbeginn zu streichen, hätte die Last der Haushaltskonsolidierung auf besonders verletzliche Haushalte abgewälzt – zumal es dem Staat bislang nur bei rund einem Fünftel der Summe gelingt, das Geld von säumigen Unterhaltspflichtigen zurückzuholen. Der Streit zeigt, wie schnell Sparmaßnahmen am Sozialstaat an politische Grenzen stoßen."
+   },
+   "vocab": [
+    [
+     "der Unterhaltsvorschuss",
+     "l'avance publique sur pension alimentaire"
+    ],
+    [
+     "Alleinerziehende (Pl.)",
+     "les parents isolés / familles monoparentales"
+    ],
+    [
+     "armutsgefährdet",
+     "exposé au risque de pauvreté"
+    ],
+    [
+     "die Kinderarmut",
+     "la pauvreté des enfants"
+    ],
+    [
+     "seinen Unterhaltspflichten nachkommen",
+     "s'acquitter de son obligation de pension alimentaire"
+    ],
+    [
+     "am Sozialstaat sparen",
+     "faire des économies sur l'État-providence"
+    ]
+   ],
+   "sujets": [
+    "Kinderarmut in einem reichen Land: Warum sind Alleinerziehende in Deutschland so stark benachteiligt?",
+    "Darf die Haushaltskonsolidierung auf Kosten von Familien- und Sozialleistungen gehen?"
+   ]
+  }
+ ]
+}
