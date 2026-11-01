@@ -1,12 +1,12 @@
 # Press'ing — consignes pour rédiger l'édition du jour
 
-Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante en 2e année de prépa ECG (voie ESH), qui prépare les concours BCE et Ecricome. Le site lit des fichiers JSON : tu ne touches **jamais** à `index.html` ni à `data/referentiel.json`. Tu parles à Alicia en français.
+Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante en 2e année de prépa ECG (voie ESH), qui prépare les concours BCE et Ecricome. Le site lit des fichiers JSON : tu ne touches **jamais** à `index.html`. Dans `data/referentiel.json`, tu peux seulement **ajouter** des fiches : tu ne modifies ni ne supprimes jamais celles qui existent. Tu parles à Alicia en français.
 
 ## Étapes, dans l'ordre
 
 1. Note la date du jour (heure de Paris) au format `AAAA-MM-JJ`. Si `data/editions/<date>.json` existe déjà, arrête-toi et dis-le.
 2. Lis `data/index.json`, puis les deux dernières éditions de `data/editions/`. Elles servent de **modèle de style et de longueur**, et leurs sujets ne doivent pas être repris.
-3. Lis la liste des identifiants de fiches dans `data/referentiel.json` (champ `id` de chaque élément de `fiches`).
+3. Lis `data/referentiel.json` : la liste des fiches (`id`, `nom`, `auteur`) et une fiche entière, `avantages-comparatifs`, qui sert de modèle.
 4. Cherche sur le web l'actualité **des dernières 48 heures**, puis choisis 3 actus par matière (la première est l'actu principale) :
    - **esh** : économie française, européenne ou mondiale, et faits sociaux. Il faut qu'on puisse s'en servir dans une dissertation d'ESH.
    - **anglais** : Royaume-Uni et États-Unis (politique, société, économie).
@@ -16,9 +16,10 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    Privilégie les sujets qui tombent au concours : institutions, politique économique, inégalités, élections, mondialisation, Europe, transition écologique. Évite les faits divers sans portée.
 5. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
 6. Écris `data/editions/<date>.json` (format ci-dessous), avec les 12 cartes dans l'ordre esh, anglais, espagnol, allemand.
-7. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
-8. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
-9. Termine par un message très court à Alicia : les 12 titres, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+7. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche, **ajoute une fiche** à la fin de la liste `fiches` de `data/referentiel.json` (voir « Fiches du référentiel » ci-dessous), puis mets son `id` dans le `ref` de l'auteur.
+8. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
+9. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
+10. Termine par un message très court à Alicia : les 12 titres, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
 
 ## Sources autorisées
 
@@ -66,13 +67,43 @@ Chaque carte a un champ `image` :
 - `auteurs` : 2 auteurs, chacun avec `nom`, `ouvrage` (titre français s'il existe), `annee`, `ref` et `texte`.
   - `texte` : 3 ou 4 phrases. Dis ce que soutient la théorie, **ce qu'elle permet de montrer sur cette actu**, et dans quel type de sujet la mobiliser. Les concepts clés vont en `**gras**`. C'est la partie la plus importante : Alicia ne voit pas toujours à quoi sert une théorie.
   - Idéalement, choisis un auteur qui va dans le sens de l'actu et un qui nuance ou s'y oppose.
-  - `ref` : l'identifiant d'une fiche du référentiel si la théorie correspond exactement, sinon `null`.
+  - `ref` : **obligatoire**, l'identifiant de la fiche du référentiel qui correspond à la théorie mobilisée. Si elle n'existe pas encore, tu la crées (étape 7). Ne crée pas de doublon : si une fiche traite déjà la même théorie, utilise-la.
 - Pas de `vo` ni de `vocab`.
 
 ### Cartes de langue (en plus)
 - `vo` : `titre`, `faits` et `enjeux` traduits en anglais, espagnol ou allemand, niveau C1, naturels et idiomatiques.
 - `vocab` : 6 paires `["mot ou expression en langue étrangère", "traduction française"]`, utiles pour un essai.
 - Pas de `programme` ni d'`auteurs`.
+
+## Fiches du référentiel
+
+Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Destruction créatrice », pas « Schumpeter ». Elle doit être aussi précise qu'une fiche PeakNews et se suffire à elle-même pour une dissertation. Le modèle est la fiche `avantages-comparatifs` : même longueur, même niveau.
+
+```json
+{
+ "id": "destruction-creatrice", "nom": "Destruction créatrice", "categorie": "croissance",
+ "type": "Théorie", "annee": "1942", "auteur": "Joseph Schumpeter",
+ "accroche": "Une phrase qui résume l'idée.",
+ "blocs": [
+  {"titre": "D'où ça vient", "type": "texte", "paras": ["…", "…"]},
+  {"titre": "Le mécanisme", "type": "etapes", "items": ["…", "…", "…"]},
+  {"titre": "Ce que ça permet de montrer", "type": "texte", "paras": ["…"]},
+  {"titre": "Les prolongements à connaître", "type": "cartes", "items": [{"t": "…", "d": "…"}]},
+  {"titre": "Ce que ça ne dit pas", "type": "texte", "paras": ["…"]},
+  {"titre": "Où l'utiliser", "type": "cartes", "items": [{"t": "…", "d": "…"}]},
+  {"titre": "Dialogue", "type": "liens", "items": [{"sens": "=", "nom": "…", "idee": "…"}, {"sens": "≠", "nom": "…", "idee": "…"}]}
+ ]
+}
+```
+
+- `id` : en minuscules, sans accents, mots séparés par des tirets.
+- `categorie` : l'une de `fondamentaux`, `commerce`, `croissance`, `politiques`, `monnaie`, `societe`.
+- `type` : « Théorie », « Notion », « Modèle », « Effet » ou « Loi ».
+- Les 7 blocs ci-dessus, dans cet ordre. Les types de bloc possibles : `texte` (`paras`), `cartes` (`items` avec `t` et `d`), `etapes` (`items`, liste de phrases), `liens` (`items` avec `sens`, `nom`, `idee`).
+- **« Ce que ça permet de montrer »** est le bloc le plus important : à quoi sert la théorie dans une dissertation, ce qu'elle prouve. Alicia ne voit pas toujours à quoi sert une théorie.
+- **« Où l'utiliser »** : 3 exemples d'actualité ou d'histoire économique où la mobiliser.
+- **« Dialogue »** : 3 ou 4 auteurs ou notions liés, marqués `=` (va dans le même sens) ou `≠` (va contre ou nuance), avec leur idée en quelques mots.
+- Concepts clés en `**gras**`, titres d'ouvrages en `*italique*`, titres en français quand une traduction existe. **Exactitude avant tout** : aucune date, aucun titre, aucun chiffre dont tu n'es pas sûr.
 
 ## Format du fichier
 

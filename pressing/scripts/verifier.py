@@ -75,7 +75,34 @@ try:
 except json.JSONDecodeError as e:
     sys.exit(f"JSON invalide dans {path.name} : {e}")
 
-ref_ids = {f["id"] for f in json.loads((DATA / "referentiel.json").read_text(encoding="utf-8"))["fiches"]}
+try:
+    REF = json.loads((DATA / "referentiel.json").read_text(encoding="utf-8"))
+except json.JSONDecodeError as e:
+    sys.exit(f"JSON invalide dans data/referentiel.json : {e}")
+ref_ids = set()
+cat_ids = {c["id"] for c in REF.get("categories", [])}
+for f in REF.get("fiches", []):
+    fid = f.get("id", "?")
+    if fid in ref_ids:
+        errors.append(f"référentiel : fiche {fid} en double")
+    ref_ids.add(fid)
+    for k in ("nom", "categorie", "type", "annee", "auteur", "accroche", "blocs"):
+        if not f.get(k):
+            errors.append(f"référentiel : fiche {fid} sans {k}")
+    if f.get("categorie") and f["categorie"] not in cat_ids:
+        errors.append(f"référentiel : fiche {fid}, catégorie {f['categorie']!r} inconnue ({', '.join(sorted(cat_ids))})")
+    for b in f.get("blocs", []):
+        t = b.get("type")
+        if t == "texte" and not b.get("paras"):
+            errors.append(f"référentiel : fiche {fid}, bloc « {b.get('titre')} » sans paras")
+        elif t in ("cartes", "etapes", "liens") and not b.get("items"):
+            errors.append(f"référentiel : fiche {fid}, bloc « {b.get('titre')} » sans items")
+        elif t == "cartes" and any(not i.get("t") or not i.get("d") for i in b["items"]):
+            errors.append(f"référentiel : fiche {fid}, bloc « {b.get('titre')} » : chaque carte a besoin de t et d")
+        elif t == "liens" and any(not i.get("sens") or not i.get("nom") or not i.get("idee") for i in b["items"]):
+            errors.append(f"référentiel : fiche {fid}, bloc « {b.get('titre')} » : chaque lien a besoin de sens, nom et idee")
+        elif t not in ("texte", "cartes", "etapes", "liens"):
+            errors.append(f"référentiel : fiche {fid}, type de bloc {t!r} inconnu")
 cards = ed.get("cards", [])
 
 if ed.get("date") != date:
@@ -131,8 +158,10 @@ for c in cards:
             for k in ("nom", "ouvrage", "annee", "texte"):
                 if not a.get(k):
                     errors.append(f"{cid} : auteur {a.get('nom', '?')} sans {k}")
-            if a.get("ref") and a["ref"] not in ref_ids:
-                errors.append(f"{cid} : ref {a['ref']!r} absente du référentiel (mets null)")
+            if not a.get("ref"):
+                errors.append(f"{cid} : auteur {a.get('nom', '?')} sans ref — crée sa fiche dans le référentiel")
+            elif a["ref"] not in ref_ids:
+                errors.append(f"{cid} : ref {a['ref']!r} absente du référentiel — crée la fiche")
     elif c.get("matiere") in MATS:
         vo = c.get("vo") or {}
         for k in ("titre", "faits", "enjeux"):
