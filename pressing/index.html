@@ -5,6 +5,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..700&display=swap">
 <style>
+/* Accès par code */
+html:not(.unlocked) body > *:not(#gate) { visibility: hidden; }
+html.unlocked #gate { display: none; }
+#gate { position: fixed; inset: 0; z-index: 100; visibility: visible; display: flex; align-items: center; justify-content: center; padding: 24px 16px; background: var(--bg); color: var(--fg); font-family: var(--font); }
+#gate form { width: 100%; max-width: 340px; display: flex; flex-direction: column; gap: 14px; text-align: center; }
+#gate .g-brand { font-size: 28px; letter-spacing: 0.18em; font-weight: 600; margin: 0 0 6px; }
+#gate .g-label { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+#gate input { font: inherit; font-size: 16px; padding: 14px 12px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); text-align: center; border-radius: 0; }
+#gate input:focus { outline: none; border-color: var(--fg); }
+#gate button { font: inherit; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; padding: 15px; border: 0; background: var(--invert-bg); color: var(--invert-fg); cursor: pointer; }
+#gate .g-err { min-height: 1.2em; font-size: 13px; color: var(--muted); margin: 0; }
 /* Boutique de mode épurée : noir et blanc, petites capitales espacées, colonnes étroites et beaucoup d'air */
 :root {
   --bg: #ffffff;
@@ -226,6 +237,26 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 }
 @media (prefers-reduced-motion: reduce) { .choice { transition: none; } }
 </style>
+<div id="gate"><form autocomplete="off"><p class="g-brand">PRESS'ING</p><label class="g-label" for="g-code">Code d'accès</label><input id="g-code" type="password" required><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
+<script>
+(function () {
+  var HASH = "d951499840a268ed25a0fddfa68b2c974e971b6a925b5298a39266e211a2df91"; /* empreinte du code d'accès : demande à Claude pour le changer */
+  var KEY = "pressing-acces";
+  function ok() { document.documentElement.classList.add("unlocked"); }
+  try { if (localStorage.getItem(KEY) === HASH) ok(); } catch (e) {}
+  function sha(t) { return crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)).then(function (b) { return Array.from(new Uint8Array(b)).map(function (x) { return x.toString(16).padStart(2, "0"); }).join(""); }); }
+  var f = document.querySelector("#gate form"), i = document.getElementById("g-code"), err = document.getElementById("g-err");
+  if (!document.documentElement.classList.contains("unlocked")) i.focus();
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    sha(i.value.trim().toLowerCase()).then(function (h) {
+      if (h === HASH) { try { localStorage.setItem(KEY, HASH); } catch (e) {} ok(); }
+      else { err.textContent = "Code incorrect."; i.select(); }
+    });
+  });
+})();
+</script>
+
 
 <header class="top">
   <div class="wrap">
