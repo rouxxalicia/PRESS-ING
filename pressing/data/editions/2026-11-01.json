@@ -32,7 +32,7 @@
      "nom": "Robert Solow",
      "ouvrage": "« We'd Better Watch Out »",
      "annee": "1987",
-     "ref": null,
+     "ref": "paradoxe-de-solow",
      "texte": "Solow résume le décalage entre l'essor de l'informatique et la croissance par une formule célèbre : « On voit les ordinateurs partout, sauf dans les statistiques de la productivité ». Ce **paradoxe de Solow** s'explique par le délai nécessaire pour réorganiser les entreprises et former les travailleurs autour d'une **grappe d'innovations**. À mobiliser pour nuancer l'idée que les investissements massifs dans l'IA génèrent immédiatement de la croissance et des profits."
     }
    ],
@@ -65,14 +65,14 @@
      "nom": "Ronald Coase",
      "ouvrage": "« The Nature of the Firm »",
      "annee": "1937",
-     "ref": null,
+     "ref": "couts-de-transaction",
      "texte": "Coase explique que les entreprises choisissent entre faire elles-mêmes ou passer par le marché en comparant les **coûts de transaction** aux coûts d'organisation interne. Dans une industrie chimique frappée par la hausse des coûts de l'énergie, fusionner permettrait à BASF d'internaliser des activités complémentaires à forte valeur ajoutée, mais au risque d'alourdir la gestion d'un conglomérat géant. À mobiliser dans un sujet sur la taille des firmes et les stratégies de fusion-acquisition."
     },
     {
      "nom": "Michael Porter",
      "ouvrage": "L'Avantage concurrentiel des nations",
      "annee": "1990",
-     "ref": null,
+     "ref": "competitivite-porter",
      "texte": "Porter distingue la **compétitivité-prix** de la **compétitivité hors-prix**, fondée sur la différenciation, la qualité et l'innovation. Alors que l'Allemagne ne peut plus rivaliser sur les coûts énergétiques avec les États-Unis ou le Moyen-Orient dans la chimie de base, la chimie de spécialités d'Evonik incarne cette montée en gamme qui protège les marges. À mobiliser pour expliquer comment l'industrie européenne cherche à survivre à la perte de ses avantages de coûts."
     }
    ],
@@ -105,14 +105,14 @@
      "nom": "Franco Modigliani",
      "ouvrage": "« Utility Analysis and the Consumption Function »",
      "annee": "1954",
-     "ref": null,
+     "ref": "cycle-de-vie",
      "texte": "Selon la théorie du **cycle de vie** de Modigliani, les individus lissent leur consommation tout au long de leur existence : ils s'endettent puis épargnent durant leur vie active afin de se constituer un patrimoine et de financer leur retraite. Le phénomène de *doomspending* met en échec ce modèle rationnel : quand le prix de l'immobilier devient inatteignable, les jeunes renoncent à l'effort d'épargne de long terme. À mobiliser dans tout sujet sur les déterminants de la consommation et de l'épargne."
     },
     {
      "nom": "Karl Polanyi",
      "ouvrage": "La Grande Transformation",
      "annee": "1944",
-     "ref": null,
+     "ref": "encastrement-polanyi",
      "texte": "Polanyi distingue trois formes d'intégration économique : la **réciprocité** (le don), la **redistribution** et l'**échange marchand**, et montre comment le capitalisme tend à **marchandiser** des sphères sociales qui échappaient jusque-là aux prix. Le basculement du don de vêtements aux *charity shops* vers la revente individuelle sur Vinted illustre ce recul de la réciprocité au profit du marché. À mobiliser pour analyser les effets sociaux de la numérisation et de la baisse du pouvoir d'achat."
     }
    ],

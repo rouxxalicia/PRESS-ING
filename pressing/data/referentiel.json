@@ -1125,6 +1125,466 @@
      ]
     }
    ]
+  },
+  {
+   "id": "paradoxe-de-solow",
+   "nom": "Paradoxe de Solow",
+   "categorie": "croissance",
+   "type": "Notion",
+   "annee": "1987",
+   "auteur": "Robert Solow",
+   "accroche": "« On voit les ordinateurs partout, sauf dans les statistiques de la productivité » : une grande innovation met des décennies à transformer la croissance.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Robert Solow**, « We'd Better Watch Out », *New York Times Book Review* (12 juillet 1987). Prix Nobel d'économie la même année pour son modèle de **croissance exogène** (1956), Solow y mesure déjà le progrès technique par le « **résidu de Solow** » (la **productivité globale des facteurs**, PGF).",
+      "Dans les années 1970 et 1980, les entreprises américaines investissent massivement dans l'informatique, mais la croissance de la productivité ralentit par rapport aux Trente Glorieuses. Cette énigme devient le **paradoxe de la productivité**."
+     ]
+    },
+    {
+     "titre": "Les trois explications",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le délai de diffusion (Paul David, 1990)",
+       "d": "Comme pour la **dynamo électrique** vers 1900, il faut **20 à 30 ans** pour réorganiser les usines, former les salariés et inventer les bons usages autour d'une **technologie à usage général**."
+      },
+      {
+       "t": "Le problème de mesure",
+       "d": "Les statistiques du PIB comptent mal la **qualité**, la rapidité et les **services numériques gratuits** (moteurs de recherche, messageries, GPS)."
+      },
+      {
+       "t": "L'épuisement des gains (Robert Gordon, 2016)",
+       "d": "Dans *The Rise and Fall of American Growth*, Gordon soutient que le numérique transforme les loisirs et l'information, mais bouleverse moins la vie matérielle que l'**électricité**, l'**eau courante** ou le **moteur à explosion**."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Il ne suffit pas d'accumuler des **équipements** (capital physique) pour accélérer la croissance : une technologie ne porte ses fruits que lorsqu'elle s'accompagne d'**investissements immatériels** (compétences, logiciels, organisation du travail). Le paradoxe s'est d'ailleurs estompé aux États-Unis entre 1995 et 2005, quand la diffusion d'Internet a fini par doper la PGF, avant que le ralentissement ne reprenne."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'intelligence artificielle en 2026",
+       "d": "Des centaines de milliards de dollars investis dans les centres de données, mais des gains de productivité et des profits encore lents à apparaître."
+      },
+      {
+       "t": "Le décrochage européen",
+       "d": "L'Europe adopte plus lentement les technologies numériques que les États-Unis, ce qui creuse l'écart de PGF depuis vingt ans."
+      },
+      {
+       "t": "La stagnation séculaire",
+       "d": "Débat entre **techno-pessimistes** (Gordon) et **techno-optimistes** (Brynjolfsson et McAfee, *Le Deuxième Âge de la machine*, 2014)."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Paul David (1990)",
+       "idee": "le parallèle historique entre l'ordinateur et la dynamo électrique"
+      },
+      {
+       "sens": "=",
+       "nom": "Robert Gordon (2016)",
+       "idee": "les révolutions numériques ont des rendements décroissants sur la productivité"
+      },
+      {
+       "sens": "≠",
+       "nom": "Joseph Schumpeter (1942)",
+       "idee": "les grappes d'innovations relancent puissamment les cycles longs"
+      },
+      {
+       "sens": "≠",
+       "nom": "Brynjolfsson et McAfee (2014)",
+       "idee": "l'IA et le numérique préparent un rebond majeur de la productivité"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "couts-de-transaction",
+   "nom": "Coûts de transaction et nature de la firme",
+   "categorie": "fondamentaux",
+   "type": "Théorie",
+   "annee": "1937",
+   "auteur": "Ronald Coase",
+   "accroche": "Si le marché était gratuit et parfait, il n'y aurait que des travailleurs indépendants : les entreprises existent parce qu'utiliser le marché a un coût.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Ronald Coase**, « The Nature of the Firm » (*Economica*, 1937) ; prix Nobel d'économie 1991. **Oliver Williamson** prolonge et opérationnalise cette théorie dans *Markets and Hierarchies* (1975), ce qui lui vaut le prix Nobel 2009.",
+      "Coase pose une question simple que la théorie néoclassique ignorait : si la coordination par les **prix** est si efficace, pourquoi existe-t-il des **entreprises** où un patron commande des salariés sans passer par des contrats de marché à chaque minute ?"
+     ]
+    },
+    {
+     "titre": "Les deux modes de coordination",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le marché (faire faire)",
+       "d": "Coordination par les **prix** et les contrats. Il entraîne des **coûts de transaction** : chercher un fournisseur, négocier les tarifs, rédiger des contrats incomplets, surveiller leur exécution."
+      },
+      {
+       "t": "La firme ou hiérarchie (faire soi-même)",
+       "d": "Coordination par l'**autorité** autour d'un contrat de travail unique. Elle supprime les coûts de transaction, mais crée des **coûts d'organisation** : bureaucratie, lourdeurs, erreurs de direction."
+      },
+      {
+       "t": "La frontière de la firme",
+       "d": "L'entreprise grandit tant que le coût d'**internaliser** une opération de plus reste inférieur au coût de la confier au **marché**."
+      }
+     ]
+    },
+    {
+     "titre": "L'apport de Williamson (1975)",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La spécificité des actifs",
+       "d": "Quand un équipement ou un savoir-faire ne sert qu'à **un seul client**, dépendre d'un sous-traitant expose au chantage (**risque de hold-up**) : il vaut mieux **fusionner** ou produire en interne."
+      },
+      {
+       "t": "L'opportunisme et la rationalité limitée",
+       "d": "Les contrats sont toujours **incomplets** : un partenaire peut en profiter en cas d'imprévu."
+      },
+      {
+       "t": "La fréquence et l'incertitude",
+       "d": "Plus les échanges sont **répétés** et l'environnement **instable**, plus l'intégration verticale ou horizontale devient rentable."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La taille des entreprises et le périmètre des groupes évoluent avec les **technologies** : dans les années 1980-2000, la baisse des coûts de transport et d'information a favorisé l'**externalisation** (*outsourcing*) et la fragmentation des **chaînes de valeur mondiales**. À l'inverse, les crises géopolitiques et énergétiques actuelles incitent les firmes à **réinternaliser** ou à **fusionner** pour sécuriser leurs approvisionnements et leurs technologies."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les fusions-acquisitions (BASF / Evonik)",
+       "d": "Intégrer la chimie de spécialités en interne plutôt que dépendre de contrats de marché."
+      },
+      {
+       "t": "Les chaînes de valeur automobiles",
+       "d": "Les constructeurs (Tesla, BYD, Volkswagen) internalisent la production de **batteries** et de **logiciels**, actifs trop stratégiques pour être sous-traités."
+      },
+      {
+       "t": "Les plateformes numériques (Vinted, Uber)",
+       "d": "Les algorithmes font chuter les coûts de transaction sur le marché, ce qui permet de coordonner des millions de particuliers sans les salarier."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Oliver Williamson (1975, Nobel 2009)",
+       "idee": "spécificité des actifs et arbitrage entre marché et hiérarchie"
+      },
+      {
+       "sens": "=",
+       "nom": "Alfred Chandler (1977)",
+       "idee": "la « main visible » des managers remplace la main invisible du marché dans la grande firme"
+      },
+      {
+       "sens": "≠",
+       "nom": "Concurrence pure et parfaite (Walras)",
+       "idee": "suppose des échanges gratuits où la firme se réduit à une boîte noire"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "competitivite-porter",
+   "nom": "Compétitivité-prix et hors-prix",
+   "categorie": "commerce",
+   "type": "Théorie",
+   "annee": "1985 · 1990",
+   "auteur": "Michael Porter",
+   "accroche": "Une entreprise ou une nation ne gagne pas seulement en vendant moins cher : elle s'impose durablement en se différenciant par la qualité et l'innovation.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Michael Porter**, *Competitive Advantage* (1985), puis *L'Avantage concurrentiel des nations* (1990).",
+      "Professeur à Harvard, Porter cherche comment une entreprise ou un pays développé à hauts salaires peut conserver ses parts de marché face à l'émergence de concurrents à bas coûts."
+     ]
+    },
+    {
+     "titre": "Les deux piliers de la compétitivité",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La compétitivité-prix (domination par les coûts)",
+       "d": "Vendre un produit standard **moins cher** que les concurrents grâce au coût du travail, au coût de l'énergie, à la **productivité** ou au **taux de change**."
+      },
+      {
+       "t": "La compétitivité hors-prix (différenciation)",
+       "d": "Séduire l'acheteur **quel que soit le prix** grâce à l'**innovation**, la **qualité**, la marque, le design ou le service après-vente : la firme dispose alors d'un **pouvoir de marché** (*pricing power*)."
+      },
+      {
+       "t": "Le piège du milieu de gamme",
+       "d": "Porter avertit qu'une firme ou un pays « **coincé au milieu** » (*stuck in the middle*) — trop cher face aux pays émergents, pas assez innovant face aux leaders — perd ses parts de marché."
+      }
+     ]
+    },
+    {
+     "titre": "Le « diamant » des nations et les clusters",
+     "type": "texte",
+     "paras": [
+      "En 1990, Porter montre que l'avantage d'un pays repose sur quatre facteurs qui se renforcent : des **facteurs de production qualifiés** (ingénieurs, infrastructures), une **demande intérieure exigeante**, un tissu de **fournisseurs spécialisés** et une **concurrence locale stimulante**. Ces forces se concentrent dans des **clusters** (grappes d'entreprises locales), comme la Silicon Valley dans le numérique ou le *Mittelstand* allemand dans la mécanique."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La théorie explique les divergences européennes : pendant vingt ans, l'**Allemagne** a maintenu ses excédents industriels grâce à sa **compétitivité hors-prix** (machines-outils, chimie fine, haut de gamme automobile), tandis que la **France**, positionnée en milieu de gamme, voyait son industrie reculer. Elle montre aussi que lorsque l'Europe subit un choc durable sur ses coûts énergétiques, seule la **montée en gamme** permet de préserver ses marges."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La chimie européenne (BASF / Evonik)",
+       "d": "Quitter la chimie de base énergivore (compétitivité-prix perdue) pour la chimie de spécialités à haute valeur ajoutée."
+      },
+      {
+       "t": "Le luxe français (LVMH, Hermès)",
+       "d": "Modèle pur de compétitivité hors-prix : les hausses de prix ne freinent pas la demande mondiale."
+      },
+      {
+       "t": "L'automobile européenne face à la Chine",
+       "d": "BYD rattrape les constructeurs européens à la fois sur les coûts et sur le hors-prix (batteries, logiciels)."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Paul Krugman (1979)",
+       "idee": "le goût des consommateurs pour la variété nourrit la différenciation"
+      },
+      {
+       "sens": "=",
+       "nom": "Alfred Marshall (1890)",
+       "idee": "les districts industriels préfigurent les clusters de Porter"
+      },
+      {
+       "sens": "≠",
+       "nom": "Paul Krugman (1994)",
+       "idee": "« Competitiveness: A Dangerous Obsession » : un pays n'est pas une entreprise en concurrence à somme nulle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cycle-de-vie",
+   "nom": "Théorie du cycle de vie",
+   "categorie": "fondamentaux",
+   "type": "Théorie",
+   "annee": "1954",
+   "auteur": "Franco Modigliani",
+   "accroche": "On ne consomme pas selon son seul revenu du mois : on emprunte jeune, on épargne à l'âge actif et on désépargne à la retraite pour garder un niveau de vie stable.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Franco Modigliani** et **Richard Brumberg**, « Utility Analysis and the Consumption Function » (1954) ; prix Nobel d'économie 1985.",
+      "Modigliani répond à **Keynes** (1936), pour qui la consommation ne dépendait que du **revenu courant** et l'épargne augmentait mécaniquement avec la richesse. Or sur longue période, le taux d'épargne reste stable : c'est que les ménages raisonnent sur **toute la durée de leur vie**."
+     ]
+    },
+    {
+     "titre": "Les trois âges de la vie économique",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La jeunesse (désépargne / endettement)",
+       "d": "Les revenus sont faibles mais les besoins élevés (études, installation, logement) : l'individu **emprunte** sur ses revenus futurs."
+      },
+      {
+       "t": "La vie active (épargne et accumulation)",
+       "d": "Les revenus culminent : le ménage **rembourse** ses dettes et **accumule un patrimoine** immobilier et financier."
+      },
+      {
+       "t": "La retraite (désépargne)",
+       "d": "Les revenus du travail cessent : le ménage **puise dans son patrimoine** pour maintenir sa consommation habituelle."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Le taux d'épargne d'un pays dépend avant tout de sa **démographie** et de sa **croissance** : une population jeune et en forte croissance épargne beaucoup plus que ses retraités ne désépargnent, tandis qu'un pays vieillissant voit son épargne diminuer. La théorie met aussi en évidence l'**effet de richesse** : quand l'immobilier ou la Bourse monte, le patrimoine gonfle et les ménages consomment davantage."
+     ]
+    },
+    {
+     "titre": "Limites et débats",
+     "type": "texte",
+     "paras": [
+      "En pratique, les retraités désépargnent peu car ils veulent transmettre un **héritage** et se couvrir contre le risque de dépendance (**épargne de précaution**). À l'autre bout, les jeunes se heurtent à des **contraintes de crédit** et à l'envolée des prix immobiliers (comme l'analyse Thomas **Piketty** en 2013) : quand le logement devient inaccessible sans héritage familial, le cycle de vie se bloque et certains jeunes basculent dans le **doomspending** en renonçant à épargner."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La crise du logement et le « doomspending »",
+       "d": "Faute de pouvoir acheter un bien immobilier, de jeunes actifs préfèrent consommer tout de suite."
+      },
+      {
+       "t": "Le vieillissement démographique",
+       "d": "Japon, Allemagne, Europe : impact du papy-boom sur l'épargne nationale et les retraites."
+      },
+      {
+       "t": "La société d'héritiers (Piketty)",
+       "d": "Le patrimoine dépend de plus en plus de l'héritage et de moins en moins de l'épargne accumulée sur le cycle de vie."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Milton Friedman (1957)",
+       "idee": "théorie du revenu permanent : les ménages lissent leur consommation dans le temps"
+      },
+      {
+       "sens": "≠",
+       "nom": "John Maynard Keynes (1936)",
+       "idee": "la consommation dépend du revenu courant selon une loi psychologique"
+      },
+      {
+       "sens": "≠",
+       "nom": "Thomas Piketty (2013)",
+       "idee": "le poids du patrimoine hérité l'emporte sur l'épargne du cycle de vie"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "encastrement-polanyi",
+   "nom": "Encastrement et Grande Transformation",
+   "categorie": "societe",
+   "type": "Théorie",
+   "annee": "1944",
+   "auteur": "Karl Polanyi",
+   "accroche": "Le marché autorégulateur n'a rien de naturel : vouloir transformer le travail, la terre et la monnaie en simples marchandises détruit la société, qui finit par se défendre.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Karl Polanyi**, *La Grande Transformation. Aux origines politiques et économiques de notre temps* (1944).",
+      "Historien et anthropologue hongrois, Polanyi cherche pourquoi la civilisation libérale du XIXe siècle s'est effondrée dans la crise de 1929, le fascisme et la Seconde Guerre mondiale. Sa thèse : le projet utopique d'un **marché autorégulateur** séparé du reste de la société était intenable."
+     ]
+    },
+    {
+     "titre": "Les trois formes d'intégration économique",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La réciprocité",
+       "d": "Le **don et contre-don** (Marcel Mauss) au sein de la famille, du voisinage ou des associations : l'échange crée du lien social sans prix."
+      },
+      {
+       "t": "La redistribution",
+       "d": "Une autorité centrale (l'**État**, la protection sociale) collecte les ressources par l'impôt ou les cotisations et les répartit selon des règles collectives."
+      },
+      {
+       "t": "L'échange marchand",
+       "d": "La rencontre d'une offre et d'une demande réglée par un **prix**. Pendant des millénaires, le marché est resté **encastré** (*embedded*) dans les normes sociales et politiques."
+      }
+     ]
+    },
+    {
+     "titre": "Les trois « marchandises fictives » et le double mouvement",
+     "type": "texte",
+     "paras": [
+      "Au XIXe siècle, la révolution industrielle **désencastre** l'économie en traitant comme des marchandises trois éléments qui n'ont pas été produits pour être vendus : le **travail** (les êtres humains), la **terre** (la nature) et la **monnaie** (le pouvoir d'achat). Ce sont des **marchandises fictives**.",
+      "Livrer le travail, la nature et la monnaie aux seules lois des prix détruit le tissu social et l'environnement. La société réagit alors par un **contre-mouvement** protecteur : droit du travail, syndicats, banques centrales, **État-providence**, mais aussi parfois repli nationaliste et autoritaire. C'est le **double mouvement**."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "L'économie de marché a besoin d'**institutions non marchandes** (droit, protection sociale, solidarité associative, règles écologiques) pour survivre à ses propres excès. La grille de Polanyi éclaire aussi les mutations contemporaines : quand les plateformes numériques transforment le don ou l'entraide en ventes entre particuliers, l'**échange marchand** gagne du terrain sur la **réciprocité**."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Du don associatif à Vinted",
+       "d": "Les vêtements autrefois donnés aux *charity shops* (réciprocité) sont désormais revendus sur des plateformes (marchandisation)."
+      },
+      {
+       "t": "La crise écologique",
+       "d": "Traiter la nature comme une marchandise gratuite mène au changement climatique et appelle une régulation publique."
+      },
+      {
+       "t": "Mondialisation et retour de l'État",
+       "d": "Après la dérégulation des années 1980-2000, retour du protectionnisme, des politiques industrielles et des boucliers sociaux."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Mark Granovetter (1985)",
+       "idee": "nouvelle sociologie économique : toute action économique reste encastrée dans des réseaux sociaux"
+      },
+      {
+       "sens": "=",
+       "nom": "Marcel Mauss (1924)",
+       "idee": "l'Essai sur le don montre la triple obligation de donner, recevoir et rendre"
+      },
+      {
+       "sens": "≠",
+       "nom": "Friedrich Hayek (1944)",
+       "idee": "La Route de la servitude (publié la même année) : l'intervention de l'État détruit la liberté et l'ordre spontané du marché"
+      }
+     ]
+    }
+   ]
   }
  ]
 }
