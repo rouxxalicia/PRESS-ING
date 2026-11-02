@@ -1,0 +1,584 @@
+{
+ "date": "2026-11-02",
+ "cards": [
+  {
+   "id": "2026-11-02-esh-1",
+   "matiere": "esh",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-02/proximas-batallas-del-euro-digital.html",
+   "minutes": 3,
+   "titre": "L'euro numérique entre dans sa dernière ligne droite : la bataille du plafond des 3 000 euros face aux banques",
+   "faits": "Selon une analyse publiée le 2 novembre par El País, l'Union européenne s'apprête à ouvrir d'ici la fin de l'année 2026 les négociations finales en trilogue (Commission, Parlement européen et Conseil) pour adopter le règlement instituant l'euro numérique, en vue d'un lancement par la Banque centrale européenne (BCE) à l'horizon 2028. Cette monnaie numérique publique, gratuite pour les usages de base et utilisable aussi bien en ligne que hors ligne, vise à compléter les espèces sans les remplacer. L'objectif géopolitique est d'offrir à la zone euro une autonomie stratégique dans les paiements de détail, aujourd'hui dominés par les géants américains (Visa, Mastercard, PayPal, Apple Pay), face à l'essor des stablecoins privés en dollars et du yuan numérique chinois. Toutefois, une vive bataille oppose Francfort aux banques commerciales autour du plafond de détention individuel, que la BCE envisage de fixer à 3 000 euros par citoyen afin d'éviter une fuite massive des dépôts bancaires.",
+   "enjeux": "Ce projet place la BCE au cœur d'un arbitrage délicat entre **souveraineté monétaire** et **stabilité financière**. En créant une **monnaie numérique de banque centrale** (MNBC) accessible directement aux ménages, l'Eurosystème cherche à garantir l'ancrage de la monnaie publique à l'ère de la dématérialisation des échanges et à briser l'**oligopole** des réseaux de cartes américains sur les commissions marchandes. Mais pour les banques commerciales, un portefeuille numérique garanti par la banque centrale constitue un substitut sans risque aux comptes courants ordinaires : si le plafond de détention était trop élevé, les épargnants pourraient transférer instantanément leurs avoirs vers la BCE au moindre doute sur la solidité d'une banque. Ce risque de **désintermédiation bancaire** structurelle et de **course aux guichets numérique** (*digital bank run*) explique le plafonnement strict à 3 000 euros et l'absence de rémunération de ce futur portefeuille.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+    "alt": "Le siège de la Banque centrale européenne (BCE) à Francfort-sur-le-Main",
+    "credit": "Epizentrum / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_Frankfurt.jpg"
+   },
+   "programme": {
+    "module": "3 - Mondialisation et intégration européenne",
+    "chapitre": "3.3 - L'intégration européenne"
+   },
+   "auteurs": [
+    {
+     "nom": "Douglas Diamond et Philip Dybvig",
+     "ouvrage": "« Bank Runs, Deposit Insurance, and Liquidity »",
+     "annee": "1983",
+     "ref": "course-aux-guichets",
+     "texte": "Diamond et Dybvig montrent que les banques assurent la **transformation d'échéances** en finançant des crédits longs illiquides par des dépôts à vue liquides, ce qui les expose à des **courses aux guichets** (*bank runs*) auto-réalisatrices en cas de panique. L'euro numérique ravive cette vulnérabilité : sans plafond de 3 000 euros, les déposants pourraient convertir en un clic leurs dépôts commerciaux en monnaie centrale sans risque. À mobiliser dans tout sujet sur la stabilité bancaire et les monnaies numériques."
+    },
+    {
+     "nom": "Friedrich Hayek",
+     "ouvrage": "Pour une vraie concurrence des monnaies",
+     "annee": "1976",
+     "ref": "concurrence-des-monnaies",
+     "texte": "Hayek plaide pour la fin du monopole étatique d'émission monétaire afin que des **monnaies privées concurrentes** disciplinent les banques centrales et empêchent l'inflation. À rebours de cette utopie libérale incarnée aujourd'hui par les cryptomonnaies et les *stablecoins* adossés au dollar, la BCE lance l'euro numérique pour défendre la **souveraineté monétaire** publique et l'unité du système de paiement européen. À mobiliser pour débattre de la nature publique ou privée de la monnaie."
+    }
+   ],
+   "sujets": [
+    "Les monnaies numériques de banque centrale renforcent-elles ou fragilisent-elles le système financier ?",
+    "La souveraineté monétaire européenne est-elle menacée par la numérisation des paiements ?"
+   ]
+  },
+  {
+   "id": "2026-11-02-esh-2",
+   "matiere": "esh",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-10-31/crecimiento-sin-inversion-privada-como-la-economia-espanola-mejora-con-menos-recursos.html",
+   "minutes": 3,
+   "titre": "Croissance sans investissement : le débat sur l'« inspiration » et la productivité de l'économie espagnole",
+   "faits": "Dans une analyse publiée par El País après les chiffres du PIB du troisième trimestre 2026 (+0,6 % sur le trimestre et +2,7 % sur un an), les économistes s'interrogent sur le paradoxe de la vigueur espagnole au sein d'une zone euro atone. Alors que l'Espagne croît deux à trois fois plus vite que la moyenne européenne, l'investissement privé productif — en particulier dans la construction et les biens d'équipement — reste étonnamment faible et n'a que tout juste retrouvé son niveau d'avant la pandémie, tandis que les créations d'emplois ralentissent. Pour expliquer comment le pays produit davantage avec relativement moins de capital physique supplémentaire, l'économiste Matilde Mas (institut Ivie) reprend la distinction de Paul Krugman entre la croissance par la « transpiration » et la croissance par l'« inspiration ». L'Espagne bénéficierait désormais d'une réallocation vers les services exportables à haute valeur ajoutée (conseil, ingénierie, informatique) et des investissements immatériels financés par les fonds européens.",
+   "enjeux": "Ce diagnostic ouvre un débat fondamental sur la nature de la **croissance économique** espagnole et européenne. Jusqu'à la crise de 2008, le modèle espagnol reposait sur une **croissance extensive** typique de la « transpiration » : accumulation massive de briques et de main-d'œuvre peu qualifiée dans le bâtiment, au prix d'un recul de la **productivité globale des facteurs (PGF)**. À l'inverse, une croissance tirée par l'« inspiration » repose sur le **capital immatériel** (logiciels, R&D, organisation, intelligence artificielle) et sur l'élévation du **capital humain**, qui permettent de produire plus de valeur ajoutée sans engloutir autant de machines ou de béton. Néanmoins, plusieurs économistes avertissent que cette trajectoire reste fragile : sans un redressement durable du taux d'**investissement privé matériel**, les gains de productivité actuels pourraient rapidement plafonner.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Edificios_Skyline_Madrid_01.jpg/1280px-Edificios_Skyline_Madrid_01.jpg",
+    "alt": "Les tours du quartier d'affaires Cuatro Torres à Madrid, symbole du secteur tertiaire espagnol",
+    "credit": "Zarateman / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Edificios_Skyline_Madrid_01.jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.1 - Croissance et fluctuations depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Paul Krugman",
+     "ouvrage": "« The Myth of Asia's Miracle »",
+     "annee": "1994",
+     "ref": "croissance-extensive-intensive",
+     "texte": "En distinguant la croissance par la **transpiration** (*perspiration*, c'est-à-dire l'accumulation extensive de travail et de capital physique) de la croissance par l'**inspiration** (*inspiration*, fondée sur l'efficacité et le progrès technique), Krugman montre qu'une économie qui se contente d'additionner des facteurs finit par buter sur la **loi des rendements décroissants**. Le rebond actuel de la productivité espagnole suggère un passage de la transpiration à l'inspiration. À mobiliser dans tout sujet sur les sources de la croissance."
+    },
+    {
+     "nom": "Paul Romer",
+     "ouvrage": "« Endogenous Technological Change »",
+     "annee": "1990",
+     "ref": "croissance-endogene",
+     "texte": "Romer montre que la connaissance, les logiciels et la R&D sont des **biens non rivaux** à **rendements d'échelle croissants** : contrairement à une machine ou à un bâtiment, une idée ou un algorithme peut être réutilisé à l'infini à coût marginal quasi nul. Cela explique comment une économie tertiarisée peut croître avec moins d'investissement matériel lourd grâce au **capital immatériel**. À mobiliser pour analyser le rôle de l'innovation et du capital immatériel dans la croissance contemporaine."
+    }
+   ],
+   "sujets": [
+    "Peut-il y avoir une croissance durable sans accumulation massive de capital physique ?",
+    "La tertiarisation des économies avancées condamne-t-elle ou renouvelle-t-elle les gains de productivité ?"
+   ]
+  },
+  {
+   "id": "2026-11-02-esh-3",
+   "matiere": "esh",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+   "minutes": 3,
+   "titre": "Choc pétrolier : Ryanair redoute 2 milliards d'euros de surcoût de kérosène et prépare des hausses de billets jusqu'à 20 %",
+   "faits": "La première compagnie aérienne européenne à bas coûts, Ryanair, a annoncé le 2 novembre une baisse de 15 % de son bénéfice net semestriel à 2,15 milliards d'euros (sur les six mois clos fin septembre 2026), malgré une hausse de 6 % du nombre de passagers transportés. En cause : le doublement du prix du kérosène non couvert sur les marchés à la suite de la guerre au Moyen-Orient et des tensions avec l'Iran. Si Ryanair a protégé 80 % de ses achats de carburant à environ 67 dollars le baril pour l'exercice en cours, son directeur général Michael O'Leary avertit que la facture annuelle de kérosène pourrait bondir de 2 milliards d'euros à mesure que ces couvertures arrivent à échéance. Pour amortir ce choc, la compagnie lance un plan d'économies incluant de possibles gels temporaires de salaires, un ralentissement des embauches, une réduction du nombre d'hôtesses et stewards par vol et le recours à l'IA, tout en prévenant que le prix des billets court-courriers européens pourrait grimper jusqu'à 20 %.",
+   "enjeux": "Cet avertissement met en lumière la vulnérabilité du modèle économique **low-cost** face à un **choc d'offre énergétique** exogène. La domination de Ryanair sur le ciel européen repose sur une stratégie de **compression extrême des coûts unitaires** (flotte unique de Boeing 737, rotation rapide dans des aéroports secondaires, forte intensité du travail). Tant que les contrats de **couverture financière** (*hedging*) bloquent le prix du baril à bas niveau, la compagnie conserve un avantage décisif sur ses concurrents moins bien couverts ; mais dès que le choc pétrolier s'inscrit dans la durée, le kérosène — qui représente plus du tiers des charges d'exploitation aériennes — oblige à répercuter la hausse sur le consommateur final. Une envolée de 20 % des tarifs aériens pèserait à la fois sur l'**inflation des services** en Europe et sur la démocratisation du transport aérien, tout en posant la question de sa **décarbonation**.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Boeing_737-8MAX_200_-_EI-HAW_from_Ryanaire_during_accelerating_phase_before_take-off_at_LFBT_airport.jpg/1280px-Boeing_737-8MAX_200_-_EI-HAW_from_Ryanaire_during_accelerating_phase_before_take-off_at_LFBT_airport.jpg",
+    "alt": "Un Boeing 737 MAX de la compagnie irlandaise Ryanair au décollage",
+    "credit": "Aurelienbbb / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Boeing_737-8MAX_200_-_EI-HAW_from_Ryanaire_during_accelerating_phase_before_take-off_at_LFBT_airport.jpg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.1 - Équilibres et déséquilibres macroéconomiques"
+   },
+   "auteurs": [
+    {
+     "nom": "Michael Porter",
+     "ouvrage": "L'Avantage concurrentiel",
+     "annee": "1985",
+     "ref": "competitivite-porter",
+     "texte": "Porter identifie la **domination par les coûts** comme l'une des grandes stratégies génériques permettant à une firme de surclasser ses rivaux. Ryanair en est l'archétype dans le transport aérien européen ; mais lorsque le prix d'un intrant incontournable comme le kérosène double, l'entreprise est contrainte de comprimer les coûts salariaux et de relever ses prix de 20 % au risque d'éroder son avantage concurrentiel. À mobiliser dans un sujet sur les stratégies d'entreprise face aux chocs de coûts."
+    },
+    {
+     "nom": "Arthur Cecil Pigou",
+     "ouvrage": "L'Économie du bien-être",
+     "annee": "1920",
+     "ref": "externalites-pigou",
+     "texte": "Pigou montre que lorsque le prix de marché d'un bien n'intègre pas ses **externalités négatives** (comme les émissions de gaz à effet de serre du kérosène, longtemps exempté de taxe), son coût privé est inférieur à son coût social, ce qui entraîne une surconsommation. Le renchérissement brutal du carburant agit ici comme un **signal-prix** involontaire qui freine l'aviation à bas coût mais pèse directement sur le pouvoir d'achat des ménages modestes. À mobiliser sur la tarification écologique et le transport aérien."
+    }
+   ],
+   "sujets": [
+    "Le modèle économique du low-cost peut-il survivre au renchérissement durable de l'énergie et du carbone ?",
+    "Comment les chocs pétroliers se transmettent-ils aux prix et aux salaires dans une économie tertiarisée ?"
+   ]
+  },
+  {
+   "id": "2026-11-02-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-midterms-congress-win-power",
+   "minutes": 3,
+   "titre": "Veille des midterms américaines : que pourraient vraiment faire les démocrates s'ils reprennent le Congrès ?",
+   "faits": "À la veille des élections de mi-mandat du mardi 3 novembre 2026 — les plus coûteuses de l'histoire américaine avec près de 12 milliards de dollars engloutis dans la campagne —, le Guardian analyse l'étendue réelle des pouvoirs dont disposeraient les démocrates s'ils reprenaient la Chambre des représentants, voire le Sénat, pour les deux dernières années du second mandat de Donald Trump. Une majorité démocrate ne permettrait pas de faire adopter de grandes lois progressistes, car le président conserverait son droit de veto, qui ne peut être renversé que par une majorité introuvable des deux tiers dans chaque chambre. En revanche, contrôler la Chambre donnerait aux démocrates le « pouvoir de la bourse » (power of the purse) sur le vote du budget fédéral ainsi que la présidence des commissions parlementaires. Ils pourraient ainsi bloquer le programme législatif républicain, délivrer des assignations à comparaître (subpoenas) et ouvrir des enquêtes sur l'administration Trump. S'ils arrachaient aussi le Sénat, ils pourraient en outre bloquer les nominations de juges fédéraux et de membres du cabinet.",
+   "enjeux": "Ce scrutin met à l'épreuve le mécanisme constitutionnel américain des **poids et contrepoids** (*checks and balances*) face à une présidence qui a multiplié les décrets présidentiels (*executive orders*) et les bras de fer avec les juges depuis janvier 2025. Durant les deux premières années de son second mandat, Donald Trump a gouverné avec un Congrès entièrement républicain (*unified government*) particulièrement docile. Le retour à un **gouvernement divisé** (*divided government*) transformerait la seconde moitié du mandat en une guerre de tranchées institutionnelle autour du plafond de la dette, des menaces de **paralysie budgétaire** (*government shutdown*) et des enquêtes parlementaires. Mais plusieurs constitutionnalistes soulignent les limites de ce contre-pouvoir : la Maison-Blanche pourrait refuser de coopérer aux assignations du Congrès et continuer de gouverner par décrets en matière douanière et migratoire.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/US_Capitol_east_side.JPG/1280px-US_Capitol_east_side.JPG",
+    "alt": "La façade est du Capitole des États-Unis à Washington, siège de la Chambre des représentants et du Sénat",
+    "credit": "Martin Falbisoner / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_east_side.JPG"
+   },
+   "vo": {
+    "titre": "On the eve of the US midterms: what could Democrats actually do if they win back Congress?",
+    "faits": "On the eve of Tuesday's 3 November 2026 midterm elections – the most expensive in US history, with nearly $12bn spent across federal races – the Guardian examined what real leverage Democrats would wield if they recapture the House of Representatives, or even the Senate, for the final two years of Donald Trump's second term. A Democratic majority would not allow the party to enact major progressive legislation, since the president retains his veto power, which can only be overridden by an unattainable two-thirds supermajority in both chambers. However, winning the House would hand Democrats the constitutional \"power of the purse\" over federal funding bills as well as the gavels of every congressional committee. That would enable them to bury Republican bills, issue subpoenas and launch oversight investigations into the Trump administration. If Democrats also flipped the Senate, they could block Trump's judicial and cabinet confirmations.",
+    "enjeux": "Tomorrow's vote is a crucial test of America's constitutional system of checks and balances against a presidency that has relied heavily on executive orders and clashed repeatedly with the courts since January 2025. For the first two years of his second term, Donald Trump has governed alongside a compliant Republican-controlled Congress. A return to divided government would turn the second half of his presidency into an institutional trench war fought over federal spending bills, potential government shutdowns and congressional oversight hearings. Yet legal scholars warn that congressional pushback has limits: the White House could stonewall committee subpoenas in the courts and continue using executive authority to impose tariffs and pursue mass deportations."
+   },
+   "vocab": [
+    [
+     "checks and balances",
+     "le système des poids et contrepoids (équilibre des pouvoirs)"
+    ],
+    [
+     "divided government",
+     "le gouvernement divisé (quand le Congrès et la présidence sont de bords opposés)"
+    ],
+    [
+     "the power of the purse",
+     "le pouvoir budgétaire (détenu par le Congrès)"
+    ],
+    [
+     "congressional oversight / a subpoena",
+     "le contrôle parlementaire / une assignation à comparaître"
+    ],
+    [
+     "to override a presidential veto",
+     "outrepasser un veto présidentiel (à la majorité des deux tiers)"
+    ],
+    [
+     "to stonewall an investigation",
+     "faire obstruction / opposer une fin de non-recevoir à une enquête"
+    ]
+   ],
+   "sujets": [
+    "Are congressional checks and balances still effective against the modern \"imperial presidency\"?",
+    "Does divided government in Washington lead to healthy compromise or institutional paralysis?"
+   ]
+  },
+  {
+   "id": "2026-11-02-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/2026/nov/02/uk-making-up-china-policy-as-it-goes-along-mps",
+   "minutes": 3,
+   "titre": "Politique chinoise du Royaume-Uni : un rapport parlementaire étrille l'improvisation de Londres entre Washington et Pékin",
+   "faits": "Dans un rapport sévère publié le 2 novembre, la commission des Affaires économiques et du Commerce de la Chambre des communes (Business and Trade Committee), présidée par le député travailliste Liam Byrne, accuse le gouvernement britannique d'« improviser sa politique chinoise au jour le jour » (making up its policy on China as it goes along). Selon les parlementaires, l'absence de stratégie cohérente de long terme depuis l'arrivée des travaillistes au pouvoir en 2024 a conduit le Royaume-Uni à récolter « le pire des deux mondes » : le pays ne protège pas suffisamment ses infrastructures critiques et sa sécurité nationale, tout en décourageant les investisseurs par un climat d'incertitude permanente. Le rapport souligne que l'audit promis sur les relations sino-britanniques est resté trop vague pour guider les entreprises et les universités. Sans doctrine claire, avertit Liam Byrne, la politique de Londres envers Pékin finira par être dictée de l'extérieur, par Washington ou par Pékin.",
+   "enjeux": "Ce réquisitoire parlementaire illustre le dilemme stratégique du Royaume-Uni post-Brexit face à la **rivalité systémique sino-américaine**. D'un côté, le gouvernement travailliste cherche désespérément des **investissements directs étrangers** et des débouchés commerciaux en Chine pour relancer une croissance britannique anémique et financer ses infrastructures vertes (batteries, véhicules électriques). De l'autre, les services de renseignement et l'allié américain exigent un **désengagement des chaînes d'approvisionnement critiques** (*de-risking*) et un contrôle strict des prises de participation chinoises dans les secteurs sensibles. Coincée entre le protectionnisme agressif de l'administration Trump — qui menace ses alliés de droits de douane s'ils se montrent trop complaisants envers Pékin — et les mesures de rétorsion chinoises, la diplomatie économique britannique peine à définir une troisième voie souveraine.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg/1280px-Palace_of_Westminster%2C_London_-_Feb_2007.jpg",
+    "alt": "Le palais de Westminster au bord de la Tamise à Londres, siège du Parlement britannique",
+    "credit": "Diliff / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster,_London_-_Feb_2007.jpg"
+   },
+   "vo": {
+    "titre": "UK is \"making up China policy as it goes along\", cross-party MPs warn",
+    "faits": "In a damning report published on 2 November, the House of Commons Business and Trade Select Committee, chaired by Labour MP Liam Byrne, accused the UK government of \"making up its policy on China as it goes along\". According to the cross-party group of MPs, the lack of a coherent long-term strategy since Labour took office in 2024 has left Britain with \"the worst of both worlds\": failing to adequately protect critical national infrastructure and economic security while simultaneously chilling business investment through regulatory uncertainty. The report notes that the government's much-touted \"China audit\" has remained too vague to give clear guidance to British companies and universities. Without a clear strategic doctrine, Byrne warned, Britain's China policy will end up being dictated in Washington or Beijing rather than in London.",
+    "enjeux": "This parliamentary rebuke highlights post-Brexit Britain's strategic dilemma amid intensifying US-China systemic rivalry. On the one hand, the Labour government is eager to attract Chinese foreign direct investment and trade to revive sluggish UK economic growth and supply its green transition with affordable batteries and electric vehicles. On the other hand, intelligence agencies and Washington are pressing London to \"de-risk\" critical supply chains and block Chinese state-backed takeovers in sensitive technology sectors. Caught between the Trump administration's tariff threats against allies deemed too soft on Beijing and the risk of Chinese economic retaliation, Britain is struggling to chart an independent trade and security doctrine."
+   },
+   "vocab": [
+    [
+     "a cross-party select committee",
+     "une commission parlementaire transpartisane"
+    ],
+    [
+     "to make up policy as one goes along",
+     "improviser sa politique au jour le jour (naviguer à vue)"
+    ],
+    [
+     "the worst of both worlds",
+     "le pire des deux mondes (cumuler les inconvénients)"
+    ],
+    [
+     "critical national infrastructure",
+     "les infrastructures nationales critiques / stratégiques"
+    ],
+    [
+     "to de-risk supply chains",
+     "sécuriser / réduire la dépendance des chaînes d'approvisionnement"
+    ],
+    [
+     "to chill business investment",
+     "refroidir / décourager l'investissement des entreprises"
+    ]
+   ],
+   "sujets": [
+    "Can a middle-sized power like post-Brexit Britain maintain an independent policy between the US and China?",
+    "How should Western democracies balance economic openness with national security when dealing with Beijing?"
+   ]
+  },
+  {
+   "id": "2026-11-02-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/nov/02/monday-briefing-the-world-is-demanding-reparations-for-enslavement-is-britain-finally-listening",
+   "minutes": 3,
+   "titre": "Au sommet du Commonwealth à Antigua, Charles III exprime sa « profonde tristesse » sur l'esclavage face aux demandes de réparations",
+   "faits": "À l'ouverture du sommet des chefs de gouvernement du Commonwealth (CHOGM) réuni le 1er et le 2 novembre à Saint John's, à Antigua-et-Barbuda, le roi Charles III a évoqué avec « une honnêteté sans détour et une profonde tristesse » le rôle historique de la Grande-Bretagne dans la traite transatlantique des esclaves. À l'extérieur de la cérémonie, des manifestants brandissaient des pancartes réclamant des réparations financières (« Payez-nous ce que vous nous devez ») et des excuses officielles de la Couronne. Ce sommet intervient quelques jours après un infléchissement notable de Londres : le Premier ministre travailliste Andy Burnham a proposé d'ouvrir un « dialogue structuré » avec les États des Caraïbes autour d'une déclaration formelle de regrets de l'État britannique. Toutefois, Downing Street continue d'exclure catégoriquement tout versement de compensations financières, tandis que les dirigeants de la Communauté caribéenne (Caricom) exigent un plan complet de justice réparatrice incluant l'allègement de leur dette et des financements climatiques.",
+   "enjeux": "Cette séquence diplomatique illustre la confrontation croissante du Royaume-Uni avec son **héritage impérial et colonial** au sein des 56 États membres du **Commonwealth**. Pendant plus de deux siècles, l'Empire britannique a déporté plus de trois millions d'Africains vers les plantations des Caraïbes, avant d'indemniser en 1833 les propriétaires d'esclaves à hauteur de 20 millions de livres de l'époque — un emprunt que le contribuable britannique a remboursé jusqu'en 2015 — sans rien verser aux personnes affranchies. Pour le gouvernement d'Andy Burnham, accepter de discuter d'excuses officielles sans chèque vise à désamorcer la colère des anciennes colonies et à préserver le *soft power* britannique. Mais pour plusieurs **royaumes du Commonwealth** (*Commonwealth realms*) des Caraïbes dont Charles III est encore le chef d'État, à commencer par Antigua-et-Barbuda ou la Jamaïque, ce débat accélère la marche vers l'abolition de la monarchie et le passage à la **république**.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Antigua_-_St._John%27s%2C_from_Green_Bay_01.jpg/1280px-Antigua_-_St._John%27s%2C_from_Green_Bay_01.jpg",
+    "alt": "Le port et la ville de Saint John's à Antigua-et-Barbuda, hôte du sommet du Commonwealth 2026",
+    "credit": "Gerd Eichmann / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Antigua_-_St._John%27s,_from_Green_Bay_01.jpg"
+   },
+   "vo": {
+    "titre": "At the Commonwealth summit in Antigua, King Charles expresses \"sincere sorrow\" over slavery amid calls for reparations",
+    "faits": "Opening the Commonwealth Heads of Government Meeting (CHOGM) in St John's, Antigua and Barbuda, on 1 and 2 November, King Charles III spoke with \"unflinching honesty and sincere sorrow\" about Britain's historical role in the transatlantic slave trade. Outside the summit venue, protesters held placards demanding financial reparations (\"Pay us what you owe us\") and a formal apology from the Crown. The gathering comes days after a notable shift in London's stance: Labour Prime Minister Andy Burnham offered to open a \"structured dialogue\" with Caribbean nations on a formal state apology. However, Downing Street continues to rule out paying financial compensation, whereas leaders of the Caribbean Community (Caricom) are pressing for a comprehensive reparatory justice plan encompassing debt relief, technology transfers and climate finance.",
+    "enjeux": "The summit underscores how Britain's imperial and colonial legacy has become an unavoidable faultline across the 56-nation Commonwealth. Over more than two centuries, British ships transported over three million enslaved Africans to Caribbean plantations, and when slavery was abolished in 1833, London borrowed £20m – a debt only fully paid off by British taxpayers in 2015 – to compensate slave owners while giving nothing to the emancipated people. By offering talks on an apology while ruling out cash payouts, Burnham's government hopes to defuse anger in the Global South and preserve British soft power. Yet across several Caribbean Commonwealth realms where Charles III remains head of state, including Antigua and Barbuda and Jamaica, the reparations debate is accelerating moves to ditch the monarchy and become republics."
+   },
+   "vocab": [
+    [
+     "reparatory justice / financial reparations",
+     "la justice réparatrice / les réparations financières"
+    ],
+    [
+     "the transatlantic slave trade",
+     "la traite négrière transatlantique"
+    ],
+    [
+     "unflinching honesty",
+     "une honnêteté sans détour / lucide"
+    ],
+    [
+     "to rule out financial compensation",
+     "exclure toute indemnisation financière"
+    ],
+    [
+     "a Commonwealth realm",
+     "un royaume du Commonwealth (ayant le monarque britannique pour chef d'État)"
+    ],
+    [
+     "debt relief and climate finance",
+     "l'allègement de la dette et les financements climatiques"
+    ]
+   ],
+   "sujets": [
+    "Can the Commonwealth remain relevant in the 21st century without addressing financial reparations for slavery?",
+    "Why are more Caribbean nations preparing to remove the British monarch as their head of state?"
+   ]
+  },
+  {
+   "id": "2026-11-02-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/internacional/2026-11-02/pedro-sanchez-espana-no-se-gobierna-desde-tel-aviv-moscu-o-buenos-aires.html",
+   "minutes": 3,
+   "titre": "Au forum de Barcelone, Pedro Sánchez affirme que « l'Espagne ne se gouverne ni depuis Washington, ni depuis Moscou ou Buenos Aires »",
+   "faits": "En ouvrant le 2 novembre à Barcelone la troisième édition du forum international World in Progress (WIP) organisé par le groupe Prisa, à quatre semaines des élections générales anticipées du 29 novembre, le président du gouvernement espagnol Pedro Sánchez a prononcé un discours très offensif sur la souveraineté nationale et européenne. « L'Espagne se gouverne depuis l'Espagne, elle ne se gouverne ni depuis Washington, ni depuis Tel-Aviv, ni depuis Moscou ou Buenos Aires », a-t-il lancé sous les applaudissements. Le dirigeant socialiste a dénoncé l'existence d'une « internationale d'extrême droite » financée par des oligarques étrangers et des géants technologiques qui chercheraient à déstabiliser les démocraties européennes et à dicter la politique de Madrid. Il a directement visé l'opposition conservatrice du Parti populaire (PP) et de Vox, leur reprochant leur alignement sur Donald Trump, Benyamin Netanyahou et le président argentin Javier Milei. Le président de la Généralité de Catalogne, Salvador Illa, est également intervenu pour défendre le modèle social européen et l'investissement public.",
+   "enjeux": "Ce discours montre comment Pedro Sánchez utilise la **politique étrangère** comme un marqueur électoral central dans la campagne législative du **29 novembre**. Depuis deux ans, le chef du gouvernement espagnol s'est imposé au sein de l'Union européenne comme la voix la plus critique envers la guerre menée par Israël au Moyen-Orient, le climatoscepticisme de **Donald Trump** et le libertarisme radical de **Javier Milei**. En présentant le scrutin espagnol comme un choc entre la **souveraineté démocratique européenne** et des puissances étrangères hostiles à l'État-providence, le dirigeant du PSOE cherche à mobiliser un électorat de gauche démobilisé par l'usure du pouvoir et la crise du logement. Le fait de tenir ce discours à Barcelone aux côtés de Salvador Illa lui permet en outre de mettre en avant la « normalisation » politique de la **Catalogne** depuis l'arrivée des socialistes à la tête de la Généralité.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg/1280px-Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg",
+    "alt": "Le président du gouvernement espagnol Pedro Sánchez au palais de la Moncloa",
+    "credit": "La Moncloa / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_(Oficial).jpg"
+   },
+   "vo": {
+    "titre": "Pedro Sánchez en el foro de Barcelona: «España no se gobierna desde Washington, Tel Aviv, Moscú o Buenos Aires»",
+    "faits": "Al inaugurar el 2 de noviembre en Barcelona la tercera edición del foro internacional World in Progress (WIP), organizado por el Grupo Prisa a cuatro semanas de las elecciones generales anticipadas del 29 de noviembre, el presidente del Gobierno español, Pedro Sánchez, pronunció un discurso centrado en la soberanía nacional y europea. «España se gobierna desde España; no se gobierna ni desde Washington, ni desde Tel Aviv, ni desde Moscú o Buenos Aires», proclamó el líder socialista. Sánchez denunció la actuación de una «internacional ultraderechista» financiada por oligarcas extranjeros y magnates tecnológicos que, según él, pretende debilitar las democracias europeas y tutelar la política española. Arremetió directamente contra el Partido Popular (PP) y Vox por su sintonía con Donald Trump, Benjamín Netanyahu y el presidente argentino Javier Milei. En el acto participó también el president de la Generalitat de Cataluña, Salvador Illa, quien reivindicó el modelo social europeo y la inversión en infraestructuras.",
+    "enjeux": "Esta intervención confirma que Pedro Sánchez ha convertido la política exterior en uno de los grandes ejes de su campaña para los comicios del 29 de noviembre. En los últimos años, el jefe del Ejecutivo español se ha erigido dentro de la Unión Europea en el principal contrapunto progresista frente a la ofensiva militar israelí en Oriente Próximo, el giro proteccionista de Donald Trump y el ultraliberalismo de Javier Milei. Al plantear las elecciones generales como un plebiscito entre la soberanía democrática europea y la injerencia de potencias e intereses extranjeros contrarios al Estado del bienestar, el líder del PSOE busca reactivar al electorado de izquierdas frente al desgaste gubernamental y el malestar por la vivienda. Escenificar este mensaje en Barcelona junto a Salvador Illa le sirve además para exhibir la pacificación institucional de Cataluña bajo gobierno socialista."
+   },
+   "vocab": [
+    [
+     "las elecciones generales anticipadas",
+     "les élections législatives anticipées"
+    ],
+    [
+     "la soberanía nacional y europea",
+     "la souveraineté nationale et européenne"
+    ],
+    [
+     "la injerencia extranjera",
+     "l'ingérence étrangère"
+    ],
+    [
+     "arremeter contra la oposición",
+     "attaquer vivement / étriller l'opposition"
+    ],
+    [
+     "el Estado del bienestar",
+     "l'État-providence"
+    ],
+    [
+     "movilizar al electorado progresista",
+     "mobiliser l'électorat de gauche / progressiste"
+    ]
+   ],
+   "sujets": [
+    "¿Se ha convertido España en el principal laboratorio europeo del choque entre socialdemocracia y derecha radical?",
+    "¿Qué papel juega la política exterior en la campaña electoral española del 29 de noviembre?"
+   ]
+  },
+  {
+   "id": "2026-11-02-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/us/2026-11-01/daron-acemoglu-si-los-democratas-creen-que-todo-puede-volver-a-la-normalidad-sera-una-victoria-peligrosa.html",
+   "minutes": 3,
+   "titre": "Pour Daron Acemoglu, « si les démocrates croient que tout peut revenir à la normale, ce sera une victoire dangereuse »",
+   "faits": "Dans un grand entretien publié le 1er novembre par El País à l'occasion de la sortie de son nouveau livre sur la crise de la démocratie libérale et à la veille des élections de mi-mandat américaines, le prix Nobel d'économie 2024 Daron Acemoglu met en garde l'opposition démocrate. Selon le professeur du MIT, même si les démocrates remportent le Congrès ce 3 novembre face à Donald Trump, « ce sera une victoire dangereuse s'ils croient que tout peut simplement revenir à la normale ». Acemoglu estime que le trumpisme et la vague mondiale des populismes autoritaires ne sont pas des accidents électoraux, mais le produit de quarante années d'échec des démocraties occidentales à tenir leur promesse de prospérité partagée. La mondialisation débridée, l'affaiblissement des syndicats et une automatisation conçue uniquement pour remplacer la main-d'œuvre ont creusé les inégalités et déclassé les travailleurs sans diplôme universitaire, qui se sont détournés des partis traditionnels.",
+   "enjeux": "Cette analyse prolonge la thèse célèbre de **Daron Acemoglu et James Robinson** (*Why Nations Fail*, 2012) sur le rôle décisif des **institutions inclusives** dans le développement économique et la stabilité démocratique. Pour Acemoglu, les démocraties occidentales et latino-américaines traversent une crise de légitimité parce que leurs institutions sont devenues de plus en plus **extractives** au profit d'une élite financière et technologique. À cela s'ajoute aujourd'hui le déploiement de l'**intelligence artificielle** contrôlée par une poignée de monopoles de la Silicon Valley : si l'IA sert uniquement à surveiller les salariés et à comprimer les salaires plutôt qu'à augmenter la productivité des travailleurs qualifiés et intermédiaires, elle aggravera encore la polarisation politique. Sauver la démocratie libérale exige donc de refonder l'État social et d'orienter le progrès technologique vers l'emploi.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Acemoglu_2016.png",
+    "alt": "L'économiste Daron Acemoglu, professeur au MIT et colauréat du prix Nobel d'économie 2024",
+    "credit": "Financial Times / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Acemoglu_2016.png"
+   },
+   "vo": {
+    "titre": "Daron Acemoglu: «Si los demócratas creen que todo puede volver a la normalidad, será una victoria peligrosa»",
+    "faits": "En una amplia entrevista publicada el 1 de noviembre por El País con motivo de su nuevo libro sobre la crisis de la democracia liberal y en vísperas de las elecciones de medio mandato en Estados Unidos, el premio Nobel de Economía 2024, Daron Acemoglu, lanzó una severa advertencia al Partido Demócrata. Según el catedrático del MIT, aunque los demócratas logren recuperar el Congreso este 3 de noviembre frente a Donald Trump, «será una victoria peligrosa si creen que todo puede volver simplemente a la normalidad». Acemoglu sostiene que el trumpismo y el auge global del populismo autoritario no son anomalías pasajeras, sino el resultado de cuatro décadas en las que las democracias occidentales incumplieron su promesa de prosperidad compartida. La globalización desregulada, el debilitamiento sindical y una automatización orientada a sustituir trabajadores dispararon la desigualdad y marginaron a la clase trabajadora sin título universitario.",
+    "enjeux": "El diagnóstico conecta directamente con la célebre teoría de Daron Acemoglu y James Robinson sobre las instituciones inclusivas frente a las instituciones extractivas. Para el economista, las democracias liberales de Occidente y de América Latina sufren una profunda crisis de legitimidad porque sus instituciones han permitido una concentración extrema de la riqueza y del poder en manos de una reducido grupo de grandes corporaciones tecnológicas y financieras. Esta fractura corre el riesgo de agravarse con la inteligencia artificial: si los gigantes de Silicon Valley utilizan la IA solo para recortar costes laborales y controlar la información en lugar de complementar al trabajador, la polarización social será aún mayor. Defender la democracia exige, por tanto, reformar el capitalismo y reorientar el cambio tecnológico."
+   },
+   "vocab": [
+    [
+     "las elecciones de medio mandato",
+     "les élections de mi-mandat (midterms)"
+    ],
+    [
+     "la prosperidad compartida",
+     "la prospérité partagée"
+    ],
+    [
+     "las instituciones inclusivas / extractivas",
+     "les institutions inclusives / extractives"
+    ],
+    [
+     "la clase trabajadora sin título universitario",
+     "la classe ouvrière / populaire non diplômée du supérieur"
+    ],
+    [
+     "el auge del populismo autoritario",
+     "la montée du populisme autoritaire"
+    ],
+    [
+     "reorientar el cambio tecnológico",
+     "réorienter le progrès technologique"
+    ]
+   ],
+   "sujets": [
+    "¿Es el auge del populismo en Occidente y América Latina consecuencia del fracaso económico de las élites liberales?",
+    "¿Amenaza la inteligencia artificial con agravar la desigualdad y debilitar aún más las democracias?"
+   ]
+  },
+  {
+   "id": "2026-11-02-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/chile/2026-11-01/el-gobierno-de-kast-ve-un-ataque-politico-de-la-oposicion-en-la-crisis-por-las-rebajas-de-condenas-a-pedrastras.html",
+   "minutes": 3,
+   "titre": "Chili : le gouvernement de José Antonio Kast ébranlé par la libération de 56 condamnés pour crimes sexuels sur mineurs",
+   "faits": "Le président chilien d'extrême droite José Antonio Kast traverse la crise politique la plus grave depuis son arrivée au palais de La Moneda en mars 2026. Comme le rapporte El País le 1er novembre, le ministère de la Justice a signé des décrets accordant des réductions de peine administratives à une centaine de détenus, parmi lesquels figuraient 56 personnes condamnées pour des crimes sexuels sur des mineurs, dont la grande majorité sont déjà sorties de prison. Face au scandale national, le sous-secrétaire à la Justice Luis Silva a été limogé après avoir diffusé sans autorisation une vidéo où il tentait de justifier sa signature. Si José Antonio Kast a reconnu une « erreur » et admis que « l'État a failli envers les victimes », il refuse de renvoyer son ministre de la Justice, Fernando Rabat, et dénonce désormais une « attaque politique » de l'opposition de gauche. Celle-ci a annoncé le dépôt d'une mise en accusation constitutionnelle (acusación constitucional) devant le Parlement pour destituer le ministre.",
+   "enjeux": "Cette affaire frappe au cœur même de la légitimité politique de **José Antonio Kast**, élu sur une promesse d'ordre implacable (*mano dura*), de tolérance zéro contre la criminalité et d'allongement des peines de prison. Durant le mandat de son prédécesseur de gauche **Gabriel Boric**, le camp de Kast avait précisément utilisé les grâces présidentielles (*indultos*) accordées à des manifestants de 2019 pour accuser le gouvernement de laxisme sécuritaire et pousser la ministre de la Justice de l'époque à la démission. Voir aujourd'hui sa propre administration libérer par négligence bureaucratique des dizaines de pédocriminels retourne cet argumentaire contre La Moneda et fracture jusqu'à sa propre coalition de droite. Au-delà de la tempête parlementaire, la crise révèle le décalage fréquent en Amérique latine entre la **rhétorique du populisme pénal** et la capacité réelle à gérer l'appareil administratif et pénitentiaire de l'État.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Palacio_de_La_Moneda_-_miguelreflex.jpg/1280px-Palacio_de_La_Moneda_-_miguelreflex.jpg",
+    "alt": "Le palais présidentiel de La Moneda à Santiago du Chili",
+    "credit": "Miguelreflex / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_La_Moneda_-_miguelreflex.jpg"
+   },
+   "vo": {
+    "titre": "Chile: el Gobierno de José Antonio Kast se sacude por la rebaja de condenas a 56 agresores sexuales de menores",
+    "faits": "El presidente chileno de ultraderecha, José Antonio Kast, afronta la crisis política más grave desde su llegada al Palacio de La Moneda en marzo de 2026. Según informó El País el 1 de noviembre, el Ministerio de Justicia firmó decretos que concedieron rebajas de condena administrativas a más de un centenar de reclusos, entre los que se encontraban 56 condenados por delitos sexuales contra menores, la mayoría de los cuales ya han quedado en libertad. Ante la conmoción nacional, el subsecretario de Justicia, Luis Silva, fue destituido tras publicar sin autorización un vídeo en el que intentaba justificar su firma. Aunque Kast reconoció un «error» y admitió que «el Estado les falló a las víctimas», se niega a cesar al ministro de Justicia, Fernando Rabat, y atribuye ahora la ofensiva a un «ataque político» de la oposición de izquierdas. Esta ha anunciado una acusación constitucional en el Congreso para destituir e inhabilitar al ministro.",
+    "enjeux": "El escándalo golpea directamente la línea de flotación política de José Antonio Kast, quien ganó las elecciones con un discurso de «mano dura», tolerancia cero frente a la delincuencia y endurecimiento de las penas. Durante el mandato de su predecesor progresista, Gabriel Boric, la derecha utilizó precisamente los indultos presidenciales a manifestantes del estallido social para acusar al Ejecutivo de impunidad y forzar la caída de la entonces ministra de Justicia. Que sea ahora la propia administración de Kast la que excarcele por negligencia burocrática a decenas de pederastas vuelve ese argumento en su contra y abre grietas incluso dentro del oficialismo. Más allá del pulso parlamentario, la crisis evidencia la distancia entre la retórica del populismo punitivo y la gestión eficaz del Estado en América Latina."
+   },
+   "vocab": [
+    [
+     "la rebaja de condena / el indulto",
+     "la réduction de peine / la grâce"
+    ],
+    [
+     "una acusación constitucional",
+     "une procédure parlementaire de destitution (d'un ministre au Chili)"
+    ],
+    [
+     "la política de «mano dura»",
+     "la politique de fermeté sécuritaire / tolérance zéro"
+    ],
+    [
+     "el populismo punitivo",
+     "le populisme pénal"
+    ],
+    [
+     "el oficialismo / la oposición",
+     "la majorité au pouvoir / l'opposition"
+    ],
+    [
+     "destituir e inhabilitar a un cargo público",
+     "destituer et frapper d'inéligibilité un responsable public"
+    ]
+   ],
+   "sujets": [
+    "¿Por qué la inseguridad y la política penitenciaria se han convertido en el eje central de la política chilena?",
+    "¿Demuestra la crisis del Gobierno de Kast los límites del discurso de «mano dura» en América Latina?"
+   ]
+  },
+  {
+   "id": "2026-11-02-allemand-1",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/politik/deutschland/rente-friedrich-merz-verteidigt-reformvorschlaege-im-bundestag-und-spricht-von-einem-grossen-schritt-fuer-die-altersversorgung-a-f3ab788a-2745-4bd2-95f6-c7a7ec1ef9c1",
+   "minutes": 3,
+   "titre": "Réforme des retraites en Allemagne : 74 % des citoyens rejettent la suppression de la retraite à 63 ans voulue par Friedrich Merz",
+   "faits": "Le chancelier allemand Friedrich Merz (CDU) défend devant le Bundestag les propositions de sa commission d'experts sur les retraites (Rentenkommission), qu'il qualifie de « grand pas en avant » pour refonder le système de pension d'ici la fin de l'année 2026. Le projet prévoit de transformer progressivement la retraite publique par répartition en une simple « couverture de base » (Basisabsicherung) complétée obligatoirement par des placements privés par capitalisation et par les retraites d'entreprise. Surtout, la commission recommande de supprimer la retraite anticipée sans décote après 45 années de cotisation (la « Rente mit 63 », aujourd'hui accessible vers 65 ans) et d'indexer automatiquement l'âge légal de départ — actuellement en route vers 67 ans — sur l'espérance de vie. Or, selon un sondage ZDF-Politbarometer publié début novembre, 74 % des Allemands rejettent la fin de la retraite anticipée après 45 ans de travail, une hostilité partagée par les syndicats et une grande partie du SPD.",
+   "enjeux": "Cette bataille des retraites touche au cœur du contrat social allemand à l'heure où la génération du **baby-boom** part massivement à la retraite. Avec un système par répartition (*Umlageverfahren*) où de moins en moins d'actifs financent de plus en plus de pensionnés, le budget fédéral verse déjà plus de **120 milliards d'euros de subventions annuelles** à la caisse de retraite pour maintenir le niveau des pensions à 48 % du salaire moyen. Pour Friedrich Merz et l'aile libérale de la CDU, allonger la durée d'activité et développer la **retraite par capitalisation** (*Aktienrente* / épargne privée subventionnée) est indispensable pour éviter une explosion des cotisations sociales qui pénaliserait la compétitivité des entreprises. Mais pour le partenaire social-démocrate (SPD) et les syndicats de l'industrie, supprimer la retraite après 45 ans de cotisation trahirait les ouvriers qui ont commencé à travailler tôt dans des métiers pénibles.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Reichstag_building_Berlin_view_from_west_before_sunset.jpg/1280px-Reichstag_building_Berlin_view_from_west_before_sunset.jpg",
+    "alt": "Le palais du Reichstag à Berlin, siège du Bundestag allemand",
+    "credit": "Jörg Braukmann / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Reichstag_building_Berlin_view_from_west_before_sunset.jpg"
+   },
+   "vo": {
+    "titre": "Rentenreform in Deutschland: Friedrich Merz verteidigt Pläne zur Abschaffung der Rente nach 45 Beitragsjahren gegen breiten Widerstand",
+    "faits": "Bundeskanzler Friedrich Merz (CDU) verteidigt im Bundestag die Vorschläge der eingesetzten Rentenkommission und spricht von einem „großen Schritt für die Altersversorgung“, der noch bis Ende 2026 in Gesetze gegossen werden soll. Nach den Plänen soll die gesetzliche Rente künftig stärker als „Basisabsicherung“ dienen, während betriebliche und staatlich geförderte private kapitalgedeckte Vorsorge deutlich ausgebaut werden. Vor allem empfiehlt die Kommission, die abschlagsfreie Frührente für besonders langjährig Versicherte nach 45 Beitragsjahren – die sogenannte „Rente mit 63“ – abzuschaffen und das gesetzliche Renteneintrittsalter künftig automatisch an die steigende Lebenserwartung zu koppeln. Laut einem Anfang November veröffentlichten ZDF-Politbarometer lehnen jedoch 74 Prozent der Bürgerinnen und Bürger ein Ende der abschlagsfreien Rente nach 45 Arbeitsjahren ab; auch Gewerkschaften und weite Teile des Koalitionspartners SPD laufen Sturm.",
+    "enjeux": "Der Rentenstreit rührt an den Kern des deutschen Sozialstaats in dem Moment, in dem die geburtenstarken Jahrgänge der Babyboomer in den Ruhestand treten. Im Umlageverfahren müssen immer weniger Beitragszahler immer mehr Rentner finanzieren, weshalb bereits heute über 120 Milliarden Euro pro Jahr aus dem Bundeshaushalt in die Rentenkasse fließen, um das Rentenniveau bei 48 Prozent zu stabilisieren. Für Friedrich Merz und den Wirtschaftsflügel der Union sind längeres Arbeiten und mehr Kapitaldeckung unverzichtbar, um einen Anstieg der Lohnnebenkosten zu verhindern, der den Industriestandort weiter schwächen würde. Für die SPD und die Gewerkschaften hingegen käme die Abschaffung der Rente nach 45 Beitragsjahren einem Wortbruch gegenüber Arbeitnehmern gleich, die früh ins Berufsleben gestartet sind und körperlich hart gearbeitet haben."
+   },
+   "vocab": [
+    [
+     "die gesetzliche Rente / das Umlageverfahren",
+     "la retraite publique / le système par répartition"
+    ],
+    [
+     "die kapitalgedeckte Altersvorsorge",
+     "la retraite par capitalisation"
+    ],
+    [
+     "die abschlagsfreie Rente nach 45 Beitragsjahren",
+     "la retraite à taux plein (sans décote) après 45 ans de cotisation"
+    ],
+    [
+     "das Renteneintrittsalter",
+     "l'âge de départ à la retraite"
+    ],
+    [
+     "die Lohnnebenkosten",
+     "les cotisations sociales (charges salariales et patronales)"
+    ],
+    [
+     "der demografische Wandel",
+     "le changement / vieillissement démographique"
+    ]
+   ],
+   "sujets": [
+    "Ist das deutsche Rentensystem angesichts des demografischen Wandels noch finanzierbar?",
+    "Führt der Umbau der gesetzlichen Rente zur „Basisabsicherung“ zu einem Bruch mit dem deutschen Sozialmodell?"
+   ]
+  },
+  {
+   "id": "2026-11-02-allemand-2",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/politik/2026-11/spritpreisdeckel-cdu-katherina-reiche-benzin-diesel-gxe",
+   "minutes": 3,
+   "titre": "Plafond sur le prix des carburants : le projet très restrictif de Katherina Reiche divise la coalition à Berlin",
+   "faits": "Alors que le rabais fiscal temporaire sur les carburants (Tankrabatt) adopté face à la guerre au Moyen-Orient expire le 31 décembre 2026, la ministre fédérale de l'Économie Katherina Reiche (CDU) a présenté début novembre son avant-projet de « loi sur le prix maximal des carburants » (Kraftstoffhöchstpreisgesetz), censée entrer en vigueur le 1er janvier 2027. Selon le texte révélé par Die Zeit, ce plafonnement du prix de l'essence et du diesel à la pompe serait soumis à des conditions extrêmement strictes. Le gouvernement ne pourrait l'activer par décret pour trois mois que si les prix hors taxes en Allemagne dépassent de plus de cinq points de pourcentage l'évolution moyenne observée dans l'Union européenne pendant trois semaines consécutives. Le dispositif serait surveillé par l'Office fédéral des cartels (Bundeskartellamt) avec des amendes allant jusqu'à 500 000 euros, mais devrait être immédiatement suspendu au moindre risque de pénurie d'approvisionnement.",
+   "enjeux": "Ce texte illustre les tensions idéologiques au sein de la **grande coalition** (*Schwarz-Rot*) autour de l'**intervention de l'État dans les mécanismes de prix**. Pour le SPD, qui avait exigé ce plafonnement en échange de son accord à une baisse temporaire de la taxe sur l'énergie, il s'agissait d'empêcher les géants pétroliers de gonfler leurs **marges de raffinage** sur le dos des automobilistes pendulaires. Mais la ministre CDU Katherina Reiche et la plupart des économistes allemands, fidèles à la tradition **ordolibérale** de l'**économie sociale de marché** (*Soziale Marktwirtschaft*), redoutent qu'un contrôle administratif des prix ne provoque des files d'attente et des **ruptures d'approvisionnement**, les importateurs préférant vendre leur carburant dans les pays voisins non plafonnés. En fixant des critères quasi impossibles à réunir, le ministère de l'Économie vide de fait la promesse sociale-démocrate de sa substance.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2021-09-06-Unternehmenspraesentation-Locationshooting---HighEnd-offenblende-JAKU-4_HiRes.jpg/1280px-2021-09-06-Unternehmenspraesentation-Locationshooting---HighEnd-offenblende-JAKU-4_HiRes.jpg",
+    "alt": "Une station-service en Allemagne avec l'affichage lumineux des prix de l'essence et du diesel",
+    "credit": "JAKU / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2021-09-06-Unternehmenspraesentation-Locationshooting---HighEnd-offenblende-JAKU-4_HiRes.jpg"
+   },
+   "vo": {
+    "titre": "Spritpreisdeckel: Katherina Reiches restriktiver Gesetzentwurf sorgt für Streit in der Berliner Koalition",
+    "faits": "Da der wegen des Krieges im Nahen Osten eingeführte befristete Tankrabatt am 31. Dezember 2026 ausläuft, hat Bundeswirtschaftsministerin Katherina Reiche (CDU) Anfang November ihren ersten Entwurf für ein „Kraftstoffhöchstpreisgesetz“ vorgelegt, das zum 1. Januar 2027 in Kraft treten soll. Wie die Zeit berichtet, knüpft die Ministerin einen staatlichen Preisdeckel für Benzin und Diesel jedoch an extrem hohe Hürden. Demnach kann die Bundesregierung eine Preisobergrenze für maximal drei Monate nur dann per Verordnung aktivieren, wenn die Nettokraftstoffpreise in Deutschland drei Wochen lang um mehr als fünf Prozentpunkte stärker steigen als im Durchschnitt der Europäischen Union. Das Bundeskartellamt soll die Einhaltung überwachen und Bußgelder bis zu 500.000 Euro verhängen können; drohen jedoch Versorgungsengpässe an den Tankstellen, muss der Deckel sofort wieder aufgehoben werden.",
+    "enjeux": "Der Entwurf legt den ordnungspolitischen Grundkonflikt innerhalb der schwarz-roten Koalition über staatliche Preiseingriffe offen. Die SPD hatte den Spritpreisdeckel als Bedingung für ihre Zustimmung zur befristeten Energiesteuersenkung durchgesetzt, um zu verhindern, dass Mineralölkonzerne die Krise für überhöhte Gewinnmargen auf Kosten der Pendler ausnutzen. Wirtschaftsministerin Reiche und führende Ökonomen stehen direkten Preisobergrenzen in der Tradition der Sozialen Marktwirtschaft hingegen äußerst skeptisch gegenüber: Sie warnen vor einer Mangelwirtschaft, da Händler Kraftstoffe bei künstlich gedrückten Preisen lieber ins europäische Ausland verkaufen würden. Mit den kaum erfüllbaren Kriterien im Gesetzentwurf entschärft das CDU-geführte Wirtschaftsministerium das sozialdemokratische Projekt weitgehend."
+   },
+   "vocab": [
+    [
+     "der Spritpreisdeckel / die Preisobergrenze",
+     "le plafonnement du prix des carburants / le prix plafond"
+    ],
+    [
+     "der Tankrabatt",
+     "la remise fiscale à la pompe"
+    ],
+    [
+     "das Bundeskartellamt",
+     "l'Office fédéral des cartels (autorité de la concurrence)"
+    ],
+    [
+     "der Versorgungsengpass",
+     "la pénurie / le goulet d'étranglement d'approvisionnement"
+    ],
+    [
+     "staatliche Preiseingriffe",
+     "les interventions de l'État sur les prix"
+    ],
+    [
+     "die Pendler (Pl.)",
+     "les travailleurs pendulaires (qui font la navette domicile-travail)"
+    ]
+   ],
+   "sujets": [
+    "Sind staatliche Preisdeckel bei Energie und Kraftstoffen mit der Sozialen Marktwirtschaft vereinbar?",
+    "Wie sollte der Staat Bürgerinnen und Bürger bei externen Energiepreisschocks entlasten?"
+   ]
+  },
+  {
+   "id": "2026-11-02-allemand-3",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/politik/deutschland/2026-11/gruengasquote-gruenheizoelquote-klimaschutz-heizungen-mieter-gxe",
+   "minutes": 3,
+   "titre": "Chauffage : le futur quota de gaz et de fioul « verts » accusé de faire exploser les charges des locataires allemands",
+   "faits": "Les grandes organisations environnementales (WWF, Greenpeace, Deutsche Umwelthilfe) et la Fédération allemande des locataires (Deutscher Mieterbund) ont vivement attaqué les 1er et 2 novembre dans Die Zeit les contours du futur « quota de gaz vert et de fioul vert » (Grüngas- und Grünheizölquote) préparé par le ministère de l'Économie. Ce mécanisme est la pièce maîtresse de la nouvelle loi de modernisation des bâtiments (Gebäudemodernisierungsgesetz), par laquelle la coalition de Friedrich Merz remplace la très controversée loi sur le chauffage (Heizungsgesetz) de l'ancien ministre écologiste Robert Habeck. Au lieu d'interdire l'installation de chaudières à gaz ou à fioul neuves, le texte oblige les fournisseurs d'énergie à incorporer une part croissante de biométhane, d'hydrogène vert ou de biofioul : 1 % en 2028, 5 % en 2030, 20 % en 2035, 50 % en 2040 et 100 % en 2045. Or cette obligation ne s'appliquera qu'aux ménages privés, en exemptant totalement l'industrie et les centrales électriques.",
+   "enjeux": "Cette réforme illustre le revirement de la politique climatique allemande au nom de l'« **ouverture technologique** » (*Technologieoffenheit*), mais soulève un grave problème de **justice sociale**. Pendant la campagne électorale, la CDU avait promis d'abolir la loi Habeck qui imposait de fait le passage aux **pompes à chaleur**, jugée trop coûteuse et intrusive par les propriétaires. Cependant, le biométhane et l'hydrogène vert sont des ressources rares, très onéreuses et indispensables à la décarbonation de l'industrie lourde. En laissant les propriétaires installer de nouvelles chaudières à gaz tout en imposant aux fournisseurs d'y mêler des gaz verts hors de prix, le gouvernement crée un **piège financier pour les locataires** (*Kostenfalle für Mieter*) : dans un pays où plus de la moitié de la population est locataire, le propriétaire choisit le mode de chauffage, mais c'est le locataire qui paiera plein pot la facture de biogaz.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Danfoss_thermostatic_radiator_valve.jpg/1280px-Danfoss_thermostatic_radiator_valve.jpg",
+    "alt": "Une vanne thermostatique de radiateur de chauffage domestique",
+    "credit": "Santeri Viinamäki / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Danfoss_thermostatic_radiator_valve.jpg"
+   },
+   "vo": {
+    "titre": "Heizungsreform: Geplante Grüngas- und Grünheizölquote wird als „teure Scheinlösung“ auf Kosten der Mieter kritisiert",
+    "faits": "Umweltverbände wie WWF, Greenpeace und die Deutsche Umwelthilfe sowie der Deutsche Mieterbund haben am 1. und 2. November in der Zeit scharfe Kritik an den Eckpunkten des Wirtschaftsministeriums für die neue „Grüngas- und Grünheizölquote“ geübt. Diese Quote bildet das Herzstück des neuen Gebäudemodernisierungsgesetzes, mit dem die Koalition von Friedrich Merz das umstrittene Heizungsgesetz des früheren Grünen-Ministers Robert Habeck ersetzt. Statt den Einbau neuer Gas- und Ölheizungen zu beschränken, verpflichtet die Regierung die Brennstofflieferanten, dem Gas und Heizöl schrittweise mehr Biomethan, grünen Wasserstoff oder Bioöl beizumischen: ein Prozent ab 2028, fünf Prozent ab 2030, 20 Prozent ab 2035, 50 Prozent ab 2040 und 100 Prozent bis 2045. Brisant ist dabei, dass die Pflicht ausschließlich für private Haushalte gelten soll, während Industrie und Kraftwerke ausgenommen werden.",
+    "enjeux": "Die Reform verdeutlicht den Kurswechsel der deutschen Klimapolitik unter dem Schlagwort der „Technologieoffenheit“, wirft jedoch erhebliche soziale Verteilungsfragen auf. Im Wahlkampf hatte die Union versprochen, Habecks Fokus auf Wärmepumpen abzuschaffen, den viele Hausbesitzer als Bevormundung empfanden. Doch Biomethan und grüner Wasserstoff sind knapp, in der Herstellung extrem teuer und werden eigentlich dringend in der Industrie benötigt. Wenn Vermieter nun weiterhin billige Gasheizungen einbauen dürfen, die Versorger aber immer teurere grüne Gase beimischen müssen, entsteht eine Kostenfalle im Mietrecht: In der Mieterrepublik Deutschland entscheidet der Eigentümer über die Heizung, während die explodierenden Brennstoffkosten über die Nebenkostenabrechnung an den Mieterinnen und Mietern hängen bleiben."
+   },
+   "vocab": [
+    [
+     "die Grüngasquote",
+     "le quota d'incorporation de gaz vert (biométhane, hydrogène)"
+    ],
+    [
+     "das Heizungsgesetz / Gebäudemodernisierungsgesetz",
+     "la loi sur le chauffage / la loi de modernisation des bâtiments"
+    ],
+    [
+     "die Technologieoffenheit",
+     "l'ouverture / la neutralité technologique"
+    ],
+    [
+     "eine teure Scheinlösung",
+     "une fausse solution coûteuse"
+    ],
+    [
+     "die Nebenkostenabrechnung",
+     "le décompte des charges locatives"
+    ],
+    [
+     "auf die Mieter abwälzen",
+     "répercuter (les coûts) sur les locataires"
+    ]
+   ],
+   "sujets": [
+    "Ist die „Technologieoffenheit“ beim Heizen ein realistischer Weg zum Klimaschutz oder eine Kostenfalle für Mieter?",
+    "Warum ist die Wärmewende im Wohnungsbestand in der Mieterrepublik Deutschland politisch so konfliktbeladen?"
+   ]
+  }
+ ]
+}

@@ -1585,6 +1585,526 @@
      ]
     }
    ]
+  },
+  {
+   "id": "course-aux-guichets",
+   "nom": "Course aux guichets et transformation bancaire",
+   "categorie": "monnaie",
+   "type": "Théorie",
+   "annee": "1983",
+   "auteur": "Douglas Diamond et Philip Dybvig",
+   "accroche": "Une banque saine peut faire faillite en quelques heures si tous ses clients retirent leur argent en même temps par peur que les autres ne le fassent avant eux.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Douglas Diamond** et **Philip Dybvig**, « Bank Runs, Deposit Insurance, and Liquidity » (*Journal of Political Economy*, 1983). Ils ont reçu le **prix Nobel d'économie 2022** avec Ben Bernanke pour leurs travaux sur le rôle des banques et les crises financières.",
+      "Ils formalisent le paradoxe fondamental du métier bancaire : les banques sont indispensables parce qu'elles transforment des dépôts courts en crédits longs, mais cette **transformation d'échéances** les rend structurellement vulnérables aux paniques collectives."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "La banque collecte des **dépôts à vue** que les clients peuvent retirer à tout instant (**passif liquide**).",
+      "Avec cet argent, elle finance des **crédits immobiliers ou d'investissement** sur dix ou vingt ans (**actif illiquide**).",
+      "En temps normal, seule une petite fraction des clients retire son argent le même jour : la banque garde peu de réserves.",
+      "Mais si une rumeur fait croire que la banque va manquer de liquidités, chaque déposant a intérêt à **courir au guichet** le premier : la panique est **auto-réalisatrice** et force la banque à brader ses actifs jusqu'à la faillite."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Une crise bancaire n'est pas forcément due à de mauvais crédits (**insolvabilité**) : elle peut frapper une banque solvable par simple **illiquidité** résultant d'un défaut de coordination entre déposants. Le modèle justifie deux piliers de la régulation moderne : l'**assurance publique des dépôts** (jusqu'à 100 000 euros en Europe) et le rôle de **prêteur en dernier ressort** de la banque centrale."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La loi de Bagehot (1873)",
+       "d": "Dans *Lombard Street*, Walter Bagehot énonce la règle du **prêteur en dernier ressort** : en cas de panique, la banque centrale doit prêter sans limite aux banques solvables, contre de bonnes garanties."
+      },
+      {
+       "t": "Le « bank run » numérique (Silicon Valley Bank, 2023)",
+       "d": "Avec les smartphones et les réseaux sociaux, les retraits ne se font plus en faisant la queue sur le trottoir : 42 milliards de dollars ont quitté SVB en quelques heures."
+      },
+      {
+       "t": "Le débat sur l'euro numérique (MNBC)",
+       "d": "Si la BCE offrait un compte numérique illimité aux citoyens, chacun transférerait son argent vers la banque centrale à la moindre inquiétude : d'où le plafond de **3 000 euros**."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Protéger intégralement les banques contre les courses aux guichets crée en retour un puissant **aléa moral** : sachant que l'État et la banque centrale garantiront les dépôts pour éviter une panique systémique, les dirigeants bancaires peuvent être tentés de prendre des risques excessifs ou de conserver trop peu de liquidités."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'euro numérique et les stablecoins",
+       "d": "Expliquer pourquoi la BCE plafonne le futur portefeuille numérique à 3 000 euros afin de préserver les dépôts des banques commerciales."
+      },
+      {
+       "t": "Les crises bancaires (1929, 2008, 2023)",
+       "d": "Distinguer une crise de **liquidité** d'une crise de **solvabilité** et analyser les sauvetages publics."
+      },
+      {
+       "t": "Les accords de Bâle III",
+       "d": "Imposition de ratios de liquidité à court terme (*Liquidity Coverage Ratio*) après la crise de 2008."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Walter Bagehot (1873)",
+       "idee": "la banque centrale doit prêter en dernier ressort pour stopper les paniques"
+      },
+      {
+       "sens": "=",
+       "nom": "Robert K. Merton (1948)",
+       "idee": "la course aux guichets est l'exemple type de la prophétie auto-réalisatrice"
+      },
+      {
+       "sens": "≠",
+       "nom": "Kenneth Arrow (1963)",
+       "idee": "l'assurance des dépôts qui empêche le bank run nourrit l'aléa moral des banquiers"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "concurrence-des-monnaies",
+   "nom": "Concurrence des monnaies et souveraineté monétaire",
+   "categorie": "monnaie",
+   "type": "Théorie",
+   "annee": "1976",
+   "auteur": "Friedrich Hayek",
+   "accroche": "Et si l'État perdait le monopole de battre monnaie ? Pour Hayek, laisser des monnaies privées se faire concurrence obligerait chacune à préserver son pouvoir d'achat.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Friedrich Hayek**, *Denationalisation of Money* (*Pour une vraie concurrence des monnaies*, 1976) ; prix Nobel d'économie 1974.",
+      "En pleine stagflation des années 1970, le chef de file de l'**école autrichienne** estime que les gouvernements abusent systématiquement du monopole des banques centrales pour financer leurs déficits par la planche à billets et l'inflation. Sa solution radicale : **privatiser la monnaie**."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "Le monopole étatique du **cours légal** est aboli : toute banque ou entreprise peut émettre sa propre monnaie privée.",
+      "Les citoyens et les commerçants choisissent librement la devise qu'ils utilisent pour leurs contrats et leur épargne.",
+      "Si un émetteur crée trop de monnaie, sa devise se déprécie et le public la fuit immédiatement au profit d'une concurrente plus stable.",
+      "La **concurrence sur le marché des monnaies** sélectionne spontanément les devises au pouvoir d'achat stable, sans banque centrale."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Longtemps jugée purement théorique, la thèse de Hayek connaît une seconde jeunesse avec les **cryptomonnaies** (Bitcoin, né en 2009 d'une défiance libertarienne envers les banques centrales) et les **stablecoins** émis par des géants privés. Par contraste, elle permet de comprendre pourquoi les États et les banques centrales défendent vigoureusement leur **souveraineté monétaire**."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La monnaie comme institution sociale (Aglietta et Orléan)",
+       "d": "Dans *La Violence de la monnaie* (1982) et *La Monnaie souveraine* (1998), Michel Aglietta et André Orléan montrent que la monnaie n'est pas une marchandise ordinaire : elle repose sur la **confiance politique et collective** garantie par l'État."
+      },
+      {
+       "t": "Les effets de réseau et le monopole naturel",
+       "d": "Utiliser la même unité de compte que tout le monde réduit les coûts de transaction : multiplier les monnaies privées fragmenterait les échanges."
+      },
+      {
+       "t": "La guerre des paiements numériques",
+       "d": "Face au duopole américain **Visa-Mastercard**, aux stablecoins en dollars et au yuan numérique, la BCE prépare l'**euro numérique** pour préserver l'ancrage de la monnaie publique."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "L'histoire du **Free Banking** américain au XIXe siècle (où des centaines de banques privées émettaient leurs propres billets) et les faillites à répétition dans les cryptomonnaies (FTX, Terra-Luna en 2022) montrent que les monnaies privées souffrent d'une **instabilité chronique** et de paniques fréquentes faute de prêteur en dernier ressort."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'euro numérique (MNBC)",
+       "d": "Réponse publique de la BCE pour éviter que les paiements européens ne passent sous le contrôle d'acteurs privés ou étrangers."
+      },
+      {
+       "t": "Cryptomonnaies et stablecoins",
+       "d": "Analyser si Bitcoin ou les stablecoins en dollars réalisent l'utopie de Hayek ou menacent la stabilité financière."
+      },
+      {
+       "t": "L'indépendance des banques centrales",
+       "d": "Au lieu de supprimer les banques centrales comme le voulait Hayek, les États les ont rendues **indépendantes** du pouvoir politique pour vaincre l'inflation."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Satoshi Nakamoto (2008)",
+       "idee": "Bitcoin applique l'idée d'une monnaie décentralisée échappant aux États et aux banques centrales"
+      },
+      {
+       "sens": "≠",
+       "nom": "Michel Aglietta et André Orléan (1982, 1998)",
+       "idee": "la monnaie est un bien public et un lien social fondé sur la souveraineté"
+      },
+      {
+       "sens": "≠",
+       "nom": "Milton Friedman (1960)",
+       "idee": "même chez les libéraux, l'émission de monnaie reste un monopole naturel qui doit être encadré par une règle publique"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "croissance-extensive-intensive",
+   "nom": "Croissance extensive et croissance intensive",
+   "categorie": "croissance",
+   "type": "Théorie",
+   "annee": "1956 · 1994",
+   "auteur": "Robert Solow et Paul Krugman",
+   "accroche": "Une économie peut grandir par la « transpiration » en additionnant plus de bras et de machines, mais seule l'« inspiration » — l'efficacité et le progrès technique — assure une croissance durable.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Robert Solow**, « A Contribution to the Theory of Economic Growth » (1956, Nobel 1987) et **Paul Krugman**, « The Myth of Asia's Miracle » (*Foreign Affairs*, 1994, Nobel 2008).",
+      "À partir de la comptabilité de la croissance de Solow, Krugman résume la différence entre les deux moteurs de la croissance par une formule célèbre : « **la croissance asiatique a été tirée par la transpiration plutôt que par l'inspiration** » (*perspiration rather than inspiration*)."
+     ]
+    },
+    {
+     "titre": "Les deux régimes de croissance",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La croissance extensive (« la transpiration »)",
+       "d": "Produire plus en augmentant la **quantité** de facteurs de production : plus d'heures travaillées (démographie, exode rural, immigration) et plus de **capital physique** (usines, bâtiments, infrastructures)."
+      },
+      {
+       "t": "La croissance intensive (« l'inspiration »)",
+       "d": "Produire mieux avec les mêmes ressources grâce aux **gains de productivité** et à la **productivité globale des facteurs (PGF)** : innovation, organisation du travail, qualification, numérique."
+      },
+      {
+       "t": "La loi des rendements décroissants",
+       "d": "Chez Solow, accumuler uniquement des machines par travailleur donne de moins en moins de croissance supplémentaire : sans progrès technique, la croissance extensive finit par **s'épuiser** à l'état stationnaire."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Cette distinction éclaire l'histoire économique mondiale. En **URSS** dans les années 1950 ou dans les **Tigres asiatiques** étudiés par Alwyn Young et Paul Krugman dans les années 1990, des taux de croissance spectaculaires reposaient surtout sur une mobilisation massive d'épargne et de main-d'œuvre qui a fini par ralentir. À l'inverse, dans les économies avancées vieillissantes, seule la **PGF** permet d'élever durablement le niveau de vie par habitant."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les travaux de Carré, Dubois et Malinvaud (1972)",
+       "d": "Dans *La Croissance française*, ils montrent que durant les **Trente Glorieuses**, plus de la moitié de la croissance française venait du résidu (la PGF), donc d'une croissance **intensive**."
+      },
+      {
+       "t": "Le piège du revenu intermédiaire",
+       "d": "Un pays émergent qui a épuisé son réservoir de main-d'œuvre rurale à bas coût stagne s'il ne parvient pas à basculer vers l'innovation (**Aghion** : passage de l'imitation à la frontière technologique)."
+      },
+      {
+       "t": "Le tournant de l'économie espagnole (2024-2026)",
+       "d": "Longtemps dépendante du bâtiment et d'emplois peu qualifiés, l'Espagne affiche un rebond de sa PGF grâce aux services qualifiés (ingénierie, conseil, numérique), malgré un investissement matériel modeste."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Opposer trop rigidement transpiration et inspiration est trompeur : en pratique, le **progrès technique est souvent incorporé au capital** (*embodied technical change*). Pour diffuser de nouveaux logiciels ou décarboner la production, une économie finit toujours par avoir besoin de renouveler ses équipements et ses infrastructures."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'Espagne ou la zone euro en 2026",
+       "d": "Analyser comment un pays peut croître avec peu d'investissement physique grâce aux services à haute valeur ajoutée, et les limites de ce modèle."
+      },
+      {
+       "t": "Le ralentissement chinois",
+       "d": "Fin du modèle extensif (immobilier, infrastructures, main-d'œuvre abondante) et tentative de passage à une croissance intensive par la haute technologie."
+      },
+      {
+       "t": "Croissance et environnement",
+       "d": "La transition écologique exige une croissance purement **intensive**, économe en ressources matérielles et en énergie."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Alwyn Young (1995)",
+       "idee": "mesure statistiquement que le miracle asiatique venait de l'accumulation des facteurs plus que de la PGF"
+      },
+      {
+       "sens": "=",
+       "nom": "Carré, Dubois et Malinvaud (1972)",
+       "idee": "mettent en évidence le poids décisif de la PGF dans les Trente Glorieuses françaises"
+      },
+      {
+       "sens": "≠",
+       "nom": "Paul Romer (1990)",
+       "idee": "le progrès technique n'est pas un résidu tombé du ciel : il résulte d'investissements endogènes dans les idées"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "croissance-endogene",
+   "nom": "Théories de la croissance endogène",
+   "categorie": "croissance",
+   "type": "Théorie",
+   "annee": "1986 · 1990",
+   "auteur": "Paul Romer, Robert Lucas et Robert Barro",
+   "accroche": "Le progrès technique ne tombe pas du ciel : il naît des investissements en recherche, en éducation et en infrastructures, dont les idées profitent à toute l'économie.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Paul Romer** (1986, « Endogenous Technological Change » en 1990, prix Nobel 2018), **Robert Lucas** (1988) et **Robert Barro** (1990), prolongés par **Philippe Aghion** et **Peter Howitt** (1992).",
+      "Ces économistes veulent dépasser la limite du modèle de **Solow** (1956), dans lequel le progrès technique — seul moteur de la croissance à long terme — restait **exogène** (« tombé du ciel », inexpliqué par l'économie). Ils montrent que la croissance s'auto-entretient de l'intérieur grâce à des **externalités positives**."
+     ]
+    },
+    {
+     "titre": "Les quatre grands moteurs endogènes",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La connaissance et la R&D (Paul Romer, 1986 · 1990)",
+       "d": "Une **idée** (formule, logiciel, brevet) est un **bien non rival** : contrairement à une machine, mille entreprises peuvent l'utiliser en même temps, ce qui engendre des **rendements croissants**."
+      },
+      {
+       "t": "Le capital humain (Robert Lucas, 1988)",
+       "d": "Se former augmente sa propre productivité, mais aussi celle de ses collègues par **apprentissage mutuel** : l'éducation génère de fortes externalités."
+      },
+      {
+       "t": "Les infrastructures publiques (Robert Barro, 1990)",
+       "d": "Les transports, les réseaux électriques, la santé et la justice financés par l'impôt rendent l'investissement privé plus productif."
+      },
+      {
+       "t": "L'innovation schumpétérienne (Aghion et Howitt, 1992)",
+       "d": "Les entrepreneurs investissent en R&D pour conquérir une **rente de monopole temporaire** en démodant leurs concurrents."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Comme le **capital immatériel** (recherche, logiciels, compétences) échappe à la loi des rendements décroissants, la croissance peut se poursuivre durablement sans ralentir. En revanche, il n'y a **pas de convergence automatique** entre pays : les régions qui concentrent déjà les chercheurs et les universités attirent encore plus d'innovations et creusent l'écart."
+     ]
+    },
+    {
+     "titre": "Le rôle réhabilité de l'État",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Corriger le sous-investissement privé",
+       "d": "Comme les découvertes se diffusent aux concurrents (**externalités positives**), le rendement social de la R&D dépasse son rendement privé : laissé seul, le marché n'investit pas assez."
+      },
+      {
+       "t": "Les instruments publics",
+       "d": "Subventions à la recherche, **crédit d'impôt recherche**, universités, **brevets** temporaires et investissements dans les infrastructures numériques et décarbonées."
+      },
+      {
+       "t": "Le rapport Draghi (2024)",
+       "d": "Explique le décrochage européen face aux États-Unis par le déficit d'investissement dans la R&D technologique et l'enseignement supérieur."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Charles Jones (1995) et Robert Gordon (2016) soulignent que si le nombre de chercheurs dans le monde a été multiplié par cinq ou dix depuis un demi-siècle, le taux de croissance de la productivité n'a pas explosé : les **idées nouvelles sont de plus en plus difficiles et coûteuses à trouver**."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La croissance par le capital immatériel",
+       "d": "Comprendre comment des économies de services (logiciels, IA, ingénierie) progressent avec moins de capital physique lourd."
+      },
+      {
+       "t": "Les politiques d'offre et de compétitivité",
+       "d": "Justifier les dépenses d'éducation, de recherche et d'infrastructures (France 2030, fonds européens NextGenerationEU) plutôt que la seule baisse des coûts."
+      },
+      {
+       "t": "La croissance verte",
+       "d": "Acemoglu et Aghion montrent que l'État doit orienter la R&D vers les technologies propres par des subventions et un prix du carbone."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Joseph Schumpeter (1942)",
+       "idee": "inspire directement les modèles néo-schumpétériens d'Aghion et Howitt"
+      },
+      {
+       "sens": "≠",
+       "nom": "Robert Solow (1956)",
+       "idee": "rendements décroissants du capital et progrès technique exogène"
+      },
+      {
+       "sens": "≠",
+       "nom": "Robert Gordon (2016)",
+       "idee": "malgré l'explosion de la R&D, les innovations contemporaines rapportent moins de gains de productivité"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "externalites-pigou",
+   "nom": "Externalités et taxe pigouvienne",
+   "categorie": "politiques",
+   "type": "Théorie",
+   "annee": "1920",
+   "auteur": "Arthur Cecil Pigou",
+   "accroche": "Quand polluer est gratuit, le marché produit trop d'activités polluantes : taxer le pollueur l'oblige à intégrer dans ses prix le coût qu'il impose à la société.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Arthur Cecil Pigou**, *The Economics of Welfare* (*L'Économie du bien-être*, 1920).",
+      "Successeur d'Alfred Marshall à Cambridge, Pigou étudie les cas où l'intérêt privé diverge de l'intérêt général : par exemple lorsque les escarbilles d'une locomotive à vapeur brûlent les champs voisins sans que la compagnie de chemin de fer n'indemnise les agriculteurs. C'est ce qu'on appelle aujourd'hui une **externalité**."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "L'activité d'un agent (entreprise ou consommateur) dégrade le bien-être des autres **sans contrepartie monétaire** : le prix de marché est aveugle.",
+      "Le **coût marginal social** (coût privé + dommages écologiques ou sanitaires) est donc supérieur au **coût marginal privé**.",
+      "Laissé à lui-même, le marché conduit à une **surproduction** (externalité négative, comme le CO₂) ou à une **sous-production** (externalité positive, comme les vaccins ou la R&D).",
+      "L'État rétablit la vérité des prix en instaurant une **taxe pigouvienne** égale au dommage marginal : l'externalité est **internalisée**."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La taxe pigouvienne est le fondement théorique du principe **pollueur-payeur** et de la **taxe carbone**. En renchérissant le kérosène, l'essence ou le charbon, ce **signal-prix** incite entreprises et ménages à réduire leurs émissions là où c'est le moins coûteux. On parle de **double dividende** si les recettes de la taxe verte servent en plus à baisser les impôts sur le travail ou à aider les ménages modestes."
+     ]
+    },
+    {
+     "titre": "Les prolongements et alternatives",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le théorème de Coase (1960)",
+       "d": "Dans « The Problem of Social Cost », **Ronald Coase** montre que si les **droits de propriété** sont bien définis et les coûts de transaction nuls, pollueur et pollué peuvent négocier directement sans taxe."
+      },
+      {
+       "t": "Les marchés de quotas (John Dales, 1968)",
+       "d": "Au lieu de fixer le **prix** du carbone par une taxe (Pigou), l'État plafonne la **quantité** totale d'émissions et laisse les entreprises s'échanger des permis : c'est le marché européen **SEQE-UE** (*EU ETS*)."
+      },
+      {
+       "t": "Weitzman (1974) : prix contre quantités",
+       "d": "Martin Weitzman montre comment choisir entre une taxe (qui donne une visibilité sur le prix aux entreprises) et un quota (qui garantit le plafond physique d'émissions)."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Pigou sous-estime le problème d'**acceptabilité sociale** et de **régressivité** de la fiscalité écologique : quand la demande d'énergie est **inélastique** à court terme (automobiliste rural sans transport en commun, locataire chauffé au gaz ou au fioul), renchérir le carburant pèse proportionnellement beaucoup plus sur les ménages modestes, comme l'a illustré la crise des **Gilets jaunes** en 2018."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le transport aérien et les carburants",
+       "d": "Analyser comment la sous-tarification historique du kérosène a dopé le *low-cost*, et comment la hausse du prix de l'énergie ou du carbone transforme ce modèle."
+      },
+      {
+       "t": "Les politiques climatiques (taxe carbone, MACF)",
+       "d": "Comparer l'efficacité économique du signal-prix (taxe, marché carbone) aux normes et aux subventions (comme l'*Inflation Reduction Act* américain)."
+      },
+      {
+       "t": "Justice sociale et transition écologique",
+       "d": "Expliquer pourquoi toute tarification écologique doit être accompagnée d'une **redistribution** vers les ménages contraints."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "William Nordhaus (Nobel 2018)",
+       "idee": "applique la logique pigouvienne au climat en calculant un prix mondial optimal du carbone"
+      },
+      {
+       "sens": "≠",
+       "nom": "Ronald Coase (1960)",
+       "idee": "préfère la négociation de droits de propriété à la taxe étatique"
+      },
+      {
+       "sens": "≠",
+       "nom": "John Dales (1968)",
+       "idee": "contrôler les quantités par un marché de permis d'émission plutôt que les prix par une taxe"
+      }
+     ]
+    }
+   ]
   }
  ]
 }
