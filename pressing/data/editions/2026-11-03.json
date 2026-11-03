@@ -1,0 +1,584 @@
+{
+ "date": "2026-11-03",
+ "cards": [
+  {
+   "id": "2026-11-03-esh-1",
+   "matiere": "esh",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/02/nine-of-world-biggest-oil-firms-95bn-profit-third-quarter-iran-war",
+   "minutes": 3,
+   "titre": "Guerre avec l'Iran : les neuf majors pétrolières mondiales engrangent plus de 95 milliards de dollars de profits en un trimestre",
+   "faits": "Selon une étude du courtier britannique AJ Bell publiée le 2 novembre par le Guardian, les neuf plus grandes compagnies pétrolières cotées dans le monde (Saudi Aramco, ExxonMobil, Chevron, Shell, TotalEnergies, BP, Equinor, Eni et ConocoPhillips) s'apprêtent à dégager plus de 95 milliards de dollars de bénéfices cumulés au troisième trimestre 2026. C'est le troisième trimestre consécutif que les profits de ces géants des hydrocarbures franchissent ce seuil historique, dopés par l'envolée des cours du brut et des marges de raffinage depuis le déclenchement du conflit armé avec l'Iran et les perturbations dans le détroit d'Ormuz. Après la publication de résultats en forte hausse chez Shell, TotalEnergies et les majors américaines, BP présente à son tour ses comptes le 3 novembre avec un bénéfice trimestriel attendu autour de 4 milliards de dollars, en hausse de plus de 70 % sur un an. Cette manne finance des dizaines de milliards de dollars de dividendes et de rachats d'actions au profit des actionnaires, au moment même où le prix de l'essence et des factures de chauffage comprime le niveau de vie des ménages.",
+   "enjeux": "Cette accumulation de **superprofits** (*windfall profits*) met en lumière l'asymétrie redistributive d'un **choc d'offre énergétique** d'origine géopolitique. Lorsque la guerre au Moyen-Orient raréfie l'offre mondiale de brut, le prix international s'aligne sur le coût marginal le plus élevé et sur une prime de risque géopolitique, offrant une **rente** gigantesque aux compagnies dont les coûts d'extraction restent inchangés. Pour les économies importatrices comme la zone euro ou le Royaume-Uni, cette ponction extérieure détériore les **termes de l'échange**, alimente l'**inflation par les coûts** (et ce que certains économistes appellent la *sellers' inflation*) et freine la demande globale. Le fait que ces liquidités soient massivement restituées aux actionnaires via des **rachats d'actions** (*share buybacks*) plutôt qu'investies dans les énergies décarbonées relance le débat sur la taxation exceptionnelle des rentes fossiles pour financer à la fois les boucliers sociaux et la transition climatique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Oil_platform_in_the_North_Sea.jpg/1280px-Oil_platform_in_the_North_Sea.jpg",
+    "alt": "Une plateforme pétrolière offshore en mer du Nord",
+    "credit": "Eirik Newth / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Oil_platform_in_the_North_Sea.jpg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.1 - Équilibres et déséquilibres macroéconomiques"
+   },
+   "auteurs": [
+    {
+     "nom": "David Ricardo",
+     "ouvrage": "Des principes de l'économie politique et de l'impôt",
+     "annee": "1817",
+     "ref": "rente-differentielle",
+     "texte": "Ricardo montre qu'une ressource naturelle rare dont le prix de marché s'élève procure aux propriétaires des gisements les moins coûteux une **rente différentielle** : un revenu pur lié à la rareté et non à l'effort d'innovation ou d'investissement. Les 95 milliards de dollars encaissés en un trimestre par les neuf majors grâce à la guerre avec l'Iran illustrent exactement cette rente géopolitique. À mobiliser pour expliquer le partage de la valeur ajoutée lors d'un choc énergétique et justifier économiquement une taxation des superprofits."
+    },
+    {
+     "nom": "Nicholas Kaldor",
+     "ouvrage": "« Alternative Theories of Distribution »",
+     "annee": "1956",
+     "ref": "partage-valeur-ajoutee-kaldor",
+     "texte": "Dans la tradition post-keynésienne de Kaldor et Kalecki, le **partage de la valeur ajoutée** entre salaires et profits détermine la croissance : comme la **propension à consommer** des salariés est beaucoup plus forte que celle des actionnaires, une déformation du partage au profit des rentes d'entreprise et des dividendes déprime la demande effective si ces profits ne sont pas réinvestis. Le choix des majors pétrolières de privilégier les rachats d'actions confirme ce risque récessif. À mobiliser dans tout sujet sur l'inflation, les profits et la répartition des revenus."
+    }
+   ],
+   "sujets": [
+    "Les superprofits des grandes entreprises sont-ils le signe d'un marché efficace ou d'une économie de rente ?",
+    "Comment le partage de la valeur ajoutée se déforme-t-il en période de choc inflationniste ?"
+   ]
+  },
+  {
+   "id": "2026-11-03-esh-2",
+   "matiere": "esh",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-03/la-factura-de-la-luz-se-encarecera-en-2000-millones-al-ano-si-descarrila-el-decreto-de-centros-de-datos.html",
+   "minutes": 3,
+   "titre": "Essor de l'IA : sans régulation des centres de données, la facture d'électricité espagnole bondirait de 2 milliards d'euros par an",
+   "faits": "Selon une étude de modélisation du système électrique réalisée par le laboratoire académique PyPSA Labs et publiée le 3 novembre par El País, l'essor rapide des centres de données (data centers) en Espagne pourrait renchérir la facture d'électricité des ménages et des entreprises de près de 2 milliards d'euros par an d'ici 2030 si le projet de décret gouvernemental encadrant le secteur est abandonné ou édulcoré. Attirés par l'abondance d'électricité solaire et éolienne bon marché dans la péninsule Ibérique, les géants américains du cloud et de l'intelligence artificielle multiplient les demandes de raccordement au réseau. Or, contrairement aux panneaux solaires qui ne produisent que le jour, les serveurs informatiques consomment de l'électricité vingt-quatre heures sur vingt-quatre sans interruption. Sans obligation réglementaire d'adosser chaque centre de données à des contrats d'énergie renouvelable heure par heure et à des batteries de stockage, leur consommation nocturne obligera à faire tourner à plein régime les centrales thermiques à gaz, faisant bondir de 14 % les émissions de CO2 du secteur électrique.",
+   "enjeux": "Cette étude met en lumière le choc physique entre la **transition numérique** (l'entraînement et l'usage des modèles d'intelligence artificielle) et la **transition écologique** sur le marché européen de l'électricité. En Europe, le prix de gros du mégawattheure est fixé selon la règle de la **tarification au coût marginal** (*merit order*) : c'est la dernière centrale appelée pour équilibrer le réseau aux heures de pointe ou la nuit — presque toujours une centrale à gaz fossile — qui fixe le prix payé par tous les consommateurs. Dès lors, l'arrivée massive de *data centers* fonctionnant en continu crée une **externalité pécuniaire et environnementale** : les géants du numérique captent l'électricité verte disponible le jour et déclenchent l'allumage du gaz le soir, répercutant le surcoût sur l'ensemble des citoyens et des PME. Le débat montre que l'abondance renouvelable ne suffit pas sans régulation de la flexibilité et du stockage.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
+    "alt": "Des rangées de serveurs informatiques à l'intérieur d'un centre de données (data center)",
+    "credit": "BalticServers / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.1 - Croissance et fluctuations depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "William Stanley Jevons",
+     "ouvrage": "The Coal Question",
+     "annee": "1865",
+     "ref": "effet-rebond-jevons",
+     "texte": "Jevons met en évidence le **paradoxe de Jevons** (ou **effet rebond**) : à mesure que le progrès technique améliore l'efficacité énergétique d'une machine (la machine à vapeur au XIXe siècle, les puces informatiques aujourd'hui), le coût d'usage baisse, ce qui démultiplie les usages et fait finalement **exploser la consommation totale d'énergie**. L'essor des centres de données d'IA en Espagne, qui risque de relancer les centrales à gaz malgré le boom du solaire, en est l'illustration contemporaine. À mobiliser dans tout sujet sur la croissance verte et le découplage."
+    },
+    {
+     "nom": "Arthur Cecil Pigou",
+     "ouvrage": "L'Économie du bien-être",
+     "annee": "1920",
+     "ref": "externalites-pigou",
+     "texte": "Pigou montre qu'en présence d'**externalités négatives**, le calcul privé d'une firme diverge du bien-être collectif : en se branchant sur le réseau sans stocker d'électricité verte, un centre de données impose à toute la société un surcoût de 2 milliards d'euros et un surplus d'émissions de carbone. Pour internaliser cet effet externe, l'État doit imposer une réglementation stricte ou une tarification différenciée. À mobiliser pour justifier l'encadrement public des infrastructures numériques."
+    }
+   ],
+   "sujets": [
+    "Transition numérique et transition écologique sont-elles compatibles ?",
+    "Le progrès technique suffit-il à découpler la croissance économique des émissions de gaz à effet de serre ?"
+   ]
+  },
+  {
+   "id": "2026-11-03-esh-3",
+   "matiere": "esh",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/wirtschaft-in-den-usa-wo-amerika-deutschland-beim-wachstum-ueberholt-a-bd92e004-087f-482f-a7e9-fd122df22a7a",
+   "minutes": 3,
+   "titre": "Décrochage transatlantique : comment la croissance américaine creuse l'écart avec l'Allemagne et l'Europe",
+   "faits": "À l'occasion des élections de mi-mandat américaines du 3 novembre, une grande étude comparative publiée par le Spiegel passe au crible les indicateurs qui expliquent pourquoi l'économie des États-Unis distance durablement l'Allemagne et l'Union européenne depuis quinze ans. Après avoir bondi au rythme annualisé de 3,4 % au troisième trimestre 2026, le PIB américain devrait croître de plus de 2,2 % sur l'année, soit deux à trois fois plus vite que la zone euro, tandis que le PIB par habitant américain dépasse désormais de plus d'un tiers le niveau allemand en parité de pouvoir d'achat. L'enquête identifie quatre moteurs décisifs de cette divergence : l'indépendance énergétique américaine en pétrole et en gaz de schiste qui protège ses usines du choc iranien, la vigueur de la consommation des ménages, une démographie plus dynamique portée par l'immigration, et la concentration des géants de la Tech et du capital-risque qui attirent l'épargne mondiale.",
+   "enjeux": "Cette comparaison synthétise le grand sujet de concours du **décrochage économique européen** déjà au cœur des rapports d'Enrico Letta et de Mario Draghi. Alors que l'Europe dispose d'un taux d'épargne élevé mais fragmenté, cette épargne traverse l'Atlantique pour financer l'**innovation radicale** américaine grâce à la profondeur de Wall Street, pendant que le Vieux Continent reste spécialisé dans des industries de moyenne technologie (automobile thermique, chimie, mécanique) frappées de plein fouet par le coût de l'énergie et la concurrence chinoise. En termes de **croissance potentielle**, les États-Unis cumulent un avantage sur les trois facteurs de la fonction de production : davantage d'heures travaillées par habitant, un investissement productif dopé par l'IA et les subventions fédérales (*Inflation Reduction Act*, *CHIPS Act*), et une **productivité globale des facteurs** plus rapide.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/1280px-New_York_Stock_Exchange_August_2017_02.jpg",
+    "alt": "La façade de la Bourse de New York (NYSE) pavoisée du drapeau américain à Wall Street",
+    "credit": "King of Hearts / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_August_2017_02.jpg"
+   },
+   "programme": {
+    "module": "3 - Mondialisation et intégration européenne",
+    "chapitre": "3.3 - L'intégration européenne"
+   },
+   "auteurs": [
+    {
+     "nom": "Philippe Aghion et Peter Howitt",
+     "ouvrage": "« A Model of Growth Through Creative Destruction »",
+     "annee": "1992",
+     "ref": "frontiere-technologique-aghion",
+     "texte": "Aghion montre qu'une économie proche de la **frontière technologique** ne peut plus croître par simple imitation ou amélioration incrémentale : elle a besoin d'institutions favorisant l'**innovation radicale** (universités de recherche, marché du travail mobile, financement par **capital-risque**). C'est précisément cet écosystème qui permet aux États-Unis de dominer le numérique et l'IA, quand l'Allemagne et l'Europe restent prisonnières de leurs industries matures. À mobiliser dans tout sujet sur le décrochage européen face aux États-Unis."
+    },
+    {
+     "nom": "Paul Romer",
+     "ouvrage": "« Endogenous Technological Change »",
+     "annee": "1990",
+     "ref": "croissance-endogene",
+     "texte": "Dans la théorie de la **croissance endogène**, l'accumulation de connaissances et de R&D engendre des **rendements d'échelle croissants** et des effets d'agglomération : loin de converger automatiquement, les économies avancées peuvent diverger durablement lorsque l'une d'elles concentre les chercheurs, les capitaux et le plus grand marché unifié. L'avance américaine sur l'Europe depuis 2010 illustre cette divergence cumulative. À mobiliser pour expliquer pourquoi les écarts de PIB par habitant se creusent entre pays riches."
+    }
+   ],
+   "sujets": [
+    "Comment expliquer le décrochage économique de l'Union européenne vis-à-vis des États-Unis depuis 2008 ?",
+    "Le modèle économique et social européen condamne-t-il le continent à une croissance faible ?"
+   ]
+  },
+  {
+   "id": "2026-11-03-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/02/shabana-mahmood-softens-immigration-plans-cabinet-backlash-leave-to-remain",
+   "minutes": 3,
+   "titre": "Immigration au Royaume-Uni : Shabana Mahmood porte à 10 ans le délai de résidence permanente mais recule sur les aides-soignants",
+   "faits": "Le 2 novembre, la ministre britannique de l'Intérieur Shabana Mahmood a présenté devant la Chambre des communes la réforme de l'immigration légale instaurant le modèle dit d'« installation au mérite » (earned settlement). La mesure phare double de cinq à dix ans la durée normale de séjour exigée avant qu'un travailleur étranger puisse demander le statut de résident permanent (indefinite leave to remain, ILR). Toutefois, face à la fronde de plusieurs poids lourds du gouvernement travailliste — dont Angela Rayner et le ministre de la Santé Wes Streeting — et des syndicats hospitaliers, la ministre a renoncé à son projet initial d'imposer quinze ans d'attente aux bas salaires et aux auxiliaires de vie : ceux arrivés avant mai 2025 et gagnant au moins 25 000 livres conserveront l'accès à la résidence au bout de cinq ans. À l'autre bout de l'échelle, les hauts revenus gagnant plus de 125 000 livres par an pourront obtenir le statut permanent dès trois ans, et ceux gagnant plus de 50 271 livres (ainsi que les médecins, infirmiers et enseignants) en cinq ans.",
+   "enjeux": "Cette réforme illustre la tension permanente du gouvernement travailliste d'Andy Burnham entre **restriction politique de l'immigration** et **besoins structurels du marché du travail**. Élu dans un paysage politique bousculé par la poussée du parti anti-immigration **Reform UK** de Nigel Farage, le Labour veut prouver qu'il réduit le solde migratoire net (*net migration*) et réserve l'accès à l'État-providence à ceux qui cotisent fortement. En indexant explicitement la rapidité d'intégration sur le niveau de salaire, Londres pousse à l'extrême la logique d'**immigration choisie** instaurée depuis le Brexit. Mais comme l'a rappelé la révolte du cabinet sur le secteur médico-social (*social care*), les hôpitaux du **NHS** et les maisons de retraite britanniques s'effondreraient sans les centaines de milliers de travailleurs étrangers recrutés à des salaires modestes.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Home_Office%2C_2_Marsham_Street%2C_London.jpg/1280px-Home_Office%2C_2_Marsham_Street%2C_London.jpg",
+    "alt": "Le siège du ministère britannique de l'Intérieur (Home Office) au 2 Marsham Street, à Londres",
+    "credit": "Steve Cadman / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Home_Office,_2_Marsham_Street,_London.jpg"
+   },
+   "vo": {
+    "titre": "UK immigration: Shabana Mahmood doubles standard wait for permanent residency to 10 years, but backs down on care workers",
+    "faits": "On 2 November, Home Secretary Shabana Mahmood unveiled the Labour government's overhauled legal migration framework to the House of Commons, introducing a new \"earned settlement\" model. Under the rules, the standard qualifying period for migrant workers to apply for indefinite leave to remain (ILR) is doubled from five years to ten. However, following a fierce cabinet backlash led by ministers including Angela Rayner and Health Secretary Wes Streeting alongside healthcare unions, Mahmood dropped her original proposal to make lower-paid migrants and care workers wait fifteen years: care workers who arrived before May 2025 and earn at least £25,000 will keep a five-year route. Conversely, high earners making over £125,000 a year will be fast-tracked to settlement in just three years, while those earning above £50,271 – along with doctors, nurses and teachers – will qualify in five.",
+    "enjeux": "The package exposes the acute contradiction at the heart of Andy Burnham's Labour government between political pressure to curb migration and Britain's deep-seated labour shortages. Haunted by the electoral rise of Nigel Farage's Reform UK, ministers are keen to show voters they are tightening access to permanent residency and the welfare state. By explicitly tying the speed of settlement to income tax brackets, London is taking post-Brexit selective migration to a new level, openly favouring wealthy professionals. Yet as the cabinet revolt over care workers demonstrated, the NHS and Britain's underfunded social care sector remain structurally dependent on lower-paid overseas staff."
+   },
+   "vocab": [
+    [
+     "indefinite leave to remain (ILR)",
+     "le titre de séjour permanent au Royaume-Uni"
+    ],
+    [
+     "an earned settlement model",
+     "un modèle d'installation « au mérite » (lié aux revenus et cotisations)"
+    ],
+    [
+     "a cabinet backlash",
+     "une fronde / levée de boucliers au sein du gouvernement"
+    ],
+    [
+     "to fast-track high earners",
+     "accorder une procédure accélérée aux hauts revenus"
+    ],
+    [
+     "the social care sector",
+     "le secteur médico-social et de l'aide à la personne"
+    ],
+    [
+     "chronic labour shortages",
+     "les pénuries chroniques de main-d'œuvre"
+    ]
+   ],
+   "sujets": [
+    "Should the right to permanent residency in Britain depend on how much a migrant earns?",
+    "Why have successive British governments promised to cut immigration while the economy remains reliant on foreign workers?"
+   ]
+  },
+  {
+   "id": "2026-11-03-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/2026/nov/02/unions-google-workers-uk-employment-rights",
+   "minutes": 3,
+   "titre": "Droits des salariés au Royaume-Uni : Google signe un accord historique ouvrant ses bureaux aux syndicats",
+   "faits": "Comme le révèle le Guardian le 2 novembre, la filiale britannique de Google a signé un accord inédit avec le syndicat de cadres et d'ingénieurs Prospect, autorisant pour la première fois des représentants syndicaux à entrer dans ses locaux pour organiser et syndiquer ses quelque 7 000 salariés au Royaume-Uni (y compris chez YouTube, mais hors sa filiale d'intelligence artificielle DeepMind). Cette percée syndicale chez l'un des géants de la Silicon Valley est la conséquence directe de la nouvelle loi travailliste sur les droits des travailleurs (Employment Rights Act), qui oblige désormais les employeurs à accorder un droit d'accès physique et numérique aux syndicats sous peine d'amendes. Jusqu'ici, les grandes entreprises technologiques américaines étaient réputées pour leur hostilité envers les syndicats. Fort de cet accord chez Google, le syndicat Prospect cible désormais d'autres groupes du numérique implantés à Londres, notamment Meta, Apple, Microsoft et Amazon.",
+   "enjeux": "Cet accord marque un tournant symbolique dans les **relations sociales** (*industrial relations*) britanniques après plus de quarante ans de dérégulation du marché du travail héritée des lois antisyndicales de **Margaret Thatcher** dans les années 1980. Portée au sein du gouvernement par Angela Rayner, la réforme travailliste du droit du travail abaisse les seuils requis pour obtenir la reconnaissance syndicale dans une entreprise et met fin aux contrats « zéro heure » abusifs. Dans le secteur de la **Big Tech**, longtemps dominé par une culture individualiste de hauts salaires et de *stock-options*, l'envie de syndicalisation des ingénieurs est aujourd'hui nourrie par les vagues de licenciements, les restructurations liées à l'**intelligence artificielle** et les conflits éthiques sur les contrats militaires.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Google_UK_at_6_Pancras_Square%2C_King%27s_Cross_Central_development%2C_London%2C_England_01.jpg/1280px-Google_UK_at_6_Pancras_Square%2C_King%27s_Cross_Central_development%2C_London%2C_England_01.jpg",
+    "alt": "Les bureaux de Google UK à Pancras Square, dans le quartier de King's Cross à Londres",
+    "credit": "Acabashi / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_UK_at_6_Pancras_Square,_King%27s_Cross_Central_development,_London,_England_01.jpg"
+   },
+   "vo": {
+    "titre": "UK employment rights: Google signs landmark deal granting trade unions access to 7,000 workers",
+    "faits": "As revealed by the Guardian on 2 November, Google's UK arm has signed a landmark agreement with the tech and specialist union Prospect, allowing union officials into its offices for the first time to recruit and organise roughly 7,000 staff across Britain (including YouTube, though excluding its AI division DeepMind). This breakthrough inside a Silicon Valley giant is a direct result of Labour's new Employment Rights Act, which compels employers to grant trade unions physical and digital workplace access or face financial penalties. Historically, US tech multinationals have fiercely resisted unionisation. Emboldened by the Google accord, Prospect is now targeting other major technology employers in the UK, including Meta, Apple, Microsoft and Amazon.",
+    "enjeux": "The agreement marks a symbolic watershed in British industrial relations after more than four decades of labour market deregulation dating back to Margaret Thatcher's anti-union legislation of the 1980s. Championed inside the government by Angela Rayner, Labour's employment overhaul lowers the statutory thresholds for union recognition and bans exploitative zero-hours contracts. Within Big Tech – long defined by an individualistic Silicon Valley culture of generous perks and stock options – appetite for collective bargaining has surged among white-collar engineers anxious about post-pandemic layoffs, return-to-office mandates and the impact of artificial intelligence on their jobs."
+   },
+   "vocab": [
+    [
+     "collective bargaining",
+     "la négociation collective"
+    ],
+    [
+     "statutory union recognition",
+     "la reconnaissance légale d'un syndicat dans l'entreprise"
+    ],
+    [
+     "industrial relations",
+     "les relations sociales (entre patronat et syndicats)"
+    ],
+    [
+     "workplace access rights",
+     "le droit d'accès des syndicats aux locaux de l'entreprise"
+    ],
+    [
+     "zero-hours contracts",
+     "les contrats « zéro heure » (sans durée minimale garantie)"
+    ],
+    [
+     "union-busting",
+     "les pratiques antisyndicales"
+    ]
+   ],
+   "sujets": [
+    "Is Labour's overhaul of employment rights reversing Margaret Thatcher's economic legacy?",
+    "Why are white-collar tech workers increasingly turning to trade unions?"
+   ]
+  },
+  {
+   "id": "2026-11-03-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues",
+   "minutes": 3,
+   "titre": "Midterms américaines : entre vie chère et désillusion politique, comment vote la génération Z ce 3 novembre",
+   "faits": "Alors que les bureaux de vote ouvrent ce mardi 3 novembre 2026 aux États-Unis pour renouveler les 435 sièges de la Chambre des représentants et 35 sièges du Sénat, une enquête du Guardian donne la parole aux électeurs de la génération Z (les 18-29 ans), qui représentent environ 50 millions d'Américains en âge de voter. Leurs témoignages révèlent une jeunesse prise en étau entre la flambée du coût de la vie (loyers, alimentation, remboursement des prêts étudiants) et la crainte d'un recul des libertés publiques sous le second mandat de Donald Trump, notamment face aux opérations de la police de l'immigration (ICE) et aux menaces sur l'intégrité électorale. Pourtant, près de la moitié de ces jeunes citoyens ne sont toujours pas inscrits sur les listes électorales. Beaucoup expriment un profond scepticisme envers le bipartisme américain, reprochant aux républicains leur dérive autoritaire et aux démocrates leur incapacité à améliorer concrètement le sort des classes populaires.",
+   "enjeux": "Le comportement électoral des moins de 30 ans est l'une des grandes inconnues de ces **élections de mi-mandat** (*midterms*), un scrutin où l'**abstention** des jeunes est traditionnellement beaucoup plus forte que lors d'une présidentielle. En 2024, le Parti démocrate avait subi une érosion spectaculaire de son avance historique chez les jeunes — en particulier chez les jeunes hommes non diplômés séduits par le discours économique de Donald Trump — ainsi qu'une forte démobilisation de son aile progressiste sur les campus. Deux ans plus tard, la persistance de l'inflation, aggravée par les droits de douane et la guerre avec l'Iran, pourrait ramener une partie de la **génération Z** vers l'opposition démocrate, mais la défiance envers un système perçu comme verrouillé par l'argent et la **gérontocratie** reste un frein puissant à la participation.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McAlpin_Community_Center.JPG/1280px-McAlpin_Community_Center.JPG",
+    "alt": "Des panneaux électoraux et une pancarte « Vote Here » devant un bureau de vote aux États-Unis",
+    "credit": "Michael Rivera / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:McAlpin_Community_Center.JPG"
+   },
+   "vo": {
+    "titre": "US midterms: caught between the cost of living and political disillusionment, how Gen Z is voting on 3 November",
+    "faits": "As polling stations open across the United States on Tuesday 3 November 2026 to contest all 435 seats in the House of Representatives and 35 Senate seats, a Guardian feature examines the priorities of Generation Z voters – the roughly 50 million eligible Americans aged 18 to 29. Interviews across the country reveal a generation squeezed between relentless cost-of-living pressures (soaring rents, groceries and student debt) and deep anxiety over democratic backsliding during Donald Trump's second term, including aggressive ICE immigration raids and threats to election integrity. Yet nearly half of eligible 18-to-29-year-olds remain unregistered to vote. Many voice profound disillusionment with America's two-party system, accusing Republicans of authoritarianism while faulting Democrats for failing to deliver tangible economic relief for working-class youth.",
+    "enjeux": "Youth turnout is one of the decisive wildcards of the 2026 midterms, an electoral cycle in which young voters have historically abstained at much higher rates than in presidential years. In 2024, Democrats suffered a sharp erosion of their traditional margin among under-30s – particularly among non-college-educated young men drawn to Donald Trump's economic populism – alongside campus alienation on the left. Two years on, persistent inflation fuelled by tariffs and the war with Iran could push young voters back towards the Democratic opposition, but widespread cynicism towards a political establishment seen as geriatric and beholden to billionaire donors continues to depress civic participation."
+   },
+   "vocab": [
+    [
+     "voter turnout / abstention",
+     "le taux de participation / l'abstention"
+    ],
+    [
+     "eligible / registered voters",
+     "les citoyens en âge de voter / inscrits sur les listes électorales"
+    ],
+    [
+     "political disillusionment",
+     "la désillusion / le désenchantement politique"
+    ],
+    [
+     "democratic backsliding",
+     "le recul / l'érosion démocratique"
+    ],
+    [
+     "the two-party system (duopoly)",
+     "le système bipartisan (le duopole démocrates-républicains)"
+    ],
+    [
+     "a referendum on the incumbent president",
+     "un référendum pour ou contre le président en exercice"
+    ]
+   ],
+   "sujets": [
+    "Why are young Americans increasingly disillusioned with the two-party system?",
+    "Will economic anxiety or defending democratic norms be the decisive factor in the 2026 US midterms?"
+   ]
+  },
+  {
+   "id": "2026-11-03-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/internacional/2026-11-02/josep-borrell-los-minerales-criticos-pueden-ser-la-base-para-la-integracion-de-america-latina.html",
+   "minutes": 3,
+   "titre": "Josep Borrell : « Les minerais critiques peuvent être le socle de l'intégration de l'Amérique latine »",
+   "faits": "Lors de la table ronde « L'Amérique latine et l'Europe face à une économie mondiale fragmentée », organisée le 2 novembre au forum World in Progress (WIP) de Barcelone aux côtés du secrétaire exécutif de la CEPAL José Manuel Salazar-Xirinachs, l'ancien haut représentant de l'Union européenne pour les affaires étrangères Josep Borrell a appelé les pays latino-américains à bâtir une alliance stratégique autour de leurs ressources naturelles. Alors que le sous-continent détient plus de la moitié des réserves mondiales de lithium et une part décisive du cuivre nécessaires à la transition énergétique, Borrell a souligné qu'aujourd'hui encore, 70 % des ressources minières de l'Amérique latine sont exportées à l'état brut, sans être raffinées ni transformées sur place. Faisant le parallèle avec la Communauté européenne du charbon et de l'acier (CECA) de 1951, il a lancé aux dirigeants de la région : « Commencez par vous intégrer par le lithium, l'électricité et l'agriculture, et l'intégration politique viendra ensuite ».",
+   "enjeux": "Cette intervention pose la question centrale du modèle de développement latino-américain au XXIe siècle : la transition verte mondiale sera-t-elle une chance d'industrialisation ou un nouveau cycle d'**extractivisme** ? Du « **triangle du lithium** » (Argentine, Bolivie, Chili) aux mines de cuivre du Pérou, l'Amérique latine est courtisée à la fois par la Chine — qui contrôle déjà l'essentiel du raffinage mondial des batteries —, par les États-Unis et par l'Union européenne. Mais comme le diagnostiquait déjà l'économiste argentin **Raúl Prebisch** à la tête de la CEPAL en 1950, exporter des matières premières brutes pour importer des biens manufacturés enferme le continent dans une **dépendance asymétrique** à faible valeur ajoutée. Or les divisions idéologiques actuelles entre gouvernements de gauche (Brésil, Colombie, Mexique) et de droite radicale (Argentine, Chili) paralysent toute politique industrielle régionale commune.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lithium_Ponds_of_Chile%27s_Salar_de_Atacama_%28SVS15006%29.jpg",
+    "alt": "Vue satellite des bassins d'évaporation de lithium dans le désert d'Atacama, au Chili",
+    "credit": "NASA / Goddard Space Flight Center / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lithium_Ponds_of_Chile%27s_Salar_de_Atacama_(SVS15006).jpg"
+   },
+   "vo": {
+    "titre": "Josep Borrell: «Los minerales críticos pueden ser la base para la integración de América Latina»",
+    "faits": "Durante la mesa redonda «América Latina y Europa ante una economía global fragmentada», celebrada el 2 de noviembre en el foro World in Progress (WIP) de Barcelona junto al secretario ejecutivo de la CEPAL, José Manuel Salazar-Xirinachs, el ex alto representante de la Unión Europea para Asuntos Exteriores, Josep Borrell, instó a los países latinoamericanos a construir una estrategia común en torno a sus recursos estratégicos. Pese a que la región concentra más de la mitad de las reservas mundiales de litio y gran parte del cobre indispensables para la transición verde, Borrell advirtió de que el 70 % de los minerales latinoamericanos se siguen exportando en bruto, sin refinar ni generar valor añadido local. Trazando un paralelismo con la Comunidad Europea del Carbón y del Acero (CECA) de 1951, recomendó a la región: «Empiecen integrándose por el litio, por la electricidad y por la agricultura, y la integración política vendrá después».",
+    "enjeux": "El debate apunta al dilema histórico del modelo de desarrollo latinoamericano en el siglo XXI: ¿será la transición energética mundial una palanca de industrialización o una nueva etapa de neoextractivismo? Desde el llamado «triángulo del litio» (Argentina, Bolivia y Chile) hasta el cobre peruano, América Latina es objeto de una intensa pugna geoeconómica entre China –que domina la cadena de refinado y las baterías–, Estados Unidos y la Unión Europea. Sin embargo, como ya advirtió la CEPAL desde los tiempos de Raúl Prebisch, limitarse a exportar materias primas sin procesar perpetúa una inserción periférica y dependiente en el comercio mundial. La actual fractura ideológica entre gobiernos de izquierda y de ultraderecha en el continente impide por ahora articular un cártel o una política industrial común."
+   },
+   "vocab": [
+    [
+     "los minerales críticos / estratégicos",
+     "les minerais critiques / stratégiques (lithium, cuivre, terres rares)"
+    ],
+    [
+     "exportar materias primas en bruto",
+     "exporter des matières premières à l'état brut"
+    ],
+    [
+     "el neoextractivismo",
+     "le néo-extractivisme (dépendance à l'extraction de ressources naturelles)"
+    ],
+    [
+     "generar valor añadido local",
+     "générer de la valeur ajoutée sur place"
+    ],
+    [
+     "el triángulo del litio",
+     "le triangle du lithium (Argentine, Bolivie, Chili)"
+    ],
+    [
+     "la integración regional",
+     "l'intégration régionale"
+    ]
+   ],
+   "sujets": [
+    "¿Pueden el litio y los minerales críticos sacar a América Latina de su histórica dependencia de las materias primas?",
+    "¿Por qué fracasan una y otra vez los proyectos de integración regional en América Latina?"
+   ]
+  },
+  {
+   "id": "2026-11-03-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/mexico/economia/2026-11-02/mexico-se-queda-corto-en-la-recaudacion-sobre-las-importaciones-pese-a-la-aplicacion-de-nuevos-aranceles-a-asia.html",
+   "minutes": 3,
+   "titre": "Mexique : malgré le mur douanier érigé contre l'Asie, les recettes fiscales sur les importations déçoivent",
+   "faits": "Selon le rapport du ministère mexicain des Finances (Secretaría de Hacienda) analysé le 2 novembre par El País, l'État fédéral a perçu 143 milliards de pesos (environ 7 milliards d'euros) de taxes sur les importations entre janvier et septembre 2026. Si ce montant progresse de 10 % sur un an en termes réels, il reste inférieur de plus de 44 milliards de pesos à l'objectif de 188 milliards inscrit par le gouvernement de la présidente Claudia Sheinbaum dans la loi de finances pour 2026. L'exécutif comptait pourtant sur le relèvement massif des droits de douane — de 5 % à 50 % sur plus de 500 catégories de produits — imposé aux pays avec lesquels le Mexique n'a pas d'accord de libre-échange, en premier lieu la Chine, le Viêt Nam et l'Inde. Ce manque à gagner s'explique par l'appréciation du peso mexicain face au dollar, qui réduit mécaniquement la valeur en monnaie nationale des marchandises taxées à la frontière, ainsi que par le contournement d'une partie des flux commerciaux.",
+   "enjeux": "Ce bilan en demi-teinte illustre la position délicate du **Mexique** dans la guerre commerciale mondiale, à l'heure de la révision sous haute tension du traité nord-américain **T-MEC** (USMCA) avec les États-Unis et le Canada en 2026. Pour rassurer Washington — qui accuse le Mexique de servir de « porte dérobée » (*backdoor*) aux produits et composants chinois cherchant à entrer sans droits de douane sur le marché américain —, Claudia Sheinbaum a érigé un véritable mur tarifaire contre l'Asie et lancé le « Plan México » de **substitution aux importations**. Mais cette stratégie se heurte à deux limites économiques : d'une part, un droit de douane qui freine les importations ou un taux de change fort rapportent moins que prévu au budget de l'État ; d'autre part, l'industrie manufacturière mexicaine dépend elle-même étroitement des pièces détachées asiatiques pour assembler ses exportations.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/CSCL_Port_Angeles.jpg",
+    "alt": "Un porte-conteneurs en provenance d'Asie à quai dans le port mexicain de Manzanillo, sur la côte Pacifique",
+    "credit": "H. G. / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:CSCL_Port_Angeles.jpg"
+   },
+   "vo": {
+    "titre": "México se queda corto en la recaudación fiscal por importaciones pese a los nuevos aranceles contra Asia",
+    "faits": "Según el informe de la Secretaría de Hacienda analizado el 2 de noviembre por El País, el Estado mexicano recaudó unos 143.000 millones de pesos (alrededor de 7.000 millones de euros) en impuestos sobre las importaciones entre enero y septiembre de 2026. Aunque la cifra supone un aumento interanual del 10 % en términos reales, se queda más de 44.000 millones de pesos por debajo de la meta de 188.000 millones fijada por el Gobierno de la presidenta Claudia Sheinbaum en los presupuestos de 2026. El Ejecutivo confiaba en el fuerte incremento recaudatorio del muro arancelario –con gravámenes de entre el 5 % y el 50 % sobre más de 500 productos– impuesto a países sin tratado de libre comercio con México, encabezados por China, Vietnam y la India. El desfase se explica sobre todo por la apreciación del peso frente al dólar, que reduce el valor en moneda local de las compras exteriores.",
+    "enjeux": "Estos datos reflejan el complejo equilibrio de México en plena guerra comercial global y en el año clave de la revisión del tratado norteamericano T-MEC con Estados Unidos y Canadá. Para apaciguar a Washington –que acusa a México de actuar como «puerta trasera» para que las manufacturas chinas entren sin aranceles en el mercado estadounidense–, Claudia Sheinbaum ha levantado barreras arancelarias frente a Asia y ha promovido el «Plan México» de sustitución de importaciones. Sin embargo, la estrategia topa con una doble paradoja económica: por un lado, la fortaleza cambiaria del peso merma los ingresos fiscales esperados por Hacienda; por otro, la propia industria exportadora mexicana depende de insumos y componentes asiáticos para mantener su competitividad."
+   },
+   "vocab": [
+    [
+     "la recaudación fiscal",
+     "les recettes fiscales / le recouvrement de l'impôt"
+    ],
+    [
+     "un muro arancelario",
+     "un mur douanier / tarifaire"
+    ],
+    [
+     "quedarse corto respecto a la meta",
+     "rester en deçà de l'objectif fixé"
+    ],
+    [
+     "el tratado de libre comercio (T-MEC)",
+     "le traité de libre-échange nord-américain (ACEUM / USMCA)"
+    ],
+    [
+     "la sustitución de importaciones",
+     "la substitution aux importations (produire sur place ce qu'on importait)"
+    ],
+    [
+     "los insumos industriales",
+     "les intrants / composants industriels"
+    ]
+   ],
+   "sujets": [
+    "¿Es el proteccionismo frente a China el precio que debe pagar México para salvar su alianza comercial con Estados Unidos?",
+    "¿Ha cumplido el «nearshoring» sus promesas de desarrollo e industrialización para la economía mexicana?"
+   ]
+  },
+  {
+   "id": "2026-11-03-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/espana/2026-11-03/felipe-vi-se-enfrenta-al-reto-de-evitar-que-los-insultos-de-milei-dinamiten-la-cumbre-de-madrid.html",
+   "minutes": 3,
+   "titre": "Sommet ibéro-américain de Madrid : Felipe VI tente d'éviter que la crise avec Javier Milei ne fasse dérailler la rencontre",
+   "faits": "À la veille de l'ouverture du XXXe Sommet ibéro-américain des chefs d'État et de gouvernement qui se tient à Madrid les 4 et 5 novembre 2026, El País souligne le défi diplomatique inédit auquel fait face le roi d'Espagne Felipe VI. Censé réunir les dirigeants des 22 pays d'Amérique latine, d'Espagne, du Portugal et d'Andorre, ce sommet est menacé de paralysie par la crise diplomatique ouverte entre le gouvernement espagnol de Pedro Sánchez et le président argentin Javier Milei, qui a de nouveau qualifié le dirigeant socialiste de « dictateur » lors de ses récents déplacements. À cette fracture s'ajoutent l'absence de plusieurs chefs d'État latino-américains et le refus de l'Argentine de signer les paragraphes de la déclaration finale consacrés à l'Agenda 2030, à l'égalité de genre et à la lutte contre le changement climatique. Le palais de la Zarzuela multiplie les contacts bilatéraux pour sauver l'image d'unité de la communauté ibéro-américaine.",
+   "enjeux": "Ce sommet madrilène révèle l'épuisement du système des **Sommets ibéro-américains**, créés en 1991 au Mexique pour incarner la communauté culturelle et diplomatique entre la péninsule Ibérique et l'Amérique latine. Alors que la **Couronne espagnole** (Juan Carlos Ier hier, **Felipe VI** aujourd'hui) a toujours considéré cet espace comme le cœur de son rôle international au-dessus des alternances partisanes, la **polarisation idéologique** extrême qui traverse le monde hispanophone rend désormais tout consensus presque impossible. D'un côté, Javier Milei mène une croisade culturelle contre le multilatéralisme et le progressisme ; de l'autre, Pedro Sánchez utilise ce duel avec Buenos Aires comme un argument de campagne intérieure avant les législatives espagnoles du 29 novembre. La diplomatie d'État cède ainsi la place à la confrontation des blocs politiques.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Palacio_Real_de_Madrid_-_13.jpg/1280px-Palacio_Real_de_Madrid_-_13.jpg",
+    "alt": "Le palais royal de Madrid, lieu des réceptions officielles de la Couronne espagnole",
+    "credit": "Carlos Delgado / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_-_13.jpg"
+   },
+   "vo": {
+    "titre": "Cumbre Iberoamericana de Madrid: Felipe VI afronta el reto de evitar que el choque con Javier Milei dinamite la cita",
+    "faits": "En vísperas de la XXX Cumbre Iberoamericana de Jefes de Estado y de Gobierno, que se celebra en Madrid los días 4 y 5 de noviembre de 2026, El País analiza el delicado desafío diplomático al que se enfrenta el rey Felipe VI como anfitrión del encuentro. La cita, llamada a reunir a los líderes de los 22 países de América Latina, España, Portugal y Andorra, llega marcada por la grave crisis diplomática entre el Ejecutivo de Pedro Sánchez y el presidente argentino, Javier Milei, quien volvió a tachar de «dictador» al mandatario español. A este choque frontal se suman sonadas ausencias de presidentes latinoamericanos y el bloqueo de Buenos Aires a los puntos de la declaración final relativos a la Agenda 2030, la igualdad de género y la emergencia climática. La Casa del Rey intenta tejer puentes discretos para evitar que la cumbre fracase sin acuerdo.",
+    "enjeux": "La cita de Madrid pone de manifiesto el desgaste del sistema de Cumbres Iberoamericanas, impulsadas desde 1991 para proyectar una comunidad histórica, lingüística y política a ambos lados del Atlántico. Aunque la Corona española ha concebido tradicionalmente el espacio iberoamericano como su principal activo de representación exterior por encima de las luchas partidistas, la extrema polarización ideológica que divide hoy a la región hace casi imposible alcanzar consensos mínimos. Mientras Javier Milei utiliza los foros internacionales para librar su «batalla cultural» contra el multilateralismo y la justicia social, Pedro Sánchez rentabiliza el enfrentamiento con el líder ultraliberal en plena campaña hacia las elecciones españolas del 29 de noviembre."
+   },
+   "vocab": [
+    [
+     "la Cumbre Iberoamericana",
+     "le Sommet ibéro-américain"
+    ],
+    [
+     "dinamitar un consenso diplomático",
+     "torpiller / faire sauter un consensus diplomatique"
+    ],
+    [
+     "ejercer de anfitrión y mediador",
+     "jouer le rôle d'hôte et de médiateur"
+    ],
+    [
+     "la declaración final consensuada",
+     "la déclaration finale adoptée par consensus"
+    ],
+    [
+     "la batalla cultural",
+     "la bataille culturelle / idéologique"
+    ],
+    [
+     "el multilateralismo",
+     "le multilatéralisme"
+    ]
+   ],
+   "sujets": [
+    "¿Tienen todavía sentido las Cumbres Iberoamericanas en una América Latina profundamente dividida?",
+    "¿Qué papel puede desempeñar la Corona española como puente diplomático con América Latina?"
+   ]
+  },
+  {
+   "id": "2026-11-03-allemand-1",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/politik/deutschland/friedrich-merz-legt-sich-fest-das-naechste-staatsoberhaupt-soll-eine-frau-sein-a-95f4944b-b4b6-42d5-9dee-4af59ff8bdb2",
+   "minutes": 3,
+   "titre": "Succession de Frank-Walter Steinmeier : Friedrich Merz tranche pour l'élection d'une femme à la présidence fédérale",
+   "faits": "Selon les informations publiées par le Spiegel le 2 novembre à l'issue de la conférence des présidents de fédérations locales (Kreisvorsitzende) de la CDU à Berlin, le chancelier Friedrich Merz s'est engagé pour la première fois clairement sur le profil du prochain chef de l'État allemand : c'est une femme qui devra succéder à Frank-Walter Steinmeier à la présidence fédérale (Bundespräsidentin) début 2027. En 77 ans d'histoire de la République fédérale depuis 1949, douze hommes se sont succédé au château de Bellevue, mais jamais une femme n'a occupé la magistrature suprême. Devant les cadres de son parti, Merz a précisé que la candidate devra être élue uniquement par les voix des partis du « centre démocratique » au sein de l'Assemblée fédérale (Bundesversammlung), sans dépendre de l'AfD ni de Die Linke. Plusieurs noms circulent à droite, notamment la présidente du Parlement bavarois Ilse Aigner (CSU), la présidente du Bundestag Julia Klöckner ou l'ancienne ministre de la Défense Ursula von der Leyen.",
+   "enjeux": "Cette prise de position de Friedrich Merz répond à la fois à un enjeu symbolique d'égalité et à un calcul politique délicat. Sur le plan institutionnel, le **président fédéral** allemand est élu pour cinq ans par la **Bundesversammlung**, un collège composé à parts égales des députés du Bundestag et de délégués désignés à la proportionnelle par les parlements des seize Länder. Comme la CDU/CSU et le SPD disposent d'une majorité suffisante dans cette assemblée, le choix d'une candidate conservatrice consensuelle doit permettre à Friedrich Merz d'apaiser l'aile centriste et féminine de son parti tout en obtenant les voix sociales-démocrates. Surtout, l'élection présidentielle de février 2027 fera office de test grandeur nature pour le **cordon sanitaire** (*Brandmauer*) face à une AfD qui pèse désormais près du tiers des intentions de vote nationales.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Bellevue_Palace_Berlin_02-14.jpg/1280px-Bellevue_Palace_Berlin_02-14.jpg",
+    "alt": "Le château de Bellevue à Berlin, résidence officielle du président fédéral allemand",
+    "credit": "A. Savin / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bellevue_Palace_Berlin_02-14.jpg"
+   },
+   "vo": {
+    "titre": "Steinmeier-Nachfolge: Friedrich Merz legt sich auf eine Frau als nächstes Staatsoberhaupt fest",
+    "faits": "Wie der Spiegel am 2. November nach der Konferenz der CDU-Kreisvorsitzenden in Berlin berichtete, hat sich Bundeskanzler und Parteichef Friedrich Merz erstmals eindeutig festgelegt: Nach dem Ende der zweiten Amtszeit von Frank-Walter Steinmeier Anfang 2027 soll erstmals eine Frau Bundespräsidentin werden. In der 77-jährigen Geschichte der Bundesrepublik seit 1949 standen bislang ausschließlich zwölf Männer an der Spitze des Staates im Schloss Bellevue. Vor den Funktionären betonte Merz zugleich, die künftige Amtsinhaberin müsse in der Bundesversammlung mit einer klaren Mehrheit aus der „demokratischen Mitte“ gewählt werden, ohne auf Stimmen der AfD oder der Linken angewiesen zu sein. In der Union werden unter anderem die bayerische Landtagspräsidentin Ilse Aigner (CSU), Bundestagspräsidentin Julia Klöckner sowie EU-Kommissionschefin Ursula von der Leyen gehandelt.",
+    "enjeux": "Merz' Vorstoß verbindet ein überfälliges gesellschaftspolitisches Signal mit einem taktischen Kalkül innerhalb der Koalition. Verfassungsrechtlich wird das deutsche Staatsoberhaupt für fünf Jahre von der Bundesversammlung gewählt, die sich je zur Hälfte aus den Bundestagsabgeordneten und aus Wahlleuten der sechzehn Landesparlamente zusammensetzt. Da Union und SPD dort über eine eigene Mehrheit verfügen, will Merz mit einer konsensfähigen Kandidatin sowohl den Frauen- und Sozialflügel seiner eigenen Partei befrieden als auch den Koalitionspartner SPD einbinden. Vor allem aber wird die Bundespräsidentenwahl Anfang 2027 zur Bewährungsprobe für die Stabilität der demokratischen Mitte gegenüber einer erstarkten AfD."
+   },
+   "vocab": [
+    [
+     "das Staatsoberhaupt / die Bundespräsidentin",
+     "le chef de l'État / la présidente fédérale"
+    ],
+    [
+     "die Bundesversammlung",
+     "l'Assemblée fédérale (collège électoral qui élit le président allemand)"
+    ],
+    [
+     "das Schloss Bellevue",
+     "le château de Bellevue (siège de la présidence fédérale à Berlin)"
+    ],
+    [
+     "die demokratische Mitte",
+     "le centre démocratique (les partis républicains modérés)"
+    ],
+    [
+     "eine konsensfähige Kandidatin",
+     "une candidate de consensus"
+    ],
+    [
+     "überfällig sein",
+     "n'avoir que trop tardé / être attendu depuis longtemps"
+    ]
+   ],
+   "sujets": [
+    "Welche politische Bedeutung hat das Amt des Bundespräsidenten in Zeiten gesellschaftlicher Polarisierung?",
+    "Warum hat es in der Bundesrepublik Deutschland fast acht Jahrzehnte gedauert, bis eine Frau Staatsoberhaupt werden soll?"
+   ]
+  },
+  {
+   "id": "2026-11-03-allemand-2",
+   "matiere": "allemand",
+   "source": "Frankfurter Allgemeine Zeitung",
+   "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/digitalgipfel-bitkom-fordert-ki-made-in-germany-accg-201643281.html",
+   "minutes": 3,
+   "titre": "Sommet du numérique à Berlin : l'Allemagne rêve d'une « IA made in Germany » mais reste dépendante des États-Unis",
+   "faits": "À l'occasion du Sommet du numérique du gouvernement fédéral (Digital-Gipfel) qui se tient les 2 et 3 novembre 2026 à Berlin sous l'égide du ministre du Numérique Karsten Wildberger, la fédération allemande des technologies de l'information Bitkom et l'institut économique Ifo dressent un constat alarmant sur le retard allemand dans l'intelligence artificielle. Selon l'enquête représentative présentée par Bitkom et relayée par la FAZ, 96 % des entreprises allemandes préféreraient utiliser des logiciels d'IA conçus en Allemagne et 59 % ne considèrent plus les États-Unis comme un partenaire politique fiable. Pourtant, 87 % des entreprises numériques allemandes reconnaissent dépendre directement des technologies américaines, et 64 % refusent de payer plus cher ou d'accepter des performances moindres au seul nom du label « made in Germany ». Parallèlement, une étude de l'institut Ifo souligne que la branche technologique allemande reste trop petite et freinée par le manque de centres de calcul, la bureaucratie et la lenteur de la numérisation administrative.",
+   "enjeux": "Ce sommet met à nu le paradoxe de la **souveraineté numérique** (*digitale Souveränität*) allemande et européenne. Depuis le retour de Donald Trump à la Maison-Blanche, les industriels du **Mittelstand** craignent que leur dépendance envers le *cloud* et les modèles d'IA américains (Microsoft, Google, OpenAI, AWS) ne devienne un levier de chantage géopolitique et commercial, à l'image de ce qu'a été autrefois la dépendance au gaz russe. Le gouvernement de Friedrich Merz promet de faire de l'Allemagne une « nation de l'IA d'ici 2030 » grâce à un plan en 18 points prévoyant la construction de *gigafactories* de calcul et l'assouplissement des règles européennes sur les données. Mais face au prix élevé de l'électricité en Allemagne et à la faiblesse du capital-risque européen, rattraper les géants californiens relève d'une course contre la montre.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_04.jpg/1280px-Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_04.jpg",
+    "alt": "La Chancellerie fédérale (Bundeskanzleramt) au bord de la Spree à Berlin",
+    "credit": "Michalzik / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_04.jpg"
+   },
+   "vo": {
+    "titre": "Digital-Gipfel in Berlin: Deutsche Wirtschaft wünscht sich „KI made in Germany“, bleibt aber von den USA abhängig",
+    "faits": "Zum Digital-Gipfel der Bundesregierung, der am 2. und 3. November 2026 unter Leitung von Bundesdigitalminister Karsten Wildberger in Berlin stattfindet, zeichnen der Digitalverband Bitkom und das Münchner Ifo-Institut ein nüchternes Bild vom deutschen Rückstand bei der Künstlichen Intelligenz. Laut einer von der FAZ zitierten repräsentativen Bitkom-Umfrage würden zwar 96 Prozent der deutschen Unternehmen bevorzugt KI-Lösungen aus Deutschland einsetzen, zumal 59 Prozent die USA nicht mehr als verlässlichen politischen Partner betrachten. Dennoch geben 87 Prozent der Digitalfirmen an, von US-Technologien abhängig zu sein, und 64 Prozent sind nicht bereit, für das Siegel „made in Germany“ höhere Preise oder geringere Leistung in Kauf zu nehmen. Zugleich bescheinigt eine Ifo-Studie Deutschland eine schwache Ausgangslage wegen fehlender Rechenzentren, hoher Strompreise und einer schleppenden Verwaltungsdigitalisierung.",
+    "enjeux": "Der Gipfel legt das Dilemma der digitalen Souveränität Deutschlands und Europas offen. Seit der Rückkehr Donald Trumps ins Weiße Haus wächst im deutschen Mittelstand die Sorge, dass die einseitige Abhängigkeit von amerikanischen Cloud- und KI-Konzernen wie Microsoft, Google oder OpenAI ähnlich erpressbar macht wie einst die Abhängigkeit von russischem Erdgas. Die Bundesregierung will Deutschland zwar mit einem 18-Punkte-Plan bis 2030 zur führenden „KI-Nation“ machen, Genehmigungen für Rechenzentren beschleunigen und die europäische KI-Regulierung entschärfen. Doch angesichts teurer Energie, strenger Datenschutzregeln und eines im Vergleich zu den USA kleinen Wagniskapitalmarktes gleicht die Aufholjagd einem Wettlauf gegen die Zeit."
+   },
+   "vocab": [
+    [
+     "die digitale Souveränität",
+     "la souveraineté numérique"
+    ],
+    [
+     "der Digital-Gipfel",
+     "le Sommet du numérique"
+    ],
+    [
+     "die Rechenkapazitäten / Rechenzentren",
+     "les capacités de calcul / les centres de données"
+    ],
+    [
+     "in einem Abhängigkeitsverhältnis stehen",
+     "se trouver dans une situation de dépendance"
+    ],
+    [
+     "Abstriche bei Preis oder Leistung machen",
+     "faire des concessions sur le prix ou la performance"
+    ],
+    [
+     "das Wagniskapital",
+     "le capital-risque"
+    ]
+   ],
+   "sujets": [
+    "Kann Deutschland bis 2030 tatsächlich zu einer führenden und souveränen „KI-Nation“ aufsteigen?",
+    "Droht Europa bei der Künstlichen Intelligenz eine neue strategische Abhängigkeit von den USA?"
+   ]
+  },
+  {
+   "id": "2026-11-03-allemand-3",
+   "matiere": "allemand",
+   "source": "Frankfurter Allgemeine Zeitung",
+   "url": "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/oepnv-krise-vdv-chef-alexander-moeller-warnt-vor-streichungen-accg-201640357.html",
+   "minutes": 3,
+   "titre": "Crise des transports publics en Allemagne : les compagnies régionales menacent de supprimer des bus et des trains",
+   "faits": "Après l'échec des négociations financières lors de la conférence des ministres des Transports de l'État fédéral et des Länder, le directeur général de l'Union des entreprises de transport allemandes (VDV), Alexander Möller, a tiré la sonnette d'alarme dans la Frankfurter Allgemeine Zeitung. Il déplore une « occasion manquée » alors que le pacte de modernisation des transports publics de proximité (ÖPNV) est gelé faute d'accord budgétaire entre Berlin et les régions. Selon la fédération, plusieurs Länder et communes s'apprêtent dès les prochaines semaines à décommander des liaisons de bus et de trains régionaux lors du changement d'horaires si les fonds fédéraux de régionalisation (Regionalisierungsmittel) ne sont pas relevés pour 2027. Les régies de transport sont prises en étau entre la hausse des salaires et de l'énergie, le coût du Deutschlandticket et la flambée des péages ferroviaires (Trassenpreise) facturés par la Deutsche Bahn pour utiliser les rails.",
+   "enjeux": "Cette crise financière met en évidence les contradictions de la politique allemande des transports. D'un côté, l'introduction du **Deutschlandticket** (l'abonnement mensuel valable dans tous les transports régionaux du pays) a connu un immense succès populaire ; de l'autre, son financement donne lieu à un bras de fer permanent du **fédéralisme budgétaire** entre le Bund et les Länder. Surtout, pour financer la rénovation de son réseau ferré vétuste, la filiale d'infrastructure de la Deutsche Bahn relève fortement les **péages ferroviaires** (*Schienenmaut* / *Trassenpreise*), ce qui étrangle les trains régionaux et le fret. Si les communes réduisent l'offre de bus et de trains dans les campagnes et les villes moyennes, la **transition écologique des transports** (*Verkehrswende*) reculera et le sentiment d'abandon des territoires périphériques s'aggravera.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/20240708_Deutschland_Frellstedt_Bahnhof_DB_Regio_RB40_Steuerwagen_Doppelstockwagen_DBpzfa_766.jpg/1280px-20240708_Deutschland_Frellstedt_Bahnhof_DB_Regio_RB40_Steuerwagen_Doppelstockwagen_DBpzfa_766.jpg",
+    "alt": "Un train régional à deux niveaux de DB Regio en gare en Allemagne",
+    "credit": "Hodsha / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:20240708_Deutschland_Frellstedt_Bahnhof_DB_Regio_RB40_Steuerwagen_Doppelstockwagen_DBpzfa_766.jpg"
+   },
+   "vo": {
+    "titre": "ÖPNV-Krise in Deutschland: Verkehrsunternehmen warnen vor Streichungen bei Bussen und Regionalbahnen",
+    "faits": "Nach den gescheiterten Finanzverhandlungen auf der Verkehrsministerkonferenz von Bund und Ländern hat der Hauptgeschäftsführer des Verbands Deutscher Verkehrsunternehmen (VDV), Alexander Möller, in der Frankfurter Allgemeinen Zeitung eindringlich vor einem Kahlschlag im öffentlichen Nahverkehr gewarnt. Er kritisierte das Einfrieren des geplanten ÖPNV-Modernisierungspakts als „verpasste Chance“. Nach Angaben des Verbands stehen mehrere Bundesländer und Kommunen kurz davor, bereits zum kommenden Fahrplanwechsel Bus- und Zugverbindungen abzubestellen, falls der Bund die sogenannten Regionalisierungsmittel für 2027 nicht spürbar erhöht. Die Verkehrsbetriebe geraten durch steigende Personal- und Energiekosten, den Streit um die Finanzierung des Deutschlandtickets sowie die massiv steigenden Trassenpreise für die Nutzung des Schienennetzes immer stärker in Bedrängnis.",
+    "enjeux": "Der Hilferuf der Branche legt die Widersprüche der deutschen Verkehrspolitik offen. Einerseits ist das bundesweit gültige Deutschlandticket für Millionen Pendler zu einem großen Erfolg geworden; andererseits führt seine Kofinanzierung im deutschen Föderalismus zu einem Dauerstreit zwischen Bund, Ländern und klammen Kommunen. Hinzu kommt ein paradoxer Mechanismus bei der Bahnreform: Um die Sanierung des maroden Netzes gegenzufinanzieren, hebt die Bahntochter InfraGO die Trassenpreise – also die Schienenmaut – kräftig an, was den Regionalverkehr direkt verteuert. Wenn aus Geldmangel ausgerechnet im ländlichen Raum Busse und Bahnen gestrichen werden, droht nicht nur die Verkehrswende zu scheitern, sondern auch die gesellschaftliche Kluft zwischen Stadt und Land weiter zu wachsen."
+   },
+   "vocab": [
+    [
+     "der öffentliche Personennahverkehr (ÖPNV)",
+     "les transports publics de proximité (bus, trams, trains régionaux)"
+    ],
+    [
+     "die Regionalisierungsmittel",
+     "les dotations fédérales versées aux Länder pour les transports régionaux"
+    ],
+    [
+     "die Trassenpreise / die Schienenmaut",
+     "les péages ferroviaires (droits d'accès au réseau ferré)"
+    ],
+    [
+     "Verbindungen abbestellen / streichen",
+     "décommander / supprimer des liaisons de transport"
+    ],
+    [
+     "klamme Kommunen",
+     "des communes aux finances exsangues"
+    ],
+    [
+     "das Gefälle zwischen Stadt und Land",
+     "le fossé / les disparités entre villes et campagnes"
+    ]
+   ],
+   "sujets": [
+    "Billiges Ticket, aber weniger Züge: Steckt der öffentliche Nahverkehr in Deutschland in einer Finanzierungsfalle?",
+    "Wie verschärft der Rückzug des öffentlichen Verkehrs im ländlichen Raum die politische Spaltung in Deutschland?"
+   ]
+  }
+ ]
+}

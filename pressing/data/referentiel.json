@@ -2105,6 +2105,422 @@
      ]
     }
    ]
+  },
+  {
+   "id": "rente-differentielle",
+   "nom": "Rente différentielle et loi des rendements décroissants",
+   "categorie": "fondamentaux",
+   "type": "Théorie",
+   "annee": "1817",
+   "auteur": "David Ricardo",
+   "accroche": "Quand une ressource naturelle se raréfie, son prix s'aligne sur le gisement le plus coûteux à exploiter, offrant un surprofit sans effort aux propriétaires des meilleurs terrains ou puits.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**David Ricardo**, *Des principes de l'économie politique et de l'impôt* (1817), chapitre 2 « De la rente ».",
+      "Dans l'Angleterre du début du XIXe siècle, les **Corn Laws** (lois sur le blé) bloquent les importations de céréales. La croissance démographique oblige alors à cultiver des terres de moins en moins fertiles : le prix du blé flambe et enrichit l'aristocratie foncière au détriment des industriels."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "Pour nourrir une population croissante (ou répondre à une hausse de la demande d'énergie), on met en exploitation des terres ou des gisements **de moins en moins productifs** (**loi des rendements décroissants**).",
+      "Sur un marché concurrentiel, il n'y a qu'un seul prix : il est fixé par le **coût de production sur la terre marginale** (la moins fertile, qui ne dégage aucune rente).",
+      "Les propriétaires des terres les plus fertiles (ou des puits de pétrole les moins chers à extraire) vendent au même prix élevé alors que leurs coûts sont bas : ils encaissent la différence, appelée **rente différentielle**.",
+      "En dynamique, les salaires nominaux doivent monter pour suivre le prix du blé, ce qui écrase le **profit des capitalistes** et mène l'économie vers l'**état stationnaire**."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La **rente** n'est pas la cause du prix élevé, elle en est la **conséquence** : « le blé n'est pas cher parce qu'on paie une rente, on paie une rente parce que le blé est cher ». Surtout, ce revenu ne rémunère ni le travail ni la prise de risque d'un entrepreneur, mais la simple détention d'un actif rare non reproductible (terre, pétrole, foncier urbain). En économie publique, **taxer une rente pure** ne décourage donc pas la production."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La règle d'Hotelling (1931)",
+       "d": "Harold Hotelling applique la rente aux **ressources épuisables** (pétrole, minerais) : le prix d'un baril inclut une **rente de rareté** qui augmente au rythme du taux d'intérêt à mesure que le stock s'épuise."
+      },
+      {
+       "t": "Le marché européen de l'électricité (merit order)",
+       "d": "Le prix du MWh est fixé par la dernière centrale appelée (souvent au gaz, très chère), ce qui offre une **rente inframarginale** aux producteurs nucléaires, hydrauliques et solaires dont les coûts sont bas."
+      },
+      {
+       "t": "La recherche de rente (Tullock, 1967 ; Krueger, 1974)",
+       "d": "Au-delà de la nature, les entreprises cherchent à capter des **rentes réglementaires** ou de monopole par le lobbying (*rent-seeking*) plutôt que par l'innovation."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Ricardo sous-estime la puissance du **progrès technique** (engrais, mécanisation agricole, puis forage horizontal du pétrole de schiste ou énergies renouvelables) qui repousse sans cesse la limite des rendements décroissants et évite l'état stationnaire."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les superprofits pétroliers (2022, 2026)",
+       "d": "Quand la guerre en Ukraine ou avec l'Iran fait flamber le baril, Saudi Aramco, ExxonMobil ou Shell encaissent 95 milliards de dollars de rente trimestrielle sans avoir changé leurs coûts d'extraction."
+      },
+      {
+       "t": "La crise du logement dans les métropoles",
+       "d": "Le sol urbain au cœur de Paris, Londres ou Madrid étant non reproductible, la hausse de la demande se transforme en **rente foncière** pour les propriétaires."
+      },
+      {
+       "t": "Le libre-échange contre la rente",
+       "d": "Chez Ricardo, ouvrir les frontières aux importations agricoles ou énergétiques est le meilleur moyen de briser la rente et de relancer l'accumulation du capital."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Thomas Robert Malthus (1798)",
+       "idee": "partage l'idée des rendements décroissants de la terre face à la démographie"
+      },
+      {
+       "sens": "=",
+       "nom": "Henry George (1879)",
+       "idee": "propose un impôt unique confiscatoire sur la rente foncière (georgisme)"
+      },
+      {
+       "sens": "≠",
+       "nom": "Joseph Schumpeter (1911, 1942)",
+       "idee": "distingue la rente passive de rareté de la rente temporaire d'innovation qui récompense l'entrepreneur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "partage-valeur-ajoutee-kaldor",
+   "nom": "Partage de la valeur ajoutée et croissance",
+   "categorie": "croissance",
+   "type": "Théorie",
+   "annee": "1956 · 1957",
+   "auteur": "Nicholas Kaldor et Michał Kalecki",
+   "accroche": "La répartition du gâteau entre salaires et profits n'est pas qu'une question de justice : elle détermine à la fois la consommation des ménages et le financement de l'investissement.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Michał Kalecki** (1942) et **Nicholas Kaldor**, « Alternative Theories of Distribution » (*Review of Economic Studies*, 1956), puis « A Model of Economic Growth » (1957).",
+      "Figures de l'**école post-keynésienne de Cambridge**, ils rejettent la théorie néoclassique où chaque facteur (travail, capital) est simplement rémunéré à sa productivité marginale. Pour eux, le partage de la valeur ajoutée dépend du **rapport de force social**, du pouvoir de monopole des firmes et du taux d'investissement."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Deux propensions à épargner différentes",
+       "d": "Les **salariés** consomment la quasi-totalité de leur revenu (propension à consommer élevée), tandis que les **capitalistes et entreprises** épargnent une grande part de leurs profits."
+      },
+      {
+       "t": "L'adage de Kalecki",
+       "d": "« **Les salariés dépensent ce qu'ils gagnent, les capitalistes gagnent ce qu'ils dépensent** » : au niveau macroéconomique, plus les entreprises investissent, plus la demande globale et leurs profits augmentent."
+      },
+      {
+       "t": "Le fait stylisé de Kaldor (1957)",
+       "d": "Sur longue période, Kaldor observe que le partage entre salaires (~2/3) et profits (~1/3) reste **stable** tant que les gains de productivité sont partagés équitablement."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Le partage de la valeur ajoutée est un **équilibriste** : si la part des salaires monte trop haut (comme dans les années 1970 avec l'indexation des salaires sur l'inflation), les marges des entreprises s'effondrent et l'**investissement** recule ; à l'inverse, si la part des profits monte au détriment des salaires sans être réinvestie dans l'appareil productif (dividendes, rachats d'actions), la **demande globale** s'étouffe."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Croissance « wage-led » ou « profit-led » (Bhaduri et Marglin, 1990)",
+       "d": "Une grande économie fermée est souvent **tirée par les salaires** (*wage-led*, via la consommation intérieure), tandis qu'une petite économie très ouverte peut être **tirée par les profits** (*profit-led*, via la compétitivité-coût)."
+      },
+      {
+       "t": "Le théorème de Schmidt (1974)",
+       "d": "Chancelier allemand, Helmut Schmidt résume la vision de l'offre : « **Les profits d'aujourd'hui sont les investissements de demain et les emplois d'après-demain** »."
+      },
+      {
+       "t": "La financiarisation et la « sellers' inflation » (Isabella Weber, 2023)",
+       "d": "Lors des chocs énergétiques de 2022 et 2026, les grandes firmes dotées d'un fort **pouvoir de marché** augmentent leurs prix au-delà de leurs coûts pour gonfler leurs marges et leurs rachats d'actions."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Depuis les années 1980, la « **constance de Kaldor** » a volé en éclats aux États-Unis et dans une partie de l'OCDE : comme le montrent **Thomas Piketty** (2013) et **David Autor** (2020, hypothèse des « **firmes superstars** »), la mondialisation, l'automatisation et la concentration des marchés ont fait reculer la part du travail dans le revenu national."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Superprofits et rachats d'actions (pétrole, Tech)",
+       "d": "Montrer que le théorème de Schmidt ne fonctionne plus quand les profits financent des rachats d'actions plutôt que de l'investissement productif."
+      },
+      {
+       "t": "Inflation et boucle prix-profits / prix-salaires",
+       "d": "Analyser qui, des salariés ou des actionnaires, absorbe le choc d'offre énergétique."
+      },
+      {
+       "t": "Les politiques salariales et le partage de la valeur",
+       "d": "Débats sur le Smic, l'intéressement, la participation et la taxation des dividendes."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "John Maynard Keynes (1936)",
+       "idee": "une répartition moins inégalitaire élève la propension moyenne à consommer"
+      },
+      {
+       "sens": "=",
+       "nom": "Thomas Piketty (2013)",
+       "idee": "documente la remontée de la part du capital et des profits depuis 1980"
+      },
+      {
+       "sens": "≠",
+       "nom": "Helmut Schmidt (1974)",
+       "idee": "défend le rétablissement prioritaire des marges des entreprises pour relancer l'emploi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "effet-rebond-jevons",
+   "nom": "Paradoxe de Jevons et effet rebond",
+   "categorie": "croissance",
+   "type": "Effet",
+   "annee": "1865",
+   "auteur": "William Stanley Jevons",
+   "accroche": "Rendre une machine plus économe en énergie ne réduit pas forcément la consommation totale : en abaissant son coût d'usage, le progrès technique multiplie ses utilisations.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**William Stanley Jevons**, *The Coal Question* (*La Question du charbon*, 1865).",
+      "Pionnier de la révolution marginaliste anglaise, Jevons s'inquiète de l'épuisement futur des mines de charbon britanniques. Il observe un paradoxe contre-intuitif : lorsque **James Watt** perfectionne la machine à vapeur et réduit drastiquement sa consommation de charbon par cheval-vapeur, la consommation totale de charbon du Royaume-Uni… **explose** au lieu de baisser."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "Une innovation améliore l'**efficacité énergétique** d'une technologie (moteur, ampoule, serveur informatique) : il faut moins d'énergie pour produire une unité de service.",
+      "Le **coût marginal d'utilisation** de ce service baisse fortement.",
+      "**Effet rebond direct** : les consommateurs et les entreprises utilisent beaucoup plus ce bien devenu bon marché (voitures plus lourdes, trajets plus longs, requêtes d'IA multipliées).",
+      "**Effet rebond indirect et macroéconomique** : l'argent économisé est dépensé dans d'autres biens énergivores, et la nouvelle technologie se diffuse à toute l'économie."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Le **progrès technique seul ne suffit pas** à réussir la transition écologique ni à obtenir un **découplage absolu** entre la croissance du PIB et la consommation de ressources. Tant que les gains d'efficacité ne sont pas accompagnés d'un **plafonnement des quantités** (quotas) ou d'un **signal-prix** (taxe carbone) qui empêche la baisse du coût d'usage, l'effet rebond grignote une grande partie des économies attendues."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le postulat de Khazzoom-Brookes (1980)",
+       "d": "Les économistes Daniel Khazzoom et Leonard Brookes généralisent la thèse de Jevons après les chocs pétroliers des années 1970 : les normes d'efficacité énergétique sans hausse des prix stimulent la croissance énergétique."
+      },
+      {
+       "t": "L'identité de Kaya (1993)",
+       "d": "Décompose les émissions de CO₂ en quatre facteurs (population × PIB/hab × intensité énergétique × contenu carbone) : la baisse de l'**intensité énergétique** a toujours été dépassée jusqu'ici par la hausse du **PIB mondial**."
+      },
+      {
+       "t": "La sobriété énergétique (GIEC, 2022)",
+       "d": "Le GIEC distingue désormais l'**efficacité** (faire pareil avec moins d'énergie) de la **sobriété** (*sufficiency* : réduire à la source les besoins superflus)."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "L'effet rebond ne dépasse pas toujours 100 % (le cas extrême appelé *backfire* par Jevons). Dans les logements bien isolés des pays développés, l'effet rebond est estimé entre **10 % et 30 %** (les ménages chauffent à 20 °C au lieu de 18 °C), ce qui laisse tout de même **70 % à 90 % d'économies réelles** d'énergie."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'intelligence artificielle et les data centers (2026)",
+       "d": "Les puces de Nvidia sont de plus en plus efficaces par calcul, mais cette efficacité fait exploser les usages de l'IA et la consommation électrique des centres de données."
+      },
+      {
+       "t": "L'automobile et l'essor des SUV",
+       "d": "En trente ans, les progrès des moteurs thermiques ont été intégralement annulés par l'alourdissement des véhicules et l'allongement des distances parcourues."
+      },
+      {
+       "t": "La 5G et le streaming vidéo",
+       "d": "Chaque génération de réseau consomme moins d'énergie par gigaoctet transmis, mais multiplie par dix le volume de vidéos haute définition regardées."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Nicholas Georgescu-Roegen (1971)",
+       "idee": "la loi de l'entropie montre les limites physiques de toute croissance matérielle"
+      },
+      {
+       "sens": "=",
+       "nom": "Arthur Cecil Pigou (1920)",
+       "idee": "il faut une taxe écologique pour confisquer la baisse de coût et bloquer l'effet rebond"
+      },
+      {
+       "sens": "≠",
+       "nom": "Courbe de Kuznets environnementale (Grossman et Krueger, 1991)",
+       "idee": "soutient qu'au-delà d'un certain niveau de richesse, le progrès technique fait reculer la pollution"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frontiere-technologique-aghion",
+   "nom": "Économie de rattrapage et frontière technologique",
+   "categorie": "croissance",
+   "type": "Théorie",
+   "annee": "1992 · 2006",
+   "auteur": "Philippe Aghion et Peter Howitt",
+   "accroche": "Les institutions qui font réussir un pays pendant sa phase de rattrapage industriel deviennent un frein lorsqu'il arrive à la frontière technologique et doit inventer lui-même.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Philippe Aghion** et **Peter Howitt**, « A Model of Growth Through Creative Destruction » (*Econometrica*, 1992), puis **Aghion, Meghir et Vandenbussche** (2006) et *Le Pouvoir de la destruction créatrice* (2020).",
+      "Chefs de file de la théorie **néo-schumpétérienne**, Aghion et Howitt formalisent la **destruction créatrice** dans les modèles de croissance endogène. Ils cherchent surtout à comprendre pourquoi l'**Europe** et le **Japon**, qui rattrapaient rapidement les États-Unis pendant les Trente Glorieuses, ont décroché à partir des années 1990."
+     ]
+    },
+    {
+     "titre": "Les deux régimes de croissance",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'économie d'imitation (loin de la frontière)",
+       "d": "Le pays rattrape son retard en **adoptant les technologies existantes** (France et Allemagne de 1945 à 1975, Chine de 1980 à 2015). Il a besoin d'enseignement technique, de banques de crédit, de grands groupes stables et d'investissement matériel."
+      },
+      {
+       "t": "L'économie d'innovation (à la frontière technologique)",
+       "d": "Une fois au niveau des plus avancés, il faut **inventer à la frontière** (numérique, IA, biotechnologies). Cela exige des **universités de recherche**, du **capital-risque**, une forte concurrence et une mobilité rapide du travail et du capital."
+      },
+      {
+       "t": "Le piège institutionnel",
+       "d": "Un pays qui conserve ses institutions de rattrapage (financement bancaire prudent, protection des rentes industrielles, faible recherche fondamentale) **décroche** une fois arrivé près de la frontière."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Il n'y a pas de « bon modèle économique » universel : les politiques efficaces **dépendent de la distance à la frontière technologique**. La théorie fournit la meilleure explication du **décrochage européen face aux États-Unis** depuis trente ans : l'Europe excelle dans l'**innovation incrémentale** des secteurs matures (automobile thermique, chimie, aéronautique), mais sous-investit dans l'écosystème de l'**innovation radicale**."
+     ]
+    },
+    {
+     "titre": "La concurrence en « U inversé » (Aghion et al., 2005)",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'effet d'échappement (neck-and-neck)",
+       "d": "Pour des entreprises **proches de la frontière** au coude-à-coude, plus de concurrence les pousse à innover pour « échapper » à leurs rivaux."
+      },
+      {
+       "t": "L'effet schumpétérien de découragement",
+       "d": "Pour des entreprises **très en retard**, une concurrence trop violente détruit leurs marges et les décourage d'innover."
+      },
+      {
+       "t": "La courbe en cloche",
+       "d": "La relation entre concurrence et innovation forme un **U inversé** : ni le monopole tranquille ni la concurrence destructrice ne maximisent l'innovation."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "La destruction créatrice à la frontière technologique fait des **perdants** (salariés dont les compétences deviennent obsolètes, territoires désindustrialisés). Aghion insiste donc sur le modèle danois de **flexisécurité** : faciliter la réallocation des emplois vers les nouvelles firmes tout en protégeant généreusement les revenus et la formation des salariés en transition."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le décrochage États-Unis / Europe (rapport Draghi, 2024-2026)",
+       "d": "Expliquer pourquoi les géants du numérique et de l'IA naissent en Californie plutôt qu'en Allemagne ou en France."
+      },
+      {
+       "t": "La crise du modèle industriel allemand",
+       "d": "Spécialisée dans l'amélioration continue de la mécanique et de l'automobile, l'Allemagne souffre face à la rupture technologique du logiciel et des batteries."
+      },
+      {
+       "t": "Le ralentissement chinois et le piège du revenu intermédiaire",
+       "d": "Arrivée près de la frontière technologique, la Chine doit passer de l'imitation industrielle à l'innovation fondamentale."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Joseph Schumpeter (1942)",
+       "idee": "le capitalisme avance par vagues de destruction créatrice"
+      },
+      {
+       "sens": "=",
+       "nom": "Alexander Gerschenkron (1962)",
+       "idee": "« l'avantage du retard » permet aux pays suiveurs de croître vite par imitation grâce à l'État et aux banques"
+      },
+      {
+       "sens": "≠",
+       "nom": "Robert Solow (1956)",
+       "idee": "prédit une convergence automatique vers le même sentier sans distinguer imitation et innovation"
+      }
+     ]
+    }
+   ]
   }
  ]
 }
