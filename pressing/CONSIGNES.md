@@ -72,7 +72,8 @@ Chaque carte a un champ `image` :
 - Pas de `vo` ni de `vocab`.
 
 ### Cartes de langue (en plus)
-- `vo` : `titre`, `faits` et `enjeux` traduits en anglais, espagnol ou allemand, niveau C1, naturels et idiomatiques.
+- `vo` : `titre`, `faits` et `enjeux` traduits dans la langue de la carte, naturels et idiomatiques : niveau C1 en anglais et en espagnol, niveau B2 en allemand.
+- Allemand : le niveau B2 vaut pour `vo`, `vocab` et `sujets`. Écris des phrases plus courtes, avec un vocabulaire courant et une syntaxe simple. Ne prends pas pour modèle les anciennes éditions, dont l'allemand est en C1.
 - `vocab` : 6 paires `["mot ou expression en langue étrangère", "traduction française"]`, utiles pour un essai.
 - Pas de `programme` ni d'`auteurs`.
 
