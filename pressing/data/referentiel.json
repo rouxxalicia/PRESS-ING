@@ -2521,6 +2521,111 @@
      ]
     }
    ]
+  },
+  {
+   "id": "salaire-minimum-emploi",
+   "nom": "Salaire minimum et emploi",
+   "categorie": "fondamentaux",
+   "type": "Théorie",
+   "annee": "1946 · 1994",
+   "auteur": "George Stigler, David Card et Alan Krueger",
+   "accroche": "Un salaire minimum détruit-il des emplois peu qualifiés ? Tout dépend de la structure du marché du travail : en concurrence parfaite, oui ; face à un employeur en position de force, pas forcément.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**George Stigler**, « The Economics of Minimum Wage Legislation » (1946), puis **David Card et Alan Krueger**, « Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania » (1994), et le livre *Myth and Measurement* (1995).",
+      "Stigler formule la position néoclassique : un prix plancher fixé au-dessus du prix d'équilibre crée un **excès d'offre**, ici du chômage. Card et Krueger la contestent par une **expérience naturelle** : en 1992, le New Jersey relève son salaire minimum de 4,25 à 5,05 dollars, la Pennsylvanie voisine non. L'emploi dans les fast-foods du New Jersey ne baisse pas. Card reçoit le **prix Nobel 2021** en partie pour ces méthodes."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "**Concurrence parfaite** : le salaire égale la productivité marginale du travail ; un minimum plus élevé rend non rentables les salariés les moins productifs, et l'emploi baisse.",
+      "**Monopsone** (Joan Robinson, *L'Économie de la concurrence imparfaite*, 1933) : un employeur dominant paie moins que la productivité marginale et embauche moins qu'à l'optimum.",
+      "Dans ce cas, un minimum bien fixé **relève à la fois le salaire et l'emploi** : il retire à l'employeur son pouvoir de comprimer les salaires.",
+      "Au-delà d'un certain seuil, l'effet redevient négatif : tout est question de **niveau** du minimum par rapport au salaire médian."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La théorie permet de sortir du débat idéologique : l'effet d'un salaire minimum sur l'emploi est une **question empirique**, qui dépend du **pouvoir de marché** des employeurs et du niveau choisi. Elle montre aussi qu'un minimum peut réduire les **inégalités salariales** et soutenir la **demande**, ce qui intéresse les keynésiens. Dans une dissertation, elle sert à nuancer l'opposition simple entre efficacité et équité sur le marché du travail."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Neumark et Wascher (2000)",
+       "d": "Avec d'autres données sur les mêmes fast-foods, ils trouvent un **effet négatif** sur l'emploi : la controverse reste ouverte."
+      },
+      {
+       "t": "Le salaire d'efficience",
+       "d": "Shapiro et Stiglitz (1984) : mieux payer réduit le turnover et augmente l'effort, ce qui compense une partie du coût."
+      },
+      {
+       "t": "Le ratio au salaire médian",
+       "d": "On juge un minimum en le comparant au **salaire médian** : plus ce ratio est élevé, plus le risque pour l'emploi peu qualifié augmente."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Un effet nul sur le nombre d'emplois ne signifie pas un effet nul partout : les entreprises peuvent réduire les **heures**, augmenter leurs prix ou accélérer l'automatisation. Le salaire minimum cible aussi mal la **pauvreté** : beaucoup de pauvres ne travaillent pas, et beaucoup de salariés au minimum ne vivent pas dans un ménage pauvre."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'Allemagne (2015)",
+       "d": "Création d'un salaire minimum légal à 8,50 euros, porté à 12 euros en 2022, sans les pertes d'emplois massives annoncées."
+      },
+      {
+       "t": "Le Royaume-Uni (1999)",
+       "d": "Création du salaire minimum national, suivi par une commission indépendante, la Low Pay Commission."
+      },
+      {
+       "t": "L'Espagne (2019)",
+       "d": "Hausse d'environ 22 % du salaire minimum en une seule fois, puis relèvements annuels."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Joan Robinson (1933)",
+       "idee": "le monopsone : l'employeur dominant sous-paie et sous-embauche"
+      },
+      {
+       "sens": "=",
+       "nom": "Keynes (1936)",
+       "idee": "le salaire est aussi un revenu qui soutient la demande"
+      },
+      {
+       "sens": "≠",
+       "nom": "Neumark et Wascher (2000)",
+       "idee": "le salaire minimum réduit l'emploi des moins qualifiés"
+      },
+      {
+       "sens": "≠",
+       "nom": "Milton Friedman (1962)",
+       "idee": "le salaire minimum pénalise ceux qu'il prétend protéger"
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,150 @@
+{
+ "modele": {
+  "id": 1716400213,
+  "name": "parfait",
+  "type": 0,
+  "mod": 1793272931,
+  "usn": -1,
+  "sortf": 0,
+  "did": 1716400214,
+  "tmpls": [
+   {
+    "name": "Carte 1",
+    "ord": 0,
+    "qfmt": "{{#Partie}}<div class=\"part\">{{Partie}}</div>{{/Partie}}<div class=\"q\">{{Question}}</div>",
+    "afmt": "{{FrontSide}}<hr id=\"answer\">{{Réponse}}{{#Exemple}}<div class=\"exv\">{{Exemple}}</div>{{/Exemple}}",
+    "bqfmt": "",
+    "bafmt": "",
+    "did": null,
+    "bfont": "",
+    "bsize": 0,
+    "id": null
+   },
+   {
+    "name": "Carte inversée",
+    "ord": 1,
+    "qfmt": "{{#Inverse}}{{#Partie}}<div class=\"part\">{{Partie}}</div>{{/Partie}}<div class=\"q\">{{Réponse}}</div>{{/Inverse}}",
+    "afmt": "{{FrontSide}}<hr id=\"answer\">{{Question}}{{#Exemple}}<div class=\"exv\">{{Exemple}}</div>{{/Exemple}}",
+    "bqfmt": "",
+    "bafmt": "",
+    "did": null,
+    "bfont": "",
+    "bsize": 0,
+    "id": -4829317278923609287
+   }
+  ],
+  "flds": [
+   {
+    "name": "Question",
+    "ord": 0,
+    "sticky": false,
+    "rtl": false,
+    "font": "Liberation Sans",
+    "size": 20,
+    "description": "",
+    "plainText": false,
+    "collapsed": false,
+    "excludeFromSearch": false,
+    "id": null,
+    "tag": null,
+    "preventDeletion": false,
+    "media": []
+   },
+   {
+    "name": "Réponse",
+    "ord": 1,
+    "sticky": false,
+    "rtl": false,
+    "font": "Liberation Sans",
+    "size": 20,
+    "description": "",
+    "plainText": false,
+    "collapsed": false,
+    "excludeFromSearch": false,
+    "id": null,
+    "tag": null,
+    "preventDeletion": false,
+    "media": []
+   },
+   {
+    "name": "Partie",
+    "ord": 2,
+    "sticky": false,
+    "rtl": false,
+    "font": "Liberation Sans",
+    "size": 20,
+    "description": "",
+    "plainText": false,
+    "collapsed": false,
+    "excludeFromSearch": false,
+    "id": null,
+    "tag": null,
+    "preventDeletion": false,
+    "media": []
+   },
+   {
+    "name": "Exemple",
+    "ord": 3,
+    "sticky": false,
+    "rtl": false,
+    "font": "Arial",
+    "size": 20,
+    "description": "",
+    "plainText": false,
+    "collapsed": false,
+    "excludeFromSearch": false,
+    "id": 2236139767732059325,
+    "tag": null,
+    "preventDeletion": false
+   },
+   {
+    "name": "Inverse",
+    "ord": 4,
+    "sticky": false,
+    "rtl": false,
+    "font": "Arial",
+    "size": 20,
+    "description": "",
+    "plainText": false,
+    "collapsed": false,
+    "excludeFromSearch": false,
+    "id": 2269752148846253620,
+    "tag": null,
+    "preventDeletion": false
+   }
+  ],
+  "css": ".card{font-family:-apple-system,Helvetica,Arial,sans-serif;font-size:18px;line-height:1.5;color:#1a1a1a;background:#fff;text-align:left;max-width:680px;margin:0 auto;padding:12px}\n.q{font-size:20px;font-weight:600}\n.part{font-size:12px;color:#888;letter-spacing:.04em;margin-bottom:8px}\nhr#answer{border:none;border-top:1px solid #ddd;margin:16px 0}\n.a{font-weight:bold;color:#ec5c07}\n.o{font-style:italic;color:#ec5c07}\n.d{font-weight:bold;color:#2d6517}\n.c{font-weight:bold;color:#3c78d8}\n.nightMode .card,.night_mode .card{background:#1e1e1e;color:#eee}\n.nightMode .d,.night_mode .d{color:#7cc35f}\n.nightMode .c,.night_mode .c{color:#79a6f0}\n.exv{margin-top:12px;font-size:16px;font-style:italic;color:#555}\n.nightMode .exv,.night_mode .exv{color:#bbb}\nol,ul{margin:6px 0;padding-left:24px}\nli{margin:3px 0}\n.titre{font-weight:700}\n.bloc{background:#fff0f8;border-left:4px solid #dd88bb;border-radius:8px;padding:12px 15px;margin:10px 0}\n.exemple{background:#edf7f0;border-left:4px solid #3aaa6a;border-radius:8px;padding:11px 15px;margin:10px 0;color:#000}\n.rose{background:#fff1f5;border-left:4px solid #e05580;border-radius:8px;padding:11px 15px;margin:10px 0}\n.orange{background:#fff8f0;border-left:4px solid #e08030;border-radius:8px;padding:11px 15px;margin:10px 0;color:#000}\n.bleu{background:#eef7ff;border-left:4px solid #6aaaee;border-radius:8px;padding:11px 15px;margin:10px 0}\n.dissert{background:#eeeaff;border-left:4px solid #5544cc;border-radius:8px;padding:11px 15px;margin:10px 0;font-style:italic;color:#1a0066}\n.citation{background:#e3f0ff;border-left:4px solid #6aaaee;border-radius:8px;padding:11px 15px;margin:10px 0;font-style:italic;color:#1a1a1a}\n.auteur{color:#ec5c07;font-weight:bold}\n.oeuvre{color:#ec5c07;font-style:italic}\n.date{color:#2d6517;font-weight:bold}\n.nightMode .exemple,.nightMode .orange,.nightMode .rose,.nightMode .bloc,.nightMode .bleu,.nightMode .citation,.nightMode .dissert,.night_mode .exemple,.night_mode .orange,.night_mode .rose,.night_mode .bloc,.night_mode .bleu,.night_mode .citation,.night_mode .dissert{color:#111}\n.nightMode div[style*=\"c5e6bd\"],.night_mode div[style*=\"c5e6bd\"]{color:#222}\n\nimg{max-width:100%;height:auto}\n",
+  "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+  "latexPost": "\\end{document}",
+  "latexsvg": false,
+  "req": [
+   [
+    0,
+    "any",
+    [
+     0,
+     2
+    ]
+   ],
+   [
+    1,
+    "all",
+    [
+     4
+    ]
+   ]
+  ],
+  "originalId": 1716400213,
+  "vers": [],
+  "tags": []
+ },
+ "paquets": {
+  "esh": "ESH::2A",
+  "anglais": "ANGLAIS::Anglais 2A::Press",
+  "espagnol": "ESPAGNOL::Civi"
+ },
+ "paquets_vocab": {
+  "anglais": "ANGLAIS::Anglais 2A::Press",
+  "espagnol": "ESPAGNOL::voc utile"
+ }
+}

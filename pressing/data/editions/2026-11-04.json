@@ -1,0 +1,728 @@
+{
+ "date": "2026-11-04",
+ "cards": [
+  {
+   "id": "2026-11-04-esh-1",
+   "matiere": "esh",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-03/el-eurogrupo-da-de-plazo-hasta-el-6-de-noviembre-para-presentar-candidatos-a-presidir-el-bce.html",
+   "minutes": 3,
+   "titre": "Succession à la tête de la BCE : l'Eurogroupe lance la course pour remplacer Christine Lagarde début 2027",
+   "faits": "Le président de l'Eurogroupe, Kyriákos Pierrakákis, a officiellement fixé au 6 novembre 2026 la date limite pour le dépôt des candidatures des États membres à la présidence de la Banque centrale européenne, après la décision de Christine Lagarde d'avancer son départ au 7 février 2027. Deux figures économiques de premier plan s'affrontent déjà pour prendre les rênes de l'institut d'émission de Francfort. D'un côté, l'Espagne soutient l'ancien gouverneur de la Banque d'Espagne et actuel directeur général de la Banque des règlements internationaux (BRI), Pablo Hernández de Cos, réputé pour son profil technique et son approche pragmatique. De l'autre côté, les Pays-Bas et plusieurs pays du nord de l'Europe poussent la candidature de l'ancien président de la banque centrale néerlandaise, Klaas Knot, tenant historique d'une ligne orthodoxe et restrictive. Les ministres des Finances de la zone euro espèrent dégager un consensus politique dès leur réunion de décembre afin de soumettre le choix aux chefs d'État lors du Conseil européen.",
+   "enjeux": "Ce renouvellement anticipé touche au cœur de la **gouvernance monétaire européenne** et de la crédibilité de l'euro. Alors que la zone euro fait face à une croissance anémique et à des chocs d'offre persistants liés aux tensions géopolitiques au Moyen-Orient, le choix du futur président de la BCE déterminera l'équilibre entre la lutte contre l'**inflation** et le soutien à l'activité économique. L'affrontement traditionnel entre « faucons » budgétaires et monétaires du Nord et partisans d'une politique plus accommodante au Sud resurgit au moment où les dettes publiques souveraines sont sous haute surveillance des marchés financiers. Dans un cadre institutionnel où la BCE bénéficie d'une **indépendance statutaire** totale héritée du modèle de la Bundesbank, la personnalité du dirigeant pèse lourdement sur la fonction de réaction de la politique monétaire et sur la gestion des anticipations des investisseurs via le guidage prospectif (*forward guidance*).",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/European_Central_Bank_Frankfurt_Germany_18_Feb_2023.jpg/1280px-European_Central_Bank_Frankfurt_Germany_18_Feb_2023.jpg",
+    "alt": "Le siège de la Banque centrale européenne à Francfort-sur-le-Main",
+    "credit": "Norbert Nagel / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:European_Central_Bank_Frankfurt_Germany_18_Feb_2023.jpg"
+   },
+   "programme": {
+    "module": "3 - Mondialisation et intégration européenne",
+    "chapitre": "3.3 - L'intégration européenne"
+   },
+   "auteurs": [
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "The Theory of Public Finance",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "texte": "Musgrave définit la **fonction de stabilisation** macroéconomique comme l'une des trois missions fondamentales de la puissance publique pour réguler le cycle conjoncturel. En zone euro, cette mission incombe principalement à la BCE par le maniement des taux directeurs, le budget européen restant trop limité pour absorber les chocs asymétriques. Le choix du profil du successeur de Christine Lagarde arbitrera entre une stabilisation prioritairement orientée vers la stabilité des prix ou vers le soutien à l'emploi. À mobiliser dans tout sujet sur le policy-mix européen et les politiques de stabilisation."
+    },
+    {
+     "nom": "John Maynard Keynes",
+     "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+     "annee": "1936",
+     "ref": "concours-de-beaute",
+     "texte": "Keynes démontre que sur les marchés d'actifs, les cours ne reflètent pas seulement des valeurs fondamentales mais résultent d'une **convention auto-réalisatrice** où chacun cherche à deviner ce que les autres anticipent (la parabole du **concours de beauté**). La nomination du président de la BCE déclenche précisément un alignement des anticipations des banques et des investisseurs obligataires sur le loyer futur de l'argent et les primes de risque souveraines. À mobiliser pour illustrer l'influence des croyances et du signal des banquiers centraux sur les taux de marché."
+    }
+   ],
+   "sujets": [
+    "L'indépendance de la Banque centrale européenne est-elle un gage d'efficacité ou un obstacle à la croissance ?",
+    "La politique monétaire de la zone euro est-elle condamnée à l'arbitrage entre stabilité des prix et soutien de l'activité ?"
+   ],
+   "anki": [
+    {
+     "q": "Date limite fixée par l'Eurogroupe pour les candidatures à la présidence de la BCE (2026)",
+     "r": "C{6 novembre 2026}, pour succéder à Christine Lagarde partant le D{7 février 2027}.\n→ A{Musgrave}, O{The Theory of Public Finance} (D{1959}) : la fonction de stabilisation dépend de l'orientation donnée à la banque centrale."
+    },
+    {
+     "q": "Deux principaux candidats en lice pour la présidence de la BCE fin 2026",
+     "r": "Pablo Hernández de Cos (soutenu par l'Espagne, DG de la BRI) et Klaas Knot (soutenu par les Pays-Bas).\n→ A{Keynes}, O{Théorie générale} (D{1936}) : les marchés financiers ajustent leurs anticipations de taux selon la réputation des dirigeants monétaires."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-esh-2",
+   "matiere": "esh",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/unternehmen/schaeffler-baut-tausende-stellen-ab-und-schliesst-vier-deutsche-werke-a-d8d594dc-cc55-4a16-9ece-e3c76fcf22b3",
+   "minutes": 3,
+   "titre": "Crise automobile européenne : l'équipementier Schaeffler supprime 3 460 postes et ferme quatre usines en Allemagne",
+   "faits": "Le géant allemand des roulements à billes et des pièces mécaniques de précision Schaeffler a officialisé le 3 novembre un plan de restructuration drastique prévoyant la suppression de 3 460 emplois en Europe d'ici 2029, dont 2 660 en Allemagne, soit près de 9 % de ses effectifs nationaux. Le groupe fermera définitivement quatre sites de production allemands, notamment à Dortmund et Morbach, spécialisés dans les composants pour moteurs thermiques traditionnels, ainsi que plusieurs lignes de production en Belgique et en Europe centrale. La direction justifie ce plan d'économies de 300 millions d'euros par an par la baisse persistante des volumes de production automobile sur le continent européen, la concurrence féroce des constructeurs et équipementiers chinois, et un rythme d'électrification des véhicules beaucoup plus lent et heurté que prévu. Le puissant syndicat métallurgiste IG Metall a dénoncé une saignée industrielle inacceptable et annoncé des mobilisations pour défendre les bassins d'emploi concernés.",
+   "enjeux": "Cette crise chez l'un des fleurons du capitalisme industriel allemand illustre la vulnérabilité structurelle de la filière automobile européenne en pleine **transition écologique** et technologique. Les équipementiers de rang 1, qui avaient bâti leur prospérité sur l'excellence mécanique des **moteurs thermiques**, se retrouvent pris en étau entre de lourds investissements dans la chaîne cinématique électrique et l'effondrement des marges sur leurs débouchés historiques. De plus, la chaîne de valeur du véhicule électrique déplace la valeur ajoutée vers les batteries, l'électronique de puissance et les logiciels, des domaines dominés par la Chine et les États-Unis. Face à la hausse des coûts de l'électricité en Allemagne et à la concurrence des fabricants asiatiques à bas coûts, le modèle du **Mittelstand** exportateur vacille, alimentant le débat sur la **désindustrialisation** précoce et l'urgence d'une politique industrielle européenne coordonnée.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Wuppertal_FAG_Kugelfischer_0001.jpg/1280px-Wuppertal_FAG_Kugelfischer_0001.jpg",
+    "alt": "Usine de roulements du groupe Schaeffler à Wuppertal en Allemagne",
+    "credit": "Atamari / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wuppertal_FAG_Kugelfischer_0001.jpg"
+   },
+   "programme": {
+    "module": "2 - Croissance et développement",
+    "chapitre": "2.1 - Croissance et fluctuations depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Joseph Schumpeter",
+     "ouvrage": "Capitalisme, socialisme et démocratie",
+     "annee": "1942",
+     "ref": "destruction-creatrice",
+     "texte": "Schumpeter décrit la **destruction créatrice** comme le processus par lequel l'apparition d'innovations radicales révolutionne incessamment la structure économique de l'intérieur en détruisant les activités obsolètes. La fermeture des usines thermiques de Schaeffler au profit des technologies électriques illustre douloureusement cette mutation industrielle où les rentes d'innovation des constructeurs historiques disparaissent. À mobiliser dans tout sujet sur les mutations sectorielles, les crises de transition et l'impact de l'innovation sur l'emploi."
+    },
+    {
+     "nom": "Michael Porter",
+     "ouvrage": "L'Avantage concurrentiel",
+     "annee": "1985",
+     "ref": "competitivite-porter",
+     "texte": "Porter modélise les stratégies de **domination par les coûts** et de **différenciation** qui fondent l'avantage concurrentiel d'une firme sur un marché mondialisé. Les équipementiers européens, traditionnellement protégés par une différenciation qualitative hors-prix sur la mécanique haut de gamme, perdent cet avantage face à la standardisation des composants de batterie et à la domination des firmes chinoises par les coûts. À mobiliser pour analyser la perte de compétitivité industrielle de l'Union européenne face aux nouveaux acteurs émergents."
+    }
+   ],
+   "sujets": [
+    "La transition énergétique est-elle nécessairement synonyme de désindustrialisation pour les économies développées ?",
+    "Dans quelle mesure la théorie schumpétérienne de la destruction créatrice éclaire-t-elle les crises industrielles contemporaines ?"
+   ],
+   "anki": [
+    {
+     "q": "Nombre de suppressions d'emplois annoncées par l'équipementier allemand Schaeffler (novembre 2026)",
+     "r": "C{3 460} en Europe, dont C{2 660} en Allemagne avec la fermeture de 4 usines.\n→ A{Schumpeter}, O{Capitalisme, socialisme et démocratie} (D{1942}) : l'électrification détruit le tissu industriel lié au moteur thermique par destruction créatrice."
+    },
+    {
+     "q": "Objectif d'économies annuelles du plan de restructuration de Schaeffler d'ici 2029",
+     "r": "C{300 millions d'euros} par an, face à la chute des volumes de vente et à la concurrence chinoise.\n→ A{Porter}, O{L'Avantage concurrentiel} (D{1985}) : la différenciation mécanique traditionnelle ne suffit plus face à la domination par les coûts dans les batteries."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-esh-3",
+   "matiere": "esh",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-04/los-expertos-de-trabajo-recomiendan-que-el-salario-minimo-suba-un-49-en-2027-hasta-los-1281-euros-al-mes.html",
+   "minutes": 3,
+   "titre": "Salaire minimum en Espagne : le comité d'experts préconise une hausse de 4,9 % pour atteindre 1 281 euros par mois",
+   "faits": "Le groupe d'experts réuni par le ministère espagnol du Travail a remis le 4 novembre son rapport officiel recommandant une revalorisation du salaire minimum interprofessionnel (SMI) de 4,9 % pour l'exercice 2027. Cette augmentation porterait la rémunération plancher à 1 281 euros bruts par mois versés sur quatorze mois (ou 1 494,50 euros sur douze mois), soit un gain net de 60 euros mensuels pour près de 2,5 millions de salariés modestes, majoritairement des femmes et des jeunes employés dans l'hôtellerie, l'agriculture et les services de proximité. Les économistes de la commission soulignent que cette progression permettra de compenser la hausse des prix à la consommation provoquée par les tensions énergétiques et de maintenir le SMI au seuil légal de 60 % du salaire moyen net, conformément aux engagements de la Charte sociale européenne. Si les syndicats CCOO et UGT saluent cette recommandation, les organisations patronales de la CEOE mettent en garde contre une hausse des coûts salariaux fragilisant les PME.",
+   "enjeux": "Ce débat pose la question centrale des effets d'un **salaire minimum** sur l'**emploi**, les inégalités et la compétitivité d'une économie. Depuis 2018, l'Espagne a orchestré une augmentation spectaculaire de son SMI de plus de 70 %, passant de 735 à 1 281 euros, offrant un terrain d'observation privilégié aux économistes du travail. Pour les partisans de la mesure, relever le salaire plancher soutient la **propension à consommer** des ménages à bas revenus, stimule la productivité globale par l'effort consenti et combat le phénomène des **travailleurs pauvres** (*working poors*). À l'inverse, la théorie économique néoclassique souligne qu'un salaire plancher supérieur à la **productivité marginale** des salariés les moins qualifiés risque d'entraîner des destructions d'emplois ou d'accélérer l'automatisation des tâches simples, même si les études empiriques récentes tempèrent ces craintes lorsque les employeurs disposent d'un pouvoir de **monopsone**.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ministerio_de_Trabajo_e_Inmigracion_%28Spain%29.jpg/1280px-Ministerio_de_Trabajo_e_Inmigracion_%28Spain%29.jpg",
+    "alt": "La façade du ministère du Travail à Madrid dans le complexe des Nuevos Ministerios",
+    "credit": "Ignacio Renuncio / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ministerio_de_Trabajo_e_Inmigracion_(Spain).jpg"
+   },
+   "programme": {
+    "module": "1 - Les fondements de l'économie et de la société",
+    "chapitre": "1.2 - Le marché et la concurrence"
+   },
+   "auteurs": [
+    {
+     "nom": "George Stigler",
+     "ouvrage": "« The Economics of Minimum Wage Legislation »",
+     "annee": "1946",
+     "ref": "salaire-minimum-emploi",
+     "texte": "Stigler formalise l'analyse néoclassique selon laquelle l'instauration d'un salaire minimum au-dessus du salaire d'équilibre concurrentiel rationne la demande de travail et évince du marché les travailleurs les moins qualifiés. L'inquiétude du patronat espagnol face à la hausse de 4,9 % du SMI renvoie à ce mécanisme de perte d'employabilité pour les profils à faible productivité marginale. À mobiliser pour exposer les arguments théoriques contre la fixation étatique des prix sur le marché du travail."
+    },
+    {
+     "nom": "Karl Polanyi",
+     "ouvrage": "La Grande Transformation",
+     "annee": "1944",
+     "ref": "encastrement-polanyi",
+     "texte": "Polanyi démontre que le travail est une **marchandise fictive** : l'être humain ne peut être assimilé à un simple facteur de production passible des seules lois de l'offre et de la demande sans détruire le corps social. L'intervention de l'État pour fixer un salaire décent à 60 % du salaire moyen illustre ce mouvement de protection collective qui réencastre l'économie dans des normes démocratiques et sociales. À mobiliser dans tout sujet sur le rôle régulateur de l'État et la nature sociale du travail."
+    }
+   ],
+   "sujets": [
+    "Le salaire minimum est-il un instrument efficace de lutte contre la pauvreté et les inégalités ?",
+    "Faut-il considérer le travail comme une marchandise comme les autres ?"
+   ],
+   "anki": [
+    {
+     "q": "Proposition de revalorisation du salaire minimum espagnol (SMI) pour 2027",
+     "r": "Hausse de C{4,9 %}, portant le montant à C{1 281 euros} par mois (en 14 mensualités).\n→ A{Stigler}, O{The Economics of Minimum Wage Legislation} (D{1946}) : un plancher au-dessus de l'équilibre concurrentiel risque d'évincer les travailleurs les moins qualifiés."
+    },
+    {
+     "q": "Critère européen visé par la hausse du salaire minimum en Espagne",
+     "r": "Atteindre C{60 %} du salaire moyen net, conformément à la Charte sociale européenne.\n→ A{Polanyi}, O{La Grande Transformation} (D{1944}) : le travail est une marchandise fictive nécessitant un réencastrement protecteur par la loi."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/04/midterm-election-results-question-answer",
+   "minutes": 3,
+   "titre": "Midterms américaines de 2026 : les démocrates reprennent le Sénat et infligent un lourd revers à Donald Trump",
+   "faits": "Au terme du dépouillement des élections de mi-mandat du 3 novembre 2026, le Parti démocrate a créé la surprise en reprenant le contrôle de la majorité au Sénat américain et en se plaçant en position favorable pour faire basculer la Chambre des représentants. Dans une vague bleue nourrie par l'exaspération populaire face à l'inflation persistante, la hausse des prix des carburants et l'impopularité de l'intervention militaire en Iran, les démocrates ont arraché des sièges républicains historiques. Le jeune député d'État James Talarico a créé un séisme politique en battant le procureur général républicain Ken Paxton au Texas, devenant le premier sénateur démocrate élu dans cet État depuis 1988, tandis que Roy Cooper l'a emporté en Caroline du Nord et que le sénateur sortant Jon Ossoff a été réélu en Géorgie. Face à cette défaite électorale d'ampleur, Donald Trump a tenté de se dédouaner sur les réseaux sociaux en affirmant qu'il ne figurait pas lui-même sur les bulletins de vote, tout en se disant prêt à composer avec la nouvelle majorité.",
+   "enjeux": "Ce basculement du Congrès rebat entièrement les cartes de la politique américaine pour les deux dernières années du second mandat de **Donald Trump**. Alors que le président républicain avait gouverné sans entrave législative pendant deux ans grâce à un **gouvernement unifié** (*unified government*), le retour à un **gouvernement divisé** (*divided government*) réactive la mécanique constitutionnelle des **poids et contrepoids** (*checks and balances*). En reprenant le Sénat, les démocrates s'assurent un pouvoir de blocage décisif sur la confirmation des juges fédéraux, des magistrats de la Cour suprême et des membres du cabinet présidentiel, tout en privant la Maison-Blanche de toute possibilité de faire adopter de nouvelles baisses d'impôts ou des lois restrictives sur l'avortement et l'environnement. Ce résultat confirme également la volatilité extrême de l'électorat indépendant face au coût de la vie.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/United_States_Capitol_-_west_front.jpg/1280px-United_States_Capitol_-_west_front.jpg",
+    "alt": "La façade ouest du Capitole des États-Unis à Washington",
+    "credit": "Architect of the Capitol / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg"
+   },
+   "vo": {
+    "titre": "2026 US midterms: Democrats flip the Senate and deal a crushing blow to Donald Trump",
+    "faits": "Following the vote count in the 3 November 2026 midterm elections, the Democratic Party pulled off a stunning upset by recapturing majority control of the US Senate and putting itself on track to flip the House of Representatives. Propelled by widespread voter anger over lingering inflation, surging fuel prices and deep unease over the ongoing military campaign in Iran, Democrats flipped key battlegrounds in a decisive blue wave. Texas state representative James Talarico scored a historic victory by ousting Republican attorney general Ken Paxton to become the Lone Star State's first Democratic senator since 1988, while Roy Cooper won in North Carolina and Jon Ossoff held his Senate seat in Georgia. Confronted with stinging defeats across the map, Donald Trump sought to distance himself from the outcome on social media, insisting he was not personally on the ballot while signaling a willingness to work with the incoming Congress.",
+    "enjeux": "The power shift on Capitol Hill dramatically reshapes American governance for the final two years of Donald Trump's second administration. After two years of virtually unchecked executive authority under unified Republican control, the return to divided government breathes new life into the constitutional architecture of checks and balances. Securing the Senate gives Democrats an impenetrable firewall to veto Trump's federal judicial nominations, prospective Supreme Court appointments and cabinet confirmations. Furthermore, it halts the administration's legislative agenda on deregulation, tax cuts and abortion curbs. The midterms confirm that kitchen-table economic anxiety remains the primary driver of voter volatility in contemporary US politics."
+   },
+   "vocab": [
+    [
+     "divided government",
+     "le gouvernement divisé (présidence et Congrès de bords opposés)",
+     "Divided government often leads to legislative gridlock in Washington."
+    ],
+    [
+     "checks and balances",
+     "le système d'équilibre des pouvoirs (poids et contrepoids)",
+     "The founders established checks and balances to prevent executive overreach."
+    ],
+    [
+     "to flip a Senate seat",
+     "faire basculer un siège de sénateur (vers l'autre parti)",
+     "Democrats managed to flip a key Senate seat in Texas for the first time in decades."
+    ],
+    [
+     "a midterm referendum",
+     "un plébiscite / référendum de mi-mandat",
+     "Midterm elections traditionally serve as a referendum on the incumbent president."
+    ],
+    [
+     "judicial confirmations",
+     "la confirmation des nominations de juges fédéraux",
+     "Controlling the Senate enables the opposition to block conservative judicial confirmations."
+    ],
+    [
+     "kitchen-table issues",
+     "les préoccupations concrètes du quotidien (pouvoir d'achat, factures)",
+     "Voters were primarily swayed by kitchen-table issues rather than partisan ideology."
+    ]
+   ],
+   "sujets": [
+    "Does divided government in the United States foster democratic compromise or institutional paralysis?",
+    "To what extent are US midterm elections determined by economic performance rather than ideological debates?"
+   ],
+   "anki": [
+    {
+     "q": "Outcome of the 2026 US midterm elections for the Senate",
+     "r": "Democrats flipped key seats (including Texas and North Carolina) and regained majority control.\n→ The return to divided government reactivates checks and balances and blocks Trump's conservative judicial nominations."
+    },
+    {
+     "q": "First Democratic senator elected in Texas since 1988 (November 2026)",
+     "r": "James Talarico, defeating Republican attorney general Ken Paxton.\n→ Economic frustration over inflation and fuel prices swung independent voters away from the GOP."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/2026/nov/03/deal-finalised-remove-brexit-checks-food-animal-products",
+   "minutes": 3,
+   "titre": "Relations post-Brexit : Londres et Bruxelles finalisent un accord pour supprimer les contrôles frontaliers sur l'alimentation",
+   "faits": "Le 3 novembre, les négociateurs britanniques et européens ont parachevé un projet d'accord de plus de 200 pages visant à abolir la quasi-totalité des contrôles douaniers et sanitaires sur les denrées alimentaires, les produits d'origine animale et les végétaux circulant entre la Grande-Bretagne et l'Union européenne. Cet accord sur les mesures sanitaires et phytosanitaires (SPS), négocié sous l'égide du gouvernement travailliste d'Andy Burnham, doit entrer en vigueur au premier trimestre 2028 après sa ratification par le Parlement européen et Westminster. Le texte prévoit l'alignement dynamique ou la reconnaissance mutuelle des standards de sécurité sanitaire pour les viandes, les produits laitiers et les fleurs, tout en rétablissant le passeport vaccinal européen pour les animaux de compagnie. Les organisations professionnelles de l'agroalimentaire britannique, qui chiffraient à plus de 3 milliards de livres par an le surcoût bureaucratique imposé par le Brexit, ont accueilli avec soulagement cette avancée majeure.",
+   "enjeux": "Cet accord SPS constitue la percée la plus significative dans les **relations euro-britanniques** depuis la signature de l'accord de commerce et de coopération de 2020 sous Boris Johnson. Élu sur la promesse de « faire fonctionner le Brexit » sans réintégrer le marché unique ni l'union douanière, le gouvernement travailliste cherche à atténuer les **frictions commerciales** non tarifaires qui ont pénalisé les exportateurs britanniques et alimenté l'**inflation alimentaire** au Royaume-Uni. Pour Bruxelles, accepter d'assouplir les contrôles frontaliers sans participation financière de Londres au budget communautaire a exigé des garanties strictes de conformité aux normes sanitaires pour préserver l'intégrité du **marché unique**. Ce compromis ouvre la voie à d'autres coopérations ciblées (marché de l'électricité, recherche scientifique, mobilité des jeunes) à l'approche du sommet bilatéral officiel prévu le 20 novembre.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Lorry_queues_at_the_Port_of_Dover_-_geograph.org.uk_-_7830533.jpg",
+    "alt": "Des files de poids lourds en attente d'embarquement au port de Douvres au Royaume-Uni",
+    "credit": "DS Pugh / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lorry_queues_at_the_Port_of_Dover_-_geograph.org.uk_-_7830533.jpg"
+   },
+   "vo": {
+    "titre": "Post-Brexit relations: UK and EU finalise landmark deal to remove food and agricultural border checks",
+    "faits": "On 3 November, British and European negotiators finalised a 200-page draft treaty aimed at dismantling the vast majority of border friction and veterinary red tape on food, animal and plant products moving between Great Britain and the European Union. The sanitary and phytosanitary (SPS) agreement, brokered under Andy Burnham's Labour government, is slated for full implementation in the first quarter of 2028 following legislative ratification in Westminster and the European Parliament. The treaty establishes mutual recognition and regulatory alignment for meat, dairy goods, agricultural produce and pet passports, eliminating cumbersome physical inspections at ports like Dover and Calais. UK food and agricultural federations, which had reported over £3bn in annual administrative compliance burdens since the 2021 trade barrier rollout, widely welcomed the breakthrough.",
+    "enjeux": "The veterinary pact represents the most consequential reset of UK-EU economic relations since Boris Johnson signed the post-Brexit Trade and Cooperation Agreement in 2020. Having pledged to \"make Brexit work\" while ruling out rejoining either the EU single market or the customs union, the Labour administration is focusing on pragmatic mini-deals to dismantle non-tariff barriers that crippled British exporters and stoked grocery price inflation. For Brussels, relaxing border checks required stringent auditing mechanisms to ensure contaminated or uncertified goods do not infiltrate the single market. This veterinary compromise sets a constructive precedent ahead of the 20 November UK-EU bilateral summit, where leaders aim to negotiate additional pacts on electricity trading and youth mobility."
+   },
+   "vocab": [
+    [
+     "sanitary and phytosanitary (SPS) checks",
+     "les contrôles sanitaires et phytosanitaires",
+     "Eliminating SPS checks removes hours of delays for food hauliers crossing the Channel."
+    ],
+    [
+     "non-tariff trade barriers",
+     "les barrières commerciales non tarifaires (réglementations, paperasse)",
+     "Post-Brexit customs bureaucracy created crippling non-tariff barriers for small exporters."
+    ],
+    [
+     "regulatory alignment",
+     "l'alignement réglementaire sur les normes",
+     "The UK agreed to voluntary regulatory alignment to avoid physical border inspections."
+    ],
+    [
+     "red tape / compliance costs",
+     "les tracasseries administratives / les coûts de mise en conformité",
+     "Farmers struggled under mounting red tape and inspection fees following the departure from the EU."
+    ],
+    [
+     "the integrity of the single market",
+     "l'intégrité du marché unique européen",
+     "The European Commission insisted on preserving the integrity of the single market above all."
+    ],
+    [
+     "a bilateral trade reset",
+     "une refondation / relance des relations commerciales bilatérales",
+     "The draft food treaty signals a pragmatic reset between London and Brussels."
+    ]
+   ],
+   "sujets": [
+    "Can the UK significantly boost economic growth by striking sector-by-sector mini-deals with the European Union?",
+    "Has post-Brexit trade policy demonstrated that non-tariff barriers are more damaging than import tariffs?"
+   ],
+   "anki": [
+    {
+     "q": "Main provision of the UK-EU sanitary and phytosanitary (SPS) deal finalized in November 2026",
+     "r": "Removal of border checks and red tape on food, meat, dairy and plant products moving across the Channel by early D{2028}.\n→ Pragmatic sector-specific deals allow Labour to reduce non-tariff friction without rejoining the single market."
+    },
+    {
+     "q": "Estimated annual cost of Brexit food customs bureaucracy for UK agricultural exporters",
+     "r": "Over C{£3bn} in compliance fees and delays, which stoked UK food inflation."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/04/britains-housing-market-unlikely-to-recover-until-2028-says-savills",
+   "minutes": 3,
+   "titre": "Immobilier au Royaume-Uni : le courtier Savills n'attend aucun rebond des prix avant 2028 face aux taux d'intérêt élevés",
+   "faits": "Selon les prévisions quinquennales publiées le 4 novembre par le groupe immobilier de référence Savills, le marché résidentiel britannique est condamné à une stagnation prolongée et ne connaîtra pas de véritable reprise avant le second semestre 2028. Le courtier anticipe un nouveau recul moyen des prix des logements de 1,5 % en 2027, après plusieurs trimestres de baisse en 2026. Cette atonie s'explique directement par la persistance de taux de crédit immobilier élevés, alors que l'inflation britannique est remontée à 3,5 % sous l'effet des cours mondiaux de l'énergie et de la guerre avec l'Iran, contraignant la Banque d'Angleterre à envisager de porter son taux directeur de 3,75 % à 4 %. Plus de 2,3 millions de ménages britanniques détenteurs de crédits immobiliers à taux fixe de courte durée doivent renégocier leur emprunt à des conditions nettement plus onéreuses, réduisant drastiquement leur capacité d'emprunt et le nombre de transactions.",
+   "enjeux": "Ce diagnostic met en lumière le canal de transmission de la **politique monétaire restrictive** à l'économie réelle britannique. Contrairement aux ménages français qui empruntent majoritairement à taux fixe sur vingt ou vingt-cinq ans, les accédants à la propriété britanniques souscrivent des crédits dont le taux n'est fixé que pour deux à cinq ans (*two-year or five-year fixed mortgage*), ce qui expose périodiquement des millions de foyers à une violente réévaluation de leurs mensualités (le fameux *mortgage cliff*). Cette compression du pouvoir d'achat paralyse la **mobilité résidentielle** et pèse sur l'investissement dans la construction neuve. Pour le gouvernement travailliste, qui a fait de la promesse de bâtir 1,5 million de logements le cœur de sa politique de croissance, la panne durable du marché immobilier complique le redressement économique et alimente la crise du logement locatif.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Terraced_houses_cottages_Bounds_Green_Road_Wood_Green_London_England.jpg/1280px-Terraced_houses_cottages_Bounds_Green_Road_Wood_Green_London_England.jpg",
+    "alt": "Une rangée de maisons mitoyennes typiques (terraced houses) à Londres",
+    "credit": "Acabashi / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Terraced_houses_cottages_Bounds_Green_Road_Wood_Green_London_England.jpg"
+   },
+   "vo": {
+    "titre": "UK housing market unlikely to recover until 2028 as high mortgage rates persist, Savills warns",
+    "faits": "According to the five-year housing forecast released on 4 November by property estate agency Savills, Britain's sluggish property market is locked in protracted stagnation and unlikely to mount a meaningful recovery before the second half of 2028. Savills projects that average UK house prices will fall by another 1.5% in 2027 following subdued performance throughout 2026. The prolonged property downturn stems directly from stubborn borrowing costs, as UK headline inflation climbed back to 3.5% on the back of rising global energy prices linked to the Middle East conflict, prompting the Bank of England to weigh hiking its base rate from 3.75% to 4%. More than 2.3 million British mortgage holders coming off fixed-rate deals face sharp payment increases, severely curtailing purchasing power and depressing transaction volumes across the country.",
+    "enjeux": "The report highlights the rapid monetary policy transmission mechanism inside the UK's residential market. Unlike in continental Europe, where long-term 20-year fixed mortgages predominate, British homeowners heavily rely on short-term two-year or five-year fixed products, leaving millions vulnerable to recurring refinancing shocks known as the mortgage cliff. As monthly debt servicing absorbs an unprecedented share of disposable income, consumer spending slows down and housebuilders scale back new developments. For Andy Burnham's Labour government, which placed its target of building 1.5 million new homes at the core of its economic agenda, high borrowing costs threaten housing delivery and exacerbate a punishing rental squeeze in major urban centres."
+   },
+   "vocab": [
+    [
+     "a mortgage cliff",
+     "la falaise hypothécaire (le saut brutal des mensualités lors du refinancement)",
+     "Millions of borrowers face a mortgage cliff as their ultra-low fixed rates expire."
+    ],
+    [
+     "borrowing / financing costs",
+     "les coûts d'emprunt / de financement",
+     "Elevated borrowing costs have priced first-time buyers out of the housing market."
+    ],
+    [
+     "housing affordability",
+     "l'accessibilité financière au logement",
+     "Housing affordability remains near historic lows across London and the South East."
+    ],
+    [
+     "to scale back construction",
+     "réduire / ralentir le rythme des constructions",
+     "Major homebuilders scaled back residential projects due to weak forward sales."
+    ],
+    [
+     "a sluggish property market",
+     "un marché immobilier atone / en berne",
+     "High interest rates have kept the property market sluggish for third consecutive year."
+    ],
+    [
+     "disposable income",
+     "le revenu disponible des ménages",
+     "Rising mortgage repayments are eating directly into household disposable income."
+    ]
+   ],
+   "sujets": [
+    "How does the structure of mortgage contracts in the UK affect the transmission of monetary policy?",
+    "Can government housing targets succeed in a high-interest-rate environment?"
+   ],
+   "anki": [
+    {
+     "q": "Savills forecast for UK house price recovery and 2027 trend",
+     "r": "No genuine recovery before C{2028}, with an expected fall of C{1.5%} in 2027 due to mortgage rates around 4%.\n→ Short-term fixed mortgages make British households uniquely sensitive to interest rate hikes."
+    },
+    {
+     "q": "Number of UK households facing a mortgage payment jump on fixed deals (late 2026)",
+     "r": "Over C{2.3 million} households.\n→ The mortgage cliff compresses consumer disposable income and slows residential construction."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/espana/2026-11-03/y-ahora-que-el-proceso-tras-la-renuncia-de-oscar-puente.html",
+   "minutes": 3,
+   "titre": "Gouvernement espagnol : démission surprise du ministre des Transports Óscar Puente après l'accident ferroviaire d'Urda",
+   "faits": "À l'issue de sa comparution devant la Commission permanente du Congrès des députés le 3 novembre 2026, le ministre espagnol des Transports et de la Mobilité durable, Óscar Puente, a annoncé par surprise sa démission immédiate du gouvernement de Pedro Sánchez. Le ministre a expliqué assumer l'entière responsabilité politique de la catastrophe ferroviaire survenue quelques semaines plus tôt à Urda (province de Tolède), où le déraillement d'un train à grande vitesse avait causé la mort de 69 passagers, un drame qui faisait suite à un premier accident mortel à Adamuz plus tôt dans l'année. Óscar Puente a déclaré qu'un ministre des Transports ne pouvait dignement conserver ses fonctions après deux sinistres d'une telle gravité ayant ébranlé la confiance des citoyens dans le réseau de l'AVE et de la Renfe. Il a également confirmé qu'il renonçait à figurer sur les listes électorales du PSOE pour les élections générales anticipées du 29 novembre.",
+   "enjeux": "Ce départ brutal constitue un coup dur pour **Pedro Sánchez** à moins de quatre semaines des **élections générales du 29 novembre**. Figure de proue de l'aile dure du Parti socialiste, connu pour ses passes d'armes pugnaces avec l'opposition de droite (PP et Vox), Óscar Puente était l'un des piliers politiques et médiatiques du cabinet. Sa démission place au centre de la campagne électorale la question sensible de l'état des **infrastructures publiques** et des services ferroviaires en Espagne, longtemps présentés comme une vitrine de modernisation technologique mais fragilisés par les retards d'entretien et la surfréquentation depuis l'ouverture à la concurrence. Pour l'opposition conservatrice d'Alberto Núñez Feijóo, ce drame et cette démission confirment la dégradation de la gestion des services publics par l'exécutif de coalition et accentuent la pression sur Pedro Sánchez.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/AVE_serie_100_de_RENFE_%28corrected%29.jpg/1280px-AVE_serie_100_de_RENFE_%28corrected%29.jpg",
+    "alt": "Un train à grande vitesse AVE de la Renfe en circulation en Espagne",
+    "credit": "Fedekuki / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:AVE_serie_100_de_RENFE_(corrected).jpg"
+   },
+   "vo": {
+    "titre": "Dimisión sorpresa de Óscar Puente: el ministro de Transportes deja el Gobierno tras el accidente de Urda",
+    "faits": "Al término de su comparecencia ante la Diputación Permanente del Congreso de los Diputados el 3 de noviembre de 2026, el ministro de Transportes y Movilidad Sostenible, Óscar Puente, anunció por sorpresa su dimisión irrevocable del Gobierno presidido por Pedro Sánchez. El mandatario asumió la responsabilidad política por el trágico descarrilamiento de un tren de alta velocidad en Urda (Toledo), que se cobró la vida de 69 víctimas mortales, sumado al antecedente del siniestro ferroviario de Adamuz ocurrido meses antes. Puente afirmó que un ministro del ramo no podía permanecer en el cargo tras dos tragedias consecutivas de semejante magnitud que han quebrado la confianza pública en el sistema ferroviario de Renfe y Adif. Anunció además que no concurrirá en las listas electorales del PSOE para las elecciones generales anticipadas del 29 de noviembre.",
+    "enjeux": "La renuncia de Óscar Puente representa un severo contratiempo político para Pedro Sánchez a menos de cuatro semanas de las elecciones generales del 29 de noviembre. Considerado el ariete dialéctico del Ejecutivo socialista frente a la oposición del Partido Popular y Vox, Puente era una pieza angular del núcleo duro de La Moncloa. Su dimisión introduce de lleno en el debate electoral la gestión y el mantenimiento de las infraestructuras ferroviarias en España, un servicio que presumía de ser referente mundial de modernidad y alta velocidad pero que acumulaba quejas por averías tras la liberalización del sector. El PP de Alberto Núñez Feijóo rentabiliza la salida ministerial como síntoma del deterioro de la gestión pública bajo el mandato de coalición."
+   },
+   "vocab": [
+    [
+     "la Diputación Permanente del Congreso",
+     "la Commission permanente du Congrès (organe assurant la continuité parlementaire)",
+     "El ministro compareció ante la Diputación Permanente antes de anunciar su dimisión."
+    ],
+    [
+     "la responsabilidad política",
+     "la responsabilité politique",
+     "El mandatario asumió la responsabilidad política por el siniestro ferroviario."
+    ],
+    [
+     "el descarrilamiento ferroviario",
+     "le déraillement d'un train",
+     "El trágico descarrilamiento en Urda causó una profunda conmoción nacional."
+    ],
+    [
+     "el ariete del Ejecutivo",
+     "le fer de lance / porte-flingue du gouvernement",
+     "Puente actuaba como el ariete dialéctico del partido en los debates más tensos."
+    ],
+    [
+     "la red de alta velocidad (AVE)",
+     "le réseau à grande vitesse espagnol (AVE)",
+     "La red de alta velocidad española afronta graves problemas de mantenimiento e inversión."
+    ],
+    [
+     "las elecciones generales anticipadas",
+     "les élections législatives anticipées",
+     "La dimisión sacude la campaña de cara a las elecciones generales anticipadas."
+    ]
+   ],
+   "sujets": [
+    "¿Qué impacto tiene la asunción de responsabilidades políticas en la credibilidad de las instituciones democráticas?",
+    "¿Es el modelo de infraestructuras ferroviarias en España víctima de la falta de inversión o del éxito de su liberalización?"
+   ],
+   "anki": [
+    {
+     "q": "Motivo de la dimisión de Óscar Puente como ministro de Transportes (3 de noviembre de 2026)",
+     "r": "Asume la responsabilidad política por el accidente de AVE en Urda (C{69 muertos}) tras el de Adamuz.\n→ La crisis ferroviaria entra de lleno en la campaña hacia las elecciones generales del D{29 de noviembre}."
+    },
+    {
+     "q": "Decisión electoral adicional comunicada por Óscar Puente",
+     "r": "Renuncia a formar parte de las listas electorales del PSOE para el 29-N.\n→ Supone la baja de uno de los principales arietes dialécticos del Gobierno de Pedro Sánchez."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-03/competencia-abre-un-expediente-sancionador-a-apple-y-amazon-por-incumplir-la-resolucion-de-la-historica-multa-de-2023.html",
+   "minutes": 3,
+   "titre": "Régulation numérique en Espagne : la CNMC ouvre une procédure contre Apple et Amazon pour inexécution d'injonction",
+   "faits": "L'autorité espagnole de la concurrence, la Comisión Nacional de los Mercados y la Competencia (CNMC), a officiellement ouvert le 3 novembre une nouvelle procédure de sanction contre les multinationales technologiques Apple et Amazon pour n'avoir pas respecté l'ordonnance de cessation immédiate de leurs pratiques restrictives prononcée lors de l'amende historique de 194 millions d'euros infligée en juillet 2023. Selon l'enquête du régulateur, les deux géants américains ont continué d'appliquer des clauses contractuelles illicites sur la plateforme espagnole d'Amazon jusqu'en mai 2025, soit près de deux ans après la condamnation. Ces clauses écartaient plus de 90 % des revendeurs indépendants de produits Apple en Espagne, restreignaient les espaces publicitaires pour les marques concurrentes et interdisaient à Amazon d'envoyer des offres promotionnelles alternatives aux clients achetant des téléphones ou tablettes de la marque à la pomme.",
+   "enjeux": "Cette initiative illustre la fermeté croissante des autorités de régulation européennes face aux pratiques anticoncurrentielles des **géants du numérique** (*Big Tech*). En s'appuyant sur leur statut d'intermédiaire incontournable du commerce électronique et des terminaux mobiles, Apple et Amazon avaient conclu un accord bilatéral de répartition de marché qui étouffait la concurrence intramarque et maintenait des prix élevés au détriment des consommateurs espagnols et des PME de distribution. Au-delà du droit de la concurrence national, ce dossier résonne avec le règlement européen sur les marchés numériques (**Digital Markets Act**, DMA), conçu précisément pour empêcher les plateformes jouant le rôle de « contrôleurs d'accès » (*gatekeepers*) de verrouiller leurs écosystèmes. L'ouverture d'un dossier pour non-respect d'injonction montre les limites de la seule dissuasion financière face à des multinationales disposant d'une trésorerie colossale.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Amazon_Espa%C3%B1a_por_dentro_%2816%29.jpg/1280px-Amazon_Espa%C3%B1a_por_dentro_%2816%29.jpg",
+    "alt": "L'intérieur d'un centre logistique d'Amazon en Espagne à San Fernando de Henares",
+    "credit": "Álvaro Ibáñez / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Amazon_Espa%C3%B1a_por_dentro_(16).jpg"
+   },
+   "vo": {
+    "titre": "Competencia abre un nuevo expediente sancionador a Apple y Amazon por incumplir la orden de cese de 2023",
+    "faits": "La Comisión Nacional de los Mercados y la Competencia (CNMC) incoó el 3 de noviembre un nuevo expediente sancionador contra Apple y Amazon por incumplir la orden de cesación incluida en la histórica resolución de julio de 2023, que les impuso una multa de 194 millones de euros por prácticas anticompetitivas. Según el organismo regulador, las tecnológicas no eliminaron las cláusulas restrictivas pactadas en los contratos de distribución en España hasta mayo de 2025, desoyendo el mandato de terminación inmediata. Dichos pactos expulsaron a más del 90 % de los distribuidores independientes de productos Apple de la web de Amazon en España, limitaron la publicidad de marcas competidoras y bloquearon el envío de ofertas alternativas a los compradores de dispositivos.",
+    "enjeux": "La decisión evidencia la creciente determinación de los reguladores europeos frente al abuso de posición de dominio de las grandes plataformas digitales. Al coordinar sus políticas comerciales, Apple y Amazon levantaron un ecosistema cerrado que restringió la competencia intramarca en el comercio electrónico, elevó los precios al consumidor y asfixió a los pequeños distribuidores minoristas. El procedimiento conecta de lleno con los principios de la Ley de Mercados Digitales (DMA) europea, destinada a neutralizar el poder de los llamados guardianes de acceso (gatekeepers) tecnológicos. Revela asimismo que las sanciones económicas por sí solas resultan a veces insuficientes frente a corporaciones con recursos financieros casi ilimitados que dilatan el cumplimiento judicial."
+   },
+   "vocab": [
+    [
+     "un expediente sancionador",
+     "une procédure de sanction / un dossier contentieux",
+     "La CNMC abrió un expediente sancionador por no cumplir las resoluciones vigentes."
+    ],
+    [
+     "la orden de cesación",
+     "l'injonction de cessation (d'une pratique illicite)",
+     "Las empresas desoyeron la orden de cesación inmediata dictada por el regulador."
+    ],
+    [
+     "los guardianes de acceso (gatekeepers)",
+     "les contrôleurs d'accès / plateformes structurantes",
+     "La regulación europea busca limitar el poder de mercado de los gatekeepers tecnológicos."
+    ],
+    [
+     "las prácticas anticompetitivas",
+     "les pratiques anticoncurrentielles (ententes, abus de position dominante)",
+     "Limitar la presencia de revendedores independientes constituye una práctica anticompetitiva."
+    ],
+    [
+     "la competencia intramarca",
+     "la concurrence intramarque (entre distributeurs d'une même marque)",
+     "El pacto redujo drásticamente la competencia intramarca entre distribuidores de productos tecnológicos."
+    ],
+    [
+     "desestimar la suspensión cautelar",
+     "rejeter la demande de suspension conservatoire",
+     "La Audiencia Nacional desestimó la suspensión cautelar solicitada por las compañías."
+    ]
+   ],
+   "sujets": [
+    "¿Son las multas económicas tradicionales suficientes para disciplinar a los gigantes tecnológicos globales?",
+    "¿Protege la regulación digital europea de forma efectiva a las pymes y a los consumidores en el comercio electrónico?"
+   ],
+   "anki": [
+    {
+     "q": "Motivo del nuevo expediente abierto por la CNMC contra Apple y Amazon (noviembre 2026)",
+     "r": "Incumplimiento de la orden de cesación de cláusulas anticompetitivas de la multa de C{194 millones de euros} de 2023 hasta mayo de 2025.\n→ Las tecnológicas mantuvieron barreras que expulsaron al 90 % de los distribuidores independientes."
+    },
+    {
+     "q": "Efecto de las cláusulas sancionadas en la web de Amazon España",
+     "r": "Limitaron la publicidad de rivales y bloquearon campañas alternativas a compradores de Apple.\n→ Conecta con el Reglamento de Mercados Digitales (DMA) frente al poder de los gatekeepers."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/argentina/2026-11-03/del-ejercito-de-lula-al-ejercito-peronista-la-oposicion-argentina-recluta-al-general-digital-que-impulso-la-remontada-en-brasil.html",
+   "minutes": 3,
+   "titre": "Argentine : l'opposition péroniste s'allie au stratège numérique de Lula pour contrer Javier Milei sur les réseaux",
+   "faits": "À Buenos Aires, les principales figures de l'opposition péroniste — emmenées par l'ancienne présidente Cristina Fernández de Kirchner et l'ancien ministre de l'Économie Sergio Massa — ont scellé une alliance stratégique le 3 novembre avec le député fédéral brésilien André Janones, le « général numérique » qui avait piloté la campagne sur les réseaux sociaux de Luiz Inácio Lula da Silva lors de sa victoire présidentielle de 2022. Venu former les cadres et militants argentins à la cyberguerre politique, Janones a lancé les bases de ce que le mouvement nomme « l'Armée du péronisme » (el Ejército del Peronismo), un réseau coordonné de milliers de créateurs de contenus, d'activistes et de comptes communautaires sur TikTok, X et WhatsApp. L'objectif avoué est de briser l'hégémonie numérique absolue dont bénéficie le président libertarien Javier Milei et son armée de « trolls » numériques financée par la présidence, en vue des élections législatives et de la présidentielle de 2027.",
+   "enjeux": "Cette initiative illustre la transformation radicale de la **communication politique** et des campagnes électorales en Amérique latine sous l'impact de la **polarisation numérique**. Lors de son accession au pouvoir fin 2023, **Javier Milei** a bousculé le système traditionnel en contournant les médias généralistes pour imposer ses thèmes directement via une guérilla de mèmes, d'attaques ciblées et de discours anti-système sur les réseaux. Face à ce rouleau compresseur algorithmique, le péronisme traditionnel, habitué à la mobilisation syndicale de rue et au maillage territorial classique (*el aparato barrial*), s'était retrouvé totalement démuni et inaudible auprès de la jeunesse. En important la méthode brésilienne du « janonisme » — qui assume d'utiliser les mêmes codes agressifs, l'émotion brute et la saturation de l'espace numérique que la droite radicale —, le péronisme prépare une guerre informationnelle sans précédent.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2019_Buenos_Aires_-_Palacio_del_Congreso_de_la_Naci%C3%B3n_Argentina.jpg/1280px-2019_Buenos_Aires_-_Palacio_del_Congreso_de_la_Naci%C3%B3n_Argentina.jpg",
+    "alt": "Le palais du Congrès de la Nation argentine à Buenos Aires",
+    "credit": "Felipe Restrepo Acosta / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Buenos_Aires_-_Palacio_del_Congreso_de_la_Naci%C3%B3n_Argentina.jpg"
+   },
+   "vo": {
+    "titre": "Del «ejército de Lula» al «ejército peronista»: la oposición argentina recluta al estratega digital de la izquierda brasileña",
+    "faits": "En Buenos Aires, los principales referentes de la oposición peronista –encabezados por la expresidenta Cristina Fernández de Kirchner y el exministro Sergio Massa– sellaron el 3 de noviembre una alianza estratégica con el diputado federal brasileño André Janones, conocido como el «general digital» que diseñó la campaña en redes de Luiz Inácio Lula da Silva en su triunfo de 2022. Janones viajó a la capital argentina para adiestrar a la militancia en técnicas de ciberguerra política y sentar las bases del denominado «Ejército del Peronismo», una red organizada de miles de activistas y creadores de contenido en plataformas como TikTok, X y canales de mensajería. El propósito explícito consiste en quebrar la hegemonía digital del presidente libertario Javier Milei y contrarrestar el influyente entramado de cuentas y creadores afines al oficialismo de cara al ciclo electoral hacia 2027.",
+    "enjeux": "El acuerdo refleja la profunda metamorfosis de la comunicación política y la batalla cultural en América Latina al calor de la polarización algorítmica. Javier Milei cimentó su ascenso electoral sorteando los medios tradicionales para desplegar un mensaje directo de corte libertario mediante una intensa guerrilla de memes, agresividad retórica y movilización digital. Frente a esa dinámica, el peronismo tradicional –anclado históricamente en la movilización territorial y los actos de masas sindicales– quedó desconectado del electorado joven. Al adoptar las fórmulas del denominado «janonismo» brasileño –que emula los métodos de agitación digital de la derecha radical para disputar el relato sin complejos–, la oposición argentina anticipa una confrontación de trincheras en las redes."
+   },
+   "vocab": [
+    [
+     "la ciberguerra política",
+     "la cyberguerre politique (la bataille informationnelle sur les réseaux)",
+     "La oposición adoptó tácticas de ciberguerra política para disputar el relato electoral."
+    ],
+    [
+     "la hegemonía digital",
+     "l'hégémonie / la domination numérique",
+     "Milei construyó su popularidad gracias a una indiscutible hegemonía digital en redes."
+    ],
+    [
+     "el aparato territorial / barrial",
+     "l'appareil militant de terrain / de quartier",
+     "El tradicional aparato barrial del peronismo demostró ser insuficiente frente al auge de TikTok."
+    ],
+    [
+     "la polarización algorítmica",
+     "la polarisation algorithmique (accentuée par les réseaux)",
+     "La polarización algorítmica radicaliza los debates y dificulta los acuerdos políticos."
+    ],
+    [
+     "las cuentas afines / la guerrilla digital",
+     "les comptes sympathisants / la guérilla numérique",
+     "El oficialismo sostiene su discurso a través de una coordinada guerrilla digital de cuentas afines."
+    ],
+    [
+     "disputar el relato",
+     "disputer le récit / la bataille narrative",
+     "El objetivo de la nueva estrategia en redes es disputar el relato a la derecha libertaria."
+    ]
+   ],
+   "sujets": [
+    "¿Han sustituido las redes sociales y la «guerrilla digital» a los partidos y sindicatos tradicionales en América Latina?",
+    "¿Es la polarización en las plataformas digitales una amenaza para la estabilidad democrática en Argentina?"
+   ],
+   "anki": [
+    {
+     "q": "Estratega digital brasileño reclutado por el peronismo en Argentina (noviembre 2026)",
+     "r": "André Janones, artífice de la campaña en redes de Lula en D{2022}.\n→ Busca contrarrestar la hegemonía digital de Javier Milei creando el «Ejército del Peronismo»."
+    },
+    {
+     "q": "Límite del peronismo tradicional frente al ascenso libertario de Milei",
+     "r": "Su dependencia del aparato territorial y sindical, inaudible para los jóvenes en redes.\n→ La política latinoamericana transita de la movilización de calle a la polarización algorítmica."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-allemand-1",
+   "matiere": "allemand",
+   "source": "Frankfurter Allgemeine Zeitung",
+   "url": "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/bundesnetzagentur-rwe-leag-und-stadtwerke-karlsruhe-erhalten-milliarden-fuer-neue-kraftwerke-accg-201646252.html",
+   "minutes": 3,
+   "titre": "Transition énergétique en Allemagne : l'Agence des réseaux alloue 12 milliards d'euros pour de nouvelles centrales à gaz",
+   "faits": "Le 3 novembre, l'Agence fédérale des réseaux (Bundesnetzagentur) a dévoilé les résultats de la première grande vague d'adjudication pour la construction et la modernisation de centrales électriques de secours destinées à sécuriser le réseau électrique allemand. Les géants de l'énergie RWE et LEAG, ainsi que les régies municipales de Karlsruhe, ont raflé l'ensemble des onze lots attribués, représentant une puissance cumulée de 5 160 mégawatts de centrales thermiques à gaz. Ces installations devront être prêtes à démarrer à l'horizon novembre 2031 afin d'assurer l'approvisionnement lors des « périodes sombres et sans vent » (Dunkelflaute), lorsque les éoliennes et les panneaux solaires ne produisent presque plus. Les opérateurs percevront une subvention publique garantie sur quinze ans, estimée à environ 12 milliards d'euros, financée directement par une surtaxe sur la facture d'électricité des ménages et des entreprises. En revanche, aucun projet de stockage géant par batteries n'a réussi à remporter d'enchère.",
+   "enjeux": "Cette décision met en lumière le défi colossal de l'**intermittence des énergies renouvelables** dans la stratégie allemande de sortie conjointe du charbon et de l'énergie nucléaire (*Energiewende*). Pour atteindre la neutralité climatique tout en évitant le risque de coupures de courant généralisées (*Blackout*), l'Allemagne est contrainte de financer la construction d'un vaste parc de **centrales thermiques de pointe** (*Spitzenlastkraftwerke*). Bien que ces centrales soient censées être « convertibles à l'hydrogène vert » (*H2-ready*) d'ici les années 2030, elles fonctionneront dans un premier temps au gaz fossile importé, soulevant de vives critiques chez les écologistes qui y voient un verrouillage carboné (*carbon lock-in*) et un gouffre financier. De plus, la controverse enfle autour de l'opérateur est-allemand LEAG, accusé de toucher une double subvention en rééquipant ses vieilles chaudières à charbon avec du gaz tout en empochant les indemnités de sortie du lignite.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Landfill_gas-fired_power_plant_Fr%C3%B6ttmaninger_Berg_%281%29.jpg/1280px-Landfill_gas-fired_power_plant_Fr%C3%B6ttmaninger_Berg_%281%29.jpg",
+    "alt": "Une centrale électrique à gaz en Allemagne",
+    "credit": "Wikitarisch / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Landfill_gas-fired_power_plant_Fr%C3%B6ttmaninger_Berg_(1).jpg"
+   },
+   "vo": {
+    "titre": "Energiewende in Deutschland: Bundesnetzagentur vergibt Milliardensubventionen für neue Gaskraftwerke",
+    "faits": "Am 3. November hat die Bundesnetzagentur die Ergebnisse der ersten Ausschreibungsrunde für neue, systemabsichernde Kraftwerkskapazitäten bekannt gegeben. Die Energiekonzerne RWE und Leag sowie die Stadtwerke Karlsruhe erhielten den Zuschlag für insgesamt elf Gebote mit einer Leistung von rund 5.160 Megawatt. Die geplanten Gaskraftwerke sollen ab November 2031 einsatzbereit sein, um bei witterungsbedingten Dunkelflauten einzuspringen, wenn Solar- und Windparks nicht ausreichend Strom einspeisen. Zur Absicherung ihrer Betriebsbereitschaft erhalten die Betreiber über einen Zeitraum von 15 Jahren garantierte Zahlungen von insgesamt rund zwölf Milliarden Euro, die über eine staatliche Umlage auf die Stromkunden umgelegt werden. Großbatteriespeicher gingen im Vergabeverfahren hingegen vollständig leer aus.",
+    "enjeux": "Die Auktion offenbart das strukturelle Dilemma der deutschen Energiewende nach dem doppelten Ausstieg aus Kernkraft und Kohle. Um ein wetterabhängiges Stromnetz bei Dunkelflauten vor Blackouts zu schützen, benötigt die Bundesrepublik eine verlässliche Reserveregulierung durch Spitzenlastkraftwerke. Obwohl die neuen Anlagen perspektivisch auf grünen Wasserstoff umgerüstet werden sollen (H2-Ready), zementieren sie für die kommenden Jahrzehnte den Einsatz fossiler Brennstoffe. In der Branche sorgt zudem die ostdeutsche Leag für Unmut: Der Betreiber rüstet alte Braunkohlekessel auf Erdgas um und kassiert damit neben den milliardenschweren Entschädigungen für den Kohleausstieg zusätzliche staatliche Zuschläge aus dem Kapazitätsmechanismus."
+   },
+   "vocab": [
+    [
+     "die Dunkelflaute",
+     "la période sombre et sans vent (sans production solaire ni éolienne)",
+     "Während einer Dunkelflaute müssen flexible Spitzenlastkraftwerke die Stromversorgung sichern."
+    ],
+    [
+     "die Bundesnetzagentur",
+     "l'Agence fédérale des réseaux (régulateur allemand de l'énergie)",
+     "Die Bundesnetzagentur überwacht den Wettbewerb auf den Energiemärkten und das Stromnetz."
+    ],
+    [
+     "der Kapazitätsmechanismus",
+     "le mécanisme de capacité (rémunérant la disponibilité des centrales)",
+     "Der Kapazitätsmechanismus garantiert Kraftwerksbetreibern feste Einnahmen für das Bereithalten von Leistung."
+    ],
+    [
+     "die H2-Ready-Anlagen",
+     "les installations convertibles à l'hydrogène",
+     "Neue Erdgaskraftwerke müssen H2-Ready gebaut werden, um später auf Wasserstoff umzusteigen."
+    ],
+    [
+     "die Strompreisumlage",
+     "la surtaxe / contribution sur le prix de l'électricité",
+     "Die Subventionen für Reservekraftwerke werden über eine Umlage auf die Verbraucher abgewälzt."
+    ],
+    [
+     "der Kohleausstieg",
+     "la sortie du charbon",
+     "Der Kohleausstieg erfordert den massiven Ausbau von Leitungsnetzen und Speichertechnologien."
+    ]
+   ],
+   "sujets": [
+    "Ist der Bau neuer Gaskraftwerke eine unverzichtbare Brückentechnologie oder ein Rückschritt für die deutsche Energiewende?",
+    "Wie lässt sich die Versorgungssicherheit eines Industrielandes bei hohem Anteil erneuerbarer Energien finanzierbar halten?"
+   ]
+  },
+  {
+   "id": "2026-11-04-allemand-2",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/unternehmen/autobahn-gmbh-bundesrechnungshof-kritisiert-finanzreform-scharf-a-0151ed9c-9ee5-41ab-89f7-09c1a91dd168",
+   "minutes": 3,
+   "titre": "Infrastructures en Allemagne : la Cour des comptes fustige le projet d'endettement privé de l'Autobahn GmbH",
+   "faits": "Dans un rapport confidentiel adressé au Bundestag et révélé par le Spiegel début novembre, la Cour fédérale des comptes (Bundesrechnungshof) étrille le projet de réforme financière de l'Autobahn GmbH, la société publique fédérale chargée de gérer les 13 000 kilomètres d'autoroutes allemandes. Porté par le ministre des Transports Steffen Bilger (CDU), le projet vise à autoriser l'entreprise d'État à contracter directement des emprunts sur les marchés financiers dès 2028, en affectant les recettes futures des péages pour poids lourds (Lkw-Maut) au remboursement de la dette. Les magistrats financiers conseillent vivement à la commission du Budget de rejeter ce projet jugé « pas mûr pour être voté », avertissant qu'il crée une dette d'ombre hors budget fédéral pour contourner le frein à l'endettement, engendre des frais d'intérêts bancaires considérablement plus élevés que les obligations d'État classiques et échappe au contrôle démocratique du Parlement.",
+   "enjeux": "Ce réquisitoire soulève le débat crucial sur le financement des **infrastructures de transport** en Allemagne face aux contraintes du **frein constitutionnel à l'endettement** (*Schuldenbremse*). Alors que des milliers de ponts autoroutiers menacent ruine après des décennies de sous-investissement chronique, le gouvernement de Friedrich Merz refuse de réformer la règle budgétaire d'or inscrite dans la Loi fondamentale. Pour trouver les dizaines de milliards d'euros nécessaires à la réfection du réseau sans afficher de nouveau déficit budgétaire, le ministère tente d'externaliser la dette auprès d'entreprises publiques indépendantes (sociétés d'autoroutes, Deutsche Bahn). Comme le rappelle le Bundesrechnungshof, ces montages de **dette d'ombre** (*Schattenhaushalte*) coûtent plus cher aux contribuables, car une société d'État emprunte à des taux d'intérêt supérieurs à ceux du Bund souverain, tout en restreignant les marges d'investissement des générations futures.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Neubau_der_Autobahn-Talbr%C3%BCcke_Nuttlar_%2813415039925%29.jpg/1280px-Neubau_der_Autobahn-Talbr%C3%BCcke_Nuttlar_%2813415039925%29.jpg",
+    "alt": "Chantier de construction d'un viaduc autoroutier sur le réseau des Autobahnen en Allemagne",
+    "credit": "Thomas Wensing / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Neubau_der_Autobahn-Talbr%C3%BCcke_Nuttlar_(13415039925).jpg"
+   },
+   "vo": {
+    "titre": "Infrastruktur-Streit in Berlin: Bundesrechnungshof warnt vor Schattenverschuldung bei der Autobahn GmbH",
+    "faits": "In einem an den Haushaltsausschuss des Bundestages gerichteten Bericht übt der Bundesrechnungshof scharfe Kritik an den Finanzierungsplänen von Bundesverkehrsminister Steffen Bilger (CDU) für die bundeseigene Autobahn GmbH. Der Gesetzentwurf sieht vor, der Gesellschaft ab 2028 eine eigenständige Kreditaufnahme am Kapitalmarkt zu erlauben, um Straßen- und Brückensanierungen gegenzufinanzieren, während künftige Einnahmen aus der Lkw-Maut zur Schuldentilgung verwendet werden sollen. Die obersten Kassenprüfer der Republik stufen das Vorhaben als „nicht entscheidungsreif“ ein und warnen eindringlich vor einer verfassungswidrigen Schattenverschuldung. Die eigenständige Kreditaufnahme der Gesellschaft verursache wegen höherer Zinsen als bei Bundesanleihen erhebliche Mehrkosten und entziehe Milliardeninvestitionen der parlamentarischen Kontrolle des Bundestages.",
+    "enjeux": "Die Auseinandersetzung trifft den Kern des deutschen Streits über marode Verkehrsinfrastruktur und die verfassungsrechtliche Schuldenbremse. Angesichts tausender sanierungsbedürftiger Autobahnbrücken und enger finanzpolitischer Spielräume im Bundeshaushalt sucht die Koalition nach Wegen, dringend benötigte Investitionsmittel abseits der Kernhaushalte zu mobilisieren. Auslagerungen in staatliche Gesellschaften bergen jedoch die Gefahr intransparenter Nebenhaushalte, die das Budgetrecht des Parlaments untergraben und künftige Generationen belasten. Wenn Unternehmen im Bundeseigentum teure Marktkredite aufnehmen, verteuert dies die Sanierung der Bundesfernstraßen, während der Bundeshaushalt im Ernstfall dennoch als Bürge haften muss."
+   },
+   "vocab": [
+    [
+     "der Bundesrechnungshof",
+     "la Cour fédérale des comptes allemande",
+     "Der Bundesrechnungshof rügte die mangelnde Transparenz bei der Finanzierung der Bundesfernstraßen."
+    ],
+    [
+     "die Schattenverschuldung / der Schattenhaushalt",
+     "l'endettement d'ombre / le budget spécial hors bilan",
+     "Kritiker warnen davor, die Schuldenbremse über Schattenhaushalte zu umgehen."
+    ],
+    [
+     "die Schuldenbremse",
+     "le frein constitutionnel à l'endettement",
+     "Die Einhaltung der Schuldenbremse schränkt den Spielraum für öffentliche Investitionen drastisch ein."
+    ],
+    [
+     "die marode Verkehrsinfrastruktur",
+     "les infrastructures de transport vétustes / délabrées",
+     "Tausende marode Brücken stellen ein erhebliches Risiko für den deutschen Industriestandort dar."
+    ],
+    [
+     "die Lkw-Maut",
+     "la taxe kilométrique / le péage poids lourds",
+     "Die Einnahmen aus der Lkw-Maut sollen zweckgebunden in die Schienen- und Straßeninfrastruktur fließen."
+    ],
+    [
+     "das Budgetrecht des Parlaments",
+     "le pouvoir / privilège budgétaire du Parlement",
+     "Schattenhaushalte beschneiden das demokratische Budgetrecht der gewählten Abgeordneten."
+    ]
+   ],
+   "sujets": [
+    "Verhindert die deutsche Schuldenbremse notwendige Zukunftsinvestitionen in die Infrastruktur?",
+    "Welche verfassungsrechtlichen und ökonomischen Risiken bergen Schattenhaushalte staatlicher Unternehmen?"
+   ]
+  },
+  {
+   "id": "2026-11-04-allemand-3",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/gas-aus-russland-warum-donald-trumps-pipeline-deal-fuer-europa-riskant-waere-a-da9d7824-2301-4b9b-8cc4-42701e1b0003",
+   "minutes": 3,
+   "titre": "Géopolitique de l'énergie : l'Europe rejette le projet de Donald Trump de reprise du gaz russe via l'Ukraine",
+   "faits": "Une enquête publiée le 3 novembre par le Spiegel détaille une initiative diplomatique et économique controversée portée par les émissaires de la Maison-Blanche auprès de Moscou et de Kiev, visant à rétablir le transit massif de gaz naturel russe par pipeline à travers le territoire ukrainien vers l'Union européenne. L'administration de Donald Trump entend ainsi accroître l'offre énergétique mondiale pour faire baisser les cours du gaz et du pétrole après les chocs subis au Moyen-Orient, tout en créant une incitation financière mutuelle pour inciter Vladimir Poutine et Volodymyr Selenskyj à négocier un cessez-le-feu énergétique. Pour contourner les sanctions occidentales, le projet prévoit qu'une entreprise américaine achèterait le gaz à la frontière russo-ukrainienne et reverserait des droits de transit à Kiev, tandis que les revenus russes seraient bloqués sur des comptes fiduciaires. Les gouvernements européens, à commencer par Berlin, ont accueilli cette proposition avec une hostilité glaciale.",
+   "enjeux": "Ce projet américain remet en question la doctrine d'**autonomie stratégique** et de **sécurité énergétique** patiemment construite par l'Union européenne depuis l'invasion de l'Ukraine en 2022. Après avoir payé au prix fort son affranchissement de la dépendance historique au gaz de Gazprom via la construction de terminaux méthaniers d'importation de GNL et l'accélération des renouvelables, l'Europe refuse catégoriquement de retomber sous l'emprise gazière du Kremlin. Pour l'Allemagne, rouvrir les vannes du gaz russe sous tutelle d'un intermédiaire américain constituerait un aveu de faiblesse géopolitique majeur et affaiblirait le régime des sanctions européennes, dont la fin programmée de toutes les importations fossiles russes est fixée à 2027. Ce bras de fer met en relief la divergence d'intérêts entre Washington, focalisé sur la déflation rapide des coûts de l'énergie, et Bruxelles, qui privilégie la sécurité géostratégique du continent.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Eischleben_STEGAL-Verdichterstation.JPG/1280px-Eischleben_STEGAL-Verdichterstation.JPG",
+    "alt": "Une station de compression de gazoduc sur le réseau allemand à Eischleben",
+    "credit": "Mazbln / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Eischleben_STEGAL-Verdichterstation.JPG"
+   },
+   "vo": {
+    "titre": "Energiepolitik: Warum Donald Trumps Vorstoß für russisches Pipeline-Gas in Berlin auf Ablehnung stößt",
+    "faits": "Nach Recherchen des Spiegel werben Unterhändler des US-Präsidenten Donald Trump in Moskau und Kiew für einen umstrittenen Pipeline-Deal, der die Wiederaufnahme russischer Erdgaslieferungen durch die Ukraine nach Europa vorsieht. Die US-Regierung beabsichtigt damit, das globale Energieangebot spürbar auszuweiten, um nach den Verwerfungen im Nahen Osten die Gaspreise zu drücken und Moskau wie Kiew mit wirtschaftlichen Hebeln zu Waffenstillstandsgesprächen zu bewegen. Um EU-Sanktionen zu umgehen, soll ein US-Unternehmen als Zwischenkäufer fungieren, während die Ukraine lukrative Transitgebühren erhielte und russische Milliardenerlöse auf Treuhandkonten eingefroren blieben. In Berlin und Brüssel stieß der Vorstoß jedoch auf entschiedene Ablehnung und Unverständnis bei Regierungsvertretern.",
+    "enjeux": "Der US-Vorstoß durchkreuzt die europäische Doktrin der strategischen Energiesouveränität, die seit dem Überfall auf die Ukraine mühsam aufgebaut wurde. Nachdem Deutschland und die EU unter gewaltigen Kosten auf LNG-Terminals und alternative Bezugsquellen umgestellt haben, lehnen Bundesregierung und europäische Partner eine erneute Abhängigkeit von russischem Gas kategorisch ab. Eine Rückkehr zu russischen Gaslieferungen unter amerikanischer Schirmherrschaft würde nicht nur die europäischen Sanktionsbeschlüsse untergraben, die einen vollständigen Ausstieg bis 2027 vorschreiben, sondern Moskau erneut ein geopolitisches Erpressungspotenzial gegenüber dem Kontinent verschaffen. Der Streit verdeutlicht die Kluft zwischen Trumps transaktionaler Preispolitik und der sicherheitspolitischen Resilienz der Europäer."
+   },
+   "vocab": [
+    [
+     "die strategische Energiesouveränität",
+     "la souveraineté énergétique stratégique",
+     "Europa will seine strategische Energiesouveränität nicht für kurzfristig billigere Gaspreise opfern."
+    ],
+    [
+     "die Pipeline-Lieferungen",
+     "les livraisons par gazoduc",
+     "Vor dem Krieg deckte Deutschland einen Großteil seines Gasbedarfs über russische Pipeline-Lieferungen."
+    ],
+    [
+     "die Transitgebühren",
+     "les droits de transit (gaziers)",
+     "Der Gastransit durch ukrainisches Gebiet brachte Kiew vor dem Konflikt wichtige Transitgebühren ein."
+    ],
+    [
+     "das Erpressungspotenzial",
+     "le levier de chantage (géopolitique ou économique)",
+     "Abhängigkeiten bei kritischen Rohstoffen schaffen gefährliche geopolitische Erpressungspotenziale."
+    ],
+    [
+     "die Sanktionsbeschlüsse",
+     "les régimes / décisions de sanctions",
+     "Der geplante Zwischenhandel würde europäische Sanktionsbeschlüsse gegen Moskau de facto aushöhlen."
+    ],
+    [
+     "der transaktionale Politikansatz",
+     "l'approche politique transactionnelle (donnant-donnant)",
+     "Trumps Außenpolitik folgt oft einem rein transaktionalen Ansatz ohne Rücksicht auf multilaterale Allianzen."
+    ]
+   ],
+   "sujets": [
+    "Ist eine verlässliche europäische Energieversorgung ohne Importe aus autoritären Staaten dauerhaft möglich?",
+    "Wie verändern geopolitische Krisen die Prioritäten zwischen Klimaschutz, Wirtschaftlichkeit und Versorgungssicherheit?"
+   ]
+  }
+ ]
+}

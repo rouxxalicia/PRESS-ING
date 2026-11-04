@@ -18,8 +18,9 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 6. Écris `data/editions/<date>.json` (format ci-dessous), avec les 12 cartes dans l'ordre esh, anglais, espagnol, allemand.
 7. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche, **ajoute une fiche** à la fin de la liste `fiches` de `data/referentiel.json` (voir « Fiches du référentiel » ci-dessous), puis mets son `id` dans le `ref` de l'auteur.
 8. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
-9. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
-10. Termine par un message très court à Alicia : les 12 titres, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+9. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`.
+10. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
+11. Termine par un message très court à Alicia : les 12 titres, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
 
 ## Sources autorisées
 
@@ -75,6 +76,15 @@ Chaque carte a un champ `image` :
 - `vocab` : 6 paires `["mot ou expression en langue étrangère", "traduction française"]`, utiles pour un essai.
 - Pas de `programme` ni d'`auteurs`.
 
+### Cartes Anki (esh, anglais, espagnol ; jamais l'allemand)
+- `anki` : 2 à 4 cartes `{"q": "recto", "r": "verso"}` sur les **faits et chiffres citables** de l'article. Aucune carte artificielle : seulement ce qu'Alicia pourra citer en dissertation ou en khôlle. Tout vient de `faits` et `enjeux`, rien d'inventé.
+- Langue : français pour l'esh, anglais pour l'anglais, espagnol pour l'espagnol.
+- Recto court et précis. Il ne révèle **jamais** la réponse (ni le chiffre, ni la date, ni l'auteur). Ne commence pas par « Quel » ou « Quelle ». Exemples : « Part de X dans Y (pays, date) », « Exemple de … ».
+- Verso : le fait en une ligne, puis à la ligne une flèche `→` et **l'argument**, c'est-à-dire ce que ça montre et ce qu'Alicia peut en tirer en dissertation. C'est le plus important de la carte. S'il n'y a vraiment rien à en tirer, n'écris pas de flèche : ne remplis jamais pour remplir. Pas de listes, ni d'étiquettes du type « Fait » ou « Enjeu ».
+- Cartes esh : ajoute l'auteur qui soutient ou nuance l'argument, pris dans les `auteurs` de l'article : `A{Ricardo}, O{Des principes de l'économie politique et de l'impôt} (D{1817}) : ce que ça montre.` S'il n'y a pas de lien solide avec un auteur, n'en mets pas.
+- Code couleur dans le verso : `C{95 Md$}` pour un chiffre, `D{1950}` pour une date, `A{Prebisch}` pour un auteur, `O{titre}` pour un ouvrage, `B{mot}` pour le gras. Retour à la ligne : `\n`.
+- Dans `vocab` des cartes de langue, chaque entrée a 3 éléments : `["mot", "traduction", "courte phrase d'exemple dans la langue, écrite par toi"]`. La phrase d'exemple n'est pas celle de l'article. Si elle n'apporte rien, mets seulement `["mot", "traduction"]`.
+
 ## Fiches du référentiel
 
 Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Destruction créatrice », pas « Schumpeter ». Elle doit être aussi précise qu'une fiche PeakNews et se suffire à elle-même pour une dissertation. Le modèle est la fiche `avantages-comparatifs` : même longueur, même niveau.
@@ -117,15 +127,17 @@ Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Des
    "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "programme": {"module": "…", "chapitre": "…"},
    "auteurs": [{"nom": "…", "ouvrage": "…", "annee": "…", "ref": null, "texte": "…"}],
-   "sujets": ["…", "…"]
+   "sujets": ["…", "…"],
+   "anki": [{"q": "…", "r": "…"}]
   },
   {
    "id": "2026-11-01-anglais-1", "matiere": "anglais", "source": "…", "url": "https://…", "minutes": 3,
    "titre": "…", "faits": "…", "enjeux": "…",
    "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "vo": {"titre": "…", "faits": "…", "enjeux": "…"},
-   "vocab": [["…", "…"]],
-   "sujets": ["…", "…"]
+   "vocab": [["…", "…", "…"]],
+   "sujets": ["…", "…"],
+   "anki": [{"q": "…", "r": "…"}]
   }
  ]
 }

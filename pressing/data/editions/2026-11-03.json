@@ -39,6 +39,16 @@
    "sujets": [
     "Les superprofits des grandes entreprises sont-ils le signe d'un marché efficace ou d'une économie de rente ?",
     "Comment le partage de la valeur ajoutée se déforme-t-il en période de choc inflationniste ?"
+   ],
+   "anki": [
+    {
+     "q": "Profits cumulés des neuf grandes majors pétrolières au 3e trimestre 2026",
+     "r": "Plus de C{95 Md$}, 3e trimestre de suite au-dessus de ce seuil.\n→ A{Ricardo}, O{Des principes de l'économie politique et de l'impôt} (D{1817}) : un revenu lié à la rareté et non à l'effort est une rente différentielle, ce qui justifie de taxer les superprofits."
+    },
+    {
+     "q": "Usage des superprofits pétroliers pendant la hausse du coût de la vie",
+     "r": "Dividendes et rachats d'actions plutôt qu'investissement dans les énergies décarbonées.\n→ A{Kaldor}, O{Alternative Theories of Distribution} (D{1956}) : les actionnaires consomment moins que les salariés, donc des profits non réinvestis dépriment la demande."
+    }
    ]
   },
   {
@@ -79,6 +89,20 @@
    "sujets": [
     "Transition numérique et transition écologique sont-elles compatibles ?",
     "Le progrès technique suffit-il à découpler la croissance économique des émissions de gaz à effet de serre ?"
+   ],
+   "anki": [
+    {
+     "q": "Coût des centres de données pour le système électrique espagnol sans régulation (horizon 2030)",
+     "r": "Près de C{2 Md€} de plus par an sur les factures et C{14 %} d'émissions de CO₂ en plus dans le secteur électrique.\n→ A{Pigou}, O{L'Économie du bien-être} (D{1920}) : le calcul privé s'écarte du bien-être collectif, la réglementation doit internaliser l'externalité."
+    },
+    {
+     "q": "Exemple montrant que l'abondance d'électricité renouvelable ne suffit pas à décarboner",
+     "r": "Espagne : les serveurs tournent 24 h/24, le solaire seulement le jour, donc les centrales à gaz prennent le relais la nuit.\n→ A{Jevons}, O{The Coal Question} (D{1865}) : la baisse du coût d'usage multiplie les usages, le découplage n'a rien d'automatique."
+    },
+    {
+     "q": "Mécanisme par lequel les centres de données renchérissent l'électricité de tous",
+     "r": "B{Merit order} : la dernière centrale appelée, presque toujours au gaz, fixe le prix payé par tous.\n→ Le surcoût du numérique retombe sur les ménages et les PME."
+    }
    ]
   },
   {
@@ -119,6 +143,20 @@
    "sujets": [
     "Comment expliquer le décrochage économique de l'Union européenne vis-à-vis des États-Unis depuis 2008 ?",
     "Le modèle économique et social européen condamne-t-il le continent à une croissance faible ?"
+   ],
+   "anki": [
+    {
+     "q": "Écart de PIB par habitant États-Unis / Allemagne en parité de pouvoir d'achat (2026)",
+     "r": "Plus d'un tiers en faveur des États-Unis.\n→ A{Romer}, O{Endogenous Technological Change} (D{1990}) : avec les rendements croissants de la connaissance, les pays riches ne convergent pas forcément et peuvent diverger durablement."
+    },
+    {
+     "q": "Paradoxe de l'épargne européenne face aux États-Unis",
+     "r": "Épargne élevée mais fragmentée : elle traverse l'Atlantique pour financer l'innovation radicale américaine.\n→ A{Aghion} et A{Howitt}, O{A Model of Growth Through Creative Destruction} (D{1992}) : près de la frontière technologique, la croissance exige des institutions favorables à l'innovation radicale, comme le capital-risque."
+    },
+    {
+     "q": "Croissance américaine prévue en 2026 comparée à la zone euro",
+     "r": "Plus de C{2,2 %}, soit deux à trois fois plus vite que la zone euro."
+    }
    ]
   },
   {
@@ -170,6 +208,20 @@
    "sujets": [
     "Should the right to permanent residency in Britain depend on how much a migrant earns?",
     "Why have successive British governments promised to cut immigration while the economy remains reliant on foreign workers?"
+   ],
+   "anki": [
+    {
+     "q": "UK \"earned settlement\": standard residence required before applying for ILR",
+     "r": "C{10 years}, up from C{5}.\n→ Labour wants to prove it is cutting net migration while Reform UK is on the rise."
+    },
+    {
+     "q": "UK income threshold for settlement after only 3 years",
+     "r": "Over C{£125,000} a year.\n→ Selective immigration taken to the extreme: the speed of integration now depends on salary."
+    },
+    {
+     "q": "What Shabana Mahmood gave up on low-paid care workers",
+     "r": "The planned 15-year wait: those who arrived before May 2025 and earn at least C{£25,000} keep the 5-year route.\n→ Political restriction collides with structural labour needs: the NHS and care homes rely on foreign workers."
+    }
    ]
   },
   {
@@ -221,6 +273,16 @@
    "sujets": [
     "Is Labour's overhaul of employment rights reversing Margaret Thatcher's economic legacy?",
     "Why are white-collar tech workers increasingly turning to trade unions?"
+   ],
+   "anki": [
+    {
+     "q": "Google UK's deal with the Prospect union",
+     "r": "Union representatives may enter its offices to organise some C{7,000} staff, a direct result of the Employment Rights Act.\n→ A symbolic turning point after more than forty years of labour deregulation since Thatcher."
+    },
+    {
+     "q": "Reasons behind the unionisation of Big Tech engineers",
+     "r": "Layoffs, AI-related restructuring and ethical disputes over military contracts.\n→ Even a high-wage, individualistic sector is turning to collective action."
+    }
    ]
   },
   {
@@ -272,6 +334,16 @@
    "sujets": [
     "Why are young Americans increasingly disillusioned with the two-party system?",
     "Will economic anxiety or defending democratic norms be the decisive factor in the 2026 US midterms?"
+   ],
+   "anki": [
+    {
+     "q": "Share of US Gen Z not registered to vote (2026 midterms)",
+     "r": "Nearly half, out of about C{50 million} voting-age Americans aged 18-29.\n→ Distrust of a system seen as locked by money and gerontocracy holds back turnout."
+    },
+    {
+     "q": "Main concerns of young US voters in the 2026 midterms",
+     "r": "The cost of living (rent, food, student loans) and fears for civil liberties (ICE, election integrity).\n→ Persistent inflation could bring part of Gen Z back to the Democrats, whose youth lead eroded in 2024."
+    }
    ]
   },
   {
@@ -323,6 +395,16 @@
    "sujets": [
     "¿Pueden el litio y los minerales críticos sacar a América Latina de su histórica dependencia de las materias primas?",
     "¿Por qué fracasan una y otra vez los proyectos de integración regional en América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Parte de los recursos mineros de América Latina exportada en bruto",
+     "r": "C{70 %} (Borrell, D{2026}).\n→ A{Prebisch} (D{1950}) ya lo advertía: exportar materias primas e importar manufacturas encierra al continente en una dependencia asimétrica."
+    },
+    {
+     "q": "Propuesta de Borrell para integrar América Latina",
+     "r": "Empezar por el litio, la electricidad y la agricultura, como la CECA en D{1951}.\n→ La integración económica precede a la política, pero las divisiones ideológicas paralizan una política industrial común."
+    }
    ]
   },
   {
@@ -374,6 +456,20 @@
    "sujets": [
     "¿Es el proteccionismo frente a China el precio que debe pagar México para salvar su alianza comercial con Estados Unidos?",
     "¿Ha cumplido el «nearshoring» sus promesas de desarrollo e industrialización para la economía mexicana?"
+   ],
+   "anki": [
+    {
+     "q": "Recaudación de México por importaciones, enero-septiembre de 2026",
+     "r": "C{143 000 millones} de pesos, más de C{44 000 millones} por debajo de la meta de C{188 000 millones}.\n→ Un arancel que frena las importaciones o una moneda fuerte recaudan menos de lo previsto."
+    },
+    {
+     "q": "Motivo del muro arancelario de México contra Asia",
+     "r": "Tranquilizar a Washington, que lo acusa de ser la «puerta trasera» de China, en plena revisión del T-MEC.\n→ La guerra comercial condiciona la política industrial de los países vecinos."
+    },
+    {
+     "q": "Límite del Plan México",
+     "r": "La industria mexicana depende de piezas asiáticas para ensamblar sus exportaciones.\n→ La sustitución de importaciones choca con la realidad de las cadenas de valor."
+    }
    ]
   },
   {
@@ -425,6 +521,20 @@
    "sujets": [
     "¿Tienen todavía sentido las Cumbres Iberoamericanas en una América Latina profundamente dividida?",
     "¿Qué papel puede desempeñar la Corona española como puente diplomático con América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Bloqueo de Argentina en la Cumbre Iberoamericana de Madrid (2026)",
+     "r": "Rechaza firmar los párrafos sobre la Agenda 2030, la igualdad de género y el cambio climático.\n→ La polarización ideológica hace casi imposible el consenso y agota el sistema de cumbres."
+    },
+    {
+     "q": "Creación de las Cumbres Iberoamericanas",
+     "r": "D{1991}, en México.\n→ La Corona española las considera el corazón de su papel internacional, por encima de las alternancias."
+    },
+    {
+     "q": "Uso interno del duelo entre Sánchez y Milei",
+     "r": "Sánchez lo utiliza como argumento de campaña antes de las legislativas del D{29 de noviembre}.\n→ La diplomacia de Estado cede ante la confrontación entre bloques políticos."
+    }
    ]
   },
   {

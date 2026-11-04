@@ -199,6 +199,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .bar { position: sticky; bottom: calc(53px + env(safe-area-inset-bottom, 0px)); background: var(--bg); border-top: 1px solid var(--line); display: flex; gap: 8px; padding-block: 10px; margin-top: 8px; }
 .fav-btn { width: 48px; height: 48px; flex-shrink: 0; border: 1px solid var(--fg); display: flex; align-items: center; justify-content: center; }
 .fav-btn[aria-pressed="true"] svg { fill: currentColor; }
+.anki-btn { height: 48px; flex-shrink: 0; padding-inline: 16px; border: 1px solid var(--fg); display: flex; align-items: center; justify-content: center; }
 .next-btn { flex-grow: 1; height: 48px; background: var(--invert-bg); color: var(--invert-fg); display: flex; align-items: center; justify-content: center; }
 
 .auteur { display: flex; flex-direction: column; gap: 8px; padding-block: 6px 14px; }
@@ -411,9 +412,14 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     if (c.programme) h += '<aside class="prog"><span class="label">Lien avec le programme</span><p><strong>Module</strong> · ' + esc(c.programme.module) + '</p><p><strong>Chapitre</strong> · ' + esc(c.programme.chapitre) + '</p></aside>';
     h += '<section class="sec"><h2 class="label">Sujets possibles</h2><ol class="sujets">' + c.sujets.map((s, i) => '<li><b>0' + (i + 1) + '</b><span>' + esc(s) + '</span></li>').join("") + '</ol></section>';
     h += '<p class="label muted source">Source · <a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.source) + ' ↗</a> · <a href="https://www.google.com/search?q=' + encodeURIComponent((() => { try { return "site:" + new URL(c.url).hostname.replace(/^www\./, "") + " "; } catch (e) { return ""; } })() + (c.vo ? c.vo.titre : c.titre)) + '" target="_blank" rel="noopener">Lien cassé ? Chercher l\'article</a></p>';
-    h += '<div class="bar"><button type="button" class="fav-btn" data-fav="' + c.id + '" aria-pressed="' + !!favs[c.id] + '" aria-label="' + (favs[c.id] ? "Retirer des favoris" : "Ajouter aux favoris") + '">' + BOOKMARK + '</button><a class="next-btn label" href="#' + next.id + '">Actu suivante</a></div>';
+    h += '<div class="bar"><button type="button" class="fav-btn" data-fav="' + c.id + '" aria-pressed="' + !!favs[c.id] + '" aria-label="' + (favs[c.id] ? "Retirer des favoris" : "Ajouter aux favoris") + '">' + BOOKMARK + '</button>' + ankiBtn(c) + '<a class="next-btn label" href="#' + next.id + '">Actu suivante</a></div>';
     app.innerHTML = h + '</article></div>';
     window.scrollTo(0, 0);
+  }
+
+  function ankiBtn(c) {
+    if (c.matiere === "allemand" || !((c.anki && c.anki.length) || (c.matiere !== "esh" && c.vocab && c.vocab.length))) return "";
+    return '<a class="anki-btn label" href="data/anki/' + esc(c.id) + '.apkg" download="pressing-' + esc(c.id) + '.apkg" aria-label="Télécharger les cartes Anki de cet article">Anki</a>';
   }
 
   function viewArchives() {

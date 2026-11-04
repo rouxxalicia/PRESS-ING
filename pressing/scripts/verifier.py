@@ -168,8 +168,16 @@ for c in cards:
             if not vo.get(k):
                 errors.append(f"{cid} : vo.{k} manquant")
         voc = c.get("vocab") or []
-        if len(voc) < 5 or any(not isinstance(v, list) or len(v) != 2 for v in voc):
-            errors.append(f"{cid} : vocab doit contenir 6 paires [mot, traduction]")
+        if len(voc) < 5 or any(not isinstance(v, list) or len(v) not in (2, 3) for v in voc):
+            errors.append(f"{cid} : vocab doit contenir 6 entrées [mot, traduction, exemple]")
+    if c.get("matiere") in ("esh", "anglais", "espagnol"):
+        anki = c.get("anki") or []
+        if not 2 <= len(anki) <= 4:
+            errors.append(f"{cid} : il faut 2 à 4 cartes dans anki")
+        if any(not f.get("q") or not f.get("r") for f in anki):
+            errors.append(f"{cid} : chaque carte anki a besoin de q et r")
+        if not (ROOT / "data" / "anki" / f"{cid}.apkg").exists():
+            errors.append(f"{cid} : paquet Anki absent — lance python3 scripts/anki.py")
 
 for w in warnings:
     print(" (à noter)", w)
