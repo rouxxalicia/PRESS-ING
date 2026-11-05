@@ -2626,6 +2626,226 @@
      ]
     }
    ]
+  },
+  {
+   "id": "theorie-choix-publics",
+   "nom": "Théorie des choix publics",
+   "categorie": "politiques",
+   "type": "Théorie",
+   "annee": "1962",
+   "auteur": "James Buchanan et Gordon Tullock",
+   "accroche": "L'État n'est pas un planificateur bienveillant cherchant l'intérêt général : les hommes politiques et les bureaucrates maximisent leur propre intérêt électoral et budgétaire.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**James Buchanan** et **Gordon Tullock**, *The Calculus of Consent: Logical Foundations of Constitutional Democracy* (1962). James Buchanan recevra le prix de la Banque de Suède en 1986 pour avoir fondé l'école des **choix publics** (*Public Choice*).",
+      "Jusque-là, la théorie économique standard supposait que si le marché défaillait, l'État intervenait comme un **planificateur bienveillant** pour rétablir l'optimum social. Buchanan applique l'hypothèse néoclassique de l'**homo œconomicus** aux acteurs politiques : élus, électeurs et fonctionnaires poursuivent d'abord leurs intérêts privés rationnels dans le cadre des règles institutionnelles."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "Les **hommes politiques** cherchent avant tout à être réélus : ils proposent des dépenses ciblées et des baisses d'impôts pour séduire des coalitions électorales décisives.",
+      "Les **bureaucrates** (analysés par William Niskanen en 1971) cherchent à maximiser la taille et le budget de leur administration pour accroître leur prestige et leur pouvoir.",
+      "Les **groupes de pression** s'organisent pour obtenir des rentes réglementaires ou fiscales (recherche de rente de Gordon Tullock et Mancur Olson).",
+      "Le résultat est un **biais systématique pour le déficit** et la croissance continue des dépenses publiques, car les bénéfices sont concentrés sur des clientèles alors que les coûts sont dilués sur l'ensemble des contribuables."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "L'existence d'une « défaillance de marché » ne suffit pas à justifier une intervention publique : il existe aussi des **défaillances de l'État** (*government failures*). Les politiques économiques ne reflètent pas l'intérêt général abstrait mais le jeu des incitations politiques.",
+      "Pour préserver la stabilité économique, Buchanan préconise une **économie constitutionnelle** : il faut lier les mains des gouvernants par des **règles budgétaires contraignantes** (comme une règle d'équilibre strict) plutôt que de leur laisser un pouvoir discrétionnaire."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "William Niskanen (1971)",
+       "d": "Modèle de la **bureaucratie** : le haut fonctionnaire dispose d'un monopole d'information face aux élus et maximise la taille de son administration."
+      },
+      {
+       "t": "Mancur Olson (1965)",
+       "d": "*Logique de l'action collective* : les petits groupes d'intérêts concentrés l'emportent sur la majorité diffuse des consommateurs et des contribuables."
+      },
+      {
+       "t": "William Nordhaus (1975)",
+       "d": "Le **cycle politico-économique** : les gouvernements relancent l'économie juste avant une élection quitte à provoquer de l'inflation et de la dette après."
+      },
+      {
+       "t": "Kydland et Prescott (1977)",
+       "d": "L'**incohérence temporelle** : sans règles strictes, les gouvernements cèdent aux tentations court-termistes, justifiant l'indépendance de la banque centrale."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "La théorie des choix publics ne prouve pas que toute dépense publique est néfaste ou inefficace : les infrastructures, la justice et l'éducation restent indispensables à la prospérité. Elle néglige aussi le dévouement au service public, l'éthique républicaine et le rôle des délibérations démocratiques non marchandes soulignés par la sociologie des institutions."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'impasse budgétaire française",
+       "d": "La difficulté de l'Assemblée nationale à voter un budget d'économies illustre la capture des élus par les demandes catégorielles de leurs électeurs."
+      },
+      {
+       "t": "Le frein à l'endettement allemand",
+       "d": "La *Schuldenbremse* constitutionnelle est l'application directe de la recommandation de Buchanan de lier les mains des gouvernants."
+      },
+      {
+       "t": "Le lobbying agricole et industriel",
+       "d": "Le maintien d'aides fiscales sectorielles malgré l'impératif écologique reflète la pression efficace de groupes d'intérêts bien organisés."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "William Nordhaus (1975)",
+       "idee": "les politiques macroéconomiques sont biaisées par le calendrier électoral"
+      },
+      {
+       "sens": "=",
+       "nom": "Mancur Olson (1965)",
+       "idee": "les minorités organisées imposent leurs rentes à la majorité silencieuse"
+      },
+      {
+       "sens": "≠",
+       "nom": "Richard Musgrave (1959)",
+       "idee": "l'État remplit rationnellement des fonctions bienveillantes d'allocation, de redistribution et de stabilisation"
+      },
+      {
+       "sens": "≠",
+       "nom": "John Maynard Keynes (1936)",
+       "idee": "l'État doit piloter discrétionnairement la demande effective sans carcan constitutionnel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "capital-humain-becker",
+   "nom": "Théorie du capital humain",
+   "categorie": "croissance",
+   "type": "Théorie",
+   "annee": "1964",
+   "auteur": "Gary Becker",
+   "accroche": "Les dépenses d'éducation et de formation ne sont pas de simples consommations mais un investissement rationnel qui accroît la productivité future et les rémunérations.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Gary Becker**, *Human Capital: A Theoretical and Empirical Analysis* (1964). Dans la lignée des travaux pionniers de Theodore Schultz (1961) et de Jacob Mincer (1958), Gary Becker reçoit le prix de la Banque de Suède en 1992.",
+      "Avant lui, l'analyse économique traditionnelle traitait le travail comme un facteur homogène mesuré en heures. Becker démontre que les individus se différencient par un stock qualitatif de compétences, de connaissances et de santé incorporé dans la personne : le **capital humain**."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "L'individu arbitre rationnellement entre entrer immédiatement sur le marché du travail ou poursuivre ses études.",
+      "Poursuivre des études implique un **coût direct** (frais de scolarité, matériel) et un **coût d'opportunité** majeur (les salaires non perçus pendant la durée des études).",
+      "L'étudiant consent cet investissement si la valeur actualisée des flux de salaires futurs anticipés est supérieure au coût total engagé.",
+      "Sur un marché concurrentiel, la formation accroît la **productivité marginale** du travailleur, que l'employeur rémunère par un salaire plus élevé."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "Les inégalités de salaires ne sont pas nécessairement le résultat de discriminations ou de rapports de force institutionnels, mais rémunèrent l'effort d'investissement et le risque pris par l'individu.",
+      "Au niveau macroéconomique, l'accumulation de capital humain est un moteur clé de la **croissance endogène** (modèle de Robert Lucas en 1988), ce qui légitime les politiques publiques d'éducation et de formation tout au long de la vie."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Capital général vs spécifique",
+       "d": "Becker distingue le capital **général** (transférable entre firmes, financé par le salarié) et **spécifique** (utile à une seule firme, cofinancé avec l'employeur)."
+      },
+      {
+       "t": "L'équation de Mincer (1974)",
+       "d": "Modélise le logarithme du salaire en fonction du nombre d'années d'études et de l'expérience professionnelle sur le marché du travail."
+      },
+      {
+       "t": "Robert Lucas (1988)",
+       "d": "Intègre le capital humain dans la **croissance endogène** avec des externalités positives de savoir qui échappent aux rendements décroissants."
+      },
+      {
+       "t": "Michael Spence (1973)",
+       "d": "Théorie du **signal** : le diplôme ne rend pas nécessairement plus productif, il sert de filtre pour révéler des capacités préexistantes sous asymétrie d'information."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Becker suppose un marché du travail transparent où le salaire reflète fidèlement la productivité marginale. Il ne prend pas en compte les phénomènes de **déclassement scolaire**, d'inflation des diplômes, ni les barrières à l'entrée liées à l'origine sociale ou au capital social des familles."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le tassement des salaires des cadres",
+       "d": "Lorsque le salaire médian des cadres recule malgré leurs diplômes, le rendement marginal de l'investissement en capital humain est remis en cause."
+      },
+      {
+       "t": "L'effort d'éducation en Asie",
+       "d": "Les investissements massifs de la Corée du Sud et de Singapour dans l'enseignement supérieur expliquent leur rattrapage technologique rapide."
+      },
+      {
+       "t": "La formation face à l'IA",
+       "d": "La transition numérique exige une reconversion permanente des compétences pour éviter la dépréciation rapide du capital humain existant."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Theodore Schultz (1961)",
+       "idee": "l'investissement dans l'homme est la source principale de la croissance moderne"
+      },
+      {
+       "sens": "=",
+       "nom": "Robert Lucas (1988)",
+       "idee": "le capital humain génère des externalités positives moteurs de la croissance endogène"
+      },
+      {
+       "sens": "≠",
+       "nom": "Michael Spence (1973)",
+       "idee": "le diplôme fonctionne comme un filtre et un signal sans forcément créer de productivité"
+      },
+      {
+       "sens": "≠",
+       "nom": "Pierre Bourdieu (1970)",
+       "idee": "l'école valorise le capital culturel hérité et reproduit les hiérarchies sociales de classe"
+      }
+     ]
+    }
+   ]
   }
  ]
 }

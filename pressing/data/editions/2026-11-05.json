@@ -1,0 +1,728 @@
+{
+ "date": "2026-11-05",
+ "cards": [
+  {
+   "id": "2026-11-05-esh-1",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/politique/budget-le-projet-de-loi-de-finances-unanimement-rejete-en-premiere-lecture-a-l-assemblee-20261104",
+   "minutes": 3,
+   "titre": "Rejet unanime du projet de budget 2027 à l'Assemblée nationale : l'exécutif face à l'impasse des finances publiques",
+   "faits": "Le 4 novembre 2026 au soir, l'Assemblée nationale a rejeté à l'unanimité le volet recettes du projet de loi de finances (PLF) pour 2027 à l'issue de deux semaines de débats houleux dans l'Hémicycle. Le texte initial, présenté par le gouvernement et prévoyant un effort de redressement budgétaire de 54 milliards d'euros pour contenir le déficit public sous la barre des 5 % du PIB, a été repoussé par 458 voix contre et zéro voix pour. Au fil des discussions parlementaires, les oppositions de gauche comme de droite avaient adopté une série d'amendements hétéroclites qui avaient profondément dénaturé l'équilibre financier recherché par l'exécutif. Face à ce texte remanié devenu inapplicable, la coalition gouvernementale a préféré voter contre son propre projet pour clore les débats à l'Assemblée. Le projet de budget initial du gouvernement est désormais transmis directement au Sénat, où la majorité sénatoriale de droite tentera de rétablir une trajectoire d'économies drastiques.",
+   "enjeux": "Ce rejet unanime illustre l'extrême fragilité de la **gouvernance budgétaire** française dans un Parlement sans majorité absolue. Alors que la dette publique française dépasse 112 % du PIB et que la charge des intérêts devient le premier poste de dépenses de l'État, la France se trouve sous le coup d'une procédure européenne pour **déficit excessif**. L'incapacité des forces politiques à s'accorder sur la répartition de l'effort fiscal et de la baisse des dépenses menace la signature souveraine du pays sur les marchés obligataires. La persistance d'un **déficit primaire** structurel élevé alimente la crainte d'un effet boule de neige si l'écart entre les taux d'intérêt souverains et le taux de croissance économique reste défavorable. Ce blocage institutionnel remet en question l'efficacité des **règles budgétaires** nationales et européennes pour contraindre les gouvernements à la discipline financière en période de fragmentation partisane.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/P1020427_Paris_VII_Palais_Bourbon_pont_de_la_concorde_rwk.JPG/1280px-P1020427_Paris_VII_Palais_Bourbon_pont_de_la_concorde_rwk.JPG",
+    "alt": "La façade néoclassique du Palais Bourbon, siège de l'Assemblée nationale à Paris",
+    "credit": "Mbzt / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:P1020427_Paris_VII_Palais_Bourbon_pont_de_la_concorde_rwk.JPG"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - Les politiques économiques"
+   },
+   "auteurs": [
+    {
+     "nom": "James Buchanan",
+     "ouvrage": "The Calculus of Consent",
+     "annee": "1962",
+     "ref": "theorie-choix-publics",
+     "texte": "Buchanan et la **théorie des choix publics** démontrent que les représentants politiques ont un biais systématique en faveur des déficits budgétaires car ils maximisent leurs chances électorales en promettant des baisses d'impôts ou des hausses de dépenses sans en assumer le coût immédiat. L'adoption d'amendements contradictoires par les oppositions à l'Assemblée reflète exactement cette logique de capture électorale au détriment de l'intérêt général. À mobiliser pour expliquer pourquoi les démocraties parlementaires fragmentées peinent structurellement à voter des budgets de rigueur."
+    },
+    {
+     "nom": "Evsey Domar",
+     "ouvrage": "« The Burden of the Debt and the National Income »",
+     "annee": "1944",
+     "ref": "effet-boule-de-neige",
+     "texte": "Domar montre que la dynamique de la dette publique dépend de l'écart entre le **taux d'intérêt réel** et le **taux de croissance** : si le loyer de l'argent dépasse la croissance, la dette s'auto-alimente par un effet boule de neige mécanique même sans déficit primaire. L'incapacité à voter un plan d'économies de 54 milliards d'euros expose la France à une hausse des primes de risque qui accélère cette trajectoire explosive. À mobiliser dans tout sujet sur la soutenabilité de la dette publique et les contraintes du désendettement."
+    }
+   ],
+   "sujets": [
+    "La dette publique est-elle nécessairement le signe d'une défaillance de l'État ?",
+    "Dans quelle mesure les contraintes budgétaires s'imposent-elles à la démocratie ?"
+   ],
+   "anki": [
+    {
+     "q": "Vote du volet recettes du budget 2027 à l'Assemblée nationale (4 novembre 2026)",
+     "r": "Rejet unanime par C{458 voix contre} et C{0 pour}.\n→ A{Buchanan}, O{The Calculus of Consent} (D{1962}) : le jeu électoral incite les parlementaires à voter des dépenses catégorielles sans assumer le financement global."
+    },
+    {
+     "q": "Montant de l'effort budgétaire prévu dans le PLF 2027 initial du gouvernement",
+     "r": "C{54 milliards d'euros} d'économies et de hausses fiscales pour freiner le déficit public.\n→ A{Domar}, O{The Burden of the Debt} (D{1944}) : sans maîtrise du solde primaire, l'effet boule de neige rend la trajectoire d'endettement insoutenable."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-esh-2",
+   "matiere": "esh",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/hohe-energiepreise-inflation-im-euroraum-steigt-auf-vier-prozent-a-6aa49e04-4639-4134-acf6-08d84917b500",
+   "minutes": 3,
+   "titre": "Inflation en zone euro : hausse à 4 % sur fond de choc énergétique, la BCE prépare une nouvelle hausse de ses taux directeurs",
+   "faits": "Selon les données publiées par Eurostat et relayées par le Spiegel, le taux d'inflation annuel dans la zone euro a atteint 4,0 % en octobre 2026, contre 3,8 % en septembre, signant son plus haut niveau depuis plus de trois ans. Cette poussée des prix à la consommation est principalement tirée par la facture énergétique, qui a bondi de 20,8 % sur un an en raison du blocage des approvisionnements pétroliers au Moyen-Orient. Face à ce regain inflationniste qui éloigne durablement l'institut d'émission de sa cible de 2 %, les membres du Conseil des gouverneurs de la Banque centrale européenne ont multiplié les déclarations de fermeté. Le président de la Bundesbank, Joachim Nagel, a qualifié de « très probablement nécessaire » un nouveau tour de vis monétaire lors de la réunion de décembre 2026. La BCE, qui avait déjà relevé son taux de dépôt à 2,50 % après les premiers chocs de l'été, s'apprête ainsi à procéder à sa troisième hausse de taux de l'année pour ancrer les anticipations de prix.",
+   "enjeux": "Ce choc d'offre importé réactive le dilemme classique de la **politique monétaire** en situation de **stagflation**. Lorsque l'**inflation par les coûts** résulte d'un renchérissement mondial du pétrole et du gaz, le relèvement des taux directeurs ne peut pas réparer les chaînes logistiques ni faire baisser directement le cours du brut. En revanche, le resserrement monétaire agit en freinant la demande intérieure et le crédit bancaire, au risque d'étouffer une croissance économique déjà atone dans les grands pays européens. Pour la BCE, l'objectif prioritaire est d'éviter les **effets de second tour**, c'est-à-dire l'indexation des salaires sur les prix qui enclencherait une boucle prix-salaires incontrôlable. Cette divergence entre des taux d'intérêt réels redevenus restrictifs et une activité industrielle en repli fragilise particulièrement les secteurs intensifs en capital et l'investissement des entreprises.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2023-04-15_Eurotower%2C_Frankfurt_am_Main_by_Sandro_Halank%E2%80%93001.jpg/1280px-2023-04-15_Eurotower%2C_Frankfurt_am_Main_by_Sandro_Halank%E2%80%93001.jpg",
+    "alt": "L'Eurotower et le symbole de l'euro à Francfort-sur-le-Main",
+    "credit": "Sandro Halank / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-04-15_Eurotower,_Frankfurt_am_Main_by_Sandro_Halank%E2%80%93001.jpg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.1 - Équilibres et déséquilibres macroéconomiques"
+   },
+   "auteurs": [
+    {
+     "nom": "Irving Fisher",
+     "ouvrage": "The Purchasing Power of Money",
+     "annee": "1911",
+     "ref": "relation-de-fisher",
+     "texte": "Fisher montre à travers la **relation de Fisher** que le taux d'intérêt nominal incorpore le taux d'intérêt réel et l'inflation anticipée : lorsque l'inflation monte à 4 %, un taux directeur à 2,5 % maintient des taux réels négatifs qui stimulent le crédit si la banque centrale ne réagit pas. La volonté de la BCE de durcir sa politique vise à rétablir des taux nominaux conformes aux anticipations pour stabiliser la valeur de la monnaie. À mobiliser pour analyser la fixation des taux directeurs face aux anticipations d'inflation."
+    },
+    {
+     "nom": "Nicholas Kaldor",
+     "ouvrage": "« Alternative Theories of Distribution »",
+     "annee": "1956",
+     "ref": "partage-valeur-ajoutee-kaldor",
+     "texte": "Kaldor montre que l'inflation est souvent le symptôme d'un **conflit de répartition** de la valeur ajoutée entre entreprises et salariés pour maintenir leurs parts respectives de profit et de salaire réel. Lors d'un choc pétrolier, les hausses de prix de l'énergie imposent une ponction externe que chaque groupe tente de reporter sur l'autre, nourrissant la spirale inflationniste. À mobiliser dans tout sujet traitant des origines conflictuelles de l'inflation et des tensions sur le pouvoir d'achat."
+    }
+   ],
+   "sujets": [
+    "La politique monétaire est-elle désarmée face à une inflation par les coûts ?",
+    "La stabilité des prix doit-elle être le seul objectif des banques centrales contemporaines ?"
+   ],
+   "anki": [
+    {
+     "q": "Taux d'inflation annuel dans la zone euro en octobre 2026",
+     "r": "C{4,0 %}, plus haut niveau depuis plus de trois ans, porté par une hausse de C{20,8 %} des prix de l'énergie.\n→ A{Fisher}, O{The Purchasing Power of Money} (D{1911}) : la banque centrale doit ajuster ses taux directeurs pour ancrer le taux d'intérêt réel."
+    },
+    {
+     "q": "Niveau du taux de dépôt de la BCE à l'automne 2026 avant la réunion de décembre",
+     "r": "C{2,50 %}, avec une probable troisième hausse de taux de l'année annoncée pour décembre 2026.\n→ A{Kaldor}, O{Alternative Theories of Distribution} (D{1956}) : l'inflation résulte d'un conflit de répartition déclenché par le choc énergétique importé."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-esh-3",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/social/une-baisse-inedite-de-1-8-en-un-an-comment-la-remuneration-des-cadres-a-diminue-en-2026-20261105",
+   "minutes": 3,
+   "titre": "Baisse inédite de la rémunération des cadres en France : le salaire médian recule de 1,8 % selon l'Apec, une première depuis 2010",
+   "faits": "Selon le baromètre annuel publié le 5 novembre 2026 par l'Association pour l'emploi des cadres (Apec), la rémunération brute annuelle médiane des cadres en France s'est établie à 54 000 euros en 2026, enregistrant un recul de 1,8 % en un an. Cette baisse moyenne de près de 1 000 euros constitue un fait sans précédent depuis la crise financière de 2010, mettant un coup d'arrêt brutal à une décennie d'augmentations régulières. Le rapport souligne que les augmentations individuelles se sont raréfiées sous l'effet du ralentissement économique et de la modération des embauches de cadres dans les grandes entreprises. De plus, la part variable des salaires (primes d'objectifs, intéressement, participation) a fortement fléchi face à la dégradation des marges opérationnelles des employeurs. Cette contraction salariale touche tout particulièrement les cadres intermédiaires et les jeunes diplômés du supérieur dans les fonctions support, le conseil et les services numériques.",
+   "enjeux": "Ce recul salarial des « cols blancs » met en lumière les mutations profondes de la **structure sociale** et de la **segmentation du marché du travail** en France. Longtemps protégés par leur statut, les cadres voient leur rente de qualification s'éroder face à la massification de l'enseignement supérieur et à l'automatisation progressive de certaines tâches d'expertise intellectuelle par les technologies numériques. Ce tassement de la hiérarchie salariale alimente le sentiment de **déclassement social** (*status anxiety*) au sein des classes moyennes supérieures, qui subissent par ailleurs la hausse du coût du logement et des dépenses contraintes. D'un point de vue macroéconomique, la compression du salaire des cadres affaiblit la **propension à consommer** globale et remet en cause l'hypothèse d'une rentabilité garantie des diplômes. Ce phénomène réactive le débat sur l'efficacité de l'investissement éducatif et la surqualification sur le marché de l'emploi.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Axe-historique-au-dela-vers.jpg/1280px-Axe-historique-au-dela-vers.jpg",
+    "alt": "Panorama des tours de bureaux du quartier d'affaires de La Défense",
+    "credit": "Pline / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Axe-historique-au-dela-vers.jpg"
+   },
+   "programme": {
+    "module": "1 - Les fondements de l'économie et de la société",
+    "chapitre": "1.3 - Le marché du travail et les relations sociales"
+   },
+   "auteurs": [
+    {
+     "nom": "Gary Becker",
+     "ouvrage": "Human Capital",
+     "annee": "1964",
+     "ref": "capital-humain-becker",
+     "texte": "Becker modélise le **capital humain** comme un stock de compétences et de savoirs accumulés par la formation qui détermine la productivité marginale et donc le niveau de rémunération future d'un individu. Le recul de 1,8 % du salaire médian des cadres montre que les rendements du capital humain ne sont pas garantis si l'offre de diplômés excède la demande productive des firmes. À mobiliser dans tout sujet sur le rôle de l'éducation, les inégalités de salaire et l'investissement immatériel."
+    },
+    {
+     "nom": "Pierre Bourdieu",
+     "ouvrage": "La Reproduction",
+     "annee": "1970",
+     "ref": "reproduction-sociale",
+     "texte": "Bourdieu et Passeron montrent que les titres scolaires servent d'instruments de **reproduction sociale** et de légitimation des positions dominantes, mais sont soumis à une inflation des diplômes qui en dévalue la valeur économique relative. Lorsque les diplômés accédant au statut de cadre subissent une baisse de rémunération réelle, ils éprouvent le décalage entre les espérances statutaires promises par l'école et la réalité du marché. À mobiliser pour analyser le déclassement des diplômés et la mobilité sociale descendante."
+    }
+   ],
+   "sujets": [
+    "L'investissement en capital humain garantit-il toujours la progression des rémunérations ?",
+    "Les classes moyennes sont-elles menacées de déclassement dans les économies développées ?"
+   ],
+   "anki": [
+    {
+     "q": "Évolution de la rémunération brute médiane des cadres en France en 2026 (Apec)",
+     "r": "Baisse de C{1,8 %}, s'établissant à C{54 000 euros} annuels (première baisse depuis D{2010}).\n→ A{Becker}, O{Human Capital} (D{1964}) : le rendement du capital humain dépend de l'adéquation entre qualification et demande de travail."
+    },
+    {
+     "q": "Composante salariale ayant le plus reculé chez les cadres en France en 2026",
+     "r": "La part variable (primes d'objectifs et intéressement) sous la pression des marges des entreprises.\n→ A{Bourdieu}, O{La Reproduction} (D{1970}) : l'inflation des diplômes et la dépréciation des titres engendrent un risque de déclassement social."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+   "minutes": 3,
+   "titre": "Sécurité économique et géopolitique : le Royaume-Uni jugé « dangereusement » dépendant de la Chine pour ses minéraux critiques",
+   "faits": "Selon les conclusions d'une enquête parlementaire de la commission des Affaires économiques rendues publiques le 5 novembre 2026 par le Guardian, le Royaume-Uni est dans une situation de dépendance « dangereuse » vis-à-vis de la Chine pour ses approvisionnements en métaux rares et minéraux stratégiques. Le rapport bipartisan avertit que cette vulnérabilité logistique menace directement la modernisation des capacités militaires britanniques, le déploiement des infrastructures d'intelligence artificielle et l'atteinte des objectifs climatiques de neutralité carbone. Présidée par le député travailliste Liam Byrne, la commission presse le gouvernement d'Andy Burnham de créer d'urgence un mécanisme financier dédié doté de plusieurs milliards de livres, le Critical Minerals Finance Facility. Ce fonds public d'investissement permettrait de prendre des participations en fonds propres et d'octroyer des garanties de crédit pour ouvrir de nouvelles mines en Grande-Bretagne et chez des partenaires alliés en Afrique et au Commonwealth. Les parlementaires appellent à traiter l'accès aux minéraux comme la priorité absolue de la sécurité nationale britannique.",
+   "enjeux": "Ce rapport parlementaire met en lumière la militarisation croissante des chaînes d'approvisionnement mondiales et l'impératif de **sécurité économique** (*economic statecraft*) face à la puissance industrielle chinoise. En contrôlant plus de 70 % de l'extraction des terres rares et près de 90 % de leur raffinage chimique, Pékin dispose d'un pouvoir d'étranglement stratégique (*chokepoint*) capable de paralyser les industries technologiques occidentales en cas de tensions géopolitiques autour de Taïwan. Pour Londres, qui a longtemps professé une doctrine de libre-échange intégral et d'approvisionnement au moindre coût, le retour brutal de la **politique industrielle** et de la relocalisation stratégique (*friendshoring*) représente une rupture doctrinale majeure. Réduire cette dépendance asymétrique impose des investissements colossaux dans les infrastructures de raffinage et le recyclage des métaux critiques, tout en renforçant les alliances bilatérales avec les pays producteurs du Sud global.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Bingham_Canyon_Mine_%281%29_-_Salt_Lake_County%2C_Utah_-_May_11%2C_2012.jpg/1280px-Bingham_Canyon_Mine_%281%29_-_Salt_Lake_County%2C_Utah_-_May_11%2C_2012.jpg",
+    "alt": "Une mine à ciel ouvert pour l'extraction de métaux et minéraux industriels",
+    "credit": "David Ratledge / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bingham_Canyon_Mine_(1)_-_Salt_Lake_County,_Utah_-_May_11,_2012.jpg"
+   },
+   "vo": {
+    "titre": "Economic security: UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+    "faits": "According to a landmark report released on 5 November 2026 by the House of Commons Business and Trade Select Committee, the United Kingdom has become “dangerously” dependent on China for critical raw materials and rare earths. The cross-party inquiry warned that this acute supply chain vulnerability jeopardises Britain’s national defence modernisation, the development of domestic artificial intelligence, and the rollout of renewable energy infrastructure required for net zero. Chaired by Labour MP Liam Byrne, the committee urged Andy Burnham’s government to establish an emergency Critical Minerals Finance Facility to deploy public grants, equity investments and loan guarantees for mining ventures at home and across allied nations. MPs stressed that critical raw materials represent the indispensable foundation of the 21st-century knowledge and green economy. The report called for an overarching strategic reserve to insulate British manufacturing from sudden export bans.",
+    "enjeux": "The inquiry highlights the growing weaponisation of global trade and the urgent shift towards economic security among Western nations. By dominating over 70% of global rare earth extraction and nearly 90% of advanced chemical processing capacity, Beijing wields formidable leverage that could disrupt Western high-tech, aerospace and defence industries during international crises. For the UK, which championed laissez-faire market reliance for decades, embracing active state intervention and friendshoring represents a profound paradigm shift. Diversifying supply chains away from Chinese monopolies requires massive state capital injection into domestic refining facilities and international mining partnerships across the Commonwealth. The findings underscore that geopolitical resilience now takes precedence over cost minimisation in global value chains."
+   },
+   "vocab": [
+    [
+     "critical raw materials",
+     "les matières premières critiques / minéraux stratégiques",
+     "Access to critical raw materials is now treated as a matter of national security."
+    ],
+    [
+     "a cross-party parliamentary committee",
+     "une commission parlementaire transpartisane",
+     "The cross-party parliamentary committee urged ministers to diversify supply chains."
+    ],
+    [
+     "economic statecraft",
+     "la stratégie géoéconomique / l'utilisation de l'économie comme arme géopolitique",
+     "Major powers are increasingly resorting to economic statecraft to project power."
+    ],
+    [
+     "friendshoring",
+     "la relocalisation des approvisionnements chez des pays alliés",
+     "Western governments advocate friendshoring to reduce critical dependencies on rival nations."
+    ],
+    [
+     "a strategic chokepoint",
+     "un point de passage ou goulet d'étranglement stratégique",
+     "China controls key refining bottlenecks that act as strategic chokepoints."
+    ],
+    [
+     "supply chain resilience",
+     "la résilience des chaînes d'approvisionnement",
+     "Building supply chain resilience requires long-term capital subsidies and stockpile reserves."
+    ]
+   ],
+   "sujets": [
+    "Can Western economies successfully achieve technological sovereignty without access to Chinese mineral processing?",
+    "Has the pursuit of national economic security permanently superseded the principles of free trade in British foreign policy?"
+   ],
+   "anki": [
+    {
+     "q": "Main warning issued by the UK Commons Business Committee report (November 2026)",
+     "r": "The UK is “dangerously” dependent on China for critical minerals needed for military, AI and net zero infrastructure.\n→ Geopolitical tensions turn mineral refining monopolies into strategic chokepoints."
+    },
+    {
+     "q": "Key policy mechanism recommended by MPs to secure critical raw materials in Britain",
+     "r": "Creation of a state-backed C{Critical Minerals Finance Facility} to fund equity and debt in mining and processing.\n→ Marks a decisive shift towards state intervention, friendshoring and economic statecraft."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/04/datacenters-midterm-elections",
+   "minutes": 3,
+   "titre": "Révolte électorale aux États-Unis : les électeurs rejettent massivement les projets de data centers lors des référendums locaux des Midterms",
+   "faits": "À l'occasion des élections de mi-mandat du 3 novembre 2026, les électeurs américains de plus de 40 juridictions réparties dans 10 États ont voté massivement contre l'implantation de nouveaux centres de données (data centers), approuvant une vague quasi unanime de moratoires locaux. Selon une analyse détaillée publiée le 4 novembre par le Guardian, ces installations géantes destinées à héberger les puces et serveurs d'intelligence artificielle figuraient directement sur les bulletins de vote municipaux et régionaux. Des comtés ruraux de Virginie, de Géorgie, d'Arizona et de l'Ohio ont approuvé des mesures gelant les permis de construire ou interdisant les raccordements prioritaires au réseau électrique. Les citoyens et associations de riverains ont exprimé leur exaspération face à l'accaparement des terres agricoles, au bruit incessant des systèmes de refroidissement et à l'explosion de leurs factures d'eau et d'électricité. Ce rejet électoral sans précédent fait des centres de données l'un des grands perdants politiques du scrutin de mi-mandat aux côtés des candidats républicains.",
+   "enjeux": "Ce vote populaire marque une rupture démocratique et territoriale dans l'expansion effrénée de l'**intelligence artificielle** et des **infrastructures numériques** aux États-Unis. Jusqu'à présent, les géants de la Tech (Microsoft, Google, Amazon, Meta) négociaient discrètement des exemptions fiscales et des tarifs énergétiques préférentiels auprès des élus locaux en promettant des retombées économiques. Or, les citoyens constatent que ces bâtiments de plusieurs dizaines de milliers de mètres carrés ne créent que très peu d'emplois locaux permanents tout en générant de lourdes **externalités négatives** sur l'environnement et le réseau électrique. Cette mobilisation citoyenne illustre la résurgence du phénomène **NIMBY** (*Not In My Backyard*) transformé en mouvement politique structuré contre l'extractivisme énergétique de la Silicon Valley. Ce coup d'arrêt électoral menace le calendrier de déploiement des grands modèles de fondation et pose la question de la régulation démocratique des investissements technologiques.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Wikimedia_Foundation_Servers-8055_35.jpg/1280px-Wikimedia_Foundation_Servers-8055_35.jpg",
+    "alt": "Baies de serveurs informatiques à l'intérieur d'un centre de données",
+    "credit": "Victor Grigas / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_35.jpg"
+   },
+   "vo": {
+    "titre": "Grassroots backlash in the US: voters overwhelmingly approve local bans on AI datacenters in midterm referendums",
+    "faits": "In Tuesday’s 3 November 2026 midterm elections, American voters across at least 40 local jurisdictions spanning 10 states delivered an overwhelming rebuke to the booming artificial intelligence industry by passing dozens of datacenter moratoria. According to a Guardian analysis published on 4 November, local referendums in states including Virginia, Georgia, Arizona and Ohio saw broad coalitions approve strict zoning restrictions, municipal construction freezes and utility hookup caps. Grassroots opposition was fuelled by mounting fury over sprawling developments paving over farmland, continuous acoustic pollution from cooling fans, and surging household electricity and water rates. The vote confirmed that the massive concrete warehouses housing AI semiconductors have transformed into potent political lightning rods. Datacenters emerged as one of the most prominent casualties of the midterm cycle alongside Republican incumbents.",
+    "enjeux": "The election results demonstrate the collision between Big Tech’s unconstrained digital expansion and local community sovereignty across the United States. For years, tech conglomerates secured generous tax abatements and preferential utility access by promising economic modernisation, yet communities discovered that automated server farms generate negligible permanent local jobs while placing unprecedented strain on shared resources. This grassroots rebellion reflects a politicised evolution of NIMBY activism into systemic resistance against the physical footprint of digital capitalism. As local electrical grids reach capacity limits, public anger over utility bills is forcing municipal governments to revoke fast-track permitting. The backlash creates serious infrastructure bottlenecks for hyperscalers racing to build out next-generation computational capacity."
+   },
+   "vocab": [
+    [
+     "a datacenter moratorium",
+     "un moratoire sur les centres de données",
+     "Voters overwhelmingly approved a municipal datacenter moratorium to halt new construction."
+    ],
+    [
+     "ballot referendums / measures",
+     "les référendums / propositions soumises au vote local",
+     "Citizens placed zoning measures on local ballots to protect residential neighborhoods."
+    ],
+    [
+     "local utility bills",
+     "les factures de services publics (eau, électricité)",
+     "Residents protested against surging utility bills driven by power-hungry server farms."
+    ],
+    [
+     "the NIMBY movement (Not In My Backyard)",
+     "le mouvement NIMBY (refus d'installations indésirables à proximité)",
+     "NIMBY opposition has evolved into a broader critique of tech industry externalities."
+    ],
+    [
+     "tax abatements / tax breaks",
+     "les exonérations fiscales / allègements d'impôts",
+     "Counties reconsidered generous tax abatements previously granted to attract tech firms."
+    ],
+    [
+     "electrical grid constraints",
+     "les contraintes de capacité sur le réseau électrique",
+     "Severe grid constraints are slowing down the expansion of computational facilities."
+    ]
+   ],
+   "sujets": [
+    "To what extent does grassroots political resistance threaten the physical expansion of the AI economy?",
+    "Should the environmental and energetic externalities of high-tech infrastructure be regulated locally or nationally?"
+   ],
+   "anki": [
+    {
+     "q": "Scale of the backlash against datacenters in the 2026 US midterm elections",
+     "r": "Voters approved dozens of construction moratoria across at least C{40 jurisdictions} in C{10 states}.\n→ Massive local resistance stems from surging water bills, grid strain and lack of local job creation."
+    },
+    {
+     "q": "Economic paradox of server farms highlighted by local American ballot measures",
+     "r": "They absorb vast amounts of land, water and electricity but create negligible permanent local employment.\n→ Digital infrastructure triggers acute negative externalities sparking politicised NIMBY resistance."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/society/2026/nov/05/milburn-review-jobs-revolution-young-people-disabilities-neets",
+   "minutes": 3,
+   "titre": "Emploi des jeunes au Royaume-Uni : le rapport Milburn préconise une « révolution » d'emplois subventionnés pour les jeunes handicapés",
+   "faits": "Selon les conclusions du rapport de l'ancien ministre Alan Milburn révélées le 5 novembre 2026 par le Guardian, l'État britannique doit intervenir directement pour financer et subventionner des milliers d'emplois adaptés destinés aux jeunes en situation de handicap ou atteints de maladies chroniques. Cette mission gouvernementale indépendante, commandée par le ministère du Travail pour lutter contre l'explosion du nombre de jeunes sans emploi ni formation (les « NEETs »), préconise une véritable « révolution des opportunités » pour enrayer l'exclusion durable du marché du travail. Le rapport propose l'instauration de « flexi-jobs » combinant des horaires modulables, un tutorat renforcé et des subventions publiques directes aux entreprises privées et aux collectivités qui recrutent des jeunes de 16 à 24 ans éloignés de l'emploi. Milburn juge le système actuel de protection sociale britannique obsolète et stigmatisant, estimant qu'il enferme les jeunes vulnérables dans l'inactivité au lieu de soutenir leur insertion professionnelle. La publication imminente de ce rapport met au défi le gouvernement travailliste de consacrer les crédits budgétaires nécessaires à cette refonte de l'aide sociale.",
+   "enjeux": "Cette proposition touche au cœur de la crise de l'**inactivité économique** (*economic inactivity*) qui paralyse le marché du travail britannique depuis la pandémie de Covid-19. Avec près d'un million de jeunes classés comme NEETs et une hausse spectaculaire des arrêts de travail de longue durée pour motifs de santé mentale ou de handicap, le Royaume-Uni affiche une contre-performance singulière parmi les économies de l'OCDE. Pour le gouvernement travailliste d'Andy Burnham, cette déperdition de compétences pèse lourdement sur la **croissance potentielle** et gonfle les dépenses de prestations sociales de l'État providence (*welfare bill*). S'inspirant des programmes de garantie jeunesse et d'**activation des dépenses passives** expérimentés en Europe continentale, le modèle des « flexi-jobs » vise à transformer une assistance coûteuse en investissement productif. Néanmoins, financer des emplois subventionnés dans un contexte de rigueur budgétaire et d'austérité imposée par le Trésor public suscite d'âpres arbitrages politiques à Westminster.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg/1280px-Palace_of_Westminster%2C_London_-_Feb_2007.jpg",
+    "alt": "Le palais de Westminster au bord de la Tamise à Londres",
+    "credit": "Diliff / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster,_London_-_Feb_2007.jpg"
+   },
+   "vo": {
+    "titre": "Youth employment in the UK: Milburn review calls for subsidized ‘flexi-jobs’ revolution for disabled young people",
+    "faits": "According to findings from an independent review led by former cabinet minister Alan Milburn and published on 5 November 2026 by the Guardian, the British government must step in to create and subsidise thousands of flexible jobs for young people with disabilities and long-term health conditions. Commissioned to tackle the country’s soaring youth unemployment and post-pandemic disengagement, the Milburn review calls for an “opportunity revolution” to dismantle entrenched workplace barriers for 16- to 24-year-olds. The report urges the Department for Work and Pensions to introduce government-backed “flexi-jobs” alongside tailored training subsidies, intensive mentorship and adapted working hours. Milburn sharply criticises Britain’s existing welfare framework as an outdated, punitive system that traps vulnerable youth on passive sickness benefits rather than facilitating sustainable career pathways. The recommendations place heavy pressure on Andy Burnham’s administration to commit dedicated funding in the forthcoming fiscal statement.",
+    "enjeux": "The review addresses the chronic post-pandemic surge in UK economic inactivity, which has emerged as one of the primary headwinds restraining British macroeconomic performance. With youth NEET rates climbing and mental health-related incapacity claims reaching record levels, the British labour market suffers from severe structural scarring compared to OECD peers. For the Labour government, addressing this labour supply deficit is essential to reignite productivity growth and rein in Britain’s ballooning welfare expenditure. By adopting active labour market policies modelled on continental youth guarantees, the flexi-job scheme seeks to convert passive social assistance into productive economic inclusion. However, implementing comprehensive wage subsidies while the Treasury enforces strict departmental spending ceilings poses a major fiscal and political dilemma for Chancellor ministers."
+   },
+   "vocab": [
+    [
+     "economic inactivity",
+     "l'inactivité économique (personnes hors du marché du travail)",
+     "Chronic economic inactivity among young adults has reached record post-pandemic highs."
+    ],
+    [
+     "NEETs (Not in Education, Employment, or Training)",
+     "les jeunes sans emploi, ni études, ni formation",
+     "The government launched targeted schemes to re-engage long-term NEETs."
+    ],
+    [
+     "wage subsidies",
+     "les subventions salariales accordées aux employeurs",
+     "Offering wage subsidies encourages private employers to recruit disabled applicants."
+    ],
+    [
+     "active labour market policies",
+     "les politiques actives du marché du travail",
+     "Labour is shifting welfare spending towards active labour market policies and skills training."
+    ],
+    [
+     "disability benefit claims",
+     "les demandes d'allocations pour invalidité / handicap",
+     "Soaring disability benefit claims have increased pressure on the Treasury's budget."
+    ],
+    [
+     "workplace accommodations",
+     "les aménagements de poste de travail",
+     "Small firms need financial assistance to implement necessary workplace accommodations."
+    ]
+   ],
+   "sujets": [
+    "Can state-subsidised employment schemes effectively cure structural economic inactivity in modern Britain?",
+    "Is the contemporary UK welfare system designed to support social mobility or merely manage poverty?"
+   ],
+   "anki": [
+    {
+     "q": "Central policy recommendation of the Milburn review on UK youth employment (November 2026)",
+     "r": "State-subsidised “flexi-jobs” and intensive skills support for disabled and chronically ill young people (16-24).\n→ Aims to replace passive sickness benefits with active labour market inclusion."
+    },
+    {
+     "q": "Underlying economic challenge facing the UK labour market targeted by the Milburn report",
+     "r": "Persistent post-pandemic surge in economic inactivity and record numbers of young NEETs.\n→ Structural labour supply constraints reduce potential growth and inflate public welfare bills."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-05/el-decreto-de-vivienda-tendra-un-coste-de-unos-1300-millones-anuales-hasta-2031.html",
+   "minutes": 3,
+   "titre": "Crise du logement en Espagne : l'AIReF chiffre à 1,3 milliard d'euros par an le coût du décret gouvernemental jusqu'en 2031",
+   "faits": "L'Autorité indépendante de responsabilité fiscale espagnole (AIReF) a rendu public le 5 novembre 2026 son rapport d'évaluation chiffrant à environ 1,3 milliard d'euros par an jusqu'en 2031 le coût budgétaire du décret-loi sur le logement promu par le gouvernement de Pedro Sánchez. Ce texte d'urgence, qui doit être soumis pour validation la semaine prochaine devant la Commission permanente du Congrès des députés, met en place des allègements fiscaux ciblés pour les propriétaires louant à des tarifs modérés, un renforcement des aides directes au logement pour les jeunes ménages et un fonds de garantie pour stimuler la construction de logements sociaux. Les analystes de l'AIReF soulignent que cette dépense publique cumulée de près de 6,5 milliards d'euros sur cinq ans pèsera durablement sur les comptes de l'administration centrale dans un contexte de surveillance budgétaire accrue par Bruxelles. Parallèlement, le groupe de réflexion Avanza lié au PSOE a proposé d'intensifier la fiscalité sur les terrains non bâtis et de tripler le parc de logements locatifs publics. Cette bataille des chiffres intervient alors que le coût du logement est devenu la première préoccupation des électeurs espagnols à l'approche des législatives du 29 novembre.",
+   "enjeux": "Ce débat budgétaire illustre l'acuité dramatique de l'**urgence habitacionnelle** (*crisis de la vivienda*) en Espagne, où la hausse des loyers dans les grandes agglomérations (Madrid, Barcelone, Valence) absorbe désormais plus de 45 % du revenu disponible des jeunes salariés. Alors que le parc de **logement social** (*vivienda de protección oficial*) ne représente que 2,5 % du total national contre une moyenne européenne de 9 %, l'Espagne paie le prix de décennies de politiques fondées exclusivement sur l'accession à la propriété privée et la défiscalisation de la rente foncière. Pour l'exécutif de gauche, mobiliser 1,3 milliard d'euros par an permet de concilier la protection des locataires contre la flambée spéculative des prix avec des incitations financières pour éviter le retrait des logements du marché locatif traditionnel. À l'inverse, l'opposition du Parti populaire critique un décret coûteux et inefficace, plaidant pour une libéralisation massive du foncier constructible et la fin du plafonnement des loyers.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Fachada_de_un_edificio_en_el_Barrio_de_la_Concepci%C3%B3n.jpg",
+    "alt": "Façade d'un immeuble d'habitation collective à Madrid",
+    "credit": "Viviendo Madrid / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fachada_de_un_edificio_en_el_Barrio_de_la_Concepci%C3%B3n.jpg"
+   },
+   "vo": {
+    "titre": "Crisis de la vivienda en España: la AIReF cifra en 1.300 millones anuales el coste fiscal del decreto del Gobierno hasta 2031",
+    "faits": "La Autoridad Independiente de Responsabilidad Fiscal (AIReF) publicó el 5 de noviembre de 2026 su informe de impacto presupuestario, estimando en unos 1.300 millones de euros anuales hasta 2031 el coste del real decreto ley de vivienda impulsado por el Gobierno de Pedro Sánchez. El paquete legislativo, pendiente de convalidación parlamentaria la próxima semana en la Diputación Permanente del Congreso, contempla incentivos fiscales para los propietarios que mantengan precios asequibles, ampliaciones de los bonos al alquiler juvenil y avales públicos para la promoción de vivienda protegida. La AIReF advierte de que el desembolso acumulado de 6.500 millones de euros en cinco años condicionará los márgenes de déficit en pleno retorno de las reglas fiscales comunitarias. Al mismo tiempo, el laboratorio de ideas Avanza, vinculado al PSOE, ha presentado una propuesta de reforma fiscal del suelo para penalizar la especulación y triplicar el parque social de alquiler. La cuestión habitacional se consolida así como el principal eje de fricción política de cara a los comicios generales del 29 de noviembre.",
+    "enjeux": "El dictamen de la AIReF sitúa la crisis habitacional en el centro del debate socioeconómico español, donde la escalada de los alquileres en áreas tensionadas absorbe ya más del 45 % de los ingresos familiares de los jóvenes. Con un parque de vivienda social que apenas ronda el 2,5 % del total frente al 9 % de media europea, España arrastra las consecuencias estructurales de décadas de desatención pública y fomento exclusivo de la compraventa. El plan gubernamental intenta equilibrar la contención de precios con incentivos fiscales para evitar que los arrendadores retiren oferta ante la inseguridad jurídica. Por contra, la oposición del Partido Popular defiende una liberalización integral del suelo no protegido y rechaza el control de rentas por considerarlo un freno a la inversión promotora. El reto reside en compatibilizar la protección del derecho constitucional a la vivienda con la sostenibilidad de las cuentas públicas."
+   },
+   "vocab": [
+    [
+     "la Autoridad Independiente de Responsabilidad Fiscal (AIReF)",
+     "l'Autorité indépendante de responsabilité budgétaire espagnole",
+     "La AIReF evalúa el impacto presupuestario de las reformas legislativas."
+    ],
+    [
+     "el parque de vivienda social / protegida",
+     "le parc de logements sociaux",
+     "España cuenta con un parque de vivienda social muy inferior a la media comunitaria."
+    ],
+    [
+     "las zonas tensionadas de alquiler",
+     "les zones locatives tendues",
+     "El control de precios se aplica de forma prioritaria en las zonas tensionadas."
+    ],
+    [
+     "el suelo no urbanizable / rústico",
+     "le foncier non constructible / rural",
+     "El debate enfrenta a quienes piden liberalizar el suelo con los defensores de la ordenación urbana."
+    ],
+    [
+     "la convalidación en la Diputación Permanente",
+     "la ratification par la Commission permanente (en période d'élections)",
+     "El decreto ley exige su convalidación en la Diputación Permanente tras la disolución de las Cortes."
+    ],
+    [
+     "el esfuerzo financiero para alquilar",
+     "le taux d'effort financier pour se loger (part du revenu)",
+     "El esfuerzo financiero de los jóvenes para alquilar supera umbrales insostenibles."
+    ]
+   ],
+   "sujets": [
+    "¿Es el control de precios del alquiler una solución eficaz o un desincentivo a la oferta inmobiliaria en España?",
+    "¿Cómo debe articular el Estado el derecho a la vivienda con la disciplina presupuestaria en el siglo XXI?"
+   ],
+   "anki": [
+    {
+     "q": "Coste anual del decreto ley de vivienda del Gobierno español estimado por la AIReF (hasta 2031)",
+     "r": "Unos C{1.300 millones de euros} anuales (unos C{6.500 millones} en cinco años).\n→ El debate habitacional choca con las exigencias de consolidación fiscal de la Comisión Europea."
+    },
+    {
+     "q": "Porcentaje del parque de vivienda social en España comparado con la media de la Unión Europea",
+     "r": "Apenas un C{2,5 %} en España frente al C{9 %} de media comunitaria.\n→ El déficit crónico de oferta pública de alquiler agrava la exclusión habitacional juvenil."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-05/la-regularizacion-de-extranjeros-impulsa-un-15-la-contratacion-de-empleadas-del-hogar-respecto-a-hace-un-ano.html",
+   "minutes": 3,
+   "titre": "Marché du travail en Espagne : la régularisation des étrangers fait bondir de 15 % les contrats déclarés d'employées de maison",
+   "faits": "Selon les statistiques officielles de la Sécurité sociale analysées le 5 novembre 2026 par El País, le processus extraordinaire de régularisation administrative des travailleurs étrangers mis en œuvre en Espagne a entraîné une hausse de 15 % du nombre de contrats déclarés d'employées de maison en glissement annuel. En l'espace de douze mois, plus de 55 000 travailleuses, originaires en grande majorité d'Amérique latine (Colombie, Honduras, Pérou, Nicaragua), ont pu formaliser leur situation juridique et intégrer le régime spécial des travailleurs domestiques. Cette formalisation administrative leur ouvre l'accès aux droits sociaux fondamentaux, notamment l'assurance chômage, les congés maladie et la couverture des accidents du travail, garantis par la réforme du secteur adoptée en 2022. Les associations syndicales et de défense des droits des travailleuses migrantes saluent une avancée historique pour la dignité du secteur, mais rappellent que le nombre total d'affiliées demeure en deçà de son pic historique de 2012. Le secteur alerte sur le fait que l'emploi informel et le travail au noir restent prédominants dans l'aide aux personnes âgées et la garde d'enfants à domicile.",
+   "enjeux": "Cette hausse de l'emploi formel met en relief le rôle indispensable de la **main-d'œuvre immigrée** dans l'**économie des soins** (*care economy*) d'une société espagnole confrontée à un vieillissement démographique accéléré. En régularisant ces travailleuses, l'État transforme un travail invisible et précaire en **cotisations sociales** régulières, consolidant l'assiette fiscale et les ressources de la Sécurité sociale. Ce processus illustre également la sortie progressive de l'**économie informelle** (*economía sumergida*), qui privait l'État de rentrées fiscales tout en maintenant des centaines de milliers de femmes dans une vulnérabilité juridique extrême face aux employeurs familiaux. Toutefois, le coût des cotisations sociales patronales et la faiblesse des aides publiques à la dépendance incitent encore de nombreuses familles de la classe moyenne à recourir au travail non déclaré. La pérennisation de ces avancées dépendra de la capacité des politiques publiques à professionnaliser et solvabiliser le secteur des services à la personne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Plaza_Mayor_de_Madrid_-_01.jpg/1280px-Plaza_Mayor_de_Madrid_-_01.jpg",
+    "alt": "La Plaza Mayor au cœur du centre historique de Madrid",
+    "credit": "Carlos Delgado / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_-_01.jpg"
+   },
+   "vo": {
+    "titre": "Mercado laboral en España: la regularización de extranjeros impulsa un 15 % la contratación declarada de empleadas del hogar",
+    "faits": "Los últimos registros de afiliación a la Seguridad Social difundidos el 5 de noviembre de 2026 confirman que el proceso extraordinario de regularización de trabajadores extranjeros ha disparado un 15 % interanual la contratación legal de empleadas de hogar en España. Gracias a la acreditación de arraigo y permisos laborales, más de 55.000 trabajadoras –procedentes predominantemente de países latinoamericanos como Colombia, Honduras, Nicaragua y Perú– han regularizado su estatus e ingresado formalmente en el Sistema Especial de Empleados de Hogar. Dicho encuadre les otorga acceso efectivo a prestaciones por desempleo, bajas por enfermedad y cobertura de accidentes laborales. No obstante, colectivos sociales y sindicatos advierten de que la afiliación global sigue distante del récord histórico de 2012, subrayando que la economía sumergida continúa absorbiendo una cuota muy relevante del trabajo de cuidados a domicilio.",
+    "enjeux": "La formalización laboral de miles de trabajadoras migrantes evidencia la dependencia estructural que el modelo asistencial español mantiene respecto de la mano de obra extranjera. En un país con un acelerado envejecimiento poblacional y carencias de cobertura pública en atención a la dependencia, las trabajadoras del hogar sostienen la conciliación laboral y familiar de las clases medias. La regularización reduce la precariedad de un colectivo históricamente invisibilizado y aflora bases de cotización esenciales para el sostenimiento financiero de la Seguridad Social. Pese a estos avances, el diferencial de costes salariales y la falta de incentivos fiscales directos a las familias favorecen la persistencia de relaciones laborales sumergidas. La modernización definitiva del sector exige avanzar hacia la profesionalización de los servicios de proximidad y la corresponsabilidad social de los cuidados."
+   },
+   "vocab": [
+    [
+     "el Sistema Especial de Empleados de Hogar",
+     "le régime spécial de Sécurité sociale des employés de maison",
+     "La afiliación al Sistema Especial de Empleados de Hogar creció con la regularización."
+    ],
+    [
+     "la regularización por arraigo",
+     "la régularisation par l'ancrage (résidence durable en Espagne)",
+     "Miles de extranjeras tramitaron la regularización por arraigo laboral o social."
+    ],
+    [
+     "la economía sumergida / el trabajo informal",
+     "l'économie informelle / le travail non déclaré",
+     "El sector doméstico mantiene altas tasas de economía sumergida."
+    ],
+    [
+     "la economía de los cuidados (care economy)",
+     "l'économie des soins et du travail domestique",
+     "La economía de los cuidados sostiene el bienestar de una sociedad envejecida."
+    ],
+    [
+     "el subsidio por desempleo",
+     "l'allocation chômage",
+     "La reforma histórica reconoció el derecho al subsidio por desempleo para las empleadas domésticas."
+    ],
+    [
+     "la conciliación laboral y familiar",
+     "la conciliation entre vie professionnelle et familiale",
+     "El empleo doméstico facilita la conciliación laboral de millones de hogares."
+    ]
+   ],
+   "sujets": [
+    "¿Qué papel desempeña la regularización de la inmigración en la sostenibilidad del sistema de pensiones y de cuidados en España?",
+    "¿Es posible erradicar la economía sumergida en el empleo doméstico sin una mayor financiación pública de la dependencia?"
+   ],
+   "anki": [
+    {
+     "q": "Impacto del proceso de regularización de extranjeros en el empleo doméstico en España (noviembre 2026)",
+     "r": "Aumento del C{15 %} interanual en la contratación formal de empleadas de hogar (más de C{55.000 altas}).\n→ Aflora empleo sumergido y garantiza cotizaciones sociales a la Seguridad Social."
+    },
+    {
+     "q": "Reto estructural que persiste en el sector de los cuidados a domicilio en España",
+     "r": "La persistencia mayoritaria del trabajo no declarado y la dependencia demográfica del cuidado informal.\n→ El envejecimiento de la población tensiona la conciliación laboral y familiar."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/internacional/2026-11-05/bernardo-arevalo-tenemos-que-oponernos-a-la-normalizacion-del-autoritarismo-y-las-dictaduras.html",
+   "minutes": 3,
+   "titre": "Démocratie en Amérique latine : à Madrid, Bernardo Arévalo appelle à faire barrage à la dérive autoritaire régionale",
+   "faits": "À l'occasion de sa participation à Madrid au trentième Sommet ibéro-américain, le président de la République du Guatemala, Bernardo Arévalo, a accordé le 5 novembre 2026 un grand entretien à El País dans lequel il appelle la communauté internationale à ne pas tolérer la banalisation de l'autoritarisme en Amérique latine. Seul dirigeant progressiste démocratique en fonction en Amérique centrale, Arévalo a dressé un bilan sans concession des offensives judiciaires et politiques menées par les réseaux corporatistes et conservateurs guatémaltèques pour paralyser son gouvernement anti-corruption depuis son investiture. Il a dénoncé l'instrumentalisation des parquets et des tribunaux (lawfare) par le « pacte des corrompus », qui continue de cibler ses ministres, les juges intègres et les journalistes d'investigation contraints à l'exil. Évoquant la situation régionale, le chef de l'État a fustigé la consolidation des dérives dictatoriales au Nicaragua et au Venezuela, ainsi que la dérive autocratique au Salvador, mettant en garde contre l'illusion qu'un régime autoritaire garantit l'efficacité économique.",
+   "enjeux": "Ce réquisitoire souligne la vulnérabilité extrême de l'**État de droit** (*Estado de derecho*) et de la **séparation des pouvoirs** dans une Amérique centrale en proie à la tentation autocratique. Face aux déceptions provoquées par la corruption endémique, l'insécurité et la pauvreté, de larges segments de l'opinion latino-américaine se tournent vers des modèles de « démocratie illibérale » ou d'hommes forts qui sacrifient les libertés civiles et les garanties constitutionnelles sur l'autel de l'ordre public. L'expérience guatémaltèque illustre la résistance courageuse d'un pouvoir démocratique issu des urnes face au détournement des institutions judiciaires par des **élites prédatrices**. Ce témoignage pose également la question de l'efficacité du **multilatéralisme régional** (OEA, Sommets ibéro-américains), souvent paralysé par le principe de non-ingérence et les clivages idéologiques, pour protéger les défenseurs des droits de l'homme et consolider la transition démocratique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Palacio_Nacional_de_Guatemala_-_CDGT.jpg/1280px-Palacio_Nacional_de_Guatemala_-_CDGT.jpg",
+    "alt": "La façade du Palais national de la Culture à Guatemala City",
+    "credit": "Rene Hernandez / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_de_Guatemala_-_CDGT.jpg"
+   },
+   "vo": {
+    "titre": "Defensa democrática en América Latina: Bernardo Arévalo alerta en Madrid contra la normalización del autoritarismo regional",
+    "faits": "En el marco de su participación en la XXX Cumbre Iberoamericana celebrada en Madrid, el presidente de Guatemala, Bernardo Arévalo, ofreció el 5 de noviembre de 2026 una amplia entrevista a El País en la que emplazó a los líderes iberoamericanos a frenar la normalización de las dictaduras y las pulsiones autocráticas en el continente. Como único mandatario progresista en el istmo centroamericano, Arévalo analizó la sistemática guerra judicial (lawfare) impulsada por el denominado «pacto de corruptos» y la cúpula del Ministerio Público guatemalteco para sabotear su agenda anticorrupción e inhabilitar a miembros de su Ejecutivo. El mandatario advirtió del peligroso encumbramiento de modelos autoritarios en la región –desde la dictadura nicaragüense y venezolana hasta la concentración de poder en El Salvador– que pretenden sustituir las garantías del Estado de derecho por promesas de eficacia inmediata. Reivindicó la resistencia indígena y cívica como baluarte indispensable de la soberanía popular.",
+    "enjeux": "El testimonio de Arévalo pone de relieve la encrucijada de la calidad institucional y la gobernanza democrática en América Latina frente a la desafección ciudadana. El desencanto con los partidos tradicionales y la incapacidad del Estado para resolver la violencia delictiva y la desigualdad han abierto paso a liderazgos personalistas que desmantelan los contrapesos judiciales y cooptan los órganos electorales. La experiencia guatemalteca demuestra cómo la judicialización de la política se ha convertido en el principal instrumento de las élites oligárquicas para torcer la voluntad expresada en las urnas sin recurrir a golpes militares clásicos. Asimismo, el presidente interpela al multilateralismo interamericano sobre su tibieza a la hora de aplicar cartas democráticas y sanciones diplomáticas contra regímenes iliberales. La batalla en Guatemala simboliza la pugna entre la regeneración cívica y la captura del Estado por intereses ilícitos."
+   },
+   "vocab": [
+    [
+     "la guerra judicial (lawfare)",
+     "l'instrumentalisation politique de la justice / le lawfare",
+     "El mandatario denunció el lawfare como herramienta para frenar reformas democráticas."
+    ],
+    [
+     "el pacto de corruptos",
+     "le « pacte des corrompus » (coalition d'intérêts illicites au Guatemala)",
+     "Las redes del pacto de corruptos intentaron bloquear la investidura presidencial."
+    ],
+    [
+     "la desafección democrática",
+     "la désaffection / perte de foi citoyenne envers la démocratie",
+     "La pobreza y la inseguridad alimentan la desafección democrática en la región."
+    ],
+    [
+     "la cooptación de las instituciones",
+     "la captation / noyautage des institutions par des réseaux d'intérêts",
+     "La cooptación del poder judicial amenaza la independencia de los magistrados."
+    ],
+    [
+     "la Cumbre Iberoamericana",
+     "le Sommet ibéro-américain des chefs d'État",
+     "Madrid acogió la Cumbre Iberoamericana centrada en la cooperación regional."
+    ],
+    [
+     "las garantías constitucionales",
+     "les garanties constitutionnelles et droits fondamentaux",
+     "Ningún gobierno debe vulnerar las garantías constitucionales en nombre de la seguridad."
+    ]
+   ],
+   "sujets": [
+    "¿Es el recurso a la «guerra judicial» (lawfare) la mayor amenaza para la estabilidad democrática en América Latina?",
+    "¿Pueden los organismos multilaterales frenar eficazmente el avance de los regímenes autocráticos en el continente americano?"
+   ],
+   "anki": [
+    {
+     "q": "Mensaje central de Bernardo Arévalo en la Cumbre Iberoamericana de Madrid (noviembre 2026)",
+     "r": "Alerta contra la normalización de las dictaduras y el retroceso autoritario en Centroamérica.\n→ La desafección ciudadana alimenta liderazgos que desmantelan los contrapesos institucionales."
+    },
+    {
+     "q": "Instrumento denunciado por Arévalo como principal mecanismo de sabotaje contra su Gobierno",
+     "r": "La guerra judicial (lawfare) y la cooptación del Ministerio Público por élites oligárquicas.\n→ La judicialización de la política sustituye a los golpes de Estado tradicionales para bloquear reformas."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-allemand-1",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/verbrenner-aus-umweltausschuss-im-eu-parlament-stimmt-fuer-lockerung-a-d9d0cbdd-960d-4e26-8724-57efdd989357",
+   "minutes": 3,
+   "titre": "Transition automobile européenne : la commission de l'Environnement vote l'assouplissement de l'interdiction des moteurs thermiques pour 2035",
+   "faits": "Le 4 novembre 2026, la commission de l'Environnement du Parlement européen a voté en faveur d'un assouplissement de l'interdiction de vente des voitures à moteur thermique programmée pour 2035. Selon le compromis adopté par les groupes parlementaires du centre et de droite, les émissions de CO2 des voitures neuves vendues dans l'Union européenne devront baisser de 87,5 % d'ici 2035 par rapport à 2021, au lieu de l'objectif d'élimination totale de 100 % initialement fixé. De plus, les constructeurs automobiles qui utilisent de l'acier vert bas-carbone bénéficieront d'une tolérance supplémentaire de 7,5 points de pourcentage sans risquer de pénalités financières. Cet amendement permettrait aux industriels de continuer à fabriquer et commercialiser des véhicules thermiques optimisés et des hybrides rechargeables au-delà de 2035. Ce vote intervient alors que les ventes de voitures 100 % électriques en Allemagne ont progressé de 80 % sur un an en octobre pour atteindre 94 000 immatriculations, stimulées par le bonus écologique fédéral.",
+   "enjeux": "Ce vote parlementaire constitue une victoire politique majeure pour les **constructeurs automobiles allemands** (Volkswagen, BMW, Mercedes) qui réclamaient plus de souplesse face au ralentissement de la demande mondiale. Confrontée à la concurrence agressive des véhicules électriques chinois à bas prix et à des coûts d'énergie élevés, l'industrie automobile européenne plaidait pour une période de transition prolongée afin d'amortir ses investissements dans les moteurs à combustion. Néanmoins, cet assouplissement suscite de vives inquiétudes chez les ONG environnementales, qui y voient un recul préjudiciable pour le respect des objectifs du **Pacte vert européen** (*Green Deal*). Pour les équipementiers automobiles allemands, cette décision offre un répit salutaire mais ne résout pas le défi structurel de la **compétitivité technologique** face aux batteries asiatiques. Le texte final devra encore faire l'objet de négociations serrées avec les 27 États membres au Conseil de l'Union européenne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/001_Car_factory_assembly_line_-_Opel_factory_in_Gliwice%2C_Poland.jpg/1280px-001_Car_factory_assembly_line_-_Opel_factory_in_Gliwice%2C_Poland.jpg",
+    "alt": "Ligne d'assemblage de carrosseries dans une usine automobile Opel",
+    "credit": "Marek Ślusarczyk / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:001_Car_factory_assembly_line_-_Opel_factory_in_Gliwice,_Poland.jpg"
+   },
+   "vo": {
+    "titre": "Automobilpolitik in der EU: Umweltausschuss stimmt für eine Lockerung beim Verbrenner-Aus ab 2035",
+    "faits": "Am 4. November 2026 hat der Umweltausschuss des EU-Parlaments für eine Lockerung des geplanten Verbrenner-Verbots gestimmt. Nach dem neuen Beschluss sollen die CO2-Emissionen von Neuwagen bis 2035 um 87,5 Prozent sinken. Ursprünglich wollte die Europäische Union den Verkauf von neuen Benzin- und Dieselautos ab 2035 komplett verbieten. Wenn Autobauer sauberen grünen Stahl nutzen, dürfen sie den Ausstoß sogar um weitere 7,5 Prozentpunkte verfehlen, ohne Strafen zu zahlen. Damit können die Hersteller auch nach 2035 weiterhin moderne Hybridautos und sparsame Verbrenner verkaufen. Gleichzeitig stieg der Verkauf von reinen Elektroautos in Deutschland im Oktober um rund 80 Prozent auf 94.000 Fahrzeuge. Das Europaparlament und die Mitgliedstaaten müssen den Plänen im Dezember aber noch endgültig zustimmen.",
+    "enjeux": "Die Entscheidung ist ein großer politischer Erfolg für die deutsche Autoindustrie. Hersteller wie Volkswagen, BMW und Mercedes fordern seit Monaten mehr Zeit für den schwierigen Umstieg auf die Elektromobilität. Sie kämpfen mit hohen Energiekosten in Europa und mit harter Konkurrenz durch günstige Elektroautos aus China. Umweltschützer kritisieren den Beschluss dagegen scharf. Sie warnen vor einem gefährlichen Rückschritt für den europäischen Klimaschutz und für die Klimaziele des Green Deal. Für viele Zulieferer bringt die Lockerung eine kurze Atempause, doch der Druck zur technischen Erneuerung bleibt hoch. Die Debatte zeigt, wie schwer es für Europa ist, ehrgeizigen Klimaschutz und industrielle Wettbewerbsfähigkeit gleichzeitig zu sichern."
+   },
+   "vocab": [
+    [
+     "das Verbrenner-Aus",
+     "l'interdiction des moteurs thermiques (essence et diesel)",
+     "Das Europaparlament debattiert über Ausnahmen beim Verbrenner-Aus."
+    ],
+    [
+     "der Umweltausschuss",
+     "la commission de l'Environnement (du Parlement européen)",
+     "Der Umweltausschuss stimmte für neue Grenzwerte bei Neuwagen."
+    ],
+    [
+     "die CO2-Emissionen",
+     "les émissions de dioxyde de carbone (CO2)",
+     "Hersteller müssen die CO2-Emissionen ihrer Neuwagen deutlich senken."
+    ],
+    [
+     "die Elektromobilität",
+     "la mobilité électrique",
+     "Der Übergang zur Elektromobilität verändert die gesamte deutsche Industrie."
+    ],
+    [
+     "die Neuzulassungen",
+     "les nouvelles immatriculations de véhicules",
+     "Die Neuzulassungen von E-Autos stiegen im Oktober kräftig an."
+    ],
+    [
+     "die Wettbewerbsfähigkeit",
+     "la compétitivité (économique ou industrielle)",
+     "Deutsche Konzerne bangen um ihre weltweite Wettbewerbsfähigkeit."
+    ]
+   ],
+   "sujets": [
+    "Sollte die Europäische Union am vollständigen Verbot von Verbrennungsmotoren festhalten?",
+    "Wie kann die deutsche Industrie den Übergang zu Elektroautos erfolgreich bewältigen?"
+   ]
+  },
+  {
+   "id": "2026-11-05-allemand-2",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/innenpolitik/pflege-reform-bundestag-100.html",
+   "minutes": 3,
+   "titre": "Protection sociale en Allemagne : le Bundestag engage le débat sur la réforme urgente de l'assurance dépendance",
+   "faits": "Le 5 novembre 2026, le Bundestag a ouvert en séance plénière la première lecture du projet de loi de réforme de l'assurance dépendance (Pflegereform), avant une refonte structurelle plus vaste annoncée pour l'année suivante. Le ministre fédéral de la Santé, Carsten Linnemann (CDU), a défendu devant les députés des mesures d'urgence destinées à consolider les comptes financiers déficitaires des caisses de soins et à revaloriser les aides versées aux familles aidantes. En Allemagne, près de 85 % des personnes en perte d'autonomie sont prises en charge directement à leur domicile par leurs proches, au prix de lourds sacrifices professionnels et financiers. Le projet de loi prévoit une revalorisation ciblée des allocations de soins à domicile ainsi qu'un encadrement du reste à charge payé par les résidents en maison de retraite, qui dépasse désormais 3 400 euros par mois en moyenne. Cependant, les fédérations d'aide sociale et les partis d'opposition estiment que ce texte n'apporte qu'un répit financier précaire sans régler la pénurie structurelle de personnel soignant.",
+   "enjeux": "Ce débat parlementaire met en lumière la crise majeure de l'**État social** allemand (*Sozialstaat*) face au choc du **vieillissement démographique** (*Überalterung*). Créée en 1995 comme cinquième pilier de la protection sociale allemande, l'assurance dépendance légale (*soziale Pflegeversicherung*) voit ses dépenses exploser sous l'effet de l'allongement de l'espérance de vie et de l'augmentation du nombre de bénéficiaires. Sans injection massive de recettes fiscales issues du budget fédéral ou hausse impopulaire des cotisations sociales sur les salaires, le système risque l'insolvabilité à court terme. Cette crise de financement fragilise le principe de solidarité intergénérationnelle et aggrave le risque de paupérisation des personnes âgées et de leurs proches aidants. Trouver un compromis durable entre la maîtrise des coûts du travail pour les entreprises et la garantie d'une prise en charge digne du grand âge constitue un des défis politiques les plus ardus pour la coalition au pouvoir.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Berl%C3%ADn%2C_Reichstag_1.jpg/1280px-Berl%C3%ADn%2C_Reichstag_1.jpg",
+    "alt": "Le palais du Reichstag à Berlin, siège du Bundestag allemand",
+    "credit": "LBM1948 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Berl%C3%ADn,_Reichstag_1.jpg"
+   },
+   "vo": {
+    "titre": "Sozialpolitik in Berlin: Bundestag debattiert über dringende Reform der Pflegeversicherung",
+    "faits": "Am 5. November 2026 hat der Deutsche Bundestag über eine erste Reform der Pflegeversicherung debattiert. Bundesgesundheitsminister Carsten Linnemann (CDU) stellte erste Maßnahmen vor, um die finanzielle Not der Pflegekassen zu lindern und pflegende Familien besser zu unterstützen. In Deutschland werden rund 85 Prozent der Pflegebedürftigen zu Hause von Angehörigen betreut. Diese Betreuung bedeutet für viele Menschen eine enorme körperliche und finanzielle Belastung. Gleichzeitig sind die Kosten für einen Heimplatz stark gestiegen: Viele Bewohner müssen inzwischen fast 3.400 Euro pro Monat aus eigener Tasche zahlen. Der Gesetzentwurf soll den Eigenanteil begrenzen und das Pflegegeld leicht erhöhen. Sozialverbände und die Opposition kritisieren das Gesetz jedoch als unzureichend, weil es den großen Mangel an Fachkräften nicht löst.",
+    "enjeux": "Die Debatte zeigt die ernsten Probleme des deutschen Sozialstaats durch die alternde Gesellschaft. Weil die Menschen in Deutschland immer älter werden, brauchen immer mehr Bürger im Alter professionelle Hilfe. Die Pflegekassen machen deshalb seit Monaten hohe Verluste, während die Beiträge für Arbeitnehmer schon stark gestiegen sind. Wenn der Staat das System nicht mit Steuergeldern absichert, droht vielen Senioren und ihren Familien die Altersarmut. Gleichzeitig fehlen in deutschen Kliniken und Pflegeheimen Zehntausende Pflegekräfte. Die Bundesregierung muss einen schwierigen Ausgleich finden: Sie will die Qualität der Pflege verbessern, ohne die Lohnnebenkosten für Firmen zu stark zu erhöhen. Die Zukunft der Pflegeversicherung gilt daher als eine der größten sozialen Aufgaben für die Politik."
+   },
+   "vocab": [
+    [
+     "die Pflegereform",
+     "la réforme de l'aide aux personnes dépendantes",
+     "Der Bundestag berät über eine wichtige Pflegereform."
+    ],
+    [
+     "die pflegenden Angehörigen",
+     "les proches aidants (qui soignent un parent)",
+     "Millionen pflegende Angehörige brauchen mehr staatliche Unterstützung."
+    ],
+    [
+     "der Eigenanteil",
+     "le reste à charge personnel (pour un séjour en maison de soins)",
+     "Der Eigenanteil in Pflegeheimen übersteigt die Rente vieler Senioren."
+    ],
+    [
+     "die Pflegeversicherung",
+     "l'assurance dépendance (5e branche de sécurité sociale)",
+     "Die gesetzliche Pflegeversicherung kämpft mit wachsenden Defiziten."
+    ],
+    [
+     "der Fachkräftemangel",
+     "la pénurie de main-d'œuvre qualifiée",
+     "Der Fachkräftemangel in der Pflege verschärft die Krise zusätzlich."
+    ],
+    [
+     "die Lohnnebenkosten",
+     "les charges sociales patronales et salariales",
+     "Die Regierung will einen weiteren Anstieg der Lohnnebenkosten verhindern."
+    ]
+   ],
+   "sujets": [
+    "Wie kann Deutschland eine würdevolle Pflege im Alter dauerhaft finanzieren?",
+    "Sollte der Staat pflegende Angehörige stärker finanziell und beruflich entlasten?"
+   ]
+  },
+  {
+   "id": "2026-11-05-allemand-3",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/innenpolitik/bundespraesident-wahl-kandidatinnen-100.html",
+   "minutes": 3,
+   "titre": "Présidence fédérale en Allemagne : Friedrich Merz et la CDU/CSU à la recherche d'une candidate pour succéder à Steinmeier",
+   "faits": "À l'approche du renouvellement du mandat de chef de l'État en 2027, le chancelier fédéral Friedrich Merz a engagé d'intenses concertations politiques au sein de l'Union chrétienne-démocrate (CDU/CSU) pour désigner une candidate commune à la présidence fédérale. Selon les informations du studio de l'ARD à Berlin publiées le 5 novembre 2026, le chancelier s'est prononcé publiquement en faveur de l'élection de la première femme à la tête de la République fédérale d'Allemagne pour succéder à Frank-Walter Steinmeier. La présidente du parlement régional bavarois, Ilse Aigner (CSU), fait figure de favorite, bénéficiant du soutien de plusieurs chefs de gouvernement de Länder. Toutefois, des réticences internes subsistent au sein de certaines fédérations de la CDU, qui estiment que le plus grand parti du pays devrait présenter sa propre candidate issue de ses rangs plutôt que de céder le poste à sa formation sœur bavaroise. Les instances dirigeantes de l'Union doivent se réunir en séminaire à Berlin pour dégager une position unifiée avant d'entamer des discussions avec les autres partis représentés à l'Assemblée fédérale (Bundesversammlung).",
+   "enjeux": "Ce processus de désignation met en lumière le fonctionnement institutionnel et le rôle d'arbitre moral du **président fédéral** (*Bundespräsident*) dans le régime parlementaire allemand. Bien que la Loi fondamentale de 1949 attribue au chef de l'État des fonctions essentiellement représentatives et protocolaires, sa parole publique dispose d'une autorité morale majeure pour rassembler le pays lors des périodes de tensions sociales et politiques. Pour Friedrich Merz, réussir à imposer une personnalité féminine consensuelle sans provoquer de rupture entre la CDU et la CSU constitue un test crucial de son autorité politique sur la majorité. De plus, l'élection du président fédéral se déroule au scrutin secret au sein de l'**Assemblée fédérale**, où l'Union doit trouver des majorités d'ouverture avec le SPD, les Verts ou le FDP pour assurer une victoire sans accroc dès le premier tour. Ce choix intervient à un moment où la cohésion démocratique de l'Allemagne est mise à rude épreuve par la montée de la polarisation politique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/0_3494_Berlin_-_Schloss_Bellevue.jpg/1280px-0_3494_Berlin_-_Schloss_Bellevue.jpg",
+    "alt": "Le château de Bellevue à Berlin, résidence officielle du président fédéral",
+    "credit": "W. Bulach / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:0_3494_Berlin_-_Schloss_Bellevue.jpg"
+   },
+   "vo": {
+    "titre": "Staatsoberhaupt in Berlin: Friedrich Merz und die Union suchen eine Bundespräsidentin",
+    "faits": "In Berlin hat Bundeskanzler Friedrich Merz wichtige Gespräche über die Nachfolge von Frank-Walter Steinmeier begonnen. Der Kanzler hat sich bereits festgelegt: Nach vielen Männern soll nun zum ersten Mal eine Frau das Amt des Bundespräsidenten übernehmen. Als große Favoritin gilt die bayerische Landtagspräsidentin Ilse Aigner von der CSU. Mehrere Ministerpräsidenten der Union haben ihre Unterstützung für Aigner bereits öffentlich erklärt. Allerdings gibt es in Teilen der CDU auch Zweifel und Kritik an diesem Plan. Einige Parteimitglieder fordern, dass die größere Schwesterpartei CDU selbst eine Kandidatin aufstellen sollte. Am kommenden Montag will das Präsidium der CDU über den Vorschlag beraten, um vor der Bundesversammlung eine gemeinsame Linie zu finden.",
+    "enjeux": "Die Debatte berührt das höchste Staatsamt in der Bundesrepublik Deutschland. Obwohl der Bundespräsident laut Grundgesetz vor allem repräsentative Aufgaben hat, gilt er als wichtige moralische Instanz des Landes. Seine Reden und Mahnungen haben gerade in unruhigen Zeiten großes politisches Gewicht für den Zusammenhalt der Bürger. Für Kanzler Merz ist die Personalie auch ein Härtetest für seine Führung in den eigenen Reihen. Die Wahl in der Bundesversammlung findet im geheimen Verfahren statt, und die Union braucht dort breite Unterstützung aus anderen Parteien. Eine überzeugende Kandidatin soll das Vertrauen in die demokratischen Institutionen stärken und die Einheit des Landes betonen."
+   },
+   "vocab": [
+    [
+     "das Bundespräsidialamt / der Bundespräsident",
+     "la présidence fédérale / le président fédéral allemand",
+     "Der Bundespräsident vertritt die Bundesrepublik nach außen."
+    ],
+    [
+     "die Bundesversammlung",
+     "l'Assemblée fédérale (qui élit le président en Allemagne)",
+     "Die Bundesversammlung wählt das Staatsoberhaupt in geheimer Wahl."
+    ],
+    [
+     "die moralische Instanz",
+     "l'autorité / la référence morale",
+     "Das Staatsoberhaupt soll als überparteiliche moralische Instanz wirken."
+    ],
+    [
+     "der Zusammenhalt der Gesellschaft",
+     "la cohésion de la société",
+     "Politiker mahnen den demokratischen Zusammenhalt der Gesellschaft an."
+    ],
+    [
+     "die Schwesterparteien (CDU und CSU)",
+     "les partis frères (l'Union chrétienne en Allemagne)",
+     "Die Schwesterparteien CDU und CSU suchen einen gemeinsamen Kurs."
+    ],
+    [
+     "das Staatsoberhaupt",
+     "le chef de l'État",
+     "Deutschland könnte bald erstmals ein weibliches Staatsoberhaupt bekommen."
+    ]
+   ],
+   "sujets": [
+    "Braucht eine parlamentarische Demokratie ein überparteiliches Staatsoberhaupt?",
+    "Welche Bedeutung hat das Amt des Bundespräsidenten für den Zusammenhalt in Deutschland?"
+   ]
+  }
+ ]
+}
