@@ -2846,6 +2846,429 @@
      ]
     }
    ]
+  },
+  {
+   "id": "etat-entrepreneur",
+   "nom": "L'État entrepreneur",
+   "categorie": "politiques",
+   "type": "Théorie",
+   "annee": "2013",
+   "auteur": "Mariana Mazzucato",
+   "accroche": "L'État n'est pas seulement un réparateur des défaillances de marché, mais le premier investisseur à risque qui initie, façonne et finance les ruptures technologiques majeures.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Mariana Mazzucato**, *The Entrepreneurial State: Debunking Public vs. Private Sector Myths* (2013, traduit en français sous le titre *L'État entrepreneur*).",
+      "L'économiste hétérodoxe italo-américaine prend le contre-pied de la vulgate néolibérale selon laquelle le secteur public serait par nature lourd, inefficace et bureaucratique, tandis que le secteur privé serait seul dynamique et innovant. Elle démontre, preuves historiques à l'appui, que presque toutes les grandes technologies de rupture du capitalisme moderne résultent d'investissements publics massifs et ciblés en amont."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "L'État assume l'**incertitude radicale** (au sens de Knight) lors des premières étapes de la recherche fondamentale et appliquée, là où le capital-risque privé refuse d'investir en raison du risque d'échec élevé et des horizons de rentabilité trop lointains.",
+      "Par le biais d'agences publiques de mission (comme la DARPA aux États-Unis, le NIH ou la NASA), la puissance publique finance le développement des briques technologiques essentielles (Internet, GPS, écran tactile, reconnaissance vocale Siri, algorithme de recherche).",
+      "Une fois le risque technologique initial absorbé par le contribuable, les entreprises privées (comme Apple ou Google) s'emparent de ces innovations pour les commercialiser et capter des profits privés gigantesques.",
+      "Mazzucato en déduit le paradoxe de la **socialisation des risques et privatisation des gains** : le public assume les pertes et l'effort initial, mais ne perçoit aucun retour sur investissement direct pour refinancer les biens publics."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La théorie permet de réhabiliter la **politique industrielle** et le rôle de l'**État stratège** dans la croissance moderne. Elle prouve que les marchés ne sont pas des entités spontanées mais des constructions façonnées par l'action publique. En dissertation, la thèse de Mazzucato est décisive pour démontrer que la transition écologique, la souveraineté technologique ou la défense européenne exigent un engagement étatique de long terme en **capital patient**, et que le modèle du « laisser-faire » est une illusion historique."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les politiques de mission (Mission-Oriented Policies)",
+       "d": "Mazzucato (2021) préconise d'orienter les budgets publics vers de grands défis sociétaux (climat, santé, autonomie énergétique) sur le modèle du programme Apollo."
+      },
+      {
+       "t": "Le capital patient",
+       "d": "Banques publiques d'investissement (KfW en Allemagne, Bpifrance) et fonds souverains investissant sans exigence de rendement trimestriel à court terme."
+      },
+      {
+       "t": "Le partage équitable des retours",
+       "d": "L'État devrait conserver des participations en capital ou des redevances (royalties) sur les technologies qu'il finance pour alimenter des fonds d'innovation."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Mazzucato ne prône pas un retour à l'économie administrée de type soviétique ni au sauvetage indistinct de « canards boiteux ». L'État entrepreneur ne doit pas se substituer aux firmes privées, mais agir comme un catalyseur (*market shaper*) qui ouvre des voies nouvelles et crée des opportunités d'investissement pour le secteur privé."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'iPhone d'Apple",
+       "d": "Mazzucato décompose l'appareil pour prouver que le GPS, l'écran tactile, Internet et Siri ont tous été financés par l'armée ou la recherche publique américaine."
+      },
+      {
+       "t": "L'IRA américain et les batteries",
+       "d": "L'Inflation Reduction Act mobilise plus de 370 milliards de dollars de subventions pour structurer la filière des technologies vertes aux États-Unis."
+      },
+      {
+       "t": "L'industrie de défense européenne (KNDS)",
+       "d": "L'entrée au capital de Berlin et Paris pour concevoir le char du futur (MGCS) illustre la nécessité d'un pilotage public régalien des blindés."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Alexander Gerschenkron (1962)",
+       "idee": "l'État est l'agent indispensable du rattrapage technologique pour surmonter le retard industriel"
+      },
+      {
+       "sens": "=",
+       "nom": "Philippe Aghion (2020)",
+       "idee": "l'État doit guider la destruction créatrice vers l'innovation verte par des taxes et subventions ciblées"
+      },
+      {
+       "sens": "≠",
+       "nom": "Friedrich Hayek (1944)",
+       "idee": "l'État ne dispose pas de l'information dispersée et fausse les signaux de prix du marché libre"
+      },
+      {
+       "sens": "≠",
+       "nom": "Anne Krueger (1974)",
+       "idee": "l'interventionnisme étatique génère de la recherche de rente (rent-seeking) et de la corruption"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "salaire-d-efficience",
+   "nom": "Théorie du salaire d'efficience",
+   "categorie": "fondamentaux",
+   "type": "Théorie",
+   "annee": "1984",
+   "auteur": "George Akerlof et Janet Yellen",
+   "accroche": "Le niveau de salaire détermine la productivité du travail : fixer une rémunération supérieure au salaire d'équilibre est un choix rationnel pour stimuler l'effort et fidéliser les salariés.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**George Akerlof et Janet Yellen**, *Efficiency Wage Models of the Labor Market* (1984, Cambridge University Press), synthèse fondatrice de la Nouvelle économie keynésienne (NEK).",
+      "Dans la théorie néoclassique standard, la productivité marginale détermine le salaire. Les théoriciens du salaire d'efficience renversent cette causalité : c'est le **salaire offert qui détermine la productivité** des travailleurs. Ils expliquent ainsi pourquoi les employeurs refusent de baisser les salaires même en présence de chômage involontaire."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "En présence d'**asymétrie d'information**, l'employeur ne peut pas surveiller parfaitement l'effort de chaque salarié sans engager des coûts de contrôle prohibitifs.",
+      "Le modèle du tire-au-flanc (*shirking model* de Shapiro et Stiglitz, 1984) montre qu'en versant un salaire supérieur au salaire de réserve du marché, l'employeur accroît le coût d'un licenciement pour le travailleur, ce qui l'incite à fournir l'effort requis.",
+      "Le modèle du don/contre-don d'Akerlof (1982) introduit une dimension sociologique : un salaire généreux est perçu comme un don de l'employeur, auquel le salarié répond par un contre-don sous forme de loyauté, d'assiduité et de surcroît de productivité.",
+      "La hausse de salaire réduit également les coûts de rotation de la main-d'œuvre (*turnover*) et améliore la sélection des candidats à l'embauche (anti-sélection).",
+      "Au niveau macroéconomique, la fixation générale de salaires d'efficience empêche les salaires réels de s'ajuster à la baisse pour équilibrer le marché, générant un **chômage d'équilibre involontaire**."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La théorie fournit un fondement microéconomique rigoureux à la **rigidité des salaires réels** et à l'existence durable du **chômage involontaire**. Elle démontre que la flexibilité salariale à la baisse peut être contre-productive pour les entreprises en détériorant la productivité globale. En dissertation, elle permet d'expliquer pourquoi la modération salariale excessive affaiblit l'effort des travailleurs et pourquoi les baisses de salaire réel en période d'inflation démobilisent la main-d'œuvre."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le modèle Shapiro-Stiglitz (1984)",
+       "d": "Le chômage joue le rôle de mécanisme de discipline des travailleurs en rendant la perte d'emploi coûteuse."
+      },
+      {
+       "t": "Le modèle insiders/outsiders (Lindbeck et Snower, 1988)",
+       "d": "Les salariés en place (insiders) utilisent leur pouvoir de négociation pour maintenir des salaires élevés au détriment des chômeurs (outsiders)."
+      },
+      {
+       "t": "La théorie du don/contre-don (Akerlof, 1982)",
+       "d": "L'effort au travail obéit à des normes sociales de justice et d'équité plutôt qu'à un pur calcul marchand d'optimisation."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "La théorie ne dit pas que les employeurs peuvent augmenter indéfiniment les salaires : il existe un niveau optimal (la condition de Solow de 1979) où l'élasticité de l'effort par rapport au salaire est unitaire. Au-delà, le coût marginal du salaire dépasse le gain marginal de productivité."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Les « 5 dollars par jour » d'Henry Ford (1914)",
+       "d": "Ford double le salaire journalier des ouvriers pour stopper l'hémorragie des démissions (turnover) et doper la cadence des chaînes d'assemblage."
+      },
+      {
+       "t": "La rétention des talents dans la Tech",
+       "d": "Google, Meta et les banques d'affaires versent des rémunérations hors marché pour attirer les meilleurs ingénieurs et éviter le piratage des compétences."
+      },
+      {
+       "t": "L'érosion des salaires réels sous l'inflation",
+       "d": "La baisse de 1,1 % du salaire moyen réel en France démotive les salariés et complique les recrutements dans les secteurs en tension."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Joseph Stiglitz et Carl Shapiro (1984)",
+       "idee": "l'asymétrie d'information sur l'effort de travail rend la rigidité des salaires rationnelle"
+      },
+      {
+       "sens": "=",
+       "nom": "Karl Marx (1867)",
+       "idee": "l'armée industrielle de réserve (chômage) sert d'instrument de pression pour discipliner le travail"
+      },
+      {
+       "sens": "≠",
+       "nom": "Jacques Rueff (1931)",
+       "idee": "le chômage résulte uniquement de salaires artificiellement trop élevés et d'allocations trop généreuses"
+      },
+      {
+       "sens": "≠",
+       "nom": "Arthur Pigou (1933)",
+       "idee": "sur un marché concurrentiel pur, la flexibilité parfaite des salaires rétablit toujours le plein emploi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "courbe-de-laffer",
+   "nom": "Courbe de Laffer",
+   "categorie": "politiques",
+   "type": "Effet",
+   "annee": "1974",
+   "auteur": "Arthur Laffer",
+   "accroche": "« Trop d'impôt tue l'impôt » : au-delà d'un taux d'imposition critique, l'élévation des prélèvements décourage l'activité et l'épargne, finissant par réduire les recettes fiscales totales de l'État.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Arthur Laffer**, économiste américain chef de file de l'**économie de l'offre** (*supply-side economics*), dessine la courbe sur une serviette de table en 1974 lors d'un dîner avec Dick Cheney et Donald Rumsfeld, avant de formaliser l'analyse dans « An Equilibrium Approach to the Laffer Curve » (1974).",
+      "L'intuition remonte en réalité à **Ibn Khaldoun** dans la *Muqaddima* (1377), qui écrivait qu'« au début d'une dynastie, de petits impôts rapportent de grosses recettes ; à la fin, de gros impôts rapportent de maigres recettes », ainsi qu'à **Adam Smith** et **Jean-Baptiste Say**."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "La relation entre le taux d'imposition (t) et les recettes fiscales de l'État (R) prend la forme d'une courbe en cloche (en U inversé) reliant les points (0%, 0) et (100%, 0).",
+      "Toute hausse du taux d'imposition produit deux effets contradictoires : un **effet assiette** (effet désincitatif qui pousse les contribuables à moins travailler, à moins épargner ou à dissimuler leurs revenus) et un **effet taux** (chaque unité imposable restante rapporte davantage à l'État).",
+      "Tant que le taux se situe en zone normale (à gauche du sommet), l'effet taux l'emporte et les rentrées fiscales augmentent.",
+      "Au-delà du taux critique d'imposition (sommet de la courbe), l'effet assiette prend le dessus : l'exil fiscal, l'économie souterraine et le désincitation au travail érodent l'assiette plus vite que la hausse du taux, réduisant les recettes globales.",
+      "Dans cette zone prohibitive, baisser les impôts permet paradoxalement d'augmenter les rentrées fiscales en stimulant la production et l'élargissement de l'assiette imposable."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La courbe de Laffer constitue le socle théorique des politiques fiscales de baisse d'impôt menées depuis les années 1980 (Reaganomics, réformes Thatcher, suppression de l'ISF ou flat tax). En dissertation, elle sert d'argument central pour exposer les limites de la pression fiscale, le risque de fuite des bases imposables en économie ouverte et les externalités négatives d'une fiscalité confiscatoire sur l'incitation à l'effort et l'attractivité territoriale."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le taux optimal de Laffer",
+       "d": "Les études empiriques (Trabandt et Uhlig, 2011) situent le sommet de la courbe entre 60 % et 70 % pour le travail, et autour de 30 % à 40 % pour le capital."
+      },
+      {
+       "t": "L'élasticité du revenu imposable (Saez et Zucman)",
+       "d": "La sensibilité de l'assiette fiscale dépend moins du désincitation au travail que de la facilité légale d'optimisation fiscale et d'expatriation."
+      },
+      {
+       "t": "La politique de l'offre (Supply-side economics)",
+       "d": "Priorité donnée à la dérégulation et à la baisse des prélèvements sur les entreprises et le capital pour stimuler l'investissement productif."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Laffer ne démontre pas que les baisses d'impôts s'autofinancent systématiquement : les réductions massives d'impôts menées sous Ronald Reagan (1981) ou Donald Trump (2017) ont creusé les déficits budgétaires car les économies ne se situaient pas dans la zone prohibitive de la courbe."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "L'Economic Recovery Tax Act (1981)",
+       "d": "L'administration Reagan abaisse le taux marginal supérieur de l'impôt sur le revenu de 70 % à 50 % pour réactiver l'offre."
+      },
+      {
+       "t": "L'instauration du prélèvement forfaitaire unique (PFU)",
+       "d": "En France (2018), la flat tax à 30 % sur les revenus du capital a fait progresser les dividendes déclarés et les rentrées fiscales associées."
+      },
+      {
+       "t": "L'exit tax italienne sur les grandes fortunes",
+       "d": "Le projet de taxer à 26 % les plus-values latentes risque d'inciter les contribuables fortunés à quitter le pays avant son application."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Jean-Baptiste Say (1803)",
+       "idee": "l'impôt excessif détruit la matière imposable en décourageant la production"
+      },
+      {
+       "sens": "=",
+       "nom": "Milton Friedman (1962)",
+       "idee": "la liberté économique et l'efficacité marchande exigent un État minimal et un impôt proportionnel modéré"
+      },
+      {
+       "sens": "≠",
+       "nom": "Thomas Piketty (2013)",
+       "idee": "des taux marginaux très élevés (70-80 %) sur les très hauts revenus ne nuisent pas à la croissance mais freinent les rentes"
+      },
+      {
+       "sens": "≠",
+       "nom": "Gabriel Zucman (2019)",
+       "idee": "l'érosion des recettes vient du dumping fiscal et des paradis fiscaux, pas du niveau intrinsèque de l'impôt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fiscalite-du-capital-piketty",
+   "nom": "Fiscalité du capital et régulation des inégalités",
+   "categorie": "societe",
+   "type": "Théorie",
+   "annee": "2013",
+   "auteur": "Thomas Piketty",
+   "accroche": "Lorsque le taux de rendement du capital excède durablement le taux de croissance (r > g), le patrimoine hérité se concentre mécaniquement, exigeant un impôt mondial et progressif sur le capital pour préserver la démocratie.",
+   "blocs": [
+    {
+     "titre": "D'où ça vient",
+     "type": "texte",
+     "paras": [
+      "**Thomas Piketty**, *Le Capital au XXIe siècle* (2013, Éditions du Seuil), appuyé sur des séries statistiques historiques couvrant trois siècles et plus de vingt pays.",
+      "Piketty réfute la célèbre hypothèse de **Simon Kuznets** (1955) selon laquelle les inégalités diminueraient spontanément avec le développement économique avancé (courbe en U inversé). Il démontre que la compression des inégalités au XXe siècle fut une parenthèse historique exceptionnelle due aux destructions des deux guerres mondiales, aux crises et aux politiques fiscales progressives, et non une loi naturelle du capitalisme."
+     ]
+    },
+    {
+     "titre": "Le mécanisme",
+     "type": "etapes",
+     "items": [
+      "La force fondamentale de divergence réside dans l'inégalité **r > g**, où **r** est le taux de rendement moyen du capital (loyers, dividendes, plus-values) et **g** le taux de croissance économique (PIB et salaires).",
+      "Historiquement, le rendement du capital tourne autour de 4 % à 5 %, tandis que la croissance des économies développées plafonne entre 1 % et 1,5 %.",
+      "Lorsque r > g, les patrimoines accumulés augmentent beaucoup plus rapidement que les revenus du travail, ce qui conduit à une concentration cumulative de la richesse aux mains des détenteurs de capital (le centile supérieur).",
+      "Cette dynamique patrimoniale ressuscite le capitalisme d'héritiers du XIXe siècle décrit par Balzac, où la réussite dépend davantage de la rente et de l'héritage que du talent ou de l'effort personnel.",
+      "Pour contrer cette dérive oligarchique, Piketty préconise l'instauration d'un **impôt progressif mondial sur le capital** couplé à une transparence bancaire automatique internationale."
+     ]
+    },
+    {
+     "titre": "Ce que ça permet de montrer",
+     "type": "texte",
+     "paras": [
+      "La théorie démontre que le marché livré à lui-même ne contient aucun mécanisme autorégulateur pour freiner l'explosion des inégalités patrimoniales. Elle prouve que la justice fiscale et la fiscalité redistributive sont indispensables pour sauvegarder l'idéal méritocratique et la légitimité démocratique. En dissertation, la thèse de Piketty permet de légitimer la taxation des successions, l'impôt sur la fortune et les mécanismes de lutte contre l'évasion fiscale comme l'exit tax."
+     ]
+    },
+    {
+     "titre": "Les prolongements à connaître",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "Le capitalisme d'héritiers",
+       "d": "Le poids du patrimoine transmis par succession représente à nouveau plus de 60 % de la richesse totale en Europe, contre 40 % en 1970."
+      },
+      {
+       "t": "La taxe minimale mondiale (Accord OCDE de 2021)",
+       "d": "Création d'un taux plancher de 15 % sur les multinationales pour limiter la course au moins-disant fiscal entre États."
+      },
+      {
+       "t": "L'impôt universel sur les milliardaires (Gabriel Zucman, 2024)",
+       "d": "Proposition d'un impôt minimum de 2 % sur le patrimoine des 3 000 milliardaires mondiaux soutenue par le G20 à Rio."
+      }
+     ]
+    },
+    {
+     "titre": "Ce que ça ne dit pas",
+     "type": "texte",
+     "paras": [
+      "Piketty ne rejette pas la propriété privée ni le rôle de l'esprit d'entreprise : il propose une « démocratie participative » où l'impôt progressif permet une circulation permanente des patrimoines et une dotation universelle en capital pour chaque jeune à l'âge adulte."
+     ]
+    },
+    {
+     "titre": "Où l'utiliser",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La concentration des patrimoines mondiaux",
+       "d": "Le World Inequality Report indique que les 1 % les plus riches possèdent près de 50 % du patrimoine mondial total."
+      },
+      {
+       "t": "La fiscalité des successions",
+       "d": "Le débat récurrent sur le durcissement des droits de donation pour rétablir l'égalité des chances entre générations."
+      },
+      {
+       "t": "L'exit tax italienne sur les plus-values latentes",
+       "d": "L'instauration d'un prélèvement de 26 % au départ des résidents fortunés vise à empêcher l'évasion de l'assiette du capital."
+      }
+     ]
+    },
+    {
+     "titre": "Dialogue",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Karl Marx (1867)",
+       "idee": "la dynamique d'accumulation illimitée du capital concentre la richesse et fragilise le système"
+      },
+      {
+       "sens": "=",
+       "nom": "Gabriel Zucman (2013)",
+       "idee": "l'évasion fiscale dans les paradis fiscaux aggrave la sous-imposition des ultra-riches"
+      },
+      {
+       "sens": "≠",
+       "nom": "Simon Kuznets (1955)",
+       "idee": "la croissance économique moderne réduit naturellement les inégalités à long terme"
+      },
+      {
+       "sens": "≠",
+       "nom": "Arthur Laffer (1974)",
+       "idee": "la taxation confiscatoire du capital détruit l'incitation à investir et réduit les recettes futures"
+      }
+     ]
+    }
+   ]
   }
  ]
 }

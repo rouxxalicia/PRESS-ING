@@ -1,0 +1,728 @@
+{
+ "date": "2026-11-06",
+ "cards": [
+  {
+   "id": "2026-11-06-esh-1",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/06/l-allemagne-va-entrer-au-capital-de-knds-et-controlera-le-geant-de-l-armement-terrestre-a-parite-avec-la-france_6807842_3234.html",
+   "minutes": 3,
+   "titre": "Souveraineté et défense européenne : l'Allemagne entre au capital de KNDS à parité avec la France pour verrouiller l'alliance de l'armement terrestre",
+   "faits": "Le 6 novembre 2026, le gouvernement allemand a conclu un accord de principe historique pour acquérir 50 % du capital de KNDS, le groupe d'armement terrestre né de la fusion en 2015 du français Nexter et de l'allemand Krauss-Maffei Wegmann (KMW). Berlin va racheter l'intégralité des parts de la famille actionnaire historique Bode-Wegmann, qui cherchait à se désengager depuis plusieurs mois. Cette décision entérine le report sine die du projet d'introduction en Bourse à Paris et Francfort, initialement envisagé pour financer l'expansion industrielle du groupe. L'État allemand rejoint ainsi l'État français, détenteur des 50 % restants via la société publique Giat Industries, pour former une gouvernance binationale strictement paritaire au plus haut niveau. Selon les documents transmis par le ministère des Finances à la commission du Budget du Bundestag, ce rachat direct vise à garantir un pouvoir de codécision régalien sur les programmes d'armement stratégiques. L'opération sécurise en premier lieu le développement du char du futur franco-allemand (MGCS), doté de plusieurs milliards d'euros, tout en ouvrant la voie à d'éventuelles cessions partielles coordonnées à hauteur de 40 % ou 30 % chacun si les conditions de marché le justifient à terme.",
+   "enjeux": "Cette nationalisation partielle illustre le retour en force de l'**État stratège** et de la **politique industrielle de mission** dans un secteur de la défense transformé par le retour des conflits de haute intensité en Europe. Alors que les doctrines de concurrence et de désengagement public ont dominé l'Union européenne pendant trois décennies, la sécurité et l'autonomie stratégique sont désormais reconnues comme des **biens publics régionaux** indispensables. La structure paritaire binationale répond à la crainte de Berlin d'être mis en minorité ou de subir une prise de contrôle hostile par des fonds étrangers sur un champion industriel fabriquant le char Leopard 2 et le canon Caesar. Pour Paris et Berlin, cette alliance étatique doit surmonter les divergences récurrentes de doctrine militaire et de normes d'exportation qui ont freiné le programme MGCS face à la concurrence des blindés américains et sud-coréens. Toutefois, la gouvernance partagée à 50-50 pose le défi classique de la prise de décision publique et du risque de paralysie bureaucratique en l'absence d'actionnaire prépondérant. Ce rapprochement capitalistique consacre l'idée que la **souveraineté technologique** européenne exige un engagement direct des finances publiques en capital patient.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/2_norwegian_Leopard_tanks_in_the_snow.jpg/1280px-2_norwegian_Leopard_tanks_in_the_snow.jpg",
+    "alt": "Deux chars de combat Leopard lors de manœuvres militaires hivernales",
+    "credit": "Rodney K. Prouty / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2_norwegian_Leopard_tanks_in_the_snow.jpg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - Les politiques économiques"
+   },
+   "auteurs": [
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "The Theory of Public Finance",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "texte": "Musgrave définit la **fonction d'allocation** de l'État pour corriger les défaillances de marché et assurer la production de **biens publics purs**, caractérisés par la non-rivalité et la non-exclusion comme la défense nationale. L'entrée directe de Berlin au capital de KNDS montre que la production d'armements souverains ne peut pas être abandonnée aux seuls mécanismes de marché ou à des investisseurs financiers de court terme. À mobiliser pour justifier l'intervention publique directe et la légitimité régalienne de l'État actionnaire dans les secteurs stratégiques."
+    },
+    {
+     "nom": "Mariana Mazzucato",
+     "ouvrage": "L'État entrepreneur",
+     "annee": "2013",
+     "ref": "etat-entrepreneur",
+     "texte": "Mazzucato soutient que l'**État entrepreneur** assume le rôle de premier investisseur à risque en finançant les infrastructures critiques et les ruptures technologiques que le capital-risque privé refuse de porter. La décision de nationaliser 50 % de KNDS pour sécuriser le développement du blindé du futur (MGCS) illustre cette dynamique de mission publique orientée vers la souveraineté technologique. À mobiliser dans tout sujet sur le retour des politiques industrielles, l'État stratège et le financement de l'innovation de défense."
+    }
+   ],
+   "sujets": [
+    "L'autonomie stratégique européenne est-elle compatible avec les règles de la concurrence ?",
+    "L'État doit-il redevenir un actionnaire de premier rang dans les économies développées ?"
+   ],
+   "anki": [
+    {
+     "q": "Part du capital de KNDS acquise par l'État allemand en novembre 2026",
+     "r": "C{50 %} du capital racheté à la famille Bode-Wegmann, établissant une parité stricte avec l'État français.\n→ A{Mazzucato}, O{L'État entrepreneur} (D{2013}) : l'État intervient en capital patient pour garantir la souveraineté technologique et industrielle."
+    },
+    {
+     "q": "Projet financier initialement prévu pour KNDS avant l'entrée au capital de Berlin",
+     "r": "Une C{introduction en Bourse} (IPO) à Paris et Francfort, reportée sine die pour privilégier un contrôle régalien.\n→ A{Musgrave}, O{The Theory of Public Finance} (D{1959}) : la défense relève d'un bien collectif pur nécessitant la fonction d'allocation publique."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-esh-2",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/06/les-salaires-du-prive-ont-baisse-de-1-1-sur-un-an-en-prenant-en-compte-l-inflation_6807767_1656968.html",
+   "minutes": 3,
+   "titre": "Salaires et pouvoir d'achat en France : le salaire mensuel de base dans le privé recule de 1,1 % sur un an sous la pression de l'inflation",
+   "faits": "Selon les statistiques provisoires publiées le 6 novembre 2026 par la Dares, le service statistique du ministère du Travail, le pouvoir d'achat du salaire mensuel de base (SMB) des salariés du secteur privé en France a diminué de 1,1 % sur un an au troisième trimestre 2026 en euros constants. En données brutes nominales, l'indice du salaire de base a pourtant progressé de 1,9 % sur douze mois dans les entreprises de dix salariés ou plus. Toutefois, cette augmentation monétaire a été largement absorbée par la hausse des prix à la consommation hors tabac, qui a atteint 3,1 % sur la même période entre septembre 2025 et septembre 2026. Cette perte de pouvoir d'achat affecte l'ensemble des catégories socioprofessionnelles, avec un recul réel de 1,3 % pour les cadres et professions intermédiaires, de 1,2 % pour les ouvriers et de 0,8 % pour les employés. Sur le plan sectoriel, la construction et le secteur tertiaire enregistrent une contraction réelle de 1,2 %, contre un repli de 0,9 % dans l'industrie manufacturière. Ces résultats confirment l'essoufflement de la dynamique salariale alors que la modération des embauches et la fragilité des marges d'exploitation incitent les employeurs à la prudence.",
+   "enjeux": "Ce recul du salaire réel ravive les débats sur le **partage de la valeur ajoutée** et l'efficacité des mécanismes de négociation salariale dans un contexte d'inflation persistante. Alors que le Smic bénéficie d'une revalorisation automatique indexée sur les prix, les salaires négociés par branche ou en entreprise subissent des décalages temporels qui amputent temporairement le revenu disponible des ménages. Ce décrochage entre salaires nominaux et inflation met en évidence la désindexation formelle du travail depuis le tournant de la rigueur de 1983, empêchant la constitution d'une **boucle prix-salaires** classique mais pesant lourdement sur la **propension moyenne à consommer**. De plus, le tassement plus marqué pour les cadres et ouvriers que pour les employés accélère le phénomène de « smicardisation » de la structure salariale, où la hiérarchie des qualifications s'écrase autour du plancher légal. D'un point de vue keynésien, cette érosion du pouvoir d'achat affaiblit la **demande effective** intérieure et menace le principal moteur de la croissance économique française. Pour les entreprises, la modération salariale préserve la rentabilité financière à court terme, mais expose le marché du travail à des risques de démotivation et de turnover.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/B%C3%A2timent_%22Colbert%22_du_minist%C3%A8re_de_l%27%C3%89conomie%2C_des_Finances_et_de_la_Relance_02.jpg/1280px-B%C3%A2timent_%22Colbert%22_du_minist%C3%A8re_de_l%27%C3%89conomie%2C_des_Finances_et_de_la_Relance_02.jpg",
+    "alt": "Façade du bâtiment Colbert au ministère de l'Économie et des Finances à Bercy",
+    "credit": "Chabe01 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_%22Colbert%22_du_minist%C3%A8re_de_l%27%C3%89conomie%2C_des_Finances_et_de_la_Relance_02.jpg"
+   },
+   "programme": {
+    "module": "1 - Les fondements de l'économie et de la société",
+    "chapitre": "1.3 - Le marché du travail et les relations sociales"
+   },
+   "auteurs": [
+    {
+     "nom": "Nicholas Kaldor",
+     "ouvrage": "« Alternative Theories of Distribution »",
+     "annee": "1956",
+     "ref": "partage-valeur-ajoutee-kaldor",
+     "texte": "Kaldor montre que la répartition du revenu national entre profits et salaires dépend de l'effort d'investissement et reflète un **conflit de répartition** permanent entre apporteurs de capitaux et salariés. Lorsque les salaires réels reculent de 1,1 % face à une inflation de 3,1 %, les employeurs préservent leur part de profit en ne répercutant pas intégralement la hausse du coût de la vie. À mobiliser pour analyser la dynamique des salaires réels, les tensions sur le partage de la valeur ajoutée et le comportement d'épargne des ménages."
+    },
+    {
+     "nom": "George Akerlof et Janet Yellen",
+     "ouvrage": "« Efficiency Wage Models of the Labor Market »",
+     "annee": "1984",
+     "ref": "salaire-d-efficience",
+     "texte": "Akerlof et Yellen développent la théorie du **salaire d'efficience**, selon laquelle la productivité marginale et l'effort individuel augmentent avec le niveau de rémunération offert par la firme. Si les salaires réels diminuent de façon prolongée en période d'inflation, les travailleurs perçoivent cette baisse comme inique, ce qui détériore l'assiduité, la fidélité à l'entreprise et la motivation productive. À mobiliser dans tout sujet traitant de la fixation des salaires, du fonctionnement asymétrique du marché du travail et de la productivité."
+    }
+   ],
+   "sujets": [
+    "La modération salariale est-elle une condition nécessaire de la compétitivité d'une économie ?",
+    "Le niveau des salaires ne dépend-il que des forces du marché ?"
+   ],
+   "anki": [
+    {
+     "q": "Évolution en euros constants du salaire mensuel de base (SMB) du privé en France au T3 2026",
+     "r": "Recul réel de C{1,1 %}, malgré une hausse nominale de C{1,9 %}, sous l'effet d'une inflation à C{3,1 %}.\n→ A{Kaldor}, O{Alternative Theories of Distribution} (D{1956}) : l'inflation non compensée modifie le partage de la valeur ajoutée au détriment des salariés."
+    },
+    {
+     "q": "Catégories professionnelles enregistrant le plus fort recul salarial réel en France en 2026",
+     "r": "Les cadres et professions intermédiaires (C{-1,3 %}) et les ouvriers (C{-1,2 %}), accélérant le tassement de l'échelle salariale.\n→ A{Akerlof et Yellen}, O{Efficiency Wage Models} (D{1984}) : l'érosion du pouvoir d'achat menace l'effort et la productivité du travail."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-esh-3",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/06/en-italie-une-taxe-de-sortie-pour-les-grandes-fortunes_6807773_3234.html",
+   "minutes": 3,
+   "titre": "Fiscalité et mobilité du capital : l'Italie instaure une « exit tax » de 26 % sur les grandes fortunes pour freiner l'évasion fiscale",
+   "faits": "Le projet de loi de finances pour 2027 présenté par le gouvernement de Giorgia Meloni comporte une disposition fiscale inattendue instaurant une taxe de sortie (« exit tax ») ciblant les contribuables fortunés qui transfèrent leur résidence fiscale hors d'Italie. Prévu à l'article 17 du texte budgétaire et analysé le 6 novembre 2026 par Le Monde, ce dispositif applique un prélèvement de 26 % sur les plus-values latentes des portefeuilles financiers non encore réalisées au moment du départ de la Péninsule. Pour les détentions de crypto-actifs, le taux légal grimpe même jusqu'à 33 %. La taxe concerne les personnes physiques ayant résidé fiscalement en Italie pendant au moins six des dix années précédentes et dont les actifs financiers atteignent un seuil plancher de 800 000 euros. Cette mesure marque une inflexion doctrinale spectaculaire pour l'exécutif de droite, qui avait fait du pays un paradis pour riches expatriés grâce à une flat tax forfaitaire très attractive de 100 000 puis 200 000 euros par an sur les revenus étrangers. Devant l'émoi suscité auprès des banquiers privés et des investisseurs internationaux dénonçant un impôt sur la fortune déguisé, le ministère de l'Économie a ouvert la porte à des aménagements techniques avant le vote parlementaire.",
+   "enjeux": "Cette initiative italienne remet au centre du débat macroéconomique la question de la **concurrence fiscale** dommageable et de la mobilité spatiale des assiettes fiscales en union monétaire. Pendant des années, l'Italie a mené une politique de dumping fiscal agressif pour capter les grandes fortunes mondiales et les résidents non-domiciliés fuyant les réformes fiscales du Royaume-Uni. Toutefois, l'explosion du déficit public italien et les exigences de consolidation imposées par le **Pacte de stabilité européen** obligent Rome à trouver de nouvelles rentrées fiscales tout en affichant un souci d'**équité fiscale** face aux classes populaires. Cette taxe de sortie vise à neutraliser l'arbitrage fiscal opportuniste en imposant la valeur créée sur le territoire national avant que le capital ne s'évade vers des juridictions à basse fiscalité (Suisse, Dubaï, Monaco). Néanmoins, les partisans de l'économie de l'offre mettent en garde contre les effets pervers d'un tel prélèvement, susceptible de dissuader de façon préventive les investisseurs étrangers de s'établir en Italie. Ce dilemme illustre la difficulté des États souverains à taxer un capital liquide et mondialisé sans harmonisation fiscale contraignante à l'échelle européenne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/PalazzoChigi.jpeg/1280px-PalazzoChigi.jpeg",
+    "alt": "La façade du Palazzo Chigi à Rome, siège de la présidence du Conseil des ministres italien",
+    "credit": "Arepo / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:PalazzoChigi.jpeg"
+   },
+   "programme": {
+    "module": "4 - Déséquilibres, régulation et action publique",
+    "chapitre": "4.2 - Les politiques économiques"
+   },
+   "auteurs": [
+    {
+     "nom": "Arthur Laffer",
+     "ouvrage": "« An Equilibrium Approach to the Laffer Curve »",
+     "annee": "1974",
+     "ref": "courbe-de-laffer",
+     "texte": "Laffer soutient à travers sa fameuse **courbe de Laffer** que des taux marginaux d'imposition prohibitifs finissent par réduire l'assiette fiscale totale en incitant les agents à l'optimisation, à la fraude ou à l'expatriation. L'instauration d'un prélèvement de 26 % sur des gains non réalisés risque de précipiter le départ des capitaux avant l'entrée en vigueur de la loi et de détruire l'attractivité financière de l'Italie. À mobiliser pour critiquer la surtaxation des patrimoines mobiles et exposer les limites de la pression fiscale dans une économie ouverte."
+    },
+    {
+     "nom": "Thomas Piketty",
+     "ouvrage": "Le Capital au XXIe siècle",
+     "annee": "2013",
+     "ref": "fiscalite-du-capital-piketty",
+     "texte": "Piketty démontre que lorsque le taux de rendement du capital excède durablement le taux de croissance économique (**r > g**), les patrimoines hérités se concentrent de manière explosive, menaçant la cohésion démocratique. L'instauration d'une taxe sur les plus-values latentes et la fermeture des échappatoires fiscales sont des instruments indispensables pour imposer la richesse réelle accumulée et financer les biens publics. À mobiliser dans tout sujet sur la justice redistributive, la fiscalité du patrimoine et la lutte contre l'évasion fiscale internationale."
+    }
+   ],
+   "sujets": [
+    "La souveraineté fiscale des États est-elle soluble dans la mondialisation financière ?",
+    "Une fiscalité progressive du capital est-elle un obstacle à l'attractivité économique ?"
+   ],
+   "anki": [
+    {
+     "q": "Taux et seuil de l'exit tax sur les grandes fortunes proposés dans le budget italien 2027",
+     "r": "Prélèvement de C{26 %} sur les plus-values latentes d'actifs financiers supérieurs à C{800 000 euros} pour les résidents d'au moins 6 ans.\n→ A{Piketty}, O{Le Capital au XXIe siècle} (D{2013}) : indispensable pour enrayer l'optimisation fiscale et imposer la rente patrimoniale."
+    },
+    {
+     "q": "Risque économique mis en avant par les opposants à l'exit tax italienne",
+     "r": "La fuite préventive des investisseurs fortunés et l'érosion de l'attractivité territoriale de la Péninsule.\n→ A{Laffer}, O{An Equilibrium Approach} (D{1974}) : au-delà d'un seuil critique, la surtaxation détruit l'assiette imposable future."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/06/stephen-miller-chief-of-staff-trump",
+   "minutes": 3,
+   "titre": "Remaniement à la Maison-Blanche : Donald Trump nomme le faucon Stephen Miller comme nouveau secrétaire général après la défaite aux Midterms",
+   "faits": "Le 6 novembre 2026, Donald Trump a officialisé un remaniement majeur de son exécutif en nommant son conseiller historique et chef de cabinet adjoint Stephen Miller au poste de secrétaire général de la Maison-Blanche (White House chief of staff). Miller succède à Susie Wiles, qui avait été la première femme à occuper cette fonction stratégique et qui quitte ses fonctions gouvernementales pour prendre la direction de l'appareil politique partisan de Trump en vue de la présidentielle de 2028. Ce basculement au sommet de l'administration américaine intervient quelques jours après le lourd revers électoral essuyé par le Parti républicain lors des élections de mi-mandat du 3 novembre, qui ont vu les démocrates reprendre le contrôle du Sénat et réduire drastiquement la majorité conservatrice. Connu pour être le stratège idéologique le plus radical de l'entourage présidentiel et l'architecte des politiques migratoires de fermeté, Miller a immédiatement annoncé qu'il concentrerait les efforts de la Maison-Blanche sur l'intensification des décrets exécutifs et le contournement de l'obstruction parlementaire. Les leaders démocrates au Congrès ont aussitôt qualifié cette nomination de provocation politique qui rend tout compromis législatif bipartisan improbable.",
+   "enjeux": "Cette nomination confirme la tentation de la **présidence impériale** (*imperial presidency*) et le choix délibéré de la polarisation idéologique face à un **gouvernement divisé** (*divided government*). En plaçant un idéologue sans compromis à la tête de l'appareil exécutif, Donald Trump renonce à toute stratégie centriste de conciliation avec la nouvelle majorité sénatoriale démocrate menée par Chuck Schumer. Miller entend utiliser au maximum les pouvoirs unilatéraux conférés par les **décrets présidentiels** (*executive orders*) pour poursuivre les expulsions migratoires et démanteler les régulations fédérales sans passer par le vote du Congrès. Cette stratégie promet de multiplier les recours judiciaires et les conflits constitutionnels devant une Cour suprême de plus en plus sollicitée pour arbitrer la séparation des pouvoirs. Pour le système politique américain, ce durcissement consacre la disparition de la culture du compromis institutionnel au profit d'une guerre de tranchées permanente entre les deux extrémités de Pennsylvania Avenue.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/A_rainbow_is_seen_over_the_North_Portico_of_the_White_House%2C_Saturday%2C_May_11%2C_2024.jpg/1280px-A_rainbow_is_seen_over_the_North_Portico_of_the_White_House%2C_Saturday%2C_May_11%2C_2024.jpg",
+    "alt": "La façade du portique nord de la Maison-Blanche à Washington",
+    "credit": "The White House / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A_rainbow_is_seen_over_the_North_Portico_of_the_White_House,_Saturday,_May_11,_2024.jpg"
+   },
+   "vo": {
+    "titre": "White House shake-up: Trump promotes hardliner Stephen Miller to chief of staff following midterm election defeat",
+    "faits": "On 6 November 2026, Donald Trump confirmed a major executive shake-up by promoting his longtime senior adviser Stephen Miller to White House chief of staff. Miller replaces Susie Wiles, the first woman to hold the crucial gatekeeper post, who is stepping down to steer the former president’s political operation ahead of the 2028 cycle. The abrupt cabinet restructuring follows heavy Republican losses in the 3 November midterm elections, where Democrats recaptured the Senate majority and narrowed the House margin. Renowned as the chief architect of Trump’s hardline immigration doctrines and nationalist agenda, Miller signaled that the administration would aggressively double down on unilateral executive actions. The appointment reflects Trump’s refusal to moderate his governance style in the face of widespread voter repudiation at the ballot box. Democratic leaders in Congress swiftly denounced the move as an aggressive escalation that extinguishes any prospect of bipartisan compromise on Capitol Hill.",
+    "enjeux": "Miller’s elevation underscores the entrenchment of the imperial presidency and the politics of confrontation in an era of acute divided government. By placing an uncompromising ideological warrior in command of the West Wing, Trump signals that executive decrees will supersede legislative negotiation with the newly empowered Democratic Senate. The White House is expected to deploy executive orders and administrative restructuring to pursue mass deportations while bypassing congressional funding deadlocks. This confrontational playbook will inevitably trigger protracted constitutional battles and legal challenges before federal appellate courts and the Supreme Court. For American democratic institutions, the appointment confirms that institutional norms and bipartisan governance have been decisively abandoned in favour of permanent executive conflict."
+   },
+   "vocab": [
+    [
+     "White House chief of staff",
+     "le secrétaire général de la Maison-Blanche (chef de cabinet)",
+     "The White House chief of staff controls access to the Oval Office and shapes executive strategy."
+    ],
+    [
+     "divided government",
+     "la cohabitation institutionnelle (présidence et Congrès de partis opposés)",
+     "Divided government frequently results in legislative gridlock and partisan warfare."
+    ],
+    [
+     "an executive order",
+     "un décret présidentiel unilatéral",
+     "The president bypassed congressional opposition by issuing a sweeping executive order."
+    ],
+    [
+     "the imperial presidency",
+     "la présidence impériale (extension des pouvoirs présidentiels unilatéraux)",
+     "Scholars argue that the imperial presidency undermines constitutional checks and balances."
+    ],
+    [
+     "midterm elections",
+     "les élections législatives de mi-mandat",
+     "The midterm elections dramatically altered the balance of power on Capitol Hill."
+    ],
+    [
+     "bipartisan compromise",
+     "le compromis transpartisan entre démocrates et républicains",
+     "Deep ideological polarization makes genuine bipartisan compromise virtually impossible."
+    ]
+   ],
+   "sujets": [
+    "Does divided government in the United States inevitably produce systemic political gridlock?",
+    "To what extent has the growth of presidential executive power eroded the constitutional authority of Congress?"
+   ],
+   "anki": [
+    {
+     "q": "White House staff reshuffle announced by Donald Trump in November 2026",
+     "r": "Promotion of C{Stephen Miller} to White House chief of staff, replacing C{Susie Wiles} following midterm losses.\n→ Signals an aggressive shift toward unilateral executive governance and confrontational politics."
+    },
+    {
+     "q": "Primary political consequence of the 2026 US midterm elections for the White House",
+     "r": "Democrats recaptured the C{Senate}, forcing the administration into divided government.\n→ Heightens constitutional friction between congressional oversight and presidential executive decrees."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+   "minutes": 3,
+   "titre": "Marchés financiers mondiaux : plongeon boursier sur l'intelligence artificielle après la victoire démocrate aux Midterms",
+   "faits": "Le 6 novembre 2026, les places boursières mondiales ont essuyé de lourdes pertes, entraînées par la chute brutale des géants américains de la technologie et des valeurs liées à l'intelligence artificielle. À Wall Street, l'indice Nasdaq à forte composante technologique a plongé de 5,5 % en une seule séance, signant sa pire performance quotidienne depuis dix-neuf mois et effaçant des milliers de milliards de dollars de capitalisation boursière. Cette vague de ventes massives s'est rapidement propagée aux marchés asiatiques, l'indice sud-coréen Kospi et le Nikkei japonais cédant plus de 6 %, tandis que les bourses européennes de Londres, Francfort et Paris clôturaient en net repli. Ce vent de panique a été déclenché par les résultats des élections de mi-mandat américaines, où la victoire des démocrates fait craindre un durcissement drastique des régulations antitrust et un encadrement strict des investissements d'infrastructures. De plus, les récents moratoires locaux votés contre les centres de données et les coûts d'électricité prohibitifs alimentent le scepticisme des investisseurs quant à la rentabilité immédiate des investissements massifs consentis par Microsoft, Nvidia ou Meta. Plusieurs analystes de premier plan avertissent que cette correction pourrait marquer le début d'un éclatement durable de la bulle financière de l'IA.",
+   "enjeux": "Cette déroute boursière met en relief la dépendance vertigineuse des marchés de capitaux mondiaux envers une poignée de méga-capitalisations technologiques (les « Sept Magnifiques »). Lorsque la valorisation des géants numériques repose sur des anticipations de croissance exponentielle, le moindre signal de ralentissement réglementaire ou de contrainte énergétique peut provoquer un retournement brutal des **anticipations autoréalisatrices**. L'arrivée d'une majorité démocrate hostile aux monopoles de la Silicon Valley et favorable à la protection de la vie privée remet en cause le modèle économique fondé sur l'absence de régulation fédérale. Par ailleurs, les investisseurs institutionnels s'inquiètent du décalage persistant entre des dépenses en capital colossales (*capex*) dans les puces et les data centers et des flux de trésorerie opérationnels encore marginaux générés par les usages réels de l'IA générative. Cet épisode illustre la fragilité des valorisations boursières face au risque d'une **bulle spéculative** alimentée par des récits d'enthousiasme technologique. La contagion mondiale confirme également que la santé des marchés actions européens et asiatiques reste étroitement indexée sur la volatilité de la tech américaine.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/15_Broad_Street_August_2017_02.jpg/1280px-15_Broad_Street_August_2017_02.jpg",
+    "alt": "La façade néoclassique et les colonnes de la Bourse de New York à Wall Street",
+    "credit": "Arild Vågen / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:15_Broad_Street_August_2017_02.jpg"
+   },
+   "vo": {
+    "titre": "Global stock market sell-off: shares plunge amid AI slowdown fears following Democrats’ midterm victory",
+    "faits": "On 6 November 2026, global financial markets endured a severe downturn as an intense sell-off in American technology giants triggered shockwaves across international bourses. On Wall Street, the tech-heavy Nasdaq tumbled 5.5% in its sharpest single-day rout in nineteen months, wiping out trillions of dollars in paper wealth and entering correction territory. The panic rapidly infected Asian exchanges, where South Korea’s Kospi and Tokyo’s Nikkei plummeted by more than 6%, while London’s FTSE 100 and European indices recorded steep declines. Market turbulence erupted in the immediate wake of the US midterm elections, where the Democratic recapture of Congress stoked investor anxiety over impending antitrust regulation and federal scrutiny of AI hyperscalers. Concurrently, grassroots ballot rejections of energy-intensive datacenters across several US states sparked grave doubts regarding the commercial feasibility of multi-billion-dollar computational investments. Prominent market strategists cautioned that the sell-off may herald the overdue deflation of an overleveraged technological bubble.",
+    "enjeux": "The market plunge highlights the precarious over-concentration of global equity indices in a tiny handful of Silicon Valley megacaps. When corporate market capitalisations are priced for unblemished exponential growth, political disruptions and physical infrastructure bottlenecks can abruptly shatter investor sentiment. The prospect of an aggressive Democratic Senate keen to enforce antitrust breakups and scrutinise tech monopolies undermines the laissez-faire assumptions that previously underpinned soaring valuations. Furthermore, institutional asset managers are confronting the uncomfortable divergence between colossal capital expenditures on data hubs and the modest monetisation of generative AI tools. The episode exemplifies the classical dynamics of speculative bubbles, where technological exuberance detaches asset prices from fundamental underlying revenue streams. Moreover, the worldwide market contagion demonstrates how foreign exchanges remain vulnerable to abrupt liquidity shocks originating on Wall Street."
+   },
+   "vocab": [
+    [
+     "a market correction",
+     "une correction boursière (baisse d'au moins 10 % par rapport au pic)",
+     "Tech stocks entered a sharp market correction following disappointing revenue forecasts."
+    ],
+    [
+     "a speculative bubble",
+     "une bulle spéculative",
+     "Economists warned that artificial intelligence had spawned a classic speculative bubble."
+    ],
+    [
+     "capital expenditure (capex)",
+     "les dépenses d'investissement en capital",
+     "Hyperscalers committed massive capital expenditure to secure semiconductors and energy supplies."
+    ],
+    [
+     "antitrust scrutiny",
+     "la surveillance / régulation antitrust et de la concurrence",
+     "Tech monopolies face intensifying antitrust scrutiny from congressional regulators."
+    ],
+    [
+     "market contagion",
+     "la contagion boursière / financière internationale",
+     "Panic on Wall Street sparked immediate market contagion across Asian trading floors."
+    ],
+    [
+     "price-to-earnings ratio",
+     "le ratio cours sur bénéfices (indicateur de valorisation)",
+     "Extravagant price-to-earnings ratios left technology companies highly vulnerable to interest rate shifts."
+    ]
+   ],
+   "sujets": [
+    "Are modern financial markets excessively dependent on the performance of a handful of tech conglomerates?",
+    "Can state regulation prevent the formation of technological speculative bubbles without stifling innovation?"
+   ],
+   "anki": [
+    {
+     "q": "Scale of the Wall Street market sell-off triggered in November 2026",
+     "r": "The Nasdaq plunged C{5.5 %}, suffering its worst single-day drop in C{19 months} and wiping out trillions in value.\n→ Triggered by fears of Democratic antitrust regulation and local bans on AI datacenters."
+    },
+    {
+     "q": "Underlying vulnerability of the global equity market exposed by the AI tech rout",
+     "r": "Extreme index concentration in mega-cap tech stocks and widening gap between capex and real monetization.\n→ Illustrates how speculative bubbles burst when political and infrastructure constraints appear."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/law/2026/nov/06/uk-employers-forced-put-salaries-job-adverts-andy-burnham",
+   "minutes": 3,
+   "titre": "Droits des travailleurs au Royaume-Uni : le gouvernement Burnham rend obligatoire l'affichage des salaires sur les offres d'emploi",
+   "faits": "Le 6 novembre 2026, le Premier ministre britannique Andy Burnham a annoncé une législation majeure obligeant tous les employeurs du Royaume-Uni à mentionner explicitement les salaires ou fourchettes de rémunération sur l'ensemble de leurs offres d'emploi. Baptisé « say what you pay », ce texte de loi vise à mettre un terme définitif à la pratique très répandue consistant à publier des annonces vagues promettant un « salaire compétitif » sans dévoiler le montant réel avant la fin du processus de recrutement. Soutenue par la centrale syndicale TUC (Trades Union Congress) et la ministre à l'Égalité Bridget Phillipson, cette mesure s'inspire de dispositions similaires adoptées dans plusieurs États américains et au sein de l'Union européenne. Les partisans de la réforme font valoir que l'opacité salariale pénalise en premier lieu les femmes et les jeunes entrant sur le marché du travail, qui négocient à l'aveugle et subissent la perpétuation d'écarts de rémunération historiques. Le texte interdira également aux recruteurs d'interroger les candidats sur leurs antécédents salariaux lors des entretiens d'embauche, empêchant ainsi la reproduction des inégalités d'un emploi à l'autre. Alors que le projet de loi doit être soumis au Parlement dans les prochaines semaines, le gouvernement a invité les entreprises à appliquer ces critères de transparence de manière volontaire dès à présent.",
+   "enjeux": "Cette mesure marque une réorientation substantielle de la **politique du marché du travail** britannique vers une plus grande régulation des rapports de force en entreprise sous l'égide du Parti travailliste. Depuis l'ère thatchérienne et la dérégulation des années 1980, le marché de l'emploi au Royaume-Uni se caractérisait par une très grande flexibilité contractuelle et une asymétrie d'information structurelle au détriment des salariés. En imposant la **transparence salariale**, le gouvernement Burnham entend s'attaquer aux causes profondes de l'**écart de rémunération entre les genres** (*gender pay gap*) et des discriminations à l'embauche sans alourdir directement la dépense publique. L'interdiction de demander l'historique de salaire (*salary history ban*) brise la dépendance de sentier qui condamnait les femmes ayant interrompu leur carrière à accumuler des retards salariaux systématiques. En revanche, certaines organisations patronales comme la Confederation of British Industry (CBI) expriment des réserves, craignant une rigidification du recrutement et une surenchère salariale entre entreprises concurrentes dans un contexte de pénurie de main-d'œuvre qualifiée. Ce débat démontre comment la correction des défaillances de marché par la transparence informationnelle constitue un axe central du réformisme social britannique contemporain.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/City_from_One_Bishops_Square.jpg/1280px-City_from_One_Bishops_Square.jpg",
+    "alt": "Panorama des gratte-ciel du quartier financier de la City de Londres",
+    "credit": "Colin / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:City_from_One_Bishops_Square.jpg"
+   },
+   "vo": {
+    "titre": "Workers’ rights in Britain: Burnham government mandates salary transparency on all job advertisements",
+    "faits": "On 6 November 2026, Prime Minister Andy Burnham announced a landmark legislative drive to legally compel all British employers to disclose salaries or clear pay ranges on every job advertisement. Known as the ‘say what you pay’ reform, the proposed bill seeks to eliminate the widespread corporate habit of listing ambiguous ‘competitive salaries’ that force applicants to navigate interviews without baseline financial transparency. Backed by the Trades Union Congress (TUC) and Equalities Minister Bridget Phillipson, the policy mirrors successful pay transparency directives enacted across the European Union and several US states. Ministers emphasised that pay opacity disproportionately disadvantages young graduates and women, who are pressured into negotiating blindly and frequently inherit historic compensation gaps. Crucially, the forthcoming bill will also prohibit hiring managers from asking candidates about their prior salary history, preventing past wage disparities from following workers into new roles. While statutory legislation is slated for parliamentary introduction, ministers urged private enterprises to adopt voluntary compliance immediately.",
+    "enjeux": "The reform signals a fundamental pivot in British labour market governance towards structural empowerment of workers under the Labour administration. Decades of post-Thatcherite deregulation fostered highly flexible employment practices characterised by pronounced information asymmetry between employers and prospective staff. By mandating statutory wage transparency, the government aims to narrow Britain's persistent gender pay gap and mitigate ethnic wage penalties without expanding public fiscal commitments. Outlawing salary history inquiries effectively breaks the cumulative scarring effect that penalises women returning from parental leave or workers from lower socio-economic backgrounds. Conversely, corporate lobby groups including the Confederation of British Industry expressed mild trepidation, warning of upward wage pressures and recruitment frictions in skill-short sectors. The policy demonstrates how correcting market failures through informational symmetry forms the cornerstone of modern British centre-left economic statecraft."
+   },
+   "vocab": [
+    [
+     "pay transparency",
+     "la transparence salariale (publication obligatoire des rémunérations)",
+     "Statutory pay transparency empowers applicants to negotiate fair wages."
+    ],
+    [
+     "the gender pay gap",
+     "l'écart de rémunération entre les hommes et les femmes",
+     "Governments promote salary disclosure to tackle the persistent gender pay gap."
+    ],
+    [
+     "a salary history ban",
+     "l'interdiction de demander l'historique des salaires passés",
+     "A salary history ban prevents previous wage discrimination from persisting across careers."
+    ],
+    [
+     "information asymmetry",
+     "l'asymétrie d'information (déséquilibre de connaissances entre parties)",
+     "Information asymmetry heavily favours employers over individual jobseekers."
+    ],
+    [
+     "a job advertisement / listing",
+     "une offre d'emploi",
+     "Listing opaque salaries on a job advertisement will soon be unlawful."
+    ],
+    [
+     "labour market regulation",
+     "la régulation du marché du travail",
+     "Labour market regulation aims to protect vulnerable workers from exploitation."
+    ]
+   ],
+   "sujets": [
+    "To what extent can statutory pay transparency eradicate systemic gender and racial inequalities in the British labour market?",
+    "Is state regulation of hiring practices compatible with the dynamism of a flexible market economy?"
+   ],
+   "anki": [
+    {
+     "q": "Key requirement of the UK ‘say what you pay’ legislation introduced in November 2026",
+     "r": "Employers must publish clear salary bands on job ads and are banned from asking for past salary history.\n→ Corrects information asymmetry and helps close the gender pay gap."
+    },
+    {
+     "q": "Economic rationale behind banning prior salary history inquiries during job interviews",
+     "r": "Prevents historic wage inequalities and career breaks from perpetually depressing future earnings.\n→ Promotes labour market mobility and fair market wage discovery."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-06/hacienda-actualizara-la-deduccion-del-salario-minimo-hasta-los-1030-euros-para-que-sus-perceptores-no-paguen-irpf.html",
+   "minutes": 3,
+   "titre": "Fiscalité et travail en Espagne : le ministère du Budget relève la déduction fiscale du salaire minimum pour exonérer les bas salaires d'impôt",
+   "faits": "Le ministère des Finances espagnol (Hacienda), dirigé par María Jesús Montero, a annoncé le 6 novembre 2026 qu'il actualiserait la déduction fiscale sur le salaire minimum interprofessionnel (SMI) pour la porter jusqu'à 1 030 euros dans le cadre de la prochaine campagne de l'impôt sur le revenu (IRPF). Cette décision fait suite à la proposition du ministère du Travail de Yolanda Díaz de revaloriser le salaire minimum de 5,3 % en 2027 pour atteindre 18 004 euros bruts annuels, soit 1 286 euros par mois répartis sur quatorze versements. Sans cet ajustement fiscal, la progression du salaire minimum aurait fait franchir aux travailleurs payés au plancher légal le seuil d'exemption fiscale, les contraignant à payer l'IRPF et réduisant ainsi mécaniquement leur gain net en fin de mois. Le ministère du Budget veille ainsi à ce qu'un salarié célibataire et sans enfant rémunéré au salaire minimum ne subisse aucun prélèvement fiscal à la source. Cette mesure technique s'inscrit dans un arbitrage récurrent au sein de la coalition gouvernementale entre la volonté d'élever les rémunérations populaires et la préservation de la progressivité de l'impôt. Selon les estimations de l'administration fiscale, cette neutralisation fiscale bénéficiera directement à plus de 2,5 millions de travailleurs à bas revenus en Espagne.",
+   "enjeux": "Cette mesure fiscale touche au cœur des mécanismes de **redistribution des revenus** et de lutte contre la **trappe à la pauvreté** (*trampa de la pobreza*) en Espagne. Lorsque le salaire minimum progresse plus vite que les tranches du barème de l'impôt sur le revenu, le phénomène de **progressivité à froid** (*fiscal drag*) conduit l'État à ponctionner une part des gains salariaux obtenus pour compenser l'inflation. En relevant la déduction fiscale à 1 030 euros, le gouvernement protège le pouvoir d'achat net des travailleurs les plus modestes tout en maintenant l'incitation financière à l'emploi. Toutefois, ce mécanisme de déduction dégressive engendre un effet de seuil important pour les salaires situés immédiatement au-dessus du minimum légal, qui subissent un taux marginal effectif d'imposition élevé. De plus, cette mesure prive les caisses publiques de rentrées fiscales substantielles alors que l'Espagne fait l'objet d'une stricte surveillance budgétaire par la Commission européenne au titre des nouvelles règles du Pacte de stabilité. L'arbitrage entre équité sociale et consolidation budgétaire s'impose ainsi comme l'un des thèmes majeurs de la campagne électorale pour les législatives du 29 novembre.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Real_Casa_de_la_Aduana_%28Madrid%29_03.jpg/1280px-Real_Casa_de_la_Aduana_%28Madrid%29_03.jpg",
+    "alt": "La Real Casa de la Aduana sur la rue d'Alcalá à Madrid, siège du ministère des Finances espagnol",
+    "credit": "Luis García / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Real_Casa_de_la_Aduana_(Madrid)_03.jpg"
+   },
+   "vo": {
+    "titre": "Política fiscal en España: Hacienda elevará la deducción del salario mínimo a 1.030 euros para blindar a las rentas bajas del IRPF",
+    "faits": "El Ministerio de Hacienda anunció el 6 de noviembre de 2026 una actualización extraordinaria de la deducción fiscal para las rentas bajas, elevando el incentivo hasta unos 1.030 euros en el IRPF. Esta reforma tributaria acompaña la propuesta del Ministerio de Trabajo liderado por Yolanda Díaz para incrementar el Salario Mínimo Interprofesional (SMI) un 5,3 % en 2027, hasta situarlo en 18.004 euros anuales (1.286 euros mensuales en 14 pagas). Sin esta compensación impositiva, la subida nominal del salario mínimo habría empujado a miles de trabajadores a tributar por rendimientos del trabajo, erosionando de forma inmediata su ganancia neta. Gracias al ajuste diseñado por la vicepresidenta María Jesús Montero, un asalariado sin cargas familiares sujeto al SMI quedará completamente exento de retenciones en nómina. La iniciativa resuelve las tensiones internas en el seno del Ejecutivo de coalición sobre la compatibilidad entre política salarial expansiva y recaudación tributaria. El Gobierno calcula que este blindaje fiscal beneficiará de forma directa a más de 2,5 millones de trabajadores con los sueldos más bajos del país.",
+    "enjeux": "El ajuste impositivo aborda el desafío estructural de evitar la trampa de la pobreza y mitigar la progresividad en frío provocada por la inflación en el sistema fiscal español. Si las escalas y deducciones no se indexan a las revisiones del salario mínimo, la Administración confisca parte del incremento retributivo mediante saltos de tramo artificiales. La ampliación de la deducción salvaguarda el poder adquisitivo efectivo de los sectores más vulnerables sin distorsionar el incentivo a la participación en el mercado laboral formal. No obstante, la articulación de estas deducciones decrecientes genera elevados tipos marginales efectivos para los asalariados que perciben nóminas inmediatamente superiores al salario mínimo legal. Asimismo, la renuncia a estos ingresos fiscales tensa los márgenes presupuestarios en pleno restablecimiento de las reglas fiscales comunitarias por parte de Bruselas. La controversia sitúa la justicia distributiva y la reforma integral del IRPF en el centro neurálgico del debate electoral de cara al 29 de noviembre."
+   },
+   "vocab": [
+    [
+     "el Salario Mínimo Interprofesional (SMI)",
+     "le salaire minimum légal en Espagne",
+     "El Gobierno pactó una subida del SMI para aproximarlo al sesenta por ciento del salario medio."
+    ],
+    [
+     "el Impuesto sobre la Renta de las Personas Físicas (IRPF)",
+     "l'impôt sur le revenu des personnes physiques",
+     "Hacienda adapta las retenciones del IRPF para evitar saltos de tramo impositivos."
+    ],
+    [
+     "la trampa de la pobreza",
+     "la trappe à la pauvreté (perte d'aides ou hausse d'impôt dissuadant l'effort)",
+     "Un salto fiscal desmedido sobre salarios modestos puede alimentar la trampa de la pobreza."
+    ],
+    [
+     "la progresividad en frío (fiscal drag)",
+     "la progressivité à froid (hausse d'impôt réelle due à l'inflation sans ajustement du barème)",
+     "La falta de deflactación de la tarifa del impuesto agrava la progresividad en frío."
+    ],
+    [
+     "la retención en nómina",
+     "le prélèvement à la source sur le bulletin de salaire",
+     "Los perceptores del salario base quedarán libres de retención en nómina."
+    ],
+    [
+     "el tipo marginal efectivo",
+     "le taux marginal effectif d'imposition",
+     "La desaparición brusca de las deducciones dispara el tipo marginal efectivo de los trabajadores."
+    ]
+   ],
+   "sujets": [
+    "¿Es posible garantizar la justicia distributiva sin comprometer la disciplina presupuestaria en el modelo social europeo?",
+    "¿Constituye la subida sistemática del salario mínimo el mecanismo más eficaz para combatir la desigualdad laboral en España?"
+   ],
+   "anki": [
+    {
+     "q": "Medida fiscal adoptada por Hacienda ante la subida del SMI español para 2027",
+     "r": "Actualización de la deducción por rendimientos del trabajo hasta C{1.030 euros} para blindar el SMI del IRPF.\n→ Evita la progresividad en frío y garantiza que los salarios mínimos no sufran retenciones fiscales."
+    },
+    {
+     "q": "Propuesta de cuantía anual del Salario Mínimo Interprofesional (SMI) en España para 2027",
+     "r": "C{18.004 euros} anuales (C{1.286 euros} mensuales en 14 pagas), con un incremento propuesto del C{5,3 %}.\n→ Beneficia de forma directa a más de C{2,5 millones de trabajadores} precarios."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-espagnol-2",
+   "matiere": "espagnol",
+   "source": "Clarín",
+   "url": "https://www.clarin.com/economia/octubre-acentuo-ajuste-gasto-publico-primario-perdio-inflacion-ano-va-32-abajo_0_NeGZwWyAhd.html",
+   "minutes": 3,
+   "titre": "Austérité en Argentine : le gouvernement de Javier Milei intensifie les coupes dans les dépenses publiques primaires",
+   "faits": "Selon un rapport économique de l'Institut argentin d'analyse fiscale (IARAF) relayé le 6 novembre 2026 par Clarín, les dépenses publiques primaires de l'administration nationale argentine ont accentué leur repli en termes réels au mois d'octobre 2026. Mesuré sur base caisse (les dépenses effectivement payées par le Trésor), le recul réel atteint 9,7 % sur un an, tandis que les dépenses engagées (base d'engagement) affichent une baisse de 5,4 % par rapport à octobre 2025. Sur les dix premiers mois de l'année 2026, l'austérité budgétaire imposée par le président Javier Milei se traduit par une chute historique du niveau global des dépenses publiques de l'ordre de 32 % en monnaie constante par rapport aux moyennes historiques antérieures. Le coup de rabot frappe de manière particulièrement brutale les transferts financiers aux provinces, en baisse de plus de 55 % en termes réels, ainsi que les subventions aux entreprises publiques et fonds fiduciaires (-26,4 %) et les achats de biens et services de fonctionnement de l'État (-10,1 %). Seules les pensions de retraite (+2,2 %) et les transferts aux universités ont enregistré un timide rebond mensuel après de fortes mobilisations sociales. Cette compression draconienne des dépenses publiques permet au gouvernement libertarien de maintenir l'équilibre financier et d'afficher un excédent budgétaire primaire.",
+   "enjeux": "Cette politique d'austérité radicale matérialise l'application stricte du dogme du **déficit zéro** (*déficit cero*) promu par Javier Milei comme unique remède contre l'**hyperinflation** en Argentine. En coupant drastiquement les dépenses publiques sans recourir à l'émission monétaire de la Banque centrale, l'exécutif a réussi à ralentir la hausse des prix au prix d'une profonde récession économique. Cependant, la réduction drastique des **transferts aux provinces** asphyxie les budgets des gouverneurs régionaux et menace le financement de services publics essentiels comme la santé, l'éducation et la sécurité. Ce retrait massif de l'État fédéral alimente les tensions politiques au Parlement et fragilise le pacte fédéral argentin alors que les gouverneurs réclament des compensations fiscales. De plus, la chute du pouvoir d'achat et la paralysie des chantiers d'infrastructure publique (*obra pública*) pèsent lourdement sur l'activité du secteur privé et la cohésion sociale. Le pari économique de Milei repose sur l'hypothèse que la baisse rapide de l'inflation et la dérégulation des marchés déclencheront un afflux massif d'investissements privés pour relayer la dépense publique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Argentina_-_Buenos_Aires_039_-_Casa_Rosada_%26_the_Plaza_de_Mayo_%286831882032%29.jpg/1280px-Argentina_-_Buenos_Aires_039_-_Casa_Rosada_%26_the_Plaza_de_Mayo_%286831882032%29.jpg",
+    "alt": "La Casa Rosada et la Plaza de Mayo à Buenos Aires",
+    "credit": "McKay Savage / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Argentina_-_Buenos_Aires_039_-_Casa_Rosada_%26_the_Plaza_de_Mayo_(6831882032).jpg"
+   },
+   "vo": {
+    "titre": "Ajuste fiscal en Argentina: el Gobierno de Javier Milei acentúa el recorte del gasto público primario en octubre",
+    "faits": "Según un informe del Instituto Argentino de Análisis Fiscal (IARAF) publicado el 6 de noviembre de 2026 por Clarín, el gasto público primario de la Administración Nacional profundizó su contracción real en octubre. Medido en base caja –los pagos efectivamente ejecutados–, el desembolso estatal registró una caída real interanual del 9,7 %, acumulando en los diez primeros meses del año una severa reducción frente a los promedios históricos. La política de disciplina estricta impulsada por Javier Milei concentró el mayor recorte en las transferencias corrientes y de capital hacia las provincias, con caídas superiores al 55 % en términos reales. Las transferencias a empresas públicas y fondos fiduciarios retrocedieron un 26,4 %, mientras que los gastos de funcionamiento estatal mermaron un 10,1 %. Únicamente las jubilaciones y las partidas a universidades experimentaron ligeros alivios puntuales tras meses de masivas movilizaciones ciudadanas. Esta poda presupuestaria garantiza al Ejecutivo libertario la continuidad del superávit fiscal financiero mensual prometido a los mercados internacionales.",
+    "enjeux": "El ajuste presupuestario refleja la ejecución inflexible del dogma del déficit cero como eje ordenador de la estabilización macroeconómica en Argentina. Al suprimir por completo el financiamiento monetario del déficit por parte del Banco Central, la administración libertaria ha contenido la espiral inflacionaria a costa de deprimir la demanda interna y la actividad fabril. No obstante, el estrangulamiento financiero de las transferencias federales amenaza la viabilidad operativa de las provincias y tensa las relaciones con los mandatarios regionales. La suspensión de la obra pública y la pérdida acumulada de ingresos reales de las clases trabajadoras condicionan la sostenibilidad social del programa económico. La estrategia oficial confía en que la rápida desinflación y la desregulación sectorial desaten un ciclo inversor privado capaz de reactivar el empleo productivo. El dilema central reside en determinar si la sociedad argentina tolerará el coste social del ajuste antes de percibir los dividendos de la recuperación."
+   },
+   "vocab": [
+    [
+     "el gasto público primario",
+     "les dépenses publiques primaires (hors charge de la dette)",
+     "El Gobierno redujo el gasto público primario para alcanzar el equilibrio financiero."
+    ],
+    [
+     "el déficit cero",
+     "le déficit zéro / l'équilibre budgétaire strict",
+     "El principio del déficit cero guía la política económica del presidente libertario."
+    ],
+    [
+     "las transferencias a las provincias",
+     "les transferts budgétaires de l'État fédéral aux provinces",
+     "El recorte de transferencias a las provincias tensa el pacto federal argentino."
+    ],
+    [
+     "la base caja",
+     "la comptabilité de caisse (dépenses effectivement décaissées)",
+     "El ajuste medido en base caja refleja los pagos efectivamente abonados por el Tesoro."
+    ],
+    [
+     "la desinflación",
+     "la désinflation (ralentissement du rythme de hausse des prix)",
+     "El Ejecutivo confía en que la desinflación restaurará la estabilidad económica."
+    ],
+    [
+     "el superávit fiscal",
+     "l'excédent budgétaire / fiscal",
+     "El ministro de Economía celebró varios meses consecutivos de superávit fiscal."
+    ]
+   ],
+   "sujets": [
+    "¿Puede una política de austeridad presupuestaria drástica lograr la estabilidad económica sin destruir el tejido social?",
+    "¿Hasta qué punto el equilibrio fiscal depende de la cooperación entre el poder central y los gobiernos regionales en América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Magnitud de la caída del gasto público primario en Argentina en octubre de 2026 (base caja)",
+     "r": "Contracción real interanual del C{9,7 %}, profundizando el ajuste acumulado del gasto estatal en el año.\n→ El dogma del déficit cero suprime la emisión monetaria para frenar la espiral inflacionaria."
+    },
+    {
+     "q": "Partida presupuestaria que sufrió el mayor ajuste fiscal en Argentina bajo el plan de Milei",
+     "r": "Las transferencias discrecionales a las provincias, con caídas reales superiores al C{55 %}.\n→ Provoca graves tensiones políticas con los gobernadores y paraliza la inversión en servicios locales."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/espana/2026-11-06/la-cumbre-iberoamericana-garantiza-su-continuidad-a-pesar-de-la-ausencia-de-la-mayoria-de-lideres-en-madrid.html",
+   "minutes": 3,
+   "titre": "Diplomatie régionale : le Sommet ibéro-américain de Madrid assure sa survie malgré l'absence de la majorité des chefs d'État",
+   "faits": "Le 6 novembre 2026, la trentième Conférence ibéro-américaine organisée à Madrid s'est clôturée par l'adoption d'une déclaration consensuelle et l'approbation de cinq résultats tangibles de coopération, garantissant la survie de ce forum multilatéral historique. Présidé conjointement par le roi Felipe VI et le chef du gouvernement espagnol Pedro Sánchez, le sommet a néanmoins souffert de la désaffection politique d'une large majorité des dirigeants latino-américains, seuls dix chefs d'État et de gouvernement ayant fait le déplacement en Espagne. Les absences remarquées des présidents du Brésil, du Mexique, de Colombie et d'Argentine ont témoigné des profondes fractures idéologiques et des contentieux diplomatiques qui paralysent le dialogue entre Madrid et plusieurs capitales latino-américaines. Malgré ces tensions, la réunion ministérielle a officialisé le passage de témoin du secrétariat pro tempore à la République du Honduras pour la période 2026-2028. Le président hondurien Nasry Asfura, présent à Madrid, a accepté la mission de coordonner les travaux régionaux en vue du trente-et-unième sommet prévu sur le sol hondurien en 2028. L'Espagne a réaffirmé son engagement à préserver cet espace de concertation privilégié qui réunit vingt-deux pays partageant une langue et un héritage historique communs.",
+   "enjeux": "Cette clôture en demi-teinte met en lumière la crise d'identité du **multilatéralisme ibéro-américain** face à la montée de la **polarisation politique** et des rivalités géopolitiques dans l'hémisphère. Créée en 1991 à Guadalajara pour institutionnaliser les liens entre l'Espagne, le Portugal et les nations d'Amérique latine, la communauté ibéro-américaine peine à trouver un consensus sur les questions démocratiques, les droits humains et le commerce international. Les différends mémoriels et les clivages idéologiques entre régimes autoritaires, gouvernements progressistes et exécutifs libertariens ont relégué au second plan les projets d'intégration régionale. Pour la diplomatie espagnole, le maintien formel de ce cadre multilatéral est vital pour conforter son statut de **passerelle stratégique** entre l'Union européenne et l'Amérique latine. Néanmoins, l'émergence d'alliances alternatives (BRICS+, CELAC) et l'influence économique grandissante de la Chine réduisent l'attractivité du modèle ibéro-américain traditionnel. Le transfert de la présidence au Honduras offre un répit diplomatique mais laisse en suspens la refondation nécessaire de ses mécanismes de gouvernance.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Palacio_Real-Plaza_de_Oriente-esf%C3%A9rica_moderada.jpg/1280px-Palacio_Real-Plaza_de_Oriente-esf%C3%A9rica_moderada.jpg",
+    "alt": "La façade monumentale du Palais royal de Madrid depuis la Plaza de Oriente",
+    "credit": "Nemo / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Real-Plaza_de_Oriente-esf%C3%A9rica_moderada.jpg"
+   },
+   "vo": {
+    "titre": "Diplomacia regional: la Cumbre Iberoamericana salva su continuidad en Madrid pese a la desafección de los mandatarios",
+    "faits": "La XXX Cumbre Iberoamericana clausurada el 6 de noviembre de 2026 en Madrid logró asegurar su supervivencia institucional mediante la adopción de una declaración consensuada y cinco acuerdos operativos en materia de cooperación. Pese al empeño del rey Felipe VI y de Pedro Sánchez por afianzar el foro, la cita acusó una severa desafección política, con la asistencia presencial de apenas diez jefes de Estado y de Gobierno de los veintidós miembros de la comunidad. Las notorias ausencias de los presidentes de potencias regionales como Brasil, México, Colombia y Argentina evidenciaron la hondura de las brechas ideológicas y los desencuentros diplomáticos bilaterales. Pese a este complejo escenario, el plenario acordó el traspaso de la Secretaría Pro Tempore a Honduras para el bienio 2026-2028. El mandatario hondureño Nasry Asfura asumió formalmente el mandato de articular la agenda birregional de cara a la XXXI Cumbre, programada para 2028 en suelo centroamericano. España defendió el valor intrínseco de preservar un espacio de diálogo multilateral vertebrado por lazos culturales e históricos compartidos.",
+    "enjeux": "El desenlace de la cita madrileña constata el agotamiento del multilateralismo iberoamericano tradicional frente a la fragmentación geopolítica y la polarización partidista continental. Fundada en 1991 como plataforma de interlocución privilegiada entre la península ibérica y el continente americano, la conferencia acusa la pérdida de cohesión sobre valores democráticos y gobernanza económica. Los antagonismos diplomáticos entre Ejecutivos de izquierda, administraciones conservadoras y regímenes autoritarios han vaciado de contenido político vinculante las declaraciones finales. Para Madrid, salvaguardar este andamiaje resulta geoestratégico para afianzar su rol de bisagra diplomática entre la Unión Europea y el espacio latinoamericano. Sin embargo, la penetración comercial de China y el auge de bloques alternativos como la CELAC o los BRICS+ debilitan el interés pragmático de las cancillerías en el formato transatlántico. El relevo asumido por Honduras brinda una tregua organizativa, pero constata la urgencia de modernizar los mecanismos de cooperación para recuperar relevancia real."
+   },
+   "vocab": [
+    [
+     "la Cumbre Iberoamericana",
+     "le Sommet ibéro-américain des chefs d'État",
+     "La Cumbre Iberoamericana aprobó medidas de cooperación educativa y científica."
+    ],
+    [
+     "la Secretaría Pro Tempore",
+     "le secrétariat tournant / la présidence temporaire",
+     "Honduras asumió la Secretaría Pro Tempore para organizar la próxima reunión continental."
+    ],
+    [
+     "el foro multilateral",
+     "l'instance / le cadre multilatéral de concertation",
+     "Los líderes defendieron el foro multilateral como espacio de diálogo pacífico."
+    ],
+    [
+     "la polarización ideológica",
+     "la polarisation idéologique et politique",
+     "La polarización ideológica entre gobiernos obstaculiza consensos comerciales de fondo."
+    ],
+    [
+     "los lazos históricos y culturales",
+     "les liens historiques et culturels partagés",
+     "La comunidad iberoamericana se sustenta en sólidos lazos culturales comunes."
+    ],
+    [
+     "el puente birregional",
+     "la passerelle diplomatique birégionale (entre l'UE et l'Amérique latine)",
+     "España aspira a consolidarse como el puente birregional indiscutible hacia América Latina."
+    ]
+   ],
+   "sujets": [
+    "¿Conserva la Cumbre Iberoamericana su relevancia geopolítica en un mundo multipolar y fragmentado?",
+    "¿Puede España seguir actuando como puente privilegiado entre la Unión Europea y América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Resultado institucional de la XXX Cumbre Iberoamericana clausurada en Madrid en noviembre de 2026",
+     "r": "Aprobación de una declaración de continuidad y traspaso de la Secretaría Pro Tempore a C{Honduras} para 2028.\n→ Garantiza la supervivencia formal del foro a pesar de la escasa presencia de líderes."
+    },
+    {
+     "q": "Reto diplomático principal evidenciado durante la Cumbre de Madrid",
+     "r": "La ausencia de la mayoría de mandatarios regionales (incluidos México, Brasil y Argentina) por tensiones ideológicas.\n→ Ilustra la creciente polarización y el debilitamiento del multilateralismo tradicional."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-allemand-1",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/wirtschaft/2026-11/industrieproduktion-deutschland-wirtschaft-auto-pharma-gxe",
+   "minutes": 3,
+   "titre": "Industrie allemande : la production progresse de manière inattendue en septembre selon Destatis, portée par l'automobile",
+   "faits": "Le 6 novembre 2026, l'Office fédéral de la statistique (Destatis) a annoncé une progression inattendue de la production industrielle en Allemagne pour le mois de septembre. Selon les chiffres officiels corrigés des variations saisonnières et des jours ouvrables, la production globale a augmenté de 0,7 % par rapport au mois d'août. Cette performance positive déjoue les prévisions pessimistes de nombreux économistes qui anticipaient un nouveau repli sous l'effet des tensions géopolitiques et du coût élevé de l'énergie. La reprise a été particulièrement dynamique dans l'industrie automobile allemande, où la fabrication de véhicules a bondi de 17,1 % en un mois après les congés estivaux. Le secteur de la pharmacie et de la chimie fine a également enregistré une hausse notable de 8,0 % de son activité. En revanche, la construction mécanique a continué de souffrir avec un recul de 6,5 %, tandis que le secteur du bâtiment affichait une contraction de 2,6 %. Ce rebond ponctuel apporte une respiration bienvenue à l'économie allemande, mais les fédérations industrielles rappellent que les carnets de commandes demeurent fragiles.",
+   "enjeux": "Ce rebond statistique offre un soulagement temporaire au **modèle industriel allemand**, confronté depuis deux ans à des craintes récurrentes de désindustrialisation. Le secteur automobile, pilier traditionnel de la prospérité outre-Rhin, montre sa capacité de résistance après plusieurs trimestres difficiles marqués par les goulets d'étranglement logistiques. Néanmoins, la divergence entre la reprise automobile et la faiblesse persistante de la **construction mécanique** (*Maschinenbau*) témoigne d'une reprise asymétrique. Les entreprises de taille moyenne du célèbre **Mittelstand** continuent de faire face à des coûts de production élevés et à une demande atone de la part du marché chinois. De plus, la concurrence croissante des constructeurs asiatiques sur les technologies électriques impose des investissements lourds qui pèsent sur les marges des équipementiers. Pour le gouvernement fédéral à Berlin, ces données confirment que l'industrie conserve des atouts solides mais a besoin de réformes structurelles urgentes sur le prix de l'électricité et la bureaucratie. Ce chiffre sera scruté de près lors des prochaines prévisions de croissance de l'Union européenne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VW-factory-wolfsburg_hg.jpg/1280px-VW-factory-wolfsburg_hg.jpg",
+    "alt": "L'usine automobile historique de Volkswagen et ses cheminées à Wolfsburg",
+    "credit": "Hannes Grobe / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:VW-factory-wolfsburg_hg.jpg"
+   },
+   "vo": {
+    "titre": "Deutsche Wirtschaft: Industrieproduktion steigt im September überraschend an",
+    "faits": "Die Produktion der deutschen Industrie ist im September 2026 überraschend gewachsen. Nach Angaben des Statistischen Bundesamtes (Destatis) stieg die Gesamtproduktion um 0,7 Prozent im Vergleich zum Vormonat. Viele Ökonomen hatten wegen der hohen Energiepreise und der schwachen Weltwirtschaft mit einem Rückgang gerechnet. Vor allem die deutsche Autoindustrie zeigte sich sehr stark: Ihre Produktion wuchs nach den Werksferien um 17,1 Prozent. Auch die Pharmaindustrie verzeichnete ein deutliches Plus von 8,0 Prozent. Dagegen gingen die Zahlen im Maschinenbau um 6,5 Prozent und in der Bauwirtschaft um 2,6 Prozent zurück. Trotz dieser positiven Zahlen bleibt die Lage für viele Unternehmen weiterhin angespannt.",
+    "enjeux": "Das unerwartete Wachstum gibt der deutschen Industrie wieder etwas Hoffnung. Autobauer und Zulieferer haben gezeigt, dass sie auch in schwierigen Zeiten leistungsfähig bleiben. Doch der deutsche Maschinenbau leidet immer noch unter einer schwachen Nachfrage aus dem Ausland, besonders aus China. Viele Firmen im Mittelstand klagen über hohe Strompreise, zu viel Bürokratie und fehlende Aufträge. Zudem wächst der Druck durch billige Konkurrenz aus Asien bei Elektroautos und Batterien. Experten warnen deshalb davor, die Zahlen als dauerhafte Wende zu sehen. Für die Bundesregierung bleibt die Sicherung von bezahlbarer Energie und guten Standortbedingungen die wichtigste Aufgabe."
+   },
+   "vocab": [
+    [
+     "die Industrieproduktion",
+     "la production industrielle",
+     "Die Industrieproduktion stieg im September überraschend an."
+    ],
+    [
+     "das Statistische Bundesamt (Destatis)",
+     "l'Office fédéral de la statistique allemand",
+     "Destatis veröffentlicht regelmäßig wichtige Daten zur Wirtschaft."
+    ],
+    [
+     "die Autoindustrie",
+     "l'industrie automobile",
+     "Die deutsche Autoindustrie ist der wichtigste Motor der Wirtschaft."
+    ],
+    [
+     "der Maschinenbau",
+     "la construction mécanique / les machines-outils",
+     "Der Maschinenbau leidet unter fehlenden Aufträgen aus dem Ausland."
+    ],
+    [
+     "der Mittelstand",
+     "le tissu de PME et ETI familiales allemandes",
+     "Der Mittelstand bildet das Rückgrat der deutschen Wirtschaft."
+    ],
+    [
+     "die Standortbedingungen",
+     "les conditions d'implantation / attractivité du territoire",
+     "Unternehmer fordern bessere Standortbedingungen in Deutschland."
+    ]
+   ],
+   "sujets": [
+    "Kann die deutsche Industrie ihre weltweite Spitzenposition in Zukunft behaupten?",
+    "Welche Rolle spielt die Automobilindustrie für den Wohlstand in Deutschland?"
+   ]
+  },
+  {
+   "id": "2026-11-06-allemand-2",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-macht-rueckzieher-bei-lohnstopp-plaenen-bis-2030-a-cc8efb62-b1b2-44a3-a60b-46c412c24cfd",
+   "minutes": 3,
+   "titre": "Relations sociales en Allemagne : Volkswagen recule sur son projet de gel des salaires jusqu'en 2030 face à la mobilisation syndicale",
+   "faits": "Le groupe automobile Volkswagen a revu à la baisse ses projets de réduction drastique des coûts salariaux en renonçant à imposer un gel général des salaires jusqu'en 2030. Selon les informations révélées le 6 novembre 2026 par Der Spiegel, la direction du premier constructeur européen est revenue sur ses directives internes prévoyant des années sans augmentation (Nullrunden) pour ses 660 000 salariés à travers le monde. Ce projet controversé de « pay freeze » mondial visait à réduire massivement les charges de personnel pour financer la transition vers le véhicule électrique et combler un déficit de rentabilité de la marque historique VW. Face à la levée de boucliers unanime du syndicat IG Metall et du puissant comité d'entreprise dirigé par Daniela Cavallo, le directoire a préféré temporiser pour éviter un conflit social ouvert. Les représentants des salariés avaient menacé d'engager des grèves d'avertissement massives dans les usines allemandes dès le mois de décembre si la direction maintenait ses exigences de gel salarial. Malgré cette concession préalable du directoire, les négociations collectives de branche qui s'ouvrent s'annoncent particulièrement rudes. Le groupe maintient en effet son objectif d'économies de plusieurs milliards d'euros pour adapter ses capacités de production.",
+   "enjeux": "Cette reculade de Volkswagen illustre la vigueur et les spécificités du modèle allemand de **cogestion** (*Mitbestimmung*) dans les grandes entreprises industrielles. En Allemagne, les représentants des salariés occupent la moitié des sièges au conseil de surveillance des grands groupes et disposent d'un droit de regard déterminant sur les choix stratégiques et l'emploi. Le syndicat **IG Metall** et le comité d'entreprise ont fait la preuve de leur capacité de blocage face à des plans unilatéraux jugés contraires au partenariat social traditionnel. Toutefois, ce compromis social ne règle pas le problème fondamental de la **compétitivité-coût** des usines allemandes par rapport aux sites de production en Europe de l'Est ou en Chine. Volkswagen doit faire face à des surcapacités industrielles, à des coûts salariaux horaires élevés et à un ralentissement des ventes de ses modèles électriques sur le marché européen. Trouver un équilibre entre la sauvegarde des acquis sociaux des salariés et les impératifs de rentabilité financière constitue le défi existentiel de l'industrie automobile allemande. Ce bras de fer servira de test pour l'ensemble des négociations salariales de la métallurgie en Allemagne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Aerial_image_of_the_Wolfsburg_Volkswagen_Plant_%28view_from_the_southeast%29.jpg/1280px-Aerial_image_of_the_Wolfsburg_Volkswagen_Plant_%28view_from_the_southeast%29.jpg",
+    "alt": "Vue aérienne des installations industrielles de Volkswagen à Wolfsburg",
+    "credit": "Carsten Steger / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Wolfsburg_Volkswagen_Plant_(view_from_the_southeast).jpg"
+   },
+   "vo": {
+    "titre": "Konflikt bei Volkswagen: Konzern gibt Pläne für langen Lohnstopp bis 2030 auf",
+    "faits": "Der Autokonzern Volkswagen hat seine umstrittenen Pläne für einen jahrelangen Lohnstopp deutlich abgeschwächt. Nach einem Bericht des SPIEGEL vom 6. November 2026 verzichtet die Führung auf strikte Nullrunden bis zum Jahr 2030 für weltweit rund 660.000 Mitarbeiter. Ursprünglich wollte das Management die Personalkosten massiv senken, um mehr Geld für neue E-Autos und Sparprogramme zu haben. Doch die Gewerkschaft IG Metall und der Betriebsrat wehrten sich von Anfang an vehement gegen diese Pläne. Die Arbeitnehmervertreter drohten sogar mit Warnstreiks in den deutschen Werken ab Dezember, falls der Vorstand stur bleibe. Durch den Rückzieher der Chefetage entspannt sich die Lage vorerst etwas, doch die eigentlichen Tarifverhandlungen werden sehr hart. Volkswagen muss weiterhin Milliarden sparen, um auf dem schwierigen Weltmarkt wettbewerbsfähig zu bleiben.",
+    "enjeux": "Der Streit bei VW zeigt die große Macht der deutschen Mitbestimmung in der Industrie. In Deutschland haben Gewerkschaften und Betriebsräte starken Einfluss auf wichtige Entscheidungen der Konzerne. Die IG Metall hat erneut bewiesen, dass gegen die Beschäftigten keine radikalen Kürzungen durchgesetzt werden können. Trotzdem steht Volkswagen vor riesigen Herausforderungen bei der Umstellung auf Elektroautos. Die Kosten für Personal und Strom in Deutschland sind viel höher als in Ländern wie China oder Polen. Gleichzeitig kaufen viele Kunden zurzeit weniger Autos, weil die Zinsen und Preise hoch sind. VW muss daher einen Kompromiss zwischen sicheren Arbeitsplätzen und wirtschaftlichem Erfolg finden. Der Ausgang des Konflikts wird Signalwirkung für die gesamte deutsche Metall- und Elektroindustrie haben."
+   },
+   "vocab": [
+    [
+     "der Lohnstopp (die Nullrunde)",
+     "le gel des salaires (année sans augmentation)",
+     "Die Gewerkschaft wehrt sich gegen einen jahrelangen Lohnstopp."
+    ],
+    [
+     "der Betriebsrat",
+     "le comité d'entreprise",
+     "Der Betriebsrat vertritt die Interessen der Beschäftigten im Werk."
+    ],
+    [
+     "die Tarifverhandlungen",
+     "les négociations collectives / salariales de branche",
+     "Schwierige Tarifverhandlungen stehen in der Autoindustrie bevor."
+    ],
+    [
+     "die Mitbestimmung",
+     "la cogestion (participation des salariés aux décisions)",
+     "Die Mitbestimmung ist ein zentraler Pfeiler der sozialen Marktwirtschaft."
+    ],
+    [
+     "die Personalkosten",
+     "les coûts salariaux / de personnel",
+     "Hohe Personalkosten belasten die Wettbewerbsfähigkeit der Betriebe."
+    ],
+    [
+     "der Warnstreik",
+     "la grève d'avertissement (de courte durée en Allemagne)",
+     "Die Gewerkschaft droht mit einem Warnstreik in den Fabriken."
+    ]
+   ],
+   "sujets": [
+    "Ist die deutsche Mitbestimmung ein Vorteil oder ein Nachteil für Unternehmen in der Krise?",
+    "Wie können Tarifpartner Arbeitsplätze sichern und gleichzeitig die Wettbewerbsfähigkeit erhalten?"
+   ]
+  },
+  {
+   "id": "2026-11-06-allemand-3",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/wirtschaft/2026-11/chancengleichheit-bildung-soziale-herkunft-pisa-schulsystem",
+   "minutes": 3,
+   "titre": "Éducation et société en Allemagne : débat national sur la réforme du financement scolaire pour briser le déterminisme social",
+   "faits": "Le 6 novembre 2026, Die Zeit a publié une vaste enquête alertant sur l'effondrement de l'égalité des chances dans le système scolaire allemand et appelant à une refonte radicale du financement de l'éducation. Selon les données éducatives analysées, le lien entre l'origine sociale des familles et la réussite scolaire des enfants a atteint un niveau de corrélation particulièrement inquiétant en Allemagne. Actuellement, environ 8,4 % des élèves d'une même génération quittent l'école sans aucun diplôme, soit la proportion la plus élevée enregistrée depuis plus de vingt ans. Face à cette situation qui alimente la pénurie de main-d'œuvre qualifiée et menace la cohésion démocratique, des experts et économistes proposent un plan d'urgence de 20 milliards d'euros par an d'investissements publics supplémentaires. Pour financer cet effort sans alourdir la dette publique, le texte suggère la vente progressive d'une partie des réserves d'or de la Bundesbank sur dix ans. Ces financements nouveaux seraient strictement conditionnés à l'adoption de standards nationaux communs et à la suppression de l'orientation précoce des enfants dès l'âge de dix ans entre les différentes filières secondaires.",
+   "enjeux": "Cette controverse met en lumière les faiblesses structurelles du système éducatif allemand et la persistance du **déterminisme social** (*soziale Selektion*). Depuis le premier « choc PISA » de 2001, l'Allemagne sait que son système scolaire à trois voies (*dreigliedriges Schulsystem*) sépare les élèves trop tôt et reproduit fidèlement les hiérarchies de classe. Les enfants issus de l'immigration ou de milieux populaires sont massivement orientés vers les filières courtes, tandis que le *Gymnasium* reste l'apanage des classes moyennes et supérieures. Cette ségrégation précoce pénalise le potentiel de croissance du pays, qui manque cruellement de techniciens et d'ingénieurs qualifiés pour mener à bien sa transition industrielle. Par ailleurs, le **fédéralisme éducatif** (*Bildungsföderalismus*), qui confie la gestion des écoles aux seize Länder régionaux, engendre de profondes inégalités territoriales et complique les réformes nationales. Pour l'Allemagne, moderniser son école et garantir une véritable **égalité des chances** (*Chancengleichheit*) n'est plus seulement un impératif moral de justice sociale, mais une exigence économique vitale pour préserver son modèle de prospérité.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Karls-Gymnasium_Stuttgart_Schulgebaeude-Vorderansicht.jpg",
+    "alt": "Façade historique du Karls-Gymnasium à Stuttgart en Allemagne",
+    "credit": "Karls-Gymnasium Stuttgart / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Karls-Gymnasium_Stuttgart_Schulgebaeude-Vorderansicht.jpg"
+   },
+   "vo": {
+    "titre": "Bildungspolitik in Deutschland: Neue Debatte über Chancengleichheit und Geld für Schulen",
+    "faits": "In Deutschland gibt es eine neue Debatte über die Probleme im Schulsystem und die soziale Herkunft von Schülern. Laut einem Bericht der Wochenzeitung Die Zeit vom 6. November 2026 sind die Aufstiegschancen für Kinder aus armen Familien auf einem Tiefpunkt. Rund 8,4 Prozent der Jugendlichen verlassen die Schule mittlerweile ohne einen Abschluss. Das ist der höchste Wert seit mehr als zwanzig Jahren. Experten fordern deshalb zusätzliche 20 Milliarden Euro pro Jahr für bessere Schulen, modernere Technik und mehr Lehrer. Das Geld könnte zum Beispiel durch den Verkauf eines Teils der deutschen Goldreserven finanziert werden. Zudem fordern Bildungsexperten ein Ende der frühen Trennung von Kindern nach der vierten Klasse. Alle Schüler sollten länger gemeinsam lernen, um mehr faire Chancen zu bekommen.",
+    "enjeux": "Die Debatte zeigt eine große Schwäche der deutschen Gesellschaft: Der schulische Erfolg hängt stark vom Geld und Status der Eltern ab. Das dreigliedrige Schulsystem trennt Kinder schon mit zehn Jahren in verschiedene Schulformen. Kinder aus Akademikerfamilien gehen meist auf das Gymnasium, während Kinder aus Einwandererfamilien oft auf Real- oder Hauptschulen landen. Dieser frühe Druck schadet vielen Schülern und verstärkt die Ungleichheit im Land. Zudem leidet die deutsche Wirtschaft schon heute unter einem großen Mangel an Fachkräften in vielen Berufen. Weil jedes Bundesland seine eigene Schulpolitik macht, gibt es oft Streit über Reformen und Geld. Deutschland muss mehr in Bildung investieren, um seinen Wohlstand und seine Demokratie für die Zukunft zu sichern."
+   },
+   "vocab": [
+    [
+     "die Chancengleichheit",
+     "l'égalité des chances",
+     "Bildungspolitiker fordern echte Chancengleichheit für alle Kinder."
+    ],
+    [
+     "die soziale Herkunft",
+     "l'origine sociale / le milieu familial",
+     "Der Schulerfolg darf nicht von der sozialen Herkunft abhängen."
+    ],
+    [
+     "der Schulabschluss",
+     "le diplôme de fin d'études secondaires",
+     "Immer mehr Jugendliche verlassen die Schule ohne Schulabschluss."
+    ],
+    [
+     "das Schulsystem",
+     "le système scolaire / éducatif",
+     "Kritiker fordern eine grundlegende Reform des deutschen Schulsystems."
+    ],
+    [
+     "der Fachkräftemangel",
+     "la pénurie de main-d'œuvre qualifiée",
+     "Der Fachkräftemangel bremst das Wachstum vieler Firmen."
+    ],
+    [
+     "der Bildungsföderalismus",
+     "le fédéralisme éducatif (compétence des Länder)",
+     "Der Bildungsföderalismus erschwert einheitliche Standards an Schulen."
+    ]
+   ],
+   "sujets": [
+    "Sollten Kinder in Deutschland länger gemeinsam lernen, um die Chancengleichheit zu verbessern?",
+    "Welche Verantwortung trägt der Staat für den sozialen Aufstieg durch Bildung?"
+   ]
+  }
+ ]
+}
