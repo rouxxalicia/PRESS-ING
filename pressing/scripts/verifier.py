@@ -110,8 +110,8 @@ if ed.get("date") != date:
 order = [c.get("matiere") for c in cards]
 for m in MATS:
     n = order.count(m)
-    if n != 3:
-        errors.append(f"{m} : {n} carte(s) au lieu de 3")
+    if n != 4:
+        errors.append(f"{m} : {n} carte(s) au lieu de 4")
 if order != sorted(order, key=lambda m: MATS.index(m) if m in MATS else 9):
     errors.append("les cartes ne sont pas dans l'ordre esh, anglais, espagnol, allemand")
 

@@ -7,7 +7,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 1. Note la date du jour (heure de Paris) au format `AAAA-MM-JJ`. Si `data/editions/<date>.json` existe déjà, arrête-toi et dis-le.
 2. Lis `data/index.json`, puis les deux dernières éditions de `data/editions/`. Elles servent de **modèle de style et de longueur**, et leurs sujets ne doivent pas être repris.
 3. Lis `data/referentiel.json` : la liste des fiches (`id`, `nom`, `auteur`) et une fiche entière, `avantages-comparatifs`, qui sert de modèle.
-4. Cherche sur le web l'actualité **des dernières 48 heures**, puis choisis 3 actus par matière (la première est l'actu principale) :
+4. Cherche sur le web l'actualité **des dernières 48 heures**, puis choisis 4 actus par matière (la première est l'actu principale) :
    - **esh** : économie française, européenne ou mondiale, et faits sociaux. Il faut qu'on puisse s'en servir dans une dissertation d'ESH.
    - **anglais** : Royaume-Uni et États-Unis (politique, société, économie).
    - **espagnol** : Espagne et Amérique latine.
