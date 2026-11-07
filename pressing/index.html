@@ -69,7 +69,7 @@ a { color: inherit; text-decoration: none; }
 button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
 :focus-visible { outline: 1px solid var(--fg); outline-offset: 3px; }
 .wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-.narrow { max-width: 680px; margin: 0 auto; }
+.narrow { max-width: 980px; margin: 0 auto; }
 .label { font-size: 10.5px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
 .muted { color: var(--muted); }
 
@@ -125,7 +125,7 @@ main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
 .lead { padding: 26px 24px 24px; background: var(--soft); gap: 12px; }
 .lead:hover { background: var(--line); }
 .lead h3 { margin: 0; font-weight: 500; font-size: clamp(21px, 3.6vw, 27px); line-height: 1.22; letter-spacing: -0.015em; text-wrap: balance; }
-.chapo { margin: 0; font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 52ch; }
+.chapo { margin: 0; font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 75ch; }
 .side { display: grid; gap: 0; }
 .small { padding-block: 18px 22px; border-top: 1px solid var(--line); }
 .small h3 { margin: 0; font-weight: 500; font-size: 16.5px; line-height: 1.35; text-wrap: balance; }
@@ -181,7 +181,7 @@ article.card { padding-block: 16px 24px; display: flex; flex-direction: column; 
 .seg button[aria-pressed="true"] { background: var(--invert-bg); color: var(--invert-fg); }
 .sec { display: flex; flex-direction: column; gap: 10px; padding-top: 22px; border-top: 1px solid var(--line); }
 .sec h2 { margin: 0; }
-.prose p { margin: 0; font-size: 16px; line-height: 1.75; max-width: 65ch; }
+.prose p { margin: 0; font-size: 16px; line-height: 1.75; max-width: none; }
 .prose p + p { margin-top: 12px; }
 .vocab { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 16px; }
 .vocab div { padding-block: 9px; border-bottom: 1px solid var(--line); font-size: 14.5px; }
