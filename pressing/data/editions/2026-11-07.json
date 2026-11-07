@@ -1,0 +1,728 @@
+{
+  "date": "2026-11-07",
+  "cards": [
+    {
+      "id": "2026-11-07-esh-1",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/07/les-equipementiers-automobiles-s-alarment-des-consequences-sociales-de-l-accord-franco-allemand_6808276_3234.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Geely_assembly_line_in_Beilun%2C_Ningbo.JPG/1280px-Geely_assembly_line_in_Beilun%2C_Ningbo.JPG",
+        "alt": "Ligne d'assemblage et de robotique dans une usine de construction automobile",
+        "credit": "Siyuwj / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Geely_assembly_line_in_Beilun,_Ningbo.JPG"
+      },
+      "titre": "Crise industrielle automobile : les équipementiers alertent sur les conséquences sociales et les suppressions d'emplois de l'accord franco-allemand sur le CO2",
+      "faits": "En marge du sommet bilatéral de Berlin, les fédérations française (FIEV) et allemande (VDA) des équipementiers automobiles ont publié un communiqué d'alerte sans précédent sur l'impact de l'accord franco-allemand sur les normes d'émissions de CO2. Ce compromis politique maintient l'interdiction de vente des véhicules thermiques neufs en 2035 tout en assouplissant temporairement les pénalités financières pour les constructeurs en difficulté. Les sous-traitants dénoncent un arbitrage destructeur qui sacrifie les fournisseurs de composants traditionnels (moteurs à combustion, boîtes de vitesses, échappements) au profit des seuls donneurs d'ordres assemblant les véhicules. Les syndicats et organisations patronales estiment que plus de 80 000 emplois industriels sont directement menacés d'ici 2028 en France et en Allemagne en l'absence de plan de reconversion coordonné. La crise est aggravée par le tassement brutal des ventes de voitures électriques en Europe continentale et la concurrence féroce des batteries chinoises subventionnées.",
+      "enjeux": "Cette crise ouverte entre constructeurs et équipementiers met en lumière la fragilité des écosystèmes productifs européens face aux mutations technologiques forcées par la régulation publique. L'industrie automobile fonctionne selon un modèle de sous-traitance pyramidale où les équipementiers absorbent traditionnellement les risques de conjoncture et les ajustements de volumes. La transition vers la propulsion électrique bouleverse cette division du travail : un véhicule électrique contient environ 30 % de pièces mécaniques en moins qu'un modèle thermique, rendant caduques des filières entières de la métallurgie et de la mécanique de précision. Faute de capitaux suffisants pour financer leur mutation vers l'électronique de puissance et la chimie des accumulateurs, de nombreuses PME industrielles risquent la liquidation judiciaire pure et simple. Ce choc asymétrique ravive le débat sur la politique industrielle de l'Union européenne et l'insuffisance des mécanismes de transition juste pour les territoires mono-industriels.",
+      "programme": {
+        "module": "Module 4 : Politiques économiques et dynamique des marchés",
+        "chapitre": "4.2 Les politiques économiques (politique industrielle et politique de l'emploi)"
+      },
+      "auteurs": [
+        {
+          "nom": "Joseph Schumpeter (1883-1950)",
+          "ouvrage": "Capitalisme, socialisme et démocratie",
+          "annee": "1942",
+          "ref": "destruction-creatrice",
+          "texte": "Schumpeter montre que le capitalisme progresse par des vagues d'innovations qui révolutionnent de l'intérieur la structure productive en détruisant les activités obsolètes pour en créer de nouvelles. La transition forcée vers le véhicule électrique illustre ce processus brutal de destruction créatrice, où les filières de la motorisation thermique sont condamnées tandis que s'élèvent les gigafactories de batteries. Cependant, la destruction des emplois et des compétences spécialisées est immédiate et localisée, alors que la création d'emplois verts demeure incertaine, différée et exposée aux importations asiatiques."
+        },
+        {
+          "nom": "Ronald Coase (1910-2013)",
+          "ouvrage": "The Nature of the Firm",
+          "annee": "1937",
+          "ref": "couts-de-transaction",
+          "texte": "Coase théorise que la firme arbitre en permanence entre faire soi-même (hiérarchie) et faire faire (marché) en fonction des coûts de transaction. Face aux incertitudes radicales de la transition écologique et aux exigences de rentabilité, les constructeurs automobiles reportent l'essentiel des coûts d'adaptation et des risques d'actifs spécifiques sur leurs équipementiers. Cette relation asymétrique fragilise les sous-traitants qui supportent des investissements non redéployables, montrant comment la dérégulation des chaînes de valeur transforme le marché de la sous-traitance en amortisseur social de crise."
+        }
+      ],
+      "sujets": [
+        "La politique industrielle peut-elle concilier impératif écologique et préservation de l'emploi ?",
+        "Dans quelle mesure les mutations technologiques contemporaines valident-elles la thèse schumpetérienne de la destruction créatrice ?"
+      ],
+      "anki": [
+        {
+          "q": "C{Destruction créatrice (Schumpeter, 1942)} : quel est le mécanisme économique sous-jacent et comment s'applique-t-il à la crise automobile européenne ?",
+          "r": "Mécanisme théorique :\n→ L'innovation radicale (technologique, organisationnelle) détruit les rentes et procédés obsolètes tout en créant de nouveaux secteurs moteurs.\nApplication à l'automobile :\n→ Éviction brutale de la filière thermique (-30 % de pièces mécaniques, 80 000 emplois menacés) au profit de l'écosystème électrique (batteries, logiciels, puissance)."
+        },
+        {
+          "q": "D{Monopole naturel / Chaîne de valeur} : en quoi le concept d'A{actifs spécifiques (Williamson, 1975 / Coase, 1937)} éclaire-t-il la vulnérabilité des équipementiers automobiles ?",
+          "r": "Analyse des coûts de transaction :\n→ Les équipementiers investissent dans des machines et moules dédiés exclusivement aux moteurs thermiques (forte spécificité d'actifs).\n→ La rupture brutale de la demande thermique les prive de tout débouché alternatif, les exposant à un risque de hold-up et à la faillite sans soutien du donneur d'ordres."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-esh-2",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/07/les-prix-de-l-electricite-pour-les-particuliers-seront-stables-jusqu-au-1-fevrier-au-moins-selon-le-pdg-d-edf_6808283_3234.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nogent-sur-Seine-FR-10-centrale_nucl%C3%A9aire-01.JPG/1280px-Nogent-sur-Seine-FR-10-centrale_nucl%C3%A9aire-01.JPG",
+        "alt": "Centrale nucléaire de Nogent-sur-Seine produisant de l'électricité en France",
+        "credit": "François GOGLINS / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Nogent-sur-Seine-FR-10-centrale_nucl%C3%A9aire-01.JPG"
+      },
+      "titre": "Tarifs de l'énergie en France : les prix de l'électricité pour les ménages gelés jusqu'en février 2027 selon le PDG d'EDF",
+      "faits": "Lors d'une audition publique très attendue, le président-directeur général d'EDF a annoncé que les tarifs réglementés de vente d'électricité pour les particuliers resteraient strictement stables jusqu'en février 2027 au plus tôt. Cette décision, concertée avec le ministère de l'Économie et la Commission de régulation de l'énergie (CRE), tire parti de la pleine disponibilité retrouvée du parc de 56 réacteurs nucléaires français après des années de maintenance liée aux corrosions sous contrainte. La production électronucléaire d'EDF devrait atteindre entre 340 et 360 térawattheures cette année, permettant d'exporter massivement vers les pays voisins et de reconstituer les marges financières du groupe public. En gelant ainsi le tarif bleu, l'État actionnaire à 100 % entend offrir une visibilité tarifaire indispensable aux ménages français encore éprouvés par les tensions inflationnistes des hivers précédents. Cette stabilisation contraste nettement avec la volatilité persistante des marchés de gros européens du gaz et du charbon.",
+      "enjeux": "La sanctuarisation des prix de l'électricité soulève un arbitrage macroéconomique fondamental entre protection immédiate du pouvoir d'achat et financement des investissements décarbonés de long terme. EDF doit en effet financer un mur d'investissements estimé à plus de 100 milliards d'euros d'ici 2035 pour lancer la construction de six nouveaux réacteurs EPR2 et prolonger la durée d'exploitation du parc existant. Le blocage des tarifs réduit les capacités d'autofinancement de l'entreprise publique et contraint l'opérateur à s'endetter sur les marchés financiers internationaux à des taux d'intérêt désormais plus élevés. De surcroît, le découplage entre les prix de l'électricité française, dominée par le nucléaire à bas coût marginal, et le prix spot européen fixé par la dernière centrale à gaz appelée réactive le débat sur la réforme du marché européen de l'électricité. La régulation publique doit ainsi trouver un équilibre délicat entre justice redistributive pour les ménages et soutenabilité financière de l'opérateur national.",
+      "programme": {
+        "module": "Module 4 : Politiques économiques et dynamique des marchés",
+        "chapitre": "4.2 Les politiques économiques (politiques de régulation et défaillances de marché)"
+      },
+      "auteurs": [
+        {
+          "nom": "Richard Musgrave (1912-2007)",
+          "ouvrage": "The Theory of Public Finance",
+          "annee": "1959",
+          "ref": "fonctions-etat",
+          "texte": "Musgrave définit les trois fonctions canoniques de l'État : affectation des ressources, redistribution et stabilisation macroéconomique. Le gel des tarifs de l'électricité par l'État actionnaire mobilise simultanément la fonction de redistribution, en préservant le revenu réel des ménages les plus modestes contre la précarité énergétique, et la fonction de stabilisation, en ancrant les anticipations d'inflation. Cette intervention directe corrige les défaillances du marché libre incapable de garantir seul un accès équitable et continu à un bien de première nécessité."
+        },
+        {
+          "nom": "Marcel Boiteux (1922-2023)",
+          "ouvrage": "Sur la gestion des monopoles publics",
+          "annee": "1956",
+          "ref": "monopole-naturel-boiteux",
+          "texte": "Boiteux démontre que la gestion optimale d'un monopole public de réseau exige une tarification au coût marginal de long terme pour maximiser le bien-être collectif sous contrainte d'équilibre budgétaire. Dans le cas d'EDF, le coût moyen décroissant du parc nucléaire amorti justifie des tarifs reflétant les coûts réels de production plutôt que les cours spéculatifs des marchés de gros fossiles. La stabilisation tarifaire actuelle illustre cette doctrine de second rang, conciliant équité d'accès pour les usagers et couverture des coûts d'infrastructure du système électrique."
+        }
+      ],
+      "sujets": [
+        "Les services publics et les entreprises d'État ont-ils encore un rôle déterminant dans les politiques de pouvoir d'achat ?",
+        "La régulation des prix par l'État est-elle compatible avec les impératifs de la transition énergétique ?"
+      ],
+      "anki": [
+        {
+          "q": "O{Fonctions de l'État (Musgrave, 1959)} : quelles sont les trois branches de l'action publique et comment le gel des tarifs de l'électricité s'y rattache-t-il ?",
+          "r": "Trois fonctions selon Musgrave :\n→ Affectation : corriger les défaillances de marché et fournir des biens collectifs/tutelaires.\n→ Redistribution : corriger la répartition primaire des revenus (protection du pouvoir d'achat face au choc énergétique).\n→ Stabilisation : politique conjoncturelle pour lisser l'inflation et soutenir l'activité."
+        },
+        {
+          "q": "C{Tarification Ramsey-Boiteux (1956)} : quel est le principe économique de la tarification au coût marginal sous contrainte budgétaire dans un monopole naturel ?",
+          "r": "Principe Boiteux :\n→ Dans une industrie de réseau à rendements croissants, tarifer à $P = Cm$ génère un déficit car $CM > Cm$.\n→ La règle de second rang module les prix selon l'élasticité de la demande pour maximiser l'utilité collective tout en assurant l'autofinancement des infrastructures."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-esh-3",
+      "matiere": "esh",
+      "source": "Le Figaro",
+      "url": "https://www.lefigaro.fr/conso/la-frequentation-de-shein-et-temu-en-chute-libre-au-troisieme-trimestre-plombee-par-la-taxe-sur-les-petits-colis-20261106",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Lufthansa_Cargo_777F_D-ALFA.JPG/1280px-Lufthansa_Cargo_777F_D-ALFA.JPG",
+        "alt": "Avion cargo gros-porteur dédié au fret aérien de colis et marchandises internationales",
+        "credit": "Milad A380 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lufthansa_Cargo_777F_D-ALFA.JPG"
+      },
+      "titre": "Commerce international et régulation : la fréquentation de Shein et Temu s'effondre au troisième trimestre sous l'effet de la taxe sur les petits colis",
+      "faits": "Selon les données trimestrielles publiées par les panélistes d'audience du commerce électronique, le nombre de visiteurs uniques sur les plateformes chinoises d'ultra-fast-fashion Shein et Temu a chuté de près de 28 % en France au cours du troisième trimestre. Cette désaffection massive coïncide directement avec la mise en application des nouvelles mesures législatives encadrant les importations à bas coût, notamment la suppression de la franchise douanière pour les envois d'une valeur inférieure à 150 euros et l'instauration d'un malus écologique progressif sur les articles de mode jetable. Les délais de livraison se sont par ailleurs allongés en raison du renforcement drastique des contrôles sanitaires, douaniers et sécuritaires dans les centres de tri aéroportuaires européens. Face à cette flambée des coûts logistiques et fiscaux, les deux géants de la vente directe en ligne ont dû répercuter une hausse moyenne de 15 à 20 % sur leurs prix de vente, brisant net leur modèle d'attractivité tarifaire agressive. Les distributeurs de textile européens traditionnels constatent en parallèle un léger rebond de fréquentation dans leurs magasins physiques.",
+      "enjeux": "L'effondrement de l'hyper-croissance des plateformes d'ultra-fast-fashion marque un tournant stratégique dans la régulation de la mondialisation commerciale débridée et du libre-échange numérique. Pendant des années, ces acteurs chinois ont exploité une faille réglementaire majeure en expédiant des millions de petits colis individuels par fret aérien sans s'acquitter des droits de douane ni des contributions environnementales pesant sur les enseignes locales. Cette distorsion de concurrence caractérisée laminant l'appareil productif et les commerces de centre-ville européens illustre l'urgence d'une refonte des règles du commerce mondial. L'imposition d'un malus environnemental et douanier rétablit non seulement l'égalité des conditions concurrentielles, mais internalise également l'énorme empreinte carbone du transport aérien de biens de consommation éphémères. Ce succès réglementaire démontre qu'une politique de protectionnisme ciblé et de fiscalité incitative peut modifier rapidement les comportements d'achat des consommateurs sans provoquer d'emballement inflationniste généralisé.",
+      "programme": {
+        "module": "Module 3 : La mondialisation économique et financière",
+        "chapitre": "3.1 La mondialisation commerciale et les politiques commerciales"
+      },
+      "auteurs": [
+        {
+          "nom": "Friedrich List (1789-1846)",
+          "ouvrage": "Système national d'économie politique",
+          "annee": "1841",
+          "ref": "protectionnisme-educateur",
+          "texte": "List théorise que le libre-échange généralisé ne profite qu'aux nations dominantes et préconise un protectionnisme éducateur temporaire pour défendre les industries naissantes ou en reconstruction face à la concurrence déloyale étrangère. Appliquée aux échanges contemporains, sa pensée justifie le rétablissement de barrières tarifaires et douanières contre les plateformes chinoises dont le modèle repose sur des subventions d'État et des distorsions fiscales. Pour List, préserver la capacité de production nationale et l'intégrité du tissu industriel local prime toujours sur la maximisation immédiate de la consommation à court terme."
+        },
+        {
+          "nom": "Arthur Cecil Pigou (1877-1959)",
+          "ouvrage": "The Economics of Welfare",
+          "annee": "1920",
+          "ref": "externalites-pigou",
+          "texte": "Pigou formalise le concept d'externalités négatives, situations où une activité économique impose des coûts environnementaux et sociaux à la collectivité sans compensation financière par le prix de marché. La taxe sur les petits colis et le malus écologique constituent une taxe pigouvienne exemplaire : en augmentant le coût unitaire des articles importés par avion, la puissance publique aligne le coût privé sur le coût social marginal. Ce signal-prix modifie l'arbitrage des ménages et décourage une consommation destructrice de ressources et surémettrice de gaz à effet de serre."
+        }
+      ],
+      "sujets": [
+        "Le protectionnisme tarifaire et environnemental est-il une réponse efficace aux dérives de l'hyper-mondialisation ?",
+        "Dans quelle mesure la fiscalité environnementale peut-elle corriger les défaillances du commerce international ?"
+      ],
+      "anki": [
+        {
+          "q": "A{Protectionnisme éducateur (List, 1841)} : quelle est la justification théorique avancée par Friedrich List contre le libre-échange libre et non faussé ?",
+          "r": "Thèse de List :\n→ Le libre-échange précoce étouffe le tissu productif local face aux puissances déjà hégémoniques.\n→ La protection ciblée et temporaire (droits de douane, normes) permet aux forces productives nationales de se consolider avant d'affronter la compétition internationale."
+        },
+        {
+          "q": "C{Taxe pigouvienne (Pigou, 1920)} : par quel mécanisme économique une taxe environnementale corrige-t-elle les externalités négatives du commerce de détail ?",
+          "r": "Mécanisme de Pigou :\n→ En présence d'externalités négatives (pollution aérienne, déchets textiles), le coût privé est inférieur au coût social.\n→ La taxe comble l'écart ($t = Cmg_{externe}$), égalisant le prix payé par le consommateur avec le coût réel pour la société."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-anglais-1",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/07/europe-leaders-call-closer-eu-uk-ties-brussels-summit",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Blyth_Offshore_Wind_Turbines_-_geograph.org.uk_-_394707.jpg",
+        "alt": "Blyth offshore wind farm turbines generating renewable energy in the North Sea",
+        "credit": "Michael Batey / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Blyth_Offshore_Wind_Turbines_-_geograph.org.uk_-_394707.jpg"
+      },
+      "titre": "Diplomatie et transition énergétique : cinq dirigeants européens appellent à réintégrer le Royaume-Uni dans le marché de l'électricité",
+      "faits": "En marge du sommet informel de Bruxelles consacré à la sécurité d'approvisionnement du continent, les dirigeants de la France, de l'Allemagne, des Pays-Bas, de la Belgique et de l'Irlande ont adressé une lettre commune à la Commission européenne pour réclamer la réintégration formelle du Royaume-Uni dans le marché intérieur de l'électricité de l'Union européenne. Depuis l'entrée en vigueur définitive du Brexit en 2021, les gestionnaires de réseau britanniques et continentaux doivent organiser des enchères séparées et non couplées sur les interconnexions sous-marines transmanche, ce qui entraîne des inefficacités d'allocation évaluées à plusieurs centaines de millions d'euros chaque année. Les signataires soulignent que l'accélération massive des parcs éoliens offshore en mer du Nord rend indispensable un couplage algorithmique en temps réel des flux électriques pour équilibrer l'intermittence des énergies renouvelables. Le Premier ministre britannique a salué cette initiative transpartisane, la qualifiant d'étape pragmatique vers la normalisation des relations économiques entre Londres et les Vingt-Sept. Cette proposition suscite toutefois des réserves chez certains diplomates européens qui redoutent un retour au picorage réglementaire sans alignement sur la législation communautaire.",
+      "enjeux": "Cette initiative conjointe met en évidence la contradiction croissante entre la séparation politique voulue par le Brexit et l'interdépendance physique incontournable des infrastructures énergétiques modernes. La mer du Nord est devenue le premier bassin de production d'énergie décarbonée en Europe, mais les électrons ne connaissent pas les frontières juridiques : transporter l'énergie éolienne britannique vers le continent lors des tempêtes et importer de l'électricité nucléaire française lors des calmes anticycloniques est une nécessité technique absolue. Réintégrer le Royaume-Uni dans les mécanismes d'enchères coordonnées permettrait de réduire le coût global de l'électricité pour les consommateurs industriels et ménagers de part et d'autre de la Manche. Sur le plan géopolitique, cela marquerait la première brèche majeure dans le principe d'intégrité stricte du marché unique depuis le départ du Royaume-Uni, créant un précédent potentiel pour d'autres secteurs stratégiques comme la défense ou la recherche spatiale. Ce rapprochement pragmatique démontre que l'impératif de sécurité énergétique et climatique prévaut désormais sur les rigidités diplomatiques héritées du divorce de 2020.",
+      "vo": {
+        "titre": "European leaders urge formal electricity market reintegration for post-Brexit UK",
+        "faits": "On the sidelines of an informal Brussels summit on energy security, the heads of government of France, Germany, the Netherlands, Belgium, and Ireland submitted a landmark joint letter to the European Commission advocating the immediate reintegration of the United Kingdom into the EU internal electricity market. Since the definitive entry into force of the Trade and Cooperation Agreement in 2021, subsea cross-Channel interconnectors have operated without algorithmic day-ahead market coupling, creating friction and allocative inefficiencies estimated at hundreds of millions of euros annually. The five leaders emphasised that the rapid expansion of offshore wind farms across the North Sea demands seamless cross-border transmission to balance the inherent intermittency of renewable generation. The British Prime Minister enthusiastically welcomed the diplomatic overture, framing it as a pragmatic milestone toward rebuilding institutional trust and mutually beneficial economic cooperation between London and the bloc. However, European Commission technocrats remain cautious, insisting that any market reintegration must strictly prevent regulatory arbitrage or undue cherry-picking of single market privileges.",
+        "enjeux": "This diplomatic breakthrough exposes the widening discrepancy between rigid post-Brexit legal boundaries and the inescapable physical interdependence of interconnected energy grids across Western Europe. The North Sea basin represents Europe's primary clean power powerhouse, yet harnessing its volatile wind resources requires uninterrupted bilateral flows between British turbines and continental consumer centres. Restoring algorithmic market coupling would substantially curb grid congestion costs, stabilise wholesale energy prices, and safeguard regional energy resilience against external geopolitical weaponisation of fossil fuels. Politically, granting Britain access to a flagship single market mechanism without requiring full submission to the European Court of Justice could set a controversial precedent for future UK-EU sectoral pacts. Ultimately, this energy rapprochement signals that climate decarbonisation targets and energy security realities are overriding ideological purity in contemporary European governance."
+      },
+      "vocab": [
+        [
+          "day-ahead market",
+          "marché de l'électricité pour le lendemain",
+          "Cross-Channel power trades now rely on subsea interconnectors without day-ahead market algorithmic coupling."
+        ],
+        [
+          "cherry-picking",
+          "tri sélectif / picorage réglementaire",
+          "Brussels negotiators warned against cherry-picking the benefits of the single market without accepting its obligations."
+        ],
+        [
+          "intermittency",
+          "intermittence (de l'énergie)",
+          "The rapid scale-up of wind capacity requires flexible interconnections to mitigate renewable intermittency."
+        ],
+        [
+          "allocative efficiency",
+          "efficacité allocative",
+          "Market integration enhances allocative efficiency by directing electricity to areas with the highest real-time demand."
+        ],
+        [
+          "overture",
+          "ouverture / geste diplomatique",
+          "Downing Street hailed the five European leaders' overture as a breakthrough in post-Brexit relations."
+        ],
+        [
+          "arbitrage",
+          "arbitrage réglementaire ou financier",
+          "Regulators must prevent cross-border regulatory arbitrage that could distort fair competition among power utilities."
+        ]
+      ],
+      "sujets": [
+        "Can the imperative of green energy transition bridge the political divide left by Brexit?",
+        "To what extent does cross-border infrastructure challenge the conventional concept of national sovereignty?"
+      ],
+      "anki": [
+        {
+          "q": "What economic and technical inefficiencies arose from excluding the UK from the EU's internal electricity market after Brexit?",
+          "r": "Key inefficiencies :\n→ Loss of algorithmic day-ahead market coupling on subsea interconnectors.\n→ Sub-optimal cross-Channel electricity flows causing price volatility.\n→ Annual deadweight losses estimated in hundreds of millions of euros."
+        },
+        {
+          "q": "Why is the North Sea offshore wind infrastructure driving diplomatic rapprochement between London and Brussels?",
+          "r": "Strategic imperatives :\n→ Physical intermittency requires mutual balancing between UK wind power and continental baseload.\n→ Collective grid integration lowers transmission costs and bolsters European energy sovereignty."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-anglais-2",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/07/great-british-railways-new-dawn-for-a-new-network-but-with-plenty-of-old-problems-to-fix",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Chiltern_locomotive_hauled_train_%2852528312157%29.jpg/1280px-Chiltern_locomotive_hauled_train_%2852528312157%29.jpg",
+        "alt": "British passenger train operated on the UK national rail network",
+        "credit": "James Petts from London, England / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chiltern_locomotive_hauled_train_(52528312157).jpg"
+      },
+      "titre": "Transports publics britanniques : le projet de Great British Railways face au défi historique des retards d'infrastructures",
+      "faits": "Le ministère britannique des Transports a franchi une étape institutionnelle majeure en déposant devant la Chambre des communes le projet de loi instaurant formellement Great British Railways (GBR). Cette nouvelle entité publique intégrera la gestion de l'infrastructure ferroviaire jusqu'ici dévolue à Network Rail et la commande unifiée des services de passagers à mesure que les contrats de franchise privés expirent. Le gouvernement affirme que cette réunification mettra fin à trois décennies d'un modèle de privatisation hérité des années 1990, caractérisé par un morcellement contractuel absurde, des retards chroniques et une flambée des tarifs pour les usagers. Cependant, le National Audit Office (NAO) a immédiatement tempéré cet enthousiasme dans un rapport alarmant sur l'état vétuste des voies, le retard accumulé des programmes d'électrification et le coût budgétaire exorbitant de la reprise des opérations. Le régulateur indépendant avertit que la simple réorganisation administrative ne pourra résorber le déficit structurel du rail britannique sans un investissement en capital massif de plusieurs dizaines de milliards de livres.",
+      "enjeux": "La création de Great British Railways constitue un cas d'école des limites des politiques de libéralisation appliquées aux monopoles naturels de transport lourd. La privatisation du réseau ferroviaire britannique sous John Major avait séparé artificiellement l'infrastructure (Railtrack, devenue Network Rail) et les exploitants de rames (TOCs), multipliant les litiges d'attribution des pénalités de retard et décourageant les investissements de modernisation de long terme. La renationalisation progressive sous l'égide de GBR consacre l'échec de la coordination par le marché dans les services publics à forte intensité de capital. Toutefois, le défi budgétaire pour le Trésor britannique est immense dans un contexte de discipline fiscale sévère et de restriction des dépenses publiques. Sans une modernisation technologique en profondeur des systèmes de signalisation numérique et de l'électrification des grandes lignes régionales, les usagers risquent de ne constater aucune amélioration tangible de la ponctualité malgré le retour de la gestion publique unifiée.",
+      "vo": {
+        "titre": "Great British Railways bill launched amid warnings over chronic network underinvestment",
+        "faits": "The British Department for Transport officially introduced its flagship Railways Bill to the House of Commons, formalising the creation of Great British Railways (GBR) as the overarching public body governing the national rail network. This legislative overhaul terminates three decades of fragmented railway privatisation by consolidating track infrastructure management—currently handled by Network Rail—with passenger operations as private operating contracts gradually sunset. Ministers hailed the reform as a decisive turning point designed to streamline disjointed operations, simplify bewildering fare structures, and restore passenger confidence in public transport. Nevertheless, the National Audit Office promptly published a sobering assessment detailing extensive maintenance backlogs, sluggish electrification progress, and severe budget overruns across legacy infrastructure programmes. The spending watchdog warned that institutional reorganisation alone will fail to improve punctuality or reduce taxpayer subsidies without substantial, multi-year capital injections into track and signalling modernization.",
+        "enjeux": "The establishment of Great British Railways represents a defining reappraisal of the free-market dogma that inspired the 1990s privatization of British Rail. By artificially decoupling track maintenance from rolling-stock operations, the original franchise architecture created perverse contractual incentives, bloated administrative friction, and stifled comprehensive strategic planning. The unified GBR framework acknowledges that high-density railway networks operate inherently as natural monopolies requiring centralised operational coordination. However, the Treasury faces acute fiscal constraints that severely limit borrowing for grand infrastructure projects following the cancellation of Northern HS2 legs. Rebuilding passenger ridership in the post-pandemic teleworking era while managing union wage disputes requires delicate industrial relations and disciplined capital allocation. Without sweeping modernization, public ownership risks absorbing mounting operating deficits without delivering the reliable, decarbonised transit network that Britain's productivity desperately demands."
+      },
+      "vocab": [
+        [
+          "overhaul",
+          "refonte complète / révision",
+          "The government introduced a major legislative overhaul to reunify track and train management."
+        ],
+        [
+          "rolling stock",
+          "matériel roulant (trains)",
+          "Private operators had leased rolling stock under complex contractual agreements with high capital costs."
+        ],
+        [
+          "backlog",
+          "arriéré / retard accumulé",
+          "Network Rail faces an immense maintenance backlog across its Victorian rail bridges and signalling systems."
+        ],
+        [
+          "perverse incentives",
+          "effets pervers / incitations néfastes",
+          "Separating track and trains created perverse incentives for operators to dispute blame over delay penalties."
+        ],
+        [
+          "natural monopoly",
+          "monopole naturel",
+          "Heavy rail transport constitutes a classic natural monopoly where duplicative infrastructure is economically unviable."
+        ],
+        [
+          "ridership",
+          "fréquentation (d'un réseau de transport)",
+          "Sustained remote work has permanently altered commuter travel habits and reduced suburban rail ridership."
+        ]
+      ],
+      "sujets": [
+        "Does the creation of Great British Railways illustrate the inherent limits of market privatisation in public utilities?",
+        "How can public infrastructure projects balance strict fiscal discipline with long-term ecological modernization?"
+      ],
+      "anki": [
+        {
+          "q": "Why was the 1990s privatization of British Rail widely deemed a structural failure?",
+          "r": "Root systemic causes :\n→ Artificial separation of track maintenance (infrastructure) and train operators (TOCs).\n→ Proliferation of adversarial contractual disputes over delay penalties.\n→ Disjointed investment leading to underfunded electrification and soaring fares."
+        },
+        {
+          "q": "What major obstacles does Great British Railways face despite renationalizing passenger operations?",
+          "r": "Key operational hurdles :\n→ Severe capital constraints and Treasury spending caps limiting infrastructure upgrades.\n→ Massive maintenance and signalling backlogs across the Victorian rail network.\n→ Structurally reduced commuter revenues following post-pandemic hybrid work."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-anglais-3",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/07/youth-vote-turnout-midterm-elections",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Blue_Sky_over_the_Capitol_Dome_March_2013_%288539687434%29.jpg",
+        "alt": "The United States Capitol Dome under a clear blue sky in Washington DC",
+        "credit": "USCapitol / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Blue_Sky_over_the_Capitol_Dome_March_2013_(8539687434).jpg"
+      },
+      "titre": "Sociologie électorale aux États-Unis : le sursaut massif du vote des jeunes a porté la victoire démocrate aux élections de mi-mandat",
+      "faits": "Les analyses post-électorales détaillées publiées par les grands centres universitaires américains révèlent que la participation électorale des jeunes de 18 à 29 ans a atteint un niveau historique de 38 % lors des élections de mi-mandat aux États-Unis. Ce taux de mobilisation, sans précédent pour un scrutin de mi-mandat depuis le début des années 1970, a largement fait pencher la balance en faveur des candidats démocrates dans les circonscriptions clés de Pennsylvanie, du Michigan et du Wisconsin. Les sondages à la sortie des urnes indiquent que les électeurs de la génération Z ont voté à plus de 64 % pour le camp démocrate, galvanisés par la défense du droit à l'avortement, la lutte contre le réchauffement climatique et le coût exorbitant du logement étudiant. Cette participation massive a pris de court les instituts de sondage traditionnels, dont les modèles de projection probabilistes reposaient sur des échantillons téléphoniques surreprésentant les électeurs plus âgés. Les stratèges républicains reconnaissent ouvertement leur incapacité à séduire une cohorte générationnelle de plus en plus diversifiée sur le plan démographique et culturel.",
+      "enjeux": "La transformation du comportement électoral des jeunes Américains redéfinit en profondeur la géographie politique et la dynamique partidaire des États-Unis. Historiquement abstentionniste et volatile, la jeunesse américaine émerge désormais comme un bloc électoral cohérent et mobilisé, capable de déjouer les vagues d'opposition traditionnelles contre le parti au pouvoir. Cette lame de fond générationnelle reflète un clivage idéologique béant sur les questions sociétales, où les valeurs libérales et progressistes dominent écrasement les campus universitaires et les zones métropolitaines. Pour le Parti démocrate, cette dépendance accrue envers la jeunesse impose d'accélérer sur des réformes concrètes telles que l'annulation de la dette étudiante et les investissements fédéraux dans les énergies propres. Pour le Parti républicain, le déficit de voix au sein des générations nées après 1996 pose un problème de viabilité électorale existentiel à moyen terme, incitant certains États conservateurs à multiplier les obstacles administratifs à l'inscription sur les listes électorales des campus.",
+      "vo": {
+        "titre": "Historic youth turnout propelled Democratic victories across competitive midterm battlegrounds",
+        "faits": "Rigorous post-election precinct audits conducted by leading political science departments revealed that voter turnout among Americans aged 18 to 29 reached a record-shattering 38% in the recent United States midterm elections. This surge in civic participation, unparalleled for a non-presidential cycle since the lowering of the voting age in the early 1970s, proved decisive in swinging razor-thin House and Senate contests across critical battleground states including Pennsylvania, Michigan, and Wisconsin. National exit polling established that Generation Z and younger millennial voters supported Democratic candidates by a staggering 64% margin, predominantly motivated by reproductive healthcare access, federal climate initiatives, and soaring housing costs. Legacy polling institutions had systematically failed to forecast this generational mobilization, having relied on orthodox turnout models that persistently underweight mobile, digitally active younger demographics. Republican strategists have begun openly acknowledging severe vulnerabilities in appealing to an increasingly diverse and secular youth electorate.",
+        "enjeux": "The structural realignment of youth political engagement is profoundly redrawing the electoral arithmetic and strategic fault lines of modern American democracy. Long dismissed by campaign operatives as notoriously fickle and chronically disengaged, younger cohorts have demonstrated sustained electoral efficacy in consecutive federal cycles. This generational divergence reflects an expanding ideological chasm, as progressive cultural values, urgent environmental consciousness, and economic grievances over student loan indebtedness firmly isolate young voters from conservative messaging. For Democrats, retaining this vital base will require delivering tangible legislative results rather than relying solely on existential warnings regarding democratic erosion. Conversely, the Republican Party faces a demographic reckoning: absent an ideological reset or genuine economic appeal to entry-level workers and graduates, reliance on older rural voters risks becoming an electoral dead-end in increasingly urbanised suburban districts."
+      },
+      "vocab": [
+        [
+          "turnout",
+          "taux de participation électorale",
+          "Record youth turnout reshaped outcomes in closely contested congressional races."
+        ],
+        [
+          "battleground state",
+          "État clé / État pivot",
+          "Campaign advertising was heavily concentrated in Midwestern battleground states."
+        ],
+        [
+          "exit polling",
+          "sondages à la sortie des urnes",
+          "Extensive exit polling indicated sharp generational divergence in candidate preference."
+        ],
+        [
+          "chasm",
+          "gouffre / fossé béant",
+          "An expanding ideological chasm separates urban university graduates from older rural voters."
+        ],
+        [
+          "underweight",
+          "sous-pondérer (dans un échantillon)",
+          "Traditional election pollsters tended to underweight cell phone-only voters in their survey models."
+        ],
+        [
+          "electoral arithmetic",
+          "calcul / arithmétique électorale",
+          "Demographic shifts are rapidly upending the traditional electoral arithmetic of presidential coalitions."
+        ]
+      ],
+      "sujets": [
+        "Is generational replacement becoming the primary driver of political realignment in the United States?",
+        "To what extent does digital civic engagement translate into lasting electoral power for younger citizens?"
+      ],
+      "anki": [
+        {
+          "q": "What key demographic and sociological factors drove record youth turnout in the recent US midterms?",
+          "r": "Core drivers :\n→ Historic 38% turnout rate among 18-29 year olds.\n→ Overwhelming 64% Democratic preference driven by abortion rights, climate urgency, and student debt burdens.\n→ Mobilization concentrated in crucial swing districts and college towns."
+        },
+        {
+          "q": "Why does the growing generational political divide pose an existential threat to the Republican Party?",
+          "r": "Strategic vulnerabilities :\n→ Younger cohorts are racially more diverse, socially progressive, and secular.\n→ Conservative platforms rooted in older demographics face mathematical decline as generational turnover accelerates."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-espagnol-1",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/economia/2026-11-07/las-comunidades-autonomas-proyectan-rebajas-fiscales-por-2300-millones-hasta-2031.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Detalle_fachada_Palacio_San_Telmo_001.jpg/1280px-Detalle_fachada_Palacio_San_Telmo_001.jpg",
+        "alt": "Fachada barroca del Palacio de San Telmo, sede de la presidencia de la Junta de Andalucía en Sevilla",
+        "credit": "Anual / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Detalle_fachada_Palacio_San_Telmo_001.jpg"
+      },
+      "titre": "Fédéralisme fiscal en Espagne : les régions autonomes projettent 2,3 milliards d'euros de baisses d'impôts d'ici 2031 selon l'AIReF",
+      "faits": "Dans son rapport d'évaluation pluriannuel sur la soutenabilité des finances publiques sous-centrales, l'Autorité indépendante de responsabilité fiscale (AIReF) espagnole révèle que les communautés autonomes prévoient d'adopter des allégements fiscaux cumulés de plus de 2,3 milliards d'euros à l'horizon 2031. Ces baisses d'impôts, principalement impulsées par les gouvernements régionaux conservateurs de Madrid, d'Andalousie et de la Communauté valencienne, ciblent en priorité le barème autonome de l'impôt sur le revenu (IRPF), l'impôt sur la fortune et les droits de succession et de donation. L'organisme de contrôle indépendant souligne que cette course aux allégements fiscaux intervient au moment même où les règles budgétaires européennes imposent un retour strict à un déficit public inférieur à 3 % du PIB et à une réduction continue de la dette. L'AIReF met en garde contre l'absence de compensation financière de ces manques à gagner fiscaux, qui risque de fragiliser le financement futur des services publics délégués essentiels comme la santé et l'éducation. Le ministère des Finances a immédiatement dénoncé une surenchère de dumping fiscal territorial sapant la cohésion nationale.",
+      "enjeux": "Ce rapport sans complaisance réactive avec une acuité particulière le débat sur le fédéralisme fiscal et la concurrence fiscale dommageable entre les territoires espagnols. Le modèle constitutionnel de l'État des autonomies accorde aux régions une large capacité de dépense sociale mais une autonomie fiscale asymétrique, ce qui incite certaines régions riches à pratiquer un moins-disant fiscal pour attirer les hauts patrimoines et les sièges sociaux. Cette stratégie de concurrence fiscale érode les bases taxables des territoires voisins et accentue les inégalités territoriales de financement des infrastructures sanitaires et scolaires. Par ailleurs, la négociation en cours sur le financement singulier réclamé par la Catalogne rend d'autant plus explosive la question de la solidarité interrégionale et de la péréquation financière. Sans une harmonisation fiscale minimale encadrée par l'État central, le système de financement régional risque d'entrer dans une phase de blocage institutionnel majeure susceptible de compromettre les engagements budgétaires de l'Espagne vis-à-vis de Bruxelles.",
+      "vo": {
+        "titre": "Las comunidades autónomas proyectan rebajas fiscales por 2.300 millones de euros hasta 2031 según la AIReF",
+        "faits": "En su último informe de sostenibilidad presupuestaria a medio plazo, la Autoridad Independiente de Responsabilidad Fiscal (AIReF) ha advertido de que los gobiernos autonómicos planean aplicar rebajas tributarias por un importe agregado de 2.300 millones de euros hasta el año 2031. Esta ofensiva de reducción impositiva, abanderada por comunidades gobernadas por el Partido Popular como Madrid, Andalucía y la Comunidad Valenciana, se concentra en deflactar o rebajar los tramos autonómicos del IRPF, además de bonificar casi al 100% los tributos sobre el patrimonio y sobre sucesiones y donaciones. El organismo fiscalizador independiente recalca que estas medidas minorarán drásticamente los ingresos estructurales en un momento de estricta reactivación de las reglas fiscales comunitarias impulsadas por la Comisión Europea. La AIReF avisa de que prescindir de estos recursos sin recortes equivalentes de gasto compromete el sostenimiento del Estado del bienestar, cuya gestión operativa recae mayoritariamente en las autonomías a través de la sanidad y la educación públicas. El Gobierno central ha criticado duramente este fenómeno al tacharlo de competencia desleal y desmantelamiento tributario.",
+        "enjeux": "Las conclusiones del informe de la AIReF sitúan en el centro del debate político la insostenibilidad de la competencia fiscal a la baja entre territorios dentro del Estado autonómico español. La asimetría existente entre una amplia descentralización del gasto público y una corresponsabilidad fiscal fragmentada genera incentivos perversos para que regiones con mayor concentración de rentas utilicen su margen tributario como reclamo para atraer bases imponibles. Esta dinámica de vaciamiento impositivo erosiona la capacidad de recaudación global y tensiona los fondos de compensación interterritorial encargados de garantizar la igualdad de acceso a los servicios esenciales. La polémica coincide con las complejas negociaciones sobre el concierto económico catalán, lo que agrava la confrontación entre el modelo recentralizador y las demandas de mayor autogobierno financiero. La falta de un suelo tributario común amenaza no solo la cohesión social interna sino también el cumplimiento estricto de los objetivos de reducción de déficit pactados con la Unión Europea."
+      },
+      "vocab": [
+        [
+          "bonificación",
+          "abattement fiscal / exonération",
+          "Varios gobiernos autonómicos han aprobado una bonificación casi total del impuesto sobre el patrimonio."
+        ],
+        [
+          "corresponsabilidad fiscal",
+          "responsabilité / co-responsabilité fiscale",
+          "La falta de corresponsabilidad fiscal debilita la disciplina presupuestaria en las regiones descentralizadas."
+        ],
+        [
+          "base imponible",
+          "base imposable / assiette fiscale",
+          "Las rebajas fiscales agresivas buscan atraer la base imponible de rentas altas de territorios colindantes."
+        ],
+        [
+          "fondo de compensación",
+          "fonds de péréquation / de compensation",
+          "El fondo de compensación interterritorial busca reducir las brechas de renta entre las comunidades autónomas."
+        ],
+        [
+          "fiscalizador",
+          "de contrôle financier / d'audit",
+          "El organismo fiscalizador independiente advirtió sobre la merma de ingresos estructurales a medio plazo."
+        ],
+        [
+          "deflactar",
+          "déflater / indexer sur l'inflation",
+          "Algunas autonomías optaron por deflactar los tramos del IRPF para mitigar el impacto de la inflación."
+        ]
+      ],
+      "sujets": [
+        "¿Favorece la descentralización fiscal la eficiencia económica o acentúa las desigualdades interterritoriales en España?",
+        "¿Hasta qué punto es viable el Estado del bienestar autonómico frente a la competencia tributaria a la baja?"
+      ],
+      "anki": [
+        {
+          "q": "¿Qué alerta económica y presupuestaria ha emitido la AIReF sobre las rebajas fiscales autonómicas en España?",
+          "r": "Puntos clave de la AIReF :\n→ Proyección de rebajas fiscales por 2.300 millones de euros hasta 2031 (IRPF, patrimonio, sucesiones).\n→ Merma de ingresos estructurales en plena reactivación de las reglas fiscales de la UE.\n→ Riesgo grave para la financiación de la sanidad y educación públicas sin ahorro compensatorio."
+        },
+        {
+          "q": "¿En qué consiste el dilema de la competencia fiscal a la baja en el modelo de las comunidades autónomas?",
+          "r": "Mecanismo económico :\n→ Autonomías con mayor riqueza (Madrid, Andalucía) rebajan tributos para atraer capitales y rentas altas.\n→ Esta práctica erosiona la base imponible global y debilita los fondos de solidaridad y cohesión territorial."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-espagnol-2",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/america/2026-11-06/santiago-pena-destituido-por-el-congreso-como-presidente-de-paraguay.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg/1280px-00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg",
+        "alt": "Fachada del Palacio de los López en Asunción, sede del gobierno de Paraguay",
+        "credit": "W. Bulach / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:00_3819_Asunci%C3%B3n_-_Paraguay_(S%C3%BCdamerika).jpg"
+      },
+      "titre": "Crise politique au Paraguay : le président Santiago Peña destitué et incarcéré après la faillite retentissante de la néobanque Ueno Bank",
+      "faits": "Dans un dénouement politique d'une rapidité foudroyante, le Congrès national du Paraguay a voté à une écrasante majorité la destitution par jugement politique du président de la République Santiago Peña, avant que la justice n'ordonne son arrestation immédiate. Le chef de l'État, en poste depuis août 2023, s'est retrouvé au centre d'un scandale financier dévastateur provoqué par la faillite et la mise sous tutelle de la néobanque Ueno Bank, dont il était actionnaire et qui gérait d'importants flux de fonds publics. Les révélations d'irrégularités massives, de malversations comptables et de transferts suspects vers des sociétés écrans liées au mentor politique de Peña, l'ancien président Horacio Cartes, ont déclenché des manifestations populaires massives dans les rues d'Asunción. Le vice-président Pedro Alliana a prêté serment en urgence pour assurer la présidence par intérim, tandis que le ministère public a engagé des poursuites criminelles pour corruption aggravée, blanchiment d'argent et enrichissement illicite. Cette chute brutale ébranle l'hégémonie historique du parti conservateur Colorado, au pouvoir presque sans interruption depuis plus de sept décennies.",
+      "enjeux": "La déposition spectaculaire de Santiago Peña expose au grand jour la collusion systémique entre le pouvoir politique, les élites d'affaires et le secteur financier émergent au Paraguay. L'ascension fulgurante de néobanques fintech comme Ueno Bank avait été promue par le pouvoir exécutif comme le symbole de la modernisation économique et de l'inclusion financière du pays, avant que le château de cartes ne s'effondre sous le poids de la captation illicite de ressources publiques. Cette crise institutionnelle aiguë affaiblit considérablement la crédibilité internationale du Paraguay au moment précis où le pays tentait d'attirer des investissements industriels étrangers et de négocier des accords stratégiques au sein du Mercosur. Elle met également en péril la stabilité du secteur bancaire local, forçant la Banque centrale du Paraguay à injecter des liquidités d'urgence pour prévenir une panique bancaire chez les petits épargnants. Enfin, la rupture au sein de l'appareil du parti Colorado annonce une période de recomposition politique incertaine dans une région latino-américaine déjà traversée par une forte défiance citoyenne envers les institutions démocratiques.",
+      "vo": {
+        "titre": "El Congreso de Paraguay destituye y encarcela al presidente Santiago Peña por el colapso financiero de Ueno Bank",
+        "faits": "En una sesión extraordinaria cargada de dramatismo institucional, el Congreso de Paraguay aprobó por abrumadora mayoría el juicio político y la consiguiente destitución del presidente Santiago Peña, quien fue arrestado pocas horas después por orden de la Fiscalía General. El mandatario, economista y antiguo funcionario del Fondo Monetario Internacional que asumió el poder en agosto de 2023, quedó completamente acorralado tras la quiebra fraudulenta de la entidad tecnofinanciera Ueno Bank, de la que era accionista y receptor de multimillonarios fondos fiduciarios del Estado. Las pesquisas judiciales destaparon una vasta red de desvío de caudales públicos, adjudicaciones ilícitas y transferencias opacas hacia sociedades instrumentales vinculadas al círculo del expresidente Horacio Cartes. Miles de ciudadanos indignados salieron a las calles de Asunción exigiendo el fin de la impunidad y la depuración del sistema judicial, desbordando las defensas del Gobierno. El vicepresidente Pedro Alliana juró de inmediato como jefe de Estado interino para evitar un vacío de poder en medio del desconcierto generalizado.",
+        "enjeux": "La fulminante caída del presidente paraguayo arroja una luz implacable sobre las intrincadas redes de connivencia entre el poder político tradicional y los nuevos conglomerados financieros en América Latina. La irrupción de la banca digital había sido presentada como el buque insignia de la modernización bancaria, pero terminó sirviendo como vehículo opaco para la captura de rentas estatales por parte de las élites dirigentes. El terremoto político debilita gravemente la posición negociadora de Paraguay en el tablero internacional, comprometiendo su aspiración de alcanzar el grado de inversión crediticio y paralizando las discusiones arancelarias en el seno del Mercosur. Además, la quiebra de la entidad ha obligado al Banco Central a intervenir con celeridad para cortar el contagio sistémico y garantizar los depósitos minoristas. El colapso de la presidencia de Peña no solo socava la hegemonía casi centenaria del gobernante Partido Colorado, sino que alimenta el descontento de una sociedad hastiada de la corrupción endémica y la debilidad del Estado de derecho."
+      },
+      "vocab": [
+        [
+          "juicio político",
+          "procédure de destitution / procès en destitution",
+          "El Congreso paraguayo votó un juicio político fulminante contra el presidente de la República."
+        ],
+        [
+          "desvío de caudales públicos",
+          "détournement de fonds publics",
+          "La fiscalía presentó pruebas contundentes sobre el desvío de caudales públicos hacia la banca digital."
+        ],
+        [
+          "connivencia",
+          "collusion / connivence",
+          "El escándalo destapó una red de connivencia entre los dirigentes políticos y el sector bancario."
+        ],
+        [
+          "sociedad instrumental",
+          "société écran / société fictive",
+          "Los fondos opacos transitaban a través de una red de sociedades instrumentales en paraísos fiscales."
+        ],
+        [
+          "grado de inversión",
+          "note d'investissement (notation financière)",
+          "La crisis institucional frena las aspiraciones del país de lograr el grado de inversión en los mercados internacionales."
+        ],
+        [
+          "contagio sistémico",
+          "contagion systémique (financière)",
+          "El Banco Central inyectó liquidez inmediata para evitar un contagio sistémico al resto de bancos."
+        ]
+      ],
+      "sujets": [
+        "¿Hasta qué punto la corrupción institucional y la captura del Estado frenan el desarrollo económico en América Latina?",
+        "¿Representa la caída de los liderazgos tradicionales una oportunidad de regeneración democrática o una amenaza de inestabilidad crónica?"
+      ],
+      "anki": [
+        {
+          "q": "¿Cuáles fueron las causas inmediatas de la destitución y arresto del presidente paraguayo Santiago Peña?",
+          "r": "Causas principales :\n→ Quiebra fraudulenta del neobanco Ueno Bank, vinculado accionarialmente a Peña.\n→ Desvío masivo de fondos fiduciarios públicos hacia firmas del expresidente Horacio Cartes.\n→ Movilizaciones ciudadanas masivas y pérdida total de apoyo en el Congreso."
+        },
+        {
+          "q": "¿Qué consecuencias geopolíticas y financieras acarrea la crisis institucional en Paraguay?",
+          "r": "Impactos estructurales :\n→ Freno a la calificación crediticia de 'grado de inversión' y desconfianza en el Mercosur.\n→ Riesgo de inestabilidad bancaria contenido por inyecciones del Banco Central.\n→ Quiebra interna en la hegemonía histórica del Partido Colorado."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-espagnol-3",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/economia/2026-11-07/la-poblacion-activa-en-espana-envejece-mas-rapido-que-la-media-europea.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Madrid_-_Edificio_Grassy_%28Gran_V%C3%ADa_1%29_-_north_facade_-_relief_over_entrance.jpg/1280px-Madrid_-_Edificio_Grassy_%28Gran_V%C3%ADa_1%29_-_north_facade_-_relief_over_entrance.jpg",
+        "alt": "Perspectiva de la Gran Vía de Madrid con transeúntes y edificios representativos de la capital española",
+        "credit": "Tomascastelazo / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Madrid_-_Edificio_Grassy_(Gran_V%C3%ADa_1)_-_north_facade_-_relief_over_entrance.jpg"
+      },
+      "titre": "Démographie et marché du travail : la population active espagnole vieillit plus vite que la moyenne européenne selon CaixaBank",
+      "faits": "Une étude démographique et économique approfondie publiée par le service d'études de CaixaBank Research alerte sur le fait que la population active en Espagne vieillit à un rythme significativement plus rapide que la moyenne des pays de l'Union européenne. Selon les projections du rapport, plus de 32 % des personnes en emploi ou en recherche active dépasseront l'âge de 50 ans d'ici la fin de la décennie, un niveau inédit qui s'explique par l'entrée progressive à l'âge de la retraite de la génération pléthorique du baby-boom des années 1960. Dans le même temps, le taux de fécondité espagnol stagne à un niveau alarmant de 1,16 enfant par femme, parmi les plus faibles du monde industrialisé, ce qui limite considérablement le vivier de jeunes entrants sur le marché du travail. Le rapport souligne que si les flux migratoires récents ont permis de soutenir la croissance de l'emploi à court terme, ils ne suffisent plus à compenser le déficit démographique structurel qui s'installe dans les régions de l'intérieur et du nord-ouest du pays. Les analystes prévoient des pénuries aiguës de main-d'œuvre dans l'industrie, les services à la personne et les technologies de pointe.",
+      "enjeux": "Ce vieillissement accéléré de la main-d'œuvre pose un défi sans précédent à la soutenabilité du modèle social et à la productivité globale de l'économie espagnole. Sur le plan budgétaire, le ratio de dépendance démographique entre retraités et cotisants actifs se dégrade rapidement, menaçant l'équilibre financier du régime de sécurité sociale et du système public de pensions par répartition malgré les récentes réformes paramétriques. Sur le marché de l'emploi, la concentration des compétences chez des travailleurs plus âgés expose l'appareil productif à un risque d'obsolescence face à la transition numérique et à l'intelligence artificielle sans un effort massif de formation continue tout au long de la vie. Pour les entreprises espagnoles, la raréfaction des profils juniors tire les coûts salariaux vers le haut et freine l'innovation entrepreneuriale dans les secteurs à forte valeur ajoutée. Pour relever ce choc démographique inéluctable, l'Espagne devra impérativement combiner une intégration professionnelle réussie des travailleurs immigrés qualifiés, des politiques d'aide à la natalité beaucoup plus ambitieuses et un report effectif de l'âge de départ à la retraite.",
+      "vo": {
+        "titre": "El acelerado envejecimiento de la población activa sitúa a España a la cabeza del declive demográfico europeo",
+        "faits": "Un exhaustivo informe demográfico y laboral publicado por el servicio de estudios de CaixaBank Research ha alertado de que la fuerza laboral en España está envejeciendo a un ritmo notablemente superior al promedio de la Unión Europea. Las proyecciones indican que hacia el final de la presente década cerca de un tercio de los trabajadores en activo superará los 50 años de edad, coincidiendo con la jubilación masiva de la cohorte del baby boom nacida entre finales de los cincuenta y mediados de los setenta. Este fenómeno se ve agravado por una tasa de fecundidad crónicamente deprimida que ronda los 1,16 hijos por mujer, una de las más bajas del planeta, lo que estrangula la incorporación de relevo generacional joven a los puestos de trabajo. Aunque las intensas entradas de población inmigrante han insuflado dinamismo a la afiliación a la Seguridad Social durante los últimos ejercicios, los economistas advierten de que la inmigración por sí sola es incapaz de frenar el vaciamiento de la masa laboral en amplias franjas de la España interior. El documento augura tensiones acuciantes de escasez de mano de obra en sectores como la construcción, la atención sociosanitaria y los servicios técnicos especializados.",
+        "enjeux": "La rápida transición demográfica hacia una plantilla laboral envejecida constituye uno de los mayores frenos estructurales para el crecimiento potencial y la productividad agregada de España. En el ámbito presupuestario, el empeoramiento de la ratio entre pensionistas y cotizantes someterá a una presión financiera inédita a la hucha de las pensiones, cuestionando la sostenibilidad a largo plazo del mecanismo de equidad intergeneracional. En el plano puramente empresarial, una fuerza de trabajo veterana afronta mayores desafíos para adaptarse con celeridad a las disrupciones de la digitalización y la automatización si no se articulan programas masivos de recualificación continua. Asimismo, la falta de reemplazo generacional encarece la captación de talento en actividades de base tecnológica y perjudica la capacidad emprendedora del tejido productivo. Afrontar este desafío exigirá compatibilizar incentivos reales a la natalidad y a la conciliación familiar con una gestión ordenada y estratégica de la inmigración cualificada y un retraso voluntario pero eficaz de la edad efectiva de jubilación."
+      },
+      "vocab": [
+        [
+          "relevo generacional",
+          "remplacement / relève générationnelle",
+          "La industria afronta graves problemas de relevo generacional en puestos técnicos cualificados."
+        ],
+        [
+          "afiliación a la Seguridad Social",
+          "cotisations / affiliation à la sécurité sociale",
+          "La inmigración impulsó las cifras de afiliación a la Seguridad Social en el último trimestre."
+        ],
+        [
+          "recualificación",
+          "reconversion / formation continue",
+          "La recualificación laboral es imprescindible para mantener la empleabilidad de los trabajadores veteranos."
+        ],
+        [
+          "ratio de dependencia",
+          "taux de dépendance démographique",
+          "El aumento de la ratio de dependencia pone en riesgo el equilibrio financiero del sistema de pensiones."
+        ],
+        [
+          "conciliación familiar",
+          "conciliation travail-famille",
+          "Las ayudas a la conciliación familiar son clave para fomentar la natalidad entre los jóvenes."
+        ],
+        [
+          "hucha de las pensiones",
+          "fonds de réserve des retraites",
+          "El Gobierno busca nutrir la hucha de las pensiones para afrontar el retiro de la generación del baby boom."
+        ]
+      ],
+      "sujets": [
+        "¿Puede la inmigración compensar el impacto económico del envejecimiento de la población activa en el sur de Europa?",
+        "¿Cómo deben adaptarse el sistema productivo y el Estado del bienestar al invierno demográfico español?"
+      ],
+      "anki": [
+        {
+          "q": "¿Qué datos revelan la gravedad del envejecimiento de la población activa en España según CaixaBank?",
+          "r": "Cifras alarmantes :\n→ Más del 32% de los trabajadores en activo tendrá más de 50 años a finales de década.\n→ Tasa de fecundidad hundida en 1,16 hijos por mujer.\n→ Jubilación masiva de la generación del 'baby boom' sin reemplazo generacional suficiente."
+        },
+        {
+          "q": "¿Qué repercusiones plantea la falta de relevo generacional para la Seguridad Social y la productividad?",
+          "r": "Efectos estructurales :\n→ Deterioro drástico de la ratio cotizantes/pensionistas que desequilibra las cuentas públicas.\n→ Escasez crítica de mano de obra en sectores clave y freno a la adopción de nuevas tecnologías."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-allemand-1",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-produktion-cybertruck-100.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gigafactory_Texas_Building_1_June_2022.jpg/1280px-Gigafactory_Texas_Building_1_June_2022.jpg",
+        "alt": "Tesla Gigafactory Texas Außenansicht in Austin",
+        "credit": "Larry D. Moore / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gigafactory_Texas_Building_1_June_2022.jpg"
+      },
+      "titre": "Industrie automobile électrique : Tesla annonce l'arrêt de la production du Cybertruck au Texas au profit de son robotaxi",
+      "faits": "Le constructeur automobile américain de véhicules électriques Tesla a créé la surprise sur les marchés financiers en officialisant l'arrêt de la production de son pick-up futuriste Cybertruck dans son usine géante d'Austin, au Texas. Présenté il y a plusieurs années comme un véhicule révolutionnaire, le Cybertruck a accumulé d'immenses retards de livraison, des coûts de fabrication exorbitants et des défauts de jeunesse à répétition qui ont rebuté la clientèle nord-américaine. La direction du groupe texan a justifié cette décision stratégique par la volonté de réallouer immédiatement l'ensemble des capacités industrielles et des chaînes d'assemblage texanes vers son projet de robotaxi autonome et son véhicule électrique d'entrée de gamme à bas coût. Les investisseurs de Wall Street ont accueilli la nouvelle avec soulagement, estimant que la fin de ce foyer de pertes chroniques permettra d'assainir les marges opérationnelles du constructeur dans un contexte de guerre des prix féroce imposée par les constructeurs chinois. Cette volte-face illustre néanmoins la difficulté technique et industrielle à rentabiliser des modèles aux formes géométriques atypiques et à la carrosserie en acier inoxydable.",
+      "enjeux": "L'abandon du Cybertruck marque un tournant stratégique décisif pour Tesla et pour l'ensemble du secteur automobile mondial en pleine électrification. Alors que les constructeurs traditionnels américains comme Ford et General Motors ont eux aussi freiné leurs investissements dans les grands pick-ups électriques en raison d'une demande inférieure aux prévisions, Tesla choisit de fuir le segment des gros véhicules pour parier tout son avenir sur la conduite autonome et les flottes de robotaxis. Cette bifurcation technologique comporte toutefois des risques colossaux : la rentabilité des robotaxis dépend entièrement de l'obtention d'autorisations réglementaires fédérales encore très incertaines et de la maturité contestée des algorithmes d'intelligence artificielle en conditions réelles. De plus, Tesla doit affronter la concurrence agressive du leader chinois BYD, qui inonde les marchés émergents et européens de véhicules électriques compacts et abordables. Pour l'industrie automobile allemande et européenne, ce retrait démontre que même les pionniers de la mobilité électrique ne sont pas à l'abri de graves échecs de produit lorsqu'ils s'éloignent des besoins rationnels du marché de masse.",
+      "vo": {
+        "titre": "Tesla stoppt Cybertruck-Produktion in Texas zugunsten von Robotaxis",
+        "faits": "Der US-Elektroautobauer Tesla hat überraschend das Ende der Produktion seines futuristischen Pick-ups Cybertruck im texanischen Werk in Austin verkündet. Das vor einigen Jahren mit großem Aufwand vorgestellte Modell litt von Beginn an unter massiven Fertigungsproblemen, technischen Mängeln und hohen Herstellungskosten. Die Nachfrage auf dem amerikanischen Markt blieb deutlich hinter den ursprünglichen Erwartungen des Unternehmens zurück. Tesla-Chef Elon Musk begründete die Entscheidung damit, dass die Fabrikkapazitäten nun vollständig für das geplante autonome Robotaxi und ein günstigeres Einstiegsmodell genutzt werden sollen. An den Finanzmärkten reagierten viele Anleger mit Erleichterung auf die Nachricht, da der Cybertruck hohe Verluste verursacht hatte. Dieser Schritt zeigt jedoch deutlich, wie schwer es selbst für erfahrene Pioniere der Elektromobilität ist, extrem unkonventionelle Fahrzeugkonzepte profitabel in großen Stückzahlen zu bauen.",
+        "enjeux": "Das Aus für den Cybertruck markiert einen tiefgreifenden strategischen Kurswechsel in der globalen Automobilindustrie. Angesichts der schwächelnden Nachfrage nach teuren Elektro-Pick-ups in den USA konzentriert sich Tesla künftig noch stärker auf Software, künstliche Intelligenz und fahrerlose Transportdienste. Ob diese Wette auf das autonome Fahren aufgeht, ist allerdings völlig offen, da die rechtlichen Genehmigungen für Robotaxis in vielen Ländern nach wie vor unklar sind. Gleichzeitig wächst der Druck durch chinesische Konkurrenten wie BYD, die mit preiswerten Kleinwagen und soliden Elektroautos weltweit Marktanteile gewinnen. Für deutsche Hersteller wie Volkswagen, BMW und Mercedes-Benz ist das Scheitern des Cybertrucks ein klares Signal: Der globale Wettbewerb um die Mobilität der Zukunft wird nicht durch modische Nischenprodukte entschieden, sondern durch bezahlbare, alltagstaugliche Fahrzeuge mit hoher Effizienz und stabiler Software."
+      },
+      "vocab": [
+        [
+          "der Kurswechsel",
+          "le changement de cap",
+          "Tesla vollzieht mit dem Produktionsstopp einen radikalen Kurswechsel in seiner Modellpolitik."
+        ],
+        [
+          "das Einstiegsmodell",
+          "le modèle d'entrée de gamme",
+          "Die freiwerdenden Kapazitäten sollen für ein günstiges Einstiegsmodell genutzt werden."
+        ],
+        [
+          "das autonome Fahren",
+          "la conduite autonome",
+          "Die Zukunft des Unternehmens hängt maßgeblich vom Erfolg beim autonomen Fahren ab."
+        ],
+        [
+          "der Fertigungsfehler",
+          "le défaut de fabrication",
+          "Zahlreiche Fertigungsfehler verzögerten die Auslieferung des neuen Modells um mehrere Jahre."
+        ],
+        [
+          "die Nische",
+          "la niche (commerciale)",
+          "Der unkonventionelle Pick-up blieb letztlich ein teures Produkt für eine kleine Nische."
+        ],
+        [
+          "der Marktanteil",
+          "la part de marché",
+          "Chinesische Automobilkonzerne gewinnen auf den internationalen Märkten rasant an Marktanteil."
+        ]
+      ],
+      "sujets": [
+        "Ist die Konzentration auf autonomes Fahren der richtige Weg für die Zukunft der Automobilindustrie?",
+        "Welche Chancen haben europäische Automobilhersteller im weltweiten Wettbewerb gegen chinesische und amerikanische Konkurrenten?"
+      ]
+    },
+    {
+      "id": "2026-11-07-allemand-2",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/hubig-afd-verbotsverfahren-leak-100.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Karlsruhe_-_Bundesverfassungsgericht%2C_Dienstsitz_Schlossbezirk_-_20190929144816.jpg/1280px-Karlsruhe_-_Bundesverfassungsgericht%2C_Dienstsitz_Schlossbezirk_-_20190929144816.jpg",
+        "alt": "Sitz des Bundesverfassungsgerichts in Karlsruhe Schlossbezirk",
+        "credit": "Eisensafran / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Karlsruhe_-_Bundesverfassungsgericht,_Dienstsitz_Schlossbezirk_-_20190929144816.jpg"
+      },
+      "titre": "Protection constitutionnelle en Allemagne : la ministre de la Justice veut utiliser les courriels piratés pour examiner l'interdiction de l'AfD",
+      "faits": "En Allemagne, la ministre fédérale de la Justice Stefanie Hubig a officiellement demandé aux services de sécurité intérieure d'analyser en profondeur les dizaines de milliers de courriels internes piratés au sein du parti d'extrême droite Alternative für Deutschland (AfD). Ces fuites massives de données, récemment diffusées sur Internet par des collectifs de hackers, dévoileraient des échanges confidentiels entre cadres du parti, des projets de déstabilisation des institutions démocratiques et des liens financiers avec des réseaux hostiles au régime constitutionnel. La ministre a indiqué que ces documents devaient être rigoureusement vérifiés par l'Office fédéral de protection de la constitution (BfV) afin d'évaluer s'ils constituent des preuves juridiquement recevables pour engager une procédure formelle d'interdiction du parti devant la Cour constitutionnelle fédérale de Karlsruhe. Cette prise de position intervient alors qu'un groupe transpartisan de députés du Bundestag a déjà déposé une motion réclamant l'ouverture d'un tel procès. L'AfD a vivement dénoncé une manœuvre politique illégale fondée sur des données volées pour éliminer une force d'opposition électorale montante.",
+      "enjeux": "L'utilisation potentielle de courriels piratés pour motiver l'interdiction d'un parti parlementaire représenté au Bundestag soulève un dilemme constitutionnel et politique majeur dans la démocratie allemande. L'article 21 de la Loi fondamentale de 1949 consacre le concept de démocratie combative qui autorise l'État de droit à dissoudre des organisations visant à détruire l'ordre libéral et démocratique. Toutefois, les exigences posées par les juges constitutionnels de Karlsruhe sont exceptionnellement strictes : le gouvernement doit prouver une attitude agressive, continue et concrète contre la Constitution, sans recourir à des méthodes de surveillance déloyales. L'exploitation de données obtenues par piratage pose de redoutables questions de droit probatoire quant à l'admissibilité de preuves d'origine illicite. De plus, sur le plan strictement politique, de nombreux juristes et éditorialistes redoutent qu'un échec de la procédure devant la cour n'offre une tribune victorieuse à l'AfD et ne renforce son statut de victime auprès d'un électorat déjà défiant envers les institutions traditionnelles.",
+      "vo": {
+        "titre": "Justizministerin will geleakte E-Mails für mögliches AfD-Verbotsverfahren prüfen lassen",
+        "faits": "Die deutsche Bundesjustizministerin Stefanie Hubig hat den Verfassungsschutz aufgefordert, tausende interne E-Mails der Partei Alternative für Deutschland (AfD) juristisch auszuwerten. Die Daten waren vor wenigen Wochen durch einen Hackerangriff im Internet veröffentlicht worden und enthalten vertrauliche Gespräche zwischen Parteifunktionären. Nach Ansicht der Ministerin muss nun genau geprüft werden, ob diese Unterlagen gerichtlich verwertbare Beweise für verfassungsfeindliche Bestrebungen der Partei liefern. Das Bundesverfassungsgericht in Karlsruhe stellt extrem hohe Anforderungen an das Verbot einer im Bundestag vertretenen Partei. Mehrere Bundestagsabgeordnete aus verschiedenen Fraktionen hatten bereits zuvor einen parteiübergreifenden Antrag für ein Verbotsverfahren vorbereitet. Die Führung der AfD kritisierte das Vorgehen der Bundesregierung scharf und sprach von einem politischen Manöver auf Basis kriminell beschaffter Daten, um die Opposition vor wichtigen Wahlen zu schwächen.",
+        "enjeux": "Die Diskussion über ein mögliches Parteiverbot berührt fundamentale Grundsätze der deutschen Verfassung und der wehrhaften Demokratie. Das Grundgesetz erlaubt es den staatlichen Institutionen, extremistische Kräfte zu stoppen, bevor diese die freiheitliche demokratische Grundordnung beseitigen können. Allerdings birgt ein solches Verfahren vor dem Bundesverfassungsgericht erhebliche juristische Risiken: Sollten die Richter die gehackten E-Mails als Beweismittel ablehnen, könnte das gesamte Verbotsverfahren scheitern. Ein gescheitertes Verfahren würde der AfD politisch enorm nutzen und sie im Wahlkampf weiter stärken. Zudem warnen viele Experten davor, dass politische Meinungen nicht durch Gerichtsurteile aus den Köpfen der Wähler verschwinden. Ein Verbot ersetzt keine inhaltliche Auseinandersetzung mit den Ursachen für den Erfolg rechtspopulistischer Parteien in Deutschland."
+      },
+      "vocab": [
+        [
+          "die wehrhafte Demokratie",
+          "la démocratie combative / capable de se défendre",
+          "Das Konzept der wehrhaften Demokratie erlaubt das Verbot verfassungsfeindlicher Parteien."
+        ],
+        [
+          "das Beweismittel",
+          "la preuve / la pièce à conviction",
+          "Die Richter müssen entscheiden, ob die E-Mails als legales Beweismittel vor Gericht gelten."
+        ],
+        [
+          "die Bestrebung",
+          "la tentative / la visée (politique)",
+          "Der Verfassungsschutz beobachtet verfassungsfeindliche Bestrebungen extremistischer Gruppen."
+        ],
+        [
+          "das Parteiverbot",
+          "l'interdiction d'un parti politique",
+          "Ein Parteiverbot ist im deutschen Grundgesetz nur unter extrem strengen Hürden möglich."
+        ],
+        [
+          "der Parteifunktionär",
+          "le cadre / dirigeant du parti",
+          "Geleakte Nachrichten zeigen vertrauliche Absprachen unter führenden Parteifunktionären."
+        ],
+        [
+          "die Hürde",
+          "l'obstacle / l'exigence élevée",
+          "Das Bundesverfassungsgericht setzt sehr hohe juristische Hürden für ein solches Verfahren."
+        ]
+      ],
+      "sujets": [
+        "Ist das Instrument des Parteiverbots das richtige Mittel zur Verteidigung der Demokratie gegen Extremismus?",
+        "Wie sollte die Gesellschaft mit Parteien umgehen, die demokratische Institutionen von innen heraus schwächen?"
+      ]
+    },
+    {
+      "id": "2026-11-07-allemand-3",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/gesellschaft/hitze-duerre-ausnahmezustand-krisenmanagement-100.html",
+      "minutes": 8,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Das_wilde_Gef%C3%A4hr_Niedrigwasser_Rhein_September_2026.jpg/1280px-Das_wilde_Gef%C3%A4hr_Niedrigwasser_Rhein_September_2026.jpg",
+        "alt": "Historisches Niedrigwasser im Flussbett des Rheins während einer Trockenperiode",
+        "credit": "Marion Halft / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Das_wilde_Gef%C3%A4hr_Niedrigwasser_Rhein_September_2026.jpg"
+      },
+      "titre": "Gestion de crise et climat : l'exercice national LÜKEX simule une sécheresse extrême paralysant l'Allemagne",
+      "faits": "En Allemagne, les autorités fédérales et les gouvernements des seize Länder ont clôturé l'exercice de crise national LÜKEX, qui simulait pour la première fois un scénario de canicule extrême et de sécheresse prolongée à l'échelle du pays. Coordonné par l'Office fédéral de la protection civile et de l'aide aux catastrophes (BBK), cet entraînement géant a mobilisé plus de 3 000 spécialistes des ministères de l'Intérieur, de la Santé, des Transports, ainsi que les services d'urgence et les exploitants de réseaux d'eau et d'électricité. Le scénario catastrophe testait la résilience des infrastructures face à une baisse critique du niveau des grands fleuves commerciaux comme le Rhin et l'Elbe, paralysant la navigation fluviale et menaçant l'approvisionnement en charbon et en carburant des centrales thermiques. L'exercice a également simulé des pénuries sévères d'eau potable dans plusieurs grandes agglomérations, des incendies de forêt simultanés et des pannes de réseau électrique dues à la surchauffe des transformateurs. Le président du BBK a souligné que le réchauffement climatique rendait ces situations d'urgence autrefois théoriques de plus en plus probables dans la réalité quotidienne.",
+      "enjeux": "L'exercice LÜKEX met en lumière l'extrême vulnérabilité des pays industriels hautement développés face aux conséquences physiques directes du changement climatique. En Allemagne, le transport fluvial sur le Rhin représente une artère logistique vitale pour l'industrie chimique, sidérurgique et énergétique : un arrêt prolongé du trafic fluvial pour cause de basses eaux désorganise instantanément les chaînes de production de tout le bassin rhénan. De surcroît, le fédéralisme allemand complique souvent la réactivité opérationnelle en temps de crise, les compétences de sécurité civile étant éclatées entre les Länder et les communes. L'exercice a mis en évidence le besoin impératif d'investissements massifs dans la modernisation des conduites d'eau, la création de réservoirs de secours régionaux et le renforcement des capacités de refroidissement industriel en circuit fermé. La protection civile ne peut plus se limiter aux risques militaires ou terroristes traditionnels, mais doit intégrer pleinement l'adaptation climatique comme une priorité de sécurité nationale absolue.",
+      "vo": {
+        "titre": "Bundesweite Krisenübung LÜKEX simuliert extreme Hitze und Wassermangel",
+        "faits": "In Deutschland haben die Behörden von Bund und Ländern die große Krisenschutzübung LÜKEX beendet, bei der erstmals die Folgen einer anhaltenden Dürre und Hitzewelle simuliert wurden. An dem zweitägigen Training unter Leitung des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe (BBK) nahmen rund 3.000 Experten aus Behörden, Rettungsdiensten und Versorgungsunternehmen teil. Das Szenario ging von monatelanger Trockenheit aus, die zu historischem Niedrigwasser auf wichtigen Flüssen wie dem Rhein führte und die Binnenschifffahrt lahmlegte. Gleichzeitig mussten die Einsatzkräfte auf großflächige Waldbrände, Ausfälle bei der Trinkwasserversorgung und Stromabschaltungen wegen überhitzter Kraftwerke reagieren. BBK-Präsident Ralph Tiesler erklärte nach Abschluss der Übung, dass derartige Extremwetterlagen infolge des Klimawandels keine theoretischen Gedankenexperimente mehr seien, sondern künftig zur realen Bedrohung für das Land werden können.",
+        "enjeux": "Die Übung zeigt eindrücklich, wie verwundbar moderne Industrienationen gegenüber den Folgen der globalen Erwärmung sind. Flüsse wie der Rhein sind unersetzliche Transportwege für Rohstoffe, Kohle und Chemiegüter; steht die Schifffahrt still, drohen sofort Lieferengpässe in zentralen Industriezweigen. Zudem offenbart die föderale Struktur in Deutschland Schwachstellen bei der schnellen Koordination zwischen Bundesministerien, Bundesländern und Landkreisen. Die Katastrophenschützer fordern daher dringend höhere Investitionen in widerstandsfähige Wassernetze, Notfallbrunnen und eine bessere Waldbrandbekämpfung. Klimaschutz und die Anpassung an den Klimawandel müssen heute als fester Bestandteil der nationalen Sicherheitspolitik verstanden werden. Ohne eine moderne, krisenfeste Infrastruktur können Naturkatastrophen gravierende Schäden für Gesellschaft und Wirtschaft verursachen."
+      },
+      "vocab": [
+        [
+          "der Katastrophenschutz",
+          "la sécurité civile / protection contre les catastrophes",
+          "Der Katastrophenschutz muss sich auf neue Risiken durch den Klimawandel einstellen."
+        ],
+        [
+          "das Niedrigwasser",
+          "les basses eaux / l'étiage",
+          "Anhaltendes Niedrigwasser auf dem Rhein blockierte die Schifffahrt für schwere Frachtschiffe."
+        ],
+        [
+          "die Binnenschifffahrt",
+          "la navigation fluviale",
+          "Die Binnenschifffahrt ist für den Transport von Rohstoffen in Deutschland unverzichtbar."
+        ],
+        [
+          "die Dürre",
+          "la sécheresse",
+          "Monatelange Dürre führte in mehreren Regionen zu Engpässen bei der Wasserversorgung."
+        ],
+        [
+          "der Lieferengpass",
+          "la pénurie / le goulot d'étranglement logistique",
+          "Niedrige Wasserstände führten zu spürbaren Lieferengpässen in der chemischen Industrie."
+        ],
+        [
+          "die Verwundbarkeit",
+          "la vulnérabilité",
+          "Die Krisenübung verdeutlichte die Verwundbarkeit moderner Infrastrukturen gegenüber Hitze."
+        ]
+      ],
+      "sujets": [
+        "Wie gut sind moderne Industrienationen auf die Folgen extremer Wetterereignisse vorbereitet?",
+        "Welche Rolle sollte der Staat beim Schutz kritischer Infrastrukturen vor dem Klimawandel spielen?"
+      ]
+    }
+  ]
+}
