@@ -1,6 +1,6 @@
 """Fabrique les paquets Anki de Press'ing : un fichier .apkg par article.
 
-Usage : python3 scripts/anki.py [AAAA-MM-JJ]
+Usage : python3 scripts/anki.py [AAAA-MM-JJ | --tout]
 Sans date, traite l'édition la plus récente de data/index.json.
 N'utilise que Python, rien à installer. Le type de note et les paquets
 sont dans scripts/anki_config.json : ne pas les modifier.
@@ -80,6 +80,11 @@ def notes_of(date, c):
     for f in c.get("anki") or []:
         out.append((CONFIG["paquets"][m], {"Question": markup(f["q"]), "Réponse": markup(f["r"]), "Partie": label(date, c)},
                     [tag, m, "actu"]))
+    for v in c.get("notions") or []:
+        if m != "esh" or len(v) < 2:
+            continue
+        out.append((CONFIG["paquets_vocab"][m], {"Question": html.escape(v[0], quote=False), "Réponse": markup(v[1])},
+                    [tag, m, "vocabulaire"]))
     for v in c.get("vocab") or []:
         if m == "esh":
             continue
@@ -133,6 +138,11 @@ def build(path, card_id, notes):
 
 def main():
     args = sys.argv[1:]
+    if args == ["--tout"]:
+        for d in json.loads((DATA / "index.json").read_text(encoding="utf-8"))["editions"]:
+            sys.argv[1:] = [d]
+            main()
+        return
     if args:
         date = args[0]
     else:

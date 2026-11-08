@@ -19,9 +19,9 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 7. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
 8. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche, **ajoute une fiche** à la fin de la liste `fiches` de `data/referentiel.json` (voir « Fiches du référentiel » ci-dessous), puis mets son `id` dans le `ref` de l'auteur.
 9. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
-10. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`.
+10. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`. Puis lance `python3 scripts/anki_envoyer.py` : il envoie les cartes directement dans l'Anki d'Alicia (si Anki est ouvert) et synchronise AnkiWeb. S'il dit qu'Anki est fermé, continue quand même et signale-le à la fin.
 11. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
-12. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+12. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », si les cartes sont bien arrivées dans Anki, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
 
 ## Sources autorisées
 
@@ -82,6 +82,7 @@ Chaque carte a un champ `image` :
   - `texte` : 3 ou 4 phrases. Dis ce que soutient la théorie, **ce qu'elle permet de montrer sur cette actu**, et dans quel type de sujet la mobiliser. Les concepts clés vont en `**gras**`. C'est la partie la plus importante : Alicia ne voit pas toujours à quoi sert une théorie.
   - Idéalement, choisis un auteur qui va dans le sens de l'actu et un qui nuance ou s'y oppose.
   - `ref` : **obligatoire**, l'identifiant de la fiche du référentiel qui correspond à la théorie mobilisée. Si elle n'existe pas encore, tu la crées (étape 8). Ne crée pas de doublon : si une fiche traite déjà la même théorie, utilise-la.
+- `notions` : 3 ou 4 paires `["notion", "définition courte"]` : les notions d'ESH utiles de l'article (ex. `["Dette souveraine", "Dette émise par un État pour financer ses déficits."]`). Définition en une phrase, juste et réutilisable en copie. Elles vont dans le paquet Anki « Vocabulaire » d'ESH.
 - Pas de `vo` ni de `vocab`.
 
 ### Cartes de langue (en plus)
@@ -110,7 +111,7 @@ Exemple de ce qu'il ne faut **pas** faire (C1) :
 > ~~Allerdings birgt ein solches Verfahren vor dem Bundesverfassungsgericht erhebliche juristische Risiken: Sollten die Richter die gehackten E-Mails als Beweismittel ablehnen, könnte das gesamte Verbotsverfahren scheitern.~~
 
 ### Cartes Anki (esh, anglais, espagnol ; jamais l'allemand)
-- `anki` : 2 à 4 cartes `{"q": "recto", "r": "verso"}` sur les **faits et chiffres citables** de l'article. Aucune carte artificielle : seulement ce qu'Alicia pourra citer en dissertation ou en khôlle. Tout vient de `faits` et `enjeux`, rien d'inventé.
+- `anki` : 2 à 4 cartes `{"q": "recto", "r": "verso"}` sur les **faits et chiffres citables** de l'article. Elles vont dans le paquet « Infos et accroches » : elles servent aux **colles et aux DS**, en particulier pour trouver des **accroches** d'introduction. Au moins une carte par article doit pouvoir servir d'accroche : un chiffre frappant, une décision marquante, un fait daté, un contraste. Dans ce cas, termine l'argument par le type de sujet où l'utiliser (ex. « → accroche pour un sujet sur la dette publique »). Aucune carte artificielle : seulement ce qu'Alicia pourra citer en dissertation ou en khôlle. Tout vient de `faits` et `enjeux`, rien d'inventé.
 - Langue : français pour l'esh, anglais pour l'anglais, espagnol pour l'espagnol.
 - Recto court et précis. Il ne révèle **jamais** la réponse (ni le chiffre, ni la date, ni l'auteur). Ne commence pas par « Quel » ou « Quelle ». Exemples : « Part de X dans Y (pays, date) », « Exemple de … ».
 - Verso : le fait en une ligne, puis à la ligne une flèche `→` et **l'argument**, c'est-à-dire ce que ça montre et ce qu'Alicia peut en tirer en dissertation. C'est le plus important de la carte. S'il n'y a vraiment rien à en tirer, n'écris pas de flèche : ne remplis jamais pour remplir. Pas de listes, ni d'étiquettes du type « Fait » ou « Enjeu ».
@@ -160,6 +161,7 @@ Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Des
    "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "programme": {"module": "…", "chapitre": "…"},
    "auteurs": [{"nom": "…", "ouvrage": "…", "annee": "…", "ref": null, "texte": "…"}],
+   "notions": [["…", "…"]],
    "sujets": ["…", "…"],
    "anki": [{"q": "…", "r": "…"}]
   },

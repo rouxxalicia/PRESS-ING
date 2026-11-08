@@ -428,6 +428,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
     h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.faits) + '</p></div></section>';
     h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.enjeux) + '</p></div></section>';
+    if (c.notions && c.notions.length) h += '<section class="sec"><h2 class="label">Notions clés</h2>' + c.notions.map(v => '<div class="notion"><span class="t">' + esc(v[0]) + '</span><span>' + fmt(v[1]) + '</span></div>').join("") + '</section>';
     if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
     if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
     if (c.programme) h += '<aside class="prog"><span class="label">Lien avec le programme</span><p><strong>Module</strong> · ' + esc(c.programme.module) + '</p><p><strong>Chapitre</strong> · ' + esc(c.programme.chapitre) + '</p></aside>';
@@ -439,7 +440,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
   }
 
   function ankiBtn(c) {
-    if (c.matiere === "allemand" || !((c.anki && c.anki.length) || (c.matiere !== "esh" && c.vocab && c.vocab.length))) return "";
+    if (c.matiere === "allemand" || !((c.anki && c.anki.length) || (c.matiere !== "esh" && c.vocab && c.vocab.length) || (c.notions && c.notions.length))) return "";
     return '<a class="anki-btn label" href="data/anki/' + esc(c.id) + '.apkg" download="pressing-' + esc(c.id) + '.apkg" aria-label="Télécharger les cartes Anki de cet article">Anki</a>';
   }
 

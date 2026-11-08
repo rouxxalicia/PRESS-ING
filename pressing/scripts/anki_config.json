@@ -139,12 +139,13 @@
   "tags": []
  },
  "paquets": {
-  "esh": "ESH::2A",
-  "anglais": "ANGLAIS::Anglais 2A::Press",
-  "espagnol": "ESPAGNOL::Civi"
+  "esh": "ESH::Presse::Infos et accroches",
+  "anglais": "ANGLAIS::Presse::Infos et accroches",
+  "espagnol": "ESPAGNOL::Presse::Infos et accroches"
  },
  "paquets_vocab": {
-  "anglais": "ANGLAIS::Anglais 2A::Press",
-  "espagnol": "ESPAGNOL::voc utile"
+  "esh": "ESH::Presse::Vocabulaire",
+  "anglais": "ANGLAIS::Presse::Vocabulaire",
+  "espagnol": "ESPAGNOL::Presse::Vocabulaire"
  }
 }
