@@ -14,13 +14,14 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    - **allemand** : Allemagne (Autriche ou Suisse seulement si c'est vraiment marquant).
    **Uniquement des médias reconnus**, ceux de la liste « Sources autorisées » ci-dessous. Si tu trouves une info ailleurs, retrouve-la dans un de ces médias avant de l'utiliser ; sinon, choisis une autre actu.
    Privilégie les sujets qui tombent au concours : institutions, politique économique, inégalités, élections, mondialisation, Europe, transition écologique. Évite les faits divers sans portée.
-5. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
-6. Écris `data/editions/<date>.json` (format ci-dessous), avec les 12 cartes dans l'ordre esh, anglais, espagnol, allemand.
-7. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche, **ajoute une fiche** à la fin de la liste `fiches` de `data/referentiel.json` (voir « Fiches du référentiel » ci-dessous), puis mets son `id` dans le `ref` de l'auteur.
-8. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
-9. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`.
-10. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
-11. Termine par un message très court à Alicia : les 12 titres, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+5. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
+6. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
+7. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
+8. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche, **ajoute une fiche** à la fin de la liste `fiches` de `data/referentiel.json` (voir « Fiches du référentiel » ci-dessous), puis mets son `id` dans le `ref` de l'auteur.
+9. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
+10. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`.
+11. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
+12. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
 
 ## Sources autorisées
 
@@ -35,6 +36,18 @@ Les sites officiels (Insee, BCE, Banque de France, Eurostat, INE, Destatis, gouv
 - **Presse germanophone** : tagesschau.de, zdf.de, dw.com, spiegel.de, zeit.de, faz.net, sueddeutsche.de, handelsblatt.com, welt.de, tagesspiegel.de, taz.de, nzz.ch, derstandard.at, diepresse.com
 
 `source` porte le vrai nom du média (« Le Monde », « El País », « Tagesschau »…).
+
+## À lire
+
+Sous les actus, le site affiche une petite liste d'articles à lire en entier : **3 des *Échos* (lesechos.fr) et 3 du *Monde* (lemonde.fr)**, publiés dans les **dernières 48 heures**. Ce ne sont pas des cartes : juste un titre, un lien et une phrase.
+
+- Choisis les articles les plus **utiles pour la prépa** : analyses, décryptages, tribunes d'économistes, enquêtes de fond, chiffres clés (croissance, inflation, emploi, budget, dette, commerce, Europe, inégalités, écologie, politique). Évite les brèves, les directs, les vidéos, les faits divers, le sport, la culture people.
+- Les articles réservés aux abonnés sont **acceptés** (Alicia est abonnée aux *Échos*).
+- Ne reprends pas un article déjà utilisé comme `url` d'une carte de l'édition, et évite les sujets déjà traités par les cartes : la liste doit apporter autre chose.
+- `titre` : le vrai titre de l'article, tel qu'il apparaît sur le site (c'est la seule exception à la règle « tes propres mots »).
+- `pourquoi` : **une seule phrase** en français qui dit ce que l'article apporte pour une dissertation ou une khôlle (la notion, le débat, le chiffre à retenir). Concepts clés en `**gras**` si besoin.
+- `url` : même règle que pour les cartes, **copiée depuis la barre d'adresse** après avoir ouvert l'article ; jamais reconstituée de mémoire.
+- `journal` : exactement « Les Échos » ou « Le Monde ».
 
 ## Photos
 
@@ -68,7 +81,7 @@ Chaque carte a un champ `image` :
 - `auteurs` : 2 auteurs, chacun avec `nom`, `ouvrage` (titre français s'il existe), `annee`, `ref` et `texte`.
   - `texte` : 3 ou 4 phrases. Dis ce que soutient la théorie, **ce qu'elle permet de montrer sur cette actu**, et dans quel type de sujet la mobiliser. Les concepts clés vont en `**gras**`. C'est la partie la plus importante : Alicia ne voit pas toujours à quoi sert une théorie.
   - Idéalement, choisis un auteur qui va dans le sens de l'actu et un qui nuance ou s'y oppose.
-  - `ref` : **obligatoire**, l'identifiant de la fiche du référentiel qui correspond à la théorie mobilisée. Si elle n'existe pas encore, tu la crées (étape 7). Ne crée pas de doublon : si une fiche traite déjà la même théorie, utilise-la.
+  - `ref` : **obligatoire**, l'identifiant de la fiche du référentiel qui correspond à la théorie mobilisée. Si elle n'existe pas encore, tu la crées (étape 8). Ne crée pas de doublon : si une fiche traite déjà la même théorie, utilise-la.
 - Pas de `vo` ni de `vocab`.
 
 ### Cartes de langue (en plus)
@@ -140,6 +153,14 @@ Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Des
    "sujets": ["…", "…"],
    "anki": [{"q": "…", "r": "…"}]
   }
+ ],
+ "a_lire": [
+  {"journal": "Les Échos", "titre": "…", "url": "https://www.lesechos.fr/…", "pourquoi": "…"},
+  {"journal": "Les Échos", "titre": "…", "url": "https://www.lesechos.fr/…", "pourquoi": "…"},
+  {"journal": "Les Échos", "titre": "…", "url": "https://www.lesechos.fr/…", "pourquoi": "…"},
+  {"journal": "Le Monde", "titre": "…", "url": "https://www.lemonde.fr/…", "pourquoi": "…"},
+  {"journal": "Le Monde", "titre": "…", "url": "https://www.lemonde.fr/…", "pourquoi": "…"},
+  {"journal": "Le Monde", "titre": "…", "url": "https://www.lemonde.fr/…", "pourquoi": "…"}
  ]
 }
 ```

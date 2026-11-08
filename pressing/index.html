@@ -147,6 +147,16 @@ main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
   .small:first-child { padding-top: 4px; border-top: 0; }
 }
 
+/* À lire */
+.alire { padding-block: 64px 8px; }
+.alire-grid { display: grid; gap: 36px; margin-top: 22px; }
+.alire-col h3 { margin: 0 0 4px; font-stretch: 125%; font-weight: 600; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; }
+.alire-item { display: flex; flex-direction: column; gap: 5px; padding-block: 16px; border-top: 1px solid var(--line); }
+.alire-item .t { font-size: 16px; font-weight: 500; line-height: 1.35; text-wrap: balance; }
+.alire-item:hover .t { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.alire-item .p { color: var(--muted); font-size: 14px; line-height: 1.5; }
+@media (min-width: 820px) { .alire-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; } }
+
 /* Liste d'une matière */
 .subtabs { display: flex; gap: 20px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); margin-top: 8px; }
 .subtabs::-webkit-scrollbar { display: none; }
@@ -368,7 +378,18 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
             '<h3>' + esc(c.titre) + '</h3><span class="label muted">' + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · Lue' : '') + '</span></a>').join("") + '</div>' +
         '</div></section>';
     });
+    h += aLire(ed);
     app.innerHTML = h;
+  }
+  function aLire(ed) {
+    const l = (ed.a_lire || []).filter(a => a && /^https:\/\//.test(a.url || ""));
+    if (!l.length) return "";
+    const js = [...new Set(l.map(a => a.journal))];
+    return '<section class="alire"><div class="mag-head"><h2>À lire</h2><span class="mag-rule"></span><span class="label muted">' + l.length + ' articles</span></div>' +
+      '<div class="alire-grid">' + js.map(j => '<div class="alire-col"><h3>' + esc(j) + '</h3>' +
+        l.filter(a => a.journal === j).map(a => '<a class="alire-item" href="' + esc(a.url) + '" target="_blank" rel="noopener"><span class="t">' + esc(a.titre) + '</span>' +
+          (a.pourquoi ? '<span class="p">' + fmt(a.pourquoi) + '</span>' : '') + '</a>').join("") + '</div>').join("") +
+      '</div></section>';
   }
 
   // Liste
