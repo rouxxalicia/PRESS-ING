@@ -34,13 +34,15 @@ Le seul critère : **est-ce qu'Alicia pourra s'en servir** comme exemple, accroc
 - Une **comparaison** entre pays, ou un événement qui éclaire une notion du programme.
 - Pour les langues, ce qui tombe en civilisation et en khôlle : institutions et vie politique, élections, crises sociales, immigration, logement, inégalités, relations internationales, économie du pays.
 
-**Ce qui n'est pas utile :** l'annonce d'un produit ou la stratégie d'une entreprise sans portée générale, les faits divers, le sport, les people, la culture sans enjeu de société, les sujets trop locaux, et pour l'allemand, l'anglais ou l'espagnol, une actu qui ne concerne pas le pays (une usine Tesla au Texas n'a rien à faire en allemand).
+**Les faits divers** : **un seul au maximum par matière**, et seulement s'il est vraiment intéressant, c'est-à-dire s'il révèle un phénomène de société ou un débat (violences, justice, santé publique, conditions de travail, catastrophe liée au climat…). Le fait divers sans portée reste exclu.
+
+**Ce qui n'est pas utile :** l'annonce d'un produit ou la stratégie d'une entreprise sans portée générale, le sport, les people, la culture sans enjeu de société, les sujets trop locaux, et pour l'allemand, l'anglais ou l'espagnol, une actu qui ne concerne pas le pays (une usine Tesla au Texas n'a rien à faire en allemand).
 
 **De la variété :**
-- **Au moins 3 journaux différents par matière** : jamais plus de 2 actus du même journal dans une matière. Va chercher au-delà du premier site trouvé. Par exemple, en ESH : Les Échos, Le Monde, Alternatives économiques, La Tribune, Le Figaro, le Financial Times ; en anglais : The Guardian, BBC, FT, The Economist, NYT ; en espagnol : El País, El Mundo, La Vanguardia, elDiario.es, Clarín, BBC Mundo ; en allemand : Tagesschau, Spiegel, Zeit, FAZ, Süddeutsche, DW. Le vérificateur refuse l'édition sinon.
+- **Au moins 3 journaux différents par matière, dans l'édition du jour** : jamais plus de 2 actus du même journal dans une matière. Va chercher au-delà du premier site trouvé. Par exemple, en ESH : Les Échos, Le Monde, Alternatives économiques, La Tribune, Le Figaro, le Financial Times ; en anglais : The Guardian, BBC, FT, The Economist, NYT ; en espagnol : El País, El Mundo, La Vanguardia, elDiario.es, Clarín, BBC Mundo ; en allemand : Tagesschau, Spiegel, Zeit, FAZ, Süddeutsche, DW. Le vérificateur refuse l'édition sinon.
 - **4 thèmes différents par matière** : pas deux actus sur le même secteur ou le même événement (par exemple deux actus sur l'automobile).
 - En **espagnol**, mélange Espagne et Amérique latine. En **anglais**, mélange Royaume-Uni et États-Unis.
-- **D'un jour à l'autre**, varie aussi les journaux et les thèmes : le résumé de l'étape 1 te montre ce qui a déjà été fait.
+- D'un jour à l'autre, ne reprends pas les mêmes sujets : le résumé de l'étape 1 te montre ce qui a déjà été fait.
 
 ## Sources autorisées
 
