@@ -569,45 +569,45 @@
       "faits": "Le constructeur automobile américain de véhicules électriques Tesla a créé la surprise sur les marchés financiers en officialisant l'arrêt de la production de son pick-up futuriste Cybertruck dans son usine géante d'Austin, au Texas. Présenté il y a plusieurs années comme un véhicule révolutionnaire, le Cybertruck a accumulé d'immenses retards de livraison, des coûts de fabrication exorbitants et des défauts de jeunesse à répétition qui ont rebuté la clientèle nord-américaine. La direction du groupe texan a justifié cette décision stratégique par la volonté de réallouer immédiatement l'ensemble des capacités industrielles et des chaînes d'assemblage texanes vers son projet de robotaxi autonome et son véhicule électrique d'entrée de gamme à bas coût. Les investisseurs de Wall Street ont accueilli la nouvelle avec soulagement, estimant que la fin de ce foyer de pertes chroniques permettra d'assainir les marges opérationnelles du constructeur dans un contexte de guerre des prix féroce imposée par les constructeurs chinois. Cette volte-face illustre néanmoins la difficulté technique et industrielle à rentabiliser des modèles aux formes géométriques atypiques et à la carrosserie en acier inoxydable.",
       "enjeux": "L'abandon du Cybertruck marque un tournant stratégique décisif pour Tesla et pour l'ensemble du secteur automobile mondial en pleine électrification. Alors que les constructeurs traditionnels américains comme Ford et General Motors ont eux aussi freiné leurs investissements dans les grands pick-ups électriques en raison d'une demande inférieure aux prévisions, Tesla choisit de fuir le segment des gros véhicules pour parier tout son avenir sur la conduite autonome et les flottes de robotaxis. Cette bifurcation technologique comporte toutefois des risques colossaux : la rentabilité des robotaxis dépend entièrement de l'obtention d'autorisations réglementaires fédérales encore très incertaines et de la maturité contestée des algorithmes d'intelligence artificielle en conditions réelles. De plus, Tesla doit affronter la concurrence agressive du leader chinois BYD, qui inonde les marchés émergents et européens de véhicules électriques compacts et abordables. Pour l'industrie automobile allemande et européenne, ce retrait démontre que même les pionniers de la mobilité électrique ne sont pas à l'abri de graves échecs de produit lorsqu'ils s'éloignent des besoins rationnels du marché de masse.",
       "vo": {
-        "titre": "Tesla stoppt Cybertruck-Produktion in Texas zugunsten von Robotaxis",
-        "faits": "Der US-Elektroautobauer Tesla hat überraschend das Ende der Produktion seines futuristischen Pick-ups Cybertruck im texanischen Werk in Austin verkündet. Das vor einigen Jahren mit großem Aufwand vorgestellte Modell litt von Beginn an unter massiven Fertigungsproblemen, technischen Mängeln und hohen Herstellungskosten. Die Nachfrage auf dem amerikanischen Markt blieb deutlich hinter den ursprünglichen Erwartungen des Unternehmens zurück. Tesla-Chef Elon Musk begründete die Entscheidung damit, dass die Fabrikkapazitäten nun vollständig für das geplante autonome Robotaxi und ein günstigeres Einstiegsmodell genutzt werden sollen. An den Finanzmärkten reagierten viele Anleger mit Erleichterung auf die Nachricht, da der Cybertruck hohe Verluste verursacht hatte. Dieser Schritt zeigt jedoch deutlich, wie schwer es selbst für erfahrene Pioniere der Elektromobilität ist, extrem unkonventionelle Fahrzeugkonzepte profitabel in großen Stückzahlen zu bauen.",
-        "enjeux": "Das Aus für den Cybertruck markiert einen tiefgreifenden strategischen Kurswechsel in der globalen Automobilindustrie. Angesichts der schwächelnden Nachfrage nach teuren Elektro-Pick-ups in den USA konzentriert sich Tesla künftig noch stärker auf Software, künstliche Intelligenz und fahrerlose Transportdienste. Ob diese Wette auf das autonome Fahren aufgeht, ist allerdings völlig offen, da die rechtlichen Genehmigungen für Robotaxis in vielen Ländern nach wie vor unklar sind. Gleichzeitig wächst der Druck durch chinesische Konkurrenten wie BYD, die mit preiswerten Kleinwagen und soliden Elektroautos weltweit Marktanteile gewinnen. Für deutsche Hersteller wie Volkswagen, BMW und Mercedes-Benz ist das Scheitern des Cybertrucks ein klares Signal: Der globale Wettbewerb um die Mobilität der Zukunft wird nicht durch modische Nischenprodukte entschieden, sondern durch bezahlbare, alltagstaugliche Fahrzeuge mit hoher Effizienz und stabiler Software."
+        "titre": "Tesla baut keinen Cybertruck mehr",
+        "faits": "Tesla stoppt die Produktion seines Pick-ups Cybertruck. Das Auto wurde in der Fabrik in Austin in Texas gebaut. Es hatte von Anfang an viele technische Probleme. Außerdem war es in der Herstellung sehr teuer. Nur wenige Kunden in den USA wollten es kaufen. Tesla will die Fabrik jetzt für ein Robotaxi und ein billigeres Elektroauto nutzen. Viele Anleger an der Börse waren erleichtert.",
+        "enjeux": "Tesla ändert seine Strategie. Die Firma setzt jetzt vor allem auf Software und autonomes Fahren. Aber niemand weiß, ob diese Wette funktioniert. In vielen Ländern sind Robotaxis noch nicht erlaubt. Gleichzeitig verkaufen chinesische Hersteller wie BYD günstige Elektroautos in der ganzen Welt. Für VW, BMW und Mercedes ist das eine wichtige Lehre. Im Wettbewerb gewinnen nicht teure Nischenautos, sondern günstige Autos für den Alltag."
       },
       "vocab": [
         [
           "der Kurswechsel",
           "le changement de cap",
-          "Tesla vollzieht mit dem Produktionsstopp einen radikalen Kurswechsel in seiner Modellpolitik."
+          "Tesla macht einen großen Kurswechsel."
         ],
         [
           "das Einstiegsmodell",
           "le modèle d'entrée de gamme",
-          "Die freiwerdenden Kapazitäten sollen für ein günstiges Einstiegsmodell genutzt werden."
+          "Das Einstiegsmodell soll weniger kosten."
         ],
         [
           "das autonome Fahren",
           "la conduite autonome",
-          "Die Zukunft des Unternehmens hängt maßgeblich vom Erfolg beim autonomen Fahren ab."
+          "Tesla setzt auf das autonome Fahren."
         ],
         [
           "der Fertigungsfehler",
           "le défaut de fabrication",
-          "Zahlreiche Fertigungsfehler verzögerten die Auslieferung des neuen Modells um mehrere Jahre."
+          "Viele Fertigungsfehler haben die Lieferung verzögert."
         ],
         [
           "die Nische",
           "la niche (commerciale)",
-          "Der unkonventionelle Pick-up blieb letztlich ein teures Produkt für eine kleine Nische."
+          "Der Cybertruck blieb ein Produkt für eine Nische."
         ],
         [
           "der Marktanteil",
           "la part de marché",
-          "Chinesische Automobilkonzerne gewinnen auf den internationalen Märkten rasant an Marktanteil."
+          "Chinesische Firmen gewinnen schnell Marktanteile."
         ]
       ],
       "sujets": [
-        "Ist die Konzentration auf autonomes Fahren der richtige Weg für die Zukunft der Automobilindustrie?",
-        "Welche Chancen haben europäische Automobilhersteller im weltweiten Wettbewerb gegen chinesische und amerikanische Konkurrenten?"
+        "Ist das autonome Fahren die Zukunft der Autoindustrie?",
+        "Können europäische Autohersteller gegen China und die USA gewinnen?"
       ]
     },
     {
@@ -626,45 +626,45 @@
       "faits": "En Allemagne, la ministre fédérale de la Justice Stefanie Hubig a officiellement demandé aux services de sécurité intérieure d'analyser en profondeur les dizaines de milliers de courriels internes piratés au sein du parti d'extrême droite Alternative für Deutschland (AfD). Ces fuites massives de données, récemment diffusées sur Internet par des collectifs de hackers, dévoileraient des échanges confidentiels entre cadres du parti, des projets de déstabilisation des institutions démocratiques et des liens financiers avec des réseaux hostiles au régime constitutionnel. La ministre a indiqué que ces documents devaient être rigoureusement vérifiés par l'Office fédéral de protection de la constitution (BfV) afin d'évaluer s'ils constituent des preuves juridiquement recevables pour engager une procédure formelle d'interdiction du parti devant la Cour constitutionnelle fédérale de Karlsruhe. Cette prise de position intervient alors qu'un groupe transpartisan de députés du Bundestag a déjà déposé une motion réclamant l'ouverture d'un tel procès. L'AfD a vivement dénoncé une manœuvre politique illégale fondée sur des données volées pour éliminer une force d'opposition électorale montante.",
       "enjeux": "L'utilisation potentielle de courriels piratés pour motiver l'interdiction d'un parti parlementaire représenté au Bundestag soulève un dilemme constitutionnel et politique majeur dans la démocratie allemande. L'article 21 de la Loi fondamentale de 1949 consacre le concept de démocratie combative qui autorise l'État de droit à dissoudre des organisations visant à détruire l'ordre libéral et démocratique. Toutefois, les exigences posées par les juges constitutionnels de Karlsruhe sont exceptionnellement strictes : le gouvernement doit prouver une attitude agressive, continue et concrète contre la Constitution, sans recourir à des méthodes de surveillance déloyales. L'exploitation de données obtenues par piratage pose de redoutables questions de droit probatoire quant à l'admissibilité de preuves d'origine illicite. De plus, sur le plan strictement politique, de nombreux juristes et éditorialistes redoutent qu'un échec de la procédure devant la cour n'offre une tribune victorieuse à l'AfD et ne renforce son statut de victime auprès d'un électorat déjà défiant envers les institutions traditionnelles.",
       "vo": {
-        "titre": "Justizministerin will geleakte E-Mails für mögliches AfD-Verbotsverfahren prüfen lassen",
-        "faits": "Die deutsche Bundesjustizministerin Stefanie Hubig hat den Verfassungsschutz aufgefordert, tausende interne E-Mails der Partei Alternative für Deutschland (AfD) juristisch auszuwerten. Die Daten waren vor wenigen Wochen durch einen Hackerangriff im Internet veröffentlicht worden und enthalten vertrauliche Gespräche zwischen Parteifunktionären. Nach Ansicht der Ministerin muss nun genau geprüft werden, ob diese Unterlagen gerichtlich verwertbare Beweise für verfassungsfeindliche Bestrebungen der Partei liefern. Das Bundesverfassungsgericht in Karlsruhe stellt extrem hohe Anforderungen an das Verbot einer im Bundestag vertretenen Partei. Mehrere Bundestagsabgeordnete aus verschiedenen Fraktionen hatten bereits zuvor einen parteiübergreifenden Antrag für ein Verbotsverfahren vorbereitet. Die Führung der AfD kritisierte das Vorgehen der Bundesregierung scharf und sprach von einem politischen Manöver auf Basis kriminell beschaffter Daten, um die Opposition vor wichtigen Wahlen zu schwächen.",
-        "enjeux": "Die Diskussion über ein mögliches Parteiverbot berührt fundamentale Grundsätze der deutschen Verfassung und der wehrhaften Demokratie. Das Grundgesetz erlaubt es den staatlichen Institutionen, extremistische Kräfte zu stoppen, bevor diese die freiheitliche demokratische Grundordnung beseitigen können. Allerdings birgt ein solches Verfahren vor dem Bundesverfassungsgericht erhebliche juristische Risiken: Sollten die Richter die gehackten E-Mails als Beweismittel ablehnen, könnte das gesamte Verbotsverfahren scheitern. Ein gescheitertes Verfahren würde der AfD politisch enorm nutzen und sie im Wahlkampf weiter stärken. Zudem warnen viele Experten davor, dass politische Meinungen nicht durch Gerichtsurteile aus den Köpfen der Wähler verschwinden. Ein Verbot ersetzt keine inhaltliche Auseinandersetzung mit den Ursachen für den Erfolg rechtspopulistischer Parteien in Deutschland."
+        "titre": "Justizministerin will AfD-E-Mails prüfen lassen",
+        "faits": "Hacker haben tausende interne E-Mails der AfD im Internet veröffentlicht. Justizministerin Stefanie Hubig will diese E-Mails jetzt prüfen lassen. Der Verfassungsschutz soll sie genau untersuchen. Die Frage ist: Sind die E-Mails Beweise gegen die Partei? Dann könnte man ein Verbot der AfD beantragen. Einige Abgeordnete aus verschiedenen Parteien fordern schon ein solches Verfahren. Die AfD spricht von einem politischen Manöver mit gestohlenen Daten.",
+        "enjeux": "In Deutschland kann man eine Partei verbieten. Das ist die Idee der wehrhaften Demokratie. Der Staat soll die Demokratie gegen ihre Feinde schützen. Nur das Bundesverfassungsgericht in Karlsruhe darf eine Partei verbieten. Die Hürden dafür sind sehr hoch. Wenn das Verfahren scheitert, wird die AfD wahrscheinlich noch stärker. Außerdem verschwinden die Ideen der Partei nicht mit einem Verbot."
       },
       "vocab": [
         [
           "die wehrhafte Demokratie",
           "la démocratie combative / capable de se défendre",
-          "Das Konzept der wehrhaften Demokratie erlaubt das Verbot verfassungsfeindlicher Parteien."
+          "Die wehrhafte Demokratie schützt sich gegen ihre Feinde."
         ],
         [
           "das Beweismittel",
           "la preuve / la pièce à conviction",
-          "Die Richter müssen entscheiden, ob die E-Mails als legales Beweismittel vor Gericht gelten."
+          "Sind die E-Mails ein gutes Beweismittel?"
         ],
         [
           "die Bestrebung",
           "la tentative / la visée (politique)",
-          "Der Verfassungsschutz beobachtet verfassungsfeindliche Bestrebungen extremistischer Gruppen."
+          "Der Verfassungsschutz beobachtet extremistische Bestrebungen."
         ],
         [
           "das Parteiverbot",
           "l'interdiction d'un parti politique",
-          "Ein Parteiverbot ist im deutschen Grundgesetz nur unter extrem strengen Hürden möglich."
+          "Ein Parteiverbot ist sehr schwierig."
         ],
         [
           "der Parteifunktionär",
           "le cadre / dirigeant du parti",
-          "Geleakte Nachrichten zeigen vertrauliche Absprachen unter führenden Parteifunktionären."
+          "Die Parteifunktionäre haben vertrauliche E-Mails geschrieben."
         ],
         [
           "die Hürde",
           "l'obstacle / l'exigence élevée",
-          "Das Bundesverfassungsgericht setzt sehr hohe juristische Hürden für ein solches Verfahren."
+          "Die Hürden für ein Verbot sind hoch."
         ]
       ],
       "sujets": [
-        "Ist das Instrument des Parteiverbots das richtige Mittel zur Verteidigung der Demokratie gegen Extremismus?",
-        "Wie sollte die Gesellschaft mit Parteien umgehen, die demokratische Institutionen von innen heraus schwächen?"
+        "Ist ein Parteiverbot ein gutes Mittel gegen Extremismus?",
+        "Wie kann sich eine Demokratie gegen ihre Feinde schützen?"
       ]
     },
     {
@@ -683,45 +683,45 @@
       "faits": "En Allemagne, les autorités fédérales et les gouvernements des seize Länder ont clôturé l'exercice de crise national LÜKEX, qui simulait pour la première fois un scénario de canicule extrême et de sécheresse prolongée à l'échelle du pays. Coordonné par l'Office fédéral de la protection civile et de l'aide aux catastrophes (BBK), cet entraînement géant a mobilisé plus de 3 000 spécialistes des ministères de l'Intérieur, de la Santé, des Transports, ainsi que les services d'urgence et les exploitants de réseaux d'eau et d'électricité. Le scénario catastrophe testait la résilience des infrastructures face à une baisse critique du niveau des grands fleuves commerciaux comme le Rhin et l'Elbe, paralysant la navigation fluviale et menaçant l'approvisionnement en charbon et en carburant des centrales thermiques. L'exercice a également simulé des pénuries sévères d'eau potable dans plusieurs grandes agglomérations, des incendies de forêt simultanés et des pannes de réseau électrique dues à la surchauffe des transformateurs. Le président du BBK a souligné que le réchauffement climatique rendait ces situations d'urgence autrefois théoriques de plus en plus probables dans la réalité quotidienne.",
       "enjeux": "L'exercice LÜKEX met en lumière l'extrême vulnérabilité des pays industriels hautement développés face aux conséquences physiques directes du changement climatique. En Allemagne, le transport fluvial sur le Rhin représente une artère logistique vitale pour l'industrie chimique, sidérurgique et énergétique : un arrêt prolongé du trafic fluvial pour cause de basses eaux désorganise instantanément les chaînes de production de tout le bassin rhénan. De surcroît, le fédéralisme allemand complique souvent la réactivité opérationnelle en temps de crise, les compétences de sécurité civile étant éclatées entre les Länder et les communes. L'exercice a mis en évidence le besoin impératif d'investissements massifs dans la modernisation des conduites d'eau, la création de réservoirs de secours régionaux et le renforcement des capacités de refroidissement industriel en circuit fermé. La protection civile ne peut plus se limiter aux risques militaires ou terroristes traditionnels, mais doit intégrer pleinement l'adaptation climatique comme une priorité de sécurité nationale absolue.",
       "vo": {
-        "titre": "Bundesweite Krisenübung LÜKEX simuliert extreme Hitze und Wassermangel",
-        "faits": "In Deutschland haben die Behörden von Bund und Ländern die große Krisenschutzübung LÜKEX beendet, bei der erstmals die Folgen einer anhaltenden Dürre und Hitzewelle simuliert wurden. An dem zweitägigen Training unter Leitung des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe (BBK) nahmen rund 3.000 Experten aus Behörden, Rettungsdiensten und Versorgungsunternehmen teil. Das Szenario ging von monatelanger Trockenheit aus, die zu historischem Niedrigwasser auf wichtigen Flüssen wie dem Rhein führte und die Binnenschifffahrt lahmlegte. Gleichzeitig mussten die Einsatzkräfte auf großflächige Waldbrände, Ausfälle bei der Trinkwasserversorgung und Stromabschaltungen wegen überhitzter Kraftwerke reagieren. BBK-Präsident Ralph Tiesler erklärte nach Abschluss der Übung, dass derartige Extremwetterlagen infolge des Klimawandels keine theoretischen Gedankenexperimente mehr seien, sondern künftig zur realen Bedrohung für das Land werden können.",
-        "enjeux": "Die Übung zeigt eindrücklich, wie verwundbar moderne Industrienationen gegenüber den Folgen der globalen Erwärmung sind. Flüsse wie der Rhein sind unersetzliche Transportwege für Rohstoffe, Kohle und Chemiegüter; steht die Schifffahrt still, drohen sofort Lieferengpässe in zentralen Industriezweigen. Zudem offenbart die föderale Struktur in Deutschland Schwachstellen bei der schnellen Koordination zwischen Bundesministerien, Bundesländern und Landkreisen. Die Katastrophenschützer fordern daher dringend höhere Investitionen in widerstandsfähige Wassernetze, Notfallbrunnen und eine bessere Waldbrandbekämpfung. Klimaschutz und die Anpassung an den Klimawandel müssen heute als fester Bestandteil der nationalen Sicherheitspolitik verstanden werden. Ohne eine moderne, krisenfeste Infrastruktur können Naturkatastrophen gravierende Schäden für Gesellschaft und Wirtschaft verursachen."
+        "titre": "Krisenübung: Deutschland testet extreme Hitze und Dürre",
+        "faits": "Bund und Länder haben eine große Krisenübung gemacht. Sie heißt LÜKEX. Zum ersten Mal ging es um eine lange Dürre und eine Hitzewelle. Rund 3.000 Experten haben mitgemacht. Im Szenario hatte der Rhein sehr wenig Wasser. Deshalb konnten die Schiffe nicht mehr fahren. Es gab auch Waldbrände, zu wenig Trinkwasser und Stromausfälle. Der Präsident des BBK sagt: Durch den Klimawandel wird so eine Krise immer realistischer.",
+        "enjeux": "Die Übung zeigt: Moderne Industrieländer sind durch den Klimawandel verletzlich. Der Rhein ist ein wichtiger Weg für den Transport von Rohstoffen. Wenn die Schiffe nicht fahren, fehlen der Industrie schnell wichtige Produkte. Außerdem ist die Zusammenarbeit zwischen Bund, Ländern und Kreisen oft zu langsam. Die Experten fordern mehr Geld für Wassernetze und gegen Waldbrände. Der Schutz vor dem Klimawandel wird so eine Frage der Sicherheit."
       },
       "vocab": [
         [
           "der Katastrophenschutz",
           "la sécurité civile / protection contre les catastrophes",
-          "Der Katastrophenschutz muss sich auf neue Risiken durch den Klimawandel einstellen."
+          "Der Katastrophenschutz braucht mehr Geld."
         ],
         [
           "das Niedrigwasser",
           "les basses eaux / l'étiage",
-          "Anhaltendes Niedrigwasser auf dem Rhein blockierte die Schifffahrt für schwere Frachtschiffe."
+          "Bei Niedrigwasser können die Schiffe nicht fahren."
         ],
         [
           "die Binnenschifffahrt",
           "la navigation fluviale",
-          "Die Binnenschifffahrt ist für den Transport von Rohstoffen in Deutschland unverzichtbar."
+          "Die Binnenschifffahrt ist wichtig für die Industrie."
         ],
         [
           "die Dürre",
           "la sécheresse",
-          "Monatelange Dürre führte in mehreren Regionen zu Engpässen bei der Wasserversorgung."
+          "Die Dürre hat viele Monate gedauert."
         ],
         [
           "der Lieferengpass",
           "la pénurie / le goulot d'étranglement logistique",
-          "Niedrige Wasserstände führten zu spürbaren Lieferengpässen in der chemischen Industrie."
+          "Es gibt einen Lieferengpass bei Kohle."
         ],
         [
           "die Verwundbarkeit",
           "la vulnérabilité",
-          "Die Krisenübung verdeutlichte die Verwundbarkeit moderner Infrastrukturen gegenüber Hitze."
+          "Die Übung zeigt die Verwundbarkeit des Landes."
         ]
       ],
       "sujets": [
-        "Wie gut sind moderne Industrienationen auf die Folgen extremer Wetterereignisse vorbereitet?",
-        "Welche Rolle sollte der Staat beim Schutz kritischer Infrastrukturen vor dem Klimawandel spielen?"
+        "Ist Deutschland gut auf den Klimawandel vorbereitet?",
+        "Was muss der Staat gegen Dürre und Hitze tun?"
       ]
     }
   ]

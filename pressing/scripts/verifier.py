@@ -179,6 +179,75 @@ for c in cards:
         if not (ROOT / "data" / "anki" / f"{cid}.apkg").exists():
             errors.append(f"{cid} : paquet Anki absent — lance python3 scripts/anki.py")
 
+# Allemand : niveau B2
+import re
+MOTS_C1 = ["angesichts", "infolge", "zugunsten", "derartig", "maßgeblich", "eindrücklich", "offenbart", "offenbaren", "birgt", "bergen",
+           "hinsichtlich", "bezüglich", "demzufolge", "seitens", "mittels", "gravierend", "unerlässlich", "unverzichtbar", "letztlich"]
+
+
+def phrases(t):
+    return [p for p in re.split(r"(?<=[.!?])\s+", str(t).strip()) if p]
+
+
+for c in cards:
+    if c.get("matiere") != "allemand":
+        continue
+    cid = c.get("id", "?")
+    vo = c.get("vo") or {}
+    textes = {"vo.faits": vo.get("faits", ""), "vo.enjeux": vo.get("enjeux", "")}
+    for nom, t in textes.items():
+        ps = phrases(t)
+        if not ps:
+            continue
+        longues = [p for p in ps if len(p.split()) > 15]
+        for p in longues:
+            errors.append(f"{cid} : {nom}, phrase trop longue pour du B2 ({len(p.split())} mots, max 15) : « {p[:70]}… »")
+        moy = sum(len(p.split()) for p in ps) / len(ps)
+        if moy > 12:
+            errors.append(f"{cid} : {nom}, phrases trop longues en moyenne ({moy:.1f} mots, max 12) — simplifie en B2")
+        if ";" in t:
+            errors.append(f"{cid} : {nom}, pas de point-virgule en B2")
+    if len(str(vo.get("titre", "")).split()) > 9:
+        errors.append(f"{cid} : vo.titre trop long pour du B2 (max 9 mots)")
+    for v in c.get("vocab") or []:
+        if isinstance(v, list) and len(v) == 3 and len(str(v[2]).split()) > 10:
+            errors.append(f"{cid} : exemple de vocab trop long pour du B2 (max 10 mots) : « {v[2][:60]} »")
+    for sj in c.get("sujets") or []:
+        if len(str(sj).split()) > 12:
+            errors.append(f"{cid} : sujet trop long pour du B2 (max 12 mots) : « {sj[:60]} »")
+    tout = " ".join([str(vo.get("titre", "")), *textes.values(), *[str(v[2]) for v in c.get("vocab") or [] if isinstance(v, list) and len(v) == 3], *map(str, c.get("sujets") or [])]).lower()
+    for m in MOTS_C1:
+        if re.search(r"\b" + m, tout):
+            errors.append(f"{cid} : mot trop soutenu pour du B2 : « {m}… » — remplace-le par un mot courant")
+
+JOURNAUX = {"Les Échos": "lesechos.fr", "Le Monde": "lemonde.fr"}
+a_lire = ed.get("a_lire") or []
+card_urls = {c.get("url") for c in cards}
+for j, dom in JOURNAUX.items():
+    n = sum(1 for a in a_lire if a.get("journal") == j)
+    if n != 3:
+        errors.append(f"à lire : {n} article(s) {j} au lieu de 3")
+seen = set()
+for i, a in enumerate(a_lire, 1):
+    nom = f"à lire n°{i}"
+    for k in ("journal", "titre", "url", "pourquoi"):
+        if not a.get(k):
+            errors.append(f"{nom} : champ {k} manquant ou vide")
+    url = str(a.get("url", ""))
+    if a.get("journal") not in JOURNAUX:
+        errors.append(f"{nom} : journal {a.get('journal')!r} — il faut « Les Échos » ou « Le Monde »")
+    elif not allowed(url, [JOURNAUX[a["journal"]]]):
+        errors.append(f"{nom} : l'adresse n'est pas sur {JOURNAUX[a['journal']]}")
+    elif "--sans-liens" not in sys.argv:
+        pb = check_link(url)
+        if pb:
+            errors.append(f"{nom} : {pb}. Retrouve le vrai article et copie l'adresse depuis la barre du navigateur.")
+    if url in seen:
+        errors.append(f"{nom} : article en double dans la liste")
+    if url in card_urls:
+        errors.append(f"{nom} : déjà utilisé comme source d'une carte, choisis-en un autre")
+    seen.add(url)
+
 for w in warnings:
     print(" (à noter)", w)
 if errors:
@@ -186,4 +255,4 @@ if errors:
     for e in errors:
         print(" -", e)
     sys.exit(1)
-print(f"Édition valide : {date}, {len(cards)} cartes.")
+print(f"Édition valide : {date}, {len(cards)} cartes, {len(a_lire)} articles à lire.")
