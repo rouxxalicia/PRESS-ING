@@ -5,7 +5,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 ## Étapes, dans l'ordre
 
 1. Note la date du jour (heure de Paris) au format `AAAA-MM-JJ`. Si `data/editions/<date>.json` existe déjà, arrête-toi et dis-le.
-2. Lis `data/index.json`, puis les deux dernières éditions de `data/editions/`. Elles servent de **modèle de style et de longueur**, et leurs sujets ne doivent pas être repris.
+2. Lis `data/index.json`, puis les deux dernières éditions de `data/editions/`. Elles servent de **modèle de style et de longueur**, et leurs sujets ne doivent pas être repris. **Sauf pour l'allemand** : beaucoup d'anciennes cartes d'allemand sont en C1. Pour l'allemand, le seul modèle est l'exemple de la partie « Allemand : niveau B2 » ci-dessous.
 3. Lis `data/referentiel.json` : la liste des fiches (`id`, `nom`, `auteur`) et une fiche entière, `avantages-comparatifs`, qui sert de modèle.
 4. Cherche sur le web l'actualité **des dernières 48 heures**, puis choisis 4 actus par matière (la première est l'actu principale) :
    - **esh** : économie française, européenne ou mondiale, et faits sociaux. Il faut qu'on puisse s'en servir dans une dissertation d'ESH.
@@ -86,9 +86,28 @@ Chaque carte a un champ `image` :
 
 ### Cartes de langue (en plus)
 - `vo` : `titre`, `faits` et `enjeux` traduits dans la langue de la carte, naturels et idiomatiques : niveau C1 en anglais et en espagnol, niveau B2 en allemand.
-- Allemand : le niveau B2 vaut pour `vo`, `vocab` et `sujets`. Écris des phrases plus courtes, avec un vocabulaire courant et une syntaxe simple. Ne prends pas pour modèle les anciennes éditions, dont l'allemand est en C1.
+- Allemand : **niveau B2 obligatoire**, voir la partie « Allemand : niveau B2 » ci-dessous.
 - `vocab` : 6 paires `["mot ou expression en langue étrangère", "traduction française"]`, utiles pour un essai.
 - Pas de `programme` ni d'`auteurs`.
+
+### Allemand : niveau B2 (règle stricte)
+
+Alicia a un niveau B2 en allemand : elle doit tout comprendre sans dictionnaire. Le niveau B2 vaut pour `vo` (titre, faits, enjeux), les phrases d'exemple de `vocab` et les `sujets`. **Le vérificateur refuse l'édition si ces règles ne sont pas respectées.**
+
+- **Phrases courtes** : 15 mots maximum par phrase, et 12 mots en moyenne. Une idée par phrase. Si une phrase est trop longue, coupe-la en deux.
+- **Syntaxe simple** : au plus une subordonnée par phrase (weil, dass, wenn, ob…). Pas de point-virgule. Pas de longs groupes nominaux (« das vor einigen Jahren mit großem Aufwand vorgestellte Modell » est interdit : écris « Tesla hat das Modell vor einigen Jahren vorgestellt. »).
+- **Temps simples** : présent, Perfekt, Präteritum des verbes courants (war, hatte, wollte…). Évite le Konjunktiv I, le Plusquamperfekt et les passifs compliqués.
+- **Vocabulaire courant** : les mots du quotidien et de l'actualité. Garde les mots techniques du sujet (ils sont dans `vocab`), mais n'ajoute pas de mots soutenus. Mots interdits : angesichts, infolge, zugunsten, derartig, maßgeblich, eindrücklich, offenbaren, bergen (birgt), hinsichtlich, bezüglich, demzufolge, seitens, mittels, gravierend, unerlässlich, unverzichtbar, letztlich.
+- `vo.titre` : 9 mots maximum. Phrases d'exemple de `vocab` : 10 mots maximum. `sujets` : 12 mots maximum, une question simple.
+- **Relis chaque texte allemand avant de passer à la suite** et simplifie tout ce qui ressemble à un article de journal allemand.
+
+Exemple de niveau attendu (`enjeux`) :
+
+> In Deutschland kann man eine Partei verbieten. Das ist die Idee der wehrhaften Demokratie. Der Staat soll die Demokratie gegen ihre Feinde schützen. Nur das Bundesverfassungsgericht darf eine Partei verbieten. Die Hürden dafür sind sehr hoch. Wenn das Verfahren scheitert, wird die AfD wahrscheinlich noch stärker.
+
+Exemple de ce qu'il ne faut **pas** faire (C1) :
+
+> ~~Allerdings birgt ein solches Verfahren vor dem Bundesverfassungsgericht erhebliche juristische Risiken: Sollten die Richter die gehackten E-Mails als Beweismittel ablehnen, könnte das gesamte Verbotsverfahren scheitern.~~
 
 ### Cartes Anki (esh, anglais, espagnol ; jamais l'allemand)
 - `anki` : 2 à 4 cartes `{"q": "recto", "r": "verso"}` sur les **faits et chiffres citables** de l'article. Aucune carte artificielle : seulement ce qu'Alicia pourra citer en dissertation ou en khôlle. Tout vient de `faits` et `enjeux`, rien d'inventé.
