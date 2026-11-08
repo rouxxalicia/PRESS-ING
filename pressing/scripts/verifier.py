@@ -162,6 +162,9 @@ for c in cards:
                 errors.append(f"{cid} : auteur {a.get('nom', '?')} sans ref — crée sa fiche dans le référentiel")
             elif a["ref"] not in ref_ids:
                 errors.append(f"{cid} : ref {a['ref']!r} absente du référentiel — crée la fiche")
+        notions = c.get("notions") or []
+        if not 3 <= len(notions) <= 4 or any(not isinstance(v, list) or len(v) != 2 or not all(v) for v in notions):
+            errors.append(f"{cid} : il faut 3 ou 4 notions [notion, définition]")
     elif c.get("matiere") in MATS:
         vo = c.get("vo") or {}
         for k in ("titre", "faits", "enjeux"):
