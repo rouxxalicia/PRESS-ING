@@ -7,9 +7,9 @@
       "source": "Le Figaro",
       "url": "https://www.lefigaro.fr/conjoncture/bce-l-espagnol-pablo-hernandez-de-cos-et-le-neerlandais-klaas-knot-candidats-a-la-succession-de-christine-lagarde-20261106",
       "minutes": 3,
-      "titre": "Succession à la BCE : Pablo Hernández de Cos et Klaas Knot favoris pour remplacer Christine Lagarde en février 2027",
-      "faits": "À la suite de l'annonce par Christine Lagarde de son départ anticipé de la présidence de la Banque centrale européenne à la fin janvier 2027, la course à sa succession est officiellement ouverte entre les capitales de la zone euro. Deux figures majeures du Conseil des gouverneurs se détachent déjà nettement : l'Espagnol Pablo Hernández de Cos, ancien gouverneur respecté de la Banque d'Espagne réputé pour son pragmatisme consensuel, et le Néerlandais Klaas Knot, président de la Banque des Pays-Bas et représentant influent du camp des « faucons » d'Europe du Nord. Les ministres des Finances de l'Eurogroupe doivent engager des consultations informelles serrées pour s'accorder sur un candidat capable d'obtenir la majorité qualifiée des États membres ainsi que l'aval du Parlement européen. Ce choix stratégique intervient dans un contexte macroéconomique délicat où l'inflation en zone euro oscille encore autour de 4 %, tandis que la croissance économique demeure atone et hétérogène entre les pays membres. La nomination du futur président de l'institution de Francfort déterminera l'orientation de la politique monétaire européenne pour les huit prochaines années.",
-      "enjeux": "Cette bataille feutrée pour le leadership de la politique monétaire européenne réactive la rivalité doctrinale historique entre partisans d'une stricte **orthodoxie monétaire** et défenseurs d'un soutien pragmatique à l'activité. Alors que la BCE est confrontée à une **stagflation** importée par les tensions géopolitiques et le renchérissement de l'énergie, le profil du successeur engagera la doctrine de l'institut d'émission face au dilemme de la stabilité des prix et du soutien aux économies surendettées du Sud. La désignation d'un faucon comme Klaas Knot rassurerait l'Allemagne et les pays frugaux sur l'ancrage inflexible des **anticipations d'inflation**, mais ferait peser un risque d'écartement des spreads obligataires souverains en durcissant les conditions financières. À l'inverse, une présidence plus colombe ou centriste comme celle d'Hernández de Cos privilégierait la préservation de la cohésion financière et l'accompagnement de la transition écologique, au risque de prêter le flanc aux critiques de complaisance budgétaire. Ce renouvellement met en lumière l'importance de la **crédibilité** et de la fonction de réaction de la banque centrale dans un espace monétaire asymétrique sans trésor public commun.",
+      "titre": "Succession à la tête de la BCE : la bataille s'ouvre pour l'après-Christine Lagarde",
+      "faits": "Le mandat de huit ans de Christine Lagarde à la présidence de la Banque centrale européenne s'achèvera en février 2027. Les tractations diplomatiques s'accélèrent déjà entre les capitales de la zone euro pour désigner son successeur. Deux favoris se détachent nettement parmi les gouverneurs actuels ou récents des banques centrales nationales. L'Espagnol Pablo Hernández de Cos, ancien gouverneur de la Banque d'Espagne, incarne une ligne modérée et pragmatique très appréciée au Sud. Face à lui, le Néerlandais Klaas Knot, gouverneur de la banque des Pays-Bas, défend l'orthodoxie monétaire traditionnelle des pays du Nord.",
+      "enjeux": "Ce choix dépasse largement la simple attribution d'un poste de prestige institutionnel. Il déterminera l'orientation future de la politique monétaire face aux risques de fragmentation financière européenne. La crédibilité de la BCE repose sur sa capacité à maintenir l'ancrage des anticipations d'inflation autour de 2 %. Le profil du futur président enverra un signal décisif aux marchés obligataires sur la tolérance de l'institution face aux déficits publics. Les pays très endettés redoutent le retour d'un faucon partisan d'un resserrement monétaire prématuré. La désignation testera une fois de plus la solidité du compromis politique franco-allemand.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
         "alt": "Le siège de la Banque centrale européenne à Francfort-sur-le-Main",
@@ -23,31 +23,45 @@
       "auteurs": [
         {
           "nom": "Finn Kydland et Edward Prescott",
-          "ouvrage": "« Rules Rather than Discretion »",
+          "ouvrage": "« Rules Rather than Discretion: The Inconsistency of Optimal Plans »",
           "annee": "1977",
           "ref": "incoherence-temporelle",
-          "texte": "Kydland et Prescott montrent que le pilotage monétaire discrétionnaire souffre d'**incohérence temporelle** : les banques centrales sont toujours tentées d'assouplir leur politique pour stimuler l'emploi, ce qui alimente un **biais inflationniste** anticipé par les agents. Pour y remédier, la nomination d'un banquier central conservateur réputé inflexible permet d'ancrer la **crédibilité** sans alourdir le coût réel de la désinflation. À mobiliser dans tout sujet sur la gouvernance des banques centrales, la crédibilité des politiques économiques et le débat règles contre discrétion."
+          "texte": "Kydland et Prescott démontrent que le pilotage discrétionnaire de la monnaie souffre d'un biais inflationniste structurel. Pour y remédier, la société doit s'attacher les mains en confiant la banque centrale à un responsable indépendant et conservateur. Le choix entre Knot et Hernández de Cos illustre parfaitement cette quête du degré optimal d'aversion à l'inflation. À mobiliser pour justifier l'indépendance de la BCE et la crédibilité des banquiers centraux."
         },
         {
           "nom": "Irving Fisher",
           "ouvrage": "The Purchasing Power of Money",
           "annee": "1911",
           "ref": "relation-de-fisher",
-          "texte": "Fisher formalise la **relation de Fisher**, selon laquelle le taux d'intérêt nominal s'ajuste pour incorporer le taux d'intérêt réel d'équilibre et les **anticipations d'inflation**. Si les marchés doutent de la fermeté du futur président de la BCE face à une inflation à 4 %, les taux nominaux de long terme grimperont spontanément pour exiger une prime de risque, renchérissant le service de la dette. À mobiliser pour analyser la formation des taux d'intérêt, l'impact des anticipations de marché et le rôle d'ancrage joué par les dirigeants monétaires."
+          "texte": "Fisher établit que le taux d'intérêt nominal intègre mécaniquement les anticipations d'inflation des agents économiques. Si le futur président de la BCE perd sa crédibilité, la prime de risque exigée sur les dettes souveraines augmentera immédiatement. Cette hausse des taux nominaux renchérirait brutalement le coût de refinancement des États membres les plus fragiles. À mobiliser pour analyser la formation des taux d'intérêt et l'efficacité des banques centrales."
         }
       ],
+      "notions": [
+        [
+          "Incohérence temporelle",
+          "Situation où une politique optimale annoncée cesse de l'être une fois que les agents ont adapté leurs anticipations."
+        ],
+        [
+          "Crédibilité monétaire",
+          "Capacité d'une banque centrale à convaincre les marchés qu'elle respectera ses objectifs d'inflation sans dévier."
+        ],
+        [
+          "Biais inflationniste",
+          "Tendance d'une autorité politique discrétionnaire à créer de l'inflation pour stimuler l'activité à court terme."
+        ]
+      ],
       "sujets": [
-        "L'indépendance des banques centrales est-elle le garant suffisant de la stabilité macroéconomique ?",
-        "La politique monétaire peut-elle arbitrer efficacement entre lutte contre l'inflation et soutien de l'activité économique ?"
+        "L'indépendance de la Banque centrale européenne est-elle un gage d'efficacité économique ?",
+        "Dans quelle mesure la crédibilité est-elle la principale ressource des banques centrales ?"
       ],
       "anki": [
         {
-          "q": "Principaux favoris annoncés en novembre 2026 pour succéder à Christine Lagarde à la présidence de la BCE",
-          "r": "A{Pablo Hernández de Cos} (ex-gouverneur de la Banque d'Espagne) et A{Klaas Knot} (président de la Banque des Pays-Bas).\n→ A{Kydland et Prescott}, O{Rules Rather than Discretion} (D{1977}) : le choix d'un profil orthodoxe ou pragmatique conditionne la crédibilité anti-inflationniste de l'institution."
+          "q": "Échéance du mandat de Christine Lagarde à la présidence de la BCE",
+          "r": "D{Février 2027} : fin du mandat non renouvelable de 8 ans de Lagarde.\n→ A{Kydland et Prescott}, O{Rules Rather than Discretion} (D{1977}) : la crédibilité et le conservatisme du futur banquier central ancrent les anticipations des marchés. → accroche pour un sujet sur la politique monétaire ou l'indépendance des banques centrales"
         },
         {
-          "q": "Date de fin anticipée du mandat de Christine Lagarde à la présidence de la BCE",
-          "r": "Fin D{janvier 2027}, avec neuf mois d'avance sur l'échéance normale de son mandat.\n→ A{Fisher}, O{The Purchasing Power of Money} (D{1911}) : l'incertitude sur la gouvernance monétaire risque de déstabiliser les anticipations de taux d'intérêt."
+          "q": "Candidats favoris pour la présidence de la BCE en 2027",
+          "r": "A{Pablo Hernández de Cos} (Espagne, ligne pragmatique) face à A{Klaas Knot} (Pays-Bas, faucon orthodoxe).\n→ Le choix du président détermine la tolérance de la BCE face aux écarts de taux d'emprunt (spreads) en zone euro."
         }
       ]
     },
@@ -57,9 +71,9 @@
       "source": "Le Figaro",
       "url": "https://www.lefigaro.fr/social/colere-sociale-le-gouvernement-prepare-un-decret-pour-pousser-les-branches-a-augmenter-les-salaires-minimums-20261106",
       "minutes": 3,
-      "titre": "Pouvoir d'achat et smicardisation : un décret gouvernemental pour contraindre les branches à relever leurs minima salariaux",
-      "faits": "Face à la colère sociale grandissante et à l'érosion continue du pouvoir d'achat des travailleurs, le ministère du Travail prépare un décret contraignant visant à accélérer les négociations salariales dans les branches professionnelles en retard. Actuellement, près d'une trentaine de branches conservent des premiers échelons de grille indiciaire inférieurs au salaire minimum de croissance (Smic), rendant les qualifications initiales inopérantes pour les salariés concernés. Le projet de texte réglementaire prévoit d'imposer des pénalités financières et de suspendre les exonérations de cotisations sociales patronales (dispositif Fillon) pour les entreprises des secteurs qui ne mettront pas leurs grilles en conformité dans un délai de trois mois. Le gouvernement entend ainsi enrayer le tassement généralisé de la hiérarchie des rémunérations et redonner du dynamisme à l'ascenseur salarial. Les organisations syndicales saluent une mesure indispensable mais tardive, tandis que le patronat redoute une fragilisation des PME dans les secteurs à faibles marges d'exploitation.",
-      "enjeux": "Cette initiative réglementaire cible directement le mal français de la **smicardisation**, où la part des salariés rémunérés au salaire minimum est passée de 12 % en 2021 à plus de 17 % du secteur privé en 2026. L'indexation automatique du seul Smic sur l'inflation entraîne un effet de rattrapage qui compresse les écarts indiciaires entre ouvriers non qualifiés, techniciens et employés expérimentés faute d'accords de branche dynamiques. Ce phénomène génère ce que les économistes appellent des **trappes à bas salaires**, renforcées par les allégements de cotisations sociales massifs concentrés au niveau du plancher légal qui désincitent les employeurs à accorder des promotions. En conditionnant les exonérations patronales au respect des minima de branche, l'État tente de restaurer la fonction incitative du salaire et de relancer la **négociation collective**. Cependant, cette pression à la hausse sur les coûts salariaux pose la question de la compétitivité et du risque de substitution du capital au travail dans les secteurs intensifs en main-d'œuvre peu qualifiée.",
+      "titre": "Salaires minima de branche : le gouvernement publie le décret pour contrer le tassement vers le Smic",
+      "faits": "Le ministère du Travail a finalisé son décret contraignant les branches professionnelles à renégocier leurs grilles salariales. Une dizaine de branches affichent encore des premiers échelons inférieurs au salaire minimum légal après les récentes revalorisations. Le texte impose un calendrier très strict et prévoit des sanctions financières ciblées contre les secteurs récalcitrants. L'exécutif entend accélérer le dialogue social pour éviter que des millions de salariés ne restent bloqués au Smic. Cette initiative gouvernementale intervient alors que le pouvoir d'achat demeure au centre de fortes tensions sociales.",
+      "enjeux": "Ce dispositif tente d'enrayer le phénomène persistant de **smicardisation** de la population active française. En dix ans, la part des salariés rémunérés au salaire minimum est passée de 12 % à plus de 17 %. Les revalorisations automatiques du Smic indexées sur l'inflation ont progressé plus vite que les négociations de branche. Cette compression de l'éventail des rémunérations détruit les incitations à l'effort et décourage la progression de carrière. Elle alimente également le sentiment de déclassement chez les ouvriers et les employés qualifiés. La mesure illustre le dilemme entre soutien du pouvoir d'achat et préservation de la compétitivité des entreprises.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Minist%C3%A8re_de_l%27%C3%89conomie_et_des_Finances_Mars_2022.jpg/1280px-Minist%C3%A8re_de_l%27%C3%89conomie_et_des_Finances_Mars_2022.jpg",
         "alt": "Le ministère de l'Économie et des Finances à Bercy",
@@ -73,131 +87,173 @@
       "auteurs": [
         {
           "nom": "George Stigler, David Card et Alan Krueger",
-          "ouvrage": "Myth and Measurement: The New Economics of the Minimum Wage",
-          "annee": "1995",
+          "ouvrage": "« Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania »",
+          "annee": "1994",
           "ref": "salaire-minimum-emploi",
-          "texte": "Card et Krueger démontrent empiriquement qu'une hausse modérée du **salaire minimum** ne détruit pas nécessairement d'emplois, contredisant le modèle néoclassique concurrentiel lorsque les employeurs disposent d'un pouvoir de **monopsone**. Revaloriser les minima de branche permet de corriger ce pouvoir de marché des entreprises sans provoquer de vague de licenciements. À mobiliser dans tout sujet sur la fixation des salaires, l'impact du Smic sur l'emploi et les défaillances de la concurrence sur le marché du travail."
+          "texte": "Card et Krueger montrent qu'une hausse modérée du salaire minimum ne détruit pas nécessairement d'emplois, contredisant le modèle néoclassique standard. Sur un marché imparfait, relever les minima oblige les entreprises à résorber leurs rentes de monopsone. Le décret français cherche ainsi à dynamiser les salaires sans provoquer de choc récessif sur l'embauche. À mobiliser pour discuter l'impact du salaire légal sur le niveau d'emploi."
         },
         {
           "nom": "George Akerlof et Janet Yellen",
-          "ouvrage": "« Efficiency Wage Models of the Labor Market »",
-          "annee": "1984",
+          "ouvrage": "« The Fair Wage-Effort Hypothesis and Unemployment »",
+          "annee": "1990",
           "ref": "salaire-d-efficience",
-          "texte": "Akerlof et Yellen développent la théorie du **salaire d'efficience** et l'hypothèse du don-contre-don : un tassement excessif des salaires perçu comme injuste dégrade l'effort, la loyauté et la **productivité globale du travail**. Le mécanisme de smicardisation décourage les gains de qualification des salariés piégés à des rémunérations écrasées autour du seuil légal. À mobiliser pour expliquer pourquoi des grilles salariales différenciées sont indispensables pour stimuler la productivité et la motivation."
+          "texte": "Akerlof et Yellen soulignent que les salariés réduisent leur effort lorsqu'ils perçoivent leur rémunération comme injuste par rapport aux autres. Le tassement des salaires vers le Smic engendre une désincitation majeure pour les employés qualifiés non revalorisés. Obliger les branches à redessiner leurs grilles permet de restaurer l'équité salariale et de stimuler la productivité globale. À mobiliser sur les déterminants psychologiques et institutionnels des salaires."
         }
       ],
+      "notions": [
+        [
+          "Smicardisation",
+          "Tassement de l'échelle des salaires vers le salaire minimum sous l'effet de revalorisations automatiques non répercutées par les branches."
+        ],
+        [
+          "Minima de branche",
+          "Planchers de rémunération négociés au niveau de chaque branche professionnelle pour chaque niveau de qualification."
+        ],
+        [
+          "Négociation collective",
+          "Processus de dialogue institutionnalisé entre syndicats et patronat pour fixer salaires et conditions de travail."
+        ]
+      ],
       "sujets": [
-        "Le salaire n'est-il qu'un coût pour l'entreprise ?",
-        "Les politiques de lutte contre les bas salaires sont-elles compatibles avec le maintien du plein emploi ?"
+        "Le salaire minimum est-il un instrument efficace de lutte contre la pauvreté ?",
+        "Dans quelle mesure les institutions du marché du travail influencent-elles la dynamique des salaires ?"
       ],
       "anki": [
         {
-          "q": "Sanction prévue par le projet de décret gouvernemental contre les branches aux minima sous le Smic",
-          "r": "Suspension des C{exonérations de cotisations sociales patronales} (allégements Fillon) après un délai de carence de C{trois mois}.\n→ A{Card et Krueger}, O{Myth and Measurement} (D{1995}) : l'encadrement des planchers salariaux neutralise les rentes de monopsone."
+          "q": "Part des salariés rémunérés au Smic en France (évolution récente)",
+          "r": "Passage de C{12 %} à plus de C{17 %} des salariés en dix ans.\n→ A{Akerlof et Yellen}, O{The Fair Wage-Effort Hypothesis} (D{1990}) : le tassement de la hiérarchie salariale brise l'incitation à l'effort. → accroche pour un sujet sur le travail, les salaires ou le pouvoir d'achat"
         },
         {
-          "q": "Proportion des salariés du secteur privé rémunérés au niveau du Smic en France en 2026",
-          "r": "Plus de C{17 %} des salariés, contre environ C{12 %} en D{2021}, illustrant l'ampleur de la smicardisation.\n→ A{Akerlof et Yellen}, O{Efficiency Wage Models} (D{1984}) : l'écrasement de la hiérarchie salariale nuit à la productivité et aux incitations à l'effort."
+          "q": "Décret sur les minima de branche (France, novembre 2026)",
+          "r": "Obligation sous sanctions financières de relever les minima conventionnels inférieurs au C{Smic}.\n→ Reflète la tentative de l'État de relancer la négociation collective face aux rigidités de branche."
         }
       ]
     },
     {
       "id": "2026-11-08-esh-3",
       "matiere": "esh",
-      "source": "Le Figaro",
-      "url": "https://www.lefigaro.fr/conjoncture/en-californie-ces-milliardaires-sous-la-menace-d-une-taxe-zucman-qui-ont-quitte-le-golden-state-20261107",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/idees/article/2026/11/07/jean-pisani-ferry-la-chine-manque-d-une-strategie-macroeconomique-de-nature-a-corriger-ses-desequilibres-persistants_6808269_3232.html",
       "minutes": 3,
-      "titre": "Fiscalité et concurrence fiscale : l'exil des milliardaires de Californie face au projet d'impôt Zucman sur le patrimoine",
-      "faits": "Face à la perspective de l'adoption d'une proposition de loi instaurant un impôt sur la fortune inspiré des travaux de l'économiste Gabriel Zucman, plusieurs dizaines de grandes fortunes et d'entrepreneurs de la Silicon Valley ont transféré leur résidence fiscale hors de Californie. Ce texte législatif précurseur prévoit d'imposer un prélèvement annuel de 1 à 1,5 % sur les patrimoines nets supérieurs à 50 millions de dollars, incluant les plus-values latentes sur les actions non cotées des start-up technologiques. Les partisans de la réforme estiment que cette contribution exceptionnelle est indispensable pour financer les services publics scolaires, la rénovation des infrastructures urbaines et le déficit budgétaire californien. Cependant, les départs précipités vers des États fédérés sans impôt sur le revenu comme le Texas, la Floride, le Nevada ou le Wyoming se multiplient parmi les fondateurs de la tech et les investisseurs en capital-risque. Les opposants au projet mettent en garde contre une perte nette de recettes fiscales et un tarissement des flux d'investissements dans l'écosystème d'innovation local.",
-      "enjeux": "Cet exode illustre avec éclat les dilemmes fondamentaux de la **justice fiscale** et de la **concurrence fiscale dommageable** au sein d'un espace économique décentralisé. Alors que la concentration des richesses a atteint des sommets historiques sous l'effet de l'essor des géants du numérique, la capacité des gouvernements sous-centraux à taxer les **assiettes fiscales mobiles** est structurellement bridée par la liberté de circulation du capital et des personnes. Selon la logique de la **courbe de Laffer**, un taux d'imposition marginal jugé confiscatoire déclenche des comportements d'optimisation ou d'évasion qui réduisent l'assiette globale et peuvent annuler le rendement fiscal espéré. D'un autre côté, renoncer à taxer le capital hyper-mobile conduit mécaniquement à faire peser le fardeau fiscal sur les facteurs immobiles comme le travail et la consommation, accentuant les **inégalités de patrimoine**. Cette crise californienne conforte la thèse de Piketty et Zucman selon laquelle un impôt progressif sur le capital ne peut être pleinement efficace que s'il est coordonné à l'échelle fédérale ou internationale avec un cadastre financier mondial.",
+      "titre": "Modèle chinois : le piège macroéconomique d'une croissance tirée par l'offre et bridée dans sa consommation",
+      "faits": "Dans une tribune remarquée, l'économiste Jean Pisani-Ferry analyse les déséquilibres structurels persistants de la deuxième économie mondiale. Pékin continue de subventionner massivement ses capacités manufacturières tout en négligeant le soutien aux revenus des ménages. Cette stratégie génère des surcapacités industrielles colossales qui sont déversées sur les marchés d'exportation occidentaux. Malgré les plans de relance monétaire successifs annoncés par la banque centrale chinoise, la consommation intérieure reste atone. Le ralentissement immobilier et le vieillissement démographique accéléré renforcent l'épargne de précaution des familles chinoises.",
+      "enjeux": "Ce déséquilibre réactive les débats théoriques sur les limites d'un modèle de croissance exclusivement tiré par l'**accumulation du capital**. En refusant de bâtir un État-providence redistributif, la Chine maintient son taux d'épargne au-delà de 40 % du PIB. Cette **sous-consommation chronique** oblige l'industrie chinoise à exporter ses excédents, attisant les tensions protectionnistes avec Washington et Bruxelles. Pour les pays occidentaux, l'arrivée de produits chinois subventionnés menace des pans entiers de l'industrie manufacturière. La transition d'une croissance extensive vers une croissance intensive portée par la productivité globale des facteurs s'avère bien plus difficile qu'anticipé. La crise immobilière démontre l'épuisement d'un modèle fondé sur la dette locale et les infrastructures.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Aerial_view_of_Silicon_Valley.jpg/1280px-Aerial_view_of_Silicon_Valley.jpg",
-        "alt": "Vue aérienne de la Silicon Valley en Californie, berceau de l'innovation technologique",
-        "credit": "Patrick Nouhailler / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Silicon_Valley.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pudong_Shanghai_November_2017.jpg/1280px-Pudong_Shanghai_November_2017.jpg",
+        "alt": "La skyline de Pudong à Shanghai, symbole de l'essor industriel et financier de la Chine",
+        "credit": "King of Hearts / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017.jpg"
       },
       "programme": {
-        "module": "4 - Déséquilibres, régulation et action publique",
-        "chapitre": "4.2 - Les politiques économiques"
+        "module": "2 - La dynamique de la mondialisation économique et financière",
+        "chapitre": "2.3 - La mondialisation commerciale et productive"
       },
       "auteurs": [
         {
-          "nom": "Thomas Piketty",
-          "ouvrage": "Le Capital au XXIe siècle",
-          "annee": "2013",
-          "ref": "fiscalite-du-capital-piketty",
-          "texte": "Piketty montre que lorsque le taux de rendement du capital dépasse le taux de croissance ($r > g$), la richesse accumulée se concentre inéluctablement, nécessitant un **impôt progressif sur le capital** pour préserver la démocratie. Le projet californien inspiré de Gabriel Zucman tente de freiner cette dérive ploutocratique, mais son échec local démontre qu'une fiscalité patrimoniale exige une régulation supranationale pour contrer la mobilité du capital. À mobiliser dans tout sujet sur la redistribution, les inégalités économiques et la fiscalité du patrimoine."
+          "nom": "Robert Solow et Paul Krugman",
+          "ouvrage": "« The Myth of Asia's Miracle »",
+          "annee": "1994",
+          "ref": "croissance-extensive-intensive",
+          "texte": "Krugman applique le modèle néoclassique de Solow aux économies asiatiques pour montrer que leur essor repose sur une accumulation massive de facteurs de production et non sur des gains de productivité durables. Lorsque les rendements marginaux du capital deviennent décroissants, cette croissance extensive finit inexorablement par buter sur un plafond. C'est exactement le blocage auquel se heurte aujourd'hui l'économie chinoise selon Pisani-Ferry. À mobiliser pour distinguer croissance extensive et croissance intensive."
         },
         {
-          "nom": "Arthur Laffer",
-          "ouvrage": "The Economics of the Tax Revolt",
-          "annee": "1979",
-          "ref": "courbe-de-laffer",
-          "texte": "Laffer formalise la célèbre **courbe de Laffer**, selon laquelle « trop d'impôt tue l'impôt » : au-delà d'un seuil critique, la hausse des taux marginaux incite les contribuables les plus aisés à l'exil fiscal ou à la dissimulation, réduisant les rentrées budgétaires. Le départ des milliardaires californiens vers le Texas ou la Floride valide cette théorie de l'offre en illustrant l'élasticité élevée de la base fiscale des super-riches face aux chocs d'imposition locaux. À mobiliser pour analyser les limites de la pression fiscale et la concurrence entre territoires."
+          "nom": "Franco Modigliani",
+          "ouvrage": "« The Life Cycle Hypothesis of Saving »",
+          "annee": "1954",
+          "ref": "cycle-de-vie",
+          "texte": "Modigliani explique que les ménages épargnent durant leur vie active pour financer leur consommation lors de la retraite. En Chine, l'absence de système de retraite robuste et la fin de la politique de l'enfant unique contraignent les ménages à une sur-épargne de précaution. Cette épargne excessive bride la consommation domestique et entretient l'excédent extérieur du pays. À mobiliser sur les déterminants de l'épargne et les déséquilibres internationaux."
         }
       ],
+      "notions": [
+        [
+          "Déséquilibre macroéconomique",
+          "Écart durable entre l'épargne nationale et l'investissement intérieur se traduisant par un excédent ou un déficit courant."
+        ],
+        [
+          "Sous-consommation",
+          "Insuffisance structurelle de la demande des ménages due à la faiblesse des salaires ou de la protection sociale."
+        ],
+        [
+          "Modèle d'offre",
+          "Stratégie de croissance axée sur la subvention de l'appareil productif et l'exportation plutôt que le marché intérieur."
+        ]
+      ],
       "sujets": [
-        "La concurrence fiscale entre territoires est-elle toujours un obstacle à la redistribution ?",
-        "La fiscalité du capital peut-elle encore être efficace dans une économie globalisée ?"
+        "L'accumulation du capital suffit-elle à garantir une croissance économique durable ?",
+        "Les déséquilibres d'épargne et d'investissement entre nations sont-ils la cause majeure des tensions commerciales contemporaines ?"
       ],
       "anki": [
         {
-          "q": "Taux et seuil de l'impôt sur la fortune proposé en Californie selon les préconisations de Zucman",
-          "r": "Prélèvement annuel de C{1 à 1,5 %} sur les patrimoines nets dépassant C{50 millions de dollars}, incluant les plus-values latentes.\n→ A{Piketty}, O{Le Capital au XXIe siècle} (D{2013}) : la taxation du capital vise à empêcher la dérive $r > g$ mais exige une assiette non mobile."
+          "q": "Taux d'épargne national de la Chine rapporté au PIB",
+          "r": "Supérieur à C{40 %} du PIB (contre environ C{20 %} en Europe).\n→ A{Modigliani}, O{The Life Cycle Hypothesis} (D{1954}) : le manque de protection sociale génère une sur-épargne qui bride la consommation intérieure. → accroche pour un sujet sur les déséquilibres internationaux ou la croissance chinoise"
         },
         {
-          "q": "Effet pervers déclenché par le projet fiscal californien sur les bases taxables locales",
-          "r": "Exode fiscal des fondateurs de la tech vers des États sans impôt sur le revenu (C{Texas, Floride, Nevada, Wyoming}).\n→ A{Laffer}, O{The Economics of the Tax Revolt} (D{1979}) : l'excès de pression fiscale sur les bases mobiles érode les recettes publiques globales."
+          "q": "Diagnostic de Jean Pisani-Ferry sur le modèle chinois (2026)",
+          "r": "Une relance par l'offre et les subventions manufacturières qui aggrave les surcapacités au détriment des revenus des ménages.\n→ A{Krugman}, O{The Myth of Asia's Miracle} (D{1994}) : la croissance extensive par accumulation bute sur les rendements décroissants."
         }
       ]
     },
     {
       "id": "2026-11-08-esh-4",
       "matiere": "esh",
-      "source": "Le Figaro",
-      "url": "https://www.lefigaro.fr/conjoncture/il-est-exceptionnel-apres-deux-ans-et-demi-de-retard-mais-pile-a-l-heure-le-tout-nouveau-tgv-de-la-sncf-s-est-elance-20261106",
+      "source": "Alternatives économiques",
+      "url": "https://www.alternatives-economiques.fr/l-echec-electoral-de-trump-marque-t-il-la-fin-du-protectionnisme-americain_06-11-2026",
       "minutes": 3,
-      "titre": "Politique industrielle et décarbonation : le TGV M d'Alstom entre enfin en service commercial pour la SNCF",
-      "faits": "Après plus de deux années et demie de retards d'homologation et de mises au point industrielles, le premier exemplaire du TGV de nouvelle génération (TGV M) a effectué son voyage inaugural avec passagers entre Paris et Lyon. Conçu et assemblé par le constructeur français Alstom, ce train à grande vitesse du futur promet d'accueillir jusqu'à 740 voyageurs par rame grâce à une architecture à deux niveaux optimisée, soit 20 % de capacité supplémentaire par rapport aux rames actuelles. L'appareil affiche une réduction de sa consommation d'énergie de 20 % grâce à un aérodynamisme retravaillé et à un système de freinage régénératif réinjectant l'électricité dans la caténaire. La SNCF a commandé 115 rames pour un montant global avoisinant les 3,5 milliards d'euros, constituant le plus vaste programme de modernisation de son parc ferroviaire depuis trois décennies. Le groupe ferroviaire entend déployer ces rames sur l'axe Sud-Est avant de conquérir les liaisons internationales vers Milan et Barcelone.",
-      "enjeux": "Ce déploiement commercial consacre l'importance stratégique des **grands programmes technologiques** pilotés conjointement par l'État stratège, les entreprises publiques de réseau et les champions industriels nationaux. Dans un contexte d'ouverture à la concurrence des lignes à grande vitesse face à des opérateurs rivaux comme Trenitalia ou Renfe, la SNCF modernise son appareil productif pour abaisser son coût d'exploitation à la place offerte et préserver ses parts de marché. La performance environnementale du rail, qui émet jusqu'à 90 % de gaz à effet de serre en moins que l'aviation commerciale sur les trajets domestiques, positionne le TGV M au cœur des politiques de **transition écologique**. Toutefois, les retards cumulés de développement révèlent les difficultés de la filière ferroviaire européenne face aux tensions d'approvisionnement en semi-conducteurs et à la complexité des normes de sécurité interoperables. Ce projet démontre que la rentabilité des investissements ferroviaires lourds repose sur des **rendements d'échelle croissants** et exige un horizon temporel de long terme garanti par la commande publique.",
+      "titre": "Commerce international : l'échec électoral de Trump marque-t-il la fin du protectionnisme américain ?",
+      "faits": "La défaite des candidats républicains aux élections américaines de mi-mandat relance les interrogations sur l'avenir de la politique commerciale de Washington. L'administration Biden avait conservé la plupart des barrières douanières héritées de l'ère Trump tout en déployant des subventions massives avec l'Inflation Reduction Act. Les économistes d'Alternatives économiques analysent si le recul électoral du mouvement protectionniste permettra un retour au multilatéralisme. Les industriels américains demeurent très attachés aux mesures de sauvegarde face aux importations subventionnées en provenance d'Asie. Les partenaires commerciaux européens espèrent quant à eux une désescalade tarifaire et une réactivation des règles de l'OMC.",
+      "enjeux": "Ce débat illustre le basculement durable de la mondialisation vers un régime de **géoéconomie** et de fragmentation commerciale. Le consensus libre-échangiste d'après-guerre a cédé la place à une recherche effrénée de **souveraineté industrielle** et de sécurité nationale. Le protectionnisme contemporain ne s'appuie plus seulement sur des droits de douane traditionnels, mais sur des politiques industrielles discriminatoires et des critères environnementaux. La théorie des **industries naissantes** de List se trouve ainsi réinterprétée au profit de la réindustrialisation verte des nations développées. La fin de l'arbitrage commercial impartial au sein de l'OMC risque d'enfermer les blocs régionaux dans des représailles permanentes. Les gains à l'échange modélisés par David Ricardo sont désormais subordonnés aux impératifs stratégiques et géopolitiques.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/SNCF_TGV_Duplex_Cize-Bolozon.jpg/1280px-SNCF_TGV_Duplex_Cize-Bolozon.jpg",
-        "alt": "Une rame de TGV Duplex franchissant un viaduc ferroviaire en France",
-        "credit": "David Gubler / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:SNCF_TGV_Duplex_Cize-Bolozon.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Container_Ship_at_the_Hai_Phong_International_Container_Terminal_01.jpg/1280px-Container_Ship_at_the_Hai_Phong_International_Container_Terminal_01.jpg",
+        "alt": "Un porte-conteneurs géant à quai illustrant les flux d'échanges du commerce maritime mondial",
+        "credit": "Nathan.cima / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_Ship_at_the_Hai_Phong_International_Container_Terminal_01.jpg"
       },
       "programme": {
-        "module": "4 - Déséquilibres, régulation et action publique",
-        "chapitre": "4.2 - Les politiques économiques"
+        "module": "2 - La dynamique de la mondialisation économique et financière",
+        "chapitre": "2.2 - L'ouverture commerciale et ses effets"
       },
       "auteurs": [
         {
-          "nom": "Mariana Mazzucato",
-          "ouvrage": "L'État entrepreneur",
-          "annee": "2013",
-          "ref": "etat-entrepreneur",
-          "texte": "Mazzucato soutient que l'**État entrepreneur** doit assumer le risque technologique initial et orienter l'économie vers des **politiques de mission** écologiques ambitieuses que les capitaux privés refusent de financer seuls. Le financement pluriannuel du TGV M illustre ce rôle moteur de la commande publique comme catalyseur d'innovation de rupture dans les mobilités bas-carbone. À mobiliser pour valoriser le retour des politiques industrielles de long terme et le rôle structurant des commandes d'État."
+          "nom": "Friedrich List",
+          "ouvrage": "Système national d'économie politique",
+          "annee": "1841",
+          "ref": "protectionnisme-educateur",
+          "texte": "List affirme que le libre-échange n'est profitable qu'entre nations de développement comparable et prône un protectionnisme temporaire pour éduquer l'industrie naissante. Les démocraties occidentales appliquent aujourd'hui cette logique à l'envers en cherchant à protéger leurs secteurs stratégiques face au rattrapage technologique rapide des puissances émergentes. À mobiliser pour analyser la justification économique des barrières douanières et des subventions d'État."
         },
         {
-          "nom": "Marcel Boiteux",
-          "ouvrage": "Sur la gestion des monopoles publics",
-          "annee": "1956",
-          "ref": "monopole-naturel-boiteux",
-          "texte": "Boiteux théorise la gestion des **monopoles naturels** de réseau et démontre que la recherche de l'optimum social justifie des investissements d'infrastructure lourds tarifés au coût marginal de long terme. La hausse de capacité (+20 %) et la baisse des coûts énergétiques du TGV M permettent d'amortir les coûts fixes de voie sur un plus grand volume d'usagers, améliorant le bien-être collectif. À mobiliser dans tout sujet sur les services publics, les industries de réseau et le financement des infrastructures de transport."
+          "nom": "David Ricardo",
+          "ouvrage": "Des principes de l'économie politique et de l'impôt",
+          "annee": "1817",
+          "ref": "avantages-comparatifs",
+          "texte": "Ricardo démontre que la spécialisation internationale selon les avantages comparatifs maximise le bien-être mondial et élève le pouvoir d'achat global. Les barrières protectionnistes et les subventions nationales provoquent des distorsions d'allocation du capital et renchérissent le coût de la vie pour les consommateurs. À mobiliser pour rappeler les gains mutuels à l'ouverture commerciale face aux tentations de repli national."
         }
       ],
+      "notions": [
+        [
+          "Protectionnisme",
+          "Ensemble des mesures tarifaires ou réglementaires visant à protéger les producteurs nationaux de la concurrence étrangère."
+        ],
+        [
+          "Multilatéralisme",
+          "Mode d'organisation des relations commerciales fondé sur des règles communes négociées entre États membres."
+        ],
+        [
+          "Guerre commerciale",
+          "Escalade de droits de douane et de représailles douanières entre partenaires commerciaux majeurs."
+        ]
+      ],
       "sujets": [
-        "L'État a-t-il encore les moyens d'une politique industrielle ambitieuse ?",
-        "Les investissements dans les transports collectifs sont-ils la condition indispensable d'une transition écologique réussie ?"
+        "Le libre-échange favorise-t-il toujours la prospérité économique ?",
+        "Dans quelle mesure les tensions commerciales contemporaines traduisent-elles une remise en cause du multilatéralisme ?"
       ],
       "anki": [
         {
-          "q": "Capacité passagers et gain énergétique du nouveau TGV M mis en service par la SNCF",
-          "r": "Jusqu'à C{740 passagers} par rame (+C{20 %}) et une réduction de C{20 %} de la consommation d'énergie.\n→ A{Boiteux}, O{Sur la gestion des monopoles publics} (D{1956}) : l'augmentation des capacités permet d'exploiter les économies d'échelle dans les monopoles de réseau."
+          "q": "Consensus bipartisan sur le protectionnisme aux États-Unis (2016-2026)",
+          "r": "Maintien des droits de douane par l'administration Biden et C{369 Md$} de subventions protectionnistes via l'IRA.\n→ A{List}, O{Système national d'économie politique} (D{1841}) : le protectionnisme est mobilisé pour défendre la souveraineté technologique face à la concurrence étrangère. → accroche pour un sujet sur le protectionnisme ou le commerce international"
         },
         {
-          "q": "Montant global et volume de la commande de TGV M passée par la SNCF auprès d'Alstom",
-          "r": "C{115 rames} commandées pour un investissement total d'environ C{3,5 milliards d'euros}.\n→ A{Mazzucato}, O{L'État entrepreneur} (D{2013}) : la commande publique sert de levier décisif pour orienter l'innovation industrielle vers la décarbonation."
+          "q": "Effet des barrières commerciales sur le pouvoir d'achat des ménages",
+          "r": "Hausse du coût des biens importés et distorsion des chaînes de valeur globales.\n→ A{Ricardo}, O{Des principes de l'économie politique} (D{1817}) : entraver la division internationale du travail réduit le surplus global."
         }
       ]
     },
@@ -207,9 +263,9 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
       "minutes": 3,
-      "titre": "Administration publique au Royaume-Uni : la bureaucratie locale submergée par une vague de recours générés par intelligence artificielle",
-      "faits": "Les conseils municipaux, les autorités locales et les organismes publics britanniques font face à une paralysie administrative sans précédent en raison d'un déluge de courriers de réclamation et de demandes d'accès à l'information (FOI) générés par des chatbots d'intelligence artificielle. Selon les alertes conjointes de la Local Government Association (LGA), le volume de courriers formels adressés aux services de l'urbanisme, de la voirie et des affaires sociales a plus que triplé en l'espace d'une année. Des plateformes en ligne automatisées et des applications citoyennes permettent désormais aux usagers de formuler en quelques clics des contestations juridiques hyper-sophistiquées de plusieurs dizaines de pages contre des PV de stationnement ou des refus de permis de construire. Bien que souvent truffés d'inexactitudes juridiques ou d'arguments artificiels, ces dossiers doivent faire l'objet d'un examen individuel rigoureux de la part des fonctionnaires sous peine de poursuites contentieuses. Les élus locaux réclament d'urgence des prérogatives légales pour filtrer ou rejeter sommairement les courriers automatisés avant que les finances des services publics ne s'effondrent sous les frais de contentieux.",
-      "enjeux": "Ce phénomène dit d'« engorgement par l'IA » (AI clog) met en lumière une asymétrie technologique déstabilisante entre le coût quasi nul de production de requêtes automatisées pour les administrés et le coût humain considérable de traitement pour la puissance publique. L'accès aux mécanismes de transparence et de recours administratifs, conçu pour renforcer le contrôle démocratique, est détourné par des algorithmes qui saturent les capacités de réponse des administrations locales. Cette crise bureaucratique frappe des collectivités britanniques déjà exsangues sur le plan budgétaire, contraintes d'engager des juristes supplémentaires ou de recourir elles-mêmes à des logiciels de tri algorithmique pour trier les plaintes. Ce face-à-face kafkaïen entre algorithmes citoyens et algorithmes étatiques menace de déshumaniser l'action publique et de bloquer le traitement des dossiers de citoyens vulnérables ne disposant pas de compétences numériques. Ce dossier relance le débat sur la régulation de l'IA générative et la redéfinition des obligations légales de service public à l'ère numérique.",
+      "titre": "Royaume-Uni : l'afflux de requêtes générées par l'intelligence artificielle submerge les collectivités locales",
+      "faits": "Les conseils municipaux et les administrations locales britanniques font face à une saturation inédite de leurs services de réclamation. Des milliers de courriers et de recours juridiques rédigés par des agents conversationnels d'intelligence artificielle inondent les boîtes de réception publiques. Ces requêtes automatisées imitent à la perfection le vocabulaire administratif et formulent des demandes d'accès à l'information très complexes. Les services d'urbanisme, d'aide au logement et de voirie se disent incapables de traiter ce flux dans les délais réglementaires. Les agents municipaux alertent sur un risque d'embolie totale du service public de proximité.",
+      "enjeux": "Ce phénomène, qualifié d'« **AI clog** », met en lumière les effets pervers de la démocratisation des grands modèles de langage. La réduction quasi nulle du coût de rédaction d'un recours officiel engendre une asymétrie redoutable au détriment des administrations. Tandis qu'un citoyen génère une requête sophistiquée en quelques secondes, un fonctionnaire territorial doit consacrer plusieurs heures à la vérifier et y répondre. Les collectivités locales, déjà fragilisées par quinze années de restrictions budgétaires, n'ont pas les ressources humaines pour faire face. Pour se défendre, certains conseils municipaux envisagent de déployer leurs propres robots d'évaluation des courriers. Cette escalade algorithmique soulève des questions fondamentales sur la transparence et l'égalité d'accès des usagers aux services publics.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canary_Wharf_Skyline_1%2C_London_UK_-_Oct_2012.jpg/1280px-Canary_Wharf_Skyline_1%2C_London_UK_-_Oct_2012.jpg",
         "alt": "Le quartier d'affaires et administratif de Londres sous un ciel d'automne",
@@ -217,133 +273,133 @@
         "source": "https://commons.wikimedia.org/wiki/File:Canary_Wharf_Skyline_1,_London_UK_-_Oct_2012.jpg"
       },
       "vo": {
-        "titre": "UK local authorities pushed to administrative brink by onslaught of AI-generated complaints",
-        "faits": "British local councils and frontline public service bodies are grappling with severe administrative gridlock triggered by an unprecedented avalanche of citizen complaints and Freedom of Information requests generated by artificial intelligence tools. According to stark warnings from the Local Government Association, the aggregate volume of complex casework inundating planning departments, housing boards, and municipal registries has more than tripled over the past twelve months. Proliferating consumer legal chatbots and automated dispute services empower residents to produce multi-page, pseudo-litigious challenges to routine municipal fines, tax assessments, and zoning permits with minimal personal effort. Although these machine-authored submissions frequently contain hallucinated legal precedents or convoluted arguments, statutory due-process mandates require human officers to conduct exhaustive factual reviews within rigid deadlines. Town hall leaders have urgently petitioned central government for expanded discretionary powers to filter, consolidate, or summarily dismiss vexatious automated correspondence before escalating legal overheads exhaust fragile local budgets.",
-        "enjeux": "This escalating crisis illustrates a fundamental technological asymmetry where the near-zero marginal cost of generating synthetic bureaucratic friction threatens to overwhelm labour-intensive public administration. The Freedom of Information architecture and administrative redress mechanisms, originally established to promote democratic accountability, are vulnerable to exploitation by consumer-facing AI agents. Consequently, councils suffering from prolonged austerity and hollowed-out staffing are forced to reallocate scarce resources from essential social welfare delivery toward defensive legal verification. To withstand this deluge, municipal agencies are rushing to deploy countervailing AI screening tools, initiating a disquieting dynamic of algorithmic proxy warfare between citizen bots and bureaucratic algorithms. This technological standoff risks further isolating digitally illiterate and marginalized individuals whose legitimate, unautomated grievances are drowned out by synthetic noise. Ultimately, modern democracies must urgently establish updated procedural safeguards that reconcile civic transparency rights with operational resilience in the generative AI era."
+        "titre": "UK: public bodies overwhelmed by deluge of AI-generated correspondence",
+        "faits": "British local councils and administrative bodies are grappling with an unprecedented backlog of complaints and inquiries. Thousands of formal letters and planning objections authored by artificial intelligence chatbots are overwhelming local government inboxes. These automated submissions mimic bureaucratic jargon flawlessly and formulate intricate Freedom of Information requests. Departments dealing with housing allocation, planning permissions, and social care are struggling to meet statutory response deadlines. Civil servants warn that frontline municipal governance risks grinding to a complete halt.",
+        "enjeux": "This technological strain, termed the **AI clog**, reveals the unintended systemic consequences of democratising advanced language models. By driving the marginal cost of producing complex legal prose to zero, generative tools create a profound asymmetry against public institutions. While a citizen can draft an exhaustive complaint in seconds, a caseworker must spend hours reviewing evidence and drafting responses. Local authorities, already depleted by over a decade of fiscal austerity, lack the manpower to withstand this influx. To prevent collapse, several councils are now exploring automated screening algorithms to triage incoming correspondence. This algorithmic tit-for-tat raises profound ethical concerns regarding procedural fairness, transparency, and democratic accountability."
       },
       "vocab": [
         [
-          "gridlock",
-          "paralysie / blocage administratif",
-          "Administrative gridlock worsened as thousands of automated complaints flooded council offices."
+          "AI clog",
+          "l'engorgement administratif provoqué par l'intelligence artificielle",
+          "The council declared an emergency due to an unprecedented AI clog."
         ],
         [
-          "due process",
-          "procédure régulière / garanties juridiques",
-          "Statutory due process requirements force civil servants to investigate every formal grievance."
+          "local authorities",
+          "les collectivités locales / municipalités",
+          "Local authorities struggle to finance essential social services."
         ],
         [
-          "vexatious",
-          "abusif / procédurier (requête en justice)",
-          "Local authorities sought new powers to dismiss vexatious correspondence generated by algorithms."
+          "backlog",
+          "un arriéré / une accumulation de dossiers",
+          "The department has accumulated a six-month backlog of inquiries."
         ],
         [
-          "hollow out",
-          "évider / affaiblir structurellement",
-          "Years of budget cuts have hollowed out local council legal teams across the United Kingdom."
+          "statutory deadline",
+          "un délai légal ou réglementaire",
+          "Civil servants failed to meet the statutory deadline for disclosure."
         ],
         [
-          "redress",
-          "réparation / recours administratif",
-          "Traditional mechanisms for administrative redress were never designed to withstand synthetic complaints."
+          "Freedom of Information",
+          "l'accès aux documents administratifs",
+          "Citizens submit Freedom of Information requests to scrutinise councils."
         ],
         [
-          "overhead",
-          "frais généraux / coûts de fonctionnement",
-          "Mounting legal overheads are draining resources away from frontline child welfare services."
+          "to triage",
+          "trier / filtrer par ordre de priorité",
+          "Caseworkers must triage critical complaints before minor inquiries."
         ]
       ],
       "sujets": [
-        "Does generative AI pose a systemic threat to the integrity of modern public services?",
-        "How can democratic institutions balance civic transparency with operational efficiency in the digital age?"
+        "Does the rise of generative AI pose a threat to the functioning of public institutions?",
+        "Can modern democracies maintain quality public services amidst technological disruption?"
       ],
       "anki": [
         {
-          "q": "What phenomenon termed 'AI clog' is currently paralysing UK local government bodies?",
-          "r": "Administrative gridlock caused by :\n→ A three-fold surge in machine-written complaints and Freedom of Information requests.\n→ Citizen use of generative AI tools to churn out multi-page pseudo-legal appeals against parking fines and planning decisions.\n→ Statutory due-process mandates requiring expensive manual review of every case."
+          "q": "Consequence of AI-generated correspondence on UK councils (2026)",
+          "r": "Deluge of automated C{FOI requests} paralyzing planning and social care departments.\n→ Highlights the asymmetry between zero-cost AI generation and labor-intensive civil service review. → hook for an essay on public services or technological disruption"
         },
         {
-          "q": "Why does the proliferation of AI-generated citizen correspondence create an asymmetric cost burden on town halls?",
-          "r": "Core economic and institutional friction :\n→ Near-zero marginal cost of generation for citizens versus heavy manual review costs for councils.\n→ Depletion of scarce municipal funds already strained by prolonged local government austerity."
+          "q": "Term describing the saturation of UK public bodies by chatbot emails",
+          "r": "B{AI clog}.\n→ Illustrates how technological democratization strains cash-strapped local public infrastructure."
         }
       ]
     },
     {
       "id": "2026-11-08-anglais-2",
       "matiere": "anglais",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/politics/2026/nov/08/turkish-nationals-uk-indefinite-leave-to-remain-home-office-windrush",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o",
       "minutes": 3,
-      "titre": "Politique d'immigration britannique : le Home Office accusé d'un nouveau scandale Windrush visant les résidents turcs",
-      "faits": "Le ministère de l'Intérieur britannique (Home Office) se retrouve au cœur d'une vive tempête politique après la révélation d'une vague d'expulsions imminentes visant des ressortissants turcs installés légalement depuis des décennies au Royaume-Uni. Des centaines de travailleurs et d'entrepreneurs établis sous l'égide de l'ancien accord d'association d'Ankara ont récemment reçu des notifications révoquant leur statut de résident permanent (Indefinite Leave to Remain). Les services de l'immigration invoquent des vérifications rétroactives de conformité fiscale et des lacunes documentaires pour justifier ces retraits brutaux de droits de séjour. Plusieurs parlementaires travaillistes et libéraux-démocrates, soutenus par des organisations de défense des droits humains, ont dénoncé un retour insidieux de la doctrine de « l'environnement hostile » et établi un parallèle accablant avec le scandale Windrush de 2018. Les personnes ciblées, dont beaucoup possèdent des commerces et des attaches familiales profondes en Grande-Bretagne, se retrouvent du jour au lendemain privées du droit de travailler et menacées de détention administrative.",
-      "enjeux": "Cette polémique met en lumière la dureté structurelle et les dérives administratives chroniques de la politique migratoire britannique post-Brexit. Soumis à une intense pression électorale des mouvements populistes réclamant une baisse spectaculaire des chiffres de l'immigration nette, le gouvernement britannique durcit les contrôles bureaucratiques au détriment de la sécurité juridique des résidents de longue durée. L'application rétroactive de critères de conformité tatillons illustre une culture du soupçon institutionnalisée où la charge de la preuve est quasi impossible à satisfaire pour des citoyens ayant migré avant la numérisation des archives. Ce scandale menace d'entacher durablement la réputation diplomatique de Londres et de fragiliser ses accords bilatéraux avec la Turquie sur le contrôle des flux migratoires. En outre, la perte brutale de statut de ces entrepreneurs entraîne des préjudices économiques directs pour le tissu commercial de nombreuses villes anglaises.",
+      "titre": "Royaume-Uni : la hausse des taux de la Banque d'Angleterre étrangle les ménages endettés",
+      "faits": "Au Royaume-Uni, des centaines de milliers d'emprunteurs immobiliers voient leurs mensualités grimper brutalement lors du renouvellement de leur prêt. Le passage des anciens taux fixes proches de zéro aux nouveaux taux directeurs imposés par la Banque d'Angleterre alourdit les échéances de plus de deux cents livres par mois. Les ménages britanniques doivent couper drastiquement dans leurs dépenses de consommation courante pour honorer leurs dettes. Les associations caritatives alertent sur la multiplication des impayés et la hausse du surendettement chez les classes moyennes. Le chancelier de l'Échiquier est sous pression pour adopter des mesures de soutien ciblées.",
+      "enjeux": "Cette crise immobilière illustre les dilemmes classiques de la **transmission de la politique monétaire** au Royaume-Uni. Contrairement à la France où les prêts à taux fixe couvrent vingt ou vingt-cinq ans, les ménages britanniques souscrivent des taux fixés pour seulement deux ou cinq ans. Cette structure contractuelle expose directement les familles aux hausses de taux d'intérêt décidées à Threadneedle Street. Pour juguler une inflation persistante des services, la banque centrale n'a d'autre choix que de refroidir la demande intérieure en comprimant le revenu disponible. Le ralentissement du marché immobilier fragilise également le secteur de la construction et pèse sur la croissance globale. Cette vulnérabilité financière alimente la crise du coût de la vie et complique l'équation budgétaire du gouvernement travailliste.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Houses_of_Parliament_in_2022_%28cropped%29.jpg/1280px-Houses_of_Parliament_in_2022_%28cropped%29.jpg",
-        "alt": "Le palais de Westminster et Big Ben à Londres, siège du Parlement britannique",
-        "credit": "User:Colin / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament_in_2022_(cropped).jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Banco_de_Inglaterra%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_141.JPG/1280px-Banco_de_Inglaterra%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_141.JPG",
+        "alt": "La façade néoclassique de la Banque d'Angleterre à Threadneedle Street à Londres",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Banco_de_Inglaterra,_Londres,_Inglaterra,_2014-08-11,_DD_141.JPG"
       },
       "vo": {
-        "titre": "Home Office faces 'new Windrush' outcry over sudden deportation notices served to Turkish residents",
-        "faits": "The British Home Office has been plunged into intense political turmoil following revelations that hundreds of long-standing Turkish residents have been arbitrarily threatened with deportation despite living legally in the UK for decades. Most affected individuals arrived under the historic Ankara Agreement framework, establishing successful businesses, paying taxes, and eventually securing Indefinite Leave to Remain (ILR). However, immigration enforcement officials recently initiated aggressive retroactive compliance audits, seizing upon historical paperwork gaps and minor tax discrepancies to abruptly nullify their permanent residency status. Prominent cross-party lawmakers and human rights advocacy groups have fiercely condemned the operation, directly comparing the punitive measures to the disastrous 2018 Windrush scandal. Affected community members have suffered immediate asset freezes, the revocation of working rights, and traumatic threats of administrative detention, leaving families in acute distress.",
-        "enjeux": "The unfolding Turkish residency scandal exposes the enduring institutional entrenchment of the 'hostile environment' dogma within the British immigration apparatus. Under relentless political pressure to demonstrate steep reductions in net migration statistics, enforcement bodies frequently target established lawful communities rather than tackling complex undocumented networks. The retroactive application of onerous documentation standards reverses the principle of legitimate expectation and undermines the rule of law. Furthermore, weaponising minor bureaucratic irregularities against tax-paying business owners threatens to inflict measurable economic damage on local high streets dependent on independent enterprises. Diplomatically, alienating Ankara could disrupt delicate bilateral security arrangements and cross-border cooperation on Mediterranean migration management. This controversy forcefully illustrates that without comprehensive structural oversight and cultural reform, the Home Office remains structurally prone to repeating devastating human rights injustices against minority communities."
+        "titre": "UK: rising mortgage rates inflict heavy financial strain on households",
+        "faits": "Across the United Kingdom, hundreds of thousands of homeowners are confronting severe payment shocks as their fixed-rate deals expire. Transitioning from historical ultra-low rates to current Bank of England base rates adds over two hundred pounds to typical monthly payments. Families are forced to curtail discretionary spending drastically to avoid defaulting on home loans. Debt charities report a surge in insolvencies and financial distress among middle-income earners. Chancellor of the Exchequer faces mounting calls from lawmakers to provide targeted relief.",
+        "enjeux": "This housing squeeze underscores the structural vulnerabilities of the UK's **monetary transmission mechanism**. Unlike France where long-term fixed mortgages dominate, British borrowers rely predominantly on short-term two-year or five-year fixed products. Consequently, households bear an immediate and painful brunt whenever the central bank tightens monetary policy. By raising borrowing costs to tame sticky service-sector inflation, policymakers intentionally depress disposable income and cool consumer demand. However, this contractionary stance risks triggering a protracted slump in residential construction and consumer confidence. The mortgage squeeze exacerbates the broader cost-of-living crisis and sharpens socio-economic disparities."
       },
       "vocab": [
         [
-          "indefinite leave to remain",
-          "permis de séjour permanent / statut de résident permanent",
-          "He lived in London for twenty years under an indefinite leave to remain visa."
+          "mortgage squeeze",
+          "l'étau du crédit immobilier",
+          "The mortgage squeeze has drastically reduced disposable income."
         ],
         [
-          "hostile environment",
-          "environnement hostile (politique migratoire)",
-          "Critics argued that the hostile environment policy continues to harm legal migrant communities."
+          "base rate",
+          "le taux directeur de la banque centrale",
+          "The Bank of England held its base rate to curb persistent inflation."
         ],
         [
-          "nullify",
-          "annuler / révoquer",
-          "The Home Office moved to nullify their residency rights without adequate advance notice."
+          "fixed-rate deal",
+          "un prêt à taux fixe temporaire",
+          "Borrowers face higher costs when their fixed-rate deal expires."
         ],
         [
-          "revocation",
-          "révocation / retrait officiel",
-          "The sudden revocation of working permits threw business owners into severe financial jeopardy."
+          "cost-of-living crisis",
+          "la crise du coût de la vie",
+          "High utility bills fuel the ongoing cost-of-living crisis."
         ],
         [
-          "compliance audit",
-          "audit de conformité",
-          "Officials used retrospective compliance audits to disqualify established overseas residents."
+          "discretionary spending",
+          "les dépenses non essentielles / discrétionnaires",
+          "Households reduce discretionary spending to keep up with mortgage bills."
         ],
         [
-          "high street",
-          "rue commerçante principale / centre-ville commercial",
-          "Turkish businesses form an essential part of the commercial fabric along London high streets."
+          "debt default",
+          "le défaut de paiement sur une dette",
+          "Lenders worry about an uptick in mortgage debt defaults."
         ]
       ],
       "sujets": [
-        "To what extent does political pressure to curb immigration compromise the rule of law in liberal democracies?",
-        "Has the legacy of the Windrush scandal genuinely reformed immigration enforcement culture in the UK?"
+        "How does monetary policy affect social inequality in contemporary Britain?",
+        "Is homeownership still a reliable foundation for the British middle class?"
       ],
       "anki": [
         {
-          "q": "Why is the Home Office's recent targeting of Turkish nationals in the UK being compared to the Windrush scandal?",
-          "r": "Key systemic parallels :\n→ Retroactive compliance audits revoking Indefinite Leave to Remain from long-term legal residents.\n→ Arbitrary burden of proof placed on historic tax and business paperwork.\n→ Abrupt cancellation of employment rights and threats of administrative detention."
+          "q": "Average monthly mortgage payment increase for UK households (2026)",
+          "r": "Over C{£200} per month when refinancing short-term fixed-rate loans.\n→ Reflects the high sensitivity of British households to central bank monetary tightening compared to continental Europe. → hook for an essay on the cost of living or UK economic policy"
         },
         {
-          "q": "What legal framework allowed thousands of Turkish entrepreneurs to settle permanently in the UK?",
-          "r": "The historic C{Ankara Agreement} (ECAA),\n→ Which offered a legal path for Turkish nationals to establish businesses in the UK prior to Brexit."
+          "q": "Structural feature of UK mortgages compared to France",
+          "r": "Predominance of short-term B{2 to 5-year fixed deals} vs. long-term 25-year fixed mortgages in France.\n→ Speeds up the transmission of interest rate hikes directly onto consumer demand."
         }
       ]
     },
     {
       "id": "2026-11-08-anglais-3",
       "matiere": "anglais",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/nov/07/san-francisco-bay-area-transit-bart-muni",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/11/08/democratic-thrashing-redraws-the-map-of-state-power-01154607",
       "minutes": 3,
-      "titre": "Finances urbaines aux États-Unis : le sauvetage d'urgence des transports publics de la baie de San Francisco face au gouffre budgétaire",
-      "faits": "Les autorités régionales de la baie de San Francisco ont approuvé en urgence un plan de sauvetage financier de 750 millions de dollars pour empêcher la faillite imminente de ses grands réseaux de transport public, le BART (métro régional) et le Muni (bus et tramways urbains). Depuis l'adoption massive et pérenne du télétravail dans les entreprises de la tech, la fréquentation des rames de métro stagne à moins de 50 % de ses niveaux d'avant la pandémie de 2019, privant les opérateurs de leurs recettes tarifaires indispensables. Sans cette intervention conjointe de l'État de Californie et des comtés locaux, les régies de transport prévoyaient de supprimer des lignes entières de week-end, de fermer des dizaines de stations et de licencier plus de 1 200 conducteurs et agents de maintenance. Ce plan d'urgence, financé par une réallocation temporaire de taxes de vente régionales et des péages sur les ponts de la baie, offre un répit de deux ans aux réseaux. Les élus préviennent néanmoins qu'une réforme structurelle du financement métropolitain sera indispensable pour éviter un effondrement du réseau à l'horizon 2028.",
-      "enjeux": "La crise financière des transports de San Francisco illustre le piège de la **spirale du déclin** qui menace les grandes métropoles américaines confrontées aux mutations du travail post-industriel. Contrairement aux réseaux européens lourdement subventionnés par les finances publiques, les métros américains dépendaient historiquement des recettes de billetterie des navetteurs quotidiens pour financer jusqu'à 70 % de leurs coûts opérationnels. L'effondrement durable des déplacements pendulaires vers les centres-villes crée un **déficit d'exploitation structurel** que les municipalités peinent à combler dans un contexte de baisse des recettes de l'immobilier commercial de bureau. La réduction de l'offre de transport pénalise de manière disproportionnée les travailleurs modestes et les minorités qui ne peuvent pas télétravailler et dépendent du bus pour accéder à leur emploi. Par ailleurs, laisser péricliter les transports lourds compromet irrémédiablement les objectifs de réduction des émissions de carbone de la Californie en incitant au report massif vers la voiture individuelle.",
+      "titre": "États-Unis : la vague démocrate aux élections de mi-mandat bouleverse l'équilibre des pouvoirs dans les États",
+      "faits": "Les résultats des élections américaines de mi-mandat confirment un basculement politique de grande ampleur au niveau des parlements des États. Le Parti démocrate a remporté des victoires décisives dans plusieurs législatures d'États pivots, brisant des bastions républicains historiques. Ce raz-de-marée électoral prive les conservateurs du contrôle de plusieurs postes de gouverneur stratégiques. Les nouveaux élus progressistes préparent déjà un agenda législatif centré sur le droit à l'avortement et la régulation environnementale. Cette reconfiguration territoriale modifie profondément l'équilibre institutionnel entre Washington et les capitales des États.",
+      "enjeux": "Ce scrutin illustre le rôle primordial du **fédéralisme américain** comme laboratoire politique et rempart institutionnel. Aux États-Unis, les parlements locaux disposent de compétences décisives en matière de découpage électoral, de droit de vote et de régulation économique. Le contrôle des assemblées d'États permet aux partis d'imposer des politiques publiques radicales même en cas de paralysie du Congrès fédéral. La déroute républicaine sanctionne la ligne isolationniste et populiste promue par l'état-major du parti. Les victoires démocrates dans la Rust Belt confortent l'ancrage des politiques de réindustrialisation et de protection sociale des travailleurs. Cette nouvelle carte électorale prépare également les rapports de force institutionnels pour la prochaine élection présidentielle de 2028.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/United_States_Capitol_west_front_edit2.jpg/1280px-United_States_Capitol_west_front_edit2.jpg",
         "alt": "Le Capitole des États-Unis à Washington, symbole des débats sur le financement des infrastructures urbaines",
@@ -351,54 +407,54 @@
         "source": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg"
       },
       "vo": {
-        "titre": "San Francisco Bay Area transit secures critical 750m dollars emergency lifeline to avert transit death spiral",
-        "faits": "Regional transportation commissioners in Northern California have greenlit a vital 750m dollars emergency intervention package to rescue the San Francisco Bay Area's cornerstone transit agencies, BART and Muni, from an imminent fiscal collapse. Driven by the deep entrenchment of remote work among Silicon Valley technology corporations, passenger ridership across heavy commuter rail remains stubbornly depressed at under 50% of pre-2020 levels, blowing vast holes in farebox revenues. Absent immediate fiscal intervention, agency directors had drafted contingency plans detailing catastrophic service rollbacks, including eliminating weekend rail operations, shuttering suburban stations, and laying off hundreds of transit workers. The emergency bailout relies on redirected regional sales taxes and bridge toll surcharges to bridge operating deficits through 2028. However, regional leaders conceded that short-term subsidies merely postpone an existential reckoning unless long-term, dedicated state funding mechanisms are permanently legislated.",
-        "enjeux": "The fiscal emergency suffocating San Francisco transit starkly exemplifies the classical 'transit death spiral' jeopardising metropolitan urban cores across the United States. Unlike European transit systems supported by substantial national public operating subsidies, American networks relied excessively on farebox recovery ratios, rendering them uniquely vulnerable to post-pandemic hybrid work patterns. The permanent contraction of downtown white-collar foot traffic has gutted auxiliary commercial property tax bases, curtailing municipal capacity to underwrite transit deficits. Curtailing schedules or raising ticket prices triggers a destructive feedback loop: declining reliability pushes affluent riders into automobiles, further shrinking ridership while leaving transit-dependent, low-income frontline workers stranded. Moreover, dismantling mass transit infrastructures fatally sabotages California's ambitious statutory climate decarbonisation targets by locking in vehicular sprawl and arterial highway congestion. Resolving this urban crisis necessitates reframing transit not as a self-funding business, but as an indispensable public good essential for economic mobility."
+        "titre": "US: midterm blue wave reshapes landscape of state legislative power",
+        "faits": "Official results from the midterm elections confirm a seismic partisan realignment across state legislative chambers. The Democratic Party flipped pivotal state assemblies and broke long-standing Republican legislative supermajorities. This blue wave also secured crucial gubernatorial seats in key battleground states across the country. Progressive majorities are already gearing up to enact ambitious statutory protections for reproductive healthcare and clean energy standards. The resulting state-level map alters the balance of governance between federal authorities and state capitals.",
+        "enjeux": "This electoral shift spotlights the crucial role of **American federalism** as an arena of policy innovation and political resistance. State legislatures wield immense authority over electoral redistricting, voting access regulations, and public education curricula. When gridlock paralyzes Capitol Hill, control over statehouses determines the tangible trajectory of social and economic rights. The Republican defeat reflects widespread suburban voter backlash against hardline ideological stances and judicial appointments. Democratic consolidation in industrial battlegrounds bolsters clean energy manufacturing incentives and pro-labor standards. Ultimately, this newly configured map establishes a strategic institutional foundation heading into the 2028 presidential cycle."
       },
       "vocab": [
         [
-          "transit death spiral",
-          "spirale du déclin des transports publics",
-          "Without emergency aid, service cuts risked triggering an irreversible transit death spiral."
+          "battleground state",
+          "un État pivot / disputé",
+          "Both parties spent millions to sway voters in the key battleground state."
         ],
         [
-          "farebox recovery",
-          "taux de couverture des coûts par les billets",
-          "American commuter networks historically depended on high farebox recovery ratios."
+          "state legislature",
+          "le parlement d'un État fédéré",
+          "The state legislature passed landmark reproductive rights legislation."
         ],
         [
-          "ridership",
-          "fréquentation / nombre d'usagers",
-          "Suburban ridership has plummeted permanently due to widespread remote working."
+          "blue wave",
+          "une vague électorale démocrate",
+          "A historic blue wave flipped several key legislative chambers."
         ],
         [
-          "bailout",
-          "plan de sauvetage financier / renflouement",
-          "The state legislature approved a temporary bailout to avert sweeping weekend service cancellations."
+          "redistricting",
+          "le redécoupage des circonscriptions électorales",
+          "Partisan redistricting remains a contentious issue before the courts."
         ],
         [
-          "sprawl",
-          "étalement urbain",
-          "Underfunded public transit inevitably exacerbates suburban highway sprawl and emissions."
+          "gridlock",
+          "l'impasse politique / la paralysie institutionnelle",
+          "Congressional gridlock forces states to pioneer their own social policies."
         ],
         [
-          "foot traffic",
-          "fréquentation piétonne / flux de chalands",
-          "Commercial districts suffered as downtown office foot traffic collapsed by half."
+          "gubernatorial race",
+          "l'élection au poste de gouverneur",
+          "Democrats clinched a crucial victory in the Midwestern gubernatorial race."
         ]
       ],
       "sujets": [
-        "Can American metropolitan cities survive the permanent shift to hybrid and remote work?",
-        "Should public transit in the United States be financed as a public good rather than a market commodity?"
+        "Does federalism enhance or hinder democratic governance in the United States?",
+        "To what extent do midterm elections determine the long-term direction of American politics?"
       ],
       "anki": [
         {
-          "q": "What structural shift caused the acute financial crisis facing the San Francisco Bay Area transit system (BART and Muni)?",
-          "r": "Core underlying drivers :\n→ Post-pandemic teleworking permanently depressed commuter rail ridership below C{50 %}.\n→ Loss of vital farebox revenues in a system relying on passenger ticket sales for operating costs.\n→ Imminent risk of weekend line closures and worker layoffs averted by a C{750m dollars} rescue package."
+          "q": "Significance of Democratic gains in US state legislatures (midterms 2026)",
+          "r": "Democrats flipped key chambers in B{battleground states}, breaking Republican legislative supermajorities.\n→ Demonstrates how US federalism enables states to counter federal policies on abortion, voting, and energy. → hook for an essay on US federalism or midterm elections"
         },
         {
-          "q": "What is the economic concept of a 'transit death spiral' in municipal public transport?",
-          "r": "Vicious cycle :\n→ Revenue drops lead to service cuts and fare hikes → reliability drops → riders abandon transit → revenues fall further, leaving lower-income transit-dependent workers stranded."
+          "q": "Key policy prerogatives wielded by US state legislatures",
+          "r": "Authority over B{electoral redistricting}, voting regulations, education, and state-level healthcare rights.\n→ Bypasses Congressional gridlock in Washington."
         }
       ]
     },
@@ -406,200 +462,200 @@
       "id": "2026-11-08-anglais-4",
       "matiere": "anglais",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
+      "url": "https://www.theguardian.com/us-news/2026/nov/07/san-francisco-bay-area-transit-bart-muni",
       "minutes": 3,
-      "titre": "Transition énergétique et Big Tech : un méga-centre de données écossais contraint de recourir aux énergies fossiles",
-      "faits": "Le plus grand projet de centre de données dédié à l'intelligence artificielle en Écosse, implanté à Chapelhall dans le Lanarkshire par l'opérateur DataVita, devra finalement être alimenté en grande partie par le réseau électrique conventionnel dépendant des énergies fossiles, en dépit de ses promesses initiales d'un fonctionnement 100 % vert. Le complexe informatique, conçu pour héberger des grappes de calcul intensif pour des géants mondiaux de la tech, consommera une puissance électrique estimée à plus de 200 mégawatts, soit l'équivalent de la consommation de dizaines de milliers de foyers. Les promoteurs du projet avaient prévu de raccorder directement l'infrastructure aux parcs éoliens locaux, mais le gestionnaire du réseau National Grid a indiqué que les goulots d'étranglement de transmission et le manque de câbles sous-marins rendaient ce raccordement direct impossible avant 2031. Pour tenir les délais de déploiement des serveurs d'IA, l'installation puisera donc son électricité sur le mix électrique national britannique, dont une part importante provient encore de centrales au gaz naturel. Les collectifs écologistes écossais dénoncent un cas flagrant d'écoblanchiment mettant en péril les engagements climatiques de la nation.",
-      "enjeux": "Ce revers industriel met en lumière l'écart grandissant entre les discours environnementaux de l'industrie technologique et la réalité matérielle vorace de la révolution de l'intelligence artificielle. L'entraînement et le fonctionnement des grands modèles de langage exigent une alimentation électrique continue, ininterrompue et massive, en contradiction frontale avec la variabilité intermittente des parcs éoliens et solaires non adossés à des capacités de stockage géantes. Au Royaume-Uni comme dans l'ensemble des pays occidentaux, l'obsolescence et la saturation des **réseaux de transport d'électricité** constituent désormais le principal frein à la décarbonation de l'économie. La priorité accordée aux méga-infrastructures de données risque de préempter les capacités de raccordement propres au détriment de l'électrification des transports et du chauffage domestique. Cet arbitrage conflictuel soulève des questions majeures de **politique énergétique** : les gains de productivité promis par l'IA justifient-ils d'accroître la dépendance résiduelle aux centrales thermiques fossiles ?",
+      "titre": "États-Unis : la baie de San Francisco au bord du gouffre budgétaire pour ses transports publics",
+      "faits": "Les réseaux de transport en commun de la baie de San Francisco, BART et Muni, approchent d'une impasse financière critique. L'épuisement imminent des subventions fédérales votées durant la pandémie menace d'ouvrir un déficit de plusieurs centaines de millions de dollars. La fréquentation des métros et des bus reste bloquée à environ soixante pour cent de son niveau d'avant la crise sanitaire. L'essor massif du télétravail dans le secteur de la tech a durablement vidé le centre-ville de ses navetteurs quotidiens. Les opérateurs annoncent des fermetures de lignes et des réductions drastiques de service si aucun financement d'urgence n'est trouvé.",
+      "enjeux": "Cette crise financière illustre le piège de la **spirale du déclin** qui menace les transports publics des métropoles américaines. Contrairement aux réseaux européens largement financés par l'impôt, les transports urbains américains dépendaient historiquement des recettes tarifaires payées par les usagers. Avec la désertion des bureaux de la Silicon Valley, ce modèle économique s'est définitivement effondré. Si les fréquences diminuent, les usagers restants délaisseront le réseau, ce qui aggravera les pertes de billetterie et la congestion routière. La dégradation des transports pénalise en premier lieu les travailleurs modestes qui ne peuvent pas télétravailler. Le sauvetage de BART nécessitera de nouveaux arbitrages fiscaux difficiles entre la Californie et les comtés locaux.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pylons_near_Blackridge_-_geograph.org.uk_-_1054378.jpg/1280px-Pylons_near_Blackridge_-_geograph.org.uk_-_1054378.jpg",
-        "alt": "Lignes électriques à haute tension et pylônes traversant la campagne écossaise",
-        "credit": "Michael Sharpe / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Pylons_near_Blackridge_-_geograph.org.uk_-_1054378.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/San_Francisco_%28CA%2C_USA%29%2C_Powell-Mason_Cable_Car_Turnaround_--_2022_--_2964.jpg/1280px-San_Francisco_%28CA%2C_USA%29%2C_Powell-Mason_Cable_Car_Turnaround_--_2022_--_2964.jpg",
+        "alt": "Un tramway à traction par câble emblématique du réseau de transport en commun de San Francisco",
+        "credit": "Dietmar Rabich / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Francisco_(CA,_USA),_Powell-Mason_Cable_Car_Turnaround_--_2022_--_2964.jpg"
       },
       "vo": {
-        "titre": "Flagship Scottish AI data centre forced onto gas-heavy National Grid despite clean energy claims",
-        "faits": "Scotland's premier artificial intelligence data hub, developed by DataVita at Chapelhall in Lanarkshire, will be compelled to draw power directly from the fossil-reliant UK National Grid despite promotional claims of operating on 100% green energy. The massive facility, engineered to host power-hungry graphics processors for multinational cloud corporations, is projected to consume in excess of 200 megawatts of electricity upon full commissioning, rivalling the energy footprint of an entire medium-sized city. Developers had originally intended to secure private-wire connections to nearby onshore wind farms, but National Grid Electricity System Operator confirmed that transmission bottlenecks and substation deficits preclude direct renewable feeds until at least 2031. Consequently, to meet aggressive commercial deadlines, the server farm will tap into the conventional grid balance, which relies heavily on combined-cycle gas turbines during periods of low wind generation. Environmental groups have heavily criticized the arrangement as symptomatic of systemic corporate greenwashing.",
-        "enjeux": "This Scottish controversy exposes the growing collision between Big Tech's net-zero public relations commitments and the voracious physical energy demands of hyper-scale artificial intelligence compute. Modern machine-learning model processing demands absolute, uninterruptible baseload power availability, an operational profile poorly matched with the intermittent volatility of regional wind generation absent industrial-scale battery storage. Across advanced industrial economies, transmission grid congestion and protracted interconnection queues have emerged as the primary operational bottleneck suffocating the green energy transition. The surging power appetites of computational centres threaten to crowd out capacity required for residential heat pumps and transport electrification. Furthermore, locking in baseload reliance on fossil fuels compromises statutory national decarbonisation trajectories. Policymakers face urgent dilemmas regarding whether digital infrastructure expansion should take precedence over grid resilience and environmental integrity."
+        "titre": "US: San Francisco Bay Area transit systems face impending fiscal cliff",
+        "faits": "Public transportation agencies across the San Francisco Bay Area, including BART and Muni, are approaching a catastrophic budget shortfall. The exhaustion of emergency federal pandemic relief funds threatens to leave agencies with hundreds of millions in operational deficits. Ridership figures remain stubbornly depressed at roughly sixty percent of pre-pandemic benchmarks. The entrenchment of remote work throughout the technology sector has permanently depopulated downtown commercial corridors. Transit leaders warn that catastrophic service cuts and station closures are imminent without fresh emergency revenues.",
+        "enjeux": "This budget shortfall epitomises the dreaded **transit death spiral** menacing American urban transit infrastructure. Historically, US municipal transit systems relied far more heavily on farebox revenue than their government-subsidised European counterparts. The persistent vacancy of Silicon Valley office towers has irreversibly shattered that commercial funding model. If operators slash service frequency to cut costs, ridership declines further, accelerating revenue losses and vehicle traffic congestion. Service cutbacks disproportionately harm low-wage frontline workers who cannot telecommute and rely exclusively on public transit. Resolving the crisis will demand contentious state tax measures and renewed regional subsidies."
       },
       "vocab": [
         [
-          "bottleneck",
-          "goulot d'étranglement / point de saturation",
-          "Grid bottlenecks prevent wind power from reaching major computing hubs."
+          "fiscal cliff",
+          "le gouffre budgétaire / l'impasse financière",
+          "Public transit agencies face a fiscal cliff as pandemic aid ends."
         ],
         [
-          "baseload power",
-          "puissance / énergie de base (continue)",
-          "Data centres demand reliable baseload power that intermittent renewables struggle to supply alone."
+          "ridership",
+          "la fréquentation / le nombre d'usagers",
+          "Weekday ridership remains thirty percent below pre-pandemic levels."
         ],
         [
-          "greenwashing",
-          "écoblanchiment / vernis écologique",
-          "Climate activists accused tech corporations of greenwashing their immense carbon footprints."
+          "transit death spiral",
+          "la spirale du déclin des transports",
+          "Service cuts trigger a transit death spiral by driving away riders."
         ],
         [
-          "crowd out",
-          "évincer / préempter",
-          "Surging tech demand risks crowding out clean energy needed for domestic heating."
+          "farebox revenue",
+          "les recettes issues de la billetterie",
+          "Operators rely on farebox revenue to cover basic operating costs."
         ],
         [
-          "intermittent",
-          "intermittent (énergie renouvelable)",
-          "The intermittent nature of Scottish wind power requires backup from gas generation."
+          "telecommuting / remote work",
+          "le télétravail",
+          "Widespread telecommuting has depopulated downtown commercial districts."
         ],
         [
-          "preclude",
-          "empêcher / exclure",
-          "Transmission line deficits preclude direct connection to nearby wind farms until 2031."
+          "service cuts",
+          "les suppressions de lignes / réductions de service",
+          "Commuters protested against planned weekend service cuts."
         ]
       ],
       "sujets": [
-        "Is the exponential energy demand of artificial intelligence compatible with global climate commitments?",
-        "How should governments allocate scarce clean energy capacity between industrial tech growth and domestic decarbonisation?"
+        "Are American cities adequately equipped to support green public infrastructure?",
+        "How has the rise of telecommuting reshaped the urban economy in the United States?"
       ],
       "anki": [
         {
-          "q": "Why was Scotland's premier AI data centre in Lanarkshire forced onto the fossil-fuelled National Grid?",
-          "r": "Key infrastructure hurdle :\n→ Severe transmission bottlenecks and substation queues preventing direct connection to nearby wind farms until D{2031}.\n→ The facility requires continuous C{200 megawatts} of baseload power that intermittent renewables cannot supply without grid backup."
+          "q": "San Francisco Bay Area transit ridership compared to pre-pandemic levels (2026)",
+          "r": "Stagnant at roughly C{60 %} of pre-2020 levels due to tech-sector remote work.\n→ Pushes agencies like BART towards a catastrophic B{fiscal cliff}. → hook for an essay on urban crises or US public infrastructure"
         },
         {
-          "q": "What major obstacle does the AI computing boom pose to national energy transition targets?",
-          "r": "Systemic collision :\n→ AI data centres demand immense uninterruptible power, crowding out grid capacity and delaying the phase-out of natural gas generation."
+          "q": "Mechanism behind the 'transit death spiral' in US metropolitan areas",
+          "r": "Farebox shortfall → service cuts → ridership drops further → worse deficits.\n→ Hits low-income commuters hardest who lack work-from-home flexibility."
         }
       ]
     },
     {
       "id": "2026-11-08-espagnol-1",
       "matiere": "espagnol",
-      "source": "El País",
-      "url": "https://elpais.com/espana/2026-11-08/alberto-nunez-feijoo-hacer-una-coalicion-de-gobierno-con-vox-no-depende-de-mi.html",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/11/07/6aef6566e85ece64678b4574.html",
       "minutes": 3,
-      "titre": "Politique espagnole et stratégies partisanes : Alberto Núñez Feijóo laisse ouverte la porte à une coalition avec Vox",
-      "faits": "Dans un entretien politique accordé au journal El País, le président du Parti populaire (PP) Alberto Núñez Feijóo a déclaré qu'une éventuelle coalition gouvernementale avec la formation d'extrême droite Vox après les prochaines élections générales « ne dépendrait pas de lui seul ». Alors que le gouvernement de coalition de gauche mené par Pedro Sánchez traverse une période de turbulences législatives, le chef de l'opposition conservatrice cherche à séduire l'électorat modéré sans rompre avec les alliés régionaux indispensables pour bâtir une majorité absolue au Congrès des députés. Feijóo a affirmé que son objectif prioritaire demeurait l'obtention d'une majorité suffisante pour gouverner en solitaire, tout en renvoyant la responsabilité d'un blocage institutionnel au refus du Parti socialiste (PSOE) de faciliter son investiture. Cette ambiguïté stratégique assumée intervient alors que le PP gouverne déjà en coalition avec Vox dans plusieurs communautés autonomes comme la Castille-et-León et la Communauté valencienne. Les dirigeants socialistes ont immédiatement dénoncé un aveu de dépendance idéologique envers l'extrême droite qui hypothèque la trajectoire européenne du pays.",
-      "enjeux": "Ce positionnement politique illustre le dilemme classique de la **droite modérée européenne** face à la montée des forces national-populistes et à l'effritement du bipartisme traditionnel. Contrairement au modèle allemand du « cordon sanitaire » (Brandmauer) qui exclut formellement toute alliance avec l'AfD, la droite espagnole a normalisé la coopération programmatique avec Vox pour conquérir et conserver le pouvoir dans les territoires. Cette stratégie de normalisation comporte un double tranchant électoral : si elle permet d'unir arithmétiquement les droites, elle mobilise puissamment l'électorat de gauche et effraie les électeurs centristes urbains qui redoutent des remises en cause sur les droits sociétaux et la décentralisation. Sur le plan institutionnel, une coalition nationale intégrant des ministres d'extrême droite marquerait une rupture politique majeure depuis la transition démocratique espagnole de 1978. Ce débat met en lumière l'extrême polarisation du paysage partidaire espagnol et la difficulté à forger des consensus transpartisans sur les grandes réformes structurelles requises par Bruxelles.",
+      "titre": "Espagne : le gouvernement convoque une réunion de crise après l'afflux migratoire record aux Canaries",
+      "faits": "Le président du gouvernement Pedro Sánchez a convoqué d'urgence une Commission interministérielle sur l'immigration. Cette décision intervient après l'arrivée continue de milliers de migrants sur les côtes de l'île d'El Hierro, aux Canaries. Les centres d'accueil de l'archipel sont saturés et les services de secours côtiers travaillent sous tension maximale. Le président régional des Canaries réclame la répartition obligatoire des mineurs non accompagnés dans l'ensemble des communautés autonomes. Les partis d'opposition de droite dénoncent l'absence de politique de fermeté et l'impréparation de l'exécutif central.",
+      "enjeux": "Cette crise met sous tension le modèle de **gouvernance territoriale** et la solidarité interrégionale en Espagne. Les Canaries constituent la porte d'entrée principale de la route migratoire atlantique, l'une des plus périlleuses du monde. Le gouvernement central peine à imposer un mécanisme contraignant de relocalisation aux régions dirigées par le Parti populaire. La question de l'accueil des mineurs étrangers cristallise un vif affrontement constitutionnel entre compétences de l'État et autonomies régionales. Cette pression migratoire alimente le discours politique de Vox qui réclame le blocus naval et des expulsions massives. Le dossier complique les relations diplomatiques de Madrid avec les pays d'origine et de transit en Afrique de l'Ouest.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Madrid_-_Congreso_de_los_Diputados_01.jpg/1280px-Madrid_-_Congreso_de_los_Diputados_01.jpg",
-        "alt": "La façade du Congrès des députés avec ses colonnes néoclassiques à Madrid",
-        "credit": "Luis García / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Madrid_-_Congreso_de_los_Diputados_01.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Frontera_El_Hierro_%288548213%29.jpeg/1280px-Frontera_El_Hierro_%288548213%29.jpeg",
+        "alt": "Costa y relieve escarpado de la isla de El Hierro en las Islas Canarias",
+        "credit": "Manolo P / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frontera_El_Hierro_(8548213).jpeg"
       },
       "vo": {
-        "titre": "Feijóo evita cerrar la puerta a un Gobierno de coalición con Vox tras las próximas generales",
-        "faits": "En una reveladora entrevista concedida al diario El País, el líder del Partido Popular, Alberto Núñez Feijóo, ha admitido abiertamente que conformar un futuro Gobierno de coalición con la formación ultraconservadora Vox «no depende únicamente de él». Ante el complejo escenario parlamentario y la debilidad aritmética de la mayoría de Pedro Sánchez, el dirigente gallego intenta mantener un delicado equilibrio entre proyectar un perfil moderado de gestión y no dinamitar los puentes con su único socio viable para alcanzar la mayoría absoluta en el Congreso de los Diputados. Feijóo insistió en que su meta prioritaria consiste en lograr una victoria electoral lo bastante contundente como para gobernar en solitario, pero responsabilizó al Partido Socialista de forzar pactos a la derecha al negarse a facilitar la gobernabilidad mediante una abstención técnica. El PP ya comparte responsabilidades de gestión autonómica con Vox en diversos territorios, lo que resta credibilidad a cualquier intento de distanciamiento formal. Desde las filas del Ejecutivo progresista han calificado las declaraciones como una claudicación ideológica que hipoteca los compromisos europeístas de España.",
-        "enjeux": "Las declaraciones del líder popular retratan con nitidez el dilema estratégico que atenaza al centroderecha en el sur de Europa frente al auge persistente del voto nacionalpopulista. A diferencia de las directrices imperantes en la política alemana o francesa, donde rige un estricto cordón sanitario frente a la extrema derecha, el Partido Popular ha optado por la institucionalización pragmatique de sus pactos con Vox en ayuntamientos y autonomías. Esta táctica entraña un riesgo electoral evidente: la normalización de la ultraderecha desmoviliza al voto de centro templado y sirve como potente catalizador para aglutinar al heterogéneo bloque progresista y plurinacional. En el plano institucional, la entrada de ministros de extrema derecha en el Consejo de Ministros supondría un giro copernicano sin precedentes en la democracia española posterior a la Constitución de 1978. Este debate refleja la profunda fragmentación del mapa político español y la parálisis de los acuerdos de Estado en materias estructurales prioritarias."
+        "titre": "España: el Gobierno convoca reunión urgente ante el colapso migratorio en Canarias",
+        "faits": "El presidente del Gobierno Pedro Sánchez ha convocado de urgencia la Comisión Interministerial de Inmigración tras el repunte de llegadas en la ruta atlántica. Miles de personas migrantes han desembarcado en las costas de la isla de El Hierro en los últimos días, desbordando los dispositivos de emergencia. Las instalaciones de acogida temporal del archipiélago se encuentran en una situación de saturación insostenible. El ejecutivo canario exige un reparto obligatorio de los menores extranjeros no acompañados entre todas las comunidades autónomas. La oposición parlamentaria critica la falta de coordinación y exige una respuesta contundente al Gobierno central.",
+        "enjeux": "La crisis migratoria canaria tensa las costuras del **Estado autonómico** y el principio de solidaridad interterritorial. La ruta marítima hacia el archipiélago se ha consolidado como la vía de entrada más mortífera y activa hacia la Unión Europea. La negativa de varias autonomías gobernadas por el Partido Popular a recibir menores no acompañados dificulta cualquier pacto de Estado duradero. El conflicto no solo enfrenta competencias ministeriales y regionales, sino que monopoliza el debate ideológico con la ultraderecha de Vox. Madrid se ve forzado a intensificar la cooperación policial y económica con socios estratégicos como Marruecos, Senegal y Mauritania. La gestión migratoria determinará la estabilidad de las alianzas políticas en el Congreso de los Diputados."
       },
       "vocab": [
         [
-          "pacto de gobernabilidad",
-          "pacte de gouvernement / accord de majorité",
-          "El partido conservador busca un pacto de gobernabilidad para alcanzar la mayoría parlamentaria."
+          "la ruta atlántica",
+          "la route migratoire des Canaries (Atlantique)",
+          "La ruta atlántica registra un flujo continuo de pateras precarias."
         ],
         [
-          "cordón sanitario",
-          "cordon sanitaire (politique)",
-          "A diferencia de Alemania, España no aplica un cordón sanitario frente a la extrema derecha."
+          "el colapso migratorio",
+          "la saturation / le débordement migratoire",
+          "Las islas sufren un grave colapso migratorio en sus centros."
         ],
         [
-          "claudicación",
-          "capitulation / renoncement idéologique",
-          "La oposición calificó la postura del líder como una claudicación ante las exigencias ultras."
+          "los menores no acompañados (menas)",
+          "les mineurs isolés étrangers",
+          "El reparto autonómico de los menores no acompañados genera tensión."
         ],
         [
-          "socio de investidura",
-          "partenaire / allié d'investiture",
-          "El partido necesita a su socio de investidura para aprobar los presupuestos del Estado."
+          "la comunidad autónoma",
+          "la région autonome espagnole",
+          "Cada comunidad autónoma gestiona sus competencias en asistencia social."
         ],
         [
-          "abstención técnica",
-          "abstention bienveillante / technique",
-          "Propusieron una abstención técnica del partido socialista para evitar un bloqueo político."
+          "el cayuco / la patera",
+          "l'embarcation de fortune / la pirogue",
+          "Un nuevo cayuco con decenas de personas llegó al puerto."
         ],
         [
-          "aritmética parlamentaria",
-          "arithmétique / équilibre parlementaire",
-          "La fragmentación electoral complica la aritmética parlamentaria necesaria para gobernar."
+          "la solidaridad interterritorial",
+          "la solidarité entre régions",
+          "La Constitución consagra el principio de solidaridad interterritorial."
         ]
       ],
       "sujets": [
-        "¿Constituye la normalización de alianzas con la extrema derecha un riesgo irreversible para las democracias europeas?",
-        "¿Hasta qué punto la polarización política dificulta la adopción de reformas económicas estructurales en España?"
+        "¿Pone a prueba la cuestión migratoria la solidez del Estado de las Autonomías en España?",
+        "¿Es posible compatibilizar la seguridad de las fronteras con los derechos humanos en el Mediterráneo y el Atlántico?"
       ],
       "anki": [
         {
-          "q": "¿Qué postura expresó Alberto Núñez Feijóo sobre un posible Gobierno de coalición con Vox en noviembre de 2026?",
-          "r": "Afirmó que pactar una coalición con Vox C{«no depende de mí»},\n→ Dejando abierta la puerta a un Gobierno conjunto si el PP no alcanza la mayoría absoluta en solitario."
+          "q": "Punto neurálgico de la llegada de migrantes por la ruta atlántica en España (2026)",
+          "r": "La isla de B{El Hierro} (Canarias), con centros de acogida saturados ante miles de llegadas.\n→ Tensa el modelo autonómico español sobre el reparto obligatorio de menores no acompañados. → gancho para un ensayo sobre la política migratoria o las tensiones territoriales en España"
         },
         {
-          "q": "¿Qué diferencia sustancial existe entre la estrategia del PP hacia Vox en España et el modelo del 'cordón sanitario' alemán?",
-          "r": "Divergencia estratégica :\n→ Alemania aplica la 'Brandmauer' que veta cualquier pacto con la extrema derecha (AfD).\n→ En España el PP ha normalizado coaliciones autonómicas con Vox en Castilla y León y la Comunidad Valenciana."
+          "q": "Motivo de fricción institucional entre el Gobierno central y las comunidades autónomas",
+          "r": "El reparto obligatorio de los B{menores no acompañados} y la financiación de los recursos de acogida.\n→ Divide a los gobiernos autonómicos del PP y al ejecutivo central de coalición."
         }
       ]
     },
     {
       "id": "2026-11-08-espagnol-2",
       "matiere": "espagnol",
-      "source": "El País",
-      "url": "https://elpais.com/economia/negocios/2026-11-07/los-deberes-economicos-tras-el-29-n-vivienda-infraestructuras-presupuestos-y-pensiones-entre-los-mas-urgentes.html",
+      "source": "Clarín",
+      "url": "https://www.clarin.com/economia/riesgo-pais-mercado-vuelve-mirar-desconfianza-argentina_0_W0DKzqJfVc.html",
       "minutes": 3,
-      "titre": "Défis économiques en Espagne : logement, retraites et finances publiques au cœur de l'agenda post-électoral",
-      "faits": "À l'approche des échéances électorales et de la présentation du plan budgétaire pluriannuel à la Commission européenne, un rapport économique exhaustif publié par le quotidien El País dresse la liste des chantiers structurels prioritaires pour l'économie espagnole. En tête des urgences figure la crise aiguë du logement locatif, caractérisée par une pénurie d'offre abordable et une flambée des loyers de plus de 10 % en un an dans les grandes agglomérations. Le second dossier critique concerne la soutenabilité du système public de retraites, alors que le départ massif de la génération du baby-boom fait déraper les dépenses de sécurité sociale malgré la hausse des cotisations du mécanisme d'équité intergénérationnelle (MEI). Par ailleurs, le respect des nouvelles règles budgétaires de l'Union européenne impose à Madrid de ramener son déficit public durablement sous les 3 % du PIB et de stabiliser une dette publique approchant les 105 % du PIB. Les experts soulignent enfin l'urgence d'investissements massifs dans l'infrastructure ferroviaire et la gestion des ressources hydriques face aux sécheresses récurrentes.",
-      "enjeux": "Ce panorama macroéconomique met en relief la contradiction entre les exigences de **consolidation budgétaire** imposées par le pacte de stabilité européen et l'impératif de préserver le modèle social espagnol face au choc démographique. Bien que l'Espagne affiche une croissance économique supérieure à la moyenne de la zone euro grâce au dynamisme du tourisme et de l'emploi des travailleurs étrangers, sa **productivité globale des facteurs** demeure structurellement atone depuis deux décennies. L'incapacité à débloquer l'offre foncière et à construire un parc significatif de logements sociaux pénalise directement la mobilité professionnelle des jeunes actifs et freine la compétitivité des métropoles comme Madrid et Barcelone. De surcroît, le vieillissement accéléré de la pyramide des âges fait peser un risque de déficit permanent sur les comptes publics si l'âge effectif de départ à la retraite ne converge pas rapidement vers l'âge légal. Sans accords transpartisans sur la fiscalité et les investissements publics, l'économie espagnole risque de voir sa trajectoire de convergence européenne s'essouffler.",
+      "titre": "Argentine : le risque pays remonte et les marchés financiers s'inquiètent de la soutenabilité de la dette",
+      "faits": "L'indice du risque pays argentin calculé par JPMorgan a enregistré une nette remontée au-dessus de son plancher semestriel. Les investisseurs internationaux et les banques d'affaires manifestent un scepticisme renouvelé quant à la solidité financière du plan d'ajustement. Malgré le maintien d'un excédent budgétaire primaire par le gouvernement de Javier Milei, les réserves nettes de la banque centrale restent fragiles. L'approche d'importantes échéances de remboursement de la dette en devises étrangères pour 2027 ravive les craintes d'un refinancement difficile. Les cours des obligations souveraines argentines ont marqué le pas sur les places financières mondiales.",
+      "enjeux": "Ce regain de méfiance met en lumière les limites de la stabilisation économique par la seule **austérité budgétaire**. Le programme de choc de la « tronçonneuse » a permis d'écraser l'inflation mensuelle au prix d'une violente récession productive et d'une dégradation sociale. Cependant, sans levée rapide du contrôle des changes, les flux d'investissements directs étrangers tardent à se concrétiser dans l'économie réelle. L'Argentine reste piégée dans la contradiction entre un taux de change officiel artificiellement maintenu et la pénurie structurelle de réserves en dollars. Le soutien financier du FMI demeure conditionné à des réformes institutionnelles et fiscales encore contestées au Congrès. La soutenabilité de la dette dépendra de la capacité du pays à restaurer sa compétitivité sans provoquer une nouvelle dévaluation déstabilisatrice.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Banco_de_Espa%C3%B1a_%28Madrid%29_05.jpg/1280px-Banco_de_Espa%C3%B1a_%28Madrid%29_05.jpg",
-        "alt": "Le siège historique de la Banque d'Espagne sur la place de Cibeles à Madrid",
-        "credit": "Luis García / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Banco_de_Espa%C3%B1a_(Madrid)_05.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Casa_Rosada%2C_Buenos_Aires_2012-05-22_03.JPG/1280px-Casa_Rosada%2C_Buenos_Aires_2012-05-22_03.JPG",
+        "alt": "La fachada de la Casa Rosada en Buenos Aires, sede del poder ejecutivo argentino",
+        "credit": "Anastasiya Lvova / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Rosada,_Buenos_Aires_2012-05-22_03.JPG"
       },
       "vo": {
-        "titre": "Los inaplazables deberes económicos de España: vivienda, pensiones, disciplina fiscal e infraestructuras",
-        "faits": "Un pormenorizado análisis económico publicado por El País detalla las urgencias estructurales inaplazables que afrontará el próximo ciclo político y económico en España. El desafío más acuciante se concentra en el mercado inmobiliario, donde la asfixiante escasez de oferta de alquiler asequible y el encarecimiento descontrolado de los arrendamientos en las grandes urbes estrangulan la capacidad económica de las familias trabajadoras. En paralelo, la sostenibilidad del sistema público de pensiones afronta un examen decisivo por la jubilación de la cohorte del baby boom, disparando la factura prestacional pese a las aportaciones del Mecanismo de Equidad Intergeneracional. Asimismo, la plena reactivación del marco de gobernanza fiscal comunitaria exige a España consolidar el déficit presupuestario por debajo del umbral del 3% y atajar una deuda soberana que supera el 105% del PIB. A estas prioridades se suma la necesidad perentoria de modernizar las infraestructuras de transporte ferroviario de cercanías y acometer inversiones hidráulicas estratégicas contra el cambio climático.",
-        "enjeux": "El diagnóstico económico sitúa en primer término la compleja compatibilidad entre los objetivos de estabilidad fiscal dictados por Bruselas y la inaplazable necesidad de fortalecer el Estado del bienestar ante el invierno demográfico. Aunque España mantiene un ritmo de crecimiento superior a la media de las economías avanzadas europeas, su productividad agregada y su tasa de desempleo juvenil continúan arrojando sombras estructurales sobre la competitividad del modelo productivo. La falta de un parque público de vivienda equiparable a los estándares centroeuropeos distorsiona la asignación de recursos y ahonda la brecha de desigualdad generacional en perjuicio de los menores de 35 años. Al mismo tiempo, la presión sobre las arcas de la Seguridad Social exigirá consensos políticos de largo alcance para evitar que el ajuste recaiga exclusivamente sobre los salarios de la masa laboral activa. Superar estas encrucijadas requerirá transformar el tejido empresarial hacia sectores de mayor valor añadido e invertir decididamente en capital humano e innovación."
+        "titre": "Argentina: el riesgo país repunta y los inversores recelan de la solvencia externa",
+        "faits": "El índice de riesgo país de Argentina elaborado por JP Morgan ha frenado su tendencia descendente con un significativo repunte. Los analistas de Wall Street expresan nuevas dudas sobre la sostenibilidad del esquema cambiario y fiscal impulsado por la Casa Rosada. Aunque la administración de Javier Milei defiende el superávit financiero a ultranza, la acumulación de reservas netas en el Banco Central sigue siendo exigua. Los abultados vencimientos de deuda soberana previstos para 2027 generan inquietud sobre la capacidad de refinanciación en los mercados voluntarios. Los bonos en dólares cotizan con volatilidad ante la cautela de los fondos de inversión internacionales.",
+        "enjeux": "Este clima de incertidumbre financiera ilustra los dilemas de un plan de estabilización fundado exclusivamente en el **ajuste fiscal severo**. El saneamiento de las cuentas públicas ha reducido drásticamente la tasa de inflación pero a costa de una profunda recesión del consumo y del empleo. La persistencia del cepo cambiario frena la llegada de inversiones productivas extranjeras imprescindibles para reactivar la actividad. El dilema de fondo radica en cómo salir de las restricciones de divisas sin provocar un salto cambiario que reavive la espiral inflacionaria. Las negociaciones para un nuevo acuerdo con el Fondo Monetario Internacional se complican por las reticencias a devaluar la moneda oficial. La credibilidad del modelo económico argentino depende de su capacidad para demostrar solvencia externa sostenible."
       },
       "vocab": [
         [
-          "arrendamiento",
-          "location / bail locatif",
-          "El encarecimiento del arrendamiento expulsa a las familias de los centros urbanos."
+          "el riesgo país",
+          "le risque pays (écart de taux souverain)",
+          "El riesgo país repuntó ante las dudas sobre el pago de la deuda."
         ],
         [
-          "factura prestacional",
-          "coût des prestations sociales (retraites)",
-          "El envejecimiento de la población dispara la factura prestacional de la Seguridad Social."
+          "el cepo cambiario",
+          "le contrôle des changes strict en Argentine",
+          "El Gobierno planea levantar el cepo cambiario de forma gradual."
         ],
         [
-          "deuda soberana",
-          "dette souveraine / dette publique",
-          "Reducir la deuda soberana es imperativo para cumplir con las normas de Bruselas."
+          "el superávit fiscal / financiero",
+          "l'excédent budgétaire / financier",
+          "El ministro de Economía celebra el superávit fiscal alcanzado."
         ],
         [
-          "cercanías",
-          "trains de banlieue / réseau périurbain",
-          "Las inversiones en la red de cercanías son prioritarias para asegurar la movilidad diaria."
+          "los vencimientos de deuda",
+          "les échéances de remboursement de dette",
+          "Los vencimientos de deuda presionan las reservas del Banco Central."
         ],
         [
-          "brecha generacional",
-          "fossé intergénérationnel",
-          "La crisis del acceso a la vivienda amplía la brecha generacional entre jóvenes y mayores."
+          "la desaceleración inflacionaria",
+          "le ralentissement de l'inflation",
+          "La desaceleración inflacionaria es el principal logro del plan oficial."
         ],
         [
-          "invierno demográfico",
-          "hiver / déclin démographique",
-          "El invierno demográfico amenaza la sostenibilidad a largo plazo de las pensiones públicas."
+          "el salto cambiario",
+          "une dévaluation brutale de la monnaie",
+          "Los empresarios temen un salto cambiario si se flexibiliza el mercado."
         ]
       ],
       "sujets": [
-        "¿Puede la economía española compatibilizar la consolidación fiscal con la protección social de su población envejecida?",
-        "¿Constituye la falta de vivienda asequible el principal obstáculo para la productividad y la equidad social en España?"
+        "¿Puede una política de ajuste fiscal severo garantizar el crecimiento económico duradero en América Latina?",
+        "¿Cuáles son los principales obstáculos estructurales para la estabilidad monetaria en Argentina?"
       ],
       "anki": [
         {
-          "q": "¿Cuáles son los cuatro retos económicos inaplazables para España según el análisis de noviembre de 2026?",
-          "r": "Prioridades macroeconómicas clave :\n→ Vivienda (escasez de oferta y subida de alquileres > C{10 %}).\n→ Pensiones (gasto disparado por el retiro del baby boom).\n→ Disciplina fiscal (déficit bajo el C{3 %} y deuda en torno al C{105 %}).\n→ Infraestructuras críticas (red de cercanías y gestión hídrica)."
+          "q": "Indicador financiero que refleja la desconfianza de los mercados hacia Argentina (2026)",
+          "r": "El repunte del B{riesgo país} por la escasez de reservas netas y los vencimientos de deuda en divisas.\n→ Limita el acceso de Argentina al crédito internacional voluntario pese al superávit fiscal. → gancho para un ensayo sobre las reformas económicas o la deuda soberana en América Latina"
         },
         {
-          "q": "¿Qué instrumento de cotización adicional busca apuntalar las pensiones públicas en España ante el baby boom?",
-          "r": "El C{Mecanismo de Equidad Intergeneracional} (MEI),\n→ Una sobrecotización destinada a nutrir la hucha de las pensiones pero que encarece los costes laborales."
+          "q": "Principal dilema de la política cambiaria del gobierno argentino",
+          "r": "Mantener el B{cepo cambiario} para anclar la inflación frente a la urgencia de atraer inversión extranjera.\n→ La falta de divisas frena la recuperación de la actividad económica."
         }
       ]
     },
@@ -609,9 +665,9 @@
       "source": "El País",
       "url": "https://elpais.com/economia/vivienda/2026-11-08/que-pasa-con-la-vivienda-11-graficos-para-entender-causas-y-consecuencias-del-problema.html",
       "minutes": 3,
-      "titre": "Crise du logement en Espagne : 11 graphiques pour comprendre la flambée des loyers et le blocage des jeunes",
-      "faits": "Une étude statistique fouillée publiée par El País décrypte au moyen de onze graphiques les mécanismes sous-jacents de la crise du logement qui frappe l'Espagne. Les données montrent que le prix moyen des loyers a progressé de plus de 45 % au cours des cinq dernières années dans les grandes métropoles comme Madrid, Barcelone, Malaga et Valence, surpassant de très loin la progression des salaires réels. Dans le même temps, la part des ménages locataires consacrant plus de 40 % de leurs revenus au paiement de leur toit atteint désormais près de la moitié de la population concernée, plaçant de nombreuses familles au bord de la précarité financière. Le rapport souligne l'impact dévastateur de la prolifération des logements touristiques et des locations saisonnières non régulées, qui ont retiré des dizaines de milliers d'appartements du marché résidentiel classique. En conséquence, l'âge moyen d'émancipation des jeunes Espagnols a reculé à plus de 30 ans, l'un des records les plus élevés de toute l'Union européenne.",
-      "enjeux": "Cette crise immobilière systémique met en lumière la faillite des politiques de régulation urbaine et l'insuffisance chronique du **parc de logements sociaux** en Espagne, qui représente à peine 2,5 % du total contre près de 15 à 20 % en France ou aux Pays-Bas. Pendant des décennies, le modèle espagnol a privilégié l'accès à la propriété privée et la défiscalisation foncière, abandonnant le marché locatif à la spéculation des investisseurs institutionnels et des plateformes touristiques. Ce renchérissement exorbitant de la rente immobilière fonctionne comme un puissant mécanisme de **redistribution à l'envers**, transférant massivement des richesses des jeunes actifs non propriétaires vers les détenteurs de patrimoine immobilier plus âgés. La loi sur le logement (Ley de Vivienda) de 2023, qui permet le plafonnement des loyers dans les zones tendues, reste boycottée par la majorité des régions gouvernées par la droite, paralysant l'application territoriale des mesures d'urgence. Sans un choc d'offre publique de logements abordables, la crise résidentielle continuera d'étouffer la natalité et la compétitivité économique du pays.",
+      "titre": "Espagne : la crise du logement locatif atteint un niveau historique et fragilise les jeunes",
+      "faits": "Une enquête détaillée publiée par El País documente l'ampleur inédite de la crise du logement en Espagne à l'aide de données chiffrées. Les prix des loyers ont pulvérisé tous leurs records historiques dans les grandes métropoles comme Madrid, Barcelone et Valence. L'offre de logements en location permanente s'est effondrée sous l'effet de la reconversion massive vers les locations touristiques et saisonnières. Les ménages locataires doivent consacrer en moyenne plus de quarante pour cent de leurs revenus nets pour se loger. L'âge moyen de départ du domicile parental dépasse désormais trente ans, l'un des plus élevés d'Europe.",
+      "enjeux": "Cette crise du logement constitue l'une des principales failles du **modèle social espagnol** contemporain. L'impossibilité d'accéder à un logement décent à un coût raisonnable bloque l'émancipation économique de toute une génération de jeunes diplômés. Les récentes mesures de régulation des loyers adoptées par le gouvernement central suscitent de vives résistances de la part des propriétaires et des régions autonomes de droite. Le manque d'investissements publics historiques dans le logement social locatif, qui ne représente que 2,5 % du parc contre 9 % en moyenne dans l'UE, explique cette vulnérabilité. La flambée immobilière alimente également les inégalités de patrimoine entre propriétaires âgés et jeunes locataires. Face à l'urgence, les mobilisations citoyennes et les appels à la grève des loyers se multiplient dans les grandes villes.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Madrid-Sanchinarro-view.jpg/1280px-Madrid-Sanchinarro-view.jpg",
         "alt": "Immeubles résidentiels et urbanisation moderne dans la périphérie de Madrid",
@@ -619,54 +675,54 @@
         "source": "https://commons.wikimedia.org/wiki/File:Madrid-Sanchinarro-view.jpg"
       },
       "vo": {
-        "titre": "La radiografía de la emergencia habitacional en España en 11 gráficos determinantes",
-        "faits": "Una exhaustiva investigación estadística publicada por El País desgrana a través de once gráficos clave las causas estructurales y los devastadores efectos de la crisis de la vivienda en España. Los indicadores revelan que el precio del metro cuadrado en régimen de alquiler ha registrado un alza acumulada superior al 45% en el último lustro en enclaves de intensa presión urbana como Madrid, Barcelona, Valencia y las capitales insulares. Esta escalada ha provocado que casi la mitad de los hogares inquilinos destine más del 40% de sus ingresos mensuales exclusivamente a pagar el techo, rebasando el límite técnico de sobreesfuerzo financiero. El estudio evidencia el trasvase masivo de inmuebles hacia el mercado del alquiler turístico y de temporada, sustrayendo miles de unidades habitacionales del circuito residencial permanente. Como derivación directa, la edad media de emancipación juvenil en España ha escalado hasta los 30,3 años, consolidando una de las tasas de autonomía más tardías de todo el continente europeo.",
-        "enjeux": "La fractura habitacional actual pone de manifiesto la secular carencia de políticas públicas destinadas a consolidar un parque social de alquiler protegido, que apenas alcanza el 2,5% del parque total frente a medias comunitarias del 17%. El tradicional sesgo hacia la compraventa heredado de las décadas desarrollistas desprotegió el mercado del arrendamiento, facilitando que la especulación financiera y la rentabilidad turística devoren el derecho constitucional a un techo digno. Este desajuste estructural actúa como un vector de desigualdad regresiva, succionando los recursos de una juventud asalariada precaria para engrosar las rentas pasivas de propietarios consolidados. La conflictividad competencial entre el Gobierno central y las comunidades autónomas contrarias a declarar zonas de mercado tensionado ha vaciado de eficacia práctica las medidas de contención de rentas de la Ley de Vivienda. Revertir esta espiral requiere una inyección masiva de fondos públicos para edificar vivienda pública permanente y una regulación implacable contra los abusos del alquiler vacacional."
+        "titre": "España: la crisis de la vivienda pulveriza récords y lastra a los jóvenes",
+        "faits": "Una exhaustiva radiografía estadística de El País expone la gravedad de la crisis habitacional en las principales ciudades españolas. El precio del alquiler ha alcanzado máximos históricos tras experimentar subidas continuadas durante los últimos cinco años. La oferta de vivienda en arrendamiento habitual se ha reducido drásticamente debido al desvío hacia el alquiler turístico y de temporada. Las familias que viven en alquiler destinan ya más del cuarenta por ciento de sus ingresos salariales al pago del techo. La tasa de emancipación juvenil se sitúa en mínimos históricos, con una edad media de salida del hogar que supera los treinta años.",
+        "enjeux": "La inaccesibilidad de la vivienda se ha erigido en la principal fuente de **desigualdad intergeneracional** en la sociedad española. El encarecimiento asfixiante de las rentas impide a los trabajadores jóvenes construir un patrimonio básico y consolidar proyectos vitales. El parque de vivienda pública en alquiler en España representa apenas el 2,5 %, muy por debajo del promedio comunitario del 9 %. Las tensiones políticas entre el Gobierno de coalición y los gobiernos autonómicos del PP bloquean la aplicación efectiva de la Ley de Vivienda. La especulación inmobiliaria y el auge de los pisos turísticos alteran la convivencia vecinal en los centros históricos. El malestar social cristaliza en protestas multitudinarias y demandas de intervención radical en el mercado inmobiliario."
       },
       "vocab": [
         [
-          "emergencia habitacional",
-          "crise / urgence du logement",
-          "Los movimientos ciudadanos denuncian una situación de grave emergencia habitacional."
+          "el alquiler de temporada",
+          "la location saisonnière / de courte durée",
+          "El alquiler de temporada evade las limitaciones de la ley de vivienda."
         ],
         [
-          "sobreesfuerzo financiero",
-          "taux d'effort excessif (sur les revenus)",
-          "Destinar más del 40% del salario al alquiler constituye un sobreesfuerzo financiero."
+          "el parque de vivienda pública",
+          "le parc de logements sociaux",
+          "España cuenta con un parque de vivienda pública claramente insuficiente."
         ],
         [
-          "parque social",
-          "parc de logements sociaux",
-          "El parque social de vivienda en España es claramente insuficiente en comparación con Europa."
+          "la tasa de emancipación",
+          "le taux d'émancipation des jeunes",
+          "La baja tasa de emancipación juvenil retrasa la formación de familias."
         ],
         [
-          "zona tensionada",
-          "zone tendue (marché locatif)",
-          "Varias autonomías se niegan a aplicar el control de precios en zonas tensionadas."
+          "el tope a los alquileres",
+          "le plafonnement des loyers",
+          "La legislación contempla un tope a los alquileres en zonas tensionadas."
         ],
         [
-          "alquiler vacacional",
-          "location touristique / saisonnière",
-          "La proliferación del alquiler vacacional encarece los precios para los residentes estables."
+          "la zona tensionada",
+          "la zone tendue (marché immobilier)",
+          "Las ciudades solicitan declarar zonas tensionadas para frenar precios."
         ],
         [
-          "edad de emancipación",
-          "âge de départ du domicile familial",
-          "La precariedad laboral retrasa la edad de emancipación de los jóvenes por encima de los 30 años."
+          "el desahucio",
+          "l'expulsion locative",
+          "Las plataformas vecinales se movilizan para paralizar desahucios vulnerables."
         ]
       ],
       "sujets": [
-        "¿Constituye la vivienda el principal factor de fractura intergeneracional en las sociedades contemporáneas?",
-        "¿Hasta qué punto deben los poderes públicos intervenir los precios del alquiler para garantizar el derecho a la vivienda?"
+        "¿Constituye el acceso a la vivienda el principal desafío socioeconómico de la juventud española?",
+        "¿Hasta qué punto debe intervenir el Estado en la regulación del mercado inmobiliario?"
       ],
       "anki": [
         {
-          "q": "¿Qué datos estadísticos reflejan la gravedad de la crisis del alquiler en España según el informe de noviembre de 2026?",
-          "r": "Indicadores alarmantes :\n→ Subida media del alquiler superior al C{45 %} en cinco años en grandes metrópolis.\n→ Cerca del C{50 %} de los inquilinos sufre sobreesfuerzo (> C{40 %} de sus ingresos para vivienda).\n→ La edad media de emancipación juvenil escala hasta los C{30,3 años}."
+          "q": "Porcentaje de vivienda social en alquiler en España frente a la media europea",
+          "r": "Apenas C{2,5 %} en España frente al C{9 %} de media en la Unión Europea.\n→ Explica la vulnerabilidad de los inquilinos ante la especulación inmobiliaria y los pisos turísticos. → gancho para un ensayo sobre las desigualdades sociales o el acceso a la vivienda en España"
         },
         {
-          "q": "¿Qué porcentaje del parque inmobiliario total representa la vivienda social en España frente a la media europea?",
-          "r": "Apenas un C{2,5 %} en España,\n→ Frente a medias del C{15 al 20 %} en países como Francia, Países Bajos o Austria."
+          "q": "Consecuencia del encarecimiento de los alquileres en la juventud española",
+          "r": "La edad media de B{emancipación juvenil} supera ya los C{30 años}.\n→ Frena la movilidad laboral y acentúa la brecha de riqueza intergeneracional."
         }
       ]
     },
@@ -676,9 +732,9 @@
       "source": "El País",
       "url": "https://elpais.com/america-colombia/2026-11-08/colombia-pierde-la-guerra-contra-los-drones.html",
       "minutes": 3,
-      "titre": "Sécurité et conflit en Colombie : l'armée mise en échec par l'usage massif de drones piégés par les guérillas",
-      "faits": "Un reportage d'investigation publié par El País depuis les départements du Cauca et de Valle del Cauca révèle que les forces armées colombiennes sont en train de perdre la bataille technologique contre les drones explosifs déployés par les dissidences des FARC. Au cours des derniers mois, les structures rebelles de l'État-major central (EMC) ont multiplié les attaques aériennes au moyen de drones civils bon marché modifiés pour larguer des grenades et des explosifs artisanaux sur les bases militaires et les postes de police. Cette nouvelle doctrine de guérilla asymétrique a causé la mort de plusieurs dizaines de militaires et de policiers, tout en terrorisant les populations civiles rurales prises au piège des bombardements. Les forces de sécurité étatiques peinent à contrer cette menace en raison du coût exorbitant et de l'insuffisance des systèmes de brouillage électromagnétique disponibles sur le terrain. Face à cette supériorité tactique des insurgés, le gouvernement du président Gustavo Petro a dû suspendre les cessez-le-feu locaux et intensifier les opérations offensives dans le sud-ouest du pays.",
-      "enjeux": "La prolifération des drones armés par les groupes armés illégaux marque une transformation radicale du conflit armé colombien et porte un coup très dur à la politique de « Paix totale » (Paz Total) promue par Gustavo Petro. En démocratisant l'accès à une force aérienne artisanale pour quelques centaines de dollars, les organisations criminelles et narco-guérilleras neutralisent l'avantage militaire historique de l'État colombien, traditionnellement fondé sur sa flotte d'hélicoptères Black Hawk et ses avions de combat. Cette escalade technologique montre comment les revenus colossaux du narcotrafic et de l'orpaillage illégal permettent aux insurgés de financer des innovations militaires asymétriques à une vitesse stupéfiante. L'incapacité de l'État à sécuriser l'espace aérien des territoires ruraux érode l'autorité des institutions publiques et compromet la mise en œuvre des programmes de développement agricole et de substitution des cultures illicites. Cet enlisement sécuritaire souligne l'impasse d'une négociation de paix menée sans rapport de force militaire préalable.",
+      "titre": "Colombie : la prolifération des drones piégés met en échec l'armée et fragilise la « Paix totale »",
+      "faits": "Dans les départements du Cauca et de Valle del Cauca, les forces militaires colombiennes affrontent une nouvelle menace asymétrique. Les factions dissidentes des FARC ont multiplié les attaques coordonnées au moyen de drones commerciaux modifiés équipés de grenades. Ces engins téléguidés peu coûteux ont fait des dizaines de victimes parmi les soldats et la population civile ces dernières semaines. L'armée de terre colombienne reconnaît son manque d'équipements technologiques et de systèmes de brouillage pour neutraliser ces aéronefs. Les affrontements armés ont provoqué des déplacements forcés massifs de communautés paysannes et indigènes.",
+      "enjeux": "Cette guerre des drones révèle l'enlisement sécuritaire de la stratégie de **« Paz Total »** portée par le président Gustavo Petro. En tentant de négocier simultanément avec une myriade de groupes armés, le gouvernement n'a pas réussi à stopper le contrôle territorial des narcotrafiquants. L'adoption de technologies à bas coût par les groupes illégaux réduit l'avantage tactique des forces régulières dans les zones de jungle montagneuse. Cette violence continue paralyse le développement rural et la substitution des cultures illicites de coca. L'échec des cessez-le-feu bilatéraux érode la popularité du premier président de gauche de l'histoire colombienne. La dégradation de la sécurité intérieure pousse l'état-major à demander une aide technique urgente à Washington pour sécuriser l'espace aérien tactique.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Capitolio_Nacional_de_Colombia.JPG/1280px-Capitolio_Nacional_de_Colombia.JPG",
         "alt": "Le Capitole national à Bogotá, siège du Congrès de la République de Colombie",
@@ -686,54 +742,54 @@
         "source": "https://commons.wikimedia.org/wiki/File:Capitolio_Nacional_de_Colombia.JPG"
       },
       "vo": {
-        "titre": "Colombia pierde la batalla tecnológica frente a los drones explosivos de las disidencias guerrilleras",
-        "faits": "Una alarmante crónica de investigación publicada por El País en las zonas rurales del Cauca y el Valle del Cauca constata la impotencia operativa de las Fuerzas Militares colombianas frente a la proliferación de drones armados operados por las disidencias de las FARC. Las facciones insurgentes vinculadas al Estado Mayor Central han transformado dispositivos aéreos comerciales no tripulados en letales proyectiles teledirigidos capaces de lanzar granadas sobre cuarteles militares, patrullas y cascos urbanos. Esta táctica asimétrica de bajo coste ha provocado decenas de bajas en las filas estatales y ha sembrado el pánico entre las comunidades campesinas e indígenas atrapadas en el fuego cruzado. El Ejército de Colombia carece de suficientes sistemas portátiles de inhibición de radiofrecuencia y tecnología antidrón para neutralizar estas incursiones en regiones de orografía montañosa escarpada. Ante este recrudecimiento de la violencia, el Gobierno nacional de Gustavo Petro se ha visto forzado a decretar la suspensión de los acuerdos de alto el fuego bilateral en las regiones del suroccidente del país.",
-        "enjeux": "La irrupción masiva de aeronaves no tripuladas en el arsenal guerrillero dinamita la correlación militar de fuerzas y deja en punto muerto la ambiciosa política de 'Paz Total' liderada por el Ejecutivo colombiano. Durante décadas, la aviación táctica y el poder aeromóvil proporcionado por la cooperación militar estadounidense garantizaron la supremacía del Estado frente a las cuadrillas rebeldes en la selva. La popularización de drones teledirigidos financiados por las boyantes rentas de la cocaína y la minería ilícita arrebata esa ventaja histórica al Ejército a un coste económico irrisorio para la insurgencia. Esta vulnerabilidad territorial evidencia el repliegue del poder estatal en las periferias geográficas y compromete el avance de los planes de sustitución de cultivos ilícitos acordados en los tratados de paz. El estancamiento militar demuestra que sin un control efectivo de las fronteras tecnológicas y de los corredores del narcotráfico, los intentos de resolución negociada de los conflictos en América Latina encallan en nuevas y letales formas de insurgencia armada."
+        "titre": "Colombia: la guerra asimétrica con drones armados desborda al Ejército",
+        "faits": "En los departamentos de Cauca y Valle del Cauca, las tropas colombianas enfrentan una escalada letal sin precedentes en el conflicto interno. Las disidencias de las FARC utilizan drones comerciales cargados con explosivos para bombardear bases militares y patrullas terrestres. Estos artefactos no tripulados han provocado numerosas bajas y han desatado el pánico en caseríos rurales apartados. Las Fuerzas Militares admiten carecer de inhibidores de frecuencia y defensas antiaéreas para contrarrestar esta táctica ofensiva. Miles de campesinos e indígenas han sido desplazados por el fuego cruzado en el suroeste del país.",
+        "enjeux": "La proliferación de drones bélicos evidencia el debilitamiento táctico del Estado frente a las **disidencias armadas**. La ambiciosa política de **Paz Total** de Gustavo Petro atraviesa su momento más crítico ante la ruptura de las treguas con los grupos rebeldes. Las organizaciones ilegales han aprovechado los periodos de negociación para fortalecer su control sobre los corredores del narcotráfico y la minería ilegal. La tecnología de bajo coste democratiza la capacidad de ataque aéreo de las guerrillas, erosionando la histórica superioridad militar del Ejército. Este deterioro de la seguridad pública agrava la vulnerabilidad de los líderes sociales y de las comunidades étnicas locales. La presión política sobre el Ministerio de Defensa crece para modernizar las capacidades antidrón con cooperación estadounidense."
       },
       "vocab": [
         [
-          "disidencia",
-          "dissidence / faction rebelle dissidente",
-          "Las disidencias armadas rechazaron desmovilizarse y controlan el negocio del narcotráfico."
+          "las disidencias guerrilleras",
+          "les factions dissidentes de la guérilla",
+          "Las disidencias guerrilleras rechazaron los términos del acuerdo de paz."
         ],
         [
-          "fuego cruzado",
-          "tirs croisés",
-          "La población civil campesina quedó atrapada en el fuego cruzado entre militares y guerrilleros."
+          "el artefacto explosivo",
+          "l'engin explosif / la bombe artisanale",
+          "Los drones lanzan artefactos explosivos contra las patrullas."
         ],
         [
-          "inhibición de radiofrecuencia",
-          "brouillage électromagnétique",
-          "El ejército necesita inhibición de radiofrecuencia para bloquear los drones explosivos."
+          "el desplazamiento forzado",
+          "le déplacement forcé de populations",
+          "El conflicto armado causa el desplazamiento forzado de miles de campesinos."
         ],
         [
-          "alto el fuego",
-          "cessez-le-feu",
-          "El Gobierno suspendió el alto el fuego ante los continuos ataques a puestos policiales."
+          "el inhibidor de frecuencia",
+          "le brouilleur de fréquences radio",
+          "El Ejército adquiere inhibidores de frecuencia para neutralizar drones."
         ],
         [
-          "minería ilícita",
-          "exploitation minière illégale / orpaillage clandestin",
-          "Las finanzas de los grupos armados dependen del narcotráfico y de la minería ilícita de oro."
+          "el cese al fuego bilateral",
+          "le cessez-le-feu bilatéral",
+          "El Gobierno suspendió el cese al fuego bilateral tras los atentados."
         ],
         [
-          "guerra asimétrica",
-          "guerre asymétrique",
-          "El uso de tecnología civil adaptada transforma el conflicto armado en una guerra asimétrica."
+          "el narcotráfico",
+          "le trafic de stupéfiants",
+          "El control de las rutas del narcotráfico financia a las organizaciones criminales."
         ]
       ],
       "sujets": [
-        "¿Pueden las nuevas tecnologías civiles alterar de forma permanente el equilibrio de poder en los conflictos armados internos?",
-        "¿Hasta qué punto es viable una estrategia de paz negociada sin mantener una clara supremacía militar del Estado?"
+        "¿Cuáles son los principales obstáculos para lograr una paz duradera en Colombia?",
+        "¿Cómo transforman las nuevas tecnologías militares los conflictos asimétricos en el mundo contemporáneo?"
       ],
       "anki": [
         {
-          "q": "¿Qué nueva táctica asimétrica de las disidencias guerrilleras ha desbordado a las fuerzas armadas en Colombia?",
-          "r": "Uso ofensivo de C{drones civiles comerciales modificados},\n→ Que lanzan explosivos sobre cuarteles militares y patrullas en el Cauca y el Valle del Cauca a bajo coste."
+          "q": "Nueva amenaza táctica empleada por las disidencias de las FARC en Colombia (2026)",
+          "r": "Uso ofensivo de B{drones comerciales con explosivos} en el suroeste del país.\n→ Quiebra la superioridad militar aérea del Estado y cuestiona la política de Paz Total de Gustavo Petro. → gancho para un ensayo sobre los desafíos de la seguridad o el proceso de paz en Colombia"
         },
         {
-          "q": "¿Qué política de pacificación de Gustavo Petro se ha visto socavada por la escalada militar con drones?",
-          "r": "La política de C{'Paz Total'},\n→ Que obligó a suspender los acuerdos de alto el fuego bilateral ante la pérdida de control territorial frente al narcotráfico."
+          "q": "Impacto de la guerra de drones sobre las comunidades rurales colombianas",
+          "r": "Aumento del B{desplazamiento forzado} masivo de campesinos y comunidades indígenas en Cauca.\n→ Ilustra la persistencia de la violencia armada vinculada al narcotráfico."
         }
       ]
     },
@@ -743,9 +799,9 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/inland/innenpolitik/sondervermoegen-bildungsinfrastruktur-100.html",
       "minutes": 3,
-      "titre": "Investissements publics en Allemagne : les milliards du fonds spécial pour les écoles restent bloqués dans les Länder",
-      "faits": "Selon un rapport accablant relayé par le journal télévisé Tagesschau, la grande majorité des fonds financiers prévus pour la rénovation des écoles et des infrastructures éducatives en Allemagne reste bloquée dans les caisses de l'État. Sur les plusieurs milliards d'euros débloqués dans le cadre du fonds spécial fédéral pour la modernisation des bâtiments scolaires et des équipements numériques, à peine 15 % des montants ont été effectivement versés aux communes. Les directeurs d'école et les maires dénoncent des obstacles administratifs insurmontables, des formulaires de demande trop complexes et une pénurie sévère d'architectes et d'ingénieurs dans les services municipaux d'urbanisme. Pendant ce temps, des milliers d'établissements scolaires à travers le pays souffrent de toitures vétustes, de systèmes de chauffage obsolètes et d'un manque d'équipements informatiques modernes. Les associations de parents d'élèves et les syndicats d'enseignants réclament une simplification immédiate des procédures administratives afin que l'argent arrive enfin dans les salles de classe.",
-      "enjeux": "Ce blocage financier illustre les faiblesses chroniques de la **bureaucratie allemande** et les limites du **fédéralisme éducatif** face aux besoins d'investissement d'avenir. En Allemagne, la compétence en matière d'enseignement appartient exclusivement aux seize Länder, ce qui empêche le gouvernement fédéral d'intervenir directement sans conventions financières complexes et contestées juridiquement. Alors que le pays fait face à un retard critique dans la numérisation et à une dégradation de ses résultats scolaires aux classements internationaux, l'incapacité à dépenser l'argent public disponible menace la compétitivité future du modèle économique. De plus, les communes les plus pauvres, qui ont le plus grand besoin de rénovation, sont paradoxalement les moins capables de monter des dossiers de subventions sophistiqués, ce qui creuse les **inégalités territoriales**. Ce dossier démontre que voter des budgets exceptionnels ne sert à rien si l'appareil administratif n'a pas la capacité technique de transformer les crédits en chantiers réels.",
+      "titre": "Milliarden für Schulen : Streit um das Startchancen-Programm in Berlin",
+      "faits": "Die Bundesregierung und die sechzehn Bundesländer streiten über Milliarden für Schulen. Das geplante Startchancen-Programm soll marode Schulgebäude modernisieren und digitale Medien fördern. Doch viele Kommunen klagen über zu viel Bürokratie und fehlende Handwerker. Mehrere Milliarden Euro aus dem Bundeszuschuss liegen ungenutzt auf den Konten. Die Bundesbildungsministerin fordert eine schnellere Auszahlung der Mittel an die Schulträger.",
+      "enjeux": "Der Streit zeigt die großen Schwächen des deutschen Bildungsföderalismus. Das Grundgesetz verbietet dem Bund eigentlich die direkte Finanzierung von Schulen. Deshalb sind teure Hilfsprogramme oft sehr kompliziert aufgebaut. Der Zustand vieler Schulgebäude in Deutschland ist seit Jahren schlecht. Viele Schüler aus armen Familien haben schlechtere Chancen auf Bildung. Ohne moderne Schulen verliert Deutschland wichtige Fachkräfte für die Zukunft.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Karls-Gymnasium_Stuttgart_Schulgebaeude-Vorderansicht.jpg",
         "alt": "Bâtiment d'un établissement scolaire secondaire en Allemagne",
@@ -753,45 +809,45 @@
         "source": "https://commons.wikimedia.org/wiki/File:Karls-Gymnasium_Stuttgart_Schulgebaeude-Vorderansicht.jpg"
       },
       "vo": {
-        "titre": "Milliarden für Schulen bleiben blockiert",
-        "faits": "In Deutschland fließt das Geld für Schulen zu langsam. Aus dem Sondervermögen für Bildung ist wenig Geld geflossen. Nach einem Bericht zahlte der Staat erst 15 Prozent. Schulleiter und Bürgermeister klagen über komplizierte Anträge. Viele Schulgebäude sind alt und brauchen neue Heizungen. Auch moderne Computer fehlen in vielen Klassen. Verbände fordern jetzt schnelle Hilfe für die Schulen.",
-        "enjeux": "Dieses Problem zeigt große Schwächen in der Verwaltung. Für Schulen sind in Deutschland die Bundesländer zuständig. Jedes Programm braucht daher lange Verhandlungen. Viele arme Städte haben zu wenig Personal für Anträge. Wohlhabende Gemeinden bekommen das Geld oft viel schneller. Deutschland verliert wichtige Chancen bei der Bildung junger Menschen. Geld allein hilft nicht ohne einfache Regeln."
+        "titre": "Streit um Geld für Schulen in Deutschland",
+        "faits": "Der Bund und die Bundesländer streiten über das Geld für Schulen. Viele Schulen in Deutschland sind sehr alt und renovierungsbedürftig. Das Startchancen-Programm soll besonders benachteiligten Schulen helfen. Mehrere Milliarden Euro sind aber noch nicht bei den Schulen angekommen. Viele Kommunen klagen über zu schwere Anträge und hohe Hürden.",
+        "enjeux": "Bildung ist in Deutschland die Sache der sechzehn Bundesländer. Der Bund darf den Schulen nicht einfach direkt Geld überweisen. Das regelt das Kooperationsverbot im Grundgesetz. Daher gibt es oft langwierige Streitigkeiten zwischen Politikern. Viele Kinder aus armen Familien haben schlechte Startchancen. Deutschland braucht aber dringend gut ausgebildete junge Menschen."
       },
       "vocab": [
         [
-          "das Sondervermögen",
-          "le fonds spécial",
-          "Der Bund schuf ein Sondervermögen für Schulen."
+          "das Startchancen-Programm",
+          "le programme pour l'égalité des chances à l'école",
+          "Das Startchancen-Programm hilft Schulen in sozialen Brennpunkten."
         ],
         [
-          "die Bildungsinfrastruktur",
-          "l'infrastructure éducative",
-          "Deutschland muss mehr in Bildungsinfrastruktur investieren."
+          "der Bildungsföderalismus",
+          "le fédéralisme éducatif (compétence des Länder)",
+          "Der Bildungsföderalismus macht Schulreformen in Deutschland oft schwer."
         ],
         [
-          "die Entbürokratisierung",
-          "la débureaucratisation",
-          "Kommunen fordern eine schnelle Entbürokratisierung."
+          "marode",
+          "vétuste / délabré",
+          "Viele marode Schulgebäude brauchen dringend neue Fenster."
         ],
         [
-          "das Bauamt",
-          "le service d'urbanisme",
-          "Das städtische Bauamt hat zu viel Arbeit."
+          "die Auszahlung",
+          "le versement / le déblocage des fonds",
+          "Die Auszahlung der Gelder dauert den Kommunen zu lange."
         ],
         [
-          "der Förderantrag",
-          "la demande de subvention",
-          "Kleine Gemeinden scheitern oft an Förderanträgen."
+          "das Kooperationsverbot",
+          "l'interdiction constitutionnelle de coopération Bund-Länder",
+          "Das Kooperationsverbot begrenzt den Einfluss des Bundes auf Schulen."
         ],
         [
-          "die Zuständigkeit",
-          "la compétence juridique",
-          "Die Zuständigkeit für Schulen liegt bei den Ländern."
+          "die Fachkräfte",
+          "la main-d'œuvre qualifiée",
+          "Deutschland sucht überall gut ausgebildete Fachkräfte."
         ]
       ],
       "sujets": [
-        "Ist der Föderalismus ein Problem für moderne Schulen?",
-        "Wie kann der Staat Bürokratie bei Investitionen abbauen?"
+        "Braucht Deutschland einheitliche Regeln für alle Schulen?",
+        "Wie kann der Staat die Chancen für Kinder verbessern?"
       ]
     },
     {
@@ -800,9 +856,9 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/junge-menschen-keine-berufsausbildung-100.html",
       "minutes": 3,
-      "titre": "Crise du marché du travail en Allemagne : près de trois millions de jeunes sans formation professionnelle",
-      "faits": "Selon les statistiques officielles de l'Agence fédérale pour l'emploi (Bundesagentur für Arbeit), près de 2,9 millions de jeunes adultes âgés de 20 à 34 ans ne possèdent aucun diplôme professionnel en Allemagne. Ce niveau alarmant atteint près de 20 % de cette classe d'âge, un record historique qui inquiète profondément les chefs d'entreprise et les responsables politiques. Dans le même temps, les entreprises allemandes peinent à recruter et laissent plus de 50 000 contrats d'apprentissage vacants dans l'artisanat, la logistique, l'hôtellerie et l'industrie métallurgique. Les analystes expliquent cette rupture par des difficultés scolaires persistantes dès l'école primaire, un manque d'orientation professionnelle précoce et une désaffection marquée des jeunes pour les métiers manuels. Le ministre du Travail a annoncé de nouvelles mesures d'aide financière et des stages obligatoires pour tenter de rapprocher les jeunes décrocheurs des entreprises formatrices avant la prochaine rentrée.",
-      "enjeux": "Ce décalage grandissant entre une jeunesse non qualifiée et les besoins pressants de l'économie met en péril le fameux **système dual de formation professionnelle** (duale Ausbildung), qui a fait la force industrielle de l'Allemagne pendant des décennies. Les personnes sans qualification professionnelle courent un risque quatre fois plus élevé de basculer dans le **chômage de longue durée** et la précarité que les diplômés de l'alternance. Pour les entreprises allemandes déjà confrontées au départ en retraite imminent de la génération du baby-boom, cette perte de capital humain aggrave une **pénurie de main-d'œuvre qualifiée** (Fachkräftemangel) qui freine la production et bride la croissance économique nationale. De plus, l'intégration professionnelle des jeunes issus de l'immigration reste insuffisante faute de cours de langue adaptés et de soutien individualisé. La sauvegarde du modèle productif allemand exige une refonte globale de l'apprentissage combinant un rehaussement des exigences scolaires de base et une valorisation sociale des filières manuelles.",
+      "titre": "Fast drei Millionen junge Menschen in Deutschland ohne Berufsabschluss",
+      "faits": "In Deutschland haben fast drei Millionen Menschen zwischen zwanzig und vierunddreißig Jahren keine Ausbildung. Das zeigt ein neuer Bericht der Bundesagentur für Arbeit in Nürnberg. Die Zahl der jungen Ungelernten ist damit auf einen neuen Rekordwert gestiegen. Gleichzeitig suchen Handwerksbetriebe und Industriefirmen händeringend nach Nachwuchskräften. Arbeitsminister und Gewerkschaften schlagen Alarm und fordern neue Förderprogramme.",
+      "enjeux": "Diese Zahlen sind ein schwerer Rückschlag für das deutsche Ausbildungssystem. Das duale System aus Berufsschule und Betrieb war lange ein weltweites Vorbild. Doch immer mehr Jugendliche verlassen die Schule ohne ausreichende Grundkenntnisse. Viele Ausbildungsplätze im Handwerk und in der Gastronomie bleiben unbesetzt. Ungelernte Arbeiter sind viel häufiger von Arbeitslosigkeit und Armut bedroht. Für die Wirtschaft bedeutet dieser Trend einen wachsenden Mangel an Facharbeitern.",
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Bundesagentur_f%C3%BCr_Arbeit%2C_Zentrale.jpg/1280px-Bundesagentur_f%C3%BCr_Arbeit%2C_Zentrale.jpg",
         "alt": "Le siège fédéral de l'Agence pour l'emploi à Nuremberg en Allemagne",
@@ -810,159 +866,159 @@
         "source": "https://commons.wikimedia.org/wiki/File:Bundesagentur_f%C3%BCr_Arbeit,_Zentrale.jpg"
       },
       "vo": {
-        "titre": "Drei Millionen junge Erwachsene ohne Ausbildung",
-        "faits": "Fast 2,9 Millionen junge Erwachsene haben keine Berufsausbildung. Das zeigen aktuelle Zahlen der Bundesagentur für Arbeit. Fast jeder fünfte junge Mensch hat keinen Berufsabschluss. Gleichzeitig suchen viele Betriebe dringend nach Auszubildenden. Zehntausende Ausbildungsplätze bleiben in diesem Jahr unbesetzt. Experten sehen Probleme beim Schulabschluss als Hauptursache. Die Bundesregierung will nun mit besseren Praktika gegensteuern.",
-        "enjeux": "Diese Entwicklung bedroht das deutsche Wirtschaftsmodell. Deutschland braucht sein duales Ausbildungssystem in Betrieb und Schule. Junge Menschen ohne Ausbildung werden viel häufiger arbeitslos. Sie verdienen ihr Leben lang deutlich weniger Geld. Betrieben fehlt Personal, weil viele Ältere in Rente gehen. Der Fachkräftemangel bremst bereits das Wachstum der Industrie. Deutschland muss junge Menschen früh und gezielt fördern."
+        "titre": "Drei Millionen junge Menschen ohne Ausbildung",
+        "faits": "In Deutschland haben fast drei Millionen junge Erwachsene keinen Berufsabschluss. Das berichtet die Bundesagentur für Arbeit in Nürnberg. Die Zahl der jungen Ungelernten hat einen Höchststand erreicht. Viele Betriebe finden gleichzeitig keine passenden Bewerber für offene Lehrstellen. Gewerkschaften und Wirtschaftsverbände fordern sofortige Hilfen für die Jugend.",
+        "enjeux": "Das duale Ausbildungssystem war lange ein Erfolgsmodell in Deutschland. Es verband die praktische Arbeit im Betrieb mit der Berufsschule. Heute brechen jedoch viele Jugendliche ihre Ausbildung vorzeitig ab. Ohne Ausbildung haben junge Leute später ein hohes Risiko für Armut. Gleichzeitig fehlen deutschen Unternehmen überall gut ausgebildete Fachkräfte. Die deutsche Wirtschaft verliert dadurch viel Kraft im internationalen Wettbewerb."
       },
       "vocab": [
         [
-          "die Berufsausbildung",
-          "la formation professionnelle",
-          "Eine gute Berufsausbildung schützt vor Arbeitslosigkeit."
-        ],
-        [
-          "der Ausbildungsplatz",
-          "la place d'apprentissage",
-          "Viele Betriebe bieten freie Ausbildungsplätze an."
-        ],
-        [
-          "der Fachkräftemangel",
-          "la pénurie de main-d'œuvre qualifiée",
-          "Der Fachkräftemangel bedroht viele Firmen."
-        ],
-        [
-          "das Handwerk",
-          "l'artisanat",
-          "Im Handwerk fehlen viele junge Lehrlinge."
-        ],
-        [
           "der Berufsabschluss",
-          "la qualification professionnelle",
-          "Ohne Berufsabschluss droht oft Armut."
+          "le diplôme professionnel reconnu",
+          "Ein guter Berufsabschluss schützt vor Arbeitslosigkeit."
         ],
         [
-          "die duale Ausbildung",
-          "la formation duale",
-          "Die duale Ausbildung verbindet Schule und Betrieb."
+          "das duale System",
+          "le système de formation professionnelle en alternance",
+          "Das duale System verbindet Praxis und Theorie sehr gut."
+        ],
+        [
+          "die Lehrstelle",
+          "la place d'apprentissage",
+          "Viele kleine Firmen finden niemanden für eine freie Lehrstelle."
+        ],
+        [
+          "der Facharbeitermangel",
+          "la pénurie d'ouvriers qualifiés",
+          "Der Facharbeitermangel bremst das Wachstum der Industrie."
+        ],
+        [
+          "die Bundesagentur für Arbeit",
+          "l'Agence fédérale pour l'emploi",
+          "Die Bundesagentur für Arbeit hilft jungen Menschen bei der Berufswahl."
+        ],
+        [
+          "die Ausbildungsreife",
+          "l'aptitude à entrer en apprentissage",
+          "Manche Betriebe bezweifeln die Ausbildungsreife der Bewerber."
         ]
       ],
       "sujets": [
-        "Ist das duale Ausbildungssystem in Deutschland noch zeitgemäß?",
-        "Wie kann Deutschland junge Menschen besser qualifizieren?"
+        "Hat das duale Ausbildungssystem in Deutschland noch Zukunft?",
+        "Wie kann der Staat junge Menschen besser fördern?"
       ]
     },
     {
       "id": "2026-11-08-allemand-3",
       "matiere": "allemand",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-diskussion-wehrpflicht-100.html",
+      "source": "Der Spiegel",
+      "url": "https://www.spiegel.de/politik/deutschland/bundespraesidenten-nachfolge-omid-nouripour-kritisiert-verhalten-von-friedrich-merz-a-17a92a69-2408-4233-a873-8c443abf5d39",
       "minutes": 3,
-      "titre": "Défense et sécurité en Allemagne : le ministre Boris Pistorius temporise sur le rétablissement de la conscription",
-      "faits": "Le ministre fédéral allemand de la Défense Boris Pistorius a déclaré qu'il ne prévoyait pas pour l'instant un retour à l'ancien service militaire obligatoire (Wehrpflicht) pour tous les jeunes hommes en Allemagne. Lors d'une interview accordée aux médias publics, le ministre social-démocrate a expliqué que la Bundeswehr ne disposait pas des casernes, des instructeurs ni du matériel nécessaires pour accueillir et entraîner des dizaines de milliers de conscrits chaque année. Pistorius privilégie plutôt un modèle de service militaire sélectif et volontaire inspiré de l'exemple suédois, reposant sur un questionnaire obligatoire envoyé à tous les jeunes de 18 ans pour évaluer leurs compétences et leur motivation. Les jeunes volontaires retenus effectueraient ensuite une formation militaire de six mois avec des primes attractives. Les partis conservateurs de la CDU-CSU ont vivement critiqué cette prudence, affirmant que seule une conscription générale obligatoire permettrait de renforcer rapidement les effectifs de l'armée face à la menace russe en Europe de l'Est.",
-      "enjeux": "Ce débat récurrent sur le service militaire touche à un tabou fondamental de la **politique de sécurité allemande** depuis la fin de la Guerre froide. En 2011, l'Allemagne avait suspendu la conscription obligatoire pour transformer la Bundeswehr en une armée de métier plus compacte et projetable sur des théâtres d'opérations extérieurs comme l'Afghanistan. Cependant, la dégradation de la sécurité sur le flanc est de l'OTAN a brutalement remis au premier plan l'impératif de la **défense du territoire national et de l'Alliance**, nécessitant des réserves massives d'hommes entraînés. Rétablir un service militaire obligatoire se heurte à des obstacles logistiques et budgétaires colossaux : les infrastructures de conscription ont été presque entièrement vendues ou démantelées depuis quinze ans. Sur le plan constitutionnel et sociétal, imposer une conscription aux seuls jeunes hommes soulève également des contestations d'égalité des sexes et de liberté individuelle dans une jeunesse allemande pacifiste et rétive à l'engagement sous les drapeaux.",
+      "titre": "Bundespräsidenten-Nachfolge : Streit zwischen Grünen und Union in Berlin",
+      "faits": "In Berlin streiten die Parteien über die Nachfolge des Bundespräsidenten. Die Amtszeit von Frank-Walter Steinmeier endet im Jahr 2027 nach zehn Jahren. Der frühere Grünen-Chef Omid Nouripour kritisierte das Verhalten von CDU-Chef Friedrich Merz scharf. Die Union will einen eigenen Kandidaten für das höchste Amt im Staat nominieren. Die Parteien der Mitte suchen nach einem gemeinsamen überparteilichen Vorschlag für die Bundesversammlung.",
+      "enjeux": "Der Bundespräsident steht an der Spitze des deutschen Staates. Er hat vor allem eine repräsentative und mäßigende Funktion. Er soll über den Parteien stehen und das Volk einen. In Zeiten von politischer Polarisierung ist diese Rolle besonders wichtig. Die Bundesversammlung wählt das Staatsoberhaupt mit Vertretern des Bundestags und der Länderparlamente. Ein Streit um diesen Posten kann das Vertrauen in die Demokratie beschädigen.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Reichstag_building_Berlin_view_from_west_before_sunset.jpg/1280px-Reichstag_building_Berlin_view_from_west_before_sunset.jpg",
-        "alt": "Le palais du Reichstag à Berlin où se déroulent les débats parlementaires sur la défense",
-        "credit": "Jürgen Matern / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Reichstag_building_Berlin_view_from_west_before_sunset.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/2019-04-10_Schloss_Bellevue_by_Olaf_Kosinsky-_MG_7490.jpg/1280px-2019-04-10_Schloss_Bellevue_by_Olaf_Kosinsky-_MG_7490.jpg",
+        "alt": "Schloss Bellevue in Berlin, der Amtssitz des deutschen Bundespräsidenten",
+        "credit": "Olaf Kosinsky / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2019-04-10_Schloss_Bellevue_by_Olaf_Kosinsky-_MG_7490.jpg"
       },
       "vo": {
-        "titre": "Pistorius bremst Debatte über Wehrpflicht",
-        "faits": "Verteidigungsminister Boris Pistorius dämpft Hoffnungen auf die alte Wehrpflicht. Die Bundeswehr kann derzeit keine zehntausenden Rekruten aufnehmen. Es fehlt an Kasernen, Ausbildern und moderner Ausrüstung. Pistorius setzt stattdessen auf ein freiwilliges Modell. Junge Bürger sollen mit 18 Jahren einen Fragebogen ausfüllen. Nur motivierte Freiwillige sollen zum Dienst eingeladen werden. Die Union fordert dagegen eine schnelle Rückkehr zur Dienstpflicht.",
-        "enjeux": "Die Diskussion berührt wichtige Fragen der deutschen Sicherheit. Im Jahr 2011 wurde die Wehrpflicht in Deutschland ausgesetzt. Man wollte damals Geld sparen und eine Berufsarmee aufbauen. Nach Beginn des Ukraine-Kriegs braucht die Bundeswehr wieder mehr Personal. Die Landesverteidigung steht heute wieder im Mittelpunkt. Eine neue Wehrpflicht wäre aber sehr teuer für den Staat. Zudem ist die Akzeptanz bei jungen Menschen unsicher."
+        "titre": "Streit um das Amt des Bundespräsidenten",
+        "faits": "In Berlin gibt es Streit um die Nachfolge von Frank-Walter Steinmeier. Seine zweite Amtszeit endet im Frühjahr 2027. Grünen-Politiker werfen der CDU vor, das höchste Staatsamt parteipolitisch auszunutzen. CDU-Chef Friedrich Merz plant offenbar einen eigenen Kandidaten. Die anderen demokratischen Parteien wünschen sich eine gemeinsame Persönlichkeit.",
+        "enjeux": "Der Bundespräsident vertritt die Bundesrepublik nach innen und außen. Er gehört keiner Partei mehr an und soll die Bürger versöhnen. In Krisenzeiten prüfen viele Menschen seine Worte sehr genau. Die Bundesversammlung wählt das Staatsoberhaupt in geheimer Wahl. Eine lange Schlammschlacht schadet dem Ansehen der politischen Institutionen. Das Schloss Bellevue braucht eine Persönlichkeit mit großem Respekt."
       },
       "vocab": [
         [
-          "die Wehrpflicht",
-          "le service militaire",
-          "Die Wehrpflicht ruht seit dem Jahr 2011."
+          "das Staatsoberhaupt",
+          "le chef de l'État",
+          "Der Bundespräsident ist das Staatsoberhaupt der Bundesrepublik Deutschland."
         ],
         [
-          "die Bundeswehr",
-          "l'armée fédérale allemande",
-          "Die Bundeswehr sucht dringend neue Soldaten."
+          "die Bundesversammlung",
+          "l'Assemblée fédérale (qui élit le président)",
+          "Die Bundesversammlung wählt alle fünf Jahre den Bundespräsidenten."
         ],
         [
-          "die Kaserne",
-          "la caserne",
-          "Die Armee baut neue moderne Kasernen."
+          "die Amtszeit",
+          "le mandat / la durée des fonctions",
+          "Die zweite Amtszeit von Frank-Walter Steinmeier endet bald."
         ],
         [
-          "die Landesverteidigung",
-          "la défense du territoire",
-          "Die Landesverteidigung ist eine zentrale Aufgabe."
+          "das Schloss Bellevue",
+          "le château de Bellevue (siège de la présidence)",
+          "Der Bundespräsident empfängt Staatsgäste im Schloss Bellevue."
         ],
         [
-          "der Rekrut",
-          "la recrue",
-          "Jeder Rekrut lernt die Grundlagen der Verteidigung."
+          "überparteilich",
+          "au-dessus des partis / transpartisan",
+          "Das Amt des Präsidenten verlangt eine überparteiliche Haltung."
         ],
         [
-          "der Fragebogen",
-          "le questionnaire",
-          "Alle jungen Bürger füllen einen Fragebogen aus."
+          "die Polarisierung",
+          "la polarisation politique",
+          "Die politische Polarisierung erschwert Kompromisse zwischen Parteien."
         ]
       ],
       "sujets": [
-        "Braucht Deutschland wieder eine allgemeine Wehrpflicht?",
-        "Wie kann sich eine Demokratie heute verteidigen?"
+        "Welche Rolle spielt der Bundespräsident in einer Demokratie?",
+        "Braucht Deutschland noch ein Staatsoberhaupt ohne Macht?"
       ]
     },
     {
       "id": "2026-11-08-allemand-4",
       "matiere": "allemand",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/bahn-berlin-hannover-bauarbeiten-pendler-100.html",
+      "source": "Frankfurter Allgemeine Zeitung",
+      "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiche-verschaerft-kriterien-fuer-gaskraftwerk-ausschreibung-accg-201663255.html",
       "minutes": 3,
-      "titre": "Infrastructures ferroviaires en Allemagne : chaos et retards massifs pour les usagers sur l'axe Berlin-Hanovre",
-      "faits": "D'importants travaux de rénovation et de modernisation sur la ligne ferroviaire à grande vitesse reliant Berlin à Hanovre provoquent de graves perturbations pour des dizaines de milliers de navetteurs et de voyageurs. La Deutsche Bahn a entrepris le remplacement complet de rails vétustes, d'aiguillages et de câbles de signalisation sur cet axe vital traversant le nord de l'Allemagne d'est en ouest. En conséquence, les trains à grande vitesse ICE doivent être déviés par des lignes régionales secondaires plus lentes, allongeant le temps de trajet de près d'une heure entre la capitale fédérale et la Rhénanie. De nombreux trains régionaux du quotidien ont été purement et simplement annulés et remplacés par des autocars de substitution lents et bondés. Les associations d'usagers dénoncent une communication défaillante de la compagnie publique et l'incapacité de l'entreprise ferroviaire à coordonner ses chantiers sans paralyser la mobilité quotidienne des travailleurs.",
-      "enjeux": "Ce chaos ferroviaire symbolise l'état de dégradation avancé des **infrastructures de transport allemandes** après des décennies de sous-investissement public chronique. Alors que le gouvernement fédéral allemand a érigé le transfert modal de la route vers le rail en priorité écologique absolue, la ponctualité des trains de grandes lignes de la Deutsche Bahn est tombée à moins de 60 % ces derniers mois. Le réseau ferroviaire national souffre d'un arriéré de rénovation colossal évalué à plus de 45 milliards d'euros, contraignant la compagnie à multiplier les chantiers d'urgence simultanés qui désorganisent l'ensemble du trafic. Cette baisse de fiabilité décourage les automobilistes de prendre le train et nuit à la productivité des entreprises en bloquant les salariés dans les transports. La modernisation du réseau exige non seulement des investissements financiers massifs, mais aussi une profonde réforme de l'organisation managériale de la Deutsche Bahn pour restaurer la confiance des usagers.",
+      "titre": "Energiewende : Schärfere Regeln für neue Gaskraftwerke in Deutschland",
+      "faits": "Die Bundesregierung verschärft die Kriterien für den Bau neuer Gaskraftwerke. Das kündigte die zuständige Energieexpertin Katherina Reiche in Berlin an. Die neuen Kraftwerke sollen Strom liefern, wenn Wind und Sonne fehlen. Diese Wetterlagen ohne erneuerbaren Strom nennen Fachleute Dunkelflauten. Die Kraftwerke müssen später ohne teuren Umbau mit grünem Wasserstoff laufen können. Die Energiebranche fordert verlässliche finanzielle Hilfen für die hohen Investitionen.",
+      "enjeux": "Deutschland hat seine letzten Atomkraftwerke abgeschaltet und steigt aus der Kohle aus. Für die Versorgungssicherheit braucht das Land flexible Reservekraftwerke. Ohne Gaskraftwerke drohen bei Kälte und Windstille Stromabschaltungen für die Industrie. Die Betreiber zögern jedoch mit dem Bau neuer Anlagen wegen hoher Kosten. Die Regierung muss das Ziel des Klimaschutzes mit bezahlbarem Strom verbinden. Das Stromnetz steht vor einer gewaltigen technischen Bewährungsprobe.",
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg/1280px-DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg",
-        "alt": "Un train ICE de la Deutsche Bahn entrant en gare principale",
-        "credit": "FloSch / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Eon_Kraftwerk_Irsching_1.jpg/1280px-Eon_Kraftwerk_Irsching_1.jpg",
+        "alt": "Das moderne Gaskraftwerk Irsching in Bayern für die Netzstabilität",
+        "credit": "Vohburger / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eon_Kraftwerk_Irsching_1.jpg"
       },
       "vo": {
-        "titre": "Bauarbeiten zwischen Berlin und Hannover",
-        "faits": "Bauarbeiten auf der Strecke Berlin-Hannover sorgen für Verspätungen. Die Deutsche Bahn erneuert viele Schienen, Weichen und Signale. ICE-Züge müssen über langsamere Nebenstrecken fahren. Dadurch verlängert sich die Fahrzeit um eine Stunde. Viele Regionalzüge fallen aus und werden durch Busse ersetzt. Fahrgastverbände kritisieren das schlechte Krisenmanagement der Bahn. Pendler und Reisende brauchen viel Geduld.",
-        "enjeux": "Die Probleme zeigen den schlechten Zustand des Schienennetzes. Jahrelang hat Deutschland zu wenig Geld in Gleise investiert. Heute leidet die Bahn unter ständigen Baustellen und Ausfällen. Unpünktliche Züge schaden dem Klimaschutz und ärgern die Fahrgäste. Viele Menschen fahren dann lieber wieder mit dem Auto. Für die Wirtschaft ist ein zuverlässiges Schienennetz sehr wichtig. Die Reparatur der Infrastruktur wird viele Jahre dauern."
+        "titre": "Neue Regeln für moderne Gaskraftwerke",
+        "faits": "Deutschland plant neue Gaskraftwerke für die Zeit der Energiewende. Die zuständigen Experten wollen strengere Regeln für die neuen Anlagen festlegen. Diese Gaskraftwerke sollen Strom liefern, wenn kein Wind weht. Später sollen die Turbinen auch mit sauberem Wasserstoff arbeiten. Energiekonzerne fordern staatliche Zuschüsse für die Milliardeninvestitionen.",
+        "enjeux": "Deutschland braucht verlässlichen Strom für seine Industrie und Haushalte. Der Ausstieg aus der Atomkraft und der Kohle ist politisch beschlossen. Wenn die Sonne nicht scheint, springen moderne Gaskraftwerke schnell an. Diese Technik sichert die Stabilität der großen Stromnetze im Winter. Allerdings sind die Kosten für diese schnellen Reservekraftwerke sehr hoch. Die Energiewende verlangt enorme Geldsummen vom Staat und von den Bürgern."
       },
       "vocab": [
         [
-          "die Bauarbeiten",
-          "les travaux",
-          "Wegen der Bauarbeiten fahren Züge langsamer."
+          "die Dunkelflaute",
+          "le trou d'air sans vent ni soleil pour les renouvelables",
+          "Bei einer Dunkelflaute liefern Windräder und Solaranlagen kaum Strom."
         ],
         [
-          "der Pendler",
-          "le navetteur",
-          "Viele Pendler kommen morgens zu spät."
+          "die Versorgungssicherheit",
+          "la sécurité d'approvisionnement en énergie",
+          "Die Versorgungssicherheit ist für die deutsche Industrie lebenswichtig."
         ],
         [
-          "die Strecke",
-          "la ligne ferroviaire",
-          "Die wichtige Strecke ist komplett gesperrt."
+          "das Gaskraftwerk",
+          "la centrale électrique au gaz",
+          "Ein modernes Gaskraftwerk lässt sich schnell ein- und ausschalten."
         ],
         [
-          "der Schienenersatzverkehr",
-          "l'autocar de substitution",
-          "Busse fahren als Schienenersatzverkehr für Züge."
+          "der Wasserstoff",
+          "l'hydrogène (vert)",
+          "Wasserstoff soll Erdgas in der Zukunft komplett ersetzen."
         ],
         [
-          "die Umleitung",
-          "la déviation",
-          "Die Umleitung kostet Reisende viel Zeit."
+          "die Energiewende",
+          "la transition énergétique allemande",
+          "Die Energiewende verändert die deutsche Wirtschaft von Grund auf."
         ],
         [
-          "das Schienennetz",
-          "le réseau ferré",
-          "Das deutsche Schienennetz braucht dringend Sanierung."
+          "das Stromnetz",
+          "le réseau électrique",
+          "Das deutsche Stromnetz muss hohe Schwankungen ausgleichen."
         ]
       ],
       "sujets": [
-        "Warum gelingt der Ausbau der Bahn so langsam?",
-        "Wie gewinnt die Bahn das Vertrauen der Bürger?"
+        "Kann die Energiewende die Sicherheit der Industrie garantieren?",
+        "Sollte der Staat moderne Gaskraftwerke mit Steuern finanzieren?"
       ]
     }
   ],
