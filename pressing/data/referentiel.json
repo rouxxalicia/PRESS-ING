@@ -3358,6 +3358,106 @@
           ]
         }
       ]
+    },
+    {
+      "id": "incoherence-temporelle",
+      "nom": "Incohérence temporelle et crédibilité",
+      "categorie": "monnaie",
+      "type": "Théorie",
+      "annee": "1977",
+      "auteur": "Finn Kydland et Edward Prescott",
+      "accroche": "Une politique optimale annoncée aujourd'hui cesse d'être optimale demain : pour être crédible, la banque centrale doit s'attacher les mains par des règles strictes ou l'indépendance.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Finn Kydland** et **Edward Prescott**, « Rules Rather than Discretion: The Inconsistency of Optimal Plans », *Journal of Political Economy* (1977). Robert Barro et David Gordon (1983) prolongent le modèle en l'appliquant spécifiquement à la politique monétaire et à l'arbitrage inflation-chômage.",
+            "Avant eux, la théorie dominante issue de Tinbergen supposait un décideur public bienveillant ajustant discrétionnairement ses leviers au coup par coup. Kydland et Prescott démontrent que la discrétion conduit à un piège : les agents économiques anticipent que le gouvernement sera tenté de tricher pour stimuler l'activité à court terme."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Annonce initiale : La banque centrale annonce une inflation nulle pour ancrer des anticipations de salaires et de prix bas.",
+            "Tentation de tricher : Une fois les contrats salariaux fixés, l'autorité monétaire est incitée à créer une surprise inflationniste pour faire baisser le salaire réel et stimuler l'emploi temporairement.",
+            "Anticipation rationnelle : Les agents économiques anticipent ce comportement opportuniste et intègrent immédiatement une prime d'inflation dans leurs revendications.",
+            "Équilibre sous-optimal (biais inflationniste) : L'économie se retrouve avec une inflation élevée sans aucun gain durable sur le chômage, qui reste à son niveau naturel."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La théorie justifie économiquement l'**indépendance des banques centrales** vis-à-vis du pouvoir politique et l'abandon du pilotage discrétionnaire au profit de règles strictes de politique monétaire. Pour neutraliser le biais inflationniste, la société doit déléguer la politique monétaire à un banquier central « conservateur » (Kenneth Rogoff, 1985), qui déteste l'inflation plus que la moyenne des citoyens, ou l'assujettir à une règle automatique (règle de Taylor, 1993)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le modèle Barro-Gordon (1983)",
+              "d": "Formalise le jeu stratégique entre banquiers centraux et syndicats, démontrant la valeur de la réputation de l'autorité monétaire."
+            },
+            {
+              "t": "Le banquier central conservateur de Rogoff (1985)",
+              "d": "Confier la politique monétaire à un responsable plus hostile à l'inflation que la société réduit le biais sans rigidifier la réaction aux chocs."
+            },
+            {
+              "t": "La règle de Taylor (1993)",
+              "d": "Règle mécanique liant le taux directeur à l'écart d'inflation et au cycle d'activité (output gap) pour exclure l'arbitraire discrétionnaire."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "L'indépendance stricte et les règles rigides réduisent la flexibilité face aux chocs asymétriques imprévus. En période de crise systémique (2008, 2020), la stricte observance des règles peut empêcher les interventions d'urgence en tant que prêteur en dernier ressort ou l'usage d'instruments non conventionnels indispensables pour éviter la déflation."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le statut d'indépendance de la BCE (Maastricht, 1992)",
+              "d": "La Bundesbank puis la BCE ont été sanctuarisées pour bannir le financement monétaire des déficits et ancrer la stabilité des prix."
+            },
+            {
+              "t": "La désinflation Volcker (1979-1982)",
+              "d": "La Fed accepte une récession brutale pour reconstruire la crédibilité monétaire américaine après la stagflation des années 1970."
+            },
+            {
+              "t": "La succession de Christine Lagarde (2026-2027)",
+              "d": "Le débat entre partisans d'un faucon orthodoxe ou d'un profil pragmatique reflète la recherche du niveau optimal d'aversion à l'inflation."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Milton Friedman (1968)",
+              "idee": "L'inutilité de la relance monétaire à moyen terme en raison des anticipations et du taux de chômage naturel."
+            },
+            {
+              "sens": "=",
+              "nom": "Kenneth Rogoff (1985)",
+              "idee": "Déléguer la monnaie à un banquier central conservateur pour résoudre l'incohérence temporelle."
+            },
+            {
+              "sens": "≠",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "La discrétion et la gestion active de la demande sont nécessaires pour pallier l'insuffisance de la demande effective."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
