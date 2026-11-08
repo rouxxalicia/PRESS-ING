@@ -13,7 +13,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    - **espagnol** : Espagne et Amérique latine.
    - **allemand** : Allemagne (Autriche ou Suisse seulement si c'est vraiment marquant).
    **Uniquement des médias reconnus**, ceux de la liste « Sources autorisées » ci-dessous. Si tu trouves une info ailleurs, retrouve-la dans un de ces médias avant de l'utiliser ; sinon, choisis une autre actu.
-   Privilégie les sujets qui tombent au concours : institutions, politique économique, inégalités, élections, mondialisation, Europe, transition écologique. Évite les faits divers sans portée.
+   Suis la partie « Choisir les actus » ci-dessous : des sujets **utiles pour le concours**, **variés**, et **au moins 3 journaux différents par matière**.
 5. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
 6. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
 7. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
@@ -22,6 +22,25 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 10. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`. Puis lance `python3 scripts/anki_envoyer.py` : il envoie les cartes directement dans l'Anki d'Alicia (si Anki est ouvert) et synchronise AnkiWeb. S'il dit qu'Anki est fermé, continue quand même et signale-le à la fin.
 11. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
 12. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », si les cartes sont bien arrivées dans Anki, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+
+## Choisir les actus
+
+Le seul critère : **est-ce qu'Alicia pourra s'en servir** comme exemple, accroche ou argument dans une dissertation, un DS ou une khôlle ? Si la réponse est non, choisis une autre actu, même si c'est la une du jour.
+
+**Ce qui est utile :**
+- Une **décision publique** ou une réforme (budget, impôt, taux de la BCE, loi, accord commercial, réforme du travail ou des retraites…).
+- Un **débat** avec des arguments des deux côtés (protectionnisme, dette, immigration, salaire minimum, IA et emploi, transition écologique…).
+- Un **chiffre qui illustre une tendance** de fond (inégalités, chômage, inflation, démographie, productivité, désindustrialisation…), pas un chiffre isolé.
+- Une **comparaison** entre pays, ou un événement qui éclaire une notion du programme.
+- Pour les langues, ce qui tombe en civilisation et en khôlle : institutions et vie politique, élections, crises sociales, immigration, logement, inégalités, relations internationales, économie du pays.
+
+**Ce qui n'est pas utile :** l'annonce d'un produit ou la stratégie d'une entreprise sans portée générale, les faits divers, le sport, les people, la culture sans enjeu de société, les sujets trop locaux, et pour l'allemand, l'anglais ou l'espagnol, une actu qui ne concerne pas le pays (une usine Tesla au Texas n'a rien à faire en allemand).
+
+**De la variété :**
+- **Au moins 3 journaux différents par matière** : jamais plus de 2 actus du même journal dans une matière. Va chercher au-delà du premier site trouvé. Par exemple, en ESH : Les Échos, Le Monde, Alternatives économiques, La Tribune, Le Figaro, le Financial Times ; en anglais : The Guardian, BBC, FT, The Economist, NYT ; en espagnol : El País, El Mundo, La Vanguardia, elDiario.es, Clarín, BBC Mundo ; en allemand : Tagesschau, Spiegel, Zeit, FAZ, Süddeutsche, DW. Le vérificateur refuse l'édition sinon.
+- **4 thèmes différents par matière** : pas deux actus sur le même secteur ou le même événement (par exemple deux actus sur l'automobile).
+- En **espagnol**, mélange Espagne et Amérique latine. En **anglais**, mélange Royaume-Uni et États-Unis.
+- **D'un jour à l'autre**, varie aussi les journaux et les thèmes : le résumé de l'étape 1 te montre ce qui a déjà été fait.
 
 ## Sources autorisées
 

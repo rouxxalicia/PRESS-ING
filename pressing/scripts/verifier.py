@@ -115,6 +115,25 @@ for m in MATS:
 if order != sorted(order, key=lambda m: MATS.index(m) if m in MATS else 9):
     errors.append("les cartes ne sont pas dans l'ordre esh, anglais, espagnol, allemand")
 
+# Variété des journaux : au moins 3 journaux différents par matière, jamais plus de 2 du même
+from collections import Counter
+from urllib.parse import urlparse
+
+
+def journal(c):
+    h = (urlparse(str(c.get("url", ""))).hostname or "").removeprefix("www.")
+    parts = h.split(".")
+    return ".".join(parts[-3:]) if len(parts) > 2 and parts[-2] in ("co", "com") and len(parts[-1]) == 2 else ".".join(parts[-2:])
+
+
+for m in MATS:
+    cnt = Counter(journal(c) for c in cards if c.get("matiere") == m)
+    if cnt and len(cnt) < 3:
+        errors.append(f"{m} : seulement {len(cnt)} journal(aux) différent(s) ({', '.join(cnt)}) — il en faut au moins 3 sur les 4 actus")
+    for j, n in cnt.items():
+        if n > 2:
+            errors.append(f"{m} : {n} actus viennent de {j} — 2 maximum par journal, va chercher dans d'autres journaux")
+
 ids = set()
 for c in cards:
     cid = c.get("id", "?")
