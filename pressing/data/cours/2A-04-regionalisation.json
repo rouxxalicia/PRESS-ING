@@ -1,0 +1,724 @@
+{
+ "chapitre": "Régionalisation et libéralisation multilatérale",
+ "annee": "2A",
+ "module": "Module 3 – La mondialisation économique et financière",
+ "source_doc": "2- Régionalisation et libéralisation multilatérale",
+ "mots_cles_actu": [
+  "accord UE-Mercosur",
+  "accord de libre-échange",
+  "CETA",
+  "ACEUM",
+  "ALENA",
+  "RCEP",
+  "PTPGP",
+  "ASEAN",
+  "ZLECAf",
+  "Brexit",
+  "règles d'origine",
+  "nearshoring",
+  "friend shoring",
+  "MACF",
+  "taxe carbone aux frontières",
+  "IRA",
+  "zone euro",
+  "MES",
+  "union douanière",
+  "agriculteurs",
+  "OMC bloquée",
+  "fragmentation du commerce",
+  "Mexique",
+  "droits de douane Trump",
+  "Alliance des États du Sahel"
+ ],
+ "references": [
+  {
+   "auteur": "Modèle d'Uppsala (Johanson et Vahlne)",
+   "ouvrage": "",
+   "date": "1977",
+   "idee": "Les firmes s'internationalisent d'abord vers les pays proches géographiquement et culturellement.",
+   "a_quoi_ca_sert": "expliquer une régionalisation de facto sans traité",
+   "partie_lecon": "Notions préalables 1 – Régionalisation de facto",
+   "mots_cles": [
+    "régionalisation de facto",
+    "proximité",
+    "internationalisation des firmes",
+    "distance culturelle"
+   ]
+  },
+  {
+   "auteur": "CEPII",
+   "ouvrage": "La géographie du commerce mondial 1967-2011",
+   "date": "2014",
+   "idee": "La majorité des flux se fait à l'intérieur des régions ; seuls les pays les plus puissants ont des échanges vraiment mondialisés.",
+   "a_quoi_ca_sert": "montrer que la mondialisation est en réalité une régionalisation des échanges",
+   "partie_lecon": "Notions préalables 2 – Polarisation autour de la Triade",
+   "mots_cles": [
+    "Triade",
+    "polarisation",
+    "commerce intrarégional",
+    "Asie"
+   ]
+  },
+  {
+   "auteur": "Sébastien Jean",
+   "ouvrage": "« Une brève histoire de la mondialisation », L'Économie mondiale 2017",
+   "date": "2016",
+   "idee": "Plus les coûts de transport baissent, plus les autres coûts de transaction (normes, culture, formalités) pèsent : la distance compte davantage.",
+   "a_quoi_ca_sert": "expliquer la chute du commerce britannique après le Brexit malgré des droits nuls",
+   "partie_lecon": "Notions préalables 2 – Distance et frontières",
+   "mots_cles": [
+    "distance",
+    "coûts de transaction",
+    "barrières non tarifaires",
+    "Brexit"
+   ]
+  },
+  {
+   "auteur": "Jan Tinbergen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le modèle de gravité relie les échanges bilatéraux à la taille des économies et à leur distance.",
+   "a_quoi_ca_sert": "expliquer pourquoi on commerce d'abord avec ses voisins",
+   "partie_lecon": "Notions préalables 2 – Distance et frontières",
+   "mots_cles": [
+    "modèle de gravité",
+    "distance",
+    "taille des marchés",
+    "proximité"
+   ]
+  },
+  {
+   "auteur": "John McCallum",
+   "ouvrage": "National Borders Matter: Canada-U.S. Regional Trade Patterns",
+   "date": "1995",
+   "idee": "L'effet frontière : les provinces canadiennes commercent environ 20 fois plus entre elles qu'avec des États américains comparables.",
+   "a_quoi_ca_sert": "montrer qu'une frontière freine fortement les échanges même entre pays proches",
+   "partie_lecon": "Notions préalables 2 – Effet frontière",
+   "mots_cles": [
+    "effet frontière",
+    "Canada",
+    "États-Unis",
+    "barrières réglementaires"
+   ]
+  },
+  {
+   "auteur": "Bela Balassa",
+   "ouvrage": "The Theory of Economic Integration",
+   "date": "1961",
+   "idee": "L'intégration régionale progresse par étapes : zone de libre-échange, union douanière, marché commun, union économique, UEM.",
+   "a_quoi_ca_sert": "situer un accord (Mercosur, UE, ACEUM) sur l'échelle de l'intégration",
+   "partie_lecon": "Notions préalables 3 – Les étapes de l'intégration régionale",
+   "mots_cles": [
+    "étapes de l'intégration",
+    "union douanière",
+    "marché commun",
+    "UEM"
+   ]
+  },
+  {
+   "auteur": "Robert Mundell",
+   "ouvrage": "A Theory of Optimum Currency Areas",
+   "date": "1961",
+   "idee": "Une union monétaire n'est viable que si elle forme une zone monétaire optimale, notamment grâce à la mobilité du travail.",
+   "a_quoi_ca_sert": "expliquer les fragilités de la zone euro face aux chocs asymétriques",
+   "partie_lecon": "Notions préalables 3 – Zone monétaire optimale",
+   "mots_cles": [
+    "ZMO",
+    "chocs asymétriques",
+    "mobilité du travail",
+    "zone euro"
+   ]
+  },
+  {
+   "auteur": "Ronald McKinnon",
+   "ouvrage": "",
+   "date": "1963",
+   "idee": "Une forte ouverture et intégration commerciale réciproque est un critère de ZMO.",
+   "a_quoi_ca_sert": "évaluer si des pays ont intérêt à partager une monnaie",
+   "partie_lecon": "Notions préalables 3 – Zone monétaire optimale",
+   "mots_cles": [
+    "ZMO",
+    "ouverture commerciale",
+    "union monétaire",
+    "euro"
+   ]
+  },
+  {
+   "auteur": "Peter Kenen",
+   "ouvrage": "",
+   "date": "1969",
+   "idee": "Une forte diversification sectorielle dilue les chocs et est un critère de ZMO.",
+   "a_quoi_ca_sert": "expliquer pourquoi des économies spécialisées souffrent davantage d'une monnaie unique",
+   "partie_lecon": "Notions préalables 3 – Zone monétaire optimale",
+   "mots_cles": [
+    "ZMO",
+    "diversification",
+    "chocs asymétriques",
+    "zone euro"
+   ]
+  },
+  {
+   "auteur": "Friedrich List",
+   "ouvrage": "Système national d'économie politique",
+   "date": "1841",
+   "idee": "Le Zollverein applique le protectionnisme éducateur : grand marché intérieur et protection des industries naissantes face aux Britanniques.",
+   "a_quoi_ca_sert": "montrer que l'intégration commerciale peut être le socle d'une construction politique et industrielle",
+   "partie_lecon": "I.1.a – Les deux premières vagues de régionalisme",
+   "mots_cles": [
+    "Zollverein",
+    "protectionnisme éducateur",
+    "tarif extérieur commun",
+    "industries naissantes"
+   ]
+  },
+  {
+   "auteur": "OCDE",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les ACR prolifèrent à cause de la paralysie de l'OMC, de l'épuisement de l'enjeu tarifaire, des chaînes de valeur et de la peur de la marginalisation.",
+   "a_quoi_ca_sert": "expliquer pourquoi les États signent des accords bilatéraux plutôt que d'attendre l'OMC",
+   "partie_lecon": "I.3.b – Des facteurs économiques",
+   "mots_cles": [
+    "accords régionaux",
+    "paralysie de l'OMC",
+    "chaînes de valeur",
+    "marginalisation"
+   ]
+  },
+  {
+   "auteur": "OCDE",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les ACR aident à harmoniser les règles mondiales : ils reprennent les principes de l'OMC, créent des modèles transposables et dégagent des positions communes.",
+   "a_quoi_ca_sert": "défendre la complémentarité entre accords régionaux et OMC",
+   "partie_lecon": "II.2.b – Une convergence plus qu'une divergence",
+   "mots_cles": [
+    "harmonisation",
+    "clause sociale",
+    "OMC",
+    "complémentarité"
+   ]
+  },
+  {
+   "auteur": "Richard Baldwin",
+   "ouvrage": "A Domino Theory of Regionalism",
+   "date": "1993",
+   "idee": "Effet domino : les pays exclus d'un accord perdent des parts de marché et sont incités à le rejoindre ou à signer le leur ; les accords préparent le multilatéralisme.",
+   "a_quoi_ca_sert": "expliquer la contagion des accords commerciaux et leur rôle d'étape vers l'ouverture",
+   "partie_lecon": "I.3.b / II.2.b – Effet domino",
+   "mots_cles": [
+    "effet domino",
+    "accords régionaux",
+    "marginalisation",
+    "multilatéralisme"
+   ]
+  },
+  {
+   "auteur": "Richard Baldwin",
+   "ouvrage": "Towards an Integrated Europe",
+   "date": "1994",
+   "idee": "Effet juggernaut : la libéralisation régionale renforce le lobby exportateur et affaiblit les protectionnistes, ce qui la rend cumulative et irréversible.",
+   "a_quoi_ca_sert": "expliquer pourquoi l'ouverture commerciale s'auto-entretient politiquement",
+   "partie_lecon": "I.3.b – Effet juggernaut",
+   "mots_cles": [
+    "juggernaut",
+    "groupes de pression",
+    "économie politique",
+    "libéralisation"
+   ]
+  },
+  {
+   "auteur": "Richard Baldwin",
+   "ouvrage": "« 21st Century Regionalism »",
+   "date": "2011",
+   "idee": "Avec les chaînes de valeur, l'enjeu n'est plus de vendre des produits finis mais d'implanter des segments de production, d'où des accords sur douanes, investissements et propriété intellectuelle.",
+   "a_quoi_ca_sert": "expliquer des méga-accords comme le RCEP par la sécurisation des chaînes de valeur",
+   "partie_lecon": "I.3.b – L'impératif des chaînes de valeur mondiales",
+   "mots_cles": [
+    "chaînes de valeur mondiales",
+    "DIPP",
+    "intégration profonde",
+    "RCEP"
+   ]
+  },
+  {
+   "auteur": "Jacob Viner",
+   "ouvrage": "The Customs Union Issue",
+   "date": "1950",
+   "idee": "Un accord régional crée du commerce entre membres mais en détourne aussi depuis des tiers plus efficaces : son effet sur le bien-être est ambigu.",
+   "a_quoi_ca_sert": "évaluer un accord comme UE-Mercosur ou les accords avec le Maghreb",
+   "partie_lecon": "II.1.a – Création et détournement de commerce",
+   "mots_cles": [
+    "création de commerce",
+    "détournement de commerce",
+    "bien-être",
+    "union douanière"
+   ]
+  },
+  {
+   "auteur": "Banque mondiale (étude citée par Krugman et Obstfeld)",
+   "ouvrage": "",
+   "date": "1996",
+   "idee": "Le Mercosur a des effets nets négatifs : les membres achètent des biens régionaux plus chers au lieu de produits extérieurs plus compétitifs.",
+   "a_quoi_ca_sert": "illustrer concrètement le détournement de commerce",
+   "partie_lecon": "II.1.a – Création et détournement de commerce",
+   "mots_cles": [
+    "Mercosur",
+    "détournement de commerce",
+    "automobile",
+    "Brésil"
+   ]
+  },
+  {
+   "auteur": "Murray Kemp et Henry Wan",
+   "ouvrage": "An Elementary Proposition Concerning the Formation of Customs Unions",
+   "date": "1976",
+   "idee": "Il existe toujours un tarif extérieur commun qui permet à une union douanière d'enrichir ses membres sans appauvrir le reste du monde.",
+   "a_quoi_ca_sert": "montrer qu'un accord régional peut être bien calibré pour éviter le détournement",
+   "partie_lecon": "II.1.a – Conditions d'un résultat favorable",
+   "mots_cles": [
+    "tarif extérieur commun",
+    "union douanière",
+    "bien-être",
+    "pays tiers"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "The Move Toward Free Trade Zones",
+   "date": "1991",
+   "idee": "Un accord entre partenaires commerciaux naturels, qui échangeaient déjà beaucoup, crée peu de détournement de commerce.",
+   "a_quoi_ca_sert": "justifier un accord entre voisins déjà très intégrés",
+   "partie_lecon": "II.1.a – Partenaires naturels",
+   "mots_cles": [
+    "partenaires naturels",
+    "création de commerce",
+    "proximité",
+    "accords régionaux"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "The Move Toward Free Trade Zones",
+   "date": "1991",
+   "idee": "Les grands blocs régionaux peuvent entrer dans une rivalité protectionniste, un dilemme du prisonnier qui fait plus de perdants que de gagnants.",
+   "a_quoi_ca_sert": "alerter sur le risque de guerre commerciale entre blocs",
+   "partie_lecon": "II.2.c – Des risques de divergence",
+   "mots_cles": [
+    "blocs fermés",
+    "dilemme du prisonnier",
+    "guerre commerciale",
+    "PMA"
+   ]
+  },
+  {
+   "auteur": "Jeffrey Frankel",
+   "ouvrage": "Regional Trading Blocs in the World Economic System",
+   "date": "1997",
+   "idee": "Un accord entre partenaires naturels est bénéfique, mais trop de préférences rendent le bloc « supernaturel » et réduisent le bien-être.",
+   "a_quoi_ca_sert": "nuancer l'idée qu'un accord entre voisins est forcément bon",
+   "partie_lecon": "II.1.a – Blocs supernaturels",
+   "mots_cles": [
+    "blocs supernaturels",
+    "préférences",
+    "détournement de commerce",
+    "proximité"
+   ]
+  },
+  {
+   "auteur": "Scott Baier et Jeffrey Bergstrand",
+   "ouvrage": "Economic Determinants of Free Trade Agreements",
+   "date": "2004",
+   "idee": "Les pays signent des accords quand ils sont déjà de bons partenaires : la géographie des accords est endogène.",
+   "a_quoi_ca_sert": "relativiser l'effet propre d'un accord sur les échanges",
+   "partie_lecon": "II.1.a – Conditions d'un résultat favorable",
+   "mots_cles": [
+    "endogénéité",
+    "accords de libre-échange",
+    "mesure des effets",
+    "partenaires"
+   ]
+  },
+  {
+   "auteur": "Jean-Marc Siroën",
+   "ouvrage": "Les accords commerciaux régionaux",
+   "date": "2015",
+   "idee": "L'effet propre des ACR sur les échanges est positif mais faible : ils formalisent surtout des échanges existants.",
+   "a_quoi_ca_sert": "relativiser à la fois les gains attendus et les craintes de fragmentation",
+   "partie_lecon": "II.1.a – Conditions d'un résultat favorable",
+   "mots_cles": [
+    "accords régionaux",
+    "effets empiriques",
+    "fragmentation",
+    "voisins"
+   ]
+  },
+  {
+   "auteur": "Bela Balassa",
+   "ouvrage": "The Theory of Economic Integration",
+   "date": "1961",
+   "idee": "L'intégration régionale produit des gains dynamiques : économies d'échelle, concurrence, sélection des firmes, attraction des IDE.",
+   "a_quoi_ca_sert": "défendre l'approfondissement du marché unique au-delà des effets statiques",
+   "partie_lecon": "II.1.a – Effets dynamiques de l'intégration",
+   "mots_cles": [
+    "effets dynamiques",
+    "économies d'échelle",
+    "concurrence",
+    "IDE"
+   ]
+  },
+  {
+   "auteur": "Rapport Cecchini (« Le coût de la non-Europe »)",
+   "ouvrage": "",
+   "date": "1988",
+   "idee": "L'achèvement du marché unique devait ajouter 4,5 à 7 % de PIB et 2 à 5 millions d'emplois.",
+   "a_quoi_ca_sert": "chiffrer les gains attendus de l'intégration européenne",
+   "partie_lecon": "II.1.a – Effets dynamiques de l'intégration",
+   "mots_cles": [
+    "marché unique",
+    "coût de la non-Europe",
+    "croissance",
+    "économies d'échelle"
+   ]
+  },
+  {
+   "auteur": "Bela Balassa",
+   "ouvrage": "",
+   "date": "1970",
+   "idee": "La Communauté européenne crée bien plus de trafic (46,5 Mds d'ECU) qu'elle n'en détourne (1,2 Md).",
+   "a_quoi_ca_sert": "montrer empiriquement que l'intégration européenne a amélioré le bien-être",
+   "partie_lecon": "Onglet « effets union douanière » – Application",
+   "mots_cles": [
+    "création de trafic",
+    "CEE",
+    "bien-être",
+    "union douanière"
+   ]
+  },
+  {
+   "auteur": "Acharya et al.",
+   "ouvrage": "",
+   "date": "2011",
+   "idee": "Les grands ACR (ASEAN, Mercosur, ALENA, UE) créent du commerce interne mais aussi avec les pays hors zone.",
+   "a_quoi_ca_sert": "montrer qu'un accord régional ne pénalise pas forcément les pays tiers",
+   "partie_lecon": "Onglet « effets union douanière » – Application",
+   "mots_cles": [
+    "création externe de trafic",
+    "accords régionaux",
+    "pays tiers",
+    "empirique"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman et Marc Melitz",
+   "ouvrage": "",
+   "date": "1979 / 2003",
+   "idee": "L'ouverture fait sortir les firmes les moins productives et étend les plus performantes, ce qui élève la productivité de la zone.",
+   "a_quoi_ca_sert": "expliquer les gagnants et perdants d'un accord parmi les entreprises",
+   "partie_lecon": "II.1.a – Effet de sélection",
+   "mots_cles": [
+    "effet de sélection",
+    "productivité",
+    "firmes hétérogènes",
+    "variété"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "",
+   "date": "1966",
+   "idee": "Le détournement d'investissement : une intégration régionale attire les FMN dans la zone pour contourner le tarif commun, au détriment des pays tiers.",
+   "a_quoi_ca_sert": "expliquer les implantations d'usines étrangères dans un bloc pour éviter ses droits de douane",
+   "partie_lecon": "II.1.a – Détournement d'IDE et polarisation",
+   "mots_cles": [
+    "détournement d'investissement",
+    "tariff-jumping",
+    "IDE",
+    "FMN"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Nouvelle économie géographique : sans frontières intérieures, la production se concentre dans les pôles centraux au détriment des périphéries.",
+   "a_quoi_ca_sert": "expliquer les inégalités territoriales créées par un accord (Nord et Sud du Mexique)",
+   "partie_lecon": "II.1.a – Détournement d'IDE et polarisation",
+   "mots_cles": [
+    "NEG",
+    "centre-périphérie",
+    "agglomération",
+    "inégalités territoriales"
+   ]
+  },
+  {
+   "auteur": "Charles Bickerdike",
+   "ouvrage": "The Theory of Incipient Taxes",
+   "date": "1906",
+   "idee": "Un droit de douane peut accroître le bien-être d'un grand pays ou d'un bloc capable de faire baisser le prix mondial de ses importations.",
+   "a_quoi_ca_sert": "montrer qu'un grand bloc peut gagner à se fermer, aux dépens des exportateurs",
+   "partie_lecon": "II.1.b – Théorie du tarif optimal",
+   "mots_cles": [
+    "tarif optimal",
+    "termes de l'échange",
+    "grand pays",
+    "union douanière"
+   ]
+  },
+  {
+   "auteur": "J. de V. Graaff et Harry G. Johnson",
+   "ouvrage": "On Optimum Tariff Structures / Optimum Welfare and Maximum Revenue Tariffs",
+   "date": "1949-1950",
+   "idee": "Ils formalisent la théorie du tarif optimal.",
+   "a_quoi_ca_sert": "appuyer l'idée qu'un grand pays peut tirer profit d'un droit de douane",
+   "partie_lecon": "II.1.b – Théorie du tarif optimal",
+   "mots_cles": [
+    "tarif optimal",
+    "termes de l'échange",
+    "bien-être",
+    "protectionnisme"
+   ]
+  },
+  {
+   "auteur": "Gene Grossman et Alan Krueger",
+   "ouvrage": "",
+   "date": "1991",
+   "idee": "Courbe de Kuznets environnementale : la pollution augmente puis diminue avec le revenu par habitant.",
+   "a_quoi_ca_sert": "discuter les effets d'un accord commercial sur l'environnement",
+   "partie_lecon": "II.1.c – Des effets au-delà des flux commerciaux",
+   "mots_cles": [
+    "Kuznets environnementale",
+    "ALENA",
+    "pollution",
+    "effet d'échelle"
+   ]
+  },
+  {
+   "auteur": "Robert Lawrence",
+   "ouvrage": "Regionalism, Multilateralism and Deeper Integration",
+   "date": "1996",
+   "idee": "Les accords modernes passent de l'intégration superficielle (frontières) à l'intégration profonde (harmonisation des règles internes).",
+   "a_quoi_ca_sert": "analyser les accords de nouvelle génération (CETA, ACEUM) qui portent sur les normes",
+   "partie_lecon": "II.2.a – Intégration profonde et méga-accords",
+   "mots_cles": [
+    "intégration profonde",
+    "normes",
+    "harmonisation",
+    "nouveau régionalisme"
+   ]
+  },
+  {
+   "auteur": "Wilfred Ethier",
+   "ouvrage": "« The New Regionalism »",
+   "date": "1998",
+   "idee": "Le nouveau régionalisme accompagne l'ouverture et approfondit l'intégration institutionnelle au lieu de protéger du reste du monde.",
+   "a_quoi_ca_sert": "montrer que les accords régionaux actuels sont offensifs et non défensifs",
+   "partie_lecon": "II.2.a – Nouveau régionalisme",
+   "mots_cles": [
+    "nouveau régionalisme",
+    "ouverture",
+    "intégration institutionnelle",
+    "accords régionaux"
+   ]
+  },
+  {
+   "auteur": "Yann Echinard et Laëtitia Guilhot",
+   "ouvrage": "« Le “nouveau régionalisme” : de quoi parlons-nous ? »",
+   "date": "2007",
+   "idee": "Le nouveau régionalisme prolonge le multilatéralisme par des clauses OMC+ et OMC-X ou en contourne les blocages.",
+   "a_quoi_ca_sert": "classer les clauses d'un accord (environnement, travail, marchés publics)",
+   "partie_lecon": "II.2.a – Clauses OMC+ et OMC-X",
+   "mots_cles": [
+    "OMC+",
+    "OMC-X",
+    "nouveau régionalisme",
+    "clauses environnementales"
+   ]
+  },
+  {
+   "auteur": "CEPII (Bellora et Thie)",
+   "ouvrage": "",
+   "date": "2022",
+   "idee": "Presque tous les accords signés depuis 2010 contiennent des clauses environnementales.",
+   "a_quoi_ca_sert": "montrer la montée des exigences climatiques dans les accords commerciaux",
+   "partie_lecon": "II.2.a – Clauses OMC+ et OMC-X",
+   "mots_cles": [
+    "clauses environnementales",
+    "Accord de Paris",
+    "dumping écologique",
+    "accords de nouvelle génération"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "New York Times (chroniques)",
+   "date": "2014-2015",
+   "idee": "Les droits de douane étant déjà faibles, les nouveaux traités sont surtout des accords de règles favorables aux FMN, au détriment de la souveraineté des États.",
+   "a_quoi_ca_sert": "critiquer les tribunaux d'arbitrage et les méga-accords (TTIP, CETA)",
+   "partie_lecon": "II.2.a – Limites de l'intégration profonde",
+   "mots_cles": [
+    "intégration profonde",
+    "arbitrage investisseur-État",
+    "souveraineté",
+    "FMN"
+   ]
+  },
+  {
+   "auteur": "Raúl Prebisch (CEPAL)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'intégration régionale latino-américaine élargit le marché des industries naissantes et prépare l'insertion dans le marché mondial.",
+   "a_quoi_ca_sert": "montrer que la régionalisation peut être une étape de développement pour les PED",
+   "partie_lecon": "II.2.b – Une convergence plus qu'une divergence",
+   "mots_cles": [
+    "CEPAL",
+    "ALALC",
+    "industries naissantes",
+    "substitution aux importations"
+   ]
+  },
+  {
+   "auteur": "James Brander, Paul Krugman et Kelvin Lancaster",
+   "ouvrage": "",
+   "date": "1980-1983",
+   "idee": "La nouvelle théorie du commerce montre que l'élargissement des marchés procure économies d'échelle et diversité des produits.",
+   "a_quoi_ca_sert": "justifier les gains d'un grand marché régional",
+   "partie_lecon": "II.2.b – Une convergence plus qu'une divergence",
+   "mots_cles": [
+    "nouvelle théorie du commerce",
+    "économies d'échelle",
+    "différenciation",
+    "grand marché"
+   ]
+  },
+  {
+   "auteur": "Jean-Marc Siroën",
+   "ouvrage": "« La régionalisation est-elle une hérésie économique ? »",
+   "date": "1999",
+   "idee": "Le cadre régional permet de produire des règles et biens publics communs entre pays aux préférences proches, là où un accord mondial est impossible.",
+   "a_quoi_ca_sert": "justifier une action climatique régionale (marché européen du CO2) faute d'accord mondial",
+   "partie_lecon": "II.2.b – Une convergence plus qu'une divergence",
+   "mots_cles": [
+    "biens publics régionaux",
+    "préférences collectives",
+    "quotas CO2",
+    "Kyoto"
+   ]
+  },
+  {
+   "auteur": "Jean-Marc Siroën",
+   "ouvrage": "« La régionalisation est-elle une hérésie économique ? »",
+   "date": "1999",
+   "idee": "Les États se servent de la régionalisation pour protéger leur souveraineté face à un pays leader, ce qui les éloigne du multilatéralisme.",
+   "a_quoi_ca_sert": "expliquer un repli régional motivé par la peur de la domination d'une puissance",
+   "partie_lecon": "II.2.c – La souveraineté",
+   "mots_cles": [
+    "souveraineté",
+    "régionalisation",
+    "puissance dominante",
+    "divergence"
+   ]
+  },
+  {
+   "auteur": "Richard Lipsey et Kelvin Lancaster",
+   "ouvrage": "« The General Theory of Second Best »",
+   "date": "1956",
+   "idee": "Quand l'optimum est hors d'atteinte, supprimer une partie des distorsions n'améliore pas forcément le bien-être, mais l'accord régional reste une solution de second rang.",
+   "a_quoi_ca_sert": "présenter un accord régional comme la moins mauvaise option faute d'accord à l'OMC",
+   "partie_lecon": "II.2.b – Une convergence plus qu'une divergence",
+   "mots_cles": [
+    "second rang",
+    "distorsions",
+    "bien-être",
+    "accords régionaux"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman et Maurice Obstfeld",
+   "ouvrage": "Économie internationale",
+   "date": "2012",
+   "idee": "Faute de libre-échange multilatéral, les accords régionaux sont la moins mauvaise solution et servent de laboratoire aux accords mondiaux.",
+   "a_quoi_ca_sert": "défendre la complémentarité entre régionalisme et multilatéralisme",
+   "partie_lecon": "II.2.b – Une convergence plus qu'une divergence",
+   "mots_cles": [
+    "second rang",
+    "complémentarité",
+    "laboratoire",
+    "multilatéralisme"
+   ]
+  },
+  {
+   "auteur": "Jagdish Bhagwati",
+   "ouvrage": "Regionalism and Multilateralism: An Overview",
+   "date": "1993",
+   "idee": "Les accords régionaux sont des pierres d'achoppement plutôt que des pierres de construction du libre-échange mondial, et favorisent les grandes puissances.",
+   "a_quoi_ca_sert": "critiquer des accords bilatéraux où une puissance impose ses conditions (ADPIC-plus au Maroc)",
+   "partie_lecon": "II.2.c – Des risques de divergence",
+   "mots_cles": [
+    "stumbling blocks",
+    "bilatéralisme",
+    "asymétrie",
+    "fragmentation"
+   ]
+  },
+  {
+   "auteur": "Robert Zoellick",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La libéralisation compétitive multiplie les accords bilatéraux pour avancer sans attendre l'OMC.",
+   "a_quoi_ca_sert": "expliquer la stratégie américaine de contournement de l'OMC après Cancún",
+   "partie_lecon": "II.2.c – Des risques de divergence",
+   "mots_cles": [
+    "libéralisation compétitive",
+    "accords bilatéraux",
+    "États-Unis",
+    "OMC"
+   ]
+  },
+  {
+   "auteur": "Jagdish Bhagwati",
+   "ouvrage": "Éloge du libre-échange",
+   "date": "2005",
+   "idee": "La multiplication d'accords aux règles d'origine différentes alourdit les coûts de transaction : c'est le « bol de spaghetti ».",
+   "a_quoi_ca_sert": "critiquer l'enchevêtrement des accords (bol de nouilles asiatique)",
+   "partie_lecon": "II.2.c – Des risques de divergence",
+   "mots_cles": [
+    "bol de spaghetti",
+    "règles d'origine",
+    "coûts de transaction",
+    "fragmentation"
+   ]
+  },
+  {
+   "auteur": "Jean Pisani-Ferry",
+   "ouvrage": "Les nouvelles règles du jeu",
+   "date": "2024",
+   "idee": "La logique de puissance l'emporte sur la coopération : le monde se fragmente en bilatéralisme et blocs entre pays alliés.",
+   "a_quoi_ca_sert": "analyser le friend shoring, l'IRA ou le MACF comme signes de fragmentation",
+   "partie_lecon": "II.2.c – Des risques de divergence",
+   "mots_cles": [
+    "fragmentation",
+    "friend shoring",
+    "rivalité de puissance",
+    "capitalisme d'État"
+   ],
+   "a_verifier": "titre et date de l'ouvrage non vérifiés"
+  },
+  {
+   "auteur": "Peterson Institute",
+   "ouvrage": "",
+   "date": "2014",
+   "idee": "La hausse des échanges avec les États-Unis aurait rapporté au Mexique environ 170 milliards de dollars de PIB.",
+   "a_quoi_ca_sert": "chiffrer les gains de l'ALENA pour le Mexique",
+   "partie_lecon": "III.2 – L'ALENA, devenu ACEUM",
+   "mots_cles": [
+    "ALENA",
+    "Mexique",
+    "gains à l'échange",
+    "États-Unis"
+   ]
+  }
+ ],
+ "id": "2A-04-regionalisation",
+ "programme_chapitre": "3.1 – La dynamique de la mondialisation économique : régionalisation, gouvernance et régulations internationales"
+}

@@ -1,0 +1,898 @@
+{
+ "chapitre": "Monnaie, banques et financement de l'économie",
+ "annee": "1A",
+ "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+ "source_doc": "Inflation et monnaie- (1) Monnaie, banques et financement de l'économie (+ MONNAIE ET FINANCEMENT DE L'ÉCONOMIE ; Architecture Mon et banque centrale)",
+ "mots_cles_actu": [
+  "BCE",
+  "taux directeurs",
+  "taux de dépôt",
+  "Christine Lagarde",
+  "Fed",
+  "quantitative easing",
+  "politique monétaire",
+  "euro numérique",
+  "MNBC",
+  "bitcoin",
+  "cryptoactifs",
+  "stablecoins",
+  "crédit bancaire",
+  "faillite bancaire",
+  "bank run",
+  "Silicon Valley Bank",
+  "garantie des dépôts",
+  "Bâle III",
+  "shadow banking",
+  "union des marchés de capitaux",
+  "masse monétaire M3",
+  "indépendance de la banque centrale",
+  "dette souveraine",
+  "capital-risque",
+  "private equity"
+ ],
+ "references": [
+  {
+   "auteur": "André Chaîneau",
+   "ouvrage": "Qu'est-ce que la monnaie ?",
+   "date": "1993",
+   "idee": "Est monnaie tout ce qui permet de régler une créance-dette née de l'achat d'un actif non monétaire : la monnaie se définit par ce qu'elle fait, non par sa forme.",
+   "a_quoi_ca_sert": "montrer qu'un cryptoactif ou un stablecoin n'est monnaie que s'il sert réellement à éteindre des dettes",
+   "partie_lecon": "I.1.a – Définitions de base",
+   "mots_cles": [
+    "définition de la monnaie",
+    "créance-dette",
+    "approche fonctionnelle"
+   ]
+  },
+  {
+   "auteur": "John Hicks",
+   "ouvrage": "Critical Essays in Monetary Theory",
+   "date": "1967",
+   "idee": "La monnaie se distingue des autres actifs par sa liquidité absolue : elle règle toutes les transactions sans coût, sans délai ni restriction dans sa zone de paiement.",
+   "a_quoi_ca_sert": "montrer ce qui distingue la monnaie d'un actif financier ou réel (pouvoir libératoire)",
+   "partie_lecon": "I.1.a – Définitions de base",
+   "mots_cles": [
+    "liquidité",
+    "pouvoir libératoire",
+    "actifs"
+   ]
+  },
+  {
+   "auteur": "James Tobin",
+   "ouvrage": "Liquidity Preference as Behavior Towards Risk",
+   "date": "1958",
+   "idee": "Les agents détiennent de la monnaie, qui ne rapporte rien, car elle est immédiatement utilisable et sans risque de perte en capital : c'est un arbitrage rendement-risque.",
+   "a_quoi_ca_sert": "expliquer la fuite vers la liquidité ou l'épargne de précaution lors d'un krach ou d'une crise",
+   "partie_lecon": "I.1.a – Définitions de base",
+   "mots_cles": [
+    "liquidité",
+    "arbitrage rendement-risque",
+    "épargne",
+    "actifs"
+   ]
+  },
+  {
+   "auteur": "Pierre-Bruno Ruffini",
+   "ouvrage": "Les théories monétaires",
+   "date": "1996",
+   "idee": "Toute monnaie moderne est une monnaie de crédit : billet (créance sur la banque centrale) ou dépôt (créance sur la banque de second rang).",
+   "a_quoi_ca_sert": "montrer que la monnaie actuelle ne vaut que par la confiance dans les institutions qui l'émettent",
+   "partie_lecon": "I.2.b – La monnaie commerciale",
+   "mots_cles": [
+    "monnaie de crédit",
+    "confiance",
+    "monnaie centrale",
+    "monnaie commerciale"
+   ]
+  },
+  {
+   "auteur": "Richard A. Radford",
+   "ouvrage": "The Economic Organisation of a P.O.W. Camp",
+   "date": "1945",
+   "idee": "Même sans État ni banque, une monnaie-marchandise (les cigarettes des camps de prisonniers) émerge spontanément dès que les échanges se multiplient.",
+   "a_quoi_ca_sert": "illustrer l'approche fonctionnaliste : une monnaie naît des besoins de l'échange (monnaies alternatives, monnaies de crise)",
+   "partie_lecon": "I.3.a – La monnaie-marchandise",
+   "mots_cles": [
+    "monnaie-marchandise",
+    "approche fonctionnaliste",
+    "émergence spontanée"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "Les métaux précieux s'imposent comme monnaie par leur divisibilité, leur inaltérabilité et leur malléabilité ; la monnaie serait née pour remplacer le troc (« fable du troc »).",
+   "a_quoi_ca_sert": "présenter la vision fonctionnaliste classique de l'origine de la monnaie, que contestent Graeber et Marx",
+   "partie_lecon": "I.3.b – La monnaie métallique ; I.4.b – Approches sociales",
+   "mots_cles": [
+    "monnaie métallique",
+    "fable du troc",
+    "fonctionnalisme"
+   ]
+  },
+  {
+   "auteur": "Thomas Gresham",
+   "ouvrage": "",
+   "date": "XVIe siècle",
+   "idee": "La mauvaise monnaie chasse la bonne : quand deux monnaies ont un rapport légal fixe, la monnaie sous-évaluée est thésaurisée ou exportée et seule la surévaluée circule.",
+   "a_quoi_ca_sert": "analyser la coexistence de monnaies concurrentes (bimétallisme, cryptoactifs vs monnaie officielle, dollarisation)",
+   "partie_lecon": "I.3.b – La monnaie métallique et la loi de Gresham",
+   "mots_cles": [
+    "loi de Gresham",
+    "bimétallisme",
+    "thésaurisation",
+    "concurrence des monnaies"
+   ]
+  },
+  {
+   "auteur": "Aristote",
+   "ouvrage": "Éthique à Nicomaque",
+   "date": "IVe siècle av. J.-C.",
+   "idee": "La monnaie se définit par trois fonctions : unité de compte, intermédiaire des échanges et réserve de valeur.",
+   "a_quoi_ca_sert": "tester si un nouvel actif (bitcoin, euro numérique) remplit les fonctions de la monnaie",
+   "partie_lecon": "I.4.a – L'approche fonctionnaliste",
+   "mots_cles": [
+    "fonctions de la monnaie",
+    "unité de compte",
+    "réserve de valeur",
+    "intermédiaire des échanges"
+   ]
+  },
+  {
+   "auteur": "William Stanley Jevons",
+   "ouvrage": "La monnaie et le mécanisme de l'échange",
+   "date": "1875",
+   "idee": "Le troc est inefficace car il exige une double coïncidence des besoins ; la monnaie lève cette contrainte et fluidifie les marchés.",
+   "a_quoi_ca_sert": "montrer l'utilité économique de la monnaie comme intermédiaire des échanges",
+   "partie_lecon": "I.4.a – L'approche fonctionnaliste",
+   "mots_cles": [
+    "troc",
+    "double coïncidence des besoins",
+    "intermédiaire des échanges"
+   ]
+  },
+  {
+   "auteur": "Carl Menger",
+   "ouvrage": "De l'origine de la monnaie",
+   "date": "1892",
+   "idee": "La monnaie n'est pas inventée par l'État : elle émerge spontanément, le bien le plus facile à revendre devenant peu à peu accepté par tous.",
+   "a_quoi_ca_sert": "opposer une origine marchande et spontanée de la monnaie à l'approche étatique (Knapp)",
+   "partie_lecon": "I.4.a – L'approche fonctionnaliste",
+   "mots_cles": [
+    "origine de la monnaie",
+    "émergence spontanée",
+    "multiplication des échanges"
+   ]
+  },
+  {
+   "auteur": "Léon Dupriez",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La monnaie est un « droit immédiat sur les biens » (pouvoir d'achat utilisable sans troc) et un « droit différé sur les biens » (pouvoir d'achat conservé pour plus tard).",
+   "a_quoi_ca_sert": "résumer les fonctions d'intermédiaire des échanges et de réserve de valeur",
+   "partie_lecon": "I.4.a – L'approche fonctionnaliste",
+   "mots_cles": [
+    "pouvoir d'achat",
+    "réserve de valeur",
+    "fonctions de la monnaie"
+   ]
+  },
+  {
+   "auteur": "David Hume",
+   "ouvrage": "De la monnaie",
+   "date": "1752",
+   "idee": "La monnaie est l'huile qui rend le mouvement des rouages plus aisé : elle facilite les échanges sans en être l'objet, c'est un simple voile.",
+   "a_quoi_ca_sert": "illustrer la vision classique de la monnaie comme simple outil neutre",
+   "partie_lecon": "I.4.a – L'approche fonctionnaliste",
+   "mots_cles": [
+    "neutralité",
+    "voile monétaire",
+    "vision classique"
+   ]
+  },
+  {
+   "auteur": "David Hume",
+   "ouvrage": "",
+   "date": "",
+   "idee": "À terme, une hausse de la quantité de monnaie se retrouve entièrement dans les prix.",
+   "a_quoi_ca_sert": "relier création monétaire et inflation à long terme (préfiguration de la théorie quantitative)",
+   "partie_lecon": "II.1.a – La controverse Bodin-Malestroit",
+   "mots_cles": [
+    "théorie quantitative",
+    "inflation",
+    "neutralité à long terme"
+   ]
+  },
+  {
+   "auteur": "John Locke",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La quantité de monnaie et le niveau des prix varient proportionnellement.",
+   "a_quoi_ca_sert": "retracer la genèse de la théorie quantitative de la monnaie",
+   "partie_lecon": "II.1.a – La controverse Bodin-Malestroit",
+   "mots_cles": [
+    "théorie quantitative",
+    "prix",
+    "masse monétaire"
+   ]
+  },
+  {
+   "auteur": "David Graeber",
+   "ouvrage": "Dette : 5 000 ans d'histoire",
+   "date": "2011",
+   "idee": "Aucune société n'a reposé sur le troc : le crédit et la dette précèdent historiquement le marché et la monnaie frappée.",
+   "a_quoi_ca_sert": "contester la fable du troc et montrer que la monnaie est d'abord un rapport de dette (débats sur la dette)",
+   "partie_lecon": "I.4.b – Les approches sociales et institutionnalistes",
+   "mots_cles": [
+    "fable du troc",
+    "dette",
+    "anthropologie",
+    "origine de la monnaie"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Le Capital",
+   "date": "1867",
+   "idee": "La monnaie est le rapport social fondamental du capitalisme : dans le circuit A-M-A', l'argent devient capital et son accumulation, nourrie par l'exploitation du travail, devient le but du système.",
+   "a_quoi_ca_sert": "montrer que la monnaie n'est pas neutre socialement et critiquer la financiarisation ou l'accumulation pour elle-même",
+   "partie_lecon": "I.4.b – Les approches sociales et institutionnalistes",
+   "mots_cles": [
+    "capital",
+    "rapport social",
+    "exploitation",
+    "robinsonnade"
+   ]
+  },
+  {
+   "auteur": "Georg Simmel",
+   "ouvrage": "Philosophie de l'argent",
+   "date": "1900",
+   "idee": "L'argent dépersonnalise les rapports humains : il libère des dépendances personnelles mais réduit la société à un réseau de calculs quantitatifs.",
+   "a_quoi_ca_sert": "analyser les effets sociaux de la monétarisation (marchandisation, liberté individuelle)",
+   "partie_lecon": "I.4.b – Les approches sociales et institutionnalistes",
+   "mots_cles": [
+    "sociologie de l'argent",
+    "individualisme",
+    "marchandisation",
+    "lien social"
+   ]
+  },
+  {
+   "auteur": "Marcel Mauss",
+   "ouvrage": "Essai sur le don",
+   "date": "1923-1924",
+   "idee": "Dans les sociétés traditionnelles, les échanges de dons, y compris monétaires, servent d'abord à créer et hiérarchiser des liens sociaux et obligent à rendre.",
+   "a_quoi_ca_sert": "montrer que la monnaie a une fonction sociale d'ostentation et de lien, pas seulement d'achat",
+   "partie_lecon": "I.4.b – Les approches sociales et institutionnalistes",
+   "mots_cles": [
+    "don",
+    "lien social",
+    "ostentation",
+    "anthropologie"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta et André Orléan",
+   "ouvrage": "La Violence de la monnaie",
+   "date": "1982",
+   "idee": "La monnaie est l'institution qui pacifie la rivalité entre individus et fonde une communauté de paiement : elle incarne la souveraineté du groupe qui l'émet.",
+   "a_quoi_ca_sert": "montrer que la monnaie est un enjeu de souveraineté (euro, euro numérique, dollarisation, cryptoactifs)",
+   "partie_lecon": "I.4.b – Les approches sociales et institutionnalistes",
+   "mots_cles": [
+    "souveraineté monétaire",
+    "institution",
+    "communauté de paiement",
+    "lien social"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta et André Orléan (dir.)",
+   "ouvrage": "La monnaie souveraine",
+   "date": "1998",
+   "idee": "La monnaie repose sur un emboîtement de trois confiances : méthodique (routine), hiérarchique (autorité garante) et éthique (adhésion au projet politique).",
+   "a_quoi_ca_sert": "analyser une crise monétaire ou de confiance (hyperinflation, rejet d'une monnaie, défiance envers la BCE)",
+   "partie_lecon": "I.4.b – Les approches sociales et institutionnalistes",
+   "mots_cles": [
+    "confiance",
+    "crise monétaire",
+    "souveraineté",
+    "hyperinflation"
+   ]
+  },
+  {
+   "auteur": "Georg Friedrich Knapp",
+   "ouvrage": "Théorie étatique de la monnaie",
+   "date": "1905",
+   "idee": "La monnaie est une création de l'État et du droit : elle vaut parce que l'État l'impose et l'accepte en paiement des impôts (chartalisme).",
+   "a_quoi_ca_sert": "expliquer le cours légal et le cours forcé, et pourquoi une monnaie privée peine à s'imposer face à l'État",
+   "partie_lecon": "I.4.b – Les approches sociales et institutionnalistes",
+   "mots_cles": [
+    "chartalisme",
+    "État",
+    "cours légal",
+    "souveraineté"
+   ]
+  },
+  {
+   "auteur": "Jean de Malestroit",
+   "ouvrage": "Paradoxes",
+   "date": "1566",
+   "idee": "La hausse des prix du XVIe siècle est illusoire : calculés en or, les prix sont stables ; elle vient seulement des mutations monétaires.",
+   "a_quoi_ca_sert": "illustrer le premier débat sur l'origine de l'inflation (cause monétaire nominale)",
+   "partie_lecon": "II.1.a – La controverse Bodin-Malestroit",
+   "mots_cles": [
+    "mutations monétaires",
+    "inflation",
+    "prix"
+   ]
+  },
+  {
+   "auteur": "Jean Bodin",
+   "ouvrage": "Réponse aux paradoxes de Monsieur de Malestroit",
+   "date": "1568",
+   "idee": "La hausse des prix vient de l'abondance de métaux précieux venus d'Amérique : plus il y a de monnaie, plus les prix montent.",
+   "a_quoi_ca_sert": "montrer l'ancienneté du lien entre quantité de monnaie et inflation (base de la théorie quantitative)",
+   "partie_lecon": "II.1.a – La controverse Bodin-Malestroit",
+   "mots_cles": [
+    "théorie quantitative",
+    "inflation",
+    "métaux précieux"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Le haut prix des lingots, preuve de la dépréciation des billets de banque",
+   "date": "1810",
+   "idee": "La hausse du prix de l'or prouve que la Banque d'Angleterre a émis trop de billets : il faut limiter la création monétaire (bullionisme).",
+   "a_quoi_ca_sert": "montrer qu'une émission monétaire excessive déprécie la monnaie et nourrit l'inflation",
+   "partie_lecon": "II.1.b – Bullionistes et anti-bullionistes",
+   "mots_cles": [
+    "bullionisme",
+    "convertibilité",
+    "dépréciation",
+    "création monétaire"
+   ]
+  },
+  {
+   "auteur": "Anti-bullionistes",
+   "ouvrage": "",
+   "date": "début XIXe siècle",
+   "idee": "La création monétaire répond aux besoins des agents ; ce sont les déficits extérieurs qui déprécient la livre et font monter les prix.",
+   "a_quoi_ca_sert": "montrer qu'une inflation peut venir d'un déséquilibre extérieur et non d'un excès de monnaie",
+   "partie_lecon": "II.1.b – Bullionistes et anti-bullionistes",
+   "mots_cles": [
+    "déficit extérieur",
+    "dépréciation",
+    "inflation importée"
+   ]
+  },
+  {
+   "auteur": "Bullion Committee (rapport)",
+   "ouvrage": "Bullion Report",
+   "date": "1810",
+   "idee": "Le comité donne raison aux bullionistes et recommande le retour à la convertibilité de la livre en or.",
+   "a_quoi_ca_sert": "illustrer la victoire de la vision exogène et restrictive de la monnaie",
+   "partie_lecon": "II.1.b – Bullionistes et anti-bullionistes",
+   "mots_cles": [
+    "convertibilité",
+    "bullionisme",
+    "Banque d'Angleterre"
+   ]
+  },
+  {
+   "auteur": "Currency School (Ricardo, Overstone)",
+   "ouvrage": "",
+   "date": "1830-1840",
+   "idee": "Les billets doivent être intégralement couverts par l'or pour éviter surémission, inflation et paniques : la monnaie est exogène (appliqué par le Bank Charter Act de 1844).",
+   "a_quoi_ca_sert": "défendre une règle stricte de création monétaire et en montrer la limite en crise (suspensions de 1847, 1857, 1866)",
+   "partie_lecon": "II.1.c – Currency School contre Banking School",
+   "mots_cles": [
+    "monnaie exogène",
+    "couverture-or",
+    "règle monétaire",
+    "panique bancaire"
+   ]
+  },
+  {
+   "auteur": "Banking School (Tooke, Fullarton)",
+   "ouvrage": "",
+   "date": "1830-1840",
+   "idee": "L'émission doit suivre les besoins de l'activité ; grâce à la loi du reflux, la monnaie de crédit ne peut être durablement excessive : la monnaie est endogène.",
+   "a_quoi_ca_sert": "montrer que la création monétaire doit être élastique et suivre l'économie réelle",
+   "partie_lecon": "II.1.c – Currency School contre Banking School",
+   "mots_cles": [
+    "monnaie endogène",
+    "loi du reflux",
+    "escompte",
+    "élasticité"
+   ]
+  },
+  {
+   "auteur": "Thomas Tooke",
+   "ouvrage": "An Inquiry into the Currency Principle",
+   "date": "1844",
+   "idee": "La monnaie est une monnaie de crédit créée pour financer l'activité réelle : l'enjeu n'est pas sa quantité mais sa qualité, c'est-à-dire la solvabilité des emprunteurs.",
+   "a_quoi_ca_sert": "montrer que le risque vient des crédits accordés à des emprunteurs insolvables (subprimes, bulles de crédit)",
+   "partie_lecon": "II.4.a – La Banking School",
+   "mots_cles": [
+    "monnaie de crédit",
+    "loi du reflux",
+    "solvabilité",
+    "monnaie endogène"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Say",
+   "ouvrage": "Traité d'économie politique",
+   "date": "1803",
+   "idee": "Les produits s'échangent contre des produits : l'offre crée sa propre demande, il n'y a pas de crise générale de surproduction et la monnaie est neutre.",
+   "a_quoi_ca_sert": "poser la vision classique d'une monnaie simple intermédiaire, que Keynes réfute",
+   "partie_lecon": "II.2.a – La loi de Say",
+   "mots_cles": [
+    "loi des débouchés",
+    "neutralité",
+    "dichotomie",
+    "offre"
+   ]
+  },
+  {
+   "auteur": "Irving Fisher",
+   "ouvrage": "Le pouvoir d'achat de la monnaie",
+   "date": "1911",
+   "idee": "Avec l'équation MV = PT, V stable et T au plein emploi, toute hausse de la masse monétaire entraîne une hausse proportionnelle des prix sans effet réel.",
+   "a_quoi_ca_sert": "relier une hausse de la masse monétaire (QE, planche à billets) à un risque d'inflation",
+   "partie_lecon": "II.2.b – La théorie quantitative de la monnaie",
+   "mots_cles": [
+    "théorie quantitative",
+    "équation des échanges",
+    "neutralité",
+    "inflation"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "The Quantity Theory of Money: A Restatement",
+   "date": "1956",
+   "idee": "La demande de monnaie est une fonction stable du revenu permanent : un excès de création monétaire se diffuse d'actif en actif puis aux biens, avec des effets réels seulement transitoires.",
+   "a_quoi_ca_sert": "expliquer comment une création monétaire massive gonfle le prix des actifs puis des biens",
+   "partie_lecon": "II.2.c – Friedman : une neutralité seulement à long terme",
+   "mots_cles": [
+    "monétarisme",
+    "revenu permanent",
+    "demande de monnaie",
+    "prix des actifs"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "The Role of Monetary Policy",
+   "date": "1968",
+   "idee": "Une relance monétaire réduit le chômage à court terme grâce à l'illusion monétaire, mais à long terme ne produit que de l'inflation : « l'inflation est toujours et partout un phénomène monétaire ».",
+   "a_quoi_ca_sert": "critiquer une politique monétaire de relance et justifier une règle de croissance de la masse monétaire",
+   "partie_lecon": "II.2.c – Friedman : une neutralité seulement à long terme",
+   "mots_cles": [
+    "anticipations adaptatives",
+    "illusion monétaire",
+    "courbe de Phillips",
+    "chômage naturel"
+   ]
+  },
+  {
+   "auteur": "John Muth",
+   "ouvrage": "Rational Expectations and the Theory of Price Movements",
+   "date": "1961",
+   "idee": "Les agents forment des anticipations rationnelles : ils utilisent toute l'information disponible et ne se trompent pas systématiquement.",
+   "a_quoi_ca_sert": "montrer qu'une politique monétaire annoncée peut être anticipée et donc inefficace",
+   "partie_lecon": "II.2.d – La nouvelle école classique",
+   "mots_cles": [
+    "anticipations rationnelles",
+    "NEC",
+    "crédibilité"
+   ]
+  },
+  {
+   "auteur": "Nouvelle économie classique (Lucas, Sargent, Barro)",
+   "ouvrage": "",
+   "date": "années 1970",
+   "idee": "Avec des anticipations rationnelles, une relance monétaire annoncée est immédiatement intégrée dans les prix : la monnaie est neutre même à court terme.",
+   "a_quoi_ca_sert": "montrer l'inefficacité d'une politique monétaire anticipée et l'importance de la crédibilité de la banque centrale",
+   "partie_lecon": "II.2.d – La nouvelle école classique",
+   "mots_cles": [
+    "NEC",
+    "neutralité",
+    "anticipations rationnelles",
+    "crédibilité"
+   ]
+  },
+  {
+   "auteur": "Jacques Rueff",
+   "ouvrage": "Le Péché monétaire de l'Occident",
+   "date": "1971",
+   "idee": "La monnaie inconvertible permet de créer de « faux droits » qui provoquent une inflation durable et une mauvaise allocation des ressources.",
+   "a_quoi_ca_sert": "critiquer une création monétaire sans contrepartie réelle et le privilège du dollar",
+   "partie_lecon": "II.3 – Une monnaie exogène mais non neutre",
+   "mots_cles": [
+    "faux droits",
+    "étalon-or",
+    "inflation",
+    "dollar"
+   ]
+  },
+  {
+   "auteur": "Friedrich Hayek",
+   "ouvrage": "Monetary Theory and the Trade Cycle ; Prix et production",
+   "date": "1929 ; 1931",
+   "idee": "Les crises résultent d'une création monétaire excessive qui baisse artificiellement les taux sous leur niveau naturel et provoque des malinvestissements, ensuite liquidés.",
+   "a_quoi_ca_sert": "montrer que des taux trop bas trop longtemps nourrissent bulles et crises (critique des taux zéro et du QE)",
+   "partie_lecon": "II.3 – Une monnaie exogène mais non neutre",
+   "mots_cles": [
+    "théorie autrichienne du cycle",
+    "malinvestissement",
+    "taux d'intérêt naturel",
+    "bulles"
+   ]
+  },
+  {
+   "auteur": "Friedrich Hayek",
+   "ouvrage": "Prix et production",
+   "date": "1931",
+   "idee": "L'investissement doit être financé par une épargne réelle préalable et non par de la monnaie créée.",
+   "a_quoi_ca_sert": "défendre le financement par l'épargne et les marchés plutôt que par le crédit",
+   "partie_lecon": "IV.2 – Épargne préalable ou crédit ?",
+   "mots_cles": [
+    "épargne préalable",
+    "financement non monétaire",
+    "investissement"
+   ]
+  },
+  {
+   "auteur": "Friedrich Hayek",
+   "ouvrage": "Pour une vraie concurrence des monnaies",
+   "date": "1976",
+   "idee": "En retirant à l'État le monopole de la monnaie, la concurrence entre monnaies privées ferait émerger une monnaie stable.",
+   "a_quoi_ca_sert": "éclairer les arguments des partisans des cryptoactifs et des stablecoins contre les banques centrales",
+   "partie_lecon": "III.3.d – Le débat sur la banque libre",
+   "mots_cles": [
+    "concurrence des monnaies",
+    "free banking",
+    "cryptoactifs",
+    "monopole d'émission"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "La monnaie peut être demandée pour elle-même (préférence pour la liquidité) : elle fixe le taux d'intérêt, qui commande l'investissement et l'emploi ; la monnaie n'est pas neutre, et en trappe à liquidité la politique monétaire devient impuissante.",
+   "a_quoi_ca_sert": "justifier une politique monétaire active et expliquer son impuissance à taux zéro (Japon, zone euro des années 2010)",
+   "partie_lecon": "II.4.b – Keynes : la monnaie demandée pour elle-même",
+   "mots_cles": [
+    "préférence pour la liquidité",
+    "trappe à liquidité",
+    "monnaie active",
+    "taux d'intérêt"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "L'investissement n'a pas besoin d'attendre l'épargne : financé par le crédit, il crée lui-même l'épargne qui l'équilibre a posteriori.",
+   "a_quoi_ca_sert": "montrer que le crédit bancaire est le moteur de l'accumulation en sous-emploi",
+   "partie_lecon": "IV.2 – Épargne préalable ou crédit ?",
+   "mots_cles": [
+    "financement monétaire",
+    "investissement",
+    "épargne",
+    "crédit"
+   ]
+  },
+  {
+   "auteur": "Roy Harrod et Evsey Domar",
+   "ouvrage": "",
+   "date": "1939-1946",
+   "idee": "Une croissance équilibrée exige que l'investissement, qui crée à la fois revenus et capacités de production, progresse au bon rythme.",
+   "a_quoi_ca_sert": "relier financement de l'investissement et stabilité de la croissance",
+   "partie_lecon": "IV.2 – Épargne préalable ou crédit ?",
+   "mots_cles": [
+    "croissance",
+    "investissement",
+    "modèle Harrod-Domar"
+   ]
+  },
+  {
+   "auteur": "Irving Fisher",
+   "ouvrage": "The Debt-Deflation Theory of Great Depressions",
+   "date": "1933",
+   "idee": "Après un excès d'endettement, le désendettement simultané fait baisser les prix, ce qui alourdit le poids réel des dettes : plus les débiteurs remboursent, plus ils doivent.",
+   "a_quoi_ca_sert": "montrer qu'une crise de dette peut se transformer en dépression déflationniste (1929, 2008, Japon)",
+   "partie_lecon": "II.4.c – Fisher : la déflation par la dette",
+   "mots_cles": [
+    "déflation par la dette",
+    "endettement",
+    "fire sales",
+    "dépression"
+   ]
+  },
+  {
+   "auteur": "Nouvelle économie keynésienne",
+   "ouvrage": "",
+   "date": "années 1980",
+   "idee": "Même avec des anticipations rationnelles, la rigidité des prix et des salaires rend la politique monétaire efficace à court terme.",
+   "a_quoi_ca_sert": "justifier l'action de court terme des banques centrales face à un choc",
+   "partie_lecon": "II.4.d – La nouvelle économie keynésienne",
+   "mots_cles": [
+    "rigidités",
+    "NEK",
+    "politique monétaire",
+    "court terme"
+   ]
+  },
+  {
+   "auteur": "Hartley Withers",
+   "ouvrage": "The Meaning of Money",
+   "date": "1909",
+   "idee": "Ce sont les crédits qui font les dépôts : en prêtant, la banque crée de la monnaie ex nihilo par une écriture comptable.",
+   "a_quoi_ca_sert": "expliquer que la masse monétaire dépend du crédit bancaire (hausse ou baisse des crédits accordés)",
+   "partie_lecon": "III.1.a – Les crédits font les dépôts",
+   "mots_cles": [
+    "création monétaire",
+    "crédit",
+    "monnaie endogène",
+    "ex nihilo"
+   ]
+  },
+  {
+   "auteur": "Modèle du multiplicateur de crédit",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La banque centrale fixe la base monétaire et la masse monétaire en est un multiple : M = H × 1/[r + b(1 – r)] ; « les dépôts font les crédits ».",
+   "a_quoi_ca_sert": "présenter la vision exogène où la banque centrale contrôle la quantité de monnaie",
+   "partie_lecon": "III.1.d – Multiplicateur ou diviseur de crédit ?",
+   "mots_cles": [
+    "multiplicateur de crédit",
+    "base monétaire",
+    "monnaie exogène",
+    "réserves obligatoires"
+   ]
+  },
+  {
+   "auteur": "Modèle du diviseur de crédit",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les banques prêtent d'abord puis se procurent la monnaie centrale : H = M × [r + b(1 – r)] ; la banque centrale ne contrôle que le prix de la monnaie (taux directeurs).",
+   "a_quoi_ca_sert": "montrer pourquoi la BCE agit par les taux et non par la quantité de monnaie",
+   "partie_lecon": "III.1.d – Multiplicateur ou diviseur de crédit ?",
+   "mots_cles": [
+    "diviseur de crédit",
+    "taux directeurs",
+    "monnaie endogène",
+    "libéralisation financière"
+   ]
+  },
+  {
+   "auteur": "Douglas Diamond et Philip Dybvig",
+   "ouvrage": "Bank Runs, Deposit Insurance, and Liquidity",
+   "date": "1983",
+   "idee": "Une banque solvable peut faire faillite par simple panique ; une garantie publique des dépôts supprime l'intérêt de retirer ses fonds, donc la panique.",
+   "a_quoi_ca_sert": "analyser une panique bancaire (Silicon Valley Bank 2023) et justifier la garantie des dépôts",
+   "partie_lecon": "III.2 – Pourquoi des banques ?",
+   "mots_cles": [
+    "bank run",
+    "garantie des dépôts",
+    "prophétie autoréalisatrice",
+    "liquidité"
+   ]
+  },
+  {
+   "auteur": "Douglas Diamond",
+   "ouvrage": "Financial Intermediation and Delegated Monitoring",
+   "date": "1984",
+   "idee": "Les banques existent car elles surveillent les emprunteurs pour le compte des épargnants, à moindre coût : elles sont des contrôleurs par délégation.",
+   "a_quoi_ca_sert": "justifier le rôle des banques face aux marchés, notamment pour financer les PME",
+   "partie_lecon": "III.2 – Pourquoi des banques ?",
+   "mots_cles": [
+    "intermédiation",
+    "asymétrie d'information",
+    "surveillance déléguée",
+    "PME"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz et Andrew Weiss",
+   "ouvrage": "Credit Rationing in Markets with Imperfect Information",
+   "date": "1981",
+   "idee": "Face aux asymétries d'information, les banques ne relèvent pas indéfiniment leurs taux (sélection adverse, aléa moral) : elles rationnent le crédit.",
+   "a_quoi_ca_sert": "expliquer les difficultés d'accès au crédit des PME et start-up, surtout quand les taux montent",
+   "partie_lecon": "III.2 – Pourquoi des banques ?",
+   "mots_cles": [
+    "rationnement du crédit",
+    "sélection adverse",
+    "aléa moral",
+    "PME"
+   ]
+  },
+  {
+   "auteur": "Walter Bagehot",
+   "ouvrage": "Lombard Street",
+   "date": "1873",
+   "idee": "En cas de panique, la banque centrale doit prêter sans limite aux banques solvables, à un taux pénalisant et contre de bonnes garanties ; cette fonction crée un aléa moral.",
+   "a_quoi_ca_sert": "analyser les interventions de la BCE ou de la Fed en crise bancaire et le risque du « too big to fail »",
+   "partie_lecon": "III.3.a – La banque centrale (prêteur en dernier ressort)",
+   "mots_cles": [
+    "prêteur en dernier ressort",
+    "aléa moral",
+    "too big to fail",
+    "crise bancaire"
+   ]
+  },
+  {
+   "auteur": "Mario Draghi",
+   "ouvrage": "",
+   "date": "2012",
+   "idee": "En déclarant le 26 juillet 2012 que la BCE fera « tout ce qui est nécessaire » pour sauver l'euro, il fait reculer les taux par la seule crédibilité de la banque centrale.",
+   "a_quoi_ca_sert": "montrer le pouvoir de la communication et de la crédibilité d'une banque centrale face aux marchés",
+   "partie_lecon": "III.3.a – Les politiques non conventionnelles",
+   "mots_cles": [
+    "crise des dettes souveraines",
+    "BCE",
+    "crédibilité",
+    "QE"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus et Marie-Paule Virard",
+   "ouvrage": "La folie des banques centrales",
+   "date": "2016",
+   "idee": "Devenues seules actrices de la politique économique, les banques centrales ont injecté des liquidités massives qui nourrissent les bulles financières plus que la croissance.",
+   "a_quoi_ca_sert": "nuancer l'efficacité du QE et critiquer un policy mix européen déséquilibré",
+   "partie_lecon": "III.3.a – Les politiques non conventionnelles",
+   "mots_cles": [
+    "QE",
+    "bulles financières",
+    "policy mix",
+    "austérité"
+   ]
+  },
+  {
+   "auteur": "Finn Kydland et Edward Prescott",
+   "ouvrage": "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+   "date": "1977",
+   "idee": "Un gouvernement qui contrôle la monnaie est tenté de relancer avant les élections ; anticipé, cela crée de l'inflation sans gain d'emploi : il faut une banque centrale indépendante tenue par une règle.",
+   "a_quoi_ca_sert": "défendre l'indépendance de la banque centrale face aux pressions politiques (ex. pressions sur la Fed)",
+   "partie_lecon": "III.3.a – Une banque centrale autonome",
+   "mots_cles": [
+    "incohérence temporelle",
+    "indépendance",
+    "crédibilité",
+    "règle"
+   ]
+  },
+  {
+   "auteur": "Alberto Alesina et Lawrence Summers",
+   "ouvrage": "",
+   "date": "1993",
+   "idee": "Les pays dont la banque centrale est la plus indépendante ont en moyenne l'inflation la plus faible, sans croissance plus faible.",
+   "a_quoi_ca_sert": "appuyer empiriquement l'indépendance des banques centrales",
+   "partie_lecon": "III.3.a – Une banque centrale autonome",
+   "mots_cles": [
+    "indépendance",
+    "inflation",
+    "étude empirique"
+   ]
+  },
+  {
+   "auteur": "Bertrand Blancheton",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Mieux vaut parler d'autonomie que d'indépendance : institutionnelle (règles juridiques) et opérationnelle (choix des instruments), le politique fixant les objectifs.",
+   "a_quoi_ca_sert": "nuancer l'indépendance de la BCE et discuter ses limites (policy mix, déficit démocratique)",
+   "partie_lecon": "III.3.a – Une banque centrale autonome",
+   "mots_cles": [
+    "autonomie",
+    "banque centrale",
+    "déficit démocratique",
+    "policy mix"
+   ]
+  },
+  {
+   "auteur": "Dominique Plihon",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les banques connaissent une « marchéisation » : leurs revenus dépendent de plus en plus des marchés financiers.",
+   "a_quoi_ca_sert": "montrer la transformation du métier bancaire et la montée du risque de marché",
+   "partie_lecon": "III.3.c – Banques d'affaires et banques universelles",
+   "mots_cles": [
+    "marchéisation",
+    "banque universelle",
+    "financiarisation"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "Making Banking Boring",
+   "date": "2009",
+   "idee": "La banque d'après-guerre, réglementée et « ennuyeuse », était plus sûre : la déréglementation a mêlé dépôts stables et activités de marché risquées.",
+   "a_quoi_ca_sert": "plaider pour la séparation bancaire et une régulation forte après une crise",
+   "partie_lecon": "III.3.c – Banques d'affaires et banques universelles",
+   "mots_cles": [
+    "régulation bancaire",
+    "Glass-Steagall",
+    "banque universelle",
+    "risque systémique"
+   ]
+  },
+  {
+   "auteur": "George Selgin",
+   "ouvrage": "The Theory of Free Banking",
+   "date": "1988",
+   "idee": "Un système sans banque centrale, où les banques émettent librement leur monnaie, serait plus stable car il supprimerait l'aléa moral.",
+   "a_quoi_ca_sert": "présenter la critique libérale de la banque centrale et du prêteur en dernier ressort",
+   "partie_lecon": "III.3.d – Le débat sur la banque libre",
+   "mots_cles": [
+    "free banking",
+    "aléa moral",
+    "monopole d'émission"
+   ]
+  },
+  {
+   "auteur": "John Hicks",
+   "ouvrage": "The Crisis in Keynesian Economics",
+   "date": "1974",
+   "idee": "On distingue l'économie d'endettement, financée par le crédit bancaire, et l'économie de marchés de capitaux, financée par l'émission de titres.",
+   "a_quoi_ca_sert": "comparer le financement européen (bancaire) et américain (marchés)",
+   "partie_lecon": "IV.3.b – Économie d'endettement et économie de marchés de capitaux",
+   "mots_cles": [
+    "économie d'endettement",
+    "économie de marchés",
+    "finance intermédiée",
+    "finance directe"
+   ]
+  },
+  {
+   "auteur": "Henri Bourguinat",
+   "ouvrage": "Les Vertiges de la finance internationale",
+   "date": "1987",
+   "idee": "À partir des années 1980, la libéralisation financière (déréglementation, décloisonnement, désintermédiation : les « 3D ») fait passer à une économie de marchés de capitaux.",
+   "a_quoi_ca_sert": "expliquer la globalisation financière et ses risques",
+   "partie_lecon": "IV.3.c – La mutation des années 1980 : les « 3D »",
+   "mots_cles": [
+    "3D",
+    "libéralisation financière",
+    "désintermédiation",
+    "globalisation financière"
+   ]
+  },
+  {
+   "auteur": "McKinsey Global Institute (étude)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La valeur des actifs financiers mondiaux passe de 109 % du PIB mondial en 1980 à environ 350 % en 2007.",
+   "a_quoi_ca_sert": "chiffrer le poids pris par la finance de marché par rapport à la production",
+   "partie_lecon": "IV.3.c – La mutation des années 1980",
+   "mots_cles": [
+    "globalisation financière",
+    "financiarisation",
+    "actifs financiers"
+   ]
+  },
+  {
+   "auteur": "Comité de Bâle (accords de Bâle III)",
+   "ouvrage": "",
+   "date": "après 2008",
+   "idee": "Les banques doivent détenir plus de fonds propres de meilleure qualité (CET1 ≥ 4,5 %) et respecter des ratios de liquidité ; cela pousse une partie du risque vers le shadow banking.",
+   "a_quoi_ca_sert": "analyser la régulation bancaire post-2008 et le déplacement du risque hors des banques",
+   "partie_lecon": "IV.4 – La régulation après 2008",
+   "mots_cles": [
+    "régulation prudentielle",
+    "fonds propres",
+    "shadow banking",
+    "risque systémique"
+   ]
+  }
+ ],
+ "id": "1A-monnaie",
+ "programme_chapitre": "1.1 – Les fondements de l'économie : la monnaie et le financement de l'économie"
+}

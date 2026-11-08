@@ -1,0 +1,955 @@
+{
+ "chapitre": "Soutenabilité de la croissance et du développement",
+ "annee": "1A",
+ "module": "Module 2 – Croissance et développement",
+ "source_doc": "SOUTENABILITÉ DE LA CROISSANCE ET DU DÉVELOPPEMENT",
+ "mots_cles_actu": [
+  "climat",
+  "GIEC",
+  "COP",
+  "taxe carbone",
+  "marché carbone",
+  "quotas d'émission",
+  "MACF",
+  "Pacte vert",
+  "voitures thermiques 2035",
+  "décroissance",
+  "croissance verte",
+  "biodiversité",
+  "énergies renouvelables",
+  "nucléaire",
+  "Mercosur",
+  "pesticides",
+  "agriculteurs en colère",
+  "Gilets jaunes",
+  "terres rares",
+  "batteries",
+  "IRA",
+  "fonds souverain",
+  "transition énergétique",
+  "devoir de vigilance",
+  "data centers et IA"
+ ],
+ "references": [
+  {
+   "auteur": "Physiocrates et Turgot",
+   "ouvrage": "",
+   "date": "1766",
+   "idee": "Formulation de la loi des rendements décroissants : chaque unité de facteur supplémentaire rapporte de moins en moins.",
+   "a_quoi_ca_sert": "expliquer pourquoi la croissance bute sur une contrainte physique (terres, ressources)",
+   "partie_lecon": "I.A – De la Genèse au rapport Meadows",
+   "mots_cles": [
+    "rendements décroissants",
+    "agriculture",
+    "ressources",
+    "classiques"
+   ],
+   "a_verifier": "date de la formulation par Turgot"
+  },
+  {
+   "auteur": "Thomas Robert Malthus",
+   "ouvrage": "Essai sur le principe de population",
+   "date": "1798",
+   "idee": "La population croît plus vite (exponentiellement) que la production agricole, ce qui mène à des crises de subsistance.",
+   "a_quoi_ca_sert": "montrer une limite démographique et naturelle à la croissance (néo-malthusianisme)",
+   "partie_lecon": "I.A – De la Genèse au rapport Meadows",
+   "mots_cles": [
+    "loi de population",
+    "subsistance",
+    "démographie",
+    "rendements décroissants"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Des principes de l'économie politique et de l'impôt",
+   "date": "1817",
+   "idee": "La mise en culture de terres de moins en moins fertiles conduit l'économie vers l'état stationnaire.",
+   "a_quoi_ca_sert": "montrer que la rareté des ressources naturelles peut stopper l'accumulation",
+   "partie_lecon": "I.A – De la Genèse au rapport Meadows",
+   "mots_cles": [
+    "état stationnaire",
+    "rente",
+    "rendements décroissants",
+    "terre"
+   ]
+  },
+  {
+   "auteur": "Paul et Anne Ehrlich",
+   "ouvrage": "La Bombe P",
+   "date": "1968",
+   "idee": "L'impact environnemental dépend de la population, de la consommation par habitant et des techniques (I = P × A × T).",
+   "a_quoi_ca_sert": "décomposer la pression écologique entre démographie, niveau de vie et technologie",
+   "partie_lecon": "I.A – Néo-malthusianisme",
+   "mots_cles": [
+    "IPAT",
+    "population",
+    "consommation",
+    "néo-malthusianisme"
+   ]
+  },
+  {
+   "auteur": "Club de Rome / Dennis et Donella Meadows, Jorgen Randers (MIT)",
+   "ouvrage": "Les Limites à la croissance (rapport Meadows)",
+   "date": "1972",
+   "idee": "Une croissance infinie est impossible dans un monde fini : sans stabilisation de la production et de la population, le système risque l'effondrement.",
+   "a_quoi_ca_sert": "fonder la critique écologique de la croissance (et rappeler qu'il a sous-estimé le progrès technique)",
+   "partie_lecon": "I.A – Rapport Meadows",
+   "mots_cles": [
+    "limites de la croissance",
+    "ressources finies",
+    "effondrement",
+    "World3",
+    "Club de Rome"
+   ]
+  },
+  {
+   "auteur": "Daniel Cohen",
+   "ouvrage": "La prospérité du vice",
+   "date": "",
+   "idee": "Le « krach écologique » : la convergence des émergents (Chine) vers le modèle occidental est incompatible avec les ressources de la planète.",
+   "a_quoi_ca_sert": "montrer que le rattrapage des émergents accroît massivement la pression sur les ressources et le climat",
+   "partie_lecon": "I.A – Cohen, le krach écologique",
+   "mots_cles": [
+    "krach écologique",
+    "Chine",
+    "ressources",
+    "anthropocène"
+   ]
+  },
+  {
+   "auteur": "Lester Brown",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le modèle de consommation occidental est inapplicable à 1,45 milliard de Chinois ; l'épuisement des nappes menace l'Inde d'une « anarchie sans nom ».",
+   "a_quoi_ca_sert": "illustrer la finitude des ressources face à la croissance chinoise et indienne",
+   "partie_lecon": "I.A – Cohen, la Chine et la finitude des ressources",
+   "mots_cles": [
+    "Chine",
+    "eau",
+    "céréales",
+    "pétrole",
+    "pic de production"
+   ]
+  },
+  {
+   "auteur": "Paul Crutzen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'anthropocène est l'époque où l'activité humaine devient la principale force de transformation irréversible de la Terre, depuis la révolution industrielle.",
+   "a_quoi_ca_sert": "nommer et dater la responsabilité humaine dans la crise écologique",
+   "partie_lecon": "I.A / II.B – La notion d'anthropocène",
+   "mots_cles": [
+    "anthropocène",
+    "révolution industrielle",
+    "charbon",
+    "CO2"
+   ]
+  },
+  {
+   "auteur": "Clive Hamilton et Jacques Grinevald",
+   "ouvrage": "",
+   "date": "2015",
+   "idee": "L'anthropocène se précipite au milieu du XXe siècle avec la « grande accélération » de tous les indicateurs.",
+   "a_quoi_ca_sert": "dater la rupture écologique aux Trente Glorieuses plutôt qu'à la révolution industrielle",
+   "partie_lecon": "II.B – La notion d'anthropocène",
+   "mots_cles": [
+    "grande accélération",
+    "anthropocène",
+    "après-guerre",
+    "GES"
+   ]
+  },
+  {
+   "auteur": "IPBES",
+   "ouvrage": "Rapport d'évaluation mondiale sur la biodiversité et les services écosystémiques",
+   "date": "2019",
+   "idee": "La biodiversité s'effondre sous l'effet direct des activités humaines, ce qui menace la croissance des pays reposant sur le secteur primaire.",
+   "a_quoi_ca_sert": "lier perte de biodiversité, croissance et pauvreté",
+   "partie_lecon": "I.A – Complément biodiversité",
+   "mots_cles": [
+    "biodiversité",
+    "extinction",
+    "services écosystémiques",
+    "agriculture intensive"
+   ]
+  },
+  {
+   "auteur": "Banque mondiale",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Sur 21 pays en développement, la dégradation de l'environnement coûte en moyenne 8 % du PIB par an.",
+   "a_quoi_ca_sert": "chiffrer le coût économique de la dégradation environnementale",
+   "partie_lecon": "I.A – Complément biodiversité",
+   "mots_cles": [
+    "coût environnemental",
+    "PIB",
+    "pays en développement",
+    "dégradation"
+   ]
+  },
+  {
+   "auteur": "Organisation internationale pour les migrations (OIM)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les événements climatiques extrêmes créent une nouvelle catégorie : les migrants environnementaux.",
+   "a_quoi_ca_sert": "relier dérèglement climatique et migrations",
+   "partie_lecon": "I.A – Cohen, autres fléaux",
+   "mots_cles": [
+    "migrants climatiques",
+    "sécheresse",
+    "montée des eaux",
+    "migrations"
+   ]
+  },
+  {
+   "auteur": "Harold Hotelling",
+   "ouvrage": "",
+   "date": "1931",
+   "idee": "Le prix d'une ressource épuisable doit croître au rythme du taux d'intérêt : l'extraction est un arbitrage intertemporel.",
+   "a_quoi_ca_sert": "expliquer la gestion et l'évolution du prix des ressources non renouvelables (pétrole, minerais)",
+   "partie_lecon": "I.B – Le capital naturel sous pression",
+   "mots_cles": [
+    "ressources non renouvelables",
+    "règle de Hotelling",
+    "taux d'actualisation",
+    "prix"
+   ]
+  },
+  {
+   "auteur": "Paul Samuelson",
+   "ouvrage": "",
+   "date": "1954",
+   "idee": "Typologie des biens selon la rivalité et l'excluabilité : un bien public pur est non rival et non excluable.",
+   "a_quoi_ca_sert": "qualifier l'environnement (bien public, bien commun) et expliquer le passager clandestin",
+   "partie_lecon": "I.B – Typologie des biens",
+   "mots_cles": [
+    "bien public",
+    "bien commun",
+    "rivalité",
+    "excluabilité"
+   ]
+  },
+  {
+   "auteur": "Garrett Hardin",
+   "ouvrage": "La tragédie des biens communs",
+   "date": "1968",
+   "idee": "Le libre accès à une ressource commune mène à sa surexploitation ; les solutions sont la privatisation ou l'étatisation.",
+   "a_quoi_ca_sert": "expliquer la surpêche, la déforestation ou le climat comme surexploitation d'un commun",
+   "partie_lecon": "I.B – La tragédie des biens communs",
+   "mots_cles": [
+    "tragédie des communs",
+    "surexploitation",
+    "droits de propriété",
+    "privatisation"
+   ]
+  },
+  {
+   "auteur": "Mancur Olson",
+   "ouvrage": "La logique de l'action collective",
+   "date": "1965",
+   "idee": "Chacun a intérêt à profiter d'un bien sans payer : le comportement de passager clandestin.",
+   "a_quoi_ca_sert": "expliquer l'insuffisance de l'effort collectif pour l'environnement ou le climat",
+   "partie_lecon": "I.B – La tragédie des biens communs",
+   "mots_cles": [
+    "passager clandestin",
+    "action collective",
+    "bien public",
+    "coopération"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La recherche de l'intérêt particulier mène à l'intérêt général, ce que la tragédie des communs contredit.",
+   "a_quoi_ca_sert": "montrer que le marché seul ne protège pas une ressource commune",
+   "partie_lecon": "I.B – La tragédie des biens communs",
+   "mots_cles": [
+    "main invisible",
+    "intérêt général",
+    "externalités",
+    "marché"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La « myopie » des capitalistes oppose profit immédiat et préservation du capital à long terme.",
+   "a_quoi_ca_sert": "montrer le conflit court terme / long terme dans l'exploitation de la nature",
+   "partie_lecon": "I.B – La tragédie des biens communs",
+   "mots_cles": [
+    "court-termisme",
+    "capitalisme",
+    "baisse tendancielle du taux de profit",
+    "capital naturel"
+   ]
+  },
+  {
+   "auteur": "Fabien Locher",
+   "ouvrage": "La tragédie des communs était un mythe",
+   "date": "2018",
+   "idee": "Hardin confond libre accès et communs, gérés depuis des siècles par des règles collectives ; ses acteurs « privés de langage » sont irréalistes.",
+   "a_quoi_ca_sert": "contester la privatisation comme seule solution et réhabiliter la gestion collective",
+   "partie_lecon": "I.B – Critique de Hardin",
+   "mots_cles": [
+    "communs",
+    "libre accès",
+    "enclosures",
+    "gestion collective"
+   ]
+  },
+  {
+   "auteur": "Elinor Ostrom",
+   "ouvrage": "La gouvernance des biens communs",
+   "date": "1990",
+   "idee": "Des communautés peuvent gérer durablement leurs ressources par des règles auto-organisées : une troisième voie entre marché et État.",
+   "a_quoi_ca_sert": "montrer qu'une gestion locale et polycentrique peut éviter la surexploitation",
+   "partie_lecon": "I.B / III.B – Gouvernance des communs",
+   "mots_cles": [
+    "communs",
+    "auto-organisation",
+    "gouvernance polycentrique",
+    "8 principes"
+   ]
+  },
+  {
+   "auteur": "Rapport Brundtland (ONU)",
+   "ouvrage": "Notre avenir à tous",
+   "date": "1987",
+   "idee": "Le développement durable répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs.",
+   "a_quoi_ca_sert": "définir le développement durable et ses trois piliers (économie, société, environnement)",
+   "partie_lecon": "I.C – La notion de développement durable",
+   "mots_cles": [
+    "développement durable",
+    "générations futures",
+    "trois piliers",
+    "ONU"
+   ]
+  },
+  {
+   "auteur": "Sommet de la Terre de Rio (ONU)",
+   "ouvrage": "",
+   "date": "1992",
+   "idee": "Médiatise le développement durable et pose les conventions sur le climat, la biodiversité et la désertification, sans sanctions réelles.",
+   "a_quoi_ca_sert": "montrer les limites d'un droit international de l'environnement déclaratif",
+   "partie_lecon": "I.C / III.C – Politiques environnementales",
+   "mots_cles": [
+    "Rio",
+    "conventions",
+    "sommets internationaux",
+    "absence de sanctions"
+   ]
+  },
+  {
+   "auteur": "Sylvie Brunel",
+   "ouvrage": "Le développement durable",
+   "date": "2012",
+   "idee": "Le développement durable est une « nouvelle religion » qui fait passer la planète avant les hommes et bloque le développement des pays pauvres ; elle défend une durabilité faible.",
+   "a_quoi_ca_sert": "critiquer les contraintes écologiques imposées au Sud par le Nord",
+   "partie_lecon": "I.C – Critique du développement durable",
+   "mots_cles": [
+    "développement durable",
+    "durabilité faible",
+    "pays pauvres",
+    "révolution doublement verte"
+   ],
+   "a_verifier": "date (première édition probablement 2004)"
+  },
+  {
+   "auteur": "GIEC",
+   "ouvrage": "",
+   "date": "1988",
+   "idee": "Synthèse des publications scientifiques : le réchauffement (environ +1 °C) est avéré et principalement dû à l'activité humaine.",
+   "a_quoi_ca_sert": "établir le consensus scientifique sur la responsabilité humaine",
+   "partie_lecon": "II.A – Réchauffement climatique et rôle du GIEC",
+   "mots_cles": [
+    "GIEC",
+    "consensus scientifique",
+    "réchauffement",
+    "CO2",
+    "effet de serre"
+   ]
+  },
+  {
+   "auteur": "GIEC",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le GIEC oriente l'action des États en insistant sur le pire scénario, mais cela mobilise surtout le Nord.",
+   "a_quoi_ca_sert": "expliquer les tensions Nord / Sud et UE / Chine / États-Unis dans les négociations",
+   "partie_lecon": "II.C – Implications du rapport du GIEC",
+   "mots_cles": [
+    "scénarios",
+    "États",
+    "négociations climatiques",
+    "Chine 2060"
+   ]
+  },
+  {
+   "auteur": "Lamarck et Darwin",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le remplacement du transformisme de Lamarck par la sélection naturelle de Darwin illustre un changement de paradigme scientifique.",
+   "a_quoi_ca_sert": "montrer qu'un consensus scientifique n'est vrai que tant qu'il n'est pas réfuté",
+   "partie_lecon": "II.A – Le consensus scientifique",
+   "mots_cles": [
+    "consensus scientifique",
+    "paradigme",
+    "réfutation",
+    "vérité scientifique"
+   ]
+  },
+  {
+   "auteur": "Richard Lindzen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Climatosceptique : le climat a toujours changé, même s'il admet le réchauffement et le rôle du CO2.",
+   "a_quoi_ca_sert": "présenter la contestation du consensus climatique",
+   "partie_lecon": "II.A – Climatoscepticisme",
+   "mots_cles": [
+    "climatoscepticisme",
+    "variations naturelles",
+    "CO2",
+    "controverse"
+   ]
+  },
+  {
+   "auteur": "Michael E. Mann (avec Raymond Bradley et Malcolm Hughes)",
+   "ouvrage": "",
+   "date": "1998",
+   "idee": "La « courbe de hockey » montre un réchauffement du XXe siècle anormal et sans précédent après un millénaire de stabilité.",
+   "a_quoi_ca_sert": "illustrer l'urgence climatique et la controverse sur sa représentation",
+   "partie_lecon": "II.A – Courbe de hockey",
+   "mots_cles": [
+    "courbe de hockey",
+    "températures",
+    "révolution industrielle",
+    "GIEC 2001"
+   ]
+  },
+  {
+   "auteur": "Nicholas Stern",
+   "ouvrage": "The Economics of Climate Change (rapport Stern)",
+   "date": "2006",
+   "idee": "L'inaction coûterait 5 à 20 % du PIB mondial contre environ 1 % pour l'action : agir tôt coûte moins cher qu'agir tard.",
+   "a_quoi_ca_sert": "justifier une action climatique immédiate et chiffrer le coût de l'inaction",
+   "partie_lecon": "II.C – Implications du rapport du GIEC",
+   "mots_cles": [
+    "coût de l'inaction",
+    "tarification du carbone",
+    "taux d'actualisation",
+    "COP"
+   ]
+  },
+  {
+   "auteur": "William Nordhaus",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Avec un taux d'actualisation plus élevé, le rapport Stern surévalue les coûts à long terme et l'urgence d'une action immédiate.",
+   "a_quoi_ca_sert": "nuancer l'urgence d'une décarbonation massive immédiate",
+   "partie_lecon": "II.C – Critiques du rapport Stern",
+   "mots_cles": [
+    "taux d'actualisation",
+    "rapport Stern",
+    "coûts-bénéfices",
+    "action graduelle"
+   ]
+  },
+  {
+   "auteur": "William Nordhaus",
+   "ouvrage": "Le Casino climatique",
+   "date": "2013",
+   "idee": "Le réchauffement est un pari risqué ; il faut une taxe carbone universelle et un « club climatique » qui sanctionne les non-membres.",
+   "a_quoi_ca_sert": "proposer une solution au passager clandestin international (taxe commune, sanctions commerciales)",
+   "partie_lecon": "III.B – Modèles intégrés et innovation",
+   "mots_cles": [
+    "club climatique",
+    "taxe carbone",
+    "modèle DICE",
+    "points de bascule"
+   ]
+  },
+  {
+   "auteur": "WWF",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'empreinte écologique mesure la surface nécessaire pour soutenir la consommation et absorber les déchets (soutenabilité forte).",
+   "a_quoi_ca_sert": "mesurer la soutenabilité autrement que par le PIB",
+   "partie_lecon": "II.C – Indicateurs de la soutenabilité",
+   "mots_cles": [
+    "empreinte écologique",
+    "indicateurs",
+    "soutenabilité forte",
+    "consommation"
+   ]
+  },
+  {
+   "auteur": "Banque mondiale",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'épargne nette ajustée retire la dépréciation du capital naturel : négative, elle signale un développement non soutenable (soutenabilité faible).",
+   "a_quoi_ca_sert": "évaluer si un pays épuise ses ressources sans réinvestir",
+   "partie_lecon": "II.C – Indicateurs de la soutenabilité",
+   "mots_cles": [
+    "épargne nette ajustée",
+    "capital naturel",
+    "soutenabilité faible",
+    "indicateurs"
+   ]
+  },
+  {
+   "auteur": "Jean Gadrey",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'Inclusive Wealth Index (PNUE, 2012) aboutit à des résultats paradoxaux, comme une Chine très soutenable malgré sa pollution.",
+   "a_quoi_ca_sert": "critiquer les indicateurs qui supposent la substituabilité des capitaux",
+   "partie_lecon": "II.C – Indicateurs de la soutenabilité",
+   "mots_cles": [
+    "IWI",
+    "indicateurs",
+    "PNUE",
+    "substituabilité"
+   ]
+  },
+  {
+   "auteur": "Robert Solow",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Soutenabilité faible : le capital naturel est substituable par d'autres capitaux (humain, physique, institutionnel).",
+   "a_quoi_ca_sert": "justifier l'exploitation des ressources si elle est compensée par l'investissement",
+   "partie_lecon": "III.A.1 – Soutenabilité faible",
+   "mots_cles": [
+    "soutenabilité faible",
+    "substituabilité",
+    "capital naturel",
+    "progrès technique"
+   ]
+  },
+  {
+   "auteur": "John M. Hartwick",
+   "ouvrage": "",
+   "date": "1977",
+   "idee": "L'épuisement d'une ressource est acceptable si la rente est réinvestie pour les générations futures.",
+   "a_quoi_ca_sert": "analyser les fonds souverains (Norvège, Golfe) et les politiques de diversification",
+   "partie_lecon": "III.A.1 – Soutenabilité faible",
+   "mots_cles": [
+    "règle de Hartwick",
+    "rente",
+    "fonds souverain",
+    "diversification"
+   ]
+  },
+  {
+   "auteur": "Gene Grossman et Alan Krueger",
+   "ouvrage": "",
+   "date": "1995",
+   "idee": "Courbe environnementale de Kuznets : la pollution augmente puis diminue au-delà d'un certain niveau de revenu.",
+   "a_quoi_ca_sert": "discuter l'idée que la croissance résoudrait d'elle-même le problème écologique (limite : pollution délocalisée)",
+   "partie_lecon": "III.A.1 – Courbe environnementale de Kuznets",
+   "mots_cles": [
+    "courbe environnementale de Kuznets",
+    "pollution",
+    "tertiarisation",
+    "délocalisation"
+   ]
+  },
+  {
+   "auteur": "Nicholas Georgescu-Roegen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Fondateur de la décroissance : le développement durable est un concept nuisible.",
+   "a_quoi_ca_sert": "fonder la soutenabilité forte et la critique de la croissance",
+   "partie_lecon": "III.A.2 – Soutenabilité forte et décroissance",
+   "mots_cles": [
+    "décroissance",
+    "soutenabilité forte",
+    "ressources",
+    "entropie"
+   ]
+  },
+  {
+   "auteur": "Serge Latouche",
+   "ouvrage": "La décroissance",
+   "date": "2019",
+   "idee": "Le développement durable est un « oxymore toxique » : il faut sortir du productivisme.",
+   "a_quoi_ca_sert": "illustrer la critique radicale de la croissance verte",
+   "partie_lecon": "III.A.2 – Soutenabilité forte et décroissance",
+   "mots_cles": [
+    "décroissance",
+    "productivisme",
+    "oxymore",
+    "objecteurs de croissance"
+   ]
+  },
+  {
+   "auteur": "Timothée Parrique",
+   "ouvrage": "Ralentir ou périr. L'économie de la décroissance",
+   "date": "2023",
+   "idee": "Un découplage total, global et permanent entre PIB et pressions environnementales est impossible : il faut une décroissance planifiée démocratiquement.",
+   "a_quoi_ca_sert": "contester la croissance verte (voiture électrique, délocalisation de la pollution)",
+   "partie_lecon": "III.A.2 – Soutenabilité forte et décroissance",
+   "mots_cles": [
+    "décroissance",
+    "découplage",
+    "croissance verte",
+    "post-croissance",
+    "PIB"
+   ]
+  },
+  {
+   "auteur": "Timothée Parrique",
+   "ouvrage": "Ralentir ou périr. L'économie de la décroissance",
+   "date": "2023",
+   "idee": "Critiqué pour sa lecture abusive du GIEC, son absence d'évaluation des risques et son recours paradoxal à la taxe carbone et aux permis.",
+   "a_quoi_ca_sert": "nuancer la décroissance : même ses partisans ont besoin des mécanismes de prix",
+   "partie_lecon": "III.A.2.c – Limites de Parrique",
+   "mots_cles": [
+    "critique de la décroissance",
+    "GIEC",
+    "taxe carbone",
+    "utopie"
+   ]
+  },
+  {
+   "auteur": "Simon Kuznets",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Créateur du PIB, il rappelait qu'il ne mesure pas le bien-être.",
+   "a_quoi_ca_sert": "relativiser le PIB comme objectif de politique économique",
+   "partie_lecon": "III.A.2 – Parrique",
+   "mots_cles": [
+    "PIB",
+    "bien-être",
+    "indicateurs",
+    "comptabilité nationale"
+   ]
+  },
+  {
+   "auteur": "Herman Daly",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Au-delà d'un seuil, la croissance devient « anti-économique » : elle détruit ses propres bases sociales et naturelles.",
+   "a_quoi_ca_sert": "montrer les limites sociales de la croissance (santé, temps libre, lien social)",
+   "partie_lecon": "III.A.2 – Soutenabilité forte et décroissance",
+   "mots_cles": [
+    "croissance anti-économique",
+    "économie féministe",
+    "sphère non marchande",
+    "bien-être"
+   ]
+  },
+  {
+   "auteur": "Kate Raworth",
+   "ouvrage": "La théorie du donut",
+   "date": "2017",
+   "idee": "L'économie doit rester dans le « donut » : au-dessus du plancher social, en dessous du plafond écologique.",
+   "a_quoi_ca_sert": "proposer un objectif de post-croissance conciliant besoins sociaux et limites planétaires",
+   "partie_lecon": "III.A.2.b – Vers la post-croissance",
+   "mots_cles": [
+    "donut",
+    "post-croissance",
+    "limites planétaires",
+    "plancher social"
+   ]
+  },
+  {
+   "auteur": "Jason Hickel",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« Heureuse coïncidence » : ce qui préserve l'environnement permet aussi de mieux vivre.",
+   "a_quoi_ca_sert": "défendre l'acceptabilité sociale de la sobriété",
+   "partie_lecon": "Annexe Parrique – Ralentir",
+   "mots_cles": [
+    "décroissance",
+    "sobriété",
+    "bien-être",
+    "temps libre"
+   ]
+  },
+  {
+   "auteur": "Christian Gollier",
+   "ouvrage": "Le climat après la fin du mois",
+   "date": "2019",
+   "idee": "Contre une décroissance brutale qui exigerait un régime autoritaire, il défend une « décroissance sélective » des seules activités destructrices.",
+   "a_quoi_ca_sert": "répondre aux décroissants en conciliant liberté, innovation et écologie",
+   "partie_lecon": "III.A.2 – Opposition de Gollier",
+   "mots_cles": [
+    "décroissance sélective",
+    "liberté",
+    "innovation bas carbone",
+    "autoritarisme"
+   ]
+  },
+  {
+   "auteur": "Christian Gollier",
+   "ouvrage": "Le climat après la fin du mois",
+   "date": "2019",
+   "idee": "Il faut faire payer le vrai prix du carbone (environ 50 € la tonne) par le principe pollueur-payeur, l'homme n'étant pas spontanément altruiste.",
+   "a_quoi_ca_sert": "défendre une taxe carbone unique et simple plutôt que des normes incohérentes",
+   "partie_lecon": "III.B – Le vrai prix du carbone",
+   "mots_cles": [
+    "prix du carbone",
+    "pollueur-payeur",
+    "signal-prix",
+    "taxe carbone"
+   ]
+  },
+  {
+   "auteur": "Christian Gollier",
+   "ouvrage": "Le climat après la fin du mois",
+   "date": "2019",
+   "idee": "« Fin du monde contre fin du mois » : la transition heureuse est une utopie ; un double dividende (compensation des ménages modestes, baisse des taxes sur le travail) rend la taxe acceptable.",
+   "a_quoi_ca_sert": "analyser les révoltes contre la fiscalité écologique (Gilets jaunes) et leurs solutions",
+   "partie_lecon": "III.C – Le dilemme social",
+   "mots_cles": [
+    "Gilets jaunes",
+    "double dividende",
+    "acceptabilité",
+    "fiscalité écologique"
+   ]
+  },
+  {
+   "auteur": "Hans Jonas",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« L'avenir n'est représenté par aucun groupement » : les générations futures n'ont pas de poids politique.",
+   "a_quoi_ca_sert": "expliquer le court-termisme des gouvernants face au climat",
+   "partie_lecon": "Annexe Gollier – Transition heureuse",
+   "mots_cles": [
+    "générations futures",
+    "responsabilité",
+    "court-termisme",
+    "démocratie"
+   ]
+  },
+  {
+   "auteur": "William Stanley Jevons",
+   "ouvrage": "The Coal Question",
+   "date": "1865",
+   "idee": "Paradoxe de Jevons : les gains d'efficacité d'une ressource augmentent sa consommation totale (effet rebond).",
+   "a_quoi_ca_sert": "montrer que le progrès technique ne réduit pas forcément la pression écologique (IA, data centers)",
+   "partie_lecon": "III.B – Effet rebond",
+   "mots_cles": [
+    "effet rebond",
+    "efficacité énergétique",
+    "charbon",
+    "consommation"
+   ]
+  },
+  {
+   "auteur": "Arthur Cecil Pigou",
+   "ouvrage": "L'économie du bien-être",
+   "date": "1920",
+   "idee": "La pollution est une externalité négative (écart coût privé / coût social) que l'État doit internaliser par une taxe.",
+   "a_quoi_ca_sert": "justifier la taxe carbone et le principe pollueur-payeur",
+   "partie_lecon": "III.B – Approche par la taxe",
+   "mots_cles": [
+    "externalités",
+    "taxe pigouvienne",
+    "pollueur-payeur",
+    "coût social"
+   ]
+  },
+  {
+   "auteur": "Richard Thaler et Cass Sunstein",
+   "ouvrage": "Nudge",
+   "date": "",
+   "idee": "Le nudge vert oriente les comportements par l'architecture des choix, sans contrainte financière ni juridique.",
+   "a_quoi_ca_sert": "illustrer une incitation douce complémentaire à la taxe et à la norme",
+   "partie_lecon": "III.B – Réglementation et incitation",
+   "mots_cles": [
+    "nudge",
+    "économie comportementale",
+    "incitation",
+    "architecture des choix"
+   ]
+  },
+  {
+   "auteur": "Ronald Coase",
+   "ouvrage": "The Problem of Social Cost",
+   "date": "1960",
+   "idee": "Si les droits de propriété sont définis et les coûts de transaction faibles, la négociation privée atteint l'optimum de pollution.",
+   "a_quoi_ca_sert": "fonder les marchés de droits à polluer et en montrer les limites (milliards d'acteurs, coûts de transaction)",
+   "partie_lecon": "III.B – Théorème de Coase",
+   "mots_cles": [
+    "théorème de Coase",
+    "droits de propriété",
+    "coûts de transaction",
+    "négociation"
+   ]
+  },
+  {
+   "auteur": "Ronald Coase",
+   "ouvrage": "The Nature of the Firm",
+   "date": "1937",
+   "idee": "Les coûts de transaction expliquent l'existence des institutions et de la firme.",
+   "a_quoi_ca_sert": "relier écologie et nouvelle économie institutionnelle (Williamson, North)",
+   "partie_lecon": "III.B – Théorème de Coase",
+   "mots_cles": [
+    "coûts de transaction",
+    "institutions",
+    "firme",
+    "néo-institutionnalisme"
+   ]
+  },
+  {
+   "auteur": "Thomas Crocker et John Harkness Dales",
+   "ouvrage": "",
+   "date": "1966-1968",
+   "idee": "Un plafond d'émissions avec des permis échangeables atteint l'objectif écologique au moindre coût (cap-and-trade).",
+   "a_quoi_ca_sert": "analyser le marché européen du carbone (EU ETS) et le prix de la tonne de CO2",
+   "partie_lecon": "III.B – Marchés de droits à polluer",
+   "mots_cles": [
+    "cap-and-trade",
+    "permis d'émission",
+    "EU ETS",
+    "marché carbone"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "",
+   "date": "1986",
+   "idee": "La stabilité climatique est un bien public mondial : chaque État attend que les autres paient.",
+   "a_quoi_ca_sert": "expliquer l'échec ou la lenteur des négociations climatiques (COP)",
+   "partie_lecon": "III.C – Politiques environnementales",
+   "mots_cles": [
+    "bien public mondial",
+    "passager clandestin",
+    "COP",
+    "coopération internationale"
+   ]
+  },
+  {
+   "auteur": "Protocole de Kyoto / COP 21",
+   "ouvrage": "",
+   "date": "1997 / 2015",
+   "idee": "Les accords climatiques fixent des objectifs (-5 % de GES, +2 °C) mais restent déclaratifs, sans sanctions.",
+   "a_quoi_ca_sert": "montrer les limites de la gouvernance climatique internationale",
+   "partie_lecon": "III.C – L'échelle internationale et ses limites",
+   "mots_cles": [
+    "Kyoto",
+    "accord de Paris",
+    "COP",
+    "sanctions"
+   ]
+  },
+  {
+   "auteur": "Union européenne (Pacte vert)",
+   "ouvrage": "",
+   "date": "2019",
+   "idee": "Neutralité carbone en 2050, fin des voitures thermiques neuves en 2035, -90 % d'émissions en 2040 ; mais reculs face aux agriculteurs et aux industriels.",
+   "a_quoi_ca_sert": "analyser le rôle moteur de l'UE et la contestation de ses normes",
+   "partie_lecon": "III.C – Rôle moteur de l'UE",
+   "mots_cles": [
+    "Pacte vert",
+    "neutralité carbone",
+    "pause réglementaire",
+    "glyphosate",
+    "CS3D"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La transition exige 3,5 points de PIB d'investissement : l'excédent courant de la zone euro (2,8 % du PIB) pourrait la financer si l'épargne du Nord circule en Europe.",
+   "a_quoi_ca_sert": "penser le financement de la transition sans sacrifier le modèle social",
+   "partie_lecon": "III.C – Financement de la transition",
+   "mots_cles": [
+    "financement",
+    "épargne",
+    "balance courante",
+    "union bancaire"
+   ]
+  },
+  {
+   "auteur": "Cour des comptes",
+   "ouvrage": "Rapport sur les énergies renouvelables intermittentes",
+   "date": "2026",
+   "idee": "Le soutien aux renouvelables a coûté 26,3 milliards d'euros entre 2016 et 2024, alourdi par des contrats solaires trop généreux.",
+   "a_quoi_ca_sert": "montrer le coût budgétaire de la transition énergétique",
+   "partie_lecon": "III.C – Financement de la transition",
+   "mots_cles": [
+    "énergies renouvelables",
+    "finances publiques",
+    "solaire",
+    "prix de l'électricité"
+   ]
+  },
+  {
+   "auteur": "Neil Makaroff",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Un prix du carbone trop élevé sur le marché ETS poussera les industriels à délocaliser.",
+   "a_quoi_ca_sert": "illustrer le risque de fuite de carbone et de désindustrialisation",
+   "partie_lecon": "Fichage articles – Pacte vert et ses critiques",
+   "mots_cles": [
+    "fuite de carbone",
+    "délocalisation",
+    "ETS",
+    "industrie"
+   ]
+  },
+  {
+   "auteur": "Philippe Lamberts",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Sans aide financière à la transition, la révolte sociale sera bien plus violente que celle des Gilets jaunes.",
+   "a_quoi_ca_sert": "montrer l'enjeu social de l'extension du marché carbone au chauffage et aux carburants",
+   "partie_lecon": "Fichage articles – Pacte vert et ses critiques",
+   "mots_cles": [
+    "acceptabilité sociale",
+    "marché carbone",
+    "Gilets jaunes",
+    "transition juste"
+   ]
+  },
+  {
+   "auteur": "Pascal Canfin",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La Commission est une « machine à produire de la norme », au risque d'une polarisation qui détruirait l'acquis législatif.",
+   "a_quoi_ca_sert": "illustrer la critique de l'inflation normative européenne",
+   "partie_lecon": "Fichage articles – Pacte vert et ses critiques",
+   "mots_cles": [
+    "normes",
+    "Commission européenne",
+    "polarisation",
+    "Pacte vert"
+   ]
+  },
+  {
+   "auteur": "Emmanuel Berreta",
+   "ouvrage": "Compétitivité et écologie",
+   "date": "2025",
+   "idee": "Au nom de la compétitivité, le Parlement européen vide le devoir de vigilance et le reporting de durabilité de leur substance.",
+   "a_quoi_ca_sert": "illustrer l'arbitrage compétitivité / écologie et la « simplification » européenne",
+   "partie_lecon": "Fichage articles – Compétitivité et écologie",
+   "mots_cles": [
+    "devoir de vigilance",
+    "CSRD",
+    "simplification",
+    "compétitivité"
+   ],
+   "a_verifier": "orthographe du nom (peut-être Berretta)"
+  },
+  {
+   "auteur": "Mark Carney",
+   "ouvrage": "",
+   "date": "2015",
+   "idee": "La « tragédie de l'horizon » : la finance est trop court-termiste pour intégrer les risques climatiques de long terme.",
+   "a_quoi_ca_sert": "expliquer le sous-financement de la transition et le risque des actifs échoués",
+   "partie_lecon": "III.C – La finance verte",
+   "mots_cles": [
+    "tragédie de l'horizon",
+    "finance verte",
+    "actifs échoués",
+    "green bonds"
+   ]
+  }
+ ],
+ "id": "1A-soutenabilite",
+ "programme_chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la soutenabilité de la croissance et du développement"
+}

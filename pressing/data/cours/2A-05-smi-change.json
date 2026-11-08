@@ -1,0 +1,1132 @@
+{
+ "chapitre": "SMI, balance des paiements et taux de change",
+ "annee": "2A",
+ "module": "Module 3 – La mondialisation économique et financière",
+ "source_doc": "Chapitre 3 (1) – SMI, balance des paiements et taux de change",
+ "mots_cles_actu": [
+  "dollar",
+  "euro",
+  "yuan",
+  "Fed",
+  "BCE",
+  "taux directeurs",
+  "taux de change",
+  "dépréciation",
+  "dévaluation",
+  "guerre des monnaies",
+  "dédollarisation",
+  "BRICS",
+  "réserves de change",
+  "FMI",
+  "DTS",
+  "déficit commercial",
+  "déficit courant",
+  "balance des paiements",
+  "dette en dollars",
+  "pays émergents",
+  "crise de change",
+  "carry trade",
+  "zone euro",
+  "Trump droits de douane",
+  "Banque de France position extérieure"
+ ],
+ "references": [
+  {
+   "auteur": "Robert Solomon",
+   "ouvrage": "Le système monétaire international",
+   "date": "1979",
+   "idee": "Un SMI est un ensemble de règles et d'institutions qui organise les échanges entre monnaies, sans lequel chaque pays fixerait sa monnaie au détriment des autres.",
+   "a_quoi_ca_sert": "définir le SMI et montrer l'enjeu de règles communes face aux dévaluations unilatérales",
+   "partie_lecon": "I.1 – Le SMI : définition et piliers",
+   "mots_cles": [
+    "SMI",
+    "régime de change",
+    "convertibilité",
+    "coopération monétaire"
+   ],
+   "a_verifier": "titre exact de l'ouvrage (signalé dans la leçon)"
+  },
+  {
+   "auteur": "Sidney Alexander",
+   "ouvrage": "Effects of a Devaluation on a Trade Balance",
+   "date": "1952",
+   "idee": "Approche par l'absorption : un pays est en déficit quand il consomme et investit plus qu'il ne produit ; une dévaluation n'aide que si elle réduit l'absorption.",
+   "a_quoi_ca_sert": "montrer qu'un déficit extérieur vient d'un déséquilibre interne et pas seulement d'un problème de compétitivité",
+   "partie_lecon": "I.3.a – Le solde courant comme écart entre épargne et investissement",
+   "mots_cles": [
+    "absorption",
+    "solde courant",
+    "épargne",
+    "dévaluation"
+   ]
+  },
+  {
+   "auteur": "Jean-Marc Daniel",
+   "ouvrage": "Ricardo, reviens ! Ils sont devenus keynésiens",
+   "date": "2012",
+   "idee": "Le déficit extérieur est le symptôme d'un excès de consommation et d'un manque d'épargne.",
+   "a_quoi_ca_sert": "relier un déficit courant au déficit public (déficits jumeaux)",
+   "partie_lecon": "I.3.a – Le solde courant comme écart entre épargne et investissement",
+   "mots_cles": [
+    "déficit extérieur",
+    "épargne",
+    "déficits jumeaux",
+    "déficit public"
+   ]
+  },
+  {
+   "auteur": "Trésor-Éco",
+   "ouvrage": "« Comment expliquer le niveau élevé de l'excédent courant allemand ? »",
+   "date": "2017",
+   "idee": "L'excédent allemand vient de la modération des coûts salariaux unitaires et de l'externalisation vers l'Europe centrale.",
+   "a_quoi_ca_sert": "expliquer les excédents allemands et les déséquilibres dans la zone euro",
+   "partie_lecon": "I.3.c – Excédents et déficits",
+   "mots_cles": [
+    "excédent allemand",
+    "coûts salariaux unitaires",
+    "compétitivité",
+    "zone euro"
+   ]
+  },
+  {
+   "auteur": "Bullion Report",
+   "ouvrage": "",
+   "date": "1810",
+   "idee": "La hausse des prix et la dépréciation de la livre viennent d'une émission excessive de billets.",
+   "a_quoi_ca_sert": "relier création monétaire excessive et dépréciation",
+   "partie_lecon": "II.1.a – La controverse bullioniste",
+   "mots_cles": [
+    "émission monétaire",
+    "inflation",
+    "convertibilité",
+    "livre sterling"
+   ]
+  },
+  {
+   "auteur": "Henry Thornton",
+   "ouvrage": "An Enquiry into the Nature and Effects of the Paper Credit of Great Britain",
+   "date": "1802",
+   "idee": "L'émission excessive de billets fait monter les prix, mais trop limiter le crédit déprime l'activité.",
+   "a_quoi_ca_sert": "nuancer une politique monétaire trop restrictive",
+   "partie_lecon": "II.1.a – La controverse bullioniste",
+   "mots_cles": [
+    "crédit",
+    "inflation",
+    "banque centrale",
+    "politique monétaire"
+   ]
+  },
+  {
+   "auteur": "David Ricardo (currency school)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La stabilité monétaire exige un lien rigide entre émission de monnaie et stock d'or.",
+   "a_quoi_ca_sert": "défendre une règle monétaire stricte contre la discrétion",
+   "partie_lecon": "II.1.a – La controverse bullioniste",
+   "mots_cles": [
+    "currency school",
+    "étalon-or",
+    "règle monétaire",
+    "émission"
+   ]
+  },
+  {
+   "auteur": "Thomas Tooke (banking school)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'émission doit s'adapter aux besoins de l'activité, la banque centrale ajustant le crédit à la conjoncture.",
+   "a_quoi_ca_sert": "défendre une politique monétaire flexible au service de l'activité",
+   "partie_lecon": "II.1.a – La controverse bullioniste",
+   "mots_cles": [
+    "banking school",
+    "crédit",
+    "conjoncture",
+    "politique monétaire"
+   ]
+  },
+  {
+   "auteur": "Irving Fisher",
+   "ouvrage": "",
+   "date": "1911",
+   "idee": "La théorie quantitative de la monnaie formalise le lien entre masse monétaire et prix.",
+   "a_quoi_ca_sert": "expliquer l'ajustement automatique sous l'étalon-or et l'inflation par la création monétaire",
+   "partie_lecon": "II.1.b – Les principes de l'étalon-or",
+   "mots_cles": [
+    "théorie quantitative",
+    "inflation",
+    "masse monétaire",
+    "étalon-or"
+   ]
+  },
+  {
+   "auteur": "David Hume",
+   "ouvrage": "« De la balance du commerce », Discours politiques",
+   "date": "1752",
+   "idee": "Mécanisme prix-espèces : sous l'étalon-or, les flux d'or ajustent les prix et rééquilibrent automatiquement la balance commerciale.",
+   "a_quoi_ca_sert": "servir de référence à l'idée d'ajustement automatique des déséquilibres extérieurs",
+   "partie_lecon": "II.1.b – Le rééquilibrage automatique",
+   "mots_cles": [
+    "prix-espèces",
+    "étalon-or",
+    "balance commerciale",
+    "ajustement automatique"
+   ]
+  },
+  {
+   "auteur": "Loi de Gresham",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La mauvaise monnaie chasse la bonne : on paie avec le métal déprécié et on thésaurise le plus précieux.",
+   "a_quoi_ca_sert": "expliquer les fragilités du bimétallisme et la thésaurisation",
+   "partie_lecon": "II.1.c – Étalon-or ou étalon-sterling ?",
+   "mots_cles": [
+    "bimétallisme",
+    "thésaurisation",
+    "spéculation",
+    "monnaie"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta",
+   "ouvrage": "« Intégration financière et régime monétaire sous l'étalon-or »",
+   "date": "1990",
+   "idee": "Le système du XIXe siècle était moins un étalon-or qu'un étalon-sterling organisé autour de la livre et de Londres.",
+   "a_quoi_ca_sert": "montrer qu'un SMI repose toujours sur une monnaie dominante",
+   "partie_lecon": "II.1.c – Étalon-or ou étalon-sterling ?",
+   "mots_cles": [
+    "étalon-sterling",
+    "livre",
+    "Londres",
+    "hégémonie monétaire"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Traité de la monnaie",
+   "date": "1930",
+   "idee": "La Grande-Bretagne était le « chef d'orchestre » du SMI : sa politique monétaire en assurait la cohérence.",
+   "a_quoi_ca_sert": "illustrer le rôle de la puissance émettrice dans la stabilité monétaire mondiale",
+   "partie_lecon": "II.1.c – Étalon-or ou étalon-sterling ?",
+   "mots_cles": [
+    "chef d'orchestre",
+    "Banque d'Angleterre",
+    "hégémonie",
+    "étalon-or"
+   ]
+  },
+  {
+   "auteur": "Robert Triffin",
+   "ouvrage": "L'or et la crise du dollar",
+   "date": "1960",
+   "idee": "Une monnaie nationale ne peut être durablement monnaie internationale : elle ne peut être à la fois abondante et sûre.",
+   "a_quoi_ca_sert": "analyser la fragilité du rôle international du dollar et les déficits américains",
+   "partie_lecon": "II.3.c – Le dilemme de Triffin",
+   "mots_cles": [
+    "dilemme de Triffin",
+    "dollar",
+    "liquidité",
+    "confiance"
+   ]
+  },
+  {
+   "auteur": "Rapport Cunliffe",
+   "ouvrage": "",
+   "date": "1918",
+   "idee": "La livre doit redevenir monnaie de référence mondiale et retrouver sa parité-or d'avant-guerre.",
+   "a_quoi_ca_sert": "illustrer le choix du prestige monétaire contre l'emploi",
+   "partie_lecon": "II.2.b – Les difficultés du retour à la convertibilité",
+   "mots_cles": [
+    "étalon-or",
+    "livre",
+    "parité",
+    "déflation"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "La Réforme monétaire / Les Conséquences économiques de M. Churchill",
+   "date": "1923-1925",
+   "idee": "Revenir à la parité-or d'avant-guerre impose une déflation qui sacrifie croissance et emploi au prestige de la livre.",
+   "a_quoi_ca_sert": "critiquer une monnaie surévaluée qui détruit l'industrie",
+   "partie_lecon": "II.2.b – Les difficultés du retour à la convertibilité",
+   "mots_cles": [
+    "déflation",
+    "surévaluation",
+    "chômage",
+    "parité-or"
+   ]
+  },
+  {
+   "auteur": "Jean-Claude Asselain",
+   "ouvrage": "",
+   "date": "1995",
+   "idee": "Le retour de la livre à sa parité d'avant-guerre est un « déplorable succès » payé par le chômage et la désindustrialisation.",
+   "a_quoi_ca_sert": "montrer le coût réel d'une monnaie forte imposée",
+   "partie_lecon": "II.2.b – Les difficultés du retour à la convertibilité",
+   "mots_cles": [
+    "déplorable succès",
+    "monnaie forte",
+    "désindustrialisation",
+    "chômage"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "La Grande Crise mondiale, 1929-1939",
+   "date": "1973",
+   "idee": "Un SMI stable exige un hégémon capable et désireux d'en assumer le coût : dans l'entre-deux-guerres, la Grande-Bretagne ne le pouvait plus et les États-Unis ne le voulaient pas.",
+   "a_quoi_ca_sert": "analyser les risques d'un retrait américain de la coordination monétaire",
+   "partie_lecon": "II.2.d – Les raisons de l'échec du SMI de Gênes",
+   "mots_cles": [
+    "stabilité hégémonique",
+    "hégémon",
+    "prêteur en dernier ressort",
+    "crise de 1929"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta et Virginie Coudert",
+   "ouvrage": "Le dollar et le système monétaire international",
+   "date": "2014",
+   "idee": "L'échec de l'entre-deux-guerres tient au refus de la coopération : chaque pays a fait passer ses intérêts avant la stabilité commune.",
+   "a_quoi_ca_sert": "montrer le danger des politiques monétaires non coopératives",
+   "partie_lecon": "II.2.d – Les raisons de l'échec du SMI de Gênes",
+   "mots_cles": [
+    "coopération monétaire",
+    "égoïsme sacré",
+    "souveraineté",
+    "dévaluations compétitives"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta et Virginie Coudert",
+   "ouvrage": "Le dollar et le système monétaire international",
+   "date": "2014",
+   "idee": "Une nouvelle crise du SMI est probable : il faut des zones régionales, plus de régulation financière et un « Bretton Woods III » pluri-devises.",
+   "a_quoi_ca_sert": "proposer une réforme du SMI face à la domination du dollar",
+   "partie_lecon": "II.5.d – Réformer le SMI",
+   "mots_cles": [
+    "Bretton Woods III",
+    "réforme du SMI",
+    "shadow banking",
+    "monde multipolaire"
+   ]
+  },
+  {
+   "auteur": "Peter Temin",
+   "ouvrage": "Lessons from the Great Depression",
+   "date": "1989",
+   "idee": "L'attachement à l'étalon-or est la cause principale de la crise des années 1930 : il a propagé la déflation et empêché les relances.",
+   "a_quoi_ca_sert": "montrer qu'un régime de change rigide peut transmettre une crise",
+   "partie_lecon": "II.2.d – Les raisons de l'échec du SMI de Gênes",
+   "mots_cles": [
+    "étalon-or",
+    "Grande Dépression",
+    "déflation",
+    "relance"
+   ]
+  },
+  {
+   "auteur": "Henri Bourguinat",
+   "ouvrage": "Les vertiges de la finance internationale",
+   "date": "1987",
+   "idee": "Bretton Woods reflète le rapport de force de 1944 : la domination des États-Unis impose le dollar.",
+   "a_quoi_ca_sert": "montrer que le SMI traduit les rapports de puissance",
+   "partie_lecon": "II.3.a – Les accords de 1944",
+   "mots_cles": [
+    "Bretton Woods",
+    "dollar",
+    "rapports de force",
+    "hégémonie"
+   ]
+  },
+  {
+   "auteur": "Henri Bourguinat",
+   "ouvrage": "Les vertiges de la finance internationale",
+   "date": "1987",
+   "idee": "Le dollar est la monnaie-clé, le soleil autour duquel s'organisent les monnaies satellites.",
+   "a_quoi_ca_sert": "illustrer la centralité du dollar dans le SMI",
+   "partie_lecon": "II.3.b – La transformation en étalon-dollar",
+   "mots_cles": [
+    "monnaie-clé",
+    "dollar",
+    "étalon-dollar",
+    "asymétrie"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes (plan Keynes)",
+   "ouvrage": "",
+   "date": "1944",
+   "idee": "Le plan Keynes prévoit une monnaie internationale neutre, le bancor, pour qu'aucune monnaie nationale ne domine.",
+   "a_quoi_ca_sert": "nourrir les propositions de monnaie mondiale (DTS) contre la domination du dollar",
+   "partie_lecon": "II.3.a – Plan Keynes contre plan White",
+   "mots_cles": [
+    "bancor",
+    "monnaie internationale",
+    "Bretton Woods",
+    "dédollarisation"
+   ]
+  },
+  {
+   "auteur": "Harry Dexter White (plan White)",
+   "ouvrage": "",
+   "date": "1944",
+   "idee": "Le plan White défend un Gold Exchange Standard centré sur le dollar, qui l'emporte à Bretton Woods.",
+   "a_quoi_ca_sert": "expliquer l'origine de la domination du dollar",
+   "partie_lecon": "II.3.a – Plan Keynes contre plan White",
+   "mots_cles": [
+    "Gold Exchange Standard",
+    "dollar",
+    "Bretton Woods",
+    "États-Unis"
+   ]
+  },
+  {
+   "auteur": "Jean Denizet",
+   "ouvrage": "Le Dollar",
+   "date": "1985",
+   "idee": "La lettre Snyder de 1947 a fait du dollar le centre asymétrique du système : les autres pays défendent seuls leur parité.",
+   "a_quoi_ca_sert": "montrer l'asymétrie du SMI en faveur des États-Unis",
+   "partie_lecon": "II.3.b – La transformation en étalon-dollar",
+   "mots_cles": [
+    "lettre Snyder",
+    "asymétrie",
+    "dollar",
+    "parités"
+   ]
+  },
+  {
+   "auteur": "Valéry Giscard d'Estaing",
+   "ouvrage": "",
+   "date": "1964",
+   "idee": "Le rôle du dollar confère aux États-Unis un « privilège exorbitant ».",
+   "a_quoi_ca_sert": "dénoncer l'avantage américain à s'endetter dans sa propre monnaie",
+   "partie_lecon": "II.3.d – Le privilège exorbitant du dollar",
+   "mots_cles": [
+    "privilège exorbitant",
+    "dollar",
+    "déficit américain",
+    "France"
+   ],
+   "a_verifier": "date de la formule (souvent citée en 1965)"
+  },
+  {
+   "auteur": "Jacques Rueff",
+   "ouvrage": "L'Âge de l'inflation / Le péché monétaire de l'Occident",
+   "date": "1963-1971",
+   "idee": "Le rôle international du dollar permet aux États-Unis un « déficit sans pleurs » financé par leur propre création monétaire.",
+   "a_quoi_ca_sert": "critiquer le financement des déficits américains par le reste du monde",
+   "partie_lecon": "II.3.d – Le privilège exorbitant du dollar",
+   "mots_cles": [
+    "déficit sans pleurs",
+    "dollar",
+    "étalon-or",
+    "inflation"
+   ]
+  },
+  {
+   "auteur": "Barry Eichengreen",
+   "ouvrage": "Un privilège exorbitant",
+   "date": "2011",
+   "idee": "Le privilège exorbitant permet aux États-Unis de s'endetter dans leur monnaie et de faire porter les ajustements aux autres.",
+   "a_quoi_ca_sert": "expliquer pourquoi le déficit américain est soutenable plus longtemps que celui d'un autre pays",
+   "partie_lecon": "II.3.d – Le privilège exorbitant du dollar",
+   "mots_cles": [
+    "privilège exorbitant",
+    "dollar",
+    "dette",
+    "asymétrie"
+   ]
+  },
+  {
+   "auteur": "Barry Eichengreen",
+   "ouvrage": "Un privilège exorbitant",
+   "date": "2011",
+   "idee": "Bretton Woods II touche à sa fin : la montée de la Chine et la diversification de ses réserves annoncent un système multipolaire.",
+   "a_quoi_ca_sert": "analyser la dédollarisation et la remise en cause du dollar sous Trump",
+   "partie_lecon": "II.4.c – Le semi-étalon-dollar et Bretton Woods II",
+   "mots_cles": [
+    "dédollarisation",
+    "Chine",
+    "multipolarité",
+    "réserves de change"
+   ]
+  },
+  {
+   "auteur": "Barry Eichengreen",
+   "ouvrage": "Un privilège exorbitant. Le déclin du dollar et l'avenir du système monétaire international",
+   "date": "2011",
+   "idee": "L'euro est une « monnaie sans État » : sans union budgétaire ni dette commune unifiée, il ne peut rivaliser avec le dollar.",
+   "a_quoi_ca_sert": "justifier les eurobonds ou la dette commune européenne pour renforcer l'euro",
+   "partie_lecon": "II.5.a – Vers un SMI multipolaire ?",
+   "mots_cles": [
+    "euro",
+    "monnaie sans État",
+    "eurobonds",
+    "dette commune"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le SMI actuel est un « semi-étalon-dollar » : la domination du dollar repose sur des usages partagés plus que sur des règles.",
+   "a_quoi_ca_sert": "montrer la persistance de la domination du dollar malgré le flottement",
+   "partie_lecon": "II.4.c – Le semi-étalon-dollar",
+   "mots_cles": [
+    "semi-étalon-dollar",
+    "réserves de change",
+    "ancrage",
+    "Fed"
+   ]
+  },
+  {
+   "auteur": "Michael Dooley, David Folkerts-Landau et Peter Garber",
+   "ouvrage": "« An Essay on the Revived Bretton Woods System »",
+   "date": "2003",
+   "idee": "Bretton Woods II : les émergents ancrent leur monnaie au dollar à un niveau sous-évalué et financent le déficit américain.",
+   "a_quoi_ca_sert": "expliquer les excédents chinois et les achats de bons du Trésor américain",
+   "partie_lecon": "II.4.c – Bretton Woods II",
+   "mots_cles": [
+    "Bretton Woods II",
+    "Chine",
+    "sous-évaluation",
+    "bons du Trésor"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "Discipliner la finance",
+   "date": "2019",
+   "idee": "Bretton Woods II est inefficace : l'épargne des émergents finance la consommation américaine au lieu de leur propre investissement.",
+   "a_quoi_ca_sert": "critiquer les déséquilibres mondiaux entre États-Unis et Asie",
+   "partie_lecon": "II.4.c – Bretton Woods II",
+   "mots_cles": [
+    "déséquilibres mondiaux",
+    "épargne",
+    "paradoxe de Lucas",
+    "consommation américaine"
+   ]
+  },
+  {
+   "auteur": "Thomas Palley",
+   "ouvrage": "The Fallacy of the Revised Bretton Woods Hypothesis",
+   "date": "2006",
+   "idee": "Parler de Bretton Woods II est trompeur : le système actuel n'est ni coopératif ni soutenable car il repose sur l'endettement des ménages américains.",
+   "a_quoi_ca_sert": "souligner le risque de bulle lié aux déséquilibres mondiaux",
+   "partie_lecon": "II.4.c – Bretton Woods II",
+   "mots_cles": [
+    "Bretton Woods II",
+    "endettement",
+    "bulle",
+    "coopération"
+   ]
+  },
+  {
+   "auteur": "Conseil d'analyse économique",
+   "ouvrage": "Réformer le système monétaire international",
+   "date": "2011",
+   "idee": "La Chine pourrait peser environ 25 % du PIB mondial en 2050 contre 20 % pour les États-Unis, ce qui nourrit l'hypothèse d'un SMI multipolaire.",
+   "a_quoi_ca_sert": "appuyer l'idée d'un SMI organisé autour du dollar, de l'euro et du yuan",
+   "partie_lecon": "II.5.a – Vers un SMI multipolaire ?",
+   "mots_cles": [
+    "multipolarité",
+    "yuan",
+    "Chine",
+    "réforme du SMI"
+   ]
+  },
+  {
+   "auteur": "Immanuel Wallerstein",
+   "ouvrage": "Capitalisme et économie-monde",
+   "date": "1980",
+   "idee": "La hiérarchie monétaire évolue plus lentement que la hiérarchie économique : une monnaie reste dominante longtemps après le déclin de son pays.",
+   "a_quoi_ca_sert": "relativiser l'annonce de la fin du dollar",
+   "partie_lecon": "II.5.a – Vers un SMI multipolaire ?",
+   "mots_cles": [
+    "hiérarchie monétaire",
+    "dollar",
+    "déclin",
+    "inertie"
+   ]
+  },
+  {
+   "auteur": "Agnès Bénassy-Quéré et Jean Pisani-Ferry",
+   "ouvrage": "Quel système monétaire international pour une économie mondiale en transition rapide ? (CEPII)",
+   "date": "2011",
+   "idee": "Les DTS fournissent des liquidités internationales de façon collective par compensation multilatérale, sans dépendre d'une monnaie nationale.",
+   "a_quoi_ca_sert": "défendre une allocation de DTS en cas de crise mondiale",
+   "partie_lecon": "II.5.b – Quel rôle pour les DTS ?",
+   "mots_cles": [
+    "DTS",
+    "FMI",
+    "liquidité internationale",
+    "compensation"
+   ]
+  },
+  {
+   "auteur": "Zhou Xiaochuan",
+   "ouvrage": "",
+   "date": "2009",
+   "idee": "Les DTS permettraient de diversifier les réserves et de ne plus faire reposer le rôle de prêteur en dernier ressort sur les seuls États-Unis.",
+   "a_quoi_ca_sert": "expliquer la volonté chinoise de réduire la dépendance au dollar",
+   "partie_lecon": "II.5.b – Quel rôle pour les DTS ?",
+   "mots_cles": [
+    "DTS",
+    "Chine",
+    "dédollarisation",
+    "réserves"
+   ]
+  },
+  {
+   "auteur": "José Antonio Ocampo",
+   "ouvrage": "Resetting the International Monetary (Non)System",
+   "date": "2017",
+   "idee": "Les DTS devraient devenir un vrai actif de réserve pour que le financement des pays en crise soit multilatéral.",
+   "a_quoi_ca_sert": "plaider pour un SMI moins dépendant d'un seul pays",
+   "partie_lecon": "II.5.b – Quel rôle pour les DTS ?",
+   "mots_cles": [
+    "DTS",
+    "multilatéralisme",
+    "actif de réserve",
+    "pays en crise"
+   ]
+  },
+  {
+   "auteur": "Étienne Espagne",
+   "ouvrage": "« DTS et environnement »",
+   "date": "2019",
+   "idee": "Le SMI pousse les PED à exporter leurs ressources pour accumuler des réserves ; un actif comme le DTS serait plus compatible avec la transition écologique.",
+   "a_quoi_ca_sert": "relier réforme monétaire et climat",
+   "partie_lecon": "II.5.b – Quel rôle pour les DTS ?",
+   "mots_cles": [
+    "DTS",
+    "transition écologique",
+    "réserves de change",
+    "PED"
+   ]
+  },
+  {
+   "auteur": "Larry Summers",
+   "ouvrage": "",
+   "date": "2004",
+   "idee": "« Équilibre de la terreur financière » : une diversification massive hors du dollar le ferait chuter et réduirait la valeur des réserves existantes.",
+   "a_quoi_ca_sert": "expliquer pourquoi les détenteurs de dollars (Chine) ne peuvent s'en défaire brutalement",
+   "partie_lecon": "II.5.b – Les obstacles aux DTS",
+   "mots_cles": [
+    "équilibre de la terreur financière",
+    "dollar",
+    "réserves",
+    "dédollarisation"
+   ]
+  },
+  {
+   "auteur": "Prachi Mishra et Raghuram Rajan",
+   "ouvrage": "Rules of the Monetary Game",
+   "date": "2016",
+   "idee": "Les politiques monétaires des grands pays ont des externalités sur les autres : il faut des règles du jeu communes.",
+   "a_quoi_ca_sert": "analyser les effets d'une décision de la Fed sur les émergents",
+   "partie_lecon": "II.5.d – Réformer le SMI",
+   "mots_cles": [
+    "externalités monétaires",
+    "guerre des monnaies",
+    "coopération",
+    "Fed"
+   ]
+  },
+  {
+   "auteur": "Robert Mundell et Marcus Fleming",
+   "ouvrage": "",
+   "date": "années 1960",
+   "idee": "Modèle IS-LM-BP : l'efficacité des politiques dépend du régime de change et de la mobilité des capitaux (budget efficace en changes fixes, monnaie en changes flottants).",
+   "a_quoi_ca_sert": "évaluer l'effet d'une relance budgétaire ou monétaire selon le régime de change",
+   "partie_lecon": "III.1.a / IV.2.b – Modèle Mundell-Fleming",
+   "mots_cles": [
+    "IS-LM-BP",
+    "politique budgétaire",
+    "politique monétaire",
+    "régime de change"
+   ]
+  },
+  {
+   "auteur": "Dominique Plihon",
+   "ouvrage": "Les taux de change",
+   "date": "2017",
+   "idee": "Courbe en J : après une dépréciation, le solde commercial se dégrade d'abord avant de s'améliorer.",
+   "a_quoi_ca_sert": "expliquer qu'une baisse de la monnaie n'améliore pas tout de suite le déficit",
+   "partie_lecon": "III.1.a – Taux de change et balance courante",
+   "mots_cles": [
+    "courbe en J",
+    "dépréciation",
+    "effet prix",
+    "effet volume"
+   ]
+  },
+  {
+   "auteur": "Condition de Marshall-Lerner-Robinson",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Une dévaluation améliore la balance commerciale si la somme des élasticités-prix des exportations et des importations dépasse 1.",
+   "a_quoi_ca_sert": "juger si une dépréciation peut réduire un déficit commercial",
+   "partie_lecon": "III.1.a – Taux de change et balance courante",
+   "mots_cles": [
+    "élasticités-prix",
+    "dévaluation",
+    "balance commerciale",
+    "compétitivité-prix"
+   ],
+   "a_verifier": "condition « assouplie jusqu'à environ 0,3 » (signalé dans la leçon)"
+  },
+  {
+   "auteur": "Gustav Cassel",
+   "ouvrage": "« The Present Situation of the Foreign Exchanges »",
+   "date": "1916",
+   "idee": "Parité de pouvoir d'achat : à long terme, une monnaie qui a plus d'inflation que ses partenaires se déprécie d'autant.",
+   "a_quoi_ca_sert": "juger si une monnaie est sur- ou sous-évaluée (indice Big Mac)",
+   "partie_lecon": "III.1.b – La parité de pouvoir d'achat",
+   "mots_cles": [
+    "PPA",
+    "inflation",
+    "loi du prix unique",
+    "taux de change"
+   ]
+  },
+  {
+   "auteur": "John Williamson",
+   "ouvrage": "The Exchange Rate System",
+   "date": "1983",
+   "idee": "Le taux de change d'équilibre fondamental (FEER) est compatible avec l'équilibre interne et externe et permet de juger une sous-évaluation.",
+   "a_quoi_ca_sert": "mesurer la sous-évaluation d'une monnaie comme le yuan",
+   "partie_lecon": "III.1.c – Le taux de change d'équilibre fondamental",
+   "mots_cles": [
+    "FEER",
+    "sous-évaluation",
+    "équilibre externe",
+    "désalignement"
+   ]
+  },
+  {
+   "auteur": "John Williamson",
+   "ouvrage": "The Exchange Rate System",
+   "date": "1983",
+   "idee": "Théorie des zones cibles : maintenir le change dans une bande de fluctuation autour du FEER.",
+   "a_quoi_ca_sert": "justifier une coordination des banques centrales pour stabiliser le dollar (Plaza, Louvre)",
+   "partie_lecon": "IV.1.b – Changes flexibles et régimes intermédiaires",
+   "mots_cles": [
+    "zones cibles",
+    "Plaza",
+    "Louvre",
+    "coordination"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "La Réforme monétaire",
+   "date": "1923",
+   "idee": "Parité des taux d'intérêt : les écarts de taux entre pays sont compensés par les variations attendues du change.",
+   "a_quoi_ca_sert": "expliquer qu'une baisse des taux de la Fed déprécie aussitôt le dollar",
+   "partie_lecon": "III.2.a – La parité des taux d'intérêt",
+   "mots_cles": [
+    "parité des taux d'intérêt",
+    "taux directeurs",
+    "anticipations",
+    "carry trade"
+   ]
+  },
+  {
+   "auteur": "Jacob Frenkel",
+   "ouvrage": "« A Monetary Approach to the Exchange Rate » / « Exchange Rates, Prices and Money: Lessons from the 1920's »",
+   "date": "1976-1980",
+   "idee": "Un pays qui crée plus de monnaie que ses partenaires voit sa monnaie se déprécier.",
+   "a_quoi_ca_sert": "relier création monétaire et chute d'une monnaie",
+   "partie_lecon": "III.2.b – L'approche monétaire du taux de change",
+   "mots_cles": [
+    "approche monétaire",
+    "masse monétaire",
+    "dépréciation",
+    "monétarisme"
+   ]
+  },
+  {
+   "auteur": "James Tobin, Lance Girton et Don Roper",
+   "ouvrage": "« A General Equilibrium Approach to Monetary Theory » / « Theory and Implications of Currency Substitution »",
+   "date": "1969-1981",
+   "idee": "Le change dépend des choix de portefeuille entre actifs nationaux et étrangers, ce qui le rend très volatil.",
+   "a_quoi_ca_sert": "expliquer les fortes variations de change après de petits changements d'anticipations",
+   "partie_lecon": "III.2.c – Le taux de change comme prix d'un actif financier",
+   "mots_cles": [
+    "choix de portefeuille",
+    "volatilité",
+    "substitution des monnaies",
+    "actifs financiers"
+   ]
+  },
+  {
+   "auteur": "Ronald McKinnon",
+   "ouvrage": "« Currency Substitution and Instability in the World Dollar Standard »",
+   "date": "1982",
+   "idee": "Les monnaies sont des actifs financiers comme les autres : leur cours dépend surtout des flux de capitaux et de la spéculation.",
+   "a_quoi_ca_sert": "montrer la déconnexion du marché des changes avec l'économie réelle",
+   "partie_lecon": "III.2.c – Le taux de change comme prix d'un actif financier",
+   "mots_cles": [
+    "théorie financière du change",
+    "spéculation",
+    "flux de capitaux",
+    "dollar"
+   ]
+  },
+  {
+   "auteur": "James Tobin",
+   "ouvrage": "",
+   "date": "1972",
+   "idee": "Une taxe sur les transactions de change limiterait la volatilité de court terme.",
+   "a_quoi_ca_sert": "défendre une taxation de la spéculation financière",
+   "partie_lecon": "III.2.c – Un marché des changes déconnecté",
+   "mots_cles": [
+    "taxe Tobin",
+    "spéculation",
+    "volatilité",
+    "marché des changes"
+   ]
+  },
+  {
+   "auteur": "Rudiger Dornbusch",
+   "ouvrage": "« Expectations and Exchange Rate Dynamics »",
+   "date": "1976",
+   "idee": "Les marchés financiers s'ajustant plus vite que les prix, le change dépasse son nouvel équilibre après un choc monétaire (surréaction).",
+   "a_quoi_ca_sert": "expliquer l'effondrement brutal d'une monnaie après une politique monétaire laxiste (Turquie 2018)",
+   "partie_lecon": "III.2.d – La surréaction du taux de change",
+   "mots_cles": [
+    "overshooting",
+    "volatilité",
+    "rigidité des prix",
+    "choc monétaire"
+   ]
+  },
+  {
+   "auteur": "Richard Meese et Kenneth Rogoff",
+   "ouvrage": "« Empirical Exchange Rate Models of the Seventies: Do They Fit Out of Sample? »",
+   "date": "1983",
+   "idee": "Aucun modèle de change ne prévoit mieux qu'une marche aléatoire à un an.",
+   "a_quoi_ca_sert": "relativiser les prévisions sur l'évolution d'une monnaie",
+   "partie_lecon": "III.2.e – L'impossible prévision du change",
+   "mots_cles": [
+    "prévision",
+    "marche aléatoire",
+    "spéculation",
+    "taux de change"
+   ]
+  },
+  {
+   "auteur": "Olivier Blanchard et Mark Watson",
+   "ouvrage": "« Bubbles, Rational Expectations and Financial Markets »",
+   "date": "1982",
+   "idee": "Une bulle peut être rationnelle : chacun a intérêt à suivre le mouvement tant qu'il anticipe que les autres le suivront.",
+   "a_quoi_ca_sert": "expliquer les emballements spéculatifs sur une monnaie ou un actif",
+   "partie_lecon": "III.2.e – Les bulles rationnelles",
+   "mots_cles": [
+    "bulle rationnelle",
+    "anticipations autoréalisatrices",
+    "spéculation",
+    "valeur fondamentale"
+   ]
+  },
+  {
+   "auteur": "Robert Mundell",
+   "ouvrage": "« The Monetary Dynamics of International Adjustment under Fixed and Flexible Exchange Rates »",
+   "date": "1960",
+   "idee": "Triangle d'incompatibilité : impossible d'avoir à la fois change fixe, autonomie monétaire et libre circulation des capitaux.",
+   "a_quoi_ca_sert": "analyser les choix de la Chine, du Danemark ou des États-Unis en matière de change",
+   "partie_lecon": "IV.2.a – Le triangle d'incompatibilité de Mundell",
+   "mots_cles": [
+    "triangle d'incompatibilité",
+    "contrôle des capitaux",
+    "autonomie monétaire",
+    "change fixe"
+   ]
+  },
+  {
+   "auteur": "Guillermo Calvo et Carmen Reinhart",
+   "ouvrage": "« Fear of Floating »",
+   "date": "2002",
+   "idee": "Beaucoup de pays officiellement en change flottant interviennent pour stabiliser leur monnaie, par peur des coûts du flottement.",
+   "a_quoi_ca_sert": "expliquer les interventions des émergents sur leur monnaie",
+   "partie_lecon": "IV.2.c / IV.4.c – Peur du flottement",
+   "mots_cles": [
+    "peur du flottement",
+    "émergents",
+    "dette en devises",
+    "interventions"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman, Robert Flood et Peter Garber",
+   "ouvrage": "« A Model of Balance-of-Payments Crises » / « Collapsing Exchange-Rate Regimes »",
+   "date": "1979-1984",
+   "idee": "Crise de 1re génération : quand la politique économique est incompatible avec la parité, la spéculation ne fait qu'avancer une dévaluation inévitable.",
+   "a_quoi_ca_sert": "analyser la crise d'un pays qui finance ses déficits par la planche à billets en change fixe",
+   "partie_lecon": "IV.3.b – Crises de 1re génération",
+   "mots_cles": [
+    "crise de change",
+    "fondamentaux",
+    "réserves de change",
+    "dévaluation"
+   ]
+  },
+  {
+   "auteur": "Maurice Obstfeld",
+   "ouvrage": "« The Logic of Currency Crises »",
+   "date": "1994",
+   "idee": "Crise de 2e génération : même avec des fondamentaux sains, une attaque réussit si les marchés pensent que le gouvernement ne défendra pas la parité.",
+   "a_quoi_ca_sert": "expliquer une crise autoréalisatrice (mercredi noir 1992, baht 1997)",
+   "partie_lecon": "IV.3.b – Crises de 2e génération",
+   "mots_cles": [
+    "crise autoréalisatrice",
+    "crédibilité",
+    "spéculation",
+    "SME"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "« Balance Sheets, the Transfer Problem, and Financial Crises »",
+   "date": "1999",
+   "idee": "Crise de 3e génération : quand banques et entreprises sont endettées en devises, la crise de change devient crise bancaire.",
+   "a_quoi_ca_sert": "analyser les risques d'un sudden stop pour un émergent endetté en dollars",
+   "partie_lecon": "IV.3.b – Crises de 3e génération",
+   "mots_cles": [
+    "crise jumelle",
+    "sudden stop",
+    "dette en devises",
+    "contagion"
+   ]
+  },
+  {
+   "auteur": "Hyman Minsky",
+   "ouvrage": "Stabiliser une économie instable",
+   "date": "1986",
+   "idee": "L'instabilité financière est endogène : les crises se propagent par le système bancaire.",
+   "a_quoi_ca_sert": "expliquer la contagion d'une crise de change au système financier",
+   "partie_lecon": "IV.3.c – Les facteurs de contagion",
+   "mots_cles": [
+    "instabilité financière",
+    "contagion",
+    "banques",
+    "crises"
+   ]
+  },
+  {
+   "auteur": "Jonathan Ostry et al.",
+   "ouvrage": "« Neoliberalism: Oversold? »",
+   "date": "2016",
+   "idee": "Les flux de capitaux nourrissent la spéculation et augmentent la probabilité de crises coûteuses, d'où le retour des contrôles de capitaux.",
+   "a_quoi_ca_sert": "justifier des contrôles de capitaux comme outil macroprudentiel",
+   "partie_lecon": "IV.4.a – Avantages et risques de la mobilité des capitaux",
+   "mots_cles": [
+    "mobilité des capitaux",
+    "contrôle des capitaux",
+    "macroprudentiel",
+    "FMI"
+   ]
+  },
+  {
+   "auteur": "Maurice Obstfeld et Kenneth Rogoff",
+   "ouvrage": "« The Mirage of Fixed Exchange Rates »",
+   "date": "1995",
+   "idee": "Avec des capitaux mobiles, les ancrages fixes durent en moyenne environ cinq ans.",
+   "a_quoi_ca_sert": "montrer la fragilité des régimes de change fixe",
+   "partie_lecon": "IV.4.b – Avantages et coûts de la fixité",
+   "mots_cles": [
+    "changes fixes",
+    "ancrage",
+    "soutenabilité",
+    "mobilité des capitaux"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "« The Case for Flexible Exchange Rates »",
+   "date": "1953",
+   "idee": "Les changes flottants s'ajustent en continu aux fondamentaux et rendent son autonomie à la politique monétaire.",
+   "a_quoi_ca_sert": "défendre le flottement des monnaies",
+   "partie_lecon": "IV.4.c – Avantages et coûts du flottement",
+   "mots_cles": [
+    "changes flottants",
+    "autonomie monétaire",
+    "ajustement",
+    "monétarisme"
+   ]
+  },
+  {
+   "auteur": "Barry Eichengreen et Ricardo Hausmann",
+   "ouvrage": "« Exchange Rates and Financial Fragility »",
+   "date": "1999",
+   "idee": "Péché originel : les pays qui ne peuvent s'endetter dans leur monnaie voient leur dette exploser quand elle se déprécie.",
+   "a_quoi_ca_sert": "analyser la vulnérabilité d'un émergent endetté en dollars face à la hausse du dollar",
+   "partie_lecon": "IV.4.c – Avantages et coûts du flottement",
+   "mots_cles": [
+    "péché originel",
+    "dette en devises",
+    "dépréciation",
+    "émergents"
+   ]
+  },
+  {
+   "auteur": "Hélène Rey",
+   "ouvrage": "« Dilemma not Trilemma: The Global Financial Cycle and Monetary Policy Independence »",
+   "date": "2013",
+   "idee": "Le trilemme devient un dilemme : avec des capitaux libres, même un change flottant ne protège pas du cycle financier mondial piloté par la Fed.",
+   "a_quoi_ca_sert": "montrer la dépendance des pays à la politique de la Fed et justifier les contrôles de capitaux",
+   "partie_lecon": "IV.4.c – Avantages et coûts du flottement",
+   "mots_cles": [
+    "cycle financier mondial",
+    "Fed",
+    "dilemme",
+    "contrôle des capitaux"
+   ]
+  },
+  {
+   "auteur": "Jeffrey Frankel",
+   "ouvrage": "« No Single Currency Regime Is Right for All Countries or at All Times »",
+   "date": "1999",
+   "idee": "Aucun régime de change ne convient à tous les pays ni à toutes les époques.",
+   "a_quoi_ca_sert": "nuancer le débat changes fixes contre changes flottants",
+   "partie_lecon": "IV.4.d – Un arbitrage différent selon les pays",
+   "mots_cles": [
+    "régime de change",
+    "petits pays ouverts",
+    "PED",
+    "flottement"
+   ]
+  },
+  {
+   "auteur": "Atish Ghosh, Jonathan Ostry et Mahvash Qureshi",
+   "ouvrage": "« Exchange Rate Management and Crisis Susceptibility: A Reassessment »",
+   "date": "2014",
+   "idee": "Le flottement administré, avec interventions ciblées et contrôles de capitaux, protège mieux des crises qu'un régime pur.",
+   "a_quoi_ca_sert": "justifier les interventions d'une banque centrale émergente sur sa monnaie",
+   "partie_lecon": "IV.4.d – Un arbitrage différent selon les pays",
+   "mots_cles": [
+    "flottement administré",
+    "contrôle des capitaux",
+    "encaje",
+    "crises"
+   ]
+  },
+  {
+   "auteur": "Robert Mundell",
+   "ouvrage": "« A Theory of Optimum Currency Areas »",
+   "date": "1961",
+   "idee": "Des pays ont intérêt à partager une monnaie s'ils sont assez intégrés (notamment par la mobilité du travail) pour que perdre le change coûte moins que les gains de l'union.",
+   "a_quoi_ca_sert": "analyser les crises de la zone euro et l'élargissement de l'euro",
+   "partie_lecon": "IV.5 – Les zones monétaires optimales",
+   "mots_cles": [
+    "ZMO",
+    "chocs asymétriques",
+    "mobilité du travail",
+    "zone euro"
+   ]
+  },
+  {
+   "auteur": "Ronald McKinnon",
+   "ouvrage": "« Optimum Currency Areas »",
+   "date": "1963",
+   "idee": "Plus les économies sont ouvertes, plus elles ont intérêt à une zone monétaire optimale.",
+   "a_quoi_ca_sert": "justifier l'adhésion d'un petit pays ouvert à l'euro",
+   "partie_lecon": "IV.5 – Les zones monétaires optimales",
+   "mots_cles": [
+    "ZMO",
+    "ouverture",
+    "volatilité",
+    "union monétaire"
+   ]
+  },
+  {
+   "auteur": "Peter Kenen",
+   "ouvrage": "",
+   "date": "1969",
+   "idee": "Une économie diversifiée subit moins de chocs asymétriques et peut renoncer plus facilement au change.",
+   "a_quoi_ca_sert": "évaluer le risque d'une monnaie unique pour une économie spécialisée",
+   "partie_lecon": "IV.5 – Les zones monétaires optimales",
+   "mots_cles": [
+    "ZMO",
+    "diversification",
+    "chocs asymétriques",
+    "union monétaire"
+   ]
+  },
+  {
+   "auteur": "James Ingram et Harry Johnson",
+   "ouvrage": "",
+   "date": "1969",
+   "idee": "Une union monétaire suppose des transferts budgétaires vers les pays touchés par un choc asymétrique.",
+   "a_quoi_ca_sert": "plaider pour un budget fédéral européen ou une dette commune",
+   "partie_lecon": "IV.5 – Les zones monétaires optimales",
+   "mots_cles": [
+    "fédéralisme budgétaire",
+    "transferts",
+    "ZMO",
+    "zone euro"
+   ]
+  },
+  {
+   "auteur": "Guido Mantega",
+   "ouvrage": "",
+   "date": "2010",
+   "idee": "Les politiques monétaires américaine et chinoise mènent une « guerre des monnaies » qui pénalise les exportateurs émergents.",
+   "a_quoi_ca_sert": "illustrer le caractère non coopératif des politiques de change",
+   "partie_lecon": "IV.6.a – Quels objectifs ?",
+   "mots_cles": [
+    "guerre des monnaies",
+    "Brésil",
+    "dévaluations compétitives",
+    "équilibre de Nash"
+   ]
+  },
+  {
+   "auteur": "Nabil Aflouk et al.",
+   "ouvrage": "« Exchange Rate Misalignments and World Imbalances: a FEER Approach for Emerging Countries »",
+   "date": "2010",
+   "idee": "Le yuan était sous-évalué d'environ 35 % en 2010 selon l'approche FEER.",
+   "a_quoi_ca_sert": "étayer l'accusation de manipulation monétaire chinoise",
+   "partie_lecon": "IV.6.a – Quels objectifs ?",
+   "mots_cles": [
+    "yuan",
+    "sous-évaluation",
+    "FEER",
+    "Chine"
+   ]
+  },
+  {
+   "auteur": "Caroline Freund et Martha Denisse Pierola",
+   "ouvrage": "« Export Surges »",
+   "date": "2012",
+   "idee": "Une monnaie faible stimule les exportations et les stratégies de croissance extravertie.",
+   "a_quoi_ca_sert": "justifier une dépréciation pour relancer les exportations",
+   "partie_lecon": "IV.6.b – Monnaie faible ou monnaie forte ?",
+   "mots_cles": [
+    "monnaie faible",
+    "exportations",
+    "croissance extravertie",
+    "PED"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "The Real Exchange Rate and Economic Growth",
+   "date": "2008",
+   "idee": "Une monnaie sous-évaluée agit comme une subvention implicite à l'industrie exportatrice et favorise la croissance des PED.",
+   "a_quoi_ca_sert": "expliquer la stratégie de sous-évaluation de la Chine ou du Chili",
+   "partie_lecon": "IV.6.b – Monnaie faible ou monnaie forte ?",
+   "mots_cles": [
+    "sous-évaluation",
+    "industrialisation",
+    "subvention implicite",
+    "croissance"
+   ]
+  }
+ ],
+ "id": "2A-05-smi-change",
+ "programme_chapitre": "3.2 – La dynamique de la mondialisation financière : balance des paiements, cours de change et SMI"
+}

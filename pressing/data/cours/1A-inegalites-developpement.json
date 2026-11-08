@@ -1,0 +1,1115 @@
+{
+ "chapitre": "Inégalités et stratégies de développement",
+ "annee": "1A",
+ "module": "Module 2 – Croissance et développement",
+ "source_doc": "Inégalités et Stratégies de Développement",
+ "mots_cles_actu": [
+  "aide publique au développement",
+  "Afrique",
+  "BRICS",
+  "BRICS+",
+  "pays émergents",
+  "PMA",
+  "pauvreté",
+  "IDH",
+  "PNUD",
+  "Banque mondiale",
+  "FMI",
+  "inégalités",
+  "coefficient de Gini",
+  "1 % les plus riches",
+  "Chine",
+  "Inde",
+  "Brésil",
+  "ajustement structurel",
+  "protectionnisme",
+  "droits de douane",
+  "zones économiques spéciales",
+  "délocalisations",
+  "institutions",
+  "corruption",
+  "révolution verte"
+ ],
+ "references": [
+  {
+   "auteur": "François Perroux",
+   "ouvrage": "L'économie du XXe siècle",
+   "date": "1961",
+   "idee": "Le développement est la combinaison des changements mentaux et sociaux qui rendent une population apte à faire croître cumulativement et durablement son produit réel.",
+   "a_quoi_ca_sert": "distinguer croissance (quantitatif) et développement (qualitatif) face à un pays qui croît sans se développer",
+   "partie_lecon": "I.A – Pays développés / pays en développement",
+   "mots_cles": [
+    "développement",
+    "croissance",
+    "changements sociaux",
+    "qualitatif"
+   ],
+   "a_verifier": "1961 dans le texte, 1969 dans la liste des ouvrages (édition augmentée ?)"
+  },
+  {
+   "auteur": "Amartya Sen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le développement est l'expansion des capabilités, c'est-à-dire la liberté réelle de choisir son mode de vie ; le revenu n'est qu'un outil.",
+   "a_quoi_ca_sert": "montrer qu'une hausse du PIB ne suffit pas : il faut santé, éducation, libertés pour parler de développement",
+   "partie_lecon": "Intro / III.C.2 – Approches microéconomiques",
+   "mots_cles": [
+    "capabilités",
+    "liberté",
+    "développement humain",
+    "IDH"
+   ]
+  },
+  {
+   "auteur": "Amartya Sen et Mahbub ul Haq (PNUD)",
+   "ouvrage": "Rapport sur le développement humain",
+   "date": "1990",
+   "idee": "L'IDH mesure le développement par la santé, l'éducation et le niveau de vie plutôt que par le seul PIB.",
+   "a_quoi_ca_sert": "relativiser un classement par le PIB et comparer les niveaux de développement réel",
+   "partie_lecon": "I.C – Indicateurs qualitatifs",
+   "mots_cles": [
+    "IDH",
+    "PNUD",
+    "indicateurs",
+    "capabilités"
+   ]
+  },
+  {
+   "auteur": "Amartya Sen",
+   "ouvrage": "Pauvreté et famine",
+   "date": "1981",
+   "idee": "Les famines tiennent davantage aux dysfonctionnements de l'État qu'aux aléas climatiques.",
+   "a_quoi_ca_sert": "montrer qu'une crise alimentaire est d'abord un problème politique et institutionnel",
+   "partie_lecon": "III.C.2 – Approches microéconomiques",
+   "mots_cles": [
+    "famine",
+    "État",
+    "droits d'accès",
+    "institutions"
+   ]
+  },
+  {
+   "auteur": "Amartya Sen",
+   "ouvrage": "Un nouveau modèle économique. Développement, justice, liberté",
+   "date": "2000",
+   "idee": "Démocratie et développement sont interdépendants : les libertés politiques permettent de signaler les besoins et accroissent les capabilités.",
+   "a_quoi_ca_sert": "réfuter l'idée qu'un régime autoritaire serait nécessaire au décollage économique",
+   "partie_lecon": "III.C.2 – Approches microéconomiques",
+   "mots_cles": [
+    "démocratie",
+    "libertés",
+    "capabilités",
+    "développement"
+   ]
+  },
+  {
+   "auteur": "Paul Rosenstein-Rodan",
+   "ouvrage": "",
+   "date": "1943",
+   "idee": "Les pays pauvres manquent d'épargne : seul un « big push », une injection massive et simultanée de capitaux dans plusieurs secteurs, peut les sortir du piège.",
+   "a_quoi_ca_sert": "justifier une aide internationale massive ou un plan d'investissement coordonné",
+   "partie_lecon": "III.A / IV.C – Aide au développement",
+   "mots_cles": [
+    "big push",
+    "investissement",
+    "aide internationale",
+    "croissance équilibrée"
+   ]
+  },
+  {
+   "auteur": "Harry Truman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Premier à employer la notion de développement : les États-Unis doivent aider les pays « sous-développés » à rattraper leur retard, aussi pour endiguer le communisme.",
+   "a_quoi_ca_sert": "montrer que l'aide au développement est aussi un instrument géopolitique",
+   "partie_lecon": "I.A – Origine et contexte historique",
+   "mots_cles": [
+    "aide au développement",
+    "guerre froide",
+    "endiguement",
+    "géopolitique"
+   ]
+  },
+  {
+   "auteur": "Walt W. Rostow",
+   "ouvrage": "Les étapes de la croissance économique",
+   "date": "1960",
+   "idee": "Le développement suit un chemin unique en étapes, sur le modèle du Royaume-Uni ; le décollage exige épargne et investissement.",
+   "a_quoi_ca_sert": "illustrer la vision linéaire et occidentale du développement (et la critiquer)",
+   "partie_lecon": "I.A / III.A – Théories du retard",
+   "mots_cles": [
+    "étapes",
+    "décollage",
+    "modèle unique",
+    "investissement"
+   ]
+  },
+  {
+   "auteur": "Alfred Sauvy",
+   "ouvrage": "Trois mondes, une planète",
+   "date": "1952",
+   "idee": "Le « tiers-monde », comme le tiers état, est ignoré, exploité et méprisé, mais veut lui aussi être quelque chose.",
+   "a_quoi_ca_sert": "situer les pays en marge des deux blocs et leur volonté d'une voie propre",
+   "partie_lecon": "I.A – Émergence d'une troisième voie",
+   "mots_cles": [
+    "tiers-monde",
+    "non-alignés",
+    "Bandung",
+    "guerre froide"
+   ]
+  },
+  {
+   "auteur": "Alfred Sauvy",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le sous-développement résulte de « 9 plaies » (faim, maladie, analphabétisme, démographie, chômage, faible épargne, dépendance, instabilité politique, traditions) qui forment un cercle vicieux.",
+   "a_quoi_ca_sert": "montrer que le sous-développement est un ensemble de blocages qui se renforcent, pas un simple retard",
+   "partie_lecon": "III.A – Théories du retard de développement",
+   "mots_cles": [
+    "cercle vicieux",
+    "blocages structurels",
+    "démographie",
+    "capital humain"
+   ]
+  },
+  {
+   "auteur": "Alfred Sauvy",
+   "ouvrage": "La machine et le chômage",
+   "date": "1980",
+   "idee": "Les gains de productivité d'un secteur déversent la main-d'œuvre vers d'autres secteurs (agriculture, industrie, tertiaire).",
+   "a_quoi_ca_sert": "expliquer la transformation structurelle et les délocalisations, sans garantir la baisse des inégalités",
+   "partie_lecon": "III.A – Théorie du déversement",
+   "mots_cles": [
+    "déversement",
+    "productivité",
+    "emploi",
+    "tertiarisation"
+   ]
+  },
+  {
+   "auteur": "Serge Latouche",
+   "ouvrage": "L'Occidentalisation du monde",
+   "date": "1989",
+   "idee": "La notion de développement impose un modèle unique, capitaliste et occidental ; l'aide est aussi un instrument géopolitique.",
+   "a_quoi_ca_sert": "critiquer l'universalité du modèle occidental et l'aide conditionnée",
+   "partie_lecon": "I.A – Critique de la notion de développement",
+   "mots_cles": [
+    "occidentalisation",
+    "critique du développement",
+    "aide",
+    "cultures"
+   ]
+  },
+  {
+   "auteur": "Banque mondiale",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Classe les pays par RNB réel par habitant en quatre tranches de revenu.",
+   "a_quoi_ca_sert": "situer un pays (faible, intermédiaire, élevé) et montrer les limites d'un indicateur purement monétaire",
+   "partie_lecon": "I.B – Indicateurs quantitatifs",
+   "mots_cles": [
+    "RNB",
+    "classification",
+    "revenu par habitant",
+    "PPA"
+   ]
+  },
+  {
+   "auteur": "PNUD",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Des indices correcteurs (IDHI, IDG, IIG, IPM, IDH ajusté aux pressions planétaires) révèlent les inégalités internes, de genre et le coût écologique que l'IDH masque.",
+   "a_quoi_ca_sert": "montrer qu'un pays bien classé peut être très inégalitaire ou polluant",
+   "partie_lecon": "I.C – Indices correcteurs",
+   "mots_cles": [
+    "IDHI",
+    "pauvreté multidimensionnelle",
+    "genre",
+    "pressions planétaires"
+   ]
+  },
+  {
+   "auteur": "Kenneth Pomeranz",
+   "ouvrage": "Une grande divergence",
+   "date": "2010",
+   "idee": "La divergence entre pays (Chine / Royaume-Uni) naît avec la révolution industrielle, mais la tendance s'inverse à partir de 1980.",
+   "a_quoi_ca_sert": "mettre en perspective historique la convergence actuelle des émergents",
+   "partie_lecon": "II.A – Mondialisation, convergence et inégalités",
+   "mots_cles": [
+    "grande divergence",
+    "convergence",
+    "révolution industrielle",
+    "Chine"
+   ],
+   "a_verifier": "2010 = traduction française ; édition originale 2000"
+  },
+  {
+   "auteur": "Branko Milanovic",
+   "ouvrage": "Inégalités mondiales",
+   "date": "2016",
+   "idee": "La « courbe de l'éléphant » (1988-2008) : forte hausse des revenus des classes moyennes émergentes et des 1 % les plus riches, décrochage des classes moyennes et populaires des pays riches.",
+   "a_quoi_ca_sert": "expliquer la colère des classes moyennes occidentales face à la mondialisation et le rattrapage asiatique",
+   "partie_lecon": "II.A – Mondialisation, convergence et inégalités",
+   "mots_cles": [
+    "courbe de l'éléphant",
+    "mondialisation",
+    "classes moyennes",
+    "rente de citoyenneté"
+   ]
+  },
+  {
+   "auteur": "Branko Milanovic",
+   "ouvrage": "Inégalités mondiales",
+   "date": "2016",
+   "idee": "Les populations les plus pauvres ont vu leurs revenus croître beaucoup moins vite que la moyenne : la convergence laisse de côté les pays à faible revenu.",
+   "a_quoi_ca_sert": "nuancer la convergence mondiale : elle profite aux émergents, pas aux PMA",
+   "partie_lecon": "II.B – Une convergence toute relative",
+   "mots_cles": [
+    "décrochage",
+    "PMA",
+    "pauvreté",
+    "convergence"
+   ]
+  },
+  {
+   "auteur": "François Bourguignon",
+   "ouvrage": "La mondialisation de l'inégalité",
+   "date": "2012",
+   "idee": "Depuis 1990, les inégalités mondiales baissent grâce aux émergents, mais les inégalités internes aux pays augmentent.",
+   "a_quoi_ca_sert": "montrer le paradoxe : rattrapage entre pays et creusement des écarts dans chaque pays",
+   "partie_lecon": "II.A – Mondialisation, convergence et inégalités",
+   "mots_cles": [
+    "inégalités mondiales",
+    "inégalités internes",
+    "mondialisation",
+    "émergents"
+   ]
+  },
+  {
+   "auteur": "Wolfgang Stolper et Paul Samuelson",
+   "ouvrage": "",
+   "date": "1941",
+   "idee": "Le libre-échange accroît la rémunération du facteur abondant : au Nord, il enrichit les qualifiés et pénalise les non-qualifiés.",
+   "a_quoi_ca_sert": "expliquer le déclassement des classes populaires occidentales face aux importations à bas coût",
+   "partie_lecon": "II.A – Théorème de Stolper-Samuelson",
+   "mots_cles": [
+    "libre-échange",
+    "HOS",
+    "inégalités salariales",
+    "travail non qualifié"
+   ]
+  },
+  {
+   "auteur": "Pierre-Noël Giraud",
+   "ouvrage": "L'Inégalité du monde",
+   "date": "2019",
+   "idee": "Les inégalités dépendent du nombre de « nomades » (exposés à la concurrence mondiale) et de leur consommation de biens locaux produits par les « sédentaires ».",
+   "a_quoi_ca_sert": "montrer que la mondialisation réduit les écarts seulement si la richesse se diffuse localement",
+   "partie_lecon": "II.A – Nomades et sédentaires",
+   "mots_cles": [
+    "nomades",
+    "sédentaires",
+    "mondialisation",
+    "territoires",
+    "délocalisations"
+   ],
+   "a_verifier": "date : première édition probablement 1996"
+  },
+  {
+   "auteur": "Pierre-Noël Giraud",
+   "ouvrage": "L'homme inutile",
+   "date": "2015",
+   "idee": "L'Afrique subsaharienne se développera par l'implantation d'industries intensives en main-d'œuvre.",
+   "a_quoi_ca_sert": "penser l'industrialisation de l'Afrique et les délocalisations venues d'Asie",
+   "partie_lecon": "Catégories du développement – Afrique du Sud",
+   "mots_cles": [
+    "Afrique",
+    "industrialisation",
+    "emploi",
+    "délocalisations"
+   ]
+  },
+  {
+   "auteur": "Simon Kuznets",
+   "ouvrage": "",
+   "date": "1955",
+   "idee": "Courbe en cloche : le développement accroît d'abord les inégalités lors de l'industrialisation, puis les réduit naturellement.",
+   "a_quoi_ca_sert": "discuter l'idée que la croissance réduirait spontanément les inégalités",
+   "partie_lecon": "II.C – Développement et inégalités internes",
+   "mots_cles": [
+    "courbe de Kuznets",
+    "inégalités",
+    "industrialisation",
+    "croissance"
+   ]
+  },
+  {
+   "auteur": "Thomas Piketty",
+   "ouvrage": "Le Capital au XXIe siècle",
+   "date": "2013",
+   "idee": "La baisse des inégalités des Trente Glorieuses est due aux chocs (guerres, crise de 1930) et aux institutions ; depuis 1980, le patrimoine croît plus vite que les revenus du travail.",
+   "a_quoi_ca_sert": "réfuter Kuznets et expliquer le retour des inégalités depuis 1980",
+   "partie_lecon": "II.C – Développement et inégalités internes",
+   "mots_cles": [
+    "inégalités",
+    "patrimoine",
+    "redistribution",
+    "Trente Glorieuses"
+   ]
+  },
+  {
+   "auteur": "Thomas Piketty",
+   "ouvrage": "Capital et Idéologie",
+   "date": "2019",
+   "idee": "En 2018, les 1 % les plus riches captent 22 % du revenu mondial ; la chute du bloc soviétique a relégué l'égalité derrière la libéralisation.",
+   "a_quoi_ca_sert": "montrer que les inégalités relèvent de choix politiques et idéologiques",
+   "partie_lecon": "II.C – Développement et inégalités internes",
+   "mots_cles": [
+    "1 %",
+    "idéologie",
+    "libéralisation",
+    "concentration des revenus"
+   ]
+  },
+  {
+   "auteur": "ONU",
+   "ouvrage": "Rapport social dans le monde 2020",
+   "date": "2020",
+   "idee": "Le développement n'entraîne pas automatiquement l'égalité : 71 % de la population mondiale a vu les inégalités augmenter dans son pays entre 1990 et 2016.",
+   "a_quoi_ca_sert": "chiffrer la hausse des inégalités internes",
+   "partie_lecon": "II.C – Développement et inégalités internes",
+   "mots_cles": [
+    "inégalités internes",
+    "Gini",
+    "ONU",
+    "développement"
+   ]
+  },
+  {
+   "auteur": "PNUD",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Quatre tendances alimentent les inégalités : progrès technique, changement climatique, urbanisation, migrations ; les inégalités font perdre en moyenne 31 % d'IDH aux pays à développement moyen.",
+   "a_quoi_ca_sert": "montrer que les inégalités sont un frein au développement, pas seulement sa conséquence",
+   "partie_lecon": "II.C – Facteurs de divergence",
+   "mots_cles": [
+    "progrès technique",
+    "IA",
+    "climat",
+    "urbanisation",
+    "migrations"
+   ]
+  },
+  {
+   "auteur": "Arthur Okun",
+   "ouvrage": "Égalité et efficacité",
+   "date": "1975",
+   "idee": "Il existe un arbitrage entre égalité et efficacité : la redistribution est un « seau percé », mais l'argent ne doit pas acheter des droits.",
+   "a_quoi_ca_sert": "discuter le coût d'une redistribution forte (impôts, aides)",
+   "partie_lecon": "II.C – Développement et inégalités internes",
+   "mots_cles": [
+    "redistribution",
+    "efficacité",
+    "seau percé",
+    "droits"
+   ]
+  },
+  {
+   "auteur": "Richard Easterlin",
+   "ouvrage": "",
+   "date": "1974",
+   "idee": "Au-delà des besoins de base, la hausse du revenu accroît peu le bonheur (adaptation hédoniste, revenu relatif).",
+   "a_quoi_ca_sert": "relativiser la croissance du PIB comme objectif de bien-être",
+   "partie_lecon": "II.C – Paradoxe d'Easterlin",
+   "mots_cles": [
+    "bonheur",
+    "bien-être",
+    "revenu relatif",
+    "croissance"
+   ]
+  },
+  {
+   "auteur": "John Rawls",
+   "ouvrage": "Théorie de la justice",
+   "date": "1971",
+   "idee": "Les inégalités sont justes si l'égalité des chances est respectée et si elles améliorent le sort des plus défavorisés.",
+   "a_quoi_ca_sert": "juger si des inégalités sont acceptables (égalité des chances, sort des plus faibles)",
+   "partie_lecon": "II.C – Développement et inégalités internes",
+   "mots_cles": [
+    "justice sociale",
+    "égalité des chances",
+    "principe de différence",
+    "inégalités justes"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'impôt négatif réduit les inégalités sans l'État-providence classique : sous un seuil, on reçoit la différence.",
+   "a_quoi_ca_sert": "illustrer une alternative libérale à la redistribution (revenu minimum, allocation universelle)",
+   "partie_lecon": "II.C – Développement et inégalités internes",
+   "mots_cles": [
+    "impôt négatif",
+    "revenu minimum",
+    "redistribution",
+    "libéralisme"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman (vision monétariste du FMI)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'inflation est un phénomène purement monétaire, causé par la planche à billets ; le remède est l'austérité.",
+   "a_quoi_ca_sert": "opposer la lecture monétariste à la lecture structuraliste de l'inflation des pays en développement",
+   "partie_lecon": "Annexe – Structuralistes vs Monétaristes",
+   "mots_cles": [
+    "inflation",
+    "monétarisme",
+    "austérité",
+    "FMI"
+   ]
+  },
+  {
+   "auteur": "W. Arthur Lewis",
+   "ouvrage": "",
+   "date": "1954",
+   "idee": "Le développement passe par un transfert de main-d'œuvre du secteur traditionnel (offre de travail illimitée) vers le secteur moderne, financé par les profits tirés de salaires bas.",
+   "a_quoi_ca_sert": "expliquer l'industrialisation par une main-d'œuvre bon marché, le dualisme et l'économie informelle",
+   "partie_lecon": "II.C – Modèle dualiste / IV.B – Agriculture",
+   "mots_cles": [
+    "dualisme",
+    "exode rural",
+    "secteur informel",
+    "industrialisation",
+    "salaires"
+   ],
+   "a_verifier": "le cours indique 1979 (date du Nobel) ; modèle publié en 1954"
+  },
+  {
+   "auteur": "Esther Duflo",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les maladies parasitaires réduisent la fréquentation scolaire et entretiennent le cercle vicieux de la pauvreté.",
+   "a_quoi_ca_sert": "montrer le lien santé – éducation – pauvreté (ex. déparasitage)",
+   "partie_lecon": "III.A – Les 9 plaies (maladie, alphabétisation)",
+   "mots_cles": [
+    "santé",
+    "éducation",
+    "capital humain",
+    "pauvreté"
+   ]
+  },
+  {
+   "auteur": "Raúl Prebisch",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les prix des matières premières croissent moins vite que ceux des produits manufacturés : la spécialisation primaire enferme les pays dans la dépendance.",
+   "a_quoi_ca_sert": "montrer qu'une spécialisation dans les matières premières est appauvrissante",
+   "partie_lecon": "III.A – Les 9 plaies (dépendance)",
+   "mots_cles": [
+    "termes de l'échange",
+    "matières premières",
+    "dépendance",
+    "centre-périphérie"
+   ]
+  },
+  {
+   "auteur": "Ragnar Nurkse",
+   "ouvrage": "Problems of Capital Formation in Underdeveloped Countries",
+   "date": "1953",
+   "idee": "« Les pays pauvres restent pauvres car ils sont pauvres » : cercles vicieux de l'offre (pas d'épargne) et de la demande (marché trop étroit).",
+   "a_quoi_ca_sert": "expliquer les trappes à pauvreté et justifier un investissement public simultané",
+   "partie_lecon": "III.A – Théories du retard (cercles vicieux)",
+   "mots_cles": [
+    "cercle vicieux",
+    "trappe à pauvreté",
+    "épargne",
+    "croissance équilibrée"
+   ]
+  },
+  {
+   "auteur": "Gunnar Myrdal",
+   "ouvrage": "An American Dilemma: The Negro Problem and Modern Democracy",
+   "date": "1944",
+   "idee": "Causalité circulaire et cumulative : discrimination et pauvreté se renforcent, mais une intervention positive peut enclencher une spirale ascendante.",
+   "a_quoi_ca_sert": "montrer que les inégalités s'auto-entretiennent et qu'une politique volontariste peut les briser",
+   "partie_lecon": "III.A – Théories du retard",
+   "mots_cles": [
+    "causalité cumulative",
+    "discriminations",
+    "cercle vicieux",
+    "intervention publique"
+   ]
+  },
+  {
+   "auteur": "Raúl Prebisch et Hans Singer (CEPAL)",
+   "ouvrage": "",
+   "date": "1949",
+   "idee": "Dégradation séculaire des termes de l'échange (loi d'Engel, produits de synthèse, gains de productivité captés au Nord) : il faut industrialiser par substitution aux importations.",
+   "a_quoi_ca_sert": "justifier un protectionnisme pour les pays du Sud et expliquer l'ISI latino-américaine",
+   "partie_lecon": "III.B – Théories de l'insertion dans les échanges",
+   "mots_cles": [
+    "termes de l'échange",
+    "ISI",
+    "protectionnisme",
+    "Amérique latine",
+    "CEPAL"
+   ]
+  },
+  {
+   "auteur": "CEPAL / école structuraliste (Prebisch)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'inflation est le symptôme de structures rigides (latifundia, pénurie de devises) ; le remède est la réforme agraire et la planification.",
+   "a_quoi_ca_sert": "expliquer l'inflation des pays en développement par l'offre et non par la monnaie",
+   "partie_lecon": "Consensus de Washington / Annexe – Structuralistes vs Monétaristes",
+   "mots_cles": [
+    "structuralisme",
+    "inflation",
+    "réforme agraire",
+    "planification"
+   ]
+  },
+  {
+   "auteur": "Friedrich List",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le protectionnisme éducateur protège temporairement les industries naissantes jusqu'à ce qu'elles soient compétitives.",
+   "a_quoi_ca_sert": "justifier une protection ciblée et temporaire (Corée du Sud) et critiquer une protection permanente (ISI)",
+   "partie_lecon": "III.B – ISI / Annexe",
+   "mots_cles": [
+    "protectionnisme éducateur",
+    "industrie naissante",
+    "droits de douane",
+    "État stratège"
+   ]
+  },
+  {
+   "auteur": "Kaname Akamatsu",
+   "ouvrage": "",
+   "date": "1937",
+   "idee": "Modèle du « vol d'oies sauvages » : les pays remontent les filières en suivant le pays leader.",
+   "a_quoi_ca_sert": "expliquer la réussite asiatique par la remontée des filières et l'exportation",
+   "partie_lecon": "III.B – Comparaison ISI / promotion des exportations",
+   "mots_cles": [
+    "vol d'oies sauvages",
+    "remontée des filières",
+    "Asie",
+    "exportations"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz",
+   "ouvrage": "La Grande Désillusion",
+   "date": "2002",
+   "idee": "Le FMI a imposé des remèdes uniformes (austérité, privatisations, libéralisation financière) qui ont détruit le tissu social et provoqué des crises comme en 1997.",
+   "a_quoi_ca_sert": "critiquer le Consensus de Washington et défendre un rôle de l'État face aux défaillances du marché",
+   "partie_lecon": "III.B – Critique de Stiglitz",
+   "mots_cles": [
+    "FMI",
+    "Consensus de Washington",
+    "asymétrie d'information",
+    "hot money",
+    "austérité"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz",
+   "ouvrage": "La Grande Désillusion",
+   "date": "2002",
+   "idee": "Deux poids, deux mesures : le Nord pratique la relance et protège son agriculture, mais impose l'austérité et le libre-échange au Sud.",
+   "a_quoi_ca_sert": "dénoncer l'hypocrisie commerciale des pays riches (PAC, subventions agricoles)",
+   "partie_lecon": "III.B / Consensus de Washington – Critiques",
+   "mots_cles": [
+    "libre-échange asymétrique",
+    "PAC",
+    "subventions agricoles",
+    "relance"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "La mondialisation n'est pas coupable",
+   "date": "2000",
+   "idee": "La mondialisation n'est pas la cause principale des inégalités du Nord : c'est le progrès technique biaisé en faveur des qualifiés et les choix internes.",
+   "a_quoi_ca_sert": "contester le protectionnisme comme réponse aux inégalités et défendre formation et redistribution",
+   "partie_lecon": "III.B – Krugman",
+   "mots_cles": [
+    "progrès technique biaisé",
+    "protectionnisme",
+    "inégalités salariales",
+    "formation"
+   ],
+   "a_verifier": "date de l'édition française (souvent 1998)"
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le libre-échange fondé sur les avantages comparatifs accroît le surplus total.",
+   "a_quoi_ca_sert": "rappeler que les gains agrégés de l'échange dépassent les pertes sectorielles",
+   "partie_lecon": "III.B – Krugman",
+   "mots_cles": [
+    "avantages comparatifs",
+    "libre-échange",
+    "gains de l'échange",
+    "spécialisation"
+   ]
+  },
+  {
+   "auteur": "Paul Bairoch",
+   "ouvrage": "Mythes et paradoxes de l'histoire économique",
+   "date": "1996",
+   "idee": "Entre 1860 et 1913, le libre-échange a freiné la croissance européenne et le retour au protectionnisme l'a relancée.",
+   "a_quoi_ca_sert": "contester l'idée que le libre-échange est toujours facteur de croissance",
+   "partie_lecon": "III.B – Paradoxe de Bairoch",
+   "mots_cles": [
+    "protectionnisme",
+    "libre-échange",
+    "croissance",
+    "XIXe siècle",
+    "tarifs Méline"
+   ],
+   "a_verifier": "date de l'ouvrage (édition française probablement 1994)"
+  },
+  {
+   "auteur": "Kevin O'Rourke",
+   "ouvrage": "",
+   "date": "2000",
+   "idee": "Sur 10 pays avancés (1875-1913), droits de douane élevés et croissance du PIB par tête sont positivement corrélés.",
+   "a_quoi_ca_sert": "valider économétriquement le paradoxe de Bairoch",
+   "partie_lecon": "III.B – Vérification et nuances",
+   "mots_cles": [
+    "économétrie",
+    "protectionnisme",
+    "croissance",
+    "paradoxe de Bairoch"
+   ]
+  },
+  {
+   "auteur": "Michael Clemens et Jeffrey Williamson",
+   "ouvrage": "",
+   "date": "2001",
+   "idee": "Sur 35 pays, le protectionnisme aide les émergents et le centre mais nuit à la périphérie européenne : le paradoxe n'est pas universel.",
+   "a_quoi_ca_sert": "nuancer : la protection ne profite qu'aux pays capables de protéger les bons secteurs",
+   "partie_lecon": "III.B – Vérification et nuances",
+   "mots_cles": [
+    "protectionnisme",
+    "croissance",
+    "périphérie",
+    "hétérogénéité"
+   ]
+  },
+  {
+   "auteur": "Sibylle Lehmann et Kevin O'Rourke",
+   "ouvrage": "",
+   "date": "2008",
+   "idee": "Protéger l'industrie stimule la croissance (externalités d'apprentissage), protéger l'agriculture la freine.",
+   "a_quoi_ca_sert": "distinguer protection industrielle utile et protection agricole coûteuse",
+   "partie_lecon": "III.B / Analyses sectorielles et limites",
+   "mots_cles": [
+    "protection sectorielle",
+    "externalités positives",
+    "industrie",
+    "agriculture"
+   ]
+  },
+  {
+   "auteur": "Antonio Tena-Junguito",
+   "ouvrage": "",
+   "date": "2009",
+   "idee": "L'efficacité du protectionnisme dépend des institutions : les pays avancés résistent aux lobbies et protègent les bons secteurs.",
+   "a_quoi_ca_sert": "relier politique commerciale et qualité des institutions (lobbies)",
+   "partie_lecon": "III.B / Analyses sectorielles et limites",
+   "mots_cles": [
+    "institutions",
+    "lobbies",
+    "protectionnisme",
+    "bons secteurs"
+   ]
+  },
+  {
+   "auteur": "Jean-Pierre Blancheton et Stéphane Becuwe",
+   "ouvrage": "",
+   "date": "2013",
+   "idee": "Le tarif douanier mesure mal l'ouverture ; la croissance tient surtout au progrès technique, aux coûts de transport et au change.",
+   "a_quoi_ca_sert": "inviter à la prudence avant de conclure sur l'effet d'une politique douanière",
+   "partie_lecon": "III.B / Analyses sectorielles et limites",
+   "mots_cles": [
+    "protectionnisme",
+    "ouverture",
+    "progrès technique",
+    "taux de change"
+   ]
+  },
+  {
+   "auteur": "Douglass North",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le sous-développement est une défaillance des institutions ; les institutions inefficaces s'auto-entretiennent (dépendance au sentier) car les élites en profitent.",
+   "a_quoi_ca_sert": "expliquer la persistance de la corruption et du blocage des réformes",
+   "partie_lecon": "III.C.1 – Approches néo-institutionnalistes",
+   "mots_cles": [
+    "institutions",
+    "dépendance au sentier",
+    "droits de propriété",
+    "élites",
+    "corruption"
+   ]
+  },
+  {
+   "auteur": "Ronald Coase",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Des coûts de transaction trop élevés peuvent rendre le développement non rentable.",
+   "a_quoi_ca_sert": "expliquer pourquoi infrastructures et règles fiables conditionnent le décollage",
+   "partie_lecon": "III.C.1 – Approches néo-institutionnalistes",
+   "mots_cles": [
+    "coûts de transaction",
+    "institutions",
+    "infrastructures",
+    "organisation"
+   ]
+  },
+  {
+   "auteur": "Daron Acemoglu et James A. Robinson",
+   "ouvrage": "Prospérité, puissance et pauvreté",
+   "date": "2012",
+   "idee": "La qualité des institutions est le facteur principal du développement : institutions inclusives vs extractives héritées de la colonisation (ex. Nogales).",
+   "a_quoi_ca_sert": "montrer que l'écart de richesse entre deux pays voisins vient des institutions, pas de la géographie ni de la culture",
+   "partie_lecon": "III.C.1 – Héritage des institutions coloniales",
+   "mots_cles": [
+    "institutions inclusives",
+    "institutions extractives",
+    "colonisation",
+    "droits de propriété"
+   ]
+  },
+  {
+   "auteur": "Élise Huillery",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les investissements coloniaux (routes, écoles, dispensaires) expliquent en partie le développement actuel des districts d'Afrique de l'Ouest.",
+   "a_quoi_ca_sert": "montrer la persistance des inégalités territoriales héritées de la colonisation",
+   "partie_lecon": "III.C.1 – Héritage colonial",
+   "mots_cles": [
+    "colonisation",
+    "infrastructures",
+    "Afrique de l'Ouest",
+    "dépendance au sentier"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "Nations et mondialisation",
+   "date": "2008",
+   "idee": "Les institutions priment sur la géographie et l'intégration, mais leur forme doit être nationale : pas de « prêt-à-porter » institutionnel.",
+   "a_quoi_ca_sert": "critiquer les recettes uniformes et expliquer le succès d'institutions de transition (Chine, Corée)",
+   "partie_lecon": "III.C.1 – Autres",
+   "mots_cles": [
+    "institutions",
+    "one-size-fits-all",
+    "Consensus de Washington",
+    "Chine"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le post-consensus ajoute dix commandements centrés sur la bonne gouvernance, la protection sociale et une ouverture prudente du compte de capital.",
+   "a_quoi_ca_sert": "montrer l'évolution des institutions internationales après les crises des années 1990",
+   "partie_lecon": "Consensus de Washington – Post-consensus",
+   "mots_cles": [
+    "bonne gouvernance",
+    "post-consensus",
+    "protection sociale",
+    "réformes"
+   ]
+  },
+  {
+   "auteur": "Jeffrey Sachs",
+   "ouvrage": "La fin de la pauvreté",
+   "date": "2005",
+   "idee": "La géographie (enclavement, fardeau épidémiologique) bloque l'extension des marchés ; les pays cumulant mauvaise géographie et mauvaises institutions ont besoin d'une aide ciblée.",
+   "a_quoi_ca_sert": "justifier l'aide internationale pour les pays enclavés et tropicaux",
+   "partie_lecon": "III.C.1 / IV.C – Aide au développement",
+   "mots_cles": [
+    "géographie",
+    "paludisme",
+    "trappe à pauvreté",
+    "aide internationale"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La division du travail est limitée par la taille du marché.",
+   "a_quoi_ca_sert": "expliquer pourquoi l'isolement géographique freine la spécialisation et la productivité",
+   "partie_lecon": "III.C.1 – Sachs",
+   "mots_cles": [
+    "division du travail",
+    "taille du marché",
+    "spécialisation",
+    "productivité"
+   ]
+  },
+  {
+   "auteur": "Montesquieu",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le climat déterminerait les mœurs (explication culturelle), thèse que Sachs rejette au profit d'une explication sanitaire.",
+   "a_quoi_ca_sert": "opposer explication culturelle et explication sanitaire du retard tropical",
+   "partie_lecon": "III.C.1 – Sachs",
+   "mots_cles": [
+    "climat",
+    "culture",
+    "géographie",
+    "santé"
+   ]
+  },
+  {
+   "auteur": "Esther Duflo et Abhijit Banerjee",
+   "ouvrage": "Repenser la pauvreté",
+   "date": "2012",
+   "idee": "La randomisation (groupe test / groupe témoin) permet d'évaluer quelles politiques réduisent vraiment la pauvreté.",
+   "a_quoi_ca_sert": "défendre une aide évaluée, ciblée et peu coûteuse plutôt que des solutions globales",
+   "partie_lecon": "III.C.2 – Approches microéconomiques / IV.C",
+   "mots_cles": [
+    "randomisation",
+    "évaluation",
+    "J-PAL",
+    "pauvreté",
+    "aide"
+   ]
+  },
+  {
+   "auteur": "Esther Duflo",
+   "ouvrage": "Le développement humain ; La politique de l'autonomie",
+   "date": "2010",
+   "idee": "Les résultats du J-PAL montrent des solutions à fort impact (déparasitage, moustiquaires) qui renforcent l'autonomie des pauvres.",
+   "a_quoi_ca_sert": "illustrer l'optimisation des fonds d'aide par l'évaluation",
+   "partie_lecon": "III.C.2 – Approches microéconomiques",
+   "mots_cles": [
+    "J-PAL",
+    "autonomie",
+    "santé",
+    "capabilités"
+   ]
+  },
+  {
+   "auteur": "Pascaline Dupas",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La gratuité des moustiquaires accroît l'efficacité de la prévention du paludisme.",
+   "a_quoi_ca_sert": "trancher le débat gratuité / paiement des biens de santé dans les pays pauvres",
+   "partie_lecon": "III.C.2 – Approches microéconomiques",
+   "mots_cles": [
+    "gratuité",
+    "paludisme",
+    "externalités positives",
+    "santé publique"
+   ]
+  },
+  {
+   "auteur": "Gérard Destanne de Bernis",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les industries industrialisantes (industrie lourde en amont) doivent entraîner le reste de l'économie (Algérie de Boumédiène).",
+   "a_quoi_ca_sert": "illustrer une stratégie de croissance déséquilibrée et son échec (agriculture négligée)",
+   "partie_lecon": "IV.A – Industrialisation par les industries industrialisantes",
+   "mots_cles": [
+    "industries industrialisantes",
+    "industrie lourde",
+    "effets d'entraînement",
+    "Algérie"
+   ]
+  },
+  {
+   "auteur": "Prasanta Chandra Mahalanobis",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Inspirateur du 2e plan quinquennal indien (1956-1961) : priorité aux biens d'équipement pour l'indépendance économique.",
+   "a_quoi_ca_sert": "illustrer le développement autocentré et planifié de l'Inde de Nehru",
+   "partie_lecon": "IV.A – Industries industrialisantes (Inde)",
+   "mots_cles": [
+    "planification",
+    "Inde",
+    "biens d'équipement",
+    "License Raj"
+   ]
+  },
+  {
+   "auteur": "David Landes",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La concurrence entre États a stimulé l'innovation en Europe ; la Chine l'a recréée entre provinces.",
+   "a_quoi_ca_sert": "expliquer le dynamisme chinois par la compétition entre provinces pour attirer les IDE",
+   "partie_lecon": "IV.A – Le cas chinois",
+   "mots_cles": [
+    "concurrence entre États",
+    "innovation",
+    "Chine",
+    "IDE"
+   ]
+  },
+  {
+   "auteur": "Norman Borlaug",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les variétés à haut rendement, financées par les fondations Rockefeller et Ford, ont permis la révolution verte.",
+   "a_quoi_ca_sert": "montrer que la productivité agricole est une condition du développement (Inde, Mexique)",
+   "partie_lecon": "IV.B – L'agriculture : un secteur oublié",
+   "mots_cles": [
+    "révolution verte",
+    "agriculture",
+    "rendements",
+    "sécurité alimentaire"
+   ]
+  },
+  {
+   "auteur": "William Easterly",
+   "ouvrage": "Le fardeau de l'homme blanc",
+   "date": "2006",
+   "idee": "Après plus de quarante ans, l'aide n'a pas fait décoller les pays pauvres : gaspillage, mauvaises incitations, solutions imposées d'en haut.",
+   "a_quoi_ca_sert": "critiquer l'efficacité de l'aide publique au développement",
+   "partie_lecon": "IV.C – Aide internationale",
+   "mots_cles": [
+    "aide au développement",
+    "inefficacité",
+    "incitations",
+    "agences internationales"
+   ]
+  },
+  {
+   "auteur": "Dambisa Moyo",
+   "ouvrage": "L'aide fatale",
+   "date": "2009",
+   "idee": "L'aide crée de la dépendance, encourage la corruption et maintient des élites prédatrices au pouvoir.",
+   "a_quoi_ca_sert": "montrer les effets pervers de l'aide sur la gouvernance africaine",
+   "partie_lecon": "IV.C – Aide internationale",
+   "mots_cles": [
+    "aide",
+    "dépendance",
+    "corruption",
+    "Afrique"
+   ]
+  },
+  {
+   "auteur": "John Williamson",
+   "ouvrage": "",
+   "date": "1990",
+   "idee": "Le Consensus de Washington résume en dix commandements (discipline budgétaire, libéralisation, privatisations, droits de propriété) la doctrine du FMI et de la Banque mondiale.",
+   "a_quoi_ca_sert": "analyser les plans d'ajustement structurel et les conditions imposées par le FMI",
+   "partie_lecon": "II.C / Consensus de Washington",
+   "mots_cles": [
+    "Consensus de Washington",
+    "ajustement structurel",
+    "FMI",
+    "libéralisation",
+    "privatisations"
+   ]
+  },
+  {
+   "auteur": "John Williamson",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'usage fait du Consensus par les institutions financières ne correspond pas à son projet initial, plus modéré.",
+   "a_quoi_ca_sert": "nuancer la critique : le problème est souvent l'application et le séquençage des réformes",
+   "partie_lecon": "Consensus de Washington – Synthèse",
+   "mots_cles": [
+    "séquençage des réformes",
+    "FMI",
+    "modération",
+    "réformes"
+   ]
+  },
+  {
+   "auteur": "Jeffrey Sachs et Andrew Warner",
+   "ouvrage": "",
+   "date": "1995",
+   "idee": "L'ouverture commerciale favorise la croissance.",
+   "a_quoi_ca_sert": "appuyer la libéralisation des échanges",
+   "partie_lecon": "Consensus de Washington – 6) Libéralisation des échanges",
+   "mots_cles": [
+    "libre-échange",
+    "ouverture",
+    "croissance",
+    "économétrie"
+   ]
+  },
+  {
+   "auteur": "Jagdish Bhagwati",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Défenseur du libre-échange comme facteur de croissance.",
+   "a_quoi_ca_sert": "appuyer la libéralisation des échanges",
+   "partie_lecon": "Consensus de Washington – 6) Libéralisation des échanges",
+   "mots_cles": [
+    "libre-échange",
+    "croissance",
+    "commerce international"
+   ]
+  },
+  {
+   "auteur": "Banque mondiale",
+   "ouvrage": "Rapport annuel 1997",
+   "date": "1997",
+   "idee": "La « bonne gouvernance » est indispensable au bon fonctionnement du marché.",
+   "a_quoi_ca_sert": "montrer le retour de l'État et des institutions après le Consensus de Washington",
+   "partie_lecon": "Consensus de Washington – Post-consensus",
+   "mots_cles": [
+    "bonne gouvernance",
+    "institutions",
+    "État",
+    "post-consensus"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta et Guo Bai",
+   "ouvrage": "La voie chinoise. Capitalisme et empire",
+   "date": "2012",
+   "idee": "La Chine se développe en trois phases (libéralisation 1978, accélération après 1994, développement plus durable) selon un « socialisme de marché ».",
+   "a_quoi_ca_sert": "expliquer un modèle où l'État garde un rôle central dans une économie de marché",
+   "partie_lecon": "Catégories du développement – Chine",
+   "mots_cles": [
+    "Chine",
+    "socialisme de marché",
+    "État",
+    "ZES"
+   ]
+  },
+  {
+   "auteur": "Center for International Development (Harvard)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le centre de la croissance mondiale pourrait se déplacer vers l'Inde dans la prochaine décennie.",
+   "a_quoi_ca_sert": "illustrer la montée de l'Inde malgré pauvreté et inégalités",
+   "partie_lecon": "Catégories du développement – Inde",
+   "mots_cles": [
+    "Inde",
+    "croissance",
+    "services informatiques",
+    "émergence"
+   ]
+  },
+  {
+   "auteur": "Pierre Salama",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La « reprimarisation » de l'économie brésilienne soutient moins la croissance qu'au cours des années 2000.",
+   "a_quoi_ca_sert": "montrer les fragilités d'un émergent dépendant des matières premières",
+   "partie_lecon": "Catégories du développement – Brésil",
+   "mots_cles": [
+    "reprimarisation",
+    "Brésil",
+    "matières premières",
+    "désindustrialisation"
+   ]
+  }
+ ],
+ "id": "1A-inegalites-developpement",
+ "programme_chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : inégalités et stratégies de développement"
+}

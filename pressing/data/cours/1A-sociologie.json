@@ -1,0 +1,1484 @@
+{
+ "chapitre": "Fondements de la sociologie",
+ "annee": "1A",
+ "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+ "source_doc": "chap 4 + cours socio",
+ "mots_cles_actu": [
+  "individualisme",
+  "lien social",
+  "cohésion sociale",
+  "isolement",
+  "suicide",
+  "anomie",
+  "école",
+  "inégalités scolaires",
+  "Parcoursup",
+  "méritocratie",
+  "reproduction sociale",
+  "déviance",
+  "délinquance",
+  "drogue",
+  "immigration",
+  "intégration",
+  "ségrégation urbaine",
+  "religion",
+  "laïcité",
+  "mouvement social",
+  "syndicats",
+  "engagement associatif",
+  "fake news",
+  "complotisme",
+  "militantisme à l'université"
+ ],
+ "references": [
+  {
+   "auteur": "Luc Boltanski",
+   "ouvrage": "Énigmes et complots",
+   "date": "2012",
+   "idee": "L'enquête (policière, sociologique, psychanalytique) devient une manière moderne de penser le monde, fondée sur le doute et la vérification.",
+   "a_quoi_ca_sert": "montrer que la défiance envers les apparences et la culture du soupçon (complotisme, enquêtes) sont un trait de la modernité",
+   "partie_lecon": "I.1.c – Contexte intellectuel",
+   "mots_cles": [
+    "enquête",
+    "soupçon",
+    "complot",
+    "vérité"
+   ]
+  },
+  {
+   "auteur": "Charles Fourier",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Socialiste utopique : remédier à la misère ouvrière par des communautés idéales fondées sur la coopération (le Phalanstère), hors du capitalisme.",
+   "a_quoi_ca_sert": "montrer qu'il existe une tradition d'alternatives coopératives au capitalisme (coopératives, tiers-lieux, ESS)",
+   "partie_lecon": "I.1.d – Socialistes utopiques",
+   "mots_cles": [
+    "utopie",
+    "coopération",
+    "phalanstère",
+    "question sociale"
+   ]
+  },
+  {
+   "auteur": "Robert Owen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Socialiste utopique : communautés ouvrières coopératives (New Lanark) diffusées par la contagion de l'exemple plutôt que par la révolution.",
+   "a_quoi_ca_sert": "montrer qu'on peut chercher à améliorer la condition ouvrière par l'expérimentation locale plutôt que par la rupture politique",
+   "partie_lecon": "I.1.d – Socialistes utopiques",
+   "mots_cles": [
+    "utopie",
+    "coopératives",
+    "New Lanark",
+    "réformisme"
+   ]
+  },
+  {
+   "auteur": "Claude-Henri de Saint-Simon",
+   "ouvrage": "Parabole",
+   "date": "1819",
+   "idee": "La société industrielle doit être dirigée par les « producteurs » (ingénieurs, banquiers) et non par les « oisifs » : une vision technocratique.",
+   "a_quoi_ca_sert": "montrer l'origine de l'idéal technocratique (gouvernement des experts) face aux débats sur le rôle des experts ou des ingénieurs",
+   "partie_lecon": "I.1.d – Saint-simonisme",
+   "mots_cles": [
+    "technocratie",
+    "experts",
+    "industrialisme",
+    "producteurs"
+   ]
+  },
+  {
+   "auteur": "Emmanuel-Joseph Sieyès",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Premier à employer le terme « sociologie », repris ensuite par Comte.",
+   "a_quoi_ca_sert": "situer l'origine du mot sociologie",
+   "partie_lecon": "I.2.a – Précurseurs terminologiques",
+   "mots_cles": [
+    "sociologie",
+    "Révolution française",
+    "terminologie"
+   ]
+  },
+  {
+   "auteur": "Adolphe Quetelet",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Propose l'idée d'une « physique sociale » : étudier la société avec les outils statistiques des sciences de la nature.",
+   "a_quoi_ca_sert": "montrer l'ancienneté de l'approche statistique des comportements sociaux",
+   "partie_lecon": "I.2.a – Précurseurs terminologiques",
+   "mots_cles": [
+    "physique sociale",
+    "statistique",
+    "science"
+   ]
+  },
+  {
+   "auteur": "Auguste Comte",
+   "ouvrage": "Cours de philosophie positive",
+   "date": "1830-1842",
+   "idee": "La pensée humaine passe par trois états (théologique, métaphysique, positif) ; la sociologie doit étudier les faits observables pour dégager des lois.",
+   "a_quoi_ca_sert": "montrer l'ambition scientifique de la sociologie et la foi dans le progrès par la science",
+   "partie_lecon": "I.2.b – Comte et le positivisme",
+   "mots_cles": [
+    "positivisme",
+    "loi des trois états",
+    "science",
+    "progrès"
+   ]
+  },
+  {
+   "auteur": "Robert Nisbet",
+   "ouvrage": "La Tradition sociologique",
+   "date": "1966",
+   "idee": "Les révolutions industrielle, politique et scientifique produisent trois processus qui fondent la sociologie : individualisation, abstraction, généralisation.",
+   "a_quoi_ca_sert": "montrer que l'individualisation et la montée de valeurs abstraites sont le fil directeur des transformations sociales modernes",
+   "partie_lecon": "I.2.c – Nisbet",
+   "mots_cles": [
+    "individualisation",
+    "abstraction",
+    "généralisation",
+    "modernité"
+   ]
+  },
+  {
+   "auteur": "Alexis de Tocqueville",
+   "ouvrage": "De la démocratie en Amérique",
+   "date": "1835-1840",
+   "idee": "La démocratie est un « état social » fondé sur l'égalisation des conditions, qui fait émerger une vaste classe moyenne.",
+   "a_quoi_ca_sert": "montrer que la démocratie n'est pas seulement un régime politique mais une dynamique d'égalisation sociale",
+   "partie_lecon": "I.2.d – Tocqueville",
+   "mots_cles": [
+    "égalité des conditions",
+    "démocratie",
+    "classe moyenne",
+    "mobilité"
+   ]
+  },
+  {
+   "auteur": "Alexis de Tocqueville",
+   "ouvrage": "De la démocratie en Amérique",
+   "date": "1835-1840",
+   "idee": "L'égalisation des conditions favorise l'individualisme et le repli sur la sphère privée ; les corps intermédiaires (associations) protègent contre ce risque.",
+   "a_quoi_ca_sert": "montrer que le repli individualiste et la crise de l'engagement menacent la cohésion, et que les associations locales la renforcent",
+   "partie_lecon": "I.2.d – Tocqueville",
+   "mots_cles": [
+    "individualisme",
+    "corps intermédiaires",
+    "associations",
+    "cohésion sociale"
+   ]
+  },
+  {
+   "auteur": "Alexis de Tocqueville",
+   "ouvrage": "De la démocratie en Amérique",
+   "date": "1835-1840",
+   "idee": "Plus l'égalité progresse, plus la moindre inégalité devient insupportable (frustration relative), ce qui peut mener au despotisme de la majorité.",
+   "a_quoi_ca_sert": "montrer pourquoi la colère sociale peut croître alors même que les inégalités diminuent",
+   "partie_lecon": "I.2.d – Tocqueville",
+   "mots_cles": [
+    "frustration relative",
+    "inégalités",
+    "despotisme",
+    "démocratie"
+   ]
+  },
+  {
+   "auteur": "Jacques Ion",
+   "ouvrage": "La Fin des militants ?",
+   "date": "1997",
+   "idee": "On passe d'un engagement militant fidèle à une institution (« timbre-poste ») à un engagement distancié, ponctuel et lié à une cause (« post-it »).",
+   "a_quoi_ca_sert": "montrer la transformation de l'engagement (baisse des adhésions aux partis et syndicats, mobilisations ponctuelles, pétitions en ligne)",
+   "partie_lecon": "I.2.d – Tocqueville (enquête récente)",
+   "mots_cles": [
+    "militantisme",
+    "engagement distancié",
+    "syndicats",
+    "partis"
+   ],
+   "a_verifier": "titre dans le cours : « La fin des militants » (sans point d'interrogation)"
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Contribution à la critique de l'économie politique",
+   "date": "1859",
+   "idee": "Chaque société repose sur un mode de production ; la contradiction entre forces productives et rapports de production explique le changement social (matérialisme historique).",
+   "a_quoi_ca_sert": "montrer que les innovations techniques peuvent bouleverser l'organisation sociale et les rapports de pouvoir",
+   "partie_lecon": "I.2.e – Marx (mode de production)",
+   "mots_cles": [
+    "matérialisme historique",
+    "forces productives",
+    "rapports de production",
+    "changement social"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Les Luttes de classes en France",
+   "date": "1850",
+   "idee": "Les classes se définissent par leur place dans les rapports de production ; une classe « en soi » devient « pour soi » quand elle prend conscience de ses intérêts.",
+   "a_quoi_ca_sert": "montrer qu'une condition commune ne suffit pas à créer une mobilisation : il faut une conscience de classe",
+   "partie_lecon": "I.2.e – Marx (classes sociales)",
+   "mots_cles": [
+    "lutte des classes",
+    "classe en soi",
+    "classe pour soi",
+    "conscience de classe"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« Les idées dominantes sont les idées de la classe dominante » : l'idéologie présente des intérêts particuliers comme des valeurs universelles.",
+   "a_quoi_ca_sert": "montrer qu'un discours présenté comme universel peut servir les intérêts d'un groupe dominant",
+   "partie_lecon": "I.2.e – Marx (idéologie)",
+   "mots_cles": [
+    "idéologie",
+    "superstructure",
+    "domination",
+    "universalisation"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Manifeste du Parti communiste",
+   "date": "1848",
+   "idee": "L'État est un instrument de coercition au service de la bourgeoisie, mais peut aussi gagner une autonomie relative « au-dessus des classes ».",
+   "a_quoi_ca_sert": "analyser le rôle de l'État et de la répression face aux mobilisations sociales",
+   "partie_lecon": "I.2.e – Marx (rôle de l'État)",
+   "mots_cles": [
+    "État",
+    "coercition",
+    "bourgeoisie",
+    "répression"
+   ]
+  },
+  {
+   "auteur": "École de Francfort (Horkheimer, Adorno, Marcuse)",
+   "ouvrage": "La Dialectique de la raison",
+   "date": "1947",
+   "idee": "L'industrie culturelle applique le modèle capitaliste à la culture : le divertissement standardisé intègre les masses et empêche toute contestation.",
+   "a_quoi_ca_sert": "montrer que la culture de masse et le divertissement (plateformes, streaming) peuvent être des formes de domination douce",
+   "partie_lecon": "I.2.e – École de Francfort",
+   "mots_cles": [
+    "industrie culturelle",
+    "raison instrumentale",
+    "aliénation",
+    "culture de masse"
+   ],
+   "a_verifier": "ouvrage non cité dans le cours (ajouté) ; fondation de l'École de Francfort datée de 1923 dans le cours"
+  },
+  {
+   "auteur": "Jürgen Habermas",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Seul l'agir communicationnel, retour à un vrai débat rationnel, permet de briser la domination de la raison instrumentale.",
+   "a_quoi_ca_sert": "montrer l'importance de la délibération publique rationnelle (débats, démocratie participative)",
+   "partie_lecon": "I.2.e – École de Francfort",
+   "mots_cles": [
+    "agir communicationnel",
+    "délibération",
+    "espace public",
+    "démocratie"
+   ]
+  },
+  {
+   "auteur": "Hartmut Rosa",
+   "ouvrage": "Aliénation et accélération",
+   "date": "2010",
+   "idee": "Les nouvelles technologies ne libèrent pas du temps : l'accélération des rythmes de vie crée un manque structurel de temps et de nouvelles inégalités.",
+   "a_quoi_ca_sert": "montrer que le numérique et l'accélération produisent une nouvelle aliénation (burn-out, surcharge, hyperconnexion)",
+   "partie_lecon": "I.2.e – Prolongement contemporain",
+   "mots_cles": [
+    "accélération",
+    "aliénation",
+    "temps",
+    "numérique"
+   ]
+  },
+  {
+   "auteur": "Cesare Lombroso",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Théorie du « criminel né » : les comportements sociaux s'expliqueraient par des causes biologiques.",
+   "a_quoi_ca_sert": "servir de repoussoir à l'explication du social par le social (contre les explications biologiques de la délinquance)",
+   "partie_lecon": "I.3.a – Durkheim (contexte)",
+   "mots_cles": [
+    "criminel né",
+    "biologie",
+    "réductionnisme",
+    "délinquance"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "Les Règles de la méthode sociologique",
+   "date": "1895",
+   "idee": "Il faut traiter les faits sociaux « comme des choses », extérieurs et contraignants, rompre avec les prénotions et expliquer le social par le social.",
+   "a_quoi_ca_sert": "montrer qu'un phénomène vécu comme individuel a des causes sociales mesurables (holisme)",
+   "partie_lecon": "I.3.a – Durkheim (Règles de la méthode)",
+   "mots_cles": [
+    "fait social",
+    "holisme",
+    "prénotions",
+    "contrainte"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "Les Règles de la méthode sociologique",
+   "date": "1895",
+   "idee": "Un fait est normal s'il se retrouve dans toutes les sociétés d'un même type : le crime est normal ; l'anomie est pathologique.",
+   "a_quoi_ca_sert": "relativiser une panique morale (hausse de la délinquance) en distinguant le normal du pathologique",
+   "partie_lecon": "I.3.a – Durkheim (normal et pathologique)",
+   "mots_cles": [
+    "normal",
+    "pathologique",
+    "crime",
+    "anomie"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "L'Année sociologique (revue)",
+   "date": "1896",
+   "idee": "Fonde une école de pensée et une « sociologie totale » unifiant ethnographie, ethnologie, sociologie et anthropologie.",
+   "a_quoi_ca_sert": "montrer l'institutionnalisation de la sociologie comme science autonome",
+   "partie_lecon": "I.3.a – Durkheim (sociologie totale)",
+   "mots_cles": [
+    "école durkheimienne",
+    "sciences sociales",
+    "institutionnalisation"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "Contribution à l'étude des représentations collectives",
+   "date": "1903",
+   "idee": "Les institutions sont des représentations collectives qu'on ne peut expliquer par la psychologie individuelle.",
+   "a_quoi_ca_sert": "montrer que les normes d'une société ne se réduisent pas à la somme des psychologies individuelles",
+   "partie_lecon": "I.3.a – Conflit Durkheim / Tarde",
+   "mots_cles": [
+    "représentations collectives",
+    "institutions",
+    "psychologie"
+   ],
+   "a_verifier": "ce titre correspond à l'article « Représentations individuelles et représentations collectives » (1898) ; à vérifier"
+  },
+  {
+   "auteur": "Gabriel Tarde",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La sociologie est une « interpsychologie » : les faits sociaux se propagent par imitation et suggestion entre individus.",
+   "a_quoi_ca_sert": "analyser la diffusion virale des comportements (modes, rumeurs, réseaux sociaux) par l'imitation",
+   "partie_lecon": "I.3.a – Conflit Durkheim / Tarde",
+   "mots_cles": [
+    "imitation",
+    "interpsychologie",
+    "contagion",
+    "foule"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "Le Suicide",
+   "date": "1897",
+   "idee": "Le suicide varie en raison inverse du degré d'intégration des groupes sociaux ; il dépend aussi de la régulation (suicides égoïste, altruiste, anomique, fataliste).",
+   "a_quoi_ca_sert": "montrer que la détresse individuelle (suicides d'agriculteurs, de policiers, isolement) révèle un défaut d'intégration ou de régulation",
+   "partie_lecon": "I.3.a – Le Suicide",
+   "mots_cles": [
+    "suicide",
+    "intégration",
+    "régulation",
+    "anomie"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "Le Suicide",
+   "date": "1897",
+   "idee": "L'anomie est un décalage entre les aspirations et les règles : sans limites fixées par la société, l'individu tombe dans le « vertige de l'infini ».",
+   "a_quoi_ca_sert": "expliquer le mal-être en période de crise ou de prospérité brutale et la nécessité de normes",
+   "partie_lecon": "I.3.a – Le Suicide (suicide anomique)",
+   "mots_cles": [
+    "anomie",
+    "dérégulation",
+    "frustration",
+    "crise"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "De la division du travail social",
+   "date": "1893",
+   "idee": "On passe d'une solidarité mécanique (similitude) à une solidarité organique (complémentarité) : le lien social change de nature, il ne disparaît pas.",
+   "a_quoi_ca_sert": "montrer que l'individualisation et la spécialisation ne détruisent pas la cohésion mais la rendent plus fragile",
+   "partie_lecon": "I.3.a – Solidarité mécanique / organique",
+   "mots_cles": [
+    "solidarité organique",
+    "solidarité mécanique",
+    "division du travail",
+    "cohésion sociale"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "De la division du travail social",
+   "date": "1893",
+   "idee": "Le droit est le symbole visible de la solidarité : sanctions répressives en solidarité mécanique, restitutives en solidarité organique.",
+   "a_quoi_ca_sert": "lire l'évolution du droit (pénal vs civil) comme indicateur du type de lien social",
+   "partie_lecon": "I.3.a – Solidarité mécanique / organique",
+   "mots_cles": [
+    "droit",
+    "sanctions",
+    "solidarité"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "De la division du travail social",
+   "date": "1893",
+   "idee": "Les formes pathologiques de la division du travail produisent conflits et anomie ; « la liberté est elle-même le produit d'une réglementation » : il faut des corporations.",
+   "a_quoi_ca_sert": "justifier la régulation de l'économie et le rôle des corps intermédiaires (branches, syndicats) contre la dérégulation",
+   "partie_lecon": "I.3.a – Réforme sociale et lutte contre l'anomie",
+   "mots_cles": [
+    "anomie",
+    "corporations",
+    "régulation",
+    "corps intermédiaires"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "Les Formes élémentaires de la vie religieuse",
+   "date": "1912",
+   "idee": "La religion est « chose éminemment sociale » : le sacré est l'expression symbolique de la cohésion du groupe qui se célèbre lui-même.",
+   "a_quoi_ca_sert": "analyser les rituels collectifs (fêtes nationales, sport, commémorations) comme productions de cohésion",
+   "partie_lecon": "I.3.a – La religion",
+   "mots_cles": [
+    "religion",
+    "sacré",
+    "rites",
+    "cohésion"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "Éducation et sociologie",
+   "date": "1922",
+   "idee": "L'éducation est une « socialisation méthodique » : l'école républicaine doit transmettre une morale laïque et former des citoyens autonomes.",
+   "a_quoi_ca_sert": "nourrir les débats sur l'école, la laïcité et l'éducation civique comme facteurs d'intégration",
+   "partie_lecon": "I.3.a – L'éducation morale",
+   "mots_cles": [
+    "éducation",
+    "socialisation",
+    "laïcité",
+    "école républicaine"
+   ]
+  },
+  {
+   "auteur": "Benoît Coquard",
+   "ouvrage": "Ceux qui restent",
+   "date": "2019",
+   "idee": "Les jeunes de milieux populaires restés dans les campagnes en déclin compensent le défaut d'intégration par une sociabilité intense autour de la « bande de potes ».",
+   "a_quoi_ca_sert": "montrer que la France rurale en déclin conserve des formes d'intégration locales (lien avec vote, Gilets jaunes, ruralité)",
+   "partie_lecon": "I.3.a – Durkheim (enquête récente)",
+   "mots_cles": [
+    "ruralité",
+    "classes populaires",
+    "sociabilité",
+    "intégration"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "Le Savant et le politique",
+   "date": "1919",
+   "idee": "Le sociologue doit respecter la neutralité axiologique : distinguer jugements de fait et jugements de valeur.",
+   "a_quoi_ca_sert": "évaluer la scientificité d'une expertise et la séparation entre science et militantisme",
+   "partie_lecon": "I.3.b – Weber (neutralité axiologique)",
+   "mots_cles": [
+    "neutralité axiologique",
+    "science",
+    "valeurs",
+    "expertise"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "Économie et société",
+   "date": "1921-1922",
+   "idee": "La sociologie compréhensive cherche le sens que les individus donnent à leurs actions (individualisme méthodologique, déterminisme relatif).",
+   "a_quoi_ca_sert": "montrer qu'un comportement collectif s'explique par les raisons des acteurs et non seulement par des contraintes extérieures",
+   "partie_lecon": "I.3.b – Sociologie compréhensive",
+   "mots_cles": [
+    "sociologie compréhensive",
+    "individualisme méthodologique",
+    "sens",
+    "action sociale"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "Économie et société",
+   "date": "1921-1922",
+   "idee": "Quatre idéaux-types d'action : rationnelle en finalité, rationnelle en valeur, affectuelle, traditionnelle, souvent combinés.",
+   "a_quoi_ca_sert": "analyser un comportement (de consommateur, d'électeur, de manifestant) en démêlant calcul, valeurs, émotions et habitudes",
+   "partie_lecon": "I.3.b – Types d'action",
+   "mots_cles": [
+    "idéal-type",
+    "rationalité",
+    "action",
+    "tradition"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "Économie et société",
+   "date": "1921-1922",
+   "idee": "La rationalisation (calcul, efficacité, règles impersonnelles) est le trait majeur de la modernité ; elle produit le « désenchantement du monde ».",
+   "a_quoi_ca_sert": "montrer que la quête d'efficacité (bureaucratie, algorithmes, management) rend plus efficace mais isole et prive de sens",
+   "partie_lecon": "I.3.b – Rationalisation",
+   "mots_cles": [
+    "rationalisation",
+    "désenchantement du monde",
+    "efficacité",
+    "modernité"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "Sociologie de la musique",
+   "date": "1921",
+   "idee": "Même la musique se rationalise (partitions, orchestres, solfège) : la rationalisation touche toutes les sphères.",
+   "a_quoi_ca_sert": "illustrer l'extension de la rationalisation à la culture",
+   "partie_lecon": "I.3.b – Rationalisation",
+   "mots_cles": [
+    "rationalisation",
+    "culture",
+    "musique"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "Économie et société",
+   "date": "1921-1922",
+   "idee": "Trois types de domination légitime : traditionnelle, charismatique, légale-rationnelle ; la bureaucratie est le type pur de la domination légale.",
+   "a_quoi_ca_sert": "analyser la légitimité d'un pouvoir (leader charismatique, populisme, administration, technocratie)",
+   "partie_lecon": "I.3.b – Types de domination et bureaucratie",
+   "mots_cles": [
+    "domination",
+    "charisme",
+    "bureaucratie",
+    "légitimité"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "L'Éthique protestante et l'esprit du capitalisme",
+   "date": "1904-1905",
+   "idee": "L'éthique protestante (Beruf, prédestination, ascèse) a une « affinité élective » avec l'esprit du capitalisme fondé sur le réinvestissement.",
+   "a_quoi_ca_sert": "montrer que des valeurs culturelles ou religieuses peuvent favoriser un système économique, sans causalité stricte",
+   "partie_lecon": "I.3.b – Weber et la religion",
+   "mots_cles": [
+    "éthique protestante",
+    "capitalisme",
+    "affinité élective",
+    "religion"
+   ]
+  },
+  {
+   "auteur": "Wilhelm Dilthey",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Distingue sciences de l'esprit (compréhension des intentions) et sciences de la nature (lois) ; source de la notion de compréhension.",
+   "a_quoi_ca_sert": "justifier une approche compréhensive des phénomènes humains",
+   "partie_lecon": "I.3.b – Débat allemand",
+   "mots_cles": [
+    "sciences de l'esprit",
+    "compréhension",
+    "épistémologie"
+   ]
+  },
+  {
+   "auteur": "Wilhelm Windelband",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Néokantien : la différence entre sciences est de méthode, nomothétique (lois) ou idiographique (cas particuliers).",
+   "a_quoi_ca_sert": "situer la démarche wébérienne entre recherche de lois et étude de cas",
+   "partie_lecon": "I.3.b – Débat allemand",
+   "mots_cles": [
+    "nomothétique",
+    "idiographique",
+    "méthode"
+   ]
+  },
+  {
+   "auteur": "Florence Weber",
+   "ouvrage": "Max Weber",
+   "date": "2001",
+   "idee": "Weber reste avant tout juriste et historien : la sociologie est pour lui une découverte « en cours de route ».",
+   "a_quoi_ca_sert": "nuancer le statut de fondateur de Weber",
+   "partie_lecon": "I.3.b – Biographie",
+   "mots_cles": [
+    "Weber",
+    "histoire de la sociologie"
+   ]
+  },
+  {
+   "auteur": "Raymond Aron",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Qualifie Weber de « spectateur engagé » cherchant à comprendre les difficultés de l'Allemagne.",
+   "a_quoi_ca_sert": "illustrer la posture du savant engagé mais distant",
+   "partie_lecon": "I.3.b – Biographie",
+   "mots_cles": [
+    "spectateur engagé",
+    "engagement"
+   ]
+  },
+  {
+   "auteur": "Norbert Elias",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le processus de civilisation (depuis le XVIe s.) repose sur l'autocontrôle des pulsions et produit une pacification des mœurs.",
+   "a_quoi_ca_sert": "analyser la baisse de tolérance à la violence (violences éducatives, harcèlement) comme effet du processus de civilisation",
+   "partie_lecon": "I.3.c – Processus de civilisation",
+   "mots_cles": [
+    "processus de civilisation",
+    "autocontrôle",
+    "violence",
+    "pacification des mœurs"
+   ]
+  },
+  {
+   "auteur": "Norbert Elias",
+   "ouvrage": "La Société des individus",
+   "date": "1939",
+   "idee": "Le contrôle de soi accroît la conscience de sa subjectivité et forme une « société des individus ».",
+   "a_quoi_ca_sert": "montrer que l'individualisation est un produit social et historique",
+   "partie_lecon": "I.3.c – Individualisation",
+   "mots_cles": [
+    "individualisation",
+    "subjectivité",
+    "société des individus"
+   ]
+  },
+  {
+   "auteur": "Norbert Elias",
+   "ouvrage": "La Société de cour",
+   "date": "1969",
+   "idee": "Métaphore du jeu d'échecs : les individus sont liés par des interdépendances (configurations) ; ils ne sont ni totalement libres ni totalement déterminés.",
+   "a_quoi_ca_sert": "dépasser l'opposition individu/société et penser l'autonomie relative",
+   "partie_lecon": "I.3.c – Configurations et jeu d'échecs",
+   "mots_cles": [
+    "configuration",
+    "interdépendance",
+    "autonomie relative"
+   ]
+  },
+  {
+   "auteur": "Norbert Elias",
+   "ouvrage": "La Civilisation des parents",
+   "date": "1980",
+   "idee": "Les configurations familiales du XXe siècle donnent plus d'autonomie aux enfants, traités comme des individus en devenir.",
+   "a_quoi_ca_sert": "analyser l'évolution de la famille et de l'éducation (enfant-roi, autonomie des jeunes)",
+   "partie_lecon": "I.3.c – Autonomie relative",
+   "mots_cles": [
+    "famille",
+    "enfance",
+    "autonomie",
+    "éducation"
+   ]
+  },
+  {
+   "auteur": "Norbert Elias",
+   "ouvrage": "Sport et civilisation",
+   "date": "1986",
+   "idee": "Le sport apprend à maîtriser la violence, mais les violences dans les stades (Heysel, 1985) montrent la fragilité du processus de civilisation.",
+   "a_quoi_ca_sert": "analyser le hooliganisme et les violences sportives comme réversibilité de la civilisation",
+   "partie_lecon": "I.3.c – Un processus non linéaire",
+   "mots_cles": [
+    "sport",
+    "violence",
+    "hooliganisme",
+    "décivilisation"
+   ]
+  },
+  {
+   "auteur": "Arlie Hochschild",
+   "ouvrage": "Le Prix des sentiments",
+   "date": "1983",
+   "idee": "Le travail émotionnel consiste à ajuster ses émotions aux règles de la situation ; le monde professionnel en fait une ressource productive.",
+   "a_quoi_ca_sert": "analyser la pénibilité invisible des métiers de service (soignants, hôtesses, centres d'appels)",
+   "partie_lecon": "I.3.c – Aparté travail émotionnel",
+   "mots_cles": [
+    "travail émotionnel",
+    "services",
+    "émotions",
+    "conditions de travail"
+   ]
+  },
+  {
+   "auteur": "Georg Simmel",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La mode est une forme sociale qui combine imitation du groupe d'appartenance et distinction vis-à-vis des autres groupes.",
+   "a_quoi_ca_sert": "analyser les tendances de consommation (mode, fast fashion, réseaux sociaux) comme imitation/distinction",
+   "partie_lecon": "I.3.d – Forme sociale (la mode)",
+   "mots_cles": [
+    "mode",
+    "imitation",
+    "distinction",
+    "forme sociale"
+   ]
+  },
+  {
+   "auteur": "Georg Simmel",
+   "ouvrage": "Philosophie de l'argent",
+   "date": "1900",
+   "idee": "L'argent abstrait les relations : il émancipe des dépendances personnelles (désaliénation) mais peut vider certaines relations de leur sens.",
+   "a_quoi_ca_sert": "montrer l'ambivalence de la monétarisation (autonomie des femmes vs marchandisation, jeux d'argent)",
+   "partie_lecon": "I.3.d – L'argent",
+   "mots_cles": [
+    "argent",
+    "monétarisation",
+    "émancipation",
+    "marchandisation"
+   ]
+  },
+  {
+   "auteur": "Georg Simmel",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Dans les sociétés modernes, la multiplicité des cercles sociaux libère du contrôle social et permet de construire son identité.",
+   "a_quoi_ca_sert": "montrer que la vie urbaine et les réseaux multiples favorisent l'individualisation",
+   "partie_lecon": "I.3.d – Processus d'individualisation",
+   "mots_cles": [
+    "cercles sociaux",
+    "individualisation",
+    "identité",
+    "ville"
+   ]
+  },
+  {
+   "auteur": "Georg Simmel",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Deux individualismes : « latin » (liberté universelle, égalité des droits) et « germanique » (singularité, être différent).",
+   "a_quoi_ca_sert": "montrer que l'individualisation n'est pas uniforme : égalité des droits vs quête d'authenticité",
+   "partie_lecon": "I.3.d – Deux individualismes",
+   "mots_cles": [
+    "individualisme",
+    "singularité",
+    "universalisme"
+   ]
+  },
+  {
+   "auteur": "Claire Bidart, Alain Degenne, Michel Grossetti",
+   "ouvrage": "La Vie en réseau",
+   "date": "2011",
+   "idee": "Les cercles de sociabilité varient selon l'âge, les événements de vie et la position sociale : les réseaux sont socialement inégaux.",
+   "a_quoi_ca_sert": "montrer que l'isolement et la richesse des réseaux sont des inégalités sociales",
+   "partie_lecon": "I.3.d – Aparté cercles de sociabilité",
+   "mots_cles": [
+    "sociabilité",
+    "réseaux",
+    "inégalités",
+    "isolement"
+   ]
+  },
+  {
+   "auteur": "William Thomas et Florian Znaniecki",
+   "ouvrage": "Le Paysan polonais en Europe et en Amérique",
+   "date": "1918-1920",
+   "idee": "L'intégration des immigrés passe par la désorganisation puis la réorganisation sociale et par l'appui de la communauté d'origine.",
+   "a_quoi_ca_sert": "analyser l'intégration des immigrés et le rôle ambivalent des communautés (entraide vs ségrégation)",
+   "partie_lecon": "II.1.b – Thomas et Znaniecki",
+   "mots_cles": [
+    "immigration",
+    "intégration",
+    "désorganisation",
+    "communauté"
+   ]
+  },
+  {
+   "auteur": "William Thomas",
+   "ouvrage": "The Child in America",
+   "date": "1928",
+   "idee": "Définition de la situation : « Si les hommes définissent des situations comme réelles, elles sont réelles dans leurs conséquences. »",
+   "a_quoi_ca_sert": "montrer que les perceptions (peur, rumeur, sentiment d'insécurité) produisent des effets réels",
+   "partie_lecon": "II.1.b – Définition de la situation",
+   "mots_cles": [
+    "définition de la situation",
+    "théorème de Thomas",
+    "perceptions",
+    "croyances"
+   ]
+  },
+  {
+   "auteur": "Nels Anderson",
+   "ouvrage": "Le Hobo",
+   "date": "1923",
+   "idee": "Les hobos, travailleurs journaliers itinérants, forment une véritable culture ; la précarité de l'emploi est liée à l'organisation capitaliste.",
+   "a_quoi_ca_sert": "montrer que la précarité (travailleurs des plateformes, saisonniers) n'est pas nouvelle",
+   "partie_lecon": "II.1.c – Anderson",
+   "mots_cles": [
+    "précarité",
+    "travailleurs itinérants",
+    "sous-culture",
+    "flexibilité"
+   ]
+  },
+  {
+   "auteur": "Olivier Schwartz",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Paradoxe de l'observateur : la présence du sociologue modifie la réalité observée, d'où la nécessité de la réflexivité.",
+   "a_quoi_ca_sert": "relativiser la neutralité d'une enquête ou d'un sondage",
+   "partie_lecon": "II.1.c – Critique méthodologique",
+   "mots_cles": [
+    "paradoxe de l'observateur",
+    "réflexivité",
+    "méthode"
+   ]
+  },
+  {
+   "auteur": "Robert Park, Ernest Burgess, Roderick McKenzie",
+   "ouvrage": "The City",
+   "date": "1925",
+   "idee": "Écologie urbaine : le milieu détermine les comportements ; les communautés se regroupent par affinités culturelles (ségrégation socio-spatiale).",
+   "a_quoi_ca_sert": "analyser la ségrégation urbaine, les ghettos et la délinquance par l'organisation spatiale",
+   "partie_lecon": "II.1.d – The City",
+   "mots_cles": [
+    "ségrégation socio-spatiale",
+    "écologie urbaine",
+    "ville",
+    "délinquance"
+   ]
+  },
+  {
+   "auteur": "Robert Park",
+   "ouvrage": "Introduction to the Science of Sociology",
+   "date": "1921",
+   "idee": "Cycle des relations raciales : compétition, conflit, accommodation, assimilation ; il produit l'« homme marginal » entre deux cultures.",
+   "a_quoi_ca_sert": "analyser les étapes de l'intégration des minorités et les tensions interethniques",
+   "partie_lecon": "II.1.d – Cycle des relations raciales",
+   "mots_cles": [
+    "assimilation",
+    "relations raciales",
+    "homme marginal",
+    "ghetto"
+   ]
+  },
+  {
+   "auteur": "William Lloyd Warner",
+   "ouvrage": "Yankee City Series",
+   "date": "1941-1959",
+   "idee": "La stratification est multidimensionnelle (revenu, profession, résidence, prestige) : l'argent est nécessaire mais pas suffisant pour atteindre le sommet (old money vs new money).",
+   "a_quoi_ca_sert": "montrer que richesse et statut ne coïncident pas (nouveaux riches, prestige social)",
+   "partie_lecon": "II.1.e – Warner",
+   "mots_cles": [
+    "stratification",
+    "statut",
+    "prestige",
+    "nouveaux riches"
+   ],
+   "a_verifier": "le doc « chap 4 » date l'ouvrage de 1935 (enquête 1930-1935, volumes 1941-1959)"
+  },
+  {
+   "auteur": "Bronisław Malinowski",
+   "ouvrage": "Les Argonautes du Pacifique occidental",
+   "date": "1922",
+   "idee": "Fondateur du fonctionnalisme et de l'observation participante : chaque coutume remplit une fonction vitale pour la totalité sociale.",
+   "a_quoi_ca_sert": "montrer qu'une pratique en apparence irrationnelle remplit une fonction sociale",
+   "partie_lecon": "II.2.a – Malinowski",
+   "mots_cles": [
+    "fonctionnalisme",
+    "observation participante",
+    "ethnologie"
+   ]
+  },
+  {
+   "auteur": "Talcott Parsons",
+   "ouvrage": "The Social System (Éléments pour une sociologie de l'action)",
+   "date": "1951",
+   "idee": "Structuro-fonctionnalisme : tout système social doit remplir quatre impératifs (AGIL : adaptation, buts, intégration, maintien des modèles).",
+   "a_quoi_ca_sert": "analyser la stabilité d'une société et le rôle de ses institutions (famille, école, État-providence)",
+   "partie_lecon": "II.2.b – Parsons (AGIL)",
+   "mots_cles": [
+    "structuro-fonctionnalisme",
+    "AGIL",
+    "système social",
+    "intégration"
+   ]
+  },
+  {
+   "auteur": "Talcott Parsons",
+   "ouvrage": "The Social System (Éléments pour une sociologie de l'action)",
+   "date": "1951",
+   "idee": "Les variables structurelles (universalisme/particularisme, performance/qualité, spécificité/diffusion, neutralité/affectivité) caractérisent les types de sociétés.",
+   "a_quoi_ca_sert": "opposer sociétés fondées sur le mérite et l'universalisme et sociétés fondées sur la naissance et les liens personnels",
+   "partie_lecon": "II.2.b – Parsons (pattern-variables)",
+   "mots_cles": [
+    "pattern-variables",
+    "universalisme",
+    "méritocratie",
+    "rôles"
+   ]
+  },
+  {
+   "auteur": "Talcott Parsons",
+   "ouvrage": "",
+   "date": "1966",
+   "idee": "Les sociétés évoluent par différenciation fonctionnelle : du particularisme à l'universalisme, de la naissance au mérite.",
+   "a_quoi_ca_sert": "montrer la spécialisation croissante des institutions modernes",
+   "partie_lecon": "II.2.b – Parsons (évolutionnisme)",
+   "mots_cles": [
+    "différenciation",
+    "évolutionnisme",
+    "modernisation"
+   ]
+  },
+  {
+   "auteur": "Robert Merton",
+   "ouvrage": "Éléments de théorie et de méthode sociologique",
+   "date": "1949",
+   "idee": "Théories à moyenne portée et fonctionnalisme relativisé : une institution peut être dysfonctionnelle, et une autre peut la remplacer (équivalents fonctionnels).",
+   "a_quoi_ca_sert": "montrer qu'une institution n'est pas utile pour tous et que ses fonctions peuvent être assurées autrement",
+   "partie_lecon": "II.2.c – Merton (fonctionnalisme relativisé)",
+   "mots_cles": [
+    "dysfonction",
+    "équivalent fonctionnel",
+    "moyenne portée"
+   ],
+   "a_verifier": "ouvrage non nommé dans le cours (ajouté)"
+  },
+  {
+   "auteur": "Robert Merton",
+   "ouvrage": "Éléments de théorie et de méthode sociologique",
+   "date": "1949",
+   "idee": "Distinction fonction manifeste (voulue) / fonction latente (ni voulue ni perçue).",
+   "a_quoi_ca_sert": "dévoiler les effets cachés d'une institution ou d'une politique",
+   "partie_lecon": "II.2.c – Merton (manifeste / latent)",
+   "mots_cles": [
+    "fonction latente",
+    "fonction manifeste",
+    "dévoilement"
+   ],
+   "a_verifier": "ouvrage non nommé dans le cours (ajouté)"
+  },
+  {
+   "auteur": "Robert Merton",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Prophétie autoréalisatrice : une croyance collective, même fausse, provoque sa propre réalisation (ex. ruée bancaire, Northern Rock 2008).",
+   "a_quoi_ca_sert": "analyser les paniques bancaires, crises de confiance et effets d'anticipation",
+   "partie_lecon": "II.2.c – Prophétie autoréalisatrice",
+   "mots_cles": [
+    "prophétie autoréalisatrice",
+    "panique bancaire",
+    "anticipations",
+    "confiance"
+   ]
+  },
+  {
+   "auteur": "Robert Merton",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Typologie des adaptations individuelles : conformisme, innovation, ritualisme, évasion, rébellion.",
+   "a_quoi_ca_sert": "analyser les réponses individuelles à l'écart entre buts sociaux et moyens (déviance, fraude, retrait)",
+   "partie_lecon": "II.2.c – Typologie des comportements",
+   "mots_cles": [
+    "déviance",
+    "anomie",
+    "adaptation",
+    "conformisme"
+   ]
+  },
+  {
+   "auteur": "Herbert Blumer",
+   "ouvrage": "",
+   "date": "1937",
+   "idee": "Forge le terme « interactionnisme symbolique » : les individus agissent en interprétant les situations à partir de références symboliques.",
+   "a_quoi_ca_sert": "montrer que l'ordre social se construit dans les interactions",
+   "partie_lecon": "II.3 – Interactionnisme symbolique",
+   "mots_cles": [
+    "interactionnisme symbolique",
+    "interaction",
+    "symboles"
+   ]
+  },
+  {
+   "auteur": "Erving Goffman",
+   "ouvrage": "La Mise en scène de la vie quotidienne",
+   "date": "1956",
+   "idee": "Approche dramaturgique : chacun joue des rôles et gère la présentation de soi selon la scène.",
+   "a_quoi_ca_sert": "analyser la mise en scène de soi (réseaux sociaux, communication politique)",
+   "partie_lecon": "II.3.a – Goffman",
+   "mots_cles": [
+    "présentation de soi",
+    "rôle",
+    "dramaturgie",
+    "interaction"
+   ]
+  },
+  {
+   "auteur": "Erving Goffman",
+   "ouvrage": "Asiles",
+   "date": "1961",
+   "idee": "L'institution totale (asile, prison, caserne) mortifie le moi et produit l'étiquette de malade mental.",
+   "a_quoi_ca_sert": "analyser les institutions fermées (prisons, EHPAD, psychiatrie) et leurs effets sur les individus",
+   "partie_lecon": "II.3.a – Goffman (Asiles)",
+   "mots_cles": [
+    "institution totale",
+    "psychiatrie",
+    "prison",
+    "étiquetage"
+   ]
+  },
+  {
+   "auteur": "Erving Goffman",
+   "ouvrage": "Les Rites d'interaction",
+   "date": "1967",
+   "idee": "L'interaction est ritualisée : l'enjeu est de « garder la face » grâce à des règles (déférence, figuration) et des échanges réparateurs.",
+   "a_quoi_ca_sert": "analyser les codes de politesse et les conflits d'interaction",
+   "partie_lecon": "II.3.a – Goffman (rites)",
+   "mots_cles": [
+    "face",
+    "rites d'interaction",
+    "politesse"
+   ]
+  },
+  {
+   "auteur": "Erving Goffman",
+   "ouvrage": "Stigmate",
+   "date": "1963",
+   "idee": "Le stigmate impose une identité sociale virtuelle à un groupe ; les interactions reproduisent les rapports de domination.",
+   "a_quoi_ca_sert": "analyser les discriminations (handicap, genre, origine) dans les interactions ordinaires",
+   "partie_lecon": "II.3.a – Goffman (Stigmate)",
+   "mots_cles": [
+    "stigmate",
+    "discrimination",
+    "identité",
+    "domination"
+   ]
+  },
+  {
+   "auteur": "Vincent Dubois",
+   "ouvrage": "La Vie au guichet",
+   "date": "1999",
+   "idee": "L'agent de guichet (CAF) combine attitude impersonnelle et engagement personnel pour aider l'usager et éviter les blocages.",
+   "a_quoi_ca_sert": "analyser la relation entre administration et usagers précaires (dématérialisation, non-recours)",
+   "partie_lecon": "II.3.a – Goffman (enquête récente)",
+   "mots_cles": [
+    "guichet",
+    "administration",
+    "pauvreté",
+    "CAF"
+   ]
+  },
+  {
+   "auteur": "Howard Becker",
+   "ouvrage": "Outsiders",
+   "date": "1963",
+   "idee": "Théorie de l'étiquetage : la déviance n'est pas une qualité de l'acte mais le résultat de l'application d'une étiquette par les autres.",
+   "a_quoi_ca_sert": "montrer qu'une déviance est une construction sociale (drogue, délinquance juvénile)",
+   "partie_lecon": "II.3.b – Becker (étiquetage)",
+   "mots_cles": [
+    "étiquetage",
+    "déviance",
+    "construction sociale",
+    "normes"
+   ]
+  },
+  {
+   "auteur": "Howard Becker",
+   "ouvrage": "Outsiders",
+   "date": "1963",
+   "idee": "Les normes sont créées et appliquées par des « entrepreneurs de morale » (créateurs et applicateurs).",
+   "a_quoi_ca_sert": "analyser les campagnes morales et lobbys qui font voter des interdits",
+   "partie_lecon": "II.3.b – Becker (entrepreneurs de morale)",
+   "mots_cles": [
+    "entrepreneurs de morale",
+    "normes",
+    "lois",
+    "lobbying"
+   ]
+  },
+  {
+   "auteur": "Howard Becker",
+   "ouvrage": "Outsiders",
+   "date": "1963",
+   "idee": "La déviance est une carrière : apprentissage, désignation publique, adhésion à un groupe déviant.",
+   "a_quoi_ca_sert": "montrer qu'on devient déviant par étapes (radicalisation, consommation de drogues)",
+   "partie_lecon": "II.3.b – Becker (carrière déviante)",
+   "mots_cles": [
+    "carrière déviante",
+    "sous-culture",
+    "radicalisation"
+   ]
+  },
+  {
+   "auteur": "Harold Garfinkel",
+   "ouvrage": "",
+   "date": "1960",
+   "idee": "Ethnométhodologie : les individus produisent en permanence la normalité par des méthodes ordinaires (cas d'Agnès : le genre comme accomplissement).",
+   "a_quoi_ca_sert": "montrer que les normes de genre sont une performance sociale continue",
+   "partie_lecon": "II.3.c – Garfinkel",
+   "mots_cles": [
+    "ethnométhodologie",
+    "genre",
+    "normalité",
+    "interaction"
+   ],
+   "a_verifier": "son ouvrage Studies in Ethnomethodology date de 1967"
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "Le Sens pratique",
+   "date": "1980",
+   "idee": "L'habitus est un système de dispositions durables et transposables, incorporées par la socialisation, qui produit goûts et pratiques.",
+   "a_quoi_ca_sert": "expliquer la similitude des goûts et comportements au sein d'un milieu social",
+   "partie_lecon": "III.1.a – Habitus et capitaux",
+   "mots_cles": [
+    "habitus",
+    "socialisation",
+    "goûts",
+    "dispositions"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La position sociale dépend du volume et de la structure des capitaux (économique, culturel, social, symbolique).",
+   "a_quoi_ca_sert": "montrer que les inégalités ne sont pas seulement économiques (réseaux, diplômes, prestige)",
+   "partie_lecon": "III.1.a – Habitus et capitaux",
+   "mots_cles": [
+    "capital culturel",
+    "capital social",
+    "capital économique",
+    "inégalités"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "Les Règles de l'art",
+   "date": "1992",
+   "idee": "La société est découpée en champs (littéraire, politique, médiatique) où dominants et dominés luttent pour des capitaux spécifiques.",
+   "a_quoi_ca_sert": "analyser les luttes internes d'un milieu (médias, art, politique)",
+   "partie_lecon": "III.1.b – Champ social",
+   "mots_cles": [
+    "champ",
+    "luttes symboliques",
+    "domination"
+   ]
+  },
+  {
+   "auteur": "Loïc Wacquant",
+   "ouvrage": "",
+   "date": "1992",
+   "idee": "Définit le champ comme « un ensemble de relations objectives historiques entre des positions ancrées dans certaines formes de pouvoir ».",
+   "a_quoi_ca_sert": "donner une définition précise du champ bourdieusien",
+   "partie_lecon": "III.1.b – Champ social",
+   "mots_cles": [
+    "champ",
+    "Bourdieu"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La violence symbolique : les dominés subissent une double domination car le point de vue dominant s'impose comme seul légitime.",
+   "a_quoi_ca_sert": "montrer qu'une domination peut être acceptée par ceux qui la subissent (goûts légitimes, langage)",
+   "partie_lecon": "III.1.c – Violence symbolique",
+   "mots_cles": [
+    "violence symbolique",
+    "légitimité",
+    "domination"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu et Jean-Claude Passeron",
+   "ouvrage": "La Reproduction",
+   "date": "1970",
+   "idee": "L'école reproduit les inégalités en imposant la culture de la classe dominante comme légitime ; la démocratisation scolaire est un leurre.",
+   "a_quoi_ca_sert": "critiquer la méritocratie scolaire (Parcoursup, grandes écoles, inégalités PISA)",
+   "partie_lecon": "III.1.d – L'école et la reproduction",
+   "mots_cles": [
+    "reproduction sociale",
+    "école",
+    "méritocratie",
+    "capital culturel"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu et Jean-Claude Passeron",
+   "ouvrage": "Les Héritiers",
+   "date": "1964",
+   "idee": "L'idéologie du don masque la réussite des « héritiers », dont la culture familiale coïncide avec la culture scolaire.",
+   "a_quoi_ca_sert": "montrer que la réussite scolaire présentée comme un talent est un héritage social",
+   "partie_lecon": "III.1.d – Idéologie du don",
+   "mots_cles": [
+    "héritiers",
+    "idéologie du don",
+    "école",
+    "inégalités scolaires"
+   ],
+   "a_verifier": "ouvrage seulement cité dans la fiche du doc « cours socio »"
+  },
+  {
+   "auteur": "Bernard Lahire",
+   "ouvrage": "La Culture des individus",
+   "date": "2004",
+   "idee": "L'« homme pluriel » : les dispositions issues de socialisations multiples ne sont pas unifiées, d'où des pratiques dissonantes.",
+   "a_quoi_ca_sert": "nuancer Bourdieu : un individu peut combiner culture légitime et culture populaire",
+   "partie_lecon": "III.1.e – Critique de Bourdieu",
+   "mots_cles": [
+    "homme pluriel",
+    "dissonance culturelle",
+    "dispositions",
+    "socialisation"
+   ],
+   "a_verifier": "la notion d'« homme pluriel » vient de L'Homme pluriel (1998)"
+  },
+  {
+   "auteur": "Gaëlle Henri-Panabière",
+   "ouvrage": "Des héritiers en échec scolaire",
+   "date": "2010",
+   "idee": "Le capital culturel des parents ne se transmet pas automatiquement : il faut un investissement éducatif cohérent.",
+   "a_quoi_ca_sert": "montrer que le déterminisme culturel n'est jamais automatique",
+   "partie_lecon": "III.1.e – Critique de Bourdieu",
+   "mots_cles": [
+    "capital culturel",
+    "transmission",
+    "échec scolaire"
+   ]
+  },
+  {
+   "auteur": "Thomas Kuhn",
+   "ouvrage": "La Structure des révolutions scientifiques",
+   "date": "1962",
+   "idee": "Distingue science normale (paradigme commun) et révolution scientifique ; la sociologie serait en crise permanente.",
+   "a_quoi_ca_sert": "interpréter la pluralité des théories sociologiques",
+   "partie_lecon": "III.2 – La sociologie est-elle une science ?",
+   "mots_cles": [
+    "paradigme",
+    "science",
+    "épistémologie"
+   ],
+   "a_verifier": "ouvrage non nommé dans le cours (ajouté)"
+  },
+  {
+   "auteur": "Raymond Boudon",
+   "ouvrage": "L'Inégalité des chances",
+   "date": "1973",
+   "idee": "Les inégalités scolaires viennent surtout des choix d'orientation (coût, risque, bénéfice) des familles à chaque point de bifurcation : effet de demande d'éducation.",
+   "a_quoi_ca_sert": "expliquer l'autocensure des élèves de milieux populaires dans l'orientation",
+   "partie_lecon": "III.2.b – L'inégalité des chances",
+   "mots_cles": [
+    "inégalité des chances",
+    "orientation",
+    "individualisme méthodologique",
+    "calcul coût-bénéfice"
+   ]
+  },
+  {
+   "auteur": "Raymond Boudon",
+   "ouvrage": "L'Inégalité des chances",
+   "date": "1973",
+   "idee": "Réduire les inégalités scolaires passe par la réduction des inégalités économiques et sociales plutôt que par des réformes pédagogiques (tronc commun).",
+   "a_quoi_ca_sert": "critiquer les réformes scolaires qui ignorent la stratification sociale",
+   "partie_lecon": "III.2.b – Les solutions",
+   "mots_cles": [
+    "tronc commun",
+    "stratification",
+    "politique éducative"
+   ]
+  },
+  {
+   "auteur": "C. Arnold Anderson",
+   "ouvrage": "",
+   "date": "1961",
+   "idee": "Paradoxe d'Anderson : la hausse du niveau d'instruction ne garantit pas une mobilité sociale ascendante.",
+   "a_quoi_ca_sert": "expliquer le déclassement des diplômés et l'inflation scolaire",
+   "partie_lecon": "III.2.b – Paradoxe d'Anderson",
+   "mots_cles": [
+    "paradoxe d'Anderson",
+    "diplômes",
+    "mobilité sociale",
+    "déclassement"
+   ],
+   "a_verifier": "auteur et date non précisés dans la leçon de sociologie (date 1961 donnée dans la leçon Transformations sociales)"
+  },
+  {
+   "auteur": "Raymond Boudon",
+   "ouvrage": "La Logique du social",
+   "date": "1979",
+   "idee": "Les phénomènes sociaux résultent de l'agrégation d'actions individuelles et produisent des effets pervers (divergence, frustration, ségrégation...).",
+   "a_quoi_ca_sert": "montrer qu'une somme de choix individuels rationnels peut produire un résultat collectif indésirable",
+   "partie_lecon": "III.2.a – Agrégation et effets pervers",
+   "mots_cles": [
+    "effets pervers",
+    "agrégation",
+    "effets émergents",
+    "individualisme méthodologique"
+   ]
+  },
+  {
+   "auteur": "Raymond Boudon",
+   "ouvrage": "La Logique du social",
+   "date": "1979",
+   "idee": "Rationalité cognitive : les acteurs agissent selon de « bonnes raisons » liées à leurs croyances, même fausses.",
+   "a_quoi_ca_sert": "comprendre l'adhésion à des croyances fausses (complotisme, rumeurs) sans les juger irrationnelles",
+   "partie_lecon": "III.2.c – Bonnes raisons",
+   "mots_cles": [
+    "bonnes raisons",
+    "rationalité cognitive",
+    "croyances"
+   ]
+  },
+  {
+   "auteur": "Raymond Boudon",
+   "ouvrage": "L'Art de se persuader des idées douteuses, fragiles ou fausses",
+   "date": "1990",
+   "idee": "Les raisons « subjectivement bonnes » expliquent qu'on croie à des idées que la science juge fausses.",
+   "a_quoi_ca_sert": "analyser la diffusion des fausses croyances et des fake news",
+   "partie_lecon": "III.2.a – Analyse des croyances",
+   "mots_cles": [
+    "croyances",
+    "fake news",
+    "rationalité"
+   ]
+  },
+  {
+   "auteur": "Vilfredo Pareto",
+   "ouvrage": "Traité de sociologie générale",
+   "date": "1916",
+   "idee": "Distingue actions logiques (objet de l'économie) et actions non logiques (objet de la sociologie).",
+   "a_quoi_ca_sert": "distinguer l'approche économique et l'approche sociologique des comportements",
+   "partie_lecon": "III.2.a – Boudon",
+   "mots_cles": [
+    "actions logiques",
+    "actions non logiques",
+    "rationalité"
+   ]
+  },
+  {
+   "auteur": "Gérald Bronner et Étienne Géhin",
+   "ouvrage": "Le Danger sociologique",
+   "date": "2017",
+   "idee": "Critiquent la « vulgate déterministe » de Bourdieu, « culture de l'excuse », et réintroduisent l'individu et les biais cognitifs.",
+   "a_quoi_ca_sert": "critiquer les explications purement déterministes (délinquance, échec scolaire)",
+   "partie_lecon": "III.2.d – Débats actuels",
+   "mots_cles": [
+    "déterminisme",
+    "culture de l'excuse",
+    "biais cognitifs",
+    "responsabilité"
+   ],
+   "a_verifier": "titre et date corrigés (cours : « Les dangers sociologiques », 2018)"
+  },
+  {
+   "auteur": "Richard Thaler",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les biais cognitifs altèrent les décisions économiques : apport de la psychologie à l'économie.",
+   "a_quoi_ca_sert": "expliquer des décisions irrationnelles (consommation, épargne, nudges)",
+   "partie_lecon": "III.2.d – Débats actuels",
+   "mots_cles": [
+    "biais cognitifs",
+    "économie comportementale",
+    "nudge"
+   ]
+  },
+  {
+   "auteur": "Nathalie Heinich",
+   "ouvrage": "Ce que le militantisme fait à la recherche",
+   "date": "2021",
+   "idee": "Dénonce la « confusion des arènes » entre science et militantisme et rappelle l'impératif de neutralité axiologique.",
+   "a_quoi_ca_sert": "intervenir dans les débats sur le militantisme à l'université (wokisme, liberté académique)",
+   "partie_lecon": "III.2.d – Débats actuels",
+   "mots_cles": [
+    "confusion des arènes",
+    "militantisme",
+    "neutralité axiologique",
+    "université"
+   ]
+  },
+  {
+   "auteur": "Raymond Boudon et Renaud Fillieule",
+   "ouvrage": "Les Méthodes en sociologie",
+   "date": "2016",
+   "idee": "Une variable-test permet de distinguer relation apparente, réelle ou cachée entre deux variables.",
+   "a_quoi_ca_sert": "critiquer une corrélation statistique trompeuse",
+   "partie_lecon": "III.2.e – Analyse causale",
+   "mots_cles": [
+    "corrélation",
+    "causalité",
+    "variable-test",
+    "statistiques"
+   ]
+  },
+  {
+   "auteur": "Lawrence Cohen et Marcus Felson",
+   "ouvrage": "",
+   "date": "1973",
+   "idee": "La hausse des cambriolages aux États-Unis (1960-1975) s'explique par de nouvelles opportunités (biens légers, logements vides).",
+   "a_quoi_ca_sert": "expliquer la délinquance par les opportunités plutôt que par la pauvreté",
+   "partie_lecon": "III.2.f – Délinquance",
+   "mots_cles": [
+    "délinquance",
+    "opportunités",
+    "cambriolages"
+   ],
+   "a_verifier": "article sur la théorie des activités routinières publié en 1979"
+  },
+  {
+   "auteur": "Anthony Oberschall",
+   "ouvrage": "",
+   "date": "1973",
+   "idee": "La frustration ne suffit pas à déclencher une action collective : le choix de la violence dépend des appuis et des coûts.",
+   "a_quoi_ca_sert": "analyser le choix des répertoires d'action (violence ou non) d'un mouvement social",
+   "partie_lecon": "III.2.f – Mobilisation collective",
+   "mots_cles": [
+    "action collective",
+    "mobilisation",
+    "violence",
+    "mouvements sociaux"
+   ]
+  },
+  {
+   "auteur": "Alain Touraine",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Un mouvement social lutte pour le contrôle de l'historicité selon trois principes : identité, opposition, totalité.",
+   "a_quoi_ca_sert": "analyser un mouvement social (Gilets jaunes, climat, féminisme) : qui, contre qui, pour quel enjeu",
+   "partie_lecon": "III.3 – Touraine",
+   "mots_cles": [
+    "mouvement social",
+    "historicité",
+    "identité",
+    "conflit"
+   ]
+  },
+  {
+   "auteur": "Alain Touraine",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La société postindustrielle voit le conflit se déplacer hors du travail : les « nouveaux mouvements sociaux » remplacent le mouvement ouvrier.",
+   "a_quoi_ca_sert": "expliquer l'essor des mobilisations écologistes, féministes, identitaires",
+   "partie_lecon": "III.3 – Touraine",
+   "mots_cles": [
+    "nouveaux mouvements sociaux",
+    "société postindustrielle",
+    "mouvement ouvrier"
+   ]
+  }
+ ],
+ "id": "1A-sociologie",
+ "programme_chapitre": "1.3 – Les fondements de la sociologie"
+}

@@ -1,0 +1,599 @@
+{
+ "chapitre": "La globalisation financière",
+ "annee": "2A",
+ "module": "Module 3 – La mondialisation économique et financière",
+ "source_doc": "Chapitre 3 (2) – La globalisation financière",
+ "mots_cles_actu": [
+  "krach boursier",
+  "bulle",
+  "IA bulle boursière",
+  "Nasdaq",
+  "cryptomonnaies",
+  "faillite bancaire",
+  "SVB",
+  "crise financière",
+  "subprimes",
+  "Lehman Brothers",
+  "dette privée",
+  "shadow banking",
+  "fonds spéculatifs",
+  "Bâle III",
+  "régulation bancaire",
+  "taxe sur les transactions financières",
+  "taxe Tobin",
+  "contrôle des capitaux",
+  "pays émergents",
+  "fuite des capitaux",
+  "Fed",
+  "BCE",
+  "prêteur en dernier ressort",
+  "inégalités",
+  "immobilier"
+ ],
+ "references": [
+  {
+   "auteur": "Pierre-Noël Giraud",
+   "ouvrage": "Le commerce des promesses. Petit traité sur la finance moderne",
+   "date": "2001",
+   "idee": "La finance est un commerce de promesses : utile pour transférer la richesse dans le temps et gérer les risques, mais fragile car les promesses peuvent ne pas être tenues.",
+   "a_quoi_ca_sert": "définir l'utilité et la fragilité intrinsèque de la finance",
+   "partie_lecon": "I.2 – Les fonctions de la finance",
+   "mots_cles": [
+    "fonctions de la finance",
+    "promesses",
+    "risque",
+    "épargne"
+   ]
+  },
+  {
+   "auteur": "Robert C. Merton et Zvi Bodie",
+   "ouvrage": "A Conceptual Framework for Analyzing the Financial System",
+   "date": "1995",
+   "idee": "Les institutions financières changent mais leurs six fonctions restent : c'est par ses fonctions qu'il faut juger un système financier.",
+   "a_quoi_ca_sert": "juger si une innovation financière (cryptos, fintech) sert l'économie réelle",
+   "partie_lecon": "I.2 – Les fonctions de la finance",
+   "mots_cles": [
+    "fonctions de la finance",
+    "paiements",
+    "gestion des risques",
+    "asymétries d'information"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "Discipliner la finance",
+   "date": "2019",
+   "idee": "La finance est indispensable pour transformer l'épargne en investissement, mais son poids excessif rend les crises plus fréquentes et plus graves ; depuis 1996, les chocs financiers causent les chocs réels.",
+   "a_quoi_ca_sert": "montrer qu'une crise financière se transmet à l'économie réelle",
+   "partie_lecon": "I.3 – Finance intermédiée, finance de marché et économie réelle",
+   "mots_cles": [
+    "finance et croissance",
+    "chocs financiers",
+    "dette",
+    "inégalités"
+   ],
+   "a_verifier": "dates des périodes de chocs (1980-1995 puis 1996), signalées dans la leçon"
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "Discipliner la finance",
+   "date": "2019",
+   "idee": "Paradoxe : les émergents, Chine en tête, financent les États-Unis, signe d'une allocation inefficace de l'épargne mondiale.",
+   "a_quoi_ca_sert": "critiquer l'argument libéral d'une allocation optimale des capitaux",
+   "partie_lecon": "III.4.a – Volatilité des capitaux et crises",
+   "mots_cles": [
+    "allocation de l'épargne",
+    "émergents",
+    "États-Unis",
+    "paradoxe de Lucas"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "Discipliner la finance",
+   "date": "2019",
+   "idee": "Il faut « dégonfler » la finance : hausse progressive des taux et macroprudentiel, régulation des capitaux spéculatifs, fin du déficit extérieur américain permanent.",
+   "a_quoi_ca_sert": "proposer des remèdes face à une bulle ou un excès d'endettement",
+   "partie_lecon": "IV.2 – Les propositions théoriques",
+   "mots_cles": [
+    "leaning against the wind",
+    "macroprudentiel",
+    "capitaux spéculatifs",
+    "coordination"
+   ]
+  },
+  {
+   "auteur": "Alexander Gerschenkron",
+   "ouvrage": "Economic Backwardness in Historical Perspective",
+   "date": "1962",
+   "idee": "Plus un pays s'industrialise tard, plus il a besoin d'institutions fortes (banques, puis État) pour réunir le capital.",
+   "a_quoi_ca_sert": "justifier le rôle des banques publiques ou de l'État dans le financement du rattrapage",
+   "partie_lecon": "II.1 – La première mondialisation",
+   "mots_cles": [
+    "retard économique",
+    "banques universelles",
+    "État",
+    "industrialisation"
+   ]
+  },
+  {
+   "auteur": "John Hicks",
+   "ouvrage": "The Crisis in Keynesian Economics",
+   "date": "1974",
+   "idee": "On distingue l'économie d'endettement, financée par le crédit bancaire refinancé par la banque centrale, de l'économie de marchés financiers.",
+   "a_quoi_ca_sert": "analyser le mode de financement des entreprises d'un pays",
+   "partie_lecon": "II.2.b – L'économie d'endettement et ses limites",
+   "mots_cles": [
+    "économie d'endettement",
+    "crédit bancaire",
+    "marchés financiers",
+    "inflation"
+   ]
+  },
+  {
+   "auteur": "Pierre-Cyrille Hautcœur",
+   "ouvrage": "",
+   "date": "2011",
+   "idee": "Les marchés retrouvent dans les années 1980 leur poids de la Belle Époque, mais ils sont plus institutionnels, plus internationaux et plus opaques.",
+   "a_quoi_ca_sert": "comparer les deux mondialisations financières",
+   "partie_lecon": "II.3.a – Un retour des marchés",
+   "mots_cles": [
+    "investisseurs institutionnels",
+    "fonds de pension",
+    "opacité",
+    "Belle Époque"
+   ],
+   "a_verifier": "titre exact de la référence non trouvé (signalé dans la leçon)"
+  },
+  {
+   "auteur": "Henri Bourguinat",
+   "ouvrage": "Les vertiges de la finance internationale",
+   "date": "1987",
+   "idee": "La globalisation financière résulte des « 3D » : décloisonnement, déréglementation, désintermédiation.",
+   "a_quoi_ca_sert": "expliquer les origines de la finance mondialisée depuis les années 1980",
+   "partie_lecon": "II.3.b – Les « 3D »",
+   "mots_cles": [
+    "3D",
+    "déréglementation",
+    "désintermédiation",
+    "décloisonnement"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "The Globalization Paradox",
+   "date": "2011",
+   "idee": "L'hypermondialisation financière est incompatible avec la souveraineté et la démocratie : sous Bretton Woods le politique dominait, depuis 1980 l'économique domine.",
+   "a_quoi_ca_sert": "analyser la pression des marchés sur les États et le retour des États depuis 2008",
+   "partie_lecon": "II.4 – Synthèse historique",
+   "mots_cles": [
+    "trilemme",
+    "souveraineté",
+    "démocratie",
+    "hypermondialisation"
+   ]
+  },
+  {
+   "auteur": "Ronald McKinnon",
+   "ouvrage": "Money and Capital in Economic Development",
+   "date": "1973",
+   "idee": "La répression financière des PED freine leur croissance : des taux réels positifs mobilisent l'épargne vers les projets rentables.",
+   "a_quoi_ca_sert": "défendre la libéralisation financière dans les pays en développement",
+   "partie_lecon": "III.1.b – Les marchés financiers favorisent la croissance",
+   "mots_cles": [
+    "répression financière",
+    "libéralisation",
+    "PED",
+    "épargne"
+   ]
+  },
+  {
+   "auteur": "Walt Rostow",
+   "ouvrage": "Les étapes de la croissance économique",
+   "date": "1960",
+   "idee": "Un système financier capable de mobiliser l'épargne est une condition préalable du décollage.",
+   "a_quoi_ca_sert": "montrer le rôle de la finance dans le développement",
+   "partie_lecon": "III.1.b – Les marchés financiers favorisent la croissance",
+   "mots_cles": [
+    "décollage",
+    "développement",
+    "épargne",
+    "système financier"
+   ]
+  },
+  {
+   "auteur": "Robert Solow",
+   "ouvrage": "A Contribution to the Theory of Economic Growth",
+   "date": "1956",
+   "idee": "Un taux d'épargne plus élevé conduit à un niveau de capital et de revenu par tête plus élevé à long terme.",
+   "a_quoi_ca_sert": "justifier des marchés qui mobilisent mieux l'épargne",
+   "partie_lecon": "III.1.b – Les marchés financiers favorisent la croissance",
+   "mots_cles": [
+    "épargne",
+    "accumulation du capital",
+    "état stationnaire",
+    "croissance"
+   ]
+  },
+  {
+   "auteur": "Eugene Fama",
+   "ouvrage": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+   "date": "1970",
+   "idee": "Sur un marché efficient, les prix reflètent toute l'information disponible : impossible de battre durablement le marché, l'État n'a pas à intervenir.",
+   "a_quoi_ca_sert": "défendre la non-intervention sur les marchés et la gestion indicielle (ETF)",
+   "partie_lecon": "III.1.c – L'efficience des marchés financiers",
+   "mots_cles": [
+    "efficience",
+    "information",
+    "valeur fondamentale",
+    "ETF"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "Essais d'économie positive",
+   "date": "1953",
+   "idee": "La spéculation est stabilisante : le spéculateur rationnel ramène les prix vers leur valeur fondamentale.",
+   "a_quoi_ca_sert": "défendre l'utilité des spéculateurs",
+   "partie_lecon": "III.1.d – La spéculation stabilisante",
+   "mots_cles": [
+    "spéculation stabilisante",
+    "valeur fondamentale",
+    "rationalité",
+    "marchés"
+   ]
+  },
+  {
+   "auteur": "John Hicks",
+   "ouvrage": "Valeur et capital",
+   "date": "1939",
+   "idee": "Le spéculateur assure la liquidité du marché et prend en charge le risque dont les autres veulent se couvrir.",
+   "a_quoi_ca_sert": "montrer l'utilité de la spéculation pour la couverture des risques",
+   "partie_lecon": "III.1.d – La spéculation stabilisante",
+   "mots_cles": [
+    "liquidité",
+    "couverture",
+    "risque",
+    "spéculation"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor",
+   "ouvrage": "Speculation and Economic Stability",
+   "date": "1939",
+   "idee": "La spéculation devient déstabilisante quand les spéculateurs sont majoritaires et anticipent les anticipations des autres.",
+   "a_quoi_ca_sert": "nuancer les vertus de la spéculation face à un emballement",
+   "partie_lecon": "III.1.d – La spéculation stabilisante",
+   "mots_cles": [
+    "spéculation déstabilisante",
+    "anticipations",
+    "marchés",
+    "instabilité"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "Concours de beauté : face à l'incertitude radicale, les investisseurs achètent ce que les autres vont acheter ; les marchés sont mimétiques et instables.",
+   "a_quoi_ca_sert": "expliquer une bulle boursière (IA, tech) par le mimétisme",
+   "partie_lecon": "III.2.a – La critique keynésienne de l'efficience",
+   "mots_cles": [
+    "concours de beauté",
+    "mimétisme",
+    "incertitude radicale",
+    "bulle spéculative"
+   ]
+  },
+  {
+   "auteur": "Hyman Minsky",
+   "ouvrage": "Stabiliser une économie instable",
+   "date": "1986",
+   "idee": "L'instabilité financière est endogène : la prospérité pousse à l'endettement (couvert, spéculatif, puis Ponzi) et la stabilité prépare la crise.",
+   "a_quoi_ca_sert": "analyser une montée de l'endettement privé avant un krach (subprimes)",
+   "partie_lecon": "III.2.b – L'hypothèse d'instabilité financière",
+   "mots_cles": [
+    "instabilité financière",
+    "financement Ponzi",
+    "paradoxe de la tranquillité",
+    "dette"
+   ]
+  },
+  {
+   "auteur": "Paul McCulley",
+   "ouvrage": "",
+   "date": "1998",
+   "idee": "Le « moment Minsky » désigne le retournement brutal au pic de la confiance.",
+   "a_quoi_ca_sert": "nommer le basculement soudain d'un marché euphorique",
+   "partie_lecon": "III.2.b – Le paradoxe de la tranquillité",
+   "mots_cles": [
+    "moment Minsky",
+    "krach",
+    "confiance",
+    "retournement"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "Histoire mondiale de la spéculation financière",
+   "date": "1978",
+   "idee": "Toutes les crises suivent euphorie, panique, krach ; seul un prêteur en dernier ressort à l'intervention incertaine évite la destruction d'entreprises saines sans trop d'aléa moral.",
+   "a_quoi_ca_sert": "justifier le sauvetage d'une banque tout en discutant le « too big to fail »",
+   "partie_lecon": "III.2.b – Kindleberger",
+   "mots_cles": [
+    "prêteur en dernier ressort",
+    "aléa moral",
+    "too big to fail",
+    "ambiguïté constructive"
+   ]
+  },
+  {
+   "auteur": "Robert Shiller",
+   "ouvrage": "Exubérance irrationnelle",
+   "date": "2000",
+   "idee": "Les bulles s'expliquent par des biais psychologiques et culturels et des boucles de rétroaction ; des indicateurs comme le CAPE permettent de les repérer.",
+   "a_quoi_ca_sert": "diagnostiquer une bulle actuelle (valorisations boursières records)",
+   "partie_lecon": "III.2.c – L'exubérance irrationnelle",
+   "mots_cles": [
+    "finance comportementale",
+    "biais cognitifs",
+    "CAPE",
+    "bulle"
+   ]
+  },
+  {
+   "auteur": "Irving Fisher",
+   "ouvrage": "The Debt-Deflation Theory of Great Depressions",
+   "date": "1933",
+   "idee": "Déflation par la dette : plus les agents remboursent, plus le poids réel de leur dette augmente, ce qui transforme la crise financière en dépression.",
+   "a_quoi_ca_sert": "expliquer le risque de déflation après un krach et justifier une reflation",
+   "partie_lecon": "III.2.d – La déflation par la dette",
+   "mots_cles": [
+    "déflation",
+    "dette",
+    "désendettement",
+    "reflation"
+   ]
+  },
+  {
+   "auteur": "Raghuram Rajan",
+   "ouvrage": "Fault Lines",
+   "date": "2010",
+   "idee": "La crise de 2008 a des racines réelles : la stagnation des revenus modestes a poussé les ménages à s'endetter.",
+   "a_quoi_ca_sert": "relier inégalités et crises financières",
+   "partie_lecon": "III.2.e – Les causes réelles des crises",
+   "mots_cles": [
+    "inégalités",
+    "endettement des ménages",
+    "subprimes",
+    "credit crunch"
+   ]
+  },
+  {
+   "auteur": "Thomas Piketty",
+   "ouvrage": "Le Capital au XXIe siècle",
+   "date": "2013",
+   "idee": "Les inégalités ont fortement augmenté aux États-Unis avant 2008, sans être la cause unique de la crise.",
+   "a_quoi_ca_sert": "documenter la montée des inégalités en lien avec la financiarisation",
+   "partie_lecon": "III.2.e – Les causes réelles des crises",
+   "mots_cles": [
+    "inégalités",
+    "capital",
+    "États-Unis",
+    "crise de 2008"
+   ]
+  },
+  {
+   "auteur": "Jean-Louis Arcand, Enrico Berkes et Ugo Panizza",
+   "ouvrage": "Too Much Finance?",
+   "date": "2012",
+   "idee": "La finance favorise la croissance jusqu'à un seuil (crédit privé autour de 80-100 % du PIB), au-delà duquel elle la freine.",
+   "a_quoi_ca_sert": "montrer qu'un excès de crédit nuit à la croissance",
+   "partie_lecon": "III.3 – Trop de finance ?",
+   "mots_cles": [
+    "trop de finance",
+    "crédit",
+    "croissance",
+    "seuil"
+   ]
+  },
+  {
+   "auteur": "Stephen Cecchetti et Enisse Kharroubi",
+   "ouvrage": "Why Does Financial Sector Growth Crowd Out Real Economic Growth?",
+   "date": "2015",
+   "idee": "La croissance rapide du secteur financier évince l'économie réelle en attirant capitaux et talents vers des activités peu productives.",
+   "a_quoi_ca_sert": "critiquer une finance qui ne finance ni l'innovation ni la transition écologique",
+   "partie_lecon": "III.3 – Trop de finance ?",
+   "mots_cles": [
+    "effet d'éviction",
+    "productivité",
+    "innovation",
+    "transition écologique"
+   ]
+  },
+  {
+   "auteur": "Jonathan Ostry, Prakash Loungani et Davide Furceri",
+   "ouvrage": "Neoliberalism: Oversold?",
+   "date": "2016",
+   "idee": "L'ouverture totale aux capitaux n'apporte pas la croissance promise mais accroît instabilité et inégalités : les contrôles de capitaux peuvent être légitimes.",
+   "a_quoi_ca_sert": "justifier un contrôle des capitaux en cas de crise (Islande, Chypre)",
+   "partie_lecon": "III.3 – Trop de finance ?",
+   "mots_cles": [
+    "contrôle des capitaux",
+    "inégalités",
+    "FMI",
+    "macroprudentiel"
+   ]
+  },
+  {
+   "auteur": "Daron Acemoglu et James Robinson",
+   "ouvrage": "Prospérité, puissance et pauvreté",
+   "date": "2012",
+   "idee": "Un pays ne tire profit de l'ouverture financière que s'il a des institutions solides.",
+   "a_quoi_ca_sert": "expliquer les difficultés des émergents par la qualité de leurs institutions",
+   "partie_lecon": "III.4.a – Volatilité des capitaux et crises",
+   "mots_cles": [
+    "institutions",
+    "émergents",
+    "état de droit",
+    "développement"
+   ]
+  },
+  {
+   "auteur": "Martin Feldstein et Charles Horioka",
+   "ouvrage": "Domestic Saving and International Capital Flows",
+   "date": "1980",
+   "idee": "L'épargne nationale finance surtout l'investissement national : la mobilité des capitaux est plus faible qu'on le croit (biais domestique).",
+   "a_quoi_ca_sert": "relativiser l'ampleur réelle de la globalisation financière",
+   "partie_lecon": "III.4.b – Paradoxe de Feldstein-Horioka",
+   "mots_cles": [
+    "biais domestique",
+    "épargne",
+    "investissement",
+    "mobilité des capitaux"
+   ]
+  },
+  {
+   "auteur": "Robert Lucas",
+   "ouvrage": "Why Doesn't Capital Flow from Rich to Poor Countries?",
+   "date": "1990",
+   "idee": "Le capital ne va pas des pays riches vers les pauvres car son rendement y est réduit par le manque de capital humain et la faiblesse des institutions.",
+   "a_quoi_ca_sert": "expliquer pourquoi les émergents financent les pays riches",
+   "partie_lecon": "III.4.b – Paradoxe de Lucas",
+   "mots_cles": [
+    "paradoxe de Lucas",
+    "capital humain",
+    "flux de capitaux",
+    "Sud-Nord"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "The International Economic Order",
+   "date": "1988",
+   "idee": "La stabilité financière est un bien public international que personne n'a intérêt à produire seul.",
+   "a_quoi_ca_sert": "justifier une régulation financière coordonnée à l'échelle mondiale",
+   "partie_lecon": "IV.1.a – La stabilité financière comme bien public",
+   "mots_cles": [
+    "stabilité financière",
+    "bien public mondial",
+    "régulation",
+    "coopération"
+   ]
+  },
+  {
+   "auteur": "Markus Brunnermeier et al.",
+   "ouvrage": "The Fundamental Principles of Financial Regulation",
+   "date": "2009",
+   "idee": "Plus une institution fait courir un risque systémique (taille, interconnexion), plus elle doit être régulée strictement.",
+   "a_quoi_ca_sert": "justifier des exigences renforcées pour les banques systémiques",
+   "partie_lecon": "IV.1.a – Microprudentiel et macroprudentiel",
+   "mots_cles": [
+    "risque systémique",
+    "too big to fail",
+    "macroprudentiel",
+    "banques systémiques"
+   ]
+  },
+  {
+   "auteur": "Conseil de stabilité financière (FSB)",
+   "ouvrage": "",
+   "date": "2024",
+   "idee": "L'intermédiation financière non bancaire atteint environ 51 % des actifs financiers mondiaux et croît deux fois plus vite que les banques.",
+   "a_quoi_ca_sert": "chiffrer le poids du shadow banking et ses risques",
+   "partie_lecon": "IV.1.c – Le shadow banking",
+   "mots_cles": [
+    "shadow banking",
+    "fonds d'investissement",
+    "titrisation",
+    "risque systémique"
+   ]
+  },
+  {
+   "auteur": "Jézabel Couppey-Soubeyran",
+   "ouvrage": "Blablabanque. Le discours de l'inaction",
+   "date": "2015",
+   "idee": "Toute régulation bancaire est vouée à l'échec tant que le shadow banking n'est pas encadré.",
+   "a_quoi_ca_sert": "critiquer une régulation limitée aux banques",
+   "partie_lecon": "IV.1.c – Le shadow banking",
+   "mots_cles": [
+    "shadow banking",
+    "régulation",
+    "spéculation",
+    "économie réelle"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes (plan Keynes)",
+   "ouvrage": "",
+   "date": "1943",
+   "idee": "Il faut limiter les capitaux spéculatifs et confier la stabilité à une chambre de compensation internationale émettant le bancor.",
+   "a_quoi_ca_sert": "défendre le contrôle des capitaux et une institution monétaire supranationale",
+   "partie_lecon": "IV.2 – Les propositions théoriques",
+   "mots_cles": [
+    "bancor",
+    "contrôle des capitaux",
+    "Bretton Woods",
+    "stabilité financière"
+   ]
+  },
+  {
+   "auteur": "James Tobin",
+   "ouvrage": "A Proposal for International Monetary Reform",
+   "date": "1978",
+   "idee": "Une petite taxe sur les transactions de change mettrait « du sable dans les rouages » et découragerait la spéculation de court terme.",
+   "a_quoi_ca_sert": "défendre une taxe sur les transactions financières",
+   "partie_lecon": "IV.2 – Les propositions théoriques",
+   "mots_cles": [
+    "taxe Tobin",
+    "spéculation",
+    "volatilité",
+    "taxe sur les transactions financières"
+   ]
+  },
+  {
+   "auteur": "Paul Bernd Spahn",
+   "ouvrage": "International Financial Flows and Transaction Taxes: Survey and Options",
+   "date": "1995",
+   "idee": "La taxe sur les transactions doit être à deux étages : très faible en temps normal, forte en cas d'attaque spéculative.",
+   "a_quoi_ca_sert": "proposer une taxe anti-spéculation qui ne gêne pas le commerce",
+   "partie_lecon": "IV.2 – Les propositions théoriques",
+   "mots_cles": [
+    "taxe Spahn",
+    "attaque spéculative",
+    "taxe Tobin",
+    "change"
+   ]
+  },
+  {
+   "auteur": "Jézabel Couppey-Soubeyran, Pierre Delandre et Augustin Sersiron",
+   "ouvrage": "Le pouvoir de la monnaie. Transformons la monnaie pour transformer la société",
+   "date": "2024",
+   "idee": "Il faut un second mode d'émission monétaire, sans dette, pour financer les projets utiles mais non rentables comme la transition écologique.",
+   "a_quoi_ca_sert": "proposer un financement monétaire de la transition écologique",
+   "partie_lecon": "IV.2 – Les propositions théoriques",
+   "mots_cles": [
+    "création monétaire",
+    "transition écologique",
+    "bien commun",
+    "monnaie"
+   ]
+  },
+  {
+   "auteur": "Comité de Bâle",
+   "ouvrage": "Accords de Bâle I, II, III",
+   "date": "1988-2010",
+   "idee": "Les accords imposent des fonds propres minimaux pondérés par le risque puis, avec Bâle III, des ratios de liquidité, de levier et un coussin contracyclique.",
+   "a_quoi_ca_sert": "analyser une faillite bancaire (SVB 2023) au regard des règles prudentielles",
+   "partie_lecon": "IV.3 – Les accords de Bâle",
+   "mots_cles": [
+    "ratio Cooke",
+    "fonds propres",
+    "Bâle III",
+    "macroprudentiel"
+   ]
+  }
+ ],
+ "id": "2A-06-globalisation-financiere",
+ "programme_chapitre": "3.2 – La dynamique de la mondialisation financière : constitution et fonctionnement du marché international des capitaux"
+}

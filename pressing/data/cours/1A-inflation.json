@@ -1,0 +1,725 @@
+{
+ "chapitre": "Inflation, désinflation et déflation",
+ "annee": "1A",
+ "module": "Module 4 – Déséquilibres, régulation et action publique",
+ "source_doc": "Inflation et monnaie- (2) Inflation, désinflation et déflation (+ L'INFLATION, LA DÉFLATION ET LES PHÉNOMÈNES MONÉTAIRES LIÉS)",
+ "mots_cles_actu": [
+  "inflation",
+  "IPC",
+  "Insee",
+  "Eurostat",
+  "BCE",
+  "hausse des taux",
+  "cible de 2 %",
+  "Christine Lagarde",
+  "prix de l'énergie",
+  "pétrole",
+  "détroit d'Ormuz",
+  "Iran",
+  "choc pétrolier",
+  "pouvoir d'achat",
+  "SMIC",
+  "boucle prix-salaires",
+  "déflation",
+  "Japon",
+  "stagflation",
+  "krach boursier",
+  "bulle",
+  "crise financière",
+  "faillite bancaire",
+  "hyperinflation",
+  "greenflation"
+ ],
+ "references": [
+  {
+   "auteur": "André Maurois",
+   "ouvrage": "Dialogues sur le commandement",
+   "date": "1924",
+   "idee": "« L'inflation est l'œuvre du diable car elle respecte les apparences mais détruit les réalités » : elle laisse les billets inchangés mais ronge le pouvoir d'achat.",
+   "a_quoi_ca_sert": "accroche d'introduction sur la perte de pouvoir d'achat masquée par l'illusion de stabilité",
+   "partie_lecon": "Introduction",
+   "mots_cles": [
+    "inflation",
+    "pouvoir d'achat",
+    "illusion monétaire"
+   ]
+  },
+  {
+   "auteur": "Ernest Hemingway",
+   "ouvrage": "Notes sur la prochaine guerre",
+   "date": "1935",
+   "idee": "La première panacée d'une nation mal gouvernée est l'inflation, la seconde la guerre : toutes deux apportent une prospérité temporaire et une destruction durable.",
+   "a_quoi_ca_sert": "montrer que l'inflation peut soulager à court terme (dettes, activité) mais détruire la monnaie à terme",
+   "partie_lecon": "Introduction",
+   "mots_cles": [
+    "inflation",
+    "hyperinflation",
+    "dette publique"
+   ]
+  },
+  {
+   "auteur": "Michael Boskin (rapport au Sénat américain)",
+   "ouvrage": "Rapport Boskin",
+   "date": "1996",
+   "idee": "L'IPC surestime l'inflation (environ 1,1 point par an) à cause de quatre biais : substitution, circuits de distribution, nouveaux produits, qualité.",
+   "a_quoi_ca_sert": "discuter la fiabilité des chiffres d'inflation et l'écart entre inflation mesurée et ressentie",
+   "partie_lecon": "I.1.c – Les limites de la mesure",
+   "mots_cles": [
+    "IPC",
+    "biais de mesure",
+    "inflation ressentie",
+    "indexation"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "Inflation : causes et conséquences",
+   "date": "1963",
+   "idee": "« L'inflation est toujours et partout un phénomène monétaire » : elle vient d'une hausse de la quantité de monnaie plus rapide que la production.",
+   "a_quoi_ca_sert": "attribuer une poussée d'inflation à une création monétaire excessive (QE, monétisation des déficits)",
+   "partie_lecon": "I.2.a – L'approche monétaire",
+   "mots_cles": [
+    "monétarisme",
+    "théorie quantitative",
+    "création monétaire",
+    "taxe inflationniste"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Comment payer la guerre",
+   "date": "1940",
+   "idee": "Avant le plein-emploi, une hausse de la demande augmente la production ; au-delà, l'écart inflationniste ne fait monter que les prix.",
+   "a_quoi_ca_sert": "expliquer une inflation par la demande quand l'offre est saturée (guerre, relance en surchauffe)",
+   "partie_lecon": "I.2.b – L'inflation par la demande",
+   "mots_cles": [
+    "inflation par la demande",
+    "écart inflationniste",
+    "plein-emploi",
+    "relance"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor",
+   "ouvrage": "Economic Growth and the Problem of Inflation",
+   "date": "1959",
+   "idee": "L'inflation surgit progressivement bien avant le plein-emploi, car l'offre s'adapte lentement (goulets d'étranglement) : toute relance réduit le chômage au prix d'inflation.",
+   "a_quoi_ca_sert": "analyser l'inflation post-Covid liée aux goulets d'étranglement et à une demande qui repart vite",
+   "partie_lecon": "I.2.b – L'inflation par la demande",
+   "mots_cles": [
+    "goulets d'étranglement",
+    "offre globale",
+    "inflation par la demande",
+    "Trente Glorieuses"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor et les néo-cambridgiens",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'inflation exprime un conflit de répartition : salariés et entreprises luttent pour le partage de la valeur ajoutée, d'où la boucle prix-salaires.",
+   "a_quoi_ca_sert": "lire les négociations salariales et les hausses de marges comme un conflit de partage de la valeur ajoutée",
+   "partie_lecon": "I.2.c – L'inflation par les coûts salariaux",
+   "mots_cles": [
+    "boucle prix-salaires",
+    "partage de la valeur ajoutée",
+    "conflit de répartition",
+    "salaires"
+   ]
+  },
+  {
+   "auteur": "Robert Boyer et Jacques Mistral",
+   "ouvrage": "Accumulation, inflation, crises",
+   "date": "1978",
+   "idee": "Pendant les Trente Glorieuses, le compromis fordiste garantit des hausses de salaires réels détachées des gains de productivité, ce qui rend l'inflation structurelle.",
+   "a_quoi_ca_sert": "montrer le rôle des institutions salariales (indexation) dans une inflation durable",
+   "partie_lecon": "I.2.c – L'inflation par les coûts salariaux",
+   "mots_cles": [
+    "école de la régulation",
+    "fordisme",
+    "indexation des salaires",
+    "taux de marge"
+   ]
+  },
+  {
+   "auteur": "William Baumol et William Bowen",
+   "ouvrage": "Performing Arts: The Economic Dilemma",
+   "date": "1966",
+   "idee": "Dans les services, où la productivité progresse peu, les salaires s'alignent sur l'industrie : les services sont structurellement inflationnistes (« maladie des coûts »).",
+   "a_quoi_ca_sert": "expliquer la hausse durable des prix des services (santé, éducation, culture)",
+   "partie_lecon": "I.2.c – L'inflation de productivité",
+   "mots_cles": [
+    "maladie des coûts",
+    "services",
+    "productivité",
+    "inflation structurelle"
+   ]
+  },
+  {
+   "auteur": "Modèle scandinave",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Si les salaires du secteur abrité (faibles gains de productivité) suivent ceux du secteur exposé à la concurrence, une inflation de productivité apparaît dans le secteur abrité.",
+   "a_quoi_ca_sert": "expliquer des écarts d'inflation entre secteurs exposés et abrités",
+   "partie_lecon": "I.2.c – L'inflation de productivité",
+   "mots_cles": [
+    "secteur exposé",
+    "secteur abrité",
+    "productivité",
+    "salaires"
+   ]
+  },
+  {
+   "auteur": "Arthur Cecil Pigou",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Effet d'encaisses réelles : quand les prix montent, l'agent réduit sa consommation pour reconstituer une encaisse réelle (M/P) constante.",
+   "a_quoi_ca_sert": "expliquer qu'une inflation peut freiner la consommation des ménages",
+   "partie_lecon": "I.3.a – Avantages et inconvénients",
+   "mots_cles": [
+    "effet Pigou",
+    "encaisses réelles",
+    "consommation"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "La Réforme monétaire",
+   "date": "1923",
+   "idee": "L'inflation redistribue la richesse des rentiers et des créanciers vers les entrepreneurs et les débiteurs.",
+   "a_quoi_ca_sert": "identifier gagnants (endettés, État, jeunes actifs) et perdants (retraités, épargnants) d'une poussée d'inflation",
+   "partie_lecon": "I.3.b – Gagnants et perdants de l'inflation",
+   "mots_cles": [
+    "redistribution",
+    "rentiers",
+    "débiteurs",
+    "épargne"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "L'« euthanasie du rentier » désigne la baisse durable des taux d'intérêt, qui réduit le revenu tiré de la simple détention de capital.",
+   "a_quoi_ca_sert": "analyser les effets redistributifs des taux bas sur les épargnants",
+   "partie_lecon": "I.3.b – Gagnants et perdants de l'inflation",
+   "mots_cles": [
+    "euthanasie du rentier",
+    "taux d'intérêt",
+    "épargnants"
+   ],
+   "a_verifier": "la leçon complémentaire attribue l'expression aux Conséquences économiques de la paix (1919) et la relie à l'inflation ; la leçon principale la place dans la Théorie générale (1936), version retenue"
+  },
+  {
+   "auteur": "Robert Barro",
+   "ouvrage": "Inflation and Growth",
+   "date": "1996",
+   "idee": "L'inflation ne réduit nettement la croissance que lorsqu'elle est élevée (au-delà de 15 à 20 % par an) ; aux niveaux faibles, la relation est incertaine.",
+   "a_quoi_ca_sert": "relativiser le coût d'une inflation modérée et justifier la lutte contre les fortes inflations",
+   "partie_lecon": "I.3.c – Inflation et croissance",
+   "mots_cles": [
+    "inflation",
+    "croissance",
+    "étude empirique"
+   ]
+  },
+  {
+   "auteur": "Alban William Phillips",
+   "ouvrage": "The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861-1957",
+   "date": "1958",
+   "idee": "Plus le chômage est faible, plus les salaires nominaux augmentent vite : la relation entre chômage et hausse des salaires est inverse et stable.",
+   "a_quoi_ca_sert": "relier marché du travail tendu et hausses de salaires",
+   "partie_lecon": "I.3.d – La courbe de Phillips",
+   "mots_cles": [
+    "courbe de Phillips",
+    "chômage",
+    "salaires nominaux"
+   ]
+  },
+  {
+   "auteur": "Paul Samuelson et Robert Solow",
+   "ouvrage": "Analytical Aspects of Anti-Inflation Policy",
+   "date": "1960",
+   "idee": "Les pouvoirs publics doivent choisir entre moins de chômage avec plus d'inflation, ou l'inverse : c'est le « cruel dilemme ».",
+   "a_quoi_ca_sert": "présenter l'arbitrage inflation-chômage qui guide une banque centrale ou un gouvernement",
+   "partie_lecon": "I.3.d – La courbe de Phillips",
+   "mots_cles": [
+    "arbitrage inflation-chômage",
+    "courbe de Phillips",
+    "stop and go"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "The Role of Monetary Policy",
+   "date": "1968",
+   "idee": "Avec des anticipations adaptatives, l'arbitrage inflation-chômage n'existe qu'à court terme ; à long terme, le chômage revient à son taux naturel et la courbe de Phillips est verticale.",
+   "a_quoi_ca_sert": "critiquer une relance monétaire durable et justifier une règle monétaire",
+   "partie_lecon": "I.3.d – La courbe de Phillips ; II.4.c – La réponse monétariste",
+   "mots_cles": [
+    "anticipations adaptatives",
+    "chômage naturel",
+    "NAIRU",
+    "règle monétaire"
+   ]
+  },
+  {
+   "auteur": "Nouvelle économie classique (Lucas, Sargent, Barro ; Muth)",
+   "ouvrage": "",
+   "date": "années 1970",
+   "idee": "Avec des anticipations rationnelles, une relance monétaire est aussitôt anticipée : elle n'a aucun effet sur le chômage, la courbe de Phillips est verticale même à court terme.",
+   "a_quoi_ca_sert": "souligner l'importance de la crédibilité et des anticipations dans la politique monétaire",
+   "partie_lecon": "I.3.d – La courbe de Phillips",
+   "mots_cles": [
+    "anticipations rationnelles",
+    "NEC",
+    "crédibilité",
+    "politique monétaire"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "",
+   "date": "années 1990",
+   "idee": "La relation inflation-chômage s'est distendue mais n'a pas disparu : l'économie américaine ne pouvait croître indéfiniment à 4 % avec moins de 5 % de chômage sans que l'inflation reparte.",
+   "a_quoi_ca_sert": "nuancer l'idée d'une croissance sans inflation portée par la productivité (NTIC, IA)",
+   "partie_lecon": "I.3.d – Le cas américain des années 1990",
+   "mots_cles": [
+    "NAIRU",
+    "courbe de Phillips",
+    "productivité",
+    "plein-emploi"
+   ]
+  },
+  {
+   "auteur": "Nikolaï Kondratieff",
+   "ouvrage": "Les Vagues longues de la conjoncture",
+   "date": "1926",
+   "idee": "Les phases d'inflation et de déflation correspondent à des cycles longs d'environ 50 ans : l'inflation accompagne l'essor, la déflation la dépression.",
+   "a_quoi_ca_sert": "replacer une phase d'inflation ou de déflation dans le temps long des cycles",
+   "partie_lecon": "II.1.a – Jusqu'en 1945 : l'alternance inflation-déflation",
+   "mots_cles": [
+    "cycles longs",
+    "conjoncture",
+    "déflation",
+    "histoire des prix"
+   ]
+  },
+  {
+   "auteur": "Robert K. Merton",
+   "ouvrage": "",
+   "date": "1948",
+   "idee": "Une prophétie autoréalisatrice est une croyance qui provoque l'événement qu'elle annonce (anticiper une baisse des cours fait vendre, donc baisser les cours).",
+   "a_quoi_ca_sert": "expliquer paniques boursières, bank runs et inflation entretenue par les anticipations",
+   "partie_lecon": "II.2.b – Comportements des agents et instabilité financière",
+   "mots_cles": [
+    "prophétie autoréalisatrice",
+    "anticipations",
+    "panique",
+    "mimétisme"
+   ]
+  },
+  {
+   "auteur": "Hyman Minsky",
+   "ouvrage": "L'Hypothèse d'instabilité financière ; Stabiliser une économie instable",
+   "date": "1977 ; 1986",
+   "idee": "« La stabilité est déstabilisante » : une longue période calme pousse à s'endetter (financement couvert, spéculatif puis Ponzi) jusqu'à ce qu'un choc mineur provoque l'effondrement.",
+   "a_quoi_ca_sert": "analyser la formation et l'éclatement d'une bulle de crédit ou d'actifs (« moment Minsky »)",
+   "partie_lecon": "II.2.b – Comportements des agents et instabilité financière",
+   "mots_cles": [
+    "instabilité financière",
+    "endettement",
+    "bulle",
+    "financement Ponzi"
+   ],
+   "a_verifier": "date : 1977 dans la leçon principale, 1974 dans la leçon complémentaire"
+  },
+  {
+   "auteur": "Charles P. Kindleberger",
+   "ouvrage": "Histoire mondiale de la spéculation financière",
+   "date": "1978",
+   "idee": "Les crises financières suivent historiquement les étapes du modèle de Minsky (déclenchement, boom, euphorie, retournement, panique).",
+   "a_quoi_ca_sert": "montrer la récurrence historique des bulles et des krachs",
+   "partie_lecon": "II.2.b – Comportements des agents et instabilité financière",
+   "mots_cles": [
+    "crises financières",
+    "spéculation",
+    "bulles",
+    "histoire financière"
+   ]
+  },
+  {
+   "auteur": "Raymond Goldsmith",
+   "ouvrage": "",
+   "date": "1982",
+   "idee": "Une crise financière est une détérioration brutale, brève et ultra-cyclique des taux courts, des prix d'actifs et de la solidité des entreprises et institutions financières.",
+   "a_quoi_ca_sert": "définir rigoureusement une crise financière dans une copie",
+   "partie_lecon": "II.2.b – Comportements des agents et instabilité financière",
+   "mots_cles": [
+    "crise financière",
+    "définition",
+    "prix des actifs"
+   ]
+  },
+  {
+   "auteur": "Albert Aftalion",
+   "ouvrage": "Les Crises périodiques de surproduction",
+   "date": "1913",
+   "idee": "Les crises viennent du délai de construction des équipements : les capacités décidées pendant l'euphorie entrent en service quand la demande s'est déjà retournée.",
+   "a_quoi_ca_sert": "expliquer une crise de surcapacités (acier, batteries, véhicules électriques…)",
+   "partie_lecon": "II.2.c – La surproduction, autre cause des crises",
+   "mots_cles": [
+    "surproduction",
+    "surcapacités",
+    "investissement",
+    "cycles"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La crise de surproduction est inhérente au capitalisme : l'accumulation accroît la production tandis que la pression sur les salaires limite la demande.",
+   "a_quoi_ca_sert": "lier crise, partage de la valeur ajoutée et insuffisance de la demande",
+   "partie_lecon": "II.2.c – La surproduction, autre cause des crises",
+   "mots_cles": [
+    "surproduction",
+    "accumulation du capital",
+    "salaires",
+    "demande"
+   ]
+  },
+  {
+   "auteur": "Jean Fourastié",
+   "ouvrage": "Les Trente Glorieuses",
+   "date": "1979",
+   "idee": "Les Trente Glorieuses sont une période de forte croissance accompagnée d'une inflation continue, nourrie par l'économie d'endettement et le compromis salarial fordiste.",
+   "a_quoi_ca_sert": "comparer l'inflation actuelle à l'inflation de croissance de l'après-guerre",
+   "partie_lecon": "II.3 – Les Trente Glorieuses : l'inflation par le crédit",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "économie d'endettement",
+    "inflation par le crédit"
+   ]
+  },
+  {
+   "auteur": "Iain Macleod",
+   "ouvrage": "",
+   "date": "1965",
+   "idee": "Le mot « stagflation » désigne la coexistence inédite d'une croissance faible, d'un chômage élevé et d'une forte inflation.",
+   "a_quoi_ca_sert": "qualifier un choc d'offre qui combine inflation et ralentissement (choc pétrolier 2026)",
+   "partie_lecon": "II.4.a – La stagflation : une rupture",
+   "mots_cles": [
+    "stagflation",
+    "choc d'offre",
+    "chômage",
+    "inflation"
+   ]
+  },
+  {
+   "auteur": "Paul Volcker (Fed)",
+   "ouvrage": "",
+   "date": "1979",
+   "idee": "En portant le taux directeur à 20 % fin 1980, la Fed casse les anticipations d'inflation au prix d'une forte récession.",
+   "a_quoi_ca_sert": "illustrer le coût d'une désinflation brutale par les taux et l'importance de la crédibilité",
+   "partie_lecon": "II.4.c – La réponse monétariste ; IV.1 – La désinflation des années 1980",
+   "mots_cles": [
+    "désinflation",
+    "taux directeurs",
+    "Fed",
+    "récession"
+   ]
+  },
+  {
+   "auteur": "Phillip Cagan",
+   "ouvrage": "The Monetary Dynamics of Hyperinflation",
+   "date": "1956",
+   "idee": "Une économie est en hyperinflation dès que les prix augmentent de plus de 50 % par mois (près de 13 000 % par an).",
+   "a_quoi_ca_sert": "qualifier une inflation extrême (Venezuela, Zimbabwe, Argentine)",
+   "partie_lecon": "II.6 – L'hyperinflation",
+   "mots_cles": [
+    "hyperinflation",
+    "fuite devant la monnaie",
+    "dollarisation"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta et André Orléan",
+   "ouvrage": "La monnaie souveraine",
+   "date": "1998",
+   "idee": "L'hyperinflation détruit la confiance éthique qui lie les citoyens à l'État émetteur, d'où perte de légitimité des institutions et montée des extrémismes.",
+   "a_quoi_ca_sert": "montrer les conséquences politiques d'une destruction de la monnaie",
+   "partie_lecon": "II.6 – L'hyperinflation",
+   "mots_cles": [
+    "confiance éthique",
+    "hyperinflation",
+    "légitimité politique"
+   ]
+  },
+  {
+   "auteur": "Irving Fisher",
+   "ouvrage": "The Debt-Deflation Theory of Great Depressions",
+   "date": "1933",
+   "idee": "En déflation, la dette réelle (D/P) augmente ; les ventes forcées pour se désendetter accélèrent la baisse des prix : « plus les débiteurs remboursent, plus ils doivent ».",
+   "a_quoi_ca_sert": "expliquer pourquoi la déflation est dangereuse pour des agents très endettés (1929, Japon, Chine)",
+   "partie_lecon": "III.1.b – Le poids réel des dettes",
+   "mots_cles": [
+    "déflation par la dette",
+    "paradoxe de Fisher",
+    "fire sales",
+    "endettement"
+   ]
+  },
+  {
+   "auteur": "Irving Fisher",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Relation de Fisher : le taux d'intérêt réel est égal au taux nominal moins l'inflation anticipée (r = i − πe) ; en déflation, le taux réel monte même avec un taux nominal nul.",
+   "a_quoi_ca_sert": "montrer l'impuissance de la politique monétaire en déflation et justifier une cible d'inflation positive",
+   "partie_lecon": "III.1.b – Le poids réel des dettes ; IV.4 – La cible des 2 %",
+   "mots_cles": [
+    "relation de Fisher",
+    "taux d'intérêt réel",
+    "plancher des taux",
+    "déflation"
+   ]
+  },
+  {
+   "auteur": "Lionel Robbins",
+   "ouvrage": "La Grande Dépression",
+   "date": "1934",
+   "idee": "La crise vient des rigidités créées par l'État et les syndicats (salaires trop élevés), non du capitalisme : il faut laisser la déflation purger l'économie.",
+   "a_quoi_ca_sert": "présenter la position libérale opposée aux plans de sauvetage et de relance",
+   "partie_lecon": "III.2.b – Les politiques face à la crise",
+   "mots_cles": [
+    "purge déflationniste",
+    "rigidités salariales",
+    "libéralisme",
+    "Grande Dépression"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "It's Baaack: Japan's Slump and the Return of the Liquidity Trap",
+   "date": "1998",
+   "idee": "Pour sortir d'une trappe à liquidité, la banque centrale doit « s'engager de façon crédible à être irresponsable » en visant une inflation élevée et durable.",
+   "a_quoi_ca_sert": "analyser la sortie d'une déflation par les anticipations (Japon, Abenomics, BCE des années 2010)",
+   "partie_lecon": "III.3 – La déflation japonaise",
+   "mots_cles": [
+    "trappe à liquidité",
+    "anticipations d'inflation",
+    "Japon",
+    "taux réel négatif"
+   ]
+  },
+  {
+   "auteur": "Abenomics (Shinzo Abe)",
+   "ouvrage": "",
+   "date": "2012",
+   "idee": "Trois flèches (relance budgétaire, réformes structurelles, politique monétaire très expansive avec cible de 2 %) pour briser l'attentisme déflationniste.",
+   "a_quoi_ca_sert": "illustrer une stratégie complète de sortie de déflation",
+   "partie_lecon": "III.3 – La déflation japonaise",
+   "mots_cles": [
+    "Japon",
+    "déflation",
+    "QE",
+    "cible d'inflation"
+   ]
+  },
+  {
+   "auteur": "Friedrich Hayek",
+   "ouvrage": "Prix et production",
+   "date": "1931",
+   "idee": "La déflation n'est qu'un mécanisme de rééquilibrage qui sanctionne un excès antérieur de crédit (effet accordéon).",
+   "a_quoi_ca_sert": "défendre l'idée qu'une baisse des prix peut assainir une économie après un boom de crédit",
+   "partie_lecon": "III.4 – Faut-il craindre la déflation ?",
+   "mots_cles": [
+    "déflation",
+    "effet accordéon",
+    "malinvestissement",
+    "école autrichienne"
+   ]
+  },
+  {
+   "auteur": "Claudio Borio et al. (BRI)",
+   "ouvrage": "The Costs of Deflations: A Historical Perspective",
+   "date": "2015",
+   "idee": "Hors années 1930, la baisse des prix des biens n'entraîne pas de dépression ; la seule déflation vraiment dangereuse est celle du prix des actifs chez des agents endettés.",
+   "a_quoi_ca_sert": "distinguer « bonne déflation » (progrès technique, concurrence) et déflation financière",
+   "partie_lecon": "III.4 – Faut-il craindre la déflation ?",
+   "mots_cles": [
+    "bonne déflation",
+    "prix des actifs",
+    "endettement",
+    "étude historique"
+   ]
+  },
+  {
+   "auteur": "Barry Eichengreen",
+   "ouvrage": "Golden Fetters",
+   "date": "1992",
+   "idee": "Les « chaînes dorées » de l'étalon-or ont imposé des politiques déflationnistes qui ont transformé la crise de 1929 en Grande Dépression.",
+   "a_quoi_ca_sert": "montrer le danger d'une règle monétaire rigide (étalon-or, change fixe) en crise",
+   "partie_lecon": "III.4 – Faut-il craindre la déflation ?",
+   "mots_cles": [
+    "étalon-or",
+    "déflation",
+    "Grande Dépression",
+    "change fixe"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "La Réforme monétaire",
+   "date": "1923",
+   "idee": "L'étalon-or est une « relique barbare ».",
+   "a_quoi_ca_sert": "critiquer l'attachement à une monnaie ancrée sur l'or (retour de l'or comme valeur refuge)",
+   "partie_lecon": "III.4 – Faut-il craindre la déflation ?",
+   "mots_cles": [
+    "étalon-or",
+    "or",
+    "politique monétaire"
+   ]
+  },
+  {
+   "auteur": "Knut Wicksell",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La déflation traduit un excès d'épargne sur l'investissement : la banque centrale doit ramener le taux bancaire sous le taux d'intérêt naturel, ce qui suppose que celui-ci reste positif.",
+   "a_quoi_ca_sert": "expliquer pourquoi la baisse des taux peut ne plus suffire face à une déflation",
+   "partie_lecon": "III.4 – Faut-il craindre la déflation ?",
+   "mots_cles": [
+    "taux d'intérêt naturel",
+    "épargne",
+    "investissement",
+    "déflation"
+   ]
+  },
+  {
+   "auteur": "Robert Gordon",
+   "ouvrage": "The Rise and Fall of American Growth",
+   "date": "2016",
+   "idee": "L'épuisement des grandes innovations du XXe siècle annonce une longue période de croissance faible (stagnation séculaire).",
+   "a_quoi_ca_sert": "lire un risque de déflation comme le signe d'une stagnation de long terme",
+   "partie_lecon": "III.4 – Faut-il craindre la déflation ?",
+   "mots_cles": [
+    "stagnation séculaire",
+    "progrès technique",
+    "croissance potentielle"
+   ]
+  },
+  {
+   "auteur": "Helmut Schmidt",
+   "ouvrage": "",
+   "date": "1974",
+   "idee": "« Les profits d'aujourd'hui sont les investissements de demain et les emplois d'après-demain. »",
+   "a_quoi_ca_sert": "justifier la restauration des marges des entreprises, tout en montrant qu'elle ne suffit pas sans demande",
+   "partie_lecon": "IV.2 – La désinflation compétitive",
+   "mots_cles": [
+    "théorème de Schmidt",
+    "profits",
+    "investissement",
+    "taux de marge"
+   ]
+  },
+  {
+   "auteur": "OCDE",
+   "ouvrage": "",
+   "date": "années 1990",
+   "idee": "La désinflation n'a pas réduit le chômage faute de réformes structurelles, notamment du marché du travail.",
+   "a_quoi_ca_sert": "présenter l'argument libéral en faveur des réformes structurelles",
+   "partie_lecon": "IV.2 – La désinflation compétitive",
+   "mots_cles": [
+    "réformes structurelles",
+    "marché du travail",
+    "désinflation"
+   ]
+  },
+  {
+   "auteur": "Jean-Paul Fitoussi, Olivier Blanchard, Robert Solow et al.",
+   "ouvrage": "La Désinflation compétitive, le mark et les politiques budgétaires en Europe",
+   "date": "1993",
+   "idee": "La désinflation compétitive repose sur un enchaînement trop long et trop coûteux en chômage (hystérèse, comportements de marge), d'autant plus si tous la pratiquent en même temps.",
+   "a_quoi_ca_sert": "critiquer une stratégie de rigueur et de modération salariale pour gagner en compétitivité",
+   "partie_lecon": "IV.2 – La désinflation compétitive",
+   "mots_cles": [
+    "désinflation compétitive",
+    "hystérèse",
+    "chômage",
+    "compétitivité-prix"
+   ]
+  },
+  {
+   "auteur": "George Akerlof, William Dickens et George Perry",
+   "ouvrage": "The Macroeconomics of Low Inflation",
+   "date": "1996",
+   "idee": "Viser une inflation nulle coûte cher en emplois, car les salaires nominaux ne baissent presque jamais : une inflation positive permet d'ajuster les salaires réels.",
+   "a_quoi_ca_sert": "justifier une cible d'inflation positive (2 %) plutôt que 0 %",
+   "partie_lecon": "IV.2 – La désinflation compétitive",
+   "mots_cles": [
+    "rigidité des salaires nominaux",
+    "cible d'inflation",
+    "chômage"
+   ]
+  },
+  {
+   "auteur": "Équation de Cambridge (Marshall, Pigou)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "M = k × P × Y : la théorie quantitative reformulée du côté de la demande de monnaie, k (= 1/V) étant la part du revenu gardée en monnaie.",
+   "a_quoi_ca_sert": "fonder le monétarisme et montrer pourquoi une demande de monnaie instable ruine le ciblage des quantités",
+   "partie_lecon": "IV.3 – Du monétarisme au ciblage des taux",
+   "mots_cles": [
+    "théorie quantitative",
+    "demande de monnaie",
+    "vitesse de circulation",
+    "monétarisme"
+   ]
+  },
+  {
+   "auteur": "Henri Bourguinat",
+   "ouvrage": "Les Vertiges de la finance internationale",
+   "date": "1987",
+   "idee": "Les « 3D » (déréglementation, décloisonnement, désintermédiation) brouillent la frontière entre monnaie et placements et rendent la vitesse de circulation instable.",
+   "a_quoi_ca_sert": "expliquer l'abandon du ciblage de la masse monétaire au profit du ciblage des taux",
+   "partie_lecon": "IV.3 – Du monétarisme au ciblage des taux",
+   "mots_cles": [
+    "3D",
+    "globalisation financière",
+    "vitesse de circulation",
+    "ciblage des taux"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La base monétaire de la zone euro a augmenté de 70 % alors que la masse monétaire stagnait : la monnaie est endogène.",
+   "a_quoi_ca_sert": "montrer qu'injecter de la monnaie centrale ne suffit pas à créer de l'inflation (limites du QE)",
+   "partie_lecon": "IV.4 – La cible des 2 % de la BCE",
+   "mots_cles": [
+    "monnaie endogène",
+    "base monétaire",
+    "QE",
+    "BCE"
+   ],
+   "a_verifier": "la leçon complémentaire cite l'ouvrage « Discipliner la finance », la leçon principale ne donne pas d'ouvrage"
+  },
+  {
+   "auteur": "BCE (revue stratégique)",
+   "ouvrage": "",
+   "date": "2021",
+   "idee": "La cible d'inflation devient symétrique à 2 % à moyen terme : un écart à la baisse est aussi indésirable qu'un écart à la hausse.",
+   "a_quoi_ca_sert": "expliquer les décisions de taux de la BCE face à un choc d'offre temporaire ou durable",
+   "partie_lecon": "IV.4 – La cible des 2 % de la BCE",
+   "mots_cles": [
+    "cible de 2 %",
+    "BCE",
+    "stabilité des prix",
+    "moyen terme"
+   ]
+  }
+ ],
+ "id": "1A-inflation",
+ "programme_chapitre": "4.1 – Équilibres et déséquilibres macroéconomiques : l'inflation et le chômage"
+}

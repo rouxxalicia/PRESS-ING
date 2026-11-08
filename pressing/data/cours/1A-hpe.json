@@ -1,0 +1,1444 @@
+{
+ "chapitre": "Histoire de la pensée économique",
+ "annee": "1A",
+ "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+ "source_doc": "Histoire de la pensée économique",
+ "mots_cles_actu": [
+  "droits de douane",
+  "guerre commerciale",
+  "protectionnisme",
+  "libre-échange",
+  "politique industrielle",
+  "BCE",
+  "Fed",
+  "taux directeurs",
+  "inflation",
+  "relance budgétaire",
+  "austérité",
+  "dette publique",
+  "déficit",
+  "règle d'or",
+  "chômage",
+  "salaires",
+  "natalité",
+  "démographie",
+  "ressources",
+  "bulle spéculative",
+  "krach",
+  "indépendance des banques centrales",
+  "nudge",
+  "inégalités",
+  "Prix Nobel d'économie"
+ ],
+ "references": [
+  {
+   "auteur": "Gunnar Myrdal et Friedrich Hayek",
+   "ouvrage": "Prix Nobel d'économie partagé",
+   "date": "1974",
+   "idee": "Le prix est attribué conjointement à un défenseur de l'État-providence et à un libéral : l'économie est un ensemble de théories concurrentes.",
+   "a_quoi_ca_sert": "montrer qu'il n'existe pas de consensus en économie et que les débats actuels reprennent des oppositions anciennes",
+   "partie_lecon": "Introduction",
+   "mots_cles": [
+    "pluralisme",
+    "libéralisme",
+    "État-providence",
+    "controverses"
+   ],
+   "a_verifier": "le cours qualifie Myrdal de « post-keynésien » ; il relève plutôt de l'école de Stockholm"
+  },
+  {
+   "auteur": "Antoine de Montchrestien",
+   "ouvrage": "Traité de l'économie politique",
+   "date": "1615",
+   "idee": "Le profit du marchand enrichit le royaume ; l'État doit soutenir commerce et manufactures et prendre des mesures protectionnistes.",
+   "a_quoi_ca_sert": "montrer l'origine mercantiliste des politiques industrielles et protectionnistes et le rôle de l'État acteur économique",
+   "partie_lecon": "I.1.b – Mercantilisme français",
+   "mots_cles": [
+    "économie politique",
+    "protectionnisme",
+    "politique industrielle",
+    "balance commerciale"
+   ]
+  },
+  {
+   "auteur": "Antoine de Montchrestien",
+   "ouvrage": "Traité de l'économie politique",
+   "date": "1615",
+   "idee": "« Nul ne gagne qu'un autre ne perde » : l'échange international est un jeu à somme nulle.",
+   "a_quoi_ca_sert": "montrer qu'une guerre commerciale repose sur une vision du commerce comme rapport de force à somme nulle",
+   "partie_lecon": "I.1.a – Idées communes des mercantilistes",
+   "mots_cles": [
+    "jeu à somme nulle",
+    "commerce international",
+    "guerre commerciale",
+    "mercantilisme"
+   ]
+  },
+  {
+   "auteur": "Michel de Montaigne",
+   "ouvrage": "Essais (« Le profit de l'un est dommage de l'autre »)",
+   "date": "1580",
+   "idee": "Le gain de l'un est la perte de l'autre : formulation précoce du jeu à somme nulle.",
+   "a_quoi_ca_sert": "montrer l'ancienneté de la vision conflictuelle des échanges",
+   "partie_lecon": "I.1.a – Idées communes des mercantilistes",
+   "mots_cles": [
+    "jeu à somme nulle",
+    "commerce",
+    "mercantilisme"
+   ]
+  },
+  {
+   "auteur": "Thomas Mun",
+   "ouvrage": "Le Trésor de l'Angleterre par le commerce extérieur",
+   "date": "1664",
+   "idee": "L'enrichissement repose sur une balance commerciale excédentaire, obtenue par la compétitivité-prix et des salaires de subsistance.",
+   "a_quoi_ca_sert": "montrer qu'une stratégie de compression salariale vise l'excédent commercial (compétitivité-prix, modèle exportateur)",
+   "partie_lecon": "I.1.b – Mercantilisme anglais",
+   "mots_cles": [
+    "balance commerciale",
+    "compétitivité-prix",
+    "salaires",
+    "exportations"
+   ]
+  },
+  {
+   "auteur": "William Petty",
+   "ouvrage": "Arithmétique politique",
+   "date": "XVIIe siècle",
+   "idee": "Gérer la puissance d'un État exige de mesurer statistiquement sa richesse et sa population.",
+   "a_quoi_ca_sert": "montrer l'importance des statistiques publiques et de la mesure (PIB, comptabilité nationale) dans la décision économique",
+   "partie_lecon": "I.1.b – Mercantilisme anglais",
+   "mots_cles": [
+    "statistiques",
+    "comptabilité nationale",
+    "mesure",
+    "population"
+   ]
+  },
+  {
+   "auteur": "Jean Bodin",
+   "ouvrage": "Réponse aux paradoxes de M. de Malestroit",
+   "date": "1568",
+   "idee": "L'afflux d'or américain fait monter les prix : plus de monnaie pour autant de biens, c'est l'inflation (fondement de la théorie quantitative).",
+   "a_quoi_ca_sert": "montrer qu'une création monétaire excessive provoque de l'inflation et appauvrit la population",
+   "partie_lecon": "I.1.b – Mercantilisme français",
+   "mots_cles": [
+    "inflation",
+    "théorie quantitative de la monnaie",
+    "métaux précieux",
+    "création monétaire"
+   ]
+  },
+  {
+   "auteur": "Jean Bodin",
+   "ouvrage": "Les Six Livres de la République",
+   "date": "1576",
+   "idee": "« Il n'est de richesse ni de force que d'hommes » : la population est la première richesse d'un État.",
+   "a_quoi_ca_sert": "montrer le lien entre démographie, travail et puissance (natalité, immigration, vieillissement)",
+   "partie_lecon": "I.1.b – Mercantilisme français",
+   "mots_cles": [
+    "population",
+    "facteur travail",
+    "natalité",
+    "puissance"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Colbert",
+   "ouvrage": "Colbertisme (contrôleur général des finances)",
+   "date": "1665",
+   "idee": "L'État doit créer et protéger une industrie nationale exportatrice (manufactures royales, privilèges, droits de douane).",
+   "a_quoi_ca_sert": "montrer les racines d'une politique industrielle d'État et d'un protectionnisme éducateur (souveraineté industrielle, plans d'investissement)",
+   "partie_lecon": "I.1.b – Mercantilisme français",
+   "mots_cles": [
+    "colbertisme",
+    "politique industrielle",
+    "protectionnisme éducateur",
+    "souveraineté"
+   ]
+  },
+  {
+   "auteur": "Pierre de Boisguilbert",
+   "ouvrage": "Le Détail de la France",
+   "date": "1695",
+   "idee": "Une fiscalité trop lourde sur les paysans réduit la consommation et transforme la crise agricole en crise générale.",
+   "a_quoi_ca_sert": "montrer le lien entre fiscalité, pouvoir d'achat et demande, et les effets d'une répartition injuste de l'impôt",
+   "partie_lecon": "I.2.a – Premiers critiques du mercantilisme",
+   "mots_cles": [
+    "fiscalité",
+    "consommation",
+    "agriculture",
+    "justice fiscale"
+   ]
+  },
+  {
+   "auteur": "Richard Cantillon",
+   "ouvrage": "Essai sur la nature du commerce en général",
+   "date": "vers 1730 (publié en 1755)",
+   "idee": "L'entrepreneur achète à prix certain et revend à prix incertain : il supporte un risque que le profit rémunère légitimement.",
+   "a_quoi_ca_sert": "montrer la légitimité du profit et le rôle central de l'entrepreneur dans la création de richesse",
+   "partie_lecon": "I.2.a – Premiers critiques du mercantilisme",
+   "mots_cles": [
+    "entrepreneur",
+    "risque",
+    "profit",
+    "initiative individuelle"
+   ]
+  },
+  {
+   "auteur": "John Locke",
+   "ouvrage": "Second Traité du gouvernement civil",
+   "date": "1690",
+   "idee": "La propriété est un droit naturel que l'État doit protéger.",
+   "a_quoi_ca_sert": "montrer les fondements philosophiques du libéralisme et de la protection du droit de propriété",
+   "partie_lecon": "I.2.b – Physiocrates (définition du libéralisme)",
+   "mots_cles": [
+    "libéralisme",
+    "propriété",
+    "droits naturels",
+    "État"
+   ]
+  },
+  {
+   "auteur": "Vincent de Gournay",
+   "ouvrage": "« Laissez faire, laissez passer »",
+   "date": "XVIIIe siècle",
+   "idee": "Liberté de produire et liberté de faire circuler les marchandises.",
+   "a_quoi_ca_sert": "montrer l'origine du libéralisme économique et de la dérégulation",
+   "partie_lecon": "I.2.b – Physiocrates",
+   "mots_cles": [
+    "laissez-faire",
+    "libéralisme",
+    "libre circulation",
+    "dérégulation"
+   ]
+  },
+  {
+   "auteur": "François Quesnay",
+   "ouvrage": "Tableau économique",
+   "date": "1758",
+   "idee": "Seule la terre crée un produit net, qui circule entre trois classes ; l'État doit lever les obstacles à cette circulation.",
+   "a_quoi_ca_sert": "montrer l'interdépendance des agents (raisonnement en circuit) et la logique du libéralisme intérieur",
+   "partie_lecon": "I.2.b – Physiocrates",
+   "mots_cles": [
+    "circuit économique",
+    "physiocratie",
+    "agriculture",
+    "libre circulation"
+   ]
+  },
+  {
+   "auteur": "Anne Robert Jacques Turgot",
+   "ouvrage": "Réflexions sur la formation et la distribution des richesses",
+   "date": "1766",
+   "idee": "Il formule la loi des rendements décroissants et veut libérer commerce et travail (fin des corporations, impôt payé par les privilégiés).",
+   "a_quoi_ca_sert": "montrer les difficultés politiques des réformes libérales face aux résistances des élites et aux émeutes (guerre des farines)",
+   "partie_lecon": "I.2.b – Physiocrates",
+   "mots_cles": [
+    "rendements décroissants",
+    "réformes",
+    "corporations",
+    "libéralisation"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il nomme « classiques » l'économie politique de Petty à Ricardo, qu'il critique tout en reconnaissant sa valeur.",
+   "a_quoi_ca_sert": "situer l'école classique et son unité (libéralisme, valeur-travail)",
+   "partie_lecon": "I.3 – Les classiques",
+   "mots_cles": [
+    "école classique",
+    "valeur-travail",
+    "histoire de la pensée"
+   ]
+  },
+  {
+   "auteur": "Joseph Schumpeter",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'école classique va de Smith aux années 1870.",
+   "a_quoi_ca_sert": "montrer que les frontières des courants varient selon les auteurs",
+   "partie_lecon": "I.3 – Les classiques",
+   "mots_cles": [
+    "école classique",
+    "périodisation"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "La division du travail, permise par l'extension des marchés, accroît la productivité (manufacture d'épingles).",
+   "a_quoi_ca_sert": "montrer que l'ouverture des marchés et la spécialisation sont sources de gains de productivité",
+   "partie_lecon": "I.3.a – Smith",
+   "mots_cles": [
+    "division du travail",
+    "productivité",
+    "extension des marchés",
+    "spécialisation"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "Chaque pays doit se spécialiser selon son avantage absolu : le libre-échange enrichit toutes les nations.",
+   "a_quoi_ca_sert": "montrer que le commerce n'est pas un jeu à somme nulle et défendre le libre-échange",
+   "partie_lecon": "I.3.a – Smith",
+   "mots_cles": [
+    "avantage absolu",
+    "libre-échange",
+    "commerce international",
+    "spécialisation"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "Chacun, en cherchant son intérêt, est conduit par une main invisible à servir l'intérêt général.",
+   "a_quoi_ca_sert": "montrer que le marché peut coordonner des intérêts égoïstes au profit de tous",
+   "partie_lecon": "I.3.a – Smith",
+   "mots_cles": [
+    "main invisible",
+    "intérêt général",
+    "marché",
+    "individualisme méthodologique"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "L'État est subsidiaire : défense, justice et travaux publics non rentables pour un particulier (routes, instruction).",
+   "a_quoi_ca_sert": "montrer qu'un libéral justifie l'État pour les biens collectifs, les infrastructures et l'éducation",
+   "partie_lecon": "I.3.a – Smith",
+   "mots_cles": [
+    "État gendarme",
+    "biens collectifs",
+    "infrastructures",
+    "défaillances de marché"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "Paradoxe de l'eau et du diamant ; la valeur d'échange dépend du travail ; le prix de marché gravite autour du prix naturel.",
+   "a_quoi_ca_sert": "montrer la distinction valeur d'usage / valeur d'échange",
+   "partie_lecon": "I.3.a – Smith",
+   "mots_cles": [
+    "valeur-travail",
+    "valeur d'usage",
+    "prix",
+    "paradoxe de l'eau et du diamant"
+   ]
+  },
+  {
+   "auteur": "John Law",
+   "ouvrage": "",
+   "date": "1705",
+   "idee": "Il relève avant Smith le paradoxe de l'eau et du diamant.",
+   "a_quoi_ca_sert": "montrer l'ancienneté de la question de la valeur",
+   "partie_lecon": "I.3.a – Smith",
+   "mots_cles": [
+    "valeur",
+    "paradoxe de l'eau et du diamant"
+   ]
+  },
+  {
+   "auteur": "James Buchanan",
+   "ouvrage": "",
+   "date": "1965",
+   "idee": "Le bien de club est non rival jusqu'à un seuil mais excluable (autoroute à péage).",
+   "a_quoi_ca_sert": "montrer qu'un bien peut être financé par l'usager plutôt que par l'impôt (péages, abonnements)",
+   "partie_lecon": "I.3.a – Smith (biens collectifs)",
+   "mots_cles": [
+    "bien de club",
+    "bien collectif",
+    "exclusion",
+    "financement"
+   ]
+  },
+  {
+   "auteur": "Thomas Malthus",
+   "ouvrage": "Essai sur le principe de population",
+   "date": "1798",
+   "idee": "La population croît géométriquement et les subsistances arithmétiquement : sans limitation des naissances, crises inévitables (trappe malthusienne).",
+   "a_quoi_ca_sert": "montrer la tension entre démographie et ressources finies (environnement, alimentation, surpopulation)",
+   "partie_lecon": "I.3.b – Malthus",
+   "mots_cles": [
+    "démographie",
+    "ressources",
+    "trappe malthusienne",
+    "limites"
+   ]
+  },
+  {
+   "auteur": "Thomas Malthus",
+   "ouvrage": "Essai sur le principe de population (2e éd.)",
+   "date": "1803",
+   "idee": "Il faut supprimer les aides aux pauvres et retarder l'âge du mariage (« contrainte morale »).",
+   "a_quoi_ca_sert": "montrer une critique ancienne des aides sociales accusées d'effets pervers",
+   "partie_lecon": "I.3.b – Malthus",
+   "mots_cles": [
+    "aides sociales",
+    "natalité",
+    "pauvreté",
+    "effets pervers"
+   ]
+  },
+  {
+   "auteur": "Thomas Malthus",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'épargne excessive des riches peut provoquer une insuffisance de la demande.",
+   "a_quoi_ca_sert": "montrer qu'une crise de demande était pensée avant Keynes",
+   "partie_lecon": "I.3.c – Critiques de la loi de Say",
+   "mots_cles": [
+    "demande",
+    "épargne",
+    "surproduction"
+   ]
+  },
+  {
+   "auteur": "Club de Rome (Rapport Meadows)",
+   "ouvrage": "Les Limites à la croissance",
+   "date": "1972",
+   "idee": "Il réactualise Malthus : la croissance se heurte à la finitude des ressources.",
+   "a_quoi_ca_sert": "montrer les limites écologiques de la croissance (climat, ressources, décroissance)",
+   "partie_lecon": "I.3.b – Malthus",
+   "mots_cles": [
+    "limites à la croissance",
+    "environnement",
+    "ressources",
+    "décroissance"
+   ]
+  },
+  {
+   "auteur": "Thomas Carlyle",
+   "ouvrage": "",
+   "date": "1849",
+   "idee": "Le pessimisme de Malthus vaut à l'économie le surnom de « science lugubre ».",
+   "a_quoi_ca_sert": "illustrer le pessimisme des classiques",
+   "partie_lecon": "I.3.b – Malthus",
+   "mots_cles": [
+    "science lugubre",
+    "pessimisme"
+   ]
+  },
+  {
+   "auteur": "Daniel Cohen",
+   "ouvrage": "La Prospérité du vice",
+   "date": "2009",
+   "idee": "Il reprend l'analyse malthusienne.",
+   "a_quoi_ca_sert": "relier Malthus aux enjeux contemporains de croissance et d'environnement",
+   "partie_lecon": "I.3.b – Malthus",
+   "mots_cles": [
+    "malthusianisme",
+    "croissance",
+    "environnement"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Say",
+   "ouvrage": "Traité d'économie politique",
+   "date": "1803",
+   "idee": "Les produits s'échangent contre des produits : toute production crée ses revenus, donc pas de crise générale durable de surproduction (loi des débouchés).",
+   "a_quoi_ca_sert": "montrer la logique des politiques de l'offre et la critiquer face aux crises de demande",
+   "partie_lecon": "I.3.c – Say",
+   "mots_cles": [
+    "loi des débouchés",
+    "politique de l'offre",
+    "surproduction",
+    "crise"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Say",
+   "ouvrage": "Traité d'économie politique",
+   "date": "1803",
+   "idee": "« La monnaie n'est qu'un voile » : dichotomie sphère réelle / sphère monétaire.",
+   "a_quoi_ca_sert": "montrer la thèse de la neutralité de la monnaie face aux politiques monétaires",
+   "partie_lecon": "I.3.c – Say",
+   "mots_cles": [
+    "neutralité de la monnaie",
+    "dichotomie",
+    "monnaie"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Des principes de l'économie politique et de l'impôt",
+   "date": "1817",
+   "idee": "Les rendements décroissants de la terre font monter la rente et baisser les profits jusqu'à l'état stationnaire, que seuls progrès technique et ouverture repoussent.",
+   "a_quoi_ca_sert": "montrer les limites de la croissance et l'importance du progrès technique",
+   "partie_lecon": "I.3.d – Ricardo",
+   "mots_cles": [
+    "état stationnaire",
+    "rente différentielle",
+    "rendements décroissants",
+    "progrès technique"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Essai sur l'influence d'un bas prix du blé sur les profits",
+   "date": "1815",
+   "idee": "Les Corn Laws protègent les propriétaires fonciers et étouffent le profit des capitalistes.",
+   "a_quoi_ca_sert": "montrer que le protectionnisme agricole sert des intérêts particuliers au détriment de la croissance",
+   "partie_lecon": "I.3.d – Ricardo",
+   "mots_cles": [
+    "Corn Laws",
+    "protectionnisme agricole",
+    "libre-échange",
+    "profit"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Des principes de l'économie politique et de l'impôt",
+   "date": "1817",
+   "idee": "Chaque pays a intérêt à se spécialiser selon son avantage comparatif, même s'il est moins efficace partout (drap/vin).",
+   "a_quoi_ca_sert": "montrer que le libre-échange profite à tous les pays, y compris les moins compétitifs",
+   "partie_lecon": "I.3.d – Ricardo",
+   "mots_cles": [
+    "avantage comparatif",
+    "libre-échange",
+    "spécialisation",
+    "commerce international"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Essai sur le système de financement",
+   "date": "1820",
+   "idee": "Financer une dépense par l'impôt ou par l'emprunt est en théorie équivalent, si les contribuables anticipent les impôts futurs.",
+   "a_quoi_ca_sert": "montrer l'origine de l'équivalence ricardienne dans les débats sur la dette publique",
+   "partie_lecon": "I.3.d – Ricardo",
+   "mots_cles": [
+    "dette publique",
+    "impôt",
+    "équivalence ricardienne"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Des principes de l'économie politique et de l'impôt",
+   "date": "1817",
+   "idee": "La valeur dépend du travail incorporé, y compris le travail indirect ; l'État doit être frugal et équilibrer son budget (rigueur).",
+   "a_quoi_ca_sert": "montrer l'origine des politiques de rigueur budgétaire",
+   "partie_lecon": "I.3.d – Ricardo",
+   "mots_cles": [
+    "valeur-travail",
+    "rigueur",
+    "équilibre budgétaire",
+    "austérité"
+   ]
+  },
+  {
+   "auteur": "Karl Marx et Friedrich Engels",
+   "ouvrage": "Manifeste du Parti communiste",
+   "date": "1848",
+   "idee": "L'histoire est celle de la lutte des classes ; il faut abolir la propriété privée des moyens de production.",
+   "a_quoi_ca_sert": "montrer la critique radicale du capitalisme et les conflits de classe",
+   "partie_lecon": "I.4 – Marx",
+   "mots_cles": [
+    "lutte des classes",
+    "prolétariat",
+    "bourgeoisie",
+    "propriété"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Le Capital, livre I",
+   "date": "1867",
+   "idee": "Le profit vient de la plus-value, travail non payé approprié par le capitaliste.",
+   "a_quoi_ca_sert": "montrer que le partage de la valeur ajoutée est un rapport d'exploitation (salaires vs profits)",
+   "partie_lecon": "I.4 – Marx",
+   "mots_cles": [
+    "plus-value",
+    "exploitation",
+    "valeur-travail",
+    "partage de la valeur ajoutée"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Le Capital",
+   "date": "1867",
+   "idee": "La substitution du capital au travail fait baisser tendanciellement le taux de profit ; l'armée de réserve comprime salaires et demande : crises de surproduction.",
+   "a_quoi_ca_sert": "montrer l'instabilité structurelle du capitalisme (automatisation, IA, chômage, crises)",
+   "partie_lecon": "I.4 – Marx",
+   "mots_cles": [
+    "baisse tendancielle du taux de profit",
+    "armée industrielle de réserve",
+    "crises",
+    "automatisation"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Le Capital",
+   "date": "1867",
+   "idee": "Des facteurs contrecarrent la baisse du taux de profit : intensification du travail, matières premières bon marché, État, commerce extérieur.",
+   "a_quoi_ca_sert": "montrer que mondialisation et colonies peuvent servir à restaurer les profits",
+   "partie_lecon": "I.4 – Marx",
+   "mots_cles": [
+    "taux de profit",
+    "commerce extérieur",
+    "exploitation",
+    "débouchés"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Le Capital",
+   "date": "1867",
+   "idee": "La monnaie peut être thésaurisée, ce qui rend possible une crise de surproduction.",
+   "a_quoi_ca_sert": "critiquer la loi de Say",
+   "partie_lecon": "I.3.c – Critiques de la loi de Say",
+   "mots_cles": [
+    "thésaurisation",
+    "surproduction",
+    "loi de Say"
+   ]
+  },
+  {
+   "auteur": "William Stanley Jevons",
+   "ouvrage": "La Théorie de l'économie politique",
+   "date": "1871",
+   "idee": "La valeur dépend de l'utilité marginale, donc de la rareté, et non du travail.",
+   "a_quoi_ca_sert": "montrer que les prix reflètent la rareté (matières premières, énergie, terres rares)",
+   "partie_lecon": "II.1.b – École de Cambridge",
+   "mots_cles": [
+    "utilité marginale",
+    "rareté",
+    "valeur",
+    "marginalisme"
+   ]
+  },
+  {
+   "auteur": "Carl Menger",
+   "ouvrage": "Principes d'économie politique",
+   "date": "1871",
+   "idee": "La valeur naît des besoins et des choix subjectifs des individus, à étudier plutôt qu'à mettre en équations.",
+   "a_quoi_ca_sert": "montrer l'approche subjectiviste et le refus de la mathématisation (école autrichienne)",
+   "partie_lecon": "II.1.b – École de Vienne",
+   "mots_cles": [
+    "valeur subjective",
+    "école autrichienne",
+    "choix individuels"
+   ]
+  },
+  {
+   "auteur": "Léon Walras",
+   "ouvrage": "Éléments d'économie politique pure",
+   "date": "1874-1877",
+   "idee": "En CPP, le tâtonnement d'un commissaire-priseur conduit tous les marchés interdépendants à l'équilibre simultané.",
+   "a_quoi_ca_sert": "montrer la thèse de l'autorégulation par les prix et l'interdépendance des marchés",
+   "partie_lecon": "II.1.b – École de Lausanne",
+   "mots_cles": [
+    "équilibre général",
+    "tâtonnement",
+    "autorégulation",
+    "prix"
+   ]
+  },
+  {
+   "auteur": "Léon Walras",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« Socialiste libéral », il défend la nationalisation des terres dont la rente financerait l'État.",
+   "a_quoi_ca_sert": "montrer qu'un fondateur néoclassique n'est pas un libéral pur sur la justice sociale",
+   "partie_lecon": "II.1.b – École de Lausanne",
+   "mots_cles": [
+    "économie sociale",
+    "nationalisation",
+    "justice",
+    "rente"
+   ]
+  },
+  {
+   "auteur": "Alfred Marshall",
+   "ouvrage": "Principes d'économie politique",
+   "date": "1890",
+   "idee": "On peut étudier chaque marché séparément « toutes choses égales par ailleurs » (équilibre partiel) ; économies d'échelle.",
+   "a_quoi_ca_sert": "analyser un marché isolé par l'offre et la demande (prix de l'énergie, du logement)",
+   "partie_lecon": "II.1.b – École de Cambridge",
+   "mots_cles": [
+    "équilibre partiel",
+    "offre et demande",
+    "économies d'échelle"
+   ]
+  },
+  {
+   "auteur": "Vilfredo Pareto",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Optimum de Pareto : on ne peut améliorer le sort d'un agent sans détériorer celui d'un autre.",
+   "a_quoi_ca_sert": "montrer qu'efficacité n'est pas équité",
+   "partie_lecon": "II.1.b – École de Lausanne",
+   "mots_cles": [
+    "optimum de Pareto",
+    "efficacité",
+    "équité"
+   ]
+  },
+  {
+   "auteur": "Francis Edgeworth",
+   "ouvrage": "Boîte d'Edgeworth",
+   "date": "",
+   "idee": "L'échange s'arrête sur la courbe des contrats, ensemble des optimums de Pareto : le marché aboutit à une allocation efficace.",
+   "a_quoi_ca_sert": "illustrer l'efficacité de l'échange marchand",
+   "partie_lecon": "II.1.b – École de Lausanne",
+   "mots_cles": [
+    "courbe des contrats",
+    "optimum de Pareto",
+    "échange"
+   ]
+  },
+  {
+   "auteur": "Hermann Heinrich Gossen",
+   "ouvrage": "Loi de Gossen",
+   "date": "1854",
+   "idee": "L'utilité marginale est décroissante.",
+   "a_quoi_ca_sert": "fonder le raisonnement à la marge",
+   "partie_lecon": "II.1.a – Néoclassiques",
+   "mots_cles": [
+    "utilité marginale",
+    "raisonnement à la marge"
+   ]
+  },
+  {
+   "auteur": "Thorstein Veblen",
+   "ouvrage": "",
+   "date": "1900",
+   "idee": "Il crée le terme « néoclassique » pour critiquer ce courant.",
+   "a_quoi_ca_sert": "montrer la critique institutionnaliste des néoclassiques",
+   "partie_lecon": "II.1.a – Néoclassiques",
+   "mots_cles": [
+    "néoclassiques",
+    "critique",
+    "institutionnalisme"
+   ]
+  },
+  {
+   "auteur": "Frank Knight",
+   "ouvrage": "Risque, incertitude et profit",
+   "date": "1921",
+   "idee": "Il explicite les cinq conditions de la CPP (atomicité, homogénéité, libre entrée, mobilité des facteurs, transparence).",
+   "a_quoi_ca_sert": "montrer l'irréalisme des hypothèses face aux monopoles, GAFAM et asymétries d'information",
+   "partie_lecon": "II.1.b – Conditions de la CPP",
+   "mots_cles": [
+    "concurrence pure et parfaite",
+    "atomicité",
+    "information",
+    "marché"
+   ]
+  },
+  {
+   "auteur": "Frank Knight",
+   "ouvrage": "Risque, incertitude et profit",
+   "date": "1921",
+   "idee": "Le risque est probabilisable, l'incertitude radicale ne l'est pas.",
+   "a_quoi_ca_sert": "montrer que les chocs imprévisibles (pandémie, guerre) échappent au calcul",
+   "partie_lecon": "II.2.a – Keynes",
+   "mots_cles": [
+    "incertitude",
+    "risque",
+    "anticipations"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "L'économie peut rester durablement en équilibre de sous-emploi, car la production dépend de la demande effective ; le chômage est involontaire.",
+   "a_quoi_ca_sert": "montrer qu'une crise de demande justifie l'intervention de l'État",
+   "partie_lecon": "II.2.b – Demande effective",
+   "mots_cles": [
+    "demande effective",
+    "sous-emploi",
+    "chômage involontaire",
+    "relance"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "Face à l'incertitude radicale, l'investissement dépend des « esprits animaux » et des comportements d'imitation.",
+   "a_quoi_ca_sert": "montrer le rôle de la confiance et des anticipations (moral des entrepreneurs, crises financières)",
+   "partie_lecon": "II.2.a – Incertitude",
+   "mots_cles": [
+    "esprits animaux",
+    "incertitude",
+    "confiance",
+    "anticipations"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "La monnaie est désirée pour elle-même (préférence pour la liquidité, 3 motifs) : l'épargne thésaurisée invalide la loi de Say.",
+   "a_quoi_ca_sert": "montrer que la monnaie n'est pas neutre et que l'épargne de précaution peut freiner l'activité",
+   "partie_lecon": "II.2.a – Préférence pour la liquidité",
+   "mots_cles": [
+    "préférence pour la liquidité",
+    "non-neutralité de la monnaie",
+    "épargne",
+    "loi de Say"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "En trappe à liquidité, la monnaie injectée est thésaurisée : la politique monétaire est inefficace, seule la politique budgétaire relance.",
+   "a_quoi_ca_sert": "montrer les limites des taux bas et de l'assouplissement monétaire de la BCE ou de la Fed",
+   "partie_lecon": "II.2.a – Trappe à liquidité",
+   "mots_cles": [
+    "trappe à liquidité",
+    "politique monétaire",
+    "taux d'intérêt",
+    "BCE"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "Ce qui est vrai pour un individu ne l'est pas pour l'économie : baisse générale des salaires et paradoxe de l'épargne sont contre-productifs.",
+   "a_quoi_ca_sert": "montrer les effets récessifs de la modération salariale ou de l'austérité généralisées",
+   "partie_lecon": "II.2.b – Demande effective",
+   "mots_cles": [
+    "paradoxe de l'épargne",
+    "salaires",
+    "sophisme de composition",
+    "austérité"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "Le salaire est un revenu qui alimente la demande ; les salaires nominaux sont rigides à la baisse (illusion monétaire).",
+   "a_quoi_ca_sert": "montrer qu'une baisse des salaires ne réduit pas forcément le chômage",
+   "partie_lecon": "II.2.b – Les salaires",
+   "mots_cles": [
+    "salaires",
+    "rigidités",
+    "illusion monétaire",
+    "pouvoir d'achat"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "Le multiplicateur 1/(1-c) rend la dépense publique efficace, mais il est réduit par l'épargne, une fiscalité mal calibrée et les importations.",
+   "a_quoi_ca_sert": "évaluer l'efficacité d'un plan de relance (fuites par les importations, épargne)",
+   "partie_lecon": "II.2.c – Politique de relance",
+   "mots_cles": [
+    "multiplicateur",
+    "relance budgétaire",
+    "dépense publique",
+    "importations"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "Loi psychologique fondamentale : les modestes consomment davantage, donc la redistribution soutient la demande ; « euthanasie du rentier ».",
+   "a_quoi_ca_sert": "montrer que réduire les inégalités peut soutenir la croissance",
+   "partie_lecon": "II.2.c – Redistribution",
+   "mots_cles": [
+    "redistribution",
+    "propension à consommer",
+    "inégalités",
+    "rentier"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "L'inflation peut apparaître avant le plein-emploi (semi-inflation).",
+   "a_quoi_ca_sert": "montrer qu'une relance peut être inflationniste avant le plein-emploi",
+   "partie_lecon": "II.2.c – Semi-inflation",
+   "mots_cles": [
+    "inflation",
+    "plein-emploi",
+    "coûts"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Lettre ouverte à Roosevelt",
+   "date": "1933",
+   "idee": "Il encourage Roosevelt à accroître les dépenses publiques financées par l'emprunt ; le New Deal n'applique pas la Théorie générale, il l'anticipe.",
+   "a_quoi_ca_sert": "nuancer le lien entre New Deal et keynésianisme",
+   "partie_lecon": "II.2 – Keynes",
+   "mots_cles": [
+    "New Deal",
+    "grands travaux",
+    "dette",
+    "relance"
+   ]
+  },
+  {
+   "auteur": "John Hicks",
+   "ouvrage": "« M. Keynes et les classiques »",
+   "date": "1937",
+   "idee": "La Théorie générale se résume par l'équilibre simultané du marché des biens et de la monnaie (IS-LM), qui peut être de sous-emploi.",
+   "a_quoi_ca_sert": "analyser l'effet combiné des politiques budgétaire et monétaire et l'effet d'éviction",
+   "partie_lecon": "III.1.a – Synthèse néoclassique",
+   "mots_cles": [
+    "IS-LM",
+    "policy mix",
+    "effet d'éviction",
+    "synthèse néoclassique"
+   ]
+  },
+  {
+   "auteur": "Alvin Hansen",
+   "ouvrage": "Modèle IS-LM",
+   "date": "",
+   "idee": "Il développe le modèle IS-LM avec Hicks.",
+   "a_quoi_ca_sert": "illustrer la synthèse néoclassique",
+   "partie_lecon": "III.1.a – Synthèse néoclassique",
+   "mots_cles": [
+    "IS-LM",
+    "synthèse néoclassique"
+   ]
+  },
+  {
+   "auteur": "Paul Samuelson",
+   "ouvrage": "L'Économique",
+   "date": "1948",
+   "idee": "Les politiques keynésiennes ramènent le plein-emploi ; ensuite les mécanismes de marché néoclassiques fonctionnent.",
+   "a_quoi_ca_sert": "montrer la complémentarité court terme keynésien / long terme néoclassique",
+   "partie_lecon": "III.1.a – Synthèse néoclassique",
+   "mots_cles": [
+    "synthèse néoclassique",
+    "plein-emploi",
+    "relance",
+    "marché"
+   ]
+  },
+  {
+   "auteur": "Eli Heckscher, Bertil Ohlin et Paul Samuelson",
+   "ouvrage": "Modèle HOS",
+   "date": "1919, 1933",
+   "idee": "Un pays se spécialise dans les biens qui utilisent intensivement le facteur dont il est le mieux doté.",
+   "a_quoi_ca_sert": "expliquer la spécialisation par les dotations en facteurs (textile en Asie, délocalisations)",
+   "partie_lecon": "III.1.a – Synthèse néoclassique",
+   "mots_cles": [
+    "HOS",
+    "dotations factorielles",
+    "spécialisation",
+    "délocalisations"
+   ]
+  },
+  {
+   "auteur": "Paul Samuelson et Robert Solow",
+   "ouvrage": "Courbe de Phillips",
+   "date": "1960",
+   "idee": "La courbe de Phillips est un arbitrage : on réduit le chômage en acceptant plus d'inflation.",
+   "a_quoi_ca_sert": "montrer l'arbitrage inflation-chômage dans les choix des banques centrales",
+   "partie_lecon": "III.1.a – Synthèse néoclassique",
+   "mots_cles": [
+    "courbe de Phillips",
+    "inflation",
+    "chômage",
+    "arbitrage"
+   ]
+  },
+  {
+   "auteur": "Alban William Phillips",
+   "ouvrage": "Courbe de Phillips",
+   "date": "1958",
+   "idee": "Relation inverse entre hausse des salaires et chômage au Royaume-Uni.",
+   "a_quoi_ca_sert": "fonder empiriquement l'arbitrage inflation-chômage",
+   "partie_lecon": "III.1.a – Synthèse néoclassique",
+   "mots_cles": [
+    "courbe de Phillips",
+    "salaires",
+    "chômage"
+   ]
+  },
+  {
+   "auteur": "Richard Musgrave",
+   "ouvrage": "Théorie des finances publiques",
+   "date": "1959",
+   "idee": "L'État a trois fonctions permanentes : allocation, redistribution et stabilisation.",
+   "a_quoi_ca_sert": "montrer le rôle permanent de l'État dans le budget (services publics, impôt progressif, stabilisateurs)",
+   "partie_lecon": "III.1.a – Synthèse néoclassique",
+   "mots_cles": [
+    "fonctions de l'État",
+    "redistribution",
+    "stabilisation",
+    "allocation"
+   ]
+  },
+  {
+   "auteur": "Joan Robinson et Nicholas Kaldor",
+   "ouvrage": "Post-keynésiens",
+   "date": "",
+   "idee": "Chômage involontaire durable, incertitude radicale, rôle central du partage salaires/profits, inflation par les coûts.",
+   "a_quoi_ca_sert": "montrer une lecture hétérodoxe de l'inflation par les coûts (énergie, salaires) et du partage de la valeur",
+   "partie_lecon": "III.1.b – Post-keynésiens",
+   "mots_cles": [
+    "post-keynésiens",
+    "inflation par les coûts",
+    "répartition",
+    "incertitude"
+   ]
+  },
+  {
+   "auteur": "Robert Clower et Edmond Malinvaud",
+   "ouvrage": "Réexamen de la théorie du chômage (Malinvaud)",
+   "date": "1965 ; 1977",
+   "idee": "Avec des prix rigides, les agents subissent des rationnements ; on distingue chômage keynésien (demande) et chômage classique (salaires trop élevés).",
+   "a_quoi_ca_sert": "diagnostiquer la nature du chômage pour choisir entre relance et politique de l'offre",
+   "partie_lecon": "III.1.b – Théorie du déséquilibre",
+   "mots_cles": [
+    "déséquilibre",
+    "rationnement",
+    "chômage keynésien",
+    "chômage classique"
+   ]
+  },
+  {
+   "auteur": "Friedrich Hayek",
+   "ouvrage": "Prix et production",
+   "date": "1931",
+   "idee": "Un excès de crédit fait baisser le taux d'intérêt, provoque un surinvestissement puis une crise (effet accordéon) ; il faut encourager l'épargne.",
+   "a_quoi_ca_sert": "montrer les dangers des taux trop bas et des bulles de crédit",
+   "partie_lecon": "III.2.a – Hayek",
+   "mots_cles": [
+    "crédit",
+    "surinvestissement",
+    "taux d'intérêt",
+    "crise"
+   ]
+  },
+  {
+   "auteur": "Eugen von Böhm-Bawerk",
+   "ouvrage": "Détour de production",
+   "date": "",
+   "idee": "Produire d'abord des machines pour produire ensuite plus de biens de consommation.",
+   "a_quoi_ca_sert": "comprendre la théorie autrichienne de l'investissement et du cycle",
+   "partie_lecon": "III.2.a – Hayek",
+   "mots_cles": [
+    "détour de production",
+    "capital",
+    "école autrichienne"
+   ]
+  },
+  {
+   "auteur": "Friedrich Hayek",
+   "ouvrage": "La Route de la servitude",
+   "date": "1944",
+   "idee": "La planification menace les libertés : l'État doit être un arbitre qui fixe les règles, pas un joueur.",
+   "a_quoi_ca_sert": "critiquer l'interventionnisme et l'économie dirigée",
+   "partie_lecon": "III.2.a – Hayek",
+   "mots_cles": [
+    "libéralisme",
+    "planification",
+    "libertés",
+    "État arbitre"
+   ]
+  },
+  {
+   "auteur": "Friedrich Hayek",
+   "ouvrage": "« L'utilisation de la connaissance dans la société »",
+   "date": "1945",
+   "idee": "L'information est dispersée et les prix la transmettent : le marché est un ordre spontané supérieur à toute planification.",
+   "a_quoi_ca_sert": "critiquer le contrôle des prix (blocage des loyers, prix de l'énergie)",
+   "partie_lecon": "III.2.a – Hayek",
+   "mots_cles": [
+    "ordre spontané",
+    "prix",
+    "information",
+    "contrôle des prix"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman et Anna Schwartz",
+   "ouvrage": "Une histoire monétaire des États-Unis",
+   "date": "1963",
+   "idee": "L'inflation est toujours et partout un phénomène monétaire : la masse monétaire doit croître à un rythme fixe.",
+   "a_quoi_ca_sert": "analyser l'inflation et la politique des banques centrales (hausse des taux, Volcker)",
+   "partie_lecon": "III.2.b – Monétarisme",
+   "mots_cles": [
+    "monétarisme",
+    "inflation",
+    "théorie quantitative",
+    "banque centrale"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "Taux de chômage naturel",
+   "date": "1968",
+   "idee": "La relance ne réduit le chômage qu'à court terme ; avec les anticipations adaptatives, la courbe de Phillips est verticale à long terme.",
+   "a_quoi_ca_sert": "montrer les limites de la relance et justifier les réformes structurelles du marché du travail",
+   "partie_lecon": "III.2.b – Chômage naturel",
+   "mots_cles": [
+    "chômage naturel",
+    "anticipations adaptatives",
+    "courbe de Phillips",
+    "réformes structurelles"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "Une théorie de la fonction de consommation",
+   "date": "1957",
+   "idee": "Les ménages consomment selon leur revenu permanent : un revenu temporaire est épargné.",
+   "a_quoi_ca_sert": "montrer qu'un chèque ou une prime ponctuelle a peu d'effet sur la consommation",
+   "partie_lecon": "III.2.b – Revenu permanent",
+   "mots_cles": [
+    "revenu permanent",
+    "consommation",
+    "épargne",
+    "relance"
+   ]
+  },
+  {
+   "auteur": "James Buchanan et Gordon Tullock",
+   "ouvrage": "Le Calcul du consentement",
+   "date": "1962",
+   "idee": "Élus et fonctionnaires poursuivent leur intérêt : l'État est défaillant, il faut l'encadrer par des règles (équilibre budgétaire).",
+   "a_quoi_ca_sert": "expliquer les déficits, le clientélisme et les lobbies, justifier les règles budgétaires",
+   "partie_lecon": "III.2.c – Choix publics",
+   "mots_cles": [
+    "choix publics",
+    "défaillances de l'État",
+    "lobbies",
+    "règles budgétaires"
+   ]
+  },
+  {
+   "auteur": "Geoffrey Brennan et James Buchanan",
+   "ouvrage": "Le Pouvoir de taxer",
+   "date": "1980",
+   "idee": "L'État est un Léviathan qui cherche à maximiser ses ressources fiscales.",
+   "a_quoi_ca_sert": "critiquer la hausse des prélèvements obligatoires",
+   "partie_lecon": "III.2.c – Choix publics",
+   "mots_cles": [
+    "Léviathan",
+    "fiscalité",
+    "prélèvements obligatoires"
+   ]
+  },
+  {
+   "auteur": "John von Neumann et Oskar Morgenstern",
+   "ouvrage": "Théorie des jeux et comportement économique",
+   "date": "1944",
+   "idee": "Le résultat de chaque décision dépend des décisions des autres.",
+   "a_quoi_ca_sert": "analyser les interactions stratégiques (guerre commerciale, cartels, négociations)",
+   "partie_lecon": "III.2.d – NEC",
+   "mots_cles": [
+    "théorie des jeux",
+    "stratégie",
+    "interactions"
+   ]
+  },
+  {
+   "auteur": "John Nash",
+   "ouvrage": "Équilibre de Nash",
+   "date": "1950",
+   "idee": "Aucun joueur n'a intérêt à changer seul de stratégie ; cet équilibre peut être sous-optimal (dilemme du prisonnier, tragédie des communs).",
+   "a_quoi_ca_sert": "montrer l'échec de la coopération (climat, surpêche, guerre commerciale)",
+   "partie_lecon": "III.2.d – NEC",
+   "mots_cles": [
+    "équilibre de Nash",
+    "dilemme du prisonnier",
+    "tragédie des communs",
+    "coopération"
+   ]
+  },
+  {
+   "auteur": "Robert Lucas",
+   "ouvrage": "« L'évaluation économétrique des politiques : une critique »",
+   "date": "1976",
+   "idee": "Avec des anticipations rationnelles, la relance est inefficace même à court terme ; la courbe de Phillips est verticale.",
+   "a_quoi_ca_sert": "critiquer les politiques conjoncturelles et l'usage des modèles passés",
+   "partie_lecon": "III.2.d – NEC",
+   "mots_cles": [
+    "anticipations rationnelles",
+    "critique de Lucas",
+    "inefficacité des politiques",
+    "NEC"
+   ]
+  },
+  {
+   "auteur": "Robert Lucas",
+   "ouvrage": "« Sur la mécanique du développement économique »",
+   "date": "1988",
+   "idee": "L'action publique peut favoriser la croissance de long terme par le capital humain.",
+   "a_quoi_ca_sert": "justifier l'investissement public dans l'éducation",
+   "partie_lecon": "III.2.d – NEC",
+   "mots_cles": [
+    "capital humain",
+    "croissance endogène",
+    "éducation"
+   ]
+  },
+  {
+   "auteur": "Finn Kydland et Edward Prescott",
+   "ouvrage": "« Les règles plutôt que la discrétion »",
+   "date": "1977",
+   "idee": "Les politiques discrétionnaires sont incohérentes dans le temps : il faut une banque centrale indépendante.",
+   "a_quoi_ca_sert": "justifier l'indépendance de la BCE et les règles de politique monétaire",
+   "partie_lecon": "III.2.d – NEC",
+   "mots_cles": [
+    "incohérence temporelle",
+    "crédibilité",
+    "banque centrale indépendante",
+    "BCE"
+   ]
+  },
+  {
+   "auteur": "Robert Barro",
+   "ouvrage": "« Les obligations d'État sont-elles une richesse nette ? »",
+   "date": "1974",
+   "idee": "Équivalence ricardienne : les agents épargnent en prévision des impôts futurs, donc la relance par la dette a un multiplicateur nul.",
+   "a_quoi_ca_sert": "critiquer la relance financée par la dette publique",
+   "partie_lecon": "III.2.d – NEC",
+   "mots_cles": [
+    "équivalence ricardienne",
+    "dette publique",
+    "multiplicateur",
+    "épargne"
+   ]
+  },
+  {
+   "auteur": "Gregory Mankiw",
+   "ouvrage": "Coûts de menu",
+   "date": "1985",
+   "idee": "Changer ses prix a un coût : prix et salaires sont rigides à court terme.",
+   "a_quoi_ca_sert": "expliquer la rigidité des prix et la non-neutralité de la monnaie à court terme",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "coûts de menu",
+    "rigidités",
+    "prix"
+   ]
+  },
+  {
+   "auteur": "George Akerlof",
+   "ouvrage": "« Le marché des tacots »",
+   "date": "1970",
+   "idee": "L'asymétrie d'information élimine les produits de bonne qualité (antisélection).",
+   "a_quoi_ca_sert": "montrer les défaillances de marché (occasion, assurance, plateformes) et justifier la régulation",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "asymétrie d'information",
+    "antisélection",
+    "défaillances de marché",
+    "qualité"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz et Andrew Weiss",
+   "ouvrage": "« Le rationnement du crédit dans des marchés à information imparfaite »",
+   "date": "1981",
+   "idee": "Les banques rationnent le crédit plutôt que d'augmenter les taux, ce qui prive de financement des projets rentables.",
+   "a_quoi_ca_sert": "montrer les difficultés de financement des PME et les effets d'une hausse des taux",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "rationnement du crédit",
+    "asymétrie d'information",
+    "banques",
+    "taux d'intérêt"
+   ]
+  },
+  {
+   "auteur": "Thomas Gresham",
+   "ouvrage": "Loi de Gresham",
+   "date": "XVIe siècle",
+   "idee": "« La mauvaise monnaie chasse la bonne ».",
+   "a_quoi_ca_sert": "illustrer l'antisélection",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "loi de Gresham",
+    "monnaie",
+    "antisélection"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il défend un libéralisme encadré par l'État.",
+   "a_quoi_ca_sert": "montrer la position régulatrice de la NEK",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "régulation",
+    "libéralisme encadré"
+   ]
+  },
+  {
+   "auteur": "Carl Shapiro et Joseph Stiglitz",
+   "ouvrage": "Salaire d'efficience",
+   "date": "1984",
+   "idee": "Payer au-dessus de l'équilibre accroît la productivité et réduit la rotation, mais crée du chômage involontaire durable.",
+   "a_quoi_ca_sert": "montrer qu'un salaire élevé peut être rentable (Ford) et expliquer le chômage sans irrationalité",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "salaire d'efficience",
+    "productivité",
+    "chômage involontaire",
+    "rotation"
+   ]
+  },
+  {
+   "auteur": "Olivier Blanchard et Lawrence Summers",
+   "ouvrage": "Effet d'hystérèse",
+   "date": "1986",
+   "idee": "Le chômage de longue durée détruit l'employabilité : une hausse conjoncturelle du chômage devient structurelle.",
+   "a_quoi_ca_sert": "justifier une réaction rapide contre le chômage (jeunes, chômage de longue durée)",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "hystérèse",
+    "chômage de longue durée",
+    "employabilité",
+    "capital humain"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "« Rendements croissants, concurrence monopolistique et commerce international »",
+   "date": "1979",
+   "idee": "Le commerce entre pays semblables s'explique par les économies d'échelle et le goût pour la diversité (commerce intrabranche).",
+   "a_quoi_ca_sert": "montrer que la spécialisation dépend de l'histoire et des choix publics, et justifier des politiques commerciales stratégiques",
+   "partie_lecon": "III.3.a – NEK",
+   "mots_cles": [
+    "nouvelle théorie du commerce",
+    "économies d'échelle",
+    "commerce intrabranche",
+    "politique commerciale stratégique"
+   ]
+  },
+  {
+   "auteur": "Daniel Kahneman et Amos Tversky",
+   "ouvrage": "« La théorie des perspectives »",
+   "date": "1979",
+   "idee": "Les individus jugent par rapport à une référence et une perte pèse plus qu'un gain (aversion à la perte).",
+   "a_quoi_ca_sert": "montrer les limites de l'homo œconomicus dans les décisions réelles",
+   "partie_lecon": "III.3.b – Économie comportementale",
+   "mots_cles": [
+    "biais cognitifs",
+    "aversion à la perte",
+    "rationalité limitée",
+    "économie comportementale"
+   ]
+  },
+  {
+   "auteur": "Daniel Kahneman, Jack Knetsch et Richard Thaler",
+   "ouvrage": "Expérience des tasses",
+   "date": "1990",
+   "idee": "Posséder un bien en double à peu près la valeur (effet de dotation).",
+   "a_quoi_ca_sert": "illustrer l'effet de dotation",
+   "partie_lecon": "III.3.b – Économie comportementale",
+   "mots_cles": [
+    "effet de dotation",
+    "expérimentation",
+    "biais"
+   ]
+  },
+  {
+   "auteur": "Richard Thaler",
+   "ouvrage": "Finance comportementale",
+   "date": "",
+   "idee": "Les investisseurs se fondent sur l'évolution récente des cours, ce qui alimente les bulles.",
+   "a_quoi_ca_sert": "expliquer les bulles spéculatives (cryptomonnaies, IA, immobilier)",
+   "partie_lecon": "III.3.b – Économie comportementale",
+   "mots_cles": [
+    "finance comportementale",
+    "bulles",
+    "marchés financiers"
+   ]
+  },
+  {
+   "auteur": "Robert Shiller",
+   "ouvrage": "Exubérance irrationnelle",
+   "date": "1981 ; 2000",
+   "idee": "Les cours varient bien plus que les dividendes : les marchés ne sont pas efficients.",
+   "a_quoi_ca_sert": "montrer qu'une bulle boursière est déconnectée des fondamentaux (bulle internet, valeurs technologiques)",
+   "partie_lecon": "III.3.b – Économie comportementale",
+   "mots_cles": [
+    "inefficience des marchés",
+    "bulle",
+    "krach",
+    "euphorie"
+   ]
+  },
+  {
+   "auteur": "Jean Tirole",
+   "ouvrage": "Économie du bien commun",
+   "date": "2016",
+   "idee": "L'économie enrichit ses hypothèses : l'« homo psychologicus » combine émotions, égoïsme, altruisme et confiance.",
+   "a_quoi_ca_sert": "montrer que l'économie est une science en mouvement",
+   "partie_lecon": "III.3.b – Économie comportementale",
+   "mots_cles": [
+    "homo psychologicus",
+    "rationalité",
+    "science économique"
+   ]
+  },
+  {
+   "auteur": "Richard Thaler et Cass Sunstein",
+   "ouvrage": "Nudge",
+   "date": "2008",
+   "idee": "Orienter les comportements sans contrainte en jouant sur les biais (option par défaut).",
+   "a_quoi_ca_sert": "analyser les politiques publiques incitatives (épargne retraite, santé, écologie)",
+   "partie_lecon": "III.3.b – Économie comportementale",
+   "mots_cles": [
+    "nudge",
+    "option par défaut",
+    "politiques publiques",
+    "incitations"
+   ]
+  },
+  {
+   "auteur": "Esther Duflo et Abhijit Banerjee",
+   "ouvrage": "Repenser la pauvreté",
+   "date": "2011",
+   "idee": "Il faut évaluer chaque politique par expérimentation aléatoire plutôt que par de grandes théories.",
+   "a_quoi_ca_sert": "montrer l'intérêt de l'évaluation des politiques publiques (aide au développement, éducation, santé)",
+   "partie_lecon": "III.3.c – Économie expérimentale",
+   "mots_cles": [
+    "randomisation",
+    "pauvreté",
+    "évaluation des politiques",
+    "développement"
+   ]
+  },
+  {
+   "auteur": "Michael Kremer et Edward Miguel",
+   "ouvrage": "Expérience du déparasitage au Kenya",
+   "date": "2004",
+   "idee": "Un traitement peu coûteux contre les vers réduit fortement l'absentéisme scolaire.",
+   "a_quoi_ca_sert": "montrer qu'une politique peu chère peut être très efficace, ce que seule l'expérimentation établit",
+   "partie_lecon": "III.3.c – Économie expérimentale",
+   "mots_cles": [
+    "expérimentation",
+    "éducation",
+    "santé",
+    "développement"
+   ]
+  }
+ ],
+ "id": "1A-hpe",
+ "programme_chapitre": "1.1 – Les fondements de l'économie : les grands courants de la pensée économique depuis le XVIe siècle"
+}

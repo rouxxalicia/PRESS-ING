@@ -14,14 +14,15 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    - **allemand** : Allemagne (Autriche ou Suisse seulement si c'est vraiment marquant).
    **Uniquement des médias reconnus**, ceux de la liste « Sources autorisées » ci-dessous. Si tu trouves une info ailleurs, retrouve-la dans un de ces médias avant de l'utiliser ; sinon, choisis une autre actu.
    Suis la partie « Choisir les actus » ci-dessous : des sujets **utiles pour le concours**, **variés**, et **au moins 3 journaux différents par matière**.
-5. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
-6. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
-7. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
-8. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche (regarde la liste de l'étape 1), **crée une fiche** (voir « Fiches du référentiel » ci-dessous) : lance d'abord `python3 scripts/preparer.py --modele` pour voir la fiche modèle, écris la ou les nouvelles fiches dans un fichier `nouvelle_fiche.json` (un objet, ou une liste d'objets), lance `python3 scripts/ajouter_fiche.py nouvelle_fiche.json`, puis supprime `nouvelle_fiche.json`. N'édite jamais `data/referentiel.json` à la main. Mets l'`id` de la fiche dans le `ref` de l'auteur.
-9. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
-10. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`. Puis lance `python3 scripts/anki_envoyer.py` : il envoie les cartes directement dans l'Anki d'Alicia (si Anki est ouvert) et synchronise AnkiWeb. S'il dit qu'Anki est fermé, continue quand même et signale-le à la fin.
-11. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
-12. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », si les cartes sont bien arrivées dans Anki, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+5. **Relie chaque carte esh aux cours d'Alicia** : pour chaque actu esh, lance `python3 scripts/cours.py <4 à 8 mots-clés de l'actu>` (ex. `python3 scripts/cours.py droits de douane Chine acier protectionnisme`). Il te donne les chapitres de son cours les plus proches et les auteurs de son cours à mobiliser. Suis la partie « Auteurs du cours » ci-dessous. **N'ouvre jamais** les fichiers de `data/cours/` à la main.
+6. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
+7. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
+8. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
+9. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche (regarde la liste de l'étape 1), **crée une fiche** (voir « Fiches du référentiel » ci-dessous) : lance d'abord `python3 scripts/preparer.py --modele` pour voir la fiche modèle, écris la ou les nouvelles fiches dans un fichier `nouvelle_fiche.json` (un objet, ou une liste d'objets), lance `python3 scripts/ajouter_fiche.py nouvelle_fiche.json`, puis supprime `nouvelle_fiche.json`. N'édite jamais `data/referentiel.json` à la main. Mets l'`id` de la fiche dans le `ref` de l'auteur.
+10. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
+11. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`. Puis lance `python3 scripts/anki_envoyer.py` : il envoie les cartes directement dans l'Anki d'Alicia (si Anki est ouvert) et synchronise AnkiWeb. S'il dit qu'Anki est fermé, continue quand même et signale-le à la fin.
+12. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
+13. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », si les cartes sont bien arrivées dans Anki, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
 
 ## Choisir les actus
 
@@ -102,9 +103,20 @@ Chaque carte a un champ `image` :
 - `auteurs` : 2 auteurs, chacun avec `nom`, `ouvrage` (titre français s'il existe), `annee`, `ref` et `texte`.
   - `texte` : 3 ou 4 phrases. Dis ce que soutient la théorie, **ce qu'elle permet de montrer sur cette actu**, et dans quel type de sujet la mobiliser. Les concepts clés vont en `**gras**`. C'est la partie la plus importante : Alicia ne voit pas toujours à quoi sert une théorie.
   - Idéalement, choisis un auteur qui va dans le sens de l'actu et un qui nuance ou s'y oppose.
-  - `ref` : **obligatoire**, l'identifiant de la fiche du référentiel qui correspond à la théorie mobilisée. Si elle n'existe pas encore, tu la crées (étape 8). Ne crée pas de doublon : si une fiche traite déjà la même théorie, utilise-la.
+  - `ref` : **obligatoire**, l'identifiant de la fiche du référentiel qui correspond à la théorie mobilisée. Si elle n'existe pas encore, tu la crées (étape 9). Ne crée pas de doublon : si une fiche traite déjà la même théorie, utilise-la.
 - `notions` : 3 ou 4 paires `["notion", "définition courte"]` : les notions d'ESH utiles de l'article (ex. `["Dette souveraine", "Dette émise par un État pour financer ses déficits."]`). Définition en une phrase, juste et réutilisable en copie. Elles vont dans le paquet Anki « Vocabulaire » d'ESH.
 - Pas de `vo` ni de `vocab`.
+
+### Auteurs du cours (cartes esh)
+
+Alicia veut que les cartes renvoient d'abord aux auteurs **de ses propres cours** : elle révise son cours en même temps qu'elle lit l'actu.
+
+- **Priorité au cours** : prends tes 2 auteurs parmi ceux que donne `scripts/cours.py`, si le lien avec l'actu est **solide**. Garde l'idée telle qu'elle est formulée dans le cours (champ « idée »), puis explique ce qu'elle montre sur cette actu.
+- **Jamais de lien forcé** : si aucun auteur du cours ne colle vraiment, prends un auteur hors cours (ou un seul du cours et un hors cours). Mieux vaut un bon auteur hors cours qu'un mauvais rapprochement.
+- Ajoute `"cours": "<id du chapitre>"` (l'id donné par le script, ex. `"2A-01-mondialisation-commerciale"`) aux auteurs qui viennent du cours : le site affiche alors la mention **Cours**. Pas de champ `cours` pour un auteur hors cours.
+- `programme` : quand l'actu correspond à un chapitre du cours, reprends **mot pour mot** le `module` et le `chapitre` donnés par le script (ce sont les intitulés officiels du programme).
+- Si le script affiche « ⚠ à vérifier » sous une référence, n'écris pas le détail douteux (date, titre) dans la carte.
+- Le `ref` reste obligatoire : un auteur du cours a aussi besoin de sa fiche dans le référentiel.
 
 ### Cartes de langue (en plus)
 - `vo` : `titre`, `faits` et `enjeux` traduits dans la langue de la carte, naturels et idiomatiques : niveau C1 en anglais et en espagnol, niveau B2 en allemand.
@@ -181,7 +193,7 @@ Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Des
    "titre": "…", "faits": "…", "enjeux": "…",
    "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "programme": {"module": "…", "chapitre": "…"},
-   "auteurs": [{"nom": "…", "ouvrage": "…", "annee": "…", "ref": null, "texte": "…"}],
+   "auteurs": [{"nom": "…", "ouvrage": "…", "annee": "…", "ref": "…", "cours": "2A-01-mondialisation-commerciale", "texte": "…"}],
    "notions": [["…", "…"]],
    "sujets": ["…", "…"],
    "anki": [{"q": "…", "r": "…"}]

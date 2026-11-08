@@ -1,0 +1,1026 @@
+{
+ "chapitre": "Les transformations sociales depuis le XIXe siècle",
+ "annee": "1A",
+ "module": "Module 2 – Croissance et développement",
+ "source_doc": "LES TRANSFORMATIONS SOCIALES DEPUIS LE XIXE",
+ "mots_cles_actu": [
+  "agriculteurs",
+  "crise agricole",
+  "PAC",
+  "FNSEA",
+  "désindustrialisation",
+  "fermeture d'usine",
+  "plan social",
+  "délocalisation",
+  "réindustrialisation",
+  "ouvriers",
+  "Amazon",
+  "logistique",
+  "syndicats",
+  "grève",
+  "classes moyennes",
+  "déclassement",
+  "pouvoir d'achat",
+  "immobilier",
+  "gentrification",
+  "élites",
+  "ENA / INSP",
+  "salaires des PDG",
+  "ultra-riches",
+  "Gilets jaunes",
+  "précarité"
+ ],
+ "references": [
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La classe sociale se définit par la propriété des moyens de production, et la lutte des classes est le moteur de l'histoire.",
+   "a_quoi_ca_sert": "analyser un conflit social comme opposition d'intérêts entre détenteurs du capital et salariés",
+   "partie_lecon": "Introduction",
+   "mots_cles": [
+    "classe sociale",
+    "lutte des classes",
+    "moyens de production"
+   ]
+  },
+  {
+   "auteur": "Alexis de Tocqueville",
+   "ouvrage": "De la démocratie en Amérique",
+   "date": "1835",
+   "idee": "Dans la société aristocratique, la position est fixée à la naissance ; la société démocratique rend les positions mobiles.",
+   "a_quoi_ca_sert": "opposer société d'ordres et société de classes fondée en partie sur le mérite",
+   "partie_lecon": "Introduction ; II.A – Héritage de la société d'ordres",
+   "mots_cles": [
+    "société d'ordres",
+    "mobilité sociale",
+    "démocratie"
+   ],
+   "a_verifier": "date corrigée (cours : 1935)"
+  },
+  {
+   "auteur": "Paul Bairoch",
+   "ouvrage": "Révolution industrielle et sous-développement",
+   "date": "1963",
+   "idee": "La révolution agricole est le moteur de la révolution industrielle : les gains de productivité libèrent une main-d'œuvre qui part vers les villes.",
+   "a_quoi_ca_sert": "montrer que la productivité agricole conditionne l'industrialisation et l'exode rural",
+   "partie_lecon": "I.A – Transformations du monde rural",
+   "mots_cles": [
+    "révolution agricole",
+    "exode rural",
+    "productivité",
+    "industrialisation"
+   ]
+  },
+  {
+   "auteur": "Henri Mendras",
+   "ouvrage": "La Fin des paysans",
+   "date": "1967",
+   "idee": "Le paysan, membre d'une société holiste de subsistance, disparaît au profit de l'agriculteur chef d'entreprise intégré au marché.",
+   "a_quoi_ca_sert": "analyser la crise agricole, la dépendance aux banques et à l'agro-industrie et le malaise identitaire des agriculteurs",
+   "partie_lecon": "I.A – Henri Mendras",
+   "mots_cles": [
+    "fin des paysans",
+    "agriculteur",
+    "modernisation agricole",
+    "PAC"
+   ]
+  },
+  {
+   "auteur": "Henri Mendras",
+   "ouvrage": "La Fin des paysans",
+   "date": "1967",
+   "idee": "La lente diffusion du maïs hybride montre une rationalité paysanne d'aversion au risque, pas une ignorance ; le progrès technique introduit la logique marchande.",
+   "a_quoi_ca_sert": "expliquer les résistances à l'innovation (OGM, semences) par la peur de la dépendance",
+   "partie_lecon": "I.A – Rationalité de subsistance",
+   "mots_cles": [
+    "progrès technique",
+    "aversion au risque",
+    "semences",
+    "dépendance"
+   ]
+  },
+  {
+   "auteur": "Karl Polanyi",
+   "ouvrage": "La Grande Transformation",
+   "date": "1944",
+   "idee": "Dans la société paysanne, l'économie est « encastrée » dans le social : on produit pour la reproduction de la lignée, non pour le profit.",
+   "a_quoi_ca_sert": "montrer que le marché autonome est une construction historique récente",
+   "partie_lecon": "I.A – Henri Mendras",
+   "mots_cles": [
+    "encastrement",
+    "marché",
+    "subsistance",
+    "économie"
+   ]
+  },
+  {
+   "auteur": "Karl Polanyi",
+   "ouvrage": "La Grande Transformation",
+   "date": "1944",
+   "idee": "Le marché laissé à lui-même produit des destructions sociales qui appellent une contre-régulation institutionnelle (protections sociales).",
+   "a_quoi_ca_sert": "justifier l'intervention de l'État social face aux dégâts du marché",
+   "partie_lecon": "III.A – Robert Castel",
+   "mots_cles": [
+    "contre-mouvement",
+    "régulation",
+    "protection sociale",
+    "marché"
+   ]
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "ouvrage": "De la division du travail social",
+   "date": "1893",
+   "idee": "Le village paysan polyvalent et peu spécialisé repose sur une solidarité mécanique et un fort contrôle social.",
+   "a_quoi_ca_sert": "décrire la cohésion des communautés rurales traditionnelles",
+   "partie_lecon": "I.A – Henri Mendras",
+   "mots_cles": [
+    "solidarité mécanique",
+    "contrôle social",
+    "village"
+   ],
+   "a_verifier": "ouvrage non nommé dans ce passage (ajouté)"
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La Commune de Paris (1871) est la première illustration de la lutte des classes en action et une tentative de dictature du prolétariat.",
+   "a_quoi_ca_sert": "interpréter une insurrection urbaine comme affirmation d'une conscience de classe",
+   "partie_lecon": "I.A – La Commune de Paris",
+   "mots_cles": [
+    "Commune de Paris",
+    "conscience de classe",
+    "dictature du prolétariat"
+   ]
+  },
+  {
+   "auteur": "Gary Becker",
+   "ouvrage": "Traité sur la famille",
+   "date": "1981",
+   "idee": "Le travail des enfants au XIXe siècle résulte d'un calcul coût-bénéfice des ménages : l'enfant est une ressource et une assurance vieillesse.",
+   "a_quoi_ca_sert": "expliquer le travail des enfants et les choix de fécondité par la rationalité économique",
+   "partie_lecon": "I.B – Conditions de travail",
+   "mots_cles": [
+    "travail des enfants",
+    "calcul coût-bénéfice",
+    "famille",
+    "fécondité"
+   ]
+  },
+  {
+   "auteur": "Charles Dickens",
+   "ouvrage": "Oliver Twist",
+   "date": "1839",
+   "idee": "Témoigne de l'exploitation des enfants et de la misère urbaine de la révolution industrielle.",
+   "a_quoi_ca_sert": "illustrer la condition ouvrière et enfantine au XIXe siècle",
+   "partie_lecon": "I.B – Conditions de travail",
+   "mots_cles": [
+    "misère",
+    "travail des enfants",
+    "révolution industrielle"
+   ]
+  },
+  {
+   "auteur": "Émile Zola",
+   "ouvrage": "Germinal",
+   "date": "1885",
+   "idee": "Décrit l'exploitation et la souffrance des mineurs.",
+   "a_quoi_ca_sert": "illustrer la dureté du travail industriel et les grèves",
+   "partie_lecon": "I.B – Conditions de travail",
+   "mots_cles": [
+    "mineurs",
+    "exploitation",
+    "condition ouvrière",
+    "grève"
+   ]
+  },
+  {
+   "auteur": "Émile Zola",
+   "ouvrage": "L'Assommoir",
+   "date": "1877",
+   "idee": "Dépeint les ravages de l'alcoolisme et la détresse sociale du monde ouvrier.",
+   "a_quoi_ca_sert": "illustrer la misère ouvrière hors de l'usine",
+   "partie_lecon": "I.B – Conditions de travail",
+   "mots_cles": [
+    "alcoolisme",
+    "pauvreté",
+    "condition ouvrière"
+   ]
+  },
+  {
+   "auteur": "Émile Zola",
+   "ouvrage": "Au Bonheur des Dames",
+   "date": "1882",
+   "idee": "Les grands magasins créent de nouveaux métiers de la vente qui font émerger les classes moyennes.",
+   "a_quoi_ca_sert": "illustrer l'essor du commerce et des employés",
+   "partie_lecon": "III.A – Classes moyennes au XIXe siècle",
+   "mots_cles": [
+    "grands magasins",
+    "employés",
+    "classes moyennes",
+    "commerce"
+   ],
+   "a_verifier": "roman publié en volume en 1883"
+  },
+  {
+   "auteur": "Patrick Verley",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Parle de « système ouvrier » pour l'habitat ouvrier encadré par l'employeur (corons, cités ouvrières).",
+   "a_quoi_ca_sert": "analyser le paternalisme et l'encadrement de la vie ouvrière",
+   "partie_lecon": "I.B – Évolution de l'habitat ouvrier",
+   "mots_cles": [
+    "habitat ouvrier",
+    "paternalisme",
+    "cités ouvrières"
+   ],
+   "a_verifier": "prénom non précisé dans le cours (« P. Verley »)"
+  },
+  {
+   "auteur": "Ernst Engel",
+   "ouvrage": "",
+   "date": "1857",
+   "idee": "Loi d'Engel : quand le revenu augmente, la part de l'alimentation baisse au profit des biens supérieurs (loisirs, santé, épargne).",
+   "a_quoi_ca_sert": "mesurer l'amélioration du niveau de vie et l'émergence de la société de consommation",
+   "partie_lecon": "I.B – Essor de la société de consommation",
+   "mots_cles": [
+    "loi d'Engel",
+    "budget des ménages",
+    "alimentation",
+    "niveau de vie"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu et Jean-Claude Passeron",
+   "ouvrage": "La Reproduction",
+   "date": "1970",
+   "idee": "L'école n'est pas un ascenseur social mais une instance de reproduction : la violence symbolique écarte les enfants d'ouvriers.",
+   "a_quoi_ca_sert": "critiquer la méritocratie scolaire et l'idée d'une démocratisation réelle",
+   "partie_lecon": "I.B – Rappel Bourdieu",
+   "mots_cles": [
+    "reproduction sociale",
+    "violence symbolique",
+    "école",
+    "méritocratie"
+   ]
+  },
+  {
+   "auteur": "Raymond Boudon",
+   "ouvrage": "L'Inégalité des chances",
+   "date": "1973",
+   "idee": "Les enfants d'ouvriers délaissent les études longues à cause d'un calcul coût-avantage défavorable (individualisme méthodologique).",
+   "a_quoi_ca_sert": "expliquer l'autocensure dans l'orientation scolaire",
+   "partie_lecon": "I.B – L'éducation",
+   "mots_cles": [
+    "inégalité des chances",
+    "orientation",
+    "calcul coût-avantage"
+   ],
+   "a_verifier": "ouvrage non nommé dans ce passage (ajouté)"
+  },
+  {
+   "auteur": "Louis-René Villermé",
+   "ouvrage": "Tableau de l'état physique et moral des ouvriers",
+   "date": "1840",
+   "idee": "Son enquête sur les corps brisés des enfants ouvriers aboutit à la loi de 1841 interdisant le travail avant 8 ans.",
+   "a_quoi_ca_sert": "montrer le rôle des enquêtes sociales dans la naissance du droit du travail",
+   "partie_lecon": "I.B – L'éducation ; I.C",
+   "mots_cles": [
+    "travail des enfants",
+    "enquête sociale",
+    "loi de 1841",
+    "droit du travail"
+   ],
+   "a_verifier": "titre et date non cités dans le cours (ajoutés)"
+  },
+  {
+   "auteur": "Xavier Vigna",
+   "ouvrage": "Histoire des ouvriers en France au XXe siècle",
+   "date": "2012",
+   "idee": "La classe ouvrière ne disparaît pas mais se dissout : elle perd sa majorité industrielle, sa visibilité et son unité, sous l'effet de l'automatisation, des délocalisations et des préretraites.",
+   "a_quoi_ca_sert": "analyser les fermetures d'usines, leurs effets sanitaires et sociaux et la recomposition ouvrière vers la logistique",
+   "partie_lecon": "I.B – Vigna",
+   "mots_cles": [
+    "désindustrialisation",
+    "classe ouvrière",
+    "délocalisations",
+    "fermetures d'usines"
+   ]
+  },
+  {
+   "auteur": "Stéphane Beaud et Michel Pialoux",
+   "ouvrage": "Retour sur la condition ouvrière",
+   "date": "1999",
+   "idee": "Enquête à Peugeot-Sochaux : fragmentation de l'usine, rupture générationnelle par l'école (« trahison des enfants ») et dévalorisation symbolique ont défait la culture ouvrière.",
+   "a_quoi_ca_sert": "expliquer la perte de visibilité et de fierté des ouvriers et les tensions internes au monde ouvrier",
+   "partie_lecon": "I.B – Beaud & Pialoux ; III.C",
+   "mots_cles": [
+    "culture ouvrière",
+    "fragmentation",
+    "Peugeot",
+    "déclin syndical"
+   ]
+  },
+  {
+   "auteur": "Martin Thibault",
+   "ouvrage": "Ouvriers malgré tout",
+   "date": "2013",
+   "idee": "Les ouvriers (21,5 % des emplois) déclinent surtout en visibilité (3 % des interviewés à la télévision) et dans le langage (« opérateurs », « associates »).",
+   "a_quoi_ca_sert": "analyser l'invisibilisation des ouvriers dans les médias et les entrepôts (Amazon)",
+   "partie_lecon": "I.B – Thibault Martin",
+   "mots_cles": [
+    "invisibilisation",
+    "ouvriers",
+    "médias",
+    "Amazon"
+   ],
+   "a_verifier": "nom écrit « Thibault Martin » dans le cours ; auteur probablement Martin Thibault"
+  },
+  {
+   "auteur": "Stan Shih",
+   "ouvrage": "",
+   "date": "1992",
+   "idee": "Courbe du sourire : conception et marketing captent la valeur dans les pays riches, l'assemblage peu rentable est délocalisé (iPhone : 1,8 % pour l'assemblage chinois).",
+   "a_quoi_ca_sert": "expliquer la désindustrialisation et la répartition de la valeur dans les chaînes de valeur mondiales",
+   "partie_lecon": "I.B – Courbe du sourire",
+   "mots_cles": [
+    "courbe du sourire",
+    "chaînes de valeur",
+    "délocalisation",
+    "valeur ajoutée"
+   ]
+  },
+  {
+   "auteur": "Alexander Gerschenkron",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Dans les pays industrialisés tardivement (Allemagne), les banques mixtes jouent un rôle décisif dans le financement de l'industrie.",
+   "a_quoi_ca_sert": "montrer le rôle de la finance dans le rattrapage industriel",
+   "partie_lecon": "II.A – Ascension sociale des bourgeois",
+   "mots_cles": [
+    "banques mixtes",
+    "industrialisation tardive",
+    "financement"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La bourgeoisie, propriétaire des moyens de production, devient une « classe en soi et pour soi », consciente de ses intérêts.",
+   "a_quoi_ca_sert": "analyser la cohésion et la mobilisation des classes dominantes",
+   "partie_lecon": "II.A – La bourgeoisie selon Marx",
+   "mots_cles": [
+    "bourgeoisie",
+    "classe pour soi",
+    "capital"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "La Distinction",
+   "date": "1979",
+   "idee": "L'espace social est un champ de forces où les agents mènent des « stratégies de distinction » (goûts, langage) tout en se conformant aux codes de leur groupe.",
+   "a_quoi_ca_sert": "analyser les marqueurs sociaux de la bourgeoisie et des classes supérieures",
+   "partie_lecon": "II.A – Bourdieu, La Distinction",
+   "mots_cles": [
+    "distinction",
+    "espace social",
+    "goûts",
+    "classes supérieures"
+   ]
+  },
+  {
+   "auteur": "Daniel Cohen",
+   "ouvrage": "Homo economicus",
+   "date": "2012",
+   "idee": "Les très hauts salaires des dirigeants sont un fait social plus qu'économique, et les hyper-riches partagent désormais la culture des classes populaires.",
+   "a_quoi_ca_sert": "critiquer la rémunération des PDG et la justification des inégalités par la performance",
+   "partie_lecon": "II.A – Daniel Cohen",
+   "mots_cles": [
+    "hauts salaires",
+    "PDG",
+    "ultra-riches",
+    "inégalités"
+   ]
+  },
+  {
+   "auteur": "Éric Anceau",
+   "ouvrage": "Les Élites françaises",
+   "date": "2020",
+   "idee": "Les élites françaises traversent une crise de légitimité ; ce divorce entre peuple et dirigeants est une constante depuis deux siècles.",
+   "a_quoi_ca_sert": "analyser la défiance envers les élites (Gilets jaunes, abstention, populisme)",
+   "partie_lecon": "II.B – Éric Anceau",
+   "mots_cles": [
+    "élites",
+    "crise de confiance",
+    "légitimité",
+    "populisme"
+   ]
+  },
+  {
+   "auteur": "Éric Anceau",
+   "ouvrage": "Les Élites françaises",
+   "date": "2020",
+   "idee": "Depuis les années 1980, le va-et-vient public-privé (pantouflage) crée une « élite unique » ; le macronisme oppose un bloc élitaire à un bloc populaire.",
+   "a_quoi_ca_sert": "analyser le pantouflage, la réforme de l'ENA et la fracture élites/peuple",
+   "partie_lecon": "II.B – Élite unique et blocage actuel",
+   "mots_cles": [
+    "pantouflage",
+    "ENA",
+    "élite unique",
+    "bloc populaire"
+   ]
+  },
+  {
+   "auteur": "Jean Tulard",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'alliance de la bourgeoisie avec Napoléon est purement tactique : elle le lâche en 1814 quand il menace ses intérêts.",
+   "a_quoi_ca_sert": "montrer que les élites soutiennent un pouvoir tant qu'il sert leurs intérêts",
+   "partie_lecon": "II.B – L'Ancien Régime et sa fin",
+   "mots_cles": [
+    "bourgeoisie",
+    "Napoléon",
+    "élites"
+   ]
+  },
+  {
+   "auteur": "Claude-Henri de Saint-Simon",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Paradigme technocratique : les cadres sont assimilés à des experts.",
+   "a_quoi_ca_sert": "situer la figure du cadre-expert",
+   "partie_lecon": "II.C – Cadres et ingénieurs",
+   "mots_cles": [
+    "technocratie",
+    "cadres",
+    "experts"
+   ]
+  },
+  {
+   "auteur": "Charles Gadéa",
+   "ouvrage": "Qui sont les cadres ?",
+   "date": "2003",
+   "idee": "Les cadres sont un conglomérat de professions défini surtout par le salaire (AGIRC, 1947) ; ce flou fait leur force.",
+   "a_quoi_ca_sert": "analyser la catégorie de cadre et sa banalisation",
+   "partie_lecon": "II.C – Charles Gadéa",
+   "mots_cles": [
+    "cadres",
+    "AGIRC",
+    "catégories socioprofessionnelles"
+   ],
+   "a_verifier": "titre à vérifier (ouvrage connu : Les Cadres en France. Une énigme sociologique, 2003)"
+  },
+  {
+   "auteur": "Nicolas Sarkozy",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les classes moyennes sont « ceux qui, trop riches pour être pauvres, sont trop pauvres pour être riches ».",
+   "a_quoi_ca_sert": "illustrer le sentiment d'être pris en étau des classes moyennes",
+   "partie_lecon": "III.A – Définitions",
+   "mots_cles": [
+    "classes moyennes",
+    "définition"
+   ]
+  },
+  {
+   "auteur": "Louis Chauvel",
+   "ouvrage": "Le Fond de l'air est jaune",
+   "date": "2019",
+   "idee": "Les classes moyennes : un ensemble dont le revenu avoisine 30 000 à 40 000 € pour une famille complète.",
+   "a_quoi_ca_sert": "donner une définition chiffrée des classes moyennes",
+   "partie_lecon": "III.A – Définitions",
+   "mots_cles": [
+    "classes moyennes",
+    "revenu",
+    "définition"
+   ]
+  },
+  {
+   "auteur": "Christophe Charle",
+   "ouvrage": "Histoire sociale de la France au XIXe siècle",
+   "date": "",
+   "idee": "Au XIXe siècle, les classes moyennes sont un « sas social » de transition vers la haute bourgeoisie, sur une ou deux générations, avec risque de déclassement.",
+   "a_quoi_ca_sert": "montrer que l'ascension sociale se fait par étapes",
+   "partie_lecon": "III.A – Définitions",
+   "mots_cles": [
+    "sas social",
+    "ascension sociale",
+    "déclassement",
+    "classes moyennes"
+   ]
+  },
+  {
+   "auteur": "François Guizot",
+   "ouvrage": "",
+   "date": "1834",
+   "idee": "« La classe moyenne est restée sans privilège et sans monopole. »",
+   "a_quoi_ca_sert": "situer l'usage politique de la notion de classe moyenne au XIXe siècle",
+   "partie_lecon": "III.A – Serge Bosc (petite bourgeoisie)",
+   "mots_cles": [
+    "classe moyenne",
+    "privilèges"
+   ]
+  },
+  {
+   "auteur": "Karl Marx et Friedrich Engels",
+   "ouvrage": "Manifeste du Parti communiste",
+   "date": "1848",
+   "idee": "La classe moyenne regroupe petits fabricants, détaillants, artisans et paysans : une « nouvelle classe de petits-bourgeois ».",
+   "a_quoi_ca_sert": "définir la petite bourgeoisie",
+   "partie_lecon": "III.A – Serge Bosc (petite bourgeoisie)",
+   "mots_cles": [
+    "petite bourgeoisie",
+    "classes moyennes"
+   ],
+   "a_verifier": "titre non nommé dans le cours (ajouté)"
+  },
+  {
+   "auteur": "Pierre-Joseph Proudhon",
+   "ouvrage": "",
+   "date": "1852",
+   "idee": "Les petits-bourgeois se distinguent de la grande bourgeoisie car ils vivent de leur travail et non de leurs capitaux.",
+   "a_quoi_ca_sert": "distinguer revenus du travail et revenus du capital",
+   "partie_lecon": "III.A – Serge Bosc (petite bourgeoisie)",
+   "mots_cles": [
+    "petite bourgeoisie",
+    "travail",
+    "capital"
+   ]
+  },
+  {
+   "auteur": "Serge Bosc",
+   "ouvrage": "Sociologie des classes moyennes",
+   "date": "2022",
+   "idee": "Depuis la fin du XIXe siècle, l'essor massif d'un salariat non manuel (employés) fait émerger les classes moyennes.",
+   "a_quoi_ca_sert": "montrer la tertiarisation et la montée des employés",
+   "partie_lecon": "III.A – Serge Bosc (salariat non manuel)",
+   "mots_cles": [
+    "employés",
+    "salariat",
+    "tertiarisation"
+   ]
+  },
+  {
+   "auteur": "C. Wright Mills",
+   "ouvrage": "Les Cols blancs",
+   "date": "1951",
+   "idee": "Les employés et cadres des grandes organisations forment une nouvelle pyramide sociale très hétérogène, à l'avenir incertain (risque de néoprolétarisation).",
+   "a_quoi_ca_sert": "analyser la condition des employés de bureau et leur possible déclassement",
+   "partie_lecon": "III.A – C. Wright Mills",
+   "mots_cles": [
+    "cols blancs",
+    "employés",
+    "néoprolétarisation",
+    "classes moyennes"
+   ]
+  },
+  {
+   "auteur": "Robert Castel",
+   "ouvrage": "Les Métamorphoses de la question sociale",
+   "date": "1995",
+   "idee": "La question sociale est historiquement la gestion des « surnuméraires », ces « inutiles au monde » que la société ne parvient pas à intégrer.",
+   "a_quoi_ca_sert": "analyser l'exclusion et le chômage de longue durée",
+   "partie_lecon": "III.A – Robert Castel (I)",
+   "mots_cles": [
+    "surnuméraires",
+    "exclusion",
+    "question sociale"
+   ]
+  },
+  {
+   "auteur": "Robert Castel",
+   "ouvrage": "Les Métamorphoses de la question sociale",
+   "date": "1995",
+   "idee": "Au XXe siècle, le salariat devient un statut protecteur : la « propriété sociale » (droits attachés au travail) fonde la société salariale.",
+   "a_quoi_ca_sert": "montrer que la protection sociale fonde l'intégration et l'essor des classes moyennes",
+   "partie_lecon": "III.A – Robert Castel (II) ; III.B",
+   "mots_cles": [
+    "société salariale",
+    "propriété sociale",
+    "protection sociale",
+    "salariat"
+   ]
+  },
+  {
+   "auteur": "Robert Castel",
+   "ouvrage": "Les Métamorphoses de la question sociale",
+   "date": "1995",
+   "idee": "Depuis les années 1970, la crise du salariat fait passer de l'intégration à la vulnérabilité puis à la désaffiliation (perte d'emploi et de liens).",
+   "a_quoi_ca_sert": "analyser la précarité, l'ubérisation et la dualisation du marché du travail",
+   "partie_lecon": "III.A – Robert Castel (III)",
+   "mots_cles": [
+    "désaffiliation",
+    "précarité",
+    "vulnérabilité",
+    "chômage"
+   ]
+  },
+  {
+   "auteur": "Michel Foucault",
+   "ouvrage": "Histoire de la folie",
+   "date": "",
+   "idee": "Les politiques d'enfermement traitent la marginalité comme un problème d'ordre public.",
+   "a_quoi_ca_sert": "analyser la gestion répressive de la pauvreté et de la marginalité",
+   "partie_lecon": "III.A – Robert Castel (I.3)",
+   "mots_cles": [
+    "enfermement",
+    "marginalité",
+    "répression"
+   ]
+  },
+  {
+   "auteur": "Henri Mendras",
+   "ouvrage": "La Seconde Révolution française",
+   "date": "1988",
+   "idee": "Entre 1965 et 1984, la société se moyennise et prend la forme d'une « toupie » autour d'une vaste « constellation centrale ».",
+   "a_quoi_ca_sert": "défendre la thèse de la moyennisation et de l'homogénéisation des modes de vie",
+   "partie_lecon": "III.B – Henri Mendras",
+   "mots_cles": [
+    "moyennisation",
+    "constellation centrale",
+    "toupie",
+    "classes moyennes"
+   ]
+  },
+  {
+   "auteur": "Serge Bosc",
+   "ouvrage": "Sociologie des classes moyennes",
+   "date": "2022",
+   "idee": "La moyennisation s'explique par la réduction des inégalités et la diffusion des modes de vie des classes moyennes, mais la crise de 1973 et la remontée des inégalités la remettent en cause.",
+   "a_quoi_ca_sert": "discuter la thèse de la moyennisation face au retour des inégalités",
+   "partie_lecon": "III.B – Serge Bosc (moyennisation)",
+   "mots_cles": [
+    "moyennisation",
+    "inégalités",
+    "insiders",
+    "outsiders"
+   ]
+  },
+  {
+   "auteur": "Alexandre Koyré",
+   "ouvrage": "",
+   "date": "1954",
+   "idee": "Les sociétés modernes sont dominées par l'idéal de vie des classes moyennes : stabilité, confort, ascension des enfants.",
+   "a_quoi_ca_sert": "montrer la force de l'imaginaire des classes moyennes",
+   "partie_lecon": "III.C – Les sept piliers",
+   "mots_cles": [
+    "civilisation des classes moyennes",
+    "idéal",
+    "stabilité"
+   ],
+   "a_verifier": "attribution de l'expression à Koyré à vérifier"
+  },
+  {
+   "auteur": "Louis Chauvel",
+   "ouvrage": "",
+   "date": "2019",
+   "idee": "Les classes moyennes reposent sur sept piliers (salariat stable, abondance, État-providence, croissance scolaire, croyance au progrès, centralité politique, démocratie stable), aujourd'hui fragilisés.",
+   "a_quoi_ca_sert": "analyser le sentiment de déclassement des classes moyennes (Gilets jaunes, retraites)",
+   "partie_lecon": "III.C – Les sept piliers",
+   "mots_cles": [
+    "classes moyennes",
+    "déclassement",
+    "État-providence",
+    "progrès"
+   ]
+  },
+  {
+   "auteur": "C. Arnold Anderson",
+   "ouvrage": "",
+   "date": "1961",
+   "idee": "Paradoxe d'Anderson : la hausse du niveau d'études ne garantit plus la mobilité ascendante (dévalorisation des diplômes).",
+   "a_quoi_ca_sert": "expliquer pourquoi les jeunes plus diplômés ne font pas mieux que leurs parents",
+   "partie_lecon": "III.C – Les sept piliers",
+   "mots_cles": [
+    "paradoxe d'Anderson",
+    "diplômes",
+    "mobilité sociale",
+    "déclassement"
+   ],
+   "a_verifier": "prénom non indiqué dans le cours"
+  },
+  {
+   "auteur": "Thorstein Veblen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La consommation de masse n'efface pas la distinction : les élites se différencient par l'accès à de nouveaux biens (consommation ostentatoire).",
+   "a_quoi_ca_sert": "montrer que la diffusion des biens recompose les hiérarchies sociales",
+   "partie_lecon": "III.C – Effet Veblen",
+   "mots_cles": [
+    "consommation ostentatoire",
+    "distinction",
+    "effet Veblen"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le capital culturel recompose les distinctions : les taux d'équipement convergent, mais pas les usages.",
+   "a_quoi_ca_sert": "montrer que l'égalisation de l'équipement n'efface pas les inégalités culturelles",
+   "partie_lecon": "III.C – Effet Veblen",
+   "mots_cles": [
+    "capital culturel",
+    "distinction",
+    "pratiques culturelles"
+   ]
+  },
+  {
+   "auteur": "Louis Chauvel",
+   "ouvrage": "Le Retour des classes sociales",
+   "date": "2001",
+   "idee": "L'érosion de la conscience de classe ne signifie pas la disparition des inégalités objectives, qui remontent depuis les années 1980.",
+   "a_quoi_ca_sert": "réfuter l'idée de la fin des classes sociales",
+   "partie_lecon": "III.C – Le retour des classes sociales",
+   "mots_cles": [
+    "classes sociales",
+    "conscience de classe",
+    "inégalités"
+   ]
+  },
+  {
+   "auteur": "Louis Chauvel",
+   "ouvrage": "Le Retour des classes sociales",
+   "date": "2001",
+   "idee": "La prolétarisation des employés non qualifiés (caissières, manutentionnaires) élargit les classes populaires au-delà des ouvriers.",
+   "a_quoi_ca_sert": "montrer la recomposition des classes populaires dans les services",
+   "partie_lecon": "III.C – Le retour des classes sociales",
+   "mots_cles": [
+    "classes populaires",
+    "prolétarisation",
+    "employés",
+    "services"
+   ]
+  },
+  {
+   "auteur": "Jean-Louis Levet",
+   "ouvrage": "Une France sans usines ?",
+   "date": "1988",
+   "idee": "Annonce l'évolution vers une société post-industrielle où le nombre d'ouvriers ne cesse de diminuer.",
+   "a_quoi_ca_sert": "illustrer la désindustrialisation",
+   "partie_lecon": "III.C – Le retour des classes sociales",
+   "mots_cles": [
+    "désindustrialisation",
+    "société post-industrielle"
+   ]
+  },
+  {
+   "auteur": "Louis Chauvel",
+   "ouvrage": "Les Classes moyennes à la dérive",
+   "date": "2006",
+   "idee": "Les classes moyennes sont menacées de déclassement.",
+   "a_quoi_ca_sert": "analyser la peur du déclassement",
+   "partie_lecon": "III.C",
+   "mots_cles": [
+    "classes moyennes",
+    "déclassement"
+   ]
+  },
+  {
+   "auteur": "Éric Maurin",
+   "ouvrage": "La Peur du déclassement",
+   "date": "2009",
+   "idee": "Concurrent de Chauvel : c'est surtout la peur du déclassement qui travaille la société.",
+   "a_quoi_ca_sert": "nuancer l'idée d'un déclassement massif",
+   "partie_lecon": "III.C",
+   "mots_cles": [
+    "peur du déclassement",
+    "classes moyennes"
+   ]
+  },
+  {
+   "auteur": "Christian Baudelot",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Analyse la petite bourgeoisie en lui déniant toute autonomie (rapprochée de Bourdieu).",
+   "a_quoi_ca_sert": "définir la petite bourgeoisie comme position dépendante",
+   "partie_lecon": "III.C – Anatomie des dispositions petites-bourgeoises",
+   "mots_cles": [
+    "petite bourgeoisie",
+    "classes moyennes"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "La Distinction",
+   "date": "1979",
+   "idee": "La petite bourgeoisie se divise (en déclin, d'exécution, nouvelle) mais partage une « bonne volonté culturelle » : copier les goûts des classes supérieures.",
+   "a_quoi_ca_sert": "analyser les clivages culturels et politiques des classes moyennes",
+   "partie_lecon": "III.C – Anatomie des dispositions petites-bourgeoises",
+   "mots_cles": [
+    "petite bourgeoisie",
+    "bonne volonté culturelle",
+    "classes moyennes"
+   ]
+  },
+  {
+   "auteur": "Alvin Gouldner",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La new class de diplômés utilise son capital culturel ; discours critique mais aussi bourgeoisie culturelle défendant ses privilèges.",
+   "a_quoi_ca_sert": "analyser les classes moyennes diplômées et leurs contradictions",
+   "partie_lecon": "III.C – Théories de la new class",
+   "mots_cles": [
+    "new class",
+    "capital culturel",
+    "intellectuels"
+   ]
+  },
+  {
+   "auteur": "Daniel Bell",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'émergence d'une société technobureaucratique s'accompagne du recul des valeurs traditionnelles au profit de valeurs postmatérialistes.",
+   "a_quoi_ca_sert": "expliquer la priorité donnée à la qualité de vie par les classes diplômées",
+   "partie_lecon": "III.C – Théories de la new class",
+   "mots_cles": [
+    "société post-industrielle",
+    "postmatérialisme",
+    "new class"
+   ]
+  },
+  {
+   "auteur": "Ronald Inglehart",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Une fois les besoins matériels satisfaits, les individus privilégient l'épanouissement (valeurs postmatérialistes).",
+   "a_quoi_ca_sert": "expliquer l'essor des préoccupations écologiques et qualitatives",
+   "partie_lecon": "III.C – Théories de la new class",
+   "mots_cles": [
+    "postmatérialisme",
+    "valeurs",
+    "écologie"
+   ]
+  },
+  {
+   "auteur": "David Brooks",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les « bobos » : une élite intellectuelle socialement installée, culturellement branchée, politiquement assagie.",
+   "a_quoi_ca_sert": "analyser les classes moyennes supérieures urbaines (gentrification, vote)",
+   "partie_lecon": "III.C – Théories de la new class",
+   "mots_cles": [
+    "bobos",
+    "élite culturelle",
+    "gentrification"
+   ]
+  },
+  {
+   "auteur": "Régis Bigot",
+   "ouvrage": "Les Classes moyennes sous pression",
+   "date": "2008",
+   "idee": "Malgré un niveau de vie en hausse, les « dépenses contraintes » (logement, énergie) étranglent les classes moyennes inférieures.",
+   "a_quoi_ca_sert": "analyser la pression du logement et de l'énergie sur le pouvoir d'achat",
+   "partie_lecon": "III.C – Bosc (classes moyennes fragilisées)",
+   "mots_cles": [
+    "dépenses contraintes",
+    "pouvoir d'achat",
+    "logement",
+    "énergie"
+   ]
+  },
+  {
+   "auteur": "François Cusin et Claire Juillard",
+   "ouvrage": "Le Logement, facteur d'éclatement des classes moyennes ?",
+   "date": "2010",
+   "idee": "Seule une petite fraction de la strate inférieure des classes moyennes est propriétaire : le logement fracture les classes moyennes.",
+   "a_quoi_ca_sert": "montrer le rôle du logement dans les inégalités et les parcours résidentiels descendants",
+   "partie_lecon": "III.C – Bosc (classes moyennes fragilisées)",
+   "mots_cles": [
+    "logement",
+    "propriété",
+    "classes moyennes",
+    "déclassement"
+   ]
+  },
+  {
+   "auteur": "Antoine Bozio",
+   "ouvrage": "",
+   "date": "2012",
+   "idee": "Les classes moyennes paient de hauts prélèvements mais bénéficient massivement de dépenses publiques (école, université, culture).",
+   "a_quoi_ca_sert": "nuancer l'idée que les classes moyennes seraient les perdantes de la redistribution",
+   "partie_lecon": "III.C – Bosc (classes moyennes fragilisées)",
+   "mots_cles": [
+    "fiscalité",
+    "redistribution",
+    "classes moyennes",
+    "dépenses publiques"
+   ]
+  },
+  {
+   "auteur": "Henri Sterdyniak",
+   "ouvrage": "",
+   "date": "2014",
+   "idee": "Partage l'idée que les classes moyennes bénéficient indirectement des dépenses publiques.",
+   "a_quoi_ca_sert": "nuancer le ras-le-bol fiscal des classes moyennes",
+   "partie_lecon": "III.C – Bosc (classes moyennes fragilisées)",
+   "mots_cles": [
+    "redistribution",
+    "fiscalité"
+   ]
+  },
+  {
+   "auteur": "Denis Clerc",
+   "ouvrage": "",
+   "date": "2007",
+   "idee": "Partage l'idée que les classes moyennes bénéficient indirectement des dépenses publiques.",
+   "a_quoi_ca_sert": "nuancer le ras-le-bol fiscal des classes moyennes",
+   "partie_lecon": "III.C – Bosc (classes moyennes fragilisées)",
+   "mots_cles": [
+    "redistribution",
+    "fiscalité"
+   ]
+  },
+  {
+   "auteur": "Louis Chauvel",
+   "ouvrage": "La Spirale du déclassement",
+   "date": "2016",
+   "idee": "L'inflation scolaire dévalorise les diplômes et la hausse de l'immobilier et du patrimoine empêche les jeunes de reproduire le niveau de vie de leurs parents.",
+   "a_quoi_ca_sert": "analyser le déclassement générationnel, la crise du logement et le poids de l'héritage",
+   "partie_lecon": "III.C – La spirale du déclassement",
+   "mots_cles": [
+    "déclassement",
+    "inflation scolaire",
+    "immobilier",
+    "patrimoine"
+   ]
+  },
+  {
+   "auteur": "Louis Chauvel",
+   "ouvrage": "La Spirale du déclassement",
+   "date": "2016",
+   "idee": "Le déclassement favorise le repli individuel et la frustration plutôt que la mobilisation collective.",
+   "a_quoi_ca_sert": "expliquer la faiblesse des mobilisations malgré la hausse des inégalités",
+   "partie_lecon": "III.C – La spirale du déclassement",
+   "mots_cles": [
+    "déclassement",
+    "frustration",
+    "mobilisation"
+   ]
+  },
+  {
+   "auteur": "Camille Peugny",
+   "ouvrage": "Le Risque de déclassement",
+   "date": "2021",
+   "idee": "Rupture du progrès générationnel : les générations nées après 1960 connaissent davantage de déclassement (1 fils de cadre sur 4).",
+   "a_quoi_ca_sert": "analyser la panne de l'ascenseur social",
+   "partie_lecon": "III.C – Camille Peugny",
+   "mots_cles": [
+    "déclassement",
+    "ascenseur social",
+    "générations",
+    "mobilité"
+   ],
+   "a_verifier": "titre et date à vérifier (ouvrage connu : Le Déclassement, 2009)"
+  },
+  {
+   "auteur": "Anaïs Collet",
+   "ouvrage": "Rester bourgeois. Les quartiers populaires, nouveaux chantiers de la distinction",
+   "date": "2015",
+   "idee": "La gentrification permet à des classes moyennes riches en capital culturel de le rentabiliser dans l'espace urbain, avant d'être remplacées par plus riches qu'elles.",
+   "a_quoi_ca_sert": "analyser la gentrification, la hausse des prix immobiliers et l'évitement scolaire",
+   "partie_lecon": "III.C – Anaïs Collet",
+   "mots_cles": [
+    "gentrification",
+    "capital culturel",
+    "quartiers populaires",
+    "distinction"
+   ]
+  },
+  {
+   "auteur": "Julien Damon",
+   "ouvrage": "Les quatre « e » des difficultés des classes moyennes",
+   "date": "2013",
+   "idee": "Les classes moyennes subissent effritement, écrasement fiscal, étalement urbain et émiettement politique.",
+   "a_quoi_ca_sert": "analyser le malaise des classes moyennes (fiscalité, périurbain, dispersion du vote)",
+   "partie_lecon": "III.C – Julien Damon",
+   "mots_cles": [
+    "classes moyennes",
+    "étalement urbain",
+    "fiscalité",
+    "vote"
+   ]
+  },
+  {
+   "auteur": "Pierre Vermeren",
+   "ouvrage": "Les Gilets jaunes, une jacquerie au XXIe siècle",
+   "date": "2018",
+   "idee": "Les Gilets jaunes sont une jacquerie contemporaine déclenchée par la fiscalité écologique sur le carburant, révélant un sentiment d'injustice sociale.",
+   "a_quoi_ca_sert": "analyser les révoltes contre la fiscalité écologique et la fracture territoriale",
+   "partie_lecon": "III.C – Pierre Vermeren",
+   "mots_cles": [
+    "Gilets jaunes",
+    "taxe carbone",
+    "carburant",
+    "injustice fiscale"
+   ],
+   "a_verifier": "nom corrigé (cours : « Vemeren »)"
+  }
+ ],
+ "id": "1A-transformations-sociales",
+ "programme_chapitre": "2.2 – Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle : mobilité sociale et transformations des structures sociales"
+}

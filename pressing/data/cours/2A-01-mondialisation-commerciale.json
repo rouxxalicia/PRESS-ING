@@ -1,0 +1,1598 @@
+{
+ "chapitre": "Mondialisation commerciale",
+ "annee": "2A",
+ "module": "Module 3 – La mondialisation économique et financière",
+ "source_doc": "1 - La mondialisation commerciale",
+ "mots_cles_actu": [
+  "droits de douane",
+  "guerre commerciale",
+  "Trump",
+  "Chine",
+  "OMC",
+  "libre-échange",
+  "protectionnisme",
+  "accord UE-Mercosur",
+  "accord de libre-échange",
+  "BYD",
+  "véhicules électriques",
+  "subventions",
+  "IRA",
+  "dumping",
+  "déficit commercial",
+  "taux de change",
+  "dévaluation",
+  "démondialisation",
+  "slowbalisation",
+  "friend-shoring",
+  "chaînes d'approvisionnement",
+  "fret maritime",
+  "conteneurs",
+  "inégalités",
+  "désindustrialisation",
+  "souveraineté économique"
+ ],
+ "references": [
+  {
+   "auteur": "OCDE",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La mondialisation est un processus dynamique d'intégration qui rend les ressources nationales plus mobiles et accroît l'interdépendance des économies.",
+   "a_quoi_ca_sert": "définir la mondialisation en introduction de dissertation",
+   "partie_lecon": "I – Définitions",
+   "mots_cles": [
+    "mondialisation",
+    "interdépendance",
+    "intégration économique"
+   ]
+  },
+  {
+   "auteur": "Pascal Lamy",
+   "ouvrage": "« Le libre-échange n'existe pas », Revue internationale et stratégique",
+   "date": "2017",
+   "idee": "Le libre-échange pur n'existe pas : il n'y a que des échanges plus ou moins ouverts, le libre-échange est une fiction utile et controversée.",
+   "a_quoi_ca_sert": "nuancer toute opposition binaire libre-échange / protectionnisme face à une négociation commerciale",
+   "partie_lecon": "I – Définitions",
+   "mots_cles": [
+    "libre-échange",
+    "OMC",
+    "ouverture commerciale"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Les Conséquences économiques de la paix",
+   "date": "1919",
+   "idee": "Avant 1914, un Londonien pouvait commander par téléphone les produits du monde entier et placer son capital partout : la première mondialisation était déjà très intégrée.",
+   "a_quoi_ca_sert": "montrer que la mondialisation n'est pas nouvelle et peut être réversible (1914)",
+   "partie_lecon": "I.1 – Première mondialisation",
+   "mots_cles": [
+    "première mondialisation",
+    "1914",
+    "intégration financière"
+   ]
+  },
+  {
+   "auteur": "Fernand Braudel",
+   "ouvrage": "La Méditerranée et le monde méditerranéen à l'époque de Philippe II",
+   "date": "1949",
+   "idee": "Des cités-États comme Venise, Gênes ou Amsterdam forment des « économies-mondes » autonomes mais intégrées aux flux mondiaux.",
+   "a_quoi_ca_sert": "montrer que le commerce international précède la révolution industrielle",
+   "partie_lecon": "I.1 – Avant 1914 : les racines",
+   "mots_cles": [
+    "économie-monde",
+    "cités-États",
+    "commerce ancien"
+   ]
+  },
+  {
+   "auteur": "Ronald Findlay et Kevin O'Rourke",
+   "ouvrage": "Power and Plenty",
+   "date": "2007",
+   "idee": "Le mercantilisme atteint son apogée pendant les guerres napoléoniennes : commerce et souveraineté deviennent indissociables, le commerce est un jeu à somme nulle.",
+   "a_quoi_ca_sert": "relier une actu de guerre commerciale ou de sécurisation des routes maritimes à la logique mercantiliste",
+   "partie_lecon": "I.1 – Mercantilisme ; II.1 – Rappel mercantilisme",
+   "mots_cles": [
+    "mercantilisme",
+    "souveraineté",
+    "jeu à somme nulle",
+    "excédent commercial"
+   ]
+  },
+  {
+   "auteur": "Suzanne Berger",
+   "ouvrage": "Notre première mondialisation",
+   "date": "2003",
+   "idee": "La première mondialisation (1870-1914) repose sur les innovations de transport et de communication (rail, vapeur, télégraphe, Suez) ; les mutations techniques réduisent l'effet réel des droits de douane.",
+   "a_quoi_ca_sert": "montrer que la technique, plus que la politique, porte la mondialisation",
+   "partie_lecon": "I.1 – Chiffres et causes ; V.1.b – Critiques du paradoxe",
+   "mots_cles": [
+    "première mondialisation",
+    "coûts de transport",
+    "innovations",
+    "canal de Suez"
+   ]
+  },
+  {
+   "auteur": "Régis Bénichi",
+   "ouvrage": "Histoire de la mondialisation",
+   "date": "2008",
+   "idee": "Le commerce international est multiplié par 7 entre 1840 et 1914 et croît plus vite que la production (3 à 4 % par an).",
+   "a_quoi_ca_sert": "chiffrer l'essor du commerce au XIXe siècle",
+   "partie_lecon": "I.1 – Chiffres et causes",
+   "mots_cles": [
+    "première mondialisation",
+    "commerce international",
+    "croissance des échanges"
+   ]
+  },
+  {
+   "auteur": "Angus Maddison",
+   "ouvrage": "",
+   "date": "1995",
+   "idee": "La part de la production mondiale exportée passe de 1 % en 1820 à 9 % en 1913.",
+   "a_quoi_ca_sert": "mesurer l'ouverture croissante des économies avant 1914",
+   "partie_lecon": "I.1 – Chiffres et causes",
+   "mots_cles": [
+    "taux d'ouverture",
+    "exportations",
+    "première mondialisation"
+   ]
+  },
+  {
+   "auteur": "Angus Maddison",
+   "ouvrage": "L'Économie mondiale (The World Economy)",
+   "date": "2001",
+   "idee": "Les échanges rebondissent de 60 % dans les années 1920 mais moins que la production ; 1950-1973 est un « âge d'or » où le commerce croît deux fois plus vite que la production.",
+   "a_quoi_ca_sert": "comparer les phases de mondialisation et de repli",
+   "partie_lecon": "I.2 – Années 1920 ; I.3 – Âge d'or",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "âge d'or",
+    "entre-deux-guerres",
+    "croissance des échanges"
+   ]
+  },
+  {
+   "auteur": "Kevin O'Rourke et Jeffrey Williamson",
+   "ouvrage": "Globalization and History",
+   "date": "1999",
+   "idee": "Les coûts de transport sont divisés par 10 au XIXe siècle, moteur de l'intégration des marchés.",
+   "a_quoi_ca_sert": "montrer le rôle des coûts de transport dans la mondialisation (fret, conteneurs)",
+   "partie_lecon": "I.1 – Chiffres et causes",
+   "mots_cles": [
+    "coûts de transport",
+    "convergence des prix",
+    "première mondialisation"
+   ]
+  },
+  {
+   "auteur": "Jacques Brasseul",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Au XIXe siècle, les exportations manufacturières britanniques sont multipliées par 5 quand la production ne l'est que par 1,5.",
+   "a_quoi_ca_sert": "illustrer un pays qui profite de l'ouverture",
+   "partie_lecon": "I.1 – 3 modèles de pays",
+   "mots_cles": [
+    "Royaume-Uni",
+    "exportations",
+    "industrialisation"
+   ]
+  },
+  {
+   "auteur": "Françoise Lemoine et Thierry Madiès",
+   "ouvrage": "",
+   "date": "",
+   "idee": "En 1914, l'Europe réalise 58 % du commerce mondial et 83 % des exportations manufacturières, surtout en intra-européen.",
+   "a_quoi_ca_sert": "montrer la domination européenne du commerce avant 1914",
+   "partie_lecon": "I.1 – 3 modèles de pays",
+   "mots_cles": [
+    "Europe",
+    "commerce intra-européen",
+    "première mondialisation"
+   ]
+  },
+  {
+   "auteur": "Jules Ferry",
+   "ouvrage": "",
+   "date": "1885",
+   "idee": "« La fondation d'une colonie, c'est la création d'un débouché » : la colonisation sert l'ouverture commerciale.",
+   "a_quoi_ca_sert": "relier commerce et domination politique (colonies, débouchés)",
+   "partie_lecon": "I.1 – 3 modèles de pays",
+   "mots_cles": [
+    "colonisation",
+    "débouchés",
+    "impérialisme"
+   ]
+  },
+  {
+   "auteur": "Kaname Akamatsu",
+   "ouvrage": "",
+   "date": "1937",
+   "idee": "Le modèle du « vol d'oies sauvages » : un pays remonte les filières en imitant puis dépassant les pays en avance, comme le Japon après Meiji.",
+   "a_quoi_ca_sert": "montrer qu'une ouverture accompagnée d'une stratégie industrielle peut réussir (Asie, Chine)",
+   "partie_lecon": "I.1 – 3 modèles de pays ; II.1 – Rybczynski",
+   "mots_cles": [
+    "vol d'oies sauvages",
+    "rattrapage",
+    "Japon",
+    "remontée de filière"
+   ]
+  },
+  {
+   "auteur": "Alexander Hamilton",
+   "ouvrage": "Rapport sur les manufactures (Report on Manufactures)",
+   "date": "1791",
+   "idee": "Les États-Unis doivent protéger leurs manufactures naissantes pour s'industrialiser.",
+   "a_quoi_ca_sert": "justifier historiquement le protectionnisme américain (droits de douane de Trump)",
+   "partie_lecon": "I.1 – 3 modèles de pays",
+   "mots_cles": [
+    "protectionnisme",
+    "industrie naissante",
+    "États-Unis"
+   ]
+  },
+  {
+   "auteur": "Paul Bairoch",
+   "ouvrage": "Le Tiers-Monde dans l'impasse",
+   "date": "1971",
+   "idee": "La part du Tiers-Monde dans la production manufacturière mondiale passe de plus d'un tiers à moins d'un dixième entre 1860 et 1913 : l'ouverture subie désindustrialise.",
+   "a_quoi_ca_sert": "montrer que l'ouverture forcée peut détruire l'industrie des pays dominés",
+   "partie_lecon": "I.1 – 3 modèles de pays",
+   "mots_cles": [
+    "désindustrialisation",
+    "Tiers-Monde",
+    "colonisation",
+    "Inde"
+   ]
+  },
+  {
+   "auteur": "Immanuel Wallerstein",
+   "ouvrage": "Capitalisme et économie-monde",
+   "date": "1980",
+   "idee": "Les échanges du XIXe s'inscrivent dans une DIT centre-périphérie : le centre importe des matières premières et exporte des produits finis.",
+   "a_quoi_ca_sert": "analyser une dépendance Nord-Sud aux matières premières",
+   "partie_lecon": "I.1 – DIT et centre-périphérie",
+   "mots_cles": [
+    "DIT",
+    "centre-périphérie",
+    "dépendance",
+    "matières premières"
+   ]
+  },
+  {
+   "auteur": "Paul Bairoch",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'axe centre-périphérie pèse moins de 20 % du commerce mondial (1800-1938) : l'essentiel des flux est intra-européen et l'enrichissement européen vient surtout de dynamiques internes.",
+   "a_quoi_ca_sert": "nuancer l'idée que la richesse du Nord vient du pillage commercial du Sud",
+   "partie_lecon": "I.1 – DIT et centre-périphérie",
+   "mots_cles": [
+    "DIT",
+    "commerce intra-européen",
+    "colonisation"
+   ]
+  },
+  {
+   "auteur": "Paul Bairoch",
+   "ouvrage": "Commerce extérieur et développement économique de l'Europe au XIXe siècle",
+   "date": "1976",
+   "idee": "Le XIXe alterne 5 périodes d'ouverture et de fermeture (protectionnisme jusqu'en 1846, libre-échange 1860-1879, retour protectionniste après 1892) ; les exportations nettes européennes sont multipliées par 16 (1830-1913).",
+   "a_quoi_ca_sert": "montrer que l'histoire commerciale est cyclique et que le protectionnisme revient régulièrement",
+   "partie_lecon": "I.1 – Les 5 périodes du XIXe",
+   "mots_cles": [
+    "libre-échange",
+    "protectionnisme",
+    "Corn Laws",
+    "traité Cobden-Chevalier",
+    "tarif Méline"
+   ]
+  },
+  {
+   "auteur": "Paul Bairoch",
+   "ouvrage": "Mythes et paradoxes de l'histoire économique",
+   "date": "1993",
+   "idee": "Paradoxe de Bairoch : au XIXe, le libre-échange coïncide avec un ralentissement (PNB/tête de 1,6 % à 0,6 %) et le retour du protectionnisme avec la reprise.",
+   "a_quoi_ca_sert": "contester l'idée que l'ouverture garantit la croissance face à une actu protectionniste",
+   "partie_lecon": "I.1 – 4e période ; V.1.b – Critiques du lien",
+   "mots_cles": [
+    "paradoxe de Bairoch",
+    "protectionnisme",
+    "croissance",
+    "Grande Dépression"
+   ]
+  },
+  {
+   "auteur": "Jeffrey Williamson, Kevin O'Rourke et Timothy Hatton",
+   "ouvrage": "",
+   "date": "1993",
+   "idee": "La convergence des niveaux de vie avant 1914 tient davantage aux migrations qu'au commerce ou à la finance.",
+   "a_quoi_ca_sert": "montrer le rôle des migrations dans la mondialisation et la convergence",
+   "partie_lecon": "I.1 – Migrations",
+   "mots_cles": [
+    "migrations",
+    "convergence",
+    "marché du travail"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "La Grande Crise mondiale 1929-1939",
+   "date": "1973",
+   "idee": "L'instabilité monétaire et l'extension des droits de douane freinent le commerce dans l'entre-deux-guerres.",
+   "a_quoi_ca_sert": "rappeler les dangers d'une escalade tarifaire (années 1930, Hawley-Smoot)",
+   "partie_lecon": "I.2 – Crise et repli des années 1930",
+   "mots_cles": [
+    "années 1930",
+    "droits de douane",
+    "instabilité monétaire",
+    "Hawley-Smoot"
+   ]
+  },
+  {
+   "auteur": "Ronald Findlay et Kevin O'Rourke",
+   "ouvrage": "Commodity Market Integration 1500-2000",
+   "date": "2002",
+   "idee": "Pendant les Trente Glorieuses, l'élasticité des échanges à la croissance dépasse 1 : un cercle vertueux où la croissance tire le commerce, qui tire la croissance.",
+   "a_quoi_ca_sert": "expliquer qu'un ralentissement de la croissance freine mécaniquement le commerce (élasticité)",
+   "partie_lecon": "I.3 – Internationalisation 1945-1973",
+   "mots_cles": [
+    "élasticité commerce/croissance",
+    "Trente Glorieuses",
+    "GATT",
+    "cercle vertueux"
+   ]
+  },
+  {
+   "auteur": "Herbert Grubel et Peter Lloyd",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'indice de Grubel-Lloyd mesure le commerce intra-branche ; il dépasse 50 % en Europe dès 1975.",
+   "a_quoi_ca_sert": "mesurer les échanges de produits similaires entre pays riches",
+   "partie_lecon": "I.4.a – Nouvel essor ; Définitions",
+   "mots_cles": [
+    "commerce intra-branche",
+    "Nord-Nord",
+    "CEE"
+   ]
+  },
+  {
+   "auteur": "Pierre Norel",
+   "ouvrage": "L'Invention du marché",
+   "date": "2004",
+   "idee": "Les migrations pèsent moins aujourd'hui que dans la première mondialisation : leur part dans la population active est deux fois plus faible.",
+   "a_quoi_ca_sert": "relativiser le poids des migrations dans la mondialisation actuelle",
+   "partie_lecon": "I.4.a – Migrations",
+   "mots_cles": [
+    "migrations",
+    "contrôles migratoires",
+    "Europe"
+   ]
+  },
+  {
+   "auteur": "El Mouhoub Mouhoud",
+   "ouvrage": "L'Immigration en France",
+   "date": "2017",
+   "idee": "L'effet des migrations sur les salaires des pays d'accueil est surestimé : les migrants occupent surtout des emplois en tension du marché secondaire.",
+   "a_quoi_ca_sert": "répondre à un débat sur l'immigration et les salaires",
+   "partie_lecon": "I.4.a – Migrations",
+   "mots_cles": [
+    "immigration",
+    "salaires",
+    "marché du travail",
+    "emplois en tension"
+   ]
+  },
+  {
+   "auteur": "Jean-Pierre Allegret et Pascal Le Merrer",
+   "ouvrage": "Économie de la mondialisation",
+   "date": "2007",
+   "idee": "Les migrations ont des effets ambivalents sur les pays d'origine : fuite des cerveaux mais transferts de fonds souvent supérieurs aux IDE.",
+   "a_quoi_ca_sert": "analyser l'émigration vue du pays de départ",
+   "partie_lecon": "I.4.a – Migrations",
+   "mots_cles": [
+    "fuite des cerveaux",
+    "transferts de fonds",
+    "développement"
+   ]
+  },
+  {
+   "auteur": "Stan Shih",
+   "ouvrage": "",
+   "date": "1992",
+   "idee": "Courbe du sourire : la valeur ajoutée se concentre en amont (R&D) et en aval (marketing), la production au centre en capte peu.",
+   "a_quoi_ca_sert": "expliquer pourquoi un pays garde la conception et délocalise l'assemblage",
+   "partie_lecon": "I.4.a – Internationalisation de la production",
+   "mots_cles": [
+    "courbe du sourire",
+    "chaîne de valeur",
+    "valeur ajoutée",
+    "DIPP"
+   ]
+  },
+  {
+   "auteur": "Marshall McLuhan",
+   "ouvrage": "Message et massage",
+   "date": "1967",
+   "idee": "Les NTIC et les médias de masse créent un « village global » : la mondialisation est aussi informationnelle et culturelle.",
+   "a_quoi_ca_sert": "montrer la dimension culturelle et numérique de la mondialisation (réseaux sociaux)",
+   "partie_lecon": "I.4.a – Moteurs",
+   "mots_cles": [
+    "village global",
+    "NTIC",
+    "culture mondiale",
+    "médias"
+   ]
+  },
+  {
+   "auteur": "Frances Cairncross",
+   "ouvrage": "The Death of Distance",
+   "date": "1997",
+   "idee": "La chute des coûts de communication et la conteneurisation abolissent les distances et favorisent les échanges.",
+   "a_quoi_ca_sert": "relier innovation technique et essor des échanges (conteneur, numérique)",
+   "partie_lecon": "I.4.a – Moteurs",
+   "mots_cles": [
+    "coûts de communication",
+    "conteneurisation",
+    "transport maritime"
+   ]
+  },
+  {
+   "auteur": "David Dollar",
+   "ouvrage": "Globalization, Growth, and Poverty",
+   "date": "2002",
+   "idee": "Entre 1930 et 1990, le coût du transport aérien est divisé par 6, le fret maritime par 3,3 et la communication par 80.",
+   "a_quoi_ca_sert": "chiffrer la baisse des coûts qui porte la mondialisation",
+   "partie_lecon": "I.4.a – Moteurs",
+   "mots_cles": [
+    "coûts de transport",
+    "communication",
+    "mondialisation"
+   ]
+  },
+  {
+   "auteur": "Pierre-Noël Giraud",
+   "ouvrage": "Principes d'économie de l'inégalité",
+   "date": "2017",
+   "idee": "La mondialisation contemporaine repose sur 3 forces : les NTIC, la libéralisation des capitaux décidée par les États et la révolution des FTN.",
+   "a_quoi_ca_sert": "montrer que la mondialisation résulte aussi de choix politiques",
+   "partie_lecon": "I.4.a – Moteurs",
+   "mots_cles": [
+    "NTIC",
+    "libéralisation financière",
+    "FTN",
+    "politiques publiques"
+   ],
+   "a_verifier": "titre et date de l'ouvrage à vérifier"
+  },
+  {
+   "auteur": "Ronald Coase",
+   "ouvrage": "La Nature de la firme",
+   "date": "1937",
+   "idee": "Une FTN n'existe que si le coût de l'information et de coordination est faible.",
+   "a_quoi_ca_sert": "relier baisse des coûts d'information et essor des multinationales",
+   "partie_lecon": "I.4.a – Moteurs",
+   "mots_cles": [
+    "coûts de transaction",
+    "FTN",
+    "information"
+   ]
+  },
+  {
+   "auteur": "Richard Baldwin et Philippe Martin",
+   "ouvrage": "Two Waves of Globalisation",
+   "date": "1999",
+   "idee": "La mondialisation actuelle diffère de celle de 1820-1914 : DIPP et biens intermédiaires au lieu de biens finis, baisse du coût de l'information plutôt que du transport, désagglomération au profit du Sud.",
+   "a_quoi_ca_sert": "comparer première et seconde mondialisation",
+   "partie_lecon": "I.4.a – Moteurs",
+   "mots_cles": [
+    "DIPP",
+    "biens intermédiaires",
+    "deux mondialisations",
+    "désagglomération"
+   ]
+  },
+  {
+   "auteur": "Alfred Marshall",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les effets d'agglomération (économies externes) profitent aux régions industrielles concentrées ; ils ont favorisé le Nord pendant la première mondialisation.",
+   "a_quoi_ca_sert": "expliquer la concentration géographique des activités (clusters)",
+   "partie_lecon": "I.4.a – Baldwin et Martin ; II.2 – Économies d'agglomération",
+   "mots_cles": [
+    "agglomération",
+    "économies externes",
+    "clusters",
+    "spillovers"
+   ]
+  },
+  {
+   "auteur": "Sébastien Jean (CEPII)",
+   "ouvrage": "",
+   "date": "2017",
+   "idee": "Le ralentissement du commerce après 2008 est un « retour à la normale » après une hausse exceptionnelle des exportations (18 % à 30 % du PIB, 1993-2008).",
+   "a_quoi_ca_sert": "nuancer les discours sur la démondialisation",
+   "partie_lecon": "I.4.b – Rupture depuis 2008",
+   "mots_cles": [
+    "démondialisation",
+    "slowbalisation",
+    "taux d'ouverture"
+   ]
+  },
+  {
+   "auteur": "Adjiedj Bakas / The Economist",
+   "ouvrage": "",
+   "date": "2019",
+   "idee": "« Slowbalisation » : une mondialisation plus lente, moins expansive et plus conflictuelle, plutôt qu'un effondrement.",
+   "a_quoi_ca_sert": "qualifier le ralentissement actuel des échanges",
+   "partie_lecon": "I.4.b – Rupture depuis 2008",
+   "mots_cles": [
+    "slowbalisation",
+    "démondialisation",
+    "ralentissement du commerce"
+   ]
+  },
+  {
+   "auteur": "Walden Bello",
+   "ouvrage": "Deglobalization: Ideas for a New World Economy",
+   "date": "2002",
+   "idee": "Il faut démondialiser : recentrer la production sur les marchés intérieurs, garantir la souveraineté alimentaire et réduire le poids de l'OMC et du FMI.",
+   "a_quoi_ca_sert": "défendre la relocalisation et la souveraineté alimentaire des pays du Sud",
+   "partie_lecon": "I.4.b – Rupture depuis 2008 ; onglet compléments",
+   "mots_cles": [
+    "démondialisation",
+    "souveraineté alimentaire",
+    "OMC",
+    "dumping agricole"
+   ]
+  },
+  {
+   "auteur": "Jacques Sapir",
+   "ouvrage": "La Démondialisation",
+   "date": "2011",
+   "idee": "La mondialisation n'est ni naturelle ni irréversible ; un protectionnisme ciblé, social et écologique, et un contrôle des capitaux protègent l'emploi et les salaires.",
+   "a_quoi_ca_sert": "argumenter pour un protectionnisme contre le dumping social",
+   "partie_lecon": "I.4.b – Rupture depuis 2008 ; onglet compléments",
+   "mots_cles": [
+    "démondialisation",
+    "protectionnisme",
+    "dumping social",
+    "désindustrialisation"
+   ]
+  },
+  {
+   "auteur": "Jacques Sapir",
+   "ouvrage": "Le Protectionnisme",
+   "date": "2022",
+   "idee": "Il prolonge sa défense d'un protectionnisme ciblé pour protéger l'emploi.",
+   "a_quoi_ca_sert": "appuyer un argument favorable aux droits de douane",
+   "partie_lecon": "I.4.b – Rupture depuis 2008",
+   "mots_cles": [
+    "protectionnisme",
+    "emploi",
+    "salaires"
+   ]
+  },
+  {
+   "auteur": "Pascal Lamy",
+   "ouvrage": "Article dans Le Monde",
+   "date": "2020",
+   "idee": "Le « précautionnisme » : les normes sanitaires, sociales et environnementales deviennent les nouvelles barrières aux échanges.",
+   "a_quoi_ca_sert": "analyser une actu sur des normes qui bloquent des importations",
+   "partie_lecon": "I.4.b – Rupture depuis 2008",
+   "mots_cles": [
+    "précautionnisme",
+    "barrières non tarifaires",
+    "normes"
+   ]
+  },
+  {
+   "auteur": "OMC",
+   "ouvrage": "Rapport",
+   "date": "2021",
+   "idee": "Dès octobre 2020, 58 % des mesures commerciales liées au Covid facilitent les échanges et 40 % des restrictions sont levées.",
+   "a_quoi_ca_sert": "montrer que le Covid n'a pas provoqué de démondialisation durable",
+   "partie_lecon": "I.4.b – Covid-19",
+   "mots_cles": [
+    "Covid",
+    "résilience",
+    "ouverture commerciale"
+   ]
+  },
+  {
+   "auteur": "Alessandra Mezzadri et Kanchana Ruwanpura",
+   "ouvrage": "",
+   "date": "2020",
+   "idee": "Les chaînes de valeur mondiales ont résisté au Covid grâce à leur flexibilité (textile asiatique reconverti en matériel de protection).",
+   "a_quoi_ca_sert": "nuancer la critique des chaînes de valeur trop longues",
+   "partie_lecon": "I.4.b – Covid-19",
+   "mots_cles": [
+    "chaînes de valeur",
+    "résilience",
+    "Covid"
+   ]
+  },
+  {
+   "auteur": "Alain Frachon",
+   "ouvrage": "« La guerre en Ukraine… pourrait bien marquer l'achèvement de l'âge d'or de la mondialisation », Le Monde",
+   "date": "2022",
+   "idee": "Après le Covid, la guerre en Ukraine montre que la géopolitique prime sur l'économie : vers une globalisation régionalisée entre pays amis.",
+   "a_quoi_ca_sert": "analyser une actu de sanctions ou de relocalisation chez des alliés",
+   "partie_lecon": "I.4.b – Guerre en Ukraine",
+   "mots_cles": [
+    "géopolitique",
+    "Ukraine",
+    "régionalisation",
+    "sanctions"
+   ]
+  },
+  {
+   "auteur": "Janet Yellen",
+   "ouvrage": "",
+   "date": "2022",
+   "idee": "Le « friend-shoring » : relocaliser les chaînes d'approvisionnement chez des alliés plutôt que chez des rivaux.",
+   "a_quoi_ca_sert": "commenter une stratégie de sécurisation des approvisionnements",
+   "partie_lecon": "I.4.b – Guerre en Ukraine",
+   "mots_cles": [
+    "friend-shoring",
+    "chaînes d'approvisionnement",
+    "États-Unis",
+    "souveraineté"
+   ]
+  },
+  {
+   "auteur": "David Hume",
+   "ouvrage": "Of the Balance of Trade",
+   "date": "1752",
+   "idee": "Le mécanisme de flux de prix-espèces rend un excédent commercial permanent impossible : l'entrée d'or fait monter les prix et rééquilibre la balance.",
+   "a_quoi_ca_sert": "critiquer une politique visant un excédent commercial permanent (néo-mercantilisme)",
+   "partie_lecon": "II.1 – Théories traditionnelles",
+   "mots_cles": [
+    "mercantilisme",
+    "balance commerciale",
+    "théorie quantitative",
+    "ajustement automatique"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "Le commerce est un jeu à somme positive : chaque pays se spécialise selon ses avantages absolus et l'extension des marchés approfondit la division du travail.",
+   "a_quoi_ca_sert": "défendre le libre-échange comme source de gains mutuels",
+   "partie_lecon": "II.1 – Smith",
+   "mots_cles": [
+    "avantage absolu",
+    "division du travail",
+    "libre-échange",
+    "jeu à somme positive"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "Le protectionnisme est légitime en cas de rétorsion.",
+   "a_quoi_ca_sert": "justifier des droits de douane de représailles",
+   "partie_lecon": "III.1.b – Limites du protectionnisme",
+   "mots_cles": [
+    "rétorsion",
+    "représailles",
+    "guerre commerciale"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Des principes de l'économie politique et de l'impôt",
+   "date": "1817",
+   "idee": "Chaque pays gagne à se spécialiser là où il a un avantage comparatif (son moindre désavantage) : tous peuvent participer au commerce et y gagner.",
+   "a_quoi_ca_sert": "défendre le libre-échange même pour un pays moins productif",
+   "partie_lecon": "II.1 – Ricardo ; I.1 – Abrogation des Corn Laws",
+   "mots_cles": [
+    "avantages comparatifs",
+    "spécialisation",
+    "libre-échange",
+    "coût d'opportunité"
+   ]
+  },
+  {
+   "auteur": "John Stuart Mill",
+   "ouvrage": "Principes d'économie politique",
+   "date": "1848",
+   "idee": "Le prix international dépend de la demande réciproque : le gain à l'échange est mutuel mais inégalement réparti selon le poids des pays.",
+   "a_quoi_ca_sert": "analyser un rapport de force commercial (UE-Mercosur)",
+   "partie_lecon": "II.1 – Mill",
+   "mots_cles": [
+    "demande réciproque",
+    "termes de l'échange",
+    "gains inégaux",
+    "Mercosur"
+   ]
+  },
+  {
+   "auteur": "Eli Heckscher et Bertil Ohlin",
+   "ouvrage": "The Effect of Foreign Trade on the Distribution of Income (1919) ; Interregional and International Trade (1933)",
+   "date": "1919-1933",
+   "idee": "Modèle HOS : un pays se spécialise dans le bien qui utilise intensivement son facteur relativement abondant.",
+   "a_quoi_ca_sert": "expliquer une spécialisation par les dotations en capital et en travail",
+   "partie_lecon": "II.1 – Modèle HOS",
+   "mots_cles": [
+    "HOS",
+    "dotations factorielles",
+    "abondance relative",
+    "spécialisation"
+   ]
+  },
+  {
+   "auteur": "Paul Samuelson",
+   "ouvrage": "Economics",
+   "date": "1948",
+   "idee": "Théorème d'égalisation des prix des facteurs : le commerce de biens équivaut à une migration des facteurs et aligne les salaires et rendements entre pays.",
+   "a_quoi_ca_sert": "expliquer la pression du commerce sur les salaires des pays riches",
+   "partie_lecon": "II.1 – TEPF",
+   "mots_cles": [
+    "TEPF",
+    "salaires",
+    "mise en concurrence des travailleurs",
+    "HOS"
+   ],
+   "a_verifier": "le TEPF vient plutôt de l'article « International Trade and the Equalisation of Factor Prices » (1948)"
+  },
+  {
+   "auteur": "Wolfgang Stolper et Paul Samuelson",
+   "ouvrage": "Protection and Real Wages",
+   "date": "1941",
+   "idee": "L'ouverture augmente le revenu du facteur abondant et diminue celui du facteur rare : conflit redistributif interne (perdants non qualifiés au Nord).",
+   "a_quoi_ca_sert": "expliquer les perdants de la mondialisation et le vote populiste dans les pays riches",
+   "partie_lecon": "II.1 – HOS ; V.2.a – Inégalités",
+   "mots_cles": [
+    "Stolper-Samuelson",
+    "inégalités",
+    "conflit redistributif",
+    "travailleurs non qualifiés"
+   ]
+  },
+  {
+   "auteur": "Tadeusz Rybczynski",
+   "ouvrage": "Factor Endowment and Relative Commodity Prices",
+   "date": "1955",
+   "idee": "Accumuler un facteur augmente plus que proportionnellement la production des biens qui l'utilisent : l'avantage comparatif est dynamique et souvent politiquement construit.",
+   "a_quoi_ca_sert": "montrer qu'un État peut changer sa spécialisation par l'investissement (Chine, Corée)",
+   "partie_lecon": "II.1 – Prolongements HOS",
+   "mots_cles": [
+    "avantage comparatif dynamique",
+    "dotations factorielles",
+    "remontée de filière"
+   ]
+  },
+  {
+   "auteur": "Ronald W. Jones",
+   "ouvrage": "The Structure of Simple General Equilibrium Models",
+   "date": "1965",
+   "idee": "Effet d'amplification : une variation du prix d'un bien modifie plus que proportionnellement la rémunération du facteur qu'il utilise, ce qui polarise les revenus.",
+   "a_quoi_ca_sert": "justifier des politiques de redistribution face au libre-échange",
+   "partie_lecon": "II.1 – Prolongements HOS",
+   "mots_cles": [
+    "effet d'amplification",
+    "inégalités",
+    "redistribution"
+   ]
+  },
+  {
+   "auteur": "Wassily Leontief",
+   "ouvrage": "Domestic Production and Foreign Trade",
+   "date": "1953",
+   "idee": "Paradoxe de Leontief : les États-Unis, riches en capital, exportent des biens plus intensifs en travail qu'ils n'en importent, contrairement à HOS.",
+   "a_quoi_ca_sert": "montrer les limites empiriques du modèle HOS",
+   "partie_lecon": "II.1 – Leontief",
+   "mots_cles": [
+    "paradoxe de Leontief",
+    "HOS",
+    "test empirique"
+   ]
+  },
+  {
+   "auteur": "Ronald Findlay et Henryk Kierzkowski",
+   "ouvrage": "International Trade and Human Capital: A Simple General Equilibrium Model",
+   "date": "1983",
+   "idee": "Le paradoxe de Leontief se résout par le capital humain : les États-Unis exportent du travail qualifié et importent du travail non qualifié.",
+   "a_quoi_ca_sert": "montrer l'importance de l'éducation dans la spécialisation",
+   "partie_lecon": "II.1 – Leontief",
+   "mots_cles": [
+    "capital humain",
+    "travail qualifié",
+    "spécialisation",
+    "Corée du Sud"
+   ]
+  },
+  {
+   "auteur": "Michael Posner",
+   "ouvrage": "International Trade and Technological Change",
+   "date": "1961",
+   "idee": "L'avantage comparatif vient d'une avance technologique, qui peut être rattrapée par les concurrents.",
+   "a_quoi_ca_sert": "analyser une course technologique (Airbus/Boeing, Comac, Chine)",
+   "partie_lecon": "II.1 – Approche néo-technologique",
+   "mots_cles": [
+    "avance technologique",
+    "rattrapage",
+    "innovation",
+    "écart technologique"
+   ]
+  },
+  {
+   "auteur": "Raymond Vernon",
+   "ouvrage": "International Investment and International Trade in the Product Cycle",
+   "date": "1966",
+   "idee": "Cycle de vie du produit : le pays inventeur produit, exporte, investit à l'étranger puis importe le bien ; l'avantage comparatif est temporaire.",
+   "a_quoi_ca_sert": "expliquer pourquoi un pays finit par importer ce qu'il a inventé",
+   "partie_lecon": "II.1 – Vernon",
+   "mots_cles": [
+    "cycle de vie du produit",
+    "avantage comparatif dynamique",
+    "délocalisation",
+    "FMN"
+   ]
+  },
+  {
+   "auteur": "Bernard Lassudrie-Duchêne",
+   "ouvrage": "La Demande de différence et l'échange international",
+   "date": "1971",
+   "idee": "La demande de différence des consommateurs explique le commerce intra-branche ; il théorise aussi la DIPP en 1982.",
+   "a_quoi_ca_sert": "expliquer les échanges de produits similaires entre pays riches (voitures France-Allemagne)",
+   "partie_lecon": "II.2 – Nouvelles théories",
+   "mots_cles": [
+    "demande de différence",
+    "commerce intra-branche",
+    "DIPP",
+    "économies d'échelle"
+   ]
+  },
+  {
+   "auteur": "Kelvin Lancaster",
+   "ouvrage": "Intra-Industry Trade under Perfect Monopolistic Competition",
+   "date": "1980",
+   "idee": "Chaque consommateur cherche son bien idéal, d'où le commerce intra-branche ; mais l'ouverture peut faire disparaître des variétés et réduire l'utilité.",
+   "a_quoi_ca_sert": "montrer qu'une concentration liée à la mondialisation appauvrit la diversité de l'offre",
+   "partie_lecon": "II.2 – Nouvelles théories",
+   "mots_cles": [
+    "bien idéal",
+    "variété",
+    "concurrence monopolistique",
+    "commerce intra-branche"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "Increasing Returns, Monopolistic Competition and International Trade",
+   "date": "1979",
+   "idee": "Les avantages comparatifs sont construits et cumulatifs : effet taille du marché, économies d'échelle, agglomération et avantage du premier entrant.",
+   "a_quoi_ca_sert": "expliquer la domination durable de pôles comme la Silicon Valley ou Hollywood",
+   "partie_lecon": "II.2 – Krugman",
+   "mots_cles": [
+    "home market effect",
+    "économies d'échelle",
+    "agglomération",
+    "first mover advantage"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "Geography and Trade",
+   "date": "1991",
+   "idee": "Les avantages comparatifs peuvent être construits par la volonté politique via la concentration géographique (Nouvelle économie géographique).",
+   "a_quoi_ca_sert": "analyser une politique de clusters ou de zones économiques spéciales",
+   "partie_lecon": "II.2 – Krugman",
+   "mots_cles": [
+    "nouvelle économie géographique",
+    "clusters",
+    "avantage construit",
+    "ZES"
+   ]
+  },
+  {
+   "auteur": "AnnaLee Saxenian",
+   "ouvrage": "Regional Advantage",
+   "date": "1994",
+   "idee": "La Silicon Valley a surclassé la Route 128 grâce à une culture de réseaux ouverts : la concentration ne suffit pas, l'organisation institutionnelle compte.",
+   "a_quoi_ca_sert": "nuancer Krugman sur les clusters",
+   "partie_lecon": "II.2 – Krugman (encadré)",
+   "mots_cles": [
+    "clusters",
+    "Silicon Valley",
+    "institutions",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "Thierry Mayer et Jean-Louis Mucchielli",
+   "ouvrage": "« La localisation des firmes multinationales », Économie et Prévision",
+   "date": "1999",
+   "idee": "L'agglomération crée des externalités positives mais accroît aussi la concurrence locale entre firmes.",
+   "a_quoi_ca_sert": "nuancer les bénéfices d'un cluster",
+   "partie_lecon": "II.2 – Krugman",
+   "mots_cles": [
+    "agglomération",
+    "concurrence",
+    "localisation",
+    "FMN"
+   ]
+  },
+  {
+   "auteur": "S. Lael Brainard",
+   "ouvrage": "An Empirical Assessment of the Proximity-Concentration Trade-off",
+   "date": "1997",
+   "idee": "La firme arbitre entre multiplier les sites près des clients et concentrer la production pour les économies d'échelle, selon les coûts de transport et les barrières.",
+   "a_quoi_ca_sert": "expliquer un choix d'implantation d'usine à l'étranger",
+   "partie_lecon": "II.2 – Brainard",
+   "mots_cles": [
+    "arbitrage proximité-concentration",
+    "économies d'échelle",
+    "coûts de transport",
+    "IDE"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "La mondialisation n'est pas coupable",
+   "date": "1998",
+   "idee": "Les avantages comparatifs sont un modèle incomplet mais le libre-échange reste la meilleure politique : il « n'est plus ce qu'il était ».",
+   "a_quoi_ca_sert": "défendre le libre-échange tout en reconnaissant les nouvelles théories",
+   "partie_lecon": "II.2 – Bilan mitigé",
+   "mots_cles": [
+    "libre-échange",
+    "nouvelles théories",
+    "politique commerciale stratégique"
+   ]
+  },
+  {
+   "auteur": "Frank Graham",
+   "ouvrage": "Some Aspects of Protection Further Considered",
+   "date": "1923",
+   "idee": "Un pays spécialisé dans un secteur à rendements décroissants peut perdre à l'échange : le libre-échange n'est pas toujours mutuellement avantageux.",
+   "a_quoi_ca_sert": "défendre la diversification d'un pays spécialisé dans les produits primaires",
+   "partie_lecon": "II.3 – Critiques",
+   "mots_cles": [
+    "rendements décroissants",
+    "spécialisation",
+    "critique de Ricardo",
+    "produits primaires"
+   ]
+  },
+  {
+   "auteur": "Raúl Prebisch",
+   "ouvrage": "The Economic Development of Latin America and its Principal Problems",
+   "date": "1950",
+   "idee": "La spécialisation primaire enferme les pays du Sud dans un cercle vicieux ; ils doivent s'industrialiser.",
+   "a_quoi_ca_sert": "analyser la dépendance d'un pays aux matières premières (cuivre, cacao)",
+   "partie_lecon": "II.3 – Critiques",
+   "mots_cles": [
+    "produits primaires",
+    "dépendance",
+    "industrialisation",
+    "Amérique latine"
+   ]
+  },
+  {
+   "auteur": "Raúl Prebisch et Hans Singer",
+   "ouvrage": "",
+   "date": "1950",
+   "idee": "Les termes de l'échange des pays exportateurs de produits primaires se dégradent sur le long terme.",
+   "a_quoi_ca_sert": "expliquer l'appauvrissement relatif des exportateurs de matières premières",
+   "partie_lecon": "II.3 – Bhagwati",
+   "mots_cles": [
+    "termes de l'échange",
+    "produits primaires",
+    "pays du Sud"
+   ]
+  },
+  {
+   "auteur": "Jagdish Bhagwati",
+   "ouvrage": "Immiserizing Growth: A Geometrical Note",
+   "date": "1958",
+   "idee": "Croissance appauvrissante : produire plus d'un bien à demande inélastique fait chuter son prix et dégrade les termes de l'échange.",
+   "a_quoi_ca_sert": "analyser l'effondrement des cours d'un produit exporté en masse",
+   "partie_lecon": "II.3 – Critiques ; V.1.b",
+   "mots_cles": [
+    "croissance appauvrissante",
+    "termes de l'échange",
+    "élasticité-prix",
+    "produits primaires"
+   ]
+  },
+  {
+   "auteur": "Arghiri Emmanuel",
+   "ouvrage": "L'Échange inégal",
+   "date": "1969",
+   "idee": "Le capital est mobile mais pas le travail : les pays du Nord captent par l'échange une plus-value sur le travail mal payé du Sud.",
+   "a_quoi_ca_sert": "dénoncer l'exploitation dans les échanges Nord-Sud (textile, fast fashion)",
+   "partie_lecon": "II.3 – Critiques",
+   "mots_cles": [
+    "échange inégal",
+    "marxisme",
+    "salaires",
+    "Nord-Sud"
+   ]
+  },
+  {
+   "auteur": "Friedrich List",
+   "ouvrage": "Système national d'économie politique",
+   "date": "1841",
+   "idee": "Protectionnisme éducateur : protéger temporairement, de façon sectorielle et dégressive, les industries naissantes jusqu'à ce qu'elles soient compétitives.",
+   "a_quoi_ca_sert": "montrer que le protectionnisme peut être rationnel pour une industrie naissante",
+   "partie_lecon": "III.1 – Protectionnisme éducateur ; I.1",
+   "mots_cles": [
+    "protectionnisme éducateur",
+    "industrie naissante",
+    "rente",
+    "lobbying"
+   ]
+  },
+  {
+   "auteur": "James Brander et Barbara Spencer",
+   "ouvrage": "Export Subsidies and International Market Share Rivalry",
+   "date": "1985",
+   "idee": "Protectionnisme stratégique : des subventions publiques peuvent faire émerger un champion national et capter la rente d'un oligopole étranger.",
+   "a_quoi_ca_sert": "analyser des subventions à un champion national (Airbus, BYD, IRA)",
+   "partie_lecon": "III.1 – Protectionnisme stratégique ; IV.1",
+   "mots_cles": [
+    "politique commerciale stratégique",
+    "subventions",
+    "champion national",
+    "guerre des subventions"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor",
+   "ouvrage": "Conflicts in Policy Objectives",
+   "date": "1971",
+   "idee": "Protectionnisme défensif : protéger temporairement les industries sénescentes pour lisser le choc social de leur déclin.",
+   "a_quoi_ca_sert": "justifier une protection temporaire d'un secteur en déclin (acier, textile)",
+   "partie_lecon": "III.1 – Protectionnisme défensif",
+   "mots_cles": [
+    "protectionnisme défensif",
+    "industries sénescentes",
+    "Accord multifibres",
+    "reconversion"
+   ],
+   "a_verifier": "la fiche cite « Les conséquences économiques de Madame Thatcher » (1982) au lieu de cet ouvrage"
+  },
+  {
+   "auteur": "Joseph Schumpeter",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La destruction créatrice réalloue capital et travail vers l'innovation ; protéger des secteurs obsolètes la freine.",
+   "a_quoi_ca_sert": "critiquer un protectionnisme qui maintient des secteurs non compétitifs",
+   "partie_lecon": "III.1 – Protectionnisme défensif (encadré)",
+   "mots_cles": [
+    "destruction créatrice",
+    "innovation",
+    "réallocation"
+   ]
+  },
+  {
+   "auteur": "David Autor, David Dorn et Gordon Hanson",
+   "ouvrage": "The China Syndrome",
+   "date": "2013",
+   "idee": "Environ un quart des destructions d'emplois industriels américains entre 1990 et 2007 vient de la concurrence chinoise.",
+   "a_quoi_ca_sert": "chiffrer l'effet de la concurrence chinoise sur l'emploi industriel",
+   "partie_lecon": "III.1 – Protectionnisme défensif",
+   "mots_cles": [
+    "choc chinois",
+    "emploi industriel",
+    "désindustrialisation",
+    "États-Unis"
+   ]
+  },
+  {
+   "auteur": "Joseph François et Laura Baughman",
+   "ouvrage": "The Unintended Consequences of US Steel Import Tariffs",
+   "date": "2003",
+   "idee": "Les droits de douane de Bush sur l'acier (2002) ont détruit environ 200 000 emplois dans les industries utilisatrices, plus que toute la sidérurgie américaine.",
+   "a_quoi_ca_sert": "montrer qu'un droit de douane sur un intrant détruit plus d'emplois qu'il n'en sauve",
+   "partie_lecon": "III.1 – Protectionnisme défensif",
+   "mots_cles": [
+    "droits de douane",
+    "acier",
+    "emploi",
+    "effets pervers"
+   ]
+  },
+  {
+   "auteur": "Francis Cripps et Wynne Godley",
+   "ouvrage": "A Formal Analysis of the Cambridge Economic Policy Group Model",
+   "date": "1976",
+   "idee": "Une relance isolée fuit par les importations ; à défaut de coordination, un protectionnisme ciblé temporaire est un optimum de second rang.",
+   "a_quoi_ca_sert": "analyser une relance budgétaire qui creuse le déficit commercial",
+   "partie_lecon": "III.1 – Soutien aux politiques conjoncturelles",
+   "mots_cles": [
+    "contrainte extérieure",
+    "relance keynésienne",
+    "fuite par les importations",
+    "coordination"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz",
+   "ouvrage": "La Grande Désillusion",
+   "date": "2002",
+   "idee": "Les ajustements structurels du FMI ont imposé un libre-échange « taille unique » qui a privé les PED de recettes douanières vitales.",
+   "a_quoi_ca_sert": "critiquer une libéralisation imposée aux pays pauvres",
+   "partie_lecon": "III.1 – Protectionnisme comme financement",
+   "mots_cles": [
+    "Consensus de Washington",
+    "FMI",
+    "recettes douanières",
+    "PED"
+   ]
+  },
+  {
+   "auteur": "Frédéric Bastiat",
+   "ouvrage": "Pétition des fabricants de chandelles",
+   "date": "1845",
+   "idee": "Le protectionnisme sert des intérêts particuliers aux dépens de toute la collectivité, comme des fabricants de chandelles demandant de murer les fenêtres.",
+   "a_quoi_ca_sert": "ridiculiser une demande de protection d'un lobby",
+   "partie_lecon": "III.1 – Justifications (fin)",
+   "mots_cles": [
+    "libre-échange",
+    "lobbying",
+    "intérêts particuliers"
+   ]
+  },
+  {
+   "auteur": "Gary Hufbauer",
+   "ouvrage": "US Tire Tariffs: Saving Few Jobs at High Cost",
+   "date": "2012",
+   "idee": "Le droit de douane d'Obama sur les pneus (2009) a coûté 1,1 Md$ aux ménages pour 1 200 emplois sauvés, soit 900 000 $ par emploi.",
+   "a_quoi_ca_sert": "montrer que le protectionnisme a un bénéfice concentré et un coût diffus",
+   "partie_lecon": "III.1.b – Limites du protectionnisme",
+   "mots_cles": [
+    "droits de douane",
+    "pouvoir d'achat",
+    "coût par emploi",
+    "consommateurs"
+   ]
+  },
+  {
+   "auteur": "Robert Mundell",
+   "ouvrage": "International Trade and Factor Mobility",
+   "date": "1957",
+   "idee": "Quand les biens circulent mal, les facteurs de production (capitaux, usines) se déplacent : l'IDE se substitue à l'échange.",
+   "a_quoi_ca_sert": "expliquer qu'une firme étrangère s'implante pour contourner des droits de douane (BYD en Hongrie)",
+   "partie_lecon": "III.1.b – Tariff-jumping",
+   "mots_cles": [
+    "tariff-jumping",
+    "IDE",
+    "mobilité des facteurs",
+    "droits de douane"
+   ]
+  },
+  {
+   "auteur": "Douglas Curtis",
+   "ouvrage": "Trade Policy to Promote Entry with Scale Economies, Product Variety, and Export Potential",
+   "date": "1983",
+   "idee": "Un droit de douane temporaire peut briser un monopole étranger et permettre l'entrée d'un producteur national.",
+   "a_quoi_ca_sert": "justifier une protection qui stimule la concurrence",
+   "partie_lecon": "IV.1 – Concurrence imparfaite",
+   "mots_cles": [
+    "monopole",
+    "économies d'échelle",
+    "entrée sur le marché",
+    "protectionnisme"
+   ]
+  },
+  {
+   "auteur": "Laura D'Andrea Tyson",
+   "ouvrage": "Who's Bashing Whom?",
+   "date": "1993",
+   "idee": "La compétitivité est la capacité à passer le test de la concurrence internationale tout en assurant un niveau de vie croissant.",
+   "a_quoi_ca_sert": "définir la compétitivité",
+   "partie_lecon": "IV.1 – Compétitivité",
+   "mots_cles": [
+    "compétitivité",
+    "niveau de vie",
+    "concurrence internationale"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "Competitiveness: A Dangerous Obsession",
+   "date": "1994",
+   "idee": "La compétitivité n'a de sens que pour une entreprise ; un déficit commercial n'est pas une perte et c'est la productivité qui fait le niveau de vie.",
+   "a_quoi_ca_sert": "critiquer l'obsession du solde commercial (Trump, néo-mercantilisme)",
+   "partie_lecon": "IV.1 – Compétitivité",
+   "mots_cles": [
+    "compétitivité",
+    "déficit commercial",
+    "néo-mercantilisme",
+    "productivité"
+   ]
+  },
+  {
+   "auteur": "Hendrik Houthakker et Stephen Magee",
+   "ouvrage": "Income and Price Elasticities in World Trade",
+   "date": "1969",
+   "idee": "Courbe en J : après une dévaluation, la balance se dégrade d'abord puis s'améliore quand l'effet volume l'emporte sur l'effet prix.",
+   "a_quoi_ca_sert": "analyser l'effet d'une dépréciation monétaire sur la balance commerciale",
+   "partie_lecon": "IV.1.a – Dévaluation",
+   "mots_cles": [
+    "courbe en J",
+    "dévaluation",
+    "balance courante",
+    "élasticités"
+   ],
+   "a_verifier": "la courbe en J est souvent attribuée à Magee (1973)"
+  },
+  {
+   "auteur": "Alfred Marshall et Abba Lerner",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Condition Marshall-Lerner : une dévaluation améliore la balance si la somme des élasticités-prix des exportations et importations dépasse 1.",
+   "a_quoi_ca_sert": "évaluer si une baisse de la monnaie aidera les exportations",
+   "partie_lecon": "IV.1.a – Dévaluation",
+   "mots_cles": [
+    "Marshall-Lerner",
+    "élasticités",
+    "dévaluation",
+    "taux de change"
+   ]
+  },
+  {
+   "auteur": "Joan Robinson",
+   "ouvrage": "Essays in the Theory of Employment",
+   "date": "1937",
+   "idee": "Les entreprises ne répercutent pas forcément la variation du change sur leurs prix : elles peuvent augmenter leurs marges.",
+   "a_quoi_ca_sert": "nuancer l'effet attendu d'une dépréciation",
+   "partie_lecon": "IV.1.a – Dévaluation",
+   "mots_cles": [
+    "taux de change",
+    "marges",
+    "répercussion des prix"
+   ]
+  },
+  {
+   "auteur": "Robert Mundell et Marcus Fleming",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Triangle d'incompatibilité : on ne peut avoir à la fois change fixe, libre circulation des capitaux et autonomie monétaire.",
+   "a_quoi_ca_sert": "analyser les choix monétaires d'un pays (zone euro, Chine, Bretton Woods)",
+   "partie_lecon": "IV.1 – Compétitivité ; onglet compléments",
+   "mots_cles": [
+    "triangle d'incompatibilité",
+    "change fixe",
+    "politique monétaire",
+    "capitaux"
+   ]
+  },
+  {
+   "auteur": "Clément Malgouyres et Thierry Mayer",
+   "ouvrage": "Exports and Labor Costs: Evidence from a French Policy",
+   "date": "2018",
+   "idee": "Le CICE a surtout profité à des entreprises peu exportatrices, car les secteurs exportateurs sont intensifs en capital.",
+   "a_quoi_ca_sert": "évaluer une baisse du coût du travail censée doper les exportations",
+   "partie_lecon": "IV.1.b – Fiscalité",
+   "mots_cles": [
+    "CICE",
+    "coût du travail",
+    "exportations",
+    "compétitivité"
+   ]
+  },
+  {
+   "auteur": "Charles Tiebout",
+   "ouvrage": "A Pure Theory of Local Expenditures",
+   "date": "1956",
+   "idee": "La concurrence fiscale est favorable : elle oblige les États à faire mieux avec moins.",
+   "a_quoi_ca_sert": "défendre la concurrence fiscale entre territoires",
+   "partie_lecon": "IV.1.b – Fiscalité",
+   "mots_cles": [
+    "concurrence fiscale",
+    "dépenses publiques",
+    "attractivité"
+   ]
+  },
+  {
+   "auteur": "Emmanuel Combe",
+   "ouvrage": "Résister à la tentation protectionniste",
+   "date": "2018",
+   "idee": "Un contrôle étatique excessif des investissements étrangers envoie un mauvais signal, détourne les capitaux, attire les rétorsions et freine l'innovation.",
+   "a_quoi_ca_sert": "critiquer le blocage d'un rachat étranger au nom de la souveraineté",
+   "partie_lecon": "IV.1.c – Patriotisme économique",
+   "mots_cles": [
+    "patriotisme économique",
+    "IDE",
+    "souveraineté",
+    "rétorsion"
+   ]
+  },
+  {
+   "auteur": "IfW Kiel",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les subventions de l'État chinois à BYD passent de 220 M€ (2020) à 2,1 Md€ (2022), ce qui en fait le n°2 mondial des véhicules électriques.",
+   "a_quoi_ca_sert": "illustrer le protectionnisme stratégique chinois",
+   "partie_lecon": "III.1 – Protectionnisme stratégique (encadré)",
+   "mots_cles": [
+    "BYD",
+    "subventions",
+    "véhicules électriques",
+    "Chine"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Le Capital",
+   "date": "1867",
+   "idee": "Le commerce colonial et maritime a permis l'accumulation primitive du capital qui a financé l'industrialisation.",
+   "a_quoi_ca_sert": "lier commerce et décollage industriel",
+   "partie_lecon": "V.1.a – Lien commerce-croissance",
+   "mots_cles": [
+    "accumulation primitive",
+    "commerce colonial",
+    "industrialisation"
+   ]
+  },
+  {
+   "auteur": "Jeffrey Frankel et David Romer",
+   "ouvrage": "Does Trade Cause Growth?",
+   "date": "1999",
+   "idee": "L'ouverture commerciale cause une hausse du revenu par tête : +1 point d'ouverture donne environ +0,5 à 2 % de revenu par tête.",
+   "a_quoi_ca_sert": "défendre l'ouverture comme source de croissance",
+   "partie_lecon": "V.1.a – Lien commerce-croissance",
+   "mots_cles": [
+    "ouverture",
+    "croissance",
+    "causalité",
+    "revenu par tête"
+   ]
+  },
+  {
+   "auteur": "Marc Melitz",
+   "ouvrage": "The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity",
+   "date": "2003",
+   "idee": "Avec des firmes hétérogènes, l'ouverture élimine les moins productives et profite aux plus productives : le commerce augmente la productivité.",
+   "a_quoi_ca_sert": "expliquer pourquoi seules certaines firmes exportent",
+   "partie_lecon": "V.1.a – Lien commerce-croissance",
+   "mots_cles": [
+    "firmes hétérogènes",
+    "productivité",
+    "sélection",
+    "exportations"
+   ]
+  },
+  {
+   "auteur": "Paul Mantoux",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'industrie textile anglaise s'est d'abord développée dans le Nord, loin des ports marchands.",
+   "a_quoi_ca_sert": "nuancer le rôle du commerce dans l'industrialisation",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "révolution industrielle",
+    "commerce",
+    "industrialisation"
+   ]
+  },
+  {
+   "auteur": "Walt Rostow",
+   "ouvrage": "Les Étapes de la croissance économique",
+   "date": "1960",
+   "idee": "Le décollage industriel repose d'abord sur des facteurs internes.",
+   "a_quoi_ca_sert": "nuancer le rôle du commerce extérieur dans le développement",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "décollage",
+    "croissance",
+    "facteurs internes"
+   ]
+  },
+  {
+   "auteur": "Patrick Verley",
+   "ouvrage": "L'Échelle du monde",
+   "date": "1997",
+   "idee": "Le commerce n'est pas le point de départ de l'industrialisation mais un puissant accélérateur (coton britannique).",
+   "a_quoi_ca_sert": "nuancer le lien commerce-croissance",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "industrialisation",
+    "commerce",
+    "coton"
+   ]
+  },
+  {
+   "auteur": "Patrick Messerlin",
+   "ouvrage": "Les politiques commerciales et leurs effets de longue période",
+   "date": "1985",
+   "idee": "Le degré d'ouverture au XIXe ne dépend pas que des traités : les mutations techniques réduisent l'effet réel des droits de douane.",
+   "a_quoi_ca_sert": "critiquer le paradoxe de Bairoch",
+   "partie_lecon": "V.1.b – Critiques du paradoxe",
+   "mots_cles": [
+    "paradoxe de Bairoch",
+    "transports",
+    "protection effective"
+   ]
+  },
+  {
+   "auteur": "Jean-Charles Asselain",
+   "ouvrage": "Histoire économique de la France",
+   "date": "1984",
+   "idee": "Les difficultés des années 1870 et la reprise des années 1890 s'expliquent par d'autres facteurs (phylloxéra, Alsace-Lorraine, nouvelles industries) que le tarif Méline.",
+   "a_quoi_ca_sert": "relativiser l'effet d'un droit de douane sur la croissance",
+   "partie_lecon": "V.1.b – Critiques du paradoxe",
+   "mots_cles": [
+    "paradoxe de Bairoch",
+    "tarif Méline",
+    "France",
+    "croissance"
+   ]
+  },
+  {
+   "auteur": "Rosa Luxemburg",
+   "ouvrage": "L'Accumulation du capital",
+   "date": "1913",
+   "idee": "Le capitalisme a besoin de l'expansion coloniale et de l'ouverture forcée des marchés, qui désarticule les périphéries et les rend dépendantes.",
+   "a_quoi_ca_sert": "dénoncer une ouverture imposée aux pays du Sud",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "impérialisme",
+    "dépendance",
+    "périphéries",
+    "marxisme"
+   ]
+  },
+  {
+   "auteur": "Francisco Rodriguez et Dani Rodrik",
+   "ouvrage": "Trade Policy and Economic Growth",
+   "date": "1999",
+   "idee": "Le lien entre ouverture et croissance est surestimé : aucune causalité systématique n'est démontrée.",
+   "a_quoi_ca_sert": "contester l'idée que l'ouverture garantit la croissance",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "ouverture",
+    "croissance",
+    "causalité",
+    "études empiriques"
+   ]
+  },
+  {
+   "auteur": "Douglas Irwin",
+   "ouvrage": "",
+   "date": "2019",
+   "idee": "Les libéralisations ont en moyenne un effet positif sur la croissance, mais très hétérogène ; le lien est solide au niveau des entreprises.",
+   "a_quoi_ca_sert": "nuancer Rodriguez et Rodrik",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "libéralisation",
+    "croissance",
+    "productivité des entreprises"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "The Globalization Paradox",
+   "date": "2011",
+   "idee": "L'hypermondialisation relève d'un « fondamentalisme du commerce » ; les pays qui réussissent (Asie) mènent des politiques hétérodoxes adaptées.",
+   "a_quoi_ca_sert": "défendre des politiques commerciales adaptées à chaque pays",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "hypermondialisation",
+    "politiques hétérodoxes",
+    "trilemme",
+    "Asie"
+   ]
+  },
+  {
+   "auteur": "Maurice Allais",
+   "ouvrage": "La Mondialisation : la destruction des emplois et de la croissance",
+   "date": "1999",
+   "idee": "La concurrence entre pays aux systèmes sociaux différents est déloyale et menace l'État-providence des pays développés.",
+   "a_quoi_ca_sert": "appuyer une critique du dumping social",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "dumping social",
+    "État-providence",
+    "emploi",
+    "protectionnisme"
+   ]
+  },
+  {
+   "auteur": "Jézabel Couppey-Soubeyran et Isabelle Bensidoun",
+   "ouvrage": "L'Économie mondiale 2018",
+   "date": "2018",
+   "idee": "La mondialisation améliore le pouvoir d'achat mais polarise les sociétés et nourrit le populisme, notamment via le logement.",
+   "a_quoi_ca_sert": "expliquer le lien entre mondialisation et vote populiste",
+   "partie_lecon": "V.1.b – Critiques",
+   "mots_cles": [
+    "populisme",
+    "polarisation",
+    "pouvoir d'achat",
+    "inégalités"
+   ]
+  },
+  {
+   "auteur": "François Bourguignon",
+   "ouvrage": "La Mondialisation de l'inégalité",
+   "date": "2012",
+   "idee": "La mondialisation réduit les inégalités entre pays mais les accroît au sein des pays, au détriment des non-qualifiés du Nord.",
+   "a_quoi_ca_sert": "analyser l'évolution des inégalités mondiales",
+   "partie_lecon": "V.2.a – Inégalités",
+   "mots_cles": [
+    "inégalités",
+    "pays émergents",
+    "travailleurs non qualifiés"
+   ]
+  },
+  {
+   "auteur": "Branko Milanovic",
+   "ouvrage": "Inégalités mondiales",
+   "date": "2016",
+   "idee": "La courbe de l'éléphant : les classes moyennes des émergents et les plus riches gagnent, les classes populaires du Nord stagnent ; depuis 2008, « l'éléphant a disparu » et l'inégalité mondiale recule.",
+   "a_quoi_ca_sert": "illustrer les gagnants et perdants de la mondialisation",
+   "partie_lecon": "V.2.a – Inégalités",
+   "mots_cles": [
+    "courbe de l'éléphant",
+    "inégalités mondiales",
+    "classes moyennes",
+    "Gini"
+   ]
+  },
+  {
+   "auteur": "Pierre-Noël Giraud",
+   "ouvrage": "L'Homme inutile",
+   "date": "2015",
+   "idee": "Les inégalités dépendent de l'opposition entre emplois nomades (délocalisables, salaires fixés mondialement) et sédentaires, et des politiques publiques.",
+   "a_quoi_ca_sert": "expliquer la hausse des inégalités même en Chine ou en Inde",
+   "partie_lecon": "V.2.b – Dépassement : Giraud",
+   "mots_cles": [
+    "emplois nomades",
+    "emplois sédentaires",
+    "inégalités",
+    "politiques publiques"
+   ]
+  },
+  {
+   "auteur": "Article « China Shock 2.0 » (auteurs non nommés dans le cours)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le premier choc chinois (2-2,4 millions d'emplois détruits aux États-Unis, 1999-2011) est fini ; le second est une concurrence par l'innovation dans les technologies de pointe, contre laquelle les droits de douane sont inadaptés.",
+   "a_quoi_ca_sert": "montrer que répondre à la Chine par des droits de douane est inefficace et qu'il faut investir dans l'innovation",
+   "partie_lecon": "Onglet China Shock",
+   "mots_cles": [
+    "choc chinois",
+    "innovation",
+    "droits de douane",
+    "politique industrielle",
+    "technologies de pointe"
+   ],
+   "a_verifier": "auteurs de l'article non indiqués"
+  },
+  {
+   "auteur": "Australian Strategic Policy Institute (ASPI)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La Chine domine 57 des 64 technologies clés en 2019-2023, contre 3 en 2003-2007.",
+   "a_quoi_ca_sert": "chiffrer le basculement technologique vers la Chine",
+   "partie_lecon": "Onglet China Shock",
+   "mots_cles": [
+    "Chine",
+    "technologies clés",
+    "leadership technologique"
+   ]
+  },
+  {
+   "auteur": "Antoine Bouët",
+   "ouvrage": "",
+   "date": "2002",
+   "idee": "La protection de l'UE entraîne une perte nette équivalente à 2,5 % du PIB européen ; un grand pays peut toutefois gagner à un droit de douane s'il améliore ses termes de l'échange.",
+   "a_quoi_ca_sert": "chiffrer le coût du protectionnisme et distinguer petit et grand pays",
+   "partie_lecon": "Onglet Effets des droits de douane",
+   "mots_cles": [
+    "droits de douane",
+    "perte sèche",
+    "surplus",
+    "termes de l'échange",
+    "grand pays"
+   ]
+  }
+ ],
+ "id": "2A-01-mondialisation-commerciale",
+ "programme_chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+}

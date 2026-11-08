@@ -1,0 +1,913 @@
+{
+ "chapitre": "Histoire de l'entreprise",
+ "annee": "1A",
+ "module": "Module 2 – Croissance et développement",
+ "source_doc": "Histoire de l’entreprise",
+ "mots_cles_actu": [
+  "gouvernance",
+  "rémunération des patrons",
+  "dividendes",
+  "rachat d'actions",
+  "fusion-acquisition",
+  "OPA",
+  "start-up",
+  "licenciements",
+  "RSE",
+  "greenwashing",
+  "devoir de vigilance",
+  "société à mission",
+  "raison d'être",
+  "loi PACTE",
+  "DEI",
+  "sous-traitance",
+  "chaînes de valeur",
+  "relocalisation",
+  "démondialisation",
+  "multinationales",
+  "privatisation",
+  "nationalisation",
+  "EDF",
+  "ouverture à la concurrence",
+  "Decathlon"
+ ],
+ "references": [
+  {
+   "auteur": "Frederick Winslow Taylor",
+   "ouvrage": "The Principles of Scientific Management",
+   "date": "1911",
+   "idee": "L'organisation scientifique du travail impose à tous le « one best way » par une double division du travail (parcellisation des tâches, séparation conception/exécution).",
+   "a_quoi_ca_sert": "montrer les gains de productivité de la rationalisation du travail, mais aussi la perte de qualification et de sens au travail",
+   "partie_lecon": "Rappels – Taylorisme ; 0.1 – De l'âge préindustriel à la Révolution industrielle",
+   "mots_cles": [
+    "OST",
+    "division du travail",
+    "productivité",
+    "taylorisme"
+   ]
+  },
+  {
+   "auteur": "Henry Ford (fordisme)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Travail à la chaîne et standardisation permettent la production de masse ; des salaires élevés créent la consommation de masse.",
+   "a_quoi_ca_sert": "montrer le cercle vertueux production/consommation de masse et la rigidité de ce modèle face à une demande diversifiée",
+   "partie_lecon": "Rappels – Fordisme",
+   "mots_cles": [
+    "fordisme",
+    "production de masse",
+    "salaires",
+    "consommation de masse"
+   ]
+  },
+  {
+   "auteur": "Taiichi Ohno (toyotisme)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Produire en juste-à-temps et à flux tendus (l'aval commande l'amont) évite la surproduction et rend la firme réactive à la demande.",
+   "a_quoi_ca_sert": "expliquer la flexibilité des firmes actuelles et leur vulnérabilité aux ruptures d'approvisionnement",
+   "partie_lecon": "Rappels – Toyotisme",
+   "mots_cles": [
+    "juste-à-temps",
+    "flux tendus",
+    "flexibilité",
+    "polyvalence"
+   ]
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "La Richesse des nations",
+   "date": "1776",
+   "idee": "La division du travail (manufacture d'épingles) accroît la dextérité, fait gagner du temps et stimule l'invention : elle est le moteur de l'opulence, au risque d'abrutir les travailleurs.",
+   "a_quoi_ca_sert": "montrer que la spécialisation est source de productivité, et ses coûts humains",
+   "partie_lecon": "0.1 – De l'âge préindustriel à la Révolution industrielle ; I.1 – Approche classique",
+   "mots_cles": [
+    "division du travail",
+    "productivité",
+    "manufacture",
+    "classiques"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Colbert (colbertisme)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'État investit directement dans l'industrie (manufactures royales comme Saint-Gobain).",
+   "a_quoi_ca_sert": "montrer la tradition française de soutien public à l'industrie, comparable au néo-mercantilisme chinois",
+   "partie_lecon": "0.1 – De l'âge préindustriel à la Révolution industrielle",
+   "mots_cles": [
+    "colbertisme",
+    "politique industrielle",
+    "État stratège",
+    "néo-mercantilisme"
+   ]
+  },
+  {
+   "auteur": "Turgot",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'entrepreneur-capitaliste réunit propriété et direction et s'autofinance grâce à des profits élevés.",
+   "a_quoi_ca_sert": "décrire la petite entreprise familiale d'origine, par contraste avec la grande firme managériale",
+   "partie_lecon": "0.1 – Petite entreprise familiale et formes juridiques",
+   "mots_cles": [
+    "entrepreneur",
+    "autofinancement",
+    "entreprise familiale"
+   ]
+  },
+  {
+   "auteur": "Franklin Mendels",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La proto-industrie (négociants confiant la matière première aux familles paysannes) prépare l'industrialisation et fait émerger le salariat.",
+   "a_quoi_ca_sert": "montrer les origines rurales de l'industrie et du salariat",
+   "partie_lecon": "0.1 – Petite entreprise familiale et formes juridiques",
+   "mots_cles": [
+    "proto-industrie",
+    "salariat",
+    "industrialisation"
+   ]
+  },
+  {
+   "auteur": "Patrick Verley",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La mobilité sociale des entrepreneurs est limitée (sur deux générations), quasi nulle dans la sidérurgie où le capital de départ est élevé.",
+   "a_quoi_ca_sert": "montrer le poids des dynasties industrielles et de l'héritage dans l'accès à l'entrepreneuriat",
+   "partie_lecon": "0.1 – Petite entreprise familiale et formes juridiques",
+   "mots_cles": [
+    "mobilité sociale",
+    "dynasties",
+    "entrepreneurs",
+    "capital"
+   ]
+  },
+  {
+   "auteur": "Patrick Verley",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Avec la 2e révolution industrielle, le « système usinier » concentre les ouvriers autour de la force motrice.",
+   "a_quoi_ca_sert": "expliquer la naissance de la grande usine et de la rationalisation du travail",
+   "partie_lecon": "0.1 – De l'âge préindustriel à la Révolution industrielle",
+   "mots_cles": [
+    "système usinier",
+    "concentration",
+    "révolution industrielle"
+   ]
+  },
+  {
+   "auteur": "Henri Fayol",
+   "ouvrage": "Administration industrielle et générale",
+   "date": "1916",
+   "idee": "Il théorise les grandes fonctions de l'entreprise et le management moderne (prévoir, organiser, commander, coordonner, contrôler).",
+   "a_quoi_ca_sert": "montrer les fondements du management centralisé à la française",
+   "partie_lecon": "0.1 – De l'âge préindustriel à la Révolution industrielle",
+   "mots_cles": [
+    "management",
+    "fonction administrative",
+    "fayolisme",
+    "centralisation"
+   ]
+  },
+  {
+   "auteur": "Suzanne Berger",
+   "ouvrage": "Notre première mondialisation",
+   "date": "2003",
+   "idee": "Pendant la première mondialisation (1870-1914), le retour du protectionnisme pousse les firmes à s'internationaliser par l'IDE pour contourner les droits de douane.",
+   "a_quoi_ca_sert": "montrer que les droits de douane poussent les firmes à produire sur place (usines implantées aux États-Unis face aux tarifs)",
+   "partie_lecon": "0.2 – La naissance de la grande entreprise",
+   "mots_cles": [
+    "IDE",
+    "protectionnisme",
+    "multinationales",
+    "droits de douane",
+    "première mondialisation"
+   ]
+  },
+  {
+   "auteur": "Adolf Berle et Gardiner Means",
+   "ouvrage": "The Modern Corporation and Private Property",
+   "date": "1932",
+   "idee": "Avec le gigantisme des firmes, la propriété (actionnaires passifs) se sépare de la direction, captée par les managers.",
+   "a_quoi_ca_sert": "expliquer les conflits actionnaires/dirigeants et l'origine des débats de gouvernance",
+   "partie_lecon": "0.2 – La naissance de la grande entreprise ; II.1 – Enjeux et évolution",
+   "mots_cles": [
+    "séparation propriété/contrôle",
+    "managers",
+    "actionnaires",
+    "gouvernance"
+   ]
+  },
+  {
+   "auteur": "William Baumol",
+   "ouvrage": "Business Behavior, Value and Growth",
+   "date": "1959",
+   "idee": "Les managers maximisent le chiffre d'affaires (taille, prestige) plutôt que le profit, sous contrainte d'un profit minimum.",
+   "a_quoi_ca_sert": "expliquer des stratégies de croissance ou d'acquisition guidées par l'intérêt des dirigeants",
+   "partie_lecon": "0.2 – Managérialisme",
+   "mots_cles": [
+    "managérialisme",
+    "chiffre d'affaires",
+    "taille",
+    "objectifs de la firme"
+   ]
+  },
+  {
+   "auteur": "John Kenneth Galbraith",
+   "ouvrage": "Le Nouvel État industriel",
+   "date": "1967",
+   "idee": "La technostructure (cadres dirigeants) détient le pouvoir et cherche à réduire l'incertitude du marché par l'intégration verticale, la croissance interne et la collusion.",
+   "a_quoi_ca_sert": "montrer que les grandes firmes cherchent à contrôler leur marché plutôt qu'à le subir",
+   "partie_lecon": "0.2 – Managérialisme",
+   "mots_cles": [
+    "technostructure",
+    "pouvoir des managers",
+    "intégration verticale",
+    "collusion"
+   ]
+  },
+  {
+   "auteur": "Plan Dodge (Joseph Dodge)",
+   "ouvrage": "",
+   "date": "1949",
+   "idee": "Austérité budgétaire et yen sous-évalué (360 ¥ = 1 $) cassent l'inflation et dopent les exportations, au prix d'une récession, posant les bases du miracle japonais.",
+   "a_quoi_ca_sert": "illustrer l'arbitrage entre austérité, change sous-évalué et croissance tirée par les exportations",
+   "partie_lecon": "0.3 – Les évolutions de l'entreprise de l'après-guerre à nos jours",
+   "mots_cles": [
+    "Japon",
+    "austérité",
+    "taux de change",
+    "exportations"
+   ]
+  },
+  {
+   "auteur": "Ernst Friedrich Schumacher",
+   "ouvrage": "Small is Beautiful",
+   "date": "1973",
+   "idee": "Mieux vaut des organisations de petite taille, plus faciles à gouverner, que le gigantisme aveugle.",
+   "a_quoi_ca_sert": "défendre les PME, l'externalisation et le recentrage face aux conglomérats",
+   "partie_lecon": "0.3 – Les évolutions de l'entreprise de l'après-guerre à nos jours",
+   "mots_cles": [
+    "taille des firmes",
+    "PME",
+    "recentrage",
+    "fin du fordisme"
+   ]
+  },
+  {
+   "auteur": "Robert Reich",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La valeur d'une voiture (Pontiac) se répartit entre de nombreux pays : la production est mondialement fragmentée.",
+   "a_quoi_ca_sert": "montrer la décomposition internationale du processus productif et l'absurdité de la nationalité d'un produit",
+   "partie_lecon": "0.3 – Mondialisation contemporaine (DIPP)",
+   "mots_cles": [
+    "DIPP",
+    "chaînes de valeur",
+    "firme-réseau",
+    "mondialisation"
+   ]
+  },
+  {
+   "auteur": "Jean-Louis Mucchielli",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Une firme multinationale possède au moins une unité de production à l'étranger (filiale via IDE).",
+   "a_quoi_ca_sert": "définir précisément une FMN dans un sujet sur la mondialisation",
+   "partie_lecon": "0.3 – Mondialisation contemporaine",
+   "mots_cles": [
+    "FMN",
+    "IDE",
+    "filiale",
+    "définition"
+   ]
+  },
+  {
+   "auteur": "FMI",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il y a IDE quand l'investisseur détient au moins 10 % du capital de l'entreprise étrangère.",
+   "a_quoi_ca_sert": "distinguer IDE et simple placement financier",
+   "partie_lecon": "0.3 – Mondialisation contemporaine",
+   "mots_cles": [
+    "IDE",
+    "définition",
+    "investissement de portefeuille"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Say",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Premier à identifier les facteurs de production : l'entrepreneur est celui qui les organise.",
+   "a_quoi_ca_sert": "définir le rôle de l'entrepreneur comme coordinateur",
+   "partie_lecon": "I.1 – La firme insérée dans un marché (approche classique)",
+   "mots_cles": [
+    "entrepreneur",
+    "facteurs de production",
+    "classiques"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'entreprise est le produit de l'entrepreneur qui cherche à accumuler du capital ; elle est le lieu de l'exploitation.",
+   "a_quoi_ca_sert": "critiquer le partage de la valeur entre capital et travail",
+   "partie_lecon": "I.1 – La firme insérée dans un marché (approche classique)",
+   "mots_cles": [
+    "exploitation",
+    "accumulation",
+    "capital",
+    "travail"
+   ]
+  },
+  {
+   "auteur": "Richard Cantillon",
+   "ouvrage": "Essai sur la nature du commerce en général",
+   "date": "1755",
+   "idee": "L'entrepreneur achète à prix certains et vend à prix incertains : il assume le risque et coordonne la production avec les besoins.",
+   "a_quoi_ca_sert": "justifier le profit comme rémunération du risque",
+   "partie_lecon": "I.1.a – Cantillon : l'entrepreneur, agent du risque et de la coordination",
+   "mots_cles": [
+    "entrepreneur",
+    "risque",
+    "incertitude",
+    "profit"
+   ]
+  },
+  {
+   "auteur": "École néoclassique",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La firme est une « boîte noire » price-taker qui maximise son profit (Cm = Rm) ; son organisation interne est ignorée.",
+   "a_quoi_ca_sert": "montrer les limites d'une vision purement marchande de l'entreprise",
+   "partie_lecon": "I.1.b – La firme néoclassique : la boîte noire",
+   "mots_cles": [
+    "boîte noire",
+    "maximisation du profit",
+    "concurrence pure et parfaite",
+    "price-taker"
+   ]
+  },
+  {
+   "auteur": "Frank Knight",
+   "ouvrage": "Risk, Uncertainty and Profit",
+   "date": "1921",
+   "idee": "L'entrepreneur se distingue par la gestion de l'incertitude non probabilisable, que nul ne peut assurer.",
+   "a_quoi_ca_sert": "expliquer le rôle de l'entrepreneur en période d'incertitude (crise, guerre commerciale)",
+   "partie_lecon": "I.1.c – L'entreprise assimilée à l'entrepreneur",
+   "mots_cles": [
+    "incertitude",
+    "risque",
+    "entrepreneur",
+    "profit"
+   ]
+  },
+  {
+   "auteur": "Joseph Schumpeter",
+   "ouvrage": "Cycles des affaires",
+   "date": "1939",
+   "idee": "L'entrepreneur innovateur rompt la routine en combinant autrement les facteurs (5 formes d'innovation), provoquant la destruction créatrice et les cycles.",
+   "a_quoi_ca_sert": "analyser l'innovation (IA, Tesla) comme moteur de croissance et de destruction d'emplois",
+   "partie_lecon": "I.1.c – L'entreprise assimilée à l'entrepreneur",
+   "mots_cles": [
+    "innovation",
+    "destruction créatrice",
+    "entrepreneur",
+    "cycles"
+   ]
+  },
+  {
+   "auteur": "Joseph Schumpeter",
+   "ouvrage": "Capitalisme, socialisme et démocratie",
+   "date": "1942",
+   "idee": "Plus la firme grossit, plus l'innovation s'institutionnalise dans la R&D : l'entrepreneur héroïque décline au profit du manager.",
+   "a_quoi_ca_sert": "expliquer pourquoi les grands groupes rachètent les start-ups pour externaliser le risque d'innovation",
+   "partie_lecon": "I.1.c – L'entreprise assimilée à l'entrepreneur",
+   "mots_cles": [
+    "R&D",
+    "start-ups",
+    "managers",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "Joan Robinson",
+   "ouvrage": "L'Économie de la concurrence imparfaite",
+   "date": "1933",
+   "idee": "Elle intègre monopole et oligopole dans l'analyse et rompt avec l'hypothèse d'atomicité des agents.",
+   "a_quoi_ca_sert": "montrer que les grandes firmes ont un pouvoir de marché sur les prix",
+   "partie_lecon": "I.1.d – Joan Robinson et la remise en cause de la CPP",
+   "mots_cles": [
+    "concurrence imparfaite",
+    "monopole",
+    "oligopole",
+    "pouvoir de marché"
+   ]
+  },
+  {
+   "auteur": "Edward Chamberlin",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les firmes différencient leurs produits pour devenir price-makers (concurrence monopolistique).",
+   "a_quoi_ca_sert": "expliquer les stratégies de marque et de différenciation",
+   "partie_lecon": "I.1.b – La firme néoclassique",
+   "mots_cles": [
+    "concurrence monopolistique",
+    "différenciation",
+    "marque"
+   ]
+  },
+  {
+   "auteur": "Ronald Coase",
+   "ouvrage": "La Nature de la firme",
+   "date": "1937",
+   "idee": "La firme existe car utiliser le marché a des coûts de transaction (information, négociation, incertitude) ; elle grandit tant que ses coûts d'organisation restent inférieurs.",
+   "a_quoi_ca_sert": "expliquer les choix « faire ou faire faire », les fusions et les limites à la taille des firmes",
+   "partie_lecon": "I.2.a – L'approche fondatrice de Coase",
+   "mots_cles": [
+    "coûts de transaction",
+    "make or buy",
+    "taille de la firme",
+    "hiérarchie"
+   ]
+  },
+  {
+   "auteur": "Ronald Coase",
+   "ouvrage": "",
+   "date": "1991",
+   "idee": "L'URSS s'est effondrée comme une super-firme trop grande, écrasée par ses coûts d'organisation et de bureaucratie.",
+   "a_quoi_ca_sert": "montrer les limites de la planification et de la centralisation",
+   "partie_lecon": "I.2.a – L'approche fondatrice de Coase",
+   "mots_cles": [
+    "planification",
+    "URSS",
+    "coûts d'organisation",
+    "bureaucratie"
+   ]
+  },
+  {
+   "auteur": "Oliver Williamson",
+   "ouvrage": "Marchés et hiérarchies ; Les Institutions économiques du capitalisme",
+   "date": "1975 ; 1985",
+   "idee": "Rationalité limitée et opportunisme rendent les contrats coûteux ; selon la spécificité des actifs, la fréquence et l'incertitude, la firme choisit entre intégrer ou passer par le marché.",
+   "a_quoi_ca_sert": "expliquer externalisation, sous-traitance, relocalisation ou intégration verticale",
+   "partie_lecon": "I.2.b – Williamson et la théorie des coûts de transaction",
+   "mots_cles": [
+    "coûts de transaction",
+    "opportunisme",
+    "spécificité des actifs",
+    "sous-traitance",
+    "intégration verticale"
+   ]
+  },
+  {
+   "auteur": "Armen Alchian et Harold Demsetz",
+   "ouvrage": "Production, Information Costs and Economic Organization",
+   "date": "1972",
+   "idee": "La firme capitaliste dépasse le marché grâce à un contrôleur qui surveille ; propriété et gestion étant séparées, il faut des incitations pour aligner managers et propriétaires.",
+   "a_quoi_ca_sert": "justifier les dispositifs d'incitation (bonus, intéressement)",
+   "partie_lecon": "I.2.c – Droits de propriété et relation d'agence",
+   "mots_cles": [
+    "droits de propriété",
+    "incitations",
+    "surveillance",
+    "managers"
+   ]
+  },
+  {
+   "auteur": "Michael Jensen et William Meckling",
+   "ouvrage": "Théorie de la firme",
+   "date": "1976",
+   "idee": "La relation d'agence (actionnaire principal / manager agent) crée asymétrie d'information et coûts d'agence ; la meilleure firme les minimise.",
+   "a_quoi_ca_sert": "analyser stock-options, rémunération des dirigeants et contrôle par les actionnaires",
+   "partie_lecon": "I.2.c – Théorie de l'agence ; II.2 – Modèle du shareholder",
+   "mots_cles": [
+    "théorie de l'agence",
+    "asymétrie d'information",
+    "risque moral",
+    "gouvernance",
+    "stock-options"
+   ]
+  },
+  {
+   "auteur": "Richard Nelson et Sidney Winter",
+   "ouvrage": "Une théorie évolutionniste du changement économique",
+   "date": "1982",
+   "idee": "La firme est définie par ses routines (gènes) et sa dépendance au sentier : elle oscille entre stabilité et adaptation, sans viser la maximisation du profit.",
+   "a_quoi_ca_sert": "expliquer pourquoi une entreprise peine à changer de modèle (transition, numérique) ou décline",
+   "partie_lecon": "I.2 – Conclusion : l'approche évolutionniste",
+   "mots_cles": [
+    "routines",
+    "path dependency",
+    "innovation",
+    "culture d'entreprise"
+   ]
+  },
+  {
+   "auteur": "Peter Earl",
+   "ouvrage": "",
+   "date": "2012",
+   "idee": "La firme est une coalition de groupes aux intérêts divergents (managers, salariés, actionnaires, banquiers, fournisseurs, clients) en négociation permanente.",
+   "a_quoi_ca_sert": "analyser un conflit interne (grève, conflit actionnaires/direction) sans supposer d'objectif unique",
+   "partie_lecon": "I.2 – Théorie comportementale de la firme",
+   "mots_cles": [
+    "théorie comportementale",
+    "coalition",
+    "conflits",
+    "objectifs de la firme"
+   ]
+  },
+  {
+   "auteur": "Alfred Chandler",
+   "ouvrage": "La Main visible des managers",
+   "date": "1977",
+   "idee": "La coordination administrative des managers a remplacé la main invisible du marché ; la firme passe de la forme unitaire (U) à la forme multidivisionnelle (M).",
+   "a_quoi_ca_sert": "montrer que l'efficacité du capitalisme dépend de l'organisation interne des firmes",
+   "partie_lecon": "I.2.d – Chandler : firme en U et firme en M",
+   "mots_cles": [
+    "révolution managériale",
+    "firme multidivisionnelle",
+    "managers",
+    "organisation"
+   ]
+  },
+  {
+   "auteur": "Luc Boltanski et Ève Chiapello",
+   "ouvrage": "Le Nouvel Esprit du capitalisme",
+   "date": "1999",
+   "idee": "Le capitalisme intègre les critiques qui lui sont faites pour se transformer.",
+   "a_quoi_ca_sert": "montrer que la RSE ou le management participatif peuvent être une récupération des critiques",
+   "partie_lecon": "II.1 – Enjeux et évolution",
+   "mots_cles": [
+    "capitalisme",
+    "critique",
+    "management",
+    "récupération"
+   ]
+  },
+  {
+   "auteur": "Isaac Getz",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'entreprise libérée supprime les échelons intermédiaires et préfère la confiance au contrôle.",
+   "a_quoi_ca_sert": "illustrer les nouvelles formes de management moins hiérarchiques",
+   "partie_lecon": "II.1 – Enjeux et évolution",
+   "mots_cles": [
+    "entreprise libérée",
+    "management",
+    "hiérarchie",
+    "confiance"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La seule responsabilité de l'entreprise est d'accroître ses profits ; le social relève des pouvoirs publics élus.",
+   "a_quoi_ca_sert": "défendre la primauté actionnariale et critiquer la RSE ou le DEI",
+   "partie_lecon": "II.2 – Le modèle du shareholder",
+   "mots_cles": [
+    "shareholder value",
+    "profit",
+    "primauté actionnariale",
+    "RSE"
+   ]
+  },
+  {
+   "auteur": "John D. Rockefeller",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le salaire des dirigeants ne devrait pas dépasser 40 fois celui des ouvriers (contre environ 400 fois aujourd'hui).",
+   "a_quoi_ca_sert": "dénoncer l'explosion de la rémunération des patrons",
+   "partie_lecon": "II.2 – Le modèle du shareholder",
+   "mots_cles": [
+    "rémunération des dirigeants",
+    "inégalités",
+    "gouvernance"
+   ]
+  },
+  {
+   "auteur": "Loi Sarbanes-Oxley et Corporate Governance Principles",
+   "ouvrage": "",
+   "date": "1998 ; 2002",
+   "idee": "Après les scandales, les comptes des sociétés cotées doivent être vérifiés et publiés pour protéger les investisseurs.",
+   "a_quoi_ca_sert": "montrer la régulation de la gouvernance après des fraudes comptables",
+   "partie_lecon": "II.2 – Le modèle du shareholder",
+   "mots_cles": [
+    "régulation",
+    "transparence",
+    "scandales",
+    "gouvernance"
+   ]
+  },
+  {
+   "auteur": "Code Afep-Medef",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Code de bonne gouvernance encadrant le contrôle des dirigeants et leur rémunération.",
+   "a_quoi_ca_sert": "commenter un débat sur le salaire d'un PDG du CAC 40",
+   "partie_lecon": "II.2 – Le modèle du shareholder",
+   "mots_cles": [
+    "gouvernance",
+    "rémunération des dirigeants",
+    "autorégulation"
+   ]
+  },
+  {
+   "auteur": "R. Edward Freeman",
+   "ouvrage": "Strategic Management: A Stakeholder Approach",
+   "date": "1984",
+   "idee": "L'entreprise doit prendre en compte les intérêts de toutes ses parties prenantes (salariés, clients, fournisseurs, collectivités), pas seulement des actionnaires.",
+   "a_quoi_ca_sert": "défendre la RSE, la cogestion et la loi PACTE contre la primauté actionnariale",
+   "partie_lecon": "II.3 – Le modèle du stakeholder ; III.3 – Culture d'entreprise",
+   "mots_cles": [
+    "parties prenantes",
+    "stakeholder",
+    "cogestion",
+    "RSE"
+   ]
+  },
+  {
+   "auteur": "Thomas Donaldson et Lee Preston",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Ils renforcent sur le plan éthique la théorie des parties prenantes.",
+   "a_quoi_ca_sert": "donner une justification morale à la prise en compte des parties prenantes",
+   "partie_lecon": "II.3 – Le modèle du stakeholder",
+   "mots_cles": [
+    "éthique",
+    "parties prenantes",
+    "gouvernance"
+   ]
+  },
+  {
+   "auteur": "Commission européenne (définition de la RSE)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La RSE est la responsabilité des entreprises vis-à-vis de leurs effets sur la société : concilier performance économique, justice sociale et environnement.",
+   "a_quoi_ca_sert": "définir la RSE et évaluer un engagement d'entreprise (risque de greenwashing)",
+   "partie_lecon": "II.4.a – La RSE",
+   "mots_cles": [
+    "RSE",
+    "développement durable",
+    "greenwashing",
+    "parties prenantes"
+   ]
+  },
+  {
+   "auteur": "Loi NRE",
+   "ouvrage": "",
+   "date": "2001",
+   "idee": "Première loi au monde imposant aux grandes entreprises cotées un reporting social et environnemental, et renforçant le contrôle interne.",
+   "a_quoi_ca_sert": "montrer le rôle pionnier de la France dans l'encadrement légal de la RSE",
+   "partie_lecon": "II.2 – Shareholder ; II.4.a – La RSE",
+   "mots_cles": [
+    "RSE",
+    "reporting extra-financier",
+    "régulation",
+    "gouvernance"
+   ]
+  },
+  {
+   "auteur": "Loi sur le devoir de vigilance",
+   "ouvrage": "",
+   "date": "2017",
+   "idee": "Les grandes firmes doivent prévenir les atteintes aux droits humains et à l'environnement sur toute leur chaîne de valeur, sous-traitants compris.",
+   "a_quoi_ca_sert": "commenter un scandale de sous-traitance (travail forcé, Ouïghours, Lafarge)",
+   "partie_lecon": "II.4.a – La RSE",
+   "mots_cles": [
+    "devoir de vigilance",
+    "sous-traitance",
+    "droits humains",
+    "chaîne de valeur"
+   ]
+  },
+  {
+   "auteur": "Loi PACTE",
+   "ouvrage": "",
+   "date": "2019",
+   "idee": "Elle impose de gérer la société en considérant ses enjeux sociaux et environnementaux et crée la « raison d'être » et la « société à mission ».",
+   "a_quoi_ca_sert": "illustrer le passage vers un modèle stakeholder en droit français (ex. Danone)",
+   "partie_lecon": "II.3 – Stakeholder ; II.4.a – La RSE ; III.3 – Culture d'entreprise",
+   "mots_cles": [
+    "raison d'être",
+    "société à mission",
+    "Code civil",
+    "parties prenantes"
+   ]
+  },
+  {
+   "auteur": "Blanche Segrestin et Armand Hatchuel",
+   "ouvrage": "Refonder l'entreprise",
+   "date": "2012",
+   "idee": "Il faut redéfinir les statuts, les normes comptables et les règles de gouvernance pour sortir du conflit actionnaires/managers et intégrer les parties prenantes.",
+   "a_quoi_ca_sert": "défendre une réforme juridique de l'entreprise (codétermination, partage des résultats)",
+   "partie_lecon": "II.4 – Refonder l'entreprise",
+   "mots_cles": [
+    "gouvernance",
+    "codétermination",
+    "partage de la valeur",
+    "droit des sociétés"
+   ]
+  },
+  {
+   "auteur": "Nicole Notat et Jean-Dominique Senard",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La raison d'être est le sens que l'entreprise donne à son activité et à son rôle dans la société ; elle l'engage à long terme.",
+   "a_quoi_ca_sert": "analyser l'engagement sociétal affiché d'une entreprise",
+   "partie_lecon": "II.4 – Refonder l'entreprise",
+   "mots_cles": [
+    "raison d'être",
+    "sens",
+    "engagement",
+    "loi PACTE"
+   ]
+  },
+  {
+   "auteur": "Civil Rights Act",
+   "ouvrage": "",
+   "date": "1964",
+   "idee": "Interdit les discriminations fondées sur la race, la religion, le sexe ou l'origine, origine des politiques d'affirmative action.",
+   "a_quoi_ca_sert": "remonter aux origines juridiques du DEI aux États-Unis",
+   "partie_lecon": "II.5 – Le cas du DEI aux États-Unis",
+   "mots_cles": [
+    "discrimination",
+    "affirmative action",
+    "DEI",
+    "droits civiques"
+   ]
+  },
+  {
+   "auteur": "Rosabeth Moss Kanter",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le diversity management fait de la diversité un argument d'efficacité, d'innovation et d'attractivité, pas seulement une obligation légale.",
+   "a_quoi_ca_sert": "défendre le DEI par la performance économique",
+   "partie_lecon": "II.5 – Le cas du DEI aux États-Unis",
+   "mots_cles": [
+    "diversité",
+    "DEI",
+    "performance",
+    "management"
+   ]
+  },
+  {
+   "auteur": "Cour suprême des États-Unis (Students for Fair Admissions v. Harvard)",
+   "ouvrage": "",
+   "date": "2023",
+   "idee": "Elle limite fortement l'usage des critères raciaux dans les admissions, ce qui entraîne le recul des politiques DEI.",
+   "a_quoi_ca_sert": "expliquer l'abandon du DEI par des entreprises américaines (Walmart) sous Trump",
+   "partie_lecon": "II.5 – Le cas du DEI aux États-Unis",
+   "mots_cles": [
+    "DEI",
+    "discrimination positive",
+    "Cour suprême",
+    "Trump"
+   ]
+  },
+  {
+   "auteur": "Elton Mayo",
+   "ouvrage": "",
+   "date": "1924-1932",
+   "idee": "Les expériences d'Hawthorne montrent que l'attention portée aux ouvriers et le groupe social augmentent la productivité (effet Hawthorne).",
+   "a_quoi_ca_sert": "montrer que l'entreprise est aussi une entité sociale et que la motivation dépasse le salaire",
+   "partie_lecon": "III.1 – L'école des relations humaines",
+   "mots_cles": [
+    "relations humaines",
+    "motivation",
+    "productivité",
+    "effet Hawthorne"
+   ]
+  },
+  {
+   "auteur": "Abraham Maslow",
+   "ouvrage": "",
+   "date": "1943",
+   "idee": "Les besoins humains sont hiérarchisés (physiologiques, sécurité, appartenance, estime, accomplissement) ; un besoin supérieur n'apparaît que si les inférieurs sont satisfaits.",
+   "a_quoi_ca_sert": "expliquer la quête de sens au travail une fois les besoins matériels satisfaits",
+   "partie_lecon": "III.1 – L'école des relations humaines",
+   "mots_cles": [
+    "besoins",
+    "motivation",
+    "pyramide",
+    "sens du travail"
+   ]
+  },
+  {
+   "auteur": "Frederick Herzberg",
+   "ouvrage": "",
+   "date": "1959",
+   "idee": "Les facteurs d'hygiène (salaire, environnement) évitent la frustration, mais seuls les facteurs de motivation (intérêt, reconnaissance) engagent vraiment.",
+   "a_quoi_ca_sert": "montrer qu'une hausse de salaire ne suffit pas à motiver (grande démission, désengagement)",
+   "partie_lecon": "III.1 – L'école des relations humaines",
+   "mots_cles": [
+    "motivation",
+    "reconnaissance",
+    "salaire",
+    "engagement"
+   ]
+  },
+  {
+   "auteur": "Douglas McGregor",
+   "ouvrage": "",
+   "date": "1960",
+   "idee": "Théorie X (homme paresseux, management autoritaire) contre théorie Y (homme responsable, management participatif).",
+   "a_quoi_ca_sert": "comparer management de contrôle et management de confiance (télétravail, entreprise libérée)",
+   "partie_lecon": "III.1 – L'école des relations humaines",
+   "mots_cles": [
+    "management",
+    "autorité",
+    "participation",
+    "confiance"
+   ]
+  },
+  {
+   "auteur": "Michel Crozier et Erhard Friedberg",
+   "ouvrage": "L'Acteur et le Système",
+   "date": "1977",
+   "idee": "Le salarié est un acteur stratégique à rationalité limitée qui tire un pouvoir réel de la maîtrise des zones d'incertitude.",
+   "a_quoi_ca_sert": "expliquer les jeux de pouvoir internes, au-delà de l'organigramme officiel",
+   "partie_lecon": "III.2 – La sociologie des organisations",
+   "mots_cles": [
+    "analyse stratégique",
+    "pouvoir",
+    "zones d'incertitude",
+    "organisation"
+   ]
+  },
+  {
+   "auteur": "Renaud Sainsaulieu",
+   "ouvrage": "L'Identité au travail",
+   "date": "1977",
+   "idee": "L'entreprise est un lieu de socialisation et d'identité ; il distingue quatre modèles (fusionnel, négociation, retrait, affinitaire).",
+   "a_quoi_ca_sert": "analyser l'éclatement des solidarités au travail avec la précarité et l'individualisation",
+   "partie_lecon": "III.2 – La sociologie des organisations",
+   "mots_cles": [
+    "identité au travail",
+    "socialisation",
+    "solidarités",
+    "précarité"
+   ]
+  },
+  {
+   "auteur": "Maurice Thévenet",
+   "ouvrage": "",
+   "date": "années 1980",
+   "idee": "La culture d'entreprise (valeurs, rites, symboles partagés) fait intérioriser les objectifs et réduit le besoin de contrôle, mais crée des blocages lors des fusions.",
+   "a_quoi_ca_sert": "expliquer l'échec culturel d'une fusion-acquisition ou l'usage des valeurs en management",
+   "partie_lecon": "III.3 – Culture d'entreprise",
+   "mots_cles": [
+    "culture d'entreprise",
+    "valeurs",
+    "fusion",
+    "contrôle"
+   ]
+  },
+  {
+   "auteur": "Rapport Nora",
+   "ouvrage": "",
+   "date": "1967",
+   "idee": "Les entreprises publiques, protégées de la concurrence, fonctionnent en sous-régime : il faut plus d'autonomie, de transparence, et traiter les entreprises publiques concurrentielles comme des entreprises privées.",
+   "a_quoi_ca_sert": "critiquer la gestion d'une entreprise publique (SNCF, EDF) au nom de l'efficacité",
+   "partie_lecon": "IV.1 – Les critiques libérales",
+   "mots_cles": [
+    "entreprises publiques",
+    "efficacité",
+    "concurrence",
+    "autonomie de gestion"
+   ]
+  },
+  {
+   "auteur": "Union européenne (traité de Rome, Acte unique)",
+   "ouvrage": "",
+   "date": "1957 ; 1986",
+   "idee": "Monopoles publics et services d'intérêt général doivent respecter la concurrence ; l'Acte unique ouvre les services en réseau (énergie, transport, télécoms).",
+   "a_quoi_ca_sert": "expliquer l'ouverture à la concurrence du rail ou de l'électricité et le conflit avec le service public à la française",
+   "partie_lecon": "IV.3 – La remise en cause des services publics en monopole",
+   "mots_cles": [
+    "libéralisation",
+    "concurrence",
+    "services publics",
+    "monopoles"
+   ]
+  },
+  {
+   "auteur": "Les Échos (article sur Decathlon, Guillaume Desmarest)",
+   "ouvrage": "",
+   "date": "2026",
+   "idee": "Decathlon passe de distributeur de ses marques à marque mondiale unique, en montant en gamme tout en défendant les prix bas : un pari risqué.",
+   "a_quoi_ca_sert": "illustrer la double compétitivité prix/hors prix, la gouvernance familiale et l'intégration distributeur-concepteur",
+   "partie_lecon": "Article Decathlon (annexe)",
+   "mots_cles": [
+    "stratégie de marque",
+    "compétitivité hors prix",
+    "gouvernance familiale",
+    "internationalisation"
+   ]
+  }
+ ],
+ "id": "1A-entreprise",
+ "programme_chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+}

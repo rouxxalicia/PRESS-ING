@@ -1,0 +1,465 @@
+{
+ "chapitre": "L'évolution des modes de vie",
+ "annee": "1A",
+ "module": "Module 2 – Croissance et développement",
+ "source_doc": "L'évolution des modes de vie",
+ "mots_cles_actu": [
+  "consommation",
+  "pouvoir d'achat",
+  "inflation alimentaire",
+  "luxe",
+  "publicité",
+  "fast fashion",
+  "Shein",
+  "société de consommation",
+  "écrans",
+  "réseaux sociaux",
+  "attention",
+  "TikTok",
+  "sobriété",
+  "décroissance",
+  "consommation bio",
+  "végétarisme",
+  "loisirs",
+  "vacances",
+  "ruralité",
+  "France périphérique",
+  "Gilets jaunes",
+  "taxe carbone",
+  "banlieues",
+  "redistribution",
+  "archipellisation"
+ ],
+ "references": [
+  {
+   "auteur": "Bruno Maresca",
+   "ouvrage": "« Mode de vie : de quoi parle-t-on ? Peut-on le transformer ? », La Pensée écologique",
+   "date": "2017",
+   "idee": "Le mode de vie est un « concept passe-partout », tiraillé entre un versant identitaire (défense d'une identité nationale) et un versant environnemental (modes de vie insoutenables).",
+   "a_quoi_ca_sert": "montrer que le mode de vie est devenu un enjeu politique, identitaire autant qu'écologique",
+   "partie_lecon": "Introduction",
+   "mots_cles": [
+    "mode de vie",
+    "identité nationale",
+    "écologie",
+    "vivre-ensemble"
+   ]
+  },
+  {
+   "auteur": "Nicolas Sarkozy",
+   "ouvrage": "",
+   "date": "2016",
+   "idee": "« En France, il n'y a qu'une communauté : la communauté française qui partage une langue, une culture et un mode de vie. »",
+   "a_quoi_ca_sert": "illustrer l'usage identitaire et défensif du mode de vie dans le discours politique",
+   "partie_lecon": "Introduction ; 3.d",
+   "mots_cles": [
+    "identité nationale",
+    "assimilation",
+    "communauté"
+   ]
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le mode de vie est indissociable de la position sociale : il s'exprime dans les goûts et la consommation et sert à l'imitation et à la distinction entre classes.",
+   "a_quoi_ca_sert": "montrer que la consommation est un marqueur social",
+   "partie_lecon": "Introduction",
+   "mots_cles": [
+    "distinction",
+    "goûts",
+    "position sociale",
+    "consommation"
+   ]
+  },
+  {
+   "auteur": "Thorstein Veblen",
+   "ouvrage": "Théorie de la classe de loisir",
+   "date": "1899",
+   "idee": "La consommation ostentatoire vise à signaler un statut social élevé ; effet Veblen : la valeur d'un bien augmente avec son prix.",
+   "a_quoi_ca_sert": "expliquer le luxe, les marques de prestige et la demande de biens chers",
+   "partie_lecon": "1.a – Classes supérieures au XIXe ; 2.a",
+   "mots_cles": [
+    "consommation ostentatoire",
+    "effet Veblen",
+    "luxe",
+    "statut social"
+   ]
+  },
+  {
+   "auteur": "Ernst Engel",
+   "ouvrage": "",
+   "date": "1857",
+   "idee": "Loi d'Engel : plus un ménage est pauvre, plus la part de son budget consacrée à l'alimentation est élevée.",
+   "a_quoi_ca_sert": "mesurer le niveau de vie et analyser l'effet de l'inflation alimentaire sur les ménages modestes",
+   "partie_lecon": "1.b – Mode de vie ouvrier ; 2.b",
+   "mots_cles": [
+    "loi d'Engel",
+    "budget des ménages",
+    "alimentation",
+    "niveau de vie"
+   ]
+  },
+  {
+   "auteur": "Maurice Halbwachs",
+   "ouvrage": "La Classe ouvrière et les niveaux de vie",
+   "date": "1912",
+   "idee": "À revenu égal, ouvriers et employés ne consomment pas pareil : la consommation est un fait social qui dépend de la classe et des conditions de travail.",
+   "a_quoi_ca_sert": "montrer que les écarts de consommation ne s'expliquent pas seulement par le revenu",
+   "partie_lecon": "1.b – Mode de vie ouvrier",
+   "mots_cles": [
+    "consommation",
+    "fait social",
+    "classe ouvrière",
+    "besoins sociaux"
+   ],
+   "a_verifier": "date corrigée (cours : 1907) ; données sur les ouvriers allemands de 1907"
+  },
+  {
+   "auteur": "Maurice Halbwachs",
+   "ouvrage": "La Classe ouvrière et les niveaux de vie",
+   "date": "1912",
+   "idee": "Les ouvriers, éloignés du « feu de camp » social, compensent par la consommation et le rassemblement familial le manque d'intégration au travail.",
+   "a_quoi_ca_sert": "montrer que la consommation répond à un besoin de lien social",
+   "partie_lecon": "1.b – Mode de vie ouvrier",
+   "mots_cles": [
+    "intégration",
+    "famille",
+    "sociabilité",
+    "consommation"
+   ],
+   "a_verifier": "date corrigée (cours : 1907)"
+  },
+  {
+   "auteur": "Alfred Marshall",
+   "ouvrage": "Principes d'économie politique",
+   "date": "1890",
+   "idee": "C'est la production qui crée les besoins : les nouvelles activités suscitent de nouveaux besoins.",
+   "a_quoi_ca_sert": "défendre le rôle moteur de l'offre et de l'innovation dans la consommation",
+   "partie_lecon": "2.a – Rôle de la consommation",
+   "mots_cles": [
+    "offre",
+    "besoins",
+    "néoclassiques",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "John Kenneth Galbraith",
+   "ouvrage": "L'Ère de l'opulence",
+   "date": "1961",
+   "idee": "Filière inversée : les grandes firmes créent artificiellement les besoins par la publicité pour écouler leur production.",
+   "a_quoi_ca_sert": "critiquer la publicité, le marketing et l'obsolescence programmée",
+   "partie_lecon": "2.a ; 2.c – Manipulation du besoin",
+   "mots_cles": [
+    "filière inversée",
+    "publicité",
+    "besoins artificiels",
+    "société de consommation"
+   ],
+   "a_verifier": "édition originale (The Affluent Society) de 1958 ; 1961 = traduction française"
+  },
+  {
+   "auteur": "John Kenneth Galbraith",
+   "ouvrage": "Le Nouvel État industriel",
+   "date": "1968",
+   "idee": "Contre le « consommateur-roi », ce sont les grandes entreprises qui dirigent le marché et modèlent les attitudes sociales.",
+   "a_quoi_ca_sert": "montrer le pouvoir des grandes firmes (GAFAM, multinationales) sur la demande",
+   "partie_lecon": "2.a – Rôle de la consommation",
+   "mots_cles": [
+    "grandes entreprises",
+    "pouvoir de marché",
+    "consommateur-roi",
+    "technostructure"
+   ],
+   "a_verifier": "édition originale de 1967 ; 1968 = traduction française"
+  },
+  {
+   "auteur": "Paul Samuelson",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Approche néoclassique du « consommateur-roi » : la production obéit aux désirs des consommateurs.",
+   "a_quoi_ca_sert": "défendre la souveraineté du consommateur",
+   "partie_lecon": "2.a ; 2.c",
+   "mots_cles": [
+    "consommateur-roi",
+    "souveraineté du consommateur",
+    "néoclassiques"
+   ]
+  },
+  {
+   "auteur": "Joan Robinson",
+   "ouvrage": "Philosophie économique",
+   "date": "1962",
+   "idee": "La consommation classe aux yeux de chacun : on préfère des colifichets à une hausse des cotisations, car chaque classe rivalise avec celle juste au-dessus.",
+   "a_quoi_ca_sert": "expliquer la course à l'apparence et l'imitation sociale",
+   "partie_lecon": "2.a – Consommation et hiérarchie sociale",
+   "mots_cles": [
+    "imitation",
+    "rivalité sociale",
+    "consommation",
+    "hiérarchie"
+   ]
+  },
+  {
+   "auteur": "Jean Fourastié",
+   "ouvrage": "Les Trente Glorieuses",
+   "date": "1979",
+   "idee": "Théorise la croissance exceptionnelle de l'après-guerre (Trente Glorieuses) qui élève le niveau de vie de toute la population.",
+   "a_quoi_ca_sert": "comparer la croissance actuelle à l'âge d'or des Trente Glorieuses",
+   "partie_lecon": "2.b – Diffusion après 1945",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "croissance",
+    "niveau de vie"
+   ],
+   "a_verifier": "ouvrage non nommé dans le cours (ajouté)"
+  },
+  {
+   "auteur": "Jean-Claude Daumas",
+   "ouvrage": "La Révolution matérielle",
+   "date": "2018",
+   "idee": "Les Trente Glorieuses sont une « révolution matérielle » : la consommation des ménages double deux fois entre 1948 et 1973.",
+   "a_quoi_ca_sert": "montrer l'ampleur de l'équipement des ménages et de la société de consommation",
+   "partie_lecon": "2.b – Diffusion après 1945",
+   "mots_cles": [
+    "révolution matérielle",
+    "équipement des ménages",
+    "consommation de masse"
+   ],
+   "a_verifier": "seule l'expression est citée dans le cours ; titre et date ajoutés"
+  },
+  {
+   "auteur": "Robert Castel",
+   "ouvrage": "Les Métamorphoses de la question sociale",
+   "date": "1995",
+   "idee": "La « société salariale » des Trente Glorieuses (salaire minimum, mensualisation, prestations) permet l'accès de tous à la consommation.",
+   "a_quoi_ca_sert": "montrer que la consommation de masse repose sur un salariat stable et protégé",
+   "partie_lecon": "2.b – Diffusion après 1945",
+   "mots_cles": [
+    "société salariale",
+    "salariat",
+    "protection sociale"
+   ],
+   "a_verifier": "ouvrage non nommé dans le cours (ajouté)"
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "La consommation est le pivot de la demande effective, qui détermine production et emploi ; la propension marginale à consommer est inférieure à 1.",
+   "a_quoi_ca_sert": "justifier les politiques de soutien au pouvoir d'achat et à la demande",
+   "partie_lecon": "2.b – Diffusion après 1945",
+   "mots_cles": [
+    "demande effective",
+    "consommation",
+    "pouvoir d'achat",
+    "relance"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "",
+   "date": "2012",
+   "idee": "Refuser de soutenir la demande et choisir l'austérité plonge les économies dans la déflation et le chômage de masse.",
+   "a_quoi_ca_sert": "critiquer les politiques d'austérité",
+   "partie_lecon": "2.b – Diffusion après 1945",
+   "mots_cles": [
+    "austérité",
+    "demande globale",
+    "déflation",
+    "chômage"
+   ]
+  },
+  {
+   "auteur": "Richard Hoggart",
+   "ouvrage": "La Culture du pauvre",
+   "date": "1957",
+   "idee": "Les classes populaires ont une culture propre (« décence ordinaire ») et reçoivent la culture de masse avec une « attention oblique » (réception sélective, distance ironique).",
+   "a_quoi_ca_sert": "nuancer l'idée d'un abrutissement passif des classes populaires par les médias de masse",
+   "partie_lecon": "2.b – Économie des loisirs",
+   "mots_cles": [
+    "culture populaire",
+    "attention oblique",
+    "culture de masse",
+    "décence ordinaire"
+   ],
+   "a_verifier": "1957 = édition anglaise ; traduction française 1970"
+  },
+  {
+   "auteur": "Richard Hoggart",
+   "ouvrage": "La Culture du pauvre",
+   "date": "1957",
+   "idee": "À terme, la société de consommation individualise les loisirs et déplace la vie collective (quartier, pub) vers l'espace domestique.",
+   "a_quoi_ca_sert": "montrer que la consommation fragilise les solidarités de quartier",
+   "partie_lecon": "2.b – Économie des loisirs",
+   "mots_cles": [
+    "individualisation des loisirs",
+    "solidarités",
+    "consumérisme"
+   ],
+   "a_verifier": "1957 = édition anglaise ; traduction française 1970"
+  },
+  {
+   "auteur": "Pierre Bourdieu",
+   "ouvrage": "La Distinction",
+   "date": "1979",
+   "idee": "Les goûts sont le produit de l'habitus et varient selon le volume et la structure du capital : « franc manger » populaire contre « manger léger, fin et sain » des classes favorisées.",
+   "a_quoi_ca_sert": "montrer que les choix alimentaires, vestimentaires et culturels sont socialement classants",
+   "partie_lecon": "2.b – Diffusion après 1945",
+   "mots_cles": [
+    "habitus",
+    "goûts",
+    "distinction",
+    "alimentation"
+   ]
+  },
+  {
+   "auteur": "Olivier Masclet",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'accès des familles ouvrières aux grands ensembles dans les années 1960 a tourné à la relégation territoriale (dégradation, manque d'infrastructures).",
+   "a_quoi_ca_sert": "analyser la crise des banlieues et la ségrégation résidentielle",
+   "partie_lecon": "3.a – Lieux de vie et fractures territoriales",
+   "mots_cles": [
+    "grands ensembles",
+    "banlieues",
+    "relégation",
+    "ségrégation"
+   ]
+  },
+  {
+   "auteur": "INSEE",
+   "ouvrage": "Étude sur la redistribution élargie",
+   "date": "2019",
+   "idee": "La redistribution élargie (500 Md€, 25 % du revenu national net) ramène l'écart entre les 5 % les plus riches et les plus pauvres de 1 à 18 à 1 à 3.",
+   "a_quoi_ca_sert": "montrer l'ampleur de la redistribution et son effet sur les inégalités de niveau de vie",
+   "partie_lecon": "3.a – Lieux de vie et fractures territoriales",
+   "mots_cles": [
+    "redistribution",
+    "services publics",
+    "inégalités",
+    "niveau de vie"
+   ]
+  },
+  {
+   "auteur": "Christophe Guilluy",
+   "ouvrage": "La France périphérique",
+   "date": "2014",
+   "idee": "La « France périphérique » (rural, petites et moyennes villes) est à l'écart du dynamisme métropolitain, en déprise économique et démographique.",
+   "a_quoi_ca_sert": "analyser la fracture territoriale (Gilets jaunes, vote populiste, déserts médicaux)",
+   "partie_lecon": "3.a – Lieux de vie et fractures territoriales",
+   "mots_cles": [
+    "France périphérique",
+    "métropolisation",
+    "fracture territoriale",
+    "Gilets jaunes"
+   ],
+   "a_verifier": "seul le concept est cité dans le cours ; titre et date ajoutés"
+  },
+  {
+   "auteur": "Benoît Coquard",
+   "ouvrage": "Ceux qui restent. Faire sa vie dans les campagnes en déclin",
+   "date": "2019",
+   "idee": "Dans les campagnes en déclin, la sociabilité et l'entraide créent le capital social des milieux populaires restés sur place.",
+   "a_quoi_ca_sert": "montrer les modes de vie ruraux populaires et l'importance de l'entraide",
+   "partie_lecon": "3.a – Lieux de vie et fractures territoriales",
+   "mots_cles": [
+    "ruralité",
+    "sociabilité",
+    "capital social",
+    "entraide"
+   ]
+  },
+  {
+   "auteur": "Marcel Mauss",
+   "ouvrage": "Essai sur le don",
+   "date": "1925",
+   "idee": "La logique du don et du contre-don fonde des solidarités et des obligations réciproques.",
+   "a_quoi_ca_sert": "analyser l'entraide et les solidarités informelles",
+   "partie_lecon": "3.a – Lieux de vie et fractures territoriales",
+   "mots_cles": [
+    "don",
+    "contre-don",
+    "réciprocité",
+    "solidarité"
+   ],
+   "a_verifier": "date non indiquée dans le cours (ajoutée)"
+  },
+  {
+   "auteur": "Gérald Bronner",
+   "ouvrage": "Apocalypse cognitive",
+   "date": "2021",
+   "idee": "Sur le marché cognitif, l'information illimitée dépasse notre capacité de traitement : les contenus émotionnels l'emportent et créent une crise de l'attention.",
+   "a_quoi_ca_sert": "analyser les effets des écrans, des réseaux sociaux et des algorithmes sur l'attention et l'information",
+   "partie_lecon": "3.b – Écrans et numérisation",
+   "mots_cles": [
+    "marché cognitif",
+    "écrans",
+    "attention",
+    "réseaux sociaux"
+   ],
+   "a_verifier": "prénom corrigé (cours : « Aurélien Bronner »)"
+  },
+  {
+   "auteur": "Gérald Bronner",
+   "ouvrage": "Apocalypse cognitive",
+   "date": "2021",
+   "idee": "Les écrans individualisent les loisirs et créent une fracture attentionnelle, au-delà de la simple fracture d'accès au numérique.",
+   "a_quoi_ca_sert": "montrer que le numérique crée de nouvelles inégalités culturelles et cognitives",
+   "partie_lecon": "3.b – Écrans et numérisation",
+   "mots_cles": [
+    "fracture numérique",
+    "individualisation",
+    "lecture",
+    "inégalités"
+   ],
+   "a_verifier": "prénom corrigé (cours : « Aurélien Bronner »)"
+  },
+  {
+   "auteur": "Howard Becker",
+   "ouvrage": "Outsiders",
+   "date": "1963",
+   "idee": "L'« entrepreneur de morale » qui promeut une consommation éthique est aussi une figure de classe.",
+   "a_quoi_ca_sert": "montrer que les nouvelles normes éthiques (bio, végétarisme) sont portées par les classes supérieures",
+   "partie_lecon": "3.c – Préoccupations éthiques et environnementales",
+   "mots_cles": [
+    "entrepreneur de morale",
+    "consommation éthique",
+    "normes"
+   ],
+   "a_verifier": "le cours associe aussi « minorité active » à Becker (expression habituellement attribuée à Moscovici)"
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Perspectives économiques pour nos petits-enfants",
+   "date": "1928",
+   "idee": "Une fois le « problème économique » résolu, l'humanité devrait délaisser la course à la richesse pour l'« art de vivre » et le temps libre.",
+   "a_quoi_ca_sert": "nourrir les débats sur la sobriété, la décroissance et la réduction du temps de travail",
+   "partie_lecon": "3.c – Préoccupations éthiques et environnementales",
+   "mots_cles": [
+    "sobriété",
+    "art de vivre",
+    "temps libre",
+    "décroissance"
+   ],
+   "a_verifier": "conférence de 1928, texte publié en 1930"
+  },
+  {
+   "auteur": "Jérôme Fourquet",
+   "ouvrage": "L'Archipel français",
+   "date": "2019",
+   "idee": "La matrice culturelle commune (catholique, républicaine) s'est disloquée : la France devient un « archipel » d'îles aux modes de vie distincts.",
+   "a_quoi_ca_sert": "analyser la fragmentation de la société française (identités, vote, consommation)",
+   "partie_lecon": "3.d – Dislocation d'une matrice culturelle commune",
+   "mots_cles": [
+    "archipellisation",
+    "fragmentation",
+    "identités",
+    "assimilation"
+   ]
+  }
+ ],
+ "id": "1A-modes-de-vie",
+ "programme_chapitre": "2.2 – Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle : transformations démographiques et évolution des modes de vie"
+}

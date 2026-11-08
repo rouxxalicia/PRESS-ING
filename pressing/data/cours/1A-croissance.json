@@ -1,0 +1,1336 @@
+{
+ "chapitre": "La croissance économique",
+ "annee": "1A",
+ "module": "Module 2 – Croissance et développement",
+ "source_doc": "La croissance économique",
+ "mots_cles_actu": [
+  "croissance du PIB",
+  "récession",
+  "productivité",
+  "décrochage européen",
+  "rapport Draghi",
+  "innovation",
+  "R&D",
+  "intelligence artificielle",
+  "IA et emploi",
+  "brevets",
+  "concurrence",
+  "GAFAM",
+  "stagnation séculaire",
+  "Fed",
+  "BCE",
+  "taux d'intérêt",
+  "inflation",
+  "dette publique",
+  "politique de l'offre",
+  "relance",
+  "choc pétrolier",
+  "prix du pétrole",
+  "Chine croissance",
+  "institutions",
+  "Prix Nobel d'économie"
+ ],
+ "references": [
+  {
+   "auteur": "François Perroux",
+   "ouvrage": "",
+   "date": "1961",
+   "idee": "Le taux de croissance se mesure par le taux de variation du PIB d'une période à l'autre.",
+   "a_quoi_ca_sert": "définir proprement la croissance face à un chiffre trimestriel de l'INSEE",
+   "partie_lecon": "Introduction – Définitions",
+   "mots_cles": [
+    "PIB",
+    "taux de croissance",
+    "mesure",
+    "définition"
+   ]
+  },
+  {
+   "auteur": "François Perroux",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le développement est la combinaison des changements mentaux et sociaux qui rendent une population apte à faire croître durablement son produit : la croissance est nécessaire mais pas suffisante.",
+   "a_quoi_ca_sert": "distinguer croissance (quantitatif) et développement (qualitatif) face à un pays riche mais inégalitaire",
+   "partie_lecon": "Introduction – Croissance ≠ développement",
+   "mots_cles": [
+    "développement",
+    "croissance",
+    "progrès économique",
+    "inégalités"
+   ]
+  },
+  {
+   "auteur": "Daniel Cohen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La première révolution industrielle est le mythe de « Prométhée libéré » : une rupture qui libère la production.",
+   "a_quoi_ca_sert": "présenter une révolution technologique (IA) comme une rupture comparable à la révolution industrielle",
+   "partie_lecon": "I.A.1 – Première révolution industrielle",
+   "mots_cles": [
+    "révolution industrielle",
+    "rupture",
+    "progrès technique"
+   ],
+   "a_verifier": "l'expression « Prométhée libéré » est celle de David Landes (The Unbound Prometheus, 1969)"
+  },
+  {
+   "auteur": "Daniel Cohen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La croissance française des Trente Glorieuses est un rattrapage par imitation du modèle américain (de un tiers à 75 % du niveau de vie américain).",
+   "a_quoi_ca_sert": "montrer qu'imiter est plus facile qu'innover et expliquer le ralentissement une fois le rattrapage fini",
+   "partie_lecon": "I.B.3 – Le cas de la France",
+   "mots_cles": [
+    "rattrapage",
+    "imitation",
+    "Trente Glorieuses",
+    "convergence"
+   ]
+  },
+  {
+   "auteur": "Daniel Cohen",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les TIC forment une « nouvelle économie » à rendements croissants.",
+   "a_quoi_ca_sert": "analyser le numérique et les plateformes comme secteurs à rendements croissants",
+   "partie_lecon": "I.C – Intro Maddison (Dix Glorieuses)",
+   "mots_cles": [
+    "nouvelle économie",
+    "TIC",
+    "rendements croissants",
+    "numérique"
+   ]
+  },
+  {
+   "auteur": "Adolphe Blanqui",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il invente l'expression « révolution industrielle », dans une perspective libérale.",
+   "a_quoi_ca_sert": "situer l'origine du concept de révolution industrielle",
+   "partie_lecon": "I.A.1 – Origine du terme",
+   "mots_cles": [
+    "révolution industrielle",
+    "histoire des idées"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il reprend le terme de révolution industrielle avec une connotation négative pour dénoncer ses effets sur la classe ouvrière.",
+   "a_quoi_ca_sert": "montrer que l'industrialisation a un coût social",
+   "partie_lecon": "I.A.1 – Origine du terme",
+   "mots_cles": [
+    "révolution industrielle",
+    "classe ouvrière",
+    "critique"
+   ]
+  },
+  {
+   "auteur": "Paul Mantoux",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il neutralise le terme de révolution industrielle et analyse le passage du putting-out system au factory system, qui instaure le salariat.",
+   "a_quoi_ca_sert": "expliquer une mutation de l'organisation du travail (usine, salariat, plateformes)",
+   "partie_lecon": "I.A.1 – Origine du terme / Passage au factory system",
+   "mots_cles": [
+    "factory system",
+    "salariat",
+    "organisation du travail",
+    "révolution industrielle"
+   ]
+  },
+  {
+   "auteur": "Max Weber",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le factory system repose sur la concentration des travailleurs, l'intensification de la production et une rationalisation constante.",
+   "a_quoi_ca_sert": "éclairer la logique de rationalisation du travail industriel",
+   "partie_lecon": "I.A.1 – Passage au factory system",
+   "mots_cles": [
+    "rationalisation",
+    "usine",
+    "salariat"
+   ]
+  },
+  {
+   "auteur": "Angus Maddison",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La croissance est quasi nulle de 500 à 1500, puis s'ouvrent des phases : entrée dans le capitalisme (1820-1870), vieil ordre libéral (1870-1913), période inclassable (1913-1950), âge d'or (1950-1973).",
+   "a_quoi_ca_sert": "remettre un chiffre de croissance actuel dans l'histoire longue",
+   "partie_lecon": "I.A.1 / I.B – Périodisation de Maddison",
+   "mots_cles": [
+    "histoire longue",
+    "périodisation",
+    "âge d'or",
+    "croissance mondiale"
+   ]
+  },
+  {
+   "auteur": "Angus Maddison",
+   "ouvrage": "",
+   "date": "",
+   "idee": "1973-1998 est l'ordre néo-libéral : ralentissement et stagflation jusqu'en 1990, puis « Dix Glorieuses » des années 1990 portées par les émergents et les TIC.",
+   "a_quoi_ca_sert": "expliquer le ralentissement post-1973 et le rebond lié aux TIC",
+   "partie_lecon": "I.C – Intro avec l'analyse de Maddison",
+   "mots_cles": [
+    "ordre néo-libéral",
+    "stagflation",
+    "Grande Modération",
+    "TIC"
+   ]
+  },
+  {
+   "auteur": "Simon Kuznets",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La croissance économique moderne est un processus cumulatif (population, production, revenu par tête) aux six caractéristiques, dont la transformation des structures et une diffusion limitée.",
+   "a_quoi_ca_sert": "montrer que la croissance transforme toute la société et laisse une partie du monde de côté",
+   "partie_lecon": "I.A.1 – Les « faits de Kuznets »",
+   "mots_cles": [
+    "croissance moderne",
+    "faits stylisés",
+    "changement structurel",
+    "pays pauvres"
+   ]
+  },
+  {
+   "auteur": "Jean-Charles Blancheton",
+   "ouvrage": "De la révolution industrielle à nos jours",
+   "date": "2022",
+   "idee": "La révolution industrielle est comparable à la révolution néolithique ; l'Angleterre répond à la demande par une mécanisation accélérée.",
+   "a_quoi_ca_sert": "souligner l'ampleur historique d'une rupture technologique",
+   "partie_lecon": "I.A.1 – Révolution industrielle en Angleterre",
+   "mots_cles": [
+    "révolution industrielle",
+    "mécanisation",
+    "Angleterre"
+   ],
+   "a_verifier": "titre exact de l'ouvrage de Blancheton à vérifier"
+  },
+  {
+   "auteur": "Jean-Charles Blancheton",
+   "ouvrage": "Histoire des faits économiques",
+   "date": "",
+   "idee": "La période stable des Trente Glorieuses ne dure qu'une vingtaine d'années.",
+   "a_quoi_ca_sert": "nuancer le mythe des Trente Glorieuses",
+   "partie_lecon": "I.B.2 – La période fait débat",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "histoire économique",
+    "inflation"
+   ]
+  },
+  {
+   "auteur": "T. S. Ashton",
+   "ouvrage": "",
+   "date": "1959",
+   "idee": "La révolution industrielle anglaise se situe entre 1760 et 1830.",
+   "a_quoi_ca_sert": "dater la première révolution industrielle",
+   "partie_lecon": "I.A.1 – Le Royaume-Uni, siège de la RI",
+   "mots_cles": [
+    "révolution industrielle",
+    "datation",
+    "Angleterre"
+   ],
+   "a_verifier": "son ouvrage The Industrial Revolution 1760-1830 date de 1948"
+  },
+  {
+   "auteur": "Aristote",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« Si chaque outil pouvait exécuter lui-même la tâche qui lui est propre, il n'y aurait plus besoin d'esclaves. »",
+   "a_quoi_ca_sert": "accroche sur l'automatisation (machines, robots, IA) qui remplace le travail humain",
+   "partie_lecon": "I.A.1 – Le textile",
+   "mots_cles": [
+    "automatisation",
+    "machines",
+    "travail",
+    "IA"
+   ]
+  },
+  {
+   "auteur": "Marc Bloch",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les enclosures font naître un « esprit capitaliste » dans les campagnes et libèrent une main-d'œuvre pour l'industrie.",
+   "a_quoi_ca_sert": "montrer que la propriété privée et la recherche de productivité préparent l'industrialisation",
+   "partie_lecon": "I.A.1 – Passage de l'agriculture au putting-out system",
+   "mots_cles": [
+    "enclosures",
+    "propriété privée",
+    "esprit capitaliste",
+    "agriculture"
+   ]
+  },
+  {
+   "auteur": "Franklin Mendels",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La proto-industrialisation (putting-out system) est une étape où des paysans produisent à domicile pour des marchands, avant l'usine.",
+   "a_quoi_ca_sert": "montrer que l'industrialisation est progressive et prend appui sur l'agriculture",
+   "partie_lecon": "I.A.1 – Proto-industrialisation",
+   "mots_cles": [
+    "proto-industrialisation",
+    "putting-out system",
+    "transition",
+    "travail à domicile"
+   ]
+  },
+  {
+   "auteur": "Paul Bairoch",
+   "ouvrage": "Révolution industrielle et sous-développement",
+   "date": "1963",
+   "idee": "Pas de révolution industrielle sans révolution agricole : elle libère de la main-d'œuvre, finance l'industrie et crée une demande.",
+   "a_quoi_ca_sert": "montrer que l'agriculture conditionne le développement des pays pauvres",
+   "partie_lecon": "I.A.1 – Pourquoi révolution agricole = révolution industrielle",
+   "mots_cles": [
+    "révolution agricole",
+    "industrialisation",
+    "développement",
+    "productivité agricole"
+   ]
+  },
+  {
+   "auteur": "Walt W. Rostow",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les gains de productivité agricoles découlent de la pression démographique, qui accroît population active et demande.",
+   "a_quoi_ca_sert": "lier démographie et décollage économique",
+   "partie_lecon": "I.A.1 – Nuance de Rostow",
+   "mots_cles": [
+    "pression démographique",
+    "agriculture",
+    "demande",
+    "population active"
+   ]
+  },
+  {
+   "auteur": "Walt W. Rostow",
+   "ouvrage": "Les Étapes de la croissance économique",
+   "date": "1960",
+   "idee": "Tout pays suit cinq étapes linéaires, de la société traditionnelle à la consommation de masse, avec un take-off où l'investissement dépasse 10 % du revenu national.",
+   "a_quoi_ca_sert": "situer un pays émergent dans un schéma de décollage (et critiquer ce modèle trop linéaire)",
+   "partie_lecon": "I.A.2 – Le modèle de Rostow",
+   "mots_cles": [
+    "take-off",
+    "étapes de la croissance",
+    "développement",
+    "industrialisation"
+   ]
+  },
+  {
+   "auteur": "Kenneth Pomeranz",
+   "ouvrage": "Une grande divergence",
+   "date": "2000 (trad. fr. 2010)",
+   "idee": "Jusqu'au XIXe siècle, le Bas-Yangzi valait l'Angleterre ; celle-ci a divergé grâce au charbon proche et aux « hectares fantômes » des colonies.",
+   "a_quoi_ca_sert": "montrer le rôle des ressources, de l'énergie et de la géographie dans les écarts de croissance (Chine-Occident)",
+   "partie_lecon": "I.A.2 – Étude Chine vs Royaume-Uni",
+   "mots_cles": [
+    "grande divergence",
+    "Chine",
+    "charbon",
+    "colonies",
+    "environnement"
+   ]
+  },
+  {
+   "auteur": "Alexander Gerschenkron",
+   "ouvrage": "Economic Backwardness in Historical Perspective",
+   "date": "1962",
+   "idee": "Les pays en retard rattrapent par des stratégies de contournement : banques mixtes en Allemagne, État au Japon et en Russie.",
+   "a_quoi_ca_sert": "montrer l'importance de l'État et du financement dans un rattrapage (Chine, politique industrielle)",
+   "partie_lecon": "I.A.2 – Les late comers",
+   "mots_cles": [
+    "rattrapage",
+    "late comers",
+    "État",
+    "banques",
+    "politique industrielle"
+   ]
+  },
+  {
+   "auteur": "François Caron",
+   "ouvrage": "Les Deux Révolutions industrielles du XXe siècle",
+   "date": "1997",
+   "idee": "L'entre-deux-guerres se découpe en trois phases : reconstruction difficile (1913-1924), expansion fragile puis dépression (1924-1937), guerre et reconstruction coordonnée (1937-1950).",
+   "a_quoi_ca_sert": "comparer reconstruction non coordonnée et coordonnée (plan Marshall)",
+   "partie_lecon": "I.B.1 – Les trois phases de F. Caron",
+   "mots_cles": [
+    "entre-deux-guerres",
+    "reconstruction",
+    "plan Marshall",
+    "crise de 1929"
+   ]
+  },
+  {
+   "auteur": "Jean Fourastié",
+   "ouvrage": "Les Trente Glorieuses ou la révolution invisible",
+   "date": "1979",
+   "idee": "Les Trente Glorieuses sont une révolution du niveau de vie : la main-d'œuvre se déverse de l'agriculture vers l'industrie puis les services.",
+   "a_quoi_ca_sert": "expliquer la tertiarisation et la transformation des structures productives",
+   "partie_lecon": "I.B.2 / I.B.3 – Trente Glorieuses, cas de la France",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "déversement",
+    "tertiarisation",
+    "niveau de vie"
+   ]
+  },
+  {
+   "auteur": "Jacques Marseille",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il parle de « Vingt glorieuses » car le revenu par tête a continué de progresser après 1973.",
+   "a_quoi_ca_sert": "nuancer le déclinisme sur l'après-1973",
+   "partie_lecon": "I.B.2 – La période fait débat",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "revenu par tête",
+    "déclin"
+   ]
+  },
+  {
+   "auteur": "Nicolas Baverez",
+   "ouvrage": "Les Trente Piteuses",
+   "date": "1998",
+   "idee": "Depuis 1973, la France connaît des « Trente piteuses » de croissance faible et de chômage élevé.",
+   "a_quoi_ca_sert": "illustrer le décrochage français",
+   "partie_lecon": "I.B.2 / I.C.2 – Difficultés de la croissance française",
+   "mots_cles": [
+    "décrochage",
+    "France",
+    "chômage",
+    "déclinisme"
+   ]
+  },
+  {
+   "auteur": "Nicolas Baverez",
+   "ouvrage": "La France qui tombe",
+   "date": "2003",
+   "idee": "L'interventionnisme, la réglementation et la centralisation hérités des Trente Glorieuses « étranglent » la production et bloquent les réformes.",
+   "a_quoi_ca_sert": "critiquer le poids de l'État, des dépenses publiques et l'absence de réformes",
+   "partie_lecon": "I.C.2 – Les difficultés de la croissance (France)",
+   "mots_cles": [
+    "réformes",
+    "dépense publique",
+    "chômage structurel",
+    "réglementation"
+   ]
+  },
+  {
+   "auteur": "Paul Samuelson",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il qualifie de « miracle économique » la croissance exceptionnelle des pays développés entre 1945 et 1973.",
+   "a_quoi_ca_sert": "souligner le caractère exceptionnel des taux de croissance d'après-guerre",
+   "partie_lecon": "I.B.2 – Un phénomène de rattrapage",
+   "mots_cles": [
+    "miracle économique",
+    "Trente Glorieuses",
+    "rattrapage"
+   ]
+  },
+  {
+   "auteur": "Jean-Jacques Carré, Paul Dubois et Edmond Malinvaud",
+   "ouvrage": "La Croissance française",
+   "date": "1972",
+   "idee": "La France a crû d'environ 5 % par an de 1950 à 1970, ce qui en fait le « Japon européen ».",
+   "a_quoi_ca_sert": "chiffrer la croissance française des Trente Glorieuses",
+   "partie_lecon": "I.B.3 – Le cas de la France",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "France",
+    "rattrapage",
+    "Japon européen"
+   ]
+  },
+  {
+   "auteur": "Jean-Jacques Carré, Paul Dubois et Edmond Malinvaud",
+   "ouvrage": "La Croissance française",
+   "date": "1972",
+   "idee": "Le travail (10 %) et le capital (20 %) expliquent peu la croissance française : le résidu, donc le progrès technique, en explique 50 %.",
+   "a_quoi_ca_sert": "montrer que la croissance vient surtout de la productivité, pas de la quantité de travail",
+   "partie_lecon": "II.B – Comparaison de modèles (comptabilité de la croissance)",
+   "mots_cles": [
+    "comptabilité de la croissance",
+    "résidu",
+    "productivité globale des facteurs",
+    "progrès technique"
+   ]
+  },
+  {
+   "auteur": "John Dower",
+   "ouvrage": "Empire and Its Aftermath",
+   "date": "1979",
+   "idee": "L'ampleur de la défaite japonaise a provoqué une vague antimilitariste et l'adhésion à la démocratie libérale vue comme seul vecteur de richesse.",
+   "a_quoi_ca_sert": "relier régime politique et modèle de croissance (Japon d'après-guerre)",
+   "partie_lecon": "I.B.3 – La prospérité du Japon dans l'après-guerre",
+   "mots_cles": [
+    "Japon",
+    "démocratie libérale",
+    "occupation américaine",
+    "reconstruction"
+   ],
+   "a_verifier": "le cours cite « Empire and Its Aftermath (1979) » (thèse de Dower sur Yoshida) ; l'analyse décrite correspond plutôt à Embracing Defeat (1999)"
+  },
+  {
+   "auteur": "Jacques Brasseul",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Une fois le rattrapage terminé, le Japon devient une « économie de frontière » qui doit innover par elle-même.",
+   "a_quoi_ca_sert": "expliquer le ralentissement d'un pays qui a fini de rattraper (Japon, Chine demain)",
+   "partie_lecon": "I.B.3 – La prospérité du Japon",
+   "mots_cles": [
+    "frontière technologique",
+    "rattrapage",
+    "Japon",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "Jacques Brasseul",
+   "ouvrage": "Histoire des faits économiques",
+   "date": "2025",
+   "idee": "Les États-Unis gardent leur primauté depuis 1945 ; la crise des subprimes vient en partie d'une incitation publique à prêter aux ménages modestes.",
+   "a_quoi_ca_sert": "expliquer la domination américaine et les origines de la crise de 2008",
+   "partie_lecon": "I.B.3 – La domination économique américaine",
+   "mots_cles": [
+    "États-Unis",
+    "subprimes",
+    "crise de 2008",
+    "hégémonie"
+   ]
+  },
+  {
+   "auteur": "Paul Volcker",
+   "ouvrage": "",
+   "date": "1979",
+   "idee": "Le « choc Volcker » (hausse brutale des taux) montre qu'une banque centrale indépendante est plus crédible contre l'inflation.",
+   "a_quoi_ca_sert": "justifier l'indépendance des banques centrales et la hausse des taux contre l'inflation (Fed, BCE)",
+   "partie_lecon": "I.C.1 – Le choc pétrolier de 1979",
+   "mots_cles": [
+    "Fed",
+    "taux d'intérêt",
+    "inflation",
+    "indépendance des banques centrales"
+   ]
+  },
+  {
+   "auteur": "Alan Greenspan",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Sa politique de taux bas après la bulle internet a facilité l'emballement du crédit et des prix d'actifs jusqu'à la crise de 2008.",
+   "a_quoi_ca_sert": "montrer qu'une politique monétaire trop accommodante peut nourrir des bulles",
+   "partie_lecon": "II.B – Bulle spéculative d'Internet",
+   "mots_cles": [
+    "Fed",
+    "taux bas",
+    "bulle",
+    "crédit",
+    "crise de 2008"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "The Role of Monetary Policy",
+   "date": "1968",
+   "idee": "Le « stop and go » déstabilise l'économie : l'illusion monétaire est éphémère et la courbe de Phillips est verticale à long terme.",
+   "a_quoi_ca_sert": "critiquer les relances par la demande et défendre une politique monétaire anti-inflation",
+   "partie_lecon": "I.C.1 – Le choc pétrolier de 1973 (stagflation)",
+   "mots_cles": [
+    "monétarisme",
+    "stagflation",
+    "courbe de Phillips",
+    "inflation",
+    "banque centrale"
+   ]
+  },
+  {
+   "auteur": "A. W. Phillips",
+   "ouvrage": "",
+   "date": "1958",
+   "idee": "La courbe de Phillips postule un arbitrage entre inflation et chômage, démenti par la stagflation.",
+   "a_quoi_ca_sert": "analyser un arbitrage inflation/chômage dans une actu de politique monétaire",
+   "partie_lecon": "I.C.1 – Stagflation",
+   "mots_cles": [
+    "courbe de Phillips",
+    "inflation",
+    "chômage",
+    "stagflation"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus et Olivier Pastré",
+   "ouvrage": "L'Économie post-covid",
+   "date": "2020",
+   "idee": "Le Covid est un choc exogène d'offre et de demande simultané ; la France l'aborde mal armée (prélèvements records, État lourd) et la création monétaire crée une injustice intergénérationnelle.",
+   "a_quoi_ca_sert": "distinguer crise exogène et endogène ; critiquer le « quoi qu'il en coûte » et le quantitative easing",
+   "partie_lecon": "I.C.2 – Croissance et crise Covid",
+   "mots_cles": [
+    "Covid",
+    "choc exogène",
+    "quantitative easing",
+    "dette",
+    "prélèvements obligatoires"
+   ]
+  },
+  {
+   "auteur": "François Bourguignon",
+   "ouvrage": "Croissance européenne et croissance américaine : le décrochage",
+   "date": "2025",
+   "idee": "L'écart de revenu par tête États-Unis/Europe atteint 25 % : le décrochage touche surtout les pays fondateurs et vient d'une productivité qui s'érode.",
+   "a_quoi_ca_sert": "analyser le décrochage européen (rapport Draghi, productivité, financement de la défense et du climat)",
+   "partie_lecon": "I.C.2 – Croissance européenne et croissance américaine",
+   "mots_cles": [
+    "décrochage européen",
+    "productivité",
+    "États-Unis",
+    "Europe de l'Est",
+    "temps de travail"
+   ]
+  },
+  {
+   "auteur": "Gabriel Zucman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La « taxe Zucman » est citée comme exemple moderne de prélèvement dont la hausse peut réduire l'incitation à produire.",
+   "a_quoi_ca_sert": "illustrer le débat sur la fiscalité des plus riches et ses effets sur la croissance",
+   "partie_lecon": "II.C.3 – Nouvelle économie institutionnelle (parallèle) ; I.C.2 – Bourguignon",
+   "mots_cles": [
+    "taxe Zucman",
+    "fiscalité",
+    "prélèvements obligatoires",
+    "incitations"
+   ],
+   "a_verifier": "le cours ne détaille pas sa thèse (mention d'un désaccord avec Bourguignon peu clair)"
+  },
+  {
+   "auteur": "Adam Smith",
+   "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+   "date": "1776",
+   "idee": "La division du travail (manufacture d'épingles) accroît la productivité dans un cercle vertueux, mais elle est limitée par la taille du marché.",
+   "a_quoi_ca_sert": "montrer que la spécialisation et l'ouverture des marchés stimulent la croissance",
+   "partie_lecon": "II.A.1 – Les fondateurs classiques",
+   "mots_cles": [
+    "division du travail",
+    "productivité",
+    "taille du marché",
+    "spécialisation"
+   ]
+  },
+  {
+   "auteur": "Thomas Malthus",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le « verrou agricole » : la population croît plus vite que les ressources, ce qui menace d'état stationnaire.",
+   "a_quoi_ca_sert": "illustrer le pessimisme classique sur les limites de la croissance",
+   "partie_lecon": "II.A.1 – Le pessimisme des classiques",
+   "mots_cles": [
+    "verrou agricole",
+    "surpopulation",
+    "état stationnaire",
+    "pessimisme"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les rendements décroissants de la terre font monter les salaires et la rente au détriment des profits, jusqu'à l'état stationnaire ; le libre-échange (abrogation des Corn Laws, 1846) et le progrès technique permettent d'y échapper.",
+   "a_quoi_ca_sert": "montrer qu'ouverture commerciale et progrès technique repoussent les limites de la croissance",
+   "partie_lecon": "II.A.1 – Le pessimisme des classiques",
+   "mots_cles": [
+    "état stationnaire",
+    "rendements décroissants",
+    "Corn Laws",
+    "avantages comparatifs",
+    "profits"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "Le Capital",
+   "date": "1867",
+   "idee": "La mécanisation fait baisser tendanciellement le taux de profit et crée une armée de réserve de chômeurs, d'où des crises de surproduction.",
+   "a_quoi_ca_sert": "analyser l'automatisation comme source de chômage et de crise ; contester la loi de Say",
+   "partie_lecon": "II.A.1 – Les contradictions du capitalisme",
+   "mots_cles": [
+    "baisse tendancielle du taux de profit",
+    "armée de réserve",
+    "surproduction",
+    "mécanisation"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Say",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Loi de Say : l'offre crée sa propre demande.",
+   "a_quoi_ca_sert": "justifier une politique de l'offre ; servir de point d'appui aux critiques de Marx et Keynes",
+   "partie_lecon": "II.A.1 / II.A.2 – Marx, Keynes",
+   "mots_cles": [
+    "loi de Say",
+    "offre",
+    "politique de l'offre",
+    "demande"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "La demande effective détermine la production : à court terme, l'État doit relancer la demande pour sortir de la crise.",
+   "a_quoi_ca_sert": "justifier un plan de relance budgétaire face à une récession",
+   "partie_lecon": "II.A.2 – Keynes",
+   "mots_cles": [
+    "demande effective",
+    "relance",
+    "court terme",
+    "politique budgétaire"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Loi psychologique fondamentale : les riches consomment une part plus faible de leur revenu, donc trop d'inégalités freinent la demande ; la redistribution soutient la croissance.",
+   "a_quoi_ca_sert": "défendre la redistribution et les hausses de salaires comme soutien à la croissance",
+   "partie_lecon": "II.A.2 – Keynes ; II.C.3 – Institutions sociales",
+   "mots_cles": [
+    "propension à consommer",
+    "inégalités",
+    "redistribution",
+    "pouvoir d'achat"
+   ]
+  },
+  {
+   "auteur": "Michal Kalecki",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« Les salariés dépensent ce qu'ils gagnent, les capitalistes gagnent ce qu'ils dépensent » : la croissance dépend de la répartition salaires/profits et des anticipations.",
+   "a_quoi_ca_sert": "analyser le partage de la valeur ajoutée et son effet sur l'investissement",
+   "partie_lecon": "II.A.3 – Les post-keynésiens",
+   "mots_cles": [
+    "répartition",
+    "profits",
+    "investissement",
+    "post-keynésiens"
+   ]
+  },
+  {
+   "auteur": "Evsey Domar",
+   "ouvrage": "Expansion and Employment",
+   "date": "1947",
+   "idee": "L'investissement a un double effet : effet revenu sur la demande à court terme, effet capacité sur l'offre à long terme ; leur décalage crée inflation ou surproduction.",
+   "a_quoi_ca_sert": "montrer qu'un plan d'investissement (public ou privé) agit sur l'offre et sur la demande",
+   "partie_lecon": "II.A.3 – Le modèle Harrod-Domar",
+   "mots_cles": [
+    "investissement",
+    "effet multiplicateur",
+    "effet capacité",
+    "surproduction"
+   ]
+  },
+  {
+   "auteur": "Roy Harrod",
+   "ouvrage": "",
+   "date": "1948",
+   "idee": "La croissance équilibrée est « sur le fil du rasoir » : taux garanti, anticipé et réalisé coïncident par hasard et leurs écarts s'amplifient.",
+   "a_quoi_ca_sert": "justifier l'intervention de l'État pour stabiliser une croissance spontanément instable",
+   "partie_lecon": "II.A.3 – Le modèle Harrod-Domar",
+   "mots_cles": [
+    "instabilité",
+    "fil du rasoir",
+    "anticipations",
+    "intervention de l'État"
+   ],
+   "a_verifier": "titre donné par le cours « Théorèmes dynamiques fondamentaux » ; ouvrage de 1948 = Towards a Dynamic Economics"
+  },
+  {
+   "auteur": "Roy Harrod",
+   "ouvrage": "",
+   "date": "1948",
+   "idee": "Le taux de croissance naturel (croissance de la population active + gains de productivité) n'est pas atteint automatiquement : une économie peut croître avec un chômage persistant.",
+   "a_quoi_ca_sert": "expliquer pourquoi la croissance ne suffit pas à faire baisser le chômage",
+   "partie_lecon": "II.A.3 – Harrod, 2e problème (chômage persistant)",
+   "mots_cles": [
+    "taux de croissance naturel",
+    "chômage",
+    "population active",
+    "productivité"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor",
+   "ouvrage": "",
+   "date": "1957",
+   "idee": "Il existe une répartition salaires/profits qui assure à la fois assez d'épargne pour investir et assez de consommation ; l'État doit la viser par la redistribution.",
+   "a_quoi_ca_sert": "analyser le partage de la valeur ajoutée et la politique de redistribution",
+   "partie_lecon": "II.A.3 – Kaldor et la répartition des revenus",
+   "mots_cles": [
+    "répartition",
+    "épargne",
+    "consommation",
+    "redistribution"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor",
+   "ouvrage": "",
+   "date": "1966",
+   "idee": "Le carré magique (croissance, emploi, prix, équilibre extérieur) montre que ces objectifs sont contradictoires et imposent des arbitrages.",
+   "a_quoi_ca_sert": "évaluer la situation macroéconomique d'un pays et les arbitrages d'une politique (relance → inflation, déficit extérieur)",
+   "partie_lecon": "II.A.3 – Le carré magique de Kaldor",
+   "mots_cles": [
+    "carré magique",
+    "arbitrages",
+    "inflation",
+    "chômage",
+    "balance courante"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor",
+   "ouvrage": "",
+   "date": "1957",
+   "idee": "Six faits stylisés de la croissance de long terme : parts salaires/profits, croissance par tête, coefficient de capital et rendement du capital constants, pas de convergence automatique.",
+   "a_quoi_ca_sert": "tester un modèle ou une prévision de croissance face aux régularités historiques",
+   "partie_lecon": "II.A.3 – Les faits stylisés de Kaldor",
+   "mots_cles": [
+    "faits stylisés",
+    "partage de la valeur ajoutée",
+    "long terme",
+    "convergence"
+   ],
+   "a_verifier": "faits stylisés souvent datés de 1961 (Capital Accumulation and Economic Growth)"
+  },
+  {
+   "auteur": "Robert Solow",
+   "ouvrage": "A Contribution to the Theory of Economic Growth",
+   "date": "1956",
+   "idee": "Avec des facteurs substituables, une croissance stable est possible ; mais sans progrès technique, les rendements décroissants mènent à l'état stationnaire.",
+   "a_quoi_ca_sert": "montrer que l'accumulation de capital ou de travail ne suffit pas sans progrès technique ; le vieillissement pèse sur la croissance",
+   "partie_lecon": "II.B – Le modèle de Solow",
+   "mots_cles": [
+    "néoclassique",
+    "rendements décroissants",
+    "état stationnaire",
+    "sentier de croissance équilibré",
+    "vieillissement"
+   ]
+  },
+  {
+   "auteur": "Robert Solow",
+   "ouvrage": "",
+   "date": "1957",
+   "idee": "Le progrès technique, exogène (« manne tombée du ciel »), explique 80 % de la croissance américaine de 1909 à 1949 : c'est le « résidu de Solow ».",
+   "a_quoi_ca_sert": "montrer que la croissance dépend surtout du progrès technique (croissance intensive vs extensive)",
+   "partie_lecon": "II.B – Le modèle de Solow (comptabilité de la croissance)",
+   "mots_cles": [
+    "résidu de Solow",
+    "progrès technique",
+    "croissance intensive",
+    "productivité"
+   ]
+  },
+  {
+   "auteur": "Robert Solow",
+   "ouvrage": "",
+   "date": "1987",
+   "idee": "Paradoxe de Solow : « on voit des ordinateurs partout sauf dans les statistiques de productivité ».",
+   "a_quoi_ca_sert": "montrer qu'une technologie (IA) ne dope la productivité qu'après du temps et des changements d'organisation",
+   "partie_lecon": "II.B – Le paradoxe de Solow",
+   "mots_cles": [
+    "paradoxe de Solow",
+    "productivité",
+    "numérique",
+    "IA",
+    "organisation"
+   ]
+  },
+  {
+   "auteur": "Edward Denison",
+   "ouvrage": "",
+   "date": "1967",
+   "idee": "La comptabilité de la croissance montre une croissance plutôt extensive aux États-Unis (40 % dus au progrès technique) et intensive en France (75 %).",
+   "a_quoi_ca_sert": "comparer les sources de croissance entre pays",
+   "partie_lecon": "II.B – Comparaison de modèles",
+   "mots_cles": [
+    "comptabilité de la croissance",
+    "croissance extensive",
+    "croissance intensive"
+   ]
+  },
+  {
+   "auteur": "Moses Abramovitz",
+   "ouvrage": "",
+   "date": "1956",
+   "idee": "Le résidu de la croissance est « la mesure de notre ignorance ».",
+   "a_quoi_ca_sert": "souligner que le modèle de Solow constate le progrès technique sans l'expliquer",
+   "partie_lecon": "II.B – Comparaison de modèles",
+   "mots_cles": [
+    "résidu",
+    "progrès technique",
+    "limites de Solow"
+   ]
+  },
+  {
+   "auteur": "Kenneth Arrow",
+   "ouvrage": "",
+   "date": "1962",
+   "idee": "Le progrès technique est induit : en produisant, les travailleurs apprennent (learning by doing).",
+   "a_quoi_ca_sert": "montrer que l'expérience et la production elle-même créent de la productivité",
+   "partie_lecon": "II.B – Comparaison de modèles ; II.C.2 – Romer 1986",
+   "mots_cles": [
+    "learning by doing",
+    "progrès technique endogène",
+    "apprentissage"
+   ]
+  },
+  {
+   "auteur": "Antonin Bergeaud et al.",
+   "ouvrage": "",
+   "date": "2018",
+   "idee": "En intégrant la qualité de l'éducation et des équipements (TIC), on explique environ la moitié du résidu de Solow.",
+   "a_quoi_ca_sert": "montrer le poids de l'éducation et du numérique dans la productivité",
+   "partie_lecon": "II.B – Comparaison de modèles",
+   "mots_cles": [
+    "résidu",
+    "éducation",
+    "TIC",
+    "productivité globale des facteurs"
+   ]
+  },
+  {
+   "auteur": "Clément Juglar",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les cycles des affaires de 5 à 11 ans alternent expansion, crise et liquidation.",
+   "a_quoi_ca_sert": "lire une récession comme une phase normale d'un cycle court",
+   "partie_lecon": "II.C.1 – Kondratiev et Schumpeter",
+   "mots_cles": [
+    "cycles",
+    "conjoncture",
+    "crise",
+    "récession"
+   ]
+  },
+  {
+   "auteur": "Nikolaï Kondratiev",
+   "ouvrage": "Les grands cycles de la conjoncture",
+   "date": "1922",
+   "idee": "Le capitalisme connaît des cycles longs de 50 à 60 ans, expliqués par les prix et les profits.",
+   "a_quoi_ca_sert": "inscrire une phase de croissance ou de stagnation dans un cycle long",
+   "partie_lecon": "II.C.1 – Les cycles de Kondratiev",
+   "mots_cles": [
+    "cycles longs",
+    "prix",
+    "profits",
+    "conjoncture"
+   ],
+   "a_verifier": "ses travaux sur les cycles longs sont plutôt datés de 1925-1926"
+  },
+  {
+   "auteur": "Jean-Marc Daniel",
+   "ouvrage": "8 leçons d'histoire économique",
+   "date": "2012",
+   "idee": "Il retrace l'analyse des cycles économiques, de Juglar à Kondratiev et Schumpeter.",
+   "a_quoi_ca_sert": "source de synthèse sur les cycles",
+   "partie_lecon": "II.C.1 – Kondratiev et Schumpeter (source)",
+   "mots_cles": [
+    "cycles",
+    "histoire économique"
+   ]
+  },
+  {
+   "auteur": "Joseph Schumpeter",
+   "ouvrage": "Business Cycles",
+   "date": "1939",
+   "idee": "Les cycles longs sont des cycles de productivité portés par des grappes d'innovations ; quand leur potentiel s'épuise, la croissance ralentit.",
+   "a_quoi_ca_sert": "lire l'IA ou la transition énergétique comme une nouvelle grappe d'innovations capable de relancer un cycle",
+   "partie_lecon": "II.C.1 – Réinterprétation par Schumpeter ; I.A.1 – Grappes d'innovations",
+   "mots_cles": [
+    "grappes d'innovations",
+    "cycles longs",
+    "productivité",
+    "invention vs innovation"
+   ]
+  },
+  {
+   "auteur": "Joseph Schumpeter",
+   "ouvrage": "Capitalisme, socialisme et démocratie",
+   "date": "1942",
+   "idee": "La destruction créatrice : l'innovation de l'entrepreneur remplace violemment l'ancien, aucune position n'est acquise.",
+   "a_quoi_ca_sert": "analyser faillites, disparition de secteurs ou de métiers et émergence de nouveaux leaders (BYD vs Tesla)",
+   "partie_lecon": "II.C.1 – Schumpeter et la destruction créatrice",
+   "mots_cles": [
+    "destruction créatrice",
+    "entrepreneur",
+    "innovation",
+    "concurrence",
+    "monopole temporaire"
+   ]
+  },
+  {
+   "auteur": "Gary Becker",
+   "ouvrage": "Le Capital humain",
+   "date": "1964",
+   "idee": "L'éducation et la formation sont un investissement en capital humain qui accroît la productivité et les revenus.",
+   "a_quoi_ca_sert": "justifier l'investissement dans l'éducation et la formation",
+   "partie_lecon": "II.C.2 – La croissance endogène",
+   "mots_cles": [
+    "capital humain",
+    "éducation",
+    "formation",
+    "productivité"
+   ]
+  },
+  {
+   "auteur": "Theodore Schultz",
+   "ouvrage": "",
+   "date": "1961",
+   "idee": "Il est à l'origine de la notion de capital humain reprise par Lucas.",
+   "a_quoi_ca_sert": "remonter à l'origine du concept de capital humain",
+   "partie_lecon": "II.C.2 – Lucas",
+   "mots_cles": [
+    "capital humain",
+    "éducation"
+   ]
+  },
+  {
+   "auteur": "Paul Romer",
+   "ouvrage": "Increasing Returns and Long-Run Growth",
+   "date": "1986",
+   "idee": "L'accumulation de capital physique crée des externalités positives (learning by doing) qui rendent la croissance auto-entretenue ; l'État doit subventionner l'investissement.",
+   "a_quoi_ca_sert": "justifier des aides publiques à l'investissement privé et à la R&D",
+   "partie_lecon": "II.C.2 – Romer 1986",
+   "mots_cles": [
+    "croissance endogène",
+    "externalités",
+    "rendements croissants",
+    "subventions",
+    "R&D"
+   ]
+  },
+  {
+   "auteur": "Paul Romer",
+   "ouvrage": "Endogenous Technological Change",
+   "date": "1990",
+   "idee": "Les idées issues de la R&D sont non rivales et s'accumulent sans s'épuiser ; le marché en produit trop peu, l'État doit financer la recherche.",
+   "a_quoi_ca_sert": "défendre le financement public de la recherche et une diffusion large des innovations",
+   "partie_lecon": "II.C.2 – Romer 1990",
+   "mots_cles": [
+    "R&D",
+    "connaissance",
+    "bien non rival",
+    "brevets",
+    "défaillance de marché"
+   ]
+  },
+  {
+   "auteur": "Robert Lucas",
+   "ouvrage": "On the Mechanics of Economic Development",
+   "date": "1988",
+   "idee": "Le capital humain a des externalités positives (un travailleur qualifié rend ses collègues plus productifs) ; l'État doit financer l'éducation.",
+   "a_quoi_ca_sert": "justifier les dépenses d'éducation et de formation comme moteur de croissance",
+   "partie_lecon": "II.C.2 – Lucas",
+   "mots_cles": [
+    "capital humain",
+    "éducation",
+    "externalités",
+    "croissance endogène"
+   ]
+  },
+  {
+   "auteur": "Robert Barro",
+   "ouvrage": "Government Spending in a Simple Model of Endogenous Growth",
+   "date": "1990",
+   "idee": "Les infrastructures publiques rendent le capital privé plus productif, mais financées par l'impôt elles exigent un taux d'imposition optimal.",
+   "a_quoi_ca_sert": "défendre l'investissement public dans les infrastructures tout en limitant la pression fiscale",
+   "partie_lecon": "II.C.2 – Barro",
+   "mots_cles": [
+    "capital public",
+    "infrastructures",
+    "impôt",
+    "effet d'éviction",
+    "attractivité"
+   ]
+  },
+  {
+   "auteur": "Arthur Laffer",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Courbe de Laffer : au-delà d'un certain taux, l'impôt freine l'activité et ses propres recettes.",
+   "a_quoi_ca_sert": "argumenter sur un niveau d'imposition qui ne décourage pas la production",
+   "partie_lecon": "II.C.2 – Barro (taux optimal)",
+   "mots_cles": [
+    "courbe de Laffer",
+    "fiscalité",
+    "incitations",
+    "prélèvements obligatoires"
+   ]
+  },
+  {
+   "auteur": "Gene M. Grossman et Elhanan Helpman",
+   "ouvrage": "Endogenous Innovation in the Theory of Growth",
+   "date": "1994",
+   "idee": "La croissance peut être qualitative : la qualité et la valeur des produits augmentent sans hausse des quantités.",
+   "a_quoi_ca_sert": "montrer que la montée en gamme est une source de croissance",
+   "partie_lecon": "II.C.2 – Grossman et Helpman",
+   "mots_cles": [
+    "croissance qualitative",
+    "montée en gamme",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "Philippe Aghion et Peter Howitt",
+   "ouvrage": "Endogenous Growth Theory",
+   "date": "1997",
+   "idee": "Modèle néo-schumpétérien : la R&D produit des innovations qui rendent les anciennes obsolètes ; il faut des rentes de monopole (brevets) pour inciter à innover.",
+   "a_quoi_ca_sert": "justifier la protection des innovations par les brevets",
+   "partie_lecon": "II.C.2 – Aghion et Howitt",
+   "mots_cles": [
+    "destruction créatrice",
+    "brevets",
+    "rente de monopole",
+    "R&D"
+   ],
+   "a_verifier": "Endogenous Growth Theory est en général daté de 1998"
+  },
+  {
+   "auteur": "Philippe Aghion et Peter Howitt",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Sans leader, la concurrence pousse à innover pour y échapper (escape competition) ; la politique optimale dépend de la distance à la frontière technologique.",
+   "a_quoi_ca_sert": "défendre une politique de la concurrence adaptée (contre les abus des géants) et des politiques éducatives selon le niveau du pays",
+   "partie_lecon": "II.C.2 – Aghion et Howitt",
+   "mots_cles": [
+    "escape competition",
+    "politique de la concurrence",
+    "frontière technologique",
+    "protectionnisme éducateur"
+   ]
+  },
+  {
+   "auteur": "Douglass North",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les institutions (formelles et informelles) sont les règles du jeu ; en réduisant l'incertitude et en protégeant la propriété, elles permettent la croissance (Royaume-Uni, brevets, Bill of Rights).",
+   "a_quoi_ca_sert": "montrer que la sécurité juridique et la protection de la propriété conditionnent l'investissement",
+   "partie_lecon": "II.C.3 – Nouvelle économie institutionnelle",
+   "mots_cles": [
+    "institutions",
+    "droits de propriété",
+    "sécurité juridique",
+    "incertitude",
+    "brevets"
+   ]
+  },
+  {
+   "auteur": "Douglass North",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Des institutions inefficaces peuvent persister par dépendance au sentier si elles servent des groupes dominants ; la croissance exige que produire rapporte plus que la prédation.",
+   "a_quoi_ca_sert": "expliquer pourquoi certains pays restent bloqués malgré des réformes possibles",
+   "partie_lecon": "II.C.3 – Nouvelle économie institutionnelle",
+   "mots_cles": [
+    "dépendance au sentier",
+    "prédation",
+    "incitations",
+    "réformes"
+   ]
+  },
+  {
+   "auteur": "Daron Acemoglu et James Robinson",
+   "ouvrage": "Prospérité, puissance et pauvreté",
+   "date": "2012",
+   "idee": "Les institutions inclusives favorisent croissance et innovation durables, les institutions extractives une croissance fragile au profit d'une élite.",
+   "a_quoi_ca_sert": "comparer des trajectoires (Norvège vs Qatar, régimes autoritaires vs démocraties)",
+   "partie_lecon": "II.C.3 – Acemoglu et Robinson ; Supplément Norvège vs Qatar",
+   "mots_cles": [
+    "institutions inclusives",
+    "institutions extractives",
+    "rente",
+    "démocratie",
+    "fonds souverain"
+   ]
+  },
+  {
+   "auteur": "Daron Acemoglu",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'IA n'aurait qu'un impact faible sur la productivité (environ 0,07 %).",
+   "a_quoi_ca_sert": "nuancer l'optimisme sur l'IA",
+   "partie_lecon": "III.C – Croissance, IA et emploi",
+   "mots_cles": [
+    "IA",
+    "productivité",
+    "pessimisme"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La qualité des institutions est le déterminant fondamental de la croissance, mais il n'existe pas de modèle unique : leur forme doit s'adapter au contexte local.",
+   "a_quoi_ca_sert": "critiquer l'importation d'un modèle institutionnel unique",
+   "partie_lecon": "II.C.3 – Rodrik",
+   "mots_cles": [
+    "institutions",
+    "contexte local",
+    "modèle unique",
+    "développement"
+   ]
+  },
+  {
+   "auteur": "Joel Mokyr",
+   "ouvrage": "La Culture de la croissance",
+   "date": "2016",
+   "idee": "La croissance moderne naît d'une « culture de la croissance » : la croyance dans le progrès et un savoir devenu bien public.",
+   "a_quoi_ca_sert": "montrer le rôle de la culture et de la science ouverte dans l'innovation ; contrer le pessimisme de Gordon",
+   "partie_lecon": "II.C.3 – Mokyr",
+   "mots_cles": [
+    "culture de la croissance",
+    "science",
+    "optimisme",
+    "Prix Nobel 2025"
+   ]
+  },
+  {
+   "auteur": "Joel Mokyr",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La fragmentation de l'Europe a mis les États en concurrence et les a obligés à protéger l'innovation.",
+   "a_quoi_ca_sert": "expliquer qu'une rivalité entre puissances (États-Unis, Chine, UE) stimule les politiques d'innovation",
+   "partie_lecon": "II.C.3 – Mokyr",
+   "mots_cles": [
+    "concurrence entre États",
+    "Europe",
+    "innovation",
+    "rivalité"
+   ]
+  },
+  {
+   "auteur": "Alvin Hansen",
+   "ouvrage": "Economic Progress and Declining Population Growth",
+   "date": "1939",
+   "idee": "La stagnation séculaire naît de la fin de la croissance démographique, du ralentissement du progrès technique et d'un excès d'épargne.",
+   "a_quoi_ca_sert": "expliquer une croissance durablement faible dans des pays vieillissants",
+   "partie_lecon": "III.A – Les théories de la fin de la croissance",
+   "mots_cles": [
+    "stagnation séculaire",
+    "démographie",
+    "excès d'épargne",
+    "progrès technique"
+   ]
+  },
+  {
+   "auteur": "Larry Summers",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Après 2008, la stagnation séculaire vient d'un excès d'épargne face à un investissement atrophié (émergents, précaution, QE, vieillissement).",
+   "a_quoi_ca_sert": "expliquer des taux bas et une croissance faible malgré des politiques monétaires accommodantes",
+   "partie_lecon": "III.A – Larry Summers",
+   "mots_cles": [
+    "stagnation séculaire",
+    "épargne",
+    "taux d'intérêt",
+    "quantitative easing",
+    "vieillissement"
+   ]
+  },
+  {
+   "auteur": "Ben Bernanke",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le « saving glut » : l'épargne non dépensée des émergents exportateurs se déverse sur le monde.",
+   "a_quoi_ca_sert": "expliquer les déséquilibres mondiaux d'épargne et les excédents chinois",
+   "partie_lecon": "III.A – Larry Summers",
+   "mots_cles": [
+    "saving glut",
+    "excès d'épargne",
+    "émergents",
+    "déséquilibres mondiaux"
+   ]
+  },
+  {
+   "auteur": "Robert Gordon",
+   "ouvrage": "",
+   "date": "1999",
+   "idee": "La forte croissance des XIXe-XXe siècles est une « grande vague » exceptionnelle : les pays développés ont atteint un plateau technologique.",
+   "a_quoi_ca_sert": "relativiser l'espoir d'un retour à une forte croissance",
+   "partie_lecon": "III.B – Analyse de R. Gordon",
+   "mots_cles": [
+    "fin de la croissance",
+    "plateau technologique",
+    "pessimisme",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "Robert Gordon",
+   "ouvrage": "The Rise and Fall of American Growth",
+   "date": "2016",
+   "idee": "Six « vents contraires » freinent la croissance : démographie, éducation, inégalités, dette des États-providence, mondialisation, contraintes environnementales.",
+   "a_quoi_ca_sert": "expliquer la croissance faible des pays développés par des causes structurelles",
+   "partie_lecon": "III.B – Analyse de R. Gordon",
+   "mots_cles": [
+    "vents contraires",
+    "inégalités",
+    "vieillissement",
+    "environnement",
+    "techno-pessimisme"
+   ]
+  },
+  {
+   "auteur": "Nicholas Bloom et al.",
+   "ouvrage": "Are Ideas Getting Harder to Find?",
+   "date": "2020",
+   "idee": "Le coût des idées augmente : 20 fois plus de chercheurs depuis 1930 sans hausse de la croissance, la productivité de la recherche s'effondre.",
+   "a_quoi_ca_sert": "montrer que la R&D subit des rendements décroissants et qu'il faut des moyens croissants pour innover",
+   "partie_lecon": "III.B – Bloom",
+   "mots_cles": [
+    "R&D",
+    "productivité de la recherche",
+    "rendements décroissants",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "Gregory Verdugo",
+   "ouvrage": "L'IA et l'emploi : un impact très incertain sur le marché du travail",
+   "date": "2025",
+   "idee": "L'IA automatise des tâches plutôt que des métiers : substitution quand elle couvre toutes les tâches, complémentarité sinon, avec un risque de surveillance accrue.",
+   "a_quoi_ca_sert": "nuancer les discours sur le chômage de masse causé par l'IA",
+   "partie_lecon": "III.C – Croissance, IA et emploi",
+   "mots_cles": [
+    "IA",
+    "emploi",
+    "automatisation",
+    "tâches",
+    "surveillance"
+   ]
+  },
+  {
+   "auteur": "Philippe Aghion, Simon Bunel et Xavier Jaravel",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'IA peut ajouter 0,8 à 1,3 point de productivité par an, aider les moins qualifiés et créer de l'emploi, si l'on garantit concurrence, diffusion aux PME et éducation.",
+   "a_quoi_ca_sert": "défendre une vision optimiste de l'IA et les conditions de politique publique associées",
+   "partie_lecon": "III.C – Croissance, IA et emploi",
+   "mots_cles": [
+    "IA",
+    "productivité",
+    "concurrence",
+    "PME",
+    "éducation",
+    "GAFAM"
+   ]
+  }
+ ],
+ "id": "1A-croissance",
+ "programme_chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+}

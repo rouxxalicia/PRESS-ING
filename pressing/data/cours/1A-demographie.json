@@ -1,0 +1,681 @@
+{
+ "chapitre": "Les transformations démographiques",
+ "annee": "1A",
+ "module": "Module 2 – Croissance et développement",
+ "source_doc": "Les transformations démographiques",
+ "mots_cles_actu": [
+  "natalité",
+  "fécondité",
+  "naissances",
+  "INSEE bilan démographique",
+  "solde naturel",
+  "vieillissement",
+  "hiver démographique",
+  "réarmement démographique",
+  "politique familiale",
+  "congé de naissance",
+  "crèches",
+  "retraites",
+  "réforme des retraites",
+  "dépendance",
+  "EHPAD",
+  "immigration",
+  "solde migratoire",
+  "loi immigration",
+  "Japon démographie",
+  "Chine natalité",
+  "Afrique population",
+  "Nigeria",
+  "Niger",
+  "explosion démographique",
+  "silver economy"
+ ],
+ "references": [
+  {
+   "auteur": "Adolphe Landry",
+   "ouvrage": "La Révolution démographique",
+   "date": "1934",
+   "idee": "Les populations passent d'un régime à forte natalité et forte mortalité à un régime où les deux taux sont bas : c'est la « révolution démographique ».",
+   "a_quoi_ca_sert": "montrer qu'une baisse de la natalité est l'aboutissement normal du développement, pas une anomalie",
+   "partie_lecon": "I.B – Décollage démographique en Europe (transition démographique)",
+   "mots_cles": [
+    "transition démographique",
+    "natalité",
+    "mortalité",
+    "développement"
+   ]
+  },
+  {
+   "auteur": "Frank W. Notestein",
+   "ouvrage": "",
+   "date": "1945",
+   "idee": "La transition démographique se déroule en phases successives : la mortalité baisse d'abord, puis la natalité la rejoint à un niveau bas.",
+   "a_quoi_ca_sert": "situer un pays dans la transition (Afrique subsaharienne en explosion, Japon ou Europe en phase post-transitionnelle)",
+   "partie_lecon": "I.B – Transition démographique : un modèle qui reflète le niveau de développement",
+   "mots_cles": [
+    "transition démographique",
+    "phases",
+    "explosion démographique",
+    "pays en développement"
+   ]
+  },
+  {
+   "auteur": "Philippe Ariès",
+   "ouvrage": "L'Enfant et la vie familiale sous l'Ancien Régime",
+   "date": "1960",
+   "idee": "Avec la chute de la mortalité infantile, l'enfant devient un bien rare et précieux : on en fait moins pour mieux s'en occuper.",
+   "a_quoi_ca_sert": "montrer que la baisse de la natalité a aussi des causes affectives et culturelles, pas seulement économiques",
+   "partie_lecon": "I.B – Deuxième étape de la transition (évolution de l'affect)",
+   "mots_cles": [
+    "mortalité infantile",
+    "statut de l'enfant",
+    "famille",
+    "natalité"
+   ]
+  },
+  {
+   "auteur": "Thomas Malthus",
+   "ouvrage": "Essai sur le principe de population",
+   "date": "1798",
+   "idee": "La population croît plus vite que les subsistances (rendements décroissants de la terre) ; il faut des freins préventifs (mariage tardif) et supprimer les aides aux pauvres.",
+   "a_quoi_ca_sert": "montrer la crainte d'une surpopulation face aux ressources (famines, crises alimentaires, pression sur l'eau et les terres)",
+   "partie_lecon": "I.C.1 – Les pessimistes",
+   "mots_cles": [
+    "surpopulation",
+    "rendements décroissants",
+    "freins préventifs",
+    "famine",
+    "aides sociales"
+   ]
+  },
+  {
+   "auteur": "Thomas Malthus",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il défend les Corn Laws pour garantir la souveraineté alimentaire et ne pas dépendre des importations.",
+   "a_quoi_ca_sert": "éclairer une logique d'autosuffisance alimentaire (PAC, opposition des agriculteurs au Mercosur)",
+   "partie_lecon": "I.C.1 – Rappel Corn Laws (Ricardo ≠ Malthus)",
+   "mots_cles": [
+    "Corn Laws",
+    "souveraineté alimentaire",
+    "protectionnisme agricole",
+    "PAC",
+    "Mercosur"
+   ]
+  },
+  {
+   "auteur": "Pierre-Joseph Proudhon",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« Il n'y a qu'un seul homme de trop sur la Terre, c'est Monsieur Malthus » : la misère vient de la propriété, non du nombre.",
+   "a_quoi_ca_sert": "critiquer une lecture démographique de la pauvreté au profit d'une lecture en termes de répartition",
+   "partie_lecon": "I.C.1 – Critiques de Malthus",
+   "mots_cles": [
+    "critique de Malthus",
+    "propriété",
+    "pauvreté",
+    "inégalités"
+   ]
+  },
+  {
+   "auteur": "Karl Marx",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La « surpopulation absolue » de Malthus n'est qu'une « surpopulation relative » liée au contexte social et économique.",
+   "a_quoi_ca_sert": "montrer que le chômage ou la misère dépendent de l'organisation économique, pas d'une loi naturelle de population",
+   "partie_lecon": "I.C.3 – L'optimisme démographique (erreurs de Malthus)",
+   "mots_cles": [
+    "surpopulation relative",
+    "critique de Malthus",
+    "capitalisme",
+    "chômage"
+   ]
+  },
+  {
+   "auteur": "Turgot",
+   "ouvrage": "Réflexions sur la formation et la distribution des richesses",
+   "date": "1766",
+   "idee": "Il théorise le premier la loi des rendements décroissants : plus la population croît, plus la production marginale agricole décline, d'où l'intérêt de limiter la population.",
+   "a_quoi_ca_sert": "montrer qu'une population nombreuse peut buter sur la limite des ressources, sauf investissement en capital",
+   "partie_lecon": "I.C.1 – Les pessimistes",
+   "mots_cles": [
+    "rendements décroissants",
+    "agriculture",
+    "investissement",
+    "population"
+   ]
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "Principes de l'économie politique et de l'impôt",
+   "date": "1817",
+   "idee": "La croissance de la population oblige à cultiver des terres moins fertiles, ce qui gonfle la rente, comprime les profits et mène à l'état stationnaire.",
+   "a_quoi_ca_sert": "montrer qu'une pression démographique peut bloquer l'accumulation du capital ; justifier le libre-échange agricole (abrogation des Corn Laws, Mercosur)",
+   "partie_lecon": "I.C.1 – Les pessimistes",
+   "mots_cles": [
+    "état stationnaire",
+    "rente",
+    "Corn Laws",
+    "avantages comparatifs",
+    "libre-échange"
+   ]
+  },
+  {
+   "auteur": "Robert Solow",
+   "ouvrage": "A Contribution to the Theory of Economic Growth",
+   "date": "1956",
+   "idee": "Une croissance démographique rapide réduit le capital par tête, donc la productivité et le niveau de vie.",
+   "a_quoi_ca_sert": "montrer qu'une faible natalité peut préserver le capital par tête (Allemagne) ou qu'une forte natalité freine le développement",
+   "partie_lecon": "I.C.2 – Les prolongements néo-malthusiens",
+   "mots_cles": [
+    "capital par tête",
+    "productivité",
+    "niveau de vie",
+    "néoclassique"
+   ]
+  },
+  {
+   "auteur": "Harvey Leibenstein",
+   "ouvrage": "Economic Backwardness and Economic Growth",
+   "date": "1957",
+   "idee": "Si la population croît plus vite que l'économie, le revenu reste au niveau de subsistance : pas d'épargne, pas d'investissement, pas de croissance (cercle vicieux).",
+   "a_quoi_ca_sert": "expliquer qu'un pays à forte natalité reste piégé dans la pauvreté sans investissement dans l'éducation et les infrastructures",
+   "partie_lecon": "I.C.2 – Les prolongements néo-malthusiens",
+   "mots_cles": [
+    "trappe à pauvreté",
+    "épargne",
+    "investissement",
+    "pays en développement"
+   ]
+  },
+  {
+   "auteur": "Ansley J. Coale et Edgar M. Hoover",
+   "ouvrage": "Population Growth and Economic Development in Low-Income Countries",
+   "date": "1958",
+   "idee": "La baisse de la fécondité crée un dividende démographique : la population en âge de travailler devient majoritaire et dope la productivité.",
+   "a_quoi_ca_sert": "expliquer le décollage chinois ou asiatique, et montrer que ce gain se paie ensuite par le vieillissement",
+   "partie_lecon": "I.C.2 – Les prolongements néo-malthusiens",
+   "mots_cles": [
+    "dividende démographique",
+    "population active",
+    "Chine",
+    "fécondité"
+   ]
+  },
+  {
+   "auteur": "Paul Ehrlich",
+   "ouvrage": "La Bombe P",
+   "date": "1968",
+   "idee": "L'impact environnemental dépend de la population, du niveau de consommation et des techniques : I = P × A × T.",
+   "a_quoi_ca_sert": "relier croissance démographique, surconsommation et crise écologique ; éclairer l'éco-anxiété qui freine la natalité",
+   "partie_lecon": "I.C.2 – Les prolongements néo-malthusiens",
+   "mots_cles": [
+    "néo-malthusianisme",
+    "environnement",
+    "IPAT",
+    "ressources",
+    "éco-anxiété"
+   ],
+   "a_verifier": "la formule I = PAT est en général datée d'Ehrlich et Holdren (1971), pas de La Bombe P"
+  },
+  {
+   "auteur": "Jean Bodin",
+   "ouvrage": "Les Six Livres de la République",
+   "date": "1576",
+   "idee": "« Il n'est de richesse ni force que d'hommes » : une population nombreuse fournit main-d'œuvre bon marché, excédent commercial et puissance militaire.",
+   "a_quoi_ca_sert": "montrer que la démographie est un enjeu de puissance (réarmement démographique, rivalité Chine-Inde)",
+   "partie_lecon": "I.C.3 – L'optimisme démographique (populationnisme mercantiliste)",
+   "mots_cles": [
+    "populationnisme",
+    "mercantilisme",
+    "puissance",
+    "compétitivité-prix"
+   ]
+  },
+  {
+   "auteur": "Ester Boserup",
+   "ouvrage": "Évolution agraire et pression démographique",
+   "date": "1965",
+   "idee": "La pression démographique est une « pression créatrice » qui pousse à innover pour augmenter les rendements agricoles.",
+   "a_quoi_ca_sert": "contredire Malthus : une population en hausse peut stimuler l'innovation (révolution verte en Inde)",
+   "partie_lecon": "I.C.3 – L'optimisme démographique",
+   "mots_cles": [
+    "pression créatrice",
+    "innovation agricole",
+    "optimisme démographique",
+    "rendements"
+   ]
+  },
+  {
+   "auteur": "Alvin Hansen",
+   "ouvrage": "Full Recovery or Stagnation?",
+   "date": "1938",
+   "idee": "Le déclin démographique, la fin de la frontière et le ralentissement du progrès technique créent une stagnation séculaire : trop d'épargne, pas assez d'investissement.",
+   "a_quoi_ca_sert": "montrer qu'une population qui baisse freine la demande et l'investissement ; justifier la dépense publique",
+   "partie_lecon": "I.C.3 – L'optimisme démographique (pessimisme du déclin)",
+   "mots_cles": [
+    "stagnation séculaire",
+    "déclin démographique",
+    "demande",
+    "dépense publique"
+   ]
+  },
+  {
+   "auteur": "Alfred Sauvy",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La croissance démographique rajeunit la population, ce qui favorise l'innovation et l'esprit d'entreprise.",
+   "a_quoi_ca_sert": "montrer qu'une société vieillissante risque de perdre en dynamisme (à nuancer avec le Niger ou la Corée)",
+   "partie_lecon": "I.C.3 – L'optimisme démographique",
+   "mots_cles": [
+    "jeunesse",
+    "innovation",
+    "esprit d'entreprise",
+    "vieillissement"
+   ]
+  },
+  {
+   "auteur": "Paul Beaudry",
+   "ouvrage": "",
+   "date": "2005",
+   "idee": "Les nouvelles technologies (NTIC) se diffusent plus vite là où la population active est jeune et nombreuse.",
+   "a_quoi_ca_sert": "montrer qu'un pays vieillissant peut adopter plus lentement l'IA ou le numérique",
+   "partie_lecon": "I.C.3 – L'optimisme démographique",
+   "mots_cles": [
+    "diffusion technologique",
+    "NTIC",
+    "population jeune",
+    "progrès technique"
+   ],
+   "a_verifier": "date et référence exacte du travail non précisées dans le cours"
+  },
+  {
+   "auteur": "Julian Simon",
+   "ouvrage": "The Ultimate Resource",
+   "date": "1981",
+   "idee": "Plus de population, c'est plus d'esprits créatifs, donc plus d'idées, qui améliorent la productivité de tous.",
+   "a_quoi_ca_sert": "défendre l'idée que la population est une ressource et non une charge",
+   "partie_lecon": "I.C.3 – L'optimisme démographique",
+   "mots_cles": [
+    "innovation",
+    "idées",
+    "optimisme démographique",
+    "productivité"
+   ],
+   "a_verifier": "titre et date absents du cours (ajoutés) ; traduction française possible « L'Homme, notre dernière chance »"
+  },
+  {
+   "auteur": "Philippe Aghion",
+   "ouvrage": "Cours au Collège de France",
+   "date": "2016",
+   "idee": "L'allongement de l'espérance de vie pousse à épargner pour la retraite, donc à investir ; les dépenses de santé et d'éducation sont des investissements productifs.",
+   "a_quoi_ca_sert": "présenter la dépense sociale comme un investissement et nuancer l'idée que le vieillissement n'est qu'un fardeau",
+   "partie_lecon": "I.C.3 – L'optimisme démographique (capital humain)",
+   "mots_cles": [
+    "capital humain",
+    "espérance de vie",
+    "dépenses de santé",
+    "investissement social",
+    "économies d'échelle"
+   ]
+  },
+  {
+   "auteur": "Jean-Claude Chesnais",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Une « récession démographique planétaire » s'annonce vers 2100, ce qui oblige à penser une croissance sans hausse de la population.",
+   "a_quoi_ca_sert": "montrer que le vrai défi futur est le déclin de la population, pas son explosion",
+   "partie_lecon": "I.C.3 – L'optimisme démographique (récession démographique)",
+   "mots_cles": [
+    "récession démographique",
+    "déclin",
+    "modèle de croissance",
+    "population mondiale"
+   ]
+  },
+  {
+   "auteur": "Franco Modigliani",
+   "ouvrage": "",
+   "date": "1963",
+   "idee": "Théorie du cycle de vie : on s'endette jeune, on épargne à l'âge mûr, on désépargne à la retraite.",
+   "a_quoi_ca_sert": "expliquer qu'un pays âgé a une capacité de financement et un pays jeune un besoin de financement, d'où les flux internationaux de capitaux",
+   "partie_lecon": "I.C – Théorie du cycle de vie",
+   "mots_cles": [
+    "cycle de vie",
+    "épargne",
+    "besoin de financement",
+    "capitaux internationaux"
+   ],
+   "a_verifier": "hypothèse formulée dès 1954 avec Brumberg ; 1963 = article Ando-Modigliani ; Nobel 1985"
+  },
+  {
+   "auteur": "Ragnar Nurkse",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les pays pauvres sont enfermés dans des cercles vicieux de pauvreté où le manque d'épargne bloque l'investissement.",
+   "a_quoi_ca_sert": "relier manque d'épargne et sous-développement, en complément de Modigliani",
+   "partie_lecon": "I.C – Théorie du cycle de vie (renvoi)",
+   "mots_cles": [
+    "cercle vicieux de la pauvreté",
+    "épargne",
+    "sous-développement"
+   ]
+  },
+  {
+   "auteur": "Richard Easterlin",
+   "ouvrage": "",
+   "date": "1961",
+   "idee": "La fécondité est cyclique : une génération peu nombreuse trouve un marché du travail facile et fait beaucoup d'enfants, une génération nombreuse en fait peu.",
+   "a_quoi_ca_sert": "expliquer baby-boom et baby-krach, et pourquoi précarité et chômage des jeunes retardent les naissances",
+   "partie_lecon": "I.C – Les cycles d'Easterlin",
+   "mots_cles": [
+    "fécondité cyclique",
+    "baby-boom",
+    "génération creuse",
+    "marché du travail",
+    "aspirations"
+   ]
+  },
+  {
+   "auteur": "Gérard-François Dumont",
+   "ouvrage": "Les théories des cycles et les perspectives de la fécondité en France",
+   "date": "2017",
+   "idee": "Il applique les cycles d'Easterlin aux perspectives de fécondité en France.",
+   "a_quoi_ca_sert": "relier la baisse actuelle des naissances en France à une lecture cyclique",
+   "partie_lecon": "I.C – Les cycles d'Easterlin",
+   "mots_cles": [
+    "Easterlin",
+    "fécondité",
+    "France",
+    "cycles"
+   ]
+  },
+  {
+   "auteur": "Esther Duflo",
+   "ouvrage": "",
+   "date": "2003",
+   "idee": "En Afrique australe, une pension vieillesse non contributive a fait chuter la fécondité et a été réinvestie dans la santé et la scolarisation des filles.",
+   "a_quoi_ca_sert": "montrer que la protection sociale fait baisser la natalité dans les pays pauvres mieux que la contrainte",
+   "partie_lecon": "I.C – Rationalité des familles nombreuses dans les pays peu développés",
+   "mots_cles": [
+    "retraite",
+    "fécondité",
+    "Afrique",
+    "capital humain",
+    "scolarisation des filles"
+   ]
+  },
+  {
+   "auteur": "Gary Becker",
+   "ouvrage": "An Economic Analysis of Fertility",
+   "date": "1960",
+   "idee": "Avoir un enfant résulte d'un calcul coûts/avantages : le coût d'opportunité monte et les parents préfèrent la qualité à la quantité d'enfants.",
+   "a_quoi_ca_sert": "expliquer la baisse de la natalité dans les pays riches et les limites des chèques natalistes",
+   "partie_lecon": "II.A – Expliquer la baisse de la fécondité (économie de la famille)",
+   "mots_cles": [
+    "coût de l'enfant",
+    "coût d'opportunité",
+    "qualité-quantité",
+    "natalité"
+   ]
+  },
+  {
+   "auteur": "Daniel Cohen",
+   "ouvrage": "La Prospérité du vice",
+   "date": "2009",
+   "idee": "La baisse de la natalité vient de la diffusion d'un modèle culturel unique : le nombre de télévisions pèse plus que le revenu ou l'éducation.",
+   "a_quoi_ca_sert": "montrer que la dénatalité est un fait culturel mondial lié à la société de consommation et à l'individualisme",
+   "partie_lecon": "II.A – La baisse de la fécondité est un fait culturel mondial",
+   "mots_cles": [
+    "dénatalité",
+    "culture",
+    "médias",
+    "individualisme",
+    "société de consommation"
+   ]
+  },
+  {
+   "auteur": "Philippe Mesmer (Le Monde)",
+   "ouvrage": "Le Japon s'enfonce dans la crise démographique",
+   "date": "2026",
+   "idee": "Malgré 19,6 milliards d'euros par an d'aides familiales, la natalité japonaise s'effondre car la précarité du travail n'est pas traitée.",
+   "a_quoi_ca_sert": "montrer l'échec des incitations financières seules et le dilemme entre besoin de main-d'œuvre et refus de l'immigration",
+   "partie_lecon": "II.A – Cas du Japon",
+   "mots_cles": [
+    "Japon",
+    "natalité",
+    "précarité",
+    "immigration",
+    "politique familiale"
+   ]
+  },
+  {
+   "auteur": "Yomiuri Shimbun (éditorial)",
+   "ouvrage": "",
+   "date": "2025",
+   "idee": "Beaucoup de ceux qui sont en emploi précaire hésitent à se marier ou à avoir des enfants.",
+   "a_quoi_ca_sert": "relier stabilité de l'emploi et natalité",
+   "partie_lecon": "II.A – Cas du Japon",
+   "mots_cles": [
+    "précarité",
+    "emploi stable",
+    "natalité",
+    "Japon"
+   ]
+  },
+  {
+   "auteur": "Toru Kikkawa",
+   "ouvrage": "Hinoeuma, 2026, dou naru ?",
+   "date": "2026",
+   "idee": "La superstition de l'année du Cheval de feu peut encore faire chuter les naissances au Japon (−25 % en 1966).",
+   "a_quoi_ca_sert": "montrer le poids des croyances culturelles sur la fécondité",
+   "partie_lecon": "II.A – Cas du Japon",
+   "mots_cles": [
+    "Japon",
+    "superstition",
+    "natalité",
+    "culture"
+   ]
+  },
+  {
+   "auteur": "Isabelle Attané",
+   "ouvrage": "La fin de l'enfant unique en Chine ?",
+   "date": "2016",
+   "idee": "La Chine fait face à une fécondité très basse et à un vieillissement rapide que ni la politique des deux enfants ni celle des trois enfants n'enrayent.",
+   "a_quoi_ca_sert": "illustrer le revers du dividende démographique chinois et l'échec des relances natalistes",
+   "partie_lecon": "II.A – Cas de la Chine",
+   "mots_cles": [
+    "Chine",
+    "enfant unique",
+    "vieillissement",
+    "politique nataliste"
+   ]
+  },
+  {
+   "auteur": "Lucie Robequain (Les Échos)",
+   "ouvrage": "Le Niger au défi d'une natalité record",
+   "date": "2023",
+   "idee": "Scolariser les filles en internat les protège du mariage précoce et constitue un levier contre la très forte natalité.",
+   "a_quoi_ca_sert": "montrer que l'éducation des filles est la clé de la baisse de la fécondité en Afrique",
+   "partie_lecon": "II.A – Cas du Nigéria / Niger",
+   "mots_cles": [
+    "Niger",
+    "éducation des filles",
+    "mariage précoce",
+    "natalité",
+    "Afrique"
+   ],
+   "a_verifier": "le cours écrit « Nigéria » mais l'article et les chiffres portent sur le Niger"
+  },
+  {
+   "auteur": "Gilles Pison",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le contrôle de la natalité conditionne les aides de la Banque mondiale, mais beaucoup de pays africains pensent que « le nombre fait la force ».",
+   "a_quoi_ca_sert": "montrer le décalage entre politiques de contraception imposées et valeurs natalistes locales",
+   "partie_lecon": "II.A – Cas du Nigéria (contraception)",
+   "mots_cles": [
+    "contraception",
+    "Banque mondiale",
+    "Afrique",
+    "natalité"
+   ]
+  },
+  {
+   "auteur": "Gilles Pison",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il n'existe pas d'« exception africaine » : la fécondité baisse en Afrique, simplement plus tard qu'ailleurs.",
+   "a_quoi_ca_sert": "nuancer le discours de « bombe démographique » africaine",
+   "partie_lecon": "II.A – Cas du Nigéria (perspective africaine)",
+   "mots_cles": [
+    "Afrique",
+    "transition démographique",
+    "bombe démographique",
+    "fécondité"
+   ]
+  },
+  {
+   "auteur": "Pauline Rossi",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Distribuer des contraceptifs ne change pas la fécondité : le manque d'accès à la contraception n'explique pas la forte natalité.",
+   "a_quoi_ca_sert": "montrer que la natalité dépend du désir d'enfants, donc des incitations sociales, pas de l'offre de contraception",
+   "partie_lecon": "II.A – Cas du Nigéria (efficacité des campagnes de contraception)",
+   "mots_cles": [
+    "contraception",
+    "fécondité",
+    "expérience",
+    "Afrique"
+   ]
+  },
+  {
+   "auteur": "Pauline Rossi",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les règles d'héritage défavorables aux femmes font de la maternité nombreuse leur seule assurance vieillesse.",
+   "a_quoi_ca_sert": "expliquer la forte fécondité par les institutions (héritage, absence de retraite)",
+   "partie_lecon": "II.A – Cas du Nigéria (loi coranique et héritage)",
+   "mots_cles": [
+    "héritage",
+    "droits des femmes",
+    "assurance vieillesse",
+    "fécondité"
+   ]
+  },
+  {
+   "auteur": "Catherine Guirkinger",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Entre 1920 et 1939, les empires coloniaux ont mené des politiques natalistes en Afrique par crainte de manquer de main-d'œuvre.",
+   "a_quoi_ca_sert": "montrer la responsabilité historique des colonisateurs dans la forte natalité africaine",
+   "partie_lecon": "II.A – Cas du Nigéria (rôle des Occidentaux)",
+   "mots_cles": [
+    "colonisation",
+    "politique nataliste",
+    "Afrique",
+    "main-d'œuvre"
+   ]
+  },
+  {
+   "auteur": "Jean-Baptiste Say",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il partage la maxime malthusienne qui privilégie l'épargne sur la procréation.",
+   "a_quoi_ca_sert": "expliquer la baisse précoce de la natalité française",
+   "partie_lecon": "II.A – Cas de la France (explications de la précocité)",
+   "mots_cles": [
+    "épargne",
+    "malthusianisme",
+    "France",
+    "natalité"
+   ]
+  },
+  {
+   "auteur": "Arsène Dumont",
+   "ouvrage": "Dépopulation et civilisation. Étude démographique",
+   "date": "1890",
+   "idee": "La « capillarité sociale » : quand l'ascension sociale devient possible, les familles font moins d'enfants pour concentrer leurs ressources.",
+   "a_quoi_ca_sert": "expliquer la baisse de la natalité par l'ambition sociale et le coût de l'éducation",
+   "partie_lecon": "II.A – Cas de la France (explications de la précocité)",
+   "mots_cles": [
+    "capillarité sociale",
+    "mobilité sociale",
+    "natalité",
+    "France"
+   ]
+  },
+  {
+   "auteur": "Jacques Bertillon",
+   "ouvrage": "",
+   "date": "1896",
+   "idee": "Il fonde l'Alliance nationale pour l'accroissement de la population française, lobby nataliste face au déclin démographique.",
+   "a_quoi_ca_sert": "montrer l'ancienneté de l'angoisse démographique française et l'origine de la politique familiale",
+   "partie_lecon": "II.A – Cas de la France (sursaut populationniste)",
+   "mots_cles": [
+    "natalisme",
+    "politique familiale",
+    "déclin",
+    "puissance"
+   ]
+  },
+  {
+   "auteur": "Catherine Scornet",
+   "ouvrage": "",
+   "date": "2024",
+   "idee": "Le solde migratoire explique près de 90 % de la hausse de la population française en 2024.",
+   "a_quoi_ca_sert": "montrer que l'immigration soutient la démographie française au lieu de la menacer",
+   "partie_lecon": "II.A – Cas de la France",
+   "mots_cles": [
+    "solde migratoire",
+    "immigration",
+    "population",
+    "France"
+   ]
+  },
+  {
+   "auteur": "Ilyes Zouari",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La France devrait diversifier son immigration vers davantage d'Européens pour faciliter l'intégration.",
+   "a_quoi_ca_sert": "nourrir un débat sur la composition et la politique d'immigration",
+   "partie_lecon": "III.A – Repères historiques (plan d'immigration)",
+   "mots_cles": [
+    "immigration",
+    "intégration",
+    "francophonie",
+    "politique migratoire"
+   ]
+  },
+  {
+   "auteur": "OCDE et CEPII (rapports)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'impact net de l'immigration sur les finances publiques françaises est très limité (léger coût de 0,3 à 0,5 % du PIB), dû au moindre emploi des immigrés.",
+   "a_quoi_ca_sert": "objectiver le débat sur le « coût » de l'immigration",
+   "partie_lecon": "III.B – Immigration et économie",
+   "mots_cles": [
+    "immigration",
+    "finances publiques",
+    "emploi",
+    "métiers en tension"
+   ]
+  },
+  {
+   "auteur": "François Héran",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Il faudrait 94 millions d'immigrés pour maintenir le ratio actifs/retraités de 1995 : l'immigration ne sauve pas les retraites.",
+   "a_quoi_ca_sert": "montrer que l'immigration n'est qu'un amortisseur temporaire du vieillissement",
+   "partie_lecon": "III.B – Immigration et économie",
+   "mots_cles": [
+    "immigration",
+    "retraites",
+    "vieillissement",
+    "ratio de dépendance"
+   ]
+  }
+ ],
+ "id": "1A-demographie",
+ "programme_chapitre": "2.2 – Les transformations des structures économiques, sociales et démographiques depuis le XIXe siècle : transformations démographiques et évolution des modes de vie"
+}

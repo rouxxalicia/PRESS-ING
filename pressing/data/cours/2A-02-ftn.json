@@ -1,0 +1,1161 @@
+{
+ "chapitre": "FTN et mondialisation productive",
+ "annee": "2A",
+ "module": "Module 3 – La mondialisation économique et financière",
+ "source_doc": "2 - FTN ( mondialisation productive)",
+ "mots_cles_actu": [
+  "multinationales",
+  "FMN",
+  "IDE",
+  "investissements étrangers",
+  "Choose France",
+  "délocalisation",
+  "relocalisation",
+  "réindustrialisation",
+  "fermeture d'usine",
+  "fusion-acquisition",
+  "rachat",
+  "contrôle des investissements étrangers",
+  "souveraineté industrielle",
+  "chaînes de valeur",
+  "sous-traitance",
+  "politique industrielle",
+  "France 2030",
+  "clusters",
+  "optimisation fiscale",
+  "concurrence fiscale",
+  "GAFAM",
+  "concentration",
+  "part des salaires",
+  "dividendes",
+  "rachats d'actions"
+ ],
+ "references": [
+  {
+   "auteur": "David E. Lilienthal",
+   "ouvrage": "The Multinational Corporation",
+   "date": "1960",
+   "idee": "Il introduit la notion de firme multinationale : une entreprise possédant au moins une filiale à l'étranger.",
+   "a_quoi_ca_sert": "définir la FMN en introduction",
+   "partie_lecon": "I.1 – Définitions",
+   "mots_cles": [
+    "FMN",
+    "filiale",
+    "définition"
+   ]
+  },
+  {
+   "auteur": "Wladimir Andreff",
+   "ouvrage": "Les Multinationales globales",
+   "date": "2003",
+   "idee": "La FMN est une organisation qui coordonne des intérêts variés, voire divergents (actionnaires, dirigeants, salariés).",
+   "a_quoi_ca_sert": "montrer que la FMN est traversée de conflits d'intérêts",
+   "partie_lecon": "I.1 – Définitions",
+   "mots_cles": [
+    "FMN",
+    "organisation",
+    "conflits d'intérêts"
+   ]
+  },
+  {
+   "auteur": "Ronald Coase",
+   "ouvrage": "La Nature de la firme",
+   "date": "1937",
+   "idee": "La firme existe parce que le marché a des coûts de transaction : elle les réduit en internalisant les échanges sous l'autorité.",
+   "a_quoi_ca_sert": "expliquer pourquoi une firme intègre une activité plutôt que de la sous-traiter",
+   "partie_lecon": "I.2.a – Approches contractuelles ; II.2.d",
+   "mots_cles": [
+    "coûts de transaction",
+    "internalisation",
+    "marché vs firme"
+   ]
+  },
+  {
+   "auteur": "Adolf Berle et Gardiner Means",
+   "ouvrage": "L'Entreprise moderne et la propriété privée",
+   "date": "1932",
+   "idee": "Dans la grande entreprise, la propriété (actionnaires) est séparée du contrôle (managers), dont les intérêts peuvent diverger : fondement de la gouvernance d'entreprise.",
+   "a_quoi_ca_sert": "analyser un conflit entre actionnaires et dirigeants (rémunération des patrons)",
+   "partie_lecon": "I.2.a – Approches contractuelles",
+   "mots_cles": [
+    "firme managériale",
+    "gouvernance d'entreprise",
+    "séparation propriété-contrôle"
+   ]
+  },
+  {
+   "auteur": "Oliver Williamson",
+   "ouvrage": "Markets and Hierarchies: Analysis and Antitrust Implications",
+   "date": "1975",
+   "idee": "La firme remplace le marché quand les actifs sont spécifiques, les transactions fréquentes et l'environnement incertain, du fait de la rationalité limitée et de l'opportunisme.",
+   "a_quoi_ca_sert": "expliquer un choix d'intégration verticale",
+   "partie_lecon": "I.2.a – Approches contractuelles",
+   "mots_cles": [
+    "coûts de transaction",
+    "spécificité des actifs",
+    "opportunisme",
+    "rationalité limitée"
+   ]
+  },
+  {
+   "auteur": "Oliver Williamson",
+   "ouvrage": "Markets and Hierarchies: Analysis and Antitrust Implications",
+   "date": "1975",
+   "idee": "Plus les actifs sont spécifiques et les transactions fréquentes, plus la firme a intérêt à produire elle-même à l'étranger via un IDE ; les clusters réduisent aussi ces coûts.",
+   "a_quoi_ca_sert": "expliquer pourquoi une FMN choisit l'IDE plutôt que la sous-traitance",
+   "partie_lecon": "II.2.d – Avantage d'internalisation",
+   "mots_cles": [
+    "internalisation",
+    "IDE",
+    "coûts de transaction",
+    "clusters"
+   ]
+  },
+  {
+   "auteur": "Oliver Williamson",
+   "ouvrage": "Les Institutions de l'économie",
+   "date": "1994",
+   "idee": "Il existe des modes d'internationalisation d'engagement croissant entre commerce et IDE : licence, franchise, sous-traitance, alliance.",
+   "a_quoi_ca_sert": "classer les stratégies d'une entreprise à l'étranger",
+   "partie_lecon": "II.2.a – Degrés d'internationalisation",
+   "mots_cles": [
+    "licence",
+    "franchise",
+    "sous-traitance",
+    "alliance stratégique"
+   ]
+  },
+  {
+   "auteur": "Armen Alchian et Harold Demsetz",
+   "ouvrage": "Production, Information Costs, and Economic Organization",
+   "date": "1972",
+   "idee": "La production en équipe empêche de mesurer l'effort de chacun : il faut un propriétaire qui surveille et touche le profit résiduel.",
+   "a_quoi_ca_sert": "expliquer le salariat et le rôle du propriétaire dans l'entreprise",
+   "partie_lecon": "I.2.a – Approches contractuelles",
+   "mots_cles": [
+    "droits de propriété",
+    "travail d'équipe",
+    "passager clandestin",
+    "créancier résiduel"
+   ]
+  },
+  {
+   "auteur": "Michael Jensen et William Meckling",
+   "ouvrage": "Theory of the Firm: Managerial Behavior, Agency Costs, and Capital Structure",
+   "date": "1976",
+   "idee": "La relation d'agence entre actionnaires et dirigeants est marquée par l'information incomplète (sélection adverse, aléa moral, hold-up).",
+   "a_quoi_ca_sert": "analyser le contrôle des dirigeants par les actionnaires",
+   "partie_lecon": "I.2.a – Approches contractuelles",
+   "mots_cles": [
+    "théorie de l'agence",
+    "aléa moral",
+    "sélection adverse",
+    "gouvernance"
+   ]
+  },
+  {
+   "auteur": "Richard Cyert et James March",
+   "ouvrage": "A Behavioral Theory of the Firm",
+   "date": "1963",
+   "idee": "La firme est une coalition d'acteurs aux intérêts divergents qui gère ses conflits par des compromis et garde un « slack organisationnel ».",
+   "a_quoi_ca_sert": "montrer que l'entreprise n'est pas un agent unifié qui maximise le profit",
+   "partie_lecon": "I.2.b – Approches non contractuelles",
+   "mots_cles": [
+    "coalition",
+    "conflits",
+    "slack organisationnel",
+    "béhaviorisme"
+   ]
+  },
+  {
+   "auteur": "Herbert Simon",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Rationalité limitée : les dirigeants ne maximisent pas, ils cherchent un résultat satisfaisant.",
+   "a_quoi_ca_sert": "critiquer l'hypothèse de rationalité parfaite des firmes",
+   "partie_lecon": "I.2.b – Approches non contractuelles",
+   "mots_cles": [
+    "rationalité limitée",
+    "décision",
+    "satisfaction"
+   ]
+  },
+  {
+   "auteur": "Richard Nelson et Sidney Winter",
+   "ouvrage": "An Evolutionary Theory of Economic Change",
+   "date": "1982",
+   "idee": "La firme est faite de routines ; elle survit si elle sait innover et remettre en cause ses routines.",
+   "a_quoi_ca_sert": "expliquer la reconversion ou le déclin d'une entreprise",
+   "partie_lecon": "I.2.b – Approches non contractuelles",
+   "mots_cles": [
+    "routines",
+    "innovation",
+    "évolutionnisme",
+    "adaptation"
+   ]
+  },
+  {
+   "auteur": "Henri Bourguinat",
+   "ouvrage": "Finance internationale",
+   "date": "1992",
+   "idee": "Modèle des 3D (déréglementation, désintermédiation, décloisonnement) : la globalisation financière accélère l'essor des FTN.",
+   "a_quoi_ca_sert": "relier globalisation financière et multinationalisation",
+   "partie_lecon": "I.3 – Évolution du nombre de FTN ; II.3.e",
+   "mots_cles": [
+    "3D",
+    "globalisation financière",
+    "déréglementation"
+   ]
+  },
+  {
+   "auteur": "El Mouhoub Mouhoud",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les 100 plus grandes FMN (0,1 % du total) concentrent 30 % des filiales et 60 % de la VA des FMN ; la plupart sont petites.",
+   "a_quoi_ca_sert": "montrer la concentration extrême du pouvoir des multinationales",
+   "partie_lecon": "I.3 – Évolution du nombre de FTN",
+   "mots_cles": [
+    "concentration",
+    "FMN",
+    "valeur ajoutée"
+   ]
+  },
+  {
+   "auteur": "James Zhan (CNUCED)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La production internationale doit se rééquilibrer vers la demande régionale et les services.",
+   "a_quoi_ca_sert": "analyser la régionalisation des chaînes de valeur",
+   "partie_lecon": "I.4.a – Mesure de l'internationalisation",
+   "mots_cles": [
+    "régionalisation",
+    "services",
+    "CNUCED"
+   ]
+  },
+  {
+   "auteur": "Hans-Werner Sinn",
+   "ouvrage": "L'Économie du bazar",
+   "date": "2005",
+   "idee": "Un pays peut battre des records d'exportation alors que la VA créée chez lui s'effondre : il assemble des pièces importées mais garde les segments les plus rentables.",
+   "a_quoi_ca_sert": "nuancer un excédent commercial (Allemagne) ou une désindustrialisation",
+   "partie_lecon": "I.4.b – Mesure par les IDE",
+   "mots_cles": [
+    "économie de bazar",
+    "DIPP",
+    "valeur ajoutée",
+    "Allemagne"
+   ],
+   "a_verifier": "date : 2005 dans la leçon, 2004 dans la fiche"
+  },
+  {
+   "auteur": "Robert Mundell",
+   "ouvrage": "International Trade and Factor Mobility",
+   "date": "1957",
+   "idee": "L'IDE sert à contourner le protectionnisme et se substitue au commerce ; mais depuis 1970 IDE et commerce progressent ensemble.",
+   "a_quoi_ca_sert": "expliquer une implantation pour contourner des droits de douane",
+   "partie_lecon": "II.1 – Limites des théories classiques",
+   "mots_cles": [
+    "tariff-jumping",
+    "IDE",
+    "protectionnisme",
+    "mobilité du capital"
+   ]
+  },
+  {
+   "auteur": "Suzanne Berger",
+   "ouvrage": "Made in Monde",
+   "date": "2006",
+   "idee": "Les modes d'internationalisation varient selon les cultures managériales (marché aux États-Unis, internalisation au Japon) avec les mêmes chances de réussite.",
+   "a_quoi_ca_sert": "montrer qu'il n'existe pas un seul modèle de multinationale",
+   "partie_lecon": "II.2.a – Degrés d'internationalisation",
+   "mots_cles": [
+    "sous-traitance",
+    "cultures managériales",
+    "internalisation"
+   ]
+  },
+  {
+   "auteur": "John Dunning",
+   "ouvrage": "International Production and the Multinational Enterprise",
+   "date": "1981",
+   "idee": "Paradigme OLI : une firme fait un IDE si elle cumule un avantage spécifique (O), un avantage de localisation (L) et un intérêt à internaliser (I) ; sinon licence ou exportation.",
+   "a_quoi_ca_sert": "expliquer pourquoi une firme investit à l'étranger plutôt que d'exporter",
+   "partie_lecon": "II.2 – Paradigme OLI ; II.5 – Paradigme 1",
+   "mots_cles": [
+    "OLI",
+    "IDE",
+    "avantage spécifique",
+    "localisation",
+    "internalisation"
+   ],
+   "a_verifier": "première formulation en 1977"
+  },
+  {
+   "auteur": "Stephen Hymer",
+   "ouvrage": "",
+   "date": "1968",
+   "idee": "Une firme ne s'implante à l'étranger que si elle dispose d'un avantage spécifique transférable pour surmonter les surcoûts face aux firmes locales.",
+   "a_quoi_ca_sert": "expliquer la domination des GAFAM à l'étranger",
+   "partie_lecon": "II.2.b – Avantage spécifique",
+   "mots_cles": [
+    "avantage spécifique",
+    "IDE",
+    "pouvoir de marché"
+   ]
+  },
+  {
+   "auteur": "James Markusen",
+   "ouvrage": "",
+   "date": "2002",
+   "idee": "L'avantage spécifique de la firme est la condition de son implantation à l'étranger.",
+   "a_quoi_ca_sert": "compléter Hymer sur l'avantage spécifique",
+   "partie_lecon": "II.2.b – Avantage spécifique",
+   "mots_cles": [
+    "avantage spécifique",
+    "FMN"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "American Business Abroad",
+   "date": "1969",
+   "idee": "La firme étrangère subit des handicaps (liabilities of foreignness) qu'elle ne compense que par un avantage spécifique.",
+   "a_quoi_ca_sert": "expliquer les difficultés d'une entreprise à l'étranger",
+   "partie_lecon": "II.2.b – Avantage spécifique",
+   "mots_cles": [
+    "handicap de l'étranger",
+    "avantage spécifique",
+    "IDE"
+   ]
+  },
+  {
+   "auteur": "Jan Tinbergen",
+   "ouvrage": "Shaping the World Economy: Suggestions for an International Economic Policy",
+   "date": "1962",
+   "idee": "Équation de gravité : les échanges et IDE entre deux pays croissent avec leur taille économique et diminuent avec la distance géographique, culturelle et institutionnelle.",
+   "a_quoi_ca_sert": "expliquer pourquoi les flux se concentrent entre voisins (États-Unis/Canada, UE)",
+   "partie_lecon": "II.2.c – Avantage de localisation ; III.1.b – Équations de gravité",
+   "mots_cles": [
+    "équation de gravité",
+    "distance",
+    "IDE",
+    "proximité"
+   ]
+  },
+  {
+   "auteur": "S. Lael Brainard",
+   "ouvrage": "",
+   "date": "1997",
+   "idee": "Arbitrage proximité-concentration : produire près des clients ou concentrer pour les économies d'échelle.",
+   "a_quoi_ca_sert": "expliquer la localisation d'usines dans les pays consommateurs",
+   "partie_lecon": "II.2.d – Avantage d'internalisation",
+   "mots_cles": [
+    "arbitrage proximité-concentration",
+    "économies d'échelle",
+    "localisation"
+   ],
+   "a_verifier": "la fiche cite Brainard 2002 pour l'équation de gravité"
+  },
+  {
+   "auteur": "Jan Johanson et Jan-Erik Vahlne",
+   "ouvrage": "The Internationalization Process of the Firm",
+   "date": "1977",
+   "idee": "Modèle Uppsala : l'internationalisation est progressive et dépend de la distance psychique ; les Born Global le nuancent.",
+   "a_quoi_ca_sert": "analyser la stratégie d'expansion d'une PME ou start-up",
+   "partie_lecon": "II.2.e – Modèles complémentaires",
+   "mots_cles": [
+    "modèle Uppsala",
+    "distance psychique",
+    "Born Global",
+    "internationalisation"
+   ]
+  },
+  {
+   "auteur": "Douglass North",
+   "ouvrage": "Institutions, Institutional Change and Economic Performance",
+   "date": "1990",
+   "idee": "Les institutions sont les règles du jeu ; des institutions stables réduisent l'incertitude et attirent les investissements.",
+   "a_quoi_ca_sert": "expliquer pourquoi l'instabilité politique repousse les IDE (Afrique)",
+   "partie_lecon": "II.3 – Déterminants de la localisation",
+   "mots_cles": [
+    "institutions",
+    "droits de propriété",
+    "attractivité",
+    "incertitude"
+   ]
+  },
+  {
+   "auteur": "Suzanne Berger",
+   "ouvrage": "Made in Monde",
+   "date": "2006",
+   "idee": "Les firmes raisonnent en coût unitaire du travail (productivité incluse), pas en salaire horaire : les bas salaires ne garantissent pas la compétitivité.",
+   "a_quoi_ca_sert": "nuancer l'idée que les délocalisations vont vers les salaires les plus bas",
+   "partie_lecon": "II.3.a – Diminuer les coûts",
+   "mots_cles": [
+    "coût unitaire du travail",
+    "productivité",
+    "délocalisation"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "Geography and Trade",
+   "date": "1991",
+   "idee": "Les entreprises gagnent à se localiser dans des zones déjà denses en activités similaires (clusters).",
+   "a_quoi_ca_sert": "expliquer l'attractivité d'un cluster",
+   "partie_lecon": "II.3.d – Externalités positives",
+   "mots_cles": [
+    "clusters",
+    "agglomération",
+    "externalités"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Effet taille du marché (home market effect) : un vaste marché intérieur attire les IDE.",
+   "a_quoi_ca_sert": "expliquer pourquoi les IDE vont vers les États-Unis",
+   "partie_lecon": "I.4.b – Destination des IDE",
+   "mots_cles": [
+    "home market effect",
+    "IDE",
+    "États-Unis"
+   ]
+  },
+  {
+   "auteur": "Thierry Mayer et Jean-Louis Mucchielli",
+   "ouvrage": "",
+   "date": "1999",
+   "idee": "L'agglomération accroît aussi la concurrence locale entre firmes.",
+   "a_quoi_ca_sert": "nuancer les avantages des clusters",
+   "partie_lecon": "II.3.d – Externalités positives",
+   "mots_cles": [
+    "agglomération",
+    "concurrence",
+    "clusters"
+   ]
+  },
+  {
+   "auteur": "Fabrice Defever et Jean-Louis Mucchielli",
+   "ouvrage": "Décomposition internationale de la chaîne de valeur",
+   "date": "2005",
+   "idee": "Sur 11 000 décisions de FMN européennes, le déterminant de la localisation dépend du segment de la chaîne de valeur (amont, fabrication, aval).",
+   "a_quoi_ca_sert": "expliquer la répartition géographique d'une chaîne de valeur (Peugeot 208)",
+   "partie_lecon": "II.3.e – Subventions et réglementations",
+   "mots_cles": [
+    "chaîne de valeur",
+    "localisation",
+    "courbe du sourire"
+   ]
+  },
+  {
+   "auteur": "Frederick Knickerbocker",
+   "ouvrage": "Oligopolistic Reaction and Multinational Enterprise",
+   "date": "1973",
+   "idee": "En oligopole, quand le leader s'internationalise, les concurrents le suivent pour ne pas le laisser trop puissant.",
+   "a_quoi_ca_sert": "expliquer des vagues d'implantations simultanées à l'étranger",
+   "partie_lecon": "II.4 – Knickerbocker",
+   "mots_cles": [
+    "réaction oligopolistique",
+    "oligopole",
+    "internationalisation"
+   ]
+  },
+  {
+   "auteur": "Heinrich von Stackelberg",
+   "ouvrage": "Structures de marché et équilibre",
+   "date": "1934",
+   "idee": "Modèle leader-suiveur : la firme qui décide en premier obtient un profit supérieur (avantage du premier entrant).",
+   "a_quoi_ca_sert": "analyser l'arrivée d'un concurrent sur un marché ouvert (TGV, téléphonie)",
+   "partie_lecon": "II.4 – Knickerbocker ; onglet Stackelberg",
+   "mots_cles": [
+    "leader-suiveur",
+    "oligopole",
+    "first mover advantage",
+    "Cournot"
+   ]
+  },
+  {
+   "auteur": "OMC",
+   "ouvrage": "Rapport sur le développement des chaînes de valeur mondiales",
+   "date": "2017",
+   "idee": "Trois paradigmes de la multinationalisation : firme standard (OLI), firmes hétérogènes, firme-réseau des chaînes de valeur.",
+   "a_quoi_ca_sert": "situer une stratégie de FMN dans l'histoire des théories",
+   "partie_lecon": "II.5 – Multinationalisation selon l'OMC",
+   "mots_cles": [
+    "chaînes de valeur mondiales",
+    "firmes hétérogènes",
+    "firme-réseau"
+   ]
+  },
+  {
+   "auteur": "Elhanan Helpman, Marc Melitz et Stephen Yeaple",
+   "ouvrage": "Export versus FDI with Heterogeneous Firms",
+   "date": "2004",
+   "idee": "Seules les firmes les plus productives peuvent exporter ou investir à l'étranger, du fait des coûts fixes.",
+   "a_quoi_ca_sert": "expliquer pourquoi peu de firmes deviennent multinationales",
+   "partie_lecon": "II.5 – Paradigme 2",
+   "mots_cles": [
+    "firmes hétérogènes",
+    "productivité",
+    "IDE",
+    "exportation"
+   ]
+  },
+  {
+   "auteur": "Suzanne Berger",
+   "ouvrage": "Made in Monde",
+   "date": "2006",
+   "idee": "Second dégroupement : les firmes adoptent une logique modulaire et pensent en tâches, chaque segment étant placé là où il est le plus avantageux.",
+   "a_quoi_ca_sert": "expliquer la fragmentation des chaînes de valeur",
+   "partie_lecon": "II.5 – Paradigme 3 ; III.2.b",
+   "mots_cles": [
+    "DIPP",
+    "logique modulaire",
+    "commerce de tâches",
+    "chaînes de valeur"
+   ]
+  },
+  {
+   "auteur": "Patrick Verley",
+   "ouvrage": "Entreprises et entrepreneurs du XVIIIe siècle au début du XXe siècle",
+   "date": "1994",
+   "idee": "Jusqu'au début du XXe siècle domine une logique d'approvisionnement (intégration verticale vers les matières premières) ; les stratégies de marché se renforcent dans les années 1920.",
+   "a_quoi_ca_sert": "montrer que la sécurisation des ressources est un motif historique de l'IDE",
+   "partie_lecon": "III.1.a – Évolution des IDE",
+   "mots_cles": [
+    "approvisionnement",
+    "intégration verticale",
+    "matières premières",
+    "histoire des FMN"
+   ]
+  },
+  {
+   "auteur": "Patrick Verley",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Après 1945, la multinationalisation s'accélère, portée par les firmes américaines (52 % des IDE en 1960) qui contournent la « forteresse Europe ».",
+   "a_quoi_ca_sert": "illustrer la domination américaine des IDE pendant les Trente Glorieuses",
+   "partie_lecon": "III.1.a – Après la 2GM",
+   "mots_cles": [
+    "Trente Glorieuses",
+    "IDE américains",
+    "Europe"
+   ]
+  },
+  {
+   "auteur": "Kenichi Ohmae",
+   "ouvrage": "La Triade",
+   "date": "1985",
+   "idee": "Le commerce mondial passe d'une structure bipolaire à une configuration triadique (États-Unis, Europe, Japon).",
+   "a_quoi_ca_sert": "décrire la géographie des flux d'IDE",
+   "partie_lecon": "III.1.a – Après la 2GM",
+   "mots_cles": [
+    "Triade",
+    "IDE",
+    "Nord-Nord"
+   ]
+  },
+  {
+   "auteur": "Pierre Norel",
+   "ouvrage": "Économie internationale : faits, théories et politiques",
+   "date": "1994",
+   "idee": "Les filiales relais des entreprises multidomestiques reproduisent localement les produits de la maison mère (IDE horizontal).",
+   "a_quoi_ca_sert": "illustrer la logique d'IDE horizontal",
+   "partie_lecon": "III.1.a – Après la 2GM",
+   "mots_cles": [
+    "filiales relais",
+    "IDE horizontal",
+    "multidomestique"
+   ]
+  },
+  {
+   "auteur": "John McCallum",
+   "ouvrage": "National Borders Matter: Canada-U.S. Regional Trade Patterns",
+   "date": "1995",
+   "idee": "Effet frontière : à distance égale, deux régions d'un même pays échangent beaucoup plus que deux régions de pays différents.",
+   "a_quoi_ca_sert": "montrer que les frontières pèsent encore (intérêt du marché unique)",
+   "partie_lecon": "III.1.b – Équations de gravité",
+   "mots_cles": [
+    "effet frontière",
+    "commerce régional",
+    "gravité"
+   ]
+  },
+  {
+   "auteur": "Wladimir Andreff",
+   "ouvrage": "Les Multinationales globales",
+   "date": "2003",
+   "idee": "Les firmes passent d'une configuration internationale à multinationale puis globale : la firme-réseau financiarisée optimise la planète et externalise la fabrication.",
+   "a_quoi_ca_sert": "analyser la stratégie globale d'une FMN sous pression actionnariale",
+   "partie_lecon": "III.1.c – Configurations historiques",
+   "mots_cles": [
+    "stratégie globale",
+    "firme-réseau",
+    "financiarisation",
+    "rationalisation"
+   ]
+  },
+  {
+   "auteur": "Richard Baldwin",
+   "ouvrage": "Global Supply Chains: Why They Emerged, Why They Matter, and Where They Are Going",
+   "date": "2012",
+   "idee": "Premier dégroupement (XIXe) : production séparée de la consommation par la baisse des transports ; second (1990) : étapes de production séparées par la baisse des coûts de coordination.",
+   "a_quoi_ca_sert": "expliquer la fragmentation des chaînes de valeur mondiales",
+   "partie_lecon": "III.2.b – Pourquoi la production s'est fragmentée",
+   "mots_cles": [
+    "dégroupement",
+    "chaînes de valeur",
+    "coûts de coordination",
+    "NTIC"
+   ]
+  },
+  {
+   "auteur": "Rosier",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le système productif est l'ensemble des structures de règles qui régissent les processus de production.",
+   "a_quoi_ca_sert": "définir le système productif",
+   "partie_lecon": "III.3.a – Nouveau système productif",
+   "mots_cles": [
+    "système productif",
+    "définition"
+   ]
+  },
+  {
+   "auteur": "Jean-Hervé Lorenzi",
+   "ouvrage": "Ordre et désordre dans l'économie monde",
+   "date": "2002",
+   "idee": "Depuis 1980, un nouveau système productif repose sur la connaissance, les NTIC, les coûts fixes, le toyotisme et de nouveaux modèles d'affaires.",
+   "a_quoi_ca_sert": "décrire les mutations productives contemporaines",
+   "partie_lecon": "III.3.a – Nouveau système productif",
+   "mots_cles": [
+    "toyotisme",
+    "connaissance",
+    "NTIC",
+    "coûts fixes"
+   ]
+  },
+  {
+   "auteur": "Howard Perlmutter",
+   "ouvrage": "",
+   "date": "1969",
+   "idee": "Stratégie « glocale » : ethnocentrisme, polycentrisme puis régiocentrisme/géocentrisme du management.",
+   "a_quoi_ca_sert": "analyser l'adaptation d'une FMN aux marchés locaux",
+   "partie_lecon": "III.3.b – IDE et systèmes productifs",
+   "mots_cles": [
+    "glocalisation",
+    "ethnocentrisme",
+    "polycentrisme",
+    "management"
+   ]
+  },
+  {
+   "auteur": "CNUCED",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Quatre tendances déterminent la stratégie des firmes : relocalisation, diversification, régionalisation, fabrication additive.",
+   "a_quoi_ca_sert": "analyser une relocalisation ou une régionalisation de chaîne de valeur",
+   "partie_lecon": "III.3.c – Numérique et IDE",
+   "mots_cles": [
+    "relocalisation",
+    "régionalisation",
+    "impression 3D"
+   ]
+  },
+  {
+   "auteur": "Charles Tiebout",
+   "ouvrage": "A Pure Theory of Local Expenditures",
+   "date": "1956",
+   "idee": "Les agents mobiles « votent avec leurs pieds » : la concurrence fiscale entre territoires révèle les préférences.",
+   "a_quoi_ca_sert": "analyser la concurrence fiscale pour attirer les FMN",
+   "partie_lecon": "IV.1.a – Mise en concurrence des territoires",
+   "mots_cles": [
+    "concurrence fiscale",
+    "vote avec les pieds",
+    "attractivité"
+   ]
+  },
+  {
+   "auteur": "George Stigler",
+   "ouvrage": "The Theory of Economic Regulation",
+   "date": "1971",
+   "idee": "Capture réglementaire : les grandes firmes peuvent faire pression sur les États pour obtenir des règles favorables.",
+   "a_quoi_ca_sert": "dénoncer l'influence des FMN sur les États (BlackRock, chaebols)",
+   "partie_lecon": "IV.1.a – Mise en concurrence des territoires",
+   "mots_cles": [
+    "capture réglementaire",
+    "lobbying",
+    "pouvoir des FMN"
+   ]
+  },
+  {
+   "auteur": "Enrico Moretti",
+   "ouvrage": "The New Geography of Jobs",
+   "date": "2012",
+   "idee": "Un emploi qualifié dans le secteur exposé crée 4 à 5 emplois induits localement : l'attractivité repose sur les clusters.",
+   "a_quoi_ca_sert": "justifier une politique de pôles et chiffrer l'effet d'une fermeture d'usine",
+   "partie_lecon": "IV.1.a – Mise en concurrence des territoires",
+   "mots_cles": [
+    "multiplicateur local",
+    "clusters",
+    "emploi",
+    "attractivité"
+   ]
+  },
+  {
+   "auteur": "Philippe Frocrain et Pierre-Noël Giraud (CEPII)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "En France, 100 emplois exposés créent environ 80 emplois abrités.",
+   "a_quoi_ca_sert": "chiffrer l'effet local d'une implantation industrielle en France",
+   "partie_lecon": "IV.1.a – Mise en concurrence des territoires",
+   "mots_cles": [
+    "emplois exposés",
+    "emplois abrités",
+    "multiplicateur"
+   ]
+  },
+  {
+   "auteur": "Élie Cohen et Jean-Hervé Lorenzi",
+   "ouvrage": "Politiques industrielles pour l'Europe",
+   "date": "2000",
+   "idee": "La politique industrielle est une politique ciblée justifiée par la dépendance nationale, l'autonomie technologique ou la faillite de l'initiative privée.",
+   "a_quoi_ca_sert": "définir la politique industrielle",
+   "partie_lecon": "IV.1.b – Politiques industrielles (ancienne version)",
+   "mots_cles": [
+    "politique industrielle",
+    "autonomie technologique",
+    "externalités"
+   ]
+  },
+  {
+   "auteur": "CNUCED",
+   "ouvrage": "",
+   "date": "2018",
+   "idee": "La politique industrielle vise à bâtir des systèmes industriels et des capacités productives et à développer marchés intérieurs et d'exportation.",
+   "a_quoi_ca_sert": "définir la politique industrielle de façon moderne",
+   "partie_lecon": "IV.1.b – Politiques industrielles (ancienne version)",
+   "mots_cles": [
+    "politique industrielle",
+    "capacités productives"
+   ]
+  },
+  {
+   "auteur": "Philippe Aghion et Peter Howitt",
+   "ouvrage": "Appropriate Growth Policy: A Unifying Framework",
+   "date": "2005",
+   "idee": "L'efficacité d'une politique industrielle dépend de la distance à la frontière technologique : protéger pour rattraper au Sud, stimuler concurrence et innovation au Nord.",
+   "a_quoi_ca_sert": "évaluer un plan industriel (France 2030) ou des champions nationaux",
+   "partie_lecon": "IV.1.b – Politiques industrielles",
+   "mots_cles": [
+    "frontière technologique",
+    "politique industrielle",
+    "rattrapage",
+    "innovation"
+   ]
+  },
+  {
+   "auteur": "Philippe Aghion, Nick Bloom, Richard Blundell, Rachel Griffith et Peter Howitt",
+   "ouvrage": "Competition and Innovation: An Inverted-U Relationship",
+   "date": "2005",
+   "idee": "La relation entre concurrence et innovation est en U inversé : trop peu ou trop de concurrence freine l'innovation.",
+   "a_quoi_ca_sert": "évaluer une politique de concurrence ou une concentration",
+   "partie_lecon": "Onglet U inversé",
+   "mots_cles": [
+    "concurrence",
+    "innovation",
+    "U inversé",
+    "effet Schumpeter"
+   ]
+  },
+  {
+   "auteur": "Abba Lerner",
+   "ouvrage": "",
+   "date": "1934",
+   "idee": "L'indice de Lerner (prix − coût marginal) / prix mesure le pouvoir de marché.",
+   "a_quoi_ca_sert": "mesurer le pouvoir de marché d'une firme",
+   "partie_lecon": "Onglet U inversé",
+   "mots_cles": [
+    "pouvoir de marché",
+    "indice de Lerner"
+   ]
+  },
+  {
+   "auteur": "Jaap Bos, James Kolari et Ryan van Lamoen",
+   "ouvrage": "",
+   "date": "2009",
+   "idee": "La relation en U inversé entre concurrence et innovation se vérifie aussi dans la banque américaine.",
+   "a_quoi_ca_sert": "étendre le U inversé aux services",
+   "partie_lecon": "Onglet U inversé",
+   "mots_cles": [
+    "concurrence",
+    "innovation",
+    "banque"
+   ]
+  },
+  {
+   "auteur": "Paolo Buccirossi et al.",
+   "ouvrage": "",
+   "date": "2011",
+   "idee": "Une meilleure politique de la concurrence améliore la productivité (12 pays de l'OCDE, 1995-2005).",
+   "a_quoi_ca_sert": "défendre une politique antitrust efficace",
+   "partie_lecon": "Onglet U inversé",
+   "mots_cles": [
+    "politique de la concurrence",
+    "productivité",
+    "antitrust"
+   ]
+  },
+  {
+   "auteur": "Oliver Williamson",
+   "ouvrage": "Economies as an Antitrust Defense: The Welfare Tradeoffs",
+   "date": "1968",
+   "idee": "Une fusion peut augmenter le bien-être global si ses gains d'efficacité dépassent la perte sèche due au pouvoir de marché.",
+   "a_quoi_ca_sert": "évaluer une fusion-acquisition (Stellantis, Air France-KLM)",
+   "partie_lecon": "Onglet Fusion-acquisition",
+   "mots_cles": [
+    "fusion-acquisition",
+    "bien-être",
+    "pouvoir de marché",
+    "gains d'efficacité"
+   ]
+  },
+  {
+   "auteur": "Thomas Philippon",
+   "ouvrage": "",
+   "date": "2019",
+   "idee": "La concentration augmente dans tous les secteurs aux États-Unis depuis 2000, ce qui fait monter les prix et les inégalités.",
+   "a_quoi_ca_sert": "critiquer la concentration des GAFAM et les fusions",
+   "partie_lecon": "Onglet Fusion-acquisition",
+   "mots_cles": [
+    "concentration",
+    "GAFAM",
+    "prix",
+    "inégalités"
+   ]
+  },
+  {
+   "auteur": "Lionel Fontagné",
+   "ouvrage": "Pas d'industrie, pas d'avenir ?",
+   "date": "2014",
+   "idee": "Il faut distinguer l'industrie au sens strict (fabrication) de l'activité industrielle (conception, organisation de la chaîne, marque, propriété intellectuelle) qu'une firme peut garder en délocalisant.",
+   "a_quoi_ca_sert": "nuancer la désindustrialisation (Apple, Dyson)",
+   "partie_lecon": "IV.1.c – Politique industrielle et activité industrielle",
+   "mots_cles": [
+    "activité industrielle",
+    "désindustrialisation",
+    "courbe du sourire",
+    "propriété intellectuelle"
+   ]
+  },
+  {
+   "auteur": "CEPII",
+   "ouvrage": "",
+   "date": "2017-2018",
+   "idee": "La désindustrialisation française résulte d'un arbitrage en faveur du pouvoir d'achat : marges effondrées, investissement bridé, délocalisations.",
+   "a_quoi_ca_sert": "expliquer la désindustrialisation française",
+   "partie_lecon": "IV.2.a – Désindustrialisation",
+   "mots_cles": [
+    "désindustrialisation",
+    "France",
+    "marges",
+    "pouvoir d'achat"
+   ]
+  },
+  {
+   "auteur": "Robert Rowthorn et Ramana Ramaswamy",
+   "ouvrage": "Deindustrialisation: Causes and Consequences",
+   "date": "1997",
+   "idee": "La désindustrialisation est surtout un processus interne et normal des économies matures (gains de productivité industriels, loi d'Engel).",
+   "a_quoi_ca_sert": "relativiser la responsabilité des délocalisations",
+   "partie_lecon": "IV.2.a – Désindustrialisation",
+   "mots_cles": [
+    "désindustrialisation",
+    "tertiarisation",
+    "productivité",
+    "loi d'Engel"
+   ]
+  },
+  {
+   "auteur": "Ernst Engel",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Loi d'Engel : quand le revenu augmente, la demande se déplace vers les services.",
+   "a_quoi_ca_sert": "expliquer la tertiarisation des économies riches",
+   "partie_lecon": "IV.2.a – Désindustrialisation",
+   "mots_cles": [
+    "loi d'Engel",
+    "tertiarisation",
+    "demande"
+   ]
+  },
+  {
+   "auteur": "Lilas Demmou",
+   "ouvrage": "La Désindustrialisation en France",
+   "date": "2010",
+   "idee": "Entre 1980 et 2007, la concurrence étrangère n'explique que 13 % des pertes d'emplois industriels, contre 30 % pour l'évolution de la demande.",
+   "a_quoi_ca_sert": "chiffrer le faible poids des délocalisations dans la désindustrialisation",
+   "partie_lecon": "IV.2.a – Désindustrialisation",
+   "mots_cles": [
+    "désindustrialisation",
+    "emploi industriel",
+    "concurrence étrangère"
+   ]
+  },
+  {
+   "auteur": "DATAR",
+   "ouvrage": "La France, puissance industrielle",
+   "date": "2004",
+   "idee": "La désindustrialisation reflète des mutations sectorielles.",
+   "a_quoi_ca_sert": "compléter l'analyse de la désindustrialisation",
+   "partie_lecon": "Fiche – IV.2.a",
+   "mots_cles": [
+    "désindustrialisation",
+    "mutations sectorielles"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "« Faut-il attendre une vague de relocalisations en France ? »",
+   "date": "2020",
+   "idee": "La France est piégée dans le milieu de gamme : relocaliser le bas de gamme est illusoire, il faut monter en gamme.",
+   "a_quoi_ca_sert": "évaluer un projet de relocalisation",
+   "partie_lecon": "IV.2.a – Désindustrialisation",
+   "mots_cles": [
+    "relocalisation",
+    "montée en gamme",
+    "compétitivité hors-prix",
+    "réindustrialisation"
+   ]
+  },
+  {
+   "auteur": "Jean Arthuis",
+   "ouvrage": "Rapport",
+   "date": "1993",
+   "idee": "Les délocalisations vers les pays à bas salaires détruisent des emplois et alimentent le chômage.",
+   "a_quoi_ca_sert": "appuyer une critique des délocalisations",
+   "partie_lecon": "IV.2.b – Délocalisations et emplois",
+   "mots_cles": [
+    "délocalisations",
+    "chômage",
+    "contenu en emplois"
+   ]
+  },
+  {
+   "auteur": "Vincent Barlet, Didier Blanchet et Laure Crusson (INSEE)",
+   "ouvrage": "",
+   "date": "2010",
+   "idee": "Les délocalisations détruisent 36 000 emplois par an en France, compensés par 40 000 emplois créés par le commerce.",
+   "a_quoi_ca_sert": "nuancer l'effet des délocalisations sur l'emploi",
+   "partie_lecon": "IV.2.b – Délocalisations et emplois",
+   "mots_cles": [
+    "délocalisations",
+    "emploi",
+    "commerce international"
+   ]
+  },
+  {
+   "auteur": "Lionel Fontagné et Jean-Hervé Lorenzi",
+   "ouvrage": "",
+   "date": "2005",
+   "idee": "Les délocalisations au sens strict ne représentent que 7 % des destructions d'emplois (2002-2004).",
+   "a_quoi_ca_sert": "relativiser le rôle des délocalisations",
+   "partie_lecon": "IV.2.b – Délocalisations et emplois",
+   "mots_cles": [
+    "délocalisations",
+    "destructions d'emplois"
+   ]
+  },
+  {
+   "auteur": "Daron Acemoglu, David Autor, David Dorn et Gordon Hanson",
+   "ouvrage": "Import Competition and the Great US Employment Sag of the 2000s",
+   "date": "2016",
+   "idee": "Le choc chinois a détruit 980 000 emplois manufacturiers et plus de 2 millions d'emplois au total aux États-Unis, par contagion entre secteurs.",
+   "a_quoi_ca_sert": "chiffrer l'effet de la concurrence chinoise (justification des droits de douane américains)",
+   "partie_lecon": "IV.2.b – Délocalisations et emplois",
+   "mots_cles": [
+    "choc chinois",
+    "emploi",
+    "États-Unis",
+    "désindustrialisation"
+   ]
+  },
+  {
+   "auteur": "CEPII",
+   "ouvrage": "",
+   "date": "2019",
+   "idee": "La part des salaires dans la VA a reculé de 7,2 points aux États-Unis et 6,6 en Europe (1970-2015), à 70 % à cause d'un changement de gouvernance dans chaque secteur.",
+   "a_quoi_ca_sert": "expliquer la baisse de la part salariale par la gouvernance actionnariale",
+   "partie_lecon": "IV.2.c – Partage de la VA",
+   "mots_cles": [
+    "partage de la valeur ajoutée",
+    "part salariale",
+    "gouvernance",
+    "actionnaires"
+   ]
+  },
+  {
+   "auteur": "Loukas Karabarbounis et Brent Neiman",
+   "ouvrage": "The Global Decline of the Labor Share",
+   "date": "2013",
+   "idee": "La baisse du prix des biens d'investissement pousse à substituer du capital au travail, d'où la baisse de la part salariale.",
+   "a_quoi_ca_sert": "relier automatisation et partage de la VA",
+   "partie_lecon": "IV.2.c – Partage de la VA",
+   "mots_cles": [
+    "part salariale",
+    "automatisation",
+    "capital",
+    "progrès technique"
+   ]
+  },
+  {
+   "auteur": "Germán Gutiérrez et Thomas Philippon",
+   "ouvrage": "Ownership, Concentration and Investment",
+   "date": "2018",
+   "idee": "La montée des investisseurs institutionnels (10 % du capital coté en 1950, 85 % en 2015) impose la valeur actionnariale et réduit salaires et investissement.",
+   "a_quoi_ca_sert": "dénoncer la financiarisation des entreprises (rachats d'actions, dividendes)",
+   "partie_lecon": "IV.2.c – Partage de la VA",
+   "mots_cles": [
+    "investisseurs institutionnels",
+    "valeur actionnariale",
+    "investissement",
+    "financiarisation"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "De l'autosuffisance nationale",
+   "date": "1933",
+   "idee": "Quand les actionnaires sont lointains, ils restent indifférents aux coûts sociaux locaux des fermetures et délocalisations.",
+   "a_quoi_ca_sert": "justifier le contrôle d'un rachat étranger ou critiquer une fermeture d'usine",
+   "partie_lecon": "IV.3 – Patriotisme économique",
+   "mots_cles": [
+    "patriotisme économique",
+    "souveraineté",
+    "délocalisations"
+   ]
+  },
+  {
+   "auteur": "Leo Pasvolsky",
+   "ouvrage": "Economic Nationalism of the Danubian States",
+   "date": "1928",
+   "idee": "Le nationalisme économique naît de la séparation entre propriétaires étrangers et intérêt de la nation d'implantation.",
+   "a_quoi_ca_sert": "définir le patriotisme économique",
+   "partie_lecon": "IV.3.a – Définitions",
+   "mots_cles": [
+    "nationalisme économique",
+    "propriété étrangère"
+   ]
+  },
+  {
+   "auteur": "Michael Heilperin",
+   "ouvrage": "Studies in Economic Nationalism",
+   "date": "1960",
+   "idee": "Le nationalisme économique vise à protéger l'intérêt national face aux décisions de propriétaires étrangers.",
+   "a_quoi_ca_sert": "définir le patriotisme économique",
+   "partie_lecon": "IV.3.a – Définitions",
+   "mots_cles": [
+    "nationalisme économique",
+    "IDE"
+   ]
+  },
+  {
+   "auteur": "Bernard Carayon",
+   "ouvrage": "Rapport",
+   "date": "2003",
+   "idee": "Il forge en France le concept de patriotisme économique et met en garde contre les rétorsions que provoque le contrôle des IDE.",
+   "a_quoi_ca_sert": "analyser un décret de contrôle des investissements étrangers",
+   "partie_lecon": "IV.3.b – Contrôle des IDE",
+   "mots_cles": [
+    "patriotisme économique",
+    "contrôle des IDE",
+    "rétorsion",
+    "intelligence économique"
+   ]
+  },
+  {
+   "auteur": "Michael Porter",
+   "ouvrage": "Competition in Global Industries",
+   "date": "1986",
+   "idee": "La firme globale standardise et optimise à l'échelle mondiale, mais reste en tension avec l'adaptation multidomestique.",
+   "a_quoi_ca_sert": "analyser la stratégie mondiale d'une FMN",
+   "partie_lecon": "IV.4 – La firme globale",
+   "mots_cles": [
+    "firme globale",
+    "multidomestique",
+    "standardisation"
+   ]
+  },
+  {
+   "auteur": "Akio Morita",
+   "ouvrage": "",
+   "date": "",
+   "idee": "« Think global, act local » : la glocalisation concilie stratégie mondiale et adaptation locale.",
+   "a_quoi_ca_sert": "illustrer l'adaptation locale des multinationales",
+   "partie_lecon": "IV.4 – La firme globale",
+   "mots_cles": [
+    "glocalisation",
+    "adaptation locale",
+    "FMN"
+   ]
+  },
+  {
+   "auteur": "Suzanne Berger",
+   "ouvrage": "Made in Monde",
+   "date": "2006",
+   "idee": "La firme totalement déracinée est un mythe : les FMN gardent un ancrage national (capitaux, infrastructures, R&D) et un effet frontière persiste.",
+   "a_quoi_ca_sert": "montrer que les multinationales ont toujours une nationalité",
+   "partie_lecon": "IV.4 – La firme globale",
+   "mots_cles": [
+    "ancrage national",
+    "effet frontière",
+    "firme globale"
+   ]
+  },
+  {
+   "auteur": "Philippe d'Iribarne",
+   "ouvrage": "La Logique de l'honneur",
+   "date": "1989",
+   "idee": "Les cultures managériales restent nationales (honneur en France, contrat aux États-Unis, consensus aux Pays-Bas), d'où l'échec de fusions comme Daimler-Chrysler.",
+   "a_quoi_ca_sert": "expliquer l'échec d'une fusion transnationale",
+   "partie_lecon": "IV.4 – La firme globale",
+   "mots_cles": [
+    "culture managériale",
+    "fusions",
+    "nation"
+   ]
+  },
+  {
+   "auteur": "Alfred Marshall",
+   "ouvrage": "Principes d'économie politique",
+   "date": "1890",
+   "idee": "Le district industriel génère des économies externes : bassin de main-d'œuvre, fournisseurs spécialisés et diffusion du savoir (« les secrets de l'industrie sont dans l'air »).",
+   "a_quoi_ca_sert": "expliquer la formation des clusters",
+   "partie_lecon": "Onglet Autisme – Externalités d'agglomération",
+   "mots_cles": [
+    "district industriel",
+    "économies externes",
+    "agglomération",
+    "spillovers"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "Geography and Trade",
+   "date": "1991",
+   "idee": "La Nouvelle économie géographique formalise Marshall : l'agglomération s'auto-entretient par causalité circulaire et cumulative.",
+   "a_quoi_ca_sert": "expliquer pourquoi un cluster attire toujours plus d'entreprises",
+   "partie_lecon": "Onglet Autisme – NEG",
+   "mots_cles": [
+    "nouvelle économie géographique",
+    "causalité cumulative",
+    "clusters"
+   ]
+  }
+ ],
+ "id": "2A-02-ftn",
+ "programme_chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+}

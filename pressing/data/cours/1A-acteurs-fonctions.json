@@ -1,0 +1,389 @@
+{
+ "chapitre": "Acteurs et fonctions économiques",
+ "annee": "1A",
+ "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+ "source_doc": "Acteurs et fonctions Éco + acteurs et fonctions éco fille EDHEC",
+ "mots_cles_actu": [
+  "pouvoir d'achat",
+  "inflation",
+  "taux d'épargne",
+  "consommation des ménages",
+  "dette publique",
+  "déficit public",
+  "agences de notation",
+  "dégradation de la note",
+  "taux d'intérêt OAT",
+  "prélèvements obligatoires",
+  "hausse d'impôts",
+  "TVA",
+  "Sécurité sociale",
+  "retraites",
+  "chômage",
+  "assurance chômage",
+  "compétitivité",
+  "balance commerciale",
+  "déficit commercial",
+  "désindustrialisation",
+  "SMIC",
+  "coût du travail",
+  "partage de la valeur",
+  "dividendes",
+  "FMI"
+ ],
+ "references": [
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+   "date": "1936",
+   "idee": "La consommation dépend du revenu courant : quand le revenu augmente, la consommation augmente, mais moins vite (loi psychologique fondamentale).",
+   "a_quoi_ca_sert": "montrer qu'une baisse du revenu ou du pouvoir d'achat freine directement la consommation et donc la croissance",
+   "partie_lecon": "I.1 – Population, ménages et consommation",
+   "mots_cles": [
+    "consommation",
+    "revenu",
+    "propension à consommer",
+    "pouvoir d'achat"
+   ]
+  },
+  {
+   "auteur": "John Maynard Keynes",
+   "ouvrage": "",
+   "date": "",
+   "idee": "En période de crise, l'État doit relancer l'activité par la dépense publique pour soutenir la demande et l'emploi.",
+   "a_quoi_ca_sert": "justifier un plan de relance ou un « quoi qu'il en coûte », tout en montrant ses limites quand la dette est déjà élevée",
+   "partie_lecon": "II.3 – Dette publique et déficits ; III.1 – Chômage en France",
+   "mots_cles": [
+    "relance budgétaire",
+    "dépenses publiques",
+    "chômage keynésien",
+    "demande"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "A Theory of the Consumption Function",
+   "date": "1957",
+   "idee": "Les ménages consomment en fonction de leur revenu permanent (anticipé sur la durée) et lissent leur consommation dans le temps.",
+   "a_quoi_ca_sert": "montrer qu'une hausse temporaire de revenu (chèque, prime) relance peu la consommation et que l'épargne de précaution augmente en période d'incertitude",
+   "partie_lecon": "I.1 – Population, ménages et consommation",
+   "mots_cles": [
+    "revenu permanent",
+    "épargne",
+    "consommation",
+    "anticipations"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Un marché du travail rigide empêche l'offre et la demande de travail de se rencontrer ; il faut le flexibiliser.",
+   "a_quoi_ca_sert": "justifier une réforme du Code du travail ou de l'assurance chômage au nom de la flexibilité",
+   "partie_lecon": "III.1 – Chômage en France",
+   "mots_cles": [
+    "flexibilité",
+    "marché du travail",
+    "chômage structurel",
+    "rigidités"
+   ]
+  },
+  {
+   "auteur": "Milton Friedman et Friedrich Hayek",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'individu est responsable de sa situation : l'État doit limiter l'assistance.",
+   "a_quoi_ca_sert": "éclairer les politiques d'activation et le durcissement des conditions d'indemnisation",
+   "partie_lecon": "III.2 – Réformes et politique d'emploi",
+   "mots_cles": [
+    "libéralisme",
+    "responsabilité individuelle",
+    "workfare",
+    "État minimal"
+   ]
+  },
+  {
+   "auteur": "Richard Musgrave",
+   "ouvrage": "Théorie des finances publiques",
+   "date": "1959",
+   "idee": "L'État a trois fonctions économiques : allocation des ressources (pallier les défaillances du marché), redistribution des revenus et stabilisation de la conjoncture.",
+   "a_quoi_ca_sert": "classer toute intervention publique (budget, aide, impôt, relance) selon sa fonction et juger sa légitimité",
+   "partie_lecon": "I.3 – État et pouvoirs publics",
+   "mots_cles": [
+    "rôle de l'État",
+    "redistribution",
+    "stabilisation",
+    "défaillances de marché",
+    "politique budgétaire"
+   ]
+  },
+  {
+   "auteur": "Otto von Bismarck",
+   "ouvrage": "",
+   "date": "1883-1889",
+   "idee": "Modèle d'assurance sociale : seuls ceux qui ont cotisé sont couverts (maladie, accidents, retraite).",
+   "a_quoi_ca_sert": "montrer la logique contributive de la protection sociale (retraites, chômage) et ses limites pour ceux qui n'ont pas cotisé",
+   "partie_lecon": "I.3 – État et pouvoirs publics ; III.2 – Réformes et politique d'emploi",
+   "mots_cles": [
+    "État-providence",
+    "assurance",
+    "cotisations sociales",
+    "retraites"
+   ]
+  },
+  {
+   "auteur": "William Beveridge (Rapport Beveridge)",
+   "ouvrage": "Rapport Beveridge",
+   "date": "1942",
+   "idee": "Modèle d'assistance : protection universelle financée par l'impôt, sans condition de cotisation.",
+   "a_quoi_ca_sert": "montrer la logique universelle de la protection sociale et le modèle hybride français (Sécurité sociale de 1945)",
+   "partie_lecon": "I.3 – État et pouvoirs publics ; III.2 – Réformes et politique d'emploi",
+   "mots_cles": [
+    "État-providence",
+    "assistance",
+    "Sécurité sociale",
+    "universalité"
+   ]
+  },
+  {
+   "auteur": "Arthur Laffer (courbe de Laffer)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Au-delà d'un certain taux, l'impôt décourage le travail et fait baisser les recettes (« trop d'impôt tue l'impôt »).",
+   "a_quoi_ca_sert": "contester une hausse d'impôts dans un pays aux prélèvements déjà très élevés comme la France",
+   "partie_lecon": "II.1 – Fiscalité et redistribution",
+   "mots_cles": [
+    "fiscalité",
+    "prélèvements obligatoires",
+    "recettes fiscales",
+    "désincitation"
+   ]
+  },
+  {
+   "auteur": "Turgot",
+   "ouvrage": "Lettre au roi",
+   "date": "1774",
+   "idee": "« Point de banqueroute, point d'augmentation d'impôts, point d'emprunts » : il faut réduire les dépenses, car le problème français est structurel (dépenses > recettes).",
+   "a_quoi_ca_sert": "montrer que le déficit français est ancien et que la seule voie durable est la maîtrise des dépenses",
+   "partie_lecon": "II.3 – Dette publique et déficits",
+   "mots_cles": [
+    "dette publique",
+    "dépenses publiques",
+    "déficit",
+    "austérité"
+   ],
+   "a_verifier": "le cours écrit « point d'augmentation, point d'impôts » ; citation exacte rétablie ; titre « Lettre au roi » ajouté (absent du cours)"
+  },
+  {
+   "auteur": "Jean-Marc Daniel",
+   "ouvrage": "Huit leçons d'histoire économique",
+   "date": "",
+   "idee": "Les crises de la dette publique sont récurrentes dans l'histoire.",
+   "a_quoi_ca_sert": "relativiser ou mettre en perspective la crise actuelle de la dette française",
+   "partie_lecon": "II.3 – Dette publique et déficits",
+   "mots_cles": [
+    "dette publique",
+    "histoire économique",
+    "crise de la dette"
+   ]
+  },
+  {
+   "auteur": "Agences de notation (Fitch, S&P, Moody's)",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Leur note influence la confiance des marchés : une dégradation fait monter les taux d'intérêt et donc la charge de la dette.",
+   "a_quoi_ca_sert": "expliquer les effets d'une dégradation de la note de la France sur le coût de la dette",
+   "partie_lecon": "II.3 – Dette publique et déficits",
+   "mots_cles": [
+    "notation",
+    "taux d'intérêt",
+    "charge de la dette",
+    "marchés financiers"
+   ]
+  },
+  {
+   "auteur": "FMI",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Prêteur en dernier ressort des États, il impose des réformes en échange de son aide (cas de la Grèce).",
+   "a_quoi_ca_sert": "montrer le risque de perte de souveraineté budgétaire d'un État trop endetté",
+   "partie_lecon": "II.3 – Dette publique et déficits ; III.3 – Comparaisons internationales",
+   "mots_cles": [
+    "dette souveraine",
+    "austérité",
+    "Grèce",
+    "conditionnalité"
+   ]
+  },
+  {
+   "auteur": "Philippe Dessertine",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La dégradation de la note de la France (AA- → A+) pèse sur la confiance des marchés.",
+   "a_quoi_ca_sert": "relier dette, chômage et confiance des investisseurs dans l'actualité budgétaire française",
+   "partie_lecon": "III.1 – Chômage en France ; III.3 – Comparaisons internationales",
+   "mots_cles": [
+    "notation",
+    "confiance",
+    "dette",
+    "marchés"
+   ]
+  },
+  {
+   "auteur": "Emmanuel Combe",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le milieu de gamme est un « piège » : la France y est coincée, alors que le luxe (hors-prix) et le bas de gamme (prix) fonctionnent.",
+   "a_quoi_ca_sert": "expliquer les difficultés de l'industrie française face à Shein ou Dacia d'un côté, au luxe de l'autre",
+   "partie_lecon": "I.2 – Entreprise et production marchande",
+   "mots_cles": [
+    "compétitivité prix",
+    "compétitivité hors prix",
+    "milieu de gamme",
+    "désindustrialisation"
+   ]
+  },
+  {
+   "auteur": "Arthur Bowley et Nicholas Kaldor",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le partage de la valeur ajoutée est stable : environ 2/3 pour les salaires, 1/3 pour le capital.",
+   "a_quoi_ca_sert": "juger si le partage salaires/profits se déforme (débats sur les dividendes, le partage de la valeur)",
+   "partie_lecon": "I.2 – Entreprise et production marchande",
+   "mots_cles": [
+    "valeur ajoutée",
+    "partage de la valeur",
+    "salaires",
+    "EBE"
+   ]
+  },
+  {
+   "auteur": "Wassily Leontief",
+   "ouvrage": "",
+   "date": "années 1930",
+   "idee": "Le tableau entrées-sorties montre l'interdépendance des branches productives.",
+   "a_quoi_ca_sert": "montrer comment un choc sur un secteur (énergie, industrie) se diffuse à toute l'économie",
+   "partie_lecon": "I.2 – Entreprise et production marchande",
+   "mots_cles": [
+    "TES",
+    "interdépendance",
+    "branches",
+    "chaînes de production"
+   ]
+  },
+  {
+   "auteur": "Lionel Fontagné",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Avec les chaînes de valeur mondiales, il faut « importer pour exporter ».",
+   "a_quoi_ca_sert": "montrer qu'un droit de douane sur les importations pénalise aussi les exportateurs",
+   "partie_lecon": "II.2 – Balance des paiements et balance commerciale",
+   "mots_cles": [
+    "chaînes de valeur",
+    "commerce international",
+    "importations",
+    "protectionnisme"
+   ]
+  },
+  {
+   "auteur": "Helmut Schmidt (théorème de Schmidt)",
+   "ouvrage": "",
+   "date": "1974",
+   "idee": "« Les profits d'aujourd'hui sont les investissements de demain et les emplois d'après-demain. »",
+   "a_quoi_ca_sert": "justifier une politique d'offre (baisse des charges, restauration des marges) au nom de l'emploi",
+   "partie_lecon": "III.1 – Chômage en France",
+   "mots_cles": [
+    "profits",
+    "investissement",
+    "emploi",
+    "politique d'offre"
+   ]
+  },
+  {
+   "auteur": "Patrick Artus",
+   "ouvrage": "",
+   "date": "",
+   "idee": "La hausse des profits ne crée pas mécaniquement d'emplois : elle peut nourrir les dividendes ou des investissements qui remplacent le travail ; l'investissement dépend surtout de la demande anticipée.",
+   "a_quoi_ca_sert": "nuancer le théorème de Schmidt et critiquer les aides aux entreprises sans contrepartie",
+   "partie_lecon": "III.1 – Chômage en France",
+   "mots_cles": [
+    "profits",
+    "dividendes",
+    "investissement",
+    "accélérateur",
+    "emploi"
+   ]
+  },
+  {
+   "auteur": "Margaret Thatcher",
+   "ouvrage": "",
+   "date": "années 1980",
+   "idee": "Le workfare et la libéralisation responsabilisent les individus et réduisent les dépenses publiques, en rompant en partie avec le modèle Beveridge.",
+   "a_quoi_ca_sert": "illustrer une politique libérale d'activation des chômeurs et ses effets (contrats zéro heure)",
+   "partie_lecon": "III.2 – Réformes et politique d'emploi ; III.3 – Comparaisons internationales",
+   "mots_cles": [
+    "workfare",
+    "libéralisation",
+    "activation",
+    "flexibilité"
+   ]
+  },
+  {
+   "auteur": "Gerhard Schröder (lois Hartz)",
+   "ouvrage": "",
+   "date": "années 2000",
+   "idee": "Des réformes impopulaires (mini-jobs, modération salariale) ont flexibilisé l'emploi et dopé la compétitivité-prix allemande.",
+   "a_quoi_ca_sert": "montrer que les réformes structurelles paient à long terme mais créent de la précarité, et que le temps politique est plus court que le temps économique",
+   "partie_lecon": "III.2 – Réformes et politique d'emploi ; III.3 – Comparaisons internationales",
+   "mots_cles": [
+    "mini-jobs",
+    "réformes structurelles",
+    "compétitivité",
+    "précarité"
+   ]
+  },
+  {
+   "auteur": "BIT",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Est chômeur une personne de 15 ans ou plus, sans emploi, disponible et en recherche active depuis les 4 dernières semaines.",
+   "a_quoi_ca_sert": "distinguer chômage officiel et halo du chômage dans les chiffres publiés",
+   "partie_lecon": "III.1 – Chômage en France",
+   "mots_cles": [
+    "chômage",
+    "définition",
+    "halo du chômage",
+    "statistiques"
+   ]
+  },
+  {
+   "auteur": "Nicolas Baverez",
+   "ouvrage": "La France qui tombe",
+   "date": "2003",
+   "idee": "La France est en déclin : ses conditions économiques se dégradent.",
+   "a_quoi_ca_sert": "illustrer le thème du déclassement français (dette, compétitivité, rang mondial)",
+   "partie_lecon": "Introduction (doc EDHEC)",
+   "mots_cles": [
+    "déclinisme",
+    "déclassement",
+    "France",
+    "compétitivité"
+   ]
+  },
+  {
+   "auteur": "IMD (Institute for Management Development)",
+   "ouvrage": "World Competitiveness Ranking",
+   "date": "",
+   "idee": "La France n'est que 31e mondiale en compétitivité, en raison du poids des prélèvements obligatoires.",
+   "a_quoi_ca_sert": "chiffrer le retard de compétitivité français",
+   "partie_lecon": "I.2 – Entreprises et production marchande (doc EDHEC)",
+   "mots_cles": [
+    "compétitivité",
+    "classement",
+    "prélèvements obligatoires",
+    "attractivité"
+   ]
+  }
+ ],
+ "id": "1A-acteurs-fonctions",
+ "programme_chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+}

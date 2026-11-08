@@ -1,0 +1,826 @@
+{
+ "chapitre": "Gouvernance et institutions internationales",
+ "annee": "2A",
+ "module": "Module 3 – La mondialisation économique et financière",
+ "source_doc": "1-Gouvernance et institutions internationales",
+ "mots_cles_actu": [
+  "OMC",
+  "multilatéralisme",
+  "droits de douane",
+  "guerre commerciale",
+  "Trump",
+  "Chine",
+  "ORD",
+  "organe d'appel",
+  "biens publics mondiaux",
+  "COP climat",
+  "Accord de Paris",
+  "OMS",
+  "vaccins",
+  "G20",
+  "FMI",
+  "Banque mondiale",
+  "BAII",
+  "routes de la soie",
+  "impôt minimal mondial",
+  "paradis fiscaux",
+  "optimisation fiscale",
+  "ONG",
+  "IRA",
+  "MACF",
+  "protectionnisme vert"
+ ],
+ "references": [
+  {
+   "auteur": "Arthur Cecil Pigou",
+   "ouvrage": "L'Économie du bien-être",
+   "date": "1920",
+   "idee": "Les défaillances de marché (externalités, biens collectifs) justifient l'intervention de l'État.",
+   "a_quoi_ca_sert": "justifier une intervention publique quand le marché ne produit pas un bien dont tous profitent",
+   "partie_lecon": "I.1 – La notion de biens publics mondiaux",
+   "mots_cles": [
+    "défaillance de marché",
+    "externalités",
+    "biens collectifs",
+    "rôle de l'État"
+   ],
+   "a_verifier": "le cours le dit « premier » à justifier l'État par les biens collectifs ; la théorie des biens collectifs vient surtout de Samuelson (1954)"
+  },
+  {
+   "auteur": "Garrett Hardin",
+   "ouvrage": "La Tragédie des communs",
+   "date": "1968",
+   "idee": "Sans règle de gestion, une ressource commune librement exploitée finit détruite.",
+   "a_quoi_ca_sert": "montrer qu'une ressource mondiale (océans, climat, pêche) se dégrade sans règles communes",
+   "partie_lecon": "I.1 – Biens collectifs ≠ biens communs",
+   "mots_cles": [
+    "biens communs",
+    "rivalité",
+    "surexploitation",
+    "environnement"
+   ]
+  },
+  {
+   "auteur": "Rapport Meadows (Club de Rome)",
+   "ouvrage": "Les Limites à la croissance",
+   "date": "1972",
+   "idee": "Le rapport pose la question du développement durable : certains biens ne peuvent être produits qu'à l'échelle mondiale.",
+   "a_quoi_ca_sert": "montrer qu'un pays qui agit seul sur le climat ou les ressources n'obtient aucun résultat",
+   "partie_lecon": "I.1 – La notion de biens publics mondiaux",
+   "mots_cles": [
+    "développement durable",
+    "biens publics mondiaux",
+    "croissance",
+    "ressources"
+   ]
+  },
+  {
+   "auteur": "Inge Kaul et Ronald Mendoza",
+   "ouvrage": "Providing Global Public Goods: Managing Globalization",
+   "date": "2003",
+   "idee": "Un bien public mondial suppose trois caractères publics : consommation, décision et répartition équitable des avantages.",
+   "a_quoi_ca_sert": "montrer pourquoi un accord climatique échoue quand un grand pays sort du consensus ou que PED et PDEM se disputent la charge",
+   "partie_lecon": "I.1 – La notion de biens publics mondiaux",
+   "mots_cles": [
+    "biens publics mondiaux",
+    "COP21",
+    "Nord-Sud",
+    "multilatéralisme"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "International Public Goods without International Government",
+   "date": "1986",
+   "idee": "Les biens collectifs mondiaux sont accessibles à tous les États mais aucun n'a intérêt à les financer seul.",
+   "a_quoi_ca_sert": "expliquer le comportement de passager clandestin des États face au climat ou à la santé mondiale",
+   "partie_lecon": "I.2 – Les biens collectifs mondiaux",
+   "mots_cles": [
+    "biens collectifs mondiaux",
+    "passager clandestin",
+    "coopération",
+    "financement"
+   ]
+  },
+  {
+   "auteur": "Philippe Hugon",
+   "ouvrage": "Politiques et management public (revue)",
+   "date": "2003",
+   "idee": "Les biens publics globaux sont des constructions historiques issues de décisions collectives où les États puissants pèsent davantage.",
+   "a_quoi_ca_sert": "montrer que la définition des priorités mondiales reflète les rapports de force entre États",
+   "partie_lecon": "I.2 – Les biens collectifs mondiaux",
+   "mots_cles": [
+    "biens publics globaux",
+    "asymétrie",
+    "rapports de force",
+    "construction historique"
+   ]
+  },
+  {
+   "auteur": "PNUD",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les biens publics mondiaux se classent en biens naturels (surexploités), d'origine humaine comme la connaissance (sous-exploités) et résultats politiques globaux comme la paix.",
+   "a_quoi_ca_sert": "classer un enjeu d'actualité (océans, brevets, paix) parmi les biens publics mondiaux",
+   "partie_lecon": "I.2 – Les biens collectifs mondiaux",
+   "mots_cles": [
+    "biens publics mondiaux",
+    "connaissance",
+    "paix",
+    "ressources naturelles"
+   ]
+  },
+  {
+   "auteur": "Douglass North",
+   "ouvrage": "Institutions, Institutional Change and Economic Performance",
+   "date": "1990",
+   "idee": "Les institutions réduisent l'incertitude et les coûts de transaction ; leur stabilité rend possible la fragmentation internationale de la production.",
+   "a_quoi_ca_sert": "montrer que l'affaiblissement de l'OMC pousse les firmes au nearshoring et au friend shoring",
+   "partie_lecon": "I.3.a – La gouvernance mondiale : définition",
+   "mots_cles": [
+    "institutions",
+    "coûts de transaction",
+    "chaînes de valeur",
+    "nearshoring",
+    "friend shoring"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "La Grande Crise mondiale 1929-1939",
+   "date": "1973",
+   "idee": "Théorie de la stabilité hégémonique : un bien public mondial exige un hégémon prêt à en supporter le coût ; s'il se retire, le système s'effondre.",
+   "a_quoi_ca_sert": "analyser le retrait américain du multilatéralisme et ses risques pour l'ordre mondial",
+   "partie_lecon": "I.3.a – Stabilité hégémonique",
+   "mots_cles": [
+    "hégémon",
+    "stabilité hégémonique",
+    "États-Unis",
+    "ordre mondial"
+   ]
+  },
+  {
+   "auteur": "Charles Kindleberger",
+   "ouvrage": "La Grande Crise mondiale 1929-1939",
+   "date": "1973",
+   "idee": "La crise de 1929 a été générale, profonde et durable faute d'hégémon : le Royaume-Uni était affaibli et les États-Unis refusaient le leadership.",
+   "a_quoi_ca_sert": "montrer que les guerres tarifaires en chaîne aggravent l'effondrement du commerce mondial",
+   "partie_lecon": "II.1.a – La naissance du GATT",
+   "mots_cles": [
+    "crise de 1929",
+    "protectionnisme",
+    "Hawley-Smoot",
+    "hégémon"
+   ]
+  },
+  {
+   "auteur": "Mancur Olson",
+   "ouvrage": "Logique de l'action collective",
+   "date": "1965",
+   "idee": "Plus un groupe est vaste, plus chacun est tenté d'être passager clandestin ; l'action collective ne va pas de soi.",
+   "a_quoi_ca_sert": "expliquer l'échec des négociations climatiques où chacun laisse les autres payer",
+   "partie_lecon": "I.3.a – Approches théoriques de la gouvernance",
+   "mots_cles": [
+    "action collective",
+    "passager clandestin",
+    "climat",
+    "incitations"
+   ]
+  },
+  {
+   "auteur": "Robert Keohane",
+   "ouvrage": "After Hegemony: Cooperation and Discord in the World Political Economy",
+   "date": "1984",
+   "idee": "Les régimes internationaux survivent au déclin de l'hégémon car les États ont un intérêt rationnel à les garder.",
+   "a_quoi_ca_sert": "montrer que la coopération (ex. recours à l'ORD par États-Unis et Chine) peut perdurer sans superpuissance",
+   "partie_lecon": "I.3.a – Institutionnalisme libéral",
+   "mots_cles": [
+    "régimes internationaux",
+    "institutionnalisme libéral",
+    "coopération",
+    "ORD"
+   ]
+  },
+  {
+   "auteur": "Robert Gilpin",
+   "ouvrage": "War and Change in World Politics",
+   "date": "1981",
+   "idee": "L'ordre international reflète les rapports de force ; la montée de puissances révisionnistes fait entrer en crise le système de l'hégémon déclinant.",
+   "a_quoi_ca_sert": "lire la rivalité sino-américaine comme une crise d'ordre liée au développement inégal",
+   "partie_lecon": "I.3.a – École réaliste",
+   "mots_cles": [
+    "réalisme",
+    "hard power",
+    "puissances révisionnistes",
+    "Chine"
+   ]
+  },
+  {
+   "auteur": "Stephen Krasner",
+   "ouvrage": "International Regimes",
+   "date": "1983",
+   "idee": "Une grande puissance ne respecte un régime international que tant qu'il sert ses intérêts, sinon elle le paralyse ou le contourne.",
+   "a_quoi_ca_sert": "expliquer le blocage américain de l'OMC face à la montée de la Chine",
+   "partie_lecon": "I.3.a – École réaliste",
+   "mots_cles": [
+    "régimes internationaux",
+    "gains relatifs",
+    "OMC",
+    "États-Unis"
+   ]
+  },
+  {
+   "auteur": "Elinor Ostrom",
+   "ouvrage": "Gouvernance des biens communs",
+   "date": "1990",
+   "idee": "Des communautés peuvent s'auto-organiser pour gérer durablement une ressource commune, sans privatisation ni État coercitif.",
+   "a_quoi_ca_sert": "montrer qu'une gouvernance polycentrique (accords locaux, ONG, traités régionaux) peut gérer le climat sans gouvernement mondial",
+   "partie_lecon": "I.3.a – Ostrom contre Hardin",
+   "mots_cles": [
+    "biens communs",
+    "auto-organisation",
+    "gouvernance polycentrique",
+    "climat"
+   ]
+  },
+  {
+   "auteur": "Christian Deblock",
+   "ouvrage": "L'économie politique (revue)",
+   "date": "2010",
+   "idee": "La gouvernance mondiale repose sur le multilatéralisme : égalité juridique, consensus, engagement par traité, arbitrage des différends.",
+   "a_quoi_ca_sert": "mesurer la remise en cause du multilatéralisme par des formats concurrents comme le G20",
+   "partie_lecon": "I.3.a – Multilatéralisme",
+   "mots_cles": [
+    "multilatéralisme",
+    "consensus",
+    "G20",
+    "traités"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "The Globalization Paradox",
+   "date": "2011",
+   "idee": "Triangle d'incompatibilité : impossible d'avoir à la fois hyper-mondialisation, États-nations et démocratie.",
+   "a_quoi_ca_sert": "analyser le rejet démocratique de la mondialisation et le retour du protectionnisme",
+   "partie_lecon": "I.3.b – Enjeux de la gouvernance mondiale",
+   "mots_cles": [
+    "trilemme",
+    "souveraineté",
+    "démocratie",
+    "camisole dorée"
+   ]
+  },
+  {
+   "auteur": "Ulrich Beck",
+   "ouvrage": "Pouvoir et contre-pouvoir à l'ère de la mondialisation",
+   "date": "2003",
+   "idee": "L'État cosmopolite exerce sa souveraineté de façon transnationale et coopérative : plus la mondialisation est forte, plus la gouvernance mondiale compte.",
+   "a_quoi_ca_sert": "défendre la coopération internationale comme moyen de préserver la souveraineté",
+   "partie_lecon": "I.3.b – L'État cosmopolite",
+   "mots_cles": [
+    "État cosmopolite",
+    "souveraineté",
+    "coopération",
+    "transnational"
+   ]
+  },
+  {
+   "auteur": "Friedrich List",
+   "ouvrage": "Système national d'économie politique",
+   "date": "1841",
+   "idee": "Le protectionnisme éducateur protège temporairement les industries dans l'enfance le temps d'atteindre une taille critique.",
+   "a_quoi_ca_sert": "justifier les exceptions du GATT/OMC pour les PED ou une politique industrielle naissante",
+   "partie_lecon": "II.1.b – Principes et exceptions",
+   "mots_cles": [
+    "protectionnisme éducateur",
+    "industrie naissante",
+    "PED",
+    "économies d'échelle"
+   ]
+  },
+  {
+   "auteur": "Nicholas Kaldor",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le protectionnisme défensif autorise des barrières transitoires pour reconvertir les secteurs en déclin face à un choc de compétitivité.",
+   "a_quoi_ca_sert": "justifier une protection temporaire d'un secteur menacé (ex. AMF textile 1974)",
+   "partie_lecon": "II.1.b – Principes et exceptions",
+   "mots_cles": [
+    "protectionnisme défensif",
+    "reconversion",
+    "textile",
+    "sauvegarde"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le commerce devient un managed trade où les États accompagnent leurs entreprises sur les marchés extérieurs.",
+   "a_quoi_ca_sert": "montrer le contournement des règles du GATT par des zones grises et le soutien public aux exportateurs",
+   "partie_lecon": "II.1.d – Essoufflement du GATT",
+   "mots_cles": [
+    "managed trade",
+    "zones grises",
+    "auto-limitation",
+    "barrières non tarifaires"
+   ]
+  },
+  {
+   "auteur": "James Brander, Barbara Spencer et Paul Krugman",
+   "ouvrage": "Strategic Trade Policy and the New International Economics",
+   "date": "1985-1986",
+   "idee": "En oligopole à rendements croissants, des subventions ciblées permettent à un champion national de capter une rente de monopole mondial.",
+   "a_quoi_ca_sert": "expliquer les conflits Airbus/Boeing, puces ou énergies vertes et les subventions industrielles",
+   "partie_lecon": "II.1.d – Politique commerciale stratégique",
+   "mots_cles": [
+    "politique commerciale stratégique",
+    "oligopole",
+    "subventions",
+    "Airbus/Boeing"
+   ]
+  },
+  {
+   "auteur": "Maurice Allais",
+   "ouvrage": "Le libre-échange, réalités et mythologies",
+   "date": "1993",
+   "idee": "Le libre-échange fondé sur l'avantage comparatif repose sur des hypothèses irréalistes et détruit emplois et croissance.",
+   "a_quoi_ca_sert": "critiquer le libre-échange intégral et justifier une protection régionale",
+   "partie_lecon": "II.2.a – Contestation de l'Uruguay Round",
+   "mots_cles": [
+    "critique du libre-échange",
+    "avantage comparatif",
+    "emploi",
+    "désindustrialisation"
+   ],
+   "a_verifier": "titre exact de l'ouvrage de 1993 (signalé dans la leçon)"
+  },
+  {
+   "auteur": "David Ricardo",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'avantage comparatif fonde le libre-échange, en supposant dotations figées et monnaie neutre.",
+   "a_quoi_ca_sert": "servir de point de départ aux critiques du libre-échange",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "avantage comparatif",
+    "spécialisation",
+    "libre-échange",
+    "neutralité monétaire"
+   ]
+  },
+  {
+   "auteur": "Tadeusz Rybczynski",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Une variation de la dotation d'un facteur augmente la production du bien qui l'utilise et réduit celle de l'autre : les avantages comparatifs sont dynamiques.",
+   "a_quoi_ca_sert": "montrer que la spécialisation change et peut conduire au syndrome hollandais",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "théorème de Rybczynski",
+    "dotations factorielles",
+    "syndrome hollandais",
+    "spécialisation"
+   ]
+  },
+  {
+   "auteur": "Kaname Akamatsu",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Les avantages comparatifs sont dynamiques et construits.",
+   "a_quoi_ca_sert": "montrer qu'un pays peut remonter les gammes plutôt que subir sa spécialisation",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "avantages construits",
+    "vol d'oies sauvages",
+    "Asie",
+    "remontée de filière"
+   ]
+  },
+  {
+   "auteur": "David Autor, David Dorn et Gordon Hanson",
+   "ouvrage": "",
+   "date": "2013",
+   "idee": "Le China Shock explique environ un quart du recul de l'emploi manufacturier américain.",
+   "a_quoi_ca_sert": "montrer les coûts d'ajustement du libre-échange et nourrir le débat sur les droits de douane anti-Chine",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "China Shock",
+    "désindustrialisation",
+    "emploi",
+    "coûts d'ajustement"
+   ]
+  },
+  {
+   "auteur": "Paul Krugman",
+   "ouvrage": "",
+   "date": "1979",
+   "idee": "Les gains à l'échange viennent aussi des économies d'échelle, pas seulement des écarts de dotations.",
+   "a_quoi_ca_sert": "expliquer le commerce entre pays semblables et l'intérêt des grands marchés",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "économies d'échelle",
+    "nouvelle théorie du commerce",
+    "rendements croissants",
+    "productivité"
+   ]
+  },
+  {
+   "auteur": "Marc Melitz",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'ouverture sélectionne les firmes les plus productives et évince les moins efficientes.",
+   "a_quoi_ca_sert": "montrer que l'ouverture crée gagnants et perdants parmi les entreprises",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "firmes hétérogènes",
+    "productivité",
+    "sélection",
+    "ouverture"
+   ]
+  },
+  {
+   "auteur": "David Hume",
+   "ouvrage": "",
+   "date": "",
+   "idee": "Le mécanisme flux de prix-espèces rééquilibre automatiquement les balances extérieures, ce qui échoue si les changes sont rigides ou manipulés.",
+   "a_quoi_ca_sert": "montrer qu'une monnaie sous-évaluée annule les gains de compétitivité du partenaire",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "flux de prix-espèces",
+    "taux de change",
+    "dumping monétaire",
+    "déséquilibres"
+   ]
+  },
+  {
+   "auteur": "Jagdish Bhagwati",
+   "ouvrage": "",
+   "date": "1958",
+   "idee": "La croissance appauvrissante : surinvestir dans un avantage primaire dégrade les termes de l'échange et appauvrit le pays.",
+   "a_quoi_ca_sert": "montrer le piège de la mono-spécialisation des pays du Sud (matières premières)",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "croissance appauvrissante",
+    "mal hollandais",
+    "termes de l'échange",
+    "PED"
+   ]
+  },
+  {
+   "auteur": "Raúl Prebisch et Hans Singer",
+   "ouvrage": "",
+   "date": "1950",
+   "idee": "Les termes de l'échange des produits primaires se détériorent de façon séculaire.",
+   "a_quoi_ca_sert": "expliquer la dépendance des pays exportateurs de matières premières",
+   "partie_lecon": "II.2.a – Critique d'Allais",
+   "mots_cles": [
+    "termes de l'échange",
+    "produits primaires",
+    "développement",
+    "Sud"
+   ]
+  },
+  {
+   "auteur": "Sébastien Jean",
+   "ouvrage": "L'Économie mondiale 2020",
+   "date": "2019",
+   "idee": "La montée des émergents rend les règles de l'OMC moins favorables aux pays avancés, d'où leur rejet ; la Chine garde un statut de PED de passager clandestin.",
+   "a_quoi_ca_sert": "expliquer structurellement le rejet américain de l'OMC et le conflit sur le statut de la Chine",
+   "partie_lecon": "III.2.a – Les États-Unis, la Chine et le rejet du multilatéralisme",
+   "mots_cles": [
+    "OMC",
+    "Chine",
+    "statut de PED",
+    "avantages comparatifs"
+   ]
+  },
+  {
+   "auteur": "Richard Baldwin",
+   "ouvrage": "",
+   "date": "2006",
+   "idee": "Le régionalisme complète le multilatéralisme : les méga-accords régionaux en sont un laboratoire.",
+   "a_quoi_ca_sert": "relativiser la menace des accords régionaux pour l'OMC",
+   "partie_lecon": "III.2.b – Régionalisme et accords OMC+",
+   "mots_cles": [
+    "régionalisme",
+    "méga-accords",
+    "OMC+",
+    "multilatéralisme"
+   ]
+  },
+  {
+   "auteur": "Jacob Viner",
+   "ouvrage": "The Customs Union Issue",
+   "date": "1950",
+   "idee": "Une union douanière crée du trafic mais peut aussi en détourner vers des partenaires moins efficaces : son effet sur le bien-être est ambigu.",
+   "a_quoi_ca_sert": "évaluer un accord commercial régional (UE, Mercosur) en termes de gains réels",
+   "partie_lecon": "III.2.b – Régionalisme et accords OMC+",
+   "mots_cles": [
+    "création de trafic",
+    "détournement de trafic",
+    "union douanière",
+    "bien-être"
+   ]
+  },
+  {
+   "auteur": "Jagdish Bhagwati",
+   "ouvrage": "U.S. Trade Policy: The Infatuation with Free Trade Areas",
+   "date": "1995",
+   "idee": "La multiplication des accords régionaux crée un « bol de spaghettis » de règles d'origine qui entrave les échanges.",
+   "a_quoi_ca_sert": "critiquer la fragmentation du commerce mondial en accords bilatéraux",
+   "partie_lecon": "III.2.b – Régionalisme et accords OMC+",
+   "mots_cles": [
+    "bol de spaghettis",
+    "règles d'origine",
+    "accords bilatéraux",
+    "fragmentation"
+   ]
+  },
+  {
+   "auteur": "Andrew Rose",
+   "ouvrage": "Does the WTO make trade more stable? / Which International Institutions Promote International Trade?",
+   "date": "2003-2004",
+   "idee": "L'appartenance au GATT/OMC n'accélère pas significativement le commerce : sa croissance vient de facteurs structurels (transports, technologie).",
+   "a_quoi_ca_sert": "relativiser l'utilité de l'OMC face à sa crise",
+   "partie_lecon": "III.2.b – Les critiques de l'OMC",
+   "mots_cles": [
+    "OMC",
+    "efficacité des institutions",
+    "coûts de transport",
+    "commerce"
+   ],
+   "a_verifier": "titres et dates : l'étude sur 175 pays serait l'article AER 2004 « Do We Really Know That the WTO Increases Trade? »"
+  },
+  {
+   "auteur": "Razeen Sally",
+   "ouvrage": "The end of the road for the WTO",
+   "date": "2004",
+   "idee": "Le consensus bloque l'OMC : les grands commerçants devraient peser davantage dans le vote.",
+   "a_quoi_ca_sert": "proposer une réforme de la gouvernance de l'OMC",
+   "partie_lecon": "III.2.b – Les critiques de l'OMC",
+   "mots_cles": [
+    "consensus",
+    "réforme de l'OMC",
+    "vote",
+    "gouvernance"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz et Andrew Charlton",
+   "ouvrage": "Un commerce plus juste",
+   "date": "2005",
+   "idee": "Malgré le cycle du développement, les règles de l'OMC desservent les PED, l'ADPIC en premier.",
+   "a_quoi_ca_sert": "dénoncer les asymétries Nord-Sud du commerce et des brevets",
+   "partie_lecon": "III.2.b – Les critiques de l'OMC",
+   "mots_cles": [
+    "PED",
+    "ADPIC",
+    "brevets",
+    "commerce équitable"
+   ],
+   "a_verifier": "date : 2005 dans le texte, 2004 dans l'onglet de références"
+  },
+  {
+   "auteur": "James Wolfensohn",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'OMC ignore le dumping social et monétaire, qui devraient relever de l'OIT et du FMI.",
+   "a_quoi_ca_sert": "montrer les angles morts de l'OMC (salaires, changes)",
+   "partie_lecon": "III.2.b – Les critiques de l'OMC",
+   "mots_cles": [
+    "dumping social",
+    "dumping monétaire",
+    "OIT",
+    "FMI"
+   ]
+  },
+  {
+   "auteur": "Guimbard et Lefebvre (CEPII)",
+   "ouvrage": "La Lettre du CEPII",
+   "date": "2022",
+   "idee": "Le droit de douane moyen recule (7,6 % en 2001, 3,9 % en 2019) mais l'agriculture reste très protégée.",
+   "a_quoi_ca_sert": "chiffrer la libéralisation et montrer que l'agriculture bloque les négociations",
+   "partie_lecon": "III.1.c / III.2.b – Bilan de l'OMC",
+   "mots_cles": [
+    "droits de douane",
+    "agriculture",
+    "libéralisation",
+    "OMC"
+   ]
+  },
+  {
+   "auteur": "CEPII",
+   "ouvrage": "Carnets graphiques",
+   "date": "2018",
+   "idee": "Les barrières non tarifaires ont un effet restrictif équivalent à un droit de douane de 40 %.",
+   "a_quoi_ca_sert": "montrer que le protectionnisme passe désormais par les normes",
+   "partie_lecon": "III.2.b – Bilan de l'OMC",
+   "mots_cles": [
+    "barrières non tarifaires",
+    "normes",
+    "protectionnisme",
+    "santé"
+   ]
+  },
+  {
+   "auteur": "Sébastien Jean",
+   "ouvrage": "La Lettre du CEPII",
+   "date": "2020",
+   "idee": "Une issue réaliste pour l'OMC passe par des accords plurilatéraux adoptés à la majorité, si la Chine bouge sur subventions et entreprises d'État.",
+   "a_quoi_ca_sert": "proposer une voie de réforme de l'OMC",
+   "partie_lecon": "III.2.b – Réformer l'OMC",
+   "mots_cles": [
+    "plurilatéralisme",
+    "réforme de l'OMC",
+    "Chine",
+    "subventions"
+   ]
+  },
+  {
+   "auteur": "Vladimir Masch",
+   "ouvrage": "",
+   "date": "2011",
+   "idee": "Le libre-échange compensé plafonne les excédents des partenaires pour atteindre des objectifs protectionnistes sans guerre commerciale.",
+   "a_quoi_ca_sert": "proposer un protectionnisme intelligent face aux déséquilibres commerciaux",
+   "partie_lecon": "III.2.b – Vers un protectionnisme intelligent",
+   "mots_cles": [
+    "libre-échange compensé",
+    "déficit commercial",
+    "protectionnisme intelligent",
+    "excédents"
+   ]
+  },
+  {
+   "auteur": "Pascal Lamy",
+   "ouvrage": "",
+   "date": "",
+   "idee": "L'ORD est le « joyau de la couronne de l'OMC ».",
+   "a_quoi_ca_sert": "souligner ce que perd l'OMC avec la paralysie de l'organe d'appel",
+   "partie_lecon": "III.3.a – Le rôle de l'ORD",
+   "mots_cles": [
+    "ORD",
+    "règlement des différends",
+    "OMC",
+    "organe d'appel"
+   ]
+  },
+  {
+   "auteur": "John Williamson",
+   "ouvrage": "",
+   "date": "1989",
+   "idee": "Le Consensus de Washington désigne les politiques libérales communes du FMI, de la Banque mondiale et du Trésor américain envers les PED endettés.",
+   "a_quoi_ca_sert": "analyser les conditionnalités des prêts du FMI à un pays en crise",
+   "partie_lecon": "IV.1.b – Le FMI, les PAS et le Consensus de Washington",
+   "mots_cles": [
+    "Consensus de Washington",
+    "FMI",
+    "PAS",
+    "dette"
+   ]
+  },
+  {
+   "auteur": "Joseph Stiglitz",
+   "ouvrage": "La Grande Désillusion",
+   "date": "2002",
+   "idee": "Le FMI impose des remèdes libéraux uniformes (« one size fits all ») qui aggravent souvent la pauvreté.",
+   "a_quoi_ca_sert": "critiquer un plan d'austérité imposé par le FMI",
+   "partie_lecon": "IV.1.b – Le FMI, les PAS et le Consensus de Washington",
+   "mots_cles": [
+    "FMI",
+    "austérité",
+    "crise asiatique",
+    "pauvreté"
+   ]
+  },
+  {
+   "auteur": "Michel Aglietta",
+   "ouvrage": "L'Économie mondiale 2010 (CEPII)",
+   "date": "2009",
+   "idee": "Les règles prudentielles, influencées par le lobby bancaire, ont favorisé une finance instable (titrisation, levier, shadow banking).",
+   "a_quoi_ca_sert": "justifier une régulation financière mondiale contraignante",
+   "partie_lecon": "IV.2.a – La gouvernance financière",
+   "mots_cles": [
+    "régulation prudentielle",
+    "Bâle",
+    "shadow banking",
+    "titrisation"
+   ]
+  },
+  {
+   "auteur": "Dani Rodrik",
+   "ouvrage": "How to Save Globalization from its Cheerleaders",
+   "date": "2007",
+   "idee": "Un accord sur des sauvegardes sociales et environnementales permettrait de hiérarchiser les objectifs au-delà de la logique marchande.",
+   "a_quoi_ca_sert": "critiquer la gouvernance en silos qui place le commerce au-dessus de la santé ou du climat",
+   "partie_lecon": "IV.2.c – Une gouvernance en silos",
+   "mots_cles": [
+    "gouvernance en silos",
+    "sauvegardes",
+    "normes sociales",
+    "environnement"
+   ]
+  },
+  {
+   "auteur": "Thierry Mayer et Jean-Louis Mucchielli",
+   "ouvrage": "La localisation à l'étranger des entreprises multinationales",
+   "date": "1999",
+   "idee": "Les États mènent des politiques d'attractivité (subventions, exonérations, ZES) pour capter les IDE.",
+   "a_quoi_ca_sert": "analyser une aide publique pour attirer une usine étrangère",
+   "partie_lecon": "IV.3.a – Les politiques d'attractivité",
+   "mots_cles": [
+    "attractivité",
+    "IDE",
+    "concurrence fiscale",
+    "ZES"
+   ]
+  },
+  {
+   "auteur": "CNUCED",
+   "ouvrage": "World Investment Report",
+   "date": "2019",
+   "idee": "Plus de 1 000 ZES créées en cinq ans témoignent d'une concurrence accrue entre territoires.",
+   "a_quoi_ca_sert": "illustrer la course à l'attractivité entre États",
+   "partie_lecon": "IV.3.a – Les politiques d'attractivité",
+   "mots_cles": [
+    "ZES",
+    "IDE",
+    "concurrence territoriale",
+    "attractivité"
+   ]
+  },
+  {
+   "auteur": "OCDE",
+   "ouvrage": "",
+   "date": "2015",
+   "idee": "L'optimisation fiscale des FMN coûte 90 à 210 milliards d'euros par an, jusqu'à 10 % de l'impôt mondial sur les sociétés.",
+   "a_quoi_ca_sert": "chiffrer l'enjeu de la taxation des multinationales",
+   "partie_lecon": "IV.3.b – L'optimisation fiscale des FMN",
+   "mots_cles": [
+    "optimisation fiscale",
+    "FMN",
+    "impôt sur les sociétés",
+    "prix de transfert"
+   ]
+  },
+  {
+   "auteur": "Gabriel Zucman",
+   "ouvrage": "La richesse cachée des nations",
+   "date": "2013",
+   "idee": "55 % des profits étrangers des FMN américaines sont déclarés dans six territoires à faible fiscalité.",
+   "a_quoi_ca_sert": "dénoncer les paradis fiscaux et soutenir un impôt minimal mondial",
+   "partie_lecon": "IV.3.b – L'optimisation fiscale des FMN",
+   "mots_cles": [
+    "paradis fiscaux",
+    "évasion fiscale",
+    "FMN",
+    "impôt minimal mondial"
+   ]
+  },
+  {
+   "auteur": "OCDE (accord sur l'impôt minimal)",
+   "ouvrage": "",
+   "date": "2021",
+   "idee": "L'accord d'octobre 2021 fixe un taux minimal mondial de 15 % sur les bénéfices des multinationales.",
+   "a_quoi_ca_sert": "montrer une reprise en main fiscale des États par la coopération",
+   "partie_lecon": "IV.3.b – L'optimisation fiscale des FMN",
+   "mots_cles": [
+    "impôt minimal mondial",
+    "OCDE",
+    "G20",
+    "numérique"
+   ]
+  },
+  {
+   "auteur": "Graham Allison",
+   "ouvrage": "Vers la guerre",
+   "date": "2019",
+   "idee": "Piège de Thucydide : la montée d'une puissance et la peur qu'elle inspire à la puissance établie rendent le conflit probable.",
+   "a_quoi_ca_sert": "lire la guerre commerciale sino-américaine comme une rivalité de puissance",
+   "partie_lecon": "Conclusion",
+   "mots_cles": [
+    "piège de Thucydide",
+    "Chine",
+    "États-Unis",
+    "rivalité"
+   ]
+  },
+  {
+   "auteur": "Joseph Nye",
+   "ouvrage": "",
+   "date": "2017",
+   "idee": "Piège de Kindleberger : le retrait américain laisserait un vide de leadership qui ruinerait la coordination mondiale.",
+   "a_quoi_ca_sert": "analyser les risques d'un désengagement américain des institutions internationales",
+   "partie_lecon": "Conclusion",
+   "mots_cles": [
+    "piège de Kindleberger",
+    "leadership",
+    "hégémon",
+    "multilatéralisme"
+   ]
+  }
+ ],
+ "id": "2A-03-gouvernance",
+ "programme_chapitre": "3.1 – La dynamique de la mondialisation économique : régionalisation, gouvernance et régulations internationales"
+}

@@ -54,7 +54,8 @@ for d in editions:
                 programme.setdefault(pr["module"], set()).add(pr["chapitre"])
 print()
 
-print("=== INTITULÉS DU PROGRAMME DÉJÀ UTILISÉS (à reprendre tels quels) ===")
+print("=== INTITULÉS DU PROGRAMME DÉJÀ UTILISÉS ===")
+print("(Pour les cartes esh, les intitulés officiels donnés par scripts/cours.py passent avant cette liste.)")
 for mod in sorted(programme):
     print(f"- {mod}")
     for ch in sorted(programme[mod]):
