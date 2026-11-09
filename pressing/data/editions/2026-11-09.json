@@ -1,0 +1,1070 @@
+{
+  "date": "2026-11-09",
+  "cards": [
+    {
+      "id": "2026-11-09-esh-1",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/09/sans-croissance-les-entreprises-francaises-peineront-a-augmenter-les-salaires-auxquels-elles-consacrent-deja-une-large-part-de-leur-richesse_6808603_3234.html",
+      "minutes": 3,
+      "titre": "Salaires et marges : le dilemme du partage de la valeur ajoutée au cœur de la conférence sociale",
+      "faits": "À l'ouverture de la conférence sociale ce lundi 9 novembre, le gouvernement de Sébastien Lecornu tente de renouer le dialogue avec les syndicats et le patronat sur la question des rémunérations. Selon les données publiées par l'Insee et analysées par Le Monde, la part de la valeur ajoutée consacrée aux salaires atteint désormais 68 % en France, un niveau nettement supérieur à la moyenne européenne. Dans le même temps, le taux de marge des entreprises non financières s'est érodé pour retomber sous les 31 %, son plus bas niveau depuis 2019. Les organisations patronales avertissent qu'en l'absence de rebond de la croissance, toute hausse générale imposée des rémunérations menacerait la solvabilité des entreprises. À l'inverse, l'intersyndicale exige une indexation des salaires sur l'inflation et un relèvement substantiel du Smic net à 1 500 euros pour soutenir le pouvoir d'achat des ménages populaires.",
+      "enjeux": "Cette confrontation réactive l'arbitrage théorique fondamental entre **compétitivité-coût** et **soutien de la demande globale**. Lorsque l'économie stagne, le partage des gains de productivité devient un jeu à somme nulle entre les salaires et l'excédent brut d'exploitation. Une hausse rapide des salaires réels peut stimuler la consommation populaire à court terme, mais elle comprime les capacités d'autofinancement indispensables à l'investissement productif. La France se trouve ainsi prise dans une équation complexe où la modération des marges freine la modernisation des équipements sans pour autant enrayer la baisse du pouvoir d'achat ressenti. La **boucle prix-salaires** demeure une préoccupation majeure pour les autorités monétaires dans un contexte de tensions inflationnistes persistantes. La conférence sociale illustre enfin le rôle crucial des **compromis institutionnels** dans la régulation macroéconomique d'un capitalisme de concertation.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Hotel_Matignon.jpg/1280px-Hotel_Matignon.jpg",
+        "alt": "La façade de l'hôtel de Matignon à Paris, résidence officielle du Premier ministre",
+        "credit": "Ww2censor / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hotel_Matignon.jpg"
+      },
+      "programme": {
+        "module": "Module 4 – Déséquilibres, régulation et action publique",
+        "chapitre": "4.1 – Équilibres et déséquilibres macroéconomiques : l'inflation et le chômage"
+      },
+      "auteurs": [
+        {
+          "nom": "Arthur Bowley et Nicholas Kaldor",
+          "ouvrage": "« Alternative Theories of Distribution »",
+          "annee": "1956",
+          "ref": "partage-valeur-ajoutee-kaldor",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Kaldor formalise la loi empirique de Bowley selon laquelle la **part des salaires dans la valeur ajoutée** tend vers une relative stabilité historique autour des deux tiers. Quand cette part grimpe excessivement en période de stagnation, elle comprime l'épargne des entreprises nécessaire à l'accumulation du capital. À mobiliser pour montrer que le partage de la valeur conditionne l'équilibre macroéconomique entre consommation et investissement."
+        },
+        {
+          "nom": "Michał Kalecki",
+          "ouvrage": "Théorie de la dynamique économique",
+          "annee": "1954",
+          "ref": "partage-valeur-ajoutee-kaldor",
+          "cours": "1A-croissance",
+          "texte": "Kalecki résume la dynamique capitaliste par la célèbre maxime : « les salariés dépensent ce qu'ils gagnent, les capitalistes gagnent ce qu'ils dépensent ». Une redistribution en faveur des salaires soutient immédiatement la **demande effective**, car les ménages modestes ont une propension marginale à consommer proche de un. À mobiliser pour défendre l'idée qu'un choc de salaires peut relancer une économie atone par la consommation."
+        }
+      ],
+      "notions": [
+        [
+          "Partage de la valeur ajoutée",
+          "Répartition de la richesse créée par l'entreprise entre les salaires et l'excédent brut d'exploitation."
+        ],
+        [
+          "Taux de marge",
+          "Rapport entre l'excédent brut d'exploitation et la valeur ajoutée mesurant la rentabilité économique."
+        ],
+        [
+          "Demande effective",
+          "Niveau de demande globale anticipé par les entrepreneurs qui détermine leur volume de production et d'emploi."
+        ]
+      ],
+      "sujets": [
+        "Le partage de la valeur ajoutée est-il un facteur déterminant de la croissance économique ?",
+        "Faut-il opposer compétitivité des entreprises et pouvoir d'achat des salariés ?"
+      ],
+      "anki": [
+        {
+          "q": "Part de la valeur ajoutée consacrée aux salaires en France (2026)",
+          "r": "C{68 %} de la valeur ajoutée des entreprises consacrée aux salaires.\n→ A{Bowley et Kaldor}, O{Alternative Theories of Distribution} (D{1956}) : la hausse de la part salariale en période de croissance nulle pèse sur les marges et l'investissement. → accroche pour un sujet sur le partage de la valeur ou la compétitivité"
+        },
+        {
+          "q": "Niveau du taux de marge des entreprises françaises (fin 2026)",
+          "r": "Baisse du taux de marge sous la barre des C{31 %}, au plus bas depuis 2019.\n→ A{Kalecki}, O{Théorie de la dynamique économique} (D{1954}) : le repli des marges limite l'autofinancement mais reflète la défense de la demande par les salaires."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-esh-2",
+      "matiere": "esh",
+      "source": "Le Figaro",
+      "url": "https://www.lefigaro.fr/societes/72-8-milliards-d-euros-selon-edf-680-milliards-selon-greenpeace-quel-est-le-veritable-cout-des-six-prochains-reacteurs-nucleaires-20261108",
+      "minutes": 3,
+      "titre": "Investissements nucléaires : la bataille des chiffres sur le coût réel des six réacteurs EPR2",
+      "faits": "Le débat sur la relance du programme nucléaire civil français s'envenime autour du coût prévisionnel de construction des six réacteurs de nouvelle génération EPR2. Alors qu'EDF évalue désormais la facture globale à 72,8 milliards d'euros, une expertise indépendante commandée par Greenpeace chiffre l'ardoise finale à près de 680 milliards d'euros en intégrant le coût complet du capital et le démantèlement. Cet écart colossal s'explique principalement par les hypothèses retenues sur les taux d'intérêt d'emprunt sur une durée d'exploitation de soixante ans. Le ministère de l'Économie négocie actuellement avec la Commission européenne un contrat pour différence (CfD) destiné à garantir un prix d'achat fixe pour l'électricité produite. L'État envisage également de mobiliser massivement les fonds de l'épargne réglementée du Livret A pour alléger le fardeau financier d'EDF face à l'envolée des taux de marché.",
+      "enjeux": "Ce dossier illustre de façon exemplaire les problématiques de financement des **monopoles naturels** et des infrastructures énergétiques lourdes. L'industrie nucléaire se caractérise par des **coûts fixes gigantesques** engagés sur plusieurs décennies, ce qui rend le coût de revient du mégawattheure extrêmement sensible aux taux d'intérêt réels. En l'absence de garanties publiques sur les prix de vente, aucun investisseur privé sur les marchés financiers ne consentirait à supporter un tel risque d'illiquidité. L'intervention de l'État relève ici de sa fonction d'**allocation des ressources**, visant à corriger les défaillances de marché pour assurer la souveraineté énergétique et la décarbonation. Toutefois, le mécanisme des contrats pour différence introduit un risque d'**aléa moral** en réduisant la pression concurrentielle sur les coûts de construction de l'opérateur historique. L'arbitrage final porte sur le partage de la rente nucléaire et la répartition des surcoûts éventuels entre les contribuables et les usagers.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Centrale_nucleaire_de_Belleville-sur-Loire.jpg/1280px-Centrale_nucleaire_de_Belleville-sur-Loire.jpg",
+        "alt": "La centrale nucléaire de Belleville-sur-Loire, illustrant les infrastructures de production électrique",
+        "credit": "Tangopaso / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centrale_nucleaire_de_Belleville-sur-Loire.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Marcel Boiteux",
+          "ouvrage": "« Sur la gestion des monopoles publics astreints à l'équilibre budgétaire »",
+          "annee": "1956",
+          "ref": "monopole-naturel-boiteux",
+          "texte": "Boiteux établit les règles de la **tarification au coût marginal** pour les entreprises publiques de réseau comme EDF. Dans une industrie à rendements croissants, vendre au coût marginal engendre un déficit budgétaire que l'État doit compenser ou réguler par une structure tarifaire optimale. À mobiliser pour analyser la fixation des prix de l'électricité et la justification économique du monopole public dans l'énergie."
+        },
+        {
+          "nom": "Richard Musgrave",
+          "ouvrage": "The Theory of Public Finance",
+          "annee": "1959",
+          "ref": "fonctions-etat",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Musgrave définit la **fonction d'allocation** comme l'intervention de l'État pour financer des biens d'intérêt général et corriger les externalités là où le marché est défaillant. La garantie publique accordée au parc nucléaire répond à cette nécessité de planifier des investissements dont l'horizon temporel dépasse la rationalité privée. À mobiliser pour justifier le retour de l'État stratège dans les infrastructures de transition."
+        }
+      ],
+      "notions": [
+        [
+          "Monopole naturel",
+          "Situation de marché où une seule entreprise est viable en raison de coûts fixes d'infrastructure colossaux et de rendements d'échelle croissants."
+        ],
+        [
+          "Contrat pour différence (CfD)",
+          "Mécanisme public garantissant un prix plancher et un prix plafond à un producteur d'électricité pour sécuriser ses investissements."
+        ],
+        [
+          "Fonction d'allocation",
+          "Mission de l'État consistant à orienter les ressources productives vers des biens collectifs ou des secteurs stratégiques."
+        ]
+      ],
+      "sujets": [
+        "L'État doit-il être le financier en dernier ressort des infrastructures énergétiques ?",
+        "Dans quelle mesure les défaillances de marché justifient-elles le retour des monopoles publics ?"
+      ],
+      "anki": [
+        {
+          "q": "Estimation du coût de construction des six réacteurs nucléaires EPR2 en France",
+          "r": "C{72,8 Md€} selon EDF contre jusqu'à C{680 Md€} selon Greenpeace en coût complet du capital.\n→ A{Boiteux}, O{Gestion des monopoles publics} (D{1956}) : l'ampleur des coûts fixes rend le coût du mégawattheure tributaire des taux d'intérêt et des garanties de l'État. → accroche pour un sujet sur l'énergie ou le rôle économique de l'État"
+        },
+        {
+          "q": "Dispositif public de sécurisation financière négocié pour les futurs EPR2",
+          "r": "Mise en place d'un B{contrat pour différence (CfD)} pour stabiliser le prix de vente de l'électricité.\n→ A{Musgrave}, O{Theory of Public Finance} (D{1959}) : l'État assume le risque financier pour pallier l'incapacité du marché à porter des projets sur soixante ans."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-esh-3",
+      "matiere": "esh",
+      "source": "Alternatives Économiques",
+      "url": "https://www.alternatives-economiques.fr/apres-dix-ans-de-macronisme-le-constat-d-echec-de-la-politique-de-l-offre_07-11-2026",
+      "minutes": 3,
+      "titre": "Politique de l'offre : après une décennie d'allègements fiscaux, l'heure des bilans économiques",
+      "faits": "Dans une analyse de fond publiée ce week-end, la revue Alternatives Économiques dresse un bilan critique de la politique de l'offre menée en France depuis 2014. Initiée sous la présidence de François Hollande avec le CICE et le pacte de responsabilité, cette stratégie a été amplifiée à partir de 2017 par la suppression de l'ISF et la baisse continue de l'impôt sur les sociétés à 25 %. Au total, plus de 70 milliards d'euros d'allègements fiscaux et sociaux pérennes ont été consentis chaque année aux entreprises et aux détenteurs de capitaux. Pourtant, les gains de productivité demeurent quasi nuls et le déficit commercial manufacturier continue de battre des records historiques. L'étude souligne que ce choix macroéconomique a creusé la dette publique française sans enclencher la réindustrialisation promise par l'exécutif.",
+      "enjeux": "Ce bilan relance la querelle séculaire opposant la **politique de l'offre** inspirée de la loi des débouchés aux politiques keynésiennes axées sur la demande. Les partisans de l'offre soutenaient que l'amélioration de la rentabilité du capital restaurerait spontanément l'attractivité territoriale et la compétitivité hors-prix du pays. Cependant, les travaux empiriques révèlent que les marges restaurées ont été principalement absorbées par la distribution de dividendes plutôt que par l'effort de recherche et développement. Ce constat illustre la limite du **théorème de Schmidt** lorsque l'environnement macroéconomique global souffre d'un manque d'anticipations de croissance. La politique fiscale a en outre privé l'État de marges de manœuvre budgétaires cruciales, précipitant la dégradation de la note souveraine par les agences de notation. La remise en cause de ce modèle alimente aujourd'hui le débat sur une taxation accrue du capital et le ciblage des aides publiques sous conditions d'investissement vert.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/La_D%C3%A9fense_-_2022.jpg/1280px-La_D%C3%A9fense_-_2022.jpg",
+        "alt": "Le quartier d'affaires de La Défense, symbole de l'activité économique et financière française",
+        "credit": "DXR / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:La_D%C3%A9fense_-_2022.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Helmut Schmidt",
+          "ouvrage": "Déclaration au Bundestag",
+          "annee": "1974",
+          "ref": "theoreme-de-schmidt",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Le chancelier Schmidt formule son célèbre théorème : « les profits d'aujourd'hui sont les investissements de demain et les emplois d'après-demain ». Cette maxime postule un enchaînement vertueux direct entre allègement des charges patronales et redressement de l'emploi productif. À mobiliser pour exposer la justification théorique des baisses de cotisations et de fiscalité sur les entreprises."
+        },
+        {
+          "nom": "Arthur Laffer",
+          "ouvrage": "The Economics of the Tax Revolt",
+          "annee": "1979",
+          "ref": "courbe-de-laffer",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Laffer modélise l'idée que des taux marginaux d'imposition trop élevés découragent l'effort productif et finissent par tarir les recettes fiscales de l'État. Réduire l'impôt est censé élargir l'assiette taxable en stimulant le travail et l'investissement privé. À mobiliser pour discuter l'efficacité des baisses d'impôts sur les sociétés et le risque de dérapage du déficit budgétaire."
+        }
+      ],
+      "notions": [
+        [
+          "Politique de l'offre",
+          "Stratégie économique visant à stimuler l'activité en réduisant les coûts de production, les impôts et les réglementations pesant sur les entreprises."
+        ],
+        [
+          "Compétitivité-coût",
+          "Capacité d'un pays ou d'une entreprise à proposer des biens et services à des prix inférieurs à ceux de ses concurrents grâce à des coûts salariaux modérés."
+        ],
+        [
+          "Assiette fiscale",
+          "Base monétaire sur laquelle est calculé le montant de l'impôt (revenus, bénéfices, patrimoine ou consommation)."
+        ]
+      ],
+      "sujets": [
+        "Les politiques de l'offre ont-elles atteint leurs objectifs depuis les années 1980 ?",
+        "Faut-il conditionner les aides publiques aux entreprises ?"
+      ],
+      "anki": [
+        {
+          "q": "Montant annuel estimé des allègements fiscaux et sociaux pérennes pour les entreprises en France",
+          "r": "Plus de C{70 Md€} d'allègements consentis chaque année depuis le CICE et le pacte de responsabilité.\n→ A{Schmidt}, O{Déclaration au Bundestag} (D{1974}) : la restauration des marges n'a pas suffi à relancer les gains de productivité ni l'investissement industriel. → accroche pour un sujet sur la politique économique ou la désindustrialisation"
+        },
+        {
+          "q": "Plafond du taux de l'impôt sur les sociétés en France (évolution depuis 2017)",
+          "r": "Abaissement progressif du taux normal de l'IS de C{33,3 %} à C{25 %}.\n→ A{Laffer}, O{The Economics of the Tax Revolt} (D{1979}) : la baisse des taux d'imposition n'a pas généré de surcroît d'assiette suffisant pour combler le déficit des finances publiques."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-esh-4",
+      "matiere": "esh",
+      "source": "Alternatives Économiques",
+      "url": "https://www.alternatives-economiques.fr/cop-31-jugees-inefficaces-et-couteuses-les-conventions-climat-doivent-elles-etre-reformees_09-11",
+      "minutes": 3,
+      "titre": "COP31 à Antalya : la gouvernance multilatérale du climat face à la tentation du passager clandestin",
+      "faits": "La 31e conférence des Nations unies sur le climat s'est ouverte ce lundi 9 novembre à Antalya, en Turquie, dans un climat de scepticisme généralisé sur l'efficacité des négociations internationales. Alors que l'année 2026 s'apprête à battre de nouveaux records mondiaux de température, les délégués de près de deux cents pays doivent négocier un nouvel objectif de financement climatique pour les pays du Sud. Plusieurs grands dirigeants, dont le chancelier allemand Friedrich Merz et les représentants de la nouvelle majorité américaine issue des midterms, ont choisi de boycotter l'ouverture du sommet. Les pays émergents dénoncent l'hypocrisie des puissances occidentales qui n'ont toujours pas versé l'intégralité des 100 milliards de dollars annuels promis pour l'adaptation. Face à l'empilement des déclarations sans portée contraignante, de nombreuses délégations réclament une réforme radicale du processus des COP pour instaurer des sanctions commerciales contre les États défaillants.",
+      "enjeux": "Cette paralysie illustre de façon éclatante la tragédie des **biens publics mondiaux** appliquée à la stabilité de l'atmosphère planétaire. Le climat constituant un bien non rival et non excluable, chaque gouvernement est incité à adopter une posture de **passager clandestin** en laissant les autres nations assumer les coûts économiques de la décarbonation. Le multilatéralisme onusien, fondé sur la règle du consensus diplomatique, se heurte à l'absence d'une autorité supranationale capable de punir les manquements. Pour remédier à cette défaillance, certains économistes préconisent la formation de « **clubs climat** » regroupant des pays volontaires protégés par des mécanismes d'ajustement carbone aux frontières. La fracture entre pays industrialisés et pays en développement reflète également un litige éthique sur la justice climatique et la responsabilité historique des émissions cumulées. L'incapacité à imposer une **taxe pigouvienne** mondiale pénalise ainsi les générations futures au profit d'intérêts électoraux nationaux de court terme.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Alpha_ventus_1.jpg/1280px-Alpha_ventus_1.jpg",
+        "alt": "Éoliennes en mer illustrant la transition énergétique et les investissements climatiques internationaux",
+        "credit": "BWP / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Alpha_ventus_1.jpg"
+      },
+      "programme": {
+        "module": "Module 3 – La mondialisation économique et financière",
+        "chapitre": "3.1 – La dynamique de la mondialisation économique : régionalisation, gouvernance et régulations internationales"
+      },
+      "auteurs": [
+        {
+          "nom": "Charles Kindleberger",
+          "ouvrage": "« International Public Goods without International Government »",
+          "annee": "1986",
+          "ref": "biens-publics-mondiaux",
+          "cours": "2A-03-gouvernance",
+          "texte": "Kindleberger démontre que la production d'un bien collectif mondial est compromise en l'absence d'un gouvernement supranational ou d'un leader hégémonique acceptant d'en supporter le coût. Sans puissance régulatrice pour faire respecter les règles, la communauté internationale s'enferme dans le sous-investissement climatique. À mobiliser pour expliquer les blocages chroniques des sommets multilatéraux et des traités internationaux."
+        },
+        {
+          "nom": "Arthur Cecil Pigou",
+          "ouvrage": "L'Économie du bien-être",
+          "annee": "1920",
+          "ref": "externalites-pigou",
+          "cours": "2A-03-gouvernance",
+          "texte": "Pigou théorise l'**internalisation des externalités négatives** grâce à l'instauration d'une taxe sur les activités polluantes égale au coût du dommage marginal infligé à la collectivité. En faisant payer aux émetteurs de carbone le coût social de leur production, le signal-prix rétablit l'allocation optimale des ressources. À mobiliser pour justifier la tarification du carbone et les marchés de quotas d'émissions."
+        }
+      ],
+      "notions": [
+        [
+          "Biens publics mondiaux",
+          "Biens collectifs dont les bienfaits s'étendent à l'ensemble des pays et des générations sans rivalité ni exclusion possible."
+        ],
+        [
+          "Passager clandestin (free rider)",
+          "Comportement d'un agent ou d'un État qui profite des retombées positives d'une action collective sans en supporter le coût."
+        ],
+        [
+          "Taxe pigouvienne",
+          "Taxe incitative visant à corriger une externalité négative en alignant le coût privé de l'émetteur sur son coût social."
+        ]
+      ],
+      "sujets": [
+        "La gouvernance mondiale peut-elle surmonter la crise climatique ?",
+        "Dans quelle mesure la lutte contre le réchauffement climatique exige-t-elle de contraindre la souveraineté des États ?"
+      ],
+      "anki": [
+        {
+          "q": "Engagements financiers promis par les pays développés pour le climat (sommet international)",
+          "r": "Promesse initiale de C{100 Md$} par an pour l'adaptation des pays du Sud.\n→ A{Kindleberger}, O{International Public Goods} (D{1986}) : l'absence d'autorité supranationale encourage les comportements de passager clandestin entre États souverains. → accroche pour un sujet sur la mondialisation ou l'écologie"
+        },
+        {
+          "q": "Mécanisme économique de régulation préconisé pour combler le déficit d'action climatique",
+          "r": "Création de B{clubs climat} associant taxation carbone intérieure et droit de douane frontalier.\n→ A{Pigou}, O{L'Économie du bien-être} (D{1920}) : le signal-prix de la taxe pigouvienne internalise le coût des dommages écologiques."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-anglais-1",
+      "matiere": "anglais",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo",
+      "minutes": 3,
+      "titre": "Transition écologique : le gouvernement britannique prêt à assouplir les quotas de véhicules électriques",
+      "faits": "Le gouvernement travailliste d'Andy Burnham s'apprête à annoncer cette semaine une révision à la baisse des obligations imposées aux constructeurs automobiles en matière de vente de véhicules électriques. Introduit par les conservateurs, le mandat ZEV (Zero Emission Vehicle) prévoyait que 22 % des voitures neuves vendues en 2024 devaient être électriques, avec une cible progressive atteignant 80 % en 2030. Face au ralentissement brutal de la demande des ménages britanniques et à la menace de lourdes pénalités financières, l'industrie automobile a intensifié ses pressions sur Downing Street pour obtenir un sursis. Plusieurs usines d'assemblage situées dans les Midlands et le nord de l'Angleterre ont suspendu leurs chaînes de montage en raison d'un goulet d'étranglement sur les stocks. Le ministre des Transports devrait annoncer des dérogations temporaires et une baisse des amendes pour sauver les emplois du secteur.",
+      "enjeux": "Ce recul politique met en lumière les arbitrages douloureux entre **objectifs climatiques** et **impératifs industriels** dans une économie britannique fragilisée. Les constructeurs historiques peinent à rivaliser avec les modèles électriques à bas coût importés de Chine, tandis que le manque de bornes de recharge dissuade les acheteurs. Pour Burnham, qui a fait de la réindustrialisation régionale sa priorité, sanctionner des usines locales risquerait d'aliéner la classe ouvrière du « mur rouge ». Mais assouplir le calendrier fragilise la crédibilité de l'engagement du Royaume-Uni vers le **zéro émission nette** d'ici 2050. Les associations écologistes dénoncent une capitulation face aux lobbies pétroliers et automobiles qui retardera l'adaptation du pays. Cet épisode démontre combien le rythme de la **transition verte** dépend de l'acceptabilité sociale et du pouvoir d'achat des ménages.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg/1280px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
+        "alt": "Le palais de Westminster à Londres, siège du Parlement britannique",
+        "credit": "Diliff / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg"
+      },
+      "vo": {
+        "titre": "UK government poised to soften electric vehicle mandate amid car industry pressure",
+        "faits": "Andy Burnham's Labour government is widely expected to water down mandatory sales targets for electric vehicles this week. The Zero Emission Vehicle mandate required manufacturers to ensure 22% of new car sales were purely electric this year, rising steeply towards 80% by 2030. Confronted with sluggish consumer demand and the prospect of punitive fines, automotive executives lobbied Downing Street heavily for an urgent reprieve. Several manufacturing plants in the Midlands have already curtailed production shifts as unsold inventories accumulate on forecourts. Transport ministers are preparing temporary flexibilities and reduced penalties to avert imminent redundancies across British car factories.",
+        "enjeux": "This policy retreat exposes the acute tension between **statutory climate targets** and **industrial realities** in post-Brexit Britain. Domestic vehicle manufacturers are struggling to withstand intense competition from subsidised Chinese imports while patchy public charging infrastructure deters private motorists. For Prime Minister Burnham, inflicting heavy penalties on regional car plants would undermine his pledge to revitalise manufacturing jobs in northern heartlands. Yet relaxing the trajectory compromises the United Kingdom's flagship commitment to reach **net zero emissions** by 2050. Environmental campaigners warn that caving in to commercial lobbying risks stalling private capital investment in battery gigafactories. The dispute underscores how decarbonisation policies falter whenever upfront costs outpace household living standards."
+      },
+      "vocab": [
+        [
+          "to water down",
+          "édulcorer / assouplir",
+          "Ministers decided to water down the environmental regulation."
+        ],
+        [
+          "the ZEV mandate",
+          "l'obligation légale de vente de véhicules zéro émission",
+          "The ZEV mandate imposes stiff fines on lagging carmakers."
+        ],
+        [
+          "a reprieve",
+          "un sursis / un répit",
+          "Car manufacturers welcomed the government's unexpected reprieve."
+        ],
+        [
+          "net zero targets",
+          "les objectifs de neutralité carbone",
+          "The UK remains legally bound to its net zero targets."
+        ],
+        [
+          "a forecourt",
+          "le parc d'exposition d'un concessionnaire automobile",
+          "Unsold electric models are piling up on dealer forecourts."
+        ],
+        [
+          "living standards",
+          "le niveau de vie des ménages",
+          "Green policies must not depress working-class living standards."
+        ]
+      ],
+      "sujets": [
+        "Can Britain balance the cost of net zero with industrial competitiveness?",
+        "Should environmental targets be relaxed during economic downturns?"
+      ],
+      "anki": [
+        {
+          "q": "Objectif initial de vente de véhicules électriques au Royaume-Uni (mandat ZEV 2026)",
+          "r": "Cible de C{22 %} des ventes neuves en 2024 devant grimper à C{80 %} d'ici D{2030}.\n→ Le recul du gouvernement Burnham illustre l'arbitrage entre normes écologiques et protection de l'emploi manufacturier face aux importations chinoises."
+        },
+        {
+          "q": "Motif invoqué par les constructeurs automobiles britanniques pour assouplir le mandat électrique",
+          "r": "Ralentissement de la demande des ménages et manque de B{bornes de recharge}.\n→ Révèle que la transition écologique achoppe dès lors que l'infrastructure publique et le pouvoir d'achat font défaut."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-anglais-2",
+      "matiere": "anglais",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/08/us/politics/trump-immigration-crackdown-republicans-midterms.html",
+      "minutes": 3,
+      "titre": "États-Unis : Trump admet que sa rhétorique sur l'immigration a coûté cher aux républicains aux midterms",
+      "faits": "Dans un entretien télévisé accordé à l'émission 60 Minutes diffusé dimanche soir, Donald Trump a reconnu pour la première fois que la fermeté extrême de sa politique migratoire a contribué à la déroute du Parti républicain lors des élections de mi-mandat. Le président américain a concédé que les opérations d'expulsion de masse menées par l'ICE et la séparation des familles aux frontières avaient été perçues comme « trop dures » par une large frange de l'électorat modéré et hispanique. La déferlante démocrate qui a fait basculer la Chambre des représentants le 3 novembre s'est nourrie d'une mobilisation historique des minorités dans les États clés du Sud-Ouest comme l'Arizona et le Nevada. Plusieurs stratèges conservateurs attribuent également la perte de sièges cruciaux en banlieue résidentielle au rejet de cette rhétorique radicale. Malgré cet aveu inattendu, Trump continue de défendre la nécessité d'un contrôle hermétique de la frontière méridionale tout en préparant des ajustements diplomatiques.",
+      "enjeux": "Cette déclaration marque un tournant tactique dans la gestion de l'après-midterms au sein du Parti républicain. L'immigration clandestine a constitué le pilier mobilisateur du trumpisme depuis 2016, mais sa mise en œuvre autoritaire s'est heurtée au principe des **contre-pouvoirs institutionnels** et à la réprobation morale de l'électorat indépendant. Avec une Chambre désormais sous contrôle démocrate, le président américain perd son levier de financement pour le mur frontalier et s'expose à de virulentes commissions d'enquête parlementaires sur les centres de détention. L'électorat latino-américain confirme sa position d'**électorat pivot** (swing voters) dont le soutien ne peut être tenu pour acquis par aucun des deux grands partis. Ce désaveu illustre le risque inhérent aux stratégies de **polarisation extrême** : efficaces pour cimenter une base partisane, elles finissent par coaliser une majorité électorale hostile lors des scrutins intermédiaires. Le Parti républicain se trouve désormais confronté à une remise en question interne de son discours identitaire à l'approche de la présidentielle de 2028.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/1280px-White_House_north_and_south_sides.jpg",
+        "alt": "La Maison-Blanche à Washington, symbole de l'exécutif fédéral américain",
+        "credit": "Martin Falbisoner / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:White_House_north_and_south_sides.jpg"
+      },
+      "vo": {
+        "titre": "Trump admits aggressive immigration crackdown hurt Republicans in midterm rout",
+        "faits": "In a broadcast interview on 60 Minutes aired on Sunday evening, Donald Trump conceded that his administration's hardline immigration policies contributed to the Republican Party's midterm defeat. The American president acknowledged that widespread workplace raids by ICE and aggressive deportations were perceived as \"too tough\" by moderate suburban voters and Hispanic communities. The Democratic wave that flipped the House of Representatives on 3 November was fueled by surging turnout among minority voters across southwestern swing states including Arizona and Nevada. Senior Republican strategists privately blame inflammatory rhetoric and mass detention headlines for alienating educated suburban women in competitive districts. Despite this admission, Trump reaffirmed his commitment to border enforcement while hinting at pragmatic adjustments to avoid protracted congressional stalemates.",
+        "enjeux": "This remarkable admission signals an urgent recalibration within the Republican establishment following their congressional setback. Hardline immigration enforcement has long served as the central organizing principle of Trump's populist coalition, yet heavy-handed implementation ran afoul of constitutional norms and judicial scrutiny. Losing control of the House of Representatives strips the White House of key legislative funding while empowering incoming Democratic committee chairs to launch subpoena-driven investigations into detention conditions. Crucially, the outcome confirms that Hispanic citizens represent an indispensable **swing constituency** willing to punish xenophobic messaging at the ballot box. The midterm repudiation exposes the electoral hazard of **hyper-polarisation**: energising base activists often triggers a devastating backlash among undecided independents. The GOP now faces a deep strategic identity crisis regarding how to frame cultural and economic issues ahead of the 2028 presidential cycle."
+      },
+      "vocab": [
+        [
+          "a midterm rout",
+          "une déroute électorale aux midterms",
+          "The midterm rout forced party strategists to rethink their platform."
+        ],
+        [
+          "hardline policies",
+          "des politiques intransigeantes / dures",
+          "Voters recoiled against the administration's hardline policies."
+        ],
+        [
+          "suburban voters",
+          "les électeurs des banlieues résidentielles aisées",
+          "Courting suburban voters is vital to build a governing majority."
+        ],
+        [
+          "a swing constituency",
+          "un groupe électoral pivot / indécis",
+          "Hispanic workers have emerged as a powerful swing constituency."
+        ],
+        [
+          "a legislative stalemate",
+          "une impasse législative au Congrès",
+          "Divided government frequently results in protracted legislative stalemate."
+        ],
+        [
+          "subpoena-driven investigations",
+          "des commissions d'enquête parlementaires avec pouvoir d'assignation",
+          "House committees will launch aggressive subpoena-driven investigations."
+        ]
+      ],
+      "sujets": [
+        "Is aggressive immigration enforcement an electoral liability in modern American politics?",
+        "Can the Republican Party broaden its coalition without abandoning populist rhetoric?"
+      ],
+      "anki": [
+        {
+          "q": "Analyse de Donald Trump sur la défaite républicaine aux midterms de novembre 2026",
+          "r": "Aveu télévisé que sa politique d'expulsions massives a été perçue comme B{« trop dure »} par les électeurs.\n→ Démontre que la rhétorique anti-immigration radicale a aliéné l'électorat modéré des banlieues et les électeurs hispaniques clés."
+        },
+        {
+          "q": "Conséquence institutionnelle du basculement de la Chambre des représentants aux démocrates (2026)",
+          "r": "Perte de la maîtrise budgétaire pour l'exécutif et lancement de B{commissions d'enquête parlementaires}.\n→ Illustration concrète du principe constitutionnel de B{checks and balances} limitant l'arbitraire présidentiel."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-anglais-3",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/society/2026/nov/09/uk-young-people-job-work-employment-crisis-paul-nowak-milburn-review",
+      "minutes": 3,
+      "titre": "Emploi des jeunes au Royaume-Uni : les syndicats réclament un plan d'urgence face au million de NEETs",
+      "faits": "Le secrétaire général du Trades Union Congress (TUC), Paul Nowak, a lancé ce lundi un appel pressant au gouvernement d'Andy Burnham pour investir massivement dans la jeunesse. Selon les conclusions de la commission présidée par Alan Milburn, près d'un million de Britanniques âgés de 16 à 24 ans sont aujourd'hui sans emploi, sans études et sans formation (NEETs). Ce phénomène touche de plein fouet les anciennes villes minières et les bassins industriels déclassés du Nord et du Pays de Galles. Le rapport pointe l'impact cumulé de quatorze années d'austérité budgétaire sur les centres d'apprentissage et la santé mentale des jeunes générations. Le TUC réclame l'instauration d'une garantie d'emploi financée par l'État et une hausse immédiate du salaire minimum pour les moins de 21 ans. Le chancelier de l'Échiquier John Healey a promis d'examiner ces recommandations dans le cadre de son plan de réformes décennal prévu pour la fin de l'année.",
+      "enjeux": "La crise de l'emploi des jeunes constitue une menace existentielle pour la **productivité tendancielle** et la cohésion sociale britannique. L'inactivité prolongée en début de parcours génère un phénomène d'**hystérèse** : les compétences professionnelles se dégradent et les chances d'insertion durable diminuent irréversiblement. Ce fossé générationnel renforce la fracture territoriale entre une métropole londonienne prospère et des régions postindustrielles abandonnées à la stagnation. Pour le Parti travailliste, répondre aux aspirations des jeunes précaires est un test décisif de sa capacité à rompre avec le sous-investissement chronique dans le **capital humain**. Les employeurs déplorent de leur côté un déficit de qualifications techniques et une inadéquation entre les cursus scolaires et les besoins du marché. Sans soutien financier substantiel, les promesses de mobilité sociale risquent de demeurer lettre morte, alimentant la défiance politique d'une génération sacrifiée.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bank_of_England%2C_Threadneedle_Street%2C_London.jpg/1280px-Bank_of_England%2C_Threadneedle_Street%2C_London.jpg",
+        "alt": "Le quartier historique de la City de Londres et Threadneedle Street",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bank_of_England,_Threadneedle_Street,_London.jpg"
+      },
+      "vo": {
+        "titre": "UK youth employment crisis: Trade unions urge major investment to tackle NEET surge",
+        "faits": "Trades Union Congress general secretary Paul Nowak issued an urgent warning on Monday demanding comprehensive state intervention to resolve Britain's youth unemployment emergency. Following findings published by Alan Milburn's social mobility commission, nearly one million young people aged 16 to 24 are now classified as NEET – not in education, employment, or training. The crisis disproportionately afflicts former industrial towns and coastal communities across northern England, the Midlands, and Wales. The review highlights the cumulative scarring caused by fourteen years of fiscal austerity on vocational colleges, youth clubs, and mental health services. The TUC is demanding a statutory youth jobs guarantee alongside an immediate equalisation of national minimum wage rates for workers under twenty-one. Chancellor John Healey stated the government would consider the findings within its forthcoming ten-year economic growth strategy.",
+        "enjeux": "The persistence of youth joblessness poses a structural threat to the United Kingdom's long-term **trend productivity** and fiscal sustainability. Protracted detachment from the labour market generates severe **hysteresis effects**: lost skills and diminished confidence permanently reduce lifetime earnings and aggregate output. This generational malaise compounds the deep regional divide separating buoyant professional services in London from decaying industrial peripheries. For the Labour government, delivering tangible opportunities for disaffected youth represents an acid test of its commitment to **human capital investment**. Employers across manufacturing and construction complain of acute technical skill shortages while traditional apprenticeship schemes continue to collapse under bureaucratic red tape. Rebuilding a resilient vocational pathway demands sustained public funding rather than piecemeal welfare reforms to prevent an alienated cohort from becoming permanently economically inactive."
+      },
+      "vocab": [
+        [
+          "a NEET (Not in Education, Employment or Training)",
+          "un jeune sans emploi, ni études, ni formation",
+          "One million young Britons are currently classified as NEETs."
+        ],
+        [
+          "hysteresis effects",
+          "les effets d'hystérèse (perte durable de compétences)",
+          "Prolonged unemployment generates damaging hysteresis effects."
+        ],
+        [
+          "vocational training",
+          "la formation professionnelle / l'apprentissage",
+          "Investment in vocational training has fallen sharply since 2010."
+        ],
+        [
+          "human capital accumulation",
+          "l'accumulation de capital humain",
+          "Economic prosperity relies on continuous human capital accumulation."
+        ],
+        [
+          "a regional divide",
+          "une fracture territoriale / régionale",
+          "The north-south regional divide continues to widen across England."
+        ],
+        [
+          "trend productivity",
+          "la productivité tendancielle de long terme",
+          "Sluggish capital spending has depressed British trend productivity."
+        ]
+      ],
+      "sujets": [
+        "Can Britain overcome its regional and generational economic divides?",
+        "Is the collapse of vocational apprenticeships the root cause of the UK's productivity puzzle?"
+      ],
+      "anki": [
+        {
+          "q": "Nombre de jeunes britanniques sans emploi, ni études, ni formation (NEETs, fin 2026)",
+          "r": "Près de C{1 million} de jeunes de 16 à 24 ans classés NEETs selon le rapport Milburn.\n→ Les syndicats dénoncent l'effet d'hystérèse de quatorze années d'austérité budgétaire sur la formation professionnelle. → accroche pour un sujet sur l'emploi ou les inégalités au Royaume-Uni"
+        },
+        {
+          "q": "Principale revendication syndicale du TUC pour résoudre la crise de l'emploi des jeunes",
+          "r": "Création d'une B{garantie d'emploi pour la jeunesse} et alignement du salaire minimum dès 18 ans.\n→ Reflète la contestation du modèle libéral de flexibilité salariale favorisant la précarité des jeunes."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-anglais-4",
+      "matiere": "anglais",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o",
+      "minutes": 3,
+      "titre": "Affaire Nvidia : la liaison de Jensen Huang fait planer une menace de sécurité nationale sur la tech américaine",
+      "faits": "Le conseil d'administration du géant américain des puces électroniques Nvidia a annoncé l'ouverture d'une enquête interne indépendante visant son directeur général et cofondateur, Jensen Huang. Le dirigeant emblématique a reconnu avoir entretenu une relation personnelle intime avec une cadre d'entreprise identifiée par les services de renseignement occidentaux comme une agente d'influence liée à Pékin. À Washington, plusieurs sénateurs de premier plan réclament la suspension immédiate des habilitations de sécurité accordées à Nvidia pour ses contrats avec le Pentagone. L'entreprise californienne, valorisée à plus de 3 000 milliards de dollars, fournit les accélérateurs graphiques indispensables à l'entraînement des modèles d'intelligence artificielle militaires et civils les plus avancés du monde. Le titre Nvidia a chuté de plus de 6 % à l'ouverture de Wall Street, entraînant dans son sillage l'ensemble du secteur des semi-conducteurs.",
+      "enjeux": "Ce scandale personnel met en relief la vulnérabilité géopolitique des **chaînes de valeur technologiques** et l'intensité de la guerre technologique sino-américaine. Nvidia détient un **quasi-monopole mondial** sur les processeurs graphiques (GPU) utilisés pour l'intelligence artificielle générative, conférant à son patron une influence stratégique sans précédent. Pour les États-Unis, la fuite d'informations confidentielles sur les architectures de puces vers la Chine menacerait directement leur supériorité militaire et algorithmique. L'affaire démontre les limites de la gouvernance des multinationales de la Silicon Valley, où le pouvoir demeure souvent concentré entre les mains d'un fondateur tout-puissant. Elle illustre également la militarisation croissante des technologies duales civiles sous le prisme de la **sécurité économique nationale**. Washington pourrait profiter de cette crise pour durcir encore le contrôle des exportations de semi-conducteurs et renforcer l'encadrement des géants de la tech.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Aerial_view_of_Silicon_Valley.jpg/1280px-Aerial_view_of_Silicon_Valley.jpg",
+        "alt": "Vue aérienne de la Silicon Valley en Californie, épicentre de l'industrie des semi-conducteurs et de l'IA",
+        "credit": "Patrick Nouhailler / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Silicon_Valley.jpg"
+      },
+      "vo": {
+        "titre": "Nvidia scandal: Jensen Huang's personal affair triggers national security alarm across Silicon Valley",
+        "faits": "The board of directors of American semiconductor titan Nvidia confirmed an independent investigation into its iconic co-founder and chief executive, Jensen Huang. The high-profile chief executive admitted to an intimate personal relationship with a corporate executive recently identified by Western intelligence agencies as an operative linked to Beijing. In Washington, influential senators are urging the Department of Defense to review and suspend Nvidia's security clearances for classified military contracts. Valued at over three trillion dollars, the Santa Clara company produces the advanced graphic processing units powering state-of-the-art artificial intelligence models globally. Shares in Nvidia tumbled more than six percent in early trading on Wall Street, triggering widespread losses across the global chip ecosystem.",
+        "enjeux": "This corporate scandal highlights the perilous geopolitical entanglements governing **critical technological infrastructure** amid escalating US-China rivalry. Nvidia commands an effective **market monopoly** over cutting-edge AI hardware, granting a single commercial enterprise outsized leverage over national defense capabilities. American strategic planners fear that any compromised trade secrets regarding chip architectures could enable Beijing to circumvent export restrictions and accelerate its military modernization. The episode underscores the systemic vulnerabilities of founder-dominated governance within Silicon Valley titans, where oversight mechanisms struggle to restrain executive power. Furthermore, it exemplifies the securitisation of dual-use technologies, where commercial dominance directly intersects with **national security doctrines**. Washington is likely to leverage the crisis to tighten export screening and subject artificial intelligence supply chains to rigorous state oversight."
+      },
+      "vocab": [
+        [
+          "dual-use technology",
+          "technologie à double usage (civil et militaire)",
+          "Governments closely regulate exports of dual-use technology."
+        ],
+        [
+          "a market monopoly",
+          "un monopole de marché",
+          "Nvidia exercises a quasi market monopoly over advanced AI chips."
+        ],
+        [
+          "security clearances",
+          "les habilitations de sécurité",
+          "Congressional leaders urged the Pentagon to revoke security clearances."
+        ],
+        [
+          "to circumvent sanctions",
+          "contourner des sanctions ou des restrictions",
+          "Rival powers actively seek ways to circumvent technology controls."
+        ],
+        [
+          "supply chain vulnerabilities",
+          "les vulnérabilités des chaînes d'approvisionnement",
+          "The semiconductor crisis exposed acute supply chain vulnerabilities."
+        ],
+        [
+          "corporate governance",
+          "la gouvernance d'entreprise",
+          "The scandal raises troubling questions about tech corporate governance."
+        ]
+      ],
+      "sujets": [
+        "Has national security become the primary driver of technological competition?",
+        "Can democratic governments effectively regulate dominant Silicon Valley monopolies?"
+      ],
+      "anki": [
+        {
+          "q": "Part de marché mondiale de Nvidia sur les puces d'intelligence artificielle avancées",
+          "r": "Quasi-monopole dépassant les C{80 %} des ventes mondiales de puces GPU pour l'IA.\n→ L'affaire d'espionnage visant Jensen Huang illustre la dépendance stratégique critique des armées et des États envers un unique acteur privé."
+        },
+        {
+          "q": "Mesure réclamée par le Congrès américain contre Nvidia suite au scandale de sécurité",
+          "r": "Suspension des B{habilitations de sécurité} pour les contrats d'armement avec le Pentagone.\n→ Révèle la primauté de la doctrine de B{sécurité économique nationale} sur la liberté du commerce technologique."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-espagnol-1",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/argentina/2026-11-09/el-papa-defiende-en-argentina-a-las-victimas-de-la-motosierra-de-milei-la-economia-debe-estar-al-servicio-de-la-persona.html",
+      "minutes": 3,
+      "titre": "Argentine : à Buenos Aires, le pape critique la « tronçonneuse » sociale de Javier Milei",
+      "faits": "À l'occasion de son premier voyage officiel en Argentine depuis son élection pontificale, le pape Léon XIV a prononcé ce dimanche un discours très ferme devant le président Javier Milei. Reçu au palais présidentiel de la Casa Rosada devant une foule immense réunie sur la place de Mai, le souverain pontife a rappelé avec insistance que « l'économie doit être au service de la personne, et non la personne au service de l'économie ». Cette prise de position publique constitue un désaveu à peine voilé du plan de rigueur radical mené par le dirigeant libertarien, qui a sabré les dépenses publiques et supprimé de nombreux ministères. Selon les dernières données officielles de l'INDEC, le taux de pauvreté a bondi pour dépasser les 53 % de la population argentine au premier semestre 2026. Tout en écoutant les remontrances papales avec gravité, le président Milei a maintenu que la purge budgétaire était l'unique remède pour éradiquer l'hyperinflation.",
+      "enjeux": "Ce face-à-face symbolise la fracture idéologique profonde qui traverse l'Amérique latine entre **doctrine sociale de l'Église** et **ultralibéralisme économique**. Javier Milei a érigé la destruction de l'État-providence et la dérégulation des marchés en principes absolus pour restaurer l'équilibre financier de l'Argentine. Mais cette thérapie de choc budgétaire entraîne un coût humain dramatique, marquée par la suppression des soupes populaires et l'effondrement des retraites réelles face aux prix. L'intervention du pape réhabilite la notion de **justice distributive** et confère une légitimité morale aux syndicats et aux mouvements sociaux opposés aux réformes. Elle fragilise également la majorité présidentielle à l'approche des élections législatives de mi-mandat, alors que la classe moyenne bascule dans la précarité. L'affrontement illustre enfin les limites d'un ajustement monétaire qui ignore la cohésion sociale et la protection des plus vulnérables.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Casa_Rosada_-_Buenos_Aires%2C_Argentina.jpg/1280px-Casa_Rosada_-_Buenos_Aires%2C_Argentina.jpg",
+        "alt": "La façade de la Casa Rosada à Buenos Aires, siège du pouvoir exécutif argentin",
+        "credit": "Galio / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Rosada_-_Buenos_Aires,_Argentina.jpg"
+      },
+      "vo": {
+        "titre": "Argentina: en Buenos Aires, el Papa condena la motosierra social de Javier Milei",
+        "faits": "En su primer viaje oficial a Argentina desde el inicio de su pontificado, el papa León XIV pronunció este domingo un discurso de inusitada contundencia ante el presidente Javier Milei. Recibido en la Casa Rosada ante una multitud congregada en la histórica Plaza de Mayo, el pontífice subrayó categóricamente que «la economía debe estar al servicio de la persona y no la persona al servicio de la economía». Este pronunciamiento público supone una severa desautorización del drástico programa de ajuste libertario, caracterizado por el cierre masivo de ministerios y el recorte del gasto social. Según las cifras oficiales del INDEC, la tasa de pobreza en el país sudamericano ha escalado hasta situarse en el 53 % de la población. Aunque escuchó las advertencias con gesto serio, el presidente Milei ratificó posteriormente que el déficit cero y la motosierra constituyen la única vía para frenar la hiperinflación.",
+        "enjeux": "Este encuentro sintetiza la profunda colisión ideológica entre la **doctrina social de la Iglesia** y el **fundamentalismo de mercado** en América Latina. El gobierno de Milei ha convertido la demolición de la estructura estatal en su principal bandera política para aplacar a los acreedores internacionales y doblegar los precios. Sin embargo, el coste social del ajuste resulta desgarrador, provocando el desplome de las jubilaciones reales y el desabastecimiento de comedores comunitarios. Las palabras del pontífice devuelven legitimidad al principio de la **justicia distributiva** y proporcionan un sólido respaldo moral a las centrales sindicales movilizadas. El cuestionamiento papal añade una fuerte presión sobre el Ejecutivo cuando faltan meses para las elecciones legislatives y el malestar de la clase media arrecia. El conflicto demuestra que la estabilización macroeconómica resulta insostenible si anula la protección elemental de las mayorías vulnerables."
+      },
+      "vocab": [
+        [
+          "la motosierra fiscal",
+          "la tronçonneuse budgétaire (coupes massives)",
+          "El gobierno defiende la motosierra fiscal para alcanzar el déficit cero."
+        ],
+        [
+          "el déficit cero",
+          "l'équilibre budgétaire strict sans déficit",
+          "El presidente ratificó su compromiso innegociable con el déficit cero."
+        ],
+        [
+          "los comedores comunitarios",
+          "les soupes populaires / cantines solidaires",
+          "Los recortes han dejado sin fondos a los comedores comunitarios."
+        ],
+        [
+          "la justicia distributiva",
+          "la justice distributive",
+          "El Papa reivindicó la justicia distributiva frente a la exclusión social."
+        ],
+        [
+          "el desplome del poder adquisitivo",
+          "l'effondrement du pouvoir d'achat",
+          "La inflación provocó un grave desplome del poder adquisitivo popular."
+        ],
+        [
+          "la terapia de choque",
+          "la thérapie de choc économique",
+          "Muchos economistas cuestionan la dureza de la terapia de choque aplicada."
+        ]
+      ],
+      "sujets": [
+        "¿Es sostenible la estabilidad macroeconómica sin justicia social en América Latina?",
+        "El modelo libertario de Milei: ¿salvación económica o fractura social irreversible?"
+      ],
+      "anki": [
+        {
+          "q": "Taux de pauvreté enregistré en Argentine sous le mandat de Javier Milei (2026)",
+          "r": "Explosion de la pauvreté dépassant C{53 %} de la population selon les chiffres de l'INDEC.\n→ Le pape dénonce la « motosierra » en rappelant que l'économie doit servir l'homme et non le marché. → accroche pour un sujet sur l'Amérique latine ou les politiques d'austérité"
+        },
+        {
+          "q": "Formule doctrinale centrale prononcée par le pape lors de sa visite à la Casa Rosada",
+          "r": "« B{L'économie doit être au service de la personne} et non la personne au service de l'économie ».\n→ Réactive la doctrine sociale de l'Église face à l'ultralibéralisme et à la suppression des aides sociales."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-espagnol-2",
+      "matiere": "espagnol",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/09/6af0b398e9cf4a42688b4575.html",
+      "minutes": 3,
+      "titre": "Élections générales en Espagne : Vox adoucit sa ligne pour préparer une alliance de gouvernement avec le PP",
+      "faits": "À trois semaines des élections générales anticipées du 29 novembre, la direction du parti Vox s'efforce d'adoucir son image publique pour rendre crédible une future coalition gouvernementale avec le Parti populaire. Selon une enquête approfondie du journal El Mundo, Santiago Abascal a donné consigne à ses porte-parole de tempérer leurs déclarations les plus agressives sur l'Union européenne et les autonomies régionales. La formation souverainiste concentre désormais son discours sur le pouvoir d'achat des classes populaires, la fiscalité des familles et la sécurité des quartiers urbains. Les derniers sondages créditent l'alliance de la droite et de l'extrême droite d'une solide majorité absolue pouvant atteindre 199 sièges au Congrès des députés. Alberto Núñez Feijóo, qui a besoin des voix de Vox pour investir La Moncloa, salue discrètement cette évolution tout en maintenant une prudente réserve sur la répartition des ministères régaliens.",
+      "enjeux": "Ce repositionnement stratégique illustre le processus de **normalisation institutionnelle** des droites radicales en Europe à mesure qu'elles s'approchent du pouvoir exécutif. À l'instar de Giorgia Meloni en Italie, Vox cherche à rassurer les milieux économiques et les partenaires européens en évitant les positions de rupture monétaire ou géopolitique. Cette mue tactique vise également à attirer les électeurs déçus du socialisme ouvrier dans les bassins industriels périphériques, sur le modèle du lepénisme français. Pour le Parti populaire, la perspective d'un gouvernement conjoint pose la question de la préservation de son profil modéré et centriste face à l'opinion internationale. Elle fragilise par ailleurs la stratégie de Pedro Sánchez, qui fondait sa campagne sur la peur d'un « gouvernement rétrograde » pour remobiliser la gauche parlementaire. L'Espagne s'apprête ainsi à vivre un tournant historique avec l'entrée probable de ministres nationalistes au Conseil des ministres pour la première fois depuis la **Transition démocratique** de 1978.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Congreso_de_los_Diputados_%28Madrid%29_01.jpg/1280px-Congreso_de_los_Diputados_%28Madrid%29_01.jpg",
+        "alt": "Le palais des Cortès à Madrid, siège du Congrès des députés",
+        "credit": "Luis García / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Congreso_de_los_Diputados_(Madrid)_01.jpg"
+      },
+      "vo": {
+        "titre": "Elecciones generales en España: Vox modera su discurso ante la posibilidad de entrar en el Gobierno",
+        "faits": "A tres semanas de las elecciones generales anticipadas del 29 de noviembre, la cúpula de Vox ha iniciado una calculada operación de moderación para allanar un futuro pacto de gobierno con el Partido Popular. Según revela el diario El Mundo, la dirección de Santiago Abascal ha ordenado rebajar la confrontación verbal en torno a las instituciones europeas y el modelo autonómico para evitar asustar al votante moderado. El partido ultraconservador focaliza ahora su estrategia electoral en el coste de la vida, las rebajas fiscales para familias trabajadoras y la seguridad en los barrios metropolitanos. Las encuestas demoscópicas consolidan al bloque conservador con una amplia mayoría absoluta de hasta 199 diputados en el Congreso. Alberto Núñez Feijóo, consciente de que requerirá indispensablemente el respaldo de Vox para llegar a La Moncloa, observa el viraje con pragmatismo pero sin comprometer cargos ministeriales.",
+        "enjeux": "Este movimiento táctico refleja el fenómeno de **institucionalización de la derecha radical** cuando divisa posibilidades reales de acceder al poder en Europa. Siguiendo la senda pragmática trazada por Giorgia Meloni en Italia, la formación busca tranquilizar a los mercados financieros y a las instituciones comunitarias aparcando veleidades rupturistas. Esta estrategia pretende además captar el voto de trabajadores de rentas bajas desencantados con la gestión socialista en antiguos cinturones industriales. Para el Partido Popular, consumar una coalición con Vox implicará sortear el riesgo de desgaste ante las capitales europeas y defender la gobernabilidad sin desdibujar su perfil constitucionalista. La evolución debilita al mismo tiempo el intento de Pedro Sánchez de agitar el miedo al retroceso social como palanca de reactivación progresista. España encara así una encrucijada parlamentaria que podría situar a dirigentes de la derecha dura en ministerios de Estado por primera vez desde la **Transición**."
+      },
+      "vocab": [
+        [
+          "pactar un gobierno de coalición",
+          "négocier un gouvernement de coalition",
+          "El PP y Vox aspiran a pactar un gobierno de coalición tras el 29-N."
+        ],
+        [
+          "el bloque conservador",
+          "le bloc conservateur (droite et extrême droite)",
+          "Las encuestas otorgan la mayoría absoluta al bloque conservador."
+        ],
+        [
+          "la institucionalización política",
+          "l'institutionnalisation / normalisation politique",
+          "La formación experimenta una rápida institucionalización política."
+        ],
+        [
+          "el cinturón industrial",
+          "la ceinture industrielle / bassin ouvrier",
+          "El voto obrero del cinturón industrial podría cambiar de signo político."
+        ],
+        [
+          "un pacto de investidura",
+          "un accord de vote de confiance / investiture",
+          "Feijóo busca un pacto de investidura sin ceder carteras estratégicas."
+        ],
+        [
+          "la Transición democrática",
+          "la transition démocratique espagnole (1975-1978)",
+          "Sería la primera coalición de este signo desde la Transición democrática."
+        ]
+      ],
+      "sujets": [
+        "¿Representa la normalización de Vox un cambio irreversible en el sistema de partidos español?",
+        "El dilema del Partido Popular: ¿gobernar con la derecha radical o buscar el centro político?"
+      ],
+      "anki": [
+        {
+          "q": "Projection en sièges du bloc PP-Vox dans les sondages pour les élections du 29-N en Espagne",
+          "r": "Estimation pouvant atteindre C{199 députés}, dépassant largement le seuil de majorité absolue de 176 sièges.\n→ Explique la stratégie d'adoucissement rhétorique menée par Vox pour préparer son entrée au gouvernement."
+        },
+        {
+          "q": "Modèle européen de gouvernement revendiqué par les partisans d'une normalisation de Vox",
+          "r": "La trajectoire pragmatique de B{Giorgia Meloni} en Italie, conciliant nationalisme et orthodoxie européenne.\n→ Démontre la volonté des droites dures de rassurer les marchés financiers pour gouverner."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-espagnol-3",
+      "matiere": "espagnol",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/politica/psoe-crece-dimision-oscar-puente-pp-vox-mantienen-mayoria-absoluta_1_13643551.html",
+      "minutes": 3,
+      "titre": "Sondages en Espagne : le PSOE se redresse après la démission d'Óscar Puente, le bloc PP-Vox garde l'avantage",
+      "faits": "Selon le dernier baromètre électoral publié ce lundi par elDiario.es, le Parti socialiste ouvrier espagnol (PSOE) amorce une légère remontée dans les intentions de vote à l'approche du scrutin du 29 novembre. Cette amélioration intervient dans le sillage de la démission forcée du ministre des Transports Óscar Puente, poussé vers la sortie après la catastrophe ferroviaire qui a paralysé le réseau national. Le PSOE gagne 1,5 point pour s'établir à 28,2 % des voix, profitant d'un resserrement des rangs de la gauche face à l'offensive judiciaire et médiatique de l'opposition. Néanmoins, cette embellie sondagière ne suffit pas à inverser le rapport de force global : le Parti populaire de Feijóo fait la course en tête avec 32,8 % des suffrages, tandis que Vox recueille 18,5 %. Ensemble, les deux partis de droite conserveraient une nette majorité absolue au Parlement, rendant l'alternance politique hautement probable.",
+      "enjeux": "Ce sondage met en lumière la fragilité structurelle de la majorité sortante menée par Pedro Sánchez depuis la dissolution surprise des Cortès. Le départ d'Óscar Puente, l'un des ministres les plus fidèles et offensifs du président du gouvernement, témoigne de l'usure prématurée d'un exécutif miné par les défaillances des services publics et l'absence de budget propre. La dégradation du réseau ferroviaire a cristallisé le mécontentement populaire, privant le pouvoir de son narratif sur la modernisation des infrastructures. Si la démission du ministre a permis d'endiguer l'hémorragie électorale, la gauche paie le prix de son éparpillement entre le Frente Amplio d'Ada Colau et les lambeaux de Podemos. Le scrutin du 29 novembre confirme la **polarisation extrême** du paysage politique espagnol, divisé en deux blocs irréconciliables. L'incapacité de Sánchez à élargir sa base démontre les limites du **cordon sanitaire** brandi contre la droite lorsque les préoccupations matérielles des citoyens dominent la campagne.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Estaci%C3%B3n_de_Atocha%2C_Madrid%2C_Espa%C3%B1a%2C_2015-02-12%2C_DD_01.JPG/1280px-Estaci%C3%B3n_de_Atocha%2C_Madrid%2C_Espa%C3%B1a%2C_2015-02-12%2C_DD_01.JPG",
+        "alt": "La gare ferroviaire d'Atocha à Madrid, nœud central du réseau de transport espagnol",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_Atocha,_Madrid,_Espa%C3%B1a,_2015-02-12,_DD_01.JPG"
+      },
+      "vo": {
+        "titre": "Encuestas en España: el PSOE remonta tras la dimisión de Óscar Puente, pero la derecha conserva la mayoría",
+        "faits": "El último barómetro electoral elaborado por elDiario.es y difundido este lunes constata una modesta recuperación del PSOE de cara a las elecciones del 29 de noviembre. La dimisión forzada del ministro de Transportes, Óscar Puente, acorralado tras la grave crisis de averías que colapsó la red de cercanías, ha frenado la sangría de votos en el electorado progresista. Los socialistas escalan hasta el 28,2 % de los sufragios, recortando distancias gracias a la movilización de bases movilizadas contra la derecha. Sin embargo, este repunte resulta insuficiente para frustrar la victoria del Partido Popular, que lidera la intención de voto con el 32,8 %, apoyado en el 18,5 % de Vox. Con estos registros demoscópicos, la suma del PP y la extrema derecha revalidaría holgadamente la mayoría absoluta de la Cámara, situando a Feijóo como claro favorito para presidir el Ejecutivo.",
+        "enjeux": "La fotografía electoral certifica el profundo desgaste del proyecto de gobernabilidad articulado por Pedro Sánchez tras una legislatura sin mayorías estables. La salida traumática de Puente priva al presidente de su principal ariete político en el Consejo de Ministros y evidencia el deterioro de los **servicios públicos básicos**. La crisis del transporte ferroviario se convirtió en un potente catalizador del descontento ciudadano, neutralizando los mensajes gubernamentales sobre la robustez económica. Aunque el cese ministerial ha evitado un hundimiento irreversible, el espacio progresista acusa la fragmentación entre el Frente Amplio y los restos de Podemos. El escenario preelectoral subraya la **bipolarización irreconciliable** de la política española, donde los trasvases entre bloques son prácticamente inexistentes. La resistencia del bloque de derechas ilustra cómo el malestar por la gestión cotidiana termina eclipsando los llamamientos al voto del miedo contra la extrema derecha."
+      },
+      "vocab": [
+        [
+          "la red de cercanías",
+          "le réseau des trains de banlieue / trains régionaux",
+          "Las continuas averías en la red de cercanías indignaron a los usuarios."
+        ],
+        [
+          "el desgaste gubernamental",
+          "l'usure du pouvoir gouvernemental",
+          "El desgaste gubernamental es visible en los últimos barómetros electorales."
+        ],
+        [
+          "el barómetro demoscópico",
+          "le baromètre de sondage électoral",
+          "El barómetro demoscópico confirma la ventaja del bloque conservador."
+        ],
+        [
+          "la sangría de votos",
+          "l'hémorragie de suffrages / de voix",
+          "La renuncia del ministro logró contener la sangría de votos del partido."
+        ],
+        [
+          "el trasvase de votos",
+          "le transfert de voix d'un camp à l'autre",
+          "Apenas se detecta trasvase de votos entre la izquierda y la derecha."
+        ],
+        [
+          "un ariete político",
+          "un fer de lance / attaquant politique",
+          "El titular dimitido actuaba como el principal ariete político del gobierno."
+        ]
+      ],
+      "sujets": [
+        "¿Determina el estado de los servicios públicos el resultado de las elecciones en España?",
+        "La fragmentación de la izquierda española: ¿un obstáculo insalvable para frenar a la derecha?"
+      ],
+      "anki": [
+        {
+          "q": "Événement politique ayant motivé la démission du ministre espagnol Óscar Puente (fin 2026)",
+          "r": "Défaillances graves et accidents ayant paralysé le B{réseau ferroviaire national (cercanías)}.\n→ Événement ayant catalysé le mécontentement populaire et accéléré l'usure de l'exécutif de Pedro Sánchez."
+        },
+        {
+          "q": "Score électoral du PSOE dans les sondages post-démission selon elDiario.es",
+          "r": "Remontée à C{28,2 %} des voix, demeurant devancé de plus de 4 points par le Parti populaire.\n→ Démontre la rigidité des blocs électoraux et la difficulté de la gauche à inverser le rapport de force."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-espagnol-4",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/el-pp-ampliara-hasta-los-50-anos-de-edad-el-aval-publico-para-pagar-la-entrada-de-una-casa.html",
+      "minutes": 3,
+      "titre": "Crise du logement en Espagne : le PP promet d'étendre la garantie publique pour l'achat immobilier jusqu'à 50 ans",
+      "faits": "En meeting de campagne ce lundi matin à Madrid, Alberto Núñez Feijóo a dévoilé la mesure phare du programme économique du Parti populaire en matière de logement. Le candidat conservateur promet d'étendre jusqu'à l'âge de 50 ans la garantie publique de l'Institut de crédit officiel (ICO) couvrant l'apport initial pour l'obtention d'un prêt immobilier. Actuellement réservé aux jeunes de moins de 35 ans et aux familles avec enfants, ce dispositif public prend en charge jusqu'à 20 % de la valeur du bien pour pallier l'absence d'épargne préalable. Le PP propose également de libérer massivement du foncier public pour construire de nouveaux logements et de baisser les impôts sur les transmissions patrimoniales. Cette offensive intervient alors que le coût du loyer atteint des sommets historiques dans les grandes métropoles espagnoles, privant des millions d'actifs de toute perspective d'accès à la propriété.",
+      "enjeux": "Cette proposition remet au centre de la vie politique le modèle historique espagnol d'un **pays de propriétaires** par opposition à la régulation locative défendue par la gauche. Pedro Sánchez avait tenté d'encadrer les loyers et de bloquer les expulsions via sa loi sur le logement de 2023, mais ce texte a provoqué une raréfaction drastique de l'offre locative dans les zones tendues. Le PP prend le contre-pied en misant sur la solvabilisation de la demande d'achat et l'incitation financière privée. Toutefois, de nombreux économistes alertent sur le risque inflationniste de ces avals publics : injecter de la liquidité sur un marché sans accroître rapidement l'offre physique de logements ne fait que pousser les prix à la hausse. L'extension du dispositif jusqu'à 50 ans révèle surtout que le mal-logement ne frappe plus seulement les jeunes actifs, mais s'étend désormais aux classes moyennes d'âge mûr. Le débat oppose deux visions irréconciliables : l'interventionnisme public par le plafonnement des prix ou la libéralisation de l'offre foncière appuyée par le crédit bancaire garanti.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cuatro_Torres_Business_Area_Madrid.jpg/1280px-Cuatro_Torres_Business_Area_Madrid.jpg",
+        "alt": "Le quartier financier et urbain de Madrid, symbolisant le marché immobilier espagnol",
+        "credit": "Drow male / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cuatro_Torres_Business_Area_Madrid.jpg"
+      },
+      "vo": {
+        "titre": "Vivienda en España: el PP promete ampliar el aval público para comprar casa hasta los 50 años",
+        "faits": "Durante un acto electoral celebrado este lunes en Madrid, Alberto Núñez Feijóo presentó la principal apuesta del Partido Popular para responder a la emergencia habitacional que azota a España. El líder conservador se comprometió a ampliar hasta los 50 años los avales públicos del Instituto de Crédito Oficial (ICO) para cubrir el pago de la entrada en la compra de la primera vivienda. En la actualidad, esta garantía estatal cubre hasta el 20 % de la hipoteca concedida por los bancos, pero se limita a menores de 35 años y familias con menores a cargo. La propuesta de los populares incluye además liberar suelo público para construcción masiva de pisos y recortar el impuesto de transmisiones patrimoniales. La iniciativa busca captar el voto de una amplia franja de la clase media asfixiada por precios del alquiler en máximos históricos.",
+        "enjeux": "La iniciativa del PP reactiva el tradicional debate entre consolidar a España como un **país de propietarios** o intervenir el mercado de arrendamiento mediante controles de precios. La ley de vivienda aprobada por el Gobierno de coalición en 2023 intentó topar las rentas, pero derivó en una brusca contracción de la oferta de pisos disponibles en las grandes urbes. El Partido Popular contrapone a esta estrategia incentivos a la adquisición privada y facilidades de acceso al endeudamiento bancario. Sin embargo, analistas económicos advierten de que subvencionar la demanda mediante avales públicos en un contexto de escasez de oferta sólo logrará recalentar los precios inmobiliarios. Que la medida deba extenderse hasta ciudadanos de 50 años evidencia la gravedad de la **precariedad habitacional**, convertida ya en una barrera que condena a generaciones enteras a vivir de alquiler. El choque electoral confronta la desregulación urbanística con la protección social frente a la especulación inmobiliaria."
+      },
+      "vocab": [
+        [
+          "el aval público hipotecario",
+          "la garantie publique sur le prêt immobilier",
+          "El aval público hipotecario cubre el importe inicial de la entrada."
+        ],
+        [
+          "la entrada de una casa",
+          "l'apport personnel pour acheter un bien",
+          "Muchos trabajadores no pueden ahorrar la entrada de una casa."
+        ],
+        [
+          "la emergencia habitacional",
+          "la crise / l'urgence du logement",
+          "La emergencia habitacional se ha convertido en la mayor preocupación."
+        ],
+        [
+          "topar los precios del alquiler",
+          "plafonner les prix du loyer",
+          "La izquierda propuso topar los precios del alquiler en zonas tensionadas."
+        ],
+        [
+          "liberar suelo urbanizable",
+          "libérer du foncier constructible",
+          "El programa del PP promete liberar suelo urbanizable para abaratar costes."
+        ],
+        [
+          "el país de propietarios",
+          "le pays de propriétaires (modèle espagnol)",
+          "España debate si debe seguir siendo un modelo de país de propietarios."
+        ]
+      ],
+      "sujets": [
+        "¿Es la compra subsidiada o el alquiler regulado la solución a la crisis de la vivienda en España?",
+        "La vivienda como derecho o como bien de mercado: ¿un conflicto irresoluble?"
+      ],
+      "anki": [
+        {
+          "q": "Proposition phare du Parti populaire espagnol pour l'accès au logement (2026)",
+          "r": "Extension de l'aval public de l'ICO de C{20 %} pour l'achat immobilier jusqu'à l'âge de C{50 ans}.\n→ Révèle que l'impossibilité de constituer un apport personnel frappe désormais les classes moyennes d'âge mûr."
+        },
+        {
+          "q": "Critique économique majeure adressée aux garanties publiques d'apport immobilier",
+          "r": "Risque d'B{inflation des prix du foncier} en stimulant la demande de crédit sans accroître l'offre de biens.\n→ Illustre le risque de subventionner le crédit bancaire dans un marché immobilier en pénurie d'offre."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-allemand-1",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/sorge-um-demokratie-umfrage-100.html",
+      "minutes": 3,
+      "titre": "Allemagne : une large majorité de citoyens s'inquiète du fonctionnement de la démocratie",
+      "faits": "Selon un sondage ARD-DeutschlandTrend publié ce lundi, l'inquiétude des Allemands pour leur démocratie grandit. Plus de 60 % des personnes interrogées jugent que le système politique fonctionne mal. Les citoyens critiquent la lenteur des décisions et les disputes constantes au sein de la coalition. Beaucoup d'électeurs estiment que les grands partis ne s'occupent plus de leurs soucis quotidiens. La confiance dans le gouvernement fédéral et le Parlement atteint un niveau très bas. Dans l'Est du pays, le mécontentement est encore plus fort qu'à l'Ouest. Cette colère profite aux partis populistes dans les intentions de vote.",
+      "enjeux": "Ce sondage montre une crise de confiance profonde envers les **institutions républicaines**. Les citoyens ont le sentiment que l'État ne protège plus leur niveau de vie. L'inflation et la transition énergétique inquiètent de nombreuses familles modestes. L'Allemagne a longtemps été un modèle de compromis politique et de modération. Aujourd'hui, la **polarisation politique** divise de plus en plus la société allemande. Les partis traditionnels perdent des électeurs face à l'AfD et à la gauche radicale. Les spécialistes rappellent que la démocratie a besoin de résultats concrets pour rester forte.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Reichstagsgeb%C3%A4ude_vom_Westen_2015.jpg/1280px-Reichstagsgeb%C3%A4ude_vom_Westen_2015.jpg",
+        "alt": "Das Reichstagsgebäude in Berlin, Sitz des Deutschen Bundestages",
+        "credit": "Ansgar Koreng / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude_vom_Westen_2015.jpg"
+      },
+      "vo": {
+        "titre": "Umfrage: Deutsche sorgen sich um die Demokratie",
+        "faits": "Eine neue Umfrage der ARD zeigt große Sorgen. Viele Bürger zweifeln am Funktionieren der deutschen Demokratie. Mehr als 60 Prozent sind mit dem System unzufrieden. Sie kritisieren den ständigen Streit in der Politik. Die Entscheidungen in Berlin dauern vielen Menschen zu lange. Das Vertrauen in das Parlament und den Kanzler sinkt. Vor allem im Osten ist der Unmut besonders groß.",
+        "enjeux": "Die Zahlen zeigen eine ernste Krise der Politik. Viele Menschen fühlen sich von den Parteien nicht gehört. Teure Energie und hohe Preise belasten den Alltag schwer. Die Wähler fordern klare Lösungen für ihre Probleme. Der Streit in der Koalition schwächt das Vertrauen weiter. Populistische Parteien gewinnen durch diesen Frust neue Stimmen. Eine stabile Demokratie braucht Bürger, die ihren Politikern vertrauen."
+      },
+      "vocab": [
+        [
+          "das Vertrauen",
+          "la confiance",
+          "Das Vertrauen in die Regierung sinkt deutlich."
+        ],
+        [
+          "der Streit",
+          "la dispute / la querelle",
+          "Der ständige Streit schadet der Demokratie."
+        ],
+        [
+          "die Unzufriedenheit",
+          "le mécontentement",
+          "Die Unzufriedenheit wächst in vielen Bundesländern."
+        ],
+        [
+          "die Entscheidung",
+          "la décision",
+          "Die Bürger fordern eine schnelle Entscheidung."
+        ],
+        [
+          "die Umfrage",
+          "le sondage",
+          "Eine neue Umfrage zeigt große Sorgen."
+        ],
+        [
+          "der Frust",
+          "la frustration",
+          "Der Frust über hohe Preise nimmt zu."
+        ]
+      ],
+      "sujets": [
+        "Wie kann die Politik das Vertrauen der Bürger zurückgewinnen?",
+        "Ist die Demokratie in Deutschland in Gefahr?"
+      ]
+    },
+    {
+      "id": "2026-11-09-allemand-2",
+      "matiere": "allemand",
+      "source": "Der Spiegel",
+      "url": "https://www.spiegel.de/wirtschaft/soziales/lars-klingbeil-stopft-haushaltsluecken-mit-milliarden-aus-bundesimmobilienanstalt-a-503663b6-346a-40d2-a22b-e80f2023e5ce",
+      "minutes": 3,
+      "titre": "Budget fédéral allemand : Klingbeil puise des milliards dans l'agence immobilière de l'État pour combler le déficit",
+      "faits": "Le ministre des Finances Lars Klingbeil utilise une méthode contestée pour boucler le budget 2027. L'État fédéral allemand manque de plusieurs milliards d'euros pour respecter la règle du frein à la dette. Le ministre a donc décidé de prélever les réserves financières de l'agence immobilière fédérale (BImA). Cet organisme public gère les terrains et les bâtiments officiels de la République fédérale. Cette ponction financière permet de combler le trou budgétaire sans augmenter les impôts. Les députés de l'opposition critiquent sévèrement cette manœuvre comptable. Selon eux, l'exécutif repousse les vraies réformes et vide les caisses de l'État.",
+      "enjeux": "Cette décision montre la contrainte très forte imposée par le **frein à la dette** (Schuldenbremse). La Constitution allemande interdit à l'État fédéral d'emprunter plus de 0,35 % du produit intérieur brut. Après les crises récentes, les recettes fiscales stagnent à cause de la faible croissance économique. Le gouvernement cherche donc des astuces financières pour financer la défense et la transition écologique. Mais vider les réserves des agences publiques ne règle pas le problème à long terme. La coalition devra bientôt faire des choix difficiles entre réduire les dépenses sociales et réformer la Constitution. Le débat sur l'avenir des **finances publiques** divise profondément la classe politique allemande.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Detlev-Rohwedder-Haus_in_Berlin-Mitte.jpg/1280px-Detlev-Rohwedder-Haus_in_Berlin-Mitte.jpg",
+        "alt": "Das Detlev-Rohwedder-Haus in Berlin, Sitz des Bundesministeriums der Finanzen",
+        "credit": "Jörg Zägel / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Detlev-Rohwedder-Haus_in_Berlin-Mitte.jpg"
+      },
+      "vo": {
+        "titre": "Haushalt: Klingbeil nutzt Milliarden für neue Löcher",
+        "faits": "Im Bundeshaushalt fehlen für das nächste Jahr viele Milliarden. Finanzminister Lars Klingbeil sucht dringend nach neuem Geld. Er nutzt nun Reserven der Bundesanstalt für Immobilien. Diese Bundesanstalt verwaltet viele staatliche Gebäude und Grundstücke. Mit diesem Geld schließt die Regierung das Haushaltsloch. Die Opposition im Bundestag kritisiert diesen Schritt scharf. Sie spricht von einem gefährlichen Rechentrick der Koalition.",
+        "enjeux": "Deutschland hält weiter an der strengen Schuldenbremse fest. Der Staat darf laut Grundgesetz nur wenige Schulden machen. Gleichzeitig braucht das Land viel Geld für neue Straßen. Die schwache Wirtschaft bringt dem Staat weniger Steuern ein. Solche Rechentricks lösen die Geldprobleme aber nicht dauerhaft. Der Bund muss bald echte Sparpläne im Haushalt beschließen. Der Streit über neue Schulden geht in Berlin weiter."
+      },
+      "vocab": [
+        [
+          "das Haushaltsloch",
+          "le trou budgétaire",
+          "Die Regierung muss ein neues Haushaltsloch stopfen."
+        ],
+        [
+          "die Schuldenbremse",
+          "le frein à la dette",
+          "Die Schuldenbremse steht fest im deutschen Grundgesetz."
+        ],
+        [
+          "die Reserve",
+          "la réserve financière",
+          "Der Minister nimmt Geld aus einer alten Reserve."
+        ],
+        [
+          "der Rechentrick",
+          "l'astuce comptable",
+          "Die Opposition kritisiert diesen Rechentrick sehr scharf."
+        ],
+        [
+          "die Bundesanstalt",
+          "l'agence / établissement public fédéral",
+          "Die Bundesanstalt besitzt Tausende Wohnungen im Land."
+        ],
+        [
+          "die Steuereinnahmen",
+          "les recettes fiscales",
+          "Die Steuereinnahmen wachsen wegen der Krise nicht."
+        ]
+      ],
+      "sujets": [
+        "Braucht Deutschland eine Reform der Schuldenbremse?",
+        "Sollte der Staat mehr Geld für Investitionen leihen?"
+      ]
+    },
+    {
+      "id": "2026-11-09-allemand-3",
+      "matiere": "allemand",
+      "source": "Die Zeit",
+      "url": "https://www.zeit.de/wirtschaft/2026-11/spritpreisdeckel-katherina-reiche-stefanie-hubig-cdu-spd",
+      "minutes": 3,
+      "titre": "Prix des carburants : vif désaccord entre la CDU et le SPD sur le plafonnement à la pompe",
+      "faits": "Un nouveau conflit économique secoue la coalition gouvernementale à Berlin sur le prix de l'essence et du diesel. La secrétaire d'État CDU Katherina Reiche propose d'instaurer un bouclier tarifaire pour plafonner le prix des carburants à la pompe. Selon son projet, l'État financerait la différence pour soulager les millions de navetteurs qui utilisent leur voiture. Mais la ministre SPD Stefanie Hubig a immédiatement rejeté cette idée dans une interview ce lundi. Pour le SPD, un tel plafonnement coûterait trop cher au budget fédéral et inciterait les automobilistes à consommer plus de pétrole. Les sociaux-démocrates préfèrent aider directement les ménages modestes par des aides ciblées. Les associations de protection du climat s'opposent elles aussi à toute subvention aux énergies fossiles.",
+      "enjeux": "Ce débat pose la question classique de l'**intervention de l'État** dans les prix de marché. En Allemagne, le prix des carburants est un sujet politique très sensible pour les millions de salariés des zones rurales. Lorsque les prix grimpent, les ménages ruraux et les artisans subissent une perte directe de pouvoir d'achat. Mais fixer un prix maximal fausse le signal du marché et freine la transition vers les véhicules électriques. C'est le dilemme entre la **protection du pouvoir d'achat** à court terme et les **engagements climatiques** de long terme. La querelle illustre aussi les désaccords idéologiques croissants entre les conservateurs de la CDU et les sociaux-démocrates du SPD. Les deux partis ont du mal à trouver un compromis sur les dépenses de l'État.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bundesautobahn_5_near_Frankfurt.jpg/1280px-Bundesautobahn_5_near_Frankfurt.jpg",
+        "alt": "Eine deutsche Autobahn zur Hauptverkehrszeit",
+        "credit": "Mylius / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesautobahn_5_near_Frankfurt.jpg"
+      },
+      "vo": {
+        "titre": "Streit in Berlin über einen Spritpreisdeckel",
+        "faits": "In Berlin gibt es Streit über hohe Benzinpreise. Die CDU will die Preise für Benzin staatlich deckeln. Das soll Millionen Berufspendlern auf dem Land schnell helfen. Die SPD lehnt diesen Vorschlag jedoch sofort ab. Ministerin Stefanie Hubig warnt vor hohen Kosten für den Staat. Ein Preisdeckel hilft nach ihrer Meinung auch reichen Fahrern. Die Koalition sucht nun nach einem gemeinsamen Kompromiss.",
+        "enjeux": "Viele Pendler brauchen ihr Auto jeden Tag für die Arbeit. Wenn Benzin teuer wird, schrumpft das Geld der Familien. Ein Preisdeckel kostet die Staatskasse aber viele Milliarden Euro. Zudem schadet billiges Benzin dem Schutz des Klimas. Die Menschen steigen dann seltener auf die Bahn um. Die Politik muss Preise und Klimaschutz klug verbinden. Dieser Konflikt zeigt die schweren Spannungen in der Koalition."
+      },
+      "vocab": [
+        [
+          "der Spritpreisdeckel",
+          "le plafonnement du prix des carburants",
+          "Die CDU fordert einen schnellen Spritpreisdeckel für Pendler."
+        ],
+        [
+          "der Berufspendler",
+          "le travailleur navetteur",
+          "Viele Berufspendler sind auf ihr Auto angewiesen."
+        ],
+        [
+          "die Staatskasse",
+          "les caisses de l'État / le Trésor public",
+          "Ein solcher Preisdeckel leert die deutsche Staatskasse."
+        ],
+        [
+          "das Benzin",
+          "l'essence",
+          "Die Preise für Benzin steigen seit Wochen."
+        ],
+        [
+          "der Klimaschutz",
+          "la protection du climat",
+          "Billiges Benzin bremst den nötigen Klimaschutz aus."
+        ],
+        [
+          "der Kompromiss",
+          "le compromis",
+          "Die Koalitionspartner brauchen jetzt einen echten Kompromiss."
+        ]
+      ],
+      "sujets": [
+        "Sollte der Staat hohe Benzinpreise mit Steuern senken?",
+        "Wie kann Deutschland Autofahren und Klimaschutz verbinden?"
+      ]
+    },
+    {
+      "id": "2026-11-09-allemand-4",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/plastiksteuer-absage-100.html",
+      "minutes": 3,
+      "titre": "Budget européen : la droite allemande refuse la taxe sur le plastique pour protéger les entreprises",
+      "faits": "Le groupe parlementaire CDU-CSU au Bundestag a rejeté fermement l'introduction d'une taxe nationale sur le plastique en Allemagne. L'Union européenne demande aux pays membres de verser une contribution financière sur leurs emballages non recyclés pour financer le budget communautaire. Jusqu'à présent, l'État fédéral allemand payait cette contribution de 1,4 milliard d'euros directement avec l'argent du budget général. Le gouvernement voulait faire payer cette taxe aux fabricants et aux commerçants à partir de l'année prochaine. Mais le président du groupe conservateur a déclaré ce dimanche qu'une nouvelle taxe affaiblirait inutilement les entreprises allemandes. Les fédérations de l'industrie et du commerce saluent cette décision, tandis que les écologistes dénoncent un recul environnemental.",
+      "enjeux": "Ce débat touche au cœur du modèle industriel allemand et de sa **compétitivité économique**. Les entreprises allemandes du Mittelstand souffrent déjà du coût élevé de l'énergie et d'une bureaucratie trop lourde. Ajouter une nouvelle charge fiscale sur les emballages risquerait d'augmenter le prix des produits alimentaires dans les supermarchés. Mais si les entreprises ne paient pas cette taxe, l'argent devra provenir des impôts de tous les contribuables. C'est l'application difficile du principe du **pollueur-payeur** dans une période de crise industrielle. Le refus des conservateurs montre leur volonté de soutenir l'industrie face aux normes européennes. Il révèle aussi la difficulté pour l'Union européenne de trouver des **ressources fiscales propres** acceptées par les grands pays membres.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bundesrat_Leipziger_Strasse_Berlin.jpg/1280px-Bundesrat_Leipziger_Strasse_Berlin.jpg",
+        "alt": "Das Gebäude des Bundesrates in der Leipziger Straße in Berlin",
+        "credit": "Jörg Zägel / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesrat_Leipziger_Strasse_Berlin.jpg"
+      },
+      "vo": {
+        "titre": "Unionsfraktion lehnt neue Plastiksteuer für Firmen ab",
+        "faits": "Die Unionsfraktion im Bundestag will keine neue Plastiksteuer einführen. Die Europäische Union verlangt seit Jahren Geld für Plastikmüll. Bisher zahlte der Bund diese Abgabe aus Steuermitteln. Nun sollten die Firmen die Kosten selbst tragen. Die CDU warnt jedoch vor einer neuen Belastung. Die deutsche Wirtschaft brauche in der Krise keine Zusatzkosten. Umweltverbände kritisieren das Nein der Union scharf.",
+        "enjeux": "Die deutschen Unternehmen klagen seit Monaten über hohe Kosten. Energie und Löhne belasten viele Betriebe sehr stark. Eine neue Abgabe auf Plastik würde Produkte teurer machen. Das schadet den Kunden im Supermarkt direkt. Andererseits soll das Prinzip des Verursachers für Müll gelten. Wer Plastik nutzt, sollte eigentlich die Entsorgung bezahlen. Die Debatte zeigt den Konflikt zwischen Wirtschaft und Umweltschutz."
+      },
+      "vocab": [
+        [
+          "die Plastiksteuer",
+          "la taxe sur les emballages plastiques",
+          "Die Union will keine neue Plastiksteuer einführen."
+        ],
+        [
+          "die Belastung",
+          "la charge / le fardeau financier",
+          "Jede neue Abgabe ist eine schwere Belastung."
+        ],
+        [
+          "die Entlastung",
+          "l'allègement, le soulagement fiscal",
+          "Die Firmen fordern eine spürbare Entlastung bei Steuern."
+        ],
+        [
+          "das Verursacherprinzip",
+          "le principe du pollueur-payeur",
+          "Das Verursacherprinzip soll die Umwelt nachhaltig schützen."
+        ],
+        [
+          "die Abgabe",
+          "la taxe / la redevance",
+          "Bisher zahlte der Staat die jährliche Abgabe."
+        ],
+        [
+          "der Plastikmüll",
+          "les déchets plastiques",
+          "Europa produziert noch immer zu viel Plastikmüll."
+        ]
+      ],
+      "sujets": [
+        "Sollten Unternehmen für ihren Plastikmüll Steuern zahlen?",
+        "Wie kann Deutschland Firmen entlasten und die Umwelt schützen?"
+      ]
+    }
+  ],
+  "a_lire": [
+    {
+      "journal": "Les Échos",
+      "titre": "Conférence sociale : le coût du travail au coeur du bras de fer sur la hausse du SMIC",
+      "url": "https://www.lesechos.fr/economie-france/social/conference-sociale-le-cout-du-travail-au-coeur-du-bras-de-fer-sur-la-hausse-du-smic-2261735",
+      "pourquoi": "Une analyse précise des dilemmes de la négociation collective entre revalorisation du pouvoir d'achat ouvrier et compétitivité-coût des entreprises."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "Emeutes, dette souveraine : pourquoi les banques restent « collées » avec la dette LBO d'Aroma-Zone",
+      "url": "https://www.lesechos.fr/finance-marches/ma/emeutes-dette-souveraine-pourquoi-les-banques-restent-collees-avec-la-dette-lbo-daroma-zone-2261760",
+      "pourquoi": "Un cas d'école financier montrant comment la hausse de la prime de risque souveraine paralyse le marché du leveraged buy-out (LBO) et le crédit bancaire."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "Ici, des immeubles Hyundai côtoient des magasins Hyundai : plongée à Ulsan, au coeur de la plus grande usine automobile du monde",
+      "url": "https://www.lesechos.fr/industrie-services/automobile/ici-des-immeubles-hyundai-cotoient-des-magasins-hyundai-plongee-a-ulsan-au-coeur-de-la-plus-grande-usine-automobile-du-monde-2261740",
+      "pourquoi": "Une immersion concrète dans le modèle du conglomérat industriel sud-coréen (chaebol), combinant intégration verticale et compétitivité productive mondiale."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Emmanuelle Cosse, de l’Union sociale pour l’habitat : « Raboter les aides personnelles au logement, c’est fabriquer la crise de demain »",
+      "url": "https://www.lemonde.fr/idees/article/2026/11/09/emmanuelle-cosse-de-l-union-sociale-pour-l-habitat-raboter-les-aides-personnelles-au-logement-c-est-fabriquer-la-crise-de-demain_6808622_3232.html",
+      "pourquoi": "Une tribune percutante sur l'impact des coupes budgétaires dans les aides au logement (APL) sur la précarité des ménages modestes et la ségrégation spatiale."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "« S’engager dans le syndicalisme aujourd’hui en France, c’est souvent s’exposer aux discriminations et à la répression »",
+      "url": "https://www.lemonde.fr/idees/article/2026/11/09/s-engager-dans-le-syndicalisme-aujourd-hui-en-france-c-est-souvent-s-exposer-aux-discriminations-et-a-la-repression_6808613_3232.html",
+      "pourquoi": "Une analyse sociologique essentielle sur l'affaiblissement des corps intermédiaires et le coût individuel de l'engagement syndical dans les relations professionnelles."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Un tiers des salariés dépasse ses horaires habituels, un signe majeur d’intensification du travail",
+      "url": "https://www.lemonde.fr/vie-au-travail/article/2026/11/09/un-tiers-des-salaries-depasse-ses-horaires-habituels-un-signe-majeur-d-intensification-du-travail_6808614_6768900.html",
+      "pourquoi": "Un éclairage chiffré sur les transformations de l'organisation du travail, la porosité des temps de vie et les limites de la régulation de la durée légale."
+    }
+  ]
+}

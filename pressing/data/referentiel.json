@@ -3458,6 +3458,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": "theoreme-de-schmidt",
+      "nom": "Théorème de Schmidt",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "1974",
+      "auteur": "Helmut Schmidt",
+      "accroche": "Les profits d'aujourd'hui sont les investissements de demain et les emplois d'après-demain.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "Formulé par le chancelier ouest-allemand **Helmut Schmidt** lors d'un discours devant le Bundestag le 3 novembre 1974, au lendemain du premier choc pétrolier.",
+            "Schmidt cherche à convaincre les syndicats allemands d'accepter la modération salariale : face à la stagflation, la priorité doit être de reconstituer les marges des entreprises pour qu'elles puissent investir et sauvegarder l'emploi industriel."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'État allège les prélèvements sur les entreprises ou favorise la modération des salaires réels.",
+            "Le redressement du **taux de marge** accroît les capacités d'autofinancement et la rentabilité du capital.",
+            "Les entreprises utilisent ce surplus pour financer des **dépenses d'investissement** matériel et immatériel.",
+            "L'expansion des capacités de production et les gains de productivité créent des **emplois durables** et renforcent la compétitivité."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le théorème constitue le fondement doctrinal des **politiques de l'offre** mises en œuvre en Europe depuis les années 1980. Il sert à justifier la baisse de l'impôt sur les sociétés, les allègements de cotisations sociales patronales (comme le CICE en France) et les réformes de flexibilisation du travail (lois Hartz en Allemagne)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'économie de l'offre (Reagan, Thatcher)",
+              "d": "La baisse de la fiscalité et des réglementations stimule l'effort productif et l'esprit d'entreprise."
+            },
+            {
+              "t": "Le théorème vérifié en Allemagne",
+              "d": "Les réformes Hartz (2003-2005) ont restauré la compétitivité-coût et ramené le chômage à des niveaux historiquement bas."
+            },
+            {
+              "t": "La critique de Patrick Artus",
+              "d": "La hausse des marges peut alimenter la rente actionnariale (dividendes, rachats d'actions) sans se traduire en investissement productif."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La séquence postulée par Schmidt n'a rien d'automatique. Les entreprises n'investissent que si elles anticipent des **débouchés solvables** (le principe de la demande effective de Keynes). Si la demande globale faiblit en raison d'une austérité salariale excessive, les profits supplémentaires sont thésaurisés, distribués aux actionnaires ou investis à l'étranger."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le pacte de responsabilité et le CICE (France, 2014)",
+              "d": "Baisse ciblée du coût du travail pour redresser les marges des entreprises industrielles."
+            },
+            {
+              "t": "Le débat actuel sur les superprofits",
+              "d": "Faut-il taxer les bénéfices exceptionnels ou les sanctuariser pour financer la transition écologique ?"
+            },
+            {
+              "t": "Le bilan économique du macronisme (2017-2027)",
+              "d": "Baisse de l'IS à 25 % et suppression de l'ISF visant à doper l'attractivité et l'investissement privé."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Jean-Baptiste Say (1803)",
+              "idee": "L'offre crée sa propre demande et la production précède la consommation."
+            },
+            {
+              "sens": "=",
+              "nom": "Arthur Laffer (1974)",
+              "idee": "Trop d'impôt tue l'investissement et détruit l'assiette fiscale."
+            },
+            {
+              "sens": "≠",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "L'investissement dépend de la demande effective et des esprits animaux, pas seulement du profit passé."
+            },
+            {
+              "sens": "≠",
+              "nom": "Michał Kalecki (1942)",
+              "idee": "La compression des salaires détruit la consommation et débouche sur une crise de débouchés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biens-publics-mondiaux",
+      "nom": "Biens publics mondiaux",
+      "categorie": "commerce",
+      "type": "Notion",
+      "annee": "1986",
+      "auteur": "Charles Kindleberger",
+      "accroche": "Les biens collectifs mondiaux profitent à tous les États mais aucun n'a intérêt à les financer seul sans coordination internationale.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Charles Kindleberger**, « International Public Goods without International Government », *American Economic Review* (1986). La notion a ensuite été approfondie et popularisée par **Inge Kaul** et le PNUD en 1999.",
+            "Kindleberger transpose à l'échelle planétaire l'analyse des biens collectifs purs de Paul Samuelson (1954). Dans un monde fragmenté en États souverains dépourvu de gouvernement mondial, la fourniture des biens communs vitaux est menacée par le comportement rationnel de passager clandestin de chaque nation."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un bien public mondial présente les caractères de **non-rivalité** (la consommation par un pays ne réduit pas celle des autres) et de **non-excluabilité** (aucun État ne peut être exclu de ses bienfaits).",
+            "Chaque pays attend que les autres supportent les coûts financiers ou les contraintes réglementaires pour en profiter gratuitement (le **passager clandestin** d'Olson).",
+            "En l'absence d'une puissance hégémonique bienveillante ou d'institutions multilatérales contraignantes, le niveau de production du bien est dramatiquement **sous-optimal**.",
+            "Il en résulte des crises globales : réchauffement climatique non maîtrisé, pandémies sanitaires, instabilité financière systémique."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La notion démontre que le marché et la concurrence interétatique sont incapables de préserver les équilibres vitaux de la planète. Elle justifie la construction d'une **gouvernance mondiale régulatrice** (traités climatiques, OMS, FMI, justice internationale) et éclaire les blocages récurrents des négociations internationales comme les COP."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Inge Kaul et le PNUD (1999)",
+              "d": "Distingue les biens publics mondiaux naturels (stabilité climatique), humains (savoirs, brevets) et institutionnels (paix, stabilité financière)."
+            },
+            {
+              "t": "Théorie de la stabilité hégémonique (Kindleberger)",
+              "d": "Un bien public mondial n'est durablement fourni que si une puissance leader (Royaume-Uni au XIXe, États-Unis après 1945) assume d'en payer le coût."
+            },
+            {
+              "t": "Elinor Ostrom et la polycentricité (1990)",
+              "d": "Des réseaux d'acteurs décentralisés (villes, régions, ONG) peuvent suppléer la défaillance des États souverains."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La notion ne garantit pas une répartition équitable des efforts. Les pays du Sud soulignent régulièrement la **dette écologique** des pays développés : imposer des contraintes identiques à tous sans transferts financiers ni compensations technologiques bloque l'adhésion des pays émergents."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les négociations des COP (COP21, COP31)",
+              "d": "L'accord de Paris repose sur des engagements volontaires sans sanction, illustrant les limites du multilatéralisme sans coercition."
+            },
+            {
+              "t": "La crise du Covid-19 et les vaccins",
+              "d": "Le débat sur la levée des brevets de l'OMC pour faire du vaccin un bien public mondial accessible à tous."
+            },
+            {
+              "t": "La taxe carbone aux frontières de l'UE (MACF)",
+              "d": "Outil unilatéral pour forcer les partenaires commerciaux à internaliser leurs émissions et stopper les passagers clandestins."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Paul Samuelson (1954)",
+              "idee": "Définition des biens collectifs purs par la non-rivalité et la non-exclusion."
+            },
+            {
+              "sens": "=",
+              "nom": "Mancur Olson (1965)",
+              "idee": "Le paradoxe de l'action collective et la tentation du passager clandestin dans les grands groupes."
+            },
+            {
+              "sens": "≠",
+              "nom": "Ronald Coase (1960)",
+              "idee": "L'attribution claire de droits de propriété permet au marché de résoudre les externalités sans autorité centrale."
+            },
+            {
+              "sens": "≠",
+              "nom": "Elinor Ostrom (1990)",
+              "idee": "La gestion communautaire locale est plus efficace que l'État centralisateur ou le marché pour protéger les ressources communes."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
