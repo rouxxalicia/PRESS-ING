@@ -3668,6 +3668,111 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chomage-naturel-friedman",
+      "nom": "Taux de chômage naturel",
+      "categorie": "croissance",
+      "type": "Modèle",
+      "annee": "1968",
+      "auteur": "Milton Friedman",
+      "accroche": "Il existe un taux de chômage d'équilibre déterminé par les rigidités structurelles du marché du travail, qu'aucune politique conjoncturelle de relance ne peut abaisser durablement sans accélérer l'inflation.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Milton Friedman**, « The Role of Monetary Policy », *American Economic Review* (1968). Edmund Phelps formalise indépendamment la même relation en 1967 avec le concept de courbe de Phillips augmentée des anticipations.",
+            "Jusqu'à la fin des années 1960, la synthèse néoclassique postulait un arbitrage stable et permanent entre inflation et chômage (courbe de Phillips). Friedman démontre que cet arbitrage n'est qu'une illusion d'optique de court terme due à l'**illusion monétaire** transitoire des salariés."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Choc de relance : Une politique monétaire expansionniste stimule artificiellement la demande globale et engendre une hausse non anticipée du niveau général des prix.",
+            "Illusion monétaire : Les salariés constatent une hausse de leur salaire nominal et augmentent leur offre de travail, tandis que les entreprises embauchent car le salaire réel a temporairement diminué.",
+            "Ajustement des anticipations : Lorsque les travailleurs intègrent l'inflation constatée dans leurs anticipations adaptatives, ils exigent des hausses de salaires pour restaurer leur pouvoir d'achat.",
+            "Retour à l'équilibre : Le salaire réel retrouve son niveau initial et le chômage remonte à son niveau structurel d'équilibre, mais avec un taux d'inflation définitivement plus élevé : la courbe de Phillips est **verticale** à long terme."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Les politiques macroéconomiques de relance par la demande sont impuissantes à résorber durablement le chômage et ne génèrent que de la **stagflation**. Pour réduire durablement le chômage structurel, les pouvoirs publics doivent agir sur les déterminants réels du marché du travail par des **politiques structurelles** d'offre (formation, allègement du coût du travail, incitations à la reprise d'activité)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le concept de NAIRU (Modigliani et Papademos, 1975)",
+              "d": "Le *Non-Accelerating Inflation Rate of Unemployment* traduit le taux naturel sous une forme empirique directement mesurable par les banques centrales."
+            },
+            {
+              "t": "La critique de Lucas et les anticipations rationnelles (1972)",
+              "d": "Avec des anticipations rationnelles, la politique monétaire n'a aucun effet réel même à court terme (théorème d'inefficacité de Sargent et Wallace)."
+            },
+            {
+              "t": "L'effet d'hystérèse (Blanchard et Summers, 1986)",
+              "d": "Une récession prolongée dégrade les compétences des chômeurs et élève durablement le taux de chômage d'équilibre par exclusion des *outsiders*."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Friedman ne prétend pas que le chômage naturel est incompressible ni qu'il est socialement optimal : il reflète les imperfections institutionnelles et le coût de recherche d'emploi. De plus, en présence d'une trappe à liquidité ou d'un effondrement majeur de la demande effective, le soutien budgétaire reste nécessaire sans risque inflationniste immédiat."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La stagflation des années 1970",
+              "d": "L'échec des relances keynésiennes après le premier choc pétrolier (relance Chirac en 1975) illustre la verticalité de la courbe de Phillips."
+            },
+            {
+              "t": "Le socle du chômage structurel en France",
+              "d": "La difficulté de faire passer le taux de chômage sous la barre des 7 % à 8 % malgré les tensions de recrutement dans les entreprises."
+            },
+            {
+              "t": "Les réformes de flexisécurité du marché du travail",
+              "d": "La justification des réformes de l'assurance chômage et des allègements de cotisations patronales sur les bas salaires."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Edmund Phelps (1967)",
+              "idee": "courbe de Phillips augmentée des anticipations et absence d'arbitrage à long terme"
+            },
+            {
+              "sens": "≠",
+              "nom": "Alban William Phillips (1958)",
+              "idee": "relation empirique inverse et stable entre hausse des salaires et chômage"
+            },
+            {
+              "sens": "≠",
+              "nom": "Olivier Blanchard et Lawrence Summers (1986)",
+              "idee": "l'hystérèse montre que le niveau d'équilibre dépend des chocs conjoncturels passés"
+            },
+            {
+              "sens": "≠",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "le sous-emploi involontaire provient d'un déficit de demande effective"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,1132 @@
+{
+  "date": "2026-11-10",
+  "cards": [
+    {
+      "id": "2026-11-10-esh-1",
+      "matiere": "esh",
+      "source": "Les Échos",
+      "url": "https://www.lesechos.fr/economie-france/conjoncture/stabilisation-surprise-du-taux-de-chomage-au-troisieme-trimestre-2261975",
+      "minutes": 3,
+      "titre": "Emploi en France : stabilisation inattendue du taux de chômage à 8,2 % au troisième trimestre",
+      "faits": "Selon les données de l'enquête emploi publiées ce mardi 10 novembre par l'Insee, le taux de chômage au sens du BIT s'est stabilisé à 8,2 % de la population active en France au troisième trimestre 2026. Cette relative stagnation prend de court la majorité des conjoncturistes qui anticipaient une nette remontée sous l'effet du ralentissement de l'activité économique européenne. Le nombre total de demandeurs d'emploi sans activité s'établit à environ 2,5 millions de personnes en métropole. Si les créations d'emplois marchands ont marqué le pas dans l'industrie et la construction, le secteur tertiaire marchand et les services aux entreprises ont continué d'absorber une partie des flux de main-d'œuvre. Toutefois, le halo du chômage, qui regroupe les personnes inactives souhaitant travailler mais non disponibles immédiatement, progresse légèrement pour atteindre près de deux millions d'individus. Le chômage des jeunes de 15 à 24 ans demeure quant à lui particulièrement élevé, frôlant les 19 %, ce qui incite le ministère du Travail à envisager un renforcement ciblé des dispositifs d'apprentissage. Enfin, les tensions de recrutement signalées par les chefs d'entreprise reculent dans les services mais restent vives pour les métiers techniques qualifiés.",
+      "enjeux": "Cette résistance apparente de l'emploi en phase de basse conjoncture pose la question cruciale du niveau du **chômage structurel** dans l'économie française. Depuis le choc inflationniste de 2022 et le durcissement des conditions de crédit, la productivité apparente du travail a nettement fléchi, traduisant des comportements de rétention de main-d'œuvre de la part des employeurs. Ce phénomène de **baisse des gains de productivité** limite les destructions immédiates de postes mais fragilise la rentabilité globale des entreprises à moyen terme. Par ailleurs, la persistance d'un plancher de chômage autour de 8 % confirme l'existence de rigidités structurelles et d'inadéquations de compétences que la politique macroéconomique de demande ne parvient pas à résorber seule. Le risque majeur réside dans l'apparition d'un **effet d'hystérèse**, où le chômage conjoncturel de longue durée déprécie le capital humain des demandeurs d'emploi et élève définitivement le taux de sous-emploi d'équilibre. Les débats récents autour de l'assurance chômage et du coût du travail illustrent la difficulté d'activer les dépenses publiques d'emploi sans précariser les parcours professionnels des travailleurs modestes.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/INSEE_White.jpg/1280px-INSEE_White.jpg",
+        "alt": "Le logo et le bâtiment de l'Insee, institut national de la statistique",
+        "credit": "Cyrilb1881 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:INSEE_White.jpg"
+      },
+      "programme": {
+        "module": "Module 4 – Déséquilibres, régulation et action publique",
+        "chapitre": "4.1 – Équilibres et déséquilibres macroéconomiques : l'inflation et le chômage"
+      },
+      "auteurs": [
+        {
+          "nom": "Milton Friedman",
+          "ouvrage": "« The Role of Monetary Policy »",
+          "annee": "1968",
+          "ref": "chomage-naturel-friedman",
+          "cours": "1A-hpe",
+          "texte": "Friedman démontre l'existence d'un **taux de chômage naturel** déterminé par les rigidités réelles et institutionnelles du marché du travail, qu'aucune relance monétaire ne peut abaisser durablement sans accélérer l'inflation. À long terme, lorsque les anticipations s'ajustent, la courbe de Phillips devient verticale et le chômage revient à son niveau structurel. À mobiliser pour montrer qu'un taux de chômage bloqué à 8 % relève de réformes structurelles et non de politiques de relance conjoncturelle."
+        },
+        {
+          "nom": "Carl Shapiro et Joseph Stiglitz",
+          "ouvrage": "« Equilibrium Unemployment as a Worker Discipline Device »",
+          "annee": "1984",
+          "ref": "salaire-d-efficience",
+          "texte": "Shapiro et Stiglitz expliquent que les entreprises fixent un salaire supérieur au salaire d'équilibre de marché pour inciter les salariés à l'effort et décourager le tire-au-flanc en présence d'asymétries d'information. Ce **salaire d'efficience** engendre nécessairement un chômage involontaire d'équilibre qui sert d'instrument de discipline collective. À mobiliser pour expliquer pourquoi les salaires ne s'ajustent pas à la baisse pour épurer le marché de l'emploi en période de ralentissement."
+        }
+      ],
+      "notions": [
+        [
+          "Taux de chômage au sens du BIT",
+          "Proportion de personnes actives sans emploi, immédiatement disponibles et en recherche active."
+        ],
+        [
+          "Chômage structurel",
+          "Part du chômage liée aux rigidités institutionnelles, aux inadéquations de compétences et au fonctionnement du marché du travail."
+        ],
+        [
+          "Effet d'hystérèse",
+          "Persistance du chômage de longue durée transformant un choc conjoncturel négatif en hausse permanente du chômage d'équilibre."
+        ],
+        [
+          "Halo du chômage",
+          "Ensemble des personnes inactives sans emploi qui souhaitent travailler mais ne remplissent pas tous les critères du BIT."
+        ]
+      ],
+      "sujets": [
+        "Le chômage est-il nécessairement le signe d'un dysfonctionnement du marché du travail ?",
+        "Les politiques de flexibilisation du marché du travail permettent-elles de lutter efficacement contre le sous-emploi ?"
+      ],
+      "anki": [
+        {
+          "q": "Taux de chômage au sens du BIT en France (T3 2026)",
+          "r": "C{8,2 %} de la population active, soit environ C{2,5 millions} de demandeurs d'emploi en métropole.\n→ accroche pour un sujet sur l'emploi ou les rigidités structurelles"
+        },
+        {
+          "q": "Explication de la rigidité du chômage structurel par Friedman",
+          "r": "A{Milton Friedman}, O{The Role of Monetary Policy} (D{1968}) : le B{taux de chômage naturel} ne peut être abaissé durablement par une relance conjoncturelle, car la courbe de Phillips est verticale à long terme.\n→ argument pour montrer les limites de la politique de demande face au sous-emploi"
+        },
+        {
+          "q": "Mécanisme du salaire d'efficience selon Shapiro et Stiglitz",
+          "r": "A{Carl Shapiro et Joseph Stiglitz} (D{1984}) : les firmes paient un salaire au-dessus de l'équilibre pour inciter à l'effort face aux asymétries d'information, ce qui génère un B{chômage involontaire d'équilibre}."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-esh-2",
+      "matiere": "esh",
+      "source": "Le Figaro",
+      "url": "https://www.lefigaro.fr/economie/retraites-fonctionnaires-tva-les-mesures-chocs-de-la-cour-des-comptes-pour-reduire-le-deficit-20261109",
+      "minutes": 3,
+      "titre": "Déficit public : le rapport d'alerte de la Cour des comptes préconise un gel ciblé des dépenses publiques",
+      "faits": "Dans un rapport thématique particulièrement sévère dévoilé ce lundi 9 novembre, la Cour des comptes formule une série de préconisations d'urgence pour ramener le déficit public français sous la barre européenne des 3 % du PIB d'ici 2029. Les magistrats de la rue Cambon soulignent que la dette publique dépasse désormais les 114 % du PIB, plaçant la France parmi les pays les plus vulnérables de la zone euro face aux hausses des taux obligataires. Pour enrayer cette dérive, la Cour recommande de cibler en priorité les dépenses de fonctionnement de l'État par un gel temporaire du point d'indice des fonctionnaires et un freinage des avancements automatiques. Le document suggère également d'accélérer les réformes structurelles du système de retraite pour stabiliser les transferts sociaux et de revoir l'efficacité des niches fiscales et des allègements de cotisations sociales accordés sans condition aux entreprises. En matière de recettes, la Cour met en garde contre toute hausse générale des impôts directs qui briserait une croissance économique déjà atone, mais propose un réaménagement technique de certains taux réduits de TVA. Les syndicats de la fonction publique ont immédiatement dénoncé une attaque brutale contre le pouvoir d'achat des agents de l'État, tandis que le ministre de l'Économie a salué un document de référence pour les négociations budgétaires.",
+      "enjeux": "Ce constat alarmant replace au centre des débats la question de la **soutenabilité de la dette publique** dans un contexte où les marges de manœuvre budgétaires nationales s'érodent rapidement. Lorsque le taux d'intérêt moyen de la dette devient supérieur au taux de croissance du PIB nominal, l'État s'expose au mécanisme déstabilisateur de l'**effet boule de neige**, qui gonfle automatiquement le ratio de dette sans décision politique nouvelle. La France se heurte ainsi à la contrainte budgétaire intertemporelle et aux exigences de crédibilité imposées par les marchés financiers et le nouveau cadre du pacte de stabilité européen. Le choix entre rabotage des dépenses publiques et hausse des prélèvements obligatoires réactive les analyses classiques de l'**équivalence ricardienne**, selon lesquelles les ménages anticipent les hausses d'impôts futures en augmentant leur épargne de précaution. De plus, la difficulté politique à trancher dans les dépenses de l'État reflète les mécanismes décrits par l'école des **choix publics**, où chaque groupe d'intérêt cherche à préserver ses rentes budgétaires aux dépens de l'intérêt collectif. La conciliation entre rétablissement des comptes publics et investissements massifs dans la transition écologique et la défense constitue le défi macroéconomique majeur de la décennie.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cambon.jpg/1280px-Cambon.jpg",
+        "alt": "La façade du Palais Cambon, siège de la Cour des comptes à Paris",
+        "credit": "Boubloub / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cambon.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Richard Musgrave",
+          "ouvrage": "Théorie des finances publiques",
+          "annee": "1959",
+          "ref": "fonctions-etat",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Musgrave distingue les trois fonctions économiques fondamentales de l'État : l'**allocation** optimale des ressources, la **redistribution** des revenus et la **stabilisation** macroéconomique de la conjoncture. Quand la dette publique devient excessive, la fonction de stabilisation est entravée par la charge des intérêts et compromet le financement des biens collectifs d'avenir. À mobiliser pour évaluer la légitimité des dépenses publiques et arbitrer entre rigueur budgétaire et maintien des services publics essentiels."
+        },
+        {
+          "nom": "James M. Buchanan et Gordon Tullock",
+          "ouvrage": "The Calculus of Consent",
+          "annee": "1962",
+          "ref": "theorie-choix-publics",
+          "texte": "L'école du **choix public** applique la rationalité économique aux décideurs politiques : les gouvernants sont incités à multiplier les dépenses publiques pour satisfaire des clientèles électorales tout en repoussant l'impôt vers l'emprunt. Ce biais systématique en faveur du déficit produit une expansion continue de la dette indépendamment des besoins économiques réels. À mobiliser pour expliquer la résistance institutionnelle aux coupes budgétaires et justifier l'imposition de règles budgétaires contraignantes."
+        }
+      ],
+      "notions": [
+        [
+          "Soutenabilité de la dette",
+          "Capacité d'un État à honorer ses engagements financiers à long terme sans recourir à un ajustement budgétaire irréaliste."
+        ],
+        [
+          "Déficit structurel",
+          "Part du solde budgétaire public corrigée des fluctuations cycliques de l'activité économique."
+        ],
+        [
+          "Point d'indice des fonctionnaires",
+          "Unité monétaire de référence servant au calcul du traitement brut des agents de la fonction publique."
+        ],
+        [
+          "Effet boule de neige de la dette",
+          "Accroissement auto-entretenu de la dette publique lorsque le taux d'intérêt réel excède le taux de croissance économique."
+        ]
+      ],
+      "sujets": [
+        "La réduction des dépenses publiques est-elle un préalable indispensable à la croissance économique ?",
+        "L'État moderne est-il encore en mesure de maîtriser ses finances publiques ?"
+      ],
+      "anki": [
+        {
+          "q": "Niveau de la dette publique française selon la Cour des comptes (novembre 2026)",
+          "r": "Dette publique supérieure à C{114 %} du PIB, avec une charge d'intérêts en passe de devenir le premier poste du budget de l'État.\n→ accroche pour un sujet sur la dette publique ou la politique budgétaire"
+        },
+        {
+          "q": "Les trois fonctions de l'État selon Richard Musgrave",
+          "r": "A{Richard Musgrave}, O{Théorie des finances publiques} (D{1959}) : B{allocation} (biens publics), B{redistribution} (justice sociale) et B{stabilisation} (conjoncture).\n→ cadre théorique fondamental pour toute dissertation sur le rôle de l'État"
+        },
+        {
+          "q": "Thèse de James Buchanan sur le biais pour le déficit public",
+          "r": "A{James Buchanan}, O{The Calculus of Consent} (D{1962}) : les élus maximisent leurs chances de réélection en accordant des dépenses financées par l'emprunt, créant un B{biais structurel vers le déficit}."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-esh-3",
+      "matiere": "esh",
+      "source": "Alternatives Économiques",
+      "url": "https://www.alternatives-economiques.fr/nucleaire-lycees-defense-comment-l-etat-veut-siphonner-le-livret-a_10-11-2026",
+      "minutes": 3,
+      "titre": "Financement stratégique : l'État mobilise l'épargne réglementée du Livret A pour les investissements d'avenir",
+      "faits": "Face à l'immensité des besoins de financement pour le programme de relance nucléaire, la rénovation thermique et la défense, le gouvernement intensifie ses arbitrages pour réorienter une partie de la collecte du Livret A et du Livret de développement durable et solidaire. Avec un encours global record dépassant désormais les 570 milliards d'euros, l'épargne réglementée des ménages français constitue un gisement financier considérable et particulièrement stable. Historiquement centralisée par la Caisse des dépôts et consignations pour financer la construction de logements sociaux, cette manne fait l'objet de convoitises accrues de la part de l'exécutif pour soutenir de grands projets industriels souverains. Bercy étudie ainsi la création d'un sous-compartiment dédié au financement des futurs réacteurs EPR2 et aux infrastructures de souveraineté militaire. Cette orientation suscite une vive inquiétude parmi les bailleurs sociaux, qui redoutent un assèchement des prêts bonifiés indispensables à la transition énergétique du parc HLM. De leur côté, les banques commerciales dénoncent une ponction étatique qui limite la liquidité disponible pour distribuer des crédits à l'investissement aux PME privées. Le débat met en lumière la délicate conciliation entre protection de l'épargne populaire et impératifs de la politique industrielle nationale.",
+      "enjeux": "Cette réorientation de l'épargne des ménages illustre les mécanismes fondamentaux de l'**intermédiation financière** et de la transformation des liquidités de court terme en investissements productifs de long terme. En canalisant des dépôts à vue ou à court terme garantis vers des projets d'infrastructures lourdes s'étalant sur plusieurs décennies, l'État recourt à une forme renouvelée de **circuit du Trésor** et de capitalisme dirigé. La propension des ménages français à privilégier l'épargne de précaution sans risque plutôt que le financement en fonds propres s'analyse à la lumière de la théorie du **cycle de vie** de Modigliani. Cette préférence marquée pour la liquidité prive l'appareil productif d'investissements risqués dans l'innovation technologique de rupture. Face aux limites de l'autofinancement des entreprises et aux contraintes budgétaires souveraines, la théorie de l'**État entrepreneur** de Mariana Mazzucato rappelle le rôle indispensable de la puissance publique pour assumer les investissements à rentabilité différée que le marché refuse de financer seul. Enfin, l'arbitrage entre logement social et réindustrialisation souligne la conflictualité politique inhérente à l'allocation des ressources financières rares dans une économie en transition.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Paris_7e_Caisse_des_D%C3%A9p%C3%B4ts_et_Consignations_549.jpg/1280px-Paris_7e_Caisse_des_D%C3%A9p%C3%B4ts_et_Consignations_549.jpg",
+        "alt": "Le bâtiment de la Caisse des dépôts et consignations dans le 7e arrondissement de Paris",
+        "credit": "LPLT / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_7e_Caisse_des_D%C3%A9p%C3%B4ts_et_Consignations_549.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : la monnaie et le financement de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Franco Modigliani",
+          "ouvrage": "« Utility Analysis and the Consumption Function »",
+          "annee": "1954",
+          "ref": "cycle-de-vie",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Modigliani formalise la théorie du **cycle de vie** : les individus accumulent de l'épargne durant leur vie active pour maintenir leur niveau de consommation à la retraite. Dans une société vieillissante, l'aversion au risque incite les ménages à thésauriser sur des supports très liquides et sécurisés comme le Livret A. À mobiliser pour montrer que le vieillissement démographique oriente spontanément les capitaux vers l'épargne de précaution plutôt que vers l'investissement productif risqué."
+        },
+        {
+          "nom": "Mariana Mazzucato",
+          "ouvrage": "L'État entrepreneur",
+          "annee": "2013",
+          "ref": "etat-entrepreneur",
+          "texte": "Mazzucato défend la thèse de l'**État entrepreneur** : les grandes avancées technologiques et énergétiques exigent des capitaux publics patients et risqués, car les marchés privés sont incapables d'assumer les investissements initiaux de long terme. La mobilisation dirigée de l'épargne collective par des institutions publiques est indispensable pour financer la souveraineté industrielle. À mobiliser pour justifier l'intervention publique dans le fléchage de l'épargne vers le nucléaire et la transition écologique."
+        }
+      ],
+      "notions": [
+        [
+          "Épargne réglementée",
+          "Placements financiers dont les taux de rémunération, les plafonds et l'affectation sont fixés par les pouvoirs publics pour garantir liquidité et sécurité."
+        ],
+        [
+          "Intermédiation financière",
+          "Processus par lequel une institution financière collecte l'épargne des agents à capacité de financement pour l'allouer aux agents en besoin de financement."
+        ],
+        [
+          "Transformation bancaire",
+          "Mécanisme financier consistant à convertir des dépôts collectés à court terme en crédits accordés à long terme."
+        ],
+        [
+          "Circuit du Trésor",
+          "Système historique par lequel l'État français captait directement l'épargne des ménages via des institutions publiques pour financer ses dépenses et investissements."
+        ]
+      ],
+      "sujets": [
+        "Le financement de l'investissement dépend-il nécessairement d'une épargne préalable ?",
+        "L'État doit-il orienter l'épargne des ménages vers les priorités industrielles de la nation ?"
+      ],
+      "anki": [
+        {
+          "q": "Encours de l'épargne réglementée en France (Livret A et LDDS, 2026)",
+          "r": "Plus de C{570 milliards d'euros} collectés et centralisés pour financer le logement social et les projets d'infrastructures souveraines.\n→ accroche pour un sujet sur l'épargne, la politique industrielle ou l'intermédiation financière"
+        },
+        {
+          "q": "Théorie du cycle de vie de Franco Modigliani et épargne",
+          "r": "A{Franco Modigliani} (D{1954}) : les ménages épargnent pendant leur période d'activité pour lisser leur consommation jusqu'à la retraite, alimentant une forte B{aversion au risque} dans les sociétés vieillissantes."
+        },
+        {
+          "q": "Thèse de Mariana Mazzucato sur le rôle de l'État entrepreneur",
+          "r": "A{Mariana Mazzucato}, O{L'État entrepreneur} (D{2013}) : seul l'État est capable d'apporter le B{capital patient} nécessaire aux innovations de rupture (nucléaire, biotech) que les marchés financiers jugent trop risquées."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-esh-4",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/10/une-commission-preconise-de-mieux-encadrer-les-assistants-ia-de-chatgpt-a-gemini-ou-grok_6808789_3234.html",
+      "minutes": 3,
+      "titre": "Économie numérique : une commission d'experts préconise un encadrement renforcé des grands modèles d'IA",
+      "faits": "Dans un rapport très attendu remis ce mardi 10 novembre au gouvernement, une commission d'experts et de juristes formule une trentaine de recommandations pour réguler les assistants d'intelligence artificielle générative tels que ChatGPT, Gemini ou Grok. Le document met en garde contre les risques croissants de verrouillage technologique et de captation de la valeur par une poignée de géants numériques américains. Selon les conclusions de la commission, ces plateformes bénéficient de rendements d'échelle croissants et d'effets de réseau colossaux qui empêchent l'émergence d'une concurrence européenne autonome. Les experts préconisent d'imposer des obligations d'interopérabilité des données et d'ouvrir les protocoles des modèles afin de stimuler l'écosystème des startups et des entreprises utilisatrices. Le rapport suggère également d'instaurer une stricte transparence algorithmique sur les sources d'entraînement afin de protéger la rémunération des créateurs de contenus et des ayants droit. Par ailleurs, des alertes sont lancées sur les biais cognitifs et les risques de désinformation à grande échelle dans les environnements professionnels et éducatifs. Les représentants de la tech ont toutefois averti qu'une régulation excessive risquait de brider l'innovation sur le continent et de creuser le décrochage technologique avec les États-Unis et la Chine.",
+      "enjeux": "Cette réflexion institutionnelle s'inscrit au cœur des théories modernes de la croissance économique et de la **politique de la concurrence**. L'intelligence artificielle générative présente les caractéristiques typiques d'une technologie à usage général (GPT), capable d'élever la productivité globale des facteurs mais générant de puissantes barrières à l'entrée. La concentration du marché entre les mains de quelques firmes technologiques globales crée des **rentes de monopole** qui peuvent, à terme, ralentir le rythme de l'innovation technologique selon la célèbre relation en U inversé modélisée par Philippe Aghion. Dans la logique du processus de **destruction créatrice** décrit par Joseph Schumpeter, l'émergence de nouveaux paradigmes industriels remplace les activités obsolètes, mais ce mécanisme dynamique suppose que de nouveaux entrants puissent disputer le marché aux acteurs en place. L'incapacité de l'Europe à faire émerger des leaders mondiaux de l'IA reflète son retard persistant dans le financement en capital-risque et la fragmentation de son marché unique. Enfin, l'intervention publique doit arbitrer entre protection des droits des consommateurs et incitation financière à l'investissement en R&D à la **frontière technologique**.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
+        "alt": "Allée de baies de serveurs informatiques dans un centre de données",
+        "credit": "BalticServers / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
+      },
+      "programme": {
+        "module": "Module 2 – Croissance et développement",
+        "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+      },
+      "auteurs": [
+        {
+          "nom": "Philippe Aghion, Nick Bloom, Richard Blundell, Rachel Griffith et Peter Howitt",
+          "ouvrage": "« Competition and Innovation: An Inverted-U Relationship »",
+          "annee": "2005",
+          "ref": "frontiere-technologique-aghion",
+          "cours": "2A-02-ftn",
+          "texte": "Aghion et ses coauteurs démontrent que la relation entre concurrence et innovation prend la forme d'un **U inversé** : une concurrence modérée stimule l'innovation des firmes proches de la frontière technologique pour échapper à leurs rivales (*escape competition*), mais un monopole absolu ou une concurrence féroce décourage l'effort de recherche. À mobiliser pour justifier une régulation des géants de l'IA qui préserve une saine rivalité concurrentielle sans anéantir les rentes d'innovation."
+        },
+        {
+          "nom": "Joseph Schumpeter",
+          "ouvrage": "Capitalisme, socialisme et démocratie",
+          "annee": "1942",
+          "ref": "destruction-creatrice",
+          "cours": "1A-croissance",
+          "texte": "Schumpeter montre que le capitalisme progresse par vagues d'innovations qui détruisent les anciennes structures productives : la **destruction créatrice**. L'entrepreneur innovateur est motivé par la perspective d'une rente de monopole temporaire qui rémunère le risque pris. À mobiliser pour nuancer l'utilité des régulations trop précoces qui risquent d'étouffer les incitations des entreprises pionnières à investir dans la recherche de rupture."
+        }
+      ],
+      "notions": [
+        [
+          "Effets de réseau",
+          "Mécanisme économique par lequel la valeur d'un produit ou d'un service s'accroît à mesure que le nombre d'utilisateurs augmente."
+        ],
+        [
+          "Rente de monopole d'innovation",
+          "Profit extraordinaire temporaire capté par une firme innovante avant que la concurrence ou l'imitation ne vienne éroder son avantage."
+        ],
+        [
+          "Frontière technologique",
+          "Niveau de productivité et de connaissances le plus avancé atteint par les entreprises et les économies les plus performantes."
+        ],
+        [
+          "Technologie à usage général",
+          "Innovation technologique transversale (vapeur, électricité, IA) susceptible de transformer l'ensemble des branches de l'économie."
+        ]
+      ],
+      "sujets": [
+        "La concentration des marchés numériques est-elle un obstacle à l'innovation ?",
+        "L'intelligence artificielle peut-elle être le moteur d'une nouvelle vague de croissance économique ?"
+      ],
+      "anki": [
+        {
+          "q": "Relation entre concurrence et innovation selon Philippe Aghion (2005)",
+          "r": "A{Philippe Aghion et al.} (D{2005}) : relation en B{U inversé} : une concurrence mesurée stimule l'innovation à la frontière (*escape competition*), mais le monopole de géants numériques finit par étouffer la recherche.\n→ argument pour les politiques antitrust dans le secteur de l'IA"
+        },
+        {
+          "q": "La dynamique de la destruction créatrice chez Joseph Schumpeter",
+          "r": "A{Joseph Schumpeter}, O{Capitalisme, socialisme et démocratie} (D{1942}) : l'innovation de rupture élimine les firmes obsolètes et assure le dynamisme capitaliste grâce à la promesse de B{rentes temporaires de monopole}."
+        },
+        {
+          "q": "Définition économique des effets de réseau dans la tech",
+          "r": "B{Effets de réseau} : chaque utilisateur supplémentaire augmente la valeur du service pour tous les autres, créant des tendances naturelles au monopole (« winner-takes-most ») dans les modèles d'IA."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-anglais-1",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/10/young-people-uk-economy-bank-of-england-clare-lombardelli",
+      "minutes": 3,
+      "titre": "Économie britannique : la Banque d'Angleterre alerte sur le décrochage des jeunes dans une croissance au ralenti",
+      "faits": "Dans un discours remarqué prononcé ce mardi 10 novembre, la sous-gouverneure de la Banque d'Angleterre, Clare Lombardelli, a lancé une mise en garde solennelle sur la situation économique préoccupante de la jeunesse britannique. Lombardelli a souligné que les jeunes travailleurs subissent de plein fouet les conséquences d'une économie britannique bloquée dans un régime de croissance atone et de gains de productivité défaillants depuis plus d'une décennie. Les offres d'emploi pour les postes débutants ont chuté de 15 % au cours de l'année écoulée, témoignant de la prudence accrue des entreprises face au durcissement des conditions financières. De nombreux diplômés se retrouvent contraints d'accepter des postes sous-qualifiés qui ne correspondent pas à leur niveau de formation universitaire, alimentant un déclassement professionnel généralisé. La Banque d'Angleterre prévient que ce manque prolongé de perspectives d'ascension salariale risque de laisser des cicatrices économiques durables sur toute une génération. Cette précarité sur le marché du travail est aggravée par la flambée des loyers et le poids du remboursement des dettes étudiantes, qui réduisent considérablement le revenu disponible des jeunes ménages. Lombardelli a appelé les pouvoirs publics et les entreprises à relancer d'urgence l'investissement productif et les programmes d'apprentissage professionnel.",
+      "enjeux": "Ce diagnostic lucide met en lumière le piège de la **stagnation de la productivité** qui handicape structurellement l'économie britannique depuis la crise financière de 2008. L'insuffisance chronique de l'investissement des entreprises privées et la faiblesse des gains d'efficacité pèsent directement sur la progression des salaires réels. Pour les jeunes entrant sur le marché du travail, cette situation engendre un phénomène destructeur d'**effets de cicatrice**, où une insertion difficile dans l'emploi pénalise irrémédiablement la trajectoire salariale tout au long de la carrière. La fracture générationnelle s'accentue entre les cohortes âgées détentrices d'un patrimoine immobilier valorisé et des jeunes générations cantonnées à la précarité locative. De plus, la Banque d'Angleterre fait face à un arbitrage délicat de **politique monétaire**, devant maintenir des taux restrictifs pour contenir les pressions inflationnistes résiduelles sans étouffer une reprise déjà vulnérable. Cette situation illustre l'urgence de **réformes structurelles de l'offre**, incluant la dérégulation de la construction de logements et la revalorisation des filières techniques. La détérioration de la mobilité sociale menace ainsi la cohésion du contrat social britannique dans le sillage des perturbations économiques post-Brexit.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bank_of_England_Building%2C_London%2C_UK_-_Diliff.jpg/1280px-Bank_of_England_Building%2C_London%2C_UK_-_Diliff.jpg",
+        "alt": "The facade of the Bank of England on Threadneedle Street in London",
+        "credit": "Diliff / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg"
+      },
+      "vo": {
+        "titre": "UK economy: Bank of England warns young workers are trapped in a low-gear economy",
+        "faits": "In a major economic address delivered on Tuesday 10 November, Bank of England Deputy Governor Clare Lombardelli issued a stark warning regarding the deteriorating economic prospects of Britain's youth. Lombardelli pointed out that younger workers are bearing the brunt of a sluggish economy constrained by more than a decade of feeble productivity gains and low private investment. Entry-level vacancies dropped by approximately 15% across several key industries over the past twelve months, reflecting corporate caution in an uncertain macroeconomic climate. Furthermore, recent graduates increasingly find themselves trapped in underemployment, accepting low-skilled service roles that fail to match their academic qualifications. The central bank highlighted that prolonged periods of wage stagnation threaten to inflict enduring economic scars on the career trajectories of young adults. Escalating private rental costs and substantial student debt burdens compound these structural headwinds, severely suppressing household formation and disposable income. Lombardelli urged government ministers and industry leaders to prioritize targeted vocational training, regional infrastructure projects, and productivity-enhancing capital investment.",
+        "enjeux": "This sober assessment highlights the profound **productivity puzzle** that has crippled British economic dynamism since the 2008 global banking collapse. Chronic business underinvestment and regional disparities continue to depress real earnings growth across England, Scotland, Wales, and Northern Ireland. For young labour market entrants, this prolonged stagnation risks inducing severe **economic scarring**, whereby initial periods of underemployment permanently depress lifetime earnings and career advancement. The growing divide between older asset-owning generations and younger renters exacerbates deep-seated intergenerational inequalities throughout the country. Meanwhile, the Bank of England remains caught in an intricate **monetary policy** dilemma, navigating between curbing persistent services inflation and avoiding choking off an already fragile macroeconomic recovery. Resolving these challenges will necessitate sweeping **supply-side reforms**, including modernizing planning regulations to boost housebuilding and reforming technical apprenticeships. Ultimately, the crisis underlines how sluggish trend growth threatens to unravel the post-war British social contract for younger generations."
+      },
+      "vocab": [
+        [
+          "a low-gear economy",
+          "une économie au ralenti",
+          "Britain has been trapped in a low-gear economy."
+        ],
+        [
+          "economic scarring",
+          "les séquelles économiques durables",
+          "Youth joblessness causes severe economic scarring."
+        ],
+        [
+          "underemployment",
+          "le sous-emploi",
+          "Graduates face underemployment in low-wage sectors."
+        ],
+        [
+          "entry-level vacancies",
+          "les offres d'emploi pour débutants",
+          "Entry-level vacancies dropped sharply this year."
+        ],
+        [
+          "disposable income",
+          "le revenu disponible",
+          "High rents erode the disposable income of young workers."
+        ],
+        [
+          "supply-side reforms",
+          "les réformes structurelles de l'offre",
+          "Ministers promised supply-side reforms to boost growth."
+        ]
+      ],
+      "sujets": [
+        "Is the United Kingdom facing an irreversible breakdown of intergenerational mobility?",
+        "Can economic policy rescue the British economy from its chronic low-growth trap?"
+      ],
+      "anki": [
+        {
+          "q": "Drop in UK entry-level vacancies (Bank of England warning, 2026)",
+          "r": "Entry-level job openings fell by C{15 %} across the UK as Deputy Governor Lombardelli warned of a B{low-gear economy}.\n→ hook for an essay on British productivity or youth unemployment"
+        },
+        {
+          "q": "Concept of labour market economic scarring",
+          "r": "B{Economic scarring} : long periods of underemployment or joblessness early in a career that permanently reduce lifetime earnings and productivity."
+        },
+        {
+          "q": "Main driver of British wage stagnation since 2008",
+          "r": "Chronic weakness in B{business investment} and aggregate B{productivity growth}, keeping real wage increases near zero for over a decade."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-anglais-2",
+      "matiere": "anglais",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdk8z7ym3o",
+      "minutes": 3,
+      "titre": "Crise pénitentiaire au Royaume-Uni : nouvelle vague de libérations anticipées pour désengorger les prisons",
+      "faits": "Ce mardi 10 novembre, plusieurs centaines de détenus ont été libérés de manière anticipée des établissements pénitentiaires britanniques dans le cadre d'un plan d'urgence gouvernemental destiné à éviter la saturation totale des prisons. En vertu du dispositif dérogatoire SDS40, les condamnés pour des infractions non violentes purgeant des peines de durée déterminée sont désormais autorisés à sortir après avoir exécuté 40 % de leur temps d'incarcération, contre 50 % auparavant. Le ministère de la Justice a justifié cette mesure exceptionnelle en soulignant que le nombre de places disponibles dans les prisons pour hommes en Angleterre et au pays de Galles était tombé à un niveau critique inférieur à quelques centaines de cellules. Les directeurs d'établissement avaient averti que sans cette soupape de sécurité, les commissariats de police auraient été saturés et les tribunaux contraints de suspendre les procès en cours. L'opposition conservatrice et les associations de victimes ont toutefois vivement critiqué ces libérations, dénonçant une atteinte grave à l'autorité des décisions de justice. De leur côté, les syndicats d'agents de probation alertent sur leur incapacité à assurer un suivi sérieux des détenus libérés en raison d'un manque criant d'effectifs. Le gouvernement Starmer a promis d'accélérer la construction de nouvelles places de prison pour résorber définitivement cette crise structurelle.",
+      "enjeux": "Cette crise aiguë met en évidence l'épuisement profond des **services publics britanniques** après plus d'une décennie d'austérité budgétaire continue. Les gouvernements conservateurs successifs ont durci l'échelle des peines pénales pour répondre aux attentes sécuritaires de l'opinion, sans pour autant financer les infrastructures carcérales nécessaires à l'accueil des condamnés. Cette distorsion a créé un engorgement qui paralyse l'ensemble de la chaîne pénale et fragilise l'**État de droit** outre-Manche. Sur le plan politique, l'exécutif travailliste se retrouve dans une position inconfortable, contraint de gérer l'urgence opérationnelle sous une stricte **contrainte budgétaire**. La surcharge extrême des services de probation aggrave considérablement le risque de **récidive criminelle**, faute d'accompagnement effectif vers la réinsertion sociale et professionnelle. Cette situation relance le débat théorique entre efficacité punitive de la détention et opportunité de sanctions alternatives, telles que les travaux d'intérêt général ou le suivi électronique. Enfin, ce dysfonctionnement carcéral illustre de manière frappante la crise globale d'efficacité des institutions publiques au Royaume-Uni.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/HM_Wandsworth.jpg/1280px-HM_Wandsworth.jpg",
+        "alt": "The entrance gate of HM Prison Wandsworth in London",
+        "credit": "Chmee2 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:HM_Wandsworth.jpg"
+      },
+      "vo": {
+        "titre": "UK prison overcrowding crisis: hundreds of inmates released under emergency scheme",
+        "faits": "On Tuesday 10 November, hundreds of convicted offenders walked free from British correctional facilities as part of an emergency government initiative designed to avert a complete collapse of the prison estate. Under the emergency SDS40 measure, eligible non-violent prisoners serving standard determinate sentences are permitted to be released after completing 40% of their custodial term, down from the statutory 50%. The Ministry of Justice defended the controversial decision, emphasizing that available cell space across England and Wales had dwindled to fewer than a few hundred beds. Prison governor associations had previously issued urgent warnings that severe overcrowding risked clogging police holding cells and forcing magistrates courts to delay criminal proceedings. However, Conservative opposition politicians and victim support charities strongly condemned the early discharges, arguing that the policy severely undermines judicial credibility. Probation officer unions similarly sounded the alarm, stressing that critically understaffed local teams cannot adequately supervise the sudden influx of released convicts. Prime Minister Keir Starmer's administration reiterated its commitment to delivering emergency prison expansion projects over the coming years.",
+        "enjeux": "The prison emergency lays bare the severe institutional distress confronting **British public services** following years of compounding fiscal restraint. Successive administrations enacted increasingly punitive sentencing legislation to project tough-on-crime stances without allocating the capital expenditure needed to expand prison infrastructure. This structural imbalance produced an unprecedented logistical bottleneck that now threatens the operational integrity of the **criminal justice system**. Politically, the Labour government finds itself severely constrained by tight **fiscal rules**, limiting its capacity to finance rapid public capital investments. Overburdened probation networks highlight how failing to resource community rehabilitation programmes dramatically elevates the risk of criminal **recidivism**. The crisis has also reignited substantive policy debates regarding the efficacy of custodial sentences versus community supervision and restorative justice for non-violent offenders. In essence, the prison bottleneck stands as a potent symbol of broader administrative fatigue and public sector decay across contemporary Britain."
+      },
+      "vocab": [
+        [
+          "prison overcrowding",
+          "la surpopulation carcérale",
+          "Prison overcrowding has reached an unprecedented crisis."
+        ],
+        [
+          "an emergency release scheme",
+          "un dispositif de libération anticipée d'urgence",
+          "Ministers defended the emergency release scheme."
+        ],
+        [
+          "a custodial sentence",
+          "une peine de prison ferme",
+          "Judges handed down fewer custodial sentences."
+        ],
+        [
+          "the probation service",
+          "le service de probation / de réinsertion",
+          "The probation service is critically understaffed."
+        ],
+        [
+          "criminal recidivism",
+          "la récidive criminelle",
+          "Lack of supervision increases criminal recidivism."
+        ],
+        [
+          "capital expenditure",
+          "les dépenses d'investissement public",
+          "The government cut capital expenditure on public infrastructure."
+        ]
+      ],
+      "sujets": [
+        "Has the British criminal justice system reached a breaking point?",
+        "Can public service reform succeed under strict fiscal discipline in the UK?"
+      ],
+      "anki": [
+        {
+          "q": "Trigger for the UK SDS40 emergency prison release scheme (2026)",
+          "r": "Available male prison capacity in England and Wales dropped below C{a few hundred cells}, forcing the early release of inmates at C{40 %} of their sentence.\n→ hook for an essay on British public services or judicial reform"
+        },
+        {
+          "q": "Root cause of the British prison overcrowding emergency",
+          "r": "Decades of longer, more punitive B{sentencing policies} enacted without matching public B{capital investment} in prison infrastructure."
+        },
+        {
+          "q": "Main risk highlighted by UK probation unions regarding early release",
+          "r": "Severe probation understaffing leading to inadequate supervision and higher rates of criminal B{recidivism}."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-anglais-3",
+      "matiere": "anglais",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/09/us/california-billionaire-tax-prop-40.html",
+      "minutes": 3,
+      "titre": "Fiscalité aux États-Unis : les électeurs de Californie rejettent la taxe exceptionnelle sur les milliardaires",
+      "faits": "À l'issue du dépouillement définitif des votes des élections de mi-mandat ce lundi 9 novembre, les électeurs de Californie ont nettement rejeté la Proposition 40, une mesure référendaire qui visait à instaurer un impôt exceptionnel sur la fortune des milliardaires de l'État. Le texte prévoyait un prélèvement unique de 5 % sur les patrimoines nets supérieurs à un milliard de dollars, dont les recettes estimées devaient financer l'école publique, les infrastructures d'énergie propre et des logements abordables. Soutenue par des syndicats d'enseignants et des collectifs progressistes s'appuyant sur les travaux de l'économiste Gabriel Zucman, l'initiative entendait obliger les ultra-riches à contribuer davantage à la réduction des déficits locaux. Cependant, une coalition très influente d'entrepreneurs de la Silicon Valley, de fonds de capital-risque et d'organisations patronales a mené une intense campagne médiatique d'opposition. Les détracteurs ont alerté sur le risque d'une fuite massive des grandes fortunes et des sièges sociaux de startups innovantes vers des États fiscalement plus avantageux comme le Texas, le Nevada ou la Floride. Les résultats finaux montrent que le non l'a emporté avec près de 56 % des suffrages exprimés, marquant un coup d'arrêt net pour ce projet. Le gouverneur démocrate Gavin Newsom avait lui-même refusé de soutenir l'initiative, craignant une déstabilisation durable des recettes fiscales de l'État.",
+      "enjeux": "Ce vote populaire illustre de façon éclatante les limites pratiques de la fiscalité redistributive dans un système fédéral marqué par une intense **concurrence fiscale**. Alors que la concentration des richesses atteint des sommets historiques aux États-Unis, les juridictions fédérées peinent à taxer le capital en raison de sa très grande mobilité géographique. L'échec de la Proposition 40 prouve qu'un impôt sur le patrimoine appliqué unilatéralement au niveau d'un seul État déclenche des comportements d'**exil fiscal** et menace l'attractivité économique locale. De nombreux économistes soulignent qu'une véritable régulation des inégalités de patrimoine exigerait une harmonisation fiscale au **niveau fédéral**, seule échelle capable de limiter l'évasion des capitaux. Le scrutin met également en lumière l'influence politique déterminante du lobby technologique et financier, capable de peser lourdement sur l'électorat d'un État pourtant réputé progressiste. Enfin, le débat réactive les controverses sur l'**élasticité de l'assiette fiscale** et la difficulté matérielle d'évaluer la valeur d'actifs illiquides comme les parts d'entreprises non cotées.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/California_State_Capitol_during_blue_hour-3982.jpg/1280px-California_State_Capitol_during_blue_hour-3982.jpg",
+        "alt": "The California State Capitol building in Sacramento at dusk",
+        "credit": "Frank Schulenburg / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:California_State_Capitol_during_blue_hour-3982.jpg"
+      },
+      "vo": {
+        "titre": "US wealth taxation: California voters reject Proposition 40 targeting billionaire assets",
+        "faits": "In official final ballot results tallied following the midterm elections on Monday 9 November, California voters decisively defeated Proposition 40, a closely watched referendum that sought to establish a landmark wealth tax on the state's billionaires. The proposed statute intended to levy a one-off 5% wealth assessment on individual fortunes exceeding one billion dollars, directing the proceeds toward public schools, affordable housing, and environmental projects. Backed by progressive labour unions and inspired by economic models pioneered by Gabriel Zucman, proponents framed the measure as an essential step toward rectifying extreme wealth disparity. However, an alliance of Silicon Valley tech executives, venture capital firms, and business lobbies financed a formidable campaign opposing the measure. Critics warned that taxing unrealized paper wealth would provoke a catastrophic exodus of innovative founders, capital, and technology jobs to low-tax jurisdictions such as Texas and Nevada. Proposition 40 was defeated by a decisive 56% to 44% margin, reflecting voter wariness over potential economic disruption. Democratic Governor Gavin Newsom had notably declined to endorse the initiative, expressing concern over state fiscal volatility.",
+        "enjeux": "The decisive rejection of Proposition 40 underscores the formidable obstacles facing subnational progressive taxation in a decentralized federation characterized by acute **tax competition**. While aggregate **wealth inequality** across the United States has expanded rapidly, individual states remain vulnerable to capital mobility and high-earner outmigration. The California outcome demonstrates that unilateral state-level wealth taxes generate substantial threats of **capital flight**, limiting states' ability to tax mobile wealth pools independently. Economists increasingly emphasize that meaningful redistribution requires a unified **federal tax framework** to prevent affluent residents from arbitraging domestic state borders. The referendum campaign also exposed the substantial political muscle wielded by Silicon Valley's tech and venture capital ecosystem in shaping public policy in a deeply Democratic state. Furthermore, the debate renewed technical controversies regarding **tax base elasticity** and the valuation complexities of illiquid assets such as private startup equity. Ultimately, the California vote represents a significant setback for progressive groups seeking to use direct democracy to tax the ultra-wealthy."
+      },
+      "vocab": [
+        [
+          "a wealth tax",
+          "un impôt sur la fortune",
+          "Voters rejected the wealth tax on billionaires."
+        ],
+        [
+          "tax competition",
+          "la concurrence fiscale",
+          "Interstate tax competition limits local tax rates."
+        ],
+        [
+          "capital flight",
+          "la fuite des capitaux",
+          "Opponents warned of severe capital flight to Texas."
+        ],
+        [
+          "a ballot initiative / referendum",
+          "une initiative référendaire citoyenne",
+          "Proposition 40 was a high-stakes ballot initiative."
+        ],
+        [
+          "unrealized gains",
+          "les plus-values latentes / non réalisées",
+          "Taxing unrealized gains creates complex valuation problems."
+        ],
+        [
+          "outmigration",
+          "l'émigration / le départ vers d'autres États",
+          "High tax burdens encourage outmigration among wealthy residents."
+        ]
+      ],
+      "sujets": [
+        "Can individual American states successfully reduce economic inequality through taxation?",
+        "Does interstate tax competition undermine the financial foundations of the American welfare state?"
+      ],
+      "anki": [
+        {
+          "q": "Result of California Proposition 40 billionaire wealth tax (2026)",
+          "r": "California voters rejected the measure by C{56 % to 44 %}, refusing a C{5 %} levy on fortunes over C{$1 billion}.\n→ hook for an essay on US inequality or fiscal federalism"
+        },
+        {
+          "q": "Main economic vulnerability of state-level wealth taxation in the US",
+          "r": "Interstate B{tax competition} and high capital mobility, leading to threatened B{capital flight} to zero-income-tax states like Texas or Florida."
+        },
+        {
+          "q": "Theoretical requirement for effective wealth taxation according to economists",
+          "r": "A unified B{federal tax framework} across all jurisdictions to prevent domestic border arbitrage and residency shifting by the ultra-wealthy."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-anglais-4",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/senate-advances-bill-energy-projects",
+      "minutes": 3,
+      "titre": "Congrès américain : accord bipartisan au Sénat pour accélérer les autorisations d'infrastructures énergétiques",
+      "faits": "Ce lundi 9 novembre, le Sénat des États-Unis a franchi une étape législative décisive en votant à une large majorité bipartisane pour faire progresser un projet de loi majeur de réforme des autorisations énergétiques. Porté conjointement par des élus démocrates et républicains, le texte vise à raccourcir drastiquement les délais d'examen environnemental imposés par le National Environmental Policy Act pour la construction de grandes infrastructures. La loi concerne aussi bien les lignes de transport d'électricité à haute tension indispensables au raccordement des parcs éoliens et solaires que les gazoducs et les terminaux d'exportation de gaz naturel liquéfié. Les promoteurs des énergies renouvelables ont salué une avancée essentielle, rappelant que des centaines de gigawatts de projets solaires et éoliens sont actuellement bloqués en attente de raccordement au réseau électrique. En contrepartie, les représentants des États producteurs d'hydrocarbures ont obtenu des garanties sur le maintien des ventes de concessions pétrolières et gazières fédérales sur les terres publiques. Des associations environnementales progressistes ont toutefois dénoncé un compromis toxique qui verrouille la dépendance américaine aux énergies fossiles. Le vote de procédure a recueilli 62 voix, garantissant l'examen final du texte avant le renouvellement du Congrès en janvier.",
+      "enjeux": "Ce compromis législatif met en lumière l'impératif macroéconomique de moderniser le **réseau électrique américain** face à une explosion inédite de la demande d'énergie. L'essor rapide des centres de données pour l'intelligence artificielle, la relocalisation d'usines de semi-conducteurs et l'électrification des transports créent des tensions sévères sur la distribution électrique. Les économistes soulignent que sans une expansion rapide des **lignes de transmission interrégionales**, les subventions massives de l'Inflation Reduction Act ne parviendront pas à décarboner efficacement l'appareil productif. Le texte illustre également la tension permanente entre la rigueur de la **réglementation environnementale** et la nécessité d'une politique industrielle active privilégiant la rapidité de déploiement des capitaux. Sur le plan géopolitique, Washington cherche à préserver son abondance énergétique pour maintenir sa compétitivité manufacturière face à la Chine. Ce texte témoigne enfin de la persistance d'une capacité de compromis bipartisan au Congrès lorsque des intérêts économiques et industriels majeurs convergent.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/US_Capitol_dome_Jan_2006.jpg/1280px-US_Capitol_dome_Jan_2006.jpg",
+        "alt": "The dome of the United States Capitol building in Washington, D.C.",
+        "credit": "Diliff / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_dome_Jan_2006.jpg"
+      },
+      "vo": {
+        "titre": "US Congress: Senate advances bipartisan bill to overhaul energy infrastructure permits",
+        "faits": "On Monday 9 November, the United States Senate achieved a significant bipartisan breakthrough by voting 62-35 to advance comprehensive legislation streamlining federal permitting for major energy infrastructure projects. The compromise measure, negotiated between moderate Democrats and Republicans, aims to compress protracted environmental review timelines under the National Environmental Policy Act from several years to just two. The bill encompasses a broad range of infrastructure developments, facilitating the construction of interregional high-voltage electricity transmission corridors as well as interstate natural gas pipelines. Clean energy trade associations strongly endorsed the reform, noting that thousands of gigawatts of solar, wind, and battery storage projects currently languish in congested grid interconnection queues. Concurrently, lawmakers representing fossil-fuel-producing states secured firm commitments guaranteeing scheduled federal lease auctions for oil and gas drilling on public lands and offshore waters. Progressive environmental organizations raised fierce objections, cautioning that expediting pipeline reviews undermines community legal challenges and locks in prolonged greenhouse gas emissions. The legislation is now slated for final passage before the post-election lame-duck session concludes.",
+        "enjeux": "This legislative package underscores the critical challenge of upgrading the United States' aging **power grid** amid an unprecedented resurgence in electricity demand. Soaring power consumption driven by artificial intelligence data centers, domestic semiconductor fabrication facilities, and vehicle electrification is severely straining existing grid capacity. Industrial economists emphasize that without rapid **transmission line expansion**, the multi-billion-dollar clean energy subsidies provided by the Inflation Reduction Act will fail to achieve full decarbonization potential. The bipartisan accord reflects an evolving debate between traditional **environmental protection** procedural reviews and the imperative for accelerated capital infrastructure deployment. Geopolitically, American policymakers view domestic energy abundance as a crucial pillar of **industrial policy** in sustaining technological and manufacturing supremacy against China. Furthermore, the passage of this legislation illustrates that bipartisan consensus remains achievable on Capitol Hill when national economic competitiveness and infrastructure modernization align."
+      },
+      "vocab": [
+        [
+          "permitting reform",
+          "la réforme des autorisations administratives",
+          "Permitting reform is crucial for infrastructure projects."
+        ],
+        [
+          "interconnection queues",
+          "les files d'attente de raccordement au réseau",
+          "Clean energy projects are stuck in interconnection queues."
+        ],
+        [
+          "high-voltage transmission lines",
+          "les lignes électriques à haute tension",
+          "Building high-voltage transmission lines takes a decade."
+        ],
+        [
+          "a bipartisan compromise",
+          "un compromis entre républicains et démocrates",
+          "The Senate reached a rare bipartisan compromise."
+        ],
+        [
+          "environmental review",
+          "l'étude d'impact environnemental",
+          "The bill shortens the environmental review timeline."
+        ],
+        [
+          "grid capacity",
+          "la capacité du réseau électrique",
+          "AI data centers require massive expansion of grid capacity."
+        ]
+      ],
+      "sujets": [
+        "Can the United States balance environmental regulation with the urgent need for industrial infrastructure?",
+        "Is energy abundance the decisive factor in modern American geopolitical power?"
+      ],
+      "anki": [
+        {
+          "q": "Senate vote margin on US Energy Permitting Reform Act (November 2026)",
+          "r": "Passed a key procedural hurdle with a bipartisan C{62 to 35} vote to compress environmental review times to C{2 years}.\n→ hook for an essay on US energy policy or bipartisan governance"
+        },
+        {
+          "q": "Main bottleneck facing US renewable energy expansion",
+          "r": "Congested B{interconnection queues} and inadequate B{interregional transmission lines} preventing clean power from reaching urban load centers."
+        },
+        {
+          "q": "Key driver behind the recent surge in US electricity demand",
+          "r": "The massive expansion of B{AI data centers}, domestic chip manufacturing plants, and industrial electrification."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-espagnol-1",
+      "matiere": "espagnol",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/11/09/6af1dc48fc6c835f188b4575.html",
+      "minutes": 3,
+      "titre": "Éducation en Espagne : le Parti populaire propose d'interdire le passage d'année avec des matières non validées",
+      "faits": "À l'approche des prochaines échéances électorales, le président du Parti populaire, Alberto Núñez Feijóo, a présenté ce lundi 9 novembre les grandes lignes du projet éducatif de la droite espagnole. La mesure phare du programme prévoit d'interdire expressément le passage en classe supérieure pour tout élève de l'enseignement secondaire obligatoire ayant des matières non validées. Feijóo a vivement critiqué les dispositions de l'actuelle loi Celaá, adoptée sous la majorité de gauche, qu'il accuse de favoriser un nivellement par le bas et de dévaloriser l'effort scolaire individuel. Le projet du PP propose également d'instaurer une note minimale stricte lors des épreuves de sélection universitaire pour accéder aux études menant au métier d'enseignant. Cette annonce a suscité de vives réactions de la part du ministère de l'Éducation et des syndicats enseignants progressistes, qui dénoncent une vision rétrograde et ségrégative punissant les élèves en difficulté sociale. Les partisans de la réforme soutiennent quant à eux que le retour à des critères d'exigence académique est indispensable pour lutter contre le décrochage scolaire précoce, qui reste l'un des plus élevés d'Europe.",
+      "enjeux": "Cette polémique ravive le clivage traditionnel au sein de la société espagnole entre défense de l'**équité sociale** et restauration de la **culture de l'effort**. En quarante ans de démocratie, l'Espagne a connu huit lois organiques sur l'éducation sans jamais parvenir à sceller un consensus durable entre les deux grands blocs politiques. Cette instabilité législative chronique complique la gestion quotidienne des établissements et fragilise la constitution du **capital humain**, déterminant clé de la croissance future. Le pays souffre structurellement d'un taux d'abandon scolaire précoce supérieur à la moyenne de l'Union européenne, qui alimente un **chômage des jeunes** particulièrement lourd. Toutefois, les experts en pédagogie soulignent que le redoublement systématique représente un coût financier élevé pour les finances publiques sans garantir une remédiation efficace pour les élèves défavorisés. Ce débat illustre l'urgente nécessité d'un **pacte d'État sur l'éducation** afin de moderniser le modèle productif espagnol face aux exigences de l'économie de la connaissance.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ministerio_de_Educacion_y_Ciencia_-_Alcala_34_-_Madrid_01.jpg/1280px-Ministerio_de_Educacion_y_Ciencia_-_Alcala_34_-_Madrid_01.jpg",
+        "alt": "Fachada del Ministerio de Educación en la calle Alcalá de Madrid",
+        "credit": "Javier Perez Montes / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ministerio_de_Educacion_y_Ciencia_-_Alcala_34_-_Madrid_01.jpg"
+      },
+      "vo": {
+        "titre": "Educación en España: el PP propone prohibir que los alumnos pasen de curso con suspensos",
+        "faits": "El presidente del Partido Popular, Alberto Núñez Feijóo, presentó este lunes 9 de noviembre los ejes centrales del programa educativo de su formación con vistas a las elecciones generales. La propuesta más controvertida plantea prohibir por ley que los alumnos de la Educación Secundaria Obligatoria puedan promocionar de curso con asignaturas suspensas. Feijóo arremetió duramente contra el marco regulatorio de la ley Celaá, acusando a la coalición de izquierdas de institucionalizar una cultura del aprobado general que desprecia el mérito académico. El programa de los populares contempla asimismo exigir una nota de corte elevada en la selectividad para ingresar en las facultades de Magisterio. Desde el Ministerio de Educación y los sindicatos docentes progresistas, se acusó al líder conservador de promover un modelo clasista y segregador que penaliza a los estudiantes desfavorecidos. Por el contrario, los defensores de la medida aducen que recuperar la exigencia resulta imprescindible para combatir el abandono educativo temprano, que sitúa a España a la cola de los países comunitarios.",
+        "enjeux": "Este enfrentamiento reactiva la secular confrontación ideológica entre la búsqueda de la **equidad educativa** y la reivindicación de la **cultura del esfuerzo**. El sistema de enseñanza español arrastra una notable inestabilidad normativa, habiendo encadenado ocho leyes educativas desde la Transición sin alcanzar un acuerdo transversal. Esta falta de continuidad perjudica la acumulación sostenida de **capital humano**, un factor indispensable para transformar el modelo de crecimiento económico. Asimismo, el elevado porcentaje de jóvenes sin titulación secundaria postobligatoria alimenta un persistente **desempleo juvenil**, perpetuando bolsas de precariedad en el mercado de trabajo. No obstante, numerosos sociólogos y economistas advierten que la repetición de curso supone un elevado sobrecoste presupuestario y no garantiza la mejora del rendimiento académico de los alumnos rezagados. La controversia pone de relieve la imperiosa conveniencia de un **pacto de Estado** sobre la educación que blinde el sistema formativo frente a los vaivenes electorales."
+      },
+      "vocab": [
+        [
+          "un suspenso",
+          "une note éliminatoire / une matière non validée",
+          "El alumno no podrá promocionar con un suspenso."
+        ],
+        [
+          "el abandono escolar temprano",
+          "le décrochage scolaire précoce",
+          "España busca reducir el abandono escolar temprano."
+        ],
+        [
+          "la cultura del esfuerzo",
+          "la culture de l'effort / du mérite",
+          "La oposición defiende la cultura del esfuerzo."
+        ],
+        [
+          "la nota de corte",
+          "la note minimale d'admission",
+          "Exigirán una nota de corte más alta en Magisterio."
+        ],
+        [
+          "un pacto de Estado",
+          "un pacte d'État transpartisan",
+          "La sociedad civil reclama un pacto de Estado educativo."
+        ],
+        [
+          "la repetición de curso",
+          "le redoublement",
+          "Muchos expertos cuestionan la eficacia de la repetición de curso."
+        ]
+      ],
+      "sujets": [
+        "¿Puede el sistema educativo español superar su tradicional fractura ideológica para modernizar el país?",
+        "¿Es la exigencia académica la mejor garantía de igualdad de oportunidades en la enseñanza pública?"
+      ],
+      "anki": [
+        {
+          "q": "Propuesta educativa del Partido Popular sobre la ESO en España (2026)",
+          "r": "Prohibir que los alumnos de secundaria pasen de curso con B{asignaturas suspensas} y exigir nota de corte para estudiar B{Magisterio}.\n→ gancho para un tema sobre educación o desempleo juvenil en España"
+        },
+        {
+          "q": "Principal debilidad estructural del sistema educativo español",
+          "r": "La alta tasa de B{abandono escolar temprano} y la inestabilidad derivada de D{ocho leyes educativas} promulgadas en cuatro décadas."
+        },
+        {
+          "q": "Crítica pedagógica al uso excesivo de la repetición de curso",
+          "r": "Supone un elevado B{coste presupuestario} para el Estado y a menudo fracasa en mejorar el rendimiento de los alumnos desfavorecidos."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-espagnol-2",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-11-10/dos-agentes-y-una-traicion-de-casi-300-archivos-en-el-cni-culmina-la-investigacion-del-caso-que-sacudio-los-cimientos-de-los-servicios-secretos.html",
+      "minutes": 3,
+      "titre": "Sécurité nationale en Espagne : fin de l'enquête judiciaire sur la fuite inédite de 300 dossiers secrets du CNI",
+      "faits": "Ce mardi 10 novembre, la justice espagnole a conclu l'instruction approfondie relative à la plus grave affaire de trahison interne survenue au Centre national de renseignement depuis sa création. L'enquête a établi que deux anciens agents chevronnés du CNI ont dérobé près de trois cents documents classifiés secret-défense dans le but de les monnayer auprès de services de renseignement étrangers. Les pièces compromises contenaient des organigrammes confidentiels, des protocoles de cybersécurité ainsi que des détails opérationnels sur des missions de surveillance menées en Afrique du Nord. Les deux mis en cause, arrêtés fin 2023 à l'issue d'une filature interne coordonnée, seront jugés devant un tribunal militaire pour atteinte aux intérêts fondamentaux de la nation et révélation de secrets d'État. Le rapport d'enquête souligne que cette brèche de sécurité sans précédent a provoqué un malaise diplomatique profond et détérioré la confiance mutuelle au sein de la communauté de renseignement des pays alliés de l'OTAN. En réaction, le ministère de la Défense a engagé une révision complète des accès informatiques et des habilitations de sécurité au sein du quartier général madrilène.",
+      "enjeux": "L'aboutissement de cette affaire spectaculaire met en lumière la vulnérabilité des États démocratiques face aux nouvelles menaces hybrides et à la **menace interne**. La protection des informations classifiées constitue le socle de la **souveraineté nationale** et de l'efficacité opérationnelle des forces armées. Lorsque des agents assermentés contournent les contrôles pour des motifs financiers ou personnels, c'est l'ensemble de la crédibilité diplomatique et stratégique de l'Espagne qui s'en trouve compromise. Sur le plan régional, la position géopolitique particulière de la péninsule Ibérique, aux portes du Maghreb et du détroit de Gibraltar, exige une coopération sans faille en matière de **renseignement antiterroriste** et de surveillance maritime. Le dossier relance également le débat récurrent sur le nécessaire équilibre entre **secret de défense** et contrôle démocratique des services secrets par les institutions parlementaires. Enfin, l'affaire oblige l'administration espagnole à moderniser d'urgence ses protocoles de contre-espionnage et de cybersécurité pour prévenir toute intrusion hostile.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bandera_de_la_Plaza_de_Col%C3%B3n_-_Madrid_01.jpg/1280px-Bandera_de_la_Plaza_de_Col%C3%B3n_-_Madrid_01.jpg",
+        "alt": "La gran bandera de España ondeando en la Plaza de Colón de Madrid",
+        "credit": "Javier Perez Montes / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bandera_de_la_Plaza_de_Col%C3%B3n_-_Madrid_01.jpg"
+      },
+      "vo": {
+        "titre": "Seguridad nacional: culmina la investigación por la filtración de 300 documentos del CNI",
+        "faits": "La Audiencia Nacional dio por terminada este martes 10 de noviembre la investigación judicial sobre el mayor escándalo de espionaje interno en el Centro Nacional de Inteligencia. Las pesquisas confirmaron que dos experimentados agentes sustrajeron ilegalmente casi trescientos informes clasificados de máxima confidencialidad con el propósito de venderlos a potencias extranjeras. Los legajos vulnerados incluían protocolos de ciberdefensa, identidades de agentes sobre el terreno y evaluaciones de inteligencia estratégica en el norte de África. Los dos procesados, detenidos de forma sigilosa tras meses de contravigilancia interna, se enfrentan a severas condenas de prisión por delitos de traición militar y revelación de secretos de Estado. El sumario ratifica que la filtración infligió un duro golpe a la reputación internacional de los servicios de información españoles ante sus socios de la Alianza Atlántica. En respuesta, el Ministerio de Defensa ha dispuesto una auditoría exhaustiva de los permisos de acceso y una compartimentación digital reforzada en el cuartel general de la inteligencia.",
+        "enjeux": "La conclusión de este procedimiento resalta la vulnerabilidad que representa la **amenaza interna** para la seguridad de los Estados contemporáneos. La preservación del secreto en las operaciones de información constituye un pilar esencial de la **seguridad nacional** y la estabilidad institucional. La filtración de datos de inteligencia no solo pone en peligro vidas de colaboradores en el exterior, sino que socava la confianza operativa de los socios internacionales de la OTAN. Por su ubicación geoestratégica clave junto al Estrecho, España desempeña un papel de vanguardia en la **lucha antiterrorista** y el control de flujos ilícitos, lo que requiere unos servicios secretos intachables. Asimismo, el caso aviva la polémica sobre la fiscalización parlamentaria del **secreto oficial** a través de la Comisión de Gastos Reservados del Congreso. Modernizar la contrainteligencia y blindar las comunicaciones del Estado se ha convertido en un desafío prioritario en plena era de la guerra informativa global."
+      },
+      "vocab": [
+        [
+          "los servicios secretos",
+          "les services de renseignement",
+          "La traición sacudió a los servicios secretos españoles."
+        ],
+        [
+          "el secreto de Estado",
+          "le secret d'État / secret-défense",
+          "La filtración vulneró materias protegidas por el secreto de Estado."
+        ],
+        [
+          "un delito de traición",
+          "un délit de trahison",
+          "Los exagentes se enfrentan a cargos por delito de traición."
+        ],
+        [
+          "la amenaza interna",
+          "la menace interne / l'infiltration",
+          "Los protocolos de seguridad buscan contener la amenaza interna."
+        ],
+        [
+          "la contrainteligencia",
+          "le contre-espionnage",
+          "El caso obligó a reforzar la división de contrainteligencia."
+        ],
+        [
+          "la compartimentación digital",
+          "le cloisonnement numérique",
+          "Defensa impuso una estricta compartimentación digital."
+        ]
+      ],
+      "sujets": [
+        "¿Cómo pueden conciliar las democracias modernas la eficacia de sus servicios de inteligencia con el control parlamentario?",
+        "¿Constituye la seguridad nacional el principal desafío geopolítico de España en el Mediterráneo?"
+      ],
+      "anki": [
+        {
+          "q": "Alcance del escándalo de filtración interna en el CNI español (2026)",
+          "r": "Dos veteranos agentes sustrajeron cerca de C{300 documentos clasificados} para intentar venderlos a servicios de inteligencia extranjeros.\n→ gancho para un tema sobre seguridad nacional o instituciones en España"
+        },
+        {
+          "q": "Definición y peligro del concepto de amenaza interna (insider threat)",
+          "r": "Vulnerabilidad provocada por B{empleados públicos o agentes propios} que abusan de sus credenciales legítimas para sustraer información estratégica."
+        },
+        {
+          "q": "Impacto diplomático de las brechas de seguridad en inteligencia",
+          "r": "Erosión de la confianza mutua y debilitamiento de la cooperación militar con socios estratégicos de la B{OTAN}."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-espagnol-3",
+      "matiere": "espagnol",
+      "source": "Clarín",
+      "url": "https://www.clarin.com/economia/alcanza-bazooka-dolares-plan-b-necesita-caputo-evitar-corrida-2027_0_jHHZ4cEdde.html",
+      "minutes": 3,
+      "titre": "Économie argentine : le gouvernement Milei cherche à consolider ses réserves face aux tensions de change",
+      "faits": "À Buenos Aires, le ministre de l'Économie Luis Caputo et la direction de la Banque centrale d'Argentine ont engagé d'intenses réunions techniques pour définir un plan de consolidation des réserves de change à l'approche des lourdes échéances de dette de 2027. Bien que le récent programme de régularisation fiscale ait injecté plus de 20 milliards de dollars sous forme de dépôts bancaires dans le système financier local, les réserves nettes en devises de l'institution monétaire restent à un niveau précaire. La légère reprise de l'activité économique a entraîné un rebond des importations d'intrants industriels, réduisant l'excédent commercial qui permettait jusqu'alors à l'État d'acheter des dollars sur le marché officiel. L'exécutif maintient pour l'instant son ancrage de dépréciation contrôlée à 2 % par mois pour juguler la hausse des prix, mais le Fonds monétaire international et les investisseurs privés pressent le président Javier Milei d'annoncer un calendrier clair de levée du contrôle des changes. Les organisations patronales agricoles s'inquiètent de l'appréciation du peso en termes réels, qui pénalise la compétitivité des exportations de soja et de céréales. Afin de prévenir toute panique bancaire et d'écarter le spectre d'une dévaluation brutale, le ministère des Finances négocie des lignes de crédit de précaution auprès d'un syndicat de banques internationales.",
+      "enjeux": "Cette séquence économique met en lumière le défi permanent de l'Argentine : parvenir à une **stabilisation macroéconomique** durable sans déclencher une crise de change. Après avoir réussi à ramener l'inflation mensuelle à des niveaux historiquement bas grâce à un ajustement budgétaire sans précédent, le gouvernement se heurte aux limites du **régime de change administré**. L'utilisation du taux de change officiel comme ancre nominale permet de désamorcer les anticipations d'inflation, mais elle génère un retard de change préjudiciable à la **balance des paiements**. La persistance des restrictions de change, connues sous le nom de *cepo cambiario*, continue de décourager les **investissements directs étrangers** pourtant indispensables à la réindustrialisation du pays. En outre, la vulnérabilité liée au manque chronique de réserves internationales entretient une prime de risque souverain élevée qui renchérit le coût du crédit pour les entreprises. La réussite du programme ultralibéral de Milei dépendra de sa capacité à libérer les marchés de capitaux sans provoquer une nouvelle flambée des prix ni fragiliser le tissu social.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Banco_Central_de_la_Rep%C3%BAblica_Argentina_%28Reconquista%29.JPG/1280px-Banco_Central_de_la_Rep%C3%BAblica_Argentina_%28Reconquista%29.JPG",
+        "alt": "Edificio del Banco Central de la República Argentina en la calle Reconquista de Buenos Aires",
+        "credit": "Elsapucai / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Banco_Central_de_la_Rep%C3%BAblica_Argentina_(Reconquista).JPG"
+      },
+      "vo": {
+        "titre": "Economía argentina: el equipo económico analiza alternativas para blindar las reservas del Banco Central",
+        "faits": "El ministro de Economía argentino, Luis Caputo, y la cúpula del Banco Central intensificaron las consultas técnicas para diseñar un plan de contingencia cambiaria ante las cuantiosas obligaciones de pago de deuda previstas para 2027. Aunque el esquema de regularización de activos permitió captar más de veinte mil millones de dólares en depósitos bancarios, las reservas netas de divisas continúan mostrando signos evidentes de fragilidad. El incipiente repunte de la actividad económica y el incremento de las importaciones de bienes intermedios han comenzado a erosionar el superávit comercial, restringiendo la capacidad oficial para comprar dólares. El gobierno de Javier Milei ratificó por el momento el mecanismo de devaluación administrada al dos por ciento mensual, pero el Fondo Monetario Internacional y los mercados reclaman un cronograma transparente para levantar el cepo cambiario. Sectores agroexportadores alertaron de que el encarecimiento relativo en dólares perjudica la competitividad de las ventas externas. Con el propósito de disipar cualquier expectativa de salto devaluatorio, el Palacio de Hacienda explora líneas de crédito contingente con entidades bancarias internacionales.",
+        "enjeux": "El escenario financiero argentino refleja la compleja encrucijada entre el éxito en la **desinflación** y la sostenibilidad del **esquema cambiario**. El Ejecutivo ha empleado el ancla cambiaria como instrumento rector para erradicar la inercia de los precios tras un ajuste fiscal sin precedentes en el gasto público. Sin embargo, prolongar la vigencia del cepo y las restricciones cambiarias frena la llegada de **inversión extranjera directa**, indispensable para consolidar el crecimiento a largo plazo. La persistente carencia de **reservas internacionales líquidas** mantiene elevado el riesgo país y dificulta el acceso voluntario al crédito soberano en los mercados financieros globales. Asimismo, el debate sobre el atraso del tipo de cambio real reabre disputas sobre el reparto de la renta entre sectores productivos y consumidores urbanos. El desenlace del experimento libertario dependerá de la destreza oficial para normalizar el mercado monetario sin precipitar una destructiva **crisis de balanza de pagos**."
+      },
+      "vocab": [
+        [
+          "el cepo cambiario",
+          "le contrôle des changes / les restrictions d'accès aux devises",
+          "El gobierno evalúa los plazos para desmantelar el cepo cambiario."
+        ],
+        [
+          "las reservas netas",
+          "les réserves nettes en devises",
+          "El Banco Central necesita fortalecer sus reservas netas."
+        ],
+        [
+          "el atraso cambiario",
+          "la surévaluation de la monnaie / le retard de change",
+          "Los exportadores advierten sobre el riesgo de atraso cambiario."
+        ],
+        [
+          "el ancla nominal",
+          "l'ancre nominale (désinflation)",
+          "El tipo de cambio oficial actúa como ancla nominal contra los precios."
+        ],
+        [
+          "el riesgo país",
+          "la prime de risque souverain",
+          "El riesgo país se redujo pero sigue siendo elevado."
+        ],
+        [
+          "la corrida cambiaria",
+          "la panique / la crise de change",
+          "Caputo busca blindar la economía para evitar una corrida cambiaria."
+        ]
+      ],
+      "sujets": [
+        "¿Puede el plan económico de Javier Milei estabilizar la economía argentina sin provocar una crisis cambiaria?",
+        "¿Es el control de cambios un instrumento eficaz o un freno estructural para el desarrollo económico?"
+      ],
+      "anki": [
+        {
+          "q": "Entrada de divisas por blanqueo en Argentina y fragilidad cambiaria (2026)",
+          "r": "Más de C{20.000 millones de dólares} ingresaron a depósitos bancarios, pero las reservas netas del BCRA siguen en terreno vulnerable frente a los vencimientos de deuda de D{2027}.\n→ gancho para un tema sobre la economía argentina o Javier Milei"
+        },
+        {
+          "q": "Definición económica del concepto de cepo cambiario",
+          "r": "B{Cepo cambiario} : conjunto de trabas regulatorias, cupos y controles que impiden la libre compra de moneda extranjera y el giro de dividendos al exterior."
+        },
+        {
+          "q": "Dilema macroeconómico del ancla cambiaria en regímenes inflacionarios",
+          "r": "Frena temporalmente la inflación al abaratar bienes importados, pero genera B{atraso cambiario} y deteriora el saldo de la B{balanza de pagos}."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-espagnol-4",
+      "matiere": "espagnol",
+      "source": "El Tiempo",
+      "url": "https://www.eltiempo.com/mundo/latinoamerica/asesinan-a-tomas-beltran-conforme-periodista-y-propietario-de-medio-digital-en-ecuador-habia-denunciado-amenazas-y-presuntos-actos-de-corrupcion-3599709",
+      "minutes": 3,
+      "titre": "Violences en Équateur : l'assassinat d'un journaliste d'investigation ravive l'indignation face au narcotrafic",
+      "faits": "Une vive émotion et une condamnation unanime ont suivi l'assassinat par balle de Tomás Beltrán Conforme, journaliste d'investigation et directeur d'un média numérique dans la province côtière de Manabí en Équateur. Beltrán, qui avait déposé plusieurs plaintes officielles pour menaces de mort auprès du parquet, enquêtait sur des marchés publics frauduleux et des liens de corruption entre élus locaux et réseaux criminels. Des tueurs à gages circulant à moto ont intercepté son véhicule en plein jour et ont ouvert le feu avant de prendre la fuite sans être inquiétés. L'Association de la presse équatorienne et la Société interaméricaine de presse ont exigé une enquête indépendante et dénoncé l'état d'abandon sécuritaire dans lequel exercent les journalistes de province. La région de Manabí est devenue l'un des territoires les plus dangereux d'Amérique du Sud en raison de ses ports stratégiques utilisés par les cartels mexicains et albanais pour expédier la cocaïne vers les marchés européens et nord-américains. Le gouvernement du président Daniel Noboa a annoncé l'envoi de renforts militaires et policiers d'élite dans la zone. Cependant, la société civile dénonce l'inefficacité des états d'urgence à répétition face à l'impunité systématique des organisations criminelles.",
+      "enjeux": "Ce drame symbolise la dégradation sécuritaire spectaculaire qui a transformé l'Équateur en quelques années d'un havre de paix relatif en un épicentre mondial du **narcotrafic**. La position géographique du pays, enclavé entre la Colombie et le Pérou, premiers producteurs mondiaux de cocaïne, en a fait une plaque tournante logistique majeure pour le crime organisé transnational. L'assassinat ciblé de journalistes et de magistrats illustre le risque imminent de dérive vers un **narco-État**, où les cartels corrompent les rouages judiciaires, policiers et municipaux. Cette violence aveugle engendre une **autocensure de la presse**, privant les citoyens de toute transparence sur la gestion des deniers publics et l'infiltration criminelle. La crise sécuritaire met à rude épreuve l'**État de droit** et pousse les gouvernements à adopter des politiques sécuritaires d'inspiration autoritaire calquées sur le modèle salvadorien de Nayib Bukele. Néanmoins, les sociologues rappellent que la répression militaire pure demeure vouée à l'échec si elle ne s'accompagne pas d'un assainissement des prisons, d'une lutte contre le blanchiment d'argent et de politiques sociales en faveur de la jeunesse marginalisée.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Palacio_de_Carandolet%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_188.JPG/1280px-Palacio_de_Carandolet%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_188.JPG",
+        "alt": "El Palacio de Carondelet, sede del gobierno de Ecuador en la Plaza Grande de Quito",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Carandolet,_Quito,_Ecuador,_2015-07-22,_DD_188.JPG"
+      },
+      "vo": {
+        "titre": "Crisis de seguridad en Ecuador: el asesinato de un periodista conmociona al país y alerta sobre el avance del narcotráfico",
+        "faits": "Organizaciones de prensa y defensores de los derechos humanos condenaron enérgicamente este lunes el asesinato a tiros del periodista Tomás Beltrán Conforme en la provincia costera de Manabí. Beltrán, director de un portal informativo local, había presentado denuncias formales ante la Fiscalía tras recibir continuas amenazas de muerte vinculadas a sus investigaciones sobre corrupción municipal y contratos amañados. Varios sicarios que se desplazaban en una motocicleta abordaron el vehículo del informador y abrieron fuego a quemarropa antes de escapar con total impunidad. La Sociedad Interamericana de Prensa exigió al Estado ecuatoriano una investigación expedita y censuró la absoluta falta de garantías para el libre ejercicio del periodismo regional. Manabí se ha consolidado como un enclave neurálgico para las mafias del narcotráfico internacional debido al control de rutas marítimas y puertos pesqueros utilizados para el envío de estupefacientes. El gobierno de Daniel Noboa dispuso el desplazamiento inmediato de unidades policiales especializadas a la zona, mientras la ciudadanía cuestiona la eficacia de las medidas de excepción vigentes.",
+        "enjeux": "El asesinato de este informador pone de manifiesto la alarmante crisis de violencia que ha situado a Ecuador entre los países con mayor tasa de homicidios del continente debido a la **penetración del narcotráfico**. La posición geográfica del país andino, limítrofe con los principales centros de cultivo de hoja de coca, ha favorecido la expansión territorial de organizaciones criminales transnacionales. La cooptación de autoridades locales y la intimidación judicial erosionan los cimientos del **Estado de derecho**, amenazando con consolidar estructuras propias de un **narco-Estado**. Los atentados letales contra comunicadores provocan un clima pernicioso de **autocensura informativa**, privando a la sociedad civil de mecanismos de control democrático. Para contener el espiral de inseguridad, el gobierno ecuatoriano ha recurrido a estados de excepción continuos y a una creciente militarización del orden público. Sin embargo, los analistas recalcan que combatir la violencia requiere fortalecer la **independencia judicial**, sanear las instituciones penitenciarias y ofrecer oportunidades formativas a los jóvenes vulnerables."
+      },
+      "vocab": [
+        [
+          "el sicariato",
+          "le meurtre sur contrat / l'action des tueurs à gages",
+          "El sicariato se ha extendido por las provincias costeras."
+        ],
+        [
+          "el narcotráfico",
+          "le trafic de stupéfiants",
+          "El narcotráfico internacional desestabiliza las instituciones."
+        ],
+        [
+          "la autocensura",
+          "l'autocensure",
+          "Las amenazas provocan una grave autocensura en la prensa."
+        ],
+        [
+          "el estado de excepción",
+          "l'état d'urgence / d'exception",
+          "El presidente decretó el estado de excepción para frenar la violencia."
+        ],
+        [
+          "un narcoestado",
+          "un narco-État",
+          "Muchos analistas alertan del riesgo de deriva hacia un narcoestado."
+        ],
+        [
+          "el blanqueo de capitales",
+          "le blanchiment d'argent",
+          "La fiscalía investiga redes de blanqueo de capitales."
+        ]
+      ],
+      "sujets": [
+        "¿Constituye el crimen organizado transnacional la principal amenaza para las democracias latinoamericanas?",
+        "¿Puede la militarización de la seguridad pública restaurar el Estado de derecho en América Latina?"
+      ],
+      "anki": [
+        {
+          "q": "Impacto de la violencia del narcotráfico contra periodistas en Ecuador (2026)",
+          "r": "El asesinato del reportero B{Tomás Beltrán} en Manabí pone de relieve la vulnerabilidad de la prensa y la infiltración de carteles en puertos y municipios.\n→ gancho para un tema sobre seguridad, narcotráfico o Estado de derecho en América Latina"
+        },
+        {
+          "q": "Causa de la rápida transformación de Ecuador en epicentro del narcotráfico",
+          "r": "Su posición geográfica entre B{Colombia y Perú} y el uso de sus puertos para enviar cocaína hacia Europa y Norteamérica."
+        },
+        {
+          "q": "Riesgo institucional de la violencia contra comunicadores y jueces",
+          "r": "Genera B{autocensura generalizada} y deteriora el B{Estado de derecho}, abriendo la puerta a la captura criminal de las instituciones."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-allemand-1",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/ticket-weiterverkauf-beschraenkung-100.html",
+      "minutes": 3,
+      "titre": "Consommation en Allemagne : le gouvernement prépare un plafonnement des prix pour la revente de billets",
+      "faits": "Die Bundesregierung plant neue Regeln für den Weiterverkauf von Tickets. Das kündigte das Bundesjustizministerium in Berlin an. Fans zahlen im Internet oft überhöhte Preise für Konzerte. Auf manchen Plattformen kosten Karten das Zehnfache des Originalpreises. Künftig soll es deshalb eine klare Preisgrenze für Ticketbörsen geben. Der Weiterverkauf darf dann nur noch mit einem kleinen Aufschlag erfolgen. Verbraucherschützer fordern ein solches Gesetz schon seit vielen Jahren. Auch Künstler und Veranstalter begrüßen die neuen Pläne ausdrücklich. Die großen Ticketplattformen warnen jedoch vor den Folgen eines solchen Preisdeckels.",
+      "enjeux": "Die Debatte zeigt den Konflikt zwischen Markt und Verbraucherschutz. Wenn die Nachfrage das Angebot übersteigt, steigen die Preise im Internet schnell. Viele Menschen können sich teure Karten für Kultur nicht mehr leisten. Ein **Preisdeckel** soll die Bürger vor übertriebenen Kosten schützen. Allerdings hat ein staatlicher Eingriff auch bekannte Nachteile. Kritiker fürchten die Entstehung von unkontrollierten Schwarzmärkten im Netz. Wenn offizielle Plattformen fehlen, sinkt der Schutz vor gefälschten Karten. Der Staat muss die richtige Balance zwischen Kontrolle und Freiheit finden.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Elbphilharmonie_Hamburg.jpg/1280px-Elbphilharmonie_Hamburg.jpg",
+        "alt": "Die Elbphilharmonie in Hamburg, Symbol für Konzerte und Großveranstaltungen in Deutschland",
+        "credit": "Thomas Wolf / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Elbphilharmonie_Hamburg.jpg"
+      },
+      "vo": {
+        "titre": "Ticket-Zweitmarkt: Bundesregierung plant Preisdeckel für Weiterverkauf",
+        "faits": "Die Bundesregierung plant neue Regeln für den Weiterverkauf von Tickets. Das kündigte das Bundesjustizministerium in Berlin an. Fans zahlen im Internet oft überhöhte Preise für Konzerte. Auf manchen Plattformen kosten Karten das Zehnfache des Originalpreises. Künftig soll es deshalb eine klare Preisgrenze für Ticketbörsen geben. Der Weiterverkauf darf dann nur noch mit einem kleinen Aufschlag erfolgen. Verbraucherschützer fordern ein solches Gesetz schon seit vielen Jahren. Auch Künstler und Veranstalter begrüßen die neuen Pläne ausdrücklich. Die großen Ticketplattformen warnen jedoch vor den Folgen eines solchen Preisdeckels.",
+        "enjeux": "Die Debatte zeigt den Konflikt zwischen Markt und Verbraucherschutz. Wenn die Nachfrage das Angebot übersteigt, steigen die Preise im Internet schnell. Viele Menschen können sich teure Karten für Kultur nicht mehr leisten. Ein **Preisdeckel** soll die Bürger vor übertriebenen Kosten schützen. Allerdings hat ein staatlicher Eingriff auch bekannte Nachteile. Kritiker fürchten die Entstehung von unkontrollierten Schwarzmärkten im Netz. Wenn offizielle Plattformen fehlen, sinkt der Schutz vor gefälschten Karten. Der Staat muss die richtige Balance zwischen Kontrolle und Freiheit finden."
+      },
+      "vocab": [
+        [
+          "der Preisdeckel",
+          "le plafonnement des prix",
+          "Die Regierung will einen Preisdeckel einführen."
+        ],
+        [
+          "der Weiterverkauf",
+          "la revente",
+          "Der Weiterverkauf von Tickets im Netz ist sehr beliebt."
+        ],
+        [
+          "der Verbraucherschutz",
+          "la protection des consommateurs",
+          "Verbraucherschutz ist wichtig für faire Märkte."
+        ],
+        [
+          "der Schwarzmarkt",
+          "le marché noir",
+          "Ein Gesetz darf keinen neuen Schwarzmarkt schaffen."
+        ],
+        [
+          "die Ticketbörse",
+          "la bourse / plateforme de billetterie",
+          "Viele Fans kaufen Karten auf einer Ticketbörse."
+        ],
+        [
+          "der Aufschlag",
+          "la majoration / le supplément",
+          "Der Händler verlangt einen kleinen Aufschlag."
+        ]
+      ],
+      "sujets": [
+        "Braucht Deutschland einen Preisdeckel für Konzertkarten im Internet?",
+        "Soll der Staat die Preise auf digitalen Plattformen strenger kontrollieren?"
+      ]
+    },
+    {
+      "id": "2026-11-10-allemand-2",
+      "matiere": "allemand",
+      "source": "Der Spiegel",
+      "url": "https://www.spiegel.de/wirtschaft/unternehmen/vodafone-streicht-jede-fuenfte-stelle-setzt-vermehrt-auf-ki-a-9315dbd7-1f5b-4b54-bcba-94003a64bb91",
+      "minutes": 3,
+      "titre": "Télécoms en Allemagne : Vodafone supprime un poste sur cinq et accélère sur l'intelligence artificielle",
+      "faits": "Der Telekommunikationskonzern Vodafone baut in Deutschland viele Arbeitsplätze ab. Das Unternehmen will etwa jede fünfte Stelle in der Verwaltung streichen. Betroffen sind rund zweitausend Mitarbeiter in der Zentrale in Düsseldorf. Gleichzeitig investiert der Konzern kräftig in neue Software und Systeme. Künstliche Intelligenz soll viele einfache Aufgaben im Kundenservice übernehmen. Kundenanfragen und Beschwerden werden künftig oft von Chatbots bearbeitet. Die Gewerkschaft Verdi kritisiert den schnellen Personalabbau sehr scharf. Die Geschäftsführung verteidigt die Maßnahme als notwendig für die Zukunft.",
+      "enjeux": "Der Schritt von Vodafone zeigt den rasanten **Strukturwandel** in der Wirtschaft. Neue digitale Werkzeuge verändern die Arbeitswelt in Deutschland spürbar. Unternehmen nutzen **Künstliche Intelligenz**, um hohe Personalkosten zu senken. Das erhöht den Druck auf viele Angestellte in Büros und Verwaltungen. Gleichzeitig klagen viele deutsche Betriebe über einen Mangel an Fachkräften. Viele Beschäftigte müssen sich deshalb zügig weiterbilden. Der Fall zeigt die Chancen und Risiken der **Digitalisierung** für die Gesellschaft.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/VF-DE_Campus.jpg/1280px-VF-DE_Campus.jpg",
+        "alt": "Der Vodafone-Campus in Düsseldorf-Heerdt",
+        "credit": "H.Buhl / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:VF-DE_Campus.jpg"
+      },
+      "vo": {
+        "titre": "Vodafone Deutschland: Stellenabbau und Fokus auf Künstliche Intelligenz",
+        "faits": "Der Telekommunikationskonzern Vodafone baut in Deutschland viele Arbeitsplätze ab. Das Unternehmen will etwa jede fünfte Stelle in der Verwaltung streichen. Betroffen sind rund zweitausend Mitarbeiter in der Zentrale in Düsseldorf. Gleichzeitig investiert der Konzern kräftig in neue Software und Systeme. Künstliche Intelligenz soll viele einfache Aufgaben im Kundenservice übernehmen. Kundenanfragen und Beschwerden werden künftig oft von Chatbots bearbeitet. Die Gewerkschaft Verdi kritisiert den schnellen Personalabbau sehr scharf. Die Geschäftsführung verteidigt die Maßnahme als notwendig für die Zukunft.",
+        "enjeux": "Der Schritt von Vodafone zeigt den rasanten **Strukturwandel** in der Wirtschaft. Neue digitale Werkzeuge verändern die Arbeitswelt in Deutschland spürbar. Unternehmen nutzen **Künstliche Intelligenz**, um hohe Personalkosten zu senken. Das erhöht den Druck auf viele Angestellte in Büros und Verwaltungen. Gleichzeitig klagen viele deutsche Betriebe über einen Mangel an Fachkräften. Viele Beschäftigte müssen sich deshalb zügig weiterbilden. Der Fall zeigt die Chancen und Risiken der **Digitalisierung** für die Gesellschaft."
+      },
+      "vocab": [
+        [
+          "der Stellenabbau",
+          "la suppression d'emplois",
+          "Der Stellenabbau trifft vor allem die Verwaltung."
+        ],
+        [
+          "der Strukturwandel",
+          "la mutation structurelle",
+          "Der Strukturwandel verändert viele Branchen im Land."
+        ],
+        [
+          "die Kundenanfrage",
+          "la demande client",
+          "Die Software beantwortet jede Kundenanfrage automatisch."
+        ],
+        [
+          "der Personalabbau",
+          "la réduction d'effectifs",
+          "Die Gewerkschaft protestiert gegen den harten Personalabbau."
+        ],
+        [
+          "die Weiterbildung",
+          "la formation continue",
+          "Gute Weiterbildung schützt vor Arbeitslosigkeit im Wandel."
+        ],
+        [
+          "die Verwaltung",
+          "l'administration / les services centraux",
+          "Viele Jobs in der Verwaltung fallen künftig weg."
+        ]
+      ],
+      "sujets": [
+        "Bedroht Künstliche Intelligenz viele Arbeitsplätze in Deutschland?",
+        "Müssen sich Beschäftigte heute schneller weiterbilden als früher?"
+      ]
+    },
+    {
+      "id": "2026-11-10-allemand-3",
+      "matiere": "allemand",
+      "source": "Frankfurter Allgemeine Zeitung",
+      "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/vdma-praesident-bertram-kawlath-deutschland-macht-uns-fassungslos-accg-201661284.html",
+      "minutes": 3,
+      "titre": "Industrie allemande : les constructeurs de machines alertent sur la dégradation de la compétitivité nationale",
+      "faits": "Der Verband Deutscher Maschinen- und Anlagenbau schlägt Alarm. Die Stimmung in der traditionellen Schlüsselbranche ist sehr schlecht. Verbandspräsident Bertram Kawlath kritisierte die Rahmenbedingungen in Deutschland ungewohnt scharf. Die Aufträge aus dem Ausland sind in den vergangenen Monaten spürbar zurückgegangen. Hohe Energiekosten und strenge Vorschriften belasten die Betriebe im Land. Viele Firmen zögern deshalb mit neuen Investitionen in ihren Werken. Einige Unternehmen verlagern Teile ihrer Produktion bereits nach Asien oder Amerika. Der Verband fordert von der Politik schnelle Hilfe und weniger Bürokratie.",
+      "enjeux": "Der Maschinenbau ist das Rückgrat der deutschen Industrie und des Exports. Die aktuellen Probleme zeigen die Schwächen im **Standort Deutschland**. Hohe Steuern und teurer Strom schwächen die internationale **Wettbewerbsfähigkeit**. Wenn wichtige Firmen abwandern, verliert das Land gut bezahlte Arbeitsplätze. Andere Länder wie die USA unterstützen ihre Betriebe mit Subventionen. Deutschland muss dringend seine Infrastruktur und Verwaltung modernisieren. Ohne eine starke Industrie kann das Land seinen Wohlstand kaum sichern.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Puma_Robotic_Arm_-_GPN-2000-001817.jpg/1280px-Puma_Robotic_Arm_-_GPN-2000-001817.jpg",
+        "alt": "Ein Industrieroboter in einer modernen Fertigungshalle",
+        "credit": "NASA / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Puma_Robotic_Arm_-_GPN-2000-001817.jpg"
+      },
+      "vo": {
+        "titre": "Krise im Maschinenbau: Verband warnt vor Problemen am Standort",
+        "faits": "Der Verband Deutscher Maschinen- und Anlagenbau schlägt Alarm. Die Stimmung in der traditionellen Schlüsselbranche ist sehr schlecht. Verbandspräsident Bertram Kawlath kritisierte die Rahmenbedingungen in Deutschland ungewohnt scharf. Die Aufträge aus dem Ausland sind in den vergangenen Monaten spürbar zurückgegangen. Hohe Energiekosten und strenge Vorschriften belasten die Betriebe im Land. Viele Firmen zögern deshalb mit neuen Investitionen in ihren Werken. Einige Unternehmen verlagern Teile ihrer Produktion bereits nach Asien oder Amerika. Der Verband fordert von der Politik schnelle Hilfe und weniger Bürokratie.",
+        "enjeux": "Der Maschinenbau ist das Rückgrat der deutschen Industrie und des Exports. Die aktuellen Probleme zeigen die Schwächen im **Standort Deutschland**. Hohe Steuern und teurer Strom schwächen die internationale **Wettbewerbsfähigkeit**. Wenn wichtige Firmen abwandern, verliert das Land gut bezahlte Arbeitsplätze. Andere Länder wie die USA unterstützen ihre Betriebe mit Subventionen. Deutschland muss dringend seine Infrastruktur und Verwaltung modernisieren. Ohne eine starke Industrie kann das Land seinen Wohlstand kaum sichern."
+      },
+      "vocab": [
+        [
+          "der Maschinenbau",
+          "la construction mécanique",
+          "Der Maschinenbau ist sehr wichtig für die Wirtschaft."
+        ],
+        [
+          "der Standort Deutschland",
+          "la place économique allemande",
+          "Politiker diskutieren über den Standort Deutschland."
+        ],
+        [
+          "die Wettbewerbsfähigkeit",
+          "la compétitivité",
+          "Günstige Energie stärkt die Wettbewerbsfähigkeit der Firmen."
+        ],
+        [
+          "der Auftragseingang",
+          "les entrées de commandes",
+          "Der Auftragseingang sank in diesem Herbst deutlich."
+        ],
+        [
+          "die Verlagerung",
+          "la délocalisation",
+          "Gewerkschaften fürchten die Verlagerung von Produktion."
+        ],
+        [
+          "die Vorschrift",
+          "le règlement / la prescription administrative",
+          "Zu viele Vorschriften bremsen neue Investitionen aus."
+        ]
+      ],
+      "sujets": [
+        "Verliert Deutschland als Industriestandort seine Stärke in der Welt?",
+        "Brauchen deutsche Unternehmen weniger Bürokratie für mehr Wachstum?"
+      ]
+    },
+    {
+      "id": "2026-11-10-allemand-4",
+      "matiere": "allemand",
+      "source": "Süddeutsche Zeitung",
+      "url": "https://www.sueddeutsche.de/muenchen/muenchen-augsburg-deutsche-bahn-zugverbindung-streichungen-li.3577917",
+      "minutes": 3,
+      "titre": "Transports en Allemagne : face aux protestations, la Deutsche Bahn renonce à supprimer des liaisons régionales",
+      "faits": "Die Deutsche Bahn hat ihre umstrittenen Streichpläne im Regionalverkehr überraschend gestoppt. Das Unternehmen wollte wichtige Fernzüge zwischen Augsburg und München streichen. Die Bahn begründete die Pläne mit Bauarbeiten und knappen Zügen. Fahrgäste und Lokalpolitiker reagierten empört auf die Ankündigung der Bahn. Pendler protestierten gegen die schlechteren Verbindungen auf der wichtigen Strecke. Auch die bayerische Landesregierung forderte die Bahn zum schnellen Umdenken auf. Nun lenkte der Konzern ein und behält die bisherigen Fahrten bei.",
+      "enjeux": "Der Streit verdeutlicht die massiven Probleme der deutschen **Verkehrspolitik**. Das Schienennetz ist an vielen Stellen überlastet und sanierungsbedürftig. Baustellen führen täglich zu vielen Verspätungen und Ausfällen im ganzen Land. Für eine erfolgreiche **Verkehrswende** braucht Deutschland aber eine verlässliche Bahn. Wenn Züge unpünktlich fahren, steigen viele Bürger wieder auf das Auto um. Der Staat muss Milliarden investieren, um das Schienennetz zu modernisieren. Ein gut ausgebauter **öffentlicher Nahverkehr** ist wichtig für Wirtschaft und Klimaschutz.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/ICE_Testfahrt_Unteroberndorfer_Br%C3%BCcke_9113767.jpg/1280px-ICE_Testfahrt_Unteroberndorfer_Br%C3%BCcke_9113767.jpg",
+        "alt": "Ein Hochgeschwindigkeitszug ICE der Deutschen Bahn auf einer Neubaustrecke",
+        "credit": "Raimond Spekking / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:ICE_Testfahrt_Unteroberndorfer_Br%C3%BCcke_9113767.jpg"
+      },
+      "vo": {
+        "titre": "Deutsche Bahn: Umstrittene Streichpläne für Zugstrecken sind vom Tisch",
+        "faits": "Die Deutsche Bahn hat ihre umstrittenen Streichpläne im Regionalverkehr überraschend gestoppt. Das Unternehmen wollte wichtige Fernzüge zwischen Augsburg und München streichen. Die Bahn begründete die Pläne mit Bauarbeiten und knappen Zügen. Fahrgäste und Lokalpolitiker reagierten empört auf die Ankündigung der Bahn. Pendler protestierten gegen die schlechteren Verbindungen auf der wichtigen Strecke. Auch die bayerische Landesregierung forderte die Bahn zum schnellen Umdenken auf. Nun lenkte der Konzern ein und behält die bisherigen Fahrten bei.",
+        "enjeux": "Der Streit verdeutlicht die massiven Probleme der deutschen **Verkehrspolitik**. Das Schienennetz ist an vielen Stellen überlastet und sanierungsbedürftig. Baustellen führen täglich zu vielen Verspätungen und Ausfällen im ganzen Land. Für eine erfolgreiche **Verkehrswende** braucht Deutschland aber eine verlässliche Bahn. Wenn Züge unpünktlich fahren, steigen viele Bürger wieder auf das Auto um. Der Staat muss Milliarden investieren, um das Schienennetz zu modernisieren. Ein gut ausgebauter **öffentlicher Nahverkehr** ist wichtig für Wirtschaft und Klimaschutz."
+      },
+      "vocab": [
+        [
+          "die Streichpläne",
+          "les projets de suppressions",
+          "Die Streichpläne der Bahn stießen auf heftigen Protest."
+        ],
+        [
+          "der Pendler",
+          "l'usager pendulaire / le travailleur nomade",
+          "Tausende Pendler nutzen täglich die Züge zur Arbeit."
+        ],
+        [
+          "das Schienennetz",
+          "le réseau ferré",
+          "Deutschland muss das Schienennetz dringend erneuern."
+        ],
+        [
+          "die Verkehrswende",
+          "la transition des transports / écologique",
+          "Eine verlässliche Bahn ist wichtig für die Verkehrswende."
+        ],
+        [
+          "die Baustelle",
+          "le chantier",
+          "Jede neue Baustelle führt zu weiteren Verspätungen."
+        ],
+        [
+          "der Nahverkehr",
+          "les transports en commun locaux / régionaux",
+          "Guter Nahverkehr verbindet Städte und ländliche Räume."
+        ]
+      ],
+      "sujets": [
+        "Kann die Deutsche Bahn eine echte Alternative zum Auto sein?",
+        "Soll der Staat mehr Geld in die Bahn als in Straßen investieren?"
+      ]
+    }
+  ],
+  "a_lire": [
+    {
+      "journal": "Les Échos",
+      "titre": "Etats-Unis : le mur de la dette, l'angle mort des midterms",
+      "url": "https://www.lesechos.fr/monde/etats-unis/etats-unis-le-mur-de-la-dette-langle-mort-des-midterms-2261965",
+      "pourquoi": "Une analyse approfondie du piège budgétaire américain où l'envolée de la charge d'intérêts de la **dette souveraine** contraint les marges de manœuvre du Congrès quelle que soit sa majorité."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "En Allemagne, les joyaux du Mittelstand commencent à céder aux sirènes du M&A",
+      "url": "https://www.lesechos.fr/finance-marches/ma/en-allemagne-les-joyaux-du-mittelstand-commencent-a-ceder-aux-sirenes-du-ma-2261961",
+      "pourquoi": "Un éclairage indispensable sur la vulnérabilité du modèle rhénan du **Mittelstand** confronté aux défis de succession familiale, à la hausse des coûts énergétiques et au rachat par des fonds étrangers."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "« Crédit Agricole a attendu que le fruit tombe de l'arbre » : comment la banque a avancé ses pions en Italie",
+      "url": "https://www.lesechos.fr/finance-marches/banque-assurances/credit-agricole-a-attendu-que-le-fruit-tombe-de-larbre-comment-la-banque-a-avance-ses-pions-en-italie-2261950",
+      "pourquoi": "Une étude de cas concrète sur les opérations transfrontalières d'**intermédiation financière** au sein de la zone euro illustrant la consolidation bancaire européenne."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Assurance-vie : la remontée des taux obligataires relance le pari des fonds datés",
+      "url": "https://www.lemonde.fr/argent/article/2026/11/10/assurance-vie-la-remontee-des-taux-obligataires-relance-le-pari-des-fonds-dates_6808783_1657007.html",
+      "pourquoi": "Un décryptage technique montrant comment la transmission de la politique monétaire et la hausse des rendements réels redessinent l'arbitrage entre liquidité et **épargne longue** des ménages."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Le BHV Marais, en redressement judiciaire, contraint de fermer ses portes lundi soir",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/09/le-bhv-marais-en-redressement-judiciaire-contraint-de-fermer-ses-portes-lundi-soir_6808684_3234.html",
+      "pourquoi": "Un exemple marquant de la crise du commerce physique de centre-ville et de la **destruction créatrice** accélérée par la concurrence des plateformes d'e-commerce."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Heures creuses d’électricité : Enedis adapte les plages horaires selon les saisons pour 9,3 millions de clients",
+      "url": "https://www.lemonde.fr/planete/article/2026/11/10/heures-creuses-d-electricite-enedis-adapte-les-plages-horaires-selon-les-saisons-pour-9-3-millions-de-clients_6808707_3244.html",
+      "pourquoi": "Une illustration empirique de la **tarification de pointe** et de la gestion de la demande énergétique pour optimiser l'équilibre production-consommation dans la transition bas-carbone."
+    }
+  ]
+}
