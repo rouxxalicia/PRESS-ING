@@ -1,0 +1,1075 @@
+{
+  "date": "2026-11-11",
+  "cards": [
+    {
+      "id": "2026-11-11-esh-1",
+      "matiere": "esh",
+      "source": "Les Échos",
+      "url": "https://www.lesechos.fr/finance-marches/marches-financiers/le-probleme-doit-etre-regle-a-paris-leconomiste-en-chef-de-la-bce-exclut-toute-intervention-en-faveur-de-la-dette-francaise-2262132",
+      "minutes": 3,
+      "titre": "Dette publique française : la BCE refuse d'intervenir pour soulager les tensions sur les taux souverains",
+      "faits": "Dans une interview accordée ce mardi 10 novembre, l'économiste en chef de la Banque centrale européenne a formellement exclu toute activation du bouclier anti-fragmentation (TPI) au bénéfice de la dette publique française. Alors que le spread entre l'OAT française à dix ans et le Bund allemand s'est élargi de plus de 80 points de base, l'institution de Francfort estime que cette tension sur les rendements reflète les fondamentaux budgétaires nationaux et non un dysfonctionnement de marché. La France doit refinancer près de 300 milliards d'euros d'emprunts d'État sur les marchés obligataires au cours de l'année à venir dans un contexte de déficit public persistant. Francfort rappelle que le mécanisme de protection de la transmission monétaire est strictement conditionné au respect des règles du Pacte de stabilité budgétaire de l'Union européenne. Les déclarations de la BCE ont immédiatement provoqué une nouvelle poussée de volatilité sur les obligations souveraines tricolores, contraignant le Trésor à concéder des primes d'émission plus élevées. Le ministre des Finances a réagi en promettant de présenter des mesures d'économies structurelles crédibles pour rassurer les investisseurs internationaux.",
+      "enjeux": "Le refus d'intervention de la BCE réactive le débat fondamental sur la **soutenabilité de la dette** publique au sein de l'union monétaire. Privée du levier de la dévaluation monétaire et de la monétisation directe, la France fait face à une stricte contrainte de marché qui menace d'enclencher un **effet boule de neige** si le taux d'intérêt réel excède le taux de croissance du PIB (r > g). En refusant d'agir comme **prêteur en dernier ressort** inconditionnel pour les États, la banque centrale cherche à conjurer le risque d'**aléa moral** budgétaire qui inciterait les gouvernements à différer l'assainissement de leurs finances publiques. Toutefois, cette fermeté doctrinale expose la zone euro au risque de prophéties autoréalisatrices et d'attaques spéculatives contre les titres souverains des pays les plus endettés. Ce durcissement financier illustre la fragilité institutionnelle d'une union monétaire dépourvue d'un budget fédéral commun et d'un actif sans risque unifié. La charge d'intérêts de la dette publique devient ainsi le premier poste budgétaire de l'État, réduisant mécaniquement les marges d'investissement dans la transition écologique et l'innovation.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg/1280px-Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg",
+        "alt": "Le siège de la Banque centrale européenne à Francfort",
+        "credit": "DXR / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : la monnaie et le financement de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Walter Bagehot",
+          "ouvrage": "Lombard Street: A Description of the Money Market",
+          "annee": "1873",
+          "ref": "preteur-en-dernier-ressort",
+          "cours": "1A-monnaie",
+          "texte": "Bagehot théorise la doctrine du **prêteur en dernier ressort**, affirmant que la banque centrale ne doit prêter qu'aux institutions solvables, à un taux pénalisant et contre de bonnes garanties pour éviter l'**aléa moral**. À mobiliser pour montrer que la BCE refuse de se substituer aux efforts budgétaires des États sans garanties d'ajustement structurel strictes."
+        },
+        {
+          "nom": "Evsey Domar",
+          "ouvrage": "« The Burden of the Debt and the National Income »",
+          "annee": "1944",
+          "ref": "effet-boule-de-neige",
+          "cours": "1A-croissance",
+          "texte": "Domar démontre que la dette publique est soutenable si le taux de croissance du PIB est supérieur au taux d'intérêt (g > r). Lorsque les taux souverains s'envolent, la charge de la dette s'auto-alimente et déclenche un **effet boule de neige** qui contraint l'État à dégager des excédents primaires de plus en plus lourds. À mobiliser pour analyser le risque d'insoutenabilité budgétaire auquel s'expose la France face à la hausse de son spread obligataire."
+        }
+      ],
+      "notions": [
+        [
+          "Spread souverain",
+          "Écart de rendement obligataire entre l'emprunt d'État d'un pays et l'obligation de référence sans risque."
+        ],
+        [
+          "Effet boule de neige",
+          "Hausse cumulative et auto-entretenue de la dette publique provoquée par un taux d'intérêt réel supérieur au taux de croissance économique."
+        ],
+        [
+          "Prêteur en dernier ressort",
+          "Institution financière qui fournit des liquidités d'urgence à des acteurs solvables en situation d'illiquidité temporaire pour stopper la panique."
+        ],
+        [
+          "Aléa moral",
+          "Modification opportuniste du comportement d'un agent qui prend des risques excessifs sachant qu'il sera secouru par la collectivité."
+        ]
+      ],
+      "sujets": [
+        "Une banque centrale doit-elle garantir la dette des États membres d'une union monétaire ?",
+        "La dette publique est-elle un danger pour la souveraineté économique ?"
+      ],
+      "anki": [
+        {
+          "q": "Écart de taux d'emprunt à dix ans (spread) entre la France et l'Allemagne (novembre 2026)",
+          "r": "Plus de C{80 points de base} (C{0,8 point de pourcentage}).\n→ Hausse historique de la prime de risque française due aux doutes sur la trajectoire budgétaire : A{Domar} (D{1944}) montre que si le taux d'intérêt dépasse la croissance (B{r > g}), l'effet boule de neige menace la solvabilité de l'État → accroche pour un sujet sur la dette publique ou la zone euro."
+        },
+        {
+          "q": "Volume des emprunts d'État que la France doit refinancer sur les marchés obligataires en 2027",
+          "r": "Près de C{300 Md€} d'émissions de dette à moyen et long terme.\n→ Contrainte financière record qui rend le Trésor vulnérable aux décisions de la BCE : A{Bagehot} (D{1873}) rappelle que l'absence de garantie d'un prêteur en dernier ressort expose les emprunteurs aux tensions de liquidité de marché → argument pour un sujet sur les politiques budgétaires."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-esh-2",
+      "matiere": "esh",
+      "source": "Le Figaro",
+      "url": "https://www.lefigaro.fr/economie/les-recettes-de-l-impot-sur-le-revenu-progressent-de-pres-d-un-milliard-d-euros-en-2025-20261110",
+      "minutes": 3,
+      "titre": "Fiscalité des ménages : les recettes de l'impôt sur le revenu progressent de près d'un milliard d'euros en 2025",
+      "faits": "Selon les chiffres détaillés de la Direction générale des finances publiques publiés ce 10 novembre, le produit net de l'impôt sur le revenu a progressé de près d'un milliard d'euros pour l'exercice 2025, atteignant un record historique de plus de 83 milliards d'euros. Cette hausse des recettes s'explique par l'effet conjugué des revalorisations salariales négociées face à l'inflation et de la non-indexation intégrale des tranches supérieures du barème progressif. Ce phénomène de glissement mécanique vers des tranches marginales d'imposition plus élevées a touché plusieurs centaines de milliers de contribuables de la classe moyenne supérieure. Parallèlement, le niveau de concentration de l'impôt reste exceptionnel : les 10 % des foyers fiscaux les plus aisés continuent d'acquitter plus de 75 % de l'ensemble des recettes de l'impôt sur le revenu. Plus de la moitié des foyers fiscaux français demeurent totalement non imposables au titre de cet impôt direct grâce aux mécanismes de décote et aux crédits d'impôt. Ce dynamisme des rentrées fiscales offre un répit partiel à Bercy, bien qu'il ne compense pas le ralentissement des recettes de TVA lié au tassement de la consommation des ménages.",
+      "enjeux": "La trajectoire de l'impôt sur le revenu soulève une question centrale de justice fiscale et d'efficacité économique dans l'accomplissement de la **fonction de redistribution** de l'État. En prélevant une part substantielle des gains nominaux tirés de l'inflation sans ajustement parfait du barème, l'administration fiscale génère un phénomène de **frein fiscal** (fiscal drag) qui réduit le pouvoir d'achat des salariés qualifiés. Pour les économistes libéraux de l'offre, cette pression fiscale accrue sur les tranches supérieures risque de franchir le seuil critique théorisé par la **courbe de Laffer**, où les désincitations au travail, à l'effort et à la prise de risque finissent par éroder les bases imposables. À l'inverse, les partisans d'une redistribution élargie rappellent que la forte progressivité de l'impôt constitue le pilier fondamental de la réduction des **inégalités de revenu** et de la cohésion sociale en France. L'extrême concentration de l'impôt sur un nombre restreint de contribuables fragilise néanmoins le **consentement à l'impôt**, dès lors qu'une majorité de citoyens consomment des services publics financés par une minorité de contribuables imposés. Le débat s'oriente ainsi vers un rééquilibrage entre imposition du travail, fiscalité du patrimoine et taxation de la consommation pour préserver l'attractivité du pays.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Paris_75012_Minist%C3%A8re_des_Finances_facade_20131005.jpg/1280px-Paris_75012_Minist%C3%A8re_des_Finances_facade_20131005.jpg",
+        "alt": "Le bâtiment du ministère de l'Économie et des Finances à Bercy",
+        "credit": "Coldcreation / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_75012_Minist%C3%A8re_des_Finances_facade_20131005.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Richard Musgrave",
+          "ouvrage": "Théorie des finances publiques",
+          "annee": "1959",
+          "ref": "fonctions-etat",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Musgrave formalise les trois fonctions économiques de l'État : allocation des ressources, **redistribution des revenus** et stabilisation macroéconomique. L'impôt progressif sur le revenu constitue l'instrument privilégié de la fonction de redistribution, visant à corriger la répartition primaire issue des marchés pour garantir l'équité sociale. À mobiliser pour justifier le rôle central de la progressivité fiscale dans la réduction des inégalités de niveau de vie."
+        },
+        {
+          "nom": "Arthur Laffer",
+          "ouvrage": "The Economics of the Tax Revolt",
+          "annee": "1979",
+          "ref": "courbe-de-laffer",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Laffer met en évidence qu'au-delà d'un taux d'imposition optimal, les prélèvements obligatoires excessifs découragent le travail, l'épargne et l'investissement (« trop d'impôt tue l'impôt »), provoquant une attrition des recettes fiscales. La **courbe de Laffer** montre que des taux marginaux confiscatoires incitent à l'optimisation ou à l'expatriation fiscale. À mobiliser pour argumenter contre le durcissement de la fiscalité pesant sur les revenus du travail qualifié."
+        }
+      ],
+      "notions": [
+        [
+          "Impôt progressif",
+          "Impôt dont le taux moyen augmente à mesure que la base imposable ou le revenu du contribuable s'élève."
+        ],
+        [
+          "Frein fiscal (fiscal drag)",
+          "Hausse automatique de la pression fiscale réelle provoquée par l'inflation lorsqu'un barème d'imposition progressif n'est pas indexé sur les prix."
+        ],
+        [
+          "Consentement à l'impôt",
+          "Principe démocratique selon lequel les citoyens acceptent la légitimité des prélèvements publics en contrepartie des services rendus par l'État."
+        ]
+      ],
+      "sujets": [
+        "L'impôt progressif sur le revenu est-il encore adapté aux économies contemporaines ?",
+        "La redistribution fiscale nuit-elle à l'efficacité économique ?"
+      ],
+      "anki": [
+        {
+          "q": "Montant record des recettes nettes de l'impôt sur le revenu en France (exercice 2025)",
+          "r": "Plus de C{83 Md€}, en hausse de près de C{1 Md€} sur un an.\n→ Illustration du frein fiscal lié à l'inflation et du rôle pivot de l'impôt direct : A{Musgrave} (D{1959}) rappelle que la redistribution vise à corriger la répartition primaire des marchés → accroche pour un sujet sur la fiscalité ou les inégalités."
+        },
+        {
+          "q": "Part de l'impôt sur le revenu payée par les 10 % des foyers fiscaux les plus aisés en France",
+          "r": "Plus de C{75 %} de la totalité des recettes collectées.\n→ Très forte concentration fiscale qui alimente les débats sur l'incitation à l'effort : A{Laffer} (D{1979}) soutient qu'un fardeau fiscal excessif sur une minorité de contribuables peut éroder l'assiette imposable → argument pour un sujet sur l'efficacité et l'équité de l'impôt."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-esh-3",
+      "matiere": "esh",
+      "source": "La Tribune",
+      "url": "https://www.latribune.fr/article/tech/37712002760806/digital-fairness-act-lue-veut-imposer-la-resiliation-en-deux-clics-et-interdire-les-pieges-a-abonnements",
+      "minutes": 3,
+      "titre": "Régulation numérique européenne : Bruxelles présente le Digital Fairness Act pour protéger les consommateurs en ligne",
+      "faits": "La Commission européenne a dévoilé ce 11 novembre sa proposition de directive sur l'équité numérique (Digital Fairness Act), destinée à harmoniser et renforcer les droits des consommateurs face aux dérives commerciales sur Internet. Le texte prévoit d'imposer un bouton de résiliation d'abonnement en deux clics à toutes les plateformes de commerce électronique, plateformes de streaming et services d'abonnement en ligne actifs dans l'Union. Bruxelles entend également interdire formellement les dark patterns, ces techniques d'architecture des choix conçues pour inciter les internautes à souscrire des services payants à leur insu ou à divulguer excessivement leurs données personnelles. Selon une étude de la Commission, ces interfaces trompeuses coûtent près de huit milliards d'euros par an aux consommateurs européens en dépenses non souhaitées et renouvellements tacites. Les sanctions prévues pourront atteindre jusqu'à 4 % du chiffre d'affaires mondial des entreprises récalcitrantes, dans la lignée des règlements DSA et DMA. Les organisations patronales du numérique s'inquiètent d'une rigidification excessive des modèles économiques freemium, tandis que les associations de consommateurs saluent une avancée majeure vers un marché unique numérique plus transparent.",
+      "enjeux": "Cette initiative réglementaire illustre l'impératif de corriger les **défaillances de marché** engendrées par les **asymétries d'information** au sein de l'économie numérique. Contrairement au modèle idéal de concurrence pure et parfaite où les agents possèdent une information fluide et transparente, les plateformes exploitent des biais cognitifs pour capturer l'attention et le consentement des utilisateurs. Ce comportement des firmes oligopolistiques valide la thèse galbraithienne de la **filière inversée**, selon laquelle les grands producteurs façonnent activement la demande des consommateurs au lieu de la subir passivement. En imposant des règles d'architecture des choix bienveillantes, Bruxelles applique les enseignements de l'**économie comportementale** et du paternalisme libertarien de Richard Thaler pour restaurer une forme de souveraineté du consommateur. Cette législation soulève néanmoins la question de l'arbitrage entre protection juridique des citoyens et dynamisme de l'**innovation**, dans un contexte où les leaders mondiaux du numérique restent presque exclusivement américains ou chinois. Le marché unique européen tente ainsi de s'affirmer comme un espace de régulation normative mondiale (effet Bruxelles), capable d'imposer des standards éthiques de concurrence aux multinationales de la tech.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg/1280px-Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
+        "alt": "Le bâtiment Berlaymont, siège de la Commission européenne à Bruxelles",
+        "credit": "EmDee / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : les grands courants de la pensée économique depuis le XVIe siècle"
+      },
+      "auteurs": [
+        {
+          "nom": "George Akerlof",
+          "ouvrage": "« The Market for 'Lemons': Quality Uncertainty and the Market Mechanism »",
+          "annee": "1970",
+          "ref": "asymetrie-d-information-akerlof",
+          "cours": "1A-hpe",
+          "texte": "Akerlof démontre que l'**asymétrie d'information** entre contractants provoque une sélection adverse et détériore le fonctionnement efficace des marchés concurrentiels. Lorsque les plateformes dissimulent les clauses d'abonnement ou les coûts réels derrière des interfaces opaques, la transparence des prix s'effondre. À mobiliser pour justifier l'intervention publique obligatoire visant à rétablir la transparence de l'information pour les consommateurs."
+        },
+        {
+          "nom": "John Kenneth Galbraith",
+          "ouvrage": "Le Nouvel État industriel",
+          "annee": "1967",
+          "ref": "filiere-inversee-galbraith",
+          "cours": "1A-modes-de-vie",
+          "texte": "Galbraith montre que dans le capitalisme moderne, la **filière inversée** se substitue à la souveraineté du consommateur : les grandes firmes créent et conditionnent artificiellement les besoins par le marketing et la persuasion pour sécuriser leurs débouchés. Les pièges d'abonnements numériques et les dark patterns contemporains incarnent ce pouvoir de manipulation de la demande. À mobiliser pour montrer que le marché libre ne garantit pas la liberté des choix individuels sans règles strictes."
+        }
+      ],
+      "notions": [
+        [
+          "Asymétrie d'information",
+          "Situation de marché où l'une des parties à l'échange dispose d'informations pertinentes que l'autre partie ignore avant ou pendant la transaction."
+        ],
+        [
+          "Filière inversée",
+          "Concept selon lequel les grandes firmes oligopolistiques modèlent les préférences et la demande des consommateurs au lieu de s'adapter passivement à leurs besoins."
+        ],
+        [
+          "Architecture des choix (nudge)",
+          "Organisation de l'environnement de décision qui oriente de manière prévisible le comportement des individus sans leur interdire formellement d'options."
+        ]
+      ],
+      "sujets": [
+        "Le consommateur est-il véritablement souverain sur les marchés contemporains ?",
+        "La régulation de la concurrence est-elle un frein ou un moteur pour l'économie numérique ?"
+      ],
+      "anki": [
+        {
+          "q": "Coût estimé des interfaces trompeuses (dark patterns) pour les consommateurs de l'Union européenne",
+          "r": "Près de C{8 Md€} par an en dépenses non souhaitées et renouvellements cachés.\n→ Défaillance de marché massive qui justifie la directive Digital Fairness Act : A{Akerlof} (D{1970}) prouve que l'asymétrie d'information empêche le marché de fonctionner efficacement → accroche pour un sujet sur la régulation ou la concurrence."
+        },
+        {
+          "q": "Sanctions financières prévues par le futur Digital Fairness Act européen contre les pratiques déloyales",
+          "r": "Jusqu'à C{4 %} du chiffre d'affaires mondial des plateformes numériques en infraction.\n→ Répression des abus de dépendance cognitive des usagers : A{Galbraith} (D{1967}) montre que la filière inversée permet aux oligopoles de manipuler la demande des ménages → argument pour un sujet sur le pouvoir des grandes entreprises."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-esh-4",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/10/gaz-nouvelle-hausse-de-5-8-a-venir-pour-les-foyers-francais-dans-le-sillage-du-conflit-au-moyen-orient_6808828_3234.html",
+      "minutes": 3,
+      "titre": "Tarifs de l'énergie : nouvelle hausse de 5,8 % du prix repère du gaz pour les ménages français",
+      "faits": "La Commission de régulation de l'énergie (CRE) a annoncé ce 10 novembre une augmentation moyenne de 5,8 % du prix repère de vente de gaz naturel pour les clients résidentiels en France à compter de décembre 2026. Cette nouvelle réévaluation tarifaire résulte directement de la remontée des cours du gaz naturel sur le marché de gros européen Title Transfer Facility (TTF), provoquée par l'intensification des tensions géopolitiques au Moyen-Orient et la suspension de plusieurs cargaisons de GNL. Pour les quelque dix millions de ménages français chauffés au gaz ou utilisant cette énergie pour la cuisson et l'eau chaude, la facture moyenne annuelle va s'alourdir de près de 85 euros supplémentaires. Cette décision intervient alors que le gouvernement a déjà supprimé la majorité des boucliers tarifaires énergétiques mis en place lors de la crise de 2022 afin de réduire le déficit budgétaire. Les associations de défense des consommateurs dénoncent un coup dur pour les ménages modestes à l'approche de la saison hivernale, redoutant une précarité énergétique accrue. Les fournisseurs d'énergie rappellent pour leur part que les coûts d'approvisionnement internationaux et d'acheminement sur les réseaux de transport doivent être répercutés pour préserver l'équilibre financier du secteur.",
+      "enjeux": "Cette nouvelle hausse des tarifs de l'énergie met en lumière la vulnérabilité des économies développées face aux **chocs d'offre importés** et à l'**inflation par les coûts**. L'énergie constituant un bien de première nécessité à demande inélastique, son renchérissement frappe en priorité les ménages populaires en alourdissant le fardeau de leurs **dépenses contraintes**. Comme le soulignent les travaux sociologiques et microéconomiques, la progression des charges pré-engagées (logement, chauffage, transport) comprime le revenu arbitrable des classes moyennes et avive le ressentiment social. Sur le plan macroéconomique, la hausse des coûts énergétiques se diffuse en amont de la chaîne productive, contraignant les entreprises industrielles et de services à relever leurs prix de vente ou à rogner leurs marges. Cette dynamique réactive le risque d'un conflit de répartition de la valeur ajoutée entre salariés réclamant des compensations et employeurs confrontés à une baisse de rentabilité. Elle pose également le défi de la **transition écologique**, où la nécessaire tarification du carbone se heurte à l'exigence d'équité sociale et à l'acceptabilité politique des réformes énergétiques.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Gas_flame.jpg/1280px-Gas_flame.jpg",
+        "alt": "Une flamme bleue de gaz naturel sur une cuisinière",
+        "credit": "George Shuklin / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gas_flame.jpg"
+      },
+      "programme": {
+        "module": "Module 4 – Déséquilibres, régulation et action publique",
+        "chapitre": "4.1 – Équilibres et déséquilibres macroéconomiques : l'inflation et le chômage"
+      },
+      "auteurs": [
+        {
+          "nom": "Régis Bigot",
+          "ouvrage": "Les Classes moyennes sous pression",
+          "annee": "2008",
+          "ref": "depenses-contraintes-bigot",
+          "cours": "1A-transformations-sociales",
+          "texte": "Bigot met en lumière l'explosion des **dépenses contraintes** (logement, chauffage, assurances) qui absorbent plus d'un tiers du budget moyen des ménages et lamine leur revenu disponible arbitrable. La hausse des tarifs du gaz frappe directement ces dépenses pré-engagées incompressibles, alimentant un sentiment d'appauvrissement réel. À mobiliser pour expliquer pourquoi les hausses de tarifs de l'énergie provoquent des crises de pouvoir d'achat intenses malgré la modération relative de l'inflation globale."
+        },
+        {
+          "nom": "Nicholas Kaldor",
+          "ouvrage": "« Economic Growth and the Problem of Inflation »",
+          "annee": "1959",
+          "ref": "partage-valeur-ajoutee-kaldor",
+          "cours": "1A-inflation",
+          "texte": "Kaldor et les économistes post-keynésiens démontrent que l'**inflation par les coûts** résulte de goulets d'étranglement sur les intrants fondamentaux (énergie, matières premières) et se transforme en conflit de répartition de la valeur ajoutée entre salaires et profits. La hausse des cours du gaz impose un prélèvement extérieur sur la richesse nationale que le partage de la valeur doit absorber. À mobiliser pour analyser la propagation macroéconomique des chocs énergétiques sur les prix et les marges."
+        }
+      ],
+      "notions": [
+        [
+          "Dépenses contraintes",
+          "Dépenses pré-engagées d'un ménage liées à des contrats ou des nécessités vitales difficilement renégociables à court terme."
+        ],
+        [
+          "Choc d'offre négatif",
+          "Événement imprévu réduisant la production disponible ou augmentant subitement les coûts de production à l'échelle macroéconomique."
+        ],
+        [
+          "Élasticité-prix de la demande",
+          "Mesure de la sensibilité de la quantité demandée d'un bien aux variations de son prix ; pour l'énergie vitale, elle est très faible."
+        ]
+      ],
+      "sujets": [
+        "Les chocs d'offre condamnent-ils les économies à la stagflation ?",
+        "Peut-on concilier transition écologique et défense du pouvoir d'achat ?"
+      ],
+      "anki": [
+        {
+          "q": "Hausse du prix repère du gaz naturel pour les ménages français annoncée par la CRE (décembre 2026)",
+          "r": "Revalorisation de C{+5,8 %}, représentant environ C{85 €} par an de surcoût pour un foyer moyen.\n→ Choc d'offre sur les coûts énergétiques qui rogne le pouvoir d'achat : A{Bigot} (D{2008}) montre que le renchérissement des dépenses contraintes lamine le revenu arbitrable des classes moyennes → accroche pour un sujet sur l'inflation ou l'énergie."
+        },
+        {
+          "q": "Part moyenne des dépenses pré-engagées (contraintes) dans le revenu disponible des ménages en France",
+          "r": "Environ C{35 %} du revenu moyen, et plus de C{60 %} pour les ménages les plus modestes.\n→ Rigidité budgétaire qui transforme chaque hausse de tarif en crise de pouvoir d'achat : A{Kaldor} (D{1959}) souligne que l'inflation par les coûts active un conflit de répartition de la valeur ajoutée → argument pour un sujet sur les politiques sociales et l'inflation."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-anglais-1",
+      "matiere": "anglais",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdk422w8jo",
+      "minutes": 3,
+      "titre": "Éducation en Angleterre : durcissement des règles sur l'interdiction totale des smartphones dans les établissements scolaires",
+      "faits": "Le ministère de l'Éducation britannique a publié ce mardi 10 novembre de nouvelles directives contraignantes durcissant l'interdiction des téléphones portables dans les écoles secondaires en Angleterre. Les élèves ne seront désormais plus autorisés à conserver leur smartphone dans leur sac ou leur poche durant la journée scolaire, devant obligatoirement les déposer dans des casiers sécurisés ou des pochettes scellées dès leur arrivée. Le gouvernement répond ainsi aux inquiétudes croissantes des enseignants concernant la baisse d'attention en classe, le cyberharcèlement et la détérioration de la santé mentale des adolescents. Selon les inspections menées par l'Ofsted, les établissements ayant banni intégralement les téléphones ont constaté une hausse mesurable des résultats académiques et une diminution des incidents disciplinaires. Les syndicats d'enseignants ont salué cette mesure de clarification nationale tout en soulignant le défi logistique posé par le stockage sécurisé de milliers d'appareils chaque matin. Certains collectifs de parents d'élèves ont toutefois exprimé leur réticence, souhaitant pouvoir joindre leurs enfants lors des trajets scolaires quotidiens.",
+      "enjeux": "Ce renforcement réglementaire illustre le tournant sécuritaire et paternaliste de la politique éducative britannique face aux ravages présumés de l'**économie de l'attention** et des réseaux sociaux sur les mineurs. Alors que le Royaume-Uni a pionnièrement adopté l'Online Safety Act pour réguler les géants de la tech, cette intervention directe dans l'enceinte scolaire montre que la législation numérique ne suffit pas à endiguer l'addiction aux écrans. La question du bien-être des jeunes et du **capital humain** est devenue une priorité politique majeure à Westminster, tant pour les conservateurs que pour les travaillistes, soucieux de redresser les performances scolaires britanniques dans les classements PISA. Ce débat révèle aussi une profonde tension entre autonomisation des élèves et discipline institutionnelle, dans un pays où l'autorité professorale a été érodée par des décennies d'individualisme consumériste. Enfin, l'efficacité d'une interdiction purement matérielle reste débattue par les sociologues, qui rappellent que le temps d'écran domestique demeure le principal déterminant des difficultés psychologiques des adolescents.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Backwell_School_Arc.jpg/1280px-Backwell_School_Arc.jpg",
+        "alt": "Le bâtiment d'un établissement scolaire secondaire en Angleterre",
+        "credit": "Mattbuck / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Backwell_School_Arc.jpg"
+      },
+      "vo": {
+        "titre": "English schools face blanket ban on pupil mobile phones under toughened government rules",
+        "faits": "On Tuesday 10 November, the Department for Education issued toughened statutory guidance enforcing a blanket ban on mobile phones throughout the school day in secondary schools across England. Under the newly tightened rules, pupils will no longer be permitted to keep smartphones inside their bags or blazer pockets, and will instead be required to hand them in or lock them in secure lockers upon arrival. Ministers argued that decisive action was imperative to tackle rampant classroom disruption, surging cyberbullying, and declining attention spans among teenagers. Evidence cited from Ofsted school inspections suggests that schools enforcing phone-free policies have recorded noticeable improvements in pupil behaviour and academic performance. Teaching unions broadly welcomed national clarity but warned of substantial administrative friction and logistical costs associated with securing thousands of expensive devices daily. Meanwhile, some parents voiced frustration over being unable to contact their children during lengthy commutes to school.",
+        "enjeux": "The statutory crackdown marks a significant intervention by Westminster into educational culture, reflecting growing bipartisan anxiety over the detrimental toll of smartphones on adolescent mental health and **human capital formation**. While the UK had previously sought to address algorithmic harms via the landmark Online Safety Act, this move signals a recognition that digital regulation upstream cannot replace strict institutional boundaries within schools. The policy reflects a broader societal debate across the Anglophone world regarding state paternalism versus parental discretion in an era dominated by predatory **attention merchants**. Educationalists nevertheless caution that sequestering devices during school hours does not resolve the pervasive problem of excessive screen time and sleep deprivation at home. Ultimately, the success of the ban will serve as a bellwether for whether Western democracies can effectively roll back digital intrusion to safeguard children's cognitive development."
+      },
+      "vocab": [
+        [
+          "a blanket ban",
+          "une interdiction totale / générale",
+          "Ministers introduced a blanket ban on phones during school hours."
+        ],
+        [
+          "statutory guidance",
+          "des directives contraignantes / un cadre légal",
+          "Schools must follow the government's statutory guidance."
+        ],
+        [
+          "attention span",
+          "la durée d'attention / de concentration",
+          "Excessive screen time drastically reduces pupils' attention spans."
+        ],
+        [
+          "cyberbullying",
+          "le cyberharcèlement",
+          "Stricter school policies aim to curb online harassment and cyberbullying."
+        ],
+        [
+          "a bellwether",
+          "un baromètre / un indicateur précurseur",
+          "The initiative serves as a bellwether for wider tech regulation."
+        ],
+        [
+          "human capital",
+          "le capital humain",
+          "Cognitive development is essential to foster resilient human capital."
+        ]
+      ],
+      "sujets": [
+        "Should governments intervene to restrict digital technology in schools to protect youth wellbeing?",
+        "Can institutional bans effectively counter the cultural dominance of smartphones?"
+      ],
+      "anki": [
+        {
+          "q": "Nouvelles règles imposées aux téléphones portables dans les écoles secondaires en Angleterre (novembre 2026)",
+          "r": "B{Interdiction totale} : interdiction de garder son smartphone dans son sac ou sa poche, obligation de dépôt en casier sécurisé à l'arrivée.\n→ Durcissement de l'intervention publique face aux dérives de l'économie de l'attention et défense du capital humain scolaire → accroche pour un sujet sur l'éducation ou le numérique."
+        },
+        {
+          "q": "Constat des inspections scolaires de l'Ofsted dans les établissements britanniques sans téléphone",
+          "r": "Amélioration mesurable des B{résultats académiques} et baisse nette des B{incidents de discipline}.\n→ Argument empirique montrant que la réduction des distractions numériques favorise la productivité et les apprentissages scolaires → argument pour un sujet sur la régulation des technologies."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-anglais-2",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/11/aldi-cuts-hundreds-of-uk-head-office-and-logistics-roles-global-cost-trimming",
+      "minutes": 3,
+      "titre": "Grande distribution au Royaume-Uni : Aldi supprime des centaines d'emplois administratifs face à l'érosion de ses marges",
+      "faits": "Le géant allemand du hard-discount Aldi a annoncé ce mercredi 11 novembre la suppression de plusieurs centaines d'emplois dans ses bureaux centraux et ses plateformes logistiques au Royaume-Uni. Cette restructuration s'inscrit dans un plan mondial d'économies visant à rationaliser les fonctions supports face à l'augmentation des coûts salariaux et énergétiques. Bien qu'Aldi ait conquis des parts de marché considérables au cours de la crise du coût de la vie pour devenir le quatrième distributeur britannique, ses marges bénéficiaires ont fondu sous la pression d'une concurrence féroce avec Tesco et Sainsbury's. Les chaînes historiques de supermarchés ont riposté en alignant agressivement leurs prix sur ceux des discounters grâce à leurs programmes de fidélité. Le distributeur a précisé que les effectifs en magasin ne seraient pas affectés et que son programme d'ouverture de nouveaux points de vente serait maintenu. Cette réduction d'effectifs dans les fonctions tertiaires illustre les difficultés rencontrées par le secteur du commerce de détail britannique face aux hausses consécutives du salaire minimum national et des cotisations patronales.",
+      "enjeux": "La décision d'Aldi met en lumière l'intensification de la **guerre des prix** et la contraction des marges d'exploitation dans un secteur de la distribution britannique hautement concentré. Durant la poussée inflationniste de 2022-2024, les discounters allemands (Aldi et Lidl) avaient bouleversé le marché en captant les consommateurs fragilisés par la crise du **coût de la vie** (*cost-of-living crisis*). Cependant, le retour à une inflation alimentaire plus modérée et la réaction tarifaire des leaders historiques ont érodé cet avantage concurrentiel de modèle économique. Le commerce de détail subit par ailleurs de plein fouet les choix budgétaires récents du gouvernement britannique, notamment la hausse du salaire minimum (*National Living Wage*) qui alourdit considérablement les charges fixes d'exploitation des entreprises de main-d'œuvre. Pour préserver leur rentabilité, les distributeurs sont contraints d'accélérer l'**automatisation** des entrepôts et de comprimer les coûts administratifs. Cette restructuration confirme que le marché britannique de la consommation de masse reste englué dans une croissance anémique et une prudence persistante des ménages.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/New_Aldi_Miami_FL_November_2023_-_exterior.jpg/1280px-New_Aldi_Miami_FL_November_2023_-_exterior.jpg",
+        "alt": "La devanture d'un supermarché discount Aldi",
+        "credit": "Michael Rivera / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:New_Aldi_Miami_FL_November_2023_-_exterior.jpg"
+      },
+      "vo": {
+        "titre": "Aldi slashes hundreds of UK head office and logistics jobs in global cost-cutting drive",
+        "faits": "On Wednesday 11 November, discount supermarket giant Aldi announced plans to axe hundreds of administrative and logistics roles across its British operations as part of a global restructuring drive. The German-owned retailer, which expanded rapidly during the cost-of-living crisis to become the UK's fourth-largest grocer, is trimming overhead costs in response to shrinking profit margins and soaring operating expenses. While Aldi continues to gain volume share, traditional supermarket titans Tesco and Sainsbury's have hit back fiercely by matching discount prices on essential staple goods through loyalty card schemes. Aldi insisted that customer-facing store workers would be shielded from the redundancies, and reaffirmed its long-term commitment to opening 500 new British stores. Nevertheless, the retrenchment underscores the intensifying economic headwinds facing UK retail, particularly following successive rises in statutory employer wage costs and commercial property levies.",
+        "enjeux": "Aldi's corporate downsizing reflects the cutthroat competitiveness of the UK grocery market, where heavy discounters are seeing their **margin resilience** tested by aggressive price-matching schemes. Having captured significant market share from the 'Big Four' during the inflation surge, discounters now face the challenge of defending those gains without sacrificing structural profitability. Furthermore, the retail sector is bearing the brunt of rising employment overheads, following consecutive hikes to the **National Living Wage** and employer National Insurance contributions mandated in Westminster. To maintain competitive price leadership, grocers must extract productivity gains by accelerating supply-chain automation and paring back white-collar headcounts. This development illustrates how low-margin, high-volume consumer industries are adjusting to prolonged stagnation in British real household disposable income."
+      },
+      "vocab": [
+        [
+          "to axe jobs",
+          "supprimer des emplois",
+          "The supermarket giant decided to axe hundreds of corporate jobs."
+        ],
+        [
+          "operating margin",
+          "la marge d'exploitation",
+          "Intense price competition led to sharply shrinking operating margins."
+        ],
+        [
+          "overhead costs",
+          "les coûts de structure / frais généraux",
+          "Firms must trim overhead costs to remain competitive in a tight market."
+        ],
+        [
+          "the cost-of-living crisis",
+          "la crise du coût de la vie",
+          "Consumers flocked to discounters during the cost-of-living crisis."
+        ],
+        [
+          "a price-matching scheme",
+          "un programme d'alignement des prix",
+          "Traditional grocers launched price-matching schemes to retain customers."
+        ],
+        [
+          "statutory wage",
+          "le salaire minimum légal",
+          "Rising statutory wage levels increased operational pressures on retailers."
+        ]
+      ],
+      "sujets": [
+        "How has the cost-of-living crisis reshaped the UK retail market and consumer behaviour?",
+        "Can brick-and-mortar retail remain viable amidst rising labour costs and intense price competition?"
+      ],
+      "anki": [
+        {
+          "q": "Rang d'Aldi sur le marché britannique de la grande distribution alimentaire (2026)",
+          "r": "B{Quatrième distributeur britannique}, derrière Tesco, Sainsbury's et Asda.\n→ Succès du modèle discount qui a capté des parts de marché majeures durant la crise du pouvoir d'achat mais subit désormais une érosion de ses marges → accroche pour un sujet sur l'économie britannique."
+        },
+        {
+          "q": "Nature des suppressions de postes annoncées par Aldi au Royaume-Uni (novembre 2026)",
+          "r": "Suppression de plusieurs centaines d'emplois dans les B{bureaux centraux} et la B{logistique}, magasins épargnés.\n→ Compression des coûts de structure pour absorber la hausse du salaire minimum et la guerre des prix → argument pour un sujet sur le travail et la compétitivité."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-anglais-3",
+      "matiere": "anglais",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/10/us/politics/bernie-sanders-chuck-schumer-senate.html",
+      "minutes": 3,
+      "titre": "Congrès américain : Bernie Sanders défie le leadership de Chuck Schumer au Sénat après le revers des Midterms",
+      "faits": "Le sénateur indépendant du Vermont Bernie Sanders a publiquement annoncé ce mardi 10 novembre son opposition à la reconduction de Chuck Schumer comme chef des démocrates au Sénat pour le prochain Congrès. Dans une déclaration cinglante, Sanders a fustigé la stratégie centriste et technocratique de l'état-major démocrate, qu'il juge directement responsable de la perte de sièges cruciaux lors des récentes élections de mi-mandat. L'ancien candidat à la présidence a appelé à une refonte complète de la ligne politique du parti, réclamant un programme résolument populiste axé sur la défense des salaires ouvriers, l'accès universel aux soins et la fin des financements électoraux par les grandes entreprises. Cette fronde de l'aile progressiste intervient alors que les démocrates se divisent profondément sur les leçons à tirer du scrutin, certains modérés imputant au contraire leurs défaites aux positions sociétales jugées trop radicales. Schumer, sénateur expérimenté de New York à la tête du groupe depuis 2017, a réagi en défendant son bilan législatif et en affirmant détenir une majorité solide parmi ses pairs pour conserver son poste.",
+      "enjeux": "Ce duel au sommet du Sénat met à nu la **fracture idéologique** majeure qui déchire le Parti démocrate américain quant à sa stratégie électorale et sa sociologie politique. Après avoir perdu une part croissante de la **classe ouvrière** blanche et hispanique au profit du populisme trumpiste, la gauche démocrate incarnée par Sanders estime que seul un discours économique de rupture peut reconstituer la coalition électorale du New Deal. À l'inverse, l'establishment centriste craint qu'un virage à gauche n'effraie les électeurs modérés des banlieues pavillonnaires (*suburbs*), devenus indispensables pour remporter la Maison-Blanche et le Congrès. Cette bataille pour le leadership illustre l'impasse stratégique d'une opposition démocrate confrontée à la domination institutionnelle des républicains et à l'absence de figure rassembleuse en vue de la présidentielle de 2028. Elle reflète également la crise de légitimité des élites gérontocratiques de Washington, contestées tant sur leur efficacité que sur leur capacité à incarner les aspirations des jeunes générations.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Crop_of_Senate_Chamber_at_United_States_Capitol%2C_1867_%2827269170214%29.jpg/1280px-Crop_of_Senate_Chamber_at_United_States_Capitol%2C_1867_%2827269170214%29.jpg",
+        "alt": "L'hémicycle du Sénat des États-Unis au Capitole",
+        "credit": "Architect of the Capitol / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Crop_of_Senate_Chamber_at_United_States_Capitol,_1867_(27269170214).jpg"
+      },
+      "vo": {
+        "titre": "Bernie Sanders breaks with Chuck Schumer, opposing his bid for Senate Democratic leadership",
+        "faits": "On Tuesday 10 November, independent Senator Bernie Sanders delivered a sharp rebuke to the Democratic establishment by publicly opposing Chuck Schumer's re-election as Senate Democratic leader. Sanders argued that the party's cautious, corporate-friendly posture bore primary responsibility for disappointing performances in the recent midterm elections. In a detailed statement, the Vermont progressive called for an unapologetically populist transformation focused on universal healthcare, aggressive union support, and working-class economic revival. The challenge lays bare deep recriminations within Democratic ranks, where moderates argue instead that progressive social stances alienated swing-state voters. Schumer, who has marshaled the Senate caucus since 2017, defended his record of legislative accomplishments and expressed confidence that he retained broad support among colleagues to withstand the challenge. However, the rebellion highlights simmering frustration over generational and ideological inertia at the top of Capitol Hill.",
+        "enjeux": "The open revolt against Schumer exposes a defining existential debate over the Democratic Party's **electoral coalition** and identity in post-midterm America. Having witnessed sustained attrition among non-college-educated and blue-collar voters, the progressive wing contends that only a robust economic populist agenda can dismantle right-wing populism's appeal. Conversely, moderate Democrats fear that tilting further left will jeopardize vital gains in affluent, suburban districts that proved crucial in resisting past Republican waves. The clash underscores the broader difficulty of forging a coherent governing message amid intense **political polarization** and shifting voter alignments. With the 2028 presidential cycle already casting a shadow, this internal contest will determine whether Democrats position themselves as defenders of institutional norms or champions of progressive economic disruption."
+      },
+      "vocab": [
+        [
+          "a leadership bid",
+          "une candidature à la direction (d'un parti)",
+          "Schumer launched his leadership bid amid growing internal dissent."
+        ],
+        [
+          "working-class voters",
+          "les électeurs de la classe ouvrière",
+          "Democrats have experienced painful defections among working-class voters."
+        ],
+        [
+          "the establishment",
+          "l'appareil / l'ordre établi",
+          "Progressive insurgents directly challenged the party establishment."
+        ],
+        [
+          "a swing state",
+          "un État pivot / indécis",
+          "Centrists worry about alienating moderate voters in crucial swing states."
+        ],
+        [
+          "generational turnover",
+          "le renouvellement générationnel",
+          "Activists are demanding urgent generational turnover in party leadership."
+        ],
+        [
+          "blue-collar workers",
+          "les travailleurs manuels / ouvriers",
+          "A populist economic message aims to win back blue-collar workers."
+        ]
+      ],
+      "sujets": [
+        "Is the Democratic Party capable of rebuilding its historic working-class coalition?",
+        "How does internal ideological division impair political opposition in the United States?"
+      ],
+      "anki": [
+        {
+          "q": "Position prise par Bernie Sanders sur le leadership démocrate au Sénat après les Midterms (novembre 2026)",
+          "r": "B{Opposition publique} à la reconduction de Chuck Schumer comme chef de file des démocrates au Sénat.\n→ Fracture idéologique majeure entre l'aile populiste progressiste et l'establishment centriste du Parti démocrate → accroche pour un sujet sur la politique américaine."
+        },
+        {
+          "q": "Argument principal de Bernie Sanders pour justifier sa fronde contre Schumer",
+          "r": "Rejet d'une ligne jugée B{trop modérée et liée aux grandes entreprises}, réclamation d'un programme axé sur la B{classe ouvrière}.\n→ Débat central sur la sociologie électorale démocrate face à la montée du populisme trumpiste → argument pour un sujet sur les partis et le Congrès américain."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-anglais-4",
+      "matiere": "anglais",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/11/10/democrats-national-popular-vote-electoral-college-2028-wisconsin-michigan-pennsylvania-01158164",
+      "minutes": 3,
+      "titre": "Système électoral américain : les démocrates relancent l'initiative du vote populaire national face au Collège électoral",
+      "faits": "À la suite des résultats contestés des récentes élections de mi-mandat, plusieurs gouverneurs et élus démocrates de premier plan ont lancé une campagne coordonnée pour relancer le pacte du vote populaire national (National Popular Vote Interstate Compact). Ce projet vise à court-circuiter le fonctionnement traditionnel du Collège électoral sans nécessiter d'amendement constitutionnel, en engageant les États signataires à attribuer tous leurs grands électeurs au vainqueur du vote populaire national. Le pacte rassemble déjà dix-sept États et le district de Columbia, représentant 209 voix électorales, soit 61 voix de moins que le seuil décisif de 270 voix requis pour son entrée en vigueur. Les stratèges démocrates concentrent désormais leurs efforts de lobbying législatif sur des États clés de la Rust Belt tels que le Michigan, la Pennsylvanie et le Wisconsin. Les républicains et les juristes conservateurs dénoncent une manœuvre inconstitutionnelle destinée à favoriser les zones urbaines côtières très peuplées au détriment des États ruraux. Les partisans de la réforme affirment quant à eux que ce mécanisme restaurerait le principe démocratique fondamental « une personne, une voix » lors du scrutin présidentiel de 2028.",
+      "enjeux": "Cette offensive institutionnelle réactive l'un des débats les plus structurels de la démocratie américaine : la légitimité du **Collège électoral** et le biais territorial de la Constitution de 1787. Conçu par les pères fondateurs pour équilibrer le poids des petits États agricoles face aux grands centres de population, le système électoral a produit à deux reprises au XXIe siècle (2000 et 2016) la victoire d'un président ayant perdu le vote populaire national. Ce décalage nourrit un profond sentiment de **déficit démocratique** chez les électeurs démocrates, dont la domination démographique dans les métropoles californiennes ou new-yorkaises est neutralisée par le système du *winner-take-all*. Cependant, le contournement du Collège électoral par un accord interétatique pose des questions juridiques inédites au regard de la clause des pactes (*Compact Clause*) de la Constitution, promettant une bataille inévitable devant la **Cour suprême**. Ce conflit illustre comment les règles du jeu électoral sont devenues un champ de bataille partisan existentiel dans une Amérique polarisée où chaque camp perçoit les règles électorales adverses comme une menace pour sa survie politique.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg/1280px-Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg",
+        "alt": "Un isoloir et un bureau de vote aux États-Unis",
+        "credit": "Ktkvtsh / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg"
+      },
+      "vo": {
+        "titre": "Democrats revive National Popular Vote campaign to bypass Electoral College ahead of 2028",
+        "faits": "In the wake of divisive midterm election battles, influential Democratic governors and state legislators have initiated a coordinated drive to reactivate the National Popular Vote Interstate Compact. The statutory initiative seeks to neutralize the traditional mechanics of the Electoral College without requiring a federal constitutional amendment, by pledging participating states to award their electoral votes to whichever presidential candidate wins the nationwide popular vote. The compact has already been codified by seventeen states and the District of Columbia, accounting for 209 electoral votes – just 61 votes short of the critical 270 threshold needed for activation. Organizers are now channeling resources into legislative pushes across pivotal battleground states, including Michigan, Pennsylvania, and Wisconsin. Conservative legal scholars and Republican leaders have vehemently condemned the initiative as an unconstitutional end-run around the Constitution designed to disenfranchise rural states. Proponents argue that the reform is urgently required to uphold the foundational democratic doctrine of 'one person, one vote' in the 2028 presidential contest.",
+        "enjeux": "The revived push highlights enduring dissatisfaction with the structural **counter-majoritarian features** embedded within the American constitutional framework. Created by the Framers to prevent populous states from dominating smaller agrarian commonwealths, the Electoral College has repeatedly elevated candidates who lost the popular vote, fueling widespread skepticism regarding institutional **democratic legitimacy**. Because demographic concentration in urban enclaves inflates Democratic popular margins without translating into geographic electoral power, Democrats perceive the status quo as a structural disadvantage. Nevertheless, enacting the interstate compact without formal congressional consent would trigger an unprecedented constitutional showdown under Article I's Compact Clause, inevitably landing before a conservative **Supreme Court**. The struggle exemplifies how electoral procedures themselves have become heavily weaponized in a hyper-polarized polity where demographic divergence clashes with historic federalist architecture."
+      },
+      "vocab": [
+        [
+          "the Electoral College",
+          "le Collège électoral",
+          "Critics argue the Electoral College distorts democratic representation."
+        ],
+        [
+          "the popular vote",
+          "le vote populaire (suffrage direct)",
+          "The candidate won the popular vote but lost the presidency."
+        ],
+        [
+          "an interstate compact",
+          "un accord / pacte entre États",
+          "States entered an interstate compact to reform the electoral system."
+        ],
+        [
+          "a battleground state",
+          "un État charnière / clé",
+          "Campaign strategists focus all their efforts on battleground states."
+        ],
+        [
+          "a counter-majoritarian feature",
+          "un mécanisme contre-majoritaire",
+          "The Senate and Electoral College are key counter-majoritarian features."
+        ],
+        [
+          "an end-run around",
+          "un contournement / une manœuvre de contournement",
+          "Opponents called the compact an end-run around the Constitution."
+        ]
+      ],
+      "sujets": [
+        "Does the Electoral College still serve its original constitutional purpose in modern America?",
+        "Can institutional reforms restore public trust in American electoral outcomes?"
+      ],
+      "anki": [
+        {
+          "q": "Nombre de grands électeurs réunis par le National Popular Vote Interstate Compact (novembre 2026)",
+          "r": "C{209 voix électorales} (adopté par 17 États et Washington D.C.), sur les C{270} requises pour son entrée en vigueur.\n→ Initiative institutionnelle visant à contourner le Collège électoral sans amendement constitutionnel → accroche pour un sujet sur les institutions américaines."
+        },
+        {
+          "q": "Objectif juridique du National Popular Vote Interstate Compact",
+          "r": "Engager chaque État signataire à attribuer la B{totalité de ses grands électeurs} au vainqueur du B{vote populaire national}.\n→ Tentative de garantir que le vainqueur du suffrage universel direct remporte toujours la présidence des États-Unis → argument pour un sujet sur la démocratie et le fédéralisme."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-espagnol-1",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/economia/2026-11-10/los-sindicatos-llaman-a-espana-a-una-huelga-general-por-primera-vez-en-14-anos.html",
+      "minutes": 3,
+      "titre": "Conflit social en Espagne : les syndicats appellent à la première grève générale depuis quatorze ans face à la cherté de la vie",
+      "faits": "Les deux grandes centrales syndicales espagnoles, Comisiones Obreras (CCOO) et l'Union Générale des Travailleurs (UGT), ont appelé ce 11 novembre à une grève générale dans tout le pays, une mobilisation interprofessionnelle inédite depuis 2012. Le mot d'ordre unitaire vise à dénoncer la dégradation du pouvoir d'achat, l'envolée incontrôlée des loyers dans les métropoles et la précarité persistante des jeunes travailleurs. La journée de protestation a débuté dès l'aube par des piquets de grève dans les transports publics et les grands centres logistiques, tandis que le ministère de l'Équipement a imposé des services minimaux stricts. Fait politique marquant, les partis de gauche au pouvoir et leurs partenaires parlementaires ont exprimé une forme de soutien bienveillant aux revendications sociales, affirmant que la pression de la rue doit accélérer les réformes. À l'opposé, les organisations patronales de la CEOE et les partis d'opposition de droite (PP et Vox) ont fustigé une grève qualifiée d'irresponsable et de politique, accusant les syndicats de nuire à la reprise économique. Des dizaines de manifestations massives ont été organisées à Madrid, Barcelone, Valence et Séville.",
+      "enjeux": "Ce retour de la **grève générale** après quatorze années de paix sociale relative marque une rupture dans le modèle espagnol de concertation et de dialogue tripartite. Malgré des chiffres macroéconomiques de croissance enviables et un taux d'inflation officiel plus modéré que chez ses voisins, l'Espagne subit une crise profonde de l'**accessibilité au logement** et une baisse continue du salaire réel des classes moyennes. Le paradoxe d'un gouvernement progressiste qui encourage implicitement une grève tout en gérant les services publics illustre la complexité du jeu parlementaire et le besoin de neutraliser la montée électorale de la droite. Les syndicats cherchent quant à eux à réaffirmer leur rôle de corps intermédiaire incontournable, alors que les mouvements citoyens pour le logement (*sindicatos de inquilinas*) menacent de déborder les structures traditionnelles. Cette mobilisation met en relief la fracture entre un marché du travail assaini par la réforme de 2021 et un coût de la vie qui paupérise les jeunes générations. Elle constitue un test décisif pour la stabilité politique de Pedro Sánchez à l'approche de scrutins décisifs.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Palacio_de_Comunicaciones%2C_Plaza_de_Cibeles%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_32-34_HDR.jpg/1280px-Palacio_de_Comunicaciones%2C_Plaza_de_Cibeles%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_32-34_HDR.jpg",
+        "alt": "La place Cybèle et le palais des communications à Madrid",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Comunicaciones,_Plaza_de_Cibeles,_Madrid,_Espa%C3%B1a,_2017-05-18,_DD_32-34_HDR.jpg"
+      },
+      "vo": {
+        "titre": "Los sindicatos paralizan España en la primera huelga general en catorce años por el poder adquisitivo",
+        "faits": "Este 11 de noviembre, las dos principales centrales sindicales de España, CCOO y UGT, encabezaron una jornada de huelga general que marca la primera movilización intersectorial de esta envergadura desde 2012. El llamamiento a la protesta busca denunciar el encarecimiento desmedido de la vivienda, la pérdida acumulada de poder adquisitivo y la persistente precariedad laboral que golpea a las familias trabajadoras. La jornada arrancó de madrugada con piquetes informativos en nudos logísticos y estaciones de transporte, mientras el Ministerio de Transportes garantizaba unos servicios mínimos estrictos para mitigar el caos circulatorio. En un giro paradójico, los partidos que sustentan al Gobierno progresista manifestaron su simpatía hacia las reivindicaciones sociales, considerándolas un acicate para acelerar el escudo social. Por su parte, la patronal CEOE y las formaciones de la oposición (PP y Vox) tildaron el paro de irresponsable y puramente ideológico, acusando a los líderes sindicales de perjudicar la productividad nacional. Multitudinarias manifestaciones recorrieron los centros urbanos de Madrid, Barcelona, Valencia y Sevilla.",
+        "enjeux": "La convocatoria de una huelga general quiebra más de una década de paz social y expone la creciente brecha entre la solidez de los agregados macroeconómicos y el deterioro palpable de la economía cotidiana en España. Aunque el país lidera el crecimiento en la zona euro gracias al turismo y a la creación de empleo, el colapso del **acceso a la vivienda** y la inflación acumulada han erosionado el bienestar de la clase trabajadora. Para el Ejecutivo de coalición, la protesta entraña el desafío de gestionar el descontento ciudadano sin desestabilizar los pactos parlamentarios que sostienen su precaria mayoría en el Congreso. Los sindicatos tradicionales se juegan asimismo su legitimidad representativa frente al auge de colectivos asamblearios y sindicatos de inquilinas que reclaman medidas más contundentes como la huelga de alquileres. Este conflicto subraya que la **paz social** no está garantizada únicamente por reformas laborales, sino que exige respuestas estructurales ante la especulación inmobiliaria y la pérdida de tracción salarial."
+      },
+      "vocab": [
+        [
+          "una huelga general",
+          "une grève générale",
+          "Los sindicatos convocaron una huelga general tras catorce años de tregua."
+        ],
+        [
+          "el poder adquisitivo",
+          "le pouvoir d'achat",
+          "La inflación de los alimentos ha mermado el poder adquisitivo de los hogares."
+        ],
+        [
+          "los servicios mínimos",
+          "le service minimum",
+          "El ministerio fijó unos servicios mínimos estrictos en los trenes de cercanías."
+        ],
+        [
+          "la patronal",
+          "le patronat / les organisations patronales",
+          "La patronal empresarial criticó con dureza el paro general."
+        ],
+        [
+          "el encarecimiento de la vivienda",
+          "l'envolée des prix du logement",
+          "El encarecimiento de la vivienda impide la emancipación juvenil."
+        ],
+        [
+          "un piquete informativo",
+          "un piquet de grève informatif",
+          "Varios piquetes informativos bloquearon los accesos al mercado central."
+        ]
+      ],
+      "sujets": [
+        "¿Puede un gobierno progresista conciliar el apoyo a la protesta social con la gestión de la economía?",
+        "¿Es la crisis de la vivienda el principal factor de fractura social en la España contemporánea?"
+      ],
+      "anki": [
+        {
+          "q": "Première grève générale unitaire organisée en Espagne depuis 2012 (novembre 2026)",
+          "r": "Convoquée par B{CCOO et l'UGT} pour protester contre la crise du logement et la dégradation du pouvoir d'achat.\n→ Rupture de quatorze années de paix sociale malgré une croissance économique officielle supérieure à la moyenne européenne → accroche pour un sujet sur l'Espagne ou les mouvements sociaux."
+        },
+        {
+          "q": "Position du patronat espagnol (CEOE) face à la grève générale de novembre 2026",
+          "r": "Condamnation ferme, dénonciation d'un B{mouvement politique et irresponsable} nuisible à la productivité et aux entreprises.\n→ Polarisation vive entre dialogue social institutionnel et contestation populaire de rue → argument pour un sujet sur le dialogue social en Espagne."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-espagnol-2",
+      "matiere": "espagnol",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/economia/2026/11/11/6af2ff74e4d4d8787d8b4574.html",
+      "minutes": 3,
+      "titre": "Protection sociale en Espagne : les vingt ans de la loi sur la dépendance révèlent des failles administratives persistantes",
+      "faits": "À l'occasion du vingtième anniversaire de la promulgation de la loi sur la dépendance (Ley de Dependencia), un rapport publié ce 11 novembre par l'Association des directeurs et gestionnaires de services sociaux révèle un bilan alarmant de l'État providence espagnol. Bien que les listes d'attente aient reculé à un niveau historiquement bas grâce à des simplifications procédurales, plus de 8 600 personnes dépendantes sont mortes au cours des six premiers mois de l'année 2026 sans avoir reçu l'aide financière ou l'assistance à domicile à laquelle elles avaient droit. Le délai moyen de traitement d'un dossier reste supérieur à 300 jours, avec de très lourdes disparités entre les communautés autonomes, certaines régions accumulant plus d'un an de retard. Le financement du système continue de faire l'objet d'un conflit budgétaire permanent entre le pouvoir central à Madrid et les gouvernements régionaux, qui assument près de 70 % des coûts effectifs contre seulement 30 % pour l'État central. Le rapport souligne l'urgence de professionnaliser les aidants et de revaloriser les salaires des employés du secteur médico-social, massivement féminisé et sous-payé.",
+      "enjeux": "Ce constat met en lumière les limites structurelles du **quatrième pilier de l'État providence** espagnol dans un pays confronté à l'un des vieillissements démographiques les plus rapides au monde. Conçue en 2006 sous le gouvernement Zapatero comme une conquête sociale historique, la loi sur la dépendance a souffert d'un sous-financement chronique aggravé par les politiques d'austérité post-2008. La décentralisation administrative et le **fédéralisme asymétrique** espagnol créent de profondes inégalités territoriales de traitement des citoyens selon leur lieu de résidence. Alors que l'espérance de vie espagnole figure parmi les plus élevées de la planète, le manque d'investissements publics dans les infrastructures médico-sociales reporte le fardeau des soins sur les familles et alimente le travail informel des femmes immigrées. Le débat budgétaire autour de la dépendance pose la question du consentement à l'impôt et de la soutenabilité financière des services publics essentiels face au défi du grand âge.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ministerio_de_Sanidad_de_Espa%C3%B1a_%28Madrid%29_08.jpg/1280px-Ministerio_de_Sanidad_de_Espa%C3%B1a_%28Madrid%29_08.jpg",
+        "alt": "La façade du ministère de la Santé et des Affaires sociales à Madrid",
+        "credit": "Luis García / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ministerio_de_Sanidad_de_Espa%C3%B1a_(Madrid)_08.jpg"
+      },
+      "vo": {
+        "titre": "Las sombras de la Ley de Dependencia a los 20 años: miles de personas mueren atrapadas en el limbo burocrático",
+        "faits": "Al cumplirse veinte años de la aprobación de la Ley de Promoción de la Autonomía Personal y Atención a las Personas en Situación de Dependencia, un demoledor informe de la Asociación de Directores y Gerentes de Servicios Sociales sacude el debate público este 11 de noviembre. Pese a que las listas de espera han descendido a mínimos estadísticos, el estudio denuncia que más de 8.600 dependientes fallecieron durante el primer semestre de 2026 esperando la resolución efectiva de sus prestaciones reconocidas. El tiempo medio de tramitación administrativa roza aún los 300 días, mostrando fracturas territoriales extremas entre comunidades autónomas como el País Vasco y Cataluña o Andalucía. El modelo de financiación perpetúa un agrio choque competencial entre el Ministerio de Derechos Sociales y los gobiernos autonómicos, que denuncian soportar casi el 70 % del gasto real frente al escaso 30 % aportado por el Estado. Los expertos exigen una inyección presupuestaria inmediata para dignificar los salarios de las trabajadoras del sector asistencial y erradicar la precariedad de los cuidados.",
+        "enjeux": "La brecha burocrática de la dependencia evidencia la fragilidad del **Estado del bienestar** en España ante una de las transiciones demográficas más aceleradas de la Unión Europea. La norma fundacional de 2006 aspiraba a consagrar un cuarto pilar universal equiparable a la sanidad, la educación y las pensiones, pero nació lastrada por insuficiencias financieras y fue cercenada durante los recortes de la crisis de 2008. La falta de corresponsabilidad fiscal y la dispersión autonómica generan ciudadanos de primera y de segunda clase en el acceso a la atención residencial y la teleasistencia. Esta crisis asistencial sobrecarga de manera desproporcionada a las familias y perpetúa la invisibilización del **trabajo reproductivo**, recayendo mayoritariamente sobre mujeres y cuidadoras migrantes no regularizadas. Resolver la asfixia del sistema de dependencia constituye un imperativo ético y económico ineludible para garantizar la dignidad intergeneracional en una sociedad hiperenvejecida."
+      },
+      "vocab": [
+        [
+          "la Ley de Dependencia",
+          "la loi sur la dépendance",
+          "La Ley de Dependencia cumple veinte años con serias deficiencias."
+        ],
+        [
+          "el limbo burocrático",
+          "le vide / purgatoire administratif",
+          "Miles de dependientes quedan atrapados en el limbo burocrático."
+        ],
+        [
+          "las prestaciones sociales",
+          "les prestations sociales",
+          "Las familias esperan meses antes de cobrar las prestaciones sociales."
+        ],
+        [
+          "el envejecimiento demográfico",
+          "le vieillissement démographique",
+          "España afronta un vertiginoso envejecimiento demográfico."
+        ],
+        [
+          "la atención domiciliaria",
+          "l'aide à domicile",
+          "Es urgente financiar adecuadamente los servicios de atención domiciliaria."
+        ],
+        [
+          "la disparidad territorial",
+          "la disparité territoriale",
+          "Existen acusadas disparidades territoriales en los plazos de tramitación."
+        ]
+      ],
+      "sujets": [
+        "¿Es el sistema autonómico un obstáculo para la igualdad en el acceso al Estado del bienestar?",
+        "¿Cómo puede una sociedad envejecida garantizar la sostenibilidad del cuidado a la dependencia?"
+      ],
+      "anki": [
+        {
+          "q": "Nombre de personnes dépendantes mortes en Espagne en attente de leur aide publique (premier semestre 2026)",
+          "r": "Plus de C{8 600 personnes} décédées sans avoir reçu la prestation à laquelle elles avaient droit.\n→ Illustration dramatique des lenteurs administratives et du sous-financement de la dépendance en Espagne → accroche pour un sujet sur l'État providence ou la démographie espagnole."
+        },
+        {
+          "q": "Répartition effective du financement de la dépendance entre régions et État central en Espagne",
+          "r": "Les B{communautés autonomes financent près de 70 %} des coûts effectifs, contre seulement B{30 % pour l'État central}.\n→ Conflit budgétaire permanent et disparités territoriales majeures au sein du modèle décentralisé espagnol → argument pour un sujet sur le fédéralisme et les politiques sociales."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-espagnol-3",
+      "matiere": "espagnol",
+      "source": "Clarín",
+      "url": "https://www.clarin.com/economia/efecto-importaciones-produccion-textil-cayo-34-anos-gestion-milei-perdieron-1000-empresas_0_7Cjj8ZmqfK.html",
+      "minutes": 3,
+      "titre": "Industrie en Argentine : l'ouverture commerciale accélérée entraîne la fermeture de 1 000 entreprises textiles en trois ans",
+      "faits": "Selon un rapport accablant de la Fondation Pro Tejer et de l'Union industrielle argentine (UIA) publié ce 10 novembre, la production textile nationale a chuté de 34 % au cours des trois dernières années, frappée de plein fouet par la dérégulation commerciale du gouvernement de Javier Milei. L'abaissement radical des droits de douane et la facilitation des importations de vêtements asiatiques à bas coûts ont provoqué la disparition de plus de 1 000 petites et moyennes entreprises du secteur textile. Plus de 25 000 emplois formels directs ont été détruits dans cette filière historiquement protégée, concentrée principalement dans la province de Buenos Aires et le nord du pays. Le président argentin défend sans concession sa politique d'ouverture commerciale intégrale, soutenant que la concurrence internationale permet d'éradiquer les rentes monopolistiques des industriels locaux et de faire baisser les prix pour les consommateurs. Cependant, les dirigeants patronaux alertent sur la perte irrémédiable de savoir-faire industriel et sur l'explosion du chômage dans les bassins manufacturiers traditionnels. Les industriels dénoncent également le maintien d'une fiscalité locale étouffante qui pénalise la compétitivité face aux produits importés exemptés de charges.",
+      "enjeux": "Ce choc industriel illustre le débat historique entre **protectionnisme éducateur** et **libre-échange radical** qui traverse l'économie argentine depuis deux siècles. En appliquant une thérapie de choc néolibérale fondée sur l'ouverture brutale des frontières commerciales, le gouvernement Milei entend briser le modèle d'**industrialisation par substitution aux importations** (ISI) hérité du péronisme. Toutefois, cette ouverture asymétrique sans gains préalables de productivité ni allègements fiscaux sur les intrants nationaux engendre une **désindustrialisation précoce** et détruit un tissu manufacturier dense. Le contraste est violent entre les gains de pouvoir d'achat immédiats pour les classes moyennes urbaines achetant des biens importés et la dévastation sociale des ceintures ouvrières industrielles. Cette crise réactive les analyses structuralistes de Raúl Prebisch sur la vulnérabilité des économies périphériques cantonnées à l'exportation de matières premières agricoles et minières. Elle pose la question de la soutenabilité d'un modèle de croissance qui sacrifie l'emploi industriel sur l'autel de la désinflation rapide.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Parte_superior_del_Obelisco_de_Buenos_Aires.jpg/1280px-Parte_superior_del_Obelisco_de_Buenos_Aires.jpg",
+        "alt": "La partie supérieure de l'Obélisque sur l'avenue 9 de Julio à Buenos Aires",
+        "credit": "Gusfraba / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Parte_superior_del_Obelisco_de_Buenos_Aires.jpg"
+      },
+      "vo": {
+        "titre": "Impacto de la apertura comercial en Argentina: la producción textil se desploma y cierran 1.000 fábricas",
+        "faits": "Un informe de la Fundación Pro Tejer y la Unión Industrial Argentina difundido este 10 de noviembre revela la gravedad de la crisis que atraviesa la industria manufacturera nacional: la producción textil se contrajo un 34 % en los últimos tres años, arrastrada por la acelerada desregulación comercial impulsada por la administración de Javier Milei. La rebaja abrupta de aranceles y la flexibilización de las importaciones de indumentaria procedente de Asia precipitaron la quiebra y el cese de operaciones de más de 1.000 pequeñas y medianas empresas textiles en todo el territorio. El derrumbe de la actividad conllevó la destrucción de más de 25.000 puestos de trabajo formales, castigando duramente al conurbano bonaerense y a las provincias norteñas. Mientras el mandatario libertario reivindica la apertura comercial sin restricciones para dinamitar los monopolios prebendarios y abaratar los precios al consumidor, la industria nacional advierte de una desarticulación productiva irreversible. Los industriales reclaman que resulta imposible competir contra subsidios foráneos mientras subsistan el cepo cambiario y una asfixiante presión impositiva interna.",
+        "enjeux": "La debacle del sector textil reactiva el clásico dilema estructural entre el modelo agroexportador aperturista y la defensa de la **industria sustitutiva de importaciones** en la historia económica latinoamericana. Para los partidarios de la Escuela Austríaca en el poder, exponer a las empresas a la competencia global es el único mecanismo legítimo para extirpar ineficiencias y reasignar factores productivos hacia sectores competitivos como el campo y la energía. Sin embargo, los economistas de corte desarrollista replican que la apertura comercial sin una reconversión tecnológica coordinada desmantela el **capital humano industrial** y dispara la exclusión social. El ajuste evidencia además el choque distributivo entre los consumidores urbanos beneficiados por precios deprimidos y las comunidades dependientes de factorías locales abocadas al desempleo estructural. La política de shock de Milei reedita así los experimentos desreguladores de Martínez de Hoz y Menem, cuestionando si Argentina puede desarrollarse únicamente mediante la extracción de recursos naturales."
+      },
+      "vocab": [
+        [
+          "la apertura comercial",
+          "l'ouverture commerciale / le libre-échange",
+          "La apertura comercial acelerada provocó la quiebra de fábricas textiles."
+        ],
+        [
+          "el desplome de la producción",
+          "l'effondrement de la production",
+          "Las industrias manufactureras sufren un desplome histórico de la producción."
+        ],
+        [
+          "la sustitución de importaciones",
+          "la substitution aux importations (ISI)",
+          "Argentina debatió durante décadas el modelo de sustitución de importaciones."
+        ],
+        [
+          "la quiebra empresarial",
+          "la faillite d'entreprises",
+          "La entrada masiva de productos asiáticos desató una ola de quiebras."
+        ],
+        [
+          "la desindustrialización",
+          "la désindustrialisation",
+          "Los sindicatos advierten sobre un proceso irreversible de desindustrialización."
+        ],
+        [
+          "el conurbano bonaerense",
+          "la banlieue industrielle de Buenos Aires",
+          "La pérdida de empleo manufacturero golpea con fuerza al conurbano."
+        ]
+      ],
+      "sujets": [
+        "¿Puede la apertura comercial indiscriminada modernizar la economía de un país en desarrollo?",
+        "¿Es compatible el libre mercado radical con la preservación del tejido industrial en América Latina?"
+      ],
+      "anki": [
+        {
+          "q": "Chute de la production textile en Argentine sur trois ans sous le mandat de Javier Milei",
+          "r": "B{Recul de 34 %} de la production et B{fermeture de plus de 1 000 PME} textiles.\n→ Conséquence brutale de l'ouverture commerciale accélérée et de la fin de la protection douanière pour l'industrie nationale → accroche pour un sujet sur l'Amérique latine ou le commerce international."
+        },
+        {
+          "q": "Nombre d'emplois formels détruits dans le secteur textile argentin face aux importations",
+          "r": "Plus de C{25 000 emplois industriels} supprimés, principalement dans la province de Buenos Aires.\n→ Illustration du coût social de la thérapie de choc néolibérale et du débat sur la désindustrialisation précoce → argument pour un sujet sur le protectionnisme et le libre-échange."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-espagnol-4",
+      "matiere": "espagnol",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cm4g109r03npo",
+      "minutes": 3,
+      "titre": "Fiscalité au Mexique : le défi structurel de la faible pression fiscale face à l'essor des dépenses sociales",
+      "faits": "Une enquête économique approfondie publiée par BBC Mundo ce 10 novembre décrypte le paradoxe budgétaire du Mexique, pays qui affiche la pression fiscale la plus faible de toute la zone OCDE avec seulement 16,9 % du PIB en recettes fiscales. Alors que la présidente Claudia Sheinbaum s'est engagée à pérenniser et étendre les programmes sociaux massifs initiés par son prédécesseur, le gouvernement mexicain refuse catégoriquement d'engager une réforme fiscale d'envergure par crainte d'effrayer les investisseurs. Pour financer les pensions de retraite universelles et les bourses étudiantes, l'administration fiscale (SAT) s'est concentrée sur la lutte agressive contre l'évasion des grands conglomérats nationaux et des multinationales. Toutefois, cette stratégie de recouvrement extraordinaire atteint ses limites mécaniques, tandis que le secteur informel continue d'employer plus de 54 % de la population active hors de tout prélèvement d'impôt direct. Les agences de notation financière et le FMI avertissent qu'en l'absence d'une refonte fiscale moderne, le déficit public mexicain continuera d'enfler, menaçant la stabilité macroéconomique et la solvabilité de l'État à l'horizon 2028.",
+      "enjeux": "Ce dilemme fiscal mexicain illustre la difficulté historique des économies latino-américaines à asseoir un **État providence pérenne** sans assiette fiscale large et progressive. Le recours à l'austérité républicaine et aux recettes douanières et pétrolières a longtemps permis de compenser la faiblesse de l'impôt sur le revenu, mais l'épuisement des gisements de Pemex rend ce modèle caduc. La persistance d'une gigantesque **économie informelle** constitue un obstacle structurel à la collecte de l'impôt direct, limitant la solidarité nationale et privant les travailleurs de droits sociaux formels. En refusant de taxer plus lourdement les grandes fortunes et le capital, le parti Morena cherche à préserver l'attractivité du pays pour le phénomène du **nearshoring**, où les usines américaines se délocalisent au Mexique pour contourner les droits de douane chinois. Cette équation budgétaire fragile démontre qu'aucun modèle de redistribution sociale durable ne peut s'affranchir d'un pacte fiscal équitable et consenti par l'ensemble des couches de la société.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Patio_Central_en_Palacio_Nacional_Mexico_2019.jpg/1280px-Patio_Central_en_Palacio_Nacional_Mexico_2019.jpg",
+        "alt": "Le patio central du Palais National à Mexico",
+        "credit": "Luis Argerich / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Patio_Central_en_Palacio_Nacional_Mexico_2019.jpg"
+      },
+      "vo": {
+        "titre": "La paradoja fiscal de México: cómo sostener un ambicioso Estado de bienestar con la recaudación más baja de la OCDE",
+        "faits": "Un exhaustivo análisis publicado por BBC Mundo este 10 de noviembre pone el foco en el laberinto presupuestario de México, la segunda mayor economía de América Latina, cuya recaudación tributaria se sitúa en un raquítico 16,9 % del PIB, el nivel más bajo de los países de la OCDE. A pesar de que la administración de Claudia Sheinbaum se ha comprometido a consolidar los programas asistenciales y las pensiones universales para personas mayores, el Ejecutivo descarta acometer una reforma tributaria profunda para no alterar la confianza inversora. Hasta ahora, el Servicio de Administración Tributaria (SAT) ha sostenido el incremento del gasto social persiguiendo la evasión fiscal de grandes corporaciones y exprimiendo litigios adeudados. Sin embargo, los economistas advierten de que esta vía fiscalizadora ha tocado techo, mientras que la economía informal sigue englobando a más del 54 % de la fuerza laboral fuera del radar contributivo. Organismos multilaterales alertan de que, sin un pacto fiscal que ensanche la base gravable, el déficit fiscal comprometerá la calificación crediticia del país en el mediano plazo.",
+        "enjeux": "La encrucijada tributaria mexicana refleja un mal endémico de los sistemas económicos en América Latina: la inviabilidad de consolidar un **Estado de bienestar robusto** sin una estructura impositiva progresiva y una base ciudadana formalizada. La dependencia histórica de la renta petrolera de Pemex y el endeudamiento encubrieron durante décadas la debilidad recaudatoria de los impuestos sobre la renta y el patrimonio. En la actualidad, el fenómeno de relocalización industrial o **nearshoring** brinda una oportunidad de oro para captar inversiones foráneas frente al conflicto comercial entre China y Washington, lo que disuade al gobierno de incrementar las cargas societarias. No obstante, la persistencia de una economía sumergida masiva no solo merma los recursos públicos disponibles para educación, salud e infraestructuras, sino que fractura la **cohesión social**. Sin una reforma fiscal integral que combata la informalidad y distribuya equitativement la carga tributaria, el contrato social mexicano corre el riesgo de sucumbir a la asfixia financiera."
+      },
+      "vocab": [
+        [
+          "la recaudación tributaria",
+          "les recettes fiscales / le recouvrement de l'impôt",
+          "La recaudación tributaria en México es la más baja de los países de la OCDE."
+        ],
+        [
+          "el sector informal",
+          "le secteur informel",
+          "Más de la mitad de los trabajadores mexicanos subsiste en el sector informal."
+        ],
+        [
+          "el gasto social",
+          "les dépenses sociales",
+          "El gobierno incrementó el gasto social sin elevar los impuestos directos."
+        ],
+        [
+          "el nearshoring",
+          "la délocalisation de proximité (nearshoring)",
+          "El nearshoring atrae cuantiosas inversiones de empresas manufactureras."
+        ],
+        [
+          "la base gravable",
+          "l'assiette fiscale",
+          "Es imperativo ensanchar la base gravable para garantizar la solvencia estatal."
+        ],
+        [
+          "la evasión fiscal",
+          "la fraude / l'évasion fiscale",
+          "El fisco mexicano intensificó las auditorías para frenar la evasión fiscal."
+        ]
+      ],
+      "sujets": [
+        "¿Es posible construir un Estado de bienestar sólido sin una reforma tributaria progresiva?",
+        "¿Constituye la economía informal un freno insuperable para el desarrollo en América Latina?"
+      ],
+      "anki": [
+        {
+          "q": "Taux de prélèvements obligatoires (recettes fiscales) au Mexique par rapport au PIB",
+          "r": "Seulement C{16,9 % du PIB}, le plus faible taux parmi tous les pays membres de l'B{OCDE}.\n→ Faiblesse structurelle des recettes publiques qui limite le financement de l'État providence et des infrastructures → accroche pour un sujet sur l'Amérique latine ou la fiscalité."
+        },
+        {
+          "q": "Part de la population active mexicaine travaillant dans le secteur informel (2026)",
+          "r": "Plus de C{54 % de la main-d'œuvre}.\n→ Obstacle majeur à l'assiette de l'impôt sur le revenu et à la protection sociale universelle → argument pour un sujet sur le travail et le sous-développement."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-allemand-1",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/aigner-fraktionen-100.html",
+      "minutes": 3,
+      "titre": "Présidence fédérale en Allemagne : Ilse Aigner se présente devant les groupes parlementaires du Bundestag",
+      "faits": "La présidente du parlement bavarois Ilse Aigner a entamé ce mercredi 11 novembre ses rencontres officielles avec les différents groupes politiques représentés au Bundestag à Berlin. Candidate déclarée à l'élection présidentielle de février prochain, la responsable conservatrice de la CSU cherche à obtenir le ralliement d'une large coalition républicaine. Elle a ainsi échangé avec les députés des groupes sociaux-démocrates (SPD), écologistes (Grünen) et libéraux (FDP) pour présenter sa vision de la fonction présidentielle. En revanche, conformément à la ligne établie par son parti, elle a délibérément exclu toute rencontre avec les groupes parlementaires de l'AfD et de Die Linke. Ce choix de refuser le dialogue avec l'extrême droite et la gauche radicale suscite de vives discussions politiques dans les couloirs du parlement fédéral. La fonction de président fédéral, traditionnellement arbitrale et garante des institutions fondamentales, sera renouvelée lors du vote solennel de la Bundesversammlung au début de l'année 2027.",
+      "enjeux": "Cette démarche met en lumière le rôle institutionnel singulier du président fédéral en Allemagne, conçu par la Loi fondamentale de 1949 comme une autorité morale située **au-dessus des partis politiques**. Dans un paysage politique de plus en plus fragmenté par la poussée électorale des forces populistes, l'élection du chef de l'État exige un compromis bipartisan solide entre les grands partis modérés de gouvernement. La décision d'Ilse Aigner d'ignorer l'AfD réaffirme le principe démocratique du **cordon sanitaire** (*Brandmauer*), destiné à protéger la démocratie parlementaire contre ses adversaires déclarés. Ce concept de **démocratie fortifiée** (*wehrhafte Demokratie*) reste une pierre angulaire de l'identité politique allemande depuis l'effondrement de la République de Weimar. Le débat révèle toutefois le dilemme démocratique auquel sont confrontées les institutions fédérales face à un parti qui recueille plus de 20 % des intentions de vote nationales. La future présidence aura pour défi prioritaire de retisser la **cohésion sociale** dans un pays traversé par de profondes tensions économiques et culturelles.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lichtkuppel_Reichstagsgebaeude.jpg/1280px-Lichtkuppel_Reichstagsgebaeude.jpg",
+        "alt": "La coupole en verre du bâtiment du Reichstag à Berlin",
+        "credit": "Jürgen Matern / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lichtkuppel_Reichstagsgebaeude.jpg"
+      },
+      "vo": {
+        "titre": "Ilse Aigner stellt sich im Bundestag vor",
+        "faits": "Ilse Aigner möchte Bundespräsidentin werden. Die CSU-Politikerin spricht heute mit den Fraktionen im Bundestag. Sie trifft Politiker von SPD, Grünen und FDP. Zu den Fraktionen von AfD und Linken geht sie nicht. Diese Entscheidung sorgt in Berlin für politische Diskussionen. Die Wahl zur Bundespräsidentschaft findet im Februar statt.",
+        "enjeux": "Das Amt des Bundespräsidenten steht über den Parteien. Der Bundespräsident vertritt den Staat und schützt die Verfassung. Er soll die Bürger des Landes zusammenhalten. Die Abgrenzung zur AfD ist in Deutschland ein wichtiges Thema. Politiker sprechen oft von einer Brandmauer gegen rechts. Die Parteien suchen nach einem gemeinsamen Kandidaten für das Amt."
+      },
+      "vocab": [
+        [
+          "das Staatsoberhaupt",
+          "le chef de l'État",
+          "Der Bundespräsident ist das deutsche Staatsoberhaupt."
+        ],
+        [
+          "die Brandmauer",
+          "le cordon sanitaire / la ligne rouge",
+          "Die Parteien wollen eine Brandmauer gegen rechts."
+        ],
+        [
+          "die Bundesversammlung",
+          "l'Assemblée fédérale (qui élit le président)",
+          "Die Bundesversammlung wählt das neue Staatsoberhaupt."
+        ],
+        [
+          "die Fraktion",
+          "le groupe parlementaire",
+          "Die Kandidatin spricht mit jeder Fraktion."
+        ],
+        [
+          "der Zusammenhalt",
+          "la cohésion",
+          "Der Präsident stärkt den gesellschaftlichen Zusammenhalt."
+        ],
+        [
+          "überparteilich",
+          "au-dessus des partis / transpartisan",
+          "Das Amt des Bundespräsidenten ist überparteilich."
+        ]
+      ],
+      "sujets": [
+        "Welche Rolle spielt der Bundespräsident in Deutschland?",
+        "Braucht eine Demokratie eine starke Brandmauer?"
+      ]
+    },
+    {
+      "id": "2026-11-11-allemand-2",
+      "matiere": "allemand",
+      "source": "Der Spiegel",
+      "url": "https://www.spiegel.de/wirtschaft/service/deutschland-zahl-der-apotheken-geht-weiter-zurueck-a-f4f926f6-609d-491a-bd56-3eeb945eedc0",
+      "minutes": 3,
+      "titre": "Santé publique en Allemagne : la fermeture accélérée des officines fragilise l'accès aux médicaments",
+      "faits": "Selon les statistiques officielles de la Fédération des associations de pharmaciens allemands (ABDA) publiées ce 10 novembre, le nombre d'officines pharmaceutiques en Allemagne a atteint son plus bas niveau historique depuis plus de quarante ans. À la fin du troisième trimestre 2026, le pays ne comptait plus qu'environ 17 000 officines en activité, soit une perte nette de près de 400 établissements depuis le début de l'année. Les zones rurales et les petites communes sont particulièrement frappées par ces disparitions, de nombreux pharmaciens partant à la retraite sans parvenir à trouver de successeur pour reprendre leur commerce. Les professionnels du secteur dénoncent la hausse continue des coûts de fonctionnement, le gel des honoraires de délivrance des médicaments et le fardeau croissant des obligations administratives imposées par l'État. Parallèlement, l'essor fulgurant des plateformes de vente de médicaments en ligne basées à l'étranger capte une part grandissante des commandes de produits sans ordonnance. Face à cette dégradation des soins de proximité, le ministre fédéral de la Santé prépare un projet de loi controversé autorisant l'ouverture de succursales sans pharmacien présent en permanence.",
+      "enjeux": "La crise des officines illustre les défis structurels posés par la préservation des **services publics de proximité** dans un pays confronté aux déserts médicaux et au vieillissement de sa population. Le modèle allemand traditionnel de l'officine indépendante, détenue obligatoirement par un pharmacien diplômé (*Fremdbesitzverbot*), est directement remis en cause par la concurrence des grandes plateformes numériques du **commerce électronique**. Pour les habitants des campagnes et les personnes âgées dépendantes, la disparition de la pharmacie locale signifie des temps de trajet allongés et la perte d'un conseil médical humain indispensable. Les syndicats de pharmaciens réclament une revalorisation substantielle de leurs marges réglementées pour compenser l'inflation et retenir une main-d'œuvre qualifiée de plus en plus difficile à recruter. Cette situation met en lumière la contradiction entre la volonté de comprimer les dépenses de l'**assurance-maladie publique** (*Gesetzliche Krankenversicherung*) et la nécessité d'assurer un maillage sanitaire équitable sur l'ensemble du territoire national. La réforme en gestation promet de vifs affrontements politiques au Bundesrat.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Norderney%2C_Kur-Apotheke_--_2018_--_1016-20.jpg/1280px-Norderney%2C_Kur-Apotheke_--_2018_--_1016-20.jpg",
+        "alt": "La devanture et l'enseigne d'une pharmacie traditionnelle en Allemagne",
+        "credit": "Dietmar Rabich / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Norderney,_Kur-Apotheke_--_2018_--_1016-20.jpg"
+      },
+      "vo": {
+        "titre": "Immer weniger Apotheken in Deutschland geöffnet",
+        "faits": "In Deutschland schließen immer mehr Apotheken für immer. Ihre Zahl ist auf den niedrigsten Stand seit Jahrzehnten gefallen. Ende September gab es noch rund 17.000 Apotheken im Land. Besonders auf dem Land finden viele Inhaber keine Nachfolger mehr. Steigende Kosten und Bürokratie belasten die kleinen Betriebe schwer. Immer mehr Menschen bestellen ihre Medikamente einfach im Internet.",
+        "enjeux": "Apotheken sind wichtig für die medizinische Versorgung vor Ort. Im Notfall brauchen Kranke schnelle Hilfe in ihrer Nähe. Die Schließungen treffen vor allem ältere Menschen auf dem Land. Der Online-Handel verändert den Markt für Medikamente sehr stark. Die Bundesregierung plant deshalb eine Reform für Apotheken. Apotheker fordern mehr Geld und weniger staatliche Regeln."
+      },
+      "vocab": [
+        [
+          "die Apotheke",
+          "la pharmacie",
+          "Die Apotheke im Dorf schließt bald."
+        ],
+        [
+          "die Nahversorgung",
+          "l'offre de proximité / le commerce de proximité",
+          "Auf dem Land fehlt oft die Nahversorgung."
+        ],
+        [
+          "der Nachfolger",
+          "le successeur / le repreneur",
+          "Der alte Apotheker sucht einen Nachfolger."
+        ],
+        [
+          "das Arzneimittel",
+          "le médicament",
+          "Arzneimittel werden heute oft online bestellt."
+        ],
+        [
+          "der Fachkräftemangel",
+          "la pénurie de main-d'œuvre qualifiée",
+          "Der Fachkräftemangel betrifft viele Betriebe."
+        ],
+        [
+          "die Bürokratie",
+          "la bureaucratie",
+          "Viele Betriebe klagen über zu viel Bürokratie."
+        ]
+      ],
+      "sujets": [
+        "Wie sichert man die medizinische Versorgung auf dem Land?",
+        "Gefährdet der Online-Handel die lokalen Geschäfte?"
+      ]
+    },
+    {
+      "id": "2026-11-11-allemand-3",
+      "matiere": "allemand",
+      "source": "Frankfurter Allgemeine Zeitung",
+      "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/auf-diese-drei-branchen-setzen-chinesische-firmen-in-deutschland-accg-201668085.html",
+      "minutes": 3,
+      "titre": "Investissements directs : les entreprises chinoises renforcent leur production en Allemagne face aux droits de douane",
+      "faits": "Selon une étude sectorielle publiée ce mercredi 11 novembre par la Frankfurter Allgemeine Zeitung, les grands groupes industriels chinois intensifient massivement leurs investissements directs et l'implantation de sites de production sur le sol allemand. Alors que Pékin se contentait traditionnellement d'exporter des biens manufacturés finis vers l'Europe, les entreprises chinoises choisissent désormais de fabriquer directement au sein de l'Union européenne. Les trois branches privilégiées par ces flux de capitaux sont les véhicules électriques, la fabrication de cellules de batteries avancées et les équipements de production d'énergie solaire. Cette réorientation stratégique majeure intervient en réponse directe à l'instauration par la Commission européenne de droits de douane compensateurs élevés sur les importations chinoises. En ouvrant des usines d'assemblage et des centres de recherche en Allemagne, les constructeurs asiatiques contournent légalement les barrières tarifaires tout en bénéficiant de la réputation de qualité du label industriel allemand. Plusieurs Länder d'Allemagne de l'Est se disputent l'accueil de ces méga-usines créatrices de milliers d'emplois industriels.",
+      "enjeux": "Ce déploiement manufacturier chinois en Allemagne soulève un dilemme géoéconomique fondamental entre attraction d'investissements productifs et défense de la **souveraineté technologique** européenne. D'un côté, l'arrivée de capitaux chinois permet de revitaliser d'anciens bassins industriels déshérités et d'accélérer la constitution d'un écosystème complet de la **mobilité électrique** sur le continent. D'un autre côté, cette concurrence directe sur le marché intérieur intensifie la pression sur les constructeurs automobiles historiques allemands (Volkswagen, BMW, Mercedes), déjà fragilisés par des coûts de production élevés et une transition électrique ralentie. Pour le gouvernement de coalition à Berlin, la présence grandissante d'intérêts industriels chinois complique la stratégie nationale de réduction des risques (*de-risking*) vis-à-vis de Pékin. Les services fédéraux de sécurité économique redoutent des transferts de technologies sensibles et des risques d'espionnage industriel au cœur du tissu productif national. Ce phénomène démontre que les **barrières protectionnistes** douanières ne suffisent pas à stopper les géants industriels émergents, qui s'adaptent avec agilité en devenant des acteurs locaux à part entière.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/CMA_CGM_Kerguelen%2C_Container_Terminal_Burchardkai%2C_Hamburg_%28P1080471%29.jpg/1280px-CMA_CGM_Kerguelen%2C_Container_Terminal_Burchardkai%2C_Hamburg_%28P1080471%29.jpg",
+        "alt": "Le terminal à conteneurs de Burchardkai dans le port de Hambourg",
+        "credit": "Gerd Fahrenhorst / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:CMA_CGM_Kerguelen,_Container_Terminal_Burchardkai,_Hamburg_(P1080471).jpg"
+      },
+      "vo": {
+        "titre": "Chinesische Firmen investieren verstärkt in Deutschland",
+        "faits": "Chinesische Konzerne bauen neue Fabriken direkt in Deutschland. Sie investieren vor allem in Autos, Batterien und Solartechnik. Früher haben diese Firmen meistens nur Waren hierher exportiert. Die Europäische Union erhebt neue Zölle auf chinesische Produkte. Durch eigene Werke in Europa umgehen Firmen diese Zölle geschickt. Deutschland bleibt trotz hoher Kosten ein beliebter Standort für Investoren.",
+        "enjeux": "Diese Investitionen schaffen neue Arbeitsplätze in deutschen Regionen. Gleichzeitig wächst der Druck auf die deutschen Traditionsfirmen. Chinesische Hersteller bieten oft sehr moderne Technik zu günstigen Preisen. Die Bundesregierung beobachtet den Einfluss aus Peking genau. Deutschland braucht privates Kapital für den Umbau der Wirtschaft. Die Debatte über strategische Abhängigkeiten von China geht weiter."
+      },
+      "vocab": [
+        [
+          "die Direktinvestition",
+          "l'investissement direct (IDE)",
+          "Ausländische Direktinvestitionen schaffen neue Arbeitsplätze."
+        ],
+        [
+          "der Wirtschaftsstandort",
+          "le site économique / l'attractivité nationale",
+          "Deutschland bleibt ein wichtiger Wirtschaftsstandort."
+        ],
+        [
+          "der Schutzzoll",
+          "le droit de douane protecteur",
+          "Die Europäische Union führt neue Schutzzölle ein."
+        ],
+        [
+          "die Abhängigkeit",
+          "la dépendance",
+          "Die Politik will die Abhängigkeit von China senken."
+        ],
+        [
+          "der Wettbewerb",
+          "la concurrence",
+          "Der Wettbewerb zwischen den Firmen wird härter."
+        ],
+        [
+          "das Werk",
+          "l'usine / le site de production",
+          "Der Konzern baut ein modernes Werk im Osten."
+        ]
+      ],
+      "sujets": [
+        "Soll Deutschland chinesische Investitionen strenger kontrollieren?",
+        "Helfen Zölle der heimischen Industrie wirklich?"
+      ]
+    },
+    {
+      "id": "2026-11-11-allemand-4",
+      "matiere": "allemand",
+      "source": "Die Zeit",
+      "url": "https://www.zeit.de/politik/deutschland/2026-11/pflegereform-pflegeversicherung-katrin-staffler-carsten-linnemann-gxe",
+      "minutes": 3,
+      "titre": "Protection sociale en Allemagne : la réforme contestée de l'assurance dépendance face au vieillissement",
+      "faits": "À Berlin, les négociations autour du projet de réforme de l'assurance dépendance (Pflegeversicherung) suscitent de vives tensions au sein de la classe politique et des partenaires sociaux ce 11 novembre. La déléguée fédérale aux soins et plusieurs dirigeants de la commission des affaires sociales réclament un allongement des délais de transition pour éviter une déstabilisation brutale des établissements médico-sociaux. Le coût mensuel moyen d'une place en maison de retraite pour les personnes dépendantes a franchi la barre des 3 000 euros en Allemagne, atteignant un niveau insupportable pour une majorité de retraités. Face à l'épuisement financier des caisses publiques de dépendance, le gouvernement fédéral envisage une hausse ciblée des cotisations salariales et patronales ainsi qu'un encadrement des tarifs d'hébergement. Les communes et les Länder tirent la sonnette d'alarme, car ils doivent assumer sur leurs budgets d'aide sociale le reste à charge des résidents insolvables. Les gestionnaires de maisons de retraite alertent parallèlement sur le manque aigu d'aides-soignants, qui contraint de nombreux établissements à refuser de nouveaux pensionnaires.",
+      "enjeux": "Ce bras de fer illustre la crise de viabilité financière du **modèle social bismarckien** face à l'accélération du vieillissement de la pyramide des âges en Allemagne. Créée en 1995 pour constituer le cinquième pilier de la protection sociale obligatoire, l'assurance dépendance par répartition ne parvient plus à équilibrer ses comptes face à l'explosion du nombre de personnes âgées nécessitant des soins constants (*Pflegebedürftige*). L'augmentation continue des cotisations sociales sur le travail aggrave le coût de la main-d'œuvre et érode la **compétitivité industrielle** d'une économie déjà confrontée à une croissance atone. Le débat pose avec acuité la question de l'**équité intergénérationnelle** : la génération active supporte des prélèvements accrus pour financer les prestations d'une génération de baby-boomers plus nombreuse et plus longévive. Les experts économiques préconisent d'introduire une part de capitalisation individuelle obligatoire ou d'accroître les subventions tirées de l'impôt général pour soulager les salaires. Sans réforme structurelle globale, le financement des soins du grand âge menace de devenir le principal gouffre financier des finances publiques allemandes d'ici 2030.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Retirement_home_in_T%C5%99eb%C3%AD%C4%8D%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/1280px-Retirement_home_in_T%C5%99eb%C3%AD%C4%8D%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
+        "alt": "La façade d'un établissement d'hébergement moderne pour personnes âgées dépendantes",
+        "credit": "Horst74 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Retirement_home_in_T%C5%99eb%C3%AD%C4%8D,_T%C5%99eb%C3%AD%C4%8D_District.jpg"
+      },
+      "vo": {
+        "titre": "Streit um die Reform der Pflegeversicherung",
+        "faits": "In Deutschland streiten Politiker über die Zukunft der Pflegeversicherung. Die Kosten für Pflegeheime sind in den letzten Jahren stark gestiegen. Viele Senioren können ihren Heimplatz nicht mehr alleine bezahlen. Der Staat muss immer öfter mit Sozialhilfe einspringen. Politiker fordern nun längere Fristen für geplante Reformen. Die Kassen der Pflegeversicherung sind fast völlig leer.",
+        "enjeux": "Die deutsche Gesellschaft wird immer älter. Dadurch steigt die Zahl der pflegebedürftigen Menschen stark an. Das soziale Sicherungssystem stößt an seine finanziellen Grenzen. Höhere Beiträge belasten die arbeitende Bevölkerung zusätzlich. Der Mangel an Pflegekräften verschärft die Krise noch weiter. Die Politik sucht nach einem gerechten Ausgleich zwischen Generationen."
+      },
+      "vocab": [
+        [
+          "die Pflegeversicherung",
+          "l'assurance dépendance",
+          "Die Pflegeversicherung braucht dringend mehr Geld."
+        ],
+        [
+          "pflegebedürftig",
+          "dépendant / nécessitant des soins",
+          "Immer mehr alte Menschen sind pflegebedürftig."
+        ],
+        [
+          "der Eigenanteil",
+          "le reste à charge",
+          "Der Eigenanteil für ein Pflegeheim ist sehr hoch."
+        ],
+        [
+          "die Alterung",
+          "le vieillissement (démographique)",
+          "Die Alterung der Bevölkerung verändert das Land."
+        ],
+        [
+          "der Generationenvertrag",
+          "le contrat entre générations",
+          "Der Generationenvertrag steht vor einer großen Belastung."
+        ],
+        [
+          "die Pflegekraft",
+          "le soignant / l'aide-soignant",
+          "In vielen Heimen fehlt jede Pflegekraft."
+        ]
+      ],
+      "sujets": [
+        "Wie kann Deutschland die Pflege in Zukunft finanzieren?",
+        "Bedroht der demografische Wandel den deutschen Sozialstaat?"
+      ]
+    }
+  ],
+  "a_lire": [
+    {
+      "journal": "Les Échos",
+      "titre": "Carburants : pourquoi plafonner les prix à la pompe ou baisser la TVA sont des impasses",
+      "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/carburants-pourquoi-plafonner-les-prix-a-la-pompe-ou-baisser-la-tva-sont-des-impasses-2262143",
+      "pourquoi": "Une démonstration rigoureuse des distorsions induites par le blocage des prix et des pertes de recettes fiscales qui aggravent le **déficit public** sans cibler les ménages les plus vulnérables."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "L'industrie chimique au coeur d'une bataille de lobbying sur le marché européen du carbone",
+      "url": "https://www.lesechos.fr/industrie-services/energie-environnement/lindustrie-chimique-au-coeur-dune-bataille-de-lobbying-sur-le-marche-europeen-du-carbone-2262098",
+      "pourquoi": "Un éclairage stratégique sur les arbitrages entre **compétitivité industrielle** européenne et ambition climatique dans le cadre du marché des quotas d'émission."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "« Le marché du transport aérien est appelé à doubler en quinze ans » : Airbus va construire une nouvelle usine à Toulouse",
+      "url": "https://www.lesechos.fr/industrie-services/air-defense/le-marche-du-transport-aerien-est-appele-a-doubler-en-quinze-ans-airbus-va-construire-une-nouvelle-usine-a-toulouse-2262136",
+      "pourquoi": "Une étude de cas concrète sur les **économies d'échelle** et la politique industrielle aéronautique européenne face aux défis de décarbonation des flottes commerciales."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "« Un programme sérieux de développement social et écologique peut réduire le ratio dette/PIB »",
+      "url": "https://www.lemonde.fr/idees/article/2026/11/11/un-programme-serieux-de-developpement-social-et-ecologique-peut-reduire-le-ratio-dette-pib_6808935_3232.html",
+      "pourquoi": "Une tribune d'économistes défendant la relance par l'**investissement public vert** pour stimuler le dénominateur de la croissance et stabiliser la dette souveraine à long terme."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Le gouvernement veut baisser la durée maximale d’indemnisation des malades atteints d’une affection de longue durée non exonérante",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/11/le-gouvernement-veut-baisser-la-duree-maximale-d-indemnisation-des-malades-atteints-d-une-affection-de-longue-duree-non-exonerante_6808938_3224.html",
+      "pourquoi": "Un cas révélateur des dilemmes de régulation des **dépenses de santé** et du ciblage des prestations sociales pour freiner le déficit de l'assurance-maladie."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "« Les règles éthiques du fonds souverain norvégien ont deux limites : celle de la géopolitique et celle de la rentabilité »",
+      "url": "https://www.lemonde.fr/idees/article/2026/11/10/les-regles-ethiques-du-fonds-souverain-norvegien-ont-deux-limites-celle-de-la-geopolitique-et-celle-de-la-rentabilite_6808870_3232.html",
+      "pourquoi": "Une analyse conceptuelle des tensions entre recherche de rendement financier, contraintes géopolitiques et critères extra-financiers dans la gestion de l'**épargne souveraine**."
+    }
+  ]
+}

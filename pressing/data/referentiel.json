@@ -3773,6 +3773,426 @@
           ]
         }
       ]
+    },
+    {
+      "id": "preteur-en-dernier-ressort",
+      "nom": "Prêteur en dernier ressort",
+      "categorie": "monnaie",
+      "type": "Théorie",
+      "annee": "1873",
+      "auteur": "Walter Bagehot",
+      "accroche": "Pour enrayer une panique bancaire sans alimenter l'irresponsabilité financière, la banque centrale doit prêter librement aux institutions solvables, à un taux de pénalité et contre de solides garanties.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Walter Bagehot**, *Lombard Street: A Description of the Money Market* (1873). Henry Thornton (1802, *An Enquiry into the Nature and Effects of the Paper Credit of Great Britain*) avait formulé l'intuition première lors des paniques bancaires londoniennes de la fin du XVIIIe siècle, mais Bagehot théorise la doctrine complète en réponse à la faillite retentissante de la maison d'escompte Overend, Gurney & Co. en 1866.",
+            "Avant Bagehot, la Banque d'Angleterre hésitait à soutenir les banques en difficulté de peur d'épuiser ses réserves d'or et d'encourager la spéculation. Bagehot démontre que l'inaction transforme une simple crise de liquidité sectorielle en faillite généralisée du système de crédit par effet de contagion."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Déclenchement de la panique : Des déposants ou créanciers inquiets retirent précipitamment leurs liquidités, asséchant la trésorerie d'institutions bancaires pourtant fondamentalement solvables à long terme.",
+            "Intervention massive et immédiate : La banque centrale doit prêter sans restriction (lend freely) pour répondre à toute demande de refinancement et stopper net la psychose d'illiquidité.",
+            "Exigence de garanties solides : Le refinancement n'est accordé que contre de bons collatéraux (good collateral), valorisés aux prix d'avant la panique, ce qui réserve l'aide aux établissements solvables et laisse faire faillite les insolvables.",
+            "Application d'un taux de pénalité : Les liquidités sont fournies à un taux d'intérêt dissuasif (penalty rate), afin que les banques se désendettent dès le retour au calme et n'abusent pas de la facilité publique."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La doctrine de Bagehot fonde la justification théorique des interventions de sauvetage des banques centrales contemporaines (Fed, BCE). Elle montre que la stabilité financière est un bien collectif nécessitant une régulation publique hiérarchique, tout en conceptualisant le compromis inévitable entre secours d'urgence et discipline de marché pour limiter l'**aléa moral**."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Diamond et Dybvig (1983)",
+              "d": "Formalisent mathématiquement la course aux guichets et prouvent que l'assurance des dépôts et le prêteur en dernier ressort éliminent l'équilibre sous-optimal de panique autoréalisatrice."
+            },
+            {
+              "t": "Charles Kindleberger (1978)",
+              "d": "Dans Histoire mondiale de la spéculation financière, il insiste sur l'ambiguïté constructive : l'intervention du prêteur doit être certaine dans son principe mais incertaine dans ses modalités pour responsabiliser les acteurs."
+            },
+            {
+              "t": "Paul De Grauwe (2011)",
+              "d": "Étend la doctrine aux dettes souveraines en montrant que l'absence de prêteur en dernier ressort pour les États de la zone euro les expose à des crises de refinancement similaires aux paniques bancaires."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Bagehot ne préconise pas de renflouer indistinctement toutes les entreprises en faillite : il distingue rigoureusement l'**illiquidité** temporaire, qu'il faut secourir, de l'**insolvabilité** structurelle, qu'il faut sanctionner. Le principe du taux de pénalité a toutefois été abandonné lors des crises de 2008 et 2020 au profit de taux nuls ou quasi-nuls pour éviter d'aggraver la solvabilité des banques."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le bazooka de la BCE (2012-2015)",
+              "d": "Le fameux whatever it takes de Mario Draghi et les opérations OMT et PEPP incarnent le rôle de prêteur en dernier ressort étendu aux emprunts d'État."
+            },
+            {
+              "t": "La crise de Silicon Valley Bank (2023)",
+              "d": "La Fed met en place le Bank Term Funding Program pour prêter aux banques contre des bons du Trésor valorisés au pair, réactivant la règle de Bagehot."
+            },
+            {
+              "t": "La crise de la dette souveraine française (2026)",
+              "d": "Le refus de la BCE de monétiser ou de soutenir la dette de Paris sans programme d'ajustement budgétaire illustre la résistance à l'aléa moral public."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Henry Thornton (1802)",
+              "idee": "pionnier de la distinction entre panique interne et externe et du devoir de refinancement public"
+            },
+            {
+              "sens": "=",
+              "nom": "Douglas Diamond et Philip Dybvig (1983)",
+              "idee": "modélisation de la fragilité intrinsèque de la transformation bancaire et justification du prêteur en dernier ressort"
+            },
+            {
+              "sens": "≠",
+              "nom": "Friedrich Hayek (1976)",
+              "idee": "dénonce le monopole d'émission et le sauvetage public qui faussent les taux d'intérêt et engendrent les cycles de surinvestissement"
+            },
+            {
+              "sens": "≠",
+              "nom": "Gary Stern et Ron Feldman (2004)",
+              "idee": "critique du too big to fail et de l'aléa moral disproportionné engendré par le sauvetage systématique des grandes banques"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asymetrie-d-information-akerlof",
+      "nom": "Asymétrie d'information et sélection adverse",
+      "categorie": "fondamentaux",
+      "type": "Théorie",
+      "annee": "1970",
+      "auteur": "George Akerlof",
+      "accroche": "Quand l'un des contractants détient des informations cachées sur la qualité du bien échangé, le marché concurrentiel échoue à fixer un prix d'équilibre et risque d'exclure les meilleurs produits.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**George Akerlof**, « The Market for 'Lemons': Quality Uncertainty and the Market Mechanism », *Quarterly Journal of Economics* (1970). Akerlof recevra le prix Nobel d'économie en 2001 conjointement avec Joseph Stiglitz et Michael Spence pour leurs travaux fondateurs sur l'économie de l'information.",
+            "Avant Akerlof, la théorie néoclassique standard (Walras, Arrow-Debreu) postulait une **transparence parfaite** de l'information. Akerlof étudie le marché des voitures d'occasion où les vendeurs connaissent l'état réel du véhicule mais pas les acheteurs, démontrant que cette imperfection suffit à enrayer la loi de l'offre et de la demande."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Incertitude sur la qualité : Les acheteurs ne pouvant distinguer les bonnes voitures des mauvais véhicules (lemons), ils ne sont prêts à payer qu'un prix moyen reflétant la qualité moyenne anticipée du parc.",
+            "Retrait des vendeurs de qualité : Au prix moyen proposé, les propriétaires de bonnes voitures refusent de vendre car le prix sous-estime la valeur de leur bien, et se retirent du marché.",
+            "Dégradation de la moyenne (sélection adverse) : La proportion de mauvais véhicules en vente augmente, ce qui incite les acheteurs à réviser à la baisse leur consentement à payer.",
+            "Effondrement potentiel du marché : Le processus de baisse cumulative des prix et de la qualité élimine successivement toutes les transactions mutuellement avantageuses, jusqu'à la disparition pure et simple du marché."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La théorie d'Akerlof prouve qu'un marché dérégulé peut dysfonctionner gravement par le simple jeu des incitations individuelles en présence d'information imparfaite. Elle justifie économiquement l'intervention régulatrice de l'État : obligation de garantie légale, certification publique, étiquetage obligatoire, et régulation des pratiques commerciales déloyales ou des dark patterns sur les plateformes numériques."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Michael Spence et la théorie du signal (1973)",
+              "d": "Les agents dotés d'une information avantageuse envoient des signaux coûteux et difficiles à imiter (diplômes, garanties contractuelles) pour certifier leur qualité."
+            },
+            {
+              "t": "Joseph Stiglitz et le crible (1976)",
+              "d": "L'agent désinformé propose un menu de contrats différenciés pour inciter l'autre partie à révéler spontanément ses caractéristiques cachées (franchises en assurance)."
+            },
+            {
+              "t": "L'économie des plateformes numériques",
+              "d": "Les avis clients, systèmes d'évaluation et badges de conformité constituent des réponses technologiques privées destinées à surmonter la méfiance des consommateurs."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Akerlof ne conclut pas à l'impossibilité de tout échange marchand : il souligne que les sociétés développent des institutions correctrices, formelles (réglementation, normes juridiques) et informelles (réputation, confiance, marques). La sélection adverse porte sur des caractéristiques cachées préexistantes au contrat (information cachée), à ne pas confondre avec l'**aléa moral** qui concerne les comportements post-contractuels (action cachée)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le marché de l'assurance santé",
+              "d": "Sans obligation d'assurance universelle, les individus bien portants ne s'assurent pas, faisant exploser les primes pour les personnes malades."
+            },
+            {
+              "t": "Le crédit bancaire et le rationnement",
+              "d": "Stiglitz et Weiss (1981) montrent qu'une hausse des taux sélectionne les emprunteurs les plus risqués, poussant les banques à rationner l'offre de crédit."
+            },
+            {
+              "t": "Le Digital Fairness Act européen (2026)",
+              "d": "Bruxelles encadre les dark patterns et abonnements cachés où l'opacité informationnelle piège le consentement des consommateurs."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Kenneth Arrow (1963)",
+              "idee": "analyse des asymétries d'information et défaillances de marché dans le secteur médical"
+            },
+            {
+              "sens": "=",
+              "nom": "Michael Spence (1973)",
+              "idee": "théorie du signal comme mécanisme privé d'atténuation de la sélection adverse"
+            },
+            {
+              "sens": "≠",
+              "nom": "Friedrich Hayek (1945)",
+              "idee": "le système des prix agrège et transmet spontanément l'information dispersée sans intervention publique"
+            },
+            {
+              "sens": "≠",
+              "nom": "Léon Walras (1874)",
+              "idee": "hypothèse de transparence parfaite et équilibre général sans coûts d'information"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filiere-inversee-galbraith",
+      "nom": "Filière inversée",
+      "categorie": "fondamentaux",
+      "type": "Théorie",
+      "annee": "1967",
+      "auteur": "John Kenneth Galbraith",
+      "accroche": "Dans le capitalisme managérial moderne, ce ne sont plus les consommateurs qui dictent leur volonté au marché, mais les grandes firmes oligopolistiques qui modèlent les besoins et planifient la demande.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**John Kenneth Galbraith**, *The New Industrial State* (1967, traduit en français en 1968 sous le titre *Le Nouvel État industriel*). L'économiste institutionnaliste hétérodoxe d'Harvard y analyse l'essor des conglomérats industriels américains de l'après-guerre et la mutation structurelle de la concurrence.",
+            "Galbraith s'attaque au dogme central de la microéconomie néoclassique : la **souveraineté du consommateur**. Selon la « filière classique », les préférences des ménages s'imposent aux producteurs via le signal des prix. Galbraith affirme que cette causalité est inversée par la montée en puissance de la **technostructure** et des investissements à très long terme."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Exigence de planification industrielle : Les technologies modernes requièrent des capitaux colossaux et des délais de production de plusieurs années, rendant intolérable l'incertitude du débouché marchand.",
+            "Contrôle managérial : La technostructure (ingénieurs, gestionnaires, cadres marketing) prend le contrôle effectif de la grande entreprise aux dépens des actionnaires dispersés.",
+            "Création et conditionnement des besoins : Par la publicité de masse, le packaging, le crédit à la consommation et les techniques persuasives, la firme crée le besoin avant de commercialiser le produit.",
+            "Inversion du flux de souveraineté : La production pilote désormais la consommation : la firme ne s'adapte plus au marché, elle adapte le marché à ses impératifs de croissance et de rentabilité."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La filière inversée déconstruit l'illusion d'une régulation automatique par le marché et démontre le **pouvoir de marché** disproportionné des grandes firmes oligopolistiques sur les modes de vie. Elle justifie l'intervention des pouvoirs publics pour protéger les consommateurs (droit de la consommation, régulation publicitaire, interdiction des manipulations algorithmiques) et rééquilibrer la production vers les biens publics délaissés."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Thorstein Veblen et la consommation ostentatoire (1899)",
+              "d": "Dans Théorie de la classe de loisir, il montrait déjà que la consommation est déterminée par des logiques d'émulation sociale et de prestige bien plus que par des besoins naturels."
+            },
+            {
+              "t": "Vance Packard et la persuasion clandestine (1957)",
+              "d": "Dans La Persuasion clandestine, il détaille comment la psychologie appliquée et la publicité façonnent l'inconscient des consommateurs au profit des marques."
+            },
+            {
+              "t": "Shoshana Zuboff et le capitalisme de surveillance (2019)",
+              "d": "Actualise la filière inversée à l'ère numérique : les plateformes extraient les données comportementales pour prédire et modifier délibérément les comportements d'achat des utilisateurs."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Galbraith ne prétend pas que les consommateurs sont totalement passifs ou dépourvus de libre arbitre : de nombreux lancements de produits échouent malgré des campagnes publicitaires massives. Il ne condamne pas le progrès technique en soi, mais dénonce le déséquilibre structurel entre une profusion de biens privés superflus (opulence privée) et la dégradation chronique des services publics indispensables (misère publique)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'obsolescence programmée et le marketing technologique",
+              "d": "Le renouvellement annuel des smartphones et gadgets électroniques illustre la création artificielle de besoins d'équipement."
+            },
+            {
+              "t": "Les algorithmes de recommandation des réseaux sociaux",
+              "d": "Le ciblage comportemental de TikTok ou Meta modèle les préférences d'achat des jeunes générations en amont de leurs choix conscients."
+            },
+            {
+              "t": "La régulation européenne des dark patterns (2026)",
+              "d": "Le Digital Fairness Act vise à neutraliser les interfaces manipulatrices conçues par les géants de la tech pour forcer les abonnements."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Thorstein Veblen (1899)",
+              "idee": "déterminants sociaux et symboliques des préférences de consommation contre l'utilitarisme abstrait"
+            },
+            {
+              "sens": "=",
+              "nom": "Jean Baudrillard (1970)",
+              "idee": "dans La Société de consommation, la valeur d'échange-signe des objets l'emporte sur leur valeur d'usage"
+            },
+            {
+              "sens": "≠",
+              "nom": "Friedrich Hayek (1961)",
+              "idee": "réfute Galbraith dans « The Non Sequitur of the 'Dependence Effect' » : tout besoin culturel est acquis sans être illégitime"
+            },
+            {
+              "sens": "≠",
+              "nom": "Gary Becker (1977)",
+              "idee": "dans De Gustibus Non Est Disputandum, les préférences fondamentales des consommateurs sont stables et souveraines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depenses-contraintes-bigot",
+      "nom": "Dépenses contraintes et pouvoir d'achat",
+      "categorie": "societe",
+      "type": "Notion",
+      "annee": "2008",
+      "auteur": "Régis Bigot",
+      "accroche": "La hausse inexorable des dépenses pré-engagées (logement, énergie, assurances, abonnements) comprime le revenu arbitrable des ménages et alimente le sentiment de déclassement des classes moyennes.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Régis Bigot**, *Les Classes moyennes sous pression*, CREDOC (2008). Le Centre de recherche pour l'étude et l'observation des conditions de vie formalise la notion statistique de « dépenses pré-engagées » ou contraintes pour mesurer la réalité vécue du pouvoir d'achat par-delà les indicateurs macroéconomiques généraux de l'Insee.",
+            "Avant ces travaux, le pouvoir d'achat était mesuré par le revenu disponible brut moyen divisé par l'indice des prix à la consommation. Cette approche masquait le décalage croissant entre l'inflation officielle modérée et le ressenti populaire d'un appauvrissement continu, nourri par des engagements contractuels difficilement modifiables à court terme."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Nature des charges pré-engagées : Les dépenses contraintes regroupent les postes liés à un contrat ou à une nécessité vitale difficilement renégociable : loyer, remboursement d'emprunt immobilier, factures d'énergie, assurances, forfaits télécoms et cantine scolaire.",
+            "Progression structurelle : Depuis les années 1960, la part de ces dépenses dans le budget des ménages français a plus que doublé, passant de moins de 15 % à près de 35 % du revenu disponible moyen, et plus de 60 % pour les ménages modestes.",
+            "Érosion du revenu arbitrable : Une fois les charges fixes prélevées en début de mois, le reliquat monétaire destiné aux dépenses discrétionnaires (alimentation de qualité, loisirs, vacances, épargne) se réduit drastiquement.",
+            "Vulnérabilité aux chocs d'offre : Tout renchérissement subit des tarifs de l'énergie ou des loyers frappe directement le pouvoir d'achat visible des classes populaires et moyennes, déclenchant des tensions sociales vives."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La notion éclaire le paradoxe du **pouvoir d'achat ressenti** : même en période de gains statistiques de salaire réel, la rigidité des dépenses contraintes restreint la liberté de choix des ménages et alimente la peur du déclassement social. Elle montre que les politiques de soutien à la demande doivent cibler le coût de la vie contraint (tarifs réglementés, boucliers tarifaires, encadrement des loyers) plutôt que de simples allègements marginaux d'impôt."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La loi d'Engel (1857)",
+              "d": "Ernst Engel montrait que la part de l'alimentation baisse quand le revenu augmente ; aujourd'hui, le logement et l'énergie remplacent la nourriture comme premier poste de dépense contrainte."
+            },
+            {
+              "t": "L'Insee et le revenu arbitrable (2014)",
+              "d": "L'institut statistique intègre officiellement la mesure du niveau de vie après prise en compte des dépenses pré-engagées, confirmant l'ampleur des inégalités effectives de reste à vivre."
+            },
+            {
+              "t": "Éric Maurin et la ségrégation spatiale (2004)",
+              "d": "Dans Le Ghetto français, il montre que la contrainte du coût du logement repousse les classes moyennes en périphérie, alourdissant mécaniquement leurs dépenses contraintes de transport automobile."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Bigot ne suggère pas que les ménages sont purement victimes : certaines dépenses contraintes résultent de choix d'équipement librement consentis (abonnements de téléphonie, services de streaming, véhicule plus grand). Cependant, ces consommations sont devenues des normes d'intégration sociale indispensables, dont la privation est vécue comme une exclusion symbolique violente."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le mouvement des Gilets jaunes (2018)",
+              "d": "La crise est déclenchée par une taxe carbone sur les carburants affectant des ménages périurbains dont le reste à vivre était déjà laminé par les charges fixes."
+            },
+            {
+              "t": "Le choc énergétique de 2022-2026",
+              "d": "La hausse des prix du gaz et de l'électricité contraint les gouvernements à des boucliers tarifaires massifs pour préserver le revenu arbitrable."
+            },
+            {
+              "t": "La crise du logement des jeunes actifs",
+              "d": "Le taux d'effort des primo-accédants et locataires urbains dépasse fréquemment 40 %, bloquant leur accession à la propriété et leur autonomie."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Ernst Engel (1857)",
+              "idee": "pionnier de l'analyse empirique de la structure budgétaire des ménages selon le niveau de revenu"
+            },
+            {
+              "sens": "=",
+              "nom": "Pierre Rosanvallon (2011)",
+              "idee": "dans La Société des égaux, le sentiment d'injustice naît de la perte de maîtrise sur son quotidien et son avenir"
+            },
+            {
+              "sens": "≠",
+              "nom": "Théorie du consommateur rationnel",
+              "idee": "postule une substituabilité fluide et instantanée de tous les postes budgétaires face aux variations de prix relatifs"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1957)",
+              "idee": "la théorie du revenu permanent suppose une consommation lissée sans contrainte de liquidité mensuelle rigide"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
