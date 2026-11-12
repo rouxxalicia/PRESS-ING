@@ -139,6 +139,14 @@ main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
 .small.has-img > :not(.ph) { grid-column: 1; }
 .row .ph { aspect-ratio: 4 / 5; }
 .hero { aspect-ratio: 16 / 9; }
+/* Photo d'article : fondu progressif vers le fond de la page */
+.card .hero { aspect-ratio: 4 / 3; background: transparent; margin-bottom: -48px; }
+.card .hero img { -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 50%, rgba(0,0,0,.85) 64%, rgba(0,0,0,.45) 80%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 50%, rgba(0,0,0,.85) 64%, rgba(0,0,0,.45) 80%, transparent 100%); animation: hero-in .7s ease both; }
+.card .hero + .credit { position: relative; margin-top: 0; }
+@keyframes hero-in { from { opacity: 0; transform: scale(1.03); } to { opacity: 1; transform: none; } }
+@media (max-width: 772px) { .card .hero { margin-inline: -16px; } }
+@media (min-width: 773px) { .card .hero { aspect-ratio: 16 / 9; } }
+@media (prefers-reduced-motion: reduce) { .card .hero img { animation: none; } }
 .credit { font-size: 11.5px; color: var(--muted); margin-top: -10px; }
 .credit a { text-decoration: underline; text-underline-offset: 2px; }
 @media (min-width: 820px) {
