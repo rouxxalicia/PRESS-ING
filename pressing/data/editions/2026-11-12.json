@@ -1,0 +1,1087 @@
+{
+  "date": "2026-11-12",
+  "cards": [
+    {
+      "id": "2026-11-12-esh-1",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/12/logements-les-promoteurs-immobiliers-s-enfoncent-un-peu-plus-dans-la-crise_6809079_3234.html",
+      "minutes": 3,
+      "titre": "Crise du logement : les promoteurs immobiliers s'enfoncent dans une récession historique",
+      "faits": "Selon le baromètre trimestriel publié ce jeudi 12 novembre par la Fédération des promoteurs immobiliers (FPI), les réservations de logements neufs en France ont chuté de plus de 25 % sur un an au troisième trimestre 2026. Ce plongeon prolonge un effondrement continu amorcé depuis le resserrement monétaire de 2022 et porte les ventes à leur niveau le plus bas depuis près de trente ans. Les défaillances d'entreprises dans la promotion immobilière et le gros œuvre du bâtiment ont bondi de 35 %, menaçant plus de 50 000 emplois directs sur l'ensemble de la filière de la construction. L'envolée des coûts des matériaux, combinée à des taux d'intérêt de crédit immobilier durablement installés autour de 3,5 %, solvabilise de moins en moins de ménages primo-accédants. Face à cette paralysie, l'offre de logements neufs mis en chantier est tombée sous la barre des 250 000 unités par an, très loin de l'objectif officiel de 450 000 requis pour satisfaire les besoins démographiques. Les maires réduisent également la délivrance de permis de construire par frilosité politique à l'approche des échéances électorales locales. La FPI appelle le gouvernement à mettre en place un plan d'urgence associant exonérations fiscales temporaires et élargissement du prêt à taux zéro pour éviter un arrêt cardiaque de la production résidentielle.",
+      "enjeux": "La crise aiguë de la promotion immobilière illustre la vulnérabilité du secteur de la construction face au canal des **taux d'intérêt** de la politique monétaire. En augmentant le coût du capital pour les emprunteurs, la politique restrictive des banques centrales comprime l'**investissement résidentiel**, qui constitue la principale composante de la formation brute de capital fixe des ménages. Ce blocage de l'offre aggrave la pénurie locative dans les grandes métropoles, nourrissant une hausse cumulative des loyers du parc privé et renforçant les **inégalités patrimoniales** entre générations. Les ménages modestes et les jeunes se retrouvent exclus de la propriété, voyant leurs **dépenses contraintes** de logement absorber une part croissante de leur revenu disponible au détriment de la consommation courante. Par ailleurs, la crise de la construction exerce un effet récessif puissant sur l'activité macroéconomique globale à travers le mécanisme du **multiplicateur keynésien**, confirmant le vieil adage économique selon lequel « quand le bâtiment va, tout va ». Enfin, l'incapacité à renouveler le parc immobilier compromet les objectifs de transition écologique et de rénovation thermique des passoires énergétiques.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Tour_Trinity_%2830468270117%29.jpg/1280px-Tour_Trinity_%2830468270117%29.jpg",
+        "alt": "Chantier et grue de construction d'un grand immeuble en région parisienne",
+        "credit": "Arthur Weidmann / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tour_Trinity_(30468270117).jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : la monnaie et le financement de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Régis Bigot",
+          "ouvrage": "Les Classes moyennes sous pression",
+          "annee": "2008",
+          "ref": "depenses-contraintes-bigot",
+          "cours": "1A-transformations-sociales",
+          "texte": "Bigot montre que la hausse continue des **dépenses contraintes**, au premier rang desquelles figurent le logement et les charges immobilières, compresse le revenu arbitrable des classes moyennes et populaires. À mobiliser pour montrer que la crise de l'offre résidentielle accentue la précarisation des ménages locataires et nourrit un sentiment de paupérisation malgré la hausse apparente des revenus nominaux."
+        },
+        {
+          "nom": "Louis Chauvel",
+          "ouvrage": "La Spirale du déclassement",
+          "annee": "2016",
+          "ref": "spirale-du-declassement-chauvel",
+          "cours": "1A-transformations-sociales",
+          "texte": "Chauvel démontre que l'envolée des prix immobiliers et le blocage de la construction érigent une **barrière patrimoniale** infranchissable pour les jeunes générations, rétablissant le primat de l'héritage sur le mérite scolaire. À mobiliser pour analyser la crise du logement comme le moteur principal de la fracture générationnelle et du déclassement des primo-accédants."
+        }
+      ],
+      "notions": [
+        [
+          "Investissement résidentiel",
+          "Acquisition ou construction de logements neufs par les ménages, composante majeure de la formation brute de capital fixe."
+        ],
+        [
+          "Dépenses contraintes",
+          "Dépenses pré-engagées et difficilement renégociables à court terme, comme le loyer, l'énergie et les remboursements d'emprunt."
+        ],
+        [
+          "Effet d'éviction patrimoniale",
+          "Mécanisme par lequel la hausse des prix immobiliers exclut les acheteurs sans apport familial hérité au profit des détenteurs de patrimoine."
+        ],
+        [
+          "Canal du crédit",
+          "Mécanisme de transmission monétaire par lequel la hausse des taux directeurs réduit l'octroi de crédits bancaires et freine l'activité réelle."
+        ]
+      ],
+      "sujets": [
+        "La politique du logement peut-elle être un instrument efficace de réduction des inégalités sociales ?",
+        "L'accès à la propriété immobilière est-il encore le garant de l'ascension sociale ?"
+      ],
+      "anki": [
+        {
+          "q": "Recul des réservations de logements neufs en France (troisième trimestre 2026)",
+          "r": "Baisse de plus de C{25 %} sur un an selon la FPI, avec une production annuelle tombée sous C{250 000} unités.\n→ accroche pour un sujet sur l'investissement des ménages ou la crise du logement"
+        },
+        {
+          "q": "Rôle du logement dans la fracture générationnelle selon Louis Chauvel",
+          "r": "A{Louis Chauvel}, O{La Spirale du déclassement} (D{2016}) : la barrière immobilière consacre le primat de l'héritage sur les diplômes et bloque l'ascenseur social des jeunes générations.\n→ argument pour un sujet sur les inégalités patrimoniales"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-esh-2",
+      "matiere": "esh",
+      "source": "Le Figaro",
+      "url": "https://www.lefigaro.fr/societes/fibre-excellence-a-saint-gaudens-le-tribunal-de-commerce-de-toulouse-prononce-la-cessation-d-activite-de-l-usine-20261112",
+      "minutes": 3,
+      "titre": "Désindustrialisation : la liquidation de Fibre Excellence à Saint-Gaudens scelle la fermeture du premier producteur français de pâte à papier",
+      "faits": "Le tribunal de commerce de Toulouse a prononcé ce jeudi 12 novembre la liquidation judiciaire sans poursuite d'activité du site de Fibre Excellence à Saint-Gaudens, en Haute-Garonne. Cette décision entraîne le licenciement direct de près de 300 salariés et fragilise plus de 2 000 emplois indirects dans la filière sylvicole et le transport de bois en Occitanie. Dernier producteur tricolore de pâte à papier marchande écrue, l'entreprise était placée en redressement judiciaire depuis plusieurs mois en raison de pertes d'exploitation insurmontables. L'usine a subi de plein fouet l'explosion de ses coûts énergétiques et la concurrence frontale des fabricants sud-américains et scandinaves, qui bénéficient d'usines géantes à forts gains d'échelle. L'État et la région avaient pourtant mobilisé plusieurs dizaines de millions d'euros d'aides publiques et de prêts participatifs ces dernières années pour moderniser la chaudière biomasse du site. Aucun repreneur industriel n'a cependant déposé d'offre ferme jugée financièrement viable par les juges consulaires, les investisseurs redoutant l'absence de rentabilité structurelle de l'activité. Les syndicats dénoncent un abandon stratégique de la souveraineté papetière française et réclament un plan d'urgence de reconversion pour le bassin d'emploi commingeois.",
+      "enjeux": "La disparition de ce champion papetier constitue une illustration saisissante des difficultés persistantes de la **réindustrialisation** française face aux chocs de compétitivité internationale. Dans les industries lourdes de base à forte intensité énergétique et capitalistique, les sites européens peinent à préserver leur **compétitivité-coût** face à des concurrents mondiaux disposant d'une énergie abondante et d'intrants forestiers moins onéreux. Ce dossier met en lumière les limites d'une **politique industrielle** défensive menée par perfusion d'aides publiques lorsqu'elle n'est pas adossée à une modernisation technologique radicale. L'effondrement de l'entreprise détruit des savoir-faire industriels locaux et enclenche un phénomène de désertification productive dans les territoires périphériques, loin des grandes métropoles tertiaires. Il pose également un problème d'**autonomie stratégique** nationale, la France devenant totalement dépendante des importations pour ses approvisionnements en pâte cellulosique destinée aux cartons d'emballage et aux papiers hygiéniques. Par ailleurs, la perte de cet exutoire pour le bois d'éclaircie déstabilise l'amont de la filière forestière, démontrant la forte interdépendance des chaînes de valeur territoriales. Cet échec industriel rappelle enfin le principe schumpetérien d'obsolescence productive face aux usines de nouvelle génération opérant sur le marché mondial.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Georgetown_-_International_Paper_Mill.jpg/1280px-Georgetown_-_International_Paper_Mill.jpg",
+        "alt": "Bâtiments et cheminées d'une usine papetière industrielle",
+        "credit": "Tichnor Brothers, Inc. / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Georgetown_-_International_Paper_Mill.jpg"
+      },
+      "programme": {
+        "module": "Module 3 – La mondialisation économique et financière",
+        "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+      },
+      "auteurs": [
+        {
+          "nom": "Helmut Schmidt",
+          "ouvrage": "« Théorème de Schmidt » (déclaration au Bundestag)",
+          "annee": "1974",
+          "ref": "theoreme-de-schmidt",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Schmidt postule que « les profits d'aujourd'hui sont les investissements de demain et les emplois d'après-demain ». Lorsque les marges d'une entreprise industrielle s'effondrent sous l'effet de chocs de coûts énergétiques, l'autofinancement disparaît et l'outil productif devient obsolète, condamnant l'emploi. À mobiliser pour démontrer que la viabilité industrielle dépend impérativement de la restauration préalable de la rentabilité opérationnelle face à la concurrence internationale."
+        },
+        {
+          "nom": "Philippe Aghion et Peter Howitt",
+          "ouvrage": "Appropriate Growth Policy: A Unifying Framework",
+          "annee": "2005",
+          "ref": "frontiere-technologique-aghion",
+          "cours": "2A-02-ftn",
+          "texte": "Aghion et Howitt démontrent que l'efficacité d'une politique industrielle dépend de la distance à la **frontière technologique** : pour les pays développés, soutenir artificiellement des activités manufacturières traditionnelles sans saut technologique d'innovation freine la croissance en entravant la réallocation des ressources. À mobiliser pour justifier une réorientation des aides publiques vers les secteurs d'avenir plutôt que vers le sauvetage à perte d'usines matures."
+        }
+      ],
+      "notions": [
+        [
+          "Désindustrialisation",
+          "Recul continu de la part de l'industrie manufacturière dans l'emploi total et dans la valeur ajoutée nationale."
+        ],
+        [
+          "Compétitivité-coût",
+          "Capacité d'une entreprise ou d'une nation à vendre des biens à des prix inférieurs à ceux de ses rivaux grâce à des coûts de production réduits."
+        ],
+        [
+          "Politique industrielle ciblée",
+          "Intervention publique sélective visant à soutenir, restructurer ou développer des branches ou entreprises jugées stratégiques."
+        ],
+        [
+          "Économies d'échelle",
+          "Baisse du coût unitaire moyen de production résultant de l'augmentation des volumes produits."
+        ]
+      ],
+      "sujets": [
+        "La politique industrielle peut-elle empêcher la désindustrialisation des économies avancées ?",
+        "L'État doit-il sauver les entreprises industrielles en difficulté ?"
+      ],
+      "anki": [
+        {
+          "q": "Conséquence directe de la liquidation de Fibre Excellence à Saint-Gaudens (novembre 2026)",
+          "r": "Suppression de C{300} emplois directs et menace sur plus de C{2 000} emplois forestiers indirects en Occitanie.\n→ accroche pour un sujet sur la politique industrielle ou la désindustrialisation"
+        },
+        {
+          "q": "Critique du sauvetage d'industries matures selon Philippe Aghion et Peter Howitt",
+          "r": "A{Philippe Aghion et Peter Howitt}, O{Appropriate Growth Policy} (D{2005}) : à la frontière technologique, subventionner des secteurs traditionnels sans saut d'innovation entrave la réallocation productive des capitaux vers les activités d'avenir.\n→ argument pour un sujet sur l'efficacité des aides publiques"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-esh-3",
+      "matiere": "esh",
+      "source": "Les Échos",
+      "url": "https://www.lesechos.fr/tech-medias/hightech/apple-microsoft-revolut-ces-stars-de-la-tech-qui-veulent-contenir-lexplosion-de-la-facture-ia-de-leurs-salaries-2262238",
+      "minutes": 3,
+      "titre": "Rentabilité de l'IA : les géants de la tech freinent l'explosion des coûts d'usage interne",
+      "faits": "Selon une enquête parue ce jeudi 12 novembre dans Les Échos, plusieurs multinationales majeures de la tech et des services financiers, dont Apple, Microsoft et la fintech Revolut, mettent en place des restrictions drastiques sur l'utilisation des modèles d'intelligence artificielle générative par leurs équipes internes. Après deux années de libre accès encouragé pour doper la productivité des développeurs et des cadres, les directions financières découvrent des factures opérationnelles astronomiques liées à la consommation de jetons de calcul (tokens). Certains groupes constatent que leurs abonnements aux grands modèles linguistiques ont été multipliés par quatre en six mois sans gain mesurable et tangible sur la rentabilité globale. Les directions des systèmes d'information instaurent désormais des quotas stricts par employé, ferment l'accès aux requêtes jugées secondaires et privilégient des modèles ouverts hébergés localement, beaucoup moins dispendieux en puissance de calcul. Ce tournant marque la fin de la phase d'expérimentation euphorique et sans limites qui prévalait depuis le lancement des premiers assistants conversationnels de masse. Les dirigeants exigent désormais des chefs de projet qu'ils démontrent un retour sur investissement chiffré et immédiat avant de valider le moindre déploiement d'outil automatisé.",
+      "enjeux": "Cette décision des leaders technologiques réactive de manière éclatante le célèbre **paradoxe de Solow**, selon lequel les révolutions informatiques se diffusent largement avant de se traduire concrètement dans les statistiques de **productivité globale des facteurs**. Les gains d'efficacité permis par l'IA générative sont aujourd'hui absorbés par des coûts fixes d'infrastructure et des coûts marginaux d'usage très élevés qui érodent les marges opérationnelles des entreprises adoptantes. Ce phénomène illustre la loi des **rendements marginaux décroissants** : si l'automatisation de tâches de programmation élémentaire dégage une vraie valeur ajoutée, l'emploi généralisé de l'IA pour des micro-tâches bureaucratiques engendre un gaspillage financier disproportionné. Pour se diffuser efficacement sans détruire de valeur, le **progrès technique** nécessite une réorganisation profonde des processus de travail, de la division des tâches et de la qualification des salariés. Sans ces mutations managériales préalables, l'innovation technologique risque de provoquer un effet de saupoudrage stérile, où l'accumulation de capital immatériel ne génère aucun gain net d'efficience productive. Ce reflux budgétaire pose également la question de la viabilité économique du modèle d'affaires des fournisseurs de modèles fondation, confrontés à la résistance tarifaire croissante de leurs clients professionnels. Enfin, cet arbitrage pragmatique préfigure une phase de sélection darwinienne où seules les applications d'IA génératrices d'économies d'échelle substantielles survivront sur le marché.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+        "alt": "Baies de serveurs informatiques alignées dans un datacenter moderne",
+        "credit": "Carl Lender / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg"
+      },
+      "programme": {
+        "module": "Module 2 – Croissance et développement",
+        "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+      },
+      "auteurs": [
+        {
+          "nom": "Robert Solow",
+          "ouvrage": "« We'd better watch out » (New York Times Book Review)",
+          "annee": "1987",
+          "ref": "paradoxe-de-solow",
+          "cours": "1A-croissance",
+          "texte": "Solow formule son célèbre paradoxe : « on voit des ordinateurs partout, sauf dans les statistiques de productivité ». Il montre que l'adoption d'une nouvelle technologie générique exige de longues phases d'apprentissage et de restructuration organisationnelle avant de produire des gains mesurables. À mobiliser pour expliquer pourquoi l'explosion des dépenses d'IA ne se traduit pas immédiatement par un bond de rentabilité dans les bilans des entreprises."
+        },
+        {
+          "nom": "Joseph Schumpeter",
+          "ouvrage": "Capitalisme, socialisme et démocratie",
+          "annee": "1942",
+          "ref": "destruction-creatrice",
+          "cours": "1A-croissance",
+          "texte": "Schumpeter analyse le processus de **destruction créatrice** et montre que les vagues d'innovation traversent inévitablement une phase de rationalisation et d'élimination des investissements superflus avant de stabiliser un nouveau paradigme productif. À mobiliser pour montrer que le durcissement du contrôle des dépenses d'IA constitue une étape saine d'assainissement économique favorisant les innovations véritablement viables."
+        }
+      ],
+      "notions": [
+        [
+          "Paradoxe de Solow",
+          "Décalage temporel entre la diffusion massive d'une innovation technologique et l'apparition de ses gains dans la productivité statistique."
+        ],
+        [
+          "Productivité globale des facteurs",
+          "Mesure de l'efficacité avec laquelle l'ensemble des facteurs de production (travail et capital) sont combinés pour générer la production."
+        ],
+        [
+          "Technologie d'usage général",
+          "Innovation fondamentale capable d'impacter l'ensemble de l'économie après une longue adaptation structurelle et organisationnelle."
+        ],
+        [
+          "Rendements marginaux décroissants",
+          "Principe selon lequel l'augmentation d'un facteur de production engendre des gains additionnels de production de plus en plus faibles."
+        ]
+      ],
+      "sujets": [
+        "L'intelligence artificielle peut-elle relancer durablement la croissance économique ?",
+        "L'innovation technologique garantit-elle toujours des gains de productivité pour les entreprises ?"
+      ],
+      "anki": [
+        {
+          "q": "Formulation du paradoxe de productivité des technologies par Robert Solow (1987)",
+          "r": "A{Robert Solow} (D{1987}) : « On voit des ordinateurs partout, sauf dans les statistiques de productivité. »\n→ accroche pour un sujet sur l'impact macroéconomique du numérique ou de l'IA"
+        },
+        {
+          "q": "Raison du coup de frein sur les dépenses internes d'IA chez les géants de la tech (novembre 2026)",
+          "r": "Explosion des coûts opérationnels de calcul (multipliés par C{4} en six mois) sans gains tangibles sur la rentabilité.\n→ exemple d'arbitrage de gestion et de rendements décroissants de l'adoption technologique"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-esh-4",
+      "matiere": "esh",
+      "source": "La Croix",
+      "url": "https://www.la-croix.com/economie/pour-ses-25-ans-dans-l-omc-la-chine-affiche-un-excedent-commercial-record-qui-inquiete-le-reste-du-monde-20261110",
+      "minutes": 3,
+      "titre": "Vingt-cinq ans après son accession à l'OMC, la Chine affiche un excédent commercial record qui déstabilise le commerce mondial",
+      "faits": "À l'occasion du vingt-cinquième anniversaire de son adhésion à l'Organisation mondiale du commerce conclue en décembre 2001, la Chine s'apprête à clore l'année 2026 sur un excédent commercial manufacturier historique approchant les 1 000 milliards de dollars. Selon les analyses économiques publiées ce 10 novembre par La Croix, ce déséquilibre sans précédent résulte d'une stratégie délibérée de soutien massif à l'offre industrielle et aux exportations, combinée à une compression chronique de la consommation intérieure des ménages. Face à la crise persistante de son secteur immobilier national, le gouvernement de Pékin a réorienté ses financements bancaires vers les surcapacités manufacturières dans les véhicules électriques, les panneaux solaires et les biens d'équipement. Ces flux massifs de produits à bas prix inondent tant les économies occidentales que les pays émergents du Sud global, suscitant de vives crispations commerciales internationales. L'Union européenne et les États-Unis multiplient les barrières douanières et les procédures anti-subventions pour protéger leurs propres filières industrielles menacées d'éviction. L'OMC elle-même apparaît marginalisée, incapable d'arbitrer ce conflit structurel en raison de la paralysie de son organe de règlement des différends. Les économistes redoutent qu'une telle polarisation mercantiliste ne précipite la fragmentation définitive de la mondialisation en blocs géopolitiques rivaux.",
+      "enjeux": "Ce super-excédent chinois met à l'épreuve les fondements de la théorie classique du **libre-échange** et des **avantages comparatifs** héritée de Ricardo. Lorsque l'avantage à l'exportation ne découle pas d'une dotation factorielle naturelle mais d'un **néo-mercantilisme** étatique subventionné, le commerce international cesse d'être un jeu à somme positive pour devenir un jeu de captation de rentes industrielles. Les surcapacités chinoises exportées créent des distorsions majeures et exercent une pression déflationniste sur les industries concurrentes des pays développés, alimentant le « choc chinois » identifié par Autor, Dorn et Hanson. Ce phénomène illustre également le **paradoxe de Bairoch**, rappelant que les phases de libéralisation commerciale non régulées conduisent historiquement à des résurgences brutales de protectionnisme tarifaire pour sauvegarder l'emploi domestique. Par ailleurs, ce déséquilibre d'épargne réactive le dilemme macroéconomique global des déficits jumeaux américains, où la surconsommation américaine financée par la dette absorbe les excédents d'épargne asiatiques. Enfin, la crise actuelle de l'OMC consacre le déclin du multilatéralisme commercial né en 1947 au profit d'un capitalisme géopolitique où les barrières douanières et les politiques de sécurité économique dictent les flux marchands.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Shanghai-Yangshan-Port-Containers2013-01.JPG/1280px-Shanghai-Yangshan-Port-Containers2013-01.JPG",
+        "alt": "Alignement de conteneurs maritimes et grues portuaires au terminal de Yangshan à Shanghai",
+        "credit": "Bruno Corpet / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Shanghai-Yangshan-Port-Containers2013-01.JPG"
+      },
+      "programme": {
+        "module": "Module 3 – La mondialisation économique et financière",
+        "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+      },
+      "auteurs": [
+        {
+          "nom": "David Ricardo",
+          "ouvrage": "Des principes de l'économie politique et de l'impôt",
+          "annee": "1817",
+          "ref": "avantages-comparatifs",
+          "cours": "2A-01-mondialisation-commerciale",
+          "texte": "Ricardo établit la loi des **avantages comparatifs**, selon laquelle chaque pays a intérêt à se spécialiser dans la production où son coût d'opportunité relatif est le plus faible pour maximiser le bien-être mondial. À mobiliser pour rappeler l'idéal théorique du libre-échange et montrer comment les distorsions de subventions étatiques chinoises faussent les signaux de prix relatifs sur les marchés internationaux."
+        },
+        {
+          "nom": "Paul Bairoch",
+          "ouvrage": "Mythes et paradoxes de l'histoire économique",
+          "annee": "1993",
+          "ref": "paradoxe-de-bairoch",
+          "cours": "2A-01-mondialisation-commerciale",
+          "texte": "Bairoch montre dans son célèbre paradoxe que l'ouverture commerciale incontrôlée débouche historiquement sur des déséquilibres violents qui forcent le retour au **protectionnisme**, affirmant que « le protectionnisme est la règle, le libre-échange l'exception ». À mobiliser pour expliquer pourquoi l'excédent record chinois déclenche une riposte douanière générale des pays importateurs pour préserver leur appareil productif."
+        }
+      ],
+      "notions": [
+        [
+          "Excédent commercial manufacturier",
+          "Solde positif des échanges de biens industriels d'un pays avec le reste du monde sur une période donnée."
+        ],
+        [
+          "Surcapacités de production",
+          "Situation où le potentiel de production d'un secteur industriel dépasse durablement la capacité d'absorption de la demande solvable intérieure."
+        ],
+        [
+          "Néo-mercantilisme",
+          "Stratégie de puissance étatique consistant à subventionner massivement la production nationale pour maximiser les exportations et accumuler des réserves."
+        ],
+        [
+          "Organe de règlement des différends (ORD)",
+          "Instance juridictionnelle de l'OMC chargée de trancher les litiges commerciaux entre États membres."
+        ]
+      ],
+      "sujets": [
+        "Le commerce international est-il nécessairement un jeu à somme positive ?",
+        "L'Organisation mondiale du commerce est-elle devenue obsolète face aux capitalismes d'État ?"
+      ],
+      "anki": [
+        {
+          "q": "Montant record de l'excédent commercial manufacturier de la Chine (2026)",
+          "r": "Solde proche de C{1 000 milliards de dollars}, vingt-cinq ans après son entrée à l'OMC en D{2001}.\n→ accroche pour un sujet sur les déséquilibres mondiaux ou le commerce international"
+        },
+        {
+          "q": "Thèse historique de Paul Bairoch sur le protectionnisme et l'ouverture",
+          "r": "A{Paul Bairoch}, O{Mythes et paradoxes de l'histoire économique} (D{1993}) : le protectionnisme est la règle historique et le libre-échange l'exception ; les asymétries d'ouverture finissent toujours par provoquer un retour des barrières douanières.\n→ argument pour un sujet sur le retour du protectionnisme"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-anglais-1",
+      "matiere": "anglais",
+      "source": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o",
+      "minutes": 3,
+      "titre": "Réforme de l'État-providence au Royaume-Uni : la revue Milburn préconise de réduire les aides sociales aux moins de 25 ans",
+      "faits": "Le gouvernement britannique a reçu ce jeudi 12 novembre les conclusions explosives du rapport commandé à l'ancien ministre travailliste Alan Milburn sur l'inactivité des jeunes. Le document recommande de réduire significativement le montant des allocations sociales versées aux moins de 25 ans qui ne sont ni en emploi, ni en études, ni en formation (NEETs). Selon l'audit officiel, le Royaume-Uni compte désormais près d'un million de jeunes adultes durablement éloignés du marché du travail, souvent déclarés inaptes pour des motifs de troubles anxieux ou psychologiques. Milburn propose de conditionner strictement le versement du crédit universel (Universal Credit) à l'acceptation d'un stage qualifiant, d'un apprentissage ou d'un emploi communautaire dès le quatrième mois d'inactivité. Les jeunes refusant ces parcours verraient leurs indemnités amputées de moitié, rompant avec le principe d'une indemnisation inconditionnelle. Le chancelier de l'Échiquier John Healey a immédiatement salué un diagnostic de bon sens pour soulager des finances publiques sous tension et réactiver la main-d'œuvre. À l'inverse, l'aile gauche du Parti travailliste et les associations caritatives dénoncent un retour brutal aux politiques d'austérité qui risque de plonger des milliers de ménages précaires dans l'extrême pauvreté.",
+      "enjeux": "Cette proposition de réforme ravive la querelle doctrinale historique sur la nature de l'**État-providence britannique** (welfare state) depuis le plan Beveridge de 1942. Confronté à un décrochage de productivité et à une pénurie aiguë de main-d'œuvre dans plusieurs secteurs clés, le gouvernement cherche à activer ses dépenses sociales en s'inspirant des politiques de « workfare » popularisées par Tony Blair à la fin des années 1990. L'explosion des arrêts maladie de longue durée chez les moins de 25 ans menace d'enraciner une trappe à inactivité coûteuse pour le Trésor public et néfaste pour le **capital humain** national. Toutefois, ce durcissement coercitif fait peser le fardeau de l'ajustement sur une jeunesse déjà fragilisée par le coût prohibitif des logements et la précarisation des contrats dans l'économie des petits boulots (gig economy). Il révèle également les tensions idéologiques intenses qui traversent la majorité travailliste entre la discipline budgétaire exigée par la City et les engagements électoraux de justice sociale. En durcissant l'éligibilité aux allocations, Londres prend le risque d'aggraver la détresse sanitaire et l'exclusion sociale sans pour autant créer les emplois stables et rémunérateurs nécessaires à une insertion durable. Ce débat illustre enfin la difficulté pour une social-démocratie moderne de concilier incitations au travail et protection des populations les plus vulnérables.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/New_Palace_Yard%2C_Palace_of_Westminster.jpg/1280px-New_Palace_Yard%2C_Palace_of_Westminster.jpg",
+        "alt": "La cour de New Palace Yard et la tour Big Ben au Palais de Westminster à Londres",
+        "credit": "Tristan Surtel / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:New_Palace_Yard,_Palace_of_Westminster.jpg"
+      },
+      "vo": {
+        "titre": "UK welfare reform: Milburn review recommends cutting benefits for under-25s",
+        "faits": "On Thursday 12 November, the British government received the findings of the independent review led by former Labour minister Alan Milburn on youth economic inactivity. The report calls for a substantial reduction in welfare payouts for claimants under the age of 25 who are not in employment, education, or training. With nearly one million young Britons now classified as NEETs, Milburn argues that the current system fosters long-term dependency, largely driven by surging mental health claims. The review suggests that Universal Credit payments should be strictly tied to mandatory training schemes, apprenticeships, or community placements after four months of joblessness. Under the proposed framework, young people who refuse suitable offers would face a 50 percent cut to their monthly allowances. Chancellor of the Exchequer John Healey welcomed the recommendations as a necessary step to restore fiscal discipline and rebuild Britain's workforce. However, Labour's left wing and poverty campaigners warned that punitive measures would push vulnerable young adults deeper into destitution.",
+        "enjeux": "This policy overhaul reopens the fundamental debate surrounding the moral and financial contract of the British welfare state. Confronted with chronic labour shortages and sluggish productivity growth, ministers are reviving Blairite workfare doctrines to curb rising public spending on social security. The rapid increase in young people claiming incapacity benefits risks entrenching a cycle of low skills and scarring effects on future earnings. Yet, penalising benefit recipients fails to address the root causes of the youth crisis, including underfunded mental health services and unaffordable housing costs. The debate highlights the delicate balancing act facing Labour as it attempts to appease financial markets without alienating its traditional working-class constituency. Cutting the welfare safety net could ultimately exacerbate regional inequalities between prosperous London and struggling post-industrial towns across the North. In the long run, encouraging labour force participation requires positive investments in vocational skills rather than purely coercive benefit sanctions."
+      },
+      "vocab": [
+        [
+          "Universal Credit",
+          "le crédit universel (allocation sociale unique britannique)",
+          "Universal Credit merges six legacy welfare payments into one monthly sum."
+        ],
+        [
+          "NEETs (Not in Education, Employment, or Training)",
+          "les jeunes déscolarisés et sans emploi",
+          "The number of NEETs has climbed past one million across Britain."
+        ],
+        [
+          "workfare",
+          "l'aide sociale conditionnée au travail ou à la formation",
+          "Critics argue that workfare policies punish the most vulnerable citizens."
+        ],
+        [
+          "incapacity benefits",
+          "les indemnités d'invalidité ou d'incapacité de travail",
+          "Rising claims for incapacity benefits have strained the Treasury's budget."
+        ],
+        [
+          "scarring effect",
+          "l'effet de cicatrice (pénalisation durable de carrière)",
+          "Youth unemployment causes a lasting scarring effect on future wages."
+        ],
+        [
+          "vocational training",
+          "la formation professionnelle",
+          "High-quality vocational training is crucial to boost economic growth."
+        ]
+      ],
+      "sujets": [
+        "Is the British welfare state still fit for purpose in the 21st century?",
+        "Should social benefits be made conditional on compulsory work or training?"
+      ],
+      "anki": [
+        {
+          "q": "Number of young NEETs in the United Kingdom according to the Milburn review (November 2026)",
+          "r": "Nearly C{1 million} young people under 25 are not in education, employment, or training.\n→ hook for an essay on the British welfare state or youth labour markets"
+        },
+        {
+          "q": "Headline reform proposed by Alan Milburn for under-25s on Universal Credit",
+          "r": "A C{50 %} benefit cut for claimants who refuse mandatory training or job placements after C{four months}.\n→ example of workfare and conditional social assistance"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-anglais-2",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
+      "minutes": 3,
+      "titre": "Économie britannique : le PIB progresse de 0,6 % au troisième trimestre, porté par les services technologiques et l'IA",
+      "faits": "Selon les données publiées ce jeudi 12 novembre par l'Office for National Statistics (ONS), l'économie du Royaume-Uni a enregistré une croissance de 0,6 % au troisième trimestre 2026. Cette performance dépasse nettement les prévisions de la Banque d'Angleterre et constitue le rythme d'expansion le plus rapide observé depuis plus de deux ans. Le moteur principal de ce rebond provient du secteur des services marchands, en particulier des services informatiques, du conseil en ingénierie et des investissements dans les logiciels d'intelligence artificielle. Les exportations de services financiers et professionnels vers l'Amérique du Nord et l'Europe ont également progressé, compensant la faiblesse persistante de l'industrie manufacturière et de la construction. La baisse progressive des cours des hydrocarbures sur les marchés mondiaux a par ailleurs apporté un soulagement bienvenu au budget énergétique des ménages et des entreprises. Toutefois, l'ONS souligne que la consommation des ménages reste prudente, bridée par des taux d'intérêt directeurs toujours fixés à 4,5 % par la banque centrale. Le ministre de l'Économie a salué ces chiffres comme la preuve de la résilience technologique de la Grande-Bretagne, tout en admettant que la reprise demeure inégale sur le plan géographique.",
+      "enjeux": "Cette accélération inattendue de l'activité offre un répit politique majeur au gouvernement travailliste, qui a fait de la relance de la **croissance économique** sa priorité absolue pour financer les services publics sans augmenter massivement les impôts. Le dynamisme de la tech britannique confirme l'avantage comparatif du Royaume-Uni dans les **services à haute valeur ajoutée** et l'économie immatérielle, où Londres et le « triangle d'or » universitaire (Oxford-Cambridge-Londres) continuent d'attirer des capitaux internationaux massifs. Cependant, cette croissance tirée par le secteur tertiaire de pointe masque une vulnérabilité persistante : elle aggrave le **fossé régional** entre le Sud-Est prospère et les régions industrielles en déclin des Midlands et du Nord. De plus, la persistance d'une inflation sous-jacente dans les services complique la tâche de la Banque d'Angleterre, qui pourrait hésiter à assouplir sa **politique monétaire** si les tensions sur les salaires qualifiés perdurent. Le manque d'investissement dans les infrastructures physiques de transport et les réseaux électriques constitue également un goulot d'étranglement qui menace de brider cette dynamique à moyen terme. L'enjeu pour Londres consiste désormais à convertir cette poussée technologique en gains de productivité diffusés à l'ensemble du tissu économique national.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bank_of_England_Building%2C_London%2C_UK_-_Diliff.jpg/1280px-Bank_of_England_Building%2C_London%2C_UK_-_Diliff.jpg",
+        "alt": "La façade historique de la Banque d'Angleterre dans la City de Londres",
+        "credit": "Diliff / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg"
+      },
+      "vo": {
+        "titre": "UK GDP expands by 0.6% in Q3, buoyed by tech services and AI investments",
+        "faits": "On Thursday 12 November, the Office for National Statistics reported that the UK economy expanded by 0.6% in the third quarter of 2026. This performance comfortably beat consensus forecasts and represents the fastest quarterly growth recorded in over two years. The main engine of growth was the dominant services sector, driven by surging corporate spending on artificial intelligence, software consulting, and specialised business services. Financial and legal service exports to Europe and North America also demonstrated resilience, offsetting continued slumps in manufacturing output and housebuilding. Furthermore, declining global wholesale energy prices provided timely relief to corporate margins and household purchasing power. However, consumer spending remained relatively subdued as borrowing costs remained elevated, with the Bank of England keeping its benchmark interest rate at 4.5%. Government officials celebrated the figures as evidence that the UK is establishing itself as Europe's leading artificial intelligence hub.",
+        "enjeux": "This stronger-than-anticipated rebound provides a welcome boost for ministers who have staked their credibility on delivering economic growth to fund public services. Britain's enduring strength in knowledge-intensive services underscores its comparative advantage in digital innovation and global finance. Nevertheless, the lopsided nature of the expansion threatens to widen the persistent North-South divide, as tech gains remain heavily concentrated in London and the South East. Sluggish manufacturing activity and high borrowing costs suggest that capital-intensive sectors continue to face severe headwinds. Moreover, robust service-sector activity could keep domestic price pressures sticky, limiting the scope for aggressive interest rate cuts by the central bank. Long-term prosperity will depend on whether digital investments can meaningfully revive economy-wide productivity rather than generating isolated windfall profits. Without substantial infrastructure upgrades in regional transport and clean power grids, supply-side bottlenecks risk stifling further momentum."
+      },
+      "vocab": [
+        [
+          "quarterly growth",
+          "la croissance trimestrielle",
+          "Quarterly growth reached 0.6% thanks to resilient services."
+        ],
+        [
+          "knowledge-intensive services",
+          "les services à forte intensité de connaissances",
+          "Britain relies heavily on knowledge-intensive services for export revenue."
+        ],
+        [
+          "headwinds",
+          "les vents contraires (difficultés économiques)",
+          "Manufacturers continue to struggle against persistent global headwinds."
+        ],
+        [
+          "sticky inflation",
+          "l'inflation persistante / visqueuse",
+          "Sticky inflation in services could delay future interest rate cuts."
+        ],
+        [
+          "the North-South divide",
+          "le fossé économique Nord-Sud en Angleterre",
+          "The North-South divide remains a major political and economic challenge."
+        ],
+        [
+          "supply-side bottlenecks",
+          "les goulets d'étranglement de l'offre",
+          "Supply-side bottlenecks in energy infrastructure threaten long-term growth."
+        ]
+      ],
+      "sujets": [
+        "Can high-tech services alone sustain long-term economic growth in Britain?",
+        "How can the UK government bridge the growing economic divide between London and the regions?"
+      ],
+      "anki": [
+        {
+          "q": "UK GDP growth rate in the third quarter of 2026 (ONS)",
+          "r": "The UK economy expanded by C{0.6 %}, its fastest quarterly pace in more than C{two years}.\n→ hook for an essay on British economic performance and post-Brexit growth"
+        },
+        {
+          "q": "Main driver of British economic growth in late 2026",
+          "r": "Specialised tech services, AI software consulting, and financial exports, offsetting slumps in manufacturing.\n→ example of comparative advantage in knowledge-intensive services"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-anglais-3",
+      "matiere": "anglais",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/12/us/elections/mississippi-colom-senate-race-black-voters.html",
+      "minutes": 3,
+      "titre": "Élections de mi-mandat : Scott Colom élu premier sénateur noir du Mississippi depuis 1881",
+      "faits": "Lors du scrutin des élections de mi-mandat de novembre 2026, le démocrate Scott Colom a remporté une victoire historique en étant élu sénateur des États-Unis pour l'État du Mississippi. Ancien procureur de district respecté, Colom devient le premier Afro-Américain à représenter cet État du Sud profond à la chambre haute du Congrès depuis l'ère de la Reconstruction en 1881. Sa victoire surprise face au candidat républicain sortant soutenu par Donald Trump a été rendue possible par une mobilisation exceptionnelle de l'électorat noir, qui représente près de 38 % de la population locale. Colom a également réussi à séduire une frange d'électeurs indépendants et modérés des banlieues pavillonnaires de Jackson et de la côte du Golfe en centrant sa campagne sur les investissements dans les hôpitaux ruraux et les écoles publiques. Cette percée démocrate dans un bastion conservateur réputé imprenable illustre le rejet des controverses éthiques de l'administration républicaine fédérale. À l'annonce des résultats officiels ce jeudi 12 novembre, des milliers de partisans se sont rassemblés dans la capitale de l'État pour célébrer un basculement politique perçu comme un tournant générationnel. Les observateurs politiques soulignent que ce succès bouleverse la carte électorale du Sud et conforte la majorité démocrate au Sénat fédéral.",
+      "enjeux": "L'élection de Scott Colom revêt une portée symbolique et institutionnelle immense dans l'histoire des **droits civiques aux États-Unis**. Plus d'un siècle après la fin tragique de la Reconstruction et l'instauration des lois ségrégationnistes Jim Crow, cet événement brise un plafond de verre séculaire dans l'État qui fut l'épicentre des violences raciales des années 1960. Sur le plan de la **sociologie électorale**, ce résultat prouve que les États réputés immuables du Sud peuvent basculer lorsque la participation des minorités atteint un niveau record et s'associe à un discours économique axé sur les services publics locaux. Colom a délibérément évité les guerres culturelles polarisantes pour se concentrer sur la crise des déserts médicaux et la précarité rurale, construisant une **coalition multiraciale** inédite entre classes populaires noires et électeurs blancs éduqués. Cette victoire met en évidence l'érosion de l'hégémonie républicaine dans les banlieues résidentielles du Sud, un phénomène déjà amorcé en Géorgie et en Caroline du Nord. Elle envoie également un signal d'alerte majeur au Parti républicain en montrant que la fidélité aveugle à la ligne trumpiste peut coûter des sièges cruciaux dans des territoires traditionnellement acquis. Enfin, ce triomphe redéfinit la stratégie du Parti démocrate pour les prochaines échéances présidentielles de 2028 en réhabilitant le Sud comme un terrain de conquête électorale crédible.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/2021119-jackson-mississippi-state-capitol-building-eagle-4.jpg/1280px-2021119-jackson-mississippi-state-capitol-building-eagle-4.jpg",
+        "alt": "La coupole surmontée d'un aigle doré du Capitole de l'État du Mississippi à Jackson",
+        "credit": "Kaotate / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2021119-jackson-mississippi-state-capitol-building-eagle-4.jpg"
+      },
+      "vo": {
+        "titre": "Historic Midterm win: Scott Colom elected Mississippi's first Black senator since 1881",
+        "faits": "In the November 2026 Midterm elections, Democrat Scott Colom secured a historic victory by winning a seat in the United States Senate representing Mississippi. A former district attorney known for criminal justice reform, Colom becomes the first African American to represent the Magnolia State in the Senate since the Reconstruction era in 1881. His unexpected triumph over an incumbent Republican endorsed by Donald Trump was propelled by unprecedented turnout among Black voters, who comprise roughly 38% of Mississippi's population. Colom also managed to build inroads with independent voters in suburban Jackson and along the Gulf Coast by focusing heavily on healthcare access and rural hospital funding. The stunning upset delivered Democrats an expanded Senate majority and dealt a major rebuke to conservative strategists. Across Jackson and the Mississippi Delta, thousands of supporters gathered on Thursday 12 November to celebrate what local leaders termed a watershed moment for Southern politics. Political analysts noted that Colom's disciplined economic messaging proved decisive in flipping one of the deepest red bastions in the nation.",
+        "enjeux": "Colom's victory carries profound symbolic resonance in a state defined by the painful legacies of Jim Crow and the civil rights struggle. Breaking a political barrier that had stood for 145 years, this breakthrough demonstrates that high minority voter mobilisation can fundamentally alter Southern political arithmetic. Rather than leaning into national culture-war rhetoric, Colom crafted a broad multiracial coalition by addressing bread-and-butter economic issues such as maternal healthcare, public schooling, and infrastructure repair. His victory exposes growing Republican vulnerability across the Sun Belt, mirroring previous Democratic breakthroughs in Georgia and North Carolina. The result suggests that suburban moderates are increasingly willing to break with hardline conservative candidates when presented with pragmatically minded opponents. Furthermore, this historic win reshapes the national Democratic Party's playbook heading into the 2028 presidential race by proving that long-neglected rural areas can be contested successfully. Ultimately, Mississippi's election confirms that demographic change and civic engagement continue to transform the political landscape of the American South."
+      },
+      "vocab": [
+        [
+          "the Reconstruction era",
+          "l'ère de la Reconstruction (1865-1877 après la guerre de Sécession)",
+          "Mississippi had not elected a Black senator since the Reconstruction era."
+        ],
+        [
+          "voter turnout",
+          "le taux de participation électorale",
+          "Record Black voter turnout proved crucial to securing the upset victory."
+        ],
+        [
+          "a watershed moment",
+          "un tournant historique décisif",
+          "The election was widely celebrated as a watershed moment for civil rights."
+        ],
+        [
+          "bread-and-butter issues",
+          "les questions du quotidien (pouvoir d'achat, santé)",
+          "Candidates who focus on bread-and-butter issues often appeal to moderates."
+        ],
+        [
+          "a red bastion",
+          "un bastion républicain / conservateur",
+          "Mississippi was long considered an impenetrable red bastion for decades."
+        ],
+        [
+          "racial gerrymandering",
+          "le charcutage électoral fondé sur des critères raciaux",
+          "Voting rights advocates continue to challenge racial gerrymandering in court."
+        ]
+      ],
+      "sujets": [
+        "Has the American South ceased to be a monolithic conservative stronghold?",
+        "To what extent does voter turnout determine political change in the United States?"
+      ],
+      "anki": [
+        {
+          "q": "Historic political milestone achieved by Scott Colom in Mississippi (November 2026)",
+          "r": "Elected the first Black U.S. Senator from Mississippi since D{1881}, flipping a deep-red stronghold.\n→ hook for an essay on civil rights or changing Southern politics"
+        },
+        {
+          "q": "Core demographic and strategic factor behind Scott Colom's Senate victory",
+          "r": "Massive turnout among Black voters (C{38 %} of the state) combined with suburban support focused on rural hospitals.\n→ example of multiracial coalition-building in American elections"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-anglais-4",
+      "matiere": "anglais",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/11/12/house-freedom-caucus-jim-jordan-01161911",
+      "minutes": 3,
+      "titre": "Congrès américain : tensions et divisions au sein du Freedom Caucus après les revers électoraux républicains",
+      "faits": "Au lendemain des élections de mi-mandat qui ont vu le Parti démocrate reprendre le contrôle de la Chambre des représentants, le House Freedom Caucus traverse une crise existentielle sans précédent à Washington. Ce jeudi 12 novembre, le représentant de l'Ohio Jim Jordan a été réélu de justesse à la présidence du groupe ultra-conservateur lors d'un vote à huis clos particulièrement houleux. Plusieurs élus modérés et pragmatiques ont publiquement remis en cause la stratégie jusqu'au-boutiste du caucus, accusant son obstructionnisme budgétaire systématique et ses menaces permanentes de fermeture gouvernementale (shutdown) d'avoir fait fuir les électeurs centristes. La perte de près de vingt sièges républicains dans des circonscriptions suburbaines compétitives accentue la contestation interne contre l'aile populiste du parti. Des figures influentes du groupe menacent désormais de faire sécession si la direction ne renonce pas à ses manœuvres de blocage procédural contre les lois bipartisanes d'infrastructures et de défense. Jordan a tenté d'apaiser les esprits en promettant d'orienter le caucus vers une opposition offensive contre le nouveau président démocrate de la Chambre. Toutefois, les divisions béantes entre idéologues radicaux fidèles au mouvement MAGA et élus soucieux d'efficacité législative paralysent le leadership républicain au Capitole.",
+      "enjeux": "Ce déchirement interne au sein du Freedom Caucus met en lumière les dysfonctionnements profonds de la **gouvernance législative américaine** à l'ère de l'hyperpolarisation politique. Fondé en 2015 pour pousser le parti vers une stricte orthodoxie budgétaire et une contestation de l'establishment fédéral, le caucus a progressivement transformé l'arène parlementaire en un espace de confrontation permanente, paralysant le fonctionnement régulier des institutions. La défaite électorale aux Midterms montre que la tactique de la corde raide budgétaire (brinkmanship) atteint ses limites électorales auprès des classes moyennes modérées, lasses de l'instabilité institutionnelle. Cette crise révèle l'affrontement idéologique majeur entre le conservatisme traditionnel favorable aux compromis de gouvernement et le populisme trumpiste axé sur le spectacle médiatique et le sabotage des dépenses fédérales. Elle pose la question de la capacité des partis américains à maintenir la **discipline de parti** face à des factions extrémistes capables de paralyser leur propre camp parlementaire. Dans une Chambre désormais dominée par les démocrates, l'incapacité des conservateurs à former un front uni affaiblit considérablement leur pouvoir de négociation sur le plafond de la dette et les lois de finances. Enfin, ces turbulences annoncent une bataille acharnée pour le contrôle de l'appareil républicain en vue des primaires présidentielles de 2028.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+        "alt": "La façade ouest et le dôme du Capitole des États-Unis à Washington",
+        "credit": "Martin Falbisoner / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG"
+      },
+      "vo": {
+        "titre": "US Congress: internal revolt rocks House Freedom Caucus following Midterm defeats",
+        "faits": "Following the Midterm elections that saw Democrats reclaim control of the House of Representatives, the hard-right Freedom Caucus has descended into fierce internal acrimony. On Thursday 12 November, Representative Jim Jordan narrowly survived a leadership challenge to remain at the helm of the group during a closed-door meeting in Washington. Several members openly blamed the caucus's confrontational tactics, including repeated government shutdown threats, for alienating suburban swing voters and causing heavy electoral losses. Moderate Republicans argued that ideological purism had turned the caucus into a toxic brand that severely damaged the party's governing credentials. Jordan pledged to recalibrate the faction's strategy to mount an aggressive opposition against the incoming Democratic Speaker. However, several lawmakers threatened to defect and establish an alternative conservative coalition focused on pragmatic policy wins rather than procedural disruption. The bitter feud underscores the deep fractures dividing populist firebrands from lawmakers seeking a constructive legislative path in a divided Congress.",
+        "enjeux": "The turmoil within the Freedom Caucus lays bare the institutional crisis afflicting the modern Republican Party and congressional governance. Since its founding in 2015, the faction has wielded outsized power by leveraging narrow House majorities to hold leadership hostage and block compromise legislation. However, the Midterm backlash demonstrates that perpetual legislative brinkmanship carries severe electoral penalties in competitive congressional districts. The conflict reflects an unresolved struggle between traditional fiscal conservatives and populist MAGA loyalists who prioritise ideological combat over governance. With Democrats now holding the gavel, factional warfare threatens to render House Republicans largely irrelevant during upcoming budget negotiations. Furthermore, the rebellion illustrates how party fragmentation and weak leadership structures undermine institutional stability in Capitol Hill. As the GOP reckons with its electoral defeat, the fate of the Freedom Caucus will determine whether conservatives pursue constructive opposition or remain trapped in paralysis ahead of the 2028 cycle."
+      },
+      "vocab": [
+        [
+          "legislative brinkmanship",
+          "la politique de la corde raide parlementaire",
+          "Repeated legislative brinkmanship over the debt ceiling alienated swing voters."
+        ],
+        [
+          "a government shutdown",
+          "la fermeture des administrations fédérales faute de budget",
+          "Threats of a government shutdown proved electorally costly for conservatives."
+        ],
+        [
+          "suburban swing districts",
+          "les circonscriptions charnières de banlieue",
+          "Democrats flipped several suburban swing districts to reclaim the House."
+        ],
+        [
+          "party discipline",
+          "la discipline de parti / de vote",
+          "The lack of party discipline has paralysed Republican congressional leaders."
+        ],
+        [
+          "a firebrand",
+          "un agitateur politique / un trublion radical",
+          "Populist firebrands often prioritise viral media moments over policy."
+        ],
+        [
+          "to hold hostage",
+          "prendre en otage (des négociations ou lois)",
+          "Small factions can hold the entire legislative process hostage."
+        ]
+      ],
+      "sujets": [
+        "Has factionalism permanently broken the legislative process in the US Congress?",
+        "Can ideological purism coexist with effective governance in American politics?"
+      ],
+      "anki": [
+        {
+          "q": "Consequence of the 2026 Midterm losses for the House Freedom Caucus leadership",
+          "r": "Representative Jim Jordan faced an internal revolt and defections over aggressive government shutdown tactics.\n→ hook for an essay on congressional polarisation and party factions"
+        },
+        {
+          "q": "Political role of the House Freedom Caucus since its creation in 2015",
+          "r": "An ultra-conservative faction using procedural obstruction and debt ceiling brinkmanship to hold Republican leadership hostage.\n→ example of legislative dysfunction in Capitol Hill"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-espagnol-1",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/economia/vivienda/2026-11-12/consumo-calcula-que-la-prorroga-de-los-alquileres-ahorraria-4341-euros-por-hogar-y-beneficiaria-a-casi-cinco-millones-de-personas.html",
+      "minutes": 3,
+      "titre": "Crise du logement en Espagne : le ministère de la Consommation chiffre à 4 300 euros l'économie d'une prolongation du gel des loyers",
+      "faits": "Dans un rapport d'impact publié ce jeudi 12 novembre, le ministère espagnol des Droits sociaux et de la Consommation préconise de prolonger d'urgence le plafonnement légal de la hausse des loyers. Selon les calculs des experts ministériels, cette mesure permettrait d'économiser en moyenne 4 341 euros par ménage locataire sur l'ensemble de leur contrat et bénéficierait directement à près de cinq millions de citoyens. En l'absence de prolongation des mesures de protection issues de la loi sur le logement, les ménages subiraient des hausses de loyer pouvant dépasser 20 % lors du renouvellement de leur bail dans les grandes villes comme Madrid et Barcelone. Le ministre Pablo Bustinduy a exigé l'intégration de ce dispositif dans le prochain décret anticrise, soulignant que le coût du logement est devenu la première source de précarisation des classes populaires. Les associations de locataires soutiennent massivement cette initiative et menacent de nouvelles grèves des loyers face à la spéculation immobilière. En revanche, les organisations de propriétaires et les fédérations immobilières s'y opposent fermement, affirmant que le contrôle des prix assèche l'offre locative privée et incite les bailleurs à retirer leurs biens du marché traditionnel. Cette confrontation ravive les tensions au sein de la coalition gouvernementale entre l'aile gauche de Sumar et les socialistes du PSOE.",
+      "enjeux": "Ce débat met en lumière l'une des fractures socio-économiques les plus intenses de l'Espagne contemporaine : l'inaccessibilité chronique du **droit au logement** (derecho a la vivienda). Dans un pays où le taux d'effort des locataires dépasse souvent 40 % de leurs revenus nets dans les zones tendues, le logement est devenu le principal vecteur de creusement des **inégalités sociales** et de blocage de l'émancipation des jeunes. L'interventionnisme tarifaire défendu par la gauche radicale cherche à juguler l'inflation locative mais se heurte aux mécanismes économiques classiques décrits par la théorie libérale : le **plafonnement des prix** risque d'accentuer la pénurie en détournant les logements vers la location touristique saisonnière ou temporaire, échappant aux régulations. L'Espagne paie ici des décennies de sous-investissement public dans le parc de logements sociaux, qui ne représente que 2 % du parc total contre près de 17 % en France. La crise du logement locatif fragilise également la cohésion territoriale en contraignant les travailleurs essentiels à s'éloigner des bassins d'emploi des métropoles. Enfin, ce dossier cristallise l'affrontement idéologique entre le modèle libéral défendu par les communautés autonomes dirigées par le Parti populaire, hostiles à toute régulation, et l'approche régulatrice du gouvernement central.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/P%C2%BA_Acacias_59_%28Madrid%29_01.jpg/1280px-P%C2%BA_Acacias_59_%28Madrid%29_01.jpg",
+        "alt": "Façade d'un grand immeuble résidentiel d'habitations à Madrid",
+        "credit": "Luis García / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:P%C2%BA_Acacias_59_(Madrid)_01.jpg"
+      },
+      "vo": {
+        "titre": "Crisis de la vivienda en España: Consumo cifra en 4.341 euros el ahorro de prorrogar los alquileres",
+        "faits": "En un informe técnico presentado este jueves 12 de noviembre, el Ministerio de Derechos Sociales y Consumo defendió la prórroga urgente de la limitación del precio de los alquileres en España. Según las estimaciones oficiales, mantener la congelación de los contratos supondría un ahorro medio de 4.341 euros por hogar y beneficiaría a casi cinco millones de inquilinos en todo el país. El departamento dirigido por Pablo Bustinduy advirtió de que la finalización de estas medidas de contención provocaría subidas desorbitadas de hasta el 20% en las grandes áreas metropolitanas como Madrid y Barcelona. Los sindicatos de inquilinos respaldaron la medida y reclamaron bajar los precios por ley ante la asfixia económica que sufren las familias trabajadoras. Por el contrario, las patronales inmobiliarias y las asociaciones de propietarios criticaron con dureza la propuesta, alertando de que el control de precios provoca una contracción drástica de la oferta residencial disponible. Esta discrepancia reabrió las fricciones dentro de la coalición de gobierno entre el ala progresista de Sumar y los sectores socialistas más moderados.",
+        "enjeux": "El debate sobre los alquileres refleja el gravísimo problema de accesibilidad habitacional que amenaza el bienestar y la cohesión social en España. El elevado esfuerzo financiero destinado al pago de la renta, que supera con frecuencia el 40% de los ingresos familiares, frena la tasa de emancipación juvenil y perpetúa las desigualdades intergeneracionales. La aplicación de topes a las rentas choca con el riesgo de desvío de inmuebles residenciales hacia el alquiler turístico o de temporada, fórmulas que escapan al marco regulatorio estatal. Este desequilibrio estructural se ve agravado por la escasez histórica de vivienda pública en alquiler, que apenas representa un 2% del parque frente a la media europea del 9%. Asimismo, las comunidades autónomas gobernadas por el Partido Popular rechazan aplicar las zonas tensionadas, generando una marcada fragmentación regulatoria en el territorio nacional. La vivienda se ha consolidado como el principal eje de confrontación política y descontento ciudadano a las puertas del ciclo electoral."
+      },
+      "vocab": [
+        [
+          "la prórroga de los alquileres",
+          "la prolongation du gel / plafonnement des loyers",
+          "La prórroga de los alquileres permitiría aliviar la carga económica familiar."
+        ],
+        [
+          "zona de mercado tensionado",
+          "la zone locative tendue",
+          "La declaración de zona de mercado tensionado permite topar los precios del alquiler."
+        ],
+        [
+          "el sindicato de inquilinos",
+          "le syndicat des locataires",
+          "El sindicato de inquilinos convocó manifestaciones multitudinarias en Madrid."
+        ],
+        [
+          "la tasa de esfuerzo",
+          "le taux d'effort (part du loyer dans le revenu net)",
+          "La tasa de esfuerzo de los jóvenes supera ampliamente los límites recomendados."
+        ],
+        [
+          "el parque de vivienda pública",
+          "le parc de logements sociaux publics",
+          "España arrastra un déficit histórico en su parque de vivienda pública."
+        ],
+        [
+          "el alquiler de temporada",
+          "la location saisonnière ou temporaire",
+          "Muchos propietarios trasladan sus pisos al alquiler de temporada para eludir la ley."
+        ]
+      ],
+      "sujets": [
+        "¿Constituye el control de precios la respuesta adecuada a la crisis de la vivienda en España?",
+        "¿Es la vivienda el principal factor de fractura social entre generaciones?"
+      ],
+      "anki": [
+        {
+          "q": "Ahorro medio por hogar estimado por el Ministerio de Consumo si se prorroga el tope al alquiler en España",
+          "r": "Un ahorro de C{4.341 euros} por contrato, con un impacto directo sobre cerca de C{5 millones} de inquilinos.\n→ gancho para un tema sobre la vivienda o el estado del bienestar en España"
+        },
+        {
+          "q": "Porcentaje de vivienda social en España en comparación con la media europea",
+          "r": "Apenas el C{2 %} del parque residencial en España frente a un C{9 %} de media en la Unión Europea.\n→ argumento sobre el déficit estructural de políticas públicas habitacionales"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-espagnol-2",
+      "matiere": "espagnol",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/11/11/6af48f33e85ece74488b45b2.html",
+      "minutes": 3,
+      "titre": "Dépenses militaires en Espagne : le gouvernement engage des milliards d'euros pour moderniser la Défense et soutenir l'Ukraine",
+      "faits": "Selon les révélations publiées ce 11 novembre par El Mundo, le président du gouvernement Pedro Sánchez a approuvé discrètement une série d'engagements financiers pluriannuels majeurs en faveur du ministère de la Défense. Ces arbitrages prévoient de sanctuariser plusieurs milliards d'euros pour renouveler les systèmes de missiles antiaériens, acquérir de nouveaux blindés de combat et financer la participation espagnole à de futures missions de maintien de la paix en Ukraine. L'exécutif cherche ainsi à honorer l'engagement pris auprès de l'OTAN d'atteindre le seuil de 2 % du PIB consacré aux dépenses militaires d'ici 2029, un objectif longtemps différé par Madrid. Ces crédits extraordinaires ont été validés par des décrets budgétaires successifs en Conseil des ministres sans faire l'objet d'un débat approfondi devant le Congrès des députés. Cette méthode suscite l'ire des partenaires parlementaires de gauche, notamment Podemos et une partie de Sumar, qui fustigent une dérive militariste au détriment des priorités sociales et sanitaires. À droite, le Parti populaire salue l'effort d'équipement des armées mais dénonce l'opacité financière d'un gouvernement en fin de législature cherchant à verrouiller des contrats industriels stratégiques.",
+      "enjeux": "Cette hausse massive du budget militaire reflète la mutation stratégique de la **politique étrangère et de défense espagnole** dans un contexte géopolitique européen profondément bouleversé. Traditionnellement réticente aux interventions extérieures et située parmi les contributeurs les plus modestes de l'Alliance atlantique en proportion de son PIB, l'Espagne est contrainte de s'aligner sur les exigences de réarmement partagées par ses partenaires de l'Union européenne. L'octroi de ces contrats représente également un levier puissant de **politique industrielle nationale**, soutenant des entreprises technologiques de défense comme Indra, Navantia et Airbus Espagne, créatrices d'emplois hautement qualifiés. Néanmoins, l'arbitrage budgétaire entre « le beurre et les canons » réveille une fracture idéologique historique au sein de la gauche espagnole, où le pacifisme doctrinal de certains mouvements s'oppose au réalisme atlantiste défendu par Pedro Sánchez. Par ailleurs, l'usage répété de décrets pour contourner le contrôle parlementaire alimente le débat sur la **transparence démocratique** et l'affaiblissement des prérogatives de l'opposition. Ce choix budgétaire engage durablement les finances publiques espagnoles à l'heure où les règles du Pacte de stabilité européen imposent un retour strict à la discipline budgétaire.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ministerio_de_Defensa_de_Espa%C3%B1a_%28Madrid%29_01.jpg/1280px-Ministerio_de_Defensa_de_Espa%C3%B1a_%28Madrid%29_01.jpg",
+        "alt": "La façade du ministère de la Défense sur le Paseo de la Castellana à Madrid",
+        "credit": "Luis García / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ministerio_de_Defensa_de_Espa%C3%B1a_(Madrid)_01.jpg"
+      },
+      "vo": {
+        "titre": "Gasto militar en España: el Gobierno compromete miles de millones para blindar Defensa",
+        "faits": "Una investigación publicada por el diario El Mundo desveló este 11 de noviembre que el presidente Pedro Sánchez ha comprometido importantes partidas plurianuales para modernizar las Fuerzas Armadas antes de culminar su mandato. El paquete presupuestario incluye la compra de nuevos sistemas lanzamisiles, vehículos blindados de combate y fondos destinados a una eventual misión de paz en territorio ucraniano. Esta inyección de recursos persigue cumplir el compromiso adquirido con la OTAN de alcanzar una inversión en Defensa equivalente al 2% del PIB nacional hacia el final de la década. Los créditos extraordinarios fueron tramitados mediante sucesivos acuerdos del Consejo de Ministros, evitando someter la votación a un pleno específico en el Congreso de los Diputados. La decisión desató duras críticas entre las formaciones a la izquierda del PSOE, que acusaron al presidente de priorizar el gasto bélico frente a las inversiones en sanidad y educación. Desde la oposición, el Partido Popular censuró la falta de transparencia parlamentaria y la utilización de decretos para eludir el control de las Cortes.",
+        "enjeux": "El sustancial incremento del presupuesto de Defensa evidencia el cambio de paradigma en la política exterior española ante las crecientes tensiones bélicas internacionales. España busca consolidarse como un aliado fiable dentro de la Alianza Atlántica y afianzar su liderazgo en los proyectos comunitarios de seguridad común. Asimismo, este plan de rearme actúa como motor de política industrial y transferencia tecnológica, beneficiando a grandes contratistas nacionales del sector aeronáutico y naval. No obstante, el dilema fiscal entre el gasto social y la inversión militar reabre una histórica fisura ideológica en el seno del bloque progresista gubernamental. El recurso reiterado a mecanismos excepcionales de financiación pone en cuestión la rendición de cuentas en un parlamento fragmentado y polarizado. Por último, la asunción de compromisos de gasto a largo plazo condicionará los márgenes presupuestarios de los futuros ejecutivos ante la reimposición de las reglas fiscales de Bruselas."
+      },
+      "vocab": [
+        [
+          "el gasto en Defensa",
+          "les dépenses de défense / militaires",
+          "El Gobierno busca elevar el gasto en Defensa hasta el 2% del PIB."
+        ],
+        [
+          "los créditos extraordinarios",
+          "les crédits budgétaires extraordinaires",
+          "La tramitación de créditos extraordinarios evitó el debate en el Congreso."
+        ],
+        [
+          "la Alianza Atlántica (OTAN)",
+          "l'Alliance atlantique (OTAN)",
+          "España reafirmó sus compromisos estratégicos con la Alianza Atlántica."
+        ],
+        [
+          "el rearme",
+          "le réarmement militaire",
+          "El rearme europeo genera controversias presupuestarias en el seno de la izquierda."
+        ],
+        [
+          "la rendición de cuentas",
+          "l'obligation de rendre des comptes / la responsabilité politique",
+          "La oposición exigió mayor rendición de cuentas sobre los contratos armamentísticos."
+        ],
+        [
+          "la misión de paz",
+          "la mission de maintien de la paix",
+          "Las tropas españolas participan en diversas misiones de paz bajo mandato internacional."
+        ]
+      ],
+      "sujets": [
+        "¿Puede España conciliar sus compromisos de defensa en la OTAN con la preservación del estado de bienestar?",
+        "¿Hasta qué punto el gasto militar actúa como un motor de desarrollo tecnológico e industrial?"
+      ],
+      "anki": [
+        {
+          "q": "Objetivo de gasto militar en porcentaje del PIB fijado por España ante la OTAN",
+          "r": "Alcanzar el C{2 % del PIB} para finales de la década, frente a un nivel histórico inferior al C{1,3 %}.\n→ gancho para un tema sobre la política exterior o la defensa europea"
+        },
+        {
+          "q": "Controversia política en torno a la financiación del rearme militar en España",
+          "r": "Uso de créditos extraordinarios y decretos sin debate parlamentario previo, rechazado por los socios de izquierda.\n→ ejemplo de tensiones en la gobernanza y los equilibrios del gasto público"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-espagnol-3",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/mexico/2026-11-12/la-sucesion-en-el-ine-se-atasca-entre-presiones-del-nucleo-duro-de-morena-y-de-la-oposicion.html",
+      "minutes": 3,
+      "titre": "Institutions démocratiques au Mexique : la désignation de la présidence de l'INE paralysée par les tensions politiques",
+      "faits": "Le processus de succession à la tête de l'Institut national électoral (INE) du Mexique se trouve dans une impasse institutionnelle totale ce jeudi 12 novembre à Mexico. Le départ de la présidente sortante a ouvert une féroce bataille de pouvoir à la Chambre des députés entre le groupe parlementaire de Morena, parti au pouvoir fondé par Andrés Manuel López Obrador, et les partis d'opposition. L'aile dure de la majorité présidentielle cherche à imposer une personnalité loyale au projet de la « Quatrième Transformation » pour piloter les scrutins intermédiaires et la préparation de l'élection présidentielle de 2030. L'opposition dénonce une tentative flagrante de capter l'organe électoral indépendant et de démanteler l'arbitre démocratique autonome qui garantit la transparence des urnes depuis plus de trois décennies. Les désaccords portent également sur les liens controversés de certains candidats présélectionnés avec des dirigeants syndicaux influents proches du pouvoir. Faute de majorité qualifiée des deux tiers au Congrès pour valider une candidature de consensus, les députés risquent de devoir recourir au tirage au sort par tirage au sort (insaculación) pour désigner le nouveau président du Conseil général. Cette crise institutionnelle survient alors que l'INE doit organiser des consultations populaires complexes dans un climat de forte polarisation politique nationale.",
+      "enjeux": "Ce blocage institutionnel au Mexique illustre la fragilité des **organes de régulation indépendants** face à des majorités politiques hégémoniques en Amérique latine. Créé sous le nom d'IFE dans les années 1990 pour arracher la gestion des élections au contrôle autoritaire du ministère de l'Intérieur sous l'ère du PRI, l'INE est considéré comme la clé de voûte de la **transition démocratique mexicaine**. Les assauts répétés du parti au pouvoir contre son budget, son autonomie administrative et ses dirigeants alimentent les craintes d'une régression vers un présidentialisme autoritaire sans contre-pouvoirs réels. Ce bras de fer cristallise le débat sur la **légitimité démocratique** : d'un côté, le pouvoir soutient que les institutions autonomes représentent des forteresses corporatives coûteuses héritées de l'ère néolibérale ; de l'autre, la société civile et l'opposition affirment que sans arbitre électoral impartial, l'alternance politique devient une illusion. Par ailleurs, la politisation du processus de nomination risque de miner la confiance populaire dans la sincérité des futurs verdicts électoraux dans un pays historiquement marqué par les soupçons de fraudes. Enfin, cette querelle met à l'épreuve le style de gouvernance de la présidente Claudia Sheinbaum, tiraillée entre la radicalité de l'appareil de son parti et la nécessité de rassurer les investisseurs internationaux sur la solidité de l'État de droit mexicain.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Palacio_Nacional_Mexico.jpg/1280px-Palacio_Nacional_Mexico.jpg",
+        "alt": "La façade historique du Palais National sur la place du Zócalo à Mexico",
+        "credit": "Visente / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_Mexico.jpg"
+      },
+      "vo": {
+        "titre": "Tensión institucional en México: encallada la sucesión en el INE entre presiones de Morena y la oposición",
+        "faits": "El proceso para renovar la presidencia del Instituto Nacional Electoral (INE) quedó empantanado este jueves 12 de noviembre en la Cámara de Diputados de México. La falta de consenso parlamentario entre la bancada mayoritaria de Morena y los bloques de oposición impide alcanzar la mayoría calificada necesaria para nombrar a la persona titular del árbitro electoral. Sectores del partido gobernante presionan para colocar a perfiles afines a la Cuarta Transformación, mientras que la oposición acusa al oficialismo de intentar colonizar el organismo para debilitar su independencia. Las negociaciones se tensaron aún más tras las críticas hacia aspirantes vinculados al influyente líder sindical Pedro Haces, lo que desató acusaciones cruzadas de conflicto de interés. De persistir el desencuentro en San Lázaro, la designación tendrá que resolverse mediante insaculación o sorteo directo, un mecanismo legalmente previsto que genera honda inquietud entre analistas jurídicos. Este conflicto institucional estalla en un momento de máxima polarización nacional y a las puertas de complejos comicios locales.",
+        "enjeux": "La disputa por la dirección del INE pone a prueba la resiliencia de los contrapesos democráticos frente a la consolidación de mayorías hegemónicas en México. Construido tras décadas de movilización ciudadana para garantizar la alternancia y enterrar la sombra del fraude electoral, el INE simboliza la columna vertebral de la transición política del país. La ofensiva oficialista refleja la doctrina de concentración de poder que cuestiona la autonomía de los órganos técnicos garantes del Estado de derecho. Para la oposición, la neutralidad del árbitro resulta indispensable para preservar elecciones justas y competitivas en el ciclo electoral venidero. Por su parte, Morena argumenta que el instituto electoral arrastra costes desmedidos y privilegios burocráticos que deben democratizarse. El desenlace de esta pugna marcará la credibilidad del sistema electoral mexicano y definirá los equilibrios entre el poder presidencial y los organismos autónomos."
+      },
+      "vocab": [
+        [
+          "el árbitro electoral",
+          "l'arbitre électoral (l'organe électoral indépendant)",
+          "La independencia del árbitro electoral es vital para garantizar la transparencia democrática."
+        ],
+        [
+          "la insaculación",
+          "le tirage au sort (pour désigner les conseillers électoraux)",
+          "La insaculación representa la última vía legal si no existe acuerdo en el Congreso."
+        ],
+        [
+          "los contrapesos democráticos",
+          "les contre-pouvoirs démocratiques",
+          "Los contrapesos democráticos evitan la concentración abusiva del poder ejecutivo."
+        ],
+        [
+          "la mayoría calificada",
+          "la majorité qualifiée des deux tiers",
+          "El nombramiento requiere una mayoría calificada de dos tercios de los diputados."
+        ],
+        [
+          "la alternancia política",
+          "l'alternance politique",
+          "La alternancia política pacífica fue el gran logro de la transición democrática en México."
+        ],
+        [
+          "el conflicto de interés",
+          "le conflit d'intérêts",
+          "La cercanía con líderes sindicales desató sospechas de conflicto de interés."
+        ]
+      ],
+      "sujets": [
+        "¿Están en peligro los organismos autónomos y los contrapesos democráticos en México?",
+        "¿Puede garantizarse la imparcialidad electoral cuando los nombramientos dependen del poder político?"
+      ],
+      "anki": [
+        {
+          "q": "Mecanismo legal previsto en México si no hay mayoría de dos tercios para renovar el INE",
+          "r": "La C{insaculación} o designación por sorteo directo entre las ternas finalistas en la Cámara de Diputados.\n→ gancho para un tema sobre las instituciones electorales en México"
+        },
+        {
+          "q": "Papel histórico del INE (antiguo IFE) en la transición democrática de México",
+          "r": "Órgano autónomo creado en los años D{1990} para arrebatar el control electoral al gobierno del PRI y garantizar elecciones competitivas.\n→ ejemplo de la importancia de los contrapesos democráticos en América Latina"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-espagnol-4",
+      "matiere": "espagnol",
+      "source": "La Nación",
+      "url": "https://www.lanacion.com.ar/sociedad/confirman-un-paro-de-subte-para-hoy-el-indec-publica-este-jueves-la-inflacion-de-octubre-nid12112026/",
+      "minutes": 3,
+      "titre": "Économie argentine : grève des métros à Buenos Aires le jour de la publication de l'inflation d'octobre par l'Indec",
+      "faits": "La ville de Buenos Aires est paralysée ce jeudi 12 novembre par une grève générale de toutes les lignes de métro (subte) et du prémétro, à l'appel de l'Association des employés de métro et du prémétro (AGTSyP). Les syndicats protestent contre la dégradation de leurs conditions de travail, la présence persistante d'amiante dans les rames et l'insuffisance des revalorisations salariales face à l'érosion continue du pouvoir d'achat. Ce mouvement de force coïncide avec la publication très attendue par l'institut national des statistiques (Indec) de l'indice des prix à la consommation pour le mois d'octobre 2026. Alors que le gouvernement de Javier Milei affirme avoir jugulé l'hyperinflation grâce à son strict ajustement budgétaire et monétaire, les analystes privés anticipent une inflation mensuelle résiduelle oscillant autour de 3 %, alimentée par les hausses de tarifs des services publics. Les usagers de la capitale affrontent de lourdes difficultés de déplacement, les bus étant pris d'assaut dans un climat de tension sociale croissante. Le ministère de l'Économie a réagi en qualifiant le débrayage de manœuvre politique syndicale destinée à masquer les succès de la politique de désinflation nationale.",
+      "enjeux": "La concomitance entre cette paralysie des transports et le chiffre d'inflation illustre la phase délicate traversée par le **programme de stabilisation macroéconomique** en Argentine. Après avoir réussi à abaisser l'inflation mensuelle depuis les sommets de 2023 au prix d'une récession brutale et d'un gel drastique des dépenses publiques, le modèle libertarien se heurte à la résistance des prix relatifs et des tarifs régulés. La suppression des subventions aux transports, à l'électricité et à l'eau pèse lourdement sur le panier de consommation des ménages de la classe moyenne et populaire, déclenchant des conflits sociaux sectoriels récurrents. Ce conflit met en lumière la confrontation frontale entre le **pouvoir syndical combatif** des transports et la stratégie d'austérité budgétaire à « la tronçonneuse » défendue par le président Milei. Par ailleurs, la persistance d'une inflation à 3 % par mois représente toujours un rythme annualisé proche de 40 %, ce qui continue de déprécier les rémunérations réelles en l'absence de clauses d'indexation salariale complètes. L'enjeu économique pour le gouvernement consiste à réussir le passage de la désinflation d'urgence à une croissance soutenable sans que l'exaspération sociale ne vienne faire dérailler son calendrier de réformes structurelles.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Buenos_Aires_Subte_station_cpellegrini.JPG/1280px-Buenos_Aires_Subte_station_cpellegrini.JPG",
+        "alt": "Quai de la station de métro Carlos Pellegrini du Subte à Buenos Aires",
+        "credit": "Svenska84 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_Subte_station_cpellegrini.JPG"
+      },
+      "vo": {
+        "titre": "Economía argentina: paro total de subte en Buenos Aires mientras el Indec difunde la inflación",
+        "faits": "La Ciudad de Buenos Aires amaneció este jueves 12 de noviembre con una paralización completa de las seis líneas de subterráneo y el Premetro. La medida de fuerza fue convocada por los metrodelegados de la AGTSyP en reclamo de aumentos salariales ante la pérdida de poder adquisitivo y por demandas sanitarias vinculadas al asbesto. El paro coincidió con la esperada publicación por parte del Indec del índice de precios al consumidor correspondiente a octubre de 2026. Aunque el ejecutivo libertario de Javier Milei celebra el avance del proceso de desinflación, los cálculos privados sitúan la inflación mensual en torno al 3%, empujada por la subida de tarifas de servicios. Cientos de miles de pasajeros debieron recurrir a líneas de colectivos saturadas para desplazarse por la capital argentina en una jornada de congestión urbana extrema. El Ministerio de Economía calificó la huelga como una extorsión de la cúpula sindical para entorpecer los logros del programa de ajuste fiscal.",
+        "enjeux": "El paro de subtes visibiliza las severas tensiones distributivas que genera la segunda fase del plan económico en Argentina. Tras el brutal ajuste del gasto público que contuvo la hiperinflación a costa de un desplome de la actividad y del consumo, el gobierno afronta la resistencia de los precios regulados. La retirada de subsidios estatales a las tarifas de transporte y energía castiga con dureza los ingresos de los sectores trabajadores y la clase media metropolitana. Este choque pone de relieve el pulso permanente entre el sindicalismo opositor y la narrativa oficial de déficit cero innegociable. Asimismo, un suelo inflacionario del 3% mensual consolida una pérdida acumulada en las retribuciones de los empleados públicos y de servicios. La sostenibilidad política del plan de Milei depende de su capacidad para convertir la estabilidad cambiaria en recuperación del empleo sin provocar un estallido de conflictividad social en los grandes núcleos urbanos."
+      },
+      "vocab": [
+        [
+          "el paro de subte",
+          "la grève du métro (à Buenos Aires)",
+          "El paro de subte paralizó el traslado de miles de trabajadores en la capital."
+        ],
+        [
+          "el índice de precios al consumidor (IPC)",
+          "l'indice des prix à la consommation (IPC)",
+          "El Indec publica cada mes el dato oficial del índice de precios al consumidor."
+        ],
+        [
+          "la quita de subsidios",
+          "la suppression des subventions publiques",
+          "La quita de subsidios al transporte encareció drásticamente el coste de los billetes."
+        ],
+        [
+          "el poder adquisitivo",
+          "le pouvoir d'achat",
+          "La aceleración de los precios provocó una fuerte caída del poder adquisitivo salarial."
+        ],
+        [
+          "el ajuste fiscal",
+          "l'ajustement / austérité budgétaire",
+          "El gobierno libertario defiende el ajuste fiscal como único freno a la inflación."
+        ],
+        [
+          "el conflicto social",
+          "le conflit / la contestation sociale",
+          "El aumento de las tarifas reaviva el conflicto social en los servicios públicos."
+        ]
+      ],
+      "sujets": [
+        "¿Puede tener éxito duradero el plan de estabilización de Javier Milei sin consenso social en Argentina?",
+        "¿Hasta qué punto la reducción de la inflación compensa el coste de una recesión prolongada?"
+      ],
+      "anki": [
+        {
+          "q": "Nivel de inflación mensual estimado en Argentina en octubre de 2026 según consultoras privadas",
+          "r": "Una tasa en torno al C{3 % mensual}, aún impulsada por la subida de tarifas y servicios públicos.\n→ gancho para un tema sobre la hiperinflación y el ajuste macroeconómico en Argentina"
+        },
+        {
+          "q": "Principal impacto social de la retirada de subsidios al transporte en Buenos Aires",
+          "r": "Fuerte encarecimiento del coste del viaje diario y multiplicación de paros sindicales en el subte y trenes.\n→ ejemplo de tensiones distributivas bajo el gobierno de Javier Milei"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-allemand-1",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/kita-startchancengesetz-100.html",
+      "minutes": 3,
+      "titre": "Éducation en Allemagne : débat au Bundestag sur le financement du programme pour les crèches",
+      "faits": "Le Bundestag a examiné ce jeudi 12 novembre le nouveau projet de loi sur le programme d'opportunités de départ pour les crèches (Kita-Startchancengesetz). Présenté par la ministre fédérale de la Famille, ce texte prévoit de mobiliser des fonds publics pour soutenir les établissements de la petite enfance situés dans les quartiers défavorisés. L'objectif officiel est de renforcer l'apprentissage précoce de la langue allemande et d'améliorer le taux d'encadrement des tout-petits dès l'âge de deux ans. Toutefois, les Länder et les fédérations de communes dénoncent une enveloppe financière insuffisante au regard de la pénurie aiguë d'éducateurs qualifiés. Les syndicats de l'enseignement soulignent qu'il manque actuellement plus de 100 000 places en crèche et environ 50 000 professionnels à travers tout le pays. L'opposition chrétienne-démocrate et libérale critique la création de nouvelles normes administratives fédérales sans garanties de financement pérenne par l'État central. Les débats ont révélé de vives tensions entre Berlin et les régions sur la répartition des charges budgétaires liées à la politique familiale.",
+      "enjeux": "Cette controverse sur l'accueil des tout-petits touche au cœur du défi de l'**égalité des chances** et de l'intégration sociale en Allemagne. Les enquêtes éducatives successives, comme les rapports PISA, montrent que le système scolaire allemand reste l'un de ceux où l'origine sociale et migratoire pèse le plus lourd sur la réussite des élèves. L'investissement dans la petite enfance est identifié par les économistes de l'éducation comme le levier le plus efficace pour réduire les inégalités de départ avant l'entrée à l'école primaire. Cependant, le modèle fédéral de financement complique la mise en œuvre de réformes ambitieuses, l'éducation relevant de la compétence exclusive des **Länder** (Kulturhoheit). Le manque de places en crèche freine également l'activité professionnelle des femmes et aggrave le manque de main-d'œuvre qualifiée (Fachkräftemangel) dont souffre l'économie allemande. Face aux contraintes budgétaires actuelles, l'arbitrage entre investissements éducatifs et maîtrise des dépenses publiques divise profondément la classe politique. Enfin, ce débat montre que la promesse républicaine d'un égal accès à la formation reste inachevée dans de nombreuses métropoles industrielles d'outre-Rhin.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/D%C3%BClmen%2C_Overberg-Kindergarten_--_2013_--_0658.jpg/1280px-D%C3%BClmen%2C_Overberg-Kindergarten_--_2013_--_0658.jpg",
+        "alt": "Bâtiment d'un jardin d'enfants et aire de jeux en Allemagne",
+        "credit": "Dietmar Rabich / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Overberg-Kindergarten_--_2013_--_0658.jpg"
+      },
+      "vo": {
+        "titre": "Streit im Bundestag über Geld für Kitas",
+        "faits": "Der Bundestag hat über das neue Kita-Gesetz beraten. Die Bundesregierung will Kitas in armen Vierteln besser fördern. Kinder sollen dort früher Deutsch lernen. Doch die Bundesländer fordern deutlich mehr Geld vom Bund. Es fehlen in Deutschland rund 100.000 Kita-Plätze. Außerdem suchen viele Einrichtungen dringend neue Fachkräfte. Die Opposition kritisiert den Plan als unzureichend. Die Ministerin verteidigt ihr Gesetz gegen diese Vorwürfe.",
+        "enjeux": "Gute Kitas sind wichtig für gleiche Chancen. In Deutschland bestimmt die Herkunft oft den Schulerfolg. Kinder aus armen Familien brauchen frühe Hilfe. Wenn Kitas fehlen, können Eltern nicht arbeiten. Besonders Mütter bleiben dann oft zu Hause. Das schadet auch der Wirtschaft im Land. Deutschland braucht dringend mehr gut ausgebildete Fachkräfte. Deshalb muss der Staat mehr in Bildung investieren."
+      },
+      "vocab": [
+        [
+          "die Chancengleichheit",
+          "l'égalité des chances",
+          "Gute Bildung fördert die Chancengleichheit aller Kinder."
+        ],
+        [
+          "die Fachkraft",
+          "le travailleur qualifié / l'éducateur",
+          "Viele Kitas suchen dringend eine neue Fachkraft."
+        ],
+        [
+          "die frühkindliche Bildung",
+          "l'éducation de la petite enfance",
+          "Frühkindliche Bildung hilft beim Lernen der Sprache."
+        ],
+        [
+          "der Kita-Platz",
+          "la place en crèche",
+          "Eltern haben ein Recht auf einen Kita-Platz."
+        ],
+        [
+          "das Bundesland",
+          "le Land / l'État régional allemand",
+          "Jedes Bundesland entscheidet selbst über seine Schulen."
+        ],
+        [
+          "die Förderung",
+          "le soutien / la subvention financière",
+          "Der Bund plant eine bessere Förderung für Schulen."
+        ]
+      ],
+      "sujets": [
+        "Wie kann Deutschland die Bildungschancen für alle Kinder verbessern?",
+        "Sollte der Staat mehr Geld für Kitas ausgeben?"
+      ]
+    },
+    {
+      "id": "2026-11-12-allemand-2",
+      "matiere": "allemand",
+      "source": "Der Spiegel",
+      "url": "https://www.spiegel.de/wirtschaft/schulden-in-deutschland-jeder-zehnte-erwachsene-ist-ueberschuldet-a-6c3851b7-fc55-4574-bae8-71344e0ff43b",
+      "minutes": 3,
+      "titre": "Précarité en Allemagne : un adulte sur dix est surendetté selon le Schuldneratlas 2026",
+      "faits": "Selon l'édition 2026 de l'atlas des dettes (Schuldneratlas) publiée ce jeudi 12 novembre par l'agence Creditreform, le surendettement des ménages progresse à nouveau en Allemagne. L'étude révèle que près de 5,7 millions de personnes majeures, soit environ un adulte sur dix (9,5 %), se trouvent dans une situation d'endettement critique et ne parviennent plus à honorer leurs échéances de paiement régulières. La hausse continue des prix de l'énergie, des loyers et des denrées alimentaires de base constitue le premier facteur de basculement dans la précarité financière. Les experts de Creditreform soulignent que le phénomène ne frappe plus seulement les chômeurs ou les bénéficiaires de minima sociaux, mais touche désormais de plein fouet les ménages de la classe moyenne inférieure salariés. Les jeunes adultes de moins de 30 ans sont particulièrement vulnérables, piégés par la multiplication des crédits à la consommation instantanés et des facilités de paiement fractionné en ligne de type « achetez maintenant, payez plus tard ». Les associations caritatives alertent sur la saturation des centres de conseil aux personnes surendettées et réclament un encadrement renforcé du microcrédit commercial.",
+      "enjeux": "Ce constat alarmant met en lumière la fragilisation du **pouvoir d'achat** et l'érosion du modèle social allemand après plusieurs années de chocs inflationnistes et de stagnation économique. En Allemagne, pays historiquement marqué par une forte aversion culturelle à la dette (Schulden partageant la même racine que la faute morale), la hausse du surendettement est vécue comme un signal très inquiétant de dégradation des conditions de vie. Ce phénomène traduit l'écart grandissant entre l'évolution des salaires réels et l'envolée des dépenses incompressibles des ménages modestes. Le surendettement des jeunes adultes pose un risque majeur d'exclusion économique durable, les inscriptions négatives au fichier de la Schufa leur fermant l'accès au logement locatif et aux comptes bancaires normaux. Sur le plan macroéconomique, la contrainte financière qui pèse sur près de six millions de consommateurs freine la **demande intérieure** et retarde le rebond de la consommation privée dont l'économie allemande a besoin pour sortir de la morosité. Cette crise sociale alimente également le sentiment d'abandon dans les anciennes régions industrielles, nourrissant le vote de protestation politique. Enfin, ce dossier relance le débat sur la régulation des pratiques agressives du commerce électronique et la protection des consommateurs face au crédit facile.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Euro_symbol%2C_Frankfurt_Germany_%2827447364593%29.jpg/1280px-Euro_symbol%2C_Frankfurt_Germany_%2827447364593%29.jpg",
+        "alt": "La grande sculpture bleue de l'Euro devant l'ancienne tour de la BCE à Francfort",
+        "credit": "The First Class Travel Guide / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Euro_symbol,_Frankfurt_Germany_(27447364593).jpg"
+      },
+      "vo": {
+        "titre": "Schuldneratlas 2026: Viele Menschen in Deutschland überschuldet",
+        "faits": "In Deutschland haben immer mehr Bürger große Geldsorgen. Rund 5,7 Millionen Erwachsene sind heute überschuldet. Das zeigt der neue Schuldneratlas für das Jahr 2026. Fast jeder zehnte Erwachsene kann Rechnungen nicht bezahlen. Hauptgründe sind hohe Mieten und teure Lebensmittel. Auch viele junge Menschen haben zu viele Schulden. Sie nutzen oft kleine Kredite beim Online-Shopping. Experten fordern nun bessere Beratung für Betroffene.",
+        "enjeux": "Überschuldung ist eine schwere Gefahr für Familien. Wer Schulden hat, findet oft keine neue Wohnung. Die Schufa speichert negative Daten über diese Menschen. Viele Familien geraten jetzt in große Not. Das Geld reicht oft nicht mehr zum Monatsende. Wenn Bürger sparen müssen, leidet die Wirtschaft. Der private Konsum bleibt in Deutschland schwach. Der Staat muss die Bürger besser vor Krediten schützen."
+      },
+      "vocab": [
+        [
+          "die Überschuldung",
+          "le surendettement",
+          "Die Überschuldung bedroht viele Familien in Deutschland."
+        ],
+        [
+          "die Lebenshaltungskosten",
+          "le coût de la vie",
+          "Hohe Lebenshaltungskosten belasten die Bürger sehr stark."
+        ],
+        [
+          "der Ratenkredit",
+          "le crédit à la consommation / paiement échelonné",
+          "Viele Kunden kaufen Waren mit einem Ratenkredit."
+        ],
+        [
+          "die Schuldnerberatung",
+          "le service de conseil pour personnes surendettées",
+          "Die Schuldnerberatung hilft Menschen mit großen Geldsorgen."
+        ],
+        [
+          "die Bonität",
+          "la solvabilité financière",
+          "Banken prüfen vor dem Kredit die Bonität."
+        ],
+        [
+          "die Zahlungsunfähigkeit",
+          "l'insolvabilité / l'incapacité de paiement",
+          "Zahlungsunfähigkeit führt oft zu großen sozialen Problemen."
+        ]
+      ],
+      "sujets": [
+        "Wie kann die Politik arme Bürger besser vor Schulden schützen?",
+        "Bedroht die Überschuldung den sozialen Frieden in Deutschland?"
+      ]
+    },
+    {
+      "id": "2026-11-12-allemand-3",
+      "matiere": "allemand",
+      "source": "Die Zeit",
+      "url": "https://www.zeit.de/wirtschaft/2026-11/stromsteuersenkung-energiepreise-klimaschutz-soziale-gerechtigkeit",
+      "minutes": 3,
+      "titre": "Transition énergétique en Allemagne : vif débat sur le maintien de la taxe sur l'électricité",
+      "faits": "Les négociations budgétaires fédérales ont abouti ce jeudi 12 novembre à l'abandon du projet de baisse générale de la taxe sur l'électricité (Stromsteuer) pour les ménages allemands. Le chancelier Friedrich Merz et ses partenaires de coalition ont renoncé à cette mesure en raison de l'impasse financière et du refus d'accroître le déficit public. Les entreprises industrielles réclamaient depuis des mois un allègement massif des tarifs électriques pour restaurer leur compétitivité face aux concurrents américains et asiatiques. À l'inverse, plusieurs économistes et experts du climat saluent ce maintien, estimant qu'une baisse aveugle des taxes sur l'énergie aurait coûté plus de cinq milliards d'euros aux finances publiques sans inciter à la sobriété. Le prix de l'électricité payé par les particuliers en Allemagne demeure l'un des plus élevés d'Europe, composé à plus de 40 % de taxes, redevances de réseau et prélèvements écologiques. Les associations de consommateurs critiquent vivement cet arbitrage budgétaire, soulignant que les foyers modestes continuent de payer le prix fort de la transition énergétique. Le gouvernement a promis en contrepartie des aides ciblées pour les industries de base les plus électro-intensives afin de prévenir les délocalisations.",
+      "enjeux": "Ce dossier met en évidence le dilemme structurel de la **politique énergétique allemande** (Energiewende) entre impératif écologique, justice sociale et compétitivité industrielle. L'Allemagne a fait le choix pionnier d'une sortie simultanée du nucléaire et du charbon, mais cette transition repose sur des investissements massifs dans les réseaux électriques dont le coût est répercuté sur les factures finales. Le maintien d'un prix de l'électricité élevé crée une incitation prix théoriquement vertueuse pour accélérer l'**efficacité énergétique**, mais il pénalise la compétitivité-coût du tissu industriel intermédiaire (Mittelstand). Pour les ménages modestes, cette fiscalité indirecte fonctionne comme un impôt régressif qui compresse le revenu disponible et alimente la contestation contre les politiques climatiques. Le renoncement à la baisse fiscale illustre également la contrainte d'airain exercée par le **frein constitutionnel à la dette** (Schuldenbremse), qui interdit à l'État de financer des allègements par l'emprunt. L'Allemagne doit ainsi réussir à électrifier son industrie et ses transports sans fragiliser son modèle économique fondé sur l'exportation manufacturière. Enfin, cet arbitrage révèle la difficulté d'aligner les objectifs de décarbonation avec le maintien de la cohésion sociale en période de croissance atone.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Wind_Turbine_Enercon_E-82_at_Wind_Park_Mausdorf_01.jpg/1280px-Wind_Turbine_Enercon_E-82_at_Wind_Park_Mausdorf_01.jpg",
+        "alt": "Éolienne Enercon et parc éolien dans la campagne allemande",
+        "credit": "Spike / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wind_Turbine_Enercon_E-82_at_Wind_Park_Mausdorf_01.jpg"
+      },
+      "vo": {
+        "titre": "Streit um Stromsteuer in Deutschland geht weiter",
+        "faits": "Die Bundesregierung senkt die Stromsteuer für Bürger vorerst nicht. Die Koalition konnte sich im Haushalt nicht darauf einigen. Die Steuersenkung wäre für den Staat zu teuer gewesen. Die Industrie fordert seit Monaten viel billigeren Strom. Viele Betriebe klagen über sehr hohe Energiekosten im Land. Umweltexperten finden die Entscheidung der Regierung jedoch richtig. Ein hoher Preis spart Strom und schützt das Klima. Verbraucherschützer kritisieren die Belastung für normale Bürger scharf.",
+        "enjeux": "Die Energiewende stellt Deutschland vor große Fragen. Der Strom muss sauber und bezahlbar sein. Viele Fabriken brauchen enorm viel Energie für ihre Produktion. Wenn Energie zu teuer ist, wandern Firmen ab. Das gefährdet gute Arbeitsplätze in der deutschen Industrie. Gleichzeitig braucht der Staat Geld für neue Stromnetze. Die Schuldenbremse verbietet neue Kredite für solche Hilfen. Die Politik sucht weiter nach einem guten Ausweg."
+      },
+      "vocab": [
+        [
+          "die Stromsteuer",
+          "la taxe sur l'électricité",
+          "Die Regierung senkt die Stromsteuer vorerst nicht."
+        ],
+        [
+          "die Energiewende",
+          "la transition énergétique allemande",
+          "Die Energiewende kostet den Staat sehr viel Geld."
+        ],
+        [
+          "die Abwanderung",
+          "la délocalisation des entreprises",
+          "Hohe Energiepreise fördern die Abwanderung der Industrie."
+        ],
+        [
+          "das Stromnetz",
+          "le réseau électrique",
+          "Deutschland baut das Stromnetz im ganzen Land aus."
+        ],
+        [
+          "die Schuldenbremse",
+          "le frein constitutionnel à la dette",
+          "Die Schuldenbremse begrenzt neue Schulden im Bundeshaushalt."
+        ],
+        [
+          "der Energieverbrauch",
+          "la consommation d'énergie",
+          "Moderne Maschinen senken den gesamten Energieverbrauch deutlich."
+        ]
+      ],
+      "sujets": [
+        "Wie kann Deutschland die Energiewende sozial gerecht gestalten?",
+        "Gefährden hohe Strompreise den Industriestandort Deutschland?"
+      ]
+    },
+    {
+      "id": "2026-11-12-allemand-4",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/ig-metall-streiks-100.html",
+      "minutes": 3,
+      "titre": "Industrie allemande : IG Metall vote des grèves de 24 heures pour la première fois en huit ans",
+      "faits": "Le syndicat de la métallurgie IG Metall a franchi une nouvelle étape ce jeudi 12 novembre en décidant de lancer des grèves de 24 heures dans toute l'Allemagne. C'est la première fois depuis 2018 que la plus puissante organisation syndicale du pays recourt à cet instrument dur de protestation dans les négociations collectives de branche. Le conflit concerne près de 3,9 millions de salariés de la métallurgie, de l'industrie automobile et de la construction mécanique. IG Metall réclame une hausse des salaires de 7 % sur douze mois ainsi qu'une prime spéciale pour les apprentis afin de compenser les pertes de pouvoir d'achat dues à l'inflation passée. L'organisation patronale Gesamtmetall rejette fermement ces prétentions, proposant une hausse limitée à 3,6 % étalée sur plus de deux ans, en pointant du doigt les pertes de commandes et la crise structurelle du secteur automobile. Les débrayages de 24 heures débuteront en début de semaine prochaine et paralyseront des usines clés comme Volkswagen, BMW et Bosch. Les négociateurs syndicaux préviennent que sans offre patronale améliorée, un vote pour une grève générale illimitée sera organisé.",
+      "enjeux": "Ce durcissement sans précédent du conflit social illustre la fragilité croissante du modèle traditionnel de **cogestion** (Mitbestimmung) et de compromis salarial en Allemagne. Alors que le partenariat social entre syndicats et patronat constituait historiquement le pilier de la paix sociale et de la compétitivité du modèle rhénan, les positions apparaissent aujourd'hui inconciliables. D'un côté, les salariés subissent une baisse cumulée de leurs salaires réels et refusent de servir de variable d'ajustement aux difficultés de l'industrie ; de l'autre, les industriels affrontent la transition vers le véhicule électrique, la concurrence chinoise et des coûts de production record. Une hausse salariale marquée risque d'accélérer les suppressions de postes et les délocalisations de production vers l'Europe de l'Est ou l'Asie. En revanche, un accord au rabais réduirait la consommation des ménages et accentuerait la désaffection des jeunes pour les métiers manuels et techniques. Ces grèves d'une journée entière vont désorganiser les chaînes logistiques déjà tendues des constructeurs automobiles, infligeant des millions d'euros de pertes financières immédiates. Enfin, cette épreuve de force teste la détermination des partenaires sociaux à préserver les **conventions collectives de branche** (Flächentarifvertrag) face à la tentation croissante des entreprises de s'en affranchir.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Main_Forum%2C_Frankfurt%2C_South_view_20170205_1.jpg/1280px-Main_Forum%2C_Frankfurt%2C_South_view_20170205_1.jpg",
+        "alt": "Bâtiment du Main Forum, siège fédéral du syndicat IG Metall à Francfort-sur-le-Main",
+        "credit": "DXR / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Main_Forum,_Frankfurt,_South_view_20170205_1.jpg"
+      },
+      "vo": {
+        "titre": "IG Metall beschließt ganztägige Streiks in Deutschland",
+        "faits": "Die Gewerkschaft IG Metall plant ganztägige Warnstreiks in der Industrie. Das gab die Gewerkschaft am Donnerstag in Frankfurt bekannt. Es ist der erste 24-Stunden-Streik seit acht Jahren im Land. Betroffen sind fast vier Millionen Beschäftigte in der Metallbranche. Die Gewerkschaft fordert sieben Prozent mehr Geld für die Arbeiter. Die Arbeitgeber lehnen diese Forderung als viel zu hoch ab. Sie verweisen auf die schwere Krise im Automobilsektor. Die Streiks beginnen nächste Woche in vielen großen Fabriken.",
+        "enjeux": "Der Tarifstreit bedroht den sozialen Frieden in Deutschland. Das deutsche Modell lebte lange von friedlichen Kompromissen. Doch jetzt stehen die Fronten sehr hart gegeneinander. Arbeiter spüren die Folgen der Inflation im Alltag. Sie fordern einen fairen Anteil an den Unternehmensgewinnen. Die Chefs warnen vor Verlusten und teuren Standorten. Wenn Löhne zu stark steigen, droht Jobabbau. Dieser Arbeitskampf trifft die Wirtschaft in einer schwierigen Phase."
+      },
+      "vocab": [
+        [
+          "der Warnstreik",
+          "la grève d'avertissement",
+          "Die IG Metall ruft zum Warnstreik auf."
+        ],
+        [
+          "die Gewerkschaft",
+          "le syndicat de salariés",
+          "Die Gewerkschaft kämpft für bessere Löhne der Arbeiter."
+        ],
+        [
+          "die Tarifverhandlung",
+          "la négociation collective salariale",
+          "Die Tarifverhandlung endete ohne ein Ergebnis."
+        ],
+        [
+          "der Arbeitgeber",
+          "l'employeur / le patronat",
+          "Der Arbeitgeber bietet nur eine kleine Gehaltserhöhung an."
+        ],
+        [
+          "die Metallbranche",
+          "le secteur de la métallurgie",
+          "In der Metallbranche arbeiten viele qualifizierte Fachkräfte."
+        ],
+        [
+          "der Jobabbau",
+          "la suppression d'emplois",
+          "Viele Arbeiter haben große Angst vor Jobabbau."
+        ]
+      ],
+      "sujets": [
+        "Ist das Modell der Sozialpartnerschaft in Deutschland in Gefahr?",
+        "Können deutsche Industriebetriebe hohe Lohnerhöhungen noch verkraften?"
+      ]
+    }
+  ],
+  "a_lire": [
+    {
+      "journal": "Les Échos",
+      "titre": "Train : comment l'Etat veut remédier au sous-investissement dans le réseau ferré malgré la disette budgétaire",
+      "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/train-comment-letat-veut-remedier-au-sous-investissement-dans-le-reseau-ferre-malgre-la-disette-budgetaire-2262245",
+      "pourquoi": "Une analyse des arbitrages budgétaires et du financement public des **infrastructures ferroviaires** face aux impératifs de la transition écologique."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "Automobile : comment le monde se divise en deux pour les géants japonais Toyota, Honda et Nissan",
+      "url": "https://www.lesechos.fr/industrie-services/automobile/automobile-comment-le-monde-se-divise-en-deux-pour-les-geants-japonais-toyota-honda-et-nissan-2262242",
+      "pourquoi": "Une étude de cas sur la fragmentation des **chaînes de valeur mondiales** et les stratégies de relocalisation industrielle face aux barrières douanières régionales."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "« Une tâche d'une ampleur d'historique » : les experts du chancelier Merz mettent les pieds dans le plat sur la question de la dette allemande",
+      "url": "https://www.lesechos.fr/monde/europe/une-tache-dune-ampleur-historique-les-experts-du-chancelier-merz-mettent-les-pieds-dans-le-plat-sur-la-question-de-la-dette-allemande-2262215",
+      "pourquoi": "Un éclairage majeur sur le débat constitutionnel autour du **frein à la dette** (Schuldenbremse) et les besoins massifs d'investissement public en Allemagne."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "En Allemagne, l’économie va mieux qu’en France, mais l’envolée de la dette fait craindre une « crise budgétaire » d’envergure",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/12/en-allemagne-l-economie-va-mieux-qu-en-france-mais-l-envolee-de-la-dette-fait-craindre-une-crise-budgetaire-d-envergure_6809071_3234.html",
+      "pourquoi": "Une comparaison macroéconomique franco-allemande sur la trajectoire des **déficits publics** et les risques de décrochage budgétaire au cœur de la zone euro."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Au Canada, « une usine fantôme de Stellantis est ballottée au rythme des grands bouleversements économiques, de la guerre commerciale au réarmement mondial »",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/12/au-canada-une-usine-fantome-de-stellantis-est-ballottee-au-rythme-des-grands-bouleversements-economiques-de-la-guerre-commerciale-au-rearmement-mondial_6809084_3234.html",
+      "pourquoi": "Un exemple frappant de la vulnérabilité des investissements directs étrangers face aux chocs de **politique commerciale** et à la montée des tensions protectionnistes."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Comment les jobs d’appoint deviennent une nécessité pour des salariés ou chômeurs en quête de pouvoir d’achat",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/12/le-jobbing-ce-microtravail-qui-prend-de-plus-en-plus-de-poids-pour-boucler-les-fins-de-mois_6809052_3234.html",
+      "pourquoi": "Une analyse sociologique et économique de la **polarisation de l'emploi** et du recours croissant aux micro-tâches pour compenser la stagnation du salaire réel."
+    }
+  ]
+}

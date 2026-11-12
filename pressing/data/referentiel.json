@@ -4193,6 +4193,214 @@
           ]
         }
       ]
+    },
+    {
+      "id": "spirale-du-declassement-chauvel",
+      "nom": "La spirale du déclassement et les fractures générationnelles",
+      "categorie": "societe",
+      "type": "Théorie",
+      "annee": "2016",
+      "auteur": "Louis Chauvel",
+      "accroche": "La hausse des prix de l'immobilier et l'inflation des diplômes bloquent l'ascenseur social et condamnent les nouvelles générations à un déclassement relatif par rapport à leurs parents.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Louis Chauvel**, *La Spirale du déclassement. Peur de tomber, désillusions, fermetures sociales* (2016), prolongeant ses travaux pionniers du *Destin des générations* (1998).",
+            "Chauvel rompt avec la vision tocquevillienne ou méritocratique d'une moyennisation continue de la société française. Il démontre que la dynamique historique d'égalisation et de mobilité sociale ascendante portée par les Trente Glorieuses s'est enrayée à partir des générations nées après 1960."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**L'inflation des diplômes** : la massification de l'enseignement supérieur produit davantage de diplômés que le marché du travail ne crée d'emplois de cadres, provoquant un phénomène de surqualification et une dévalorisation des titres scolaires.",
+            "**La barrière patrimoniale et immobilière** : l'envolée des prix des logements dans les métropoles transfère massivement la richesse vers les générations plus âgées détentrices d'actifs, rendant l'accès à la propriété inaccessible aux jeunes sans soutien familial.",
+            "**Le retour de la rente et de l'héritage** : le patrimoine hérité reprend le pas sur le travail et le mérite scolaire pour définir la position sociale, transformant la société en une structure néo-patrimoniale où la peur de la régression sociale taraude les classes moyennes."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette analyse montre que les **inégalités intergénérationnelles** et la crise du logement ne sont pas de simples aléas conjoncturels, mais un verrou structurel qui bloque la mobilité sociale ascendante. Elle prouve que le marché du travail et le système éducatif ne suffisent plus à assurer la promotion sociale lorsque les prix des actifs réels s'envolent, réactivant une fracture sociale profonde entre héritiers et non-héritiers au cœur des classes moyennes."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Thomas Piketty (2013)",
+              "d": "Le taux de rendement du capital supérieur au taux de croissance (r > g) entraîne le grand retour de l'héritage et des patrimoines hérités dans les économies avancées."
+            },
+            {
+              "t": "François Cusin et Claire Juillard (2010)",
+              "d": "Le logement devient le principal facteur d'éclatement des classes moyennes, divisant la population entre propriétaires valorisés et locataires fragilisés."
+            },
+            {
+              "t": "Régis Bigot (2008)",
+              "d": "La hausse des dépenses contraintes (dont le logement et les charges associées) rogne le revenu arbitrable des ménages modestes et alimente le sentiment de déclassement."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Chauvel ne soutient pas que le niveau de vie absolu des jeunes a baissé par rapport à celui des années 1950, mais que leur **position relative** dans l'échelle sociale s'est détériorée à diplôme et effort équivalents. Il ne nie pas non plus l'utilité des études, mais souligne que le diplôme est devenu un bouclier défensif pour éviter la chute plutôt qu'un propulseur garanti vers le sommet."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La crise du logement neuf et de l'accession à la propriété",
+              "d": "Pour analyser comment la flambée des taux d'emprunt et la pénurie d'offres résidentielles excluent les primo-accédants et renforcent le poids de l'aide patrimoniale intrafamiliale."
+            },
+            {
+              "t": "Le sentiment de paupérisation des classes moyennes",
+              "d": "Pour expliquer la montée des inquiétudes sur le pouvoir d'achat chez des catégories diplômées confrontées au coût prohibitif des loyers métropolitains."
+            },
+            {
+              "t": "Les débats sur la fiscalité successorale",
+              "d": "Pour justifier une taxation renforcée des successions afin de corriger les rentes générationnelles et rétablir l'égalité des chances."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Thomas Piketty (2013)",
+              "idee": "le retour du capitalisme patrimonial concentre les richesses au détriment des revenus du travail"
+            },
+            {
+              "sens": "=",
+              "nom": "Régis Bigot (2008)",
+              "idee": "le poids croissant des dépenses contraintes compresse le niveau de vie réel"
+            },
+            {
+              "sens": "≠",
+              "nom": "Raymond Boudon (1973)",
+              "idee": "l'inégalité des chances résulte de calculs coûts-bénéfices individuels et non d'une fatalité de classe générationnelle"
+            },
+            {
+              "sens": "≠",
+              "nom": "Henri Mendras (1988)",
+              "idee": "la thèse de la moyennisation générale et de l'effacement des barrières de classes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paradoxe-de-bairoch",
+      "nom": "Paradoxe de Bairoch et histoire commerciale",
+      "categorie": "commerce",
+      "type": "Paradoxe",
+      "annee": "1993",
+      "auteur": "Paul Bairoch",
+      "accroche": "Au XIXe siècle, le libre-échange a coïncidé avec un ralentissement de la croissance européenne alors que le retour au protectionnisme s'est accompagné d'une accélération économique.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Paul Bairoch**, *Mythes et paradoxes de l'histoire économique* (1993, publication en anglais puis en français en 1994) et *Commerce extérieur et développement économique de l'Europe au XIXe siècle* (1976).",
+            "Historien de l'économie réputé pour ses reconstitutions statistiques minutieuses, Bairoch s'oppose au consensus rétrospectif libéral qui assimile l'essor économique du XIXe siècle aux bienfaits du libre-échange. Il montre que la période de libre-échange n'a été qu'un intermède bref et atypique dans une histoire dominée par le protectionnisme."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**L'illusion du siècle libre-échangiste** : Bairoch rappelle que le XIXe siècle a été massivement protectionniste, le libre-échange ne s'étant réellement imposé en Europe continentale qu'entre 1860 (traité Cobden-Chevalier) et 1879 (retour du tarif Bismarck en Allemagne, puis tarifs Méline en France en 1892).",
+            "**La corrélation inversée entre ouverture et croissance** : durant l'épisode libre-échangiste européen (1860-1879), la croissance du PNB par habitant a ralenti à environ 0,6 % par an en Europe continentale ; au contraire, après le rétablissement des barrières douanières (1879-1914), la croissance s'est accélérée pour atteindre 1,4 % par an.",
+            "**Le dynamisme des nations les plus protégées** : les deux pays qui ont affiché les croissances industrielles les plus spectaculaires au XIXe siècle et au début du XXe siècle — les États-Unis et l'Allemagne — étaient précisément les plus résolument protectionnistes."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Ce paradoxe historique permet de contester le dogme selon lequel l'ouverture commerciale est une condition nécessaire et systématique de la croissance économique. Il prouve que la protection ciblée des marchés intérieurs et des industries naissantes peut dynamiser l'investissement productif domestique, à condition que le marché national dispose d'une taille suffisante et d'un potentiel d'innovation solide."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Friedrich List (1841)",
+              "d": "Le protectionnisme éducateur théorise la nécessité de protéger temporairement les industries dans l'enfance contre les nations déjà avancées."
+            },
+            {
+              "t": "Dani Rodrik (1997)",
+              "d": "L'intégration commerciale mondiale excessive peut déstabiliser les compromis sociaux nationaux et susciter des réactions de repli politique."
+            },
+            {
+              "t": "Kevin O'Rourke (2000)",
+              "d": "Des vérifications économétriques confirment le paradoxe de Bairoch pour la fin du XIXe siècle, tout en soulignant qu'il s'inverse après 1945."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Bairoch n'affirme pas que le protectionnisme produit mécaniquement de la croissance en toute circonstance. Il souligne que l'autarcie est mortifère pour les petites économies dépourvues de marché intérieur et que le protectionnisme aveugle des années 1930 (tarif Smoot-Hawley) a dramatiquement amplifié la Grande Dépression en provoquant l'effondrement du commerce mondial."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'ascension industrielle de la Chine contemporaine",
+              "d": "Pour montrer comment Pékin a combiné un protectionnisme sélectif et des subventions massives à l'offre avec une conquête agressive des marchés mondiaux."
+            },
+            {
+              "t": "Le retour des guerres commerciales et des tarifs douaniers",
+              "d": "Pour analyser la résurgence des politiques protectionnistes aux États-Unis et en Europe comme une réponse historique classique aux chocs de concurrence internationale."
+            },
+            {
+              "t": "Les débats sur la souveraineté industrielle européenne",
+              "d": "Pour légitimer la mise en place d'instruments de défense commerciale (mécanisme carbone aux frontières, clauses miroirs) face aux distorsions de concurrence."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Friedrich List (1841)",
+              "idee": "le protectionnisme temporaire permet le décollage des forces productives nationales"
+            },
+            {
+              "sens": "=",
+              "nom": "Alexander Gerschenkron (1962)",
+              "idee": "les pays suiveurs rattrapent leur retard grâce à l'intervention protectrice de l'État"
+            },
+            {
+              "sens": "≠",
+              "nom": "David Ricardo (1817)",
+              "idee": "la spécialisation internationale selon les avantages comparatifs garantit des gains mutuels à tous les participants"
+            },
+            {
+              "sens": "≠",
+              "nom": "Jagdish Bhagwati (2004)",
+              "idee": "le libre-échange est le plus puissant moteur de réduction de la pauvreté mondiale"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
