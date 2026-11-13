@@ -1,0 +1,750 @@
+{
+  "date": "2026-11-13",
+  "cards": [
+    {
+      "id": "2026-11-13-esh-1",
+      "matiere": "esh",
+      "source": "Les Échos",
+      "url": "https://www.lesechos.fr/industrie-services/automobile/droits-de-douane-le-canada-accuse-stellantis-de-trahir-ses-engagements-apres-la-vente-dune-usine-au-profit-dun-site-de-production-americain-2262441",
+      "minutes": 3,
+      "titre": "Droits de douane : le Canada accuse Stellantis de trahir ses engagements après la vente d'une usine",
+      "faits": "Le constructeur automobile Stellantis a officialisé la vente de son usine d'assemblage de Brampton, en Ontario, au fabricant canadien de véhicules blindés Roshel. Ce site devait initialement produire le modèle Jeep Compass, mais le groupe a abandonné le projet pour relocaliser cette production aux États-Unis, dans l'Illinois. Cette décision intervient alors que l'administration américaine menace d'imposer des droits de douane de 50 % sur les véhicules et pièces automobiles importés du Canada. À Ottawa, le Premier ministre Mark Carney et le syndicat Unifor ont dénoncé une « trahison » envers les travailleurs canadiens. Le gouvernement fédéral canadien a signifié à Stellantis un avis de défaut sur les accords de financement public passés et menace d'engager des poursuites pour récupérer des centaines de millions de dollars de subventions.",
+      "enjeux": "Cet épisode illustre la manière dont le retour du **protectionnisme** américain recompose la géographie industrielle nord-américaine et fragilise les **chaînes de valeur régionales**. Pour échapper aux barrières tarifaires, les **firmes multinationales** arbitrent en faveur d'une production sur le sol américain, au détriment des pays voisins intégrés jusqu'ici dans l'accord ACEUM. Le bras de fer avec Ottawa pose aussi la question de l'efficacité et de la **conditionnalité des subventions publiques** : sans clauses contraignantes de maintien de l'emploi, les aides d'État ne suffisent pas à ancrer durablement un site industriel face à un choc tarifaire. Pour les économies ouvertes de taille moyenne comme le Canada, la guerre commerciale transforme l'attractivité en jeu à somme nulle.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ford_Dearborn_Factory_Aerial_%2845574999515%29.jpg/1280px-Ford_Dearborn_Factory_Aerial_%2845574999515%29.jpg",
+        "alt": "Vue aérienne d'une usine d'assemblage automobile en Amérique du Nord",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ford_Dearborn_Factory_Aerial_(45574999515).jpg"
+      },
+      "programme": {
+        "module": "Module 3 – La mondialisation économique et financière",
+        "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+      },
+      "auteurs": [
+        {
+          "nom": "Robert Mundell",
+          "ouvrage": "International Trade and Factor Mobility",
+          "annee": "1957",
+          "ref": "substitution-ide-commerce-mundell",
+          "cours": "2A-01-mondialisation-commerciale",
+          "texte": "Mundell montre que lorsque les biens circulent mal à cause de **droits de douane**, les facteurs de production (capitaux, usines) se déplacent : l'**investissement direct à l'étranger (IDE)** se substitue à l'échange commercial. Sur cette actu, la menace de tarifs américains de 50 % pousse Stellantis à fermer un site exportateur au Canada pour produire directement dans l'Illinois. À mobiliser dans tout sujet sur les effets du protectionnisme ou sur les stratégies de localisation des multinationales."
+        },
+        {
+          "nom": "Friedrich List",
+          "ouvrage": "Système national d'économie politique",
+          "annee": "1841",
+          "ref": "protectionnisme-educateur",
+          "cours": "1A-inegalites-developpement",
+          "texte": "List défend un **protectionnisme éducateur** ciblé et temporaire pour permettre à des industries naissantes d'atteindre la taille critique avant d'affronter la concurrence. À l'inverse, l'usage offensif de droits de douane massifs entre économies matures et déjà industrialisées, comme entre les États-Unis et le Canada, relève d'une logique mercantiliste qui désorganise la division du travail. À mobiliser pour distinguer le protectionnisme de rattrapage des guerres commerciales contemporaines."
+        }
+      ],
+      "notions": [
+        ["Substitution IDE-commerce", "Mécanisme par lequel une firme implante une usine à l'étranger pour contourner des barrières douanières."],
+        ["Guerre commerciale", "Escalade de mesures protectionnistes (droits de douane, quotas) entre États partenaires."],
+        ["Conditionnalité des aides", "Obligation de contreparties en termes d'emploi ou d'investissement imposée aux entreprises recevant des fonds publics."],
+        ["Chaîne de valeur régionale", "Organisation intégrée de la production répartissant les étapes de fabrication entre pays voisins."]
+      ],
+      "sujets": [
+        "Les droits de douane permettent-ils de réindustrialiser durablement un pays ?",
+        "Comment les États peuvent-ils sécuriser les investissements des firmes multinationales sur leur territoire ?"
+      ],
+      "anki": [
+        {
+          "q": "Droits de douane américains menaçant les véhicules canadiens et réponse de Stellantis (2026)",
+          "r": "Menace de C{50 %} de droits de douane américains : Stellantis vend son usine de Brampton (Ontario) et relocalise la production dans l'Illinois.\n→ Illustre la B{substitution entre IDE et commerce} (A{Mundell}, D{1957}) face aux barrières tarifaires ; accroche pour un sujet sur le B{protectionnisme}."
+        },
+        {
+          "q": "Réaction du gouvernement canadien à la vente de l'usine Stellantis de Brampton",
+          "r": "Ottawa signifie un avis de défaut pour récupérer des centaines de millions de dollars de subventions.\n→ Pose la question de la B{conditionnalité des aides publiques} face à la mobilité des FMN."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-esh-2",
+      "matiere": "esh",
+      "source": "Le Figaro",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/entreprises-paralysees-examens-perturbes-avions-retardes-la-panne-mondiale-de-microsoft-et-outlook-provoque-des-consequences-en-cascade-20261113",
+      "minutes": 3,
+      "titre": "Panne mondiale de Microsoft : la vulnérabilité numérique des économies européennes",
+      "faits": "Une panne géante des services en ligne de Microsoft, notamment Outlook, Teams et Copilot, a paralysé pendant plus de dix-huit heures des milliers d'entreprises, d'administrations, d'universités et de réseaux de transport dans le monde entier entre le 12 et le 13 novembre 2026. Des examens universitaires ont dû être perturbés, des vols retardés et de nombreuses organisations ont fonctionné au ralenti faute d'accès à leurs messageries et outils collaboratifs. Microsoft a reconnu le 13 novembre des « progrès encourageants » en Europe tout en peinant à rétablir pleinement l'ensemble de son infrastructure. Cet incident a relancé les critiques des fédérations patronales européennes et d'experts en cybersécurité sur la dépendance critique des économies envers un fournisseur unique.",
+      "enjeux": "Cette panne révèle le coût macroéconomique d'une **hyper-concentration du marché** des logiciels professionnels et du cloud. Dans une économie numérisée, les **effets de réseau** et les **coûts de changement** (*switching costs*) favorisent l'émergence de quasi-monopoles mondiaux, transformant un incident technique privé en **risque systémique**. Pour l'Union européenne, l'épisode pose un enjeu de **souveraineté numérique** et de **résilience des chaînes productives** : la dépendance quasi totale des administrations et des PME envers quelques géants américains expose l'économie à des arrêts d'activité brutaux et pose la question de la régulation de la concurrence et de la diversification des infrastructures.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Data_Center_of_CNPC.jpg/1280px-Data_Center_of_CNPC.jpg",
+        "alt": "Allée de serveurs informatiques dans un centre de données",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Data_Center_of_CNPC.jpg"
+      },
+      "programme": {
+        "module": "Module 2 – Croissance et développement",
+        "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+      },
+      "auteurs": [
+        {
+          "nom": "Joan Robinson",
+          "ouvrage": "L'Économie de la concurrence imparfaite",
+          "annee": "1933",
+          "ref": "concurrence-imparfaite-robinson",
+          "cours": "1A-entreprise",
+          "texte": "Robinson intègre le **monopole** et l'**oligopole** dans l'analyse économique en rompant avec l'hypothèse d'atomicité des agents. Elle montre que les grandes firmes disposent d'un **pouvoir de marché** durable qui affaiblit les mécanismes concurrentiels. Sur cette actu, la paralysie simultanée d'entreprises et d'administrations lors d'une panne de Microsoft illustre la concentration extrême des outils numériques et la dépendance des clients captifs. À mobiliser dans un sujet sur la concurrence imparfaite et la régulation des géants du numérique."
+        },
+        {
+          "nom": "Philippe Aghion et Peter Howitt",
+          "ouvrage": "Endogenous Growth Theory",
+          "annee": "1998",
+          "ref": "frontiere-technologique-aghion",
+          "cours": "1A-croissance",
+          "texte": "Aghion et Howitt montrent que la concurrence stimule l'innovation (*escape competition*), tandis que des positions dominantes figées freinent le dynamisme économique. Ils préconisent une **politique de la concurrence** active pour éviter que les géants établis ne bloquent l'entrée de nouveaux acteurs. Appliqué au cloud et aux suites bureautiques, leur cadre justifie l'interopérabilité et l'émergence d'alternatives européennes pour réduire les risques systémiques. À mobiliser pour articuler politique de la concurrence et croissance par l'innovation."
+        }
+      ],
+      "notions": [
+        ["Effet de réseau", "Mécanisme par lequel l'utilité d'un service augmente avec le nombre de ses utilisateurs, favorisant la concentration."],
+        ["Oligopole", "Structure de marché caractérisée par un petit nombre de vendeurs face à une multitude d'acheteurs."],
+        ["Risque systémique", "Risque qu'une défaillance d'un acteur ou d'un maillon clé se propage à l'ensemble du système économique."],
+        ["Souveraineté numérique", "Capacité d'un État ou d'une région à maîtriser ses infrastructures, ses données et ses logiciels stratégiques."]
+      ],
+      "sujets": [
+        "La concentration des marchés numériques est-elle inévitable ?",
+        "Comment concilier économies d'échelle et résilience dans une économie numérisée ?"
+      ],
+      "anki": [
+        {
+          "q": "Durée et portée de la panne mondiale de Microsoft (novembre 2026)",
+          "r": "Plus de C{18 heures} de perturbation mondiale sur Outlook, Teams et Copilot, paralysant entreprises, examens et vols.\n→ Illustre le B{risque systémique} d'un oligopole numérique (A{Joan Robinson}, O{L'Économie de la concurrence imparfaite}, D{1933}) ; accroche pour un sujet sur la B{régulation des GAFAM}."
+        },
+        {
+          "q": "Mécanisme économique qui enferme les clients chez un géant logiciel",
+          "r": "B{Effets de réseau} et B{coûts de changement} (*switching costs*) élevés.\n→ Explique la persistance du pouvoir de marché et l'enjeu de l'interopérabilité (A{Aghion et Howitt}, D{1998})."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-esh-3",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/13/mobilisations-sociales-sebastien-lecornu-ouvre-une-discussion-d-un-mois-avec-les-syndicats_6809324_823448.html",
+      "minutes": 3,
+      "titre": "Fonction publique : Sébastien Lecornu ouvre un mois de discussions sur les bas salaires",
+      "faits": "Le Premier ministre Sébastien Lecornu a reçu à Matignon le 13 novembre 2026 les syndicats représentatifs de la fonction publique pour ouvrir un cycle de négociations d'un mois. Cinq chantiers ont été annoncés, dont des mesures d'urgence pour revaloriser les bas salaires et une réforme structurelle des grilles indiciaires, avec un rendez-vous fixé au 11 décembre pour conclure. Face aux revalorisations successives du Smic et au gel du point d'indice, plus d'un million d'agents publics ont un traitement de base inférieur au salaire minimum et perçoivent une indemnité différentielle. Plusieurs syndicats, dont la CFDT, ont toutefois jugé ces annonces insuffisantes et maintenu l'appel à la grève intersyndicale du 17 novembre.",
+      "enjeux": "Cette crise met en lumière le phénomène de **« smicardisation »** des grilles salariales dans le secteur public, qui réduit les perspectives de progression de carrière et dégrade l'**attractivité** des métiers publics. Sur le plan macroéconomique, l'État-employeur est confronté à un arbitrage classique entre **cohésion sociale** et **contrainte budgétaire** : toute hausse générale du point d'indice pèse durablement sur la dépense publique dans un contexte de déficit élevé. Par ailleurs, l'écrasement de la hiérarchie des salaires pose un problème d'incitations et de **productivité** des services publics, à l'heure où le recrutement dans l'éducation ou la santé devient plus difficile.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Matignon_gala.jpg/1280px-Matignon_gala.jpg",
+        "alt": "Façade de l'hôtel de Matignon à Paris, résidence du Premier ministre",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Matignon_gala.jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Richard Musgrave",
+          "ouvrage": "Théorie des finances publiques",
+          "annee": "1959",
+          "ref": "fonctions-etat",
+          "cours": "1A-acteurs-fonctions",
+          "texte": "Musgrave distingue trois fonctions économiques de l'État : l'**allocation** des ressources (produire les biens publics comme l'école ou la sécurité), la **redistribution** des revenus et la **stabilisation** macroéconomique. Sur cette actu, le gouvernement doit arbitrer entre sa fonction d'allocation (maintenir la qualité des services publics en revalorisant les agents) et l'impératif de maîtrise budgétaire. À mobiliser pour structurer toute dissertation sur le rôle économique de l'État."
+        },
+        {
+          "nom": "George Akerlof et Janet Yellen",
+          "ouvrage": "Efficiency Wage Models of the Labor Market",
+          "annee": "1986",
+          "ref": "salaire-d-efficience",
+          "texte": "Selon la théorie du **salaire d'efficience**, verser un salaire supérieur au minimum de marché accroît la motivation, limite le *turnover* et améliore la qualité du recrutement. À l'inverse, le tassement des grilles publiques au niveau du Smic réduit l'effort et décourage les candidats qualifiés. À mobiliser pour montrer qu'une compression excessive de la masse salariale peut nuire à l'efficacité du secteur public."
+        }
+      ],
+      "notions": [
+        ["Point d'indice", "Valeur de référence qui permet de calculer le traitement indiciaire de base des fonctionnaires français."],
+        ["Tassement salarial", "Resserrement de l'écart entre le salaire minimum et les rémunérations intermédiaires."],
+        ["Salaire d'efficience", "Rémunération supérieure au salaire d'équilibre visant à accroître la productivité et la fidélité des travailleurs."],
+        ["Contrainte budgétaire", "Limite imposée aux dépenses publiques par le niveau des recettes et le coût de la dette."]
+      ],
+      "sujets": [
+        "La maîtrise des dépenses publiques passe-t-elle nécessairement par celle de la masse salariale ?",
+        "Le tassement des salaires vers le Smic nuit-il à l'efficacité économique ?"
+      ],
+      "anki": [
+        {
+          "q": "Nombre d'agents publics français rattrapés par le Smic (novembre 2026)",
+          "r": "Plus d'C{1 million} d'agents ont un traitement de base inférieur au Smic et touchent une indemnité différentielle.\n→ Illustre la B{smicardisation} de la fonction publique et le risque de perte d'attractivité (A{Akerlof et Yellen}, O{Efficiency Wage Models}, D{1986}) ; accroche pour un sujet sur le B{marché du travail} ou la B{dépense publique}."
+        },
+        {
+          "q": "Arbitrage de l'État-employeur face aux revendications salariales selon Musgrave",
+          "r": "Tension entre la fonction d'B{allocation} (qualité des services publics) et la contrainte de B{stabilisation} budgétaire (A{Richard Musgrave}, O{Théorie des finances publiques}, D{1959})."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-esh-4",
+      "matiere": "esh",
+      "source": "La Tribune",
+      "url": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/2005631836264214/nucleaire-comment-newcleo-accelere-l-industrialisation-de-son-combustible-mox-dans-un-centre-d-essais-dedie",
+      "minutes": 3,
+      "titre": "Nucléaire : Newcleo accélère l'industrialisation du combustible MOX dans le Gard",
+      "faits": "La start-up nucléaire Newcleo a ouvert à Chusclan, dans le Gard, près du site de Marcoule, son centre d'ingénierie et d'essais FASTER dédié à l'industrialisation du combustible MOX (mélange d'oxydes d'uranium et de plutonium). Cet investissement de 10 millions d'euros mobilise une centaine d'ingénieurs sur une plateforme non radioactive équipée de sept installations opérationnelles pour tester les procédés de fabrication. L'entreprise vise à qualifier ces technologies avant de construire une grande usine dans l'Aube destinée à alimenter ses futurs petits réacteurs modulaires à neutrons rapides refroidis au plomb. Ce projet s'inscrit dans la relance de la filière nucléaire française visant à fermer le cycle du combustible et à réduire les déchets.",
+      "enjeux": "Cette initiative illustre le renouveau d'une **politique industrielle** de décarbonation fondée sur l'**innovation de rupture** et l'**économie circulaire** appliquée à l'énergie. Pour la France, l'enjeu est double : sécuriser l'indépendance énergétique face aux chocs sur les énergies fossiles et maintenir un **écosystème technologique** de pointe capable de générer des externalités positives sur tout le territoire. Toutefois, le passage du prototype à l'échelle industrielle exige un **capital patient** massif et des horizons de rentabilité très longs, que le marché financier privé peine parfois à assumer seul sans accompagnement public.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Saint_Restitut_-_vue_sur_la_centrale_nucl%C3%A9aire_du_Tricastin_2.jpg/1280px-Saint_Restitut_-_vue_sur_la_centrale_nucl%C3%A9aire_du_Tricastin_2.jpg",
+        "alt": "Vue sur le site nucléaire du Tricastin dans la vallée du Rhône",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Saint_Restitut_-_vue_sur_la_centrale_nucl%C3%A9aire_du_Tricastin_2.jpg"
+      },
+      "programme": {
+        "module": "Module 2 – Croissance et développement",
+        "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+      },
+      "auteurs": [
+        {
+          "nom": "Joseph Schumpeter",
+          "ouvrage": "Capitalisme, socialisme et démocratie",
+          "annee": "1942",
+          "ref": "destruction-creatrice",
+          "cours": "1A-croissance",
+          "texte": "Schumpeter place l'**entrepreneur innovateur** au cœur de la dynamique capitaliste : les nouvelles technologies et combinaisons productives renouvellent l'appareil industriel par **destruction créatrice**. Sur cette actu, une start-up comme Newcleo tente d'introduire des réacteurs modulaires de 4e génération et le recyclage du combustible pour dépasser les limites des réacteurs conventionnels. À mobiliser pour montrer le rôle de l'innovation dans la transition énergétique."
+        },
+        {
+          "nom": "Philippe Aghion et Peter Howitt",
+          "ouvrage": "Appropriate Growth Policy: A Unifying Framework",
+          "annee": "2005",
+          "ref": "frontiere-technologique-aghion",
+          "cours": "2A-02-ftn",
+          "texte": "Aghion et Howitt montrent que dans les pays proches de la **frontière technologique**, la croissance dépend d'innovations radicales soutenues par la R&D, l'enseignement supérieur et une politique industrielle ciblée. Leur modèle justifie l'articulation entre pôles scientifiques publics (comme Marcoule) et entreprises innovantes pour réussir la transition bas-carbone. À mobiliser pour évaluer les stratégies de réindustrialisation verte comme France 2030."
+        }
+      ],
+      "notions": [
+        ["Innovation de rupture", "Innovation technologique qui bouleverse un secteur en créant de nouveaux procédés ou produits."],
+        ["Politique industrielle", "Intervention ciblée de l'État visant à orienter ou soutenir le développement de filières jugées stratégiques."],
+        ["Frontière technologique", "Niveau maximal d'efficacité productive et d'innovation atteint par les économies les plus avancées."],
+        ["Capital patient", "Financement de long terme acceptant des délais de rentabilité élevés pour soutenir des projets industriels ou de R&D."]
+      ],
+      "sujets": [
+        "L'innovation technologique suffit-elle à assurer une croissance soutenable ?",
+        "Quel rôle l'État doit-il jouer dans la réindustrialisation verte ?"
+      ],
+      "anki": [
+        {
+          "q": "Investissement du centre d'essais FASTER de Newcleo dans le Gard (2026)",
+          "r": "C{10 millions d'euros} et une centaine d'ingénieurs pour industrialiser le combustible MOX recyclé.\n→ Illustre l'B{innovation de rupture} à la B{frontière technologique} (A{Aghion et Howitt}, D{2005}) dans la transition énergétique ; accroche pour un sujet sur la B{croissance verte}."
+        },
+        {
+          "q": "Rôle de l'entrepreneur dans le renouvellement industriel selon Schumpeter",
+          "r": "L'entrepreneur introduit des innovations qui transforment les procédés établis par B{destruction créatrice} (A{Joseph Schumpeter}, O{Capitalisme, socialisme et démocratie}, D{1942})."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-anglais-1",
+      "matiere": "anglais",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo",
+      "minutes": 3,
+      "titre": "Royaume-Uni : Andy Burnham promet un accord « gagnant-gagnant » avec l'Union européenne",
+      "faits": "À l'issue du sommet de la Communauté politique européenne à Dublin le 12 novembre 2026, le Premier ministre britannique Andy Burnham s'est dit confiant dans la conclusion d'un accord « gagnant-gagnant » avec l'Union européenne lors du sommet bilatéral prévu à Bruxelles le 20 novembre. Le gouvernement britannique affirme que ce rapprochement correspond davantage au Brexit que les électeurs pensaient avoir choisi en 2016. Les négociations portent sur un accord sanitaire et phytosanitaire pour fluidifier les échanges agroalimentaires, un lien entre marchés du carbone, un pacte de sécurité sanitaire et un programme de mobilité des jeunes. Selon l'exécutif, cet ensemble pourrait accroître le PIB britannique de 0,4 %, mais des points de blocage persistent, notamment sur les frais universitaires des étudiants européens et l'alignement réglementaire.",
+      "enjeux": "Dix ans après le référendum de 2016, Londres cherche à réduire les **frictions commerciales** du Brexit dur sans franchir ses lignes rouges politiques, à savoir le retour dans le **marché unique** ou l'union douanière. Pour le Royaume-Uni, un accord sanitaire et énergétique est un levier pragmatique pour relancer la **croissance** et freiner l'inflation alimentaire. Toutefois, ce « reset » illustre un dilemme classique de souveraineté : tout accès facilité au marché européen exige un certain **alignement réglementaire** dynamique, ce qui expose Burnham aux critiques de l'opposition conservatrice et de Reform UK qui dénoncent une perte d'autonomie législative.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg/1280px-Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg",
+        "alt": "Le palais de Westminster à Londres vu depuis la Tamise",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg"
+      },
+      "vo": {
+        "titre": "Burnham says 'win-win' UK-EU deal can be agreed",
+        "faits": "Following the European Political Community summit in Dublin on 12 November 2026, Prime Minister Andy Burnham said he was confident a 'win-win' deal could be agreed with the European Union at the bilateral summit in Brussels on 20 November. Burnham argued that a closer partnership would be 'more like the Brexit people thought they were voting for' in 2016. Talks cover a sanitary and phytosanitary agreement to ease food trade, an emissions-trading link, a health security pact and a youth mobility scheme. The government estimates the package could boost UK GDP by 0.4%, though sticking points remain over EU demands on university tuition fees and regulatory alignment.",
+        "enjeux": "Ten years after the 2016 referendum, London is seeking to reduce the trade frictions of a hard Brexit without crossing its political red lines of rejoining the single market or customs union. For Britain, removing border checks on food and linking carbon markets offers a pragmatic way to support sluggish growth and ease cost pressures. Yet this reset highlights a classic sovereignty trade-off: smoother access to the EU market requires dynamic alignment with Brussels rules, leaving Burnham vulnerable to opposition attacks claiming he is surrendering legislative autonomy."
+      },
+      "vocab": [
+        ["a win-win deal", "un accord gagnant-gagnant", "Both London and Brussels say they want a win-win deal on trade."],
+        ["trade frictions", "les frictions commerciales", "Border checks have created costly trade frictions for small exporters."],
+        ["regulatory alignment", "l'alignement réglementaire", "Opponents warn that regulatory alignment could limit British sovereignty."],
+        ["red lines", "les lignes rouges", "Rejoining the single market remains one of the government's red lines."],
+        ["a youth mobility scheme", "un programme de mobilité des jeunes", "A youth mobility scheme would let young people work abroad more easily."],
+        ["sticking points", "les points de blocage", "University tuition fees remain one of the main sticking points in the talks."]
+      ],
+      "sujets": [
+        "Can the UK rebuild close economic ties with the EU without reopening the Brexit debate?",
+        "Is regulatory alignment an acceptable price to pay for smoother trade with Europe?"
+      ],
+      "anki": [
+        {
+          "q": "Estimated GDP boost from the proposed UK-EU reset package (November 2026)",
+          "r": "C{0.4%} of UK GDP from easing agri-food checks, linking emissions trading, and youth mobility.\n→ Shows the tangible economic cost of post-Brexit B{trade frictions} ; useful hook for an essay on B{UK-EU relations}."
+        },
+        {
+          "q": "Main political trade-off of Andy Burnham's EU reset ahead of the 20 November 2026 summit",
+          "r": "Smoother market access requires B{dynamic regulatory alignment}, which critics frame as a loss of B{sovereignty}."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-anglais-2",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/13/ai-uk-finance-jobs-bournemouth-tech",
+      "minutes": 3,
+      "titre": "Royaume-Uni : l'IA supprime les emplois de débutants dans la finance à Bournemouth",
+      "faits": "Une enquête publiée le 13 novembre 2026 par The Guardian montre que Bournemouth, dans le Dorset, est devenue l'un des avant-postes de l'impact de l'intelligence artificielle sur l'emploi qualifié au Royaume-Uni. Depuis la déréglementation financière des années 1980, la ville balnéaire s'était imposée comme un grand pôle bancaire hors de Londres, employant environ 24 000 personnes dans les services financiers, dont plus de 5 300 sur le campus de JP Morgan. Mais l'automatisation et les modèles d'IA absorbent désormais les tâches de back-office, le traitement des données, les contrôles de conformité et l'analyse junior. Plutôt que des licenciements massifs, les acteurs locaux constatent la quasi-disparition des postes d'entrée pour les jeunes diplômés.",
+      "enjeux": "Ce phénomène illustre une transformation profonde du **marché du travail** britannique : l'IA ne détruit pas seulement des emplois peu qualifiés, elle menace désormais les **emplois tertiaires de début de carrière** qui servaient d'ascenseur social hors de la capitale. La disparition de ces postes juniors pose un problème de **formation du capital humain** : si les entreprises n'embauchent plus de débutants, elles risquent à terme de manquer de cadres intermédiaires expérimentés. À l'échelle locale, ce recul menace aussi l'économie résidentielle (logement, commerce, services) de villes régionales dépendantes d'un grand employeur financier.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg/1280px-Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg",
+        "alt": "Tours du quartier financier de Canary Wharf à Londres",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg"
+      },
+      "vo": {
+        "titre": "UK seaside finance hub on frontline of AI job cuts",
+        "faits": "A report published by The Guardian on 13 November 2026 reveals that Bournemouth, in Dorset, has become a frontline test case for how artificial intelligence is reshaping white-collar work in the UK. Since the 1980s financial deregulation, the town grew into a major banking hub outside London, employing around 24,000 people in financial services, including over 5,300 at JP Morgan's campus. However, automation and AI tools are rapidly absorbing back-office operations, routine data processing, compliance checks and junior analysis. Rather than dramatic mass layoffs, local business leaders and unions warn of a quiet disappearance of entry-level roles.",
+        "enjeux": "This shift highlights a major structural risk for the British labour market: AI is increasingly eroding entry-level white-collar jobs that have long provided social mobility outside London. Cutting off the bottom rung of the career ladder raises a long-term human capital dilemma, as firms may struggle to train future senior managers. Locally, shrinking graduate recruitment also threatens regional economies—from housing to hospitality—that rely heavily on a single financial sector hub."
+      },
+      "vocab": [
+        ["entry-level jobs", "les emplois de débutant / premier échelon", "Many banks are freezing entry-level jobs as software takes over."],
+        ["white-collar workers", "les cols blancs / employés de bureau", "AI is now affecting white-collar workers as well as factory staff."],
+        ["back-office operations", "les fonctions administratives et de gestion", "Automation has targeted back-office operations first."],
+        ["the career ladder", "l'échelle professionnelle", "Without junior roles, young graduates cannot climb the career ladder."],
+        ["a quiet crisis", "une crise silencieuse", "The drop in graduate hiring amounts to a quiet crisis for the town."],
+        ["compliance checks", "les contrôles de conformité", "AI models can now perform routine compliance checks in seconds."]
+      ],
+      "sujets": [
+        "Does artificial intelligence threaten social mobility for young graduates in the UK?",
+        "How should governments and firms adapt training as entry-level jobs disappear?"
+      ],
+      "anki": [
+        {
+          "q": "Number of financial services jobs in Bournemouth affected by AI shift (November 2026)",
+          "r": "Around C{24,000} finance workers (including C{5,300+} at JP Morgan), where entry-level roles are vanishing.\n→ Shows that AI disrupts B{white-collar entry-level jobs} and regional social mobility ; strong hook for an essay on B{AI and employment}."
+        },
+        {
+          "q": "Long-term human capital risk of cutting junior finance roles",
+          "r": "Removing the bottom rung of the B{career ladder} deprives firms of future trained managers and weakens local service economies."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-anglais-3",
+      "matiere": "anglais",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/12/business/economy/fed-warsh-october.html",
+      "minutes": 3,
+      "titre": "États-Unis : Kevin Warsh supprime le vote sur les taux lors de la réunion d'octobre 2027 de la Fed",
+      "faits": "Selon le New York Times du 12 novembre 2026, le président de la Réserve fédérale américaine, Kevin Warsh, a confirmé que le comité de politique monétaire (FOMC) ne procédera à aucun vote sur les taux d'intérêt lors de sa réunion d'octobre 2027. Bien que la banque centrale conserve huit réunions annuelles en 2027, la session des 26 et 27 octobre sera entièrement consacrée à la stratégie monétaire de long terme, réduisant à sept le nombre de décisions de taux. Warsh avait dévoilé cette réforme fin octobre 2026, annonçant qu'en 2028 la Fed passera à six réunions de décision sur les taux et deux réunions stratégiques. Le dirigeant estime que la Fed doit réduire son empreinte quotidienne sur les marchés financiers et privilégier la réflexion de fond.",
+      "enjeux": "Cette réforme institutionnelle traduit une volonté de rupture avec le pilotage très réactif aux données à court terme (*data dependence*) qui prévalait depuis la crise de 2008 et la période post-Covid. En espaçant les décisions sur les **taux directeurs**, Kevin Warsh cherche à limiter la volatilité spéculative autour de chaque réunion du FOMC et à renforcer l'**indépendance intellectuelle** de l'institution face aux pressions politiques de la Maison-Blanche. Toutefois, dans un contexte d'inflation persistante et de tensions sur les rendements obligataires, certains économistes s'interrogent sur la réactivité de la **politique monétaire** en cas de choc macroéconomique brutal.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Eccles_Building_%2826088200676%29.jpg/1280px-Eccles_Building_%2826088200676%29.jpg",
+        "alt": "Bâtiment Eccles, siège de la Réserve fédérale américaine à Washington",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg"
+      },
+      "vo": {
+        "titre": "Fed drops rate vote for October 2027 strategy meeting",
+        "faits": "According to The New York Times on 12 November 2026, Federal Reserve Chair Kevin Warsh has confirmed that the central bank's policy committee will not hold an interest-rate vote at its October 2027 meeting. While the Fed will still gather eight times in 2027, the 26–27 October session will be devoted entirely to long-term monetary strategy, cutting rate-setting meetings to seven. Warsh first outlined the overhaul in late October 2026, stating that by 2028 the Fed will move to six rate votes and two strategy sessions a year. He argues the central bank should reduce its short-term footprint on financial markets.",
+        "enjeux": "The reform signals a deliberate break from the hyper-reactive, meeting-by-meeting approach that has dominated US monetary policy since 2008. By spacing out interest-rate decisions, Warsh aims to curb market speculation around every announcement and carve out space for deeper strategic debate. Yet with inflation still stubborn and bond yields elevated, some economists warn that fewer rate-setting meetings could make the Fed slower to respond to sudden economic shocks."
+      },
+      "vocab": [
+        ["a rate-setting meeting", "une réunion de fixation des taux", "The Fed will hold seven rate-setting meetings in 2027."],
+        ["monetary policy", "la politique monétaire", "Central banks use monetary policy to keep inflation under control."],
+        ["short-term footprint", "l'empreinte / l'influence à court terme", "Warsh wants to reduce the Fed's short-term footprint on Wall Street."],
+        ["bond yields", "les rendements obligataires", "Stubborn inflation has kept US bond yields high this autumn."],
+        ["an overhaul", "une refonte complète", "The new calendar is part of a broader overhaul of Fed operations."],
+        ["stubborn inflation", "une inflation tenace", "Policymakers remain worried about stubborn inflation in energy and services."]
+      ],
+      "sujets": [
+        "Should central banks focus more on long-term strategy than on short-term market expectations?",
+        "How can the Federal Reserve protect its credibility and independence in a polarized Washington?"
+      ],
+      "anki": [
+        {
+          "q": "Kevin Warsh's reform of Federal Reserve rate-setting meetings (2027–2028)",
+          "r": "No rate vote in D{October 2027} (C{7} rate votes in 2027, then C{6} in D{2028}), replaced by strategy sessions.\n→ Shows a shift away from short-term market micromanagement in B{US monetary policy} ; hook for an essay on B{central bank governance}."
+        },
+        {
+          "q": "Main risk identified by economists regarding fewer Fed rate-setting meetings",
+          "r": "Slower central bank reaction to sudden economic shocks while B{inflation} remains stubborn."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-anglais-4",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/12/california-nurse-release-ice-custody",
+      "minutes": 3,
+      "titre": "États-Unis : vive mobilisation en Californie après la détention d'une infirmière par la police de l'immigration",
+      "faits": "Le 12 novembre 2026, The Guardian rapporte la montée des protestations en Californie pour obtenir la libération d'Ann Lawani, 39 ans, infirmière, professeure et directrice de programme à l'université de San Francisco, détenue par la police de l'immigration (ICE). Arrêtée à son domicile de Lodi le 16 septembre, elle a été transférée jusqu'en Louisiane alors qu'elle vit aux États-Unis depuis près de vingt ans avec un permis de travail légal et sans casier judiciaire. Originaire du Nigeria, elle avait fait l'objet d'un ordre d'expulsion en 2013 tout en bénéficiant d'une protection contre le renvoi vers son pays en raison de risques de persécution. Des élus démocrates, des étudiants et des syndicats d'infirmières dénoncent une politique de détention jugée opaque et brutale, tandis qu'un juge fédéral a temporairement bloqué son expulsion.",
+      "enjeux": "Cette affaire illustre le durcissement concret de la **politique migratoire** américaine sous la seconde administration Trump, qui cible désormais même des travailleurs qualifiés intégrés dans des secteurs en pénurie de main-d'œuvre comme la santé. Sur le plan social et politique, ces arrestations alimentent une forte polarisation entre l'État fédéral et des États démocrates comme la Californie, tout en exposant les contradictions économiques de l'expulsion de professionnels essentiels. Pour les hôpitaux et les universités américaines, la perte de personnels soignants qualifiés aggrave les tensions sur le **système de santé**.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sacramento%2C-California---State-Capitol.jpg/1280px-Sacramento%2C-California---State-Capitol.jpg",
+        "alt": "Le Capitole de l'État de Californie à Sacramento",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sacramento,-California---State-Capitol.jpg"
+      },
+      "vo": {
+        "titre": "Outcry in California over nurse held in ICE custody",
+        "faits": "On 12 November 2026, The Guardian reported growing protests in California demanding the release of Ann Lawani, a 39-year-old registered nurse and programme director at the University of San Francisco held by US Immigration and Customs Enforcement (ICE). Arrested at her home in Lodi on 16 September, she was transferred to a detention facility in Louisiana despite living in the US for nearly two decades with a valid work permit and no criminal record. Originally from Nigeria, she had received a removal order in 2013 alongside legal protection barring deportation to Nigeria due to persecution risks. Lawmakers, students and nursing unions have condemned the detention, while a federal judge has temporarily halted her deportation.",
+        "enjeux": "The case highlights the sweeping reach of the Trump administration's immigration crackdown, which has increasingly swept up skilled professionals in sectors facing severe labour shortages such as healthcare. Politically, high-profile detentions are deepening friction between Washington and Democratic-led states like California. Economically, removing experienced nurses and educators risks worsening staffing pressures across American hospitals and universities."
+      },
+      "vocab": [
+        ["an outcry", "un tollé / une vive protestation", "The arrest sparked a huge outcry among students and faculty."],
+        ["immigration enforcement", "l'application des lois sur l'immigration", "Aggressive immigration enforcement has divided local communities."],
+        ["a work permit", "un permis de travail", "She had lived in California for years with a legal work permit."],
+        ["labour shortages", "les pénuries de main-d'œuvre", "Healthcare providers are already struggling with severe labour shortages."],
+        ["to halt a deportation", "suspendre une expulsion", "A federal judge stepped in to halt her immediate deportation."],
+        ["withholding of removal", "la protection contre l'expulsion", "A judge had granted her withholding of removal back in 2013."]
+      ],
+      "sujets": [
+        "How does the US immigration crackdown affect essential public services like healthcare?",
+        "Why has immigration enforcement become a major flashpoint between federal authorities and states like California?"
+      ],
+      "anki": [
+        {
+          "q": "Why Ann Lawani's ICE detention sparked a backlash in California (November 2026)",
+          "r": "A nursing professor at USF with a legal work permit for ~C{20 years} and protection from deportation to Nigeria was detained and moved to Louisiana.\n→ Illustrates how US B{immigration enforcement} clashes with B{healthcare labour shortages} ; hook for an essay on B{US immigration policy}."
+        },
+        {
+          "q": "Broader economic contradiction of targeting skilled migrant workers in the US",
+          "r": "Detaining integrated professionals worsens staffing pressures in sectors already facing acute B{labour shortages}, such as hospitals and universities."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-espagnol-1",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/economia/2026-11-13/los-salarios-de-la-banca-multiplican-hasta-por-cuatro-los-del-sector-servicios-la-hosteleria-y-el-comercio.html",
+      "minutes": 3,
+      "titre": "Espagne : les salaires de la banque jusqu'à quatre fois supérieurs à ceux de l'hôtellerie et du commerce",
+      "faits": "Selon les données fiscales et de la Sécurité sociale relayées par El País le 13 novembre 2026, le secteur financier domine largement la hiérarchie des rémunérations en Espagne avec un salaire brut moyen d'environ 53 251 euros par an. À l'autre extrémité, l'hôtellerie et les services de loisirs affichent une rémunération moyenne annuelle de 14 867 euros, tandis que le commerce et le transport atteignent 24 111 euros. La rémunération moyenne dans la banque est ainsi plus de deux fois supérieure à celle du commerce et près de trois à quatre fois supérieure à celle de l'hôtellerie. Ce dernier secteur reste fortement pénalisé par la prépondérance des contrats à temps partiel et par la saisonnalité touristique, malgré le rôle protecteur du salaire minimum interprofessionnel (SMI).",
+      "enjeux": "Ces chiffres mettent en évidence la profonde **polarisation du marché du travail** espagnol, partagé entre des services à haute valeur ajoutée et une économie touristique intensive en main-d'œuvre peu rémunérée. Même si le PIB espagnol affiche une croissance supérieure à la moyenne européenne, la **distribution des revenus salariaux** reste très inégalitaire, nourrissant le sentiment d'une croissance qui profite peu aux travailleurs des services du quotidien. Cette dualité constitue un défi structurel pour le **modèle productif** espagnol, encore trop dépendant de secteurs à faible productivité.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Madrid_-_Cuatro_Torres_Business_Area_%28CTBA%29_01.JPG/1280px-Madrid_-_Cuatro_Torres_Business_Area_%28CTBA%29_01.JPG",
+        "alt": "Tours du quartier d'affaires Cuatro Torres à Madrid",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Madrid_-_Cuatro_Torres_Business_Area_(CTBA)_01.JPG"
+      },
+      "vo": {
+        "titre": "Los salarios de la banca cuadruplican los de la hostelería",
+        "faits": "Según datos tributarios y de la Seguridad Social publicados por El País el 13 de noviembre de 2026, el sector financiero encabeza la tabla salarial en España con un sueldo bruto medio de unos 53.251 euros anuales. En el extremo opuesto, la hostelería y los servicios de ocio registran una remuneración media de 14.867 euros al año, mientras que el comercio y el transporte se sitúan en 24.111 euros. Así, el salario medio bancario duplica con creces el del comercio y multiplica casi por cuatro el de la hostelería. Este último sector sigue lastrado por el peso del empleo a tiempo parcial y la estacionalidad turística, pese al suelo que marca el salario mínimo interprofesional.",
+        "enjeux": "Estas cifras reflejan la profunda polarización del mercado laboral español, dividido entre servicios financieros de alto valor añadido y una economía turística intensiva en mano de obra mal pagada. Aunque el PIB de España crece por encima de la media europea, la desigualdad salarial explica por qué muchos trabajadores perciben poca mejora en su poder adquisitivo. Esta dualidad supone un reto estructural para un modelo productivo aún muy dependiente de actividades de baja productividad."
+      },
+      "vocab": [
+        ["la brecha salarial", "l'écart salarial", "La brecha salarial entre la banca y la hostelería sigue siendo muy amplia."],
+        ["el salario bruto anual", "le salaire brut annuel", "El salario bruto anual medio en la banca supera los 53.000 euros."],
+        ["el empleo a tiempo parcial", "l'emploi à temps partiel", "El empleo a tiempo parcial reduce los ingresos anuales en la hostelería."],
+        ["la estacionalidad", "la saisonnalité", "La estacionalidad del turismo provoca contratos cortos y sueldos bajos."],
+        ["el modelo productivo", "le modelo productif", "España necesita diversificar su modelo productivo hacia sectores más innovadores."],
+        ["el poder adquisitivo", "le pouvoir d'achat", "La subida de los precios limita el poder adquisitivo de los hogares."]
+      ],
+      "sujets": [
+        "¿Por qué el fuerte crecimiento del PIB español no logra reducir la desigualdad salarial?",
+        "¿Cómo puede España transformar su modelo productivo para depender menos del turismo?"
+      ],
+      "anki": [
+        {
+          "q": "Brecha salarial entre la banca y la hostelería en España (noviembre 2026)",
+          "r": "Banca: C{53.251 €} brutos anuales de media frente a C{14.867 €} en hostelería (casi cuatro veces menos).\n→ Muestra la B{polarización del mercado laboral} español entre finanzas y turismo ; gancho ideal para un ensayo sobre el B{modelo productivo español}."
+        },
+        {
+          "q": "Factores que explican los bajos ingresos medios en la hostelería española",
+          "r": "Abundancia del B{empleo a tiempo parcial}, B{estacionalidad} turística y baja productividad."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-espagnol-2",
+      "matiere": "espagnol",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/politica/media-encuestas-arranque-campana-psoe-crece-derecha-mantiene-amplia-ventaja_1_13660672.html",
+      "minutes": 3,
+      "titre": "Espagne : la droite conserve une large avance dans les sondages au lancement de la campagne du 29-N",
+      "faits": "À deux semaines des élections générales anticipées du 29 novembre 2026, la moyenne des sondages réalisée par elDiario.es et publiée le 13 novembre place l'alliance potentielle entre le Parti populaire (PP) et Vox à 195 sièges, bien au-dessus de la majorité absolue fixée à 176 députés. Le PSOE du Premier ministre Pedro Sánchez progresse légèrement au début de la campagne, mais le bloc de droite conserve une avance nette. Les partis ont lancé officiellement la campagne dans la nuit du 12 au 13 novembre : Pedro Sánchez met en avant le bilan économique et social, tandis qu'Alberto Núñez Feijóo promet de supprimer plusieurs ministères, dont ceux de l'Égalité et du Logement, tout en fixant des lignes rouges à Vox.",
+      "enjeux": "Ce scrutin anticipé illustre la forte **bipolarisation** de la vie politique espagnole et l'enjeu décisif des futures **alliances de gouvernement**. Pour le PP, l'objectif est d'éviter une dépendance excessive envers l'extrême droite de Vox, qui conditionnerait la composition de l'exécutif et l'orientation des politiques sociales et territoriales. Pour la gauche, la fragmentation entre le PSOE et les partis situés plus à gauche complique la mobilisation de l'électorat, dans un contexte où le **logement** et le coût de la vie dominent les préoccupations des Espagnols.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Congreso_de_los_Diputados_%28Espa%C3%B1a%29_17.jpg/1280px-Congreso_de_los_Diputados_%28Espa%C3%B1a%29_17.jpg",
+        "alt": "Façade du Congrès des députés à Madrid",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Congreso_de_los_Diputados_(España)_17.jpg"
+      },
+      "vo": {
+        "titre": "El bloque PP-Vox parte con ventaja al inicio de la campaña del 29-N",
+        "faits": "A dos semanas de las elecciones generales anticipadas del 29 de noviembre de 2026, el promedio de encuestas de elDiario.es publicado el 13 de noviembre sitúa la suma de PP y Vox en 195 escaños, muy por encima de la mayoría absoluta de 176 diputados. Aunque el PSOE de Pedro Sánchez repunta ligeramente en el arranque de la campaña, el bloque de la derecha mantiene una ventaja sólida. La campaña comenzó oficialmente en la medianoche del 12 al 13 de noviembre, con Sánchez defendiendo sus avances sociales y Alberto Núñez Feijóo prometiendo suprimir ministerios como Igualdad y Vivienda mientras marca límites a Vox.",
+        "enjeux": "Estos comicios anticipados muestran la intensa polarización política en España y la cuestión clave de las alianzas de gobierno. Para el PP, el reto consiste en gobernar sin quedar atrapado por las exigencias de la extrema derecha de Vox en materias sociales o territoriales. Para la izquierda, la fragmentación del voto dificulta la movilización electoral en un debate dominado por la crisis de la vivienda y el coste de la vida."
+      },
+      "vocab": [
+        ["la mayoría absoluta", "la majorité absolue", "El Congreso español exige 176 escaños para alcanzar la mayoría absoluta."],
+        ["el arranque de la campaña", "le lancement de la campagne", "Los partidos intensifican sus mítines en el arranque de la campaña."],
+        ["los comicios anticipados", "les élections anticipées", "Los comicios anticipados se celebrarán el próximo 29 de noviembre."],
+        ["suprimir ministerios", "supprimer des ministères", "Feijóo anunció su intención de suprimir varios ministerios si gobierna."],
+        ["el promedio de encuestas", "la moyenne des sondages", "El promedio de encuestas da una clara ventaja al bloque conservador."],
+        ["la fragmentación del voto", "la fragmentation du vote", "La fragmentación del voto penaliza a las fuerzas a la izquierda del PSOE."]
+      ],
+      "sujets": [
+        "¿Qué consecuencias tendría un gobierno de coalición entre el PP y Vox para las políticas públicas en España?",
+        "¿Por qué la vivienda y el coste de la vida marcan la campaña electoral del 29-N?"
+      ],
+      "anki": [
+        {
+          "q": "Proyección de escaños para PP y Vox al inicio de la campaña del 29-N (noviembre 2026)",
+          "r": "C{195} escaños en la media de encuestas de elDiario.es, frente a C{176} necesarios para la mayoría absoluta.\n→ Ilustra el peso determinante de la B{gobernabilidad y las alianzas} con Vox en España ; gancho para un ensayo sobre B{política española}."
+        },
+        {
+          "q": "Promesa institucional de Alberto Núñez Feijóo al inicio de la campaña electoral",
+          "r": "Suprimir los ministerios de B{Vivienda} e B{Igualdad} si llega a La Moncloa, marcando el giro programático de la derecha."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-espagnol-3",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
+      "minutes": 3,
+      "titre": "Mexique : la caravane migrante sous la pression des menaces de droits de douane de Donald Trump",
+      "faits": "Dans un reportage publié le 13 novembre 2026, El País décrit l'inquiétude des migrants centraméricains et sud-américains progressant à travers le Mexique alors que le président américain Donald Trump menace de doubler les droits de douane sur les produits mexicains si les flux migratoires ne sont pas stoppés. Les membres de la caravane redoutent que la présidente mexicaine Claudia Sheinbaum ne cède à cette pression commerciale en ordonnant leur refoulement vers le sud ou leur expulsion. De son côté, le gouvernement mexicain met en avant des mesures de contention dans le sud du pays et assure qu'aucune caravane n'a atteint la frontière nord ces derniers mois.",
+      "enjeux": "Cette situation illustre l'instrumentalisation directe de l'**arme commerciale** à des fins de contrôle migratoire entre les États-Unis et leur premier partenaire commercial, le Mexique. L'économie mexicaine étant très dépendante des exportations vers le marché américain, Mexico se retrouve contraint de jouer un rôle de **pays tampon** (*país tapón*) pour éviter une sanction tarifaire coûteuse. Ce chantage tarifaire met en tension les impératifs humanitaires, la souveraineté mexicaine et la stabilité de l'intégration économique nord-américaine.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Wikimania_2015_15.07.2015_17-00-11.JPG/1280px-Wikimania_2015_15.07.2015_17-00-11.JPG",
+        "alt": "Place du Zócalo et Palais national à Mexico",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wikimania_2015_15.07.2015_17-00-11.JPG"
+      },
+      "vo": {
+        "titre": "La caravana migrante ante la amenaza de aranceles de Trump",
+        "faits": "En un reportaje publicado el 13 de noviembre de 2026, El País recoge el temor de los migrantes que cruzan México ante la amenaza de Donald Trump de duplicar los aranceles a las importaciones mexicanas si no se frena el flujo hacia la frontera norte. Quienes integran la caravana temen que la presidenta Claudia Sheinbaum ceda ante la presión económica de Washington y ordene devolverlos al sur o deportarlos. Por su parte, el Gobierno mexicano destaca sus medidas de contención en estados del sur como Chiapas y subraya que ninguna caravana ha llegado recientemente a la frontera estadounidense.",
+        "enjeux": "Este episodio muestra cómo Estados Unidos utiliza el arma comercial para imponer objetivos migratorios a México, su principal socio comercial. Dada la fuerte dependencia de las exportaciones mexicanas respecto al mercado estadounidense, México acaba actuando como un país tapón para evitar sanciones arancelarias. Esta presión tensiona el equilibrio entre la protección de los derechos humanos, la soberanía nacional y la estabilidad comercial en América del Norte."
+      },
+      "vocab": [
+        ["los aranceles", "les droits de douane", "Trump amenazó con subir los aranceles a los productos mexicanos."],
+        ["la contención migratoria", "l'endiguement migratoire", "Las autoridades reforzaron la contención migratoria en el sur del país."],
+        ["un país tapón", "un pays tampon", "México teme convertirse en un país tapón para frenar a los migrantes."],
+        ["el socio comercial", "le partenaire commercial", "Estados Unidos es el primer socio comercial de la economía mexicana."],
+        ["ceder ante la presión", "céder à la pression", "Los migrantes temen que el Gobierno ceda ante la presión de Washington."],
+        ["el flujo migratorio", "le flux migratoire", "El flujo migratorio hacia el norte genera tensiones diplomáticas."]
+      ],
+      "sujets": [
+        "¿Hasta qué punto puede Washington utilizar los aranceles para dictar la política migratoria de México?",
+        "¿Cómo gestiona México su papel de país de tránsito frente a las presiones de Estados Unidos?"
+      ],
+      "anki": [
+        {
+          "q": "Amenaza comercial de Trump hacia México por las caravanas migrantes (noviembre 2026)",
+          "r": "Amenaza de duplicar los B{aranceles} a las exportaciones mexicanas si no se detiene el flujo hacia el norte.\n→ Muestra cómo la B{dependencia comercial} convierte a México en un B{país tapón} ; gancho para un ensayo sobre B{relaciones EE. UU.-México}."
+        },
+        {
+          "q": "Dilema del Gobierno de Claudia Sheinbaum frente al ultimátum estadounidense",
+          "r": "Proteger las exportaciones hacia su primer B{socio comercial} sin renunciar a su soberanía ni agravar la crisis humanitaria."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-espagnol-4",
+      "matiere": "espagnol",
+      "source": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/hubo-82000-contrataciones-con-beneficios-de-la-reforma-laboral-pero-el-empleo-privado-registrado-nid12112026/",
+      "minutes": 3,
+      "titre": "Argentine : 82 000 embauches aidées par la réforme du travail, mais l'emploi formel continue de reculer",
+      "faits": "Selon les chiffres officiels du secrétariat au Travail et du système SIPA publiés par La Nación le 12 novembre 2026, 82 000 personnes ont été embauchées entre mai et août grâce aux allègements de cotisations patronales prévus par la réforme du travail en Argentine. Toutefois, sur la même période, le secteur privé a enregistré une perte nette de 37 800 salariés déclarés. Les données d'août montrent que l'emploi salarié formel accumule quinze mois consécutifs de baisse, particulièrement dans l'industrie manufacturière et le commerce. La progression des travailleurs indépendants (monotributo) ne compense pas la destruction de postes salariés stables.",
+      "enjeux": "Ce contraste illustre les limites d'une politique d'offre centrée sur la **flexibilisation du marché du travail** lorsque la demande intérieure reste déprimée par l'austérité et le recul du pouvoir d'achat. Si la baisse des charges patronales facilite certaines embauches ciblées, elle ne suffit pas à enrayer la contraction de l'**emploi formel** tant que l'activité industrielle stagne. Parallèlement, la montée du travail indépendant au détriment du salariat déclaré reflète une **précarisation** structurelle de l'économie argentine.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Panorama_Obelisco_de_Buenos_Aires_2019.jpg/1280px-Panorama_Obelisco_de_Buenos_Aires_2019.jpg",
+        "alt": "L'Obélisque et l'avenue 9 de Julio à Buenos Aires",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Panorama_Obelisco_de_Buenos_Aires_2019.jpg"
+      },
+      "vo": {
+        "titre": "Cae el empleo formal en Argentina pese a la reforma laboral",
+        "faits": "Según datos oficiales publicados por La Nación el 12 de noviembre de 2026, unas 82.000 personas fueron contratadas entre mayo y agosto con los beneficios de reducción de contribuciones patronales de la reforma laboral argentina. Sin embargo, en el mismo periodo el sector privado registró una pérdida neta de 37.800 asalariados formales. En agosto, el empleo privado registrado acumuló quince meses seguidos de caída, con fuertes retrocesos en la industria manufacturera y el comercio. El aumento del trabajo independiente no logra compensar la destrucción de puestos en relación de dependencia.",
+        "enjeux": "Este balance revela los límites de una reforma centrada en flexibilizar el mercado laboral cuando la demanda interna sigue debilitada por el ajuste económico. Aunque el recorte de cargas patronales estimula algunas contrataciones, no basta para frenar la pérdida de empleo formal mientras la industria se contrae. Además, el avance del empleo por cuenta propia frente al salario registrado refleja una mayor precariedad laboral."
+      },
+      "vocab": [
+        ["las contribuciones patronales", "les cotisations patronales", "La reforma redujo las contribuciones patronales para fomentar el empleo."],
+        ["el empleo registrado", "l'emploi déclaré / formel", "El empleo registrado lleva quince meses consecutivos en descenso."],
+        ["una pérdida neta", "une perte nette", "El sector privado sufrió una pérdida neta de casi 38.000 puestos."],
+        ["el trabajo por cuenta propia", "le travail indépendant", "Muchos despedidos pasan al trabajo por cuenta propia para subsistir."],
+        ["la reforma laboral", "la réforme du travail", "Los sindicatos critican los resultados de la reforma laboral."],
+        ["el ajuste económico", "l'austérité / l'ajustement économique", "El ajuste económico frenó el consumo en la industria y el comercio."]
+      ],
+      "sujets": [
+        "¿Basta con abaratar la contratación para crear empleo formal en tiempos de recesión?",
+        "¿Qué efectos tiene el ajuste económico sobre la estructura del empleo en Argentina?"
+      ],
+      "anki": [
+        {
+          "q": "Balance del empleo privado formal en Argentina tras la reforma laboral (noviembre 2026)",
+          "r": "C{82.000} altas con rebaja de cargas, pero una pérdida neta de C{37.800} asalariados y C{15} meses seguidos de caída.\n→ Muestra los límites de la B{flexibilización laboral} sin reactivación de la demanda ; gancho para un ensayo sobre B{Argentina}."
+        },
+        {
+          "q": "Efecto del estancamiento industrial sobre la estructura laboral argentina",
+          "r": "Destrucción de empleo asalariado formal compensada solo parcialmente por B{trabajo independiente} más precario."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-allemand-1",
+      "matiere": "allemand",
+      "source": "Der Spiegel",
+      "url": "https://www.spiegel.de/wirtschaft/bundeshaushalt-2027-der-etat-steht-doch-die-eigentlichen-probleme-kommen-erst-a-ac30c525-9525-4432-96c9-7d0053f94c0c",
+      "minutes": 3,
+      "titre": "Allemagne : la coalition s'accorde sur un budget 2027 record de 561 milliards d'euros",
+      "faits": "Après une séance de plus de quinze heures achevée le 13 novembre 2026 au matin, la commission du budget du Bundestag a adopté le projet de budget fédéral pour 2027. La coalition entre la CDU/CSU et le SPD a validé des dépenses record de 560,92 milliards d'euros, en hausse de près de 6,9 % sur un an, dont 61,85 milliards d'investissements. L'endettement net du budget central atteint 122,97 milliards d'euros, dont près de 84,5 milliards sont exemptés du frein à l'endettement au titre de la défense et de la sécurité. Le compromis prévoit une taxe sur les boissons sucrées à partir de 2028 et renonce à la taxe sur le plastique, mais l'aile économique de la CDU critique l'absence de baisse générale de la taxe sur l'électricité.",
+      "enjeux": "Ce budget illustre le basculement historique de l'Allemagne, longtemps attachée à l'orthodoxie budgétaire, vers un recours massif à l'**emprunt public** pour financer le réarmement et la modernisation des infrastructures. Le contournement partiel du **frein à l'endettement** (*Schuldenbremse*) via les exceptions de défense et les fonds spéciaux suscite de vives tensions dans la coalition et dans l'opinion publique. Les économistes avertissent que les problèmes de **soutenabilité budgétaire** et de charge d'intérêts s'aggraveront dès les années suivantes si la croissance ne repart pas.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Berlin_reichstag_west_panorama_2.jpg/1280px-Berlin_reichstag_west_panorama_2.jpg",
+        "alt": "Le bâtiment du Reichstag à Berlin, siège du Bundestag",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_reichstag_west_panorama_2.jpg"
+      },
+      "vo": {
+        "titre": "Bundestag einigt sich auf Rekordhaushalt für 2027",
+        "faits": "Der Haushaltsausschuss des Bundestages hat den Bundeshaushalt für 2027 beschlossen. Die Sitzung hat über fünfzehn Stunden gedauert. CDU, CSU und SPD planen Ausgaben von fast 561 Milliarden Euro. Das ist ein neuer Rekord in Deutschland. Der Staat nimmt dafür rund 123 Milliarden Euro neue Schulden auf. Etwa 84,5 Milliarden Euro davon sind für Verteidigung und Sicherheit. Eine Steuer auf Plastik kommt nicht. Dafür soll ab 2028 eine Steuer auf süße Getränke gelten.",
+        "enjeux": "Deutschland war lange für strenge Haushaltsregeln bekannt. Jetzt gibt der Staat viel mehr Geld für Rüstung und Infrastruktur aus. Die Ausnahmen bei der Schuldenbremse sorgen für Streit in der Koalition. Viele Politiker in der Union wollten eine niedrigere Stromsteuer. Die SPD hat das abgelehnt. Experten warnen nun vor steigenden Zinsen und großen Finanzproblemen in den nächsten Jahren."
+      },
+      "vocab": [
+        ["der Bundeshaushalt", "le budget fédéral", "Der Bundestag stimmt bald über den neuen Bundeshaushalt ab."],
+        ["neue Schulden aufnehmen", "contracter de nouvelles dettes", "Der Staat will über hundert Milliarden neue Schulden aufnehmen."],
+        ["die Schuldenbremse", "le frein à l'endettement", "Die Schuldenbremse begrenzt normalerweise die Kredite des Staates."],
+        ["die Ausgaben", "les dépenses", "Die Ausgaben für Verteidigung steigen im nächsten Jahr stark."],
+        ["die Zinsen", "les intérêts", "Hohe Schulden führen langfristig zu höheren Zinsen."],
+        ["sich einigen auf", "se mettre d'accord sur", "Die Koalition konnte sich spät nachts auf einen Kompromiss einigen."]
+      ],
+      "sujets": [
+        "Sollte Deutschland die Schuldenbremse dauerhaft reformieren?",
+        "Wie kann der Staat Sicherheit finanzieren und gleichzeitig sparen?"
+      ]
+    },
+    {
+      "id": "2026-11-13-allemand-2",
+      "matiere": "allemand",
+      "source": "Die Zeit",
+      "url": "https://www.zeit.de/wirtschaft/2026-11/unternehmensinsolvenzen-deutschland-dihk-krise-konjunktur-gxe",
+      "minutes": 3,
+      "titre": "Allemagne : les faillites d'entreprises atteignent leur plus haut niveau depuis treize ans",
+      "faits": "Selon les chiffres publiés par l'Office fédéral de la statistique et commentés par la chambre de commerce et d'industrie allemande (DIHK) le 13 novembre 2026, les faillites d'entreprises ont encore augmenté de 4,4 % sur un an en août, atteignant leur niveau le plus élevé depuis treize ans. Pour l'ensemble de l'année 2026, la DIHK anticipe environ 26 000 dépôts de bilan. L'organisation patronale souligne que cette vague de faillites touche particulièrement les petites et moyennes entreprises du *Mittelstand*, fragilisées par plusieurs années de crises, les coûts élevés de l'énergie, la hausse des charges salariales et une demande intérieure atone.",
+      "enjeux": "Cette hausse continue des défaillances met en lumière les difficultés structurelles du **modèle industriel allemand**, pris en étau entre la perte de compétitivité-coût et la faiblesse de la conjoncture européenne. Alors que les grands groupes exportateurs du DAX atteignent des sommets boursiers grâce à leurs activités internationales, le tissu local des **PME** (*Mittelstand*) subit de plein fouet le poids de la bureaucratie, de l'énergie chère et du crédit plus coûteux. Cette fracture alimente le débat sur l'urgence de réformes structurelles de compétitivité en Allemagne.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg/1280px-Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg",
+        "alt": "Quartier d'affaires de Francfort-sur-le-Main",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Central_business_district_(2024).jpg"
+      },
+      "vo": {
+        "titre": "Zahl der Firmenpleiten steigt auf 13-Jahres-Hoch",
+        "faits": "In Deutschland gehen immer mehr Unternehmen pleite. Im August ist die Zahl der Insolvenzen wieder um 4,4 Prozent gestiegen. Das ist der höchste Wert seit dreizehn Jahren. Für das ganze Jahr 2026 erwartet die Wirtschaft rund 26.000 Firmenpleiten. Vor allem kleine und mittlere Betriebe haben große Probleme. Sie leiden unter hohen Energiepreisen, hohen Lohnkosten und schwacher Nachfrage.",
+        "enjeux": "Die vielen Pleiten zeigen die tiefe Krise der deutschen Wirtschaft. Große Konzerne verdienen im Ausland weiter viel Geld. Kleine und mittlere Firmen im Inland kämpfen aber um das Überleben. Bürokratie und teure Kredite bremsen viele Betriebe aus. Deshalb fordern Wirtschaftsverbände von der Regierung schnelle Reformen für den Standort Deutschland."
+      },
+      "vocab": [
+        ["der Mittelstand", "les PME / entreprises moyennes", "Kleine und mittlere Firmen sind wichtig für den Arbeitsmarkt."],
+        ["die Insolvenz / die Pleite", "la faillite", "Die Zahl der Insolvenzen steigt in diesem Jahr stark an."],
+        ["die Energiekosten", "les coûts de l'énergie", "Viele Fabriken klagen über zu hohe Energiekosten."],
+        ["die Nachfrage", "la demande", "Eine schwache Nachfrage bremst das Wachstum im Inland."],
+        ["der Standort", "le site / la place économique", "Reformen sollen den Standort Deutschland wieder attraktiver machen."],
+        ["pleitegehen", "faire faillite", "Ohne mehr Aufträge könnten noch mehr Betriebe pleitegehen."]
+      ],
+      "sujets": [
+        "Warum stecken kleine und mittlere Firmen in der Krise?",
+        "Welche Reformen braucht die deutsche Wirtschaft heute?"
+      ]
+    },
+    {
+      "id": "2026-11-13-allemand-3",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/sicherheitsexperte-abhaengigkeit-microsoft-outlook-teams-risiken-100.html",
+      "minutes": 3,
+      "titre": "Allemagne : la panne de Microsoft relance le débat sur la souveraineté numérique",
+      "faits": "La panne mondiale des services Microsoft (Outlook, Teams) survenue les 12 et 13 novembre 2026 a fortement perturbé les entreprises et administrations allemandes. Interrogé par la chaîne d'information tagesschau24, l'expert en cybersécurité Dennis-Kenji Kipker a qualifié cette dépendance de « mort cérébrale numérique » pour de nombreuses sociétés incapables de travailler sans ces outils. La chambre de commerce DIHK a appelé le 13 novembre à faire de la « résilience numérique » et de la diversification des fournisseurs une priorité de la politique numérique allemande. Selon Kipker, réduire cette dépendance vis-à-vis de Microsoft est techniquement possible mais exige une volonté politique claire.",
+      "enjeux": "L'incident révèle la vulnérabilité des administrations et du tissu productif allemands face au **quasi-monopole** des logiciels américains. Dans un contexte géopolitique tendu, dépendre d'un fournisseur unique étranger expose les données et la continuité d'activité à des risques majeurs. Le débat sur les logiciels libres et le cloud européen prend ainsi une nouvelle ampleur en Allemagne, même si le coût de transition et les habitudes des utilisateurs freinent le changement.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Datove_centrum_TCP.jpg/1280px-Datove_centrum_TCP.jpg",
+        "alt": "Salle de serveurs informatiques et câblage réseau",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Datove_centrum_TCP.jpg"
+      },
+      "vo": {
+        "titre": "Microsoft-Ausfall zeigt digitale Abhängigkeit in Deutschland",
+        "faits": "Eine weltweite Störung bei Microsoft hat auch in Deutschland viele Firmen gelähmt. Dienste wie Outlook und Teams haben stundenlang nicht funktioniert. Ein Sicherheitsexperte sprach bei tagesschau24 von einem großen Risiko für Betriebe. Viele Behörden und Unternehmen konnten ohne diese Software kaum noch arbeiten. Der Wirtschaftsverband DIHK fordert jetzt mehr digitale Sicherheit und weniger Abhängigkeit von einzelnen Anbietern.",
+        "enjeux": "Der Vorfall zeigt ein großes Problem der deutschen Wirtschaft. Fast alle Büros nutzen dieselben Programme aus den USA. Wenn ein Anbieter ausfällt, steht die Arbeit sofort still. Experten sagen, dass europäische Alternativen technisch möglich sind. Ein Wechsel kostet aber Geld und braucht klaren politischen Willen."
+      },
+      "vocab": [
+        ["die Abhängigkeit", "la dépendance", "Die Abhängigkeit von US-Software ist für viele Firmen gefährlich."],
+        ["der Ausfall", "la panne", "Der Ausfall von Outlook hat Millionen Menschen getroffen."],
+        ["die digitale Souveränität", "la souveraineté numérique", "Europa braucht mehr digitale Souveränität und eigene Cloud-Dienste."],
+        ["der Anbieter", "le fournisseur", "Unternehmen sollten ihre Daten auf mehrere Anbieter verteilen."],
+        ["lähmen", "paralyser", "Ein technischer Fehler kann ganze Verwaltungen lähmen."],
+        ["die Alternative", "l'alternative", "Viele Behörden suchen nun nach einer europäischen Alternative."]
+      ],
+      "sujets": [
+        "Wie kann sich Deutschland von US-Tech-Konzernen unabhängiger machen?",
+        "Ist digitale Souveränität für die Wirtschaft heute wichtiger als niedrige Kosten?"
+      ]
+    },
+    {
+      "id": "2026-11-13-allemand-4",
+      "matiere": "allemand",
+      "source": "Süddeutsche Zeitung",
+      "url": "https://www.sueddeutsche.de/wirtschaft/quantum-systems-hackerangriff-drohnen-bundeswehr-muenchen-li.3579860",
+      "minutes": 3,
+      "titre": "Allemagne : la Bundeswehr temporairement privée de ses drones après une cyberattaque contre Quantum Systems",
+      "faits": "Selon la Süddeutsche Zeitung et plusieurs médias allemands en novembre 2026, le fabricant bavarois de drones Quantum Systems, fournisseur clé de la Bundeswehr et de l'Ukraine, a été victime d'une cyberattaque ciblée. Des pirates ont réussi à placer un code malveillant sur un serveur de mise à jour interne destiné au logiciel de planification de mission QBase. Par mesure de précaution, l'armée allemande a temporairement immobilisé toute sa flotte de drones Quantum Systems, y compris lors d'un exercice militaire, pendant les vérifications menées avec les services de sécurité (BSI, BfV, MAD). Après enquête, l'entreprise a assuré que les appareils n'avaient pas été infectés et la flotte a pu reprendre du service.",
+      "enjeux": "Cet incident illustre les nouvelles vulnérabilités d'une **industrie de défense** de plus en plus numérisée et connectée (*software-defined defence*). À l'heure où l'Allemagne investit massivement dans le réarmement et les start-ups technologiques militaires autour de Munich, la **cybersécurité** des chaînes d'approvisionnement logicielles devient un enjeu stratégique vital. La moindre faille chez un sous-traitant peut immobiliser des équipements militaires essentiels.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Berlin%2C_Tiergarten%2C_Reichpietschufer%2C_Bendler-Block_02.jpg/1280px-Berlin%2C_Tiergarten%2C_Reichpietschufer%2C_Bendler-Block_02.jpg",
+        "alt": "Le Bendlerblock à Berlin, siège du ministère fédéral de la Défense",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin,_Tiergarten,_Reichpietschufer,_Bendler-Block_02.jpg"
+      },
+      "vo": {
+        "titre": "Cyberangriff auf Drohnenfirma trifft die Bundeswehr",
+        "faits": "Unbekannte Hacker haben die bayerische Firma Quantum Systems angegriffen. Das Unternehmen baut Drohnen für die Bundeswehr und für die Ukraine. Die Täter haben eine gefährliche Datei auf einem Server für Updates versteckt. Die Bundeswehr hat deshalb alle Drohnen dieser Firma vorübergehend am Boden gelassen. Deutsche Sicherheitsbehörden haben den Fall genau geprüft. Inzwischen fliegen die Drohnen wieder ohne Risiko.",
+        "enjeux": "Moderne Waffen sind heute stark mit Software und Netzen verbunden. Das macht die Bundeswehr aber auch anfällig für digitale Angriffe. Deutschland gibt gerade viel Geld für neue Rüstung und Start-ups aus. Der Fall zeigt, wie wichtig Cybersicherheit für die Verteidigung ist. Schon ein kleines Problem bei einer Firma kann die Armee bremsen."
+      },
+      "vocab": [
+        ["der Cyberangriff", "la cyberattaque", "Ein Cyberangriff kann wichtige Systeme schnell blockieren."],
+        ["die Bundeswehr", "l'armée allemande", "Die Bundeswehr nutzt moderne Drohnen zur Aufklärung."],
+        ["die Rüstung", "l'armement", "Deutschland investiert wieder deutlich mehr Geld in die Rüstung."],
+        ["anfällig sein für", "être vulnérable à", "Digitale Systeme sind oft anfällig für Spionage und Sabotage."],
+        ["vorübergehend", "temporairement", "Die Geräte blieben aus Vorsicht vorübergehend am Boden."],
+        ["die Sicherheitsbehörde", "l'autorité de sécurité", "Mehrere Sicherheitsbehörden haben den Angriff sofort untersucht."]
+      ],
+      "sujets": [
+        "Welche Risiken bringt die Digitalisierung der Bundeswehr mit sich?",
+        "Muss der Staat Rüstungsfirmen besser vor Cyberangriffen schützen?"
+      ]
+    }
+  ],
+  "a_lire": [
+    {
+      "journal": "Les Échos",
+      "titre": "Université : « Nous avons organisé de facto une sélection par l'échec »",
+      "url": "https://www.lesechos.fr/idees-debats/cercle/universite-nous-avons-organise-de-facto-une-selection-par-lechec-2262271",
+      "pourquoi": "Analyse les failles de l'orientation post-bac en France et permet d'illustrer les débats sur l'**inégalité des chances**, le **capital humain** et l'efficacité de la dépense d'éducation."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "« Ni atteignable ni réaliste » : pourquoi l'objectif de réchauffement à +1,5 °C est maintenu malgré tout",
+      "url": "https://www.lesechos.fr/monde/enjeux-internationaux/ni-atteignable-ni-realiste-pourquoi-lobjectif-de-rechauffement-a-15-c-est-maintenu-malgre-tout-2262447",
+      "pourquoi": "Décrypte les tensions diplomatiques de la COP31 sur le climat, utile pour mobiliser la notion de **bien public mondial** et le rôle des **incitations** dans la transition écologique."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "« C'est le moment de se projeter » : comment l'Europe se prépare à soutenir financièrement l'Ukraine sur le long terme",
+      "url": "https://www.lesechos.fr/monde/europe/cest-le-moment-de-se-projeter-comment-leurope-se-prepare-a-soutenir-financierement-lukraine-sur-le-long-terme-2262207",
+      "pourquoi": "Éclaire les nouveaux mécanismes d'emprunt commun et d'utilisation des avoirs gelés, au cœur des débats sur l'**intégration européenne** et le **budget de l'UE**."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Gaz : la piste d’une réserve stratégique à l’étude pour anticiper de futures crises",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/13/gaz-la-piste-d-une-reserve-strategique-a-l-etude-pour-anticiper-de-futures-crises_6809277_3234.html",
+      "pourquoi": "Montre comment l'État cherche à amortir les **chocs d'offre** énergétiques et à sécuriser l'approvisionnement industriel face aux tensions géopolitiques."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "La SNCF et l’Etat scellent un accord pour moderniser le rail français, le doute subsiste sur son financement",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/13/la-sncf-et-l-etat-scellent-un-accord-pour-moderniser-le-rail-francais-le-doute-subsiste-sur-son-financement_6809303_3234.html",
+      "pourquoi": "Illustre l'arbitrage entre **investissement public** dans les infrastructures de réseau et soutenabilité des finances publiques."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Lunettes connectées : la concurrence accrue devrait « pousser les fabricants à redoubler d’efforts en matière de respect de la vie privée »",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/13/lunettes-connectees-la-concurrence-accrue-devrait-pousser-les-fabricants-a-redoubler-d-efforts-en-matiere-de-respect-de-la-vie-privee_6809306_3234.html",
+      "pourquoi": "Relie **concurrence**, **innovation** produit et régulation des données personnelles dans les nouvelles technologies."
+    }
+  ]
+}

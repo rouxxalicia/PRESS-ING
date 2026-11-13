@@ -4401,6 +4401,206 @@
           ]
         }
       ]
+    },
+    {
+      "id": "substitution-ide-commerce-mundell",
+      "nom": "Substitution entre IDE et commerce",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "1957",
+      "auteur": "Robert Mundell",
+      "accroche": "Quand les barrières douanières freinent les échanges de biens, les entreprises déplacent leurs capitaux et leurs usines pour produire directement dans le pays protégé.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Robert Mundell**, « International Trade and Factor Mobility » (*American Economic Review*, 1957).",
+            "Dans le modèle **HOS** (Heckscher-Ohlin-Samuelson), l'échange de biens suffit à égaliser les rémunérations des facteurs entre pays sans qu'il soit besoin de déplacer le capital ou le travail. Mundell lève l'hypothèse de libre-échange : il introduit des **droits de douane** et montre que la mobilité des facteurs prend le relais."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un pays instaure ou relève des **droits de douane** pour protéger son marché intérieur des importations.",
+            "Exporter vers ce pays devient plus coûteux et moins rentable pour les firmes étrangères.",
+            "Pour contourner l'obstacle tarifaire (*tariff-jumping*), les firmes délocalisent leur production en réalisant un **investissement direct à l'étranger (IDE)** : elles construisent ou rachètent une usine sur place.",
+            "L'IDE **se substitue** alors au commerce international : au lieu d'exporter des biens, le pays d'origine exporte des capitaux."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le protectionnisme ne supprime pas la concurrence étrangère : il transforme les flux de marchandises en flux de capitaux. Un État qui relève ses droits de douane peut attirer des **usines étrangères** sur son sol (logique d'attractivité), mais au prix de tensions avec ses partenaires commerciaux qui perdent des sites industriels."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Complémentarité IDE et commerce",
+              "d": "Depuis les années 1970, **IDE et commerce progressent ensemble** : les filiales à l'étranger importent des intrants de la maison mère (**commerce intra-firme**)."
+            },
+            {
+              "t": "Suzanne Berger (2003)",
+              "d": "Dès la première mondialisation (1870-1914), le retour du protectionnisme pousse les firmes à s'internationaliser par l'**IDE** pour contourner les tarifs."
+            },
+            {
+              "t": "Paradigme OLI de John Dunning (1977)",
+              "d": "Une firme investit à l'étranger quand elle combine trois avantages : spécifique (*Ownership*), de localisation (*Location*) et d'internalisation (*Internalization*)."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Dans la mondialisation contemporaine des **chaînes de valeur mondiales**, la relation entre IDE et commerce est plus souvent **complémentaire** que substituable : l'implantation d'une usine d'assemblage crée des échanges de composants, et un droit de douane sur les intrants peut décourager la production locale."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Droits de douane américains et automobile",
+              "d": "Face aux menaces de tarifs de 50 % aux États-Unis, des constructeurs arbitrent en faveur d'usines américaines au détriment du Canada ou du Mexique."
+            },
+            {
+              "t": "Constructeurs chinois en Europe",
+              "d": "Pour contourner les droits de douane européens sur les véhicules électriques, BYD implante une usine en Hongrie."
+            },
+            {
+              "t": "Première mondialisation (fin XIXe siècle)",
+              "d": "Les tarifs protectionnistes européens et américains déclenchent les premiers grands IDE industriels transatlantiques."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Suzanne Berger (2003)",
+              "idee": "le protectionnisme pousse les firmes à produire à l'étranger par l'IDE"
+            },
+            {
+              "sens": "≠",
+              "nom": "Modèle HOS",
+              "idee": "suppose l'immobilité internationale des facteurs de production"
+            },
+            {
+              "sens": "≠",
+              "nom": "Chaînes de valeur mondiales",
+              "idee": "IDE et commerce sont le plus souvent complémentaires"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrence-imparfaite-robinson",
+      "nom": "Concurrence imparfaite et pouvoir de marché",
+      "categorie": "fondamentaux",
+      "type": "Théorie",
+      "annee": "1933",
+      "auteur": "Joan Robinson",
+      "accroche": "Dans la réalité, les marchés s'écartent de la concurrence pure et parfaite : les grandes firmes disposent d'un pouvoir de marché qui leur permet d'influencer les prix.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Joan Robinson**, *L'Économie de la concurrence imparfaite* (*The Economics of Imperfect Competition*, 1933), publié la même année que l'ouvrage d'**Edward Chamberlin** sur la concurrence monopolistique.",
+            "Le modèle néoclassique standard suppose l'**atomicité** des agents et l'**homogénéité** des produits : aucune firme ne peut fixer le prix (*price taker*). Robinson rompt avec ce cadre irréaliste pour analyser les **monopoles**, les **oligopoles** et le pouvoir de marché."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Par des **économies d'échelle**, des effets de réseau ou la différenciation des produits, un petit nombre de grandes firmes dominent le marché.",
+            "Chaque firme devient **faiseuse de prix** (*price maker*) : elle fait face à une demande décroissante plutôt qu'à un prix imposé.",
+            "En maximisant son profit (recette marginale égale au coût marginal), elle fixe un **prix supérieur au coût marginal** et produit une quantité inférieure à l'optimum concurrentiel.",
+            "Elle capte une **rente de monopole ou d'oligopole**, au détriment du surplus du consommateur, et peut créer une **dépendance** des clients."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Les marchés laissés à eux-mêmes tendent souvent vers la **concentration** plutôt que vers la concurrence parfaite. Ce pouvoir de marché justifie l'intervention d'autorités de la **concurrence** (antitrust) et des politiques de régulation pour éviter les abus de position dominante, les hausses de prix et la vulnérabilité systémique liée à la dépendance envers un fournisseur unique."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Concurrence monopolistique (Chamberlin, 1933)",
+              "d": "Les firmes différencient leurs produits (marque, qualité) pour disposer d'un pouvoir de marché localisé."
+            },
+            {
+              "t": "Marchés contestables (Baumol, 1982)",
+              "d": "Même un monopole ou un oligopole reste discipliné si la **menace d'entrée** de nouveaux concurrents est crédible et sans coûts irrécupérables."
+            },
+            {
+              "t": "Monopsone sur le marché du travail",
+              "d": "Robinson forge aussi le concept de **monopsone** : un employeur dominant peut imposer des salaires inférieurs à la productivité marginale."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La concentration n'est pas toujours nuisible : dans les secteurs à forts coûts fixes ou à **effets de réseau** (cloud, logiciels, télécoms), une grande taille permet des économies d'échelle et de l'innovation (**Schumpeter**, 1942), ce qui crée un arbitrage entre efficacité productive et risque de dépendance."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Oligopole des GAFAM et du cloud",
+              "d": "Une panne mondiale d'un acteur dominant (Microsoft, AWS) paralyse des milliers d'entreprises et d'administrations faute d'alternatives."
+            },
+            {
+              "t": "Régulation numérique européenne (DMA)",
+              "d": "L'Union européenne encadre les « contrôleurs d'accès » (*gatekeepers*) pour préserver la contestabilité des marchés."
+            },
+            {
+              "t": "Pouvoir de marché sur les salaires",
+              "d": "Dans les bassins d'emploi dominés par un grand employeur, le monopsone pèse sur les rémunérations."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Edward Chamberlin (1933)",
+              "idee": "la différenciation des produits confère un pouvoir de marché"
+            },
+            {
+              "sens": "≠",
+              "nom": "Joseph Schumpeter (1942)",
+              "idee": "les rentes temporaires de monopole financent et stimulent l'innovation"
+            },
+            {
+              "sens": "≠",
+              "nom": "William Baumol (1982)",
+              "idee": "un marché concentré reste efficace s'il est contestable"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
