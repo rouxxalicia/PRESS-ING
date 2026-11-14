@@ -1,0 +1,988 @@
+{
+ "date": "2026-11-14",
+ "cards": [
+  {
+   "id": "2026-11-14-esh-1",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/finance-marches/banque-assurances/coup-de-theatre-a-bruxelles-le-parlement-europeen-torpille-le-coeur-de-la-reforme-sur-lepargne-2262590",
+   "minutes": 3,
+   "titre": "Épargne européenne : le Parlement européen rejette le compromis sur la directive RIS",
+   "faits": "Le 12 novembre, le Parlement européen réuni en séance plénière à Bruxelles a rejeté à 14 voix près (300 voix contre, 286 pour et 23 abstentions) l'accord négocié avec le Conseil sur la stratégie d'investissement de détail (RIS). Ce texte constituait un pilier de la relance de l'Union des marchés de capitaux visant à mieux orienter l'épargne des ménages européens vers l'investissement productif. Deux dispositions ont cristallisé les oppositions : l'obligation de « value for money », qui imposait aux gestionnaires de prouver que les frais prélevés étaient proportionnés au rendement attendu, et l'encadrement des rétrocessions, ces commissions versées aux distributeurs lors de la vente de produits financiers. Ce vote inattendu replonge l'harmonisation européenne du conseil financier dans l'incertitude.",
+   "enjeux": "Ce blocage illustre la difficulté de l'Union européenne à bâtir une véritable **Union des marchés de capitaux** capable de rivaliser avec la finance américaine. Alors que les ménages européens épargnent abondamment, leurs placements restent très largement cantonnés aux dépôts bancaires et à des produits peu risqués, freinant le financement en fonds propres des entreprises innovantes et de la transition énergétique. Le conflit autour des **rétrocessions** révèle un problème classique d'**asymétrie d'information** et de **conflit d'intérêts** entre épargnants et intermédiaires financiers, arbitré différemment selon les modèles bancaires nationaux. Pour les concours, c'est un exemple précieux des limites de l'**intégration financière** européenne et du cloisonnement persistant des marchés de capitaux.",
+   "image": null,
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.2 – La dynamique de la mondialisation financière : constitution et fonctionnement du marché international des capitaux"
+   },
+   "auteurs": [
+    {
+     "nom": "John Hicks",
+     "ouvrage": "The Crisis in Keynesian Economics",
+     "annee": "1974",
+     "ref": "economie-endettement-marches-hicks",
+     "cours": "1A-monnaie",
+     "texte": "Hicks distingue l'**économie d'endettement**, financée par le crédit bancaire, de l'**économie de marchés de capitaux**, financée par l'émission de titres. Le rejet de la directive RIS montre la résistance du modèle européen d'intermédiation bancaire, où les réseaux de distribution défendent leurs commissions face à la transparence des marchés. À mobiliser dans un sujet sur le financement de l'économie ou le retard d'investissement européen."
+    },
+    {
+     "nom": "Martin Feldstein et Charles Horioka",
+     "ouvrage": "Domestic Saving and International Capital Flows",
+     "annee": "1980",
+     "ref": "paradoxe-feldstein-horioka",
+     "cours": "2A-06-globalisation-financiere",
+     "texte": "Feldstein et Horioka mettent en évidence un **biais domestique** : l'épargne nationale finance surtout l'investissement national, signe que la mobilité des capitaux est plus faible qu'on ne le croit. L'échec de l'harmonisation européenne des règles d'épargne confirme que les barrières réglementaires et les préférences nationales continuent de fragmenter le marché européen des capitaux. À mobiliser pour nuancer l'idée d'une globalisation financière achevée."
+    }
+   ],
+   "notions": [
+    [
+     "Union des marchés de capitaux",
+     "Projet européen visant à intégrer les marchés financiers nationaux pour mieux orienter l'épargne vers l'investissement productif."
+    ],
+    [
+     "Économie d'endettement",
+     "Système financier où le financement des entreprises passe principalement par le crédit bancaire plutôt que par les marchés."
+    ],
+    [
+     "Biais domestique",
+     "Tendance des épargnants et des investisseurs à privilégier les actifs financiers de leur propre pays."
+    ]
+   ],
+   "sujets": [
+    "L'Europe souffre-t-elle d'un déficit d'épargne ou d'une mauvaise allocation de son épargne ?",
+    "La globalisation financière a-t-elle fait disparaître les frontières nationales ?"
+   ],
+   "anki": [
+    {
+     "q": "Vote du Parlement européen sur la directive épargne RIS (novembre 2026)",
+     "r": "Rejetée à C{14 voix} près (C{300} contre, C{286} pour) en D{novembre 2026}.\n→ Illustre la difficulté à unifier les marchés de capitaux européens face aux intérêts des distributeurs bancaires (A{Hicks}, O{The Crisis in Keynesian Economics}, D{1974}) → accroche pour un sujet sur le financement de l'économie européenne."
+    },
+    {
+     "q": "Obstacles principaux à la directive européenne RIS (2026)",
+     "r": "Le contrôle du rapport qualité-prix (B{value for money}) et l'encadrement des B{rétrocessions} aux distributeurs.\n→ Révèle les asymétries d'information et la persistance d'un biais domestique réglementaire (A{Feldstein} et A{Horioka}, D{1980})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-esh-2",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/societes/apres-bmw-et-volkswagen-au-tour-de-mercedes-la-descente-aux-enfers-sans-fin-de-l-automobile-allemande-20261113",
+   "minutes": 3,
+   "titre": "Automobile allemande : Mercedes menace à son tour de fermer des usines en Allemagne",
+   "faits": "Après les difficultés de Volkswagen et de BMW, Mercedes-Benz traverse une crise sévère et envisage désormais des fermetures d'usines en Allemagne, tout en suspendant de nouveaux investissements sur ses sites nationaux. Le constructeur invoque des coûts de production trop élevés outre-Rhin, notamment le prix de l'énergie, le poids des charges sociales et la rigidité du temps de travail. Parallèlement, le groupe subit un retournement brutal de son principal moteur de rentabilité, le marché chinois, où ses livraisons ont chuté de près d'un tiers face à la montée en puissance de constructeurs locaux très compétitifs dans l'électrique comme BYD ou Xiaomi. Les marges prévisionnelles du groupe ont été nettement revues à la baisse, ouvrant un bras de fer tendu avec les syndicats.",
+   "enjeux": "Cette crise marque un tournant pour le modèle industriel allemand, longtemps cité comme la référence européenne en matière de **compétitivité hors-prix** et de **spécialisation haut de gamme**. L'effondrement des ventes en Chine montre que l'avantage technologique européen dans le thermique ne garantit plus une rente à l'ère du véhicule électrique, où la Chine a construit un avantage sur les batteries et les logiciels. Sur le plan interne, la remise en cause de la cogestion et de la semaine de 35 heures illustre le dilemme entre **compétitivité-coût** et maintien du modèle social. C'est un exemple central pour analyser la **désindustrialisation** européenne et la recomposition des **chaînes de valeur mondiales**.",
+   "image": null,
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+   },
+   "auteurs": [
+    {
+     "nom": "Michael Porter",
+     "ouvrage": "L'Avantage concurrentiel des nations",
+     "annee": "1990",
+     "ref": "competitivite-porter",
+     "texte": "Porter distingue la **compétitivité-prix** (maîtrise des coûts) de la **compétitivité hors-prix** (qualité, innovation, image de marque), qui protège normalement les pays à hauts salaires. La crise de Mercedes montre que le positionnement premium allemand est désormais rattrapé sur le terrain technologique de l'électrique par la Chine, obligeant le groupe à réduire ses coûts. À mobiliser pour montrer que la compétitivité hors-prix n'est jamais acquise définitivement."
+    },
+    {
+     "nom": "Lionel Fontagné",
+     "ouvrage": "Pas d'industrie, pas d'avenir ?",
+     "annee": "2014",
+     "ref": "activite-industrielle-fontagne",
+     "cours": "2A-02-ftn",
+     "texte": "Fontagné distingue l'**industrie au sens strict** (fabrication dans les usines) de l'**activité industrielle** (conception, R&D, marque), qu'une firme peut conserver même en délocalisant l'assemblage. Si Mercedes réduit ses capacités de production en Allemagne pour produire hors d'Europe, il cherche à préserver ses fonctions à forte valeur ajoutée, au risque toutefois de fragiliser l'emploi industriel local. À mobiliser pour nuancer les analyses sur la désindustrialisation."
+    }
+   ],
+   "notions": [
+    [
+     "Compétitivité hors-prix",
+     "Capacité d'une entreprise ou d'un pays à gagner des parts de marché par la qualité, l'innovation ou l'image plutôt que par les prix."
+    ],
+    [
+     "Désindustrialisation",
+     "Recul de la part de l'industrie manufacturière dans le PIB et dans l'emploi total d'une économie."
+    ],
+    [
+     "Chaînes de valeur mondiales",
+     "Fragmentation internationale des étapes de production d'un bien, de la conception à l'assemblage final."
+    ]
+   ],
+   "sujets": [
+    "La compétitivité hors-prix suffit-elle à protéger l'industrie européenne ?",
+    "L'Allemagne est-elle entrée dans une phase de désindustrialisation durable ?"
+   ],
+   "anki": [
+    {
+     "q": "Crise de Mercedes en Allemagne et recul en Chine (novembre 2026)",
+     "r": "Suspension des investissements en Allemagne et baisse de près d'un C{tiers} des livraisons en Chine face à BYD et Xiaomi.\n→ Montre que la compétitivité hors-prix (A{Porter}, O{L'Avantage concurrentiel des nations}, D{1990}) peut être rattrapée par l'innovation des émergents → accroche pour un sujet sur la désindustrialisation européenne."
+    },
+    {
+     "q": "Distinction entre fabrication et activité industrielle face aux fermetures d'usines",
+     "r": "Mercedes menace de fermer des usines allemandes mais garde la R&D et la marque (A{Fontagné}, O{Pas d'industrie, pas d'avenir ?}, D{2014}).\n→ Permet de nuancer le recul de l'industrie au sens strict, tout en soulignant le coût social territorial."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-esh-3",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/13/les-effets-de-la-hausse-du-smic-sur-le-marche-du-travail-suscitent-des-interrogations_6809363_823448.html",
+   "minutes": 3,
+   "titre": "Marché du travail : les interrogations autour de la revalorisation du SMIC",
+   "faits": "À la suite des annonces gouvernementales visant à revaloriser le salaire minimum fin 2026, économistes et partenaires sociaux débattent des conséquences d'une nouvelle hausse du SMIC sur le marché du travail français. Plusieurs analystes soulignent le phénomène de « tassement des grilles salariales » : les hausses successives du SMIC rapprochent un nombre croissant de salaires du minimum légal, réduisant les écarts de rémunération dans les branches professionnelles. Du côté patronal, on met en avant le risque d'un frein aux embauches de travailleurs peu qualifiés si le coût total du travail augmente, ainsi que le coût budgétaire croissant des exonérations de cotisations sociales ciblées sur les bas salaires. Les syndicats défendent au contraire le soutien nécessaire au pouvoir d'achat face à l'inflation.",
+   "enjeux": "La question du **salaire minimum** est au cœur de l'arbitrage entre **pouvoir d'achat** et **compétitivité-coût** sur un marché du travail marqué par la segmentation. En France, le mécanisme d'allègement de cotisations autour du SMIC crée une « trappe à bas salaires » : augmenter un salarié au-delà du SMIC coûte très cher à l'employeur en raison de la perte rapide des exonérations, ce qui bloque la progression salariale. Sur le plan théorique, le débat oppose l'analyse néoclassique d'un prix plancher générateur de **chômage classique** aux travaux empiriques et aux théories du **salaire d'efficience** qui montrent qu'un salaire plus élevé peut stimuler la productivité et stabiliser la main-d'œuvre.",
+   "image": null,
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "David Card et Alan Krueger",
+     "ouvrage": "Myth and Measurement: The New Economics of the Minimum Wage",
+     "annee": "1995",
+     "ref": "salaire-minimum-emploi",
+     "texte": "Card et Krueger montrent empiriquement, à partir de l'exemple du New Jersey, qu'une hausse modérée du salaire minimum ne détruit pas nécessairement d'emplois et peut même en créer en situation de **monopsone** des employeurs. Leur résultat contredit la prédiction néoclassique standard et éclaire la défense d'une revalorisation du SMIC pour soutenir la demande et réduire la rotation du personnel. À mobiliser pour nuancer l'idée d'un effet automatiquement destructeur du SMIC."
+    },
+    {
+     "nom": "Carl Shapiro et Joseph Stiglitz",
+     "ouvrage": "Equilibrium Unemployment as a Worker Discipline Device",
+     "annee": "1984",
+     "ref": "salaire-d-efficience",
+     "cours": "1A-hpe",
+     "texte": "Selon la théorie du **salaire d'efficience**, payer au-dessus du salaire d'équilibre accroît la productivité et réduit la rotation des salariés, mais crée un chômage involontaire durable. Appliquée au débat français, cette approche aide à comprendre pourquoi les entreprises hésitent à comprimer les salaires qualifiés mais peinent à absorber un coût du travail élevé pour les emplois peu qualifiés. À mobiliser dans un sujet sur le chômage ou le coût du travail."
+    }
+   ],
+   "notions": [
+    [
+     "Tassement des grilles salariales",
+     "Rapprochement des salaires de base vers le salaire minimum légal, réduisant les écarts hiérarchiques et la progression salariale."
+    ],
+    [
+     "Trappe à bas salaires",
+     "Situation où la dégressivité des exonérations de cotisations dissuade les entreprises d'augmenter les salaires au-dessus du SMIC."
+    ],
+    [
+     "Salaire d'efficience",
+     "Salaire supérieur au niveau d'équilibre versé par une entreprise pour inciter les salariés à l'effort et limiter leur départ."
+    ]
+   ],
+   "sujets": [
+    "La hausse du salaire minimum est-elle un frein à l'emploi ?",
+    "Comment expliquer la persistance du chômage des travailleurs peu qualifiés en France ?"
+   ],
+   "anki": [
+    {
+     "q": "Effet pervers des exonérations ciblées autour du SMIC en France",
+     "r": "Le B{tassement des grilles salariales} et une B{trappe à bas salaires} qui freinent les augmentations.\n→ Montre les limites des politiques d'allègement de charges concentrées sur le salaire minimum → accroche pour un sujet sur le coût du travail ou les inégalités salariales."
+    },
+    {
+     "q": "Remise en cause empirique de l'effet destructeur du salaire minimum sur l'emploi",
+     "r": "A{Card} et A{Krueger}, O{Myth and Measurement} (D{1995}) : une hausse modérée ne réduit pas l'emploi en situation de monopsone.\n→ Permet de nuancer le modèle néoclassique standard dans une dissertation sur le marché du travail."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-esh-4",
+   "matiere": "esh",
+   "source": "Alternatives Économiques",
+   "url": "https://www.alternatives-economiques.fr/pascal-demurger-et-mathilde-durie-dans-les-entreprises-la-transition-ecologique-est-deja-vecue",
+   "minutes": 3,
+   "titre": "Entreprises et climat : la transition écologique perçue comme une nécessité économique",
+   "faits": "Dans un entretien publié le 14 novembre par Alternatives Économiques (issu de L'Économie politique), Pascal Demurger, coprésident du Mouvement Impact France, et Mathilde Durie, présidente du Centre des Jeunes Dirigeants (CJD, qui rassemble environ 6 000 adhérents, dont 72 % de TPE et 25 % de PME), défendent une vision de l'entreprise distincte de celle des organisations patronales traditionnelles. Malgré les reculs politiques et réglementaires sur les normes environnementales, ils soulignent une prise de conscience croissante des dirigeants : la décarbonation et le partage de la valeur sont désormais perçus comme des conditions de survie et de compétitivité à moyen terme. Ils appellent à conditionner davantage les aides publiques à des critères écologiques et sociaux.",
+   "enjeux": "Ce débat interroge la **finalité sociale de l'entreprise** et le dépassement du modèle actionnarial classique centré uniquement sur la maximisation du profit à court terme. Face à la crise climatique, la question est de savoir si l'initiative volontaire des entreprises suffit à internaliser les **externalités négatives**, ou si la puissance publique doit fixer des normes stables et des incitations financières. L'opposition entre « fin du monde » et « fin du mois », souvent utilisée pour freiner les réglementations vertes, est ici nuancée par l'idée que l'inaction climatique détruit elle-même le tissu productif des PME. C'est un argument clé pour les sujets sur la **soutenabilité** et la **gouvernance d'entreprise**.",
+   "image": null,
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la soutenabilité de la croissance et du développement"
+   },
+   "auteurs": [
+    {
+     "nom": "Kate Raworth",
+     "ouvrage": "La théorie du donut",
+     "annee": "2017",
+     "ref": "theorie-du-donut-raworth",
+     "cours": "1A-soutenabilite",
+     "texte": "Raworth affirme que l'économie doit rester dans un espace sûr entre un **plancher social** et un **plafond écologique**. Les dirigeants du CJD et d'Impact France illustrent cette tentative d'intégrer directement les limites planétaires et la juste répartition de la valeur dans la stratégie des PME, au-delà du seul indicateur de profit. À mobiliser pour montrer qu'une autre gouvernance d'entreprise est possible."
+    },
+    {
+     "nom": "Arthur Cecil Pigou",
+     "ouvrage": "The Economics of Welfare",
+     "annee": "1920",
+     "ref": "externalites-pigou",
+     "texte": "Pigou montre que les **externalités négatives** (comme la pollution) créent un écart entre coût privé et coût social, justifiant une intervention publique par la taxe ou la norme. Même si certaines entreprises s'engagent volontairement, la règle publique et la conditionnalité des aides restent indispensables pour éviter le comportement de passager clandestin des concurrents moins vertueux. À mobiliser pour articuler responsabilité des entreprises et action de l'État."
+    }
+   ],
+   "notions": [
+    [
+     "Externalité négative",
+     "Coût imposé à la collectivité par une activité économique sans compensation monétaire par son auteur."
+    ],
+    [
+     "Soutenabilité forte",
+     "Conception selon laquelle le capital naturel ne peut pas être remplacé par du capital physique ou humain et doit être préservé."
+    ],
+    [
+     "Responsabilité sociétale des entreprises",
+     "Intégration volontaire par les entreprises de préoccupations sociales et environnementales dans leurs activités."
+    ]
+   ],
+   "sujets": [
+    "Les entreprises peuvent-elles mener la transition écologique sans contrainte publique ?",
+    "Maximisation du profit et transition écologique sont-elles compatibles ?"
+   ],
+   "anki": [
+    {
+     "q": "Poids des TPE et PME au Centre des Jeunes Dirigeants (CJD, 2026)",
+     "r": "Environ C{6 000} adhérents, dont C{72 %} de TPE et C{25 %} de PME engagés pour concilier transition écologique et compétitivité.\n→ Montre que la soutenabilité dépasse le seul cercle des grandes entreprises cotées (A{Raworth}, O{La théorie du donut}, D{2017}) → accroche pour un sujet sur la gouvernance d'entreprise et le climat."
+    },
+    {
+     "q": "Limite de l'engagement volontaire des entreprises face au climat",
+     "r": "Sans norme ni conditionnalité des aides, les firmes vertueuses subissent le passager clandestin (A{Pigou}, O{The Economics of Welfare}, D{1920}).\n→ Justifie l'intervention publique pour internaliser les externalités négatives."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-anglais-1",
+   "matiere": "anglais",
+   "source": "Financial Times",
+   "url": "https://www.ft.com/content/806b0158-41c5-4db2-ac33-93621f72297b",
+   "minutes": 3,
+   "titre": "Royaume-Uni : la Banque d'Angleterre prépare les marchés à de nouvelles hausses de taux en 2027",
+   "faits": "Dans un entretien accordé au Financial Times publié le 14 novembre, l'économiste en chef de la Banque d'Angleterre (BoE), Huw Pill, a averti que de nouvelles hausses des taux directeurs seraient probablement nécessaires en 2027, en plus d'un relèvement attendu dès décembre. La BoE avait déjà porté son taux directeur à 4 % début novembre, sa première hausse depuis août 2023. Huw Pill s'est dit préoccupé par la persistance de l'inflation, qui pourrait approcher 5 % à la mi-2027 sous l'effet de la flambée des prix de l'énergie liée au conflit impliquant l'Iran. Il redoute des « effets de second tour », lorsque la hausse de l'énergie se diffuse aux salaires et aux prix des entreprises. Il a jugé que les anticipations des marchés, qui tablent sur environ 90 points de base de resserrement supplémentaire d'ici fin 2027, n'étaient « pas extravagantes ».",
+   "enjeux": "Ces déclarations illustrent le dilemme classique d'une banque centrale confrontée à un **choc d'offre énergétique** dans une économie à croissance molle. Pour préserver sa **crédibilité** et ancrer les **anticipations d'inflation**, la BoE accepte de durcir encore sa **politique monétaire**, au risque de freiner l'activité et d'alourdir la charge de la dette publique britannique. Ce resserrement complique l'équation budgétaire du gouvernement travailliste d'Andy Burnham, déjà contraint par la prudence des marchés obligataires. Pour les concours, l'article fournit un cas concret d'arbitrage entre lutte contre l'inflation importée et soutien à la croissance.",
+   "image": null,
+   "vo": {
+    "titre": "UK: Bank of England signals further rate rises in 2027",
+    "faits": "In an interview with the Financial Times published on 14 November, Bank of England Chief Economist Huw Pill warned that further interest rate rises will likely be needed in 2027, on top of an expected increase in December. Earlier in November, the BoE raised its benchmark rate by 25 basis points to 4%, its first hike since August 2023. Pill expressed concern over stubborn inflation, which the central bank projects could approach 5% by mid-2027 due to surging energy costs linked to the conflict involving Iran. He warned of \"second-round effects\" as higher energy bills feed into wages and corporate pricing. Commenting on market expectations of roughly 90 basis points of additional tightening by the end of 2027, Pill described them as \"not outrageous\".",
+    "enjeux": "These remarks highlight the classic dilemma facing a central bank hit by an energy supply shock amid sluggish growth. To safeguard its credibility and keep inflation expectations anchored, the BoE is willing to tighten monetary policy further, even at the risk of dampening activity and raising UK debt-servicing costs. This hawkish stance also narrows the fiscal room for manoeuvre available to Andy Burnham's Labour government, which remains under close scrutiny from bond markets. For students, the episode illustrates the difficult trade-off between fighting imported inflation and supporting economic recovery."
+   },
+   "vocab": [
+    [
+     "benchmark interest rate",
+     "le taux directeur",
+     "The central bank raised its benchmark interest rate to curb inflation."
+    ],
+    [
+     "second-round effects",
+     "les effets de second tour",
+     "Policymakers fear second-round effects on wages after energy spikes."
+    ],
+    [
+     "monetary tightening",
+     "le resserrement monétaire",
+     "Further monetary tightening could weigh on household borrowing."
+    ],
+    [
+     "hawkish stance",
+     "une position restrictive (faucon)",
+     "The chief economist's hawkish stance surprised bond investors."
+    ],
+    [
+     "to anchor inflation expectations",
+     "ancrer les anticipations d'inflation",
+     "Clear communication helps central banks anchor inflation expectations."
+    ],
+    [
+     "basis points",
+     "des points de base",
+     "Markets are pricing in ninety basis points of rate hikes."
+    ]
+   ],
+   "sujets": [
+    "Should central banks raise interest rates in response to an energy supply shock?",
+    "Is the Bank of England's independence an asset or a constraint for the UK government?"
+   ],
+   "anki": [
+    {
+     "q": "Bank of England benchmark rate and inflation forecast (November 2026)",
+     "r": "Rate raised to C{4%} in D{November 2026}; inflation projected near C{5%} by mid-D{2027}.\n→ Illustrates the central bank's dilemma between fighting energy-driven B{second-round effects} and preserving growth → hook for an essay on monetary policy."
+    },
+    {
+     "q": "BoE Chief Economist Huw Pill's view on market rate expectations (Nov 2026)",
+     "r": "Described market pricing of C{90 basis points} of further tightening by end-D{2027} as \"not outrageous\".\n→ Shows how central bank forward guidance prepares markets to prevent bond volatility."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/travel/2026/nov/14/eurotunnel-drive-in-fingerprint-trial-folkestone-calais-border",
+   "minutes": 3,
+   "titre": "Eurotunnel : Londres et Bruxelles s'accordent sur des contrôles biométriques en voiture",
+   "faits": "Selon The Guardian le 14 novembre, la Commission européenne a approuvé un dispositif permettant d'effectuer les contrôles biométriques du système européen Entrée/Sortie (EES) directement en voiture aux terminaux d'Eurotunnel à Folkestone et Calais. Chaque côté est désormais équipé de 120 bornes dotées de caméras « œil d'aigle » supervisées à distance par la police, sur le modèle des portiques automatiques d'aéroport déjà utilisés à Paris et Rome. Le système EES, qui impose aux ressortissants de pays tiers — dont les Britanniques depuis le Brexit — de fournir empreintes digitales et image faciale, devait entrer en vigueur en septembre mais reste bloqué dans neuf États membres dont la France. Le directeur général de Getlink, Yann Leriche, doit soumettre dans les prochaines semaines aux autorités françaises et britanniques un projet de « frontière intelligente ».",
+   "enjeux": "Cet accord technique répond à l'une des conséquences les plus concrètes du **Brexit** : le rétablissement de contrôles aux frontières extérieures de l'espace Schengen, qui menaçait de provoquer des embouteillages géants dans le Kent et le Pas-de-Calais. Il illustre le pragmatisme croissant des relations entre le Royaume-Uni et l'Union européenne pour limiter les **frictions commerciales et logistiques** sans remettre en cause les règles de l'espace Schengen. L'épisode pose aussi la question de l'**automatisation des frontières** et du recours croissant à la **biométrie**, entre fluidité des échanges et enjeux de libertés publiques.",
+   "image": null,
+   "vo": {
+    "titre": "UK-EU breakthrough allows drive-in biometric checks at Eurotunnel",
+    "faits": "According to The Guardian on 14 November, the European Commission has approved a system allowing biometric checks under the EU Entry/Exit System (EES) to be carried out from inside cars at Eurotunnel terminals in Folkestone and Calais. Both sides are now equipped with 120 drive-through kiosks monitored remotely by police via \"eagle eye\" cameras, mirroring airport e-gates already used in Paris and Rome. The EES requires third-country nationals, including British passport holders since Brexit, to submit fingerprints and facial images, but its September launch was delayed as nine of the 27 EU states, including France, failed to deploy it fully. Getlink chief executive Yann Leriche will soon present a 40-page \"intelligent border\" proposal to UK and French authorities.",
+    "enjeux": "This technical breakthrough addresses one of the most tangible consequences of Brexit: the return of full external Schengen border checks, which risked causing miles-long tailbacks in Kent and northern France. It reflects growing UK-EU pragmatism aimed at reducing logistical and trade friction without altering Schengen rules. The initiative also highlights the expansion of border automation and biometric surveillance, raising familiar questions about balancing smooth cross-border mobility with data privacy and civil liberties."
+   },
+   "vocab": [
+    [
+     "a breakthrough",
+     "une avancée décisive",
+     "Diplomats hailed the border agreement as a major breakthrough."
+    ],
+    [
+     "tailbacks",
+     "des embouteillages / bouchons",
+     "Strict passport checks threatened to cause miles-long tailbacks."
+    ],
+    [
+     "third-country nationals",
+     "les ressortissants de pays tiers",
+     "Since Brexit, Britons are treated as third-country nationals."
+    ],
+    [
+     "biometric checks",
+     "les contrôles biométriques",
+     "Drive-in kiosks will speed up biometric checks at Calais."
+    ],
+    [
+     "border friction",
+     "les frictions frontalières",
+     "Both governments want to reduce post-Brexit border friction."
+    ],
+    [
+     "e-gates",
+     "les portiques automatiques",
+     "Airports rely on e-gates to process passengers faster."
+    ]
+   ],
+   "sujets": [
+    "Can technology solve the logistical cost of post-Brexit borders?",
+    "Is a closer UK-EU partnership inevitable despite Brexit?"
+   ],
+   "anki": [
+    {
+     "q": "Eurotunnel drive-in EES biometric infrastructure (November 2026)",
+     "r": "C{120} kiosks on each side (Folkestone and Calais) using remote cameras; C{9} of C{27} EU states still behind on EES.\n→ Illustrates how technical cooperation mitigates post-Brexit B{border friction} → hook for an essay on UK-EU relations."
+    },
+    {
+     "q": "Impact of the EU Entry/Exit System on British travellers",
+     "r": "As B{third-country nationals} post-Brexit, Britons must submit fingerprints and facial images to enter Schengen.\n→ Shows the concrete logistical cost of leaving the EU single market and Schengen."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/13/mamdani-trump-deal-snap-delay",
+   "minutes": 3,
+   "titre": "États-Unis : accord entre Zohran Mamdani et Donald Trump sur les bons alimentaires",
+   "faits": "Le maire de New York, Zohran Mamdani, a annoncé le 13 novembre avoir conclu un accord avec le président Donald Trump et la secrétaire à l'Agriculture Brooke Rollins pour reporter de 90 jours l'entrée en vigueur de nouvelles règles du programme fédéral d'aide alimentaire (SNAP). Cette réforme, qui devait s'appliquer dès le 4 novembre, obligeait les commerces acceptant les bons alimentaires à proposer au moins sept variétés dans chaque catégorie de base (produits laitiers, céréales, protéines, fruits et légumes) ainsi que des produits frais périssables. Selon Mamdani, ce délai trop court menaçait plus d'un million de New-Yorkais et des dizaines de millions d'Américains vivant dans des « déserts alimentaires », car les petites épiceries de quartier (bodegas) représentent environ 70 % des détaillants SNAP.",
+   "enjeux": "Cet épisode met en lumière l'ampleur de la **précarité alimentaire** aux États-Unis et le rôle vital du programme **SNAP** dans le filet de sécurité sociale américain. Il révèle aussi la complexité du **fédéralisme américain** et de la gouvernance urbaine : un maire issu de la gauche démocrate parvient à négocier pragmatiquement avec une administration républicaine afin d'éviter une crise sociale immédiate dans les quartiers populaires. Sur le plan économique, l'affaire montre comment une réglementation fédérale uniforme peut pénaliser les petits commerces indépendants et aggraver les inégalités territoriales d'accès à l'alimentation.",
+   "image": null,
+   "vo": {
+    "titre": "US: Mamdani and Trump agree on 90-day delay to food stamp rules",
+    "faits": "New York City Mayor Zohran Mamdani announced on 13 November that he had struck a deal with President Donald Trump and Agriculture Secretary Brooke Rollins to delay new federal food stamp (SNAP) rules by 90 days. Originally set to take effect on 4 November, the Department of Agriculture guidelines required participating retailers to stock at least seven varieties across four staple categories—dairy, grains, protein, and fruit or vegetables—plus perishable items in three of them. Mamdani warned that the tight deadline risked throwing \"more than a million New Yorkers\" and tens of millions nationwide into crisis, as bodegas and convenience stores account for roughly 70% of all SNAP retailers.",
+    "enjeux": "The episode underscores the scale of food insecurity in the United States and the vital role of SNAP in the American social safety net. It also illustrates the pragmatism often required in US federalism, as a progressive Democratic mayor negotiated directly with a Republican administration to avert an immediate social shock in low-income neighbourhoods. Economically, the dispute shows how uniform federal regulations can disproportionately burden small independent grocers and worsen \"food deserts\" in poorer urban and rural areas."
+   },
+   "vocab": [
+    [
+     "food stamps (SNAP)",
+     "les bons alimentaires fédéraux",
+     "Millions of low-income households rely on food stamps every month."
+    ],
+    [
+     "food deserts",
+     "les déserts alimentaires",
+     "Small corner stores are essential in urban food deserts."
+    ],
+    [
+     "social safety net",
+     "le filet de sécurité sociale",
+     "Nutrition assistance remains a pillar of the US social safety net."
+    ],
+    [
+     "to strike a deal",
+     "conclure un accord",
+     "The mayor managed to strike a deal with the White House."
+    ],
+    [
+     "to comply with",
+     "se conformer à",
+     "Small retailers needed more time to comply with the rules."
+    ],
+    [
+     "perishable items",
+     "les denrées périssables",
+     "Corner shops often lack space to store perishable items."
+    ]
+   ],
+   "sujets": [
+    "Does the US social safety net adequately protect low-income households?",
+    "Can pragmatic cooperation survive political polarization in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "Share of small stores in the US SNAP food stamp network (2026)",
+     "r": "Bodegas and convenience stores make up roughly C{70%} of SNAP retailers; C{90-day} rule delay agreed in D{November 2026}.\n→ Shows how uniform federal rules can worsen B{food deserts} and hurt low-income access → hook for an essay on US social policy."
+    },
+    {
+     "q": "Scale of population affected by the SNAP rule dispute in New York and the US",
+     "r": "Over C{1 million} New Yorkers and tens of millions nationwide rely on SNAP at C{10,000+} NYC bodegas.\n→ Highlights the centrality of federal nutrition aid in the US social safety net."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-anglais-4",
+   "matiere": "anglais",
+   "source": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo",
+   "minutes": 3,
+   "titre": "États-Unis : une panne du contrôle aérien paralyse les vols dans tout le pays",
+   "faits": "Le 13 novembre, l'administration fédérale de l'aviation (FAA) a ordonné l'arrêt complet des décollages aux États-Unis pendant plus de quatre heures, soit la plus longue interruption nationale du trafic aérien depuis les attentats du 11 septembre 2001. Cette paralysie, provoquée par une défaillance des communications affectant l'ensemble des centres de contrôle aérien, a entraîné plus de 8 500 retards et près de 8 000 annulations de vols, tout en suspendant le trafic vers les États-Unis depuis les 42 États membres d'Eurocontrol. Le secrétaire à la Sécurité intérieure, Markwayne Mullin, a écarté l'hypothèse d'une cyberattaque, tandis que le gouvernement a mis en cause un système de contrôle aérien jugé « incroyablement vétuste ».",
+   "enjeux": "Au-delà de la pagaille dans les aéroports, cette panne géante met en évidence le **sous-investissement chronique dans les infrastructures publiques** américaines, un thème récurrent du débat économique outre-Atlantique. Alors que le pays domine l'innovation numérique privée, ses réseaux de régulation et de transport reposent encore souvent sur des équipements obsolètes, vulnérables aux pannes systémiques. L'incident démontre aussi l'**interdépendance mondiale** du transport aérien : un incident technique interne aux États-Unis a immédiatement paralysé les liaisons transatlantiques. Ce sujet nourrit la réflexion sur le rôle de l'État dans la modernisation des **biens publics**.",
+   "image": null,
+   "vo": {
+    "titre": "US: Air traffic control failure triggers longest ground stop since 9/11",
+    "faits": "On 13 November, the US Federal Aviation Administration (FAA) ordered a nationwide ground stop lasting more than four hours, the longest halt to US air departures since the 11 September 2001 attacks. Caused by a communications failure affecting all air traffic control centres, the outage led to more than 8,500 delayed flights and nearly 8,000 cancellations, while Eurocontrol suspended all US-bound flights from its 42 member states. Homeland Security Secretary Markwayne Mullin said there was no sign of a cyber-attack. US officials blamed an \"incredibly old air traffic control system\" for the disruption before skies reopened later that evening.",
+    "enjeux": "Beyond travel chaos, the nationwide shutdown exposes chronic underinvestment in US public infrastructure, a recurring weakness in the world's largest economy. While American private firms lead global digital innovation, critical public networks still rely on ageing equipment vulnerable to systemic failure. The crisis also highlights the global interdependence of aviation, as a domestic technical fault immediately disrupted transatlantic routes across Europe. For students, the incident illustrates why state investment in modernizing core public goods remains essential to economic resilience."
+   },
+   "vocab": [
+    [
+     "a nationwide ground stop",
+     "une suspension nationale des décollages",
+     "The FAA ordered a nationwide ground stop after communications failed."
+    ],
+    [
+     "air traffic control",
+     "le contrôle aérien",
+     "Ageing air traffic control software caused hours of disruption."
+    ],
+    [
+     "underinvestment",
+     "le sous-investissement",
+     "Economists warn that chronic underinvestment threatens US infrastructure."
+    ],
+    [
+     "outage",
+     "une panne / interruption de service",
+     "Thousands of passengers were stranded by the four-hour outage."
+    ],
+    [
+     "to rule out a cyber-attack",
+     "écarter la piste d'une cyberattaque",
+     "Authorities quickly moved to rule out a cyber-attack."
+    ],
+    [
+     "ageing equipment",
+     "des équipements vieillissants",
+     "Public agencies struggle to replace ageing equipment on tight budgets."
+    ]
+   ],
+   "sujets": [
+    "Why does the world's leading tech power struggle to modernize its public infrastructure?",
+    "Are modern economies too vulnerable to systemic technical failures?"
+   ],
+   "anki": [
+    {
+     "q": "Scale of the US FAA nationwide ground stop (13 November 2026)",
+     "r": "Over C{4 hours}, the longest since D{9/11}, causing C{8,500+} delays and nearly C{8,000} cancellations.\n→ Exposes chronic underinvestment in US public infrastructure → hook for an essay on public goods and state capacity."
+    },
+    {
+     "q": "International spillover of the US air traffic control failure (Nov 2026)",
+     "r": "All US-bound flights from C{42} Eurocontrol member states were suspended.\n→ Demonstrates the global interdependence of transport networks."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-espagnol-1",
+   "matiere": "espagnol",
+   "source": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/cwe8rpg5mr9po",
+   "minutes": 3,
+   "titre": "Colombie : un documentaire filmé sur 14 ans révèle les blocages de la mobilité sociale",
+   "faits": "Le documentaire colombien « El juego de la vida », réalisé par Andrés Ruiz, est devenu le documentaire le plus vu en salles en Colombie ces cinq dernières années et vient de remporter deux prix Macondo. Né d'une grande enquête longitudinale de l'Universidad de los Andes portant sur 10 000 familles suivies tous les trois ans (dont les données ont intégré l'institut statistique national DANE), le film a suivi cinq familles urbaines et rurales pendant 14 ans. Le réalisateur y révèle avoir lui-même grandi dans une famille de sept enfants tombée dans l'extrême pauvreté rurale avant de réussir à entrer à l'université. Selon l'OCDE, il faut en moyenne 11 générations en Colombie pour qu'un enfant sorte de la pauvreté.",
+   "enjeux": "Ce succès culturel constitue un outil remarquable pour présenter en classe la question des **inégalités structurelles** en Amérique latine : la Colombie reste le pays le plus inégalitaire de la région selon l'indice de Gini de la Banque mondiale. Le film montre concrètement pourquoi l'**ascenseur social** est bloqué : fracture éducative entre campagnes et villes, accès inégal à l'enseignement supérieur et poids du déterminisme social. Il permet d'illustrer le concept de **reproduction sociale** et de montrer que la croissance économique latino-américaine ne suffit pas à réduire la pauvreté extrême sans politiques publiques éducatives ambitieuses.",
+   "image": null,
+   "vo": {
+    "titre": "Colombia: 14 años filmando la pobreza extrema y la movilidad social",
+    "faits": "El documental colombiano «El juego de la vida», dirigido por Andrés Ruiz, se ha convertido en el más visto en los cines del país en los últimos cinco años y acaba de ganar dos premios Macondo. El proyecto surgió de una amplia encuesta longitudinal de la Universidad de los Andes que siguió durante años a 10.000 familias en intervalos de tres años, cuyos datos pasaron a formar parte del DANE. Ruiz grabó durante 14 años a cinco familias rurales y urbanas para mostrar por qué salir de la pobreza sigue siendo excepcional en Colombia, y reveló en el montaje que él mismo superó la pobreza extrema rural como primero de siete hermanos en llegar a la universidad. Según la OCDE, en Colombia se necesitan 11 generaciones para que un niño salga de la pobreza.",
+    "enjeux": "Este fenómeno cinematográfico ofrece un retrato elocuente de la desigualdad estructural en América Latina: Colombia sigue siendo el país más desigual de la región según el índice de Gini del Banco Mundial. La obra evidencia los obstáculos concretos a la movilidad social, especialmente la brecha educativa entre el ámbito rural y el urbano y el clasismo en la educación superior. Permite ilustrar cómo la falta de igualdad de oportunidades perpetúa la reproducción social y limita el desarrollo económico de todo el continente."
+   },
+   "vocab": [
+    [
+     "la movilidad social",
+     "la mobilité sociale",
+     "La educación pública es el motor principal de la movilidad social."
+    ],
+    [
+     "la pobreza extrema",
+     "l'extrême pauvreté",
+     "Millones de familias rurales sufren todavía la pobreza extrema."
+    ],
+    [
+     "la brecha urbana y rural",
+     "le fossé entre villes et campagnes",
+     "La brecha urbana y rural frena el acceso escolar."
+    ],
+    [
+     "una encuesta longitudinal",
+     "une enquête longitudinale (dans la durée)",
+     "La encuesta longitudinal siguió a diez mil familias durante años."
+    ],
+    [
+     "el índice de Gini",
+     "l'indice de Gini (mesure des inégalités)",
+     "El índice de Gini mide el nivel de desigualdad nacional."
+    ],
+    [
+     "la igualdad de oportunidades",
+     "l'égalité des chances",
+     "Sin becas, no existe verdadera igualdad de oportunidades."
+    ]
+   ],
+   "sujets": [
+    "¿Por qué persiste una desigualdad tan profunda en América Latina?",
+    "¿Basta el crecimiento económico para garantizar la movilidad social?"
+   ],
+   "anki": [
+    {
+     "q": "Movilidad social en Colombia según la OCDE (BBC Mundo, nov. 2026)",
+     "r": "Se necesitan C{11 generaciones} para que un niño salga de la pobreza; Colombia es el país más desigual de América Latina.\n→ Ilustra la B{reproducción social} y la brecha educativa rural-urbana → gancho ideal para un ensayo sobre desigualdades en América Latina."
+    },
+    {
+     "q": "Base académica del documental «El juego de la vida» (Andrés Ruiz, 2026)",
+     "r": "Seguimiento de C{5 familias} durante C{14 años}, basado en una encuesta de la Universidad de los Andes a C{10.000 familias}.\n→ Ejemplo concreto y humano del bloqueo del ascensor social."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/america/2026-11-13/el-gobierno-de-lula-anuncia-un-plan-para-ahorrar-unos-10000-millones-de-gasto-publico.html",
+   "minutes": 3,
+   "titre": "Brésil : le Sénat approuve le plan d'économies de Lula sous la pression des marchés",
+   "faits": "Le Sénat brésilien a adopté le texte de base d'un projet de loi présenté par le gouvernement de Luiz Inácio Lula da Silva visant à contenir la dépense publique et à rassurer les investisseurs après sa réélection pour un quatrième mandat. Le texte a été approuvé par 45 voix contre 31. Annoncée par le ministre de la Planification Bruno Moretti, cette initiative prévoit d'économiser entre 50 et 60 milliards de réaux (environ 9 à 10 milliards de dollars) sur le budget 2027. Cette cure de rigueur ciblée répond à l'inquiétude croissante des marchés financiers face à la trajectoire du déficit budgétaire et de la dette publique du Brésil.",
+   "enjeux": "Cette actualité est idéale pour illustrer en cours le dilemme économique de la gauche latino-américaine au pouvoir : comment financer les **programmes sociaux** tout en préservant la **crédibilité budgétaire** face aux marchés financiers ? Même un président emblématique de la redistribution comme Lula doit composer avec la contrainte de la dette et des taux d'intérêt élevés pour éviter une fuite des capitaux ou une dépréciation du réal. L'épisode montre le passage d'une logique de relance à une **rigueur budgétaire** négociée au Congrès, au risque de créer des tensions avec sa propre base politique.",
+   "image": null,
+   "vo": {
+    "titre": "Brasil: el Senado aprueba el plan de ajuste de Lula ante la presión de los mercados",
+    "faits": "El Senado de Brasil aprobó el texto base de un proyecto de ley impulsado por el Gobierno de Luiz Inácio Lula da Silva para limitar el gasto público y calmar a los mercados tras su reelección para un cuarto mandato. La iniciativa salió adelante en la Cámara Alta con 45 votos a favor y 31 en contra. Según anunció el ministro de Planificación, Bruno Moretti, el plan busca recortar entre 50.000 y 60.000 millones de reales —unos 9.000 o 10.000 millones de dólares— de cara al presupuesto de 2027, en respuesta a la fuerte presión financiera por los niveles de déficit fiscal y deuda pública.",
+    "enjeux": "Esta noticia ilustra a la perfección el dilema de los gobiernos progresistas en América Latina: cómo sostener políticas sociales redistributivas sin perder la credibilidad fiscal ante los mercados internacionales. Incluso un líder histórico de la izquierda como Lula se ve obligado a pactar un ajuste del gasto para contener la deuda pública y evitar tensiones cambiarias. El episodio refleja el peso decisivo de la restricción financiera en la política económica de las grandes economías emergentes."
+   },
+   "vocab": [
+    [
+     "el ajuste fiscal",
+     "l'ajustement budgétaire / la rigueur",
+     "El Gobierno anunció un ajuste fiscal para reducir el déficit."
+    ],
+    [
+     "el gasto público",
+     "la dépense publique",
+     "El Senado votó una ley para limitar el gasto público."
+    ],
+    [
+     "calmar a los mercados",
+     "rassurer les marchés",
+     "El ministro prometió recortes con el fin de calmar a los mercados."
+    ],
+    [
+     "el déficit fiscal",
+     "le déficit budgétaire",
+     "La subida de intereses agrava el déficit fiscal del país."
+    ],
+    [
+     "el texto base",
+     "le texte de base (projet de loi)",
+     "La Cámara Alta aprobó el texto base por mayoría simple."
+    ],
+    [
+     "la deuda pública",
+     "la dette publique",
+     "Controlar la deuda pública es clave para atraer inversiones."
+    ]
+   ],
+   "sujets": [
+    "¿Hasta qué punto los mercados financieros condicionan las políticas sociales en América Latina?",
+    "¿Es compatible el modelo económico de Lula con la estabilidad fiscal?"
+   ],
+   "anki": [
+    {
+     "q": "Plan de ajuste fiscal aprobado por el Senado de Brasil (noviembre 2026)",
+     "r": "Recorte previsto de C{50.000 a 60.000 millones} de reales (unos C{10.000 millones} de dólares) para D{2027}, aprobado por C{45} votos contra C{31}.\n→ Muestra cómo la presión de los mercados obliga incluso a un gobierno progresista a aplicar B{rigor fiscal} → gancho para un tema sobre deuda o políticas económicas en América Latina."
+    },
+    {
+     "q": "Objetivo político del plan de ahorro de Lula tras su reelección (2026)",
+     "r": "Contener el déficit y tranquilizar a los mercados al inicio de su C{cuarto mandato}.\n→ Refleja la restricción financiera sobre las economías emergentes."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El Tiempo",
+   "url": "https://www.eltiempo.com/mundo/latinoamerica/una-operacion-incomoda-para-trump-el-papel-de-estados-unidos-en-la-intervencion-militar-de-nayib-bukele-en-haiti-3600839",
+   "minutes": 3,
+   "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
+   "faits": "Selon El Tiempo le 13 novembre, l'intervention militaire du Salvador en Haïti, décidée par le président Nayib Bukele après une embuscade du gang 400 Mawozo le 18 octobre contre des techniciens salvadoriens à Croix-des-Bouquets, provoque de vives tensions diplomatiques avec les États-Unis. Le Salvador a déployé entre 2 000 et 2 500 soldats d'élite et des hélicoptères armés en vertu d'un accord bilatéral avec le Premier ministre haïtien Alix Didier Fils-Aimé, allant jusqu'à transformer le stade Sylvio Cator en base militaire. Bien que Donald Trump ait donné son feu vert politique à Bukele fin octobre, le département d'État dirigé par Marco Rubio s'inquiète du fait que ces troupes opèrent en dehors de la force soutenue par l'ONU, sans coordination médicale ni sécurité suffisante près de l'ambassade américaine.",
+   "enjeux": "Cette crise géopolitique est passionnante à présenter en classe car elle montre l'exportation du « modèle Bukele » de **mano dura** hors des frontières salvadoriennes, sur fond d'effondrement de l'État en Haïti. Elle révèle une nouvelle donne en Amérique latine : un petit pays centraméricain s'érige en puissance sécuritaire régionale par accord bilatéral, contournant les mécanismes **multilatéraux** de l'ONU. L'embarras de Washington illustre aussi les contradictions de la politique étrangère américaine, partagée entre fascination pour les méthodes autoritaires efficaces contre les gangs et crainte d'une escalade incontrôlée sur le terrain.",
+   "image": null,
+   "vo": {
+    "titre": "Haití: la intervención militar de Bukele incomoda a Estados Unidos",
+    "faits": "Según informó El Tiempo el 13 de noviembre, el despliegue militar de El Salvador en Haití, ordenado por Nayib Bukele tras la emboscada de la pandilla 400 Mawozo contra cuatro técnicos salvadoreños el 18 de octubre en Croix-des-Bouquets, está generando fricciones con Washington. Bukele envió entre 2.000 y 2.500 soldados de élite y helicópteros artillados mediante un acuerdo bilateral con el primer ministro haitiano, Alix Didier Fils-Aimé, convirtiendo el estadio Sylvio Cator en base de operaciones. Aunque Donald Trump respaldó políticamente la iniciativa, el Departamento de Estado dirigido por Marco Rubio teme la falta de coordinación, ya que las fuerzas salvadoreñas actúan al margen de la misión avalada por la ONU.",
+    "enjeux": "Este episodio geopolítico muestra cómo el «modelo Bukele» de mano dura contra las pandillas se exporta más allá de Centroamérica ante el colapso institucional de Haití. Resulta muy significativo que un país pequeño asuma un papel militar regional mediante acuerdos bilaterales que eluden el marco multilateral de Naciones Unidas. Al mismo tiempo, la incomodidad de Estados Unidos refleja la tensión entre el atractivo político de las respuestas de seguridad radicales y los riesgos diplomáticos y de derechos humanos sobre el terreno."
+   },
+   "vocab": [
+    [
+     "el despliegue militar",
+     "le déploiement militaire",
+     "El despliegue militar generó críticas en organismos internacionales."
+    ],
+    [
+     "al margen de",
+     "en marge de / en dehors de",
+     "Las tropas operan al margen de la misión de la ONU."
+    ],
+    [
+     "la mano dura",
+     "la ligne dure / fermeté sécuritaire",
+     "La estrategia de mano dura divide a la opinión pública."
+    ],
+    [
+     "la falta de coordinación",
+     "le manque de coordination",
+     "La falta de coordinación provocó incidentes cerca de la embajada."
+    ],
+    [
+     "un acuerdo bilateral",
+     "un accord bilatéral",
+     "Ambos gobiernos firmaron un acuerdo bilateral de seguridad."
+    ],
+    [
+     "las pandillas",
+     "les gangs",
+     "Las pandillas controlan gran parte de la capital haitiana."
+    ]
+   ],
+   "sujets": [
+    "¿Es exportable el modelo de seguridad de Nayib Bukele al resto de América Latina?",
+    "¿Puede la cooperación bilateral sustituir al multilateralismo ante la crisis de Haití?"
+   ],
+   "anki": [
+    {
+     "q": "Despliegue militar de El Salvador en Haití (noviembre 2026)",
+     "r": "Entre C{2.000 y 2.500} soldados de élite enviados por A{Nayib Bukele} mediante acuerdo bilateral, fuera de la misión de la ONU.\n→ Muestra la exportación del modelo de B{mano dura} y el retroceso del multilateralismo → gancho para un tema de geopolítica latinoamericana."
+    },
+    {
+     "q": "Detonante y base de la operación salvadoreña en Haití (oct-nov 2026)",
+     "r": "Emboscada de la pandilla 400 Mawozo el D{18 de octubre}; estadio Sylvio Cator convertido en base militar.\n→ Ilustra el colapso estatal haitiano y las tensiones de coordinación con EE. UU."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-espagnol-4",
+   "matiere": "espagnol",
+   "source": "elDiario.es",
+   "url": "https://www.eldiario.es/economia/mentiras-pp-vox-debate-economico-inmigracion-falso-vaciado-pensiones_1_13663511.html",
+   "minutes": 3,
+   "titre": "Espagne : immigration, logement et retraites au cœur du débat économique du 29-N",
+   "faits": "À l'approche des élections générales espagnoles du 29 novembre, le débat économique télévisé du 13 novembre sur La Sexta entre les représentants du PSOE, du Frente Amplio, du PP et de Vox a été marqué par de vifs affrontements sur l'immigration et les retraites. Le porte-parole de Vox, José María Figaredo, a relié la crise du logement à une hausse supposée de plus de six millions d'habitants en cinq ans. Or, les données officielles de l'INE montrent que la population est passée de 47,4 millions début 2021 à 49,9 millions en octobre 2026, soit environ 2,5 millions de plus en tenant compte des départs. Sur les retraites, la gauche a rappelé que l'autorité budgétaire indépendante (AIReF) juge l'immigration indispensable pour financer l'État-providence face au vieillissement, et que le Fonds de réserve des retraites a recommencé à croître.",
+   "enjeux": "Ce débat résume les grands clivages économiques de la campagne espagnole et permet d'aborder deux sujets majeurs de civilisation : la **démographie** et la **soutienabilité du système de retraites**. Alors que la droite et l'extrême droite imputent les tensions immobilières et budgétaires à l'immigration, les institutions économiques espagnoles soulignent au contraire l'apport fiscal et démographique des travailleurs étrangers dans un pays à très faible natalité. L'affrontement montre aussi la place croissante de la bataille des chiffres et du fact-checking dans le débat public espagnol.",
+   "image": null,
+   "vo": {
+    "titre": "España: inmigración y pensiones centran el debate económico electoral",
+    "faits": "En plena campaña hacia las elecciones generales del 29-N, el debate económico celebrado el 13 de noviembre en La Sexta entre PSOE, Frente Amplio, PP y Vox estuvo marcado por el cruce de cifras sobre inmigración y pensiones. El portavoz de Vox, José María Figaredo, vinculó la crisis de la vivienda a un supuesto aumento de más de seis millones de habitantes en cinco años. Sin embargo, los datos del INE muestran que la población pasó de 47,4 millones en 2021 a 49,9 millones en octubre de 2026, un alza neta cercana a los 2,5 millones. Frente al rechazo de la derecha a nueva inmigración, los ministros Carlos Cuerpo y Pablo Bustinduy recordaron que la AIReF la considera esencial para sostener el Estado del bienestar.",
+    "enjeux": "Este enfrentamiento sintetiza los grandes dilemas económicos de España ante las urnas: el envejecimiento demográfico, la financiación de las pensiones y el acceso a la vivienda. Mientras las formaciones conservadoras responsabilizan a los flujos migratorios de las tensiones sociales, los organismos independientes destacan que la llegada de población extranjera aporta cotizantes indispensables para el sistema público. El debate ilustra además cómo la batalla por los datos estadísticos se ha vuelto central en la polarización política española."
+   },
+   "vocab": [
+    [
+     "el envejecimiento demográfico",
+     "le vieillissement démographique",
+     "El envejecimiento demográfico presiona las cuentas de la Seguridad Social."
+    ],
+    [
+     "sostener el Estado del bienestar",
+     "soutenir l'État-providence",
+     "Las cotizaciones laborales permiten sostener el Estado del bienestar."
+    ],
+    [
+     "el cruce de cifras",
+     "la bataille des chiffres",
+     "El debate televisado estuvo dominado por el cruce de cifras."
+    ],
+    [
+     "el Fondo de Reserva",
+     "le Fonds de réserve (des retraites)",
+     "El Gobierno defiende haber reforzado el Fondo de Reserva."
+    ],
+    [
+     "el alza neta",
+     "la hausse nette",
+     "Al restar las salidas, el alza neta fue de dos millones."
+    ],
+    [
+     "los flujos migratorios",
+     "les flux migratoires",
+     "Los flujos migratorios cubren vacantes en varios sectores."
+    ]
+   ],
+   "sujets": [
+    "¿Es la inmigración una solución indispensable para el futuro de las pensiones en España?",
+    "¿Cómo explicar la centralidad de la vivienda y la demografía en la campaña electoral española?"
+   ],
+   "anki": [
+    {
+     "q": "Crecimiento real de la población en España entre 2021 y octubre de 2026 (INE)",
+     "r": "De C{47,4} a C{49,9 millones} de habitantes (alza neta de unos C{2,5 millones}, frente a los C{6 millones} afirmados por Vox).\n→ Desmonta el vínculo simplista entre inmigración y crisis de la vivienda y destaca la necesidad de cotizantes (AIReF) → gancho para un ensayo sobre demografía o inmigración."
+    },
+    {
+     "q": "Papel de la inmigración según la AIReF en España (2026)",
+     "r": "Elemento clave para mantener las finanzas públicas y el B{Estado del bienestar} ante el envejecimiento.\n→ Argumento económico central frente al discurso antiinmigración en España."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-14-allemand-1",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/bauen-polen-100.html",
+   "minutes": 3,
+   "titre": "Infrastructures : pourquoi la Pologne construit beaucoup plus vite que l'Allemagne",
+   "faits": "Dans un reportage publié le 14 novembre, Tagesschau compare le rythme de construction des infrastructures routières en Pologne et en Allemagne. En Poméranie occidentale, le réseau d'autoroutes et de voies rapides a presque décuplé en vingt ans, passant de 48 kilomètres en 2006 à 468 kilomètres en 2026. Si la faible densité de population de l'ouest polonais facilite certains tracés, les experts soulignent surtout une différence juridique et administrative majeure : le recours au modèle « Design and Build » (concevoir et construire). En Pologne, l'entreprise qui remporte l'appel d'offres réalise à la fois la planification et les travaux, ce qui réduit fortement les blocages et les retards.",
+   "enjeux": "Cette comparaison met en lumière l'un des principaux freins à la compétitivité allemande : la lourdeur de la **bureaucratie** et des procédures d'autorisation, qui ralentit la modernisation des ponts, des routes et du rail outre-Rhin. Le contraste entre le « Polen-Tempo » et les lenteurs allemandes nourrit le débat sur la réforme de l'État et l'efficacité de l'**investissement public**. Pour les concours, c'est un exemple parlant des défis structurels de l'économie allemande et de la convergence rapide de l'Europe centrale.",
+   "image": null,
+   "vo": {
+    "titre": "Infrastruktur: Warum Polen schneller baut als Deutschland",
+    "faits": "In Polen entstehen neue Straßen und Brücken viel schneller als in Deutschland. In Westpommern hat sich das Netz der Schnellstraßen in zwanzig Jahren fast verzehnfacht. Im Jahr 2006 gab es dort nur 48 Kilometer Autobahn und Schnellstraße. Heute sind es bereits 468 Kilometer. In Westpolen leben zwar weniger Menschen als im Ruhrgebiet. Das macht die Planung etwas leichter. Experten nennen aber einen noch wichtigeren Grund. In Polen plant und baut oft dieselbe Firma das Projekt. Dieses Verfahren heißt „Design and Build“.",
+    "enjeux": "Der Vergleich zeigt ein großes Problem für die deutsche Wirtschaft. In Deutschland dauern Genehmigungen und Planungen oft sehr lange. Viele Brücken und Straßen sind alt und brauchen dringend Geld. Die Bürokratie bremst wichtige Investitionen für die Zukunft. Polen dagegen nutzt einfache Regeln und holt wirtschaftlich schnell auf. Deutschland muss seine Verwaltung modernisieren, um wieder wettbewerbsfähig zu bleiben."
+   },
+   "vocab": [
+    [
+     "die Schnellstraße",
+     "la voie rapide",
+     "Polen hat viele neue Schnellstraßen gebaut."
+    ],
+    [
+     "die Genehmigung",
+     "l'autorisation / le permis",
+     "In Deutschland dauert die Genehmigung sehr lange."
+    ],
+    [
+     "die Verwaltung",
+     "l'administration",
+     "Die Verwaltung muss schneller und digitaler werden."
+    ],
+    [
+     "die Planung",
+     "la planification",
+     "Eine Firma übernimmt die Planung und den Bau."
+    ],
+    [
+     "aufholen",
+     "rattraper son retard",
+     "Osteuropa kann durch gute Straßen wirtschaftlich aufholen."
+    ],
+    [
+     "wettbewerbsfähig",
+     "compétitif",
+     "Ohne moderne Brücken bleibt das Land nicht wettbewerbsfähig."
+    ]
+   ],
+   "sujets": [
+    "Ist die deutsche Bürokratie eine Gefahr für die Wirtschaft?",
+    "Wie kann Deutschland seine Infrastruktur schneller modernisieren?"
+   ]
+  },
+  {
+   "id": "2026-11-14-allemand-2",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/gesetzlich-versicherte-behandlung-selbstzahler-100.html",
+   "minutes": 3,
+   "titre": "Santé en Allemagne : les médecins redoutent une médecine à deux vitesses",
+   "faits": "Le président de l'association fédérale des médecins conventionnés (KBV), Andreas Gassen, a averti le 14 novembre que les assurés du régime public (gesetzlich Versicherte) risquent de devoir payer davantage de consultations de leur poche s'ils veulent éviter de longs délais d'attente. Cette mise en garde fait suite au plan d'économies du gouvernement fédéral sur l'assurance maladie publique, qui prévoit trois milliards d'euros de coupes dans les honoraires médicaux. Selon la KBV, certaines spécialités comme l'orthopédie, la cardiologie ou la radiologie pourraient perdre jusqu'à 25 % de leur chiffre d'affaires, ce qui réduirait le nombre de créneaux disponibles une fois le budget trimestriel épuisé.",
+   "enjeux": "Cette polémique révèle la crise financière du **système de santé allemand**, pris entre le vieillissement de la population et la rigueur budgétaire. En Allemagne, la coexistence entre assurance publique et assurance privée alimente déjà un débat récurrent sur la **médecine à deux vitesses** (*Zwei-Klassen-Medizin*). Les coupes décidées par Berlin risquent d'accentuer les inégalités d'accès aux soins entre ceux qui peuvent payer en tant que patients privés et les autres assurés.",
+   "image": null,
+   "vo": {
+    "titre": "Gesundheit: Ärzte warnen vor längeren Wartezeiten",
+    "faits": "Der Chef der Kassenärzte, Andreas Gassen, warnt vor Folgen der Sparpolitik. Die Bundesregierung will bei den Krankenkassen drei Milliarden Euro sparen. Deshalb kürzt sie die Honorare für viele Fachärzte. Besonders betroffen sind zum Beispiel die Kardiologie und die Orthopädie. Manche Praxen verlieren dadurch bis zu 25 Prozent ihres Umsatzes. Wenn das Budget verbraucht ist, gibt es weniger Termine. Wer nicht warten will, muss die Behandlung bald selbst bezahlen.",
+    "enjeux": "Diese Debatte zeigt die Krise der sozialen Sicherung in Deutschland. Die Gesellschaft wird älter und die Kosten für Gesundheit steigen stark. Gleichzeitig will der Staat Geld sparen. Kritiker fürchten nun eine Zwei-Klassen-Medizin. Reiche Patienten bekommen schneller einen Termin als normale Versicherte. Das Vertrauen in den Sozialstaat gerät dadurch unter Druck."
+   },
+   "vocab": [
+    [
+     "die Krankenkasse",
+     "la caisse d'assurance maladie",
+     "Die Krankenkassen müssen drei Milliarden Euro sparen."
+    ],
+    [
+     "die Wartezeit",
+     "le délai d'attente",
+     "Patienten fürchten eine viel längere Wartezeit."
+    ],
+    [
+     "das Honorar",
+     "les honoraires",
+     "Der Staat kürzt das Honorar für Fachärzte."
+    ],
+    [
+     "der Selbstzahler",
+     "le patient qui paie de sa poche",
+     "Als Selbstzahler bekommt man schneller einen Termin."
+    ],
+    [
+     "die Sparpolitik",
+     "la politique d'austérité / d'économies",
+     "Die harte Sparpolitik trifft viele Arztpraxen."
+    ],
+    [
+     "der Sozialstaat",
+     "l'État-providence",
+     "Der Sozialstaat steht vor großen finanziellen Problemen."
+    ]
+   ],
+   "sujets": [
+    "Droht Deutschland eine Zwei-Klassen-Medizin?",
+    "Wie kann man das deutsche Gesundheitssystem bezahlbar halten?"
+   ]
+  },
+  {
+   "id": "2026-11-14-allemand-3",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/wirtschaft/2026-11/aenderungen-arbeitsrecht-befristungen-kuendigungsschutz-arbeitsplaetze",
+   "minutes": 3,
+   "titre": "Droit du travail en Allemagne : vif débat sur l'allongement des CDD sans motif",
+   "faits": "Un projet de réforme du droit du travail porté par le ministre du Travail Alexander Schweitzer suscite un vif débat dans la presse allemande, notamment dans Die Zeit le 13 novembre. Le gouvernement souhaite assouplir les règles des contrats à durée déterminée (CDD) sans motif objectif : la durée maximale passerait de deux ans à quatre ans (48 mois), avec jusqu'à six renouvellements possibles au lieu de trois. La coalition justifie cette mesure par la faiblesse de la conjoncture et la frilosité des entreprises à embaucher en CDI. Les syndicats et de nombreux observateurs dénoncent au contraire une précarisation accrue des jeunes actifs.",
+   "enjeux": "Ce projet illustre le classique arbitrage allemand entre **flexibilité du marché du travail** et **sécurité de l'emploi**. Pour les partisans de la réforme, « un emploi temporaire vaut mieux que pas d'emploi du tout » en période de stagnation économique. Pour les critiques, multiplier les contrats courts jusqu'à quatre ans empêche les jeunes générations de se projeter dans le logement ou la vie familiale, rappelant les fractures sociales héritées des lois Hartz des années 2000.",
+   "image": null,
+   "vo": {
+    "titre": "Arbeitsrecht: Streit über längere befristete Verträge",
+    "faits": "Die Bundesregierung will das Arbeitsrecht in Deutschland ändern. Bisher darf ein Vertrag ohne besonderen Grund höchstens zwei Jahre dauern. Arbeitsminister Alexander Schweitzer plant nun eine Verdopplung auf vier Jahre. Firmen sollen solche Verträge auch bis zu sechsmal verlängern dürfen. Die Regierung will damit in der Wirtschaftskrise mehr Jobs schaffen. Die Unternehmen sollen wieder mutiger neue Mitarbeiter einstellen. Gewerkschaften kritisieren diesen Plan aber sehr scharf.",
+    "enjeux": "Der Streit dreht sich um Flexibilität und Sicherheit auf dem Arbeitsmarkt. Befürworter sagen, dass ein befristeter Job besser als Arbeitslosigkeit ist. Gegner warnen jedoch vor großer Unsicherheit für junge Menschen. Wer vier Jahre lang keinen festen Vertrag hat, kann schwer planen. Auch die Suche nach einer Wohnung wird dann viel schwieriger. Die Reform spaltet daher die Gesellschaft."
+   },
+   "vocab": [
+    [
+     "der befristete Vertrag",
+     "le contrat à durée déterminée (CDD)",
+     "Viele junge Menschen bekommen nur einen befristeten Vertrag."
+    ],
+    [
+     "die Verlängerung",
+     "la prolongation / le renouvellement",
+     "Nach drei Verlängerungen hofft er auf einen festen Job."
+    ],
+    [
+     "einstellen",
+     "embaucher",
+     "In der Krise wollen Firmen weniger Leute einstellen."
+    ],
+    [
+     "die Gewerkschaft",
+     "le syndicat",
+     "Jede große Gewerkschaft lehnt die längere Befristung ab."
+    ],
+    [
+     "die Unsicherheit",
+     "l'insécurité / l'incertitude",
+     "Kurze Verträge schaffen Unsicherheit für die Familienplanung."
+    ],
+    [
+     "die Arbeitslosigkeit",
+     "le chômage",
+     "Die Reform soll die steigende Arbeitslosigkeit bremsen."
+    ]
+   ],
+   "sujets": [
+    "Braucht der deutsche Arbeitsmarkt mehr Flexibilität oder mehr Sicherheit?",
+    "Sind befristete Verträge eine Chance oder ein Risiko für junge Menschen?"
+   ]
+  },
+  {
+   "id": "2026-11-14-allemand-4",
+   "matiere": "allemand",
+   "source": "Deutsche Welle",
+   "url": "https://www.dw.com/de/bnd-und-verfassungsschutz-sind-sie-nach-der-gesetzesreform-echte-geheimdienste-oder-bleiben-sie-zahnlose-tiger/a-79936888",
+   "minutes": 3,
+   "titre": "Renseignement en Allemagne : le Bundestag élargit les pouvoirs du BND et du Verfassungsschutz",
+   "faits": "Le 13 novembre, le Bundestag a adopté une réforme majeure des services de renseignement allemands, le BND (renseignement extérieur) et le Verfassungsschutz (renseignement intérieur), qualifiée de « réforme du siècle » par le ministre de l'Intérieur Alexander Dobrindt (CSU). Le BND est désormais autorisé à mener des opérations actives contre des cyberattaques étrangères, voire à neutraliser des systèmes ennemis. Sur le plan intérieur, le Verfassungsschutz pourra pénétrer dans des domiciles sans mandat judiciaire en cas de danger grave. Dobrindt invoque les menaces hybrides de la Russie et l'extrémisme, tandis que l'AfD et Die Linke ont voté contre et que les Verts se sont abstenus.",
+   "enjeux": "Cette loi remet en question un principe fondamental de la démocratie allemande d'après-guerre : le **Trennungsgebot**, la séparation stricte entre police et services de renseignement, instaurée après 1945 en réaction aux abus de la Gestapo. Des constitutionnalistes alertent sur l'octroi de pouvoirs opérationnels aux services secrets sans contrôle judiciaire préalable suffisant. Le débat illustre l'équilibre délicat entre **sécurité nationale** face aux menaces hybrides et **protection des libertés fondamentales**.",
+   "image": null,
+   "vo": {
+    "titre": "Sicherheit: Mehr Macht für deutsche Geheimdienste",
+    "faits": "Der Bundestag hat am Freitag eine große Reform für die Geheimdienste beschlossen. Der Auslandsdienst BND darf Cyberangriffe nun aktiv bekämpfen und Systeme lahmlegen. Auch der Verfassungsschutz im Inland bekommt deutlich mehr Rechte. Bei großer Gefahr darf er nun ohne Richterbeschluss in Wohnungen gehen. Innenminister Alexander Dobrindt nennt diese Änderung eine Jahrhundert-Reform. Er begründet das Gesetz mit Bedrohungen durch Russland und Extremisten. AfD und Linke stimmten dagegen, die Grünen enthielten sich.",
+    "enjeux": "Das neue Gesetz berührt eine wichtige Lehre aus der deutschen Geschichte. Nach der Nazizeit wurden Polizei und Geheimdienste in Deutschland streng getrennt. Viele Juristen warnen nun vor zu viel Macht für die Geheimdienste. Sie fürchten um den Schutz der Bürgerrechte und der Privatsphäre. Der Staat sucht eine neue Balance zwischen Sicherheit und Freiheit. Diese Frage bleibt in Deutschland sehr umstritten."
+   },
+   "vocab": [
+    [
+     "der Geheimdienst",
+     "le service de renseignement",
+     "Der deutsche Geheimdienst bekommt durch das Gesetz mehr Rechte."
+    ],
+    [
+     "der Cyberangriff",
+     "la cyberattaque",
+     "Der BND soll fremde Cyberangriffe aktiv stoppen."
+    ],
+    [
+     "der Richterbeschluss",
+     "la décision / le mandat d'un juge",
+     "Normalerweise braucht die Polizei für Kontrollen einen Richterbeschluss."
+    ],
+    [
+     "die Bedrohung",
+     "la menace",
+     "Russland stellt laut Minister eine große Bedrohung dar."
+    ],
+    [
+     "die Bürgerrechte",
+     "les droits civiques / libertés fondamentales",
+     "Kritiker wollen die Bürgerrechte besser vor Überwachung schützen."
+    ],
+    [
+     "trennen",
+     "séparer",
+     "Das Grundgesetz will Polizei und Geheimdienste klar trennen."
+    ]
+   ],
+   "sujets": [
+    "Wie findet man die Balance zwischen Sicherheit und Freiheit?",
+    "Braucht Deutschland stärkere Geheimdienste gegen neue Bedrohungen?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "« Tout le monde a pris conscience de nos dépendances » : l'Europe veut créer des modèles aussi performants qu'OpenAI et Anthropic",
+   "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/tout-le-monde-a-pris-conscience-de-nos-dependances-leurope-veut-creer-des-modeles-aussi-performants-quopenai-et-anthropic-2262632",
+   "pourquoi": "Illustre le défi de la **souveraineté technologique** européenne et le retard d'investissement dans l'IA face aux géants américains."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "« Tout le monde est allé au bout de ce qui était possible » : les 54.000 collaborateurs de Crédit Mutuel Alliance Fédérale décrochent une hausse de salaire",
+   "url": "https://www.lesechos.fr/finance-marches/banque-assurances/tout-le-monde-est-alle-au-bout-de-ce-qui-etait-possible-les-54000-collaborateurs-de-credit-mutuel-alliance-federale-decrochent-une-hausse-de-salaire-2262608",
+   "pourquoi": "Montre comment la **négociation collective** de branche ou d'entreprise permet d'ajuster les salaires face à l'inflation dans un secteur rentable."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Présidentielle 2027 : la défaite organisée",
+   "url": "https://www.lesechos.fr/idees-debats/editos-analyses/presidentielle-2027-la-defaite-organisee-2262459",
+   "pourquoi": "Analyse les fractures politiques françaises à l'approche de 2027 et leur impact sur la **crédibilité des réformes économiques**."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Le marché mondial du pétrole devrait redevenir excédentaire au dernier trimestre, selon l’Agence internationale de l’énergie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/13/le-marche-mondial-du-petrole-devrait-redevenir-excedentaire-au-dernier-trimestre-selon-l-agence-internationale-de-l-energie_6809326_3234.html",
+   "pourquoi": "Éclaire les déterminants de l'**offre et de la demande mondiales d'énergie**, essentiels pour analyser l'inflation importée et la croissance."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "La Cour suprême norvégienne invalide trois licences pétrolières en mer du Nord, un « jugement historique »",
+   "url": "https://www.lemonde.fr/planete/article/2026/11/13/la-cour-supreme-norvegienne-invalide-trois-licences-petrolieres-en-mer-du-nord-un-jugement-historique_6809339_3244.html",
+   "pourquoi": "Montre comment la **justice climatique** contraint désormais les États producteurs d'hydrocarbures au nom de la soutenabilité."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "La panne de Microsoft alerte entreprises et salariés sur leur dépendance aux outils numériques : « On a tous été un peu dans le même bateau que nos clients »",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/13/la-panne-de-microsoft-alerte-entreprises-et-salaries-sur-leur-dependance-aux-outils-numeriques-on-a-tous-ete-un-peu-dans-le-meme-bateau-que-nos-clients_6809369_3234.html",
+   "pourquoi": "Met en évidence les risques d'**oligopole numérique** et de dépendance opérationnelle des entreprises européennes aux géants américains du cloud."
+  }
+ ]
+}

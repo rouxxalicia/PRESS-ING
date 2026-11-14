@@ -4601,6 +4601,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "economie-endettement-marches-hicks",
+      "nom": "Économie d'endettement et économie de marchés de capitaux",
+      "categorie": "monnaie",
+      "type": "Modèle",
+      "annee": "1974",
+      "auteur": "John Hicks",
+      "accroche": "Les économies se financent soit principalement par le crédit bancaire, soit directement sur les marchés financiers.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**John Hicks**, *The Crisis in Keynesian Economics* (1974).",
+            "Hicks observe que toutes les économies avancées ne financent pas l'investissement de la même façon. Il propose une typologie devenue classique en macroéconomie financière pour opposer le modèle anglo-saxon et le modèle continental européen."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Dans une **économie d'endettement**, les entreprises se financent surtout par le **crédit bancaire** ; les banques se refinancent auprès de la banque centrale, qui joue le rôle de prêteur en dernier ressort.",
+            "Dans une **économie de marchés de capitaux** (ou de fonds propres), les entreprises émettent directement des **actions** et des **obligations** achetées par les ménages et les investisseurs institutionnels.",
+            "L'intermédiation bancaire mutualise le risque et protège les épargnants, tandis que les marchés financiers allouent plus vite le capital vers les secteurs innovants mais exposent davantage à la volatilité."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette distinction éclaire le **retard de financement** des entreprises européennes innovantes par rapport aux États-Unis : en Europe, l'épargne abondante des ménages reste largement placée sur des dépôts bancaires ou de l'assurance-vie peu risquée, au lieu d'irriguer les **marchés de capitaux** et le capital-risque."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La désintermédiation financière",
+              "d": "À partir des années 1980 (règle des **3 D** d'Henri Bourguinat), l'Europe bascule progressivement vers la finance de marché."
+            },
+            {
+              "t": "L'Union des marchés de capitaux (UMC)",
+              "d": "Projet européen visant à orienter l'épargne des ménages vers l'investissement productif et la transition."
+            },
+            {
+              "t": "La complémentarité banques-marchés",
+              "d": "Les banques restent indispensables aux PME qui n'ont pas la taille critique pour émettre des titres."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle binaire de Hicks ne décrit plus la réalité actuelle : les banques elles-mêmes se financent et titrisent leurs crédits sur les marchés (**finance de marché** intégrée). Par ailleurs, une économie de marchés n'est pas nécessairement plus stable : la liquidité des titres peut alimenter des bulles spéculatives."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le rejet de la réforme européenne de l'épargne (2026)",
+              "d": "Le blocage de la directive RIS illustre la difficulté d'orienter l'épargne des particuliers vers les marchés."
+            },
+            {
+              "t": "Le rapport Draghi sur la compétitivité (2024)",
+              "d": "Appelle à créer une véritable Union de l'épargne et de l'investissement pour financer l'IA et la décarbonation."
+            },
+            {
+              "t": "Le financement des start-up américaines",
+              "d": "Fonds de pension et Nasdaq fournissent des capitaux patients plus abondants qu'en zone euro."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "John Gurley et Edward Shaw (1960)",
+              "idee": "distinction entre finance directe (marchés) et finance indirecte (banques)"
+            },
+            {
+              "sens": "≠",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "le crédit bancaire crée lui-même l'épargne via l'investissement sans attendre l'épargne préalable"
+            },
+            {
+              "sens": "=",
+              "nom": "Friedrich Hayek (1931)",
+              "idee": "l'investissement doit reposer sur une épargne réelle préalable plutôt que sur la création monétaire"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paradoxe-feldstein-horioka",
+      "nom": "Paradoxe de Feldstein-Horioka",
+      "categorie": "monnaie",
+      "type": "Effet",
+      "annee": "1980",
+      "auteur": "Martin Feldstein et Charles Horioka",
+      "accroche": "Malgré la libéralisation financière, l'épargne nationale continue de financer très majoritairement l'investissement national.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Martin Feldstein et Charles Horioka**, *Domestic Saving and International Capital Flows* (1980).",
+            "Dans un monde où les capitaux circulent librement, l'épargne d'un pays devrait s'investir là où le rendement mondial est le plus élevé, sans lien avec l'investissement domestique. En étudiant 16 pays de l'OCDE, les deux économistes constatent pourtant l'inverse."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "En théorie, si la **mobilité internationale du capital** est parfaite, la corrélation entre taux d'épargne national et taux d'investissement national doit être proche de zéro.",
+            "Empiriquement, Feldstein et Horioka mesurent une corrélation très forte (proche de 0,9 dans les années 1960-1970).",
+            "Ce **biais domestique** s'explique par le risque de change, l'asymétrie d'information sur les marchés étrangers et les barrières réglementaires ou fiscales entre pays."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le paradoxe permet de **relativiser l'ampleur réelle de la globalisation financière** : même au sein d'un espace intégré comme l'Union européenne, les capitaux restent cloisonnés par les frontières nationales, les réglementations d'épargne et les préférences des investisseurs."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La baisse du coefficient dans l'UE",
+              "d": "Avec l'euro, la corrélation a diminué entre pays membres avant de remonter après la crise de 2010."
+            },
+            {
+              "t": "Le biais domestique des portefeuilles",
+              "d": "Les épargnants surpondèrent les actifs de leur propre pays par aversion au risque inconnu."
+            },
+            {
+              "t": "Le paradoxe de Lucas (1990)",
+              "d": "Les capitaux ne vont pas assez des pays riches vers les pays pauvres malgré des rendements théoriques plus élevés."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Une forte corrélation épargne-investissement peut aussi refléter des chocs communs (croissance démographique ou de productivité qui stimule à la fois épargne et investissement) ou des politiques publiques ciblant l'équilibre courant, sans prouver une absence totale de mobilité du capital."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La fragmentation financière de la zone euro",
+              "d": "L'épargne excédentaire du Nord circule mal vers les projets productifs du reste de l'Union."
+            },
+            {
+              "t": "L'échec de l'harmonisation de l'épargne (2026)",
+              "d": "Les divergences réglementaires nationales freinent la constitution d'un marché unique des capitaux."
+            },
+            {
+              "t": "Les déséquilibres mondiaux",
+              "d": "À l'inverse, l'épargne chinoise finance massivement la dette américaine (Patrick Artus)."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Robert Lucas (1990)",
+              "idee": "les capitaux peinent à circuler vers les économies où ils seraient pourtant les plus productifs"
+            },
+            {
+              "sens": "≠",
+              "nom": "Patrick Artus (2019)",
+              "idee": "les émergents financent les États-Unis, preuve de flux internationaux massifs mais mal alloués"
+            },
+            {
+              "sens": "=",
+              "nom": "Dani Rodrik (2011)",
+              "idee": "les États-nations et leurs règles restent un frein structurel à l'hypermondialisation financière"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "activite-industrielle-fontagne",
+      "nom": "Industrie au sens strict et activité industrielle",
+      "categorie": "commerce",
+      "type": "Notion",
+      "annee": "2014",
+      "auteur": "Lionel Fontagné",
+      "accroche": "Une économie peut perdre ses usines d'assemblage tout en conservant les segments les plus rentables de la chaîne de valeur industrielle.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Lionel Fontagné**, *Pas d'industrie, pas d'avenir ?* (2014).",
+            "Dans le débat français et européen sur la **désindustrialisation**, Fontagné propose de ne pas réduire l'industrie aux seules statistiques de l'emploi ouvrier ou de la fabrication matérielle sur le territoire national."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'**industrie au sens strict** désigne l'étape de fabrication physique des biens dans les usines.",
+            "L'**activité industrielle** englobe l'ensemble de la chaîne de valeur : R&D, conception, design, organisation des chaînes mondiales, marque et propriété intellectuelle.",
+            "Une firme multinationale peut délocaliser la fabrication tout en conservant dans son pays d'origine les fonctions à **forte valeur ajoutée** (courbe du sourire)."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette distinction permet de **nuancer le diagnostic de désindustrialisation** et d'éviter une obsession exclusive pour la réindustrialisation de l'assemblage : la compétitivité d'un pays dépend d'abord de sa capacité à capter les segments amont (innovation) et aval (marque) de l'activité industrielle."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La courbe du sourire (Stan Shih)",
+              "d": "La valeur ajoutée se concentre aux deux extrémités de la chaîne (R&D et marketing), pas dans l'assemblage."
+            },
+            {
+              "t": "L'externalisation statistique",
+              "d": "Une partie du recul de l'emploi industriel tient au transfert de services (nettoyage, informatique) vers le tertiaire."
+            },
+            {
+              "t": "Les « usines sans usines » (fabless)",
+              "d": "Des entreprises comme Apple ou Nvidia conçoivent sans fabriquer elles-mêmes."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Perdre la fabrication matérielle fragilise la **souveraineté productive** en cas de crise géopolitique et détruit des emplois intermédiaires dans les territoires industriels. De plus, à terme, l'éloignement des usines peut faire perdre le savoir-faire d'ingénierie, comme le montre la montée en gamme de la Chine."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La crise de l'automobile allemande (2026)",
+              "d": "Mercedes menace de fermer des usines en Allemagne tout en cherchant à préserver sa R&D et son positionnement premium."
+            },
+            {
+              "t": "Le modèle Apple",
+              "d": "Conception en Californie, assemblage en Asie, capture de l'essentiel de la marge."
+            },
+            {
+              "t": "Les chaînes de valeur mondiales (GVC)",
+              "d": "Permet de montrer que la spécialisation internationale se fait désormais par tâches et non plus seulement par produits."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Hans-Werner Sinn (2004)",
+              "idee": "« économie du bazar » : l'Allemagne assemble des composants importés mais garde les segments rentables"
+            },
+            {
+              "sens": "≠",
+              "nom": "Jean-Louis Levet (1988)",
+              "idee": "la perte de la base productive menace l'ensemble de l'économie et l'emploi ouvrier"
+            },
+            {
+              "sens": "=",
+              "nom": "Michael Porter (1990)",
+              "idee": "la compétitivité hors-prix (innovation, qualité) prime sur le seul coût de fabrication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theorie-du-donut-raworth",
+      "nom": "Théorie du donut",
+      "categorie": "croissance",
+      "type": "Modèle",
+      "annee": "2017",
+      "auteur": "Kate Raworth",
+      "accroche": "L'économie doit viser un espace sûr et juste situé entre un plancher social minimal et un plafond écologique à ne pas dépasser.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Kate Raworth**, *La théorie du donut : l'économie de demain en sept principes* (2017).",
+            "L'économiste britannique critique l'obsession de la **croissance du PIB** comme unique boussole des politiques publiques et propose un cadre visuel inspiré des travaux sur les limites planétaires (Johan Rockström)."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Le cercle intérieur forme le **plancher social** (alimentation, santé, éducation, emploi, égalité) : en dessous se trouvent les privations humaines.",
+            "Le cercle extérieur forme le **plafond écologique** (climat, biodiversité, azote, eau douce) : au-delà survient la dégradation irréversible de la biosphère.",
+            "Entre ces deux limites se dessine un anneau — le « **donut** » — qui définit l'espace d'une économie régénérative et distributive."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Ce modèle offre une **alternative opérationnelle au PIB** pour évaluer la performance d'un pays ou d'une entreprise : il montre que la transition écologique ne peut pas se faire au détriment de la justice sociale, et inversement que le progrès social ne doit pas détruire les écosystèmes."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La soutenabilité forte",
+              "d": "Le capital naturel ne peut pas être entièrement remplacé par du capital technique ou financier."
+            },
+            {
+              "t": "Les indicateurs au-delà du PIB",
+              "d": "L'empreinte écologique (WWF) ou l'IDH ajusté aux pressions planétaires s'inscrivent dans la même logique."
+            },
+            {
+              "t": "L'économie à mission",
+              "d": "Des entreprises adoptent des objectifs sociaux et environnementaux statutaires (loi Pacte en France)."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La théorie du donut reste un **cadre normatif** qui ne tranche pas comment arbitrer à court terme entre emploi, pouvoir d'achat et baisse des émissions, ni comment inciter concrètement les entreprises soumises à la concurrence internationale à rester dans l'anneau."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La transition écologique des entreprises (2026)",
+              "d": "Des dirigeants (CJD, Impact France) cherchent à intégrer limites écologiques et partage de la valeur."
+            },
+            {
+              "t": "Les villes en transition (Amsterdam)",
+              "d": "Plusieurs métropoles utilisent le donut comme outil de pilotage des politiques locales."
+            },
+            {
+              "t": "Les débats sur la croissance verte",
+              "d": "Permet de dépasser l'opposition binaire entre croissance aveugle et décroissance punitive."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Rapport Meadows (1972)",
+              "idee": "une croissance matérielle infinie est incompatible avec les limites finies de la planète"
+            },
+            {
+              "sens": "=",
+              "nom": "Christian Gollier (2019)",
+              "idee": "il faut concilier transition climatique (« fin du monde ») et justice sociale (« fin du mois »)"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1970)",
+              "idee": "la seule responsabilité sociale de l'entreprise est d'accroître ses profits"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
