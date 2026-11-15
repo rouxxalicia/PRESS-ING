@@ -364,6 +364,11 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .chip span { border: 1px solid var(--line); border-radius: 99px; padding: 6px 12px; font-size: 13.5px; }
 .chip input:checked + span { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 .f-usage { display: grid; gap: 6px; margin-bottom: 8px; }
+.edit-fab { position: fixed; right: 16px; bottom: calc(70px + env(safe-area-inset-bottom, 0px)); z-index: 30; background: var(--bg); color: var(--fg); border: 1px solid var(--fg); border-radius: 99px; padding: 11px 16px; box-shadow: 0 8px 24px -10px rgba(0,0,0,.35); }
+.edit-fab.on { background: var(--fg); color: var(--bg); }
+@media (min-width: 1000px) { .edit-fab { bottom: 24px; } }
+body.page-edit [data-orig] { outline: 1px dashed var(--muted); outline-offset: 3px; border-radius: 3px; cursor: text; }
+body.page-edit [data-orig]:focus { outline: 1px solid var(--accent); }
 .ref-suppr { padding-top: 24px; margin-top: 8px; border-top: 1px solid var(--line); }
 .sec.supprime { opacity: .6; }
 .edit-bar button.ed-del:hover { color: var(--accent); }
@@ -768,7 +773,7 @@ section:first-child > .cat-head { padding-top: 28px; }
       if (r.voir) h += '<a class="label more" href="' + esc(r.voir) + '" target="_blank" rel="noopener" style="align-self:flex-start">Voir l\'œuvre ↗</a>';
       if (r.sous) h += '<p class="lieu">' + esc(r.sous) + (f && f.lieu ? '<br>' + esc(f.lieu) : '') + '</p>';
       if (f) { h += '<p class="idee">' + fmt(f.idee) + '</p>' + f.blocs.map(bloc).join(""); }
-      else h += '<div class="empty" style="padding-block:24px"><p>La fiche n\'est pas encore rédigée.</p>' + (EDIT() ? '<a class="btn label" href="#cg/ajout/' + r.rub + '/' + r.id + '">Rédiger la fiche</a>' : '<p class="muted">Elle arrive au fil des semaines.</p>') + '</div>';
+      else h += '<div class="empty" style="padding-block:24px"><p>Fiche à venir.</p>' + (EDIT() ? '<a class="btn label" href="#cg/ajout/' + r.rub + '/' + r.id + '">Rédiger la fiche</a>' : '') + '</div>';
       if (f && EDIT() && (ajouts.fiches || {})[r.id]) h += '<a class="label more" style="align-self:flex-start" href="#cg/ajout/' + r.rub + '/' + r.id + '">Modifier la fiche entière</a>';
       const en = (r.enjeux || []).map(id => (cg.enjeux.find(e => e.id === id) || {}).nom).filter(Boolean);
       if (en.length) h += '<section class="sec"><h2 class="label">Enjeux</h2><ol class="sujets">' + en.map((e, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(e) + '</span></li>').join("") + '</ol></section>';
@@ -893,6 +898,52 @@ section:first-child > .cat-head { padding-top: 28px; }
     });
   }
 
+  // Modifier n'importe quel texte de la page (mode éditrice)
+  const ED_SEL = "h1, h2, h3, p, li > span, .t, .s, .d, .g-t, .g-d, .g-s, .lieu, .idee, .chapo, .cg-head p, .page-head p, .enjeu-row > span:last-child, .lien > span, .app > span, .app > strong, strong";
+  function hsh(t) { let h = 5381; for (let i = 0; i < t.length; i++) h = ((h << 5) + h + t.charCodeAt(i)) | 0; return (h >>> 0).toString(36); }
+  function pageKey() { return decodeURIComponent(location.hash.slice(1)).replace(/\?.*$/, "") || "accueil"; }
+  function textEls() {
+    return [...app.querySelectorAll(ED_SEL)].filter(el => !el.closest(".sec-body, .mes-notes, textarea, input, .edit-bar, .form-ref, #gate, .toast") && !el.querySelector("textarea, input, img, " + ED_SEL) && el.textContent.trim());
+  }
+  function applyTextEdits() {
+    const pk = pageKey();
+    textEls().forEach(el => {
+      const o = el.innerHTML; el.dataset.orig = o;
+      const k = "txt|" + pk + "|" + hsh(o);
+      if (edits[k] === "__SUPPR__") el.style.display = "none";
+      else if (edits[k] != null) el.innerHTML = edits[k];
+    });
+    if (EDIT()) {
+      let b = document.getElementById("edit-page");
+      if (!b) { b = document.createElement("button"); b.id = "edit-page"; b.type = "button"; b.className = "label edit-fab"; document.body.appendChild(b); b.addEventListener("click", togglePageEdit); }
+      b.textContent = "Modifier la page"; b.classList.remove("on"); document.body.classList.remove("page-edit");
+    }
+  }
+  function togglePageEdit() {
+    const b = document.getElementById("edit-page"), on = document.body.classList.toggle("page-edit");
+    const els = [...app.querySelectorAll("[data-orig]")];
+    if (on) {
+      els.forEach(el => { el.style.display = ""; el.contentEditable = "true"; });
+      b.textContent = "Terminer"; b.classList.add("on");
+      toast("Touche un texte pour le modifier · vide-le pour le supprimer");
+    } else {
+      const pk = pageKey(); let n = 0;
+      els.forEach(el => {
+        el.contentEditable = "false";
+        const k = "txt|" + pk + "|" + hsh(el.dataset.orig), now = el.innerHTML.trim();
+        const before = edits[k] === "__SUPPR__" ? "" : (edits[k] != null ? edits[k] : el.dataset.orig);
+        if (now === before.trim()) { if (edits[k] === "__SUPPR__") el.style.display = "none"; return; }
+        n++;
+        if (now === el.dataset.orig.trim()) delete edits[k];
+        else if (!el.textContent.trim()) { edits[k] = "__SUPPR__"; el.style.display = "none"; }
+        else edits[k] = now;
+      });
+      b.textContent = "Modifier la page"; b.classList.remove("on");
+      if (n) persist("Modifie la page " + pk); else toast("Aucun changement");
+    }
+  }
+  document.addEventListener("click", e => { if (document.body.classList.contains("page-edit") && e.target.closest("#app a, #app [data-fiche], #app [data-cacher]") && !e.target.closest(".edit-bar")) { e.preventDefault(); e.stopPropagation(); } }, true);
+
   async function route() {
     const h = decodeURIComponent(location.hash.slice(1));
     try {
@@ -911,6 +962,7 @@ section:first-child > .cat-head { padding-top: 28px; }
       }
       else { state.view = "accueil"; setNav(); await viewAccueil(); }
       if (app.querySelector("article.card") && !/^\d{4}-\d{2}-\d{2}-/.test(h)) enableEdits();
+      if (!/^\d{4}-\d{2}-\d{2}-/.test(h)) applyTextEdits(); else { const b = document.getElementById("edit-page"); if (b) b.remove(); }
     } catch (e) {
       app.innerHTML = '<div class="empty narrow"><p>Impossible de charger cette page.</p><p class="muted">Les données de l\'édition ne répondent pas. Recharge la page dans un instant.</p></div>';
     }
