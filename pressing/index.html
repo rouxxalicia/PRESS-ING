@@ -355,6 +355,15 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .oeuvre img { display: block; width: 100%; max-height: 70vh; object-fit: contain; background: var(--soft); border-radius: 14px; }
 .oeuvre .credit { margin: 0; }
 .cg-ref .mini { width: 34px; height: 34px; object-fit: cover; border-radius: 6px; align-self: center; }
+.form-ref .label { margin-top: 10px; }
+.fin { width: 100%; font: inherit; font-size: 15.5px; line-height: 1.6; color: var(--fg); background: var(--soft); border: 1px solid var(--line); border-radius: 12px; padding: 11px 14px; resize: vertical; }
+.fin:focus { outline: none; border-color: var(--fg); }
+.f-enjeux { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { display: inline-flex; cursor: pointer; }
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip span { border: 1px solid var(--line); border-radius: 99px; padding: 6px 12px; font-size: 13.5px; }
+.chip input:checked + span { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.f-usage { display: grid; gap: 6px; margin-bottom: 8px; }
 .ref-suppr { padding-top: 24px; margin-top: 8px; border-top: 1px solid var(--line); }
 .sec.supprime { opacity: .6; }
 .edit-bar button.ed-del:hover { color: var(--accent); }
@@ -463,13 +472,13 @@ section:first-child > .cat-head { padding-top: 28px; }
   let favs = load("pressing:favs", {});
   let lues = load("pressing:lues", {});
   // Modifications partagées : enregistrées dans data/modifs.json sur GitHub, visibles par tous
-  let notes = {}, caches = {}, edits = {};
+  let notes = {}, caches = {}, edits = {}, ajouts = { refs: [], fiches: {} };
   const GH = { repo: "rouxxalicia/PRESS-ING", path: "pressing/data/modifs.json" };
   const EDIT = () => !!load("pressing:gh", null);
   function b64(str) { const b = new TextEncoder().encode(str); let out = ""; for (let i = 0; i < b.length; i += 0x8000) out += String.fromCharCode.apply(null, b.subarray(i, i + 0x8000)); return btoa(out); }
   let ghT, ghBusy = false, ghAgain = false;
   function persist(msg) {
-    save("pressing:copie", { notes, caches, edits });
+    save("pressing:copie", { notes, caches, edits, ajouts });
     if (!EDIT()) return;
     clearTimeout(ghT); ghT = setTimeout(() => ghPush(msg), 1500);
   }
@@ -482,7 +491,7 @@ section:first-child > .cat-head { padding-top: 28px; }
       for (let essai = 0; essai < 2; essai++) {
         const g = await fetch(url + "?ref=main&t=" + Date.now(), { headers: H, cache: "no-store" });
         const sha = g.ok ? (await g.json()).sha : undefined;
-        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, caches, edits }, null, 1)), sha: sha, branch: "main" }) });
+        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, caches, edits, ajouts }, null, 1)), sha: sha, branch: "main" }) });
         if (r.ok) { toast("Publié · visible par tous d'ici quelques minutes"); break; }
         if (r.status === 401 || r.status === 403) { toast("Clé GitHub refusée : vérifie-la dans Mes notes"); break; }
         if (essai === 1) toast("Publication impossible, réessaie");
@@ -491,8 +500,8 @@ section:first-child > .cat-head { padding-top: 28px; }
     ghBusy = false; if (ghAgain) { ghAgain = false; ghPush(msg); }
   }
   async function loadModifs() {
-    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); notes = m.notes || {}; caches = m.caches || {}; edits = m.edits || {}; } catch (e) {}
-    if (EDIT()) { const c = load("pressing:copie", null); if (c) { notes = Object.assign({}, notes, c.notes); caches = Object.assign({}, caches, c.caches); edits = Object.assign({}, edits, c.edits); } }
+    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); notes = m.notes || {}; caches = m.caches || {}; edits = m.edits || {}; ajouts = m.ajouts || ajouts; } catch (e) {}
+    if (EDIT()) { const c = load("pressing:copie", null); if (c) { notes = Object.assign({}, notes, c.notes); caches = Object.assign({}, caches, c.caches); edits = Object.assign({}, edits, c.edits); if (c.ajouts) ajouts = { refs: ajouts.refs.concat((c.ajouts.refs || []).filter(x => !ajouts.refs.some(y => y.id === x.id))), fiches: Object.assign({}, ajouts.fiches, c.ajouts.fiches) }; } }
   }
   function supprBtn(k) { if (!EDIT()) return ""; return '<div class="ref-suppr"><button type="button" class="label more" data-cacher="' + esc(k) + '">Supprimer cette référence</button></div>'; }
   function notesBox(key, titre) {
@@ -512,7 +521,12 @@ section:first-child > .cat-head { padding-top: 28px; }
 
   async function getJSON(p) { const r = await fetch(p, { cache: "no-cache" }); if (!r.ok) throw new Error(p); return r.json(); }
   async function edition(d) { if (!state.editions[d]) state.editions[d] = await getJSON("data/editions/" + d + ".json"); return state.editions[d]; }
-  async function cgData() { if (!state.cg) state.cg = await getJSON("data/cg/humanite.json"); return state.cg; }
+  async function cgData() {
+    if (!state.cgBase) state.cgBase = await getJSON("data/cg/humanite.json");
+    const b = state.cgBase, refs = b.refs.slice();
+    (ajouts.refs || []).forEach(a => { const i = refs.findIndex(x => x.id === a.id); if (i >= 0) refs[i] = Object.assign({}, refs[i], a); else { const j = refs.map(x => x.rub).lastIndexOf(a.rub); refs.splice(j + 1, 0, a); } });
+    return Object.assign({}, b, { refs: refs, fiches: Object.assign({}, b.fiches, ajouts.fiches || {}) });
+  }
   async function referentiel() { if (!state.ref) state.ref = await getJSON("data/referentiel.json"); return state.ref; }
 
   function photo(c, cls) { const i = c.image; if (!i || !/^https:\/\//.test(i.url || "")) return ""; return '<figure class="ph' + (cls ? " " + cls : "") + '"><img src="' + esc(i.url) + '" alt="' + esc(i.alt || "") + '" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'figure\').remove()"></figure>'; }
@@ -689,6 +703,51 @@ section:first-child > .cat-head { padding-top: 28px; }
           (rs.some(x => x.rub === "dissertations") ? '<div class="enjeu-row"><span class="label muted">Sujets</span><span>' + rs.filter(x => x.rub === "dissertations").map(x => esc(x.titre)).join('<span class="sep">·</span>') + '</span></div>' : "") + '</section>'; }).join("");
       app.innerHTML = h + '</div>'; return;
     }
+    if (parts[0] === "ajout") {
+      if (!EDIT()) { location.hash = "notes"; return; }
+      const rub = cg.rubriques.find(x => x.id === parts[1]) || cg.rubriques[0];
+      const old = parts[2] ? cg.refs.find(x => x.id === parts[2]) : null;
+      const fo = old ? (ajouts.fiches || {})[old.id] : null;
+      const txt = t => fo ? ((fo.blocs.find(b => b.titre === t) || {}).paras || []).join("\n\n") : "";
+      const us = fo ? ((fo.blocs.find(b => b.titre === "Trois usages") || {}).items || []) : [];
+      const isD = rub.id === "dissertations";
+      let h = '<div class="narrow">' + back("#cg/" + rub.id, rub.nom) + '<article class="card form-ref"><span class="label muted">' + (old ? "Rédiger la fiche" : "Nouvelle entrée") + ' · ' + esc(rub.nom) + '</span>';
+      h += '<label class="label">' + (isD ? "Sujet" : "Titre") + '</label><input id="f-titre" class="fin" value="' + esc(old ? old.titre : "") + '" placeholder="' + (isD ? "Ex. : L'humanité a-t-elle un avenir ?" : "Ex. : La Liberté guidant le peuple") + '">';
+      if (!isD) h += '<label class="label">Auteur · date</label><input id="f-sous" class="fin" value="' + esc(old ? old.sous || "" : "") + '" placeholder="Ex. : Eugène Delacroix · 1830">';
+      h += '<label class="label">Enjeux</label><div class="f-enjeux">' + cg.enjeux.map(e => '<label class="chip"><input type="checkbox" value="' + e.id + '"' + (old && (old.enjeux || []).includes(e.id) ? " checked" : "") + '><span>' + esc(e.nom) + '</span></label>').join("") + '</div>';
+      if (!isD) {
+        h += '<p class="muted" style="margin:10px 0 0;font-size:14px">La fiche est facultative : remplis seulement ce que tu veux. Mets **mot** pour du gras.</p>';
+        h += '<label class="label">L\'idée en une phrase</label><textarea id="f-idee" class="fin" rows="2">' + esc(fo ? fo.idee : "") + '</textarea>';
+        [["oeuvre", rub.id === "auteurs" ? "L'ouvrage" : "L'œuvre"], ["decrire", rub.id === "art" ? "Ce qu'il faut savoir décrire" : "Le passage ou la scène clé"], ["montre", "Ce que ça montre"], ["limite", "Limite"]].forEach(([k, t]) => {
+          const titre = k === "decrire" && rub.id !== "art" ? "Le passage ou la scène clé" : t;
+          h += '<label class="label">' + titre + '</label><textarea id="f-' + k + '" class="fin" rows="4" data-titre="' + esc(titre) + '">' + esc(txt(titre)) + '</textarea>';
+        });
+        h += '<label class="label">Trois usages (sujet, puis argument)</label>' + [0, 1, 2].map(i => '<div class="f-usage"><input class="fin f-ut" placeholder="Sujet" value="' + esc((us[i] || {}).t || "") + '"><textarea class="fin f-ud" rows="2" placeholder="Ce que la référence permet de montrer">' + esc((us[i] || {}).d || "") + '</textarea></div>').join("");
+      }
+      h += '<button type="button" class="btn label" id="f-ok" style="margin-top:12px">Enregistrer et publier</button></article></div>';
+      app.innerHTML = h;
+      document.getElementById("f-ok").onclick = () => {
+        const v = id => (document.getElementById(id) || {}).value || "";
+        const titre = v("f-titre").trim(); if (!titre) { toast("Il faut au moins un titre"); return; }
+        const id = old ? old.id : "perso-" + titre.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) + "-" + Date.now().toString(36).slice(-4);
+        const en = [...app.querySelectorAll(".f-enjeux input:checked")].map(x => x.value);
+        const ref = { id: id, rub: rub.id, titre: titre, sous: v("f-sous").trim(), enjeux: en };
+        if (!old || old.perso) ref.perso = true;
+        ajouts.refs = (ajouts.refs || []).filter(x => x.id !== id).concat([ref]);
+        if (!isD) {
+          const blocs = [];
+          app.querySelectorAll("textarea.fin[data-titre]").forEach(t => { const val = t.value.trim(); if (val) blocs.push({ titre: t.dataset.titre, type: "texte", paras: val.split(/\n\s*\n/) }); });
+          const items = [...app.querySelectorAll(".f-usage")].map(u => ({ t: u.querySelector(".f-ut").value.trim(), d: u.querySelector(".f-ud").value.trim() })).filter(x => x.t || x.d);
+          if (items.length) blocs.splice(Math.min(3, blocs.length), 0, { titre: "Trois usages", type: "cartes", items: items });
+          const idee = v("f-idee").trim();
+          ajouts.fiches = ajouts.fiches || {};
+          if (idee || blocs.length) ajouts.fiches[id] = { idee: idee, blocs: blocs }; else delete ajouts.fiches[id];
+        }
+        persist((old ? "Modifie " : "Ajoute ") + titre); toast("Enregistré");
+        location.hash = isD ? "cg/dissertations" : "cg/f/" + id;
+      };
+      return;
+    }
     if (parts[0] === "e") {
       const e = cg.enjeux.find(x => x.id === parts[1]);
       if (!e) { location.hash = "cg/enjeux"; return; }
@@ -709,7 +768,8 @@ section:first-child > .cat-head { padding-top: 28px; }
       if (r.voir) h += '<a class="label more" href="' + esc(r.voir) + '" target="_blank" rel="noopener" style="align-self:flex-start">Voir l\'œuvre ↗</a>';
       if (r.sous) h += '<p class="lieu">' + esc(r.sous) + (f && f.lieu ? '<br>' + esc(f.lieu) : '') + '</p>';
       if (f) { h += '<p class="idee">' + fmt(f.idee) + '</p>' + f.blocs.map(bloc).join(""); }
-      else h += '<div class="empty" style="padding-block:24px"><p>La fiche n\'est pas encore rédigée.</p><p class="muted">Elle arrive au fil des semaines.</p></div>';
+      else h += '<div class="empty" style="padding-block:24px"><p>La fiche n\'est pas encore rédigée.</p>' + (EDIT() ? '<a class="btn label" href="#cg/ajout/' + r.rub + '/' + r.id + '">Rédiger la fiche</a>' : '<p class="muted">Elle arrive au fil des semaines.</p>') + '</div>';
+      if (f && EDIT() && (ajouts.fiches || {})[r.id]) h += '<a class="label more" style="align-self:flex-start" href="#cg/ajout/' + r.rub + '/' + r.id + '">Modifier la fiche entière</a>';
       const en = (r.enjeux || []).map(id => (cg.enjeux.find(e => e.id === id) || {}).nom).filter(Boolean);
       if (en.length) h += '<section class="sec"><h2 class="label">Enjeux</h2><ol class="sujets">' + en.map((e, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(e) + '</span></li>').join("") + '</ol></section>';
       h += notesBox("cg:" + r.id, r.titre) + (caches["cg:" + r.id] && EDIT() ? '<div class="ref-suppr"><span class="label muted">Référence supprimée · </span><button type="button" class="label more" data-retablir="cg:' + esc(r.id) + '">Rétablir</button></div>' : supprBtn("cg:" + r.id));
@@ -719,7 +779,8 @@ section:first-child > .cat-head { padding-top: 28px; }
     if (!rub) { location.hash = "cg"; return; }
     const l = cg.refs.filter(x => x.rub === rub.id);
     let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">' + l.length + ' références</span><h1>' + esc(rub.nom) + '</h1><p class="muted" style="margin:4px 0 0">' + esc(rub.desc) + '</p></div><div style="border-top:1px solid var(--fg)">';
-    h += l.map((x, i) => { const ok = cg.fiches && cg.fiches[x.id]; return (rub.id === "dissertations" ? '<div class="cg-ref">' : '<a class="cg-ref" href="#cg/f/' + x.id + '">') + (x.image ? '<img class="mini" src="' + esc(x.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '<span class="n">' + pad2(i + 1) + '</span>') + '<span><span class="t">' + esc(x.titre) + '</span>' + (x.sous ? '<span class="s">' + esc(x.sous) + '</span>' : '') + '</span>' + (rub.id === "dissertations" ? '<span></span></div>' : '<span class="label etat' + (ok ? ' ok' : ' muted') + '">' + (ok ? 'Fiche →' : 'À venir') + '</span></a>'); }).join("");
+    h += l.map((x, i) => { const ok = cg.fiches && cg.fiches[x.id]; return (rub.id === "dissertations" ? '<div class="cg-ref">' : '<a class="cg-ref" href="#cg/f/' + x.id + '">') + (x.image ? '<img class="mini" src="' + esc(x.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '<span class="n">' + pad2(i + 1) + '</span>') + '<span><span class="t">' + esc(x.titre) + (x.cours ? ' <span class="label pill cours-pill">Cours</span>' : '') + (x.perso ? ' <span class="label pill cours-pill">Ajout</span>' : '') + '</span>' + (x.sous ? '<span class="s">' + esc(x.sous) + '</span>' : '') + '</span>' + (rub.id === "dissertations" ? '<span></span></div>' : '<span class="label etat' + (ok ? ' ok' : ' muted') + '">' + (ok ? 'Fiche →' : 'À venir') + '</span></a>'); }).join("");
+    if (EDIT()) h += '</div><a class="btn label" style="margin-top:24px" href="#cg/ajout/' + rub.id + '">+ Ajouter ' + (rub.id === "dissertations" ? "un sujet" : "une référence") + '</a><div>';
     app.innerHTML = h + '</div></div>';
   }
 

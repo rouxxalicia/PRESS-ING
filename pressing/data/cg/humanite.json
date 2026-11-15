@@ -5,7 +5,7 @@
   {
    "id": "auteurs",
    "nom": "Les auteurs",
-   "desc": "Les penseurs du thème, avec leurs ouvrages un par un."
+   "desc": "Les penseurs du thème, avec leurs ouvrages. « Cours » = cité dans ton cours."
   },
   {
    "id": "poemes",
@@ -180,14 +180,15 @@
    "id": "arendt",
    "rub": "auteurs",
    "titre": "Hannah Arendt",
-   "sous": "Les Origines du totalitarisme (1951) · Condition de l'homme moderne (1958) · Eichmann à Jérusalem (1963)",
+   "sous": "Les Origines du totalitarisme (1951) · Condition de l'homme moderne (1958) · Eichmann à Jérusalem (1963) · Vies politiques (1974)",
    "enjeux": [
     "deshumanisation",
     "nature-humaine",
     "exclus",
     "dignite",
     "memoire"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "weil",
@@ -243,7 +244,8 @@
     "animalite",
     "nature-humaine",
     "civilisation"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "pic",
@@ -254,18 +256,20 @@
     "dignite",
     "nature-humaine",
     "posthumanisme"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "montaigne",
    "rub": "auteurs",
    "titre": "Montaigne",
-   "sous": "Essais (1580-1588) : « Des cannibales », « Que philosopher, c'est apprendre à mourir »",
+   "sous": "Essais (1580-1588) : « Des cannibales », « Que philosopher, c'est apprendre à mourir », « De l'ivrognerie »",
    "enjeux": [
     "civilisation",
     "unite",
     "mortalite"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "pascal",
@@ -276,7 +280,8 @@
     "vulnerabilite",
     "mortalite",
     "nature-humaine"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "hobbes",
@@ -297,17 +302,19 @@
     "nature-humaine",
     "animalite",
     "civilisation"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "kant",
    "rub": "auteurs",
    "titre": "Kant",
-   "sous": "Fondements de la métaphysique des mœurs (1785)",
+   "sous": "Fondements de la métaphysique des mœurs (1785) · Critique de la raison pratique (1788)",
    "enjeux": [
     "dignite",
     "autrui"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "freud",
@@ -317,7 +324,8 @@
    "enjeux": [
     "civilisation",
     "nature-humaine"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "sartre",
@@ -379,7 +387,8 @@
     "nature",
     "animalite",
     "unite"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "supiot",
@@ -402,7 +411,8 @@
     "technique",
     "unite",
     "posthumanisme"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "besnier",
@@ -413,7 +423,8 @@
     "posthumanisme",
     "technique",
     "nature-humaine"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "haraway",
@@ -423,7 +434,8 @@
    "enjeux": [
     "posthumanisme",
     "animalite"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "kurzweil",
@@ -433,7 +445,261 @@
    "enjeux": [
     "posthumanisme",
     "technique"
-   ]
+   ],
+   "cours": true
+  },
+  {
+   "id": "jaures",
+   "rub": "auteurs",
+   "titre": "Jean Jaurès",
+   "sous": "Éditorial du premier numéro de L'Humanité (1904)",
+   "enjeux": [
+    "unite",
+    "transmission"
+   ],
+   "cours": true
+  },
+  {
+   "id": "bentham",
+   "rub": "auteurs",
+   "titre": "Jeremy Bentham",
+   "sous": "Introduction aux principes de la morale et de la législation (1789)",
+   "enjeux": [
+    "animalite",
+    "vulnerabilite"
+   ],
+   "cours": true
+  },
+  {
+   "id": "mill",
+   "rub": "auteurs",
+   "titre": "John Stuart Mill",
+   "sous": "L'Utilitarisme (1863)",
+   "enjeux": [
+    "animalite",
+    "nature-humaine"
+   ],
+   "cours": true
+  },
+  {
+   "id": "ciceron",
+   "rub": "auteurs",
+   "titre": "Cicéron",
+   "sous": "Pro Archia · Des devoirs (De officiis)",
+   "enjeux": [
+    "transmission",
+    "autrui"
+   ],
+   "cours": true
+  },
+  {
+   "id": "terence",
+   "rub": "auteurs",
+   "titre": "Térence",
+   "sous": "Le Bourreau de soi-même (IIe s. av. J.-C.) : « Homo sum… »",
+   "enjeux": [
+    "unite",
+    "autrui"
+   ],
+   "cours": true
+  },
+  {
+   "id": "rabelais",
+   "rub": "auteurs",
+   "titre": "Rabelais",
+   "sous": "Gargantua (1534) : l'éducation humaniste",
+   "enjeux": [
+    "transmission",
+    "nature-humaine"
+   ],
+   "cours": true
+  },
+  {
+   "id": "encyclopedie",
+   "rub": "auteurs",
+   "titre": "Diderot et d'Alembert",
+   "sous": "L'Encyclopédie (1751-1772)",
+   "enjeux": [
+    "unite",
+    "autrui"
+   ],
+   "cours": true
+  },
+  {
+   "id": "darwin",
+   "rub": "auteurs",
+   "titre": "Charles Darwin",
+   "sous": "L'Origine des espèces (1859)",
+   "enjeux": [
+    "animalite",
+    "nature-humaine"
+   ],
+   "cours": true
+  },
+  {
+   "id": "marx",
+   "rub": "auteurs",
+   "titre": "Karl Marx",
+   "sous": "La lutte des classes",
+   "enjeux": [
+    "exclus",
+    "civilisation"
+   ],
+   "cours": true
+  },
+  {
+   "id": "nietzsche",
+   "rub": "auteurs",
+   "titre": "Friedrich Nietzsche",
+   "sous": "Ainsi parlait Zarathoustra (1883) · La Généalogie de la morale (1887) · La Volonté de puissance",
+   "enjeux": [
+    "posthumanisme",
+    "nature-humaine",
+    "civilisation"
+   ],
+   "cours": true
+  },
+  {
+   "id": "husserl",
+   "rub": "auteurs",
+   "titre": "Edmund Husserl",
+   "sous": "La Crise des sciences européennes (1936)",
+   "enjeux": [
+    "nature-humaine",
+    "civilisation"
+   ],
+   "cours": true
+  },
+  {
+   "id": "russell",
+   "rub": "auteurs",
+   "titre": "Bertrand Russell",
+   "sous": "Essais sceptiques (1928)",
+   "enjeux": [
+    "civilisation",
+    "technique"
+   ],
+   "cours": true
+  },
+  {
+   "id": "adorno",
+   "rub": "auteurs",
+   "titre": "Horkheimer et Adorno",
+   "sous": "La Dialectique de la raison (1944)",
+   "enjeux": [
+    "civilisation",
+    "deshumanisation",
+    "technique"
+   ],
+   "cours": true
+  },
+  {
+   "id": "canguilhem",
+   "rub": "auteurs",
+   "titre": "Georges Canguilhem",
+   "sous": "La Connaissance de la vie (1952)",
+   "enjeux": [
+    "nature",
+    "animalite"
+   ],
+   "cours": true
+  },
+  {
+   "id": "morizot",
+   "rub": "auteurs",
+   "titre": "Neyret et Morizot",
+   "sous": "Liberté, dignité, habitabilité (2026)",
+   "enjeux": [
+    "nature",
+    "transmission",
+    "dignite"
+   ],
+   "cours": true
+  },
+  {
+   "id": "sun-tzu",
+   "rub": "auteurs",
+   "titre": "Sun Tzu",
+   "sous": "L'Art de la guerre",
+   "enjeux": [
+    "dignite",
+    "civilisation"
+   ],
+   "cours": true
+  },
+  {
+   "id": "braidotti",
+   "rub": "auteurs",
+   "titre": "Rosi Braidotti",
+   "sous": "Penseuse du posthumanisme",
+   "enjeux": [
+    "posthumanisme"
+   ],
+   "cours": true
+  },
+  {
+   "id": "hayles",
+   "rub": "auteurs",
+   "titre": "N. Katherine Hayles",
+   "sous": "Penseuse du posthumanisme",
+   "enjeux": [
+    "posthumanisme"
+   ],
+   "cours": true
+  },
+  {
+   "id": "marchesini",
+   "rub": "auteurs",
+   "titre": "Roberto Marchesini",
+   "sous": "Penseur du posthumanisme",
+   "enjeux": [
+    "posthumanisme"
+   ],
+   "cours": true
+  },
+  {
+   "id": "cary-wolfe",
+   "rub": "auteurs",
+   "titre": "Cary Wolfe",
+   "sous": "Penseur du posthumanisme",
+   "enjeux": [
+    "posthumanisme",
+    "animalite"
+   ],
+   "cours": true
+  },
+  {
+   "id": "max-more",
+   "rub": "auteurs",
+   "titre": "Max More",
+   "sous": "Penseur du transhumanisme",
+   "enjeux": [
+    "posthumanisme",
+    "technique"
+   ],
+   "cours": true
+  },
+  {
+   "id": "bostrom",
+   "rub": "auteurs",
+   "titre": "Nick Bostrom",
+   "sous": "Penseur du transhumanisme",
+   "enjeux": [
+    "posthumanisme",
+    "technique"
+   ],
+   "cours": true
+  },
+  {
+   "id": "sandberg",
+   "rub": "auteurs",
+   "titre": "Anders Sandberg",
+   "sous": "Penseur du transhumanisme",
+   "enjeux": [
+    "posthumanisme",
+    "technique"
+   ],
+   "cours": true
   },
   {
    "id": "villon",
@@ -663,6 +929,18 @@
     "animalite",
     "autrui"
    ]
+  },
+  {
+   "id": "gary",
+   "rub": "litterature",
+   "titre": "Les Racines du ciel",
+   "sous": "Romain Gary · 1956 : « l'affaire homme »",
+   "enjeux": [
+    "animalite",
+    "nature",
+    "dignite"
+   ],
+   "cours": true
   },
   {
    "id": "bruegel",
