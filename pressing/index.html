@@ -349,6 +349,12 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .enjeu-row a:hover, .cg-tile:hover .t, .list-row:hover .t, .cg-ref:hover .t, .lead:hover h3, .small:hover h3, .row:hover h2 { color: var(--accent); }
 .g-n span { color: var(--accent); }
 
+.edit-bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 10px; }
+.edit-bar button { color: var(--muted); border-bottom: 1px solid currentColor; padding-bottom: 1px; }
+.edit-bar button:hover, .edit-bar .ed-ok { color: var(--accent); }
+.sec.editing .sec-body { outline: 1px dashed var(--fg); outline-offset: 8px; border-radius: 4px; }
+.sec-body { display: flex; flex-direction: column; gap: 10px; }
+.sec-body:focus { outline: 1px dashed var(--accent); outline-offset: 8px; }
 /* Sections plus lisibles */
 article.card { counter-reset: sec; }
 article.card > .sec { counter-increment: sec; margin-top: 18px; padding-top: 26px; border-top: 1px solid var(--fg); gap: 14px; }
@@ -735,6 +741,36 @@ section:first-child > .cat-head { padding-top: 28px; }
     paint();
   }
 
+  // Modifier le texte des fiches (enregistré sur cet appareil)
+  let edits = load("pressing:edits", {});
+  function enableEdits() {
+    const page = decodeURIComponent(location.hash.slice(1));
+    app.querySelectorAll("article.card > .sec:not(.mes-notes)").forEach(sec => {
+      const h2 = sec.querySelector(":scope > h2"); if (!h2) return;
+      const key = page + "|" + h2.textContent.trim();
+      const body = document.createElement("div"); body.className = "sec-body";
+      [...sec.children].filter(c => c !== h2).forEach(c => body.appendChild(c));
+      sec.appendChild(body);
+      if (edits[key]) { body.innerHTML = edits[key]; sec.classList.add("modifie"); }
+      const bar = document.createElement("div"); bar.className = "edit-bar label";
+      bar.innerHTML = '<button type="button" class="ed-go">Modifier</button>' + (edits[key] ? '<span class="muted">Modifié par toi</span><button type="button" class="ed-reset">Rétablir</button>' : '');
+      sec.appendChild(bar);
+      bar.addEventListener("click", ev => {
+        const b = ev.target.closest("button"); if (!b) return;
+        if (b.classList.contains("ed-reset")) { delete edits[key]; save("pressing:edits", edits); toast("Texte d'origine rétabli"); route(); return; }
+        if (body.isContentEditable) {
+          body.contentEditable = "false"; sec.classList.remove("editing");
+          edits[key] = body.innerHTML; save("pressing:edits", edits); sec.classList.add("modifie");
+          bar.innerHTML = '<button type="button" class="ed-go">Modifier</button><span class="muted">Modifié par toi</span><button type="button" class="ed-reset">Rétablir</button>';
+          toast("Modification enregistrée");
+        } else {
+          body.contentEditable = "true"; sec.classList.add("editing"); body.focus();
+          bar.innerHTML = '<button type="button" class="ed-go ed-ok">Enregistrer</button><span class="muted">Tape directement dans le texte</span>';
+        }
+      });
+    });
+  }
+
   async function route() {
     const h = decodeURIComponent(location.hash.slice(1));
     try {
@@ -752,6 +788,7 @@ section:first-child > .cat-head { padding-top: 28px; }
         else { state.view = "accueil"; setNav(); await viewAccueil(); }
       }
       else { state.view = "accueil"; setNav(); await viewAccueil(); }
+      if (app.querySelector("article.card") && !/^\d{4}-\d{2}-\d{2}-/.test(h)) enableEdits();
     } catch (e) {
       app.innerHTML = '<div class="empty narrow"><p>Impossible de charger cette page.</p><p class="muted">Les données de l\'édition ne répondent pas. Recharge la page dans un instant.</p></div>';
     }
