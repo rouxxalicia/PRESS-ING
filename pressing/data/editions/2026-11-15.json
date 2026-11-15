@@ -1,0 +1,745 @@
+{
+ "date": "2026-11-15",
+ "cards": [
+  {
+   "id": "2026-11-15-esh-1",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/15/le-lent-declin-economique-de-la-france-face-au-reste-de-l-europe_6810984_3234.html",
+   "minutes": 3,
+   "titre": "Économie française : le lent décrochage face au reste de l'Union européenne",
+   "faits": "Dans une analyse publiée le 15 novembre, Le Monde met en lumière le décrochage progressif de l'économie française par rapport à ses partenaires européens. La France affiche une croissance atone, inférieure à la moyenne de la zone euro, tandis que la Banque de France table désormais sur une progression du PIB autour de 0,3 % à 0,4 % en 2026. Cette faiblesse persistante fait reculer le PIB par habitant français dans le classement européen, passant sous la moyenne de l'Union européenne. Plusieurs facteurs structurels sont pointés : la panne de l'investissement productif, un taux d'emploi inférieur à celui de pays comparables et une perte de compétitivité. À l'inverse, d'autres économies européennes comme l'Espagne ou la Pologne affichent une dynamique plus soutenue.",
+   "enjeux": "Ce constat illustre un problème de **croissance potentielle** qui dépasse les aléas conjoncturels. Lorsque le **PIB par habitant** stagne, les recettes fiscales progressent moins vite que les dépenses publiques, ce qui complique le redressement des comptes publics et alimente les tensions sociales autour du pouvoir d'achat. En ESH, ce décrochage renvoie au rôle central de la **productivité globale des facteurs (PGF)** et de l'**investissement immatériel** (R&D, numérique, formation) pour soutenir le niveau de vie à long terme. Il pose aussi la question de l'efficacité des politiques de l'**offre** menées depuis une décennie face aux rigidités du marché du travail et au poids des prélèvements obligatoires.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pont_de_Bercy%2C_Paris_23_December_2021.jpg/1280px-Pont_de_Bercy%2C_Paris_23_December_2021.jpg",
+    "alt": "Le pont de Bercy à Paris près du ministère de l'Économie",
+    "credit": "Pierre Blaché from Paris, France / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pont_de_Bercy,_Paris_23_December_2021.jpg"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+   },
+   "auteurs": [
+    {
+     "nom": "François Bourguignon",
+     "ouvrage": "Croissance européenne et croissance américaine : le décrochage",
+     "annee": "2025",
+     "ref": "decrochage-productivite-europe",
+     "cours": "1A-croissance",
+     "texte": "François Bourguignon montre que l'écart de revenu par tête entre les États-Unis et l'Europe atteint 25 % et touche surtout les **pays fondateurs** comme la France, en raison d'une **productivité** qui s'érode. Cette analyse éclaire directement le recul français au sein même de l'Union européenne : faute d'investissement suffisant dans l'innovation et le numérique, la croissance potentielle s'essouffle. À mobiliser dans un sujet sur le déclassement économique de la France ou sur les limites du modèle de croissance européen."
+    },
+    {
+     "nom": "Robert Solow",
+     "ouvrage": "« Technical Change and the Aggregate Production Function »",
+     "annee": "1957",
+     "ref": "croissance-extensive-intensive",
+     "cours": "1A-croissance",
+     "texte": "Robert Solow démontre que l'accumulation de travail et de capital ne suffit pas à assurer une croissance durable à cause des **rendements décroissants** : c'est le progrès technique (le **résidu de Solow**) qui explique l'essentiel de la croissance à long terme. Sur le cas français, cela montre que le ralentissement vient avant tout d'une **croissance intensive** insuffisante, et pas seulement d'un manque de volume de travail. À mobiliser pour opposer croissance extensive et croissance intensive dans une dissertation sur les sources de la croissance."
+    }
+   ],
+   "notions": [
+    ["Croissance potentielle", "Rythme maximal de croissance qu'une économie peut atteindre durablement sans créer de tensions inflationnistes."],
+    ["Productivité globale des facteurs (PGF)", "Part de la croissance de la production qui ne s'explique pas par la quantité de travail et de capital utilisée, mais par l'efficacité de leur combinaison."],
+    ["PIB par habitant", "Richesse produite en moyenne par personne dans un pays, utilisée pour comparer les niveaux de vie entre économies."]
+   ],
+   "sujets": [
+    "Le ralentissement de la croissance française est-il avant tout un problème de productivité ?",
+    "Peut-on parler d'un décrochage économique durable de la France en Europe ?"
+   ],
+   "anki": [
+    {
+     "q": "Écart de revenu par habitant entre les États-Unis et l'Europe selon François Bourguignon (2025)",
+     "r": "C{25 %} d'écart en faveur des États-Unis.\n→ A{Bourguignon}, O{Croissance européenne et croissance américaine : le décrochage} (D{2025}) : ce décrochage touche surtout les pays fondateurs comme la France à cause d'une érosion de la B{productivité} (accroche pour un sujet sur le déclassement européen)."
+    },
+    {
+     "q": "Part de la croissance américaine (1909-1949) expliquée par le progrès technique selon Solow",
+     "r": "C{80 %} de la croissance vient du progrès technique (résidu de Solow).\n→ A{Solow} (D{1957}) : seule une B{croissance intensive} fondée sur l'innovation évite l'essoufflement lié aux rendements décroissants."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-esh-2",
+   "matiere": "esh",
+   "source": "Franceinfo",
+   "url": "https://www.francetvinfo.fr/economie/crise/crise-de-la-dette/dette-publique-francaise-la-france-ne-va-pas-etre-la-grece-affirme-clement-beaune_8283317.html",
+   "minutes": 3,
+   "titre": "Dette publique : Clément Beaune écarte le scénario grec mais appelle au sérieux budgétaire",
+   "faits": "Invité sur Franceinfo le 14 novembre (propos repris le 15 novembre), Clément Beaune, haut-commissaire à la Stratégie et au Plan, a réagi aux inquiétudes sur la trajectoire des finances publiques françaises. Il a affirmé que « la France ne va pas être la Grèce », rejetant l'idée d'une crise de défaut souverain comparable à celle qu'a connue Athènes au début des années 2010. Selon lui, la taille de l'économie française, la diversité de sa base fiscale et la crédibilité de sa signature sur les marchés financiers distinguent nettement la France de la situation grecque de l'époque. Il a toutefois reconnu que la situation budgétaire restait très sérieuse et qu'un effort de maîtrise des dépenses était indispensable. Il a notamment insisté sur le poids croissant de la charge de la dette avec la remontée des taux d'intérêt.",
+   "enjeux": "Cette prise de position illustre le dilemme de la **politique budgétaire** française : rassurer les créanciers et les **agences de notation** sans étouffer une croissance déjà fragile. L'analogie avec la Grèce sert d'avertissement politique sur le risque d'un **effet boule de neige** de la dette si les taux d'intérêt dépassent durablement le taux de croissance. Toutefois, comparer la France à la Grèce masque des différences institutionnelles majeures, notamment l'existence depuis 2012 de mécanismes de soutien de la Banque centrale européenne (OMT, puis TPI). Pour les concours, l'enjeu est de distinguer le risque réel de perte de marge de manœuvre budgétaire (éviction des dépenses d'avenir par la charge de la dette) du fantasme d'une faillite immédiate.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/La_fa%C3%A7ade_de_la_Banque_de_France_-_btv1b90480761.jpg/1280px-La_fa%C3%A7ade_de_la_Banque_de_France_-_btv1b90480761.jpg",
+    "alt": "Façade de la Banque de France à Paris",
+    "credit": "Agence de presse Meurisse. Agence photographique (commandita / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:La_fa%C3%A7ade_de_la_Banque_de_France_-_btv1b90480761.jpg"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "Evsey Domar",
+     "ouvrage": "« The Burden of the Debt and the National Income »",
+     "annee": "1944",
+     "ref": "effet-boule-de-neige",
+     "texte": "Evsey Domar formalise la dynamique du ratio dette/PIB et montre l'**effet boule de neige** : lorsque le taux d'intérêt réel sur la dette (r) dépasse le taux de croissance économique (g), la dette augmente mécaniquement même sans nouveau déficit primaire. Ce mécanisme explique pourquoi la remontée des taux inquiète pour la France alors que la croissance est proche de zéro. À mobiliser pour analyser les conditions mathématiques de la **soutenabilité de la dette publique**."
+    },
+    {
+     "nom": "Robert Barro",
+     "ouvrage": "« Les obligations d'État sont-elles une richesse nette ? »",
+     "annee": "1974",
+     "ref": "equivalence-ricardienne",
+     "cours": "1A-hpe",
+     "texte": "Robert Barro formule l'**équivalence ricardienne** : lorsque l'État creuse le déficit pour relancer l'économie, les agents rationnels anticipent des impôts futurs et épargnent le surplus au lieu de consommer, rendant le multiplicateur nul. Cette thèse soutient les partisans de la rigueur budgétaire face aux déficits chroniques. À mobiliser pour critiquer l'efficacité d'une relance financée par l'endettement public."
+    }
+   ],
+   "notions": [
+    ["Effet boule de neige", "Mécanisme par lequel le ratio dette/PIB augmente automatiquement lorsque le taux d'intérêt moyen de la dette dépasse le taux de croissance."],
+    ["Charge de la dette", "Montant des intérêts que l'État doit verser chaque année à ses créanciers pour rémunérer sa dette publique."],
+    ["Solde primaire", "Différence entre les recettes et les dépenses publiques avant paiement des intérêts de la dette."]
+   ],
+   "sujets": [
+    "La dette publique française est-elle soutenable ?",
+    "Faut-il réduire rapidement les déficits publics au risque de freiner la croissance ?"
+   ],
+   "anki": [
+    {
+     "q": "Condition de l'effet boule de neige de la dette publique (Domar, 1944)",
+     "r": "Taux d'intérêt réel supérieur au taux de croissance (B{r > g}).\n→ A{Domar}, O{The Burden of the Debt and the National Income} (D{1944}) : si la croissance reste atone alors que les taux montent, le ratio dette/PIB explose même sans déficit primaire (accroche pour un sujet sur la dette française)."
+    },
+    {
+     "q": "Thèse de l'équivalence ricardienne (Barro, 1974)",
+     "r": "Les ménages épargnent face au déficit public car ils anticipent des impôts futurs.\n→ A{Barro}, O{Les obligations d'État sont-elles une richesse nette ?} (D{1974}) : la relance par la dette a alors un B{multiplicateur nul}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-esh-3",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conso/produire-en-chine-est-stupide-au-salon-du-made-in-france-les-entreprises-tricolores-defendent-une-production-locale-et-au-juste-prix-20261114",
+   "minutes": 3,
+   "titre": "Made in France : les industriels défendent la production locale face à la concurrence asiatique",
+   "faits": "Réunis du 13 au 15 novembre porte de Versailles à Paris pour le Salon du Made in France (MIF Expo 2026), plus de 1 000 exposants défendent la viabilité économique d'une production maintenue sur le sol français. Dans un contexte d'inflation qui pèse sur le pouvoir d'achat des ménages, plusieurs dirigeants de PME affirment que « produire en Chine est stupide » lorsque l'on intègre les coûts logistiques, les délais et les pertes de qualité. Ces entrepreneurs cherchent à briser l'idée que le fabriqué en France serait nécessairement un produit de luxe inaccessible. Ils mettent en avant des stratégies de « juste prix », appuyées sur les circuits courts, la durabilité des produits et l'automatisation des ateliers.",
+   "enjeux": "Ce salon reflète les tensions de la **réindustrialisation** française dans une économie ouverte. Face à des concurrents asiatiques bénéficiant de coûts salariaux plus bas et d'effets d'échelle massifs, les entreprises françaises ne peuvent pas rivaliser sur la seule **compétitivité-prix** dans le bas de gamme. Elles doivent donc miser sur la **compétitivité hors-prix** (qualité, image, empreinte carbone réduite, proximité du client) et sur la **montée en gamme**. L'enjeu pour la France est aussi de sortir du **piège du milieu de gamme**, coincé entre le très bas prix importé et le haut de gamme allemand ou américain.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Paris_Motor_Show_2018%2C_Paris_%281Y7A2067%29.jpg/1280px-Paris_Motor_Show_2018%2C_Paris_%281Y7A2067%29.jpg",
+    "alt": "Hall d'exposition à Paris Porte de Versailles",
+    "credit": "Matti Blume / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_Motor_Show_2018,_Paris_(1Y7A2067).jpg"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+   },
+   "auteurs": [
+    {
+     "nom": "Patrick Artus",
+     "ouvrage": "« Faut-il attendre une vague de relocalisations en France ? »",
+     "annee": "2020",
+     "ref": "piege-milieu-de-gamme",
+     "cours": "2A-02-ftn",
+     "texte": "Patrick Artus montre que la France est piégée dans le **milieu de gamme** et que relocaliser des productions de bas de gamme est économiquement illusoire à cause des écarts de coûts salariaux. Pour réussir, les entreprises qui produisent en France doivent impérativement **monter en gamme** ou automatiser. À mobiliser pour évaluer de manière réaliste les promesses du « Made in France »."
+    },
+    {
+     "nom": "Michael Porter",
+     "ouvrage": "L'Avantage concurrentiel",
+     "annee": "1985",
+     "ref": "competitivite-porter",
+     "texte": "Michael Porter distingue l'avantage par les **coûts** de l'avantage par la **différenciation** (qualité, innovation, image de marque). Les PME du Salon du Made in France illustrent cette recherche de **compétitivité hors-prix** : elles justifient un prix légèrement supérieur par la durabilité et la traçabilité. À mobiliser pour montrer comment une économie à hauts salaires peut rester compétitive dans la mondialisation."
+    }
+   ],
+   "notions": [
+    ["Compétitivité hors-prix", "Capacité d'une entreprise ou d'un pays à gagner des parts de marché grâce à la qualité, l'innovation, le design ou l'image, indépendamment du prix."],
+    ["Relocalisation", "Décision d'une entreprise de rapatrier sur le territoire national une activité productive précédemment délocalisée à l'étranger."],
+    ["Piège du milieu de gamme", "Situation d'une industrie concurrencée à la fois par les pays à bas coûts sur les prix et par les leaders technologiques sur la qualité."]
+   ],
+   "sujets": [
+    "La réindustrialisation de la France passe-t-elle nécessairement par la montée en gamme ?",
+    "Le « Made in France » est-il économiquement viable dans une économie ouverte ?"
+   ],
+   "anki": [
+    {
+     "q": "Nombre d'exposants au Salon du Made in France (novembre 2026, Paris)",
+     "r": "Plus de C{1 000} exposants réunis porte de Versailles pour défendre une production locale « au juste prix ».\n→ A{Artus} (D{2020}) : la relocalisation ne peut réussir que par la B{montée en gamme} et la différenciation, pas sur le bas de gamme (accroche pour un sujet sur la réindustrialisation)."
+    },
+    {
+     "q": "Deux formes d'avantage concurrentiel selon Michael Porter (1985)",
+     "r": "Domination par les B{coûts} (compétitivité-prix) vs B{différenciation} (compétitivité hors-prix).\n→ A{Porter}, O{L'Avantage concurrentiel} (D{1985}) : les pays à hauts salaires doivent miser sur la qualité et l'innovation."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-esh-4",
+   "matiere": "esh",
+   "source": "RFI",
+   "url": "https://www.rfi.fr/fr/podcasts/le-grand-entretien-du-soir/20261113-moussa-camara-l-entrepreneur-solidaire-qui-lutte-contre-le-d%C3%A9terminisme-social",
+   "minutes": 3,
+   "titre": "Déterminisme social : « La campagne et la banlieue vivent le même blocage »",
+   "faits": "Dans un entretien accordé à RFI le 13 novembre, Moussa Camara, fondateur de l'association Les Déterminés, revient sur les obstacles à la mobilité sociale en France. Créée en 2015 à partir de son expérience dans les quartiers populaires de Pontoise, son association accompagne de jeunes créateurs d'entreprise issus de territoires fragiles. Selon lui, plus de 4 000 porteurs de projets ont déjà été aidés par ce dispositif. Il souligne que les habitants des zones rurales isolées et ceux des banlieues urbaines subissent un même déterminisme social et économique : le manque de réseau professionnel et d'accès au financement. Son action vise précisément à partager du capital social et de l'expérience pour contourner ces barrières invisibles.",
+   "enjeux": "Cette analyse rappelle que l'**égalité des chances** ne dépend pas seulement du diplôme scolaire ou des capacités individuelles, mais aussi de l'inégale répartition des ressources territoriales et relationnelles. En sociologie économique, l'accès à l'entrepreneuriat et aux emplois qualifiés reste fortement conditionné par le **capital social** (le carnet d'adresses) et le **capital culturel** transmis par la famille. Le rapprochement entre banlieues et campagnes montre que la fracture territoriale française n'oppose pas seulement Paris aux périphéries, mais recoupe des mécanismes communs de **reproduction sociale**. Pour les politiques publiques, cela pose la question des limites d'une approche purement méritocratique qui ignorerait les effets de réseau.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Camille_Pissarro%2C_Factory_on_the_Oise_at_Pontoise%2C_1873%2C_NGA_66510.jpg/1280px-Camille_Pissarro%2C_Factory_on_the_Oise_at_Pontoise%2C_1873%2C_NGA_66510.jpg",
+    "alt": "L'Oise à Pontoise, territoire d'origine de l'association Les Déterminés",
+    "credit": "Camille Pissarro / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Camille_Pissarro,_Factory_on_the_Oise_at_Pontoise,_1873,_NGA_66510.jpg"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.3 – Les fondements de la sociologie"
+   },
+   "auteurs": [
+    {
+     "nom": "Pierre Bourdieu et Jean-Claude Passeron",
+     "ouvrage": "La Reproduction",
+     "annee": "1970",
+     "ref": "reproduction-sociale",
+     "cours": "1A-sociologie",
+     "texte": "Bourdieu et Passeron montrent que les institutions (à commencer par l'école) reproduisent les inégalités sociales en valorisant les codes culturels et les ressources des classes dominantes. Prolongée par la notion bourdieusienne de **capital social**, cette approche explique pourquoi des jeunes de banlieue ou de milieu rural, même talentueux, se heurtent à un déficit de réseau et de légitimité. À mobiliser pour critiquer le mythe de la **méritocratie** pure."
+    },
+    {
+     "nom": "Raymond Boudon",
+     "ouvrage": "L'Inégalité des chances",
+     "annee": "1973",
+     "ref": "boudon-choix-rationnel",
+     "cours": "1A-sociologie",
+     "texte": "Raymond Boudon nuance le déterminisme culturel pur en expliquant les inégalités de parcours par des choix rationnels d'acteurs qui évaluent coûts, risques et bénéfices selon leur position sociale. Dans le cas de la création d'entreprise en territoire fragile, l'absence d'information et de filet de sécurité rend la prise de risque plus coûteuse pour les milieux populaires. À mobiliser pour confronter **holisme** bourdieusien et **individualisme méthodologique**."
+    }
+   ],
+   "notions": [
+    ["Capital social", "Ensemble des relations sociales et des réseaux mobilisables par un individu pour accéder à des ressources, un emploi ou un financement."],
+    ["Déterminisme social", "Idée selon laquelle la trajectoire et la position d'un individu sont fortement influencées par son origine sociale et son environnement."],
+    ["Égalité des chances", "Principe selon lequel tous les individus doivent pouvoir accéder aux mêmes positions sociales quel que soit leur milieu d'origine."]
+   ],
+   "sujets": [
+    "L'origine sociale et territoriale détermine-t-elle encore les trajectoires professionnelles en France ?",
+    "L'entrepreneuriat est-il un moteur suffisant de mobilité sociale ?"
+   ],
+   "anki": [
+    {
+     "q": "Nombre d'entrepreneurs accompagnés par l'association Les Déterminés depuis 2015",
+     "r": "Plus de C{4 000} porteurs de projets issus de banlieues et de zones rurales.\n→ A{Bourdieu} : montre le rôle décisif du B{capital social} (réseau) pour compenser le déterminisme territorial (accroche pour un sujet sur la mobilité sociale)."
+    },
+    {
+     "q": "Opposition théorique entre Bourdieu (1970) et Boudon (1973) sur les inégalités",
+     "r": "A{Bourdieu} et A{Passeron}, O{La Reproduction} (D{1970}) : B{holisme} (héritage culturel et social).\n→ A{Boudon}, O{L'Inégalité des chances} (D{1973}) : B{individualisme méthodologique} (calcul coût/risque des familles)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/15/young-people-stress-seeking-a-job-mental-physical-health",
+   "minutes": 3,
+   "titre": "Royaume-Uni : la détresse des jeunes face à la panne de l'emploi d'entrée de carrière",
+   "faits": "Dans une enquête publiée le 15 novembre, The Guardian donne la parole à de jeunes diplômés britanniques confrontés à un marché du travail particulièrement bloqué. Certains rapportent avoir envoyé plus d'une centaine de candidatures en deux mois pour des emplois peu qualifiés sans obtenir de réponse, ce qui pèse lourdement sur leur santé mentale et physique. Au Royaume-Uni, près d'un million de jeunes, soit environ un sur huit, sont classés comme NEET (ni en emploi, ni en études, ni en formation). Plusieurs facteurs sont pointés : le ralentissement économique, des exigences d'expérience préalable même pour des postes de débutants, et la contraction des recrutements dans les métiers de bureau liée à l'automatisation et à l'IA.",
+   "enjeux": "Cette crise de l'insertion des jeunes met en péril le **contrat social** britannique fondé sur la promesse que les études supérieures garantissent un emploi stable. Les économistes soulignent un effet de **cicatrice salariale** (*scarring effect*) : une période prolongée de chômage ou de précarité en début de carrière réduit durablement les revenus futurs et la productivité. Pour le gouvernement travailliste d'Andy Burnham, le défi est double : soutenir la création d'emplois pour les jeunes sans creuser le déficit public, tout en adaptant la formation professionnelle à la transformation numérique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canary_Wharf_from_Limehouse_London_June_2016_HDR.jpg/1280px-Canary_Wharf_from_Limehouse_London_June_2016_HDR.jpg",
+    "alt": "Le quartier financier de Canary Wharf à Londres",
+    "credit": "King of Hearts / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Canary_Wharf_from_Limehouse_London_June_2016_HDR.jpg"
+   },
+   "vo": {
+    "titre": "UK: young graduates face severe stress in a blocked job market",
+    "faits": "In a report published on 15 November, The Guardian highlights the toll that a stagnant job market is taking on young Britons. Graduates describe sending out more than a hundred applications in two months—often for basic hospitality roles—only to be met with silence or rejection, taking a heavy toll on their mental and physical health. Across the UK, nearly one million young people, roughly one in eight, are classified as NEET (not in education, employment or training). Employers increasingly demand prior experience even for entry-level jobs, while automation and AI are squeezing traditional graduate openings.",
+    "enjeux": "This hiring freeze threatens the unwritten social contract that higher education leads to secure employment and upward mobility. Economists warn of a lasting scarring effect: prolonged spells out of work early in life permanently depress lifetime earnings and career prospects. For Andy Burnham's Labour government, the challenge is to revive youth employment and apprenticeships without breaching strict fiscal rules, while adapting skills training to an AI-reshaped economy."
+   },
+   "vocab": [
+    ["a scarring effect", "un effet de cicatrice durable (sur les salaires futurs)", "Early unemployment often leaves a lasting scarring effect on young workers."],
+    ["entry-level jobs", "les emplois de débutants", "Competition for entry-level jobs has grown fierce among recent graduates."],
+    ["a broken social contract", "un contrat social rompu", "Many young voters feel they are living under a broken social contract."],
+    ["to take a toll on", "peser lourdement sur / nuire à", "Months of rejection have taken a heavy toll on his mental health."],
+    ["upward mobility", "l'ascension sociale", "Housing costs and weak wage growth have stalled upward mobility."],
+    ["a hiring freeze", "un gel des embauches", "Several tech firms announced a hiring freeze amid economic uncertainty."]
+   ],
+   "sujets": [
+    "Is higher education still a reliable passport to economic security in Britain?",
+    "How can governments prevent a 'lost generation' of young workers in the age of AI?"
+   ],
+   "anki": [
+    {
+     "q": "Number of young people classified as NEET in the UK (Nov 2026)",
+     "r": "Nearly C{1 million} young people (about C{1 in 8}).\n→ Shows a structural youth labour crisis and risks of long-term B{scarring effects} on earnings (accroche for UK social mobility or labour market essays)."
+    },
+    {
+     "q": "Meaning of 'scarring effect' in labour economics",
+     "r": "Long-term drop in future wages and employment prospects caused by early-career unemployment.\n→ Useful to explain why youth joblessness has lasting macroeconomic costs."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-anglais-2",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/15/business/medical-school-student-loan-caps.html",
+   "minutes": 3,
+   "titre": "États-Unis : le plafonnement des prêts étudiants complique l'accès aux études de médecine",
+   "faits": "Dans un article publié le 15 novembre, le New York Times examine les conséquences des nouvelles règles fédérales américaines qui plafonnent les prêts étudiants pour les cursus professionnels. Pour les futurs médecins, la limite cumulée de prêts fédéraux est désormais fixée à 200 000 dollars sur l'ensemble de la scolarité, alors que le coût total des études médicales dépasse souvent ce montant. Cette année, la première promotion d'étudiants en médecine soumise à ces plafonds entame son cursus dans un climat d'incertitude financière. Les étudiants issus de milieux modestes ou sans patrimoine familial risquent de devoir recourir à des prêts privés beaucoup plus coûteux ou de renoncer à ces études.",
+   "enjeux": "Cette réforme illustre la tension américaine entre la maîtrise de l'**endettement étudiant** (qui dépasse 1 600 milliards de dollars au niveau national) et l'égalité d'accès aux professions qualifiées. En limitant les prêts fédéraux sans réduire les frais de scolarité universitaires, l'État risque de renforcer la **sélection par l'argent** dans des filières pourtant essentielles. Ce blocage pourrait aussi aggraver la **pénurie de médecins** aux États-Unis, notamment dans les zones rurales et les quartiers défavorisés où les praticiens issus de la diversité sont déjà sous-représentés.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tulane_University_-_Gibson_Hall_and_Dinwiddie_Hall_from_St_Charles_Avenue%2C_Feb_2024.jpg/1280px-Tulane_University_-_Gibson_Hall_and_Dinwiddie_Hall_from_St_Charles_Avenue%2C_Feb_2024.jpg",
+    "alt": "Campus de l'université Tulane aux États-Unis",
+    "credit": "Infrogmation / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tulane_University_-_Gibson_Hall_and_Dinwiddie_Hall_from_St_Charles_Avenue,_Feb_2024.jpg"
+   },
+   "vo": {
+    "titre": "US: federal student loan caps complicate access to medical school",
+    "faits": "In a 15 November report, The New York Times examines how new federal caps on student borrowing are affecting aspiring doctors in the United States. Under the rules, professional students face a $200,000 lifetime limit on federal student loans, even though the full cost of medical school frequently exceeds that threshold. This autumn marks the first cohort of medical students entering under the new restrictions. Without family wealth to bridge the gap, lower-income applicants risk being pushed toward expensive private loans or priced out of the profession altogether.",
+    "enjeux": "The policy highlights a sharp US dilemma: curbing federal exposure to soaring student debt without reining in tuition fees. Critics warn that capping public loans could entrench socio-economic barriers in medicine, turning a meritocratic path into a privilege for affluent families. Over time, fewer graduates from modest or minority backgrounds could worsen physician shortages in underserved rural and urban communities."
+   },
+   "vocab": [
+    ["a lifetime limit / cap", "un plafond cumulé sur la durée des études", "The new law sets a $200,000 lifetime cap on federal loans."],
+    ["tuition fees", "les frais de scolarité", "Rising tuition fees have outpaced household income growth."],
+    ["to price someone out of", "exclure quelqu'un par les prix", "High borrowing costs risk pricing working-class students out of medicine."],
+    ["physician shortages", "la pénurie de médecins", "Rural states already face severe physician shortages."],
+    ["underserved communities", "les populations / zones mal desservies", "Graduates from modest backgrounds often return to work in underserved communities."],
+    ["to bridge the gap", "combler l'écart", "Many students rely on private lenders to bridge the funding gap."]
+   ],
+   "sujets": [
+    "Does capping federal student loans solve the US higher-education crisis or deepen inequality?",
+    "Should medical education in the United States be publicly subsidised to prevent doctor shortages?"
+   ],
+   "anki": [
+    {
+     "q": "New US federal lifetime loan cap for professional students (2026)",
+     "r": "C{$200,000} lifetime limit.\n→ Shows the trade-off between curbing federal student debt and risking B{inequality of access} to medical careers (accroche for US education/inequality essays)."
+    },
+    {
+     "q": "Unintended social risk of capping federal student loans without lowering tuition",
+     "r": "Low-income students are pushed toward high-interest private loans or priced out.\n→ Illustrates how cost-cutting can undermine B{social mobility} and worsen doctor shortages."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-anglais-3",
+   "matiere": "anglais",
+   "source": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o",
+   "minutes": 3,
+   "titre": "États-Unis : l'ex-PDG de Nvidia convoqué par le Sénat sur fond de tensions technologiques avec la Chine",
+   "faits": "Le 13 novembre, la BBC rapporte que l'ancien PDG de Nvidia, Jensen Huang, a été convoqué pour témoigner en décembre devant une commission bancaire du Sénat américain. Il avait brusquement démissionné la veille après des révélations sur une liaison extraconjugale présumée avec une femme soupçonnée d'espionnage au profit de la Chine. Le secrétaire américain au Commerce, Howard Lutnick, est également convoqué par les sénateurs pour s'expliquer sur les exportations de puces d'intelligence artificielle sensibles vers la Chine. En cinq jours de crise, le géant des semi-conducteurs a perdu environ 550 milliards de dollars de capitalisation boursière.",
+   "enjeux": "Au-delà de l'affaire personnelle, ce séisme révèle la fusion croissante entre **gouvernance d'entreprise** et **sécurité nationale** aux États-Unis. Les semi-conducteurs de pointe et l'IA sont devenus le cœur de la **rivalité stratégique sino-américaine**, chaque faille potentielle étant immédiatement traitée comme une menace géopolitique par le Congrès. La chute brutale de la valorisation de Nvidia montre aussi la vulnérabilité des marchés financiers face à la concentration extrême autour de quelques géants de la tech. Enfin, le renforcement attendu des contrôles à l'exportation pourrait pousser Pékin à accélérer son autonomie technologique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
+    "alt": "Le Capitole des États-Unis à Washington",
+    "credit": "Martin Falbisoner / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG"
+   },
+   "vo": {
+    "titre": "US: ex-Nvidia chief summoned by Senate amid China chip security fears",
+    "faits": "On 13 November, BBC News reported that former Nvidia chief executive Jensen Huang has been summoned to testify before the US Senate Banking Committee in December. Huang resigned abruptly a day earlier following revelations of an alleged affair with a woman suspected of being a Chinese spy. US Commerce Secretary Howard Lutnick has also been called to appear over scrutiny of sensitive AI chip exports to China. Over just five days, Nvidia shed around $550bn (£415bn) in stock market value as the scandal unfolded.",
+    "enjeux": "Beyond personal misconduct, the upheaval underlines how closely corporate governance and national security are intertwined in the US tech sector. Advanced semiconductors sit at the centre of US–China strategic rivalry, meaning any perceived leak is treated by Congress as a geopolitical threat. Nvidia's sharp market drop also exposes the fragility of equity markets heavily concentrated in a handful of AI giants, while tighter export controls may spur China to speed up domestic chip self-reliance."
+   },
+   "vocab": [
+    ["to be summoned to testify", "être convoqué pour témoigner", "Tech executives were summoned to testify before the Senate committee."],
+    ["to shed market value", "perdre de la valeur boursière", "The firm shed billions in market value within a single week."],
+    ["export controls", "les contrôles à l'exportation", "Washington tightened export controls on advanced semiconductors."],
+    ["national security", "la sécurité nationale", "Lawmakers framed chip sales as a matter of national security."],
+    ["corporate governance", "la gouvernance d'entreprise", "The scandal triggered urgent questions about corporate governance."],
+    ["self-reliance", "l'autonomie / l'autosuffisance", "Sanctions have pushed Beijing toward technological self-reliance."]
+   ],
+   "sujets": [
+    "Are US export controls slowing down China's AI ambitions or accelerating its self-reliance?",
+    "Has national security become the main driver of US industrial and tech policy?"
+   ],
+   "anki": [
+    {
+     "q": "Nvidia's stock market value loss in five days during the Nov 2026 scandal",
+     "r": "About C{$550bn} (£415bn) wiped out.\n→ Illustrates both market concentration in AI giants and the link between B{national security} and tech valuations (accroche for US-China tech rivalry essays)."
+    },
+    {
+     "q": "Why US Congress summoned both Nvidia's ex-CEO and Commerce Secretary Lutnick",
+     "r": "Concerns over alleged espionage and sensitive AI chip exports to China.\n→ Shows how semiconductors sit at the heart of B{geopolitical rivalry}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-anglais-4",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/2026/nov/15/drivers-delays-brexit-food-checks",
+   "minutes": 3,
+   "titre": "Brexit : les contrôles sanitaires alimentaires continuent de freiner les échanges",
+   "faits": "Dans un reportage publié le 15 novembre, The Guardian décrit les blocages quotidiens subis par les transporteurs routiers soumis aux contrôles post-Brexit au terminal d'Eurotunnel à Calais. Des chauffeurs acheminant des produits frais britanniques vers le continent ou vers Gibraltar témoignent d'attentes pouvant atteindre neuf heures en raison d'erreurs de formulaires ou d'inspections sanitaires. Avant la sortie du marché unique européen, ces certificats sanitaires d'exportation et déclarations douanières n'existaient pas. Les professionnels du secteur soulignent que la moindre anomalie administrative immobilise des cargaisons périssables et renchérit les coûts logistiques.",
+   "enjeux": "Ce reportage concret illustre le coût persistant des **barrières non tarifaires** rétablies par le Brexit, même en l'absence de droits de douane généraux sur les marchandises. Pour les chaînes d'approvisionnement agroalimentaires, la **friction douanière** agit comme une taxe invisible qui réduit la compétitivité des exportateurs britanniques et pèse sur les prix à la consommation. Ce constat alimente les appels des milieux d'affaires et du gouvernement britannique en faveur d'un accord vétérinaire et sanitaire avec Bruxelles afin de fluidifier les échanges.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/A_DFDS_ferry_leaves_Dover_Port_-_geograph.org.uk_-_6391489.jpg/1280px-A_DFDS_ferry_leaves_Dover_Port_-_geograph.org.uk_-_6391489.jpg",
+    "alt": "Un ferry quittant le port de Douvres",
+    "credit": "Ian S / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A_DFDS_ferry_leaves_Dover_Port_-_geograph.org.uk_-_6391489.jpg"
+   },
+   "vo": {
+    "titre": "Brexit: food checks and red tape continue to delay hauliers",
+    "faits": "In a 15 November report, The Guardian documents the daily delays faced by lorry drivers navigating post-Brexit border checks at the Eurotunnel terminal in Calais. Hauliers carrying perishable British food products report hold-ups of up to nine hours due to inspection queues and minor paperwork errors. Export health certificates and transit declarations were unnecessary when the UK belonged to the EU single market. Industry operators warn that strict administrative checks increase transport costs and disrupt just-in-time food deliveries.",
+    "enjeux": "These bottlenecks illustrate the lasting economic cost of non-tariff barriers created by leaving the EU single market, even under a tariff-free trade deal. For food supply chains, customs friction acts as an invisible tax that erodes the competitiveness of British exporters and adds pressure to consumer prices. The disruption strengthens business calls for a UK–EU veterinary agreement to ease border checks."
+   },
+   "vocab": [
+    ["non-tariff barriers", "les barrières non tarifaires", "Border checks and certificates act as costly non-tariff barriers."],
+    ["red tape", "la paperasserie / les lourdeurs administratives", "Small exporters complain that post-Brexit red tape hurts sales."],
+    ["perishable goods", "les denrées périssables", "Long border delays are especially damaging for perishable goods."],
+    ["customs friction", "les frictions douanières", "Businesses are urging London to reduce customs friction with the EU."],
+    ["a haulier", "un transporteur routier", "Hauliers face fines if transit documents contain minor errors."],
+    ["just-in-time delivery", "la livraison en flux tendu", "Border hold-ups disrupt just-in-time delivery across Europe."]
+   ],
+   "sujets": [
+    "Can Britain meaningfully reduce Brexit trade friction without rejoining the EU single market?",
+    "How do non-tariff barriers affect modern supply chains?"
+   ],
+   "anki": [
+    {
+     "q": "Example of post-Brexit border delay for food hauliers at Calais (Nov 2026)",
+     "r": "Up to C{9 hours} of delay due to export health certificates and paperwork checks.\n→ Concrete example of B{non-tariff barriers} and customs friction after leaving the EU single market (accroche for Brexit trade essays)."
+    },
+    {
+     "q": "Economic impact of customs paperwork on UK–EU food supply chains",
+     "r": "Acts as an invisible tax that slows B{just-in-time} deliveries and raises logistics costs.\n→ Explains why business groups push for a UK–EU veterinary agreement."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-15/politica-y-finanzas-juegan-a-favor-de-hernandez-de-cos-para-la-presidencia-del-bce.html",
+   "minutes": 3,
+   "titre": "BCE : la conjoncture politique et financière favorise l'Espagnol Hernández de Cos",
+   "faits": "Selon une analyse publiée par El País le 15 novembre, l'ancien gouverneur de la Banque d'Espagne et actuel directeur général de la Banque des règlements internationaux (BRI), Pablo Hernández de Cos, apparaît comme un favori croissant pour la présidence de la Banque centrale européenne (BCE). Ce positionnement s'explique par la volatilité financière en Europe, notamment la hausse de la prime de risque française liée aux tensions politiques et budgétaires. Dans ce climat instable, son profil modéré en politique monétaire rassure davantage plusieurs capitales européennes que celui de candidats jugés plus restrictifs comme le Néerlandais Klaas Knot. En Espagne, sa candidature bénéficie d'un consensus inhabituel entre le PSOE et le PP.",
+   "enjeux": "Cette course à la tête de la **BCE** illustre l'importance stratégique des équilibres franco-allemands et sud-européens dans la gouvernance de la **zone euro**. Le choix entre un profil « faucon » (priorité stricte à la lutte contre l'inflation) et un profil modéré pèsera directement sur les taux d'intérêt et sur la **stabilité financière** des États fortement endettés. Pour l'Espagne, obtenir la présidence de la BCE consacrerait son poids économique retrouvé en Europe et son consensus institutionnel interne, à rebours de la polarisation de sa campagne électorale.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg/1280px-Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg",
+    "alt": "Siège de la Banque centrale européenne à Francfort",
+    "credit": "DXR / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg"
+   },
+   "vo": {
+    "titre": "BCE: política y finanzas impulsan a Hernández de Cos",
+    "faits": "Según un análisis publicado por El País el 15 de noviembre, Pablo Hernández de Cos, exgobernador del Banco de España y actual director general del Banco de Pagos Internacionales (BIS), gana enteros para presidir el Banco Central Europeo (BCE). La inestabilidad financiera en Europa, marcada por el aumento de la prima de riesgo francesa ante la polarización política y fiscal, favorece su candidatura. Frente a perfiles más restrictivos como el del neerlandés Klaas Knot, su reputación moderada en política monetaria genera mayor consenso entre las capitales europeas. En España, además, cuenta con el respaldo poco habitual tanto del PSOE como del PP.",
+    "enjeux": "La sucesión en el BCE refleja el peso de los equilibrios entre grandes potencias y países del sur en la gobernanza de la eurozona. Elegir entre un perfil más ortodoxo frente a la inflación o uno más pragmático influirá directamente en los tipos de interés y en la estabilidad financiera de los Estados más endeudados. Para España, alcanzar la presidencia del BCE consolidaría su influencia económica en la Unión Europea y proyectaría una imagen de solidez institucional pese a la tensión de la campaña electoral."
+   },
+   "vocab": [
+    ["la prima de riesgo", "la prime de risque", "La prima de riesgo subió ante las dudas sobre el presupuesto."],
+    ["el gobernador del banco central", "le gouverneur de la banque centrale", "El exgobernador defendió una política monetaria prudente."],
+    ["ganar enteros", "marquer des points / devenir favori", "El candidato español gana enteros tras las últimas negociaciones."],
+    ["la política monetaria", "la política monétaire", "La política monetaria busca contener la inflación sin frenar el crecimiento."],
+    ["el respaldo institucional", "le soutien institutionnel", "Su nombramiento contó con un amplio respaldo institucional."],
+    ["el equilibrio de poder", "l'équilibre des pouvoirs", "El reparto de cargos exige un delicado equilibrio de poder en Europa."]
+   ],
+   "sujets": [
+    "¿Debe priorizar el BCE la lucha contra la inflación o la estabilidad financiera de los Estados?",
+    "¿Qué representa para España la posible presidencia de una gran institución europea como el BCE?"
+   ],
+   "anki": [
+    {
+     "q": "Candidato español favorito para presidir el BCE y su cargo actual (nov 2026)",
+     "r": "Pablo Hernández de Cos, actual director general del B{BIS} (Banco de Pagos Internacionales).\n→ Muestra el peso económico de España en la eurozona y el debate entre B{halcones} y perfiles moderados en el BCE."
+    },
+    {
+     "q": "Factor financiero europeo que impulsa la candidatura de Hernández de Cos",
+     "r": "El aumento de la B{prima de riesgo} francesa y la inestabilidad política.\n→ En tiempos de volatilidad, los gobiernos buscan perfiles monetarios prudentes y de consenso (accroche sobre gobernanza de la eurozona)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/espana/2026/11/14/6af82fc5e9cf4ab47b8b457c.html",
+   "minutes": 3,
+   "titre": "Canaries : 834 migrants arrivent en deux embarcations à El Hierro",
+   "faits": "Selon El Mundo le 14 novembre, deux embarcations de type cayuco transportant au total 834 personnes ont accosté au port de La Restinga, sur l'île d'El Hierro aux Canaries, entre la nuit de vendredi et l'aube de samedi. Parmi les passagers secourus par Salvamento Marítimo figurent 24 femmes et 21 mineurs présumés. Le premier cayuco, parti de Yenn au Sénégal avec 122 personnes à bord, avait navigué pendant cinq jours en mer. Les autorités locales alertent sur la saturation des dispositifs d'accueil de l'archipel, qui a enregistré environ 4 500 arrivées en sept jours.",
+   "enjeux": "La route atlantique vers les Canaries reste l'un des principaux points de tension migratoire de l'Union européenne. L'afflux sur une petite île comme El Hierro met en évidence les fractures politiques entre le gouvernement central espagnol, les exécutifs régionaux et les partis de droite sur la **répartition des mineurs non accompagnés** et le contrôle des frontières. En pleine campagne électorale du 29-N, cette pression migratoire ravive le débat entre accueil humanitaire, coopération avec les pays d'origine comme le Sénégal et durcissement des politiques d'asile.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/La_Restinga_El_Hierro_2010.jpg/1280px-La_Restinga_El_Hierro_2010.jpg",
+    "alt": "Le port de La Restinga à El Hierro aux Canaries",
+    "credit": "Tbachner / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Restinga_El_Hierro_2010.jpg"
+   },
+   "vo": {
+    "titre": "Canarias: llegan a El Hierro dos cayucos con 834 migrantes",
+    "faits": "Según informó El Mundo el 14 de noviembre, dos cayucos con 834 personas a bordo llegaron al puerto de La Restinga, en El Hierro, entre la noche del viernes y la madrugada del sábado. Entre los ocupantes rescatados por Salvamento Marítimo viajaban 24 mujeres y 21 posibles menores de edad. La primera embarcación había partido de Yenn, en Senegal, con 122 personas tras cinco días de travesía en el Atlántico. Las autoridades canarias denuncian la saturación de los centros de acogida tras registrar unas 4.500 llegadas en apenas siete días.",
+    "enjeux": "La ruta atlántica hacia Canarias sigue siendo uno de los mayores focos de presión migratoria en la Unión Europea. La concentración de llegadas en una isla pequeña como El Hierro agudiza el choque entre el Gobierno central y las comunidades autónomas sobre el reparto de los menores no acompañados y la financiación de la acogida. En plena campaña del 29-N, la crisis reaviva el debate entre la solidaridad territorial, la cooperación con países de origen y el control fronterizo."
+   },
+   "vocab": [
+    ["el cayuco", "l'embarcation de migrants (pirogue)", "Dos cayucos arribaron al puerto de La Restinga durante la noche."],
+    ["el dispositivo de acogida", "le dispositif d'accueil", "El dispositivo de acogida insular se encuentra al límite de su capacidad."],
+    ["el menor no acompañado", "le mineur non accompagné", "El reparto de menores no acompañados enfrenta a las regiones españolas."],
+    ["la travesía", "la traversée", "Muchos migrantes realizan una peligrosa travesía de varios días desde Senegal."],
+    ["la saturación", "la saturation", "Los alcaldes advierten sobre la saturación de los servicios locales."],
+    ["el control fronterizo", "le contrôle aux frontières", "La oposición exige reforzar el control fronterizo en el Atlántico."]
+   ],
+   "sujets": [
+    "¿Cómo conciliar la acogida humanitaria con la gestión territorial de la inmigración en España?",
+    "¿Es suficiente la respuesta europea ante la presión migratoria en la frontera sur?"
+   ],
+   "anki": [
+    {
+     "q": "Llegadas de migrantes a El Hierro en dos cayucos (14 nov 2026) y cifra semanal en Canarias",
+     "r": "C{834} personas en dos cayucos (unos C{4.500} migrantes en siete días).\n→ Ilustra la presión de la B{ruta atlántica} y el debate político sobre el reparto de menores en España (accroche para un tema sobre inmigración)."
+    },
+    {
+     "q": "Origen y duración de la travesía del primer cayuco llegado a La Restinga",
+     "r": "Partió de Yenn (Senegal) con C{5 días} de navegación.\n→ Muestra los riesgos humanos de la ruta atlántica ante las dificultades económicas en África occidental."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/america/2026-11-15/el-papa-denuncia-la-discriminacion-de-los-afrodescendientes-en-peru.html",
+   "minutes": 3,
+   "titre": "Pérou : le pape Léon XIV dénonce les discriminations envers les Afro-Péruviens",
+   "faits": "En visite apostolique au Pérou le 15 novembre, le pape Léon XIV a pris la parole au sanctuaire de Santo Toribio de Mogrovejo, à Zaña (région de Lambayeque), pour dénoncer les discriminations subies par les populations afrodescendantes. Le souverain pontife a choisi cette localité emblématique, qui fut un grand centre esclavagiste à l'époque coloniale et reste aujourd'hui un foyer majeur de la culture afro-péruvienne. Il a rappelé les souffrances et les humiliations endurées par des générations d'esclaves africains et salué la contribution de cette communauté à l'identité du pays. Cette prise de position s'inscrit dans un voyage très suivi en Amérique latine, où le pape aborde aussi les inégalités sociales et les conflits fonciers.",
+   "enjeux": "Cette intervention met en lumière le poids persistant du **racisme structurel** et de la marginalisation économique des minorités afrodescendantes et autochtones en Amérique latine. Longtemps invisibilisées dans les statistiques publiques et sous-représentées dans les sphères de pouvoir, ces populations subissent des écarts marqués d'accès à l'éducation, à la terre et à l'emploi formel. Le discours du pape donne une visibilité internationale à ces revendications mémorielles et sociales dans un Pérou fragilisé par l'instabilité politique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Za%C3%B1a_-_Iglesia_Matriz.jpg/1280px-Za%C3%B1a_-_Iglesia_Matriz.jpg",
+    "alt": "Vestiges de l'église coloniale de Zaña au Pérou",
+    "credit": "Pato1968 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Za%C3%B1a_-_Iglesia_Matriz.jpg"
+   },
+   "vo": {
+    "titre": "Perú: el Papa denuncia la discriminación hacia los afrodescendientes",
+    "faits": "Durante su viaje apostólico a Perú el 15 de noviembre, el papa León XIV denunció en Zaña (región de Lambayeque) la discriminación que sufren los afrodescendientes en el país. El pontífice eligió esta localidad por su fuerte carga histórica: fue un enclave esclavista durante la época virreinal y conserva hoy una importante comunidad afroperuana. En su discurso, recordó las humillaciones padecidas por generaciones de esclavos africanos y agradeció su aporte cultural y social al país. La visita papal en Sudamérica también ha dado voz a demandas sociales y conflictos por la tierra.",
+    "enjeux": "Las palabras del Papa visibilizan la persistencia del racismo estructural y de la exclusión económica que afectan a las minorías afrodescendientes e indígenas en América Latina. A menudo relegadas de los centros de decisión y con menor acceso a la educación o al empleo formal, estas comunidades reclaman mayor reconocimiento institucional y políticas de igualdad. En un Perú marcado por la fragilidad política, el mensaje pontificio refuerza la agenda de memoria histórica y justicia social."
+   },
+   "vocab": [
+    ["los afrodescendientes", "les personnes d'ascendance africaine", "Los afrodescendientes reclaman mayor visibilidad en las políticas públicas."],
+    ["el racismo estructural", "le racisme structurel", "Diversos informes documentan la persistencia del racismo estructural."],
+    ["la época virreinal", "l'époque coloniale (de la vice-royauté)", "Zaña fue un centro económico clave durante la época virreinal."],
+    ["la justicia social", "la justicia sociale", "El discurso vinculó la memoria histórica con la justicia social."],
+    ["el enclave", "l'enclave / le foyer", "La ciudad sigue siendo un enclave cultural afroperuano."],
+    ["relegar", "reléguer / écarter", "Las comunidades rurales denuncian haber sido relegadas por el Estado."]
+   ],
+   "sujets": [
+    "¿Siguen pesando las herencias coloniales en las desigualdades sociales de América Latina?",
+    "¿Qué papel desempeña la Iglesia católica en los debates sociales de la América Latina contemporánea?"
+   ],
+   "anki": [
+    {
+     "q": "Lugar simbólico de Perú donde el papa León XIV denunció el racismo (nov 2026)",
+     "r": "B{Zaña} (Lambayeque), antiguo enclave esclavista colonial y centro cultural afroperuano.\n→ Ilustra el peso histórico de la B{discriminación} y la lucha por el reconocimiento de las minorías en América Latina."
+    },
+    {
+     "q": "Desigualdades que afectan a las minorías afrodescendientes e indígenas en América Latina",
+     "r": "Menor acceso a la educación, la tierra y el empleo formal por el B{racismo estructural}.\n→ Permite conectar la herencia colonial con las brechas socioeconómicas actuales (accroche para un ensayo sobre desigualdades)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-espagnol-4",
+   "matiere": "espagnol",
+   "source": "Clarín",
+   "url": "https://www.clarin.com/estados-unidos/la-cumbre-de-la-asean-arranca-marcada-por-la-guerra-comercial-de-trump_0_M7vBPQGCSA.html",
+   "minutes": 3,
+   "titre": "Commerce mondial : Lula défend la diversification face aux droits de douane américains",
+   "faits": "À l'ouverture du sommet de l'Asean à Manille le 15 novembre, rapporte Clarín, le président brésilien récemment réélu Luiz Inácio Lula da Silva a appelé à diversifier les partenariats commerciaux face à la guerre tarifaire lancée par Donald Trump. Invité au sommet des onze pays d'Asie du Sud-Est, Lula a affirmé que le Brésil avait choisi de chercher de nouveaux débouchés plutôt que de « supplier » Washington après l'imposition de droits de douane américains. Il a souligné que les échanges du Brésil avec l'Indonésie et le Vietnam avaient bondi respectivement de 15 % et de 19 %. Le sommet réunit les dirigeants régionaux alors que la visite de Donald Trump, attendue mardi, vise aussi à renforcer l'alliance du Quad face à la Chine.",
+   "enjeux": "Cette déclaration illustre la recomposition des **chaînes de valeur** et des alliances commerciales du « Sud global » face au **néoprotectionnisme américain**. Plutôt que de subir passivement la hausse des tarifs douaniers de Washington, des puissances émergentes comme le Brésil accélèrent le commerce Sud-Sud avec l'Asie. Cette stratégie limite l'efficacité des pressions unilatérales américaines et confirme la montée en puissance de l'Asean comme pôle de croissance alternatif entre les États-Unis et la Chine.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Skyline_in_Manila_36.jpg/1280px-Skyline_in_Manila_36.jpg",
+    "alt": "Vue urbaine de Manille aux Philippines",
+    "credit": "SwarmCheng / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline_in_Manila_36.jpg"
+   },
+   "vo": {
+    "titre": "Comercio global: Lula busca nuevos socios ante los aranceles de EE. UU.",
+    "faits": "En la apertura de la cumbre de la Asean en Manila el 15 de noviembre, según recoge Clarín, el presidente brasileño Luiz Inácio Lula da Silva defendió la diversificación comercial frente a la guerra arancelaria de Donald Trump. Invitado a la reunión de los once países del sudeste asiático, Lula aseguró que Brasil optó por abrir nuevos mercados en lugar de «suplicar» a Washington tras la imposición de tarifas. En ese sentido, destacó que el comercio bilateral con Indonesia y Vietnam creció un 15 % y un 19 %, respectivamente. La cumbre se celebra antes de la llegada de Trump, centrada en contrarrestar la influencia de China.",
+    "enjeux": "La postura de Brasil refleja el reajuste del comercio mundial ante el proteccionismo estadounidense. En lugar de ceder ante la presión arancelaria de la Casa Blanca, las economías emergentes intensifican los intercambios Sur-Sur con mercados dinámicos como el sudeste asiático. Esta estrategia reduce la eficacia de las sanciones unilaterales de Washington y consolida el papel de Asia-Pacífico como motor alternativo del comercio internacional."
+   },
+   "vocab": [
+    ["los aranceles", "les droits de douane", "Los aranceles estadounidenses encarecieron las exportaciones industriales."],
+    ["diversificar los mercados", "diversifier les débouchés", "Brasil busca diversificar sus mercados hacia el sudeste asiático."],
+    ["la guerra comercial", "la guerre commerciale", "La guerra comercial altera las cadenas de suministro globales."],
+    ["el comercio Sur-Sur", "le commerce Sud-Sud", "El comercio Sur-Sud gana peso frente al eje tradicional con EE. UU."],
+    ["los socios comerciales", "les partenaires commerciaux", "Vietnam e Indonesia se consolidan como socios comerciales clave."],
+    ["contrarrestar la influencia", "contrer l'influence", "Washington intenta contrarrestar la influencia china en la región."]
+   ],
+   "sujets": [
+    "¿Favorece el proteccionismo de Estados Unidos una reorganización del comercio Sur-Sur?",
+    "¿Qué papel juega América Latina en la rivalidad económica entre Washington y Pekín?"
+   ],
+   "anki": [
+    {
+     "q": "Aumento del comercio de Brasil con Indonesia y Vietnam citado por Lula (nov 2026)",
+     "r": "Un C{+15 %} con Indonesia y un C{+19 %} con Vietnam.\n→ Muestra cómo los B{aranceles} de EE. UU. empujan a América Latina a diversificarse hacia Asia (accroche para un tema sobre comercio Sur-Sur)."
+    },
+    {
+     "q": "Número de países miembros de la Asean reunidos en la cumbre de Manila (nov 2026)",
+     "r": "C{11} países del sudeste asiático.\n→ Refleja el peso creciente de Asia-Pacífico como polo comercial alternativo entre Washington y Pekín."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-allemand-1",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/unternehmen/handwerk-warnt-vor-stillem-sterben-der-betriebe-a-8ae8249b-be4e-467e-b6c8-dce66525f1e0",
+   "minutes": 3,
+   "titre": "Crise économique en Allemagne : l'artisanat alerte sur la disparition des entreprises",
+   "faits": "Le 15 novembre, Der Spiegel relaie l'alerte de Jörg Dittrich, président de la Confédération allemande de l'artisanat (ZDH). Selon lui, le climat des affaires dans le secteur est tombé au niveau de la pandémie de Covid-19 et les investissements sont revenus à celui de la crise financière de 2008. Au cours des deux dernières années, l'artisanat allemand a déjà perdu plus de 150 000 emplois. Sans réaction rapide des pouvoirs publics, le secteur risque de perdre encore entre 70 000 et 80 000 postes par an. Les causes principales sont la hausse des coûts et l'effondrement des commandes dans la construction.",
+   "enjeux": "Cette alerte montre que la crise allemande ne touche pas seulement les grands groupes industriels, mais aussi le **Mittelstand** et les métiers manuels, piliers de l'emploi local. La chute des **investissements** dans le bâtiment et l'artisanat reflète le poids des taux d'intérêt élevés et des coûts de l'énergie. En outre, la disparition d'entreprises artisanales fragilise directement la **transition énergétique**, qui dépend des installateurs de pompes à chaleur, de panneaux solaires et de la rénovation des bâtiments.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Dachdecker-Mosaik.jpg/1280px-Dachdecker-Mosaik.jpg",
+    "alt": "Représentation d'un artisan couvreur en Allemagne",
+    "credit": "Andreas Schwarzkopf / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Dachdecker-Mosaik.jpg"
+   },
+   "vo": {
+    "titre": "Handwerk warnt vor Verlust vieler Arbeitsplätze",
+    "faits": "Das deutsche Handwerk steckt in einer tiefen Krise. Das sagte Verbandspräsident Jörg Dittrich am 15. November. In den letzten zwei Jahren gingen über 150.000 Arbeitsplätze verloren. Viele Betriebe haben zu wenige Bauaufträge und zu hohe Kosten. Die Investitionen sind so niedrig wie in der Finanzkrise. Ohne Hilfe könnten jedes Jahr weitere 70.000 bis 80.000 Jobs verschwinden.",
+    "enjeux": "Die Krise trifft nicht nur große Konzerne. Sie bedroht auch kleine Firmen und viele Familienbetriebe. Wenn Handwerker aufgeben, fehlt später Personal für die Energiewende. Man braucht diese Betriebe für Wärmepumpen, Solardächer und neue Wohnungen. Die Wirtschaftspolitik muss deshalb die Kosten für Firmen senken."
+   },
+   "vocab": [
+    ["das Handwerk", "l'artisanat / les métiers manuels", "Das Handwerk findet oft kaum noch junge Auszubildende."],
+    ["der Betrieb (-e)", "l'entreprise / l'atelier", "Viele kleine Betriebe kämpfen gegen hohe Energiekosten."],
+    ["der Bauauftrag (¨-e)", "la commande de travaux / de chantier", "Wegen teurer Kredite fehlen den Firmen neue Bauaufträge."],
+    ["der Familienbetrieb (-e)", "l'entreprise familiale", "Familienbetriebe sind wichtig für die deutsche Wirtschaft."],
+    ["gegensteuern", "rectifier le tir / agir contre", "Die Regierung muss bei den hohen Preisen schnell gegensteuern."],
+    ["die Energiewende", "la transition énergétique", "Ohne gute Handwerker gelingt die Energiewende nicht."]
+   ],
+   "sujets": [
+    "Wie kann Deutschland kleine Firmen und das Handwerk schützen?",
+    "Warum ist die Krise im Handwerk ein Problem für die Energiewende?"
+   ]
+  },
+  {
+   "id": "2026-11-15-allemand-2",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/innenpolitik/spd-spitze-klingbeil-heil-100.html",
+   "minutes": 3,
+   "titre": "SPD : la candidature d'Hubertus Heil relance le débat sur la direction du parti",
+   "faits": "Selon Tagesschau le 15 novembre, l'ancien ministre du Travail Hubertus Heil a officiellement déposé sa candidature à la présidence du SPD en vue du congrès de janvier à Brême. Cette initiative défie le président sortant et vice-chancelier Lars Klingbeil, qui n'a pas encore indiqué s'il briguerait un nouveau mandat. Plusieurs ministres sociaux-démocrates, dont Carsten Schneider, Stefanie Hubig et Verena Hubertz, ainsi que le chef du groupe parlementaire Matthias Miersch, ont aussitôt affiché leur soutien à Klingbeil. Matthias Miersch a mis en garde le parti contre l'illusion qu'un simple changement de tête suffirait à résoudre la crise du SPD.",
+   "enjeux": "Ce duel potentiel révèle les profondes tensions internes d'un **SPD** affaibli au sein de la coalition gouvernementale avec la CDU/CSU. Les sociaux-démocrates peinent à concilier leur participation à un gouvernement marqué par la rigueur budgétaire et les attentes sociales de leur électorat traditionnel. L'issue du congrès de Brême pèsera sur la stabilité de la **grande coalition** dirigée par le chancelier Friedrich Merz.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Willy-Brandt-Haus%2C_Berlin%2C_151024%2C_ako.jpg/1280px-Willy-Brandt-Haus%2C_Berlin%2C_151024%2C_ako.jpg",
+    "alt": "La Willy-Brandt-Haus, siège du SPD à Berlin",
+    "credit": "Ansgar Koreng / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Willy-Brandt-Haus,_Berlin,_151024,_ako.jpg"
+   },
+   "vo": {
+    "titre": "SPD: Hubertus Heil will Parteichef werden",
+    "faits": "In der SPD gibt es Streit um die Parteispitze. Der frühere Arbeitsminister Hubertus Heil möchte im Januar Parteichef werden. Er fordert damit den aktuellen Vorsitzenden Lars Klingbeil heraus. Klingbeil hat noch nicht gesagt, ob er wieder antritt. Mehrere Minister und Fraktionschef Matthias Miersch unterstützen aber Klingbeil. Sie wollen keinen schnellen Wechsel an der Spitze.",
+    "enjeux": "Der Machtkampf zeigt die großen Probleme der SPD. Die Partei verliert seit Monaten viele Wähler. In der Koalition mit der Union muss die SPD harte Kompromisse machen. Viele Mitglieder sind unzufrieden mit der sozialen Politik. Ein offener Streit könnte auch die Bundesregierung schwächen."
+   },
+   "vocab": [
+    ["der Parteivorsitz", "la présidence du parti", "Heil bewirbt sich im Januar um den Parteivorsitz."],
+    ["herausfordern", "défier", "Ein Ex-Minister will den Vizekanzler im Januar herausfordern."],
+    ["der Parteitag (-e)", "le congrès du parti", "Die Mitglieder wählen die neue Führung auf dem Parteitag."],
+    ["der Fürsprecher (-)", "le partisan / le soutien", "Klingbeil hat viele Fürsprecher in der Regierung."],
+    ["die Kampfkandidatur (-en)", "la candidature concurrente / le duel", "Eine Kampfkandidatur zeigt oft tiefe Risse in einer Partei."],
+    ["die Koalition (-en)", "la coalition", "Streit in der SPD belastet die ganze Koalition."]
+   ],
+   "sujets": [
+    "Warum befindet sich die SPD in einer tiefen Krise?",
+    "Kann ein neuer Parteichef die SPD wieder stärken?"
+   ]
+  },
+  {
+   "id": "2026-11-15-allemand-3",
+   "matiere": "allemand",
+   "source": "FAZ",
+   "url": "https://www.faz.net/aktuell/wirtschaft/marie-jaroni-thyssenkrupp-steel-auf-dem-weg-zum-gruenen-stahlwerk-accg-201668866.html",
+   "minutes": 3,
+   "titre": "Thyssenkrupp Steel défend la décarbonation sans désindustrialisation",
+   "faits": "Dans un entretien à la FAZ publié le 15 novembre, Marie Jaroni, dirigeante de Thyssenkrupp Steel, détaille la stratégie de transition du premier sidérurgiste allemand. Le groupe construit à Duisbourg, pour environ 3 milliards d'euros, la plus grande installation allemande de réduction directe pour produire de l'acier vert, d'abord au gaz naturel puis à l'hydrogène. Dans un premier temps, seul un quart des capacités sera converti, tandis que les trois quarts restants continueront à produire de l'acier conventionnel. Marie Jaroni plaide pour le maintien du marché européen du carbone tout en demandant de contenir les coûts du CO2 afin d'éviter la fuite de l'industrie hors d'Europe.",
+   "enjeux": "Ce témoignage illustre le dilemme de l'**industrie lourde** allemande entre impératif climatique et **compétitivité internationale**. La transformation vers l'**acier vert** exige des investissements colossaux et une énergie abordable, alors que les producteurs européens affrontent la concurrence asiatique. Pour la sidérurgie allemande, l'enjeu est d'éviter une **fuite de carbone** qui délocaliserait les usines sans réduire les émissions mondiales.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Ausblick_--_2024_--_4241.jpg/1280px-Duisburg%2C_Landschaftspark_Duisburg-Nord%2C_Hochofen_5%2C_Ausblick_--_2024_--_4241.jpg",
+    "alt": "Site sidérurgique à Duisbourg dans la Ruhr",
+    "credit": "Dietmar Rabich / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Duisburg,_Landschaftspark_Duisburg-Nord,_Hochofen_5,_Ausblick_--_2024_--_4241.jpg"
+   },
+   "vo": {
+    "titre": "Thyssenkrupp Steel baut grüne Stahlwerke in Duisburg",
+    "faits": "Thyssenkrupp Steel will seine Produktion Schritt für Schritt klimafreundlich machen. In Duisburg baut die Firma eine neue Anlage für drei Milliarden Euro. Dort soll später grüner Stahl mit Wasserstoff entstehen. Zuerst wird aber nur ein Viertel der Produktion umgestellt. Drei Viertel der Werke arbeiten weiter mit alter Technik. Chefin Marie Jaroni sagt, die CO2-Kosten dürfen nicht zu hoch steigen.",
+    "enjeux": "Die deutsche Stahlindustrie steht vor einer schweren Aufgabe. Sie muss weniger CO2 ausstoßen und gleichzeitig im Wettbewerb bleiben. Wenn grüner Stahl zu teuer wird, wandern Firmen aus Europa ab. Das hilft dem Klima am Ende nicht. Deutschland braucht deshalb bezahlbare Energie für seine Industrie."
+   },
+   "vocab": [
+    ["der Stahlhersteller (-)", "le producteur d'acier / le sidérurgiste", "Der größte Stahlhersteller Deutschlands investiert in Duisburg."],
+    ["klimaneutral", "neutre pour le climat", "Bis 2045 will das Unternehmen klimaneutral produzieren."],
+    ["der Wasserstoff", "l'hydrogène", "Für grünen Stahl braucht die Industrie sehr viel Wasserstoff."],
+    ["wettbewerbsfähig", "compétitif", "Die Werke müssen auf dem Weltmarkt wettbewerbsfähig bleiben."],
+    ["umstellen auf", "convertir à / passer à", "Die Fabrik kann nicht sofort auf neue Technik umstellen."],
+    ["der Emissionshandel", "le marché des quotas d'émission", "Der europäische Emissionshandel macht schmutzige Produktion teurer."]
+   ],
+   "sujets": [
+    "Wie bleibt die deutsche Stahlindustrie beim Klimaschutz wettbewerbsfähig?",
+    "Braucht Deutschland mehr Staatshilfe für grünen Stahl?"
+   ]
+  },
+  {
+   "id": "2026-11-15-allemand-4",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/politik/deutschland/kita-staedtetag-warnt-vor-qualitaetsverlust-durch-neues-startchancengesetz-a-b36952d9-c7fa-4c96-96de-7f549279a26d",
+   "minutes": 3,
+   "titre": "Crèches : les villes allemandes s'opposent au gouvernement fédéral sur le financement",
+   "faits": "Le 15 novembre, Der Spiegel rapporte les critiques de l'Association des villes allemandes (Deutscher Städtetag) contre le projet de loi fédéral sur les crèches (*Kita-Startchancengesetz*). Le texte prévoit d'évaluer dès l'âge de quatre ans le niveau linguistique et le développement des enfants, et de renforcer le personnel dans les structures accueillant des publics défavorisés. À partir de 2029, des tests de langue généralisés sont notamment envisagés. Or, le directeur du Städtetag, Christian Schuchardt, accuse l'État fédéral d'imposer de nouvelles obligations aux communes sans fournir les crédits correspondants. Un conflit s'annonce désormais au Bundesrat, la chambre des Länder.",
+   "enjeux": "Ce bras de fer illustre les tensions classiques du **fédéralisme allemand** autour du financement des services publics locaux. Alors que l'éducation préscolaire et la maîtrise de l'allemand sont cruciales pour l'**intégration** et l'**égalité des chances**, les communes subissent déjà de lourds déficits budgétaires. Sans compensation financière de Berlin, les villes redoutent que ces normes supplémentaires n'aggravent la pénurie de personnel et ne fassent baisser la qualité d'accueil.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/20220811_Bundesrat_building_01.jpg/1280px-20220811_Bundesrat_building_01.jpg",
+    "alt": "Le bâtiment du Bundesrat à Berlin",
+    "credit": "Flocci Nivis / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:20220811_Bundesrat_building_01.jpg"
+   },
+   "vo": {
+    "titre": "Städte streiten mit Bund über neue Kita-Regeln",
+    "faits": "Der Deutsche Städtetag kritisiert das neue Kita-Startchancengesetz scharf. Der Bund plant mehr Sprachförderung für Kinder in Kindergärten. Ab 2029 soll es auch Sprachtests für alle Vierjährigen geben. Doch die Städte sagen, sie haben kein Geld dafür. Laut Städtetag fehlen den Kommunen die nötigen Mittel vom Bund. Deshalb droht jetzt ein Streit im Bundesrat.",
+    "enjeux": "Gute Kitas sind sehr wichtig für die Chancengleichheit in Deutschland. Viele Kinder lernen dort früh Deutsch. Aber im deutschen Föderalismus zahlen oft die Städte für die Aufgaben. Wenn Berlin neue Gesetze macht, brauchen die Kommunen mehr Geld. Sonst sinkt die Qualität in den Kitas noch weiter."
+   },
+   "vocab": [
+    ["die Kita (-s)", "la crèche / l'école maternelle", "In vielen Städten fehlen Plätze in der Kita."],
+    ["die Sprachförderung", "le soutien linguistique", "Frühe Sprachförderung hilft Kindern vor der Einschulung."],
+    ["die Kommune (-n)", "la commune / la collectivité locale", "Viele Kommunen haben heute hohe Schulden."],
+    ["der Qualitätsverlust (-e)", "la perte de qualité", "Ohne mehr Personal droht den Kitas ein Qualitätsverlust."],
+    ["der Bundesrat", "le Bundesrat (chambre des Länder)", "Die Länder können das Gesetz im Bundesrat blockieren."],
+    ["die Chancengleichheit", "l'égalité des chances", "Bildung am Lebensanfang ist entscheidend für die Chancengleichheit."]
+   ],
+   "sujets": [
+    "Wer soll in Deutschland für bessere Kitas bezahlen?",
+    "Macht der Föderalismus die deutsche Bildungspolitik zu kompliziert?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "C'est quoi la TVA sociale ?",
+   "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/cest-quoi-la-tva-sociale-2262650",
+   "pourquoi": "Décryptage clair du transfert des cotisations sociales vers la TVA pour articuler **compétitivité-prix** des entreprises, pouvoir d'achat et financement de la **protection sociale** en dissertation."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Retraites : indexation des pensions et suppression de l'abattement de 10 %, les pistes du Sénat",
+   "url": "https://www.lesechos.fr/patrimoine/retraite/retraites-indexation-des-pensions-et-suppression-de-labattement-de-10-les-pistes-du-senat-2262622",
+   "pourquoi": "Exemples concrets des arbitrages sur les **dépenses sociales** et l'**équité intergénérationnelle** dans la réduction du déficit public."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "« Des hausses de coûts à trois chiffres » : l'automobile percutée par une flambée d'inflation due à l'IA",
+   "url": "https://www.lesechos.fr/industrie-services/automobile/des-hausses-de-couts-a-trois-chiffres-lautomobile-percutee-par-une-flambee-dinflation-due-a-lia-2262574",
+   "pourquoi": "Illustre comment la demande massive des data centers d'IA en **semi-conducteurs** crée un **choc d'offre** et de coûts pour les autres filières industrielles."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« Les citoyens s’apprêtent à n’être qu’une simple ressource gérée par des patrons de la tech tels que Musk, Thiel et Zuckerberg »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/15/les-citoyens-s-appretent-a-n-etre-qu-une-simple-ressource-geree-par-des-patrons-de-la-tech-tels-que-musk-thiel-et-zuckerberg_6811002_3232.html",
+   "pourquoi": "Réflexion critique sur le **pouvoir de marché** et l'influence politique des géants du numérique dans les démocraties contemporaines."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« Sans les thermes, Royat est morte » : le possible déremboursement des cures thermales menace un modèle déjà fragilisé",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/15/sans-les-thermes-royat-est-morte-le-possible-deremboursement-des-cures-thermales-menace-un-modele-deja-fragilise_6811001_3234.html",
+   "pourquoi": "Étude de cas sur les effets économiques et territoriaux de la **rationalisation des dépenses de santé** sur l'emploi local."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Lunettes connectées : « Où est donc l’Europe, qui aime tant se présenter comme la championne mondiale de la protection de la vie privée ? »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/14/lunettes-connectees-ou-est-donc-l-europe-qui-aime-tant-se-presenter-comme-la-championne-mondiale-de-la-protection-de-la-vie-privee_6810448_3232.html",
+   "pourquoi": "Analyse les limites de la **régulation européenne** face aux innovations des plateformes américaines et au déficit de souveraineté numérique."
+  }
+ ]
+}

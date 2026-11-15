@@ -4997,6 +4997,206 @@
           ]
         }
       ]
+    },
+    {
+      "id": "decrochage-productivite-europe",
+      "nom": "Décrochage européen et érosion de la productivité",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "2025",
+      "auteur": "François Bourguignon",
+      "accroche": "L'écart de revenu par habitant entre les États-Unis et l'Europe atteint 25 %, principalement à cause d'une productivité européenne qui s'érode, surtout dans les pays fondateurs.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**François Bourguignon**, *Croissance européenne et croissance américaine : le décrochage* (2025).",
+            "Après les Trente Glorieuses, l'Europe de l'Ouest avait presque rattrapé le niveau de productivité américain dans les années 1990. Depuis le début des années 2000, et plus encore après la crise de 2008 et les chocs énergétiques des années 2020, la **divergence** s'est creusée."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**Moins d'investissement immatériel** : les entreprises européennes investissent moins dans la R&D, le numérique et l'IA que les firmes américaines.",
+            "**Fragmentation du marché unique** : les barrières réglementaires et financières empêchent les champions européens d'atteindre la taille critique.",
+            "**Érosion de la productivité globale des facteurs (PGF)** : les gains d'efficacité ralentissent, tirant vers le bas la croissance potentielle.",
+            "**Écart de niveau de vie** : le PIB par habitant européen décroche d'environ 25 % par rapport aux États-Unis, limitant les marges budgétaires pour financer la défense, le climat et le modèle social."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le ralentissement français et européen n'est pas seulement conjoncturel : c'est un problème d'**offre** et de **productivité**. Sans réformes du marché unique, sans union des marchés de capitaux et sans hausse de l'investissement privé et public dans l'innovation, les pays européens peinent à financer leurs dépenses publiques croissantes."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le rapport Draghi (2024)",
+              "d": "Mario Draghi chiffre à **750 à 800 milliards d'euros** par an les besoins d'investissement supplémentaires pour éviter le déclassement européen."
+            },
+            {
+              "t": "Philippe Aghion (frontière technologique)",
+              "d": "Une économie proche de la **frontière technologique** doit passer d'une économie d'imitation à une économie d'**innovation de rupture**, ce qui exige des universités fortes et du capital-risque."
+            },
+            {
+              "t": "L'écart intra-européen",
+              "d": "Le décrochage touche surtout les **pays fondateurs** (France, Allemagne, Italie), tandis que certains pays d'Europe du Sud ou de l'Est (Espagne, Pologne) connaissent une dynamique plus favorable."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Comparer le seul PIB par habitant masque des choix sociaux différents : les Européens travaillent moins d'heures par an que les Américains, bénéficient d'une espérance de vie plus longue, d'inégalités plus faibles et d'une protection sociale plus étendue. La **productivité horaire** reste élevée dans plusieurs pays européens, même si le volume de travail et l'innovation de rupture font défaut."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le débat budgétaire en France",
+              "d": "Une croissance faible réduit mécaniquement les recettes fiscales et rend plus difficile la réduction du déficit public."
+            },
+            {
+              "t": "La concurrence États-Unis / UE sur l'IA",
+              "d": "L'avance américaine dans les semi-conducteurs et les modèles d'IA illustre le coût de la fragmentation financière européenne."
+            },
+            {
+              "t": "L'avenir du modèle social européen",
+              "d": "Sans gains de productivité, le vieillissement démographique et la transition écologique exercent une pression accrue sur les prélèvements obligatoires."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Philippe Aghion et Peter Howitt",
+              "idee": "à la frontière technologique, seule l'innovation de rupture soutient la croissance"
+            },
+            {
+              "sens": "=",
+              "nom": "Robert Solow (1957)",
+              "idee": "à long terme, la croissance vient surtout de la productivité globale des facteurs"
+            },
+            {
+              "sens": "≠",
+              "nom": "Kate Raworth (théorie du donut)",
+              "idee": "le PIB par habitant ne mesure ni la soutenabilité écologique ni le bien-être social"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "piege-milieu-de-gamme",
+      "nom": "Piège du milieu de gamme et limites des relocalisations",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "2020",
+      "auteur": "Patrick Artus",
+      "accroche": "La France est coincée dans le milieu de gamme : relocaliser des productions de bas de gamme est économiquement illusoire, seule la montée en gamme restaure la compétitivité.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Patrick Artus**, *« Faut-il attendre une vague de relocalisations en France ? »* (2020), prolongé par les travaux d'**Emmanuel Combe** sur le piège du milieu de gamme.",
+            "Après la crise du Covid-19 et les ruptures d'approvisionnement, le thème de la **relocalisation** industrielle s'est imposé dans le débat public français. Patrick Artus montre pourquoi les relocalisations massives restent rares."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**Coût du travail élevé** : les pays développés comme la France ne peuvent pas concurrencer les pays émergents sur les biens standardisés à faible contenu technologique.",
+            "**Étau du milieu de gamme** : la France est concurrencée par le bas sur les prix (Chine, pays d'Asie) et par le haut sur la qualité et l'innovation (Allemagne, États-Unis).",
+            "**Illusion du bas de gamme** : relocaliser des biens courants sans automatisation ni différenciation entraîne une hausse des prix ou une perte de pouvoir d'achat.",
+            "**Montée en gamme nécessaire** : seule l'innovation, la qualité et la **compétitivité hors-prix** (comme dans le luxe ou l'aéronautique) permettent de produire rentable en France."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "En dissertation sur la **désindustrialisation**, le **commerce international** ou le **protectionnisme**, cette analyse évite les réponses simplistes : produire localement ne suffit pas si la spécialisation reste bloquée sur des produits facilement imitables. L'enjeu est d'investir dans le capital humain, la robotisation et la R&D pour déplacer la spécialisation vers le haut de gamme."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Emmanuel Combe",
+              "d": "L'industrie française souffre d'un **positionnement médian** : le très bas prix (hard-discount, plateformes chinoises) et le luxe prospèrent, mais le milieu de gamme s'effrite."
+            },
+            {
+              "t": "Lionel Fontagné (chaînes de valeur)",
+              "d": "Dans les **chaînes de valeur mondiales**, il faut souvent **importer pour exporter** : couper les importations renchérit les intrants des usines nationales."
+            },
+            {
+              "t": "Barlet, Blanchet et Crusson (INSEE, 2010)",
+              "d": "Les délocalisations détruisent environ **36 000 emplois par an** en France, mais l'ouverture commerciale en crée environ **40 000** dans les secteurs exportateurs."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La logique purement marchande ignore les enjeux de **souveraineté** et de **résilience** : pour des biens stratégiques (médicaments, semi-conducteurs, énergie, défense), un surcoût de production locale peut être accepté comme une prime d'assurance contre les chocs géopolitiques. De plus, l'automatisation et la baisse des coûts énergétiques peuvent rendre certaines relocalisations compétitives."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le Salon du Made in France",
+              "d": "Les PME françaises cherchent à prouver qu'une production locale peut être proposée « au juste prix » en misant sur la durabilité et le circuit court."
+            },
+            {
+              "t": "La crise automobile européenne",
+              "d": "Les constructeurs généralistes subissent la concurrence chinoise sur l'électrique d'entrée et de milieu de gamme."
+            },
+            {
+              "t": "Les plans de réindustrialisation (France 2030)",
+              "d": "Les subventions ciblent les secteurs de pointe (batteries, hydrogène, IA) plutôt que les industries traditionnelles de main-d'œuvre."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Michael Porter",
+              "idee": "la compétitivité durable des pays développés repose sur la différenciation et l'innovation (hors-prix)"
+            },
+            {
+              "sens": "=",
+              "nom": "David Ricardo (1817)",
+              "idee": "chaque pays doit se spécialiser là où son avantage comparatif est le plus fort"
+            },
+            {
+              "sens": "≠",
+              "nom": "Friedrich List (1841)",
+              "idee": "une protection temporaire peut aider à reconstruire une base industrielle nationale"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
