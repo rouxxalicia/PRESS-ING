@@ -51,6 +51,86 @@
    "nom": "L'humanité à l'épreuve de la technique"
   },
   {
+   "id": "posthumanisme",
+   "nom": "Posthumanisme et transhumanisme",
+   "dossier": {
+    "chapo": "Deux courants qui veulent en finir avec l'homme tel qu'il est, l'un en effaçant ses frontières, l'autre en le dépassant par la technique. Ils obligent à se demander si l'humanité est un donné à protéger ou une limite à franchir.",
+    "blocs": [
+     {
+      "titre": "Le point commun",
+      "type": "texte",
+      "paras": [
+       "Les deux courants discréditent l'**humanisme**, né à la Renaissance, qui accorde à l'homme une valeur irréductible et lui fixe un idéal de liberté et de progrès guidé par la raison. Ils annoncent un **homme nouveau, augmenté** : sans vieillissement ni maladie, peut-être sans mort (nanomédecine, téléchargement de l'esprit), aux capacités démultipliées (exosquelettes, interfaces cerveau-machine). Dans les deux cas, la frontière entre l'homme et la machine se brouille. La différence tient au préfixe : *post*, ce qui vient après ; *trans*, ce qui va au-delà."
+      ]
+     },
+     {
+      "titre": "Le posthumanisme : après l'homme",
+      "type": "texte",
+      "paras": [
+       "Le posthumanisme estime que l'humanisme a fait son temps et veut **défaire les grands dualismes** qui structurent notre pensée : homme/animal et homme/machine. L'homme y devient un vivant parmi les vivants, à l'échelle de la planète, et peut s'hybrider avec la technique : c'est l'idéal du **cyborg** (Donna Haraway).",
+       "Ce double brouillage conduit à abandonner l'**anthropocentrisme**, d'où sa proximité avec l'antispécisme et l'animalisme. C'est un **anti-humanisme, pas une anti-humanité** : il ne veut pas supprimer les hommes, mais en finir avec l'idée qu'ils ont une valeur à part. Et si l'homme n'a plus de dignité qui fasse barrière, rien n'interdit non plus de le transformer."
+      ]
+     },
+     {
+      "titre": "Le transhumanisme : au-delà de l'homme",
+      "type": "texte",
+      "paras": [
+       "Le transhumanisme **garde la distinction homme/animal** et se concentre sur l'homme, surtout sur son cerveau, qu'il veut améliorer jusqu'à le fusionner avec la machine. Il ne nie pas la valeur de l'humanité : il veut aller au-delà de l'humanisme grâce à la technique (Kurzweil, Bostrom).",
+       "Il est **technolâtre** et croit en un progrès exponentiel : on peut y voir la logique de croissance du capitalisme appliquée au corps et à l'esprit. Il se présente comme le prolongement de la **perfectibilité** des Lumières (Rousseau, Mill), mais c'est une manière intéressée de se donner une légitimité historique."
+      ]
+     },
+     {
+      "titre": "Pourquoi cette tentation ?",
+      "type": "texte",
+      "paras": [
+       "**Jean-Michel Besnier**, dans *Demain les posthumains* (2009), y voit moins un projet de puissance qu'une **lassitude** : l'homme moderne, épuisé de devoir sans cesse se construire (la « fatigue d'être soi » d'Alain Ehrenberg), et humilié par la perfection de ses machines (la « honte prométhéenne » d'Anders), préfère s'en remettre à la technique. Le posthumain naît d'une **mésestime de soi**.",
+       "Le mythe donne l'autre face : comme dans la *Genèse*, l'homme qui touche à une connaissance divine risque la chute. D'où une double attitude, fascination et inquiétude."
+      ]
+     },
+     {
+      "titre": "Les objections",
+      "type": "cartes",
+      "items": [
+       {
+        "t": "La fragilité fait l'humain",
+        "d": "Nos limites ne sont pas un défaut à corriger : la conscience de la mort fonde la dignité (Pascal) et donne sens à nos choix. Supprimer la finitude, c'est supprimer ce qui oblige à vivre bien."
+       },
+       {
+        "t": "Le fantasme de l'homme sans faiblesse",
+        "d": "Le rêve d'un homme métallique, purgé de toute faiblesse, était déjà celui des futuristes, et Besnier rappelle qu'il a fasciné les fascistes (voir Boccioni)."
+       },
+       {
+        "t": "L'homme devenu produit",
+        "d": "Si l'idée d'Homme ne fait plus barrière, l'humain devient fabricable et achetable sur mesure : la logique de consommation s'étend au vivant (Besnier ; voir Gattaca)."
+       },
+       {
+        "t": "Responsabilité envers l'avenir",
+        "d": "Jonas demande de préserver les conditions d'une vie authentiquement humaine pour les générations futures plutôt que de les sacrifier à une promesse technique."
+       }
+      ]
+     },
+     {
+      "titre": "Le piège de la déconstruction",
+      "type": "texte",
+      "paras": [
+       "Si l'homme n'a pas d'essence (Sartre : l'existence précède l'essence), rien ne s'oppose à ce qu'on le remodèle. Besnier montre que la philosophie qui a déconstruit le Sujet pour libérer l'homme a aussi fourni un **alibi** aux transhumanistes. C'est un bon renversement pour une troisième partie : nier toute nature humaine peut désarmer l'humanité au lieu de l'émanciper."
+      ]
+     },
+     {
+      "titre": "Où le placer",
+      "type": "etapes",
+      "items": [
+       "La technique menace-t-elle l'humanité ? : le cœur du sujet.",
+       "Y a-t-il une nature humaine ? : si non, peut-on tout modifier ?",
+       "La vulnérabilité est-elle le propre de l'homme ? : le transhumanisme veut l'abolir.",
+       "Devons-nous quelque chose aux générations futures ? : Jonas contre la fuite en avant.",
+       "L'homme est-il un animal comme les autres ? : le posthumanisme répond oui, le transhumanisme non."
+      ]
+     }
+    ]
+   }
+  },
+  {
    "id": "unite",
    "nom": "L'unité et la diversité de l'humanité"
   },
@@ -172,7 +252,8 @@
    "sous": "De la dignité de l'homme (1486)",
    "enjeux": [
     "dignite",
-    "nature-humaine"
+    "nature-humaine",
+    "posthumanisme"
    ]
   },
   {
@@ -244,7 +325,8 @@
    "titre": "Sartre",
    "sous": "L'existentialisme est un humanisme (1946)",
    "enjeux": [
-    "nature-humaine"
+    "nature-humaine",
+    "posthumanisme"
    ]
   },
   {
@@ -263,7 +345,8 @@
    "titre": "Günther Anders",
    "sous": "L'Obsolescence de l'homme (1956)",
    "enjeux": [
-    "technique"
+    "technique",
+    "posthumanisme"
    ]
   },
   {
@@ -274,7 +357,8 @@
    "enjeux": [
     "technique",
     "transmission",
-    "nature"
+    "nature",
+    "posthumanisme"
    ]
   },
   {
@@ -316,7 +400,39 @@
     "nature-humaine",
     "animalite",
     "technique",
-    "unite"
+    "unite",
+    "posthumanisme"
+   ]
+  },
+  {
+   "id": "besnier",
+   "rub": "auteurs",
+   "titre": "Jean-Michel Besnier",
+   "sous": "Demain les posthumains (2009)",
+   "enjeux": [
+    "posthumanisme",
+    "technique",
+    "nature-humaine"
+   ]
+  },
+  {
+   "id": "haraway",
+   "rub": "auteurs",
+   "titre": "Donna Haraway",
+   "sous": "Manifeste cyborg (1985)",
+   "enjeux": [
+    "posthumanisme",
+    "animalite"
+   ]
+  },
+  {
+   "id": "kurzweil",
+   "rub": "auteurs",
+   "titre": "Ray Kurzweil",
+   "sous": "Humanité 2.0 (2005)",
+   "enjeux": [
+    "posthumanisme",
+    "technique"
    ]
   },
   {
@@ -444,7 +560,8 @@
    "enjeux": [
     "technique",
     "exclus",
-    "nature-humaine"
+    "nature-humaine",
+    "posthumanisme"
    ]
   },
   {
@@ -465,7 +582,8 @@
    "sous": "Aldous Huxley · 1932",
    "enjeux": [
     "technique",
-    "nature-humaine"
+    "nature-humaine",
+    "posthumanisme"
    ]
   },
   {
@@ -531,7 +649,8 @@
    "enjeux": [
     "technique",
     "exclus",
-    "mortalite"
+    "mortalite",
+    "posthumanisme"
    ]
   },
   {
@@ -716,7 +835,8 @@
    "enjeux": [
     "technique",
     "nature-humaine",
-    "vulnerabilite"
+    "vulnerabilite",
+    "posthumanisme"
    ]
   },
   {
@@ -757,7 +877,8 @@
    "enjeux": [
     "animalite",
     "technique",
-    "art"
+    "art",
+    "posthumanisme"
    ]
   },
   {
@@ -768,7 +889,8 @@
    "enjeux": [
     "technique",
     "nature-humaine",
-    "mortalite"
+    "mortalite",
+    "posthumanisme"
    ]
   },
   {
@@ -799,7 +921,8 @@
    "sous": "Andrew Niccol · 1997",
    "enjeux": [
     "technique",
-    "exclus"
+    "exclus",
+    "posthumanisme"
    ]
   },
   {
@@ -809,7 +932,8 @@
    "sous": "Spike Jonze · 2013",
    "enjeux": [
     "technique",
-    "autrui"
+    "autrui",
+    "posthumanisme"
    ]
   },
   {
@@ -1492,6 +1616,79 @@
        "sens": "≠",
        "nom": "Jonas, Le Principe responsabilité",
        "idee": "préserver la condition humaine plutôt que la dépasser"
+      }
+     ]
+    }
+   ]
+  },
+  "besnier": {
+   "lieu": "Philosophe français, spécialiste des technosciences",
+   "idee": "Le rêve du posthumain ne vient pas d'un excès d'orgueil mais d'une fatigue : l'homme, lassé d'être soi et humilié par ses machines, voudrait cesser d'être un homme.",
+   "blocs": [
+    {
+     "titre": "L'ouvrage",
+     "type": "texte",
+     "paras": [
+      "**Jean-Michel Besnier**, *Demain les posthumains. Le futur a-t-il encore besoin de nous ?* (2009). Il examine les promesses des technosciences (cyborgs, clonage, téléchargement de l'esprit, convergence nano-bio-info-cogno) et ce qu'elles disent de notre rapport à nous-mêmes."
+     ]
+    },
+    {
+     "titre": "Ce que ça montre",
+     "type": "texte",
+     "paras": [
+      "Le désir de devenir posthumain naît d'une **mésestime de soi**. D'un côté, la « fatigue d'être soi » (Ehrenberg) : épuisé de devoir sans cesse s'affirmer et se construire, l'homme rêve de déléguer ses choix aux machines. De l'autre, la « honte prométhéenne » (Anders) : face à la perfection de ses objets, il a honte d'être simplement né, fragile et mortel.",
+      "Ce désir se voit déjà dans nos échanges : nous parlons aux autres comme à des automates, par mots-clés et sur un plan purement fonctionnel. **Si l'automate peut imiter l'humain, c'est que l'humain s'est d'abord laissé décrire comme un automate.**",
+      "Enfin, la philosophie de la **déconstruction** (pas d'essence de l'homme, pas de Sujet fixe) a servi d'alibi aux technoprophètes : si l'homme n'a pas de nature, rien n'interdit de le remodeler."
+     ]
+    },
+    {
+     "titre": "Trois usages",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La technique menace-t-elle l'humanité ?",
+       "d": "Le danger n'est pas que les machines deviennent humaines, mais que les hommes acceptent de devenir des machines par lassitude."
+      },
+      {
+       "t": "Y a-t-il une nature humaine ?",
+       "d": "Nier toute nature humaine peut se retourner contre l'homme : sans limite reconnue, il devient un produit modifiable et achetable."
+      },
+      {
+       "t": "Peut-on perdre son humanité ?",
+       "d": "Oui, sans violence, en renonçant à ce qui la fait : la conversation, l'humour, l'intériorité, la responsabilité de ses choix."
+      }
+     ]
+    },
+    {
+     "titre": "Limite",
+     "type": "texte",
+     "paras": [
+      "Besnier reconnaît aussi que la technique et la transgression font partie de l'homme depuis l'outil : refuser toute augmentation au nom d'une nature sacrée serait une autre impasse. Sa critique vise le désir de fuir sa condition, pas la technique elle-même."
+     ]
+    },
+    {
+     "titre": "Liens",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Anders, L'Obsolescence de l'homme",
+       "idee": "la honte d'être né plutôt que fabriqué"
+      },
+      {
+       "sens": "=",
+       "nom": "Boccioni et le futurisme",
+       "idee": "le rêve d'un homme métallique sans faiblesse"
+      },
+      {
+       "sens": "≠",
+       "nom": "Kurzweil, Humanité 2.0",
+       "idee": "dépasser nos limites est le propre de l'homme, il n'y a rien à regretter"
+      },
+      {
+       "sens": "≠",
+       "nom": "Haraway, Manifeste cyborg",
+       "idee": "brouiller la frontière homme/machine pour défaire les hiérarchies"
       }
      ]
     }

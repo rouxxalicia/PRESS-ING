@@ -323,6 +323,9 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .enjeu-row a { border-bottom: 1px solid var(--line); }
 .enjeu-row a:hover { border-bottom-color: var(--fg); }
 .enjeu-row .sep { color: var(--muted); padding-inline: 6px; }
+.cg-dossier { margin-top: 12px; }
+.dossier-tag { color: var(--accent); margin-left: 8px; white-space: nowrap; }
+.enjeu h2 a:hover { color: var(--accent); }
 .lieu { margin: -6px 0 0; color: var(--muted); font-size: 13.5px; }
 @media (min-width: 820px) { .cg-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 48px; } }
 @media (max-width: 520px) { .enjeu-row { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
@@ -607,16 +610,26 @@ nav.bottom a[aria-current="page"] { box-shadow: inset 0 2px 0 var(--accent); }
     if (!parts.length) {
       let h = '<div class="narrow">' + back("#referentiel", "Référentiel") + '<div class="cg-head"><span class="label muted">Culture générale · ' + esc(cg.annee) + '</span><h1>' + esc(cg.theme) + '</h1><p>Le thème de l\'année, référence par référence : ce qu\'il faut savoir décrire, ce que ça montre, et où le placer dans une copie.</p></div>';
       h += '<div class="cg-grid">' + cg.rubriques.map((r, i) => { const n = cg.refs.filter(x => x.rub === r.id).length; return '<a class="cg-tile" href="#cg/' + r.id + '"><span class="n">' + ["I","II","III","IV","V","VI"][i] + '</span><span class="t">' + esc(r.nom) + '<span class="d">' + esc(r.desc) + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div>';
-      h += '<a class="cg-enjeux" href="#cg/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>Les références par enjeu</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + ' grands enjeux du thème</span></span><span class="label">→</span></a></div>';
+      h += '<a class="cg-enjeux" href="#cg/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>Les références par enjeu</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + ' grands enjeux du thème</span></span><span class="label">→</span></a>' +
+        cg.enjeux.filter(e => e.dossier).map(e => '<a class="cg-enjeux cg-dossier" href="#cg/e/' + e.id + '"><span><span class="label muted">Dossier</span><strong>' + esc(e.nom) + '</strong><span class="muted" style="font-size:14px">Les notions, les auteurs, les objections</span></span><span class="label">→</span></a>').join("") + '</div>';
       app.innerHTML = h; return;
     }
     if (parts[0] === "enjeux") {
       const rubs = cg.rubriques.filter(r => r.id !== "dissertations");
       let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">Partir d\'un sujet</span><h1>Les références par enjeu</h1></div>';
       h += cg.enjeux.map(e => { const rs = cg.refs.filter(x => (x.enjeux || []).includes(e.id));
-        return '<section class="enjeu"><h2>' + esc(e.nom) + '</h2>' + rubs.map(r => { const l = rs.filter(x => x.rub === r.id); return l.length ? '<div class="enjeu-row"><span class="label muted">' + esc(r.nom.replace(/^Les /, "")) + '</span><span>' + l.map(x => '<a href="#cg/f/' + x.id + '">' + esc(x.titre) + '</a>').join('<span class="sep">·</span>') + '</span></div>' : ""; }).join("") +
+        return '<section class="enjeu"><h2>' + (e.dossier ? '<a href="#cg/e/' + e.id + '">' + esc(e.nom) + ' <span class="label dossier-tag">Dossier →</span></a>' : esc(e.nom)) + '</h2>' + rubs.map(r => { const l = rs.filter(x => x.rub === r.id); return l.length ? '<div class="enjeu-row"><span class="label muted">' + esc(r.nom.replace(/^Les /, "")) + '</span><span>' + l.map(x => '<a href="#cg/f/' + x.id + '">' + esc(x.titre) + '</a>').join('<span class="sep">·</span>') + '</span></div>' : ""; }).join("") +
           (rs.some(x => x.rub === "dissertations") ? '<div class="enjeu-row"><span class="label muted">Sujets</span><span>' + rs.filter(x => x.rub === "dissertations").map(x => esc(x.titre)).join('<span class="sep">·</span>') + '</span></div>' : "") + '</section>'; }).join("");
       app.innerHTML = h + '</div>'; return;
+    }
+    if (parts[0] === "e") {
+      const e = cg.enjeux.find(x => x.id === parts[1]);
+      if (!e) { location.hash = "cg/enjeux"; return; }
+      const rs = cg.refs.filter(x => (x.enjeux || []).includes(e.id) && x.rub !== "dissertations");
+      let h = '<div class="narrow">' + back("#cg/enjeux", "Les enjeux") + '<article class="card"><span class="label muted">Dossier</span><h1>' + esc(e.nom) + '</h1>';
+      if (e.dossier) h += '<p class="idee">' + fmt(e.dossier.chapo) + '</p>' + e.dossier.blocs.map(bloc).join("");
+      h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#cg/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
+      app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
     }
     if (parts[0] === "f") {
       const r = cg.refs.find(x => x.id === parts[1]);
