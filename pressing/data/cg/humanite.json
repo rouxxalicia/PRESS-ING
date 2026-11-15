@@ -673,7 +673,12 @@
     "mortalite",
     "vulnerabilite",
     "memoire"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg/1280px-The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "galate",
@@ -685,7 +690,12 @@
     "dignite",
     "civilisation",
     "vulnerabilite"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/The_Dying_Gaul%2C_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze%2C_Capitoline_Museums_%2811340686655%29.jpg/1280px-The_Dying_Gaul%2C_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze%2C_Capitoline_Museums_%2811340686655%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Dying_Gaul,_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze,_Capitoline_Museums_(11340686655).jpg",
+    "credit": "Photo Wikimedia Commons, CC BY-SA 2.0"
+   }
   },
   {
    "id": "durer",
@@ -695,7 +705,12 @@
    "enjeux": [
     "nature-humaine",
     "animalite"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg/1280px-Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Adam_and_Eve_(Prado)_2.jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "gentileschi",
@@ -705,7 +720,12 @@
    "enjeux": [
     "deshumanisation",
     "exclus"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Judith_Slaying_Holofernes_by_Artemisia_Gentileschi.jpg/1280px-Judith_Slaying_Holofernes_by_Artemisia_Gentileschi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Judith_Slaying_Holofernes_by_Artemisia_Gentileschi.jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "poussin",
@@ -715,7 +735,12 @@
    "enjeux": [
     "vulnerabilite",
     "exclus"
-   ]
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/La_Peste_d%27Asdod_-_1630-1631_-_Nicolas_Poussin_-_Louvre_-_INV_7276_%3B_MR_2312.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Peste_d%27Asdod_-_1630-1631_-_Nicolas_Poussin_-_Louvre_-_INV_7276_;_MR_2312.jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "michel-ange",
@@ -726,7 +751,12 @@
     "dignite",
     "nature-humaine",
     "art"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1280px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelangelo_-_Creation_of_Adam_(cropped).jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "goya",
@@ -737,7 +767,12 @@
     "deshumanisation",
     "dignite",
     "memoire"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "gericault",
@@ -748,7 +783,12 @@
     "vulnerabilite",
     "civilisation",
     "exclus"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/1280px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "guernica",
@@ -759,7 +799,8 @@
     "deshumanisation",
     "memoire",
     "art"
-   ]
+   ],
+   "voir": "https://www.google.com/search?tbm=isch&q=Guernica+Pablo+Picasso"
   },
   {
    "id": "giacometti",
@@ -770,7 +811,8 @@
     "vulnerabilite",
     "nature-humaine",
     "art"
-   ]
+   ],
+   "voir": "https://www.google.com/search?tbm=isch&q=L'Homme+qui+marche+Alberto+Giacometti"
   },
   {
    "id": "piero",
@@ -781,7 +823,12 @@
     "animalite",
     "nature-humaine",
     "technique"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/A_Hunting_Scene_MET_DT6.jpg/1280px-A_Hunting_Scene_MET_DT6.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Hunting_Scene_MET_DT6.jpg",
+    "credit": "Domaine public (Metropolitan Museum)"
+   }
   },
   {
    "id": "rembrandt-deijman",
@@ -792,7 +839,12 @@
     "dignite",
     "exclus",
     "nature-humaine"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Rembrandt_-_Anatomische_les_van_Dr._Jan_Deijman.jpg/1280px-Rembrandt_-_Anatomische_les_van_Dr._Jan_Deijman.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_Anatomische_les_van_Dr._Jan_Deijman.jpg",
+    "credit": "Domaine public"
+   }
   },
   {
    "id": "nussbaum",
@@ -803,7 +855,8 @@
     "exclus",
     "dignite",
     "unite"
-   ]
+   ],
+   "voir": "https://www.google.com/search?tbm=isch&q=Le+Réfugié+(Vision+européenne)+Felix+Nussbaum"
   },
   {
    "id": "tooker",
@@ -814,7 +867,8 @@
     "autrui",
     "technique",
     "deshumanisation"
-   ]
+   ],
+   "voir": "https://www.google.com/search?tbm=isch&q=The+Subway+George+Tooker"
   },
   {
    "id": "music",
@@ -825,7 +879,8 @@
     "deshumanisation",
     "memoire",
     "art"
-   ]
+   ],
+   "voir": "https://www.google.com/search?tbm=isch&q=Nous+ne+sommes+pas+les+derniers+Zoran+Mušič"
   },
   {
    "id": "boccioni",
@@ -837,7 +892,12 @@
     "nature-humaine",
     "vulnerabilite",
     "posthumanisme"
-   ]
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Unique_Forms_of_Continuity_in_Space_MET_DT6411.jpg/1280px-Unique_Forms_of_Continuity_in_Space_MET_DT6411.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Unique_Forms_of_Continuity_in_Space_MET_DT6411.jpg",
+    "credit": "Domaine public (Metropolitan Museum)"
+   }
   },
   {
    "id": "ruban-blanc",

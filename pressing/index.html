@@ -351,6 +351,10 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .enjeu-row a:hover, .cg-tile:hover .t, .list-row:hover .t, .cg-ref:hover .t, .lead:hover h3, .small:hover h3, .row:hover h2 { color: var(--accent); }
 .g-n span { color: var(--accent); }
 
+.oeuvre { margin: 0 0 4px; display: flex; flex-direction: column; gap: 8px; }
+.oeuvre img { display: block; width: 100%; max-height: 70vh; object-fit: contain; background: var(--soft); border-radius: 14px; }
+.oeuvre .credit { margin: 0; }
+.cg-ref .mini { width: 34px; height: 34px; object-fit: cover; border-radius: 6px; align-self: center; }
 .ref-suppr { padding-top: 24px; margin-top: 8px; border-top: 1px solid var(--line); }
 .sec.supprime { opacity: .6; }
 .edit-bar button.ed-del:hover { color: var(--accent); }
@@ -700,7 +704,9 @@ section:first-child > .cat-head { padding-top: 28px; }
       if (!r) { app.innerHTML = '<div class="empty narrow"><p>Référence introuvable.</p><a class="btn label" href="#cg">Retour</a></div>'; return; }
       const f = (cg.fiches || {})[r.id];
       let h = '<div class="narrow">' + back("#cg/" + r.rub, rubNom(r.rub)) + '<article class="card">';
+      if (r.image && /^https:\/\//.test(r.image.url)) h += '<figure class="oeuvre"><img src="' + esc(r.image.url) + '" alt="' + esc(r.titre) + '" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'figure\').remove()"><figcaption class="credit"><a href="' + esc(r.image.source) + '" target="_blank" rel="noopener">' + esc(r.image.credit) + '</a></figcaption></figure>';
       h += '<span class="label muted">' + esc(rubNom(r.rub)) + '</span><h1>' + esc(r.titre) + '</h1>';
+      if (r.voir) h += '<a class="label more" href="' + esc(r.voir) + '" target="_blank" rel="noopener" style="align-self:flex-start">Voir l\'œuvre ↗</a>';
       if (r.sous) h += '<p class="lieu">' + esc(r.sous) + (f && f.lieu ? '<br>' + esc(f.lieu) : '') + '</p>';
       if (f) { h += '<p class="idee">' + fmt(f.idee) + '</p>' + f.blocs.map(bloc).join(""); }
       else h += '<div class="empty" style="padding-block:24px"><p>La fiche n\'est pas encore rédigée.</p><p class="muted">Elle arrive au fil des semaines.</p></div>';
@@ -713,7 +719,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     if (!rub) { location.hash = "cg"; return; }
     const l = cg.refs.filter(x => x.rub === rub.id);
     let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">' + l.length + ' références</span><h1>' + esc(rub.nom) + '</h1><p class="muted" style="margin:4px 0 0">' + esc(rub.desc) + '</p></div><div style="border-top:1px solid var(--fg)">';
-    h += l.map((x, i) => { const ok = cg.fiches && cg.fiches[x.id]; return (rub.id === "dissertations" ? '<div class="cg-ref">' : '<a class="cg-ref" href="#cg/f/' + x.id + '">') + '<span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span>' + (x.sous ? '<span class="s">' + esc(x.sous) + '</span>' : '') + '</span>' + (rub.id === "dissertations" ? '<span></span></div>' : '<span class="label etat' + (ok ? ' ok' : ' muted') + '">' + (ok ? 'Fiche →' : 'À venir') + '</span></a>'); }).join("");
+    h += l.map((x, i) => { const ok = cg.fiches && cg.fiches[x.id]; return (rub.id === "dissertations" ? '<div class="cg-ref">' : '<a class="cg-ref" href="#cg/f/' + x.id + '">') + (x.image ? '<img class="mini" src="' + esc(x.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '<span class="n">' + pad2(i + 1) + '</span>') + '<span><span class="t">' + esc(x.titre) + '</span>' + (x.sous ? '<span class="s">' + esc(x.sous) + '</span>' : '') + '</span>' + (rub.id === "dissertations" ? '<span></span></div>' : '<span class="label etat' + (ok ? ' ok' : ' muted') + '">' + (ok ? 'Fiche →' : 'À venir') + '</span></a>'); }).join("");
     app.innerHTML = h + '</div></div>';
   }
 
