@@ -321,6 +321,33 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 @media (min-width: 820px) { .cg-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 48px; } }
 @media (max-width: 520px) { .enjeu-row { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
 
+/* Bordeaux */
+:root { --accent: #6b1424; --accent-soft: #f6eced; --accent-fg: #ffffff; }
+:root[data-theme="dark"] { --accent: #d26a7b; --accent-soft: #2a1519; --accent-fg: #0c0c0b; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent: #d26a7b; --accent-soft: #2a1519; --accent-fg: #0c0c0b; } }
+.brand, #gate .g-brand { color: var(--accent); }
+#gate button, .next-btn, .choice:hover, .choice:focus-visible, .btn:hover, .seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.top-nav a[aria-current="page"], nav.bottom a[aria-current="page"] { color: var(--accent); }
+nav.bottom a[aria-current="page"] { box-shadow: inset 0 2px 0 var(--accent); }
+.mag-head, .cat-head, .cg-head { border-bottom-color: var(--accent); }
+.mag-head h2, .cg-head h1, .g-t { color: var(--accent); }
+.num, .sujets li b, .steps li::before, .cg-tile .n, .cg-ref .n, .lien b { color: var(--accent); }
+.sec > h2.label, .cg-ref .etat.ok, .more:hover { color: var(--accent); }
+.lead { background: var(--accent-soft); }
+.lead:hover { background: var(--line); }
+.cg-enjeux { background: var(--accent-soft); }
+.cg-enjeux .label:last-child { color: var(--accent); }
+.prog { background: var(--accent-soft); border-left: 2px solid var(--accent); }
+.pill { border-color: var(--accent); color: var(--accent); }
+.fav-btn, .anki-btn { border-color: var(--accent); color: var(--accent); }
+.idee { border-left: 2px solid var(--accent); padding-left: 16px; }
+.search { border-bottom-color: var(--accent); }
+.enjeu-row a:hover, .cg-tile:hover .t, .list-row:hover .t, .cg-ref:hover .t, .lead:hover h3, .small:hover h3, .row:hover h2 { color: var(--accent); }
+.hub-bg i:nth-child(1) { background: radial-gradient(circle at 40% 40%, rgba(107,20,36,.55), transparent 70%); }
+.hub-bg i:nth-child(2) { background: radial-gradient(circle, #e2c7c5, transparent 70%); }
+.hub-bg i:nth-child(3) { background: radial-gradient(circle, rgba(140,40,55,.35), transparent 70%); }
+.g-n span { color: var(--accent); }
+
 @media (min-width: 1000px) {
   .top-nav { display: flex; grid-column: 1; grid-row: 1; }
   nav.bottom { display: none; }
