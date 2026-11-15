@@ -5,7 +5,7 @@
   {
    "id": "auteurs",
    "nom": "Les auteurs",
-   "desc": "Les penseurs du thème, avec leurs ouvrages. « Cours » = cité dans ton cours."
+   "desc": "Les penseurs du thème, tirés de tes cours de philo et de lettres."
   },
   {
    "id": "poemes",
@@ -177,65 +177,6 @@
  ],
  "refs": [
   {
-   "id": "arendt",
-   "rub": "auteurs",
-   "titre": "Hannah Arendt",
-   "sous": "Les Origines du totalitarisme (1951) · Condition de l'homme moderne (1958) · Eichmann à Jérusalem (1963) · Vies politiques (1974)",
-   "enjeux": [
-    "deshumanisation",
-    "nature-humaine",
-    "exclus",
-    "dignite",
-    "memoire"
-   ],
-   "cours": true
-  },
-  {
-   "id": "weil",
-   "rub": "auteurs",
-   "titre": "Simone Weil",
-   "sous": "L'Enracinement (1949) · « La personne et le sacré » (1943)",
-   "enjeux": [
-    "deshumanisation",
-    "vulnerabilite",
-    "autrui",
-    "dignite"
-   ]
-  },
-  {
-   "id": "levinas",
-   "rub": "auteurs",
-   "titre": "Emmanuel Levinas",
-   "sous": "Totalité et Infini (1961) · Éthique et Infini (1982)",
-   "enjeux": [
-    "autrui",
-    "vulnerabilite",
-    "dignite"
-   ]
-  },
-  {
-   "id": "levi-strauss",
-   "rub": "auteurs",
-   "titre": "Claude Lévi-Strauss",
-   "sous": "Race et histoire (1952) · Tristes Tropiques (1955)",
-   "enjeux": [
-    "unite",
-    "civilisation",
-    "animalite"
-   ]
-  },
-  {
-   "id": "foucault",
-   "rub": "auteurs",
-   "titre": "Michel Foucault",
-   "sous": "Histoire de la folie (1961) · Les Mots et les Choses (1966) · Surveiller et punir (1975)",
-   "enjeux": [
-    "exclus",
-    "nature-humaine",
-    "technique"
-   ]
-  },
-  {
    "id": "aristote",
    "rub": "auteurs",
    "titre": "Aristote",
@@ -284,16 +225,6 @@
    "cours": true
   },
   {
-   "id": "hobbes",
-   "rub": "auteurs",
-   "titre": "Hobbes",
-   "sous": "Léviathan (1651)",
-   "enjeux": [
-    "nature-humaine",
-    "civilisation"
-   ]
-  },
-  {
    "id": "rousseau",
    "rub": "auteurs",
    "titre": "Rousseau",
@@ -335,7 +266,8 @@
    "enjeux": [
     "nature-humaine",
     "posthumanisme"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "beauvoir",
@@ -348,26 +280,41 @@
    ]
   },
   {
-   "id": "anders",
+   "id": "arendt",
    "rub": "auteurs",
-   "titre": "Günther Anders",
-   "sous": "L'Obsolescence de l'homme (1956)",
+   "titre": "Hannah Arendt",
+   "sous": "Les Origines du totalitarisme (1951) · Condition de l'homme moderne (1958) · Eichmann à Jérusalem (1963) · Vies politiques (1974)",
    "enjeux": [
-    "technique",
-    "posthumanisme"
+    "deshumanisation",
+    "nature-humaine",
+    "exclus",
+    "dignite",
+    "memoire"
+   ],
+   "cours": true
+  },
+  {
+   "id": "levinas",
+   "rub": "auteurs",
+   "titre": "Emmanuel Levinas",
+   "sous": "Totalité et Infini (1961) · Éthique et Infini (1982)",
+   "enjeux": [
+    "autrui",
+    "vulnerabilite",
+    "dignite"
    ]
   },
   {
-   "id": "jonas",
+   "id": "levi-strauss",
    "rub": "auteurs",
-   "titre": "Hans Jonas",
-   "sous": "Le Principe responsabilité (1979)",
+   "titre": "Claude Lévi-Strauss",
+   "sous": "Race et histoire (1952) · Tristes Tropiques (1955)",
    "enjeux": [
-    "technique",
-    "transmission",
-    "nature",
-    "posthumanisme"
-   ]
+    "unite",
+    "civilisation",
+    "animalite"
+   ],
+   "cours": true
   },
   {
    "id": "elias",
@@ -377,6 +324,17 @@
    "enjeux": [
     "civilisation"
    ]
+  },
+  {
+   "id": "anders",
+   "rub": "auteurs",
+   "titre": "Günther Anders",
+   "sous": "L'Obsolescence de l'homme (1956)",
+   "enjeux": [
+    "technique",
+    "posthumanisme"
+   ],
+   "cours": true
   },
   {
    "id": "descola",
@@ -389,16 +347,6 @@
     "unite"
    ],
    "cours": true
-  },
-  {
-   "id": "supiot",
-   "rub": "auteurs",
-   "titre": "Alain Supiot",
-   "sous": "Homo juridicus (2005)",
-   "enjeux": [
-    "dignite",
-    "exclus"
-   ]
   },
   {
    "id": "wolff",
@@ -427,6 +375,30 @@
    "cours": true
   },
   {
+   "id": "nietzsche",
+   "rub": "auteurs",
+   "titre": "Friedrich Nietzsche",
+   "sous": "Ainsi parlait Zarathoustra (1883) · La Généalogie de la morale (1887) · La Volonté de puissance",
+   "enjeux": [
+    "posthumanisme",
+    "nature-humaine",
+    "civilisation"
+   ],
+   "cours": true
+  },
+  {
+   "id": "adorno",
+   "rub": "auteurs",
+   "titre": "Horkheimer et Adorno",
+   "sous": "La Dialectique de la raison (1944)",
+   "enjeux": [
+    "civilisation",
+    "deshumanisation",
+    "technique"
+   ],
+   "cours": true
+  },
+  {
    "id": "haraway",
    "rub": "auteurs",
    "titre": "Donna Haraway",
@@ -449,257 +421,123 @@
    "cours": true
   },
   {
-   "id": "jaures",
+   "id": "erasme",
    "rub": "auteurs",
-   "titre": "Jean Jaurès",
-   "sous": "Éditorial du premier numéro de L'Humanité (1904)",
+   "titre": "Érasme",
+   "sous": "De pueris instituendis (1529) : « On ne naît pas homme, on le devient »",
    "enjeux": [
-    "unite",
+    "nature-humaine",
     "transmission"
    ],
-   "cours": true
+   "cours": true,
+   "source": "lettres"
   },
   {
-   "id": "bentham",
+   "id": "bossuet",
    "rub": "auteurs",
-   "titre": "Jeremy Bentham",
-   "sous": "Introduction aux principes de la morale et de la législation (1789)",
+   "titre": "Bossuet",
+   "sous": "L'homme et l'animal",
    "enjeux": [
-    "animalite",
-    "vulnerabilite"
-   ],
-   "cours": true
-  },
-  {
-   "id": "mill",
-   "rub": "auteurs",
-   "titre": "John Stuart Mill",
-   "sous": "L'Utilitarisme (1863)",
-   "enjeux": [
-    "animalite",
-    "nature-humaine"
-   ],
-   "cours": true
-  },
-  {
-   "id": "ciceron",
-   "rub": "auteurs",
-   "titre": "Cicéron",
-   "sous": "Pro Archia · Des devoirs (De officiis)",
-   "enjeux": [
-    "transmission",
-    "autrui"
-   ],
-   "cours": true
-  },
-  {
-   "id": "terence",
-   "rub": "auteurs",
-   "titre": "Térence",
-   "sous": "Le Bourreau de soi-même (IIe s. av. J.-C.) : « Homo sum… »",
-   "enjeux": [
-    "unite",
-    "autrui"
-   ],
-   "cours": true
-  },
-  {
-   "id": "rabelais",
-   "rub": "auteurs",
-   "titre": "Rabelais",
-   "sous": "Gargantua (1534) : l'éducation humaniste",
-   "enjeux": [
-    "transmission",
-    "nature-humaine"
-   ],
-   "cours": true
-  },
-  {
-   "id": "encyclopedie",
-   "rub": "auteurs",
-   "titre": "Diderot et d'Alembert",
-   "sous": "L'Encyclopédie (1751-1772)",
-   "enjeux": [
-    "unite",
-    "autrui"
-   ],
-   "cours": true
-  },
-  {
-   "id": "darwin",
-   "rub": "auteurs",
-   "titre": "Charles Darwin",
-   "sous": "L'Origine des espèces (1859)",
-   "enjeux": [
-    "animalite",
-    "nature-humaine"
-   ],
-   "cours": true
-  },
-  {
-   "id": "marx",
-   "rub": "auteurs",
-   "titre": "Karl Marx",
-   "sous": "La lutte des classes",
-   "enjeux": [
-    "exclus",
-    "civilisation"
-   ],
-   "cours": true
-  },
-  {
-   "id": "nietzsche",
-   "rub": "auteurs",
-   "titre": "Friedrich Nietzsche",
-   "sous": "Ainsi parlait Zarathoustra (1883) · La Généalogie de la morale (1887) · La Volonté de puissance",
-   "enjeux": [
-    "posthumanisme",
-    "nature-humaine",
-    "civilisation"
-   ],
-   "cours": true
-  },
-  {
-   "id": "husserl",
-   "rub": "auteurs",
-   "titre": "Edmund Husserl",
-   "sous": "La Crise des sciences européennes (1936)",
-   "enjeux": [
-    "nature-humaine",
-    "civilisation"
-   ],
-   "cours": true
-  },
-  {
-   "id": "russell",
-   "rub": "auteurs",
-   "titre": "Bertrand Russell",
-   "sous": "Essais sceptiques (1928)",
-   "enjeux": [
-    "civilisation",
-    "technique"
-   ],
-   "cours": true
-  },
-  {
-   "id": "adorno",
-   "rub": "auteurs",
-   "titre": "Horkheimer et Adorno",
-   "sous": "La Dialectique de la raison (1944)",
-   "enjeux": [
-    "civilisation",
-    "deshumanisation",
-    "technique"
-   ],
-   "cours": true
-  },
-  {
-   "id": "canguilhem",
-   "rub": "auteurs",
-   "titre": "Georges Canguilhem",
-   "sous": "La Connaissance de la vie (1952)",
-   "enjeux": [
-    "nature",
     "animalite"
    ],
-   "cours": true
+   "cours": true,
+   "source": "lettres"
   },
   {
-   "id": "morizot",
+   "id": "la-mettrie",
    "rub": "auteurs",
-   "titre": "Neyret et Morizot",
-   "sous": "Liberté, dignité, habitabilité (2026)",
+   "titre": "La Mettrie",
+   "sous": "L'Homme-machine (1747)",
    "enjeux": [
-    "nature",
-    "transmission",
+    "technique",
+    "nature-humaine",
+    "posthumanisme"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "maistre",
+   "rub": "auteurs",
+   "titre": "Joseph de Maistre",
+   "sous": "Considérations sur la France (1797) : contre l'homme abstrait des Lumières",
+   "enjeux": [
+    "unite",
+    "exclus"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "teilhard",
+   "rub": "auteurs",
+   "titre": "Teilhard de Chardin",
+   "sous": "Le Phénomène humain (1955) : le point Oméga",
+   "enjeux": [
+    "posthumanisme",
+    "transmission"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "terestchenko",
+   "rub": "auteurs",
+   "titre": "Michel Terestchenko",
+   "sous": "Un si fragile vernis d'humanité (2005)",
+   "enjeux": [
+    "deshumanisation",
     "dignite"
    ],
-   "cours": true
+   "cours": true,
+   "source": "lettres"
   },
   {
-   "id": "sun-tzu",
+   "id": "schmitt",
    "rub": "auteurs",
-   "titre": "Sun Tzu",
-   "sous": "L'Art de la guerre",
+   "titre": "Carl Schmitt",
+   "sous": "La Notion de politique (1932) : « Qui dit humanité veut tromper »",
    "enjeux": [
-    "dignite",
-    "civilisation"
+    "unite"
    ],
-   "cours": true
+   "cours": true,
+   "source": "lettres"
   },
   {
-   "id": "braidotti",
+   "id": "finkielkraut",
    "rub": "auteurs",
-   "titre": "Rosi Braidotti",
-   "sous": "Penseuse du posthumanisme",
+   "titre": "Alain Finkielkraut",
+   "sous": "L'Humanité perdue (1996)",
    "enjeux": [
-    "posthumanisme"
+    "unite",
+    "deshumanisation",
+    "autrui"
    ],
-   "cours": true
+   "cours": true,
+   "source": "lettres"
   },
   {
-   "id": "hayles",
+   "id": "serres",
    "rub": "auteurs",
-   "titre": "N. Katherine Hayles",
-   "sous": "Penseuse du posthumanisme",
-   "enjeux": [
-    "posthumanisme"
-   ],
-   "cours": true
-  },
-  {
-   "id": "marchesini",
-   "rub": "auteurs",
-   "titre": "Roberto Marchesini",
-   "sous": "Penseur du posthumanisme",
-   "enjeux": [
-    "posthumanisme"
-   ],
-   "cours": true
-  },
-  {
-   "id": "cary-wolfe",
-   "rub": "auteurs",
-   "titre": "Cary Wolfe",
-   "sous": "Penseur du posthumanisme",
+   "titre": "Michel Serres",
+   "sous": "Hominescence (2001) · Le Contrat naturel (1990)",
    "enjeux": [
     "posthumanisme",
+    "nature"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "singer",
+   "rub": "auteurs",
+   "titre": "Peter Singer",
+   "sous": "La Libération animale (1975)",
+   "enjeux": [
     "animalite"
    ],
-   "cours": true
-  },
-  {
-   "id": "max-more",
-   "rub": "auteurs",
-   "titre": "Max More",
-   "sous": "Penseur du transhumanisme",
-   "enjeux": [
-    "posthumanisme",
-    "technique"
-   ],
-   "cours": true
-  },
-  {
-   "id": "bostrom",
-   "rub": "auteurs",
-   "titre": "Nick Bostrom",
-   "sous": "Penseur du transhumanisme",
-   "enjeux": [
-    "posthumanisme",
-    "technique"
-   ],
-   "cours": true
-  },
-  {
-   "id": "sandberg",
-   "rub": "auteurs",
-   "titre": "Anders Sandberg",
-   "sous": "Penseur du transhumanisme",
-   "enjeux": [
-    "posthumanisme",
-    "technique"
-   ],
-   "cours": true
+   "cours": true,
+   "source": "philo"
   },
   {
    "id": "villon",
@@ -721,47 +559,6 @@
     "technique",
     "nature",
     "mortalite"
-   ]
-  },
-  {
-   "id": "ozymandias",
-   "rub": "poemes",
-   "titre": "Ozymandias",
-   "sous": "Percy Bysshe Shelley · 1818",
-   "enjeux": [
-    "transmission",
-    "mortalite",
-    "art"
-   ]
-  },
-  {
-   "id": "vigny",
-   "rub": "poemes",
-   "titre": "La Mort du loup",
-   "sous": "Alfred de Vigny · 1843",
-   "enjeux": [
-    "animalite",
-    "dignite"
-   ]
-  },
-  {
-   "id": "whitman",
-   "rub": "poemes",
-   "titre": "Chanson de moi-même",
-   "sous": "Walt Whitman · 1855",
-   "enjeux": [
-    "unite",
-    "autrui"
-   ]
-  },
-  {
-   "id": "baudelaire",
-   "rub": "poemes",
-   "titre": "L'Homme et la Mer",
-   "sous": "Charles Baudelaire · 1857",
-   "enjeux": [
-    "nature",
-    "nature-humaine"
    ]
   },
   {
@@ -787,17 +584,6 @@
    ]
   },
   {
-   "id": "cesaire",
-   "rub": "poemes",
-   "titre": "Cahier d'un retour au pays natal",
-   "sous": "Aimé Césaire · 1939",
-   "enjeux": [
-    "exclus",
-    "unite",
-    "dignite"
-   ]
-  },
-  {
    "id": "celan",
    "rub": "poemes",
    "titre": "Fugue de mort",
@@ -805,51 +591,6 @@
    "enjeux": [
     "deshumanisation",
     "memoire"
-   ]
-  },
-  {
-   "id": "gilgamesh",
-   "rub": "litterature",
-   "titre": "L'Épopée de Gilgamesh",
-   "sous": "Mésopotamie · version standard vers 1200 av. J.-C.",
-   "enjeux": [
-    "animalite",
-    "mortalite",
-    "transmission"
-   ]
-  },
-  {
-   "id": "frankenstein",
-   "rub": "litterature",
-   "titre": "Frankenstein ou le Prométhée moderne",
-   "sous": "Mary Shelley · 1818",
-   "enjeux": [
-    "technique",
-    "exclus",
-    "nature-humaine",
-    "posthumanisme"
-   ]
-  },
-  {
-   "id": "metamorphose",
-   "rub": "litterature",
-   "titre": "La Métamorphose",
-   "sous": "Franz Kafka · 1915",
-   "enjeux": [
-    "exclus",
-    "animalite",
-    "deshumanisation"
-   ]
-  },
-  {
-   "id": "huxley",
-   "rub": "litterature",
-   "titre": "Le Meilleur des mondes",
-   "sous": "Aldous Huxley · 1932",
-   "enjeux": [
-    "technique",
-    "nature-humaine",
-    "posthumanisme"
    ]
   },
   {
@@ -861,29 +602,8 @@
     "deshumanisation",
     "memoire",
     "dignite"
-   ]
-  },
-  {
-   "id": "robinson",
-   "rub": "litterature",
-   "titre": "Robinson Crusoé",
-   "sous": "Daniel Defoe · 1719",
-   "enjeux": [
-    "civilisation",
-    "autrui",
-    "nature"
-   ]
-  },
-  {
-   "id": "antelme",
-   "rub": "litterature",
-   "titre": "L'Espèce humaine",
-   "sous": "Robert Antelme · 1947",
-   "enjeux": [
-    "deshumanisation",
-    "unite",
-    "memoire"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "vercors",
@@ -894,30 +614,8 @@
     "animalite",
     "nature-humaine",
     "exclus"
-   ]
-  },
-  {
-   "id": "elephant-man",
-   "rub": "litterature",
-   "titre": "Elephant Man (la pièce)",
-   "sous": "Bernard Pomerance · 1977",
-   "enjeux": [
-    "exclus",
-    "dignite",
-    "vulnerabilite"
-   ]
-  },
-  {
-   "id": "ishiguro",
-   "rub": "litterature",
-   "titre": "Auprès de moi toujours",
-   "sous": "Kazuo Ishiguro · 2005",
-   "enjeux": [
-    "technique",
-    "exclus",
-    "mortalite",
-    "posthumanisme"
-   ]
+   ],
+   "cours": true
   },
   {
    "id": "rhinoceros",
@@ -928,6 +626,18 @@
     "deshumanisation",
     "animalite",
     "autrui"
+   ],
+   "cours": true
+  },
+  {
+   "id": "elephant-man",
+   "rub": "litterature",
+   "titre": "Elephant Man (la pièce)",
+   "sous": "Bernard Pomerance · 1977",
+   "enjeux": [
+    "exclus",
+    "dignite",
+    "vulnerabilite"
    ]
   },
   {
@@ -943,154 +653,136 @@
    "cours": true
   },
   {
-   "id": "bruegel",
-   "rub": "art",
-   "titre": "Le Triomphe de la Mort",
-   "sous": "Pieter Bruegel l'Ancien · vers 1562",
+   "id": "bible",
+   "rub": "litterature",
+   "titre": "La Bible",
+   "sous": "De la Genèse à l'Apocalypse : l'homme ancien et l'homme nouveau",
    "enjeux": [
-    "mortalite",
-    "vulnerabilite",
-    "memoire"
+    "nature-humaine",
+    "unite"
    ],
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg/1280px-The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
-    "credit": "Domaine public"
-   }
+   "cours": true,
+   "source": "lettres"
   },
   {
-   "id": "galate",
-   "rub": "art",
-   "titre": "Le Galate mourant",
-   "sous": "Pergame · original vers 230-220 av. J.-C.",
+   "id": "gargantua",
+   "rub": "litterature",
+   "titre": "Gargantua",
+   "sous": "Rabelais · 1534",
    "enjeux": [
-    "unite",
-    "dignite",
-    "civilisation",
+    "transmission",
+    "nature-humaine"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "dom-juan",
+   "rub": "litterature",
+   "titre": "Dom Juan",
+   "sous": "Molière · 1665 : la scène du pauvre, « pour l'amour de l'humanité »",
+   "enjeux": [
+    "autrui",
+    "dignite"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "therese-raquin",
+   "rub": "litterature",
+   "titre": "Thérèse Raquin",
+   "sous": "Zola · 1867 (et Le Roman expérimental, 1880)",
+   "enjeux": [
+    "animalite",
+    "nature-humaine"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "quatrevingt-treize",
+   "rub": "litterature",
+   "titre": "Quatrevingt-Treize",
+   "sous": "Victor Hugo · 1874",
+   "enjeux": [
+    "deshumanisation",
+    "dignite"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "cantatrice",
+   "rub": "litterature",
+   "titre": "La Cantatrice chauve",
+   "sous": "Ionesco · 1950",
+   "enjeux": [
+    "deshumanisation",
+    "autrui"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "zweig",
+   "rub": "litterature",
+   "titre": "Érasme. Grandeur et décadence d'une idée",
+   "sous": "Stefan Zweig · 1935",
+   "enjeux": [
+    "transmission",
+    "civilisation"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "particules",
+   "rub": "litterature",
+   "titre": "Les Particules élémentaires",
+   "sous": "Michel Houellebecq · 1998",
+   "enjeux": [
+    "posthumanisme",
+    "technique"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "possibilite-ile",
+   "rub": "litterature",
+   "titre": "La Possibilité d'une île",
+   "sous": "Michel Houellebecq · 2005",
+   "enjeux": [
+    "posthumanisme",
+    "mortalite"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "purs-hommes",
+   "rub": "litterature",
+   "titre": "De purs hommes",
+   "sous": "Mohamed Mbougar Sarr · 2018",
+   "enjeux": [
+    "exclus",
+    "nature-humaine"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "fontenay",
+   "rub": "litterature",
+   "titre": "Gaspard de la nuit",
+   "sous": "Élisabeth de Fontenay · 2018",
+   "enjeux": [
+    "exclus",
     "vulnerabilite"
    ],
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/The_Dying_Gaul%2C_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze%2C_Capitoline_Museums_%2811340686655%29.jpg/1280px-The_Dying_Gaul%2C_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze%2C_Capitoline_Museums_%2811340686655%29.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:The_Dying_Gaul,_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze,_Capitoline_Museums_(11340686655).jpg",
-    "credit": "Photo Wikimedia Commons, CC BY-SA 2.0"
-   }
-  },
-  {
-   "id": "durer",
-   "rub": "art",
-   "titre": "Adam et Ève",
-   "sous": "Albrecht Dürer · 1507",
-   "enjeux": [
-    "nature-humaine",
-    "animalite"
-   ],
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg/1280px-Albrecht_D%C3%BCrer_-_Adam_and_Eve_%28Prado%29_2.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Adam_and_Eve_(Prado)_2.jpg",
-    "credit": "Domaine public"
-   }
-  },
-  {
-   "id": "gentileschi",
-   "rub": "art",
-   "titre": "Judith décapitant Holopherne",
-   "sous": "Artemisia Gentileschi · vers 1620",
-   "enjeux": [
-    "deshumanisation",
-    "exclus"
-   ],
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Judith_Slaying_Holofernes_by_Artemisia_Gentileschi.jpg/1280px-Judith_Slaying_Holofernes_by_Artemisia_Gentileschi.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Judith_Slaying_Holofernes_by_Artemisia_Gentileschi.jpg",
-    "credit": "Domaine public"
-   }
-  },
-  {
-   "id": "poussin",
-   "rub": "art",
-   "titre": "La Peste d'Asdod",
-   "sous": "Nicolas Poussin · 1630-1631",
-   "enjeux": [
-    "vulnerabilite",
-    "exclus"
-   ],
-   "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/La_Peste_d%27Asdod_-_1630-1631_-_Nicolas_Poussin_-_Louvre_-_INV_7276_%3B_MR_2312.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:La_Peste_d%27Asdod_-_1630-1631_-_Nicolas_Poussin_-_Louvre_-_INV_7276_;_MR_2312.jpg",
-    "credit": "Domaine public"
-   }
-  },
-  {
-   "id": "michel-ange",
-   "rub": "art",
-   "titre": "La Création d'Adam",
-   "sous": "Michel-Ange · vers 1512",
-   "enjeux": [
-    "dignite",
-    "nature-humaine",
-    "art"
-   ],
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1280px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Michelangelo_-_Creation_of_Adam_(cropped).jpg",
-    "credit": "Domaine public"
-   }
-  },
-  {
-   "id": "goya",
-   "rub": "art",
-   "titre": "Tres de mayo",
-   "sous": "Francisco de Goya · 1814",
-   "enjeux": [
-    "deshumanisation",
-    "dignite",
-    "memoire"
-   ],
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg",
-    "credit": "Domaine public"
-   }
-  },
-  {
-   "id": "gericault",
-   "rub": "art",
-   "titre": "Le Radeau de la Méduse",
-   "sous": "Théodore Géricault · 1818-1819",
-   "enjeux": [
-    "vulnerabilite",
-    "civilisation",
-    "exclus"
-   ],
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/1280px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
-    "credit": "Domaine public"
-   }
-  },
-  {
-   "id": "guernica",
-   "rub": "art",
-   "titre": "Guernica",
-   "sous": "Pablo Picasso · 1937",
-   "enjeux": [
-    "deshumanisation",
-    "memoire",
-    "art"
-   ],
-   "voir": "https://www.google.com/search?tbm=isch&q=Guernica+Pablo+Picasso"
-  },
-  {
-   "id": "giacometti",
-   "rub": "art",
-   "titre": "L'Homme qui marche",
-   "sous": "Alberto Giacometti · 1960",
-   "enjeux": [
-    "vulnerabilite",
-    "nature-humaine",
-    "art"
-   ],
-   "voir": "https://www.google.com/search?tbm=isch&q=L'Homme+qui+marche+Alberto+Giacometti"
+   "cours": true,
+   "source": "lettres"
   },
   {
    "id": "piero",
@@ -1178,6 +870,95 @@
    }
   },
   {
+   "id": "goya",
+   "rub": "art",
+   "titre": "Tres de mayo",
+   "sous": "Francisco de Goya · 1814",
+   "enjeux": [
+    "deshumanisation",
+    "dignite",
+    "memoire"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg",
+    "credit": "Domaine public"
+   }
+  },
+  {
+   "id": "galate",
+   "rub": "art",
+   "titre": "Le Galate mourant",
+   "sous": "Pergame · original vers 230-220 av. J.-C.",
+   "enjeux": [
+    "unite",
+    "dignite",
+    "civilisation",
+    "vulnerabilite"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/The_Dying_Gaul%2C_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze%2C_Capitoline_Museums_%2811340686655%29.jpg/1280px-The_Dying_Gaul%2C_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze%2C_Capitoline_Museums_%2811340686655%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Dying_Gaul,_second-century_AD_Roman_copy_of_a_third-century_BC_Hellenistic_bronze,_Capitoline_Museums_(11340686655).jpg",
+    "credit": "Photo Wikimedia Commons, CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "bruegel",
+   "rub": "art",
+   "titre": "Le Triomphe de la Mort",
+   "sous": "Pieter Bruegel l'Ancien · vers 1562",
+   "enjeux": [
+    "mortalite",
+    "vulnerabilite",
+    "memoire"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg/1280px-The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg",
+    "credit": "Domaine public"
+   }
+  },
+  {
+   "id": "michel-ange",
+   "rub": "art",
+   "titre": "La Création d'Adam",
+   "sous": "Michel-Ange · vers 1512",
+   "enjeux": [
+    "dignite",
+    "nature-humaine",
+    "art"
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1280px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelangelo_-_Creation_of_Adam_(cropped).jpg",
+    "credit": "Domaine public"
+   }
+  },
+  {
+   "id": "enfant-sauvage",
+   "rub": "films",
+   "titre": "L'Enfant sauvage",
+   "sous": "François Truffaut · 1970",
+   "enjeux": [
+    "animalite",
+    "nature-humaine",
+    "civilisation"
+   ],
+   "cours": true
+  },
+  {
+   "id": "zone-interet",
+   "rub": "films",
+   "titre": "La Zone d'intérêt",
+   "sous": "Jonathan Glazer · 2023",
+   "enjeux": [
+    "deshumanisation",
+    "memoire",
+    "civilisation"
+   ],
+   "cours": true
+  },
+  {
    "id": "ruban-blanc",
    "rub": "films",
    "titre": "Le Ruban blanc",
@@ -1186,37 +967,6 @@
     "deshumanisation",
     "civilisation",
     "transmission"
-   ]
-  },
-  {
-   "id": "metropolis",
-   "rub": "films",
-   "titre": "Metropolis",
-   "sous": "Fritz Lang · 1927",
-   "enjeux": [
-    "technique",
-    "exclus"
-   ]
-  },
-  {
-   "id": "temps-modernes",
-   "rub": "films",
-   "titre": "Les Temps modernes",
-   "sous": "Charlie Chaplin · 1936",
-   "enjeux": [
-    "technique"
-   ]
-  },
-  {
-   "id": "2001",
-   "rub": "films",
-   "titre": "2001 : l'Odyssée de l'espace",
-   "sous": "Stanley Kubrick · 1968",
-   "enjeux": [
-    "animalite",
-    "technique",
-    "art",
-    "posthumanisme"
    ]
   },
   {
@@ -1232,38 +982,6 @@
    ]
   },
   {
-   "id": "nuit-brouillard",
-   "rub": "films",
-   "titre": "Nuit et Brouillard",
-   "sous": "Alain Resnais · 1955",
-   "enjeux": [
-    "deshumanisation",
-    "memoire"
-   ]
-  },
-  {
-   "id": "enfant-sauvage",
-   "rub": "films",
-   "titre": "L'Enfant sauvage",
-   "sous": "François Truffaut · 1970",
-   "enjeux": [
-    "animalite",
-    "nature-humaine",
-    "civilisation"
-   ]
-  },
-  {
-   "id": "gattaca",
-   "rub": "films",
-   "titre": "Gattaca",
-   "sous": "Andrew Niccol · 1997",
-   "enjeux": [
-    "technique",
-    "exclus",
-    "posthumanisme"
-   ]
-  },
-  {
    "id": "her",
    "rub": "films",
    "titre": "Her",
@@ -1275,15 +993,17 @@
    ]
   },
   {
-   "id": "zone-interet",
+   "id": "miracle-alabama",
    "rub": "films",
-   "titre": "La Zone d'intérêt",
-   "sous": "Jonathan Glazer · 2023",
+   "titre": "Miracle en Alabama",
+   "sous": "Arthur Penn · 1962",
    "enjeux": [
-    "deshumanisation",
-    "memoire",
-    "civilisation"
-   ]
+    "animalite",
+    "nature-humaine",
+    "transmission"
+   ],
+   "cours": true,
+   "source": "lettres"
   },
   {
    "id": "d-animal",
@@ -1296,10 +1016,54 @@
   {
    "id": "d-perdre",
    "rub": "dissertations",
-   "titre": "Peut-on perdre son humanité ?",
+   "titre": "Peut-on renoncer à son humanité ?",
    "enjeux": [
     "deshumanisation",
     "dignite"
+   ]
+  },
+  {
+   "id": "d-frontieres",
+   "rub": "dissertations",
+   "titre": "L'humanité a-t-elle des frontières ?",
+   "enjeux": [
+    "exclus",
+    "unite"
+   ]
+  },
+  {
+   "id": "d-acceder",
+   "rub": "dissertations",
+   "titre": "Accède-t-on à son humanité ?",
+   "enjeux": [
+    "nature-humaine",
+    "transmission"
+   ]
+  },
+  {
+   "id": "d-crime",
+   "rub": "dissertations",
+   "titre": "Qu'est-ce qu'un crime contre l'humanité ?",
+   "enjeux": [
+    "deshumanisation",
+    "dignite"
+   ]
+  },
+  {
+   "id": "d-utopie",
+   "rub": "dissertations",
+   "titre": "Humaniser l'humanité, une utopie ?",
+   "enjeux": [
+    "civilisation",
+    "transmission"
+   ]
+  },
+  {
+   "id": "d-nature",
+   "rub": "dissertations",
+   "titre": "Y a-t-il une nature humaine ?",
+   "enjeux": [
+    "nature-humaine"
    ]
   },
   {
@@ -1307,7 +1071,8 @@
    "rub": "dissertations",
    "titre": "La technique menace-t-elle l'humanité ?",
    "enjeux": [
-    "technique"
+    "technique",
+    "posthumanisme"
    ]
   },
   {
@@ -1320,53 +1085,12 @@
    ]
   },
   {
-   "id": "d-deshumanisation",
+   "id": "d-fin",
    "rub": "dissertations",
-   "titre": "Faut-il craindre la déshumanisation ?",
+   "titre": "La fin de l'humanité",
    "enjeux": [
-    "deshumanisation"
-   ]
-  },
-  {
-   "id": "d-vulnerabilite",
-   "rub": "dissertations",
-   "titre": "La vulnérabilité est-elle le propre de l'homme ?",
-   "enjeux": [
-    "vulnerabilite"
-   ]
-  },
-  {
-   "id": "d-nature",
-   "rub": "dissertations",
-   "titre": "Y a-t-il une nature humaine ?",
-   "enjeux": [
-    "nature-humaine"
-   ]
-  },
-  {
-   "id": "d-espece",
-   "rub": "dissertations",
-   "titre": "L'humanité se réduit-elle à l'espèce humaine ?",
-   "enjeux": [
-    "unite",
-    "animalite"
-   ]
-  },
-  {
-   "id": "d-futures",
-   "rub": "dissertations",
-   "titre": "Devons-nous quelque chose aux générations futures ?",
-   "enjeux": [
-    "transmission"
-   ]
-  },
-  {
-   "id": "d-communaute",
-   "rub": "dissertations",
-   "titre": "L'humanité est-elle une communauté ?",
-   "enjeux": [
-    "unite",
-    "autrui"
+    "posthumanisme",
+    "mortalite"
    ]
   }
  ],
