@@ -349,6 +349,9 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .enjeu-row a:hover, .cg-tile:hover .t, .list-row:hover .t, .cg-ref:hover .t, .lead:hover h3, .small:hover h3, .row:hover h2 { color: var(--accent); }
 .g-n span { color: var(--accent); }
 
+.ref-suppr { padding-top: 24px; margin-top: 8px; border-top: 1px solid var(--line); }
+.sec.supprime { opacity: .6; }
+.edit-bar button.ed-del:hover { color: var(--accent); }
 .edit-bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 10px; }
 .edit-bar button { color: var(--muted); border-bottom: 1px solid currentColor; padding-bottom: 1px; }
 .edit-bar button:hover, .edit-bar .ed-ok { color: var(--accent); }
@@ -454,6 +457,8 @@ section:first-child > .cat-head { padding-top: 28px; }
   let favs = load("pressing:favs", {});
   let lues = load("pressing:lues", {});
   let notes = load("pressing:notes", {});
+  let caches = load("pressing:caches", {});
+  function supprBtn(k) { return '<div class="ref-suppr"><button type="button" class="label more" data-cacher="' + esc(k) + '">Supprimer cette référence</button></div>'; }
   function notesBox(key, titre) {
     return '<section class="sec mes-notes"><h2 class="label">Mes notes</h2><textarea class="note-area" data-note="' + esc(key) + '" data-titre="' + esc(titre) + '" placeholder="Écris ici tes idées, citations, exemples, liens avec ton cours…" rows="5">' + esc((notes[key] || {}).texte || "") + '</textarea><span class="label muted note-etat" aria-live="polite">' + (notes[key] ? "Enregistré" : "Enregistré sur cet appareil") + '</span></section>';
   }
@@ -592,7 +597,7 @@ section:first-child > .cat-head { padding-top: 28px; }
 
   function matchF(q) { return f => !q || JSON.stringify([f.nom, f.auteur, f.accroche, f.blocs]).toLowerCase().includes(q); }
   function refResults(ref, q) {
-    const fs = ref.fiches.filter(matchF(q));
+    const fs = ref.fiches.filter(f => !caches["esh:" + f.id]).filter(matchF(q));
     if (!fs.length) return '<div class="empty"><p>Rien pour « ' + esc(q) + ' ».</p><p class="muted">Essaie un nom d\'auteur ou un mot plus court.</p></div>';
     return ref.categories.map(cat => { const l = fs.filter(f => f.categorie === cat.id); return l.length ? '<section><div class="cat-head"><h2 class="label" style="margin:0">' + esc(cat.nom) + '</h2><span class="label muted">' + l.length + '</span></div>' + l.map(f => '<button type="button" class="list-row" data-fiche="' + f.id + '"><span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span class="t">' + esc(f.nom) + '</span><span class="muted" style="font-size:13.5px">' + esc(f.auteur) + ', ' + esc(f.annee) + '</span></span><span class="label muted">→</span></button>').join("") + '</section>' : ""; }).join("");
   }
@@ -600,7 +605,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     const ref = await referentiel();
     app.innerHTML = '<div class="narrow"><a class="back label" href="#referentiel">← Référentiel</a><div class="page-head"><span class="label muted">Auteurs, théories, notions</span><h1>Référentiel ESH</h1><p class="muted" style="margin:4px 0 0">Ce qu\'on attend de toi, et surtout ce que chaque théorie permet de montrer.</p></div>' +
       '<label class="label muted" for="ref-search">Chercher un auteur, une notion</label><input id="ref-search" class="search" type="search" placeholder="Ricardo, dette, aléa moral…" autocomplete="off">' +
-      '<div id="ref-results">' + refResults(ref, "") + '</div></div>';
+      '<div id="ref-results">' + refResults(ref, "") + '</div>' + (Object.keys(caches).some(k => k.startsWith("esh:")) ? '<p class="label muted" style="margin-top:28px">Des fiches sont supprimées · <button type="button" class="more" data-retablir="esh">Tout rétablir</button></p>' : '') + '</div>';
     const input = document.getElementById("ref-search");
     input.addEventListener("input", () => { document.getElementById("ref-results").innerHTML = refResults(ref, input.value.trim().toLowerCase()); });
   }
@@ -619,7 +624,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     let h = '<div class="narrow"><a class="back label" href="#referentiel/esh">← Référentiel ESH</a><article class="card">';
     h += '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap" class="label"><span class="pill">' + esc(f.type) + ' · ' + esc(f.annee) + '</span><span class="muted">' + esc(cat ? cat.nom : "") + '</span></div>';
     h += '<h1>' + esc(f.nom) + '</h1><p class="idee">' + fmt(f.accroche) + '</p>';
-    h += f.blocs.map(bloc).join("") + notesBox("esh:" + f.id, f.nom);
+    h += f.blocs.map(bloc).join("") + notesBox("esh:" + f.id, f.nom) + (caches["esh:" + f.id] ? '<div class="ref-suppr"><span class="label muted">Fiche supprimée · </span><button type="button" class="label more" data-retablir="esh:' + esc(f.id) + '">Rétablir</button></div>' : supprBtn("esh:" + f.id));
     app.innerHTML = h + '</article></div>';
     window.scrollTo(0, 0);
   }
@@ -627,14 +632,16 @@ section:first-child > .cat-head { padding-top: 28px; }
   // Culture générale
   const pad2 = n => String(n).padStart(2, "0");
   async function viewCG(parts) {
-    const cg = await cgData();
+    const cg0 = await cgData();
+    const cg = Object.assign({}, cg0, { refs: cg0.refs.filter(x => !caches["cg:" + x.id] || (parts[0] === "f" && parts[1] === x.id)) });
+    const nCache = cg0.refs.length - cg0.refs.filter(x => !caches["cg:" + x.id]).length;
     const rubNom = id => (cg.rubriques.find(r => r.id === id) || {}).nom || "";
     const back = (href, txt) => '<a class="back label" href="' + href + '">← ' + txt + '</a>';
     if (!parts.length) {
       let h = '<div class="narrow">' + back("#referentiel", "Référentiel") + '<div class="cg-head"><span class="label muted">Culture générale · ' + esc(cg.annee) + '</span><h1>' + esc(cg.theme) + '</h1><p>Le thème de l\'année, référence par référence : ce qu\'il faut savoir décrire, ce que ça montre, et où le placer dans une copie.</p></div>';
       h += '<div class="cg-grid">' + cg.rubriques.map((r, i) => { const n = cg.refs.filter(x => x.rub === r.id).length; return '<a class="cg-tile" href="#cg/' + r.id + '"><span class="n">' + ["I","II","III","IV","V","VI"][i] + '</span><span class="t">' + esc(r.nom) + '<span class="d">' + esc(r.desc) + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div>';
       h += '<a class="cg-enjeux" href="#cg/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>Les références par enjeu</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + ' grands enjeux du thème</span></span><span class="label">→</span></a>' +
-        cg.enjeux.filter(e => e.dossier).map(e => '<a class="cg-enjeux cg-dossier" href="#cg/e/' + e.id + '"><span><span class="label muted">Dossier</span><strong>' + esc(e.nom) + '</strong><span class="muted" style="font-size:14px">Les notions, les auteurs, les objections</span></span><span class="label">→</span></a>').join("") + '</div>';
+        cg.enjeux.filter(e => e.dossier).map(e => '<a class="cg-enjeux cg-dossier" href="#cg/e/' + e.id + '"><span><span class="label muted">Dossier</span><strong>' + esc(e.nom) + '</strong><span class="muted" style="font-size:14px">Les notions, les auteurs, les objections</span></span><span class="label">→</span></a>').join("") + (nCache ? '<p class="label muted" style="margin-top:28px">' + nCache + ' référence' + (nCache > 1 ? 's' : '') + ' supprimée' + (nCache > 1 ? 's' : '') + ' · <button type="button" class="more" data-retablir="cg">Tout rétablir</button></p>' : '') + '</div>';
       app.innerHTML = h; return;
     }
     if (parts[0] === "enjeux") {
@@ -666,7 +673,7 @@ section:first-child > .cat-head { padding-top: 28px; }
       else h += '<div class="empty" style="padding-block:24px"><p>La fiche n\'est pas encore rédigée.</p><p class="muted">Elle arrive au fil des semaines.</p></div>';
       const en = (r.enjeux || []).map(id => (cg.enjeux.find(e => e.id === id) || {}).nom).filter(Boolean);
       if (en.length) h += '<section class="sec"><h2 class="label">Enjeux</h2><ol class="sujets">' + en.map((e, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(e) + '</span></li>').join("") + '</ol></section>';
-      h += notesBox("cg:" + r.id, r.titre);
+      h += notesBox("cg:" + r.id, r.titre) + (caches["cg:" + r.id] ? '<div class="ref-suppr"><span class="label muted">Référence supprimée · </span><button type="button" class="label more" data-retablir="cg:' + esc(r.id) + '">Rétablir</button></div>' : supprBtn("cg:" + r.id));
       app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
     }
     const rub = cg.rubriques.find(x => x.id === parts[0]);
@@ -751,17 +758,21 @@ section:first-child > .cat-head { padding-top: 28px; }
       const body = document.createElement("div"); body.className = "sec-body";
       [...sec.children].filter(c => c !== h2).forEach(c => body.appendChild(c));
       sec.appendChild(body);
-      if (edits[key]) { body.innerHTML = edits[key]; sec.classList.add("modifie"); }
       const bar = document.createElement("div"); bar.className = "edit-bar label";
-      bar.innerHTML = '<button type="button" class="ed-go">Modifier</button>' + (edits[key] ? '<span class="muted">Modifié par toi</span><button type="button" class="ed-reset">Rétablir</button>' : '');
+      if (edits[key] === "__SUPPR__") { body.hidden = true; sec.classList.add("supprime"); bar.innerHTML = '<span class="muted">Section supprimée</span><button type="button" class="ed-reset">Rétablir</button>'; sec.appendChild(bar); }
+      else {
+      if (edits[key]) { body.innerHTML = edits[key]; sec.classList.add("modifie"); }
+      bar.innerHTML = '<button type="button" class="ed-go">Modifier</button><button type="button" class="ed-del">Supprimer</button>' + (edits[key] ? '<span class="muted">Modifié par toi</span><button type="button" class="ed-reset">Rétablir</button>' : '');
       sec.appendChild(bar);
+      }
       bar.addEventListener("click", ev => {
         const b = ev.target.closest("button"); if (!b) return;
+        if (b.classList.contains("ed-del")) { if (!b.dataset.ok) { b.dataset.ok = 1; b.textContent = "Confirmer"; return; } edits[key] = "__SUPPR__"; save("pressing:edits", edits); toast("Section supprimée"); route(); return; }
         if (b.classList.contains("ed-reset")) { delete edits[key]; save("pressing:edits", edits); toast("Texte d'origine rétabli"); route(); return; }
         if (body.isContentEditable) {
           body.contentEditable = "false"; sec.classList.remove("editing");
           edits[key] = body.innerHTML; save("pressing:edits", edits); sec.classList.add("modifie");
-          bar.innerHTML = '<button type="button" class="ed-go">Modifier</button><span class="muted">Modifié par toi</span><button type="button" class="ed-reset">Rétablir</button>';
+          bar.innerHTML = '<button type="button" class="ed-go">Modifier</button><button type="button" class="ed-del">Supprimer</button><span class="muted">Modifié par toi</span><button type="button" class="ed-reset">Rétablir</button>';
           toast("Modification enregistrée");
         } else {
           body.contentEditable = "true"; sec.classList.add("editing"); body.focus();
@@ -804,6 +815,12 @@ section:first-child > .cat-head { padding-top: 28px; }
       if (!txt.trim() && !titre.trim()) delete notes[k]; else notes[k] = { titre: titre, texte: txt, maj: Date.now() };
       save("pressing:notes", notes); if (et) et.textContent = "Enregistré";
     }, 400);
+  });
+  document.addEventListener("click", e => {
+    const c = e.target.closest("[data-cacher]");
+    if (c) { if (!c.dataset.ok) { c.dataset.ok = 1; c.textContent = "Confirmer la suppression"; return; } caches[c.dataset.cacher] = 1; save("pressing:caches", caches); toast("Référence supprimée"); history.back(); return; }
+    const r = e.target.closest("[data-retablir]");
+    if (r) { const k = r.dataset.retablir; Object.keys(caches).forEach(x => { if (x === k || x.startsWith(k + ":")) delete caches[x]; }); save("pressing:caches", caches); toast("Rétabli"); route(); }
   });
   document.addEventListener("click", e => { const b = e.target.closest("[data-suppr]"); if (b && !b.dataset.ok) { b.dataset.ok = 1; b.textContent = "Confirmer la suppression"; return; } if (b) { delete notes[b.dataset.suppr]; save("pressing:notes", notes); toast("Note supprimée"); location.hash = "notes"; } });
   document.addEventListener("click", async e => {
