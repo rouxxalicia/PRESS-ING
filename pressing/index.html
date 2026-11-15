@@ -349,6 +349,24 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .enjeu-row a:hover, .cg-tile:hover .t, .list-row:hover .t, .cg-ref:hover .t, .lead:hover h3, .small:hover h3, .row:hover h2 { color: var(--accent); }
 .g-n span { color: var(--accent); }
 
+/* Sections plus lisibles */
+article.card { counter-reset: sec; }
+article.card > .sec { counter-increment: sec; margin-top: 18px; padding-top: 26px; border-top: 1px solid var(--fg); gap: 14px; }
+article.card > .sec > h2.label { display: flex; align-items: baseline; gap: 12px; font-size: 12px; font-weight: 600; letter-spacing: 0.18em; color: var(--accent); }
+article.card > .sec > h2.label::before { content: counter(sec, decimal-leading-zero); font-stretch: 125%; font-size: 22px; letter-spacing: 0; color: var(--fg); font-variant-numeric: tabular-nums; }
+.apps { gap: 12px; }
+.app { background: var(--soft); border: 0; border-radius: 16px; padding: 16px 18px; }
+.app strong { color: var(--accent); }
+.cat-head { padding-block: 52px 12px; border-bottom: 1px solid var(--fg); align-items: baseline; }
+.cat-head h2.label { font-stretch: 125%; font-size: 17px !important; font-weight: 600; letter-spacing: 0.06em; color: var(--accent); }
+section:first-child > .cat-head { padding-top: 28px; }
+.enjeu { background: var(--soft); border: 0; border-radius: 20px; padding: 22px 22px 14px; margin-top: 14px; }
+.enjeu h2 { font-stretch: 112%; font-weight: 600; color: var(--accent); }
+.enjeu-row { border-top: 1px solid var(--line); padding-block: 9px; }
+.cg-grid .cg-tile { border-bottom: 1px solid var(--line); }
+.cg-tile .t { color: var(--fg); }
+.cg-tile .n { color: var(--accent); font-size: 13px; }
+
 @media (min-width: 1000px) {
   .top-nav { display: flex; grid-column: 1; grid-row: 1; }
   nav.bottom { display: none; }
