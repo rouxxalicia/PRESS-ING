@@ -82,7 +82,7 @@ header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; 
 .top-nav a[aria-current="page"] { color: var(--fg); }
 .top-date { justify-self: end; }
 
-nav.bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--bg); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+nav.bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--bg); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
 nav.bottom a { text-align: center; padding-block: 17px; color: var(--muted); }
 nav.bottom a[aria-current="page"] { color: var(--fg); }
 main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
@@ -254,6 +254,37 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .btn:hover { background: var(--invert-bg); color: var(--invert-fg); }
 .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(130px + env(safe-area-inset-bottom, 0px)); background: var(--invert-bg); color: var(--invert-fg); padding: 11px 18px; z-index: 40; }
 
+/* Culture générale */
+.cg-head { padding-block: 40px 28px; border-bottom: 1px solid var(--fg); display: flex; flex-direction: column; gap: 10px; }
+.cg-head h1 { margin: 0; font-stretch: 125%; font-weight: 600; font-size: clamp(30px, 7vw, 52px); letter-spacing: 0.01em; text-transform: uppercase; line-height: 0.95; }
+.cg-head p { margin: 0; color: var(--muted); max-width: 56ch; }
+.cg-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; margin-top: 8px; }
+.cg-tile { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 16px; align-items: baseline; padding-block: 22px; border-bottom: 1px solid var(--line); }
+.cg-tile .n { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; color: var(--muted); }
+.cg-tile .t { font-stretch: 112%; font-weight: 600; font-size: 19px; letter-spacing: 0.01em; }
+.cg-tile .d { display: block; color: var(--muted); font-size: 14px; margin-top: 3px; font-weight: 400; font-stretch: 100%; }
+.cg-tile:hover .t { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.cg-enjeux { margin-top: 36px; background: var(--soft); padding: 24px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.cg-enjeux:hover { background: var(--line); }
+.cg-enjeux strong { display: block; font-weight: 500; font-size: 18px; }
+.cg-ref { display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; gap: 14px; align-items: baseline; padding-block: 16px; border-bottom: 1px solid var(--line); width: 100%; text-align: left; }
+.cg-ref .n { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; color: var(--muted); font-variant-numeric: tabular-nums; }
+.cg-ref .t { font-size: 16px; font-weight: 500; line-height: 1.35; }
+.cg-ref .s { display: block; color: var(--muted); font-size: 13.5px; margin-top: 2px; }
+.cg-ref:hover .t { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.cg-ref .etat { font-size: 10px; }
+.cg-ref .etat.ok { color: var(--fg); }
+.enjeu { padding-block: 30px 6px; border-bottom: 1px solid var(--line); }
+.enjeu h2 { margin: 0 0 14px; font-weight: 500; font-size: 19px; letter-spacing: -0.005em; }
+.enjeu-row { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px; padding-block: 7px; font-size: 14.5px; }
+.enjeu-row .label { padding-top: 3px; }
+.enjeu-row a { border-bottom: 1px solid var(--line); }
+.enjeu-row a:hover { border-bottom-color: var(--fg); }
+.enjeu-row .sep { color: var(--muted); padding-inline: 6px; }
+.lieu { margin: -6px 0 0; color: var(--muted); font-size: 13.5px; }
+@media (min-width: 820px) { .cg-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 48px; } }
+@media (max-width: 520px) { .enjeu-row { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
+
 @media (min-width: 1000px) {
   .top-nav { display: flex; grid-column: 1; grid-row: 1; }
   nav.bottom { display: none; }
@@ -299,6 +330,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       <nav class="top-nav label" aria-label="Sections">
         <a href="#accueil" data-nav="accueil">Édition</a>
         <a href="#referentiel" data-nav="referentiel">Référentiel</a>
+        <a href="#cg" data-nav="cg">Culture G.</a>
         <a href="#archives" data-nav="archives">Archives</a>
         <a href="#favoris" data-nav="favoris">Favoris</a>
       </nav>
@@ -315,6 +347,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 <nav class="bottom label" aria-label="Sections">
   <a href="#accueil" data-nav="accueil">Édition</a>
   <a href="#referentiel" data-nav="referentiel">Référentiel</a>
+  <a href="#cg" data-nav="cg">Culture G.</a>
   <a href="#archives" data-nav="archives">Archives</a>
   <a href="#favoris" data-nav="favoris">Favoris</a>
 </nav>
@@ -347,6 +380,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 
   async function getJSON(p) { const r = await fetch(p, { cache: "no-cache" }); if (!r.ok) throw new Error(p); return r.json(); }
   async function edition(d) { if (!state.editions[d]) state.editions[d] = await getJSON("data/editions/" + d + ".json"); return state.editions[d]; }
+  async function cgData() { if (!state.cg) state.cg = await getJSON("data/cg/humanite.json"); return state.cg; }
   async function referentiel() { if (!state.ref) state.ref = await getJSON("data/referentiel.json"); return state.ref; }
 
   function photo(c, cls) { const i = c.image; if (!i || !/^https:\/\//.test(i.url || "")) return ""; return '<figure class="ph' + (cls ? " " + cls : "") + '"><img src="' + esc(i.url) + '" alt="' + esc(i.alt || "") + '" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'figure\').remove()"></figure>'; }
@@ -357,7 +391,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       '<h2>' + esc(c.titre) + '</h2><p>' + esc(firstSentence(c.faits)) + '</p></div></a>';
   }
   function setNav() {
-    const sec = state.view === "fiche" ? "referentiel" : (["referentiel", "archives", "favoris"].includes(state.view) ? state.view : "accueil");
+    const sec = state.view === "fiche" ? "referentiel" : (state.view === "cg" ? "cg" : (["referentiel", "archives", "favoris"].includes(state.view) ? state.view : "accueil"));
     document.querySelectorAll("[data-nav]").forEach(a => a.dataset.nav === sec ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
     document.getElementById("top-date").textContent = state.date ? dShort(state.date) : "";
   }
@@ -500,12 +534,54 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     window.scrollTo(0, 0);
   }
 
+  // Culture générale
+  const pad2 = n => String(n).padStart(2, "0");
+  async function viewCG(parts) {
+    const cg = await cgData();
+    const rubNom = id => (cg.rubriques.find(r => r.id === id) || {}).nom || "";
+    const back = (href, txt) => '<a class="back label" href="' + href + '">← ' + txt + '</a>';
+    if (!parts.length) {
+      let h = '<div class="narrow"><div class="cg-head"><span class="label muted">Culture générale · ' + esc(cg.annee) + '</span><h1>' + esc(cg.theme) + '</h1><p>Le thème de l\'année, référence par référence : ce qu\'il faut savoir décrire, ce que ça montre, et où le placer dans une copie.</p></div>';
+      h += '<div class="cg-grid">' + cg.rubriques.map((r, i) => { const n = cg.refs.filter(x => x.rub === r.id).length; return '<a class="cg-tile" href="#cg/' + r.id + '"><span class="n">' + ["I","II","III","IV","V","VI"][i] + '</span><span class="t">' + esc(r.nom) + '<span class="d">' + esc(r.desc) + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div>';
+      h += '<a class="cg-enjeux" href="#cg/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>Les références par enjeu</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + ' grands enjeux du thème</span></span><span class="label">→</span></a></div>';
+      app.innerHTML = h; return;
+    }
+    if (parts[0] === "enjeux") {
+      const rubs = cg.rubriques.filter(r => r.id !== "dissertations");
+      let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">Partir d\'un sujet</span><h1>Les références par enjeu</h1></div>';
+      h += cg.enjeux.map(e => { const rs = cg.refs.filter(x => (x.enjeux || []).includes(e.id));
+        return '<section class="enjeu"><h2>' + esc(e.nom) + '</h2>' + rubs.map(r => { const l = rs.filter(x => x.rub === r.id); return l.length ? '<div class="enjeu-row"><span class="label muted">' + esc(r.nom.replace(/^Les /, "")) + '</span><span>' + l.map(x => '<a href="#cg/f/' + x.id + '">' + esc(x.titre) + '</a>').join('<span class="sep">·</span>') + '</span></div>' : ""; }).join("") +
+          (rs.some(x => x.rub === "dissertations") ? '<div class="enjeu-row"><span class="label muted">Sujets</span><span>' + rs.filter(x => x.rub === "dissertations").map(x => esc(x.titre)).join('<span class="sep">·</span>') + '</span></div>' : "") + '</section>'; }).join("");
+      app.innerHTML = h + '</div>'; return;
+    }
+    if (parts[0] === "f") {
+      const r = cg.refs.find(x => x.id === parts[1]);
+      if (!r) { app.innerHTML = '<div class="empty narrow"><p>Référence introuvable.</p><a class="btn label" href="#cg">Retour</a></div>'; return; }
+      const f = (cg.fiches || {})[r.id];
+      let h = '<div class="narrow">' + back("#cg/" + r.rub, rubNom(r.rub)) + '<article class="card">';
+      h += '<span class="label muted">' + esc(rubNom(r.rub)) + '</span><h1>' + esc(r.titre) + '</h1>';
+      if (r.sous) h += '<p class="lieu">' + esc(r.sous) + (f && f.lieu ? '<br>' + esc(f.lieu) : '') + '</p>';
+      if (f) { h += '<p class="idee">' + fmt(f.idee) + '</p>' + f.blocs.map(bloc).join(""); }
+      else h += '<div class="empty" style="padding-block:24px"><p>La fiche n\'est pas encore rédigée.</p><p class="muted">Elle arrive au fil des semaines.</p></div>';
+      const en = (r.enjeux || []).map(id => (cg.enjeux.find(e => e.id === id) || {}).nom).filter(Boolean);
+      if (en.length) h += '<section class="sec"><h2 class="label">Enjeux</h2><ol class="sujets">' + en.map((e, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(e) + '</span></li>').join("") + '</ol></section>';
+      app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
+    }
+    const rub = cg.rubriques.find(x => x.id === parts[0]);
+    if (!rub) { location.hash = "cg"; return; }
+    const l = cg.refs.filter(x => x.rub === rub.id);
+    let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">' + l.length + ' références</span><h1>' + esc(rub.nom) + '</h1><p class="muted" style="margin:4px 0 0">' + esc(rub.desc) + '</p></div><div style="border-top:1px solid var(--fg)">';
+    h += l.map((x, i) => { const ok = cg.fiches && cg.fiches[x.id]; return (rub.id === "dissertations" ? '<div class="cg-ref">' : '<a class="cg-ref" href="#cg/f/' + x.id + '">') + '<span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span>' + (x.sous ? '<span class="s">' + esc(x.sous) + '</span>' : '') + '</span>' + (rub.id === "dissertations" ? '<span></span></div>' : '<span class="label etat' + (ok ? ' ok' : ' muted') + '">' + (ok ? 'Fiche →' : 'À venir') + '</span></a>'); }).join("");
+    app.innerHTML = h + '</div></div>';
+  }
+
   async function route() {
     const h = decodeURIComponent(location.hash.slice(1));
     try {
       if (/^\d{4}-\d{2}-\d{2}-/.test(h)) { state.view = "carte"; setNav(); await viewCarte(h); }
       else if (MATS.includes(h) || h === "tout") { state.view = "matiere"; setNav(); await viewMatiere(h); }
       else if (h === "referentiel") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
+      else if (h === "cg" || h.startsWith("cg/")) { state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1)); }
       else if (h === "archives") { state.view = "archives"; setNav(); viewArchives(); }
       else if (h === "favoris") { state.view = "favoris"; setNav(); viewFavoris(); }
       else if (h && h !== "accueil") {
