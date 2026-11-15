@@ -82,7 +82,7 @@ header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; 
 .top-nav a[aria-current="page"] { color: var(--fg); }
 .top-date { justify-self: end; }
 
-nav.bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--bg); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
+nav.bottom { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--bg); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); }
 nav.bottom a { text-align: center; padding-block: 17px; color: var(--muted); }
 nav.bottom a[aria-current="page"] { color: var(--fg); }
 main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
@@ -254,6 +254,42 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .btn:hover { background: var(--invert-bg); color: var(--invert-fg); }
 .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(130px + env(safe-area-inset-bottom, 0px)); background: var(--invert-bg); color: var(--invert-fg); padding: 11px 18px; z-index: 40; }
 
+/* Référentiel : cartes en verre */
+.hub { position: relative; min-height: calc(100svh - 140px); display: flex; align-items: center; justify-content: center; padding-block: 40px; overflow: hidden; margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding-inline: max(16px, env(safe-area-inset-left, 0px)); }
+.hub-bg { position: absolute; inset: 0; pointer-events: none; }
+.hub-bg i { position: absolute; border-radius: 50%; filter: blur(60px); opacity: .9; }
+.hub-bg i:nth-child(1) { width: 46vmax; height: 46vmax; left: -12vmax; top: -6vmax; background: radial-gradient(circle at 40% 40%, #d9cdbd, transparent 70%); animation: drift 18s ease-in-out infinite alternate; }
+.hub-bg i:nth-child(2) { width: 40vmax; height: 40vmax; right: -14vmax; bottom: -10vmax; background: radial-gradient(circle at 50% 50%, #b9c3d6, transparent 70%); animation: drift 22s ease-in-out infinite alternate-reverse; }
+.hub-bg i:nth-child(3) { width: 26vmax; height: 26vmax; left: 38%; top: 30%; background: radial-gradient(circle, #e8dfd3, transparent 70%); animation: drift 26s ease-in-out infinite alternate; }
+@keyframes drift { to { transform: translate(4vmax, 3vmax) scale(1.08); } }
+.hub-in { position: relative; width: 100%; max-width: 820px; display: flex; flex-direction: column; gap: 30px; }
+.hub-head { text-align: center; display: flex; flex-direction: column; gap: 8px; }
+.hub-head h1 { margin: 0; font-size: clamp(24px, 5vw, 34px); font-weight: 400; letter-spacing: -0.01em; }
+.hub-cards { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.glass { position: relative; display: flex; flex-direction: column; gap: 10px; min-height: 230px; padding: 26px 26px 22px; border-radius: 28px; overflow: hidden;
+  background: linear-gradient(135deg, rgba(255,255,255,.55), rgba(255,255,255,.18));
+  -webkit-backdrop-filter: blur(24px) saturate(160%); backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid rgba(255,255,255,.7);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), inset 0 -1px 0 rgba(255,255,255,.25), 0 18px 40px -18px rgba(40,35,30,.28);
+  transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s; }
+.glass::before { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: linear-gradient(115deg, rgba(255,255,255,.55) 0%, rgba(255,255,255,0) 38%, rgba(255,255,255,0) 70%, rgba(255,255,255,.25) 100%); }
+.glass:hover { transform: translateY(-4px); box-shadow: inset 0 1px 0 rgba(255,255,255,.95), 0 26px 50px -20px rgba(40,35,30,.35); }
+.glass > * { position: relative; }
+.g-k { color: var(--muted); }
+.g-t { font-stretch: 125%; font-weight: 600; font-size: clamp(30px, 6vw, 40px); letter-spacing: 0.02em; text-transform: uppercase; line-height: 1; margin-top: auto; }
+.g-d { color: var(--muted); font-size: 14.5px; max-width: 34ch; }
+.g-n { display: flex; justify-content: space-between; padding-top: 14px; border-top: 1px solid rgba(17,17,16,.12); }
+:root[data-theme="dark"] .glass { background: linear-gradient(135deg, rgba(255,255,255,.14), rgba(255,255,255,.04)); border-color: rgba(255,255,255,.18); box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 18px 40px -18px rgba(0,0,0,.6); }
+:root[data-theme="dark"] .glass::before { background: linear-gradient(115deg, rgba(255,255,255,.16), transparent 40%); }
+:root[data-theme="dark"] .g-n { border-top-color: rgba(255,255,255,.15); }
+:root[data-theme="dark"] .hub-bg i { opacity: .35; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .glass { background: linear-gradient(135deg, rgba(255,255,255,.14), rgba(255,255,255,.04)); border-color: rgba(255,255,255,.18); box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 18px 40px -18px rgba(0,0,0,.6); }
+  :root:not([data-theme="light"]) .glass::before { background: linear-gradient(115deg, rgba(255,255,255,.16), transparent 40%); }
+  :root:not([data-theme="light"]) .g-n { border-top-color: rgba(255,255,255,.15); }
+  :root:not([data-theme="light"]) .hub-bg i { opacity: .35; } }
+@media (min-width: 720px) { .hub-cards { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; } .glass { min-height: 300px; padding: 32px; } }
+@media (prefers-reduced-motion: reduce) { .hub-bg i { animation: none; } .glass { transition: none; } }
+
 /* Culture générale */
 .cg-head { padding-block: 40px 28px; border-bottom: 1px solid var(--fg); display: flex; flex-direction: column; gap: 10px; }
 .cg-head h1 { margin: 0; font-stretch: 125%; font-weight: 600; font-size: clamp(30px, 7vw, 52px); letter-spacing: 0.01em; text-transform: uppercase; line-height: 0.95; }
@@ -330,7 +366,6 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       <nav class="top-nav label" aria-label="Sections">
         <a href="#accueil" data-nav="accueil">Édition</a>
         <a href="#referentiel" data-nav="referentiel">Référentiel</a>
-        <a href="#cg" data-nav="cg">Culture G.</a>
         <a href="#archives" data-nav="archives">Archives</a>
         <a href="#favoris" data-nav="favoris">Favoris</a>
       </nav>
@@ -347,7 +382,6 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 <nav class="bottom label" aria-label="Sections">
   <a href="#accueil" data-nav="accueil">Édition</a>
   <a href="#referentiel" data-nav="referentiel">Référentiel</a>
-  <a href="#cg" data-nav="cg">Culture G.</a>
   <a href="#archives" data-nav="archives">Archives</a>
   <a href="#favoris" data-nav="favoris">Favoris</a>
 </nav>
@@ -391,7 +425,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       '<h2>' + esc(c.titre) + '</h2><p>' + esc(firstSentence(c.faits)) + '</p></div></a>';
   }
   function setNav() {
-    const sec = state.view === "fiche" ? "referentiel" : (state.view === "cg" ? "cg" : (["referentiel", "archives", "favoris"].includes(state.view) ? state.view : "accueil"));
+    const sec = state.view === "fiche" ? "referentiel" : (state.view === "cg" || state.view === "refhub" ? "referentiel" : (["referentiel", "archives", "favoris"].includes(state.view) ? state.view : "accueil"));
     document.querySelectorAll("[data-nav]").forEach(a => a.dataset.nav === sec ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
     document.getElementById("top-date").textContent = state.date ? dShort(state.date) : "";
   }
@@ -508,7 +542,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
   }
   async function viewReferentiel() {
     const ref = await referentiel();
-    app.innerHTML = '<div class="narrow"><div class="page-head"><span class="label muted">Auteurs, théories, notions</span><h1>Référentiel</h1><p class="muted" style="margin:4px 0 0">Ce qu\'on attend de toi, et surtout ce que chaque théorie permet de montrer.</p></div>' +
+    app.innerHTML = '<div class="narrow"><a class="back label" href="#referentiel">← Référentiel</a><div class="page-head"><span class="label muted">Auteurs, théories, notions</span><h1>Référentiel ESH</h1><p class="muted" style="margin:4px 0 0">Ce qu\'on attend de toi, et surtout ce que chaque théorie permet de montrer.</p></div>' +
       '<label class="label muted" for="ref-search">Chercher un auteur, une notion</label><input id="ref-search" class="search" type="search" placeholder="Ricardo, dette, aléa moral…" autocomplete="off">' +
       '<div id="ref-results">' + refResults(ref, "") + '</div></div>';
     const input = document.getElementById("ref-search");
@@ -526,7 +560,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     const ref = await referentiel();
     const f = ref.fiches.find(x => x.id === id);
     const cat = ref.categories.find(c => c.id === f.categorie);
-    let h = '<div class="narrow"><a class="back label" href="#referentiel">← Référentiel</a><article class="card">';
+    let h = '<div class="narrow"><a class="back label" href="#referentiel/esh">← Référentiel ESH</a><article class="card">';
     h += '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap" class="label"><span class="pill">' + esc(f.type) + ' · ' + esc(f.annee) + '</span><span class="muted">' + esc(cat ? cat.nom : "") + '</span></div>';
     h += '<h1>' + esc(f.nom) + '</h1><p class="idee">' + fmt(f.accroche) + '</p>';
     h += f.blocs.map(bloc).join("");
@@ -541,7 +575,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     const rubNom = id => (cg.rubriques.find(r => r.id === id) || {}).nom || "";
     const back = (href, txt) => '<a class="back label" href="' + href + '">← ' + txt + '</a>';
     if (!parts.length) {
-      let h = '<div class="narrow"><div class="cg-head"><span class="label muted">Culture générale · ' + esc(cg.annee) + '</span><h1>' + esc(cg.theme) + '</h1><p>Le thème de l\'année, référence par référence : ce qu\'il faut savoir décrire, ce que ça montre, et où le placer dans une copie.</p></div>';
+      let h = '<div class="narrow">' + back("#referentiel", "Référentiel") + '<div class="cg-head"><span class="label muted">Culture générale · ' + esc(cg.annee) + '</span><h1>' + esc(cg.theme) + '</h1><p>Le thème de l\'année, référence par référence : ce qu\'il faut savoir décrire, ce que ça montre, et où le placer dans une copie.</p></div>';
       h += '<div class="cg-grid">' + cg.rubriques.map((r, i) => { const n = cg.refs.filter(x => x.rub === r.id).length; return '<a class="cg-tile" href="#cg/' + r.id + '"><span class="n">' + ["I","II","III","IV","V","VI"][i] + '</span><span class="t">' + esc(r.nom) + '<span class="d">' + esc(r.desc) + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div>';
       h += '<a class="cg-enjeux" href="#cg/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>Les références par enjeu</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + ' grands enjeux du thème</span></span><span class="label">→</span></a></div>';
       app.innerHTML = h; return;
@@ -575,12 +609,26 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     app.innerHTML = h + '</div></div>';
   }
 
+  // Référentiel : choix de la matière
+  async function viewRefHub() {
+    let nE = "", nC = "";
+    try { nE = (await referentiel()).fiches.length + " fiches"; } catch (e) {}
+    try { const cg = await cgData(); nC = cg.refs.length + " références"; } catch (e) {}
+    app.innerHTML = '<div class="hub"><div class="hub-bg" aria-hidden="true"><i></i><i></i><i></i></div>' +
+      '<div class="hub-in"><div class="hub-head"><span class="label muted">Référentiel</span><h1>Que veux-tu réviser ?</h1></div>' +
+      '<div class="hub-cards">' +
+        '<a class="glass" href="#referentiel/esh"><span class="label g-k">I</span><span class="g-t">ESH</span><span class="g-d">Auteurs, théories, notions : ce que chaque théorie permet de montrer.</span><span class="label g-n">' + nE + ' <span>→</span></span></a>' +
+        '<a class="glass" href="#cg"><span class="label g-k">II</span><span class="g-t">Culture G.</span><span class="g-d">L\'Humanité : auteurs, œuvres, tableaux, films, par enjeu.</span><span class="label g-n">' + nC + ' <span>→</span></span></a>' +
+      '</div></div></div>';
+  }
+
   async function route() {
     const h = decodeURIComponent(location.hash.slice(1));
     try {
       if (/^\d{4}-\d{2}-\d{2}-/.test(h)) { state.view = "carte"; setNav(); await viewCarte(h); }
       else if (MATS.includes(h) || h === "tout") { state.view = "matiere"; setNav(); await viewMatiere(h); }
-      else if (h === "referentiel") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
+      else if (h === "referentiel") { state.view = "refhub"; setNav(); await viewRefHub(); }
+      else if (h === "referentiel/esh") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
       else if (h === "cg" || h.startsWith("cg/")) { state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1)); }
       else if (h === "archives") { state.view = "archives"; setNav(); viewArchives(); }
       else if (h === "favoris") { state.view = "favoris"; setNav(); viewFavoris(); }

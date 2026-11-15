@@ -308,6 +308,18 @@
    ]
   },
   {
+   "id": "wolff",
+   "rub": "auteurs",
+   "titre": "Francis Wolff",
+   "sous": "Notre humanité. D'Aristote aux neurosciences (2010) · Trois utopies contemporaines (2017) · Plaidoyer pour l'universel (2019)",
+   "enjeux": [
+    "nature-humaine",
+    "animalite",
+    "technique",
+    "unite"
+   ]
+  },
+  {
    "id": "villon",
    "rub": "poemes",
    "titre": "Ballade des pendus",
