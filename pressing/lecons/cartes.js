@@ -6,9 +6,9 @@ const store = {
   set(k, v){ try{ localStorage.setItem("cartes:"+k, JSON.stringify(v)); }catch(e){} }
 };
 const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-const fmt = s => esc(s).replace(/\[(a|d|w|n):([^\]]+)\]/g, (m,t,v)=>`<span class="${t}">${v}</span>`).replace(/\{(e|f):([^{}]+)\}/g, '<span class="$1">$2</span>').replace(/\s*\{!\}/g, ' <span class="imp">important</span>');
+const fmt = s => esc(s).replace(/\[(a|d|w|n):([^\]]+)\]/g, (m,t,v)=>`<span class="${t}">${v}</span>`).replace(/\{e:([^{}]+)\}/g, '<span class="e">$1</span>').replace(/\{f:([^{}]+)\}/g, (m,v)=>'<span class="f">'+v.replace(/^([^=<]{1,60}?) = /, '<b>$1</b> = ')+'</span>').replace(/\s*\{!\}/g, '<i class="imp"></i>');
 const plain = s => s.replace(/\[(a|d|w|n):([^\]]+)\]/g, "$2").replace(/\{(e|f):([^{}]+)\}/g, "$2").replace(/\s*\{!\}/g, "");
-const vmFont = "Indie Flower";
+const vmFont = "Archivo";
 
 const DEB = () => (window.ESH_DEBATS && L && window.ESH_DEBATS[L.id]) || [];
 const items = () => L.vmaps.map(p=>({p})).concat(DEB().map(m=>({deb:m})));
@@ -75,7 +75,7 @@ function drawVm(){
   const tree = rawTree(), path = cur.p;
   const part = vmFind(tree, [path[0]]), node = vmFind(tree, path);
   const canvas = $("#cm-canvas");
-  canvas.style.setProperty("--f-map", `"${vmFont}", "Comic Neue", cursive`);
+  canvas.style.setProperty("--f-map", `"${vmFont}", "Helvetica Neue", Arial, sans-serif`);
   if(!node){ canvas.innerHTML = "<p>Carte introuvable.</p>"; return; }
   const sup = path.length>1 ? plain(part.raw) : L.title;
   let html = `<svg class="vm-arrows" id="cm-arrows"></svg><div class="vm-box vm-center" data-id="0" data-d="0"><small>${esc(sup)}</small><span>${esc(plain(node.raw))}</span></div>`;
@@ -105,7 +105,7 @@ function drawVm(){
 /* ---------- Carte de débats : la question au milieu, « oui » à gauche, « non / nuance » à droite ---------- */
 function drawDeb(M){
   const canvas = $("#cm-canvas");
-  canvas.style.setProperty("--f-map", `"${vmFont}", "Comic Neue", cursive`);
+  canvas.style.setProperty("--f-map", `"${vmFont}", "Helvetica Neue", Arial, sans-serif`);
   canvas.style.transform = ""; canvas.style.width = "1660px"; canvas.style.height = "auto";
   let html = `<div class="db-board"><div class="db-title">${esc(M.title)}${M.sub?` <small>${esc(M.sub)}</small>`:""}</div><div class="db-grid">`;
   M.debates.forEach((D,k)=>{
