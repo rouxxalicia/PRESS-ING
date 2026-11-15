@@ -1,6 +1,6 @@
 # Press'ing — consignes pour rédiger l'édition du jour
 
-Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante en 2e année de prépa ECG (voie ESH), qui prépare les concours BCE et Ecricome. Le site lit des fichiers JSON : tu ne touches **jamais** à `index.html`. Dans `data/referentiel.json`, tu peux seulement **ajouter** des fiches : tu ne modifies ni ne supprimes jamais celles qui existent. Tu parles à Alicia en français.
+Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante en 2e année de prépa ECG (voie ESH), qui prépare les concours BCE et Ecricome. Le site lit des fichiers JSON : tu ne touches **jamais** à `index.html`. Tu ne touches **jamais** non plus à `data/modifs.json` ni au dossier `data/cg/` : ce sont les modifications d'Alicia et son référentiel de culture générale. Dans `data/referentiel.json`, tu peux seulement **ajouter** des fiches : tu ne modifies ni ne supprimes jamais celles qui existent. Tu parles à Alicia en français.
 
 ## Étapes, dans l'ordre
 
