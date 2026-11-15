@@ -5,7 +5,7 @@
   {
    "id": "auteurs",
    "nom": "Les auteurs",
-   "desc": "Les penseurs du thème, tirés de tes cours de philo et de lettres."
+   "desc": "Les penseurs du thème, tirés de ton cours de philo et des textes et cours de lettres de 2A."
   },
   {
    "id": "poemes",
@@ -204,7 +204,7 @@
    "id": "montaigne",
    "rub": "auteurs",
    "titre": "Montaigne",
-   "sous": "Essais (1580-1588) : « Des cannibales », « Que philosopher, c'est apprendre à mourir », « De l'ivrognerie »",
+   "sous": "Essais (1580) : « Apologie de Raymond Sebond », « De la cruauté », « De l'ivrognerie »",
    "enjeux": [
     "civilisation",
     "unite",
@@ -294,17 +294,6 @@
    "cours": true
   },
   {
-   "id": "levinas",
-   "rub": "auteurs",
-   "titre": "Emmanuel Levinas",
-   "sous": "Totalité et Infini (1961) · Éthique et Infini (1982)",
-   "enjeux": [
-    "autrui",
-    "vulnerabilite",
-    "dignite"
-   ]
-  },
-  {
    "id": "levi-strauss",
    "rub": "auteurs",
    "titre": "Claude Lévi-Strauss",
@@ -340,7 +329,7 @@
    "id": "descola",
    "rub": "auteurs",
    "titre": "Philippe Descola",
-   "sous": "Par-delà nature et culture (2005)",
+   "sous": "Par-delà nature et culture (2005) · Les Formes du visible (2021)",
    "enjeux": [
     "nature",
     "animalite",
@@ -352,7 +341,7 @@
    "id": "wolff",
    "rub": "auteurs",
    "titre": "Francis Wolff",
-   "sous": "Notre humanité. D'Aristote aux neurosciences (2010) · Trois utopies contemporaines (2017) · Plaidoyer pour l'universel (2019)",
+   "sous": "Notre humanité. D'Aristote aux neurosciences (2010) · Trois utopies contemporaines (2017)",
    "enjeux": [
     "nature-humaine",
     "animalite",
@@ -421,22 +410,10 @@
    "cours": true
   },
   {
-   "id": "erasme",
-   "rub": "auteurs",
-   "titre": "Érasme",
-   "sous": "De pueris instituendis (1529) : « On ne naît pas homme, on le devient »",
-   "enjeux": [
-    "nature-humaine",
-    "transmission"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
    "id": "bossuet",
    "rub": "auteurs",
    "titre": "Bossuet",
-   "sous": "L'homme et l'animal",
+   "sous": "De la connaissance de Dieu et de soi-même (Ve partie, chap. VI)",
    "enjeux": [
     "animalite"
    ],
@@ -457,73 +434,13 @@
    "source": "lettres"
   },
   {
-   "id": "maistre",
-   "rub": "auteurs",
-   "titre": "Joseph de Maistre",
-   "sous": "Considérations sur la France (1797) : contre l'homme abstrait des Lumières",
-   "enjeux": [
-    "unite",
-    "exclus"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
    "id": "teilhard",
    "rub": "auteurs",
    "titre": "Teilhard de Chardin",
-   "sous": "Le Phénomène humain (1955) : le point Oméga",
+   "sous": "Le Phénomène humain (1955) · La Place de l'Homme dans la Nature",
    "enjeux": [
     "posthumanisme",
     "transmission"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "terestchenko",
-   "rub": "auteurs",
-   "titre": "Michel Terestchenko",
-   "sous": "Un si fragile vernis d'humanité (2005)",
-   "enjeux": [
-    "deshumanisation",
-    "dignite"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "schmitt",
-   "rub": "auteurs",
-   "titre": "Carl Schmitt",
-   "sous": "La Notion de politique (1932) : « Qui dit humanité veut tromper »",
-   "enjeux": [
-    "unite"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "finkielkraut",
-   "rub": "auteurs",
-   "titre": "Alain Finkielkraut",
-   "sous": "L'Humanité perdue (1996)",
-   "enjeux": [
-    "unite",
-    "deshumanisation",
-    "autrui"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "serres",
-   "rub": "auteurs",
-   "titre": "Michel Serres",
-   "sous": "Hominescence (2001) · Le Contrat naturel (1990)",
-   "enjeux": [
-    "posthumanisme",
-    "nature"
    ],
    "cours": true,
    "source": "lettres"
@@ -538,6 +455,138 @@
    ],
    "cours": true,
    "source": "philo"
+  },
+  {
+   "id": "stiegler",
+   "rub": "auteurs",
+   "titre": "Bernard Stiegler",
+   "sous": "Philosopher par accident (2004) : le défaut d'origine",
+   "enjeux": [
+    "nature-humaine",
+    "technique"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "leroi-gourhan",
+   "rub": "auteurs",
+   "titre": "André Leroi-Gourhan",
+   "sous": "Le Geste et la Parole (1964-1965)",
+   "enjeux": [
+    "technique",
+    "animalite"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "plutarque",
+   "rub": "auteurs",
+   "titre": "Plutarque",
+   "sous": "Gryllos : l'animal plus vertueux que l'homme ?",
+   "enjeux": [
+    "animalite"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "ferry",
+   "rub": "auteurs",
+   "titre": "Luc Ferry",
+   "sous": "Qu'est-ce que l'homme ? (2010)",
+   "enjeux": [
+    "animalite",
+    "nature-humaine",
+    "dignite"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "nisand",
+   "rub": "auteurs",
+   "titre": "Israël Nisand",
+   "sous": "Où va l'humanité ? (2013)",
+   "enjeux": [
+    "posthumanisme",
+    "technique",
+    "nature-humaine"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "ellul",
+   "rub": "auteurs",
+   "titre": "Jacques Ellul",
+   "sous": "Le Système technicien (1977)",
+   "enjeux": [
+    "technique",
+    "posthumanisme"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "juignet",
+   "rub": "auteurs",
+   "titre": "Patrick Juignet",
+   "sous": "De l'homme-machine au cerveau-machine",
+   "enjeux": [
+    "technique",
+    "nature-humaine"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "sarah",
+   "rub": "auteurs",
+   "titre": "Robert Sarah",
+   "sous": "Le soir approche et déjà le jour baisse (2019)",
+   "enjeux": [
+    "civilisation"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "bimbenet",
+   "rub": "auteurs",
+   "titre": "Étienne Bimbenet",
+   "sous": "Nous n'en avons pas fini avec notre humanité",
+   "enjeux": [
+    "animalite",
+    "nature-humaine"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "rostand",
+   "rub": "auteurs",
+   "titre": "Jean Rostand",
+   "sous": "Pensées d'un biologiste (1954)",
+   "enjeux": [
+    "nature-humaine",
+    "animalite"
+   ],
+   "cours": true,
+   "source": "lettres"
+  },
+  {
+   "id": "guillebaud",
+   "rub": "auteurs",
+   "titre": "Jean-Claude Guillebaud",
+   "sous": "Le Principe d'humanité (2001)",
+   "enjeux": [
+    "posthumanisme",
+    "dignite"
+   ],
+   "cours": true,
+   "source": "lettres"
   },
   {
    "id": "villon",
@@ -660,114 +709,6 @@
    "enjeux": [
     "nature-humaine",
     "unite"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "gargantua",
-   "rub": "litterature",
-   "titre": "Gargantua",
-   "sous": "Rabelais · 1534",
-   "enjeux": [
-    "transmission",
-    "nature-humaine"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "dom-juan",
-   "rub": "litterature",
-   "titre": "Dom Juan",
-   "sous": "Molière · 1665 : la scène du pauvre, « pour l'amour de l'humanité »",
-   "enjeux": [
-    "autrui",
-    "dignite"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "therese-raquin",
-   "rub": "litterature",
-   "titre": "Thérèse Raquin",
-   "sous": "Zola · 1867 (et Le Roman expérimental, 1880)",
-   "enjeux": [
-    "animalite",
-    "nature-humaine"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "quatrevingt-treize",
-   "rub": "litterature",
-   "titre": "Quatrevingt-Treize",
-   "sous": "Victor Hugo · 1874",
-   "enjeux": [
-    "deshumanisation",
-    "dignite"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "cantatrice",
-   "rub": "litterature",
-   "titre": "La Cantatrice chauve",
-   "sous": "Ionesco · 1950",
-   "enjeux": [
-    "deshumanisation",
-    "autrui"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "zweig",
-   "rub": "litterature",
-   "titre": "Érasme. Grandeur et décadence d'une idée",
-   "sous": "Stefan Zweig · 1935",
-   "enjeux": [
-    "transmission",
-    "civilisation"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "particules",
-   "rub": "litterature",
-   "titre": "Les Particules élémentaires",
-   "sous": "Michel Houellebecq · 1998",
-   "enjeux": [
-    "posthumanisme",
-    "technique"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "possibilite-ile",
-   "rub": "litterature",
-   "titre": "La Possibilité d'une île",
-   "sous": "Michel Houellebecq · 2005",
-   "enjeux": [
-    "posthumanisme",
-    "mortalite"
-   ],
-   "cours": true,
-   "source": "lettres"
-  },
-  {
-   "id": "purs-hommes",
-   "rub": "litterature",
-   "titre": "De purs hommes",
-   "sous": "Mohamed Mbougar Sarr · 2018",
-   "enjeux": [
-    "exclus",
-    "nature-humaine"
    ],
    "cours": true,
    "source": "lettres"
@@ -993,17 +934,16 @@
    ]
   },
   {
-   "id": "miracle-alabama",
+   "id": "gattaca",
    "rub": "films",
-   "titre": "Miracle en Alabama",
-   "sous": "Arthur Penn · 1962",
+   "titre": "Bienvenue à Gattaca",
+   "sous": "Andrew Niccol · 1997",
    "enjeux": [
-    "animalite",
-    "nature-humaine",
-    "transmission"
+    "technique",
+    "posthumanisme",
+    "exclus"
    ],
-   "cours": true,
-   "source": "lettres"
+   "cours": true
   },
   {
    "id": "d-animal",
@@ -1014,83 +954,82 @@
    ]
   },
   {
+   "id": "d-propre",
+   "rub": "dissertations",
+   "titre": "Y a-t-il un propre de l'homme ?",
+   "enjeux": [
+    "animalite",
+    "nature-humaine"
+   ]
+  },
+  {
    "id": "d-perdre",
    "rub": "dissertations",
-   "titre": "Peut-on renoncer à son humanité ?",
+   "titre": "Peut-on perdre son humanité ?",
    "enjeux": [
     "deshumanisation",
     "dignite"
    ]
   },
   {
-   "id": "d-frontieres",
+   "id": "d-exclure",
    "rub": "dissertations",
-   "titre": "L'humanité a-t-elle des frontières ?",
+   "titre": "Définir l'homme, est-ce exclure ?",
    "enjeux": [
-    "exclus",
-    "unite"
+    "exclus"
    ]
   },
   {
-   "id": "d-acceder",
+   "id": "d-nature-fin",
    "rub": "dissertations",
-   "titre": "Accède-t-on à son humanité ?",
+   "titre": "L'humanité commence-t-elle là où finit la nature ?",
    "enjeux": [
-    "nature-humaine",
-    "transmission"
-   ]
-  },
-  {
-   "id": "d-crime",
-   "rub": "dissertations",
-   "titre": "Qu'est-ce qu'un crime contre l'humanité ?",
-   "enjeux": [
-    "deshumanisation",
-    "dignite"
-   ]
-  },
-  {
-   "id": "d-utopie",
-   "rub": "dissertations",
-   "titre": "Humaniser l'humanité, une utopie ?",
-   "enjeux": [
-    "civilisation",
-    "transmission"
-   ]
-  },
-  {
-   "id": "d-nature",
-   "rub": "dissertations",
-   "titre": "Y a-t-il une nature humaine ?",
-   "enjeux": [
+    "nature",
     "nature-humaine"
+   ]
+  },
+  {
+   "id": "d-autres",
+   "rub": "dissertations",
+   "titre": "Peut-on devenir humain sans les autres ?",
+   "enjeux": [
+    "autrui",
+    "transmission"
    ]
   },
   {
    "id": "d-technique",
    "rub": "dissertations",
-   "titre": "La technique menace-t-elle l'humanité ?",
+   "titre": "La technique rend-elle l'homme moins humain ?",
    "enjeux": [
     "technique",
     "posthumanisme"
    ]
   },
   {
-   "id": "d-freres",
+   "id": "d-nature",
    "rub": "dissertations",
-   "titre": "Sommes-nous tous frères ?",
+   "titre": "L'homme a-t-il une nature ?",
    "enjeux": [
-    "unite",
-    "autrui"
+    "nature-humaine"
    ]
   },
   {
-   "id": "d-fin",
+   "id": "d-degres",
    "rub": "dissertations",
-   "titre": "La fin de l'humanité",
+   "titre": "Y a-t-il des degrés d'humanité ?",
    "enjeux": [
-    "posthumanisme",
-    "mortalite"
+    "exclus",
+    "dignite"
+   ]
+  },
+  {
+   "id": "d-responsables",
+   "rub": "dissertations",
+   "titre": "Sommes-nous responsables de l'humanité ?",
+   "enjeux": [
+    "transmission",
+    "autrui"
    ]
   }
  ],

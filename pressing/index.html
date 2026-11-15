@@ -950,7 +950,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     if (idee || blocs.length) ajouts.fiches[id] = { idee: idee, blocs: blocs }; else delete ajouts.fiches[id];
     if (JSON.stringify(ajouts.fiches[id] || null) !== before) persist("Rédige la fiche " + id);
   }
-  document.addEventListener("click", e => { const b = e.target.closest("#edit-toggle"); if (!b) return; document.body.classList.toggle("edit-on"); b.textContent = document.body.classList.contains("edit-on") ? "Terminer" : "Modifier"; b.classList.toggle("on"); route(); });
+  document.addEventListener("click", e => { const b = e.target.closest("#edit-toggle"); if (!b) return; if (!EDIT()) { location.hash = "notes"; toast("Active d'abord le mode éditrice ici"); return; } document.body.classList.toggle("edit-on"); b.textContent = document.body.classList.contains("edit-on") ? "Terminer" : "Modifier"; b.classList.toggle("on"); route(); });
 
   async function route() {
     const h = decodeURIComponent(location.hash.slice(1));
@@ -969,7 +969,7 @@ section:first-child > .cat-head { padding-top: 28px; }
         else { state.view = "accueil"; setNav(); await viewAccueil(); }
       }
       else { state.view = "accueil"; setNav(); await viewAccueil(); }
-      const tg = document.getElementById("edit-toggle"); if (tg) tg.hidden = !EDIT();
+      const tg = document.getElementById("edit-toggle"); if (tg) tg.hidden = false;
       if (!/^\d{4}-\d{2}-\d{2}-/.test(h)) decorate(h);
     } catch (e) {
       app.innerHTML = '<div class="empty narrow"><p>Impossible de charger cette page.</p><p class="muted">Les données de l\'édition ne répondent pas. Recharge la page dans un instant.</p></div>';
