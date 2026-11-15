@@ -323,6 +323,11 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
 .enjeu-row a { border-bottom: 1px solid var(--line); }
 .enjeu-row a:hover { border-bottom-color: var(--fg); }
 .enjeu-row .sep { color: var(--muted); padding-inline: 6px; }
+.mes-notes textarea, .note-area { width: 100%; font: inherit; font-size: 15.5px; line-height: 1.65; color: var(--fg); background: var(--soft); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; resize: vertical; min-height: 120px; }
+.note-area:focus, .note-titre:focus { outline: none; border-color: var(--fg); }
+.note-area.big { min-height: 320px; }
+.note-titre { width: 100%; font: inherit; font-size: clamp(22px, 4.6vw, 30px); font-weight: 500; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: var(--fg); padding: 6px 0 10px; }
+.notes-io { display: flex; gap: 24px; margin-top: 28px; }
 .cg-dossier { margin-top: 12px; }
 .dossier-tag { color: var(--accent); margin-left: 8px; white-space: nowrap; }
 .enjeu h2 a:hover { color: var(--accent); }
@@ -424,6 +429,10 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   let favs = load("pressing:favs", {});
   let lues = load("pressing:lues", {});
+  let notes = load("pressing:notes", {});
+  function notesBox(key, titre) {
+    return '<section class="sec mes-notes"><h2 class="label">Mes notes</h2><textarea class="note-area" data-note="' + esc(key) + '" data-titre="' + esc(titre) + '" placeholder="Écris ici tes idées, citations, exemples, liens avec ton cours…" rows="5">' + esc((notes[key] || {}).texte || "") + '</textarea><span class="label muted note-etat" aria-live="polite">' + (notes[key] ? "Enregistré" : "Enregistré sur cet appareil") + '</span></section>';
+  }
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
   function fmt(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>"); }
@@ -586,7 +595,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     let h = '<div class="narrow"><a class="back label" href="#referentiel/esh">← Référentiel ESH</a><article class="card">';
     h += '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap" class="label"><span class="pill">' + esc(f.type) + ' · ' + esc(f.annee) + '</span><span class="muted">' + esc(cat ? cat.nom : "") + '</span></div>';
     h += '<h1>' + esc(f.nom) + '</h1><p class="idee">' + fmt(f.accroche) + '</p>';
-    h += f.blocs.map(bloc).join("");
+    h += f.blocs.map(bloc).join("") + notesBox("esh:" + f.id, f.nom);
     app.innerHTML = h + '</article></div>';
     window.scrollTo(0, 0);
   }
@@ -619,6 +628,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       let h = '<div class="narrow">' + back("#cg/enjeux", "Les enjeux") + '<article class="card"><span class="label muted">Dossier</span><h1>' + esc(e.nom) + '</h1>';
       if (e.dossier) h += '<p class="idee">' + fmt(e.dossier.chapo) + '</p>' + e.dossier.blocs.map(bloc).join("");
       h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#cg/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
+      h += notesBox("dossier:" + e.id, e.nom);
       app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
     }
     if (parts[0] === "f") {
@@ -632,6 +642,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       else h += '<div class="empty" style="padding-block:24px"><p>La fiche n\'est pas encore rédigée.</p><p class="muted">Elle arrive au fil des semaines.</p></div>';
       const en = (r.enjeux || []).map(id => (cg.enjeux.find(e => e.id === id) || {}).nom).filter(Boolean);
       if (en.length) h += '<section class="sec"><h2 class="label">Enjeux</h2><ol class="sujets">' + en.map((e, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(e) + '</span></li>').join("") + '</ol></section>';
+      h += notesBox("cg:" + r.id, r.titre);
       app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
     }
     const rub = cg.rubriques.find(x => x.id === parts[0]);
@@ -642,6 +653,34 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     app.innerHTML = h + '</div></div>';
   }
 
+  // Mes notes
+  function viewNotes(parts) {
+    const back = '<a class="back label" href="#referentiel">← Référentiel</a>';
+    if (parts[0] === "n") {
+      const k = parts[1] || "perso:" + Date.now().toString(36);
+      const n = notes[k] || { titre: "", texte: "" };
+      app.innerHTML = '<div class="narrow"><a class="back label" href="#notes">← Mes notes</a><article class="card"><span class="label muted">Note libre</span>' +
+        '<input class="note-titre" id="note-titre" placeholder="Titre" value="' + esc(n.titre) + '">' +
+        '<textarea class="note-area big" data-note="' + esc(k) + '" placeholder="Écris ce que tu veux : une idée de plan, une accroche, un argument, une référence trouvée…" rows="14">' + esc(n.texte) + '</textarea>' +
+        '<div style="display:flex;justify-content:space-between;align-items:center;gap:12px"><span class="label muted note-etat" aria-live="polite">' + (notes[k] ? "Enregistré" : "") + '</span>' + (notes[k] ? '<button type="button" class="label more" data-suppr="' + esc(k) + '">Supprimer</button>' : '') + '</div></article></div>';
+      const t = document.getElementById("note-titre"), a = app.querySelector(".note-area");
+      t.addEventListener("input", () => { a.dataset.titre = t.value; a.dispatchEvent(new Event("input", { bubbles: true })); });
+      a.dataset.titre = n.titre; if (!parts[1]) history.replaceState(null, "", "#notes/n/" + encodeURIComponent(k));
+      a.focus(); return;
+    }
+    const ks = Object.keys(notes).sort((x, y) => (notes[y].maj || 0) - (notes[x].maj || 0));
+    const lien = k => k.startsWith("perso:") ? "#notes/n/" + encodeURIComponent(k) : k.startsWith("esh:") ? "#" + k.slice(4) : k.startsWith("cg:") ? "#cg/f/" + k.slice(3) : "#cg/e/" + k.slice(8);
+    const type = k => k.startsWith("perso:") ? "Note libre" : k.startsWith("esh:") ? "Fiche ESH" : k.startsWith("cg:") ? "Fiche Culture G." : "Dossier";
+    let h = '<div class="narrow">' + back + '<div class="page-head"><span class="label muted">Sur cet appareil</span><h1>Mes notes</h1><p class="muted" style="margin:4px 0 0">Écris tes propres notes, ou retrouve celles prises en bas de chaque fiche.</p></div>';
+    h += '<a class="btn label" href="#notes/n">Nouvelle note</a>';
+    h += ks.length ? '<div style="border-top:1px solid var(--fg);margin-top:24px">' + ks.map(k => '<a class="cg-ref" href="' + lien(k) + '"><span class="n">' + esc(type(k).slice(0, 3)) + '</span><span><span class="t">' + esc(notes[k].titre || "Sans titre") + '</span><span class="s">' + esc(type(k)) + ' · ' + esc((notes[k].texte || "").slice(0, 90)) + '</span></span><span class="label muted">→</span></a>').join("") + '</div>' : '<div class="empty"><p>Aucune note pour l\'instant.</p></div>';
+    h += '<div class="notes-io"><button type="button" class="label more" id="exp">Exporter mes notes</button><label class="label more" style="cursor:pointer">Importer<input type="file" accept="application/json" id="imp" hidden></label></div>' +
+      '<p class="muted" style="font-size:13.5px">Les notes restent dans ce navigateur. Pour les passer du téléphone à l\'ordi, exporte-les d\'un côté et importe le fichier de l\'autre.</p></div>';
+    app.innerHTML = h;
+    document.getElementById("exp").onclick = () => { const b = new Blob([JSON.stringify(notes, null, 1)], { type: "application/json" }); const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "mes-notes-pressing.json"; a.click(); };
+    document.getElementById("imp").onchange = async e => { try { const d = JSON.parse(await e.target.files[0].text()); Object.keys(d).forEach(k => { if (!notes[k] || (d[k].maj || 0) > (notes[k].maj || 0)) notes[k] = d[k]; }); save("pressing:notes", notes); toast("Notes importées"); viewNotes([]); } catch (x) { toast("Fichier illisible"); } };
+  }
+
   // Référentiel : choix de la matière (carrousel de cartes en verre)
   async function viewRefHub() {
     let nE = "", nC = "";
@@ -649,7 +688,8 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     try { const cg = await cgData(); nC = cg.refs.length + " références"; } catch (e) {}
     const cards = [
       { href: "#referentiel/esh", k: "I", t: "ESH", s: "Économie · Sociologie · Histoire", d: "Auteurs, théories, notions : ce que chaque théorie permet de montrer.", n: nE },
-      { href: "#cg", k: "II", t: "Culture G.", s: "L'Humanité", d: "Auteurs, poèmes, romans, tableaux, films, rangés par enjeu.", n: nC }
+      { href: "#cg", k: "II", t: "Culture G.", s: "L'Humanité", d: "Auteurs, poèmes, romans, tableaux, films, rangés par enjeu.", n: nC },
+      { href: "#notes", k: "III", t: "Mes notes", s: "À toi d'écrire", d: "Tes propres notes, et toutes celles que tu as prises sur les fiches.", n: Object.keys(notes).length + " notes" }
     ];
     app.innerHTML = '<div class="hub"><div class="hub-bg" aria-hidden="true"><i></i><i></i><i></i></div>' +
       '<div class="hub-head"><span class="label muted">Référentiel</span><h1>Que veux-tu réviser ?</h1></div>' +
@@ -683,6 +723,7 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
       if (/^\d{4}-\d{2}-\d{2}-/.test(h)) { state.view = "carte"; setNav(); await viewCarte(h); }
       else if (MATS.includes(h) || h === "tout") { state.view = "matiere"; setNav(); await viewMatiere(h); }
       else if (h === "referentiel") { state.view = "refhub"; setNav(); await viewRefHub(); }
+      else if (h === "notes" || h.startsWith("notes/")) { state.view = "refhub"; setNav(); viewNotes(h.split("/").slice(1).map(decodeURIComponent)); }
       else if (h === "referentiel/esh") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
       else if (h === "cg" || h.startsWith("cg/")) { state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1)); }
       else if (h === "archives") { state.view = "archives"; setNav(); viewArchives(); }
@@ -698,6 +739,18 @@ button.t { text-decoration: underline; text-underline-offset: 3px; text-decorati
     }
   }
 
+  let noteT;
+  document.addEventListener("input", e => {
+    const a = e.target.closest(".note-area"); if (!a) return;
+    const k = a.dataset.note, et = a.parentElement.querySelector(".note-etat") || app.querySelector(".note-etat");
+    if (et) et.textContent = "…";
+    clearTimeout(noteT); noteT = setTimeout(() => {
+      const txt = a.value, titre = a.dataset.titre || "";
+      if (!txt.trim() && !titre.trim()) delete notes[k]; else notes[k] = { titre: titre, texte: txt, maj: Date.now() };
+      save("pressing:notes", notes); if (et) et.textContent = "Enregistré";
+    }, 400);
+  });
+  document.addEventListener("click", e => { const b = e.target.closest("[data-suppr]"); if (b && !b.dataset.ok) { b.dataset.ok = 1; b.textContent = "Confirmer la suppression"; return; } if (b) { delete notes[b.dataset.suppr]; save("pressing:notes", notes); toast("Note supprimée"); location.hash = "notes"; } });
   document.addEventListener("click", async e => {
     const t = e.target.closest("[data-lang],[data-fav],[data-fiche],[data-date],[data-latest]");
     if (!t) return;
