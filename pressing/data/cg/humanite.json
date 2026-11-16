@@ -592,10 +592,11 @@
    "id": "bronner",
    "rub": "auteurs",
    "titre": "Gérald Bronner",
-   "sous": "Apocalypse cognitive (2021) : la captation de l'attention",
+   "sous": "Apocalypse cognitive (2021) : le temps de cerveau disponible",
    "enjeux": [
     "technique",
-    "nature-humaine"
+    "nature-humaine",
+    "transmission"
    ]
   },
   {
@@ -1706,31 +1707,32 @@
    ]
   },
   "bronner": {
-   "lieu": "Sociologue français, spécialiste des croyances",
-   "idee": "Nous n'avons jamais eu autant de temps libre pour penser, et nous le livrons aux écrans : la technique ne nous transforme pas, elle révèle ce qu'est notre cerveau.",
+   "lieu": "Sociologue français",
+   "idee": "La technique libère un temps de cerveau inédit, mais ne décide pas de ce qu'on en fait : l'avenir de l'humanité se joue dans l'usage de son attention.",
    "blocs": [
     {
      "titre": "L'ouvrage",
      "type": "texte",
      "paras": [
-      "**Gérald Bronner**, *Apocalypse cognitive* (2021). Grâce aux gains de productivité, le **temps de cerveau disponible** n'a jamais été aussi grand. Mais ce trésor est capté par les écrans, sur un **marché cognitif** où l'offre d'informations est illimitée et où les contenus se disputent notre attention."
-     ]
-    },
-    {
-     "titre": "Ce que ça montre",
-     "type": "texte",
-     "paras": [
-      "Sur ce marché, ce qui gagne n'est pas le plus vrai mais ce qui accroche notre cerveau : **la peur, la colère, le sexe, le conflit**. Les algorithmes ne créent pas ces penchants, ils les exploitent.",
-      "D'où le titre : *apocalypse* au sens premier de **révélation**. Les écrans dévoilent une nature humaine ancienne, faite de biais hérités, qu'aucune époque n'avait pu satisfaire aussi librement.",
-      "Bronner n'est pas technophobe : la solution est en nous, connaître nos biais pour reprendre la main sur notre attention."
+      "**Gérald Bronner**, *Apocalypse cognitive* (2021, PUF). *Apokalupsis* en grec : **dévoilement, révélation**. La situation actuelle révèle notre « **cerveau ancestral** ».",
+      "Situation inédite : ce cerveau rencontre une **concurrence généralisée des « objets de contemplation mentale »** (théories sur le sens du monde, morales, programmes politiques, fictions), au moment où le **temps de cerveau disponible** n'a jamais été aussi grand : fin de la lutte pour la survie, gains de productivité, progrès technique, assistants virtuels, allongement de la vie."
      ]
     },
     {
      "titre": "Le temps d'attention",
      "type": "texte",
      "paras": [
-      "L'image du **« poisson rouge »** (Bruno Patino, *La civilisation du poisson rouge*, 2019) : notre attention ne tiendrait plus que quelques secondes. Le chiffre souvent cité est contesté, mais l'idée sert d'accroche : l'attention, condition de la pensée, devient une ressource qu'on nous prend.",
-      "Le mot de **Patrick Le Lay** (TF1, 2004) en est l'ancêtre : vendre à Coca-Cola du « temps de cerveau humain disponible »."
+      "**Économie de l'attention** : l'attention devient une ressource rare que tous se disputent. Ces objets « n'ont d'autre raison d'être que de capter notre attention ».",
+      "Ceux qui gagnent sont ceux qui **flattent nos instincts** (vu en ESH) : la peur, le conflit, le sexe, et ce qui confirme ce qu'on croit déjà, plutôt que la connaissance."
+     ]
+    },
+    {
+     "titre": "Ce que ça montre",
+     "type": "texte",
+     "paras": [
+      "**Le progrès technique ne suffit pas à rendre l'humanité meilleure.** La technique libère du temps, mais ne décide pas de ce qu'on en fait : ce temps peut produire « des requiem fantastiques ou le remède contre le cancer » autant que « les pires crimes ». Le progrès crée une possibilité, pas un accomplissement. L'humanité est **ambivalente**.",
+      "**L'avenir de l'humanité est une question politique.** L'usage du temps libre paraît privé, mais les choix individuels s'additionnent à l'échelle de l'humanité, pensée comme **sujet collectif**. D'où « la plus politique de toutes les questions » : « Ce temps de cerveau libéré, qu'allons-nous en faire ? »",
+      "**La culture ne vit que par l'attention qu'on lui accorde.** Une idée ou une œuvre que personne ne regarde disparaît. La lutte pour l'attention, « l'enjeu des enjeux », décide de ce que l'humanité transmet et de ce qu'elle laisse mourir."
      ]
     },
     {
@@ -1738,17 +1740,24 @@
      "type": "cartes",
      "items": [
       {
-       "t": "La technique menace-t-elle l'humanité ?",
-       "d": "Pas directement : elle amplifie nos penchants. Le danger vient de la rencontre entre une technique sans limite et un cerveau qui, lui, en a."
+       "t": "L'humanité est-elle menacée ? Peut-on perdre son humanité ?",
+       "d": "Pas forcément par une menace extérieure : le risque est dans l'usage que nous faisons de notre temps. Le temps libre est le lieu où l'on accomplit son humanité ou où on la laisse se dégrader."
       },
       {
-       "t": "Y a-t-il une nature humaine ?",
-       "d": "Oui, et les écrans la révèlent : nos biais cognitifs sont universels et anciens, ils réapparaissent dès qu'on les laisse libres."
+       "t": "L'humanité est-elle acquise ? Devient-on humain ?",
+       "d": "Non : elle n'est pas assurée par le progrès, elle se joue dans ce qu'on fait de son temps libre (connaître, créer). D'où le rôle de l'éducation et de la transmission."
       },
       {
-       "t": "Qu'est-ce qui fait notre humanité ?",
-       "d": "La capacité à se concentrer, à choisir ce à quoi on pense. Perdre la maîtrise de son attention, c'est perdre une part de sa liberté."
+       "t": "La technique rend-elle l'homme plus humain ?",
+       "d": "Elle libère du temps pour penser et créer, mais ce temps peut servir à « apprendre la physique quantique » comme à « regarder des vidéos de chats »."
       }
+     ]
+    },
+    {
+     "titre": "Limites",
+     "type": "texte",
+     "paras": [
+      "Le diagnostic n'est pas entièrement nouveau : **Pascal** décrit déjà le divertissement comme une fuite hors de soi, bien avant les écrans. L'opposition physique quantique / vidéos de chats suppose une hiérarchie des usages du temps : qui décide de ce qu'est un bon usage de son esprit ?"
      ]
     },
     {
@@ -1758,17 +1767,7 @@
       {
        "sens": "=",
        "nom": "Pascal, Pensées",
-       "idee": "le divertissement nous détourne de nous-mêmes ; les écrans en sont la forme industrielle"
-      },
-      {
-       "sens": "=",
-       "nom": "Patino, La civilisation du poisson rouge",
-       "idee": "l'économie numérique est conçue pour capter et fragmenter notre attention"
-      },
-      {
-       "sens": "≠",
-       "nom": "Anders, L'Obsolescence de l'homme",
-       "idee": "la technique dépasse et transforme l'homme, quand Bronner y voit surtout un révélateur"
+       "idee": "le divertissement nous détourne de nous-mêmes, bien avant les écrans"
       }
      ]
     }
