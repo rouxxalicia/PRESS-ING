@@ -11,7 +11,7 @@ const plain = s => s.replace(/\[(a|d|w|n):([^\]]+)\]/g, "$2").replace(/\{(e|f):(
 const vmFont = "Archivo";
 
 const DEB = () => (window.ESH_DEBATS && L && window.ESH_DEBATS[L.id]) || [];
-const items = () => L.vmaps.map(p=>({p})).concat(DEB().map(m=>({deb:m})));
+const items = () => L.vmaps.map(p=>({p})); /* les débats ont leurs fiches dans l'onglet Débats */
 let L = null, vmIdx = 0, vmReal = null, vmBoxes = null, drawn = false;
 
 function rawTree(){
