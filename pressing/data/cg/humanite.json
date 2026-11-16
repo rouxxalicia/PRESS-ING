@@ -589,6 +589,16 @@
    "source": "lettres"
   },
   {
+   "id": "bronner",
+   "rub": "auteurs",
+   "titre": "Gérald Bronner",
+   "sous": "Apocalypse cognitive (2021) : la captation de l'attention",
+   "enjeux": [
+    "technique",
+    "nature-humaine"
+   ]
+  },
+  {
    "id": "villon",
    "rub": "poemes",
    "titre": "Ballade des pendus",
@@ -1690,6 +1700,75 @@
        "sens": "≠",
        "nom": "Haraway, Manifeste cyborg",
        "idee": "brouiller la frontière homme/machine pour défaire les hiérarchies"
+      }
+     ]
+    }
+   ]
+  },
+  "bronner": {
+   "lieu": "Sociologue français, spécialiste des croyances",
+   "idee": "Nous n'avons jamais eu autant de temps libre pour penser, et nous le livrons aux écrans : la technique ne nous transforme pas, elle révèle ce qu'est notre cerveau.",
+   "blocs": [
+    {
+     "titre": "L'ouvrage",
+     "type": "texte",
+     "paras": [
+      "**Gérald Bronner**, *Apocalypse cognitive* (2021). Grâce aux gains de productivité, le **temps de cerveau disponible** n'a jamais été aussi grand. Mais ce trésor est capté par les écrans, sur un **marché cognitif** où l'offre d'informations est illimitée et où les contenus se disputent notre attention."
+     ]
+    },
+    {
+     "titre": "Ce que ça montre",
+     "type": "texte",
+     "paras": [
+      "Sur ce marché, ce qui gagne n'est pas le plus vrai mais ce qui accroche notre cerveau : **la peur, la colère, le sexe, le conflit**. Les algorithmes ne créent pas ces penchants, ils les exploitent.",
+      "D'où le titre : *apocalypse* au sens premier de **révélation**. Les écrans dévoilent une nature humaine ancienne, faite de biais hérités, qu'aucune époque n'avait pu satisfaire aussi librement.",
+      "Bronner n'est pas technophobe : la solution est en nous, connaître nos biais pour reprendre la main sur notre attention."
+     ]
+    },
+    {
+     "titre": "Le temps d'attention",
+     "type": "texte",
+     "paras": [
+      "L'image du **« poisson rouge »** (Bruno Patino, *La civilisation du poisson rouge*, 2019) : notre attention ne tiendrait plus que quelques secondes. Le chiffre souvent cité est contesté, mais l'idée sert d'accroche : l'attention, condition de la pensée, devient une ressource qu'on nous prend.",
+      "Le mot de **Patrick Le Lay** (TF1, 2004) en est l'ancêtre : vendre à Coca-Cola du « temps de cerveau humain disponible »."
+     ]
+    },
+    {
+     "titre": "Trois usages",
+     "type": "cartes",
+     "items": [
+      {
+       "t": "La technique menace-t-elle l'humanité ?",
+       "d": "Pas directement : elle amplifie nos penchants. Le danger vient de la rencontre entre une technique sans limite et un cerveau qui, lui, en a."
+      },
+      {
+       "t": "Y a-t-il une nature humaine ?",
+       "d": "Oui, et les écrans la révèlent : nos biais cognitifs sont universels et anciens, ils réapparaissent dès qu'on les laisse libres."
+      },
+      {
+       "t": "Qu'est-ce qui fait notre humanité ?",
+       "d": "La capacité à se concentrer, à choisir ce à quoi on pense. Perdre la maîtrise de son attention, c'est perdre une part de sa liberté."
+      }
+     ]
+    },
+    {
+     "titre": "Liens",
+     "type": "liens",
+     "items": [
+      {
+       "sens": "=",
+       "nom": "Pascal, Pensées",
+       "idee": "le divertissement nous détourne de nous-mêmes ; les écrans en sont la forme industrielle"
+      },
+      {
+       "sens": "=",
+       "nom": "Patino, La civilisation du poisson rouge",
+       "idee": "l'économie numérique est conçue pour capter et fragmenter notre attention"
+      },
+      {
+       "sens": "≠",
+       "nom": "Anders, L'Obsolescence de l'homme",
+       "idee": "la technique dépasse et transforme l'homme, quand Bronner y voit surtout un révélateur"
       }
      ]
     }
