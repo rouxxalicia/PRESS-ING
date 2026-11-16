@@ -1,0 +1,746 @@
+{
+  "date": "2026-11-16",
+  "cards": [
+    {
+      "id": "2026-11-16-esh-1",
+      "matiere": "esh",
+      "source": "Les Échos",
+      "url": "https://www.lesechos.fr/industrie-services/energie-environnement/hausse-des-prix-et-effet-deviction-de-la-logistique-au-btp-le-boom-des-data-centers-ebranle-toujours-plus-de-secteurs-2262713",
+      "minutes": 3,
+      "titre": "Data centers : la ruée vers l'IA crée un effet d'éviction sur le foncier, le BTP et l'énergie",
+      "faits": "Selon Les Échos ce lundi 16 novembre, l'essor rapide des centres de données dédiés à l'intelligence artificielle provoque des tensions croissantes sur plusieurs secteurs de l'économie réelle. Pour répondre aux besoins de calcul des géants du numérique, la construction de ces méga-infrastructures mobilise des terrains bien raccordés aux réseaux électriques et à la fibre optique, raréfiant l'offre foncière disponible. Dans les zones périurbaines et les bassins d'emploi, les entrepôts logistiques et les PME industrielles peinent à rivaliser avec les capacités financières des hyperscalers, ce qui renchérit le prix du foncier. La filière du bâtiment et des travaux publics (BTP) connaît elle aussi une surchauffe, les chantiers de data centers absorbant une part importante des matériaux, du génie civil et des compétences techniques en refroidissement et génie électrique. Parallèlement, la saturation des capacités de raccordement électrique allonge les délais pour d'autres projets industriels et alimente des tensions sur les coûts de l'énergie. Ce phénomène interroge les pouvoirs publics sur l'arbitrage territorial à opérer, à l'heure de l'objectif de zéro artificialisation nette (ZAN).",
+      "enjeux": "Cette actualité illustre un mécanisme classique d'**effet d'éviction** réel, non plus par la dette publique mais par un choc d'**investissement privé** ultra-concentré. En captant des ressources rares — foncier raccordé, électricité, main-d'œuvre qualifiée du BTP —, l'économie numérique renchérit les **coûts de production** des secteurs traditionnels comme la logistique, l'industrie manufacturière ou le logement. Elle met aussi en lumière le décalage temporel de l'investissement : à court terme, ces chantiers génèrent des tensions inflationnistes sectorielles et des **goulots d'étranglement**, alors que les gains de **productivité globale des facteurs** promis par l'IA ne se matérialiseront qu'à moyen terme. Enfin, la voracité électrique des serveurs pose un défi majeur de **soutenabilité** et de **planification des infrastructures** publiques face aux contraintes climatiques.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CERN_Computer_Center_07.jpg/1280px-CERN_Computer_Center_07.jpg",
+        "alt": "Baies de serveurs dans un centre de données",
+        "credit": "SimonWaldherr / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:CERN_Computer_Center_07.jpg"
+      },
+      "programme": {
+        "module": "Module 2 – Croissance et développement",
+        "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+      },
+      "auteurs": [
+        {
+          "nom": "Evsey Domar",
+          "ouvrage": "Expansion and Employment",
+          "annee": "1947",
+          "ref": "double-effet-investissement-domar",
+          "cours": "1A-croissance",
+          "texte": "Domar montre que tout investissement exerce un **double effet** : un **effet revenu** immédiat sur la demande (achats de matériaux, salaires du BTP) et un **effet capacité** différé sur l'offre potentielle. Sur cette actu, la construction massive de data centers déclenche d'abord une surchauffe de la demande de facteurs de production avant d'accroître les capacités productives de l'économie. À mobiliser dans un sujet sur l'investissement ou les tensions inflationnistes liées à une vague d'innovation."
+        },
+        {
+          "nom": "William Stanley Jevons",
+          "ouvrage": "The Coal Question",
+          "annee": "1865",
+          "ref": "effet-rebond-jevons",
+          "cours": "1A-soutenabilite",
+          "texte": "Jevons formule le **paradoxe de l'effet rebond** : les gains d'efficacité énergétique d'une technologie ne réduisent pas la consommation totale de ressources, ils l'augmentent en abaissant son coût d'usage. Appliqué au numérique et à l'IA, chaque progrès de puissance de calcul multiplie les usages et entraîne une hausse nette de la demande d'électricité et de foncier. À mobiliser pour nuancer l'idée que la numérisation dématérialise spontanément la croissance."
+        }
+      ],
+      "notions": [
+        ["Effet d'éviction", "Phénomène par lequel la demande d'un acteur dominant (État ou grande firme) capte des ressources rares et évince d'autres projets privés."],
+        ["Goulot d'étranglement", "Limitation physique ou technique (foncier, réseau électrique, main-d'œuvre) qui freine l'offre et provoque une hausse des prix."],
+        ["Effet rebond", "Augmentation de la consommation totale d'une ressource consécutive à l'amélioration de son efficacité d'utilisation."]
+      ],
+      "sujets": [
+        "L'essor de l'intelligence artificielle est-il nécessairement désinflationniste ?",
+        "Les investissements numériques peuvent-ils évincer la réindustrialisation traditionnelle ?"
+      ],
+      "anki": [
+        {
+          "q": "Secteurs touchés par l'effet d'éviction des data centers (France, nov. 2026)",
+          "r": "B{Foncier}, B{logistique}, B{BTP} et B{réseaux électriques} (saturés face aux hyperscalers).\n→ Exemple d'effet d'éviction réel : A{Domar}, O{Expansion and Employment} (D{1947}) montre que l'effet revenu précède l'effet capacité, créant des tensions sectorielles (accroche sur l'IA ou l'investissement)."
+        },
+        {
+          "q": "Effet de la multiplication des data centers sur l'efficacité énergétique de l'IA",
+          "r": "B{Hausse nette} de la demande d'électricité malgré les progrès techniques.\n→ Illustration du paradoxe de A{Jevons}, O{The Coal Question} (D{1865}) : les gains d'efficacité entraînent un effet rebond."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-esh-2",
+      "matiere": "esh",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/16/la-grece-multiplie-les-mesures-pour-attirer-les-grosses-fortunes-et-les-hedge-funds_6811670_3234.html",
+      "minutes": 3,
+      "titre": "Concurrence fiscale en Europe : la Grèce séduit les grandes fortunes et les fonds spéculatifs",
+      "faits": "Selon Le Monde ce lundi 16 novembre, la Grèce intensifie sa stratégie fiscale pour attirer les contribuables très fortunés et les gestionnaires de fonds alternatifs (hedge funds). Athènes a mis en place un nouveau régime avantageux qui taxe désormais à 5 % les bonus et plus-values (carried interest) réalisés par ces gérants de fonds, contre 15 % auparavant, soit un taux nettement inférieur à celui pratiqué dans les pays anglo-saxons. Ce dispositif complète un régime instauré dès 2019 permettant aux nouveaux résidents fiscaux de s'acquitter d'un impôt forfaitaire annuel de 100 000 euros sur leurs revenus de source étrangère, garanti pendant quinze ans. Pour profiter des allègements dédiés aux fonds, les sociétés doivent toutefois implanter des bureaux et engager des dépenses locales en Grèce. Cette offensive profite notamment du durcissement fiscal au Royaume-Uni, qui a supprimé le statut avantageux des résidents « non-dom ». Longtemps fragilisée par la crise de sa dette souveraine, la Grèce capitalise aussi sur son retour en catégorie d'investissement auprès des agences de notation pour se positionner comme un pôle financier attractif en Méditerranée.",
+      "enjeux": "Cette offensive athénienne met en lumière l'intensification de la **concurrence fiscale** au sein même de l'Union européenne. En l'absence d'harmonisation de la fiscalité directe des ménages et du patrimoine, les États membres utilisent la **politique fiscale** comme un outil d'**attractivité territoriale** pour capter des capitaux mobiles et de la consommation locale haut de gamme. Ce mécanisme illustre la tension entre l'efficacité nationale à court terme (attirer des emplois financiers et des recettes forfaitaires) et le risque collectif d'un **dumping fiscal** qui réduit la **progressivité de l'impôt** à l'échelle européenne. Lorsque les contribuables les plus mobiles peuvent arbitrer entre juridictions, la charge fiscale tend à se reporter sur les facteurs immobiles, en particulier le travail et la consommation courante.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg/1280px-1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
+        "alt": "Vue nocturne de l'Acropole d'Athènes en Grèce",
+        "credit": "Giles Laurent / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg"
+      },
+      "programme": {
+        "module": "Module 3 – La mondialisation économique et financière",
+        "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+      },
+      "auteurs": [
+        {
+          "nom": "Charles Tiebout",
+          "ouvrage": "A Pure Theory of Local Expenditures",
+          "annee": "1956",
+          "ref": "concurrence-fiscale-tiebout",
+          "cours": "2A-02-ftn",
+          "texte": "Tiebout soutient que les agents mobiles « **votent avec leurs pieds** » en choisissant le territoire dont le couple impôts-services publics correspond le mieux à leurs préférences, ce qui discipline les États. Sur cette actu, Athènes attire gérants de fonds et grandes fortunes quittant Londres en offrant un cadre fiscal compétitif. À mobiliser pour défendre les effets stimulants de la concurrence fiscale sur l'attractivité."
+        },
+        {
+          "nom": "Gabriel Zucman",
+          "ouvrage": "La richesse cachée des nations",
+          "annee": "2013",
+          "ref": "paradis-fiscaux-zucman",
+          "cours": "2A-03-gouvernance",
+          "texte": "À l'inverse, Zucman dénonce la **concurrence fiscale** et les régimes dérogatoires qui permettent aux plus riches et aux multinationales (55 % des profits étrangers des FMN américaines logés dans six paradis fiscaux) d'échapper à l'impôt. Il montre que cette fuite fiscale mine les recettes publiques et appelle une coopération internationale avec un impôt minimal. À mobiliser pour critiquer le dumping fiscal intra-européen."
+        }
+      ],
+      "notions": [
+        ["Concurrence fiscale", "Stratégie par laquelle des États abaissent leurs impôts pour attirer capitaux, entreprises ou contribuables mobiles."],
+        ["Dumping fiscal", "Pratique d'un État fixant une fiscalité très inférieure à celle de ses partenaires pour capter leur base imposable."],
+        ["Attractivité territoriale", "Capacité d'un pays ou d'une région à attirer investissements directs étrangers, talents et activités économiques."]
+      ],
+      "sujets": [
+        "La concurrence fiscale au sein de l'Union européenne est-elle soutenable ?",
+        "Comment réguler la mobilité internationale des hauts patrimoines ?"
+      ],
+      "anki": [
+        {
+          "q": "Taux d'imposition des bonus de hedge funds en Grèce (nov. 2026) et forfait pour nouveaux résidents",
+          "r": "C{5 %} sur le carried interest (contre C{15 %} avant) et forfait de C{100 000 €/an} sur revenus étrangers.\n→ Illustre le « vote avec les pieds » de A{Tiebout} (D{1956}) et le dumping fiscal critiqué par A{Zucman}, O{La richesse cachée des nations} (D{2013}) (accroche sur l'harmonisation fiscale)."
+        },
+        {
+          "q": "Part des profits étrangers des FMN américaines déclarée dans six territoires à faible fiscalité (Zucman)",
+          "r": "C{55 %} des profits étrangers.\n→ Montre l'érosion de l'assiette fiscale en l'absence d'impôt minimal mondial : A{Zucman}, O{La richesse cachée des nations} (D{2013})."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-esh-3",
+      "matiere": "esh",
+      "source": "Franceinfo",
+      "url": "https://www.francetvinfo.fr/replay-radio/8h30-fauvelle-dely/salaires-croissance-jeunesse-le-8h30-franceinfo-de-francois-villeroy-de-galhau_8263373.html",
+      "minutes": 3,
+      "titre": "Salaires, dette et retraites : François Villeroy de Galhau alerte sur le fardeau légué aux jeunes",
+      "faits": "Invité de Franceinfo ce lundi 16 novembre 2026, l'ancien gouverneur de la Banque de France François Villeroy de Galhau a dressé un bilan nuancé du pouvoir d'achat et des finances publiques françaises. Il a rappelé que, depuis 2010, le pouvoir d'achat moyen corrigé de l'inflation a progressé d'environ 12 % en cumulé, soutenu par la création de 4 millions d'emplois et par les transferts sociaux, mais au prix d'une dégradation du déficit et de la dette publique. En revanche, le salaire réel des personnes déjà en poste en 2010 n'a augmenté que de 3 % sur la période, alimentant un fort sentiment de déclassement. Pour relancer la confiance économique, il plaide pour que « le travail paye un peu plus et le non-travail un peu moins », tout en privilégiant le dialogue social. Il dénonce surtout des choix budgétaires « trop gérontocratiques » liés aux retraites : un jeune entrant dans la vie active aujourd'hui porte selon lui une dette publique six fois plus lourde par rapport au PIB qu'en 1980, où elle pesait 20 % du PIB. Enfin, il écarte toute annulation de dette ou hausse d'impôts isolée de type taxe Zucman, appelant plutôt à maîtriser la dépense publique.",
+      "enjeux": "Cette prise de parole condense deux débats majeurs d'économie publique et sociale. D'abord, elle explique le paradoxe français du **pouvoir d'achat** : la hausse statistique globale masque une quasi-stagnation des **salaires nets** des actifs en place, tandis que les **dépenses contraintes** pèsent sur les ménages. Ensuite, elle pose la question de l'**équité intergénérationnelle** de la **dette publique** et du système de **retraites par répartition** : financer les transferts courants par l'endettement reporte la charge fiscale future sur les jeunes actifs et risque de nourrir un effet d'**éviction** ou de défiance des marchés. Le débat oppose ainsi les partisans d'un assainissement par la baisse des dépenses publiques à ceux qui craignent un frein sur la **demande globale**.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Banque_de_France%2C_4_rue_Antoine-Deville_-_portail_d%27entr%C3%A9e_%28Toulouse%29.jpg/1280px-Banque_de_France%2C_4_rue_Antoine-Deville_-_portail_d%27entr%C3%A9e_%28Toulouse%29.jpg",
+        "alt": "Portail d'entrée de la Banque de France",
+        "credit": "Abdoucondorcet / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Banque_de_France,_4_rue_Antoine-Deville_-_portail_d%27entr%C3%A9e_(Toulouse).jpg"
+      },
+      "programme": {
+        "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+        "chapitre": "1.1 – Les fondements de l'économie : la monnaie et le financement de l'économie"
+      },
+      "auteurs": [
+        {
+          "nom": "Régis Bigot",
+          "ouvrage": "Les Classes moyennes sous pression",
+          "annee": "2008",
+          "ref": "depenses-contraintes-bigot",
+          "cours": "1A-transformations-sociales",
+          "texte": "Bigot montre que malgré un niveau de vie statistiquement en hausse, l'explosion des **dépenses contraintes** (logement, énergie, assurances) étrangle le revenu arbitrable des classes moyennes. Cela éclaire directement le constat de Villeroy de Galhau : avec une hausse de salaire réel limitée à 3 % depuis 2010 pour les actifs en place, les ménages perçoivent une perte de pouvoir d'achat. À mobiliser dans un sujet sur pouvoir d'achat et inégalités."
+        },
+        {
+          "nom": "Robert Barro",
+          "ouvrage": "« Are Government Bonds Net Wealth? »",
+          "annee": "1974",
+          "ref": "equivalence-ricardienne",
+          "texte": "Barro formalise l'**équivalence ricardienne** : les ménages anticipent qu'une dette publique accrue aujourd'hui se traduira par des impôts plus élevés demain pour eux ou leurs enfants, et épargnent donc au lieu de consommer. À mobiliser pour analyser l'avertissement sur la dette léguée aux jeunes générations (six fois plus lourde qu'en 1980) et l'inefficacité d'une relance par le déficit."
+        }
+      ],
+      "notions": [
+        ["Pouvoir d'achat", "Quantité de biens et de services qu'un revenu permet d'acquérir, compte tenu de l'évolution des prix."],
+        ["Dépenses contraintes", "Dépenses pré-engagées et difficilement renégociables à court terme (loyer, énergie, remboursements d'emprunts)."],
+        ["Équivalence ricardienne", "Thèse selon laquelle une relance par la dette est neutre car les agents épargnent en prévision des hausses d'impôts futures."]
+      ],
+      "sujets": [
+        "La dette publique pèse-t-elle injustement sur les jeunes générations ?",
+        "Pourquoi la croissance du pouvoir d'achat mesuré ne se traduit-elle pas par un sentiment d'amélioration ?"
+      ],
+      "anki": [
+        {
+          "q": "Évolution du pouvoir d'achat moyen vs salaires des actifs en place depuis 2010 (France, Villeroy de Galhau)",
+          "r": "C{+12 %} en moyenne cumulée (grâce aux C{4 millions} d'emplois et aux transferts), mais seulement C{+3 %} de hausse salariale pour ceux déjà en poste.\n→ Explique le malaise social via les dépenses contraintes de A{Bigot}, O{Les Classes moyennes sous pression} (D{2008}) (accroche sur le pouvoir d'achat)."
+        },
+        {
+          "q": "Poids de la dette publique par rapport au PIB en 1980 vs aujourd'hui (Villeroy de Galhau)",
+          "r": "C{20 %} du PIB en D{1980}, contre un fardeau C{6 fois} plus lourd aujourd'hui.\n→ Pose la question de l'équité intergénérationnelle et de l'anticipation fiscale : A{Barro}, O{« Are Government Bonds Net Wealth? »} (D{1974})."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-esh-4",
+      "matiere": "esh",
+      "source": "Courrier international",
+      "url": "https://www.courrierinternational.com/article/industrie-pourquoi-la-chine-tient-a-dominer-le-recyclage-des-batteries_278938",
+      "minutes": 3,
+      "titre": "Matières premières critiques : pourquoi la Chine verrouille le recyclage des batteries",
+      "faits": "Selon Courrier international ce lundi 16 novembre (citant The Economist), le recyclage des batteries usagées de voitures électriques est devenu un enjeu géopolitique et industriel majeur entre la Chine, l'Union européenne et les États-Unis. Une fois broyées, les batteries en fin de vie produisent une poudre appelée « masse noire », très riche en métaux critiques comme le lithium, le cobalt et le nickel. Alors que Pékin renforce depuis l'été son économie circulaire pour sécuriser ces ressources sur son sol, l'essentiel de la masse noire européenne était jusqu'ici expédié en Asie pour y être retraité. Pour enrayer cette fuite stratégique, les États-Unis ont cessé dès août leurs exportations de masse noire, et l'Union européenne s'apprête le mois prochain à durcir fortement ses règles d'exportation de ces déchets. Ce bras de fer complète les mesures commerciales déjà prises par Bruxelles, qui a décidé le 12 octobre de plafonner les importations d'hybrides chinoises à 350 000 véhicules par an à partir de décembre.",
+      "enjeux": "Cet article éclaire la recomposition des **chaînes de valeur mondiales** autour de la transition énergétique. Même si l'Europe relocalise l'assemblage de véhicules électriques ou impose des **barrières commerciales**, elle reste vulnérable si elle exporte les déchets contenant ses **métaux critiques** vers l'atelier chinois. Le recyclage devient ainsi un maillon décisif de la **souveraineté industrielle** et de l'**économie circulaire**, permettant de réduire la dépendance aux mines étrangères tout en baissant l'empreinte écologique. Face au capitalisme d'État chinois qui a su bâtir un avantage comparatif sur toute la filière des batteries, les Occidentaux réhabilitent une **politique industrielle** ciblée mêlant normes environnementales et contrôle des flux stratégiques.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Damaged_Traction_battery.jpg/1280px-Damaged_Traction_battery.jpg",
+        "alt": "Batterie de traction pour véhicule électrique",
+        "credit": "FalkorD / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Damaged_Traction_battery.jpg"
+      },
+      "programme": {
+        "module": "Module 3 – La mondialisation économique et financière",
+        "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+      },
+      "auteurs": [
+        {
+          "nom": "Élie Cohen et Jean-Hervé Lorenzi",
+          "ouvrage": "Politiques industrielles pour l'Europe",
+          "annee": "2000",
+          "ref": "politique-industrielle-cohen-lorenzi",
+          "cours": "2A-02-ftn",
+          "texte": "Cohen et Lorenzi montrent qu'une **politique industrielle** ciblée est justifiée pour corriger les défaillances de marché et préserver l'**autonomie technologique** face à une dépendance stratégique. Sur cette actu, bloquer l'exportation de « masse noire » vers l'Asie vise à bâtir une filière européenne de raffinage et de recyclage des métaux critiques. À mobiliser dans un sujet sur le retour de la politique industrielle ou la souveraineté européenne."
+        },
+        {
+          "nom": "Philippe Aghion et Peter Howitt",
+          "ouvrage": "Appropriate Growth Policy: A Unifying Framework",
+          "annee": "2005",
+          "ref": "frontiere-technologique-aghion",
+          "cours": "2A-02-ftn",
+          "texte": "Aghion et Howitt montrent que l'efficacité d'une politique industrielle dépend de la **distance à la frontière technologique** : protéger et subventionner fonctionne pour rattraper un retard, mais l'innovation à la frontière exige concurrence et R&D. Appliqué à l'Europe, le plafonnement des importations chinoises ne suffira pas sans investissements massifs dans les technologies de recyclage. À mobiliser pour nuancer le recours au protectionnisme."
+        }
+      ],
+      "notions": [
+        ["Politique industrielle", "Intervention ciblée de l'État visant à développer des filières jugées stratégiques pour l'autonomie et la compétitivité."],
+        ["Chaîne de valeur mondiale", "Répartition internationale des différentes étapes de conception, fabrication, recyclage et commercialisation d'un bien."],
+        ["Économie circulaire", "Modèle économique visant à limiter le gaspillage des ressources par le réemploi, la réparation et le recyclage."]
+      ],
+      "sujets": [
+        "Le retour des politiques industrielles en Europe permet-il de réduire la dépendance envers la Chine ?",
+        "La transition écologique passe-t-elle par un nouveau protectionnisme ?"
+      ],
+      "anki": [
+        {
+          "q": "Enjeu de la « masse noire » des batteries usagées entre la Chine, l'UE et les États-Unis (nov. 2026)",
+          "r": "Poudre issue du broyage des batteries contenant B{lithium, cobalt et nickel} : Washington a cessé ses exportations en D{août 2026} et l'UE va les restreindre.\n→ Justifie une B{politique industrielle} de souveraineté selon A{Cohen et Lorenzi}, O{Politiques industrielles pour l'Europe} (D{2000}) (accroche sur la souveraineté industrielle)."
+        },
+        {
+          "q": "Plafond européen décidé le 12 octobre 2026 sur les véhicules hybrides chinois",
+          "r": "C{350 000} véhicules par an à partir de décembre (part de marché ramenée sous C{10 %}).\n→ Protection insuffisante sans innovation à la frontière : A{Aghion et Howitt} (D{2005})."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-anglais-1",
+      "matiere": "anglais",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/environment/2026/nov/16/weakening-uk-electric-vehicle-targets-would-hurt-car-industry-ministers-told",
+      "minutes": 3,
+      "titre": "Royaume-Uni : affaiblir les quotas de voitures électriques nuirait à l'industrie automobile",
+      "faits": "Selon The Guardian ce 16 novembre, des experts et ONG environnementales mettent en garde le gouvernement britannique contre un éventuel assouplissement du mandat ZEV (Zero Emissions Vehicle). Ce dispositif impose actuellement que 80 % des ventes de voitures neuves soient électriques d'ici 2030 et 100 % en 2035, mais l'exécutif travailliste envisagerait d'assouplir ces objectifs pour s'aligner sur l'Union européenne. Le Climate Change Committee (CCC), organe indépendant qui conseille le gouvernement, doit adresser mercredi un avis officiel aux ministres sur l'impact d'une telle décision. Son président, Nigel Topping, souligne que la décarbonation stimule l'ingénierie britannique, la compétitivité et l'emploi industriel. Selon les défenseurs du mandat, reculer sur ces seuils freinerait le marché de l'électrique et pèserait sur le pouvoir d'achat des ménages : recharger une voiture électrique coûte moins de 10 livres, contre plus de 100 livres pour un plein d'essence.",
+      "enjeux": "Ce débat illustre le dilemme auquel sont confrontés les gouvernements européens entre **compétitivité industrielle** immédiate des constructeurs automobiles traditionnels et prévisibilité de la **transition écologique**. Des normes contraignantes comme le mandat ZEV jouent le rôle de signal de long terme pour orienter les investissements vers les batteries et les bornes de recharge. Affaiblir ces objectifs en cours de route risque de créer une **incertitude réglementaire** qui décourage les investisseurs verts tout en maintenant les ménages captifs des énergies fossiles coûteuses. Pour le Royaume-Uni post-Brexit, l'enjeu est aussi de savoir s'il doit mener une politique climatique plus ambitieuse que Bruxelles ou s'aligner sur les normes continentales.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Close-up_of_an_electric_car_charging._Traffic_lights_in_a_blurry_background.jpg/1280px-Close-up_of_an_electric_car_charging._Traffic_lights_in_a_blurry_background.jpg",
+        "alt": "Voiture électrique en charge devant un feu de circulation",
+        "credit": "Ivan Radic / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Close-up_of_an_electric_car_charging._Traffic_lights_in_a_blurry_background.jpg"
+      },
+      "vo": {
+        "titre": "Weakening UK electric vehicle targets would hurt car industry, ministers told",
+        "faits": "According to The Guardian on 16 November, climate experts and campaigners are warning UK ministers against diluting the zero emissions vehicle (ZEV) mandate. The current rule requires 80% of new car sales to be electric by 2030 and 100% by 2035, yet Labour is reportedly considering lowering those targets to match the European Union. On Wednesday, the government's independent adviser, the Climate Change Committee, will formally assess how weakening the mandate would affect net zero goals and household living costs. Its chair, Nigel Topping, argues that Britain's leadership in decarbonisation drives industrial innovation, competitiveness and job creation. Analysts also note that slowing the transition would hurt consumers, since fully charging an EV costs under £10 compared with more than £100 to fill a petrol tank.",
+        "enjeux": "This row highlights the delicate trade-off between easing short-term pressure on legacy carmakers and maintaining credible long-term signals for green investment. Binding quotas such as the ZEV mandate give manufacturers and charging networks the regulatory certainty required to scale up domestic supply chains. Watering down targets mid-course risks penalising early investors while locking lower-income motorists into volatile fossil fuel costs. For post-Brexit Britain, the dispute also tests whether London intends to set faster industrial decarbonisation standards than Brussels or align with EU rules."
+      },
+      "vocab": [
+        ["to water down / dilute", "édulcorer, assouplir (une règle)", "Ministers were urged not to water down the 2030 targets."],
+        ["a binding mandate", "un quota / une obligation contraignante", "The ZEV mandate forces carmakers to increase electric sales."],
+        ["legacy carmakers", "les constructeurs automobiles historiques", "Legacy carmakers struggle to compete with cheaper Chinese EVs."],
+        ["the cost of living", "le coût de la vie", "Lower running costs for EVs could ease the cost of living."],
+        ["net zero targets", "les objectifs de neutralité carbone", "Delayed rules may jeopardise Britain's 2050 net zero targets."],
+        ["regulatory certainty", "la prévisibilité réglementaire", "Investors need regulatory certainty before building battery plants."]
+      ],
+      "sujets": [
+        "Should governments relax green transition targets to protect traditional industries?",
+        "Can environmental regulation boost industrial competitiveness rather than hinder it?"
+      ],
+      "anki": [
+        {
+          "q": "Current UK Zero Emissions Vehicle (ZEV) mandate targets (2030 and 2035)",
+          "r": "C{80 %} of new car sales electric by D{2030}, C{100 %} by D{2035}.\n→ Shows how binding quotas give B{regulatory certainty} to drive green investment and lower running costs (less than C{£10} per charge vs C{£100} for petrol) (hook on green industrial policy)."
+        },
+        {
+          "q": "Cost comparison: charging an EV vs filling a petrol car in the UK (Nov. 2026)",
+          "r": "Under C{£10} for a full EV charge vs over C{£100} for a petrol tank.\n→ Demonstrates that delaying the EV transition can worsen the B{cost of living} for households."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-anglais-2",
+      "matiere": "anglais",
+      "source": "AP News",
+      "url": "https://apnews.com/article/republican-national-committee-trump-gruters-midterm-losses-9227f58e61910975d84d066c856c6684",
+      "minutes": 3,
+      "titre": "États-Unis : fronde au sein du Parti républicain contre le président choisi par Trump après les midterms",
+      "faits": "Selon l'Associated Press, une rébellion ouverte secoue le Comité national républicain (RNC) à la suite des lourdes défaites du parti lors des élections de mi-mandat de novembre 2026, qui ont donné aux démocrates la majorité au Sénat et à la Chambre des représentants. Plusieurs membres dissidents du RNC se rallient à la numéro deux de l'instance, KC Crosbie, pour tenter de démettre le président Joe Gruters, pourtant personnellement choisi par Donald Trump. Les frondeurs critiquent la gestion financière et stratégique du parti, réclamant un audit complet des dépenses, notamment sur des frais personnels et des recrutements jugés népotistes. Face à cette contestation, la Maison-Blanche et les fidèles de Trump défendent Gruters et menacent de suspendre leur soutien aux collectes de fonds si les dissidents ne rentrent pas dans le rang. Cette crise interne constitue un défi rare à l'autorité de Donald Trump sur l'appareil républicain.",
+      "enjeux": "Cet épisode révèle la fragilisation politique de la présidence Trump à mi-mandat dans un système de **gouvernement divisé**. Tant qu'un président enchaîne les victoires électorales, son emprise sur l'appareil partisan dissuade toute critique ; mais la perte du Congrès réveille les rivalités entre factions en vue des primaires de 2028. L'affrontement autour du contrôle financier du RNC illustre également la dépendance structurelle de la vie politique américaine aux **collectes de fonds** privées et aux réseaux de donateurs. Pour la suite du mandat, une majorité affaiblie au sein même de son camp complique la capacité de la Maison-Blanche à négocier avec le Congrès démocrate sur le budget et la dette.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/2018-03-25_%E2%80%93_United_States_Capitol_West_Front%2C_viewed_from_the_Newseum_terrace_%E2%80%93_Washington%2C_D.C.%2C_United_States.jpg/1280px-2018-03-25_%E2%80%93_United_States_Capitol_West_Front%2C_viewed_from_the_Newseum_terrace_%E2%80%93_Washington%2C_D.C.%2C_United_States.jpg",
+        "alt": "Façade ouest du Capitole des États-Unis à Washington",
+        "credit": "Beethoven / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2018-03-25_%E2%80%93_United_States_Capitol_West_Front,_viewed_from_the_Newseum_terrace_%E2%80%93_Washington,_D.C.,_United_States.jpg"
+      },
+      "vo": {
+        "titre": "Trump's handpicked party head faces rebellion as midterms test Trump's sway",
+        "faits": "According to the Associated Press, an internal rebellion has erupted inside the Republican National Committee (RNC) following the party's heavy losses in the November 2026 midterm elections, which handed both chambers of Congress to the Democrats. Dissident RNC members are rallying behind co-chair KC Crosbie in a bid to oust chairman Joe Gruters, who was personally picked by President Donald Trump. Critics blame the leadership for strategic failures and are demanding a forensic audit of committee spending, questioning outlays on personal styling and controversial hires. In response, White House allies have strongly backed Gruters and warned that fundraising assistance could be cut off if rebels do not fall in line. The dispute marks an unusual direct challenge to Trump's grip over the Republican party apparatus.",
+        "enjeux": "This feud underscores how midterm setbacks can rapidly erode a sitting president's authority inside his own party, especially under a divided government. As long as electoral momentum holds, loyalists suppress dissent; once Congress is lost, rival factions begin jockeying for influence ahead of the 2028 presidential race. The battle over the RNC's finances also highlights the central role of private fundraising networks in shaping American party discipline. A fractured GOP apparatus could further weaken the White House's leverage in upcoming fiscal and legislative standoffs with the Democratic-led Congress."
+      },
+      "vocab": [
+        ["a handpicked ally", "un allié choisi personnellement", "The president's handpicked chair now faces an internal revolt."],
+        ["to oust / depose", "évincer, démettre de ses fonctions", "Rebel members are trying to oust the party chairman."],
+        ["midterm losses", "les défaites aux élections de mi-mandat", "Midterm losses often weaken a president's legislative agenda."],
+        ["a forensic audit", "un audit financier approfondi", "Dissidents demanded a forensic audit of party spending."],
+        ["to fall in line", "rentrer dans le rang", "Party leaders warned critics to fall in line before 2028."],
+        ["a divided government", "un gouvernement divisé (exécutif et Congrès opposés)", "Divided government makes budget compromises much harder to reach."]
+      ],
+      "sujets": [
+        "Do the 2026 midterm results mark the beginning of a post-Trump era for the GOP?",
+        "How does divided government affect policymaking in the United States?"
+      ],
+      "anki": [
+        {
+          "q": "Outcome of the Nov. 2026 US midterms and immediate impact on the RNC",
+          "r": "Democrats won both the B{House and Senate}, triggering a rebellion inside the RNC against Trump-backed chair B{Joe Gruters}.\n→ Shows how B{midterm losses} erode presidential control over party apparatus ahead of D{2028} (hook on US politics)."
+        },
+        {
+          "q": "White House leverage used against RNC dissidents (Nov. 2026)",
+          "r": "Threatening to cut off B{fundraising assistance} if rebels do not fall in line.\n→ Illustrates the structural power of campaign finance in US party discipline."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-anglais-3",
+      "matiere": "anglais",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/15/us/politics/trump-lutnick-ai-chips-nvidia-cantor-fitzgerald.html",
+      "minutes": 3,
+      "titre": "États-Unis : le secrétaire au Commerce Howard Lutnick accusé d'assouplir les règles sur les puces IA",
+      "faits": "Selon une enquête du New York Times publiée le 15 novembre, le secrétaire au Commerce Howard Lutnick freine le durcissement des contrôles américains sur les exportations de puces d'intelligence artificielle vers la Chine via des pays tiers. L'affaire concerne notamment un gigantesque centre de données en construction en Malaisie, baptisé A201, équipé de centaines de millions de dollars de serveurs Nvidia destinés à louer de la puissance de calcul à un géant technologique chinois. Ce montage contourne légalement l'embargo direct sur les ventes de puces avancées à Pékin. Or la société exploitant ce centre est cliente de Cantor Fitzgerald, la banque d'affaires longtemps dirigée par Howard Lutnick et aujourd'hui confiée à ses fils. Au sein de l'administration Trump, les faucons anti-Chine veulent fermer cette faille en Asie du Sud-Est, tandis que Lutnick défend une approche moins restrictive pour préserver les débouchés commerciaux d'entreprises comme Nvidia.",
+      "enjeux": "Cette controverse met en lumière les limites de la **guerre technologique** menée par Washington contre Pékin. L'interdiction d'exporter directement des semi-conducteurs de pointe vers la Chine pousse les acteurs à contourner l'embargo par l'accès à distance au *cloud* dans des pays tiers comme la Malaisie. L'affaire soulève aussi un enjeu majeur de **gouvernance publique** et de **conflit d'intérêts** lorsque des responsables économiques issus de la finance élaborent des réglementations touchant les clients de leurs anciens groupes. Plus largement, elle révèle la fracture au sein du camp républicain entre **sécurité nationale** (freiner l'essor militaire et technologique chinois) et intérêts mercantiles des géants américains de la tech.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/5C2A5953R_-_49913961083_%E2%80%93_Silicon_Wafer_20200519.jpg/1280px-5C2A5953R_-_49913961083_%E2%80%93_Silicon_Wafer_20200519.jpg",
+        "alt": "Plaquette de silicium pour la fabrication de semi-conducteurs",
+        "credit": "Rob Bulmahn / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:5C2A5953R_-_49913961083_%E2%80%93_Silicon_Wafer_20200519.jpg"
+      },
+      "vo": {
+        "titre": "Lutnick pushed to weaken chip rules overlapping with his family business",
+        "faits": "According to a New York Times investigation on 15 November, Commerce Secretary Howard Lutnick has been working to soften proposed US restrictions on AI chip exports to data centres in Southeast Asia. The dispute centres on A201, a major Malaysian facility set to deploy hundreds of millions of dollars in advanced Nvidia servers to supply computing power to a Chinese tech giant, legally bypassing Washington's direct ban on chip sales to China. Crucially, the data centre's operator is a client of Cantor Fitzgerald, the financial firm previously run by Lutnick and now led by his sons. Within the Trump administration, China hawks argue that such facilities create a dangerous backdoor for Beijing, whereas Lutnick favours lighter oversight to protect US tech exporters. His stance has drawn sharp criticism from lawmakers and colleagues concerned about both national security and conflicts of interest.",
+        "enjeux": "This controversy exposes the porousness of Washington's technological containment strategy against China. As direct semiconductor export bans tighten, Chinese firms increasingly access advanced computing power remotely via cloud data centres located in third countries such as Malaysia. At the same time, the case raises serious ethical questions about regulatory capture and conflicts of interest when former Wall Street executives oversee rules affecting their family firms' clients. Ultimately, it illustrates the ongoing clash in US trade policy between national security hawks and commercial lobbies seeking to preserve Asian market share."
+      },
+      "vocab": [
+        ["export controls", "les contrôles à l'exportation", "Washington tightened export controls on advanced AI semiconductors."],
+        ["to sidestep / bypass", "contourner (une règle, un embargo)", "Chinese firms use overseas cloud centres to sidestep chip bans."],
+        ["a conflict of interest", "un conflit d'intérêts", "Lawmakers warned of a clear conflict of interest in the ruling."],
+        ["China hawks", "les faucons anti-Chine", "China hawks want a total ban on indirect chip access."],
+        ["computing power", "la puissance de calcul", "Training frontier AI models requires massive computing power."],
+        ["a soft touch", "une approche indulgente / peu contraignante", "Critics accused the Commerce Department of a soft touch on tech."]
+      ],
+      "sujets": [
+        "Can US export controls effectively curb China's technological rise?",
+        "How should democracies prevent conflicts of interest when business leaders enter government?"
+      ],
+      "anki": [
+        {
+          "q": "How the Malaysian data centre A201 bypasses US AI chip bans (NYT, Nov. 2026)",
+          "r": "Equipped with hundreds of millions of dollars in B{Nvidia} servers, it leases B{computing power} remotely to a Chinese tech giant.\n→ Shows how B{third-country cloud access} undermines direct export controls (hook on US-China tech rivalry)."
+        },
+        {
+          "q": "Ethical controversy involving US Commerce Secretary Howard Lutnick (Nov. 2026)",
+          "r": "He pushed for softer chip rules affecting a client of B{Cantor Fitzgerald}, his former firm now run by his sons.\n→ Illustrates risks of B{conflict of interest} and regulatory capture in trade policy."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-anglais-4",
+      "matiere": "anglais",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw62p42p288do",
+      "minutes": 3,
+      "titre": "États-Unis : des actionnaires poursuivent Intel après une chute de près de 29 % en Bourse",
+      "faits": "Selon la BBC ce 16 novembre, des actionnaires ont déposé une plainte en nom collectif (class action) en Californie contre le géant américain des semi-conducteurs Intel et son directeur général Tan Lip-Bu. Ils accusent le groupe d'avoir dissimulé la gravité du recul des ventes d'ordinateurs personnels (PC), provoquant un effondrement de près de 29 % du titre en une seule séance le 30 octobre dernier et détruisant des dizaines de milliards de dollars de capitalisation. D'après la plainte, Intel avait laissé entendre que la demande s'améliorait avant d'annoncer une chute de 9 % de ses bénéfices trimestriels, soit environ 800 millions de dollars, à 8,1 milliards. Le groupe a massivement investi dans ses capacités de production pour répondre à la demande de puces destinées aux centres de données d'IA, ce qui a renchéri le coût des composants pour les PC classiques.",
+      "enjeux": "Cette affaire illustre les tensions financières liées à la réallocation massive des capitaux vers l'**intelligence artificielle**. En priorisant la fabrication de puces pour les data centers, les fondeurs de semi-conducteurs déséquilibrent l'offre sur les segments traditionnels et s'exposent à des chocs de demande brutaux. Sur le plan de la **gouvernance d'entreprise**, la plainte rappelle la sévérité du droit boursier américain face au manque de transparence financière et à l'**asymétrie d'information** entre dirigeants et actionnaires. Enfin, les difficultés d'Intel soulignent la difficulté pour un champion industriel historique de réussir son rattrapage technologique face à des concurrents comme Nvidia ou TSMC.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/00_3783_Oil_and_gas_platform_in_Norway.jpg/1280px-00_3783_Oil_and_gas_platform_in_Norway.jpg",
+        "alt": "Plateforme industrielle en mer du Nord",
+        "credit": "W. Bulach / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:00_3783_Oil_and_gas_platform_in_Norway.jpg"
+      },
+      "vo": {
+        "titre": "Investors sue chip giant Intel after 29% stock plunge",
+        "faits": "According to the BBC on 16 November, shareholders have filed a proposed class action lawsuit in California against US chipmaker Intel and its chief executive Tan Lip-Bu. Investors accuse the company of hiding the severity of a slump in personal computer sales, which triggered a nearly 29% single-day plunge in Intel's share price on 30 October and wiped tens of billions of dollars off its market value. The complaint alleges that Intel made misleading statements suggesting demand was recovering before reporting a 9% drop in quarterly earnings—around $800m—to $8.1bn. Meanwhile, Intel has poured huge investments into manufacturing capacity for AI data centres, driving up component costs for standard PCs and electronics.",
+        "enjeux": "Intel's legal trouble reflects the financial strain caused by the semiconductor industry's rapid pivot toward artificial intelligence infrastructure. As chipmakers channel capacity into high-margin data centre orders, traditional hardware segments face tighter supplies and sharper cyclical swings. From a corporate governance perspective, the lawsuit highlights how US securities law penalises information asymmetry between executives and investors. More broadly, it underscores how difficult it remains for legacy industrial champions to execute costly technological turnarounds under intense quarterly market pressure."
+      },
+      "vocab": [
+        ["a class action lawsuit", "une action de groupe (plainte collective)", "Shareholders launched a class action lawsuit over undisclosed losses."],
+        ["a stock plunge", "un effondrement boursier", "The profit warning triggered a 29% stock plunge."],
+        ["market value", "la capitalisation boursière", "Billions of dollars in market value vanished in one session."],
+        ["misleading statements", "des déclarations trompeuses", "Executives were accused of making misleading statements to investors."],
+        ["quarterly earnings", "les résultats trimestriels", "Quarterly earnings fell by 9% amid weak PC demand."],
+        ["corporate governance", "la gouvernance d'entreprise", "Strong corporate governance requires timely disclosure of risks."]
+      ],
+      "sujets": [
+        "Does the AI boom create dangerous imbalances for traditional tech markets?",
+        "How effective are shareholder lawsuits in enforcing corporate transparency?"
+      ],
+      "anki": [
+        {
+          "q": "Trigger for the Oct. 30, 2026 Intel stock plunge and subsequent lawsuit",
+          "r": "Nearly C{29 %} one-day drop after disclosing a C{9 %} (C{$800m}) fall in quarterly earnings to C{$8.1bn}.\n→ Shows market sensitivity to B{information asymmetry} and the financial risks of pivoting capacity toward AI data centres."
+        },
+        {
+          "q": "Side effect of Intel's pivot toward AI data centre chips (Nov. 2026)",
+          "r": "Higher component costs for standard PCs and consumer electronics.\n→ Illustrates B{capacity crowding-out} inside the semiconductor supply chain (hook on AI investment)."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-espagnol-1",
+      "matiere": "espagnol",
+      "source": "El País",
+      "url": "https://elpais.com/economia/2026-11-16/bruselas-se-reserva-la-aprobacion-del-ultimo-pago-del-plan-de-recuperacion-hasta-el-dia-despues-de-las-elecciones.html",
+      "minutes": 3,
+      "titre": "Espagne : Bruxelles attendra le lendemain des élections du 29-N pour statuer sur le dernier versement européen",
+      "faits": "Selon El País ce lundi 16 novembre, la Commission européenne a averti Madrid qu'elle ne rendrait publique son évaluation du septième et dernier versement du plan de relance espagnol que le 30 novembre, soit le lendemain des élections générales anticipées du 29-N. L'enjeu financier est considérable : ce dernier déboursement atteint jusqu'à 25,861 milliards d'euros, soit environ 30 % de l'ensemble du programme européen destiné à l'Espagne (près de 80 milliards de subventions et 21,5 milliards de prêts). Contrairement aux tranches précédentes, aucune session de rattrapage de six mois ne sera possible pour corriger des jalons non atteints ; Bruxelles devrait déjà amputer le paiement d'au moins 260 millions d'euros en raison de l'abandon de la loi sur les lobbies au Congrès. Par ailleurs, la réglementation européenne permet à la Commission de réclamer le remboursement de fonds déjà versés si un futur gouvernement revenait sur des réformes validées, comme la loi sur le logement que le chef du PP Alberto Núñez Feijóo promet d'abroger.",
+      "enjeux": "Cette séquence révèle la forte **conditionnalité budgétaire** qui lie les États membres à l'Union européenne depuis le plan **NextGenerationEU**. En reportant son verdict au 30 novembre, Bruxelles cherche à préserver sa neutralité en pleine campagne électorale, tout en rappelant que les **réformes structurelles** négociées engagent la continuité de l'État au-delà des alternances politiques. Pour le prochain exécutif espagnol, qu'il soit de gauche ou de droite, la marge de manœuvre budgétaire restera étroitement encadrée par la crainte de sanctions financières européennes en cas de détricotage des lois sur le travail ou le logement.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg/1280px-Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
+        "alt": "Bâtiment Berlaymont, siège de la Commission européenne à Bruxelles",
+        "credit": "EmDee / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg"
+      },
+      "vo": {
+        "titre": "Bruselas aplaza al día después del 29-N el aval al último pago del plan de recuperación",
+        "faits": "Según informa El País este lunes 16 de noviembre, la Comisión Europea retrasará hasta el 30 de noviembre, justo un día después de las elecciones generales españolas del 29-N, la publicación de su evaluación sobre el séptimo y último pago del plan de recuperación. Este desembolso asciende a hasta 25.861 millones de euros, cerca del 30 % del total del programa asignado a España. A diferencia de tramos anteriores, el examen será definitivo y sin prórroga para subsanar incumplimientos; de hecho, Bruselas descontará al menos 260 millones al haber decaído la Ley de Lobbies en el Congreso. Además, el reglamento comunitario faculta a la Comisión para exigir la devolución de fondos ya abonados si un futuro Ejecutivo revierte reformas pactadas, como la Ley de Vivienda que el líder del PP, Alberto Núñez Feijóo, ha prometido derogar.",
+        "enjeux": "Este pulso pone de relieve la estricta condicionalidad económica que vincula a los Estados miembros con la Unión Europea a raíz de los fondos NextGenerationEU. Al posponer su dictamen hasta el día posterior a los comicios, Bruselas intenta evitar injerencias en la campaña electoral, aunque recuerda que los compromisos adquiridos obligan al Estado más allá del color político del Gobierno entrante. Para el próximo Ejecutivo español, la capacidad de deshacer reformas laborales o inmobiliarias quedará fuertemente limitada por el riesgo de perder miles de millones en ayudas europeas."
+      },
+      "vocab": [
+        ["el desembolso", "le versement / déboursement", "El último desembolso europeo supera los 25.000 millones de euros."],
+        ["el hito", "le jalon / objectif intermédiaire", "España debe cumplir decenas de hitos para recibir las ayudas."],
+        ["subsanar", "corriger, remédier à", "No habrá plazo adicional para subsanar los objetivos incumplidos."],
+        ["derogar una ley", "abroger une loi", "La oposición promete derogar la Ley de Vivienda si gobierna."],
+        ["la condicionalidad", "la conditionnalité", "Los fondos europeos están sujetos a una fuerte condicionalidad reformista."],
+        ["en funciones", "en exercice / expédiant les affaires courantes", "El Gobierno en funciones recibirá la evaluación definitiva de Bruselas."]
+      ],
+      "sujets": [
+        "¿Limita la condicionalidad de los fondos europeos la soberanía política de los Estados?",
+        "¿Qué balance deja el plan NextGenerationEU para la economía española?"
+      ],
+      "anki": [
+        {
+          "q": "Montant du dernier versement du plan de relance européen pour l'Espagne (décision le 30 nov. 2026)",
+          "r": "Jusqu'à C{25.861 M€} (environ C{30 %} du programme), avec au moins C{260 M€} retenus pour l'échec de la Ley de Lobbies.\n→ Illustre la B{condicionalidad} budgétaire de l'UE et le risque de remboursement si un futur gouvernement abroge des réformes (accroche sur l'intégration européenne)."
+        },
+        {
+          "q": "Enveloppe totale du plan de relance européen accordée à l'Espagne (subventions et prêts)",
+          "r": "Près de C{80 Md€} de subventions et C{21,5 Md€} de prêts.\n→ Montre l'ampleur inédite de la solidarité budgétaire de B{NextGenerationEU} en échange de réformes structurelles."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-espagnol-2",
+      "matiere": "espagnol",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/economia/yolanda-diaz-retira-candidatura-presidir-oit-horas-elecciones_1_13666457.html",
+      "minutes": 3,
+      "titre": "Espagne : Yolanda Díaz retire sa candidature à la direction de l'OIT à quelques heures du scrutin",
+      "faits": "Selon elDiario.es ce 16 novembre, la deuxième vice-présidente du gouvernement espagnol et ministre du Travail, Yolanda Díaz, a retiré sa candidature à la direction générale de l'Organisation internationale du travail (OIT) à quelques heures du vote prévu à Genève. Elle devait affronter l'actuel directeur général, le Togolais Gilbert F. Houngbo, devant un collège tripartite composé de 28 États, 14 représentants des employeurs et 14 des travailleurs. Dans une lettre publiée sur Bluesky, Díaz justifie son retrait par la décision de la direction de la Confédération syndicale internationale (CSI) et du groupe des travailleurs de l'OIT d'appeler à voter pour Houngbo, ce qui selon elle a empêché la « liberté de voto » malgré le soutien de plusieurs syndicats européens. Elle affirme se retirer pour ne pas diviser le mouvement syndical mondial. Le troisième candidat, l'ancien ministre péruvien Javier González-Olaechea, s'était déjà retiré en octobre.",
+      "enjeux": "Ce retrait constitue un revers diplomatique et politique pour la gauche espagnole à deux semaines des élections générales du 29 novembre. Au-delà du cas personnel de Yolanda Díaz, qui a porté des réformes sociales majeures en Espagne (hausse du salaire minimum, réduction de la précarité), l'épisode éclaire le fonctionnement **tripartite** singulier de l'OIT, où gouvernements, patronat et syndicats négocient les normes mondiales du travail. Il révèle aussi les fractures géopolitiques au sein du **syndicalisme international** entre syndicats européens et coalitions du Sud global favorables au maintien d'un dirigeant africain.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ILO_Geneva.JPG/1280px-ILO_Geneva.JPG",
+        "alt": "Siège de l'Organisation internationale du travail (OIT) à Genève",
+        "credit": "BiiJii / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:ILO_Geneva.JPG"
+      },
+      "vo": {
+        "titre": "Yolanda Díaz retira su candidatura a dirigir la OIT horas antes de la votación",
+        "faits": "Según informa elDiario.es este lunes 16 de noviembre, la vicepresidenta segunda y ministra de Trabajo española, Yolanda Díaz, ha retirado su candidatura a la dirección general de la Organización Internacional del Trabajo (OIT) apenas horas antes de las elecciones en Ginebra. Díaz iba a medirse al actual director, el togolés Gilbert F. Houngbo, ante un consejo tripartito integrado por 28 gobiernos, 14 representantes patronales y 14 sindicales. En una carta difundida en Bluesky, la ministra atribuye su renuncia a la postura de la cúpula de la Confederación Sindical Internacional (CSI), que respaldó a Houngbo e impidió a su juicio la «libertad de voto», pese al apoyo recibido de varios sindicatos europeos. Díaz asegura dar un paso al lado para preservar la unidad del sindicalismo mundial, tras la retirada previa en octubre del exministro peruano Javier González-Olaechea.",
+        "enjeux": "Este desenlace supone un revés simbólico para la izquierda española en plena recta final hacia las elecciones generales del 29-N. Más allá de la proyección internacional de Díaz —artífice de la reforma laboral y de subidas del salario mínimo en España—, el episodio ilustra las tensiones del modelo tripartito de la OIT, donde Estados, empresarios y sindicatos deciden la gobernanza global del trabajo. Asimismo, refleja las divisiones estratégicas entre el sindicalismo europeo y las mayorías del Sur global en los organismos de Naciones Unidas."
+      },
+      "vocab": [
+        ["dar un paso al lado", "se retirer, céder la place", "La ministra decidió dar un paso al lado antes del escrutinio."],
+        ["la cúpula sindical", "la direction syndicale", "La cúpula sindical internacional apostó por la reelección de Houngbo."],
+        ["el organismo tripartito", "l'organisme tripartite", "La OIT es un organismo tripartito que reúne a Estados, patronal y sindicatos."],
+        ["el respaldo", "le soutien, l'appui", "Su candidatura contaba con el respaldo de los sindicatos europeos."],
+        ["los comicios", "les élections, le scrutin", "El anuncio llegó a pocas horas de celebrarse los comicios."],
+        ["el revés diplomático", "le revers diplomatique", "La retirada representa un revés diplomático a dos semanas del 29-N."]
+      ],
+      "sujets": [
+        "¿Sigue siendo eficaz el tripartismo de la OIT para defender los derechos laborales globales?",
+        "¿Qué peso tiene España en los organismos económicos y sociales internacionales?"
+      ],
+      "anki": [
+        {
+          "q": "Composition du collège électoral de l'OIT et raison du retrait de Yolanda Díaz (16 nov. 2026)",
+          "r": "B{28 États, 14 employeurs et 14 travailleurs} ; elle s'est retirée après le soutien de la B{CSI} à Gilbert Houngbo.\n→ Illustre les tensions entre syndicats européens et du Sud global au sein de la gouvernance tripartite du travail (accroche sur le dialogue social mondial)."
+        },
+        {
+          "q": "Nombre de candidats restants après les retraits d'octobre et novembre 2026 à l'OIT",
+          "r": "Un seul candidat en lice, le directeur sortant togolais B{Gilbert F. Houngbo}, après les retraits de Javier González-Olaechea et Yolanda Díaz.\n→ Reflète le poids des majorités du B{Sud global} dans les agences de l'ONU."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-espagnol-3",
+      "matiere": "espagnol",
+      "source": "Clarín",
+      "url": "https://www.clarin.com/economia/bcra-volvio-intervenir-frenar-tasas-city-advierten-volatilidad_0_2jhZnBZLJs.html",
+      "minutes": 3,
+      "titre": "Argentine : la Banque centrale intervient pour freiner les taux d'intérêt sur fond de forte volatilité",
+      "faits": "Selon Clarín ce 15 novembre, la Banque centrale d'Argentine (BCRA) a dû intervenir massivement sur le marché monétaire pour contenir une flambée des taux d'intérêt à court terme en pesos. Avant une série de jours fériés qui a tendu la liquidité bancaire, le taux interbancaire a bondi à près de 32 % par an (31,98 %), son plus haut niveau depuis février, tandis que certaines opérations de pension ont atteint des rendements à trois chiffres. Malgré le rachat de 1,8 billion de pesos d'obligations par le Trésor, la demande de liquidités des banques — qui ont augmenté leurs réserves obligatoires de 2,7 billions de pesos — a forcé la BCRA à injecter des fonds sur le marché, portant les échanges quotidiens à 2,1 billions de pesos. Les analystes de la City de Buenos Aires estiment que le régime monétaire actuel, dépourvu de corridor officiel de taux, favorise cette volatilité et freine la reprise du crédit : en octobre, les prêts personnels coûtaient en moyenne 62,6 % par an contre 22,7 % servis sur les dépôts.",
+      "enjeux": "Cette tension monétaire révèle la fragilité de la stabilisation économique argentine après les plans d'ajustement des dernières années. En refusant de fixer un **corridor de taux** explicite, les autorités conservent une flexibilité technique mais entretiennent une **incertitude financière** qui pénalise l'intermédiation bancaire. L'écart abyssal de près de 40 points entre taux créditeurs et taux débiteurs étouffe l'**accès au crédit** des ménages et des PME, freinant l'investissement productif. À l'approche du cycle électoral de 2027, la maîtrise de la **liquidité bancaire** reste un test décisif pour la crédibilité du peso.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Banco_Central_argentina.JPG/1280px-Banco_Central_argentina.JPG",
+        "alt": "Façade de la Banque centrale de la République argentine à Buenos Aires",
+        "credit": "Diana2803 / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Banco_Central_argentina.JPG"
+      },
+      "vo": {
+        "titre": "El BCRA volvió a intervenir para frenar las tasas y en la City advierten más volatilidad",
+        "faits": "Según publica Clarín este 15 de noviembre, el Banco Central de la República Argentina (BCRA) tuvo que volver a intervenir en el mercado de pesos para contener una brusca subida de las tasas de interés de corto plazo. Antes de una seguidilla de días feriados que tensionó la liquidez bancaria, la tasa interbancaria escaló hasta el 31,98 % anual, su máximo desde febrero, mientras las cauciones llegaron a operar con rendimientos de tres dígitos. Pese a que el Tesoro recompró 1,8 billones de pesos en bonos, la demanda de liquidez de los bancos —que elevaron sus encajes en 2,7 billones— obligó al BCRA a inyectar fondos en la rueda de simultáneas, donde se negociaron 2,1 billones. Los analistas de la City advierten que la ausencia de un corredor formal de tasas alimenta la volatilidad y encarece el crédito: en octubre, los préstamos personales promediaron un 62,6 % anual frente al 22,7 % de los plazos fijos.",
+        "enjeux": "Este episodio pone de manifiesto la vulnerabilidad del esquema monetario argentino en su transición hacia la estabilidad de precios. Al prescindir de un corredor de tasas definido, la autoridad monetaria gana margen de maniobra, pero genera fluctuaciones abruptas que desalientan el financiamiento productivo. La brecha de casi 40 puntos porcentuales entre las tasas de depósitos y las de préstamos refleja las fricciones del sistema financiero y frena la recuperación del consumo y la inversión. De cara a las elecciones de 2027, la gestión de la liquidez será clave para sostener la confianza en la moneda local."
+      },
+      "vocab": [
+        ["los encajes bancarios", "les réserves obligatoires des banques", "Los bancos aumentaron sus encajes ante la falta de liquidez."],
+        ["la tasa interbancaria", "le taux interbancaire", "La tasa interbancaria saltó casi al 32 % anual antes del feriado."],
+        ["el corredor de tasas", "le corridor de taux directeurs", "Sin un corredor de tasas claro, el mercado sufre fuertes vaivenes."],
+        ["la morosidad", "les défauts de paiement / impayés", "El encarecimiento del crédito amenaza con elevar la morosidad."],
+        ["el plazo fijo", "le dépôt à terme", "El rendimiento del plazo fijo quedó muy por debajo del coste del préstamo."],
+        ["inyectar liquidez", "injecter des liquidités", "El Banco Central intervino para inyectar liquidez y calmar las tasas."]
+      ],
+      "sujets": [
+        "¿Puede consolidarse el crecimiento económico en Argentina con tasas de crédito tan elevadas?",
+        "¿Qué riesgos implica un régimen monetario sin corredor explícito de tasas de interés?"
+      ],
+      "anki": [
+        {
+          "q": "Écart entre taux des prêts personnels et taux des dépôts à terme en Argentine (oct. 2026)",
+          "r": "C{62,6 %} par an pour les prêts personnels contre C{22,7 %} pour les dépôts (soit près de C{40 points} d'écart).\n→ Montre comment la volatilité des liquidités et l'absence de B{corridor de taux} bloquent le financement de l'économie (accroche sur la politique monétaire)."
+        },
+        {
+          "q": "Niveau du taux interbancaire argentin avant l'intervention de la BCRA (nov. 2026)",
+          "r": "C{31,98 %} par an (plus haut niveau depuis février), forçant la BCRA à injecter des liquidités pour C{2,1 billions de pesos} d'échanges quotidiens.\n→ Illustre la fragilité de la B{liquidité bancaire} face aux chocs calendaires et à l'incertitude politique."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-espagnol-4",
+      "matiere": "espagnol",
+      "source": "El País América",
+      "url": "https://elpais.com/mexico/2026-11-15/muere-el-narco-miguel-angel-felix-gallardo-el-jefe-de-jefes-a-los-80-anos.html",
+      "minutes": 3,
+      "titre": "Mexique : mort à 80 ans de Miguel Ángel Félix Gallardo, fondateur historique du cartel de Guadalajara",
+      "faits": "Selon El País ce dimanche 15 novembre, Miguel Ángel Félix Gallardo, surnommé « El Jefe de Jefes » et considéré comme le premier grand baron du narcotrafic mexicain, est mort à 80 ans des suites d'une défaillance multiviscérale dans un hôpital de Jalisco. Incarcéré sans interruption depuis son arrestation à Guadalajara en avril 1989, il purgeait deux peines cumulées de 76 ans de prison pour criminalité organisée et pour l'assassinat en 1985 de l'agent américain de la DEA Enrique « Kiki » Camarena et du pilote Alfredo Zavala. Dans les années 1970 et 1980, il avait fondé le cartel de Guadalajara, transformant le Mexique en plaque tournante du trafic de cocaïne colombienne vers les États-Unis grâce à un vaste réseau de corruption policière et judiciaire. Malgré un état de santé très dégradé et l'octroi théorique d'une assignation à résidence en 2022, le parquet fédéral avait bloqué son transfert hors de la prison de Puente Grande.",
+      "enjeux": "La disparition du fondateur du cartel de Guadalajara clôt un chapitre fondateur de l'histoire contemporaine du Mexique. Sous l'impulsion de Félix Gallardo s'est structuré le passage d'une contrebande locale à une **économie criminelle transnationale** fondée sur les routes de la cocaïne andine vers le marché américain. Son empire a durablement illustré la **capture institutionnelle** d'une partie de l'État par la corruption des forces de sécurité et de la justice. Après sa chute en 1989, la fragmentation de son organisation a donné naissance aux grands cartels rivaux (Sinaloa, Tijuana, Juárez), déclenchant un cycle de **violence armée** qui continue aujourd'hui encore de peser sur la sécurité et l'État de droit au Mexique.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Catedral_%28Guadalajara%2C_Jalisco%29_bnw00062.jpg/1280px-Catedral_%28Guadalajara%2C_Jalisco%29_bnw00062.jpg",
+        "alt": "Cathédrale de Guadalajara dans l'État de Jalisco au Mexique",
+        "credit": "Juan Carlos Fonseca Mata / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Catedral_(Guadalajara,_Jalisco)_bnw00062.jpg"
+      },
+      "vo": {
+        "titre": "Muere Miguel Ángel Félix Gallardo, el histórico fundador del Cartel de Guadalajara, a los 80 años",
+        "faits": "Según informa El País este 15 de noviembre, Miguel Ángel Félix Gallardo, conocido como «el Jefe de Jefes» y primer gran capo del narcotráfico mexicano, ha fallecido a los 80 años por un fallo multiorgánico en un hospital de Jalisco. Preso de forma ininterrumpida desde abril de 1989, cumplía dos condenas que sumaban 76 años por delincuencia organizada y por el asesinato en 1985 del agente estadounidense de la DEA Enrique «Kiki» Camarena y del piloto Alfredo Zavala. Durante las décadas de 1970 y 1980, el fundador del Cartel de Guadalajara convirtió a México en el principal corredor de cocaína colombiana hacia Estados Unidos, amparado en una extensa red de sobornos policiales y judiciales. Aunque un juez le concedió en 2022 el arresto domiciliario por su grave deterioro físico, la Fiscalía bloqueó su salida del penal de Puente Grande.",
+        "enjeux": "La muerte de Félix Gallardo cierra el ciclo fundacional del narcotráfico moderno en México. Bajo su mando se consolidó el tránsito de una economía ilícita regional hacia una verdadera industria criminal transnacional, articulada en torno a la demanda estadounidense y al lavado de capitales. Su trayectoria refleja asimismo el fenómeno de cooptación institucional que permitió durante décadas la connivencia entre redes delictivas y autoridades locales. Paradójicamente, la caída del gran patriarca en 1989 fragmentó el monopolio criminal en múltiples carteles enfrentados, desencadenando una espiral de violencia que aún desafía al Estado de derecho mexicano."
+      },
+      "vocab": [
+        ["el narcotráfico", "le trafic de drogue", "El narcotráfico transformó la seguridad y la política en México."],
+        ["el capo", "le parrain / chef de cartel", "El histórico capo llevaba treinta y siete años en prisión."],
+        ["el soborno", "le pot-de-vin, la corruption", "Las redes criminales se protegían mediante sobornos a la policía."],
+        ["el arresto domiciliario", "l'assignation à résidence", "La Fiscalía impidió que el preso pasara a arresto domiciliario."],
+        ["la delincuencia organizada", "la criminalité organisée", "Fue condenado a décadas de cárcel por delincuencia organizada."],
+        ["el Estado de derecho", "l'État de droit", "La fragmentación de los carteles debilita el Estado de derecho."]
+      ],
+      "sujets": [
+        "¿Por qué la caída de los grandes capos ha provocado una mayor fragmentación violenta en México?",
+        "¿Qué responsabilidad comparten la demanda estadounidense y la debilidad institucional mexicana en la crisis del narcotráfico?"
+      ],
+      "anki": [
+        {
+          "q": "Rôle historique du cartel de Guadalajara fondé par Félix Gallardo (mort le 15 nov. 2026)",
+          "r": "Il a fait du Mexique la plaque tournante de la cocaïne colombienne vers les États-Unis dès les années D{1970-1980}.\n→ Sa chute en D{1989} a fragmenté l'empire criminel en cartels rivaux, nourrissant l'escalade de violence (accroche sur la sécurité en Amérique latine)."
+        },
+        {
+          "q": "Durée des peines et d'incarcération de Miguel Ángel Félix Gallardo au Mexique",
+          "r": "C{76 ans} de prison cumulés (dont C{37 ans} passés derrière les barreaux depuis D{1989}), notamment pour l'assassinat de l'agent de la DEA Kiki Camarena en D{1985}.\n→ Illustre l'ancienneté de la coopération et des tensions sécuritaires entre Mexico et Washington."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-allemand-1",
+      "matiere": "allemand",
+      "source": "Der Spiegel",
+      "url": "https://www.spiegel.de/wirtschaft/bundeshaushalt-rechnungshof-praesident-ansgar-heveling-sieht-bei-subventionen-viel-sparpotenzial-a-288a2b18-a2fb-4f3b-a484-e638d21040ee",
+      "minutes": 3,
+      "titre": "Budget fédéral : la Cour des comptes identifie 17 milliards d'économies sur les subventions",
+      "faits": "Selon Der Spiegel ce lundi 16 novembre, le président de la Cour des comptes fédérale allemande (Bundesrechnungshof), Ansgar Heveling, réclame des coupes franches dans les subventions publiques. Il estime que la seule suppression des aides et avantages fiscaux inefficaces ou nuisibles au climat permettrait d'économiser 17 milliards d'euros par an. Heveling critique le fait que le gouvernement ne fixe souvent aucun objectif vérifiable pour évaluer le succès de ces subventions. Très inquiet de la forte hausse de la nouvelle dette dans le budget fédéral et des fonds spéciaux (Sondervermögen), il appelle à revenir rapidement à un frein à l'endettement efficace. Cet avertissement intervient la veille d'une réunion décisive de la coalition CDU/CSU-SPD sur le budget 2027, toujours divisée sur le financement d'une baisse promise de la taxe sur l'électricité.",
+      "enjeux": "Ce rappel à l'ordre relance le débat central de la politique budgétaire allemande depuis la réforme du **frein à l'endettement** (*Schuldenbremse*). La coalition au pouvoir est prise en étau entre des promesses de baisses d'impôts pour soutenir l'industrie et une hausse rapide de la **dette publique** via des fonds spéciaux. En ciblant les **subventions néfastes au climat**, la Cour des comptes propose une voie d'assainissement qui évite d'augmenter les impôts, mais se heurte aux résistances politiques de chaque secteur concerné.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Berlin_reichstag_west_panorama.jpg/1280px-Berlin_reichstag_west_panorama.jpg",
+        "alt": "Façade du Bundestag à Berlin",
+        "credit": "Mfield, Matthew Field, http://www.photography.mattfield.com / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_reichstag_west_panorama.jpg"
+      },
+      "vo": {
+        "titre": "Bundesrechnungshof sieht 17 Milliarden Euro Sparpotenzial bei Subventionen",
+        "faits": "Ansgar Heveling ist Präsident des Bundesrechnungshofes. Am 16. November forderte er klare Kürzungen im Bundeshaushalt. Der Staat soll unwirksame oder klimaschädliche Subventionen streichen. Das könnte pro Jahr 17 Milliarden Euro sparen. Laut Heveling prüft die Regierung den Erfolg solcher Hilfen oft nicht. Er warnt auch vor der hohen Neuverschuldung und den Sondervermögen. Am Dienstag berät die Koalition aus Union und SPD über den Etat 2027. Die Parteien streiten noch über die Finanzierung einer niedrigeren Stromsteuer.",
+        "enjeux": "Diese Kritik zeigt das große Finanzproblem der Bundesregierung. Deutschland hat zuletzt viele neue Schulden gemacht. Doch langfristig braucht der Staat wieder einen soliden Haushalt. Der Rechnungshof fordert eine Rückkehr zu einer strengen Schuldenbremse. Kürzungen bei Klimasubventionen könnten Geld für andere Aufgaben bringen. Aber viele Branchen und Wähler wehren sich gegen weniger Staatshilfen. Die Koalition muss nun zwischen Steuersenkungen und Sparen wählen."
+      },
+      "vocab": [
+        ["der Bundeshaushalt", "le budget fédéral", "Der Bundeshaushalt für 2027 sorgt für viel Streit."],
+        ["die Subvention", "la subvention", "Viele alte Subventionen schaden heute dem Klima."],
+        ["die Neuverschuldung", "le nouvel endettement", "Die hohe Neuverschuldung macht vielen Ökonomen Sorgen."],
+        ["die Schuldenbremse", "le frein à l'endettement", "Die Regeln der Schuldenbremse stehen wieder in der Kritik."],
+        ["das Sparpotenzial", "le potentiel d'économies", "Experten sehen bei Steuerhilfen ein großes Sparpotenzial."],
+        ["die Stromsteuer", "la taxe sur l'électricité", "Die Wirtschaft hofft auf eine niedrigere Stromsteuer."]
+      ],
+      "sujets": [
+        "Soll Deutschland die Schuldenbremse wieder strenger anwenden?",
+        "Warum ist der Abbau von klimaschädlichen Subventionen politisch so schwer?"
+      ]
+    },
+    {
+      "id": "2026-11-16-allemand-2",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-rente-aktienmarkt-sparplan-100.html",
+      "minutes": 3,
+      "titre": "Retraites en Allemagne : l'État veut transformer les épargnants en investisseurs boursiers",
+      "faits": "Selon Tagesschau ce lundi 16 novembre, l'Allemagne lancera au début de l'année 2027 un nouveau plan d'épargne-retraite subventionné par l'État, baptisé « Altersvorsorgedepot ». Ce dispositif remplacera pour les nouveaux contrats l'ancien système Riester et vise à orienter l'épargne privée vers les marchés financiers (actions et ETF) grâce à d'importantes aides fiscales : jusqu'à 540 euros de prime de base par an, plus 300 euros par enfant. Selon la Bundesbank, les ménages allemands détiennent plus de 3 500 milliards d'euros sur des comptes courants ou livrets peu rémunérés. Seul un Allemand sur cinq investit aujourd'hui en Bourse, contre une proportion bien plus élevée aux États-Unis ou en Suède, ce qui prive les épargnants de rendement à long terme face au vieillissement démographique.",
+      "enjeux": "Cette réforme marque un tournant culturel et économique majeur pour le modèle social allemand. Confrontée au **vieillissement démographique**, l'Allemagne cherche à compléter sa retraite par répartition par une dose accrue de **capitalisation** individuelle. Elle s'attaque ainsi à la forte **aversion au risque** des épargnants allemands, qui préfèrent traditionnellement la sécurité des dépôts bancaires au détriment du rendement réel. Réussir ce virage permettrait à la fois d'améliorer les futures pensions et de diriger l'épargne domestique vers le financement des entreprises.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Frankfurt_Skyline_2022.jpg/1280px-Frankfurt_Skyline_2022.jpg",
+        "alt": "Quartier financier de Francfort-sur-le-Main",
+        "credit": "Jörg Braukmann / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_Skyline_2022.jpg"
+      },
+      "vo": {
+        "titre": "Neues Altersvorsorgedepot soll deutsche Sparer zu Anlegern machen",
+        "faits": "Anfang 2027 startet in Deutschland das neue Altersvorsorgedepot. Es ist der Nachfolger der alten Riester-Rente. Der Staat will damit mehr private Vorsorge am Aktienmarkt fördern. Sparer erhalten bis zu 540 Euro Zulage pro Jahr. Familien bekommen noch 300 Euro pro Kind dazu. Laut Bundesbank liegen über 3,5 Billionen Euro auf Girokonten. Dort gibt es aber fast keine Zinsen. In Deutschland investiert bisher nur jeder Fünfte in Aktien.",
+        "enjeux": "Deutschland hat eine immer ältere Bevölkerung. Die gesetzliche Rente allein reicht für viele Menschen nicht mehr aus. Deshalb muss sich die deutsche Sparkultur ändern. In den USA oder Schweden nutzen viel mehr Bürger den Aktienmarkt. Viele Deutsche haben aber Angst vor Verlusten an der Börse. Die staatlichen Zulagen sollen diese Angst nun abbauen. So sollen die Menschen im Alter höhere Renten bekommen."
+      },
+      "vocab": [
+        ["die Altersvorsorge", "la prévoyance retraite", "Private Altersvorsorge wird wegen des demografischen Wandels wichtiger."],
+        ["der Aktienmarkt", "le marché boursier", "Nur wenige Deutsche legen ihr Geld am Aktienmarkt an."],
+        ["die Zulage", "la prime / subvention publique", "Familien erhalten für ihre Sparpläne eine hohe Zulage."],
+        ["die Rendite", "le rendement", "Auf dem Girokonto gibt es kaum noch Rendite."],
+        ["das Girokonto", "le compte courant", "Milliarden Euro liegen ungenutzt auf dem Girokonto."],
+        ["die Rente aufstocken", "compléter sa retraite", "Viele Bürger wollen ihre gesetzliche Rente privat aufstocken."]
+      ],
+      "sujets": [
+        "Kann das Altersvorsorgedepot die gesetzliche Rente in Deutschland sinnvoll ergänzen?",
+        "Warum meiden viele deutsche Sparer noch immer den Aktienmarkt?"
+      ]
+    },
+    {
+      "id": "2026-11-16-allemand-3",
+      "matiere": "allemand",
+      "source": "Die Zeit",
+      "url": "https://www.zeit.de/wirtschaft/2026-11/energiepreise-heizkosten-winter-gas-strom",
+      "minutes": 3,
+      "titre": "Allemagne : la facture de chauffage s'alourdit de nouveau pour les ménages cet hiver",
+      "faits": "Selon Die Zeit et les données du Heizspiegel 2026 publiées ce 16 novembre, les ménages allemands doivent s'attendre à une hausse sensible de leurs coûts de chauffage pour l'hiver 2026-2027, avec de forts écarts selon le mode d'énergie. Le fioul domestique et les granulés de bois enregistrent les hausses les plus marquées sur un an, pénalisés par les tensions géopolitiques et le renchérissement des matières premières. Pour le gaz naturel, la suppression d'une taxe sur le stockage avait d'abord allégé les factures, mais le rebond des prix de gros lié au conflit au Moyen-Orient pousse de nombreux fournisseurs à relever leurs tarifs. À l'inverse, les pompes à chaleur et le chauffage urbain restent les solutions les plus stables et les plus économiques au kilowattheure.",
+      "enjeux": "Cette hausse des prix de l'énergie pèse directement sur le **pouvoir d'achat** des ménages allemands et ravive les débats sur la **transition énergétique**. Les logements encore chauffés au fioul ou au gaz — souvent occupés par des ménages modestes ou locataires — subissent une double peine : des factures plus volatiles et le coût élevé de la rénovation thermique. La différence de coût entre énergies fossiles et **pompes à chaleur** accélère l'incitation économique à décarboner le bâtiment, mais pose la question des aides publiques aux foyers vulnérables.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/247_Home_Rescue_radiator_thermostat.jpg/1280px-247_Home_Rescue_radiator_thermostat.jpg",
+        "alt": "Thermostat de radiateur domestique",
+        "credit": "247homerescue / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:247_Home_Rescue_radiator_thermostat.jpg"
+      },
+      "vo": {
+        "titre": "Heizen wird in diesem Winter für viele Haushalte teurer",
+        "faits": "Für den Winter 2026 steigen die Heizkosten in Deutschland wieder an. Das zeigen neue Analysen von Energieportalen und dem Heizspiegel. Besonders teuer wird das Heizen mit Öl und Holzpellets. Hier sind die Preise durch globale Krisen stark gestiegen. Beim Erdgas hatten viele Kunden zunächst etwas Geld gespart. Doch der Konflikt im Nahen Osten treibt die Gaspreise nun wieder hoch. Am günstigsten bleiben derzeit Wärmepumpen und Fernwärme.",
+        "enjeux": "Die hohen Energiepreise belasten weiterhin viele Familien und Mieter in Deutschland. Die Zeit der sehr billigen fossilen Energien ist vorerst vorbei. Haushalte mit alten Öl- oder Gasheizungen zahlen nun oft deutlich mehr. Wärmepumpen sind im Betrieb günstiger, kosten beim Kauf aber viel Geld. Deshalb streitet die Politik über neue Hilfen für Bürger mit kleinem Einkommen. Auch das Energiesparen im Alltag wird wieder wichtiger."
+      },
+      "vocab": [
+        ["die Heizkosten", "les frais de chauffage", "In diesem Winter steigen die Heizkosten wieder spürbar."],
+        ["das Heizöl", "le fioul de chauffage", "Haushalte mit Heizöl zahlen deutlich mehr als vor einem Jahr."],
+        ["die Wärmepumpe", "la pompe à chaleur", "Eine Wärmepumpe spart langfristig Geld und schützt das Klima."],
+        ["der Versorger", "le fournisseur d'énergie", "Viele Versorger kündigen höhere Preise für Gas an."],
+        ["die Fernwärme", "le chauffage urbain", "In großen Städten nutzen viele Wohnungen Fernwärme."],
+        ["der Mieter", "le locataire", "Mieter können ihre Heizung meist nicht selbst wechseln."]
+      ],
+      "sujets": [
+        "Wie kann der Staat Haushalte vor hohen Heizkosten schützen?",
+        "Beschleunigen hohe Gaspreise den Umstieg auf Wärmepumpen in Deutschland?"
+      ]
+    },
+    {
+      "id": "2026-11-16-allemand-4",
+      "matiere": "allemand",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/cyberangriffe-abwehr-bka-100.html",
+      "minutes": 3,
+      "titre": "Cybersécurité : le chef de la police fédérale allemande réclame un renforcement massif de la défense",
+      "faits": "Dans une interview à l'ARD ce lundi 16 novembre, le président de l'Office fédéral de police criminelle (BKA), Holger Münch, a appelé à renforcer rapidement les capacités de cyberdéfense de l'Allemagne. Il souligne que les attaques deviennent plus nombreuses, plus rapides et plus professionnelles, notamment parce que les cybercriminels utilisent l'intelligence artificielle et collaborent parfois avec des acteurs étatiques. Selon Münch, des groupes liés à la Russie cherchent à frapper les pays qui soutiennent l'Ukraine, en s'infiltrant discrètement et durablement dans les systèmes informatiques. Il salue la nouvelle loi allemande sur la cybersécurité, qui permettra désormais à la police d'agir directement pour stopper des logiciels malveillants et protéger les infrastructures, au-delà de la seule enquête pénale.",
+      "enjeux": "Cette alerte met en lumière la vulnérabilité des **infrastructures critiques** (énergie, hôpitaux, administrations, entreprises) face aux menaces hybrides en Europe. Pour la première puissance industrielle européenne, la **cybersécurité** est devenue un enjeu de souveraineté économique autant que de sécurité intérieure. L'extension des pouvoirs d'intervention directe des autorités pose néanmoins le débat classique en Allemagne entre efficacité de la **prévention des menaces** et protection des libertés numériques et des données personnelles.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fujikura_optic_fiber_at_Science_Museum.jpg/1280px-Fujikura_optic_fiber_at_Science_Museum.jpg",
+        "alt": "Câbles de fibre optique",
+        "credit": "Syced / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fujikura_optic_fiber_at_Science_Museum.jpg"
+      },
+      "vo": {
+        "titre": "BKA-Chef Münch fordert schnellen Ausbau der Cyberabwehr",
+        "faits": "BKA-Chef Holger Münch warnt am 16. November vor mehr Cyberangriffen auf Deutschland. Im Fernsehen forderte er deutlich mehr Geld und Personal für die Abwehr. Die Angriffe werden laut Münch immer schneller und professioneller. Kriminelle Gruppen nutzen dafür jetzt oft Künstliche Intelligenz. Einige Hacker arbeiten auch direkt mit ausländischen Staaten zusammen. Münch nannte dabei besonders den Krieg Russlands gegen die Ukraine. Ein neues Gesetz erlaubt der Polizei nun schnellere Schutzmaßnahmen gegen digitale Angriffe.",
+        "enjeux": "Die digitale Sicherheit ist für Deutschlands Wirtschaft und Staat sehr wichtig geworden. Hacker greifen immer öfter Firmen, Behörden und Krankenhäuser an. Viele Experten sprechen von einer hybriden Bedrohung aus dem Ausland. Die Polizei braucht dafür moderne Technik und gute Partner im Ausland. Gleichzeitig diskutiert Deutschland oft über den Schutz von privaten Daten. Die Politik muss nun Sicherheit und Freiheit gut verbinden."
+      },
+      "vocab": [
+        ["der Cyberangriff", "la cyberattaque", "Immer mehr deutsche Firmen melden einen Cyberangriff."],
+        ["die Cyberabwehr", "la cyberdéfense", "Der Staat muss die Cyberabwehr jetzt schnell ausbauen."],
+        ["die Schwachstelle", "la faille / vulnérabilité", "Experten wollen digitale Schwachstellen sofort schließen."],
+        ["die Gefahrenabwehr", "la prévention des menaces", "Das neue Gesetz hilft der Polizei bei der Gefahrenabwehr."],
+        ["die Strafverfolgung", "les poursuites pénales", "Die Polizei braucht mehr Mittel für die Strafverfolgung."],
+        ["die Erpressung", "le chantage / rançongiciel", "Digitale Erpressung kostet die Wirtschaft viel Geld."]
+      ],
+      "sujets": [
+        "Ist Deutschland gut genug gegen moderne Cyberangriffe geschützt?",
+        "Wie viel Befugnisse braucht die Polizei im digitalen Raum?"
+      ]
+    }
+  ],
+  "a_lire": [
+    {
+      "journal": "Les Échos",
+      "titre": "L'IA, ce moteur inattendu de l'inflation",
+      "url": "https://www.lesechos.fr/tech-medias/hightech/lia-ce-moteur-inattendu-de-linflation-2262725",
+      "pourquoi": "Explique le paradoxe macroéconomique de l'intelligence artificielle : censée stimuler la **productivité** et baisser les prix à long terme, elle alimente d'abord l'**inflation** à court terme par la surchauffe des investissements et de la demande électrique."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "« Cela a dissuadé les consommateurs de se rendre dans les magasins » : 37 jours de pluie et un typhon ont enrhumé l'économie du Japon",
+      "url": "https://www.lesechos.fr/monde/asie-pacifique/leconomie-japonaise-penalisee-par-un-nombre-record-de-jours-de-pluie-2262735",
+      "pourquoi": "Illustre concrètement comment un **choc climatique** ponctuel affecte la **consommation des ménages** et le PIB d'une grande économie développée déjà fragilisée."
+    },
+    {
+      "journal": "Les Échos",
+      "titre": "Les Yvelines renforcent les critères sociaux et environnementaux dans la commande publique",
+      "url": "https://www.lesechos.fr/pme-regions/ile-de-france/les-yvelines-renforcent-les-criteres-sociaux-et-environnementaux-dans-la-commande-publique-2262655",
+      "pourquoi": "Montre comment les collectivités utilisent les **marchés publics** comme levier de **transition écologique** et d'**insertion sociale**, au-delà du seul critère du prix le plus bas."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "COP31 : quels pays doivent régler la facture de la lutte contre la catastrophe climatique ?",
+      "url": "https://www.lemonde.fr/planete/article/2026/11/16/cop31-quels-pays-doivent-regler-la-facture-de-la-lutte-contre-la-catastrophe-climatique_6811341_3244.html",
+      "pourquoi": "Pose la question centrale de la **justice climatique** et du financement des **biens publics mondiaux** entre pays développés et grands émergents lors de la COP31."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Agriculture : la dépendance au maïs percutée par le dérèglement climatique",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/16/le-mais-indispensable-au-modele-agricole-francais-menace-par-le-dereglement-climatique_6811339_3234.html",
+      "pourquoi": "Fournit des chiffres frappants (chute de 50 % de la récolte de maïs grain) sur la vulnérabilité du **modèle agricole** français face aux **externalités climatiques**."
+    },
+    {
+      "journal": "Le Monde",
+      "titre": "Le plan d’épargne-retraite monte en puissance",
+      "url": "https://www.lemonde.fr/argent/article/2026/11/16/le-plan-d-epargne-retraite-monte-en-puissance_6811502_1657007.html",
+      "pourquoi": "Éclaire la montée de l'**épargne retraite par capitalisation** en France depuis 2019 en complément d'un système par répartition sous tension financière."
+    }
+  ]
+}

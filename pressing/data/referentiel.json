@@ -5197,6 +5197,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "double-effet-investissement-domar",
+      "nom": "Double effet de l'investissement",
+      "categorie": "croissance",
+      "type": "Modèle",
+      "annee": "1947",
+      "auteur": "Evsey Domar",
+      "accroche": "L'investissement soutient à la fois la demande à court terme par les revenus distribués et l'offre à long terme par les nouvelles capacités de production.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Evsey Domar**, *Expansion and Employment* (1947), prolongé avec **Roy Harrod** dans le modèle dit de **Harrod-Domar**.",
+            "À la suite de **John Maynard Keynes**, qui analysait surtout l'investissement à court terme comme une composante de la demande globale, Domar réintroduit le temps long : construire une usine ou un centre de données ne distribue pas seulement des salaires et des commandes, cela augmente aussi le stock de capital disponible."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "À court terme, une dépense d'investissement génère un **effet revenu** : elle achète des matériaux, paie des salaires et stimule la demande globale via le multiplicateur.",
+            "À moyen et long terme, une fois l'équipement achevé, l'investissement produit un **effet capacité** : il accroît les capacités de production potentielles de l'économie.",
+            "Pour que la croissance reste équilibrée sans inflation ni chômage, la demande doit progresser exactement au rythme des nouvelles capacités créées."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Un choc d'investissement massif et rapide (comme la construction accélérée d'infrastructures numériques ou énergétiques) peut créer des **goulots d'étranglement** à court terme : l'effet revenu et la demande de facteurs de production précèdent l'effet capacité, ce qui alimente l'inflation sectorielle et évince d'autres projets."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Croissance sur le fil du rasoir",
+              "d": "Chez Harrod et Domar, l'équilibre entre croissance garantie et croissance naturelle est instable : le moindre écart déclenche surchauffe ou récession."
+            },
+            {
+              "t": "Le modèle de Solow (1956)",
+              "d": "**Robert Solow** corrige ce pessimisme en introduisant la **substituabilité** entre capital et travail, qui stabilise la croissance."
+            },
+            {
+              "t": "La croissance endogène",
+              "d": "**Paul Romer** et **Robert Barro** montrent que certains investissements (R&D, infrastructures) génèrent des **externalités positives** durables."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle suppose un coefficient de capital fixe et ignore le rôle des prix relatifs : en réalité, la hausse des coûts (foncier, énergie, taux d'intérêt) freine progressivement les projets les moins rentables et réalloue le capital vers d'autres secteurs."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Boom des data centers",
+              "d": "Les investissements massifs dans l'IA créent des tensions immédiates sur le BTP, le foncier et l'électricité avant même de livrer des gains de productivité."
+            },
+            {
+              "t": "Plans de relance européens",
+              "d": "NextGenerationEU vise à soutenir la demande à court terme tout en modernisant l'offre productive verte et numérique."
+            },
+            {
+              "t": "Transition énergétique",
+              "d": "Construire des réseaux électriques et des centrales demande d'abord beaucoup de ressources et d'acier avant de baisser le coût marginal de l'énergie."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "l'investissement est le moteur instable de la demande effective à court terme"
+            },
+            {
+              "sens": "≠",
+              "nom": "Robert Solow (1956)",
+              "idee": "la substituabilité capital-travail évite l'instabilité chronique sur le fil du rasoir"
+            },
+            {
+              "sens": "=",
+              "nom": "Evsey Domar (1944)",
+              "idee": "la croissance du PIB conditionne aussi la soutenabilité de la dette publique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrence-fiscale-tiebout",
+      "nom": "Concurrence fiscale et vote avec les pieds",
+      "categorie": "politiques",
+      "type": "Modèle",
+      "annee": "1956",
+      "auteur": "Charles Tiebout",
+      "accroche": "La mobilité des contribuables entre territoires crée un quasi-marché qui discipline les États et révèle les préférences publiques.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Charles Tiebout**, *A Pure Theory of Local Expenditures* (1956).",
+            "Alors que **Paul Samuelson** estimait que les agents cachent leurs préférences pour les biens publics afin d'éviter de payer l'impôt (comportement de **passager clandestin**), Tiebout propose une réponse libérale fondée sur la mobilité géographique."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les ménages et les entreprises sont mobiles et peuvent choisir librement le territoire où ils s'installent.",
+            "Chaque collectivité ou État propose un couple spécifique d'**impôts** et de **services publics** (infrastructures, sécurité, fiscalité du capital).",
+            "En « **votant avec leurs pieds** », les agents révèlent leurs préférences et contraignent les gouvernements à être efficaces pour retenir leur base fiscale."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La **concurrence fiscale** peut être défendue comme un garde-fou contre le gaspillage public et la surimposition : les États qui offrent un environnement fiscal attractif attirent les capitaux, les talents et l'investissement."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Attractivité des territoires",
+              "d": "**Thierry Mayer et Jean-Louis Mucchielli** montrent que les États utilisent exonérations et subventions pour capter les investissements directs étrangers."
+            },
+            {
+              "t": "Course vers le bas",
+              "d": "Quand la concurrence porte sur des taux très mobiles (impôt sur les sociétés, grandes fortunes), elle peut éroder les recettes publiques."
+            },
+            {
+              "t": "Fédéralisme fiscal",
+              "d": "En Europe, l'absence d'harmonisation fiscale complète laisse les États membres libres de se concurrencer sur la fiscalité directe."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle suppose une mobilité parfaite et sans coût, alors que seuls les **ménages très fortunés** et les **multinationales** peuvent facilement changer de résidence fiscale ; les travailleurs peu mobiles finissent alors par supporter une part croissante de l'impôt."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Régimes pour impatriés en Europe",
+              "d": "La Grèce, l'Italie ou le Portugal attirent des grandes fortunes et des gérants de fonds via des taux forfaitaires réduits."
+            },
+            {
+              "t": "Fiscalité des entreprises en Irlande",
+              "d": "Un taux d'impôt sur les sociétés bas a attiré les sièges européens des géants américains du numérique."
+            },
+            {
+              "t": "Suppression des non-dom au Royaume-Uni",
+              "d": "Le durcissement fiscal britannique pousse certains contribuables fortunés à s'installer dans d'autres pays européens."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "James Buchanan et Gordon Tullock",
+              "idee": "la concurrence entre juridictions limite la dérive bureaucratique du Léviathan fiscal"
+            },
+            {
+              "sens": "≠",
+              "nom": "Gabriel Zucman (2013)",
+              "idee": "la concurrence fiscale nourrit l'évasion et creuse les inégalités mondiales"
+            },
+            {
+              "sens": "≠",
+              "nom": "Thomas Piketty",
+              "idee": "sans coordination internationale, la mobilité du capital détruit la progressivité de l'impôt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paradis-fiscaux-zucman",
+      "nom": "Paradis fiscaux et impôt minimal mondial",
+      "categorie": "politiques",
+      "type": "Théorie",
+      "annee": "2013",
+      "auteur": "Gabriel Zucman",
+      "accroche": "La concurrence fiscale et les paradis fiscaux permettent aux multinationales et aux grandes fortunes d'échapper à l'impôt, sapant les recettes des États.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Gabriel Zucman**, *La richesse cachée des nations* (2013), et ses travaux ultérieurs avec **Emmanuel Saez** et **Thomas Piketty**.",
+            "À partir des anomalies statistiques de la balance des paiements mondiale (les actifs financiers déclarés ne correspondent pas aux passifs enregistrés), Zucman mesure l'ampleur réelle du patrimoine privé et des profits logés dans les territoires à faible fiscalité."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les multinationales transfèrent artificiellement leurs **profits** vers des filiales situées dans des pays à très faible fiscalité grâce aux prix de transfert et aux brevets.",
+            "Les particuliers les plus fortunés déplacent leur **résidence fiscale** ou leurs actifs financiers vers des régimes préférentiels.",
+            "Cette érosion de l'assiette fiscale réduit la **progressivité** réelle de l'impôt et force les États à taxer davantage le travail et la consommation."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Les régimes fiscaux dérogatoires ne sont pas un jeu à somme nulle : ils transfèrent des recettes publiques d'un État à un autre tout en réduisant le consentement à l'impôt. Seule une **coopération fiscale internationale** (impôt minimal mondial sur les sociétés de 15 %, échange automatique d'informations) peut limiter ce dumping."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "55 % des profits étrangers",
+              "d": "Zucman montre que 55 % des profits étrangers des multinationales américaines sont déclarés dans six territoires à faible fiscalité."
+            },
+            {
+              "t": "Accord OCDE sur l'IS minimal",
+              "d": "Adopté par plus de 130 pays, le taux effectif minimal de 15 % vise à freiner le transfert de bénéfices."
+            },
+            {
+              "t": "Fiscalité des milliardaires",
+              "d": "Zucman propose un impôt minimal mondial sur la fortune des ultra-riches pour éviter l'exil fiscal."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Les opposants soulignent qu'un État isolé qui augmente seul la fiscalité des très hauts patrimoines risque d'accélérer leur départ vers des pays concurrents si aucun accord multilatéral contraignant n'est appliqué."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Dumping fiscal en Europe",
+              "d": "La Grèce, l'Irlande ou le Luxembourg attirent capitaux et gérants de fonds via des taux réduits."
+            },
+            {
+              "t": "Taxation des GAFAM",
+              "d": "Les géants du numérique localisent leurs actifs immatériels dans des juridictions à faible impôt."
+            },
+            {
+              "t": "Financement de l'État-providence",
+              "d": "La perte de recettes sur le capital complique la réduction des déficits publics."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Thomas Piketty (2013)",
+              "idee": "la régulation mondiale du capital est indispensable pour contenir les inégalités"
+            },
+            {
+              "sens": "≠",
+              "nom": "Charles Tiebout (1956)",
+              "idee": "la concurrence fiscale entre territoires discipline les États et reflète les préférences"
+            },
+            {
+              "sens": "≠",
+              "nom": "Arthur Laffer",
+              "idee": "une fiscalité excessive décourage l'offre et réduit les recettes publiques"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politique-industrielle-cohen-lorenzi",
+      "nom": "Politique industrielle et souveraineté technologique",
+      "categorie": "politiques",
+      "type": "Théorie",
+      "annee": "2000",
+      "auteur": "Élie Cohen et Jean-Hervé Lorenzi",
+      "accroche": "La politique industrielle vise à orienter les ressources vers des secteurs stratégiques pour pallier les défaillances du marché et préserver l'autonomie technologique.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Élie Cohen et Jean-Hervé Lorenzi**, *Politiques industrielles pour l'Europe* (2000), rapport pour le Conseil d'analyse économique.",
+            "Après deux décennies dominées par le retrait de l'État et les privatisations, les auteurs redéfinissent le rôle de la puissance publique dans une économie ouverte : il ne s'agit plus de diriger la production, mais de corriger les asymétries stratégiques."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'initiative privée seule sous-investit dans les secteurs à forts **coûts fixes**, rendements incertains ou horizon trop lointain.",
+            "La concentration d'une chaîne de valeur stratégique dans un pays tiers crée une **dépendance nationale** vulnérable aux chocs géopolitiques.",
+            "L'État cible alors des filières clés par des **subventions à la R&D**, des commandes publiques ou des normes pour bâtir des capacités productives autonomes."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Une **politique industrielle** ciblée est économiquement justifiée dès lors qu'elle répond à une défaillance de marché, à un enjeu d'**autonomie technologique** ou à une dépendance critique (batteries, semi-conducteurs, énergie)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "CNUCED (2018)",
+              "d": "La politique industrielle moderne vise à bâtir des systèmes productifs complets et des écosystèmes d'exportation."
+            },
+            {
+              "t": "Aghion et Howitt (2005)",
+              "d": "La politique industrielle doit rester pro-concurrentielle près de la frontière technologique pour stimuler l'innovation."
+            },
+            {
+              "t": "L'État entrepreneur",
+              "d": "**Mariana Mazzucato** montre que l'État prend les risques initiaux des grandes innovations de rupture."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Les choix publics restent exposés au **risque de capture** par les lobbys, aux erreurs de sélection technologique et à la surenchère de subventions entre grands blocs économiques (États-Unis, Chine, Union européenne)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Recyclage des batteries",
+              "d": "L'UE freine l'exportation de « masse noire » pour sécuriser ses approvisionnements en lithium, cobalt et nickel."
+            },
+            {
+              "t": "Semi-conducteurs",
+              "d": "Le Chips Act européen et américain subventionne la relocalisation d'usines face au quasi-monopole asiatique."
+            },
+            {
+              "t": "Transition verte",
+              "d": "Les États financent l'hydrogène, le solaire et l'éolien pour réduire la dépendance aux importations fossiles et chinoises."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Friedrich List (1841)",
+              "idee": "l'État doit protéger et bâtir les industries stratégiques face à la concurrence étrangère"
+            },
+            {
+              "sens": "=",
+              "nom": "Mariana Mazzucato (2013)",
+              "idee": "la puissance publique oriente l'innovation plutôt que de simplement réparer le marché"
+            },
+            {
+              "sens": "≠",
+              "nom": "James Buchanan",
+              "idee": "les interventions publiques ciblées risquent de favoriser la recherche de rente et le gaspillage"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
