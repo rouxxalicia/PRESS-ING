@@ -584,6 +584,8 @@ section:first-child > .cat-head { padding-top: 28px; }
 .fd-check { display: flex; gap: 10px; align-items: center; font-size: 15px; cursor: pointer; }
 .fd-check input { width: 18px; height: 18px; accent-color: var(--accent); }
 .fd-ok { align-self: flex-end; }
+.fd-sous { margin-bottom: 40px; }
+.fd-h2 { margin: 0 0 18px; padding-top: 22px; border-top: 1px solid var(--line); }
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -832,58 +834,68 @@ section:first-child > .cat-head { padding-top: 28px; }
     save("pressing:favs", favs);
   }
   const fdDz = f => (f.dossiers || []).filter(d => dossiers.includes(d));
-  function fdIds(v) { const ids = Object.keys(favs).sort().reverse(); return v === "tous" ? ids : v === "__sans" ? ids.filter(id => !fdDz(favs[id]).length) : ids.filter(id => fdDz(favs[id]).includes(v)); }
+  const fdLeaf = d => d.split("/").pop();
+  const fdPar = d => d.includes("/") ? d.slice(0, d.lastIndexOf("/")) : "";
+  const fdKids = p => dossiers.filter(d => fdPar(d) === p);
+  const fdIn = (d, v) => d === v || d.startsWith(v + "/");
+  const fdBeau = d => d.split("/").join(" › ");
+  const fdSort = () => dossiers.sort((a, b) => a.split("/").join("\u0000").localeCompare(b.split("/").join("\u0000"), "fr"));
+  function fdIds(v) { const ids = Object.keys(favs).sort().reverse(); return v === "tous" ? ids : v === "__sans" ? ids.filter(id => !fdDz(favs[id]).length) : ids.filter(id => fdDz(favs[id]).some(d => fdIn(d, v))); }
   function fdVisuel(f) { const ph = '<div class="fd-ph" data-m="' + f.matiere + '"><span>' + esc(NOM[f.matiere]) + '</span></div>';
     return f.image && f.image.url ? '<div class="fd-v" data-ph="' + esc(ph) + '"><img src="' + esc(f.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.outerHTML=this.parentNode.dataset.ph"></div>' : ph; }
+  function fdTuile(v, nom, sous) { const ids = fdIds(v), im = ids.slice(0, 4).map(id => favs[id]), nk = sous ? fdKids(v).length : 0;
+    return '<a class="fd-tile" href="#favoris/' + encodeURIComponent(v) + '"><div class="fd-cover n' + Math.max(1, im.length) + '">' + (im.length ? im.map(fdVisuel).join("") : '<div class="fd-ph vide"></div>') + '</div><span class="fd-nom">' + esc(nom) + '</span><span class="label muted">' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + (nk ? ' · ' + nk + ' sous-dossier' + (nk > 1 ? 's' : '') : '') + '</span></a>'; }
+  function fdPlus(parent) { return '<button type="button" class="fd-tile fd-plus" data-fd-new="' + esc(parent) + '"><div class="fd-cover"><div class="fd-ph vide"><span>+</span></div></div><span class="fd-nom">' + (parent ? 'Nouveau sous-dossier' : 'Nouveau dossier') + '</span><span class="label muted">' + (parent ? 'Dans « ' + esc(fdLeaf(parent)) + ' »' : 'Amérique latine, IA…') + '</span></button>'; }
   async function viewFavoris(arg) {
     await favImages();
     const all = Object.keys(favs);
     if (!arg) {
       let h = '<div class="wrap-wide fd-page"><div class="page-head"><span class="label muted">' + (EDIT() ? 'Synchronisés sur tous tes appareils' : 'Sur cet appareil') + '</span><h1>Favoris</h1></div>';
       if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
-      else {
-        const tuile = (v, nom) => { const ids = fdIds(v), im = ids.slice(0, 4).map(id => favs[id]);
-          return '<a class="fd-tile" href="#favoris/' + encodeURIComponent(v) + '"><div class="fd-cover n' + Math.max(1, im.length) + '">' + (im.length ? im.map(fdVisuel).join("") : '<div class="fd-ph vide"></div>') + '</div><span class="fd-nom">' + esc(nom) + '</span><span class="label muted">' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span></a>'; };
-        h += '<div class="fd-grid">' + tuile("tous", "Tous les favoris") + dossiers.map(d => tuile(d, d)).join("") + (dossiers.length && fdIds("__sans").length ? tuile("__sans", "Non rangés") : '') +
-          '<button type="button" class="fd-tile fd-plus" data-fd-new><div class="fd-cover"><div class="fd-ph vide"><span>+</span></div></div><span class="fd-nom">Nouveau dossier</span><span class="label muted">Amérique latine, IA…</span></button></div>';
-      }
+      else h += '<div class="fd-grid">' + fdTuile("tous", "Tous les favoris") + fdKids("").map(d => fdTuile(d, d, true)).join("") + (dossiers.length && fdIds("__sans").length ? fdTuile("__sans", "Non rangés") : '') + fdPlus("") + '</div>';
       app.innerHTML = h + '</div>'; return;
     }
-    const nom = arg === "tous" ? "Tous les favoris" : arg === "__sans" ? "Non rangés" : arg;
-    if (arg !== "tous" && arg !== "__sans" && !dossiers.includes(arg)) { location.hash = "favoris"; return; }
-    const ids = fdIds(arg);
-    let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris">← Favoris</a><div class="page-head"><span class="label muted">' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
-    if (arg !== "tous" && arg !== "__sans") h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button></div>';
+    const vrai = arg !== "tous" && arg !== "__sans";
+    if (vrai && !dossiers.includes(arg)) { location.hash = "favoris"; return; }
+    const nom = arg === "tous" ? "Tous les favoris" : arg === "__sans" ? "Non rangés" : fdLeaf(arg);
+    const ids = fdIds(arg), par = vrai ? fdPar(arg) : "";
+    let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris' + (par ? '/' + encodeURIComponent(par) : '') + '">← ' + esc(par ? fdLeaf(par) : 'Favoris') + '</a><div class="page-head"><span class="label muted">' + (par ? esc(fdBeau(par)) + ' · ' : '') + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
+    if (vrai) h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button></div>';
+    if (vrai) h += '<div class="fd-grid fd-sous">' + fdKids(arg).map(d => fdTuile(d, fdLeaf(d), true)).join("") + fdPlus(arg) + '</div>' + (ids.length ? '<h2 class="label fd-h2">Articles' + (fdKids(arg).length ? ' (sous-dossiers compris)' : '') + '</h2>' : '');
     h += ids.length ? '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdDz(f);
       return '<div class="fd-prod"><a href="#' + id + '"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
-        (ds.length ? '<span class="fd-tags label">' + ds.map(esc).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
-      : '<div class="empty"><p class="muted">Rien ici pour l\'instant. Dans « Tous les favoris », touche « Ranger dans… » sous un article.</p></div>';
+        (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
+      : '<div class="empty"><p class="muted">Aucun article ici pour l\'instant. Dans « Tous les favoris », touche « Ranger dans… » sous un article.</p></div>';
     app.innerHTML = h + '</div>';
   }
   const fdArg = () => { const h = decodeURIComponent(location.hash.slice(1)); return h.startsWith("favoris/") ? h.slice(8) : undefined; };
   function fdSheet(id) {
     fdClose(); const f = favs[id], ds = f.dossiers || [];
     const w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet" role="dialog" aria-label="Ranger dans des dossiers"><span class="label muted">Ranger dans…</span><h3>' + esc(f.titre) + '</h3>' +
-      (dossiers.length ? dossiers.map(d => '<label class="fd-check"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(d) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
+      (dossiers.length ? dossiers.map(d => '<label class="fd-check" style="padding-left:' + (d.split("/").length - 1) * 24 + 'px"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(fdLeaf(d)) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
       '<div class="fd-add"><input class="search" placeholder="Nouveau dossier" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div><button type="button" class="btn label fd-ok" data-fd-close>OK</button></div>';
     document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) { fdClose(); viewFavoris(fdArg()); } });
   }
   function fdClose() { const x = document.querySelector(".fd-sheet-bg"); if (x) x.remove(); }
-  function fdCreate(nom, id) {
-    nom = (nom || "").trim().replace(/\s+/g, " "); if (!nom || nom.startsWith("__") || nom === "tous") return false;
+  const fdNet = n => (n || "").replace(/\//g, "-").trim().replace(/\s+/g, " ");
+  function fdCreate(nom, id, parent) {
+    nom = fdNet(nom); if (!nom || nom.startsWith("__") || nom === "tous") return false;
+    nom = parent ? parent + "/" + nom : nom;
     if (!dossiers.includes(nom)) dossiers.push(nom);
     if (id && favs[id]) { favs[id].dossiers = favs[id].dossiers || []; if (!favs[id].dossiers.includes(nom)) favs[id].dossiers.push(nom); }
-    dossiers.sort((a, b) => a.localeCompare(b, "fr")); saveFavs("Favoris : dossier " + nom); return true;
+    fdSort(); saveFavs("Favoris : dossier " + nom); return true;
   }
   document.addEventListener("click", e => {
     const t = e.target.closest("[data-fd-new],[data-fd-ren],[data-fd-del],[data-fd-ranger],[data-fd-create],[data-fd-close]"); if (!t) return;
     if (t.hasAttribute("data-fd-close")) { fdClose(); viewFavoris(fdArg()); }
-    else if (t.hasAttribute("data-fd-new")) { fdClose(); const w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet"><span class="label muted">Nouveau dossier</span><div class="fd-add"><input class="search" placeholder="Ex. Amérique latine, IA, pouvoir économique" data-fd-input=""><button type="button" class="btn label" data-fd-create="">Créer</button></div></div>'; document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) fdClose(); }); w.querySelector("input").focus(); }
+    else if (t.hasAttribute("data-fd-new")) { fdClose(); const par = t.dataset.fdNew || "", w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet"><span class="label muted">' + (par ? 'Nouveau sous-dossier dans « ' + esc(fdLeaf(par)) + ' »' : 'Nouveau dossier') + '</span><div class="fd-add"><input class="search" placeholder="' + (par ? 'Ex. Mexique, Colombie' : 'Ex. Amérique latine, IA, pouvoir économique') + '" data-fd-input=""><button type="button" class="btn label" data-fd-create="" data-fd-parent="' + esc(par) + '">Créer</button></div></div>'; document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) fdClose(); }); w.querySelector("input").focus(); }
     else if (t.dataset.fdRanger) fdSheet(t.dataset.fdRanger);
-    else if (t.dataset.fdCreate !== undefined) { const id = t.dataset.fdCreate, inp = t.parentNode.querySelector("input"); if (fdCreate(inp.value, id)) { toast("Dossier créé"); if (id) fdSheet(id); else { fdClose(); viewFavoris(fdArg()); } } }
-    else if (t.dataset.fdRen) { if (t.dataset.ok) return; t.dataset.ok = 1; const old = t.dataset.fdRen, w = document.createElement("div"); w.className = "fd-add"; w.innerHTML = '<input class="search" value="' + esc(old) + '"><button type="button" class="btn label">Renommer</button>'; t.parentNode.after(w); const inp = w.querySelector("input"); inp.focus();
-      w.querySelector("button").onclick = () => { const nom = inp.value.trim().replace(/\s+/g, " "); if (!nom || nom === old || dossiers.includes(nom) || nom === "tous" || nom.startsWith("__")) { viewFavoris(old); return; } dossiers = dossiers.map(d => d === old ? nom : d).sort((a, b) => a.localeCompare(b, "fr")); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.map(d => d === old ? nom : d); }); saveFavs("Favoris : renomme un dossier"); history.replaceState(null, "", "#favoris/" + encodeURIComponent(nom)); viewFavoris(nom); }; }
-    else if (t.dataset.fdDel) { if (!t.dataset.ok) { t.dataset.ok = 1; t.textContent = "Confirmer la suppression (les articles restent dans tes favoris)"; return; } const d = t.dataset.fdDel; dossiers = dossiers.filter(x => x !== d); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => x !== d); }); saveFavs("Favoris : supprime un dossier"); toast("Dossier supprimé"); location.hash = "favoris"; }
+    else if (t.dataset.fdCreate !== undefined) { const id = t.dataset.fdCreate, inp = t.parentNode.querySelector("input"); if (fdCreate(inp.value, id, t.dataset.fdParent || "")) { toast("Dossier créé"); if (id) fdSheet(id); else { fdClose(); viewFavoris(fdArg()); } } }
+    else if (t.dataset.fdRen) { if (t.dataset.ok) return; t.dataset.ok = 1; const old = t.dataset.fdRen, w = document.createElement("div"); w.className = "fd-add"; w.innerHTML = '<input class="search" value="' + esc(fdLeaf(old)) + '"><button type="button" class="btn label">Renommer</button>'; t.parentNode.after(w); const inp = w.querySelector("input"); inp.focus();
+      w.querySelector("button").onclick = () => { const n = fdNet(inp.value), par = fdPar(old), nom = n ? (par ? par + "/" + n : n) : ""; if (!n || nom === old || dossiers.includes(nom) || n === "tous" || n.startsWith("__")) { viewFavoris(old); return; }
+        const mv = d => fdIn(d, old) ? nom + d.slice(old.length) : d; dossiers = dossiers.map(mv); fdSort(); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.map(mv); }); saveFavs("Favoris : renomme un dossier"); history.replaceState(null, "", "#favoris/" + encodeURIComponent(nom)); viewFavoris(nom); }; }
+    else if (t.dataset.fdDel) { const d = t.dataset.fdDel, nk = dossiers.filter(x => x !== d && fdIn(x, d)).length; if (!t.dataset.ok) { t.dataset.ok = 1; t.textContent = "Confirmer la suppression" + (nk ? " (et ses " + nk + " sous-dossier" + (nk > 1 ? "s" : "") + ")" : "") + " · les articles restent dans tes favoris"; return; }
+      dossiers = dossiers.filter(x => !fdIn(x, d)); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => !fdIn(x, d)); }); saveFavs("Favoris : supprime un dossier"); toast("Dossier supprimé"); const p = fdPar(d); location.hash = "favoris" + (p ? "/" + encodeURIComponent(p) : ""); }
   });
   document.addEventListener("change", e => { const c = e.target.closest("[data-fd-tog]"); if (!c) return; const f = favs[c.dataset.fdTog]; f.dossiers = (f.dossiers || []).filter(d => d !== c.value); if (c.checked) f.dossiers.push(c.value); saveFavs("Favoris : range un article"); });
   document.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.matches("[data-fd-input], .fd-add input")) { const b = e.target.parentNode.querySelector("button"); if (b) b.click(); } if (e.key === "Escape" && document.querySelector(".fd-sheet-bg")) { fdClose(); if (state.view === "favoris") viewFavoris(fdArg()); } });
