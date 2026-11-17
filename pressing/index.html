@@ -607,7 +607,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 
 .fd-glgrid { gap: 22px 16px; }
 @media (min-width: 700px) { .fd-glgrid { gap: 28px 24px; } }
-.fd-item { display: block; color: var(--fg); -webkit-tap-highlight-color: transparent; }
+.fd-item { display: block; color: var(--fg); -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
 .fd-gl, .fd-mini { position: relative; color: var(--fg);
   background: rgba(255,255,255,.22);
   -webkit-backdrop-filter: blur(20px) saturate(160%); backdrop-filter: blur(20px) saturate(160%);
@@ -619,18 +619,30 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 .fd-gl-c { color: var(--fg); opacity: .6; }
 .fd-item:hover .fd-gl, .fd-mini:hover { transform: translateY(-7px) scale(1.025); background: rgba(255,255,255,.3); }
 .fd-mini:hover { transform: translateY(-3px) scale(1.03); }
-.fd-item:active .fd-gl, .fd-mini:active { transform: scale(.98); transition-duration: .12s; }
+
 .fd-mini { display: inline-flex; align-items: center; padding: 11px 18px; border-radius: 99px; }
 .fd-mini-t { display: flex; align-items: baseline; gap: 8px; font-size: 15px; font-weight: 500; }
 .fd-minis { position: relative; display: flex; flex-wrap: wrap; gap: 12px; }
 .fd-item.fd-over .fd-gl, .fd-mini.fd-over { outline: 2px solid var(--accent); outline-offset: 3px; transform: scale(1.03); }
-.fd-item.fd-boing .fd-gl, .fd-mini.fd-boing { animation: fd-boing .35s ease-out; }
-@keyframes fd-boing { 0% { transform: scale(1); } 40% { transform: scale(.97); } 75% { transform: scale(1.01); } 100% { transform: scale(1); } }
 :root[data-theme="dark"] .fd-gl, :root[data-theme="dark"] .fd-mini { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 10px 30px -18px rgba(0,0,0,.8); }
 :root[data-theme="dark"] .fd-blobs i:nth-child(1) { background: rgba(255,255,255,.10); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .fd-gl, :root:not([data-theme="light"]) .fd-mini { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 10px 30px -18px rgba(0,0,0,.8); }
   :root:not([data-theme="light"]) .fd-blobs i:nth-child(1) { background: rgba(255,255,255,.10); } }
-@media (prefers-reduced-motion: reduce) { .fd-boing .fd-gl, .fd-mini.fd-boing { animation: none; } .fd-gl, .fd-mini { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .fd-gl, .fd-mini { transition: none; } }
+.fd-search { width: 100%; margin: 0 0 26px; }
+.fd-note { margin: 2px 0 0; font-size: 13.5px; line-height: 1.4; color: var(--muted); font-style: italic; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.fd-acts { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 2px; }
+.fd-recap-btn { border: 1px solid var(--fg); padding: 8px 12px; color: var(--fg); }
+.fd-recap-btn:hover { background: var(--fg); color: var(--bg); }
+.fd-drop-out { border-style: dashed; color: var(--accent); }
+.fd-drop-out.fd-over { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.fd-item.fd-drag-src { opacity: .5; }
+.fd-r-aut { padding: 10px 0; border-top: 1px solid var(--line); }
+.fd-r-aut p { margin: 4px 0 0; font-size: 15px; line-height: 1.5; }
+.fd-r-art { padding: 18px 0; border-top: 1px solid var(--line); }
+.fd-r-art h3 { margin: 4px 0 8px; font-size: 18px; font-weight: 500; line-height: 1.3; }
+.fd-r-art h3 a { color: var(--fg); }
+.fd-r-art p { margin: 6px 0 0; font-size: 15px; line-height: 1.55; }
 .fd-new-btn { border: 1px dashed var(--line); background: none; color: var(--muted); padding: 8px 12px; cursor: pointer; font: inherit; }
 .fd-new-btn:hover { color: var(--fg); border-color: var(--fg); }
 .fd-page .fd-glwrap + .fd-tools { margin: 30px 0 0; }
@@ -878,122 +890,170 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       state.index.map(d => '<button type="button" class="list-row" data-date="' + d + '"><span class="t">' + cap(dLong(d)) + '</span><span class="label muted">Ouvrir →</span></button>').join("") + '</div></div>';
   }
 
-  async function favImages() {
-    const manq = Object.keys(favs).filter(id => !("image" in favs[id]));
-    if (!manq.length) return;
-    await Promise.all([...new Set(manq.map(id => id.slice(0, 10)))].map(d => edition(d).catch(() => null)));
-    manq.forEach(id => { const e = state.editions[id.slice(0, 10)], c = e && e.cards.find(x => x.id === id); favs[id].image = c && c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null; });
-    save("pressing:favs", favs);
+  async function favEditions() {
+    const ds = [...new Set(Object.keys(favs).map(id => id.slice(0, 10)))];
+    await Promise.all(ds.map(d => edition(d).catch(() => null)));
+    let ch = false;
+    Object.keys(favs).forEach(id => { if ("image" in favs[id] && favs[id].image) return; const c = fdCard(id); const im = c && c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null; if (!("image" in favs[id]) || im) { favs[id].image = im; ch = true; } });
+    if (ch) save("pressing:favs", favs);
   }
+  const fdCard = id => { const e = state.editions[id.slice(0, 10)]; return e && e.cards ? e.cards.find(x => x.id === id) : null; };
   const fdDz = f => (f.dossiers || []).filter(d => dossiers.includes(d));
   const fdLeaf = d => d.split("/").pop();
   const fdPar = d => d.includes("/") ? d.slice(0, d.lastIndexOf("/")) : "";
   const fdKids = p => dossiers.filter(d => fdPar(d) === p);
   const fdIn = (d, v) => d === v || d.startsWith(v + "/");
   const fdBeau = d => d.split("/").join(" › ");
-  const fdSort = () => dossiers.sort((a, b) => a.split("/").join("\u0000").localeCompare(b.split("/").join("\u0000"), "fr"));
+  function fdTree(p, out) { out = out || []; fdKids(p || "").forEach(d => { out.push(d); fdTree(d, out); }); return out; }
+  // étiquettes affichées : seulement le dossier le plus précis (pas « UK · UK › Emplois »)
+  const fdTags = f => { const ds = fdDz(f); return ds.filter(d => !ds.some(x => x !== d && x.startsWith(d + "/"))); };
   function fdIds(v) { const ids = Object.keys(favs).sort().reverse(); return v === "tous" ? ids : v === "__sans" ? ids.filter(id => !fdDz(favs[id]).length) : ids.filter(id => fdDz(favs[id]).some(d => fdIn(d, v))); }
+  // articles à montrer dans un dossier : ceux qui ne sont pas déjà rangés dans un de ses sous-dossiers
+  function fdIdsIci(v) { return fdIds(v).filter(id => !fdDz(favs[id]).some(d => d.startsWith(v + "/"))); }
   function fdVisuel(f) { const ph = '<div class="fd-ph" data-m="' + f.matiere + '"><span>' + esc(NOM[f.matiere]) + '</span></div>';
     return f.image && f.image.url ? '<div class="fd-v" data-ph="' + esc(ph) + '"><img src="' + esc(f.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.outerHTML=this.parentNode.dataset.ph"></div>' : ph; }
-  const FD_IC = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2h7a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>';
-  function fdTuile(v, nom) { const n = fdIds(v).length;
-    return '<a class="fd-item" href="#favoris/' + encodeURIComponent(v) + '"' + (v !== "tous" && v !== "__sans" ? ' data-fd-drop="' + esc(v) + '"' : '') + '><span class="fd-gl"><span class="fd-gl-n">' + esc(nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+  function fdTuile(v, nom) { const n = fdIds(v).length, vrai = v !== "tous" && v !== "__sans";
+    return '<a class="fd-item" href="#favoris/' + encodeURIComponent(v) + '"' + (vrai ? ' data-fd-drop="' + esc(v) + '" data-fd-dossier="' + esc(v) + '"' : '') + '><span class="fd-gl"><span class="fd-gl-n">' + esc(nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
   function fdPlus(parent) { return '<button type="button" class="fd-new-btn label" data-fd-new="' + esc(parent) + '">+ ' + (parent ? 'Sous-dossier' : 'Nouveau dossier') + '</button>'; }
-  function fdMini(d) { const n = fdIds(d).length;
-    return '<a class="fd-mini" href="#favoris/' + encodeURIComponent(d) + '" data-fd-drop="' + esc(d) + '"><span class="fd-mini-t">' + esc(fdLeaf(d)) + '<span class="label muted">' + n + '</span></span></a>'; }
-  function fdProds(ids) { return '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdDz(f);
-      return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
-        (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
-     ; }
+  function fdProds(ids) { return '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdTags(f);
+    return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
+      (f.note ? '<p class="fd-note">' + esc(f.note) + '</p>' : '') +
+      (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') +
+      '<span class="fd-acts"><button type="button" class="more label" data-fd-ranger="' + id + '">Ranger</button><button type="button" class="more label" data-fd-note="' + id + '">' + (f.note ? 'Modifier la note' : 'Note') + '</button></span></div>'; }).join("") + '</div>'; }
+  function fdTexte(id) { const c = fdCard(id) || {}, f = favs[id]; return [f.titre, f.note, fdDz(f).join(" "), NOM[f.matiere], c.faits, c.enjeux, (c.auteurs || []).map(a => a.nom + " " + a.ouvrage).join(" "), (c.notions || []).map(n => n.join(" ")).join(" ")].join(" ").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+  function fdChercher(q) {
+    const z = document.getElementById("fd-res"), main = document.getElementById("fd-main"); if (!z) return;
+    q = q.trim().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    if (!q) { z.innerHTML = ""; main.hidden = false; return; }
+    const ids = fdIds("tous").filter(id => q.split(/\s+/).every(m => fdTexte(id).includes(m)));
+    main.hidden = true; z.innerHTML = '<h2 class="label fd-h2" style="margin-top:8px">' + ids.length + ' résultat' + (ids.length > 1 ? 's' : '') + '</h2>' + (ids.length ? fdProds(ids) : '<p class="muted">Rien pour « ' + esc(q) + ' ». Essaie un nom d\'auteur, un pays ou un mot du titre.</p>');
+  }
   async function viewFavoris(arg) {
-    await favImages();
+    await favEditions();
     const all = Object.keys(favs);
+    if (arg && arg.startsWith("recap/")) return fdRecap(arg.slice(6));
     if (!arg) {
       let h = '<div class="wrap-wide fd-page"><div class="page-head"><span class="label muted">' + (EDIT() ? 'Synchronisés sur tous tes appareils' : 'Sur cet appareil') + '</span><h1>Favoris</h1></div>';
       if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
       else { const tri = fdIds("__sans");
-        h += '<div class="fd-glwrap"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + fdTuile("tous", "Tous les favoris") + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div><div class="fd-tools label">' + fdPlus("") + '</div>';
-        if (tri.length) h += '<h2 class="label fd-h2">À trier · ' + tri.length + '<span class="muted fd-astuce"> — fais-les glisser sur un dossier</span></h2>' + fdProds(tri); }
-      app.innerHTML = h + '</div>'; return;
+        h += '<input class="search fd-search" id="fd-q" type="search" placeholder="Chercher dans tes favoris : Mexique, Keynes, chômage…" autocomplete="off"><div id="fd-res"></div><div id="fd-main">';
+        h += '<div class="fd-glwrap"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid" data-fd-groupe="">' + fdTuile("tous", "Tous les favoris") + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div><div class="fd-tools label">' + fdPlus("") + '</div>';
+        if (tri.length) h += '<h2 class="label fd-h2">À trier · ' + tri.length + '<span class="muted fd-astuce"> — fais-les glisser sur un dossier</span></h2>' + fdProds(tri);
+        h += '</div>'; }
+      app.innerHTML = h + '</div>';
+      const q = document.getElementById("fd-q"); if (q) { q.value = state.fdQ || ""; q.addEventListener("input", () => { state.fdQ = q.value; fdChercher(q.value); }); if (state.fdQ) fdChercher(state.fdQ); }
+      return;
     }
     const vrai = arg !== "tous" && arg !== "__sans";
     if (vrai && !dossiers.includes(arg)) { location.hash = "favoris"; return; }
     const nom = arg === "tous" ? "Tous les favoris" : arg === "__sans" ? "Non rangés" : fdLeaf(arg);
-    const ids = fdIds(arg), par = vrai ? fdPar(arg) : "";
-    let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris' + (par ? '/' + encodeURIComponent(par) : '') + '">← ' + esc(par ? fdLeaf(par) : 'Favoris') + '</a><div class="page-head"><span class="label muted">' + (par ? esc(fdBeau(par)) + ' · ' : '') + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
-    if (vrai) { h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button>' + fdPlus(arg) + '</div>';
-      const k = fdKids(arg); if (k.length) h += '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + k.map(d => fdTuile(d, fdLeaf(d))).join("") + '</div></div>'; }
-    h += ids.length ? fdProds(ids) : '<p class="muted">Aucun article ici pour l\'instant.</p>';
+    const tot = fdIds(arg), ids = vrai ? fdIdsIci(arg) : tot, par = vrai ? fdPar(arg) : "", k = vrai ? fdKids(arg) : [];
+    let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris' + (par ? '/' + encodeURIComponent(par) : '') + '">← ' + esc(par ? fdLeaf(par) : 'Favoris') + '</a><div class="page-head"><span class="label muted">' + (par ? esc(fdBeau(par)) + ' · ' : '') + tot.length + ' article' + (tot.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
+    if (vrai) h += '<div class="fd-tools label">' + (tot.length ? '<a class="fd-recap-btn label" href="#favoris/recap/' + encodeURIComponent(arg) + '">Récap du dossier</a>' : '') + '<button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button>' + fdPlus(arg) + '</div>';
+    if (k.length) h += '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid" data-fd-groupe="' + esc(arg) + '">' + k.map(d => fdTuile(d, fdLeaf(d))).join("") + '</div></div>';
+    if (ids.length) h += fdProds(ids); else if (!k.length) h += '<p class="muted">Aucun article ici pour l\'instant.</p>';
     app.innerHTML = h + '</div>';
   }
-  // Glisser un article sur un dossier (uniquement dans Favoris) — souris : cliquer-glisser ; téléphone : appui long puis glisser
+  // Récap d'un dossier : l'essentiel de chaque article réuni sur une page (tiré des articles, sans IA)
+  function fdRecap(d) {
+    if (!dossiers.includes(d)) { location.hash = "favoris"; return; }
+    const ids = fdIds(d), phr = (t, n) => (String(t || "").match(/[^.!?]+[.!?]+(\s|$)/g) || [String(t || "")]).slice(0, n).join("").trim();
+    const auts = {}; ids.forEach(id => { const c = fdCard(id); (c && c.auteurs || []).forEach(a => { const k = a.nom + "|" + a.ouvrage; (auts[k] = auts[k] || { a, ids: [] }).ids.push(id); }); });
+    let h = '<div class="narrow fd-recap"><a class="back label" href="#favoris/' + encodeURIComponent(d) + '">← ' + esc(fdLeaf(d)) + '</a><div class="page-head"><span class="label muted">Récap · ' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(fdBeau(d)) + '</h1></div>';
+    const al = Object.values(auts);
+    if (al.length) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + al.map(x => '<div class="fd-r-aut"><strong>' + esc(x.a.nom) + '</strong> · <em>' + esc(x.a.ouvrage) + '</em>' + (x.a.annee ? ' (' + esc(x.a.annee) + ')' : '') + '<p>' + fmt(phr(x.a.texte, 1)) + '</p></div>').join("") + '</section>';
+    h += '<section class="sec"><h2 class="label">Article par article</h2>' + ids.map(id => { const c = fdCard(id) || {}, f = favs[id];
+      return '<article class="fd-r-art"><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + (c.source ? ' · ' + esc(c.source) : '') + '</span><h3><a href="#' + id + '">' + esc(f.titre) + '</a></h3>' +
+        (f.note ? '<p class="fd-note">' + esc(f.note) + '</p>' : '') +
+        (c.faits ? '<p><span class="label">Les faits · </span>' + fmt(phr(c.faits, 2)) + '</p>' : '') +
+        (c.enjeux ? '<p><span class="label">L\'enjeu · </span>' + fmt(phr(c.enjeux, 2)) + '</p>' : '') +
+        (c.notions && c.notions.length ? '<p class="muted"><span class="label">Notions · </span>' + c.notions.map(n => esc(n[0])).join(", ") + '</p>' : '') +
+        (c.sujets && c.sujets.length ? '<p class="muted"><span class="label">Sujets · </span>' + c.sujets.map(esc).join(" / ") + '</p>' : '') + '</article>'; }).join("") + '</section></div>';
+    app.innerHTML = h;
+  }
+  // Glisser (uniquement dans Favoris) : un article sur un dossier, un article hors du dossier, ou un dossier pour le déplacer parmi les autres
   (function () {
     let st = null;
-    const fin = () => { if (!st) return; if (st.timer) clearTimeout(st.timer); if (st.ghost) st.ghost.remove(); if (st.panel) st.panel.remove(); if (st.card) st.card.classList.remove("fd-drag-src", "fd-press"); document.querySelectorAll(".fd-over").forEach(x => x.classList.remove("fd-over")); document.body.classList.remove("fd-dragging"); st = null; };
-    const cible = (x, y) => { const el = document.elementFromPoint(x, y); return el && el.closest("[data-fd-drop]"); };
+    const fin = () => { if (!st) return; if (st.timer) clearTimeout(st.timer); if (st.ghost) st.ghost.remove(); if (st.panel) st.panel.remove(); if (st.el) st.el.classList.remove("fd-drag-src", "fd-press"); document.querySelectorAll(".fd-over").forEach(x => x.classList.remove("fd-over")); document.body.classList.remove("fd-dragging"); st = null; };
+    const cible = (x, y) => { const el = document.elementFromPoint(x, y); return el && el.closest("[data-fd-drop],[data-fd-out]"); };
     function demarrer() {
-      st.on = true; st.card.classList.remove("fd-press"); st.card.classList.add("fd-drag-src"); document.body.classList.add("fd-dragging");
+      st.on = true; st.el.classList.remove("fd-press"); st.el.classList.add("fd-drag-src"); document.body.classList.add("fd-dragging");
       if (navigator.vibrate) try { navigator.vibrate(15); } catch (e) {}
+      if (st.dossier) return;
       const f = favs[st.id], g = document.createElement("div"); g.className = "fd-ghost"; g.innerHTML = fdVisuel(f); st.ghost = g; document.body.appendChild(g);
-      const pnl = document.createElement("div"); pnl.className = "fd-drop-panel"; pnl.innerHTML = '<span class="label muted">Lâche sur un dossier</span>' + (dossiers.length ? '<div class="fd-drop-list">' + dossiers.map(d => '<div class="fd-drop-chip label" data-fd-drop="' + esc(d) + '" style="margin-left:' + (d.split("/").length - 1) * 18 + 'px">' + esc(fdLeaf(d)) + ((f.dossiers || []).includes(d) ? ' ✓' : '') + '</div>').join("") + '</div>' : '<p class="muted" style="margin:0">Crée d\'abord un dossier.</p>');
+      const ici = fdArg(), dans = ici && dossiers.includes(ici) && (f.dossiers || []).some(d => fdIn(d, ici));
+      const pnl = document.createElement("div"); pnl.className = "fd-drop-panel"; pnl.innerHTML = '<span class="label muted">Lâche sur un dossier</span>' +
+        (dans ? '<div class="fd-drop-chip fd-drop-out label" data-fd-out="' + esc(ici) + '">Retirer de « ' + esc(fdLeaf(ici)) + ' »</div>' : '') +
+        (dossiers.length ? '<div class="fd-drop-list">' + fdTree().map(d => '<div class="fd-drop-chip label" data-fd-drop="' + esc(d) + '" style="margin-left:' + (d.split("/").length - 1) * 18 + 'px">' + esc(fdLeaf(d)) + ((f.dossiers || []).includes(d) ? ' ✓' : '') + '</div>').join("") + '</div>' : '<p class="muted" style="margin:0">Crée d\'abord un dossier.</p>');
       st.panel = pnl; document.body.appendChild(pnl); bouger(st.x, st.y);
     }
-    function bouger(x, y) { st.x = x; st.y = y; st.ghost.style.transform = "translate(" + (x - 95) + "px," + (y - 115) + "px)"; document.querySelectorAll(".fd-over").forEach(z => z.classList.remove("fd-over")); const c = cible(x, y); if (c) c.classList.add("fd-over"); }
+    function bouger(x, y) { st.x = x; st.y = y;
+      if (st.dossier) { const el = document.elementFromPoint(x, y), t = el && el.closest(".fd-item[data-fd-dossier]"); if (t && t !== st.el && t.parentNode === st.el.parentNode) { const r = t.getBoundingClientRect(), apres = (x - r.left) > r.width / 2; t.parentNode.insertBefore(st.el, apres ? t.nextSibling : t); } return; }
+      st.ghost.style.transform = "translate(" + (x - 95) + "px," + (y - 115) + "px)"; document.querySelectorAll(".fd-over").forEach(z => z.classList.remove("fd-over")); const c = cible(x, y); if (c) c.classList.add("fd-over"); }
     function lacher(x, y) {
       if (!st) return; if (!st.on) { fin(); return; }
-      const c = cible(x, y), id = st.id; fin(); window.__fdNoClick = Date.now();
-      if (c) { const d = c.dataset.fdDrop, f = favs[id]; f.dossiers = f.dossiers || []; if (!f.dossiers.includes(d)) { f.dossiers.push(d); saveFavs("Favoris : range un article"); toast("Rangé dans « " + fdLeaf(d) + " »"); } else toast("Déjà dans « " + fdLeaf(d) + " »"); viewFavoris(fdArg()); }
+      window.__fdNoClick = Date.now();
+      if (st.dossier) { const grp = st.el.parentNode, ordre = [...grp.querySelectorAll(".fd-item[data-fd-dossier]")].map(a => a.dataset.fdDossier); fin();
+        let i = 0; dossiers = dossiers.map(d => ordre.includes(d) ? ordre[i++] : d); saveFavs("Favoris : réordonne les dossiers"); return; }
+      const c = cible(x, y), id = st.id; fin(); if (!c) return; const f = favs[id]; f.dossiers = f.dossiers || [];
+      if (c.dataset.fdOut) { const o = c.dataset.fdOut; f.dossiers = f.dossiers.filter(d => !fdIn(d, o)); saveFavs("Favoris : retire un article d'un dossier"); toast("Retiré de « " + fdLeaf(o) + " »"); }
+      else { const d = c.dataset.fdDrop; if (!f.dossiers.includes(d)) { f.dossiers.push(d); saveFavs("Favoris : range un article"); toast("Rangé dans « " + fdLeaf(d) + " »"); } else toast("Déjà dans « " + fdLeaf(d) + " »"); }
+      viewFavoris(fdArg());
     }
-    const carte = t => state.view === "favoris" && t.closest && !t.closest("button") ? t.closest(".fd-prod[data-fd-id]") : null;
-    // Souris
-    document.addEventListener("mousedown", e => { const c = carte(e.target); if (!c || e.button !== 0) return; e.preventDefault(); st = { id: c.dataset.fdId, card: c, x: e.clientX, y: e.clientY, x0: e.clientX, y0: e.clientY, on: false }; });
+    const prise = t => { if (state.view !== "favoris" || !t.closest || t.closest("button, input, textarea")) return null; const p = t.closest(".fd-prod[data-fd-id]"); if (p) return { el: p, id: p.dataset.fdId }; const d = t.closest(".fd-item[data-fd-dossier]"); return d ? { el: d, dossier: true } : null; };
+    document.addEventListener("mousedown", e => { const p = prise(e.target); if (!p || e.button !== 0) return; e.preventDefault(); st = Object.assign(p, { x: e.clientX, y: e.clientY, x0: e.clientX, y0: e.clientY, on: false }); });
     document.addEventListener("mousemove", e => { if (!st || st.touch) return; if (!st.on) { if (Math.hypot(e.clientX - st.x0, e.clientY - st.y0) > 6) { st.x = e.clientX; st.y = e.clientY; demarrer(); } return; } bouger(e.clientX, e.clientY); });
     document.addEventListener("mouseup", e => { if (st && !st.touch) lacher(e.clientX, e.clientY); });
-    // Tactile
-    document.addEventListener("touchstart", e => { const c = carte(e.target); if (!c || e.touches.length > 1) return; const t = e.touches[0];
-      st = { id: c.dataset.fdId, card: c, x: t.clientX, y: t.clientY, x0: t.clientX, y0: t.clientY, on: false, touch: true }; c.classList.add("fd-press");
+    document.addEventListener("touchstart", e => { const p = prise(e.target); if (!p || e.touches.length > 1) return; const t = e.touches[0];
+      st = Object.assign(p, { x: t.clientX, y: t.clientY, x0: t.clientX, y0: t.clientY, on: false, touch: true }); p.el.classList.add("fd-press");
       st.timer = setTimeout(() => { if (st && !st.on) demarrer(); }, 350); }, { passive: true });
     document.addEventListener("touchmove", e => { if (!st || !st.touch) return; const t = e.touches[0];
       if (!st.on) { if (Math.hypot(t.clientX - st.x0, t.clientY - st.y0) > 10) fin(); return; }
       e.preventDefault(); bouger(t.clientX, t.clientY); }, { passive: false });
     document.addEventListener("touchend", e => { if (!st || !st.touch) return; if (st.on) { e.preventDefault(); lacher(st.x, st.y); } else fin(); }, { passive: false });
     document.addEventListener("touchcancel", () => fin());
-    document.addEventListener("click", e => { if (window.__fdNoClick && Date.now() - window.__fdNoClick < 500 && e.target.closest(".fd-prod, [data-fd-drop]")) { e.preventDefault(); e.stopPropagation(); } }, true);
-    document.addEventListener("contextmenu", e => { if (state.view === "favoris" && e.target.closest(".fd-prod")) e.preventDefault(); });
+    document.addEventListener("click", e => { if (window.__fdNoClick && Date.now() - window.__fdNoClick < 500 && e.target.closest(".fd-prod, .fd-item, [data-fd-drop]")) { e.preventDefault(); e.stopPropagation(); } }, true);
+    document.addEventListener("contextmenu", e => { if (state.view === "favoris" && e.target.closest(".fd-prod, .fd-item")) e.preventDefault(); });
   })();
-  document.addEventListener("click", e => { const a = e.target.closest(".fd-item, .fd-mini"); if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey) return; e.preventDefault();
-    a.classList.remove("fd-boing"); void a.offsetWidth; a.classList.add("fd-boing"); const h = a.getAttribute("href"); setTimeout(() => { location.hash = h.slice(1); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 180); });
   const fdArg = () => { const h = decodeURIComponent(location.hash.slice(1)); return h.startsWith("favoris/") ? h.slice(8) : undefined; };
-  function fdSheet(id) {
-    fdClose(); const f = favs[id], ds = f.dossiers || [];
-    const w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet" role="dialog" aria-label="Ranger dans des dossiers"><span class="label muted">Ranger dans…</span><h3>' + esc(f.titre) + '</h3>' +
-      (dossiers.length ? dossiers.map(d => '<label class="fd-check" style="padding-left:' + (d.split("/").length - 1) * 24 + 'px"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(fdLeaf(d)) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
-      '<div class="fd-add"><input class="search" placeholder="Nouveau dossier" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div><button type="button" class="btn label fd-ok" data-fd-close>OK</button></div>';
-    document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) { fdClose(); viewFavoris(fdArg()); } });
+  const fdRefresh = () => { if (state.view === "favoris") viewFavoris(fdArg()); };
+  function fdOuvrir(html) { fdClose(); const w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet" role="dialog">' + html + '</div>'; document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) { fdClose(); fdRefresh(); } }); return w; }
+  function fdSheet(id, nouveau) {
+    const f = favs[id], ds = f.dossiers || [];
+    fdOuvrir('<span class="label muted">' + (nouveau ? 'Ajouté aux favoris · ranger dans…' : 'Ranger dans…') + '</span><h3>' + esc(f.titre) + '</h3>' +
+      (dossiers.length ? fdTree().map(d => '<label class="fd-check" style="padding-left:' + (d.split("/").length - 1) * 24 + 'px"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(fdLeaf(d)) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
+      '<div class="fd-add"><input class="search" placeholder="Nouveau dossier" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div><button type="button" class="btn label fd-ok" data-fd-close>' + (nouveau ? 'Plus tard' : 'OK') + '</button>');
+  }
+  function fdNoteSheet(id) {
+    const f = favs[id];
+    const w = fdOuvrir('<span class="label muted">Ta note</span><h3>' + esc(f.titre) + '</h3><textarea class="note-area" rows="4" placeholder="Pourquoi tu l\'as gardé : accroche, exemple, chiffre, sujet où le placer…">' + esc(f.note || "") + '</textarea><button type="button" class="btn label fd-ok" data-fd-note-ok="' + id + '">Enregistrer</button>');
+    w.querySelector("textarea").focus();
   }
   function fdClose() { const x = document.querySelector(".fd-sheet-bg"); if (x) x.remove(); }
   const fdNet = n => (n || "").replace(/\//g, "-").trim().replace(/\s+/g, " ");
   function fdCreate(nom, id, parent) {
-    nom = fdNet(nom); if (!nom || nom.startsWith("__") || nom === "tous") return false;
+    nom = fdNet(nom); if (!nom || nom.startsWith("__") || nom === "tous" || nom.startsWith("recap")) return false;
     nom = parent ? parent + "/" + nom : nom;
     if (!dossiers.includes(nom)) dossiers.push(nom);
     if (id && favs[id]) { favs[id].dossiers = favs[id].dossiers || []; if (!favs[id].dossiers.includes(nom)) favs[id].dossiers.push(nom); }
-    fdSort(); saveFavs("Favoris : dossier " + nom); return true;
+    saveFavs("Favoris : dossier " + nom); return true;
   }
   document.addEventListener("click", e => {
-    const t = e.target.closest("[data-fd-new],[data-fd-ren],[data-fd-del],[data-fd-ranger],[data-fd-create],[data-fd-close]"); if (!t) return;
-    if (t.hasAttribute("data-fd-close")) { fdClose(); viewFavoris(fdArg()); }
-    else if (t.hasAttribute("data-fd-new")) { fdClose(); const par = t.dataset.fdNew || "", w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet"><span class="label muted">' + (par ? 'Nouveau sous-dossier dans « ' + esc(fdLeaf(par)) + ' »' : 'Nouveau dossier') + '</span><div class="fd-add"><input class="search" placeholder="' + (par ? 'Ex. Mexique, Colombie' : 'Ex. Amérique latine, IA, pouvoir économique') + '" data-fd-input=""><button type="button" class="btn label" data-fd-create="" data-fd-parent="' + esc(par) + '">Créer</button></div></div>'; document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) fdClose(); }); w.querySelector("input").focus(); }
+    const t = e.target.closest("[data-fd-new],[data-fd-ren],[data-fd-del],[data-fd-ranger],[data-fd-create],[data-fd-close],[data-fd-note],[data-fd-note-ok]"); if (!t) return;
+    if (t.hasAttribute("data-fd-close")) { fdClose(); fdRefresh(); }
+    else if (t.dataset.fdNoteOk) { const f = favs[t.dataset.fdNoteOk], v = document.querySelector(".fd-sheet textarea").value.trim(); if (v) f.note = v; else delete f.note; saveFavs("Favoris : note"); fdClose(); fdRefresh(); toast(v ? "Note enregistrée" : "Note supprimée"); }
+    else if (t.dataset.fdNote) fdNoteSheet(t.dataset.fdNote);
+    else if (t.hasAttribute("data-fd-new")) { const par = t.dataset.fdNew || ""; const w = fdOuvrir('<span class="label muted">' + (par ? 'Nouveau sous-dossier dans « ' + esc(fdLeaf(par)) + ' »' : 'Nouveau dossier') + '</span><div class="fd-add"><input class="search" placeholder="' + (par ? 'Ex. Mexique, Colombie' : 'Ex. Amérique latine, IA, pouvoir économique') + '" data-fd-input=""><button type="button" class="btn label" data-fd-create="" data-fd-parent="' + esc(par) + '">Créer</button></div>'); w.querySelector("input").focus(); }
     else if (t.dataset.fdRanger) fdSheet(t.dataset.fdRanger);
-    else if (t.dataset.fdCreate !== undefined) { const id = t.dataset.fdCreate, inp = t.parentNode.querySelector("input"); if (fdCreate(inp.value, id, t.dataset.fdParent || "")) { toast("Dossier créé"); if (id) fdSheet(id); else { fdClose(); viewFavoris(fdArg()); } } }
+    else if (t.dataset.fdCreate !== undefined) { const id = t.dataset.fdCreate, inp = t.parentNode.querySelector("input"); if (fdCreate(inp.value, id, t.dataset.fdParent || "")) { toast("Dossier créé"); if (id) fdSheet(id, document.querySelector(".fd-ok") && document.querySelector(".fd-ok").textContent === "Plus tard"); else { fdClose(); fdRefresh(); } } }
     else if (t.dataset.fdRen) { if (t.dataset.ok) return; t.dataset.ok = 1; const old = t.dataset.fdRen, w = document.createElement("div"); w.className = "fd-add"; w.innerHTML = '<input class="search" value="' + esc(fdLeaf(old)) + '"><button type="button" class="btn label">Renommer</button>'; t.parentNode.after(w); const inp = w.querySelector("input"); inp.focus();
-      w.querySelector("button").onclick = () => { const n = fdNet(inp.value), par = fdPar(old), nom = n ? (par ? par + "/" + n : n) : ""; if (!n || nom === old || dossiers.includes(nom) || n === "tous" || n.startsWith("__")) { viewFavoris(old); return; }
-        const mv = d => fdIn(d, old) ? nom + d.slice(old.length) : d; dossiers = dossiers.map(mv); fdSort(); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.map(mv); }); saveFavs("Favoris : renomme un dossier"); history.replaceState(null, "", "#favoris/" + encodeURIComponent(nom)); viewFavoris(nom); }; }
+      w.querySelector("button").onclick = () => { const n = fdNet(inp.value), par = fdPar(old), nom = n ? (par ? par + "/" + n : n) : ""; if (!n || nom === old || dossiers.includes(nom) || n === "tous" || n.startsWith("__") || n.startsWith("recap")) { viewFavoris(old); return; }
+        const mv = d => fdIn(d, old) ? nom + d.slice(old.length) : d; dossiers = dossiers.map(mv); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.map(mv); }); saveFavs("Favoris : renomme un dossier"); history.replaceState(null, "", "#favoris/" + encodeURIComponent(nom)); viewFavoris(nom); }; }
     else if (t.dataset.fdDel) { const d = t.dataset.fdDel, nk = dossiers.filter(x => x !== d && fdIn(x, d)).length; if (!t.dataset.ok) { t.dataset.ok = 1; t.textContent = "Confirmer la suppression" + (nk ? " (et ses " + nk + " sous-dossier" + (nk > 1 ? "s" : "") + ")" : "") + " · les articles restent dans tes favoris"; return; }
       dossiers = dossiers.filter(x => !fdIn(x, d)); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => !fdIn(x, d)); }); saveFavs("Favoris : supprime un dossier"); toast("Dossier supprimé"); const p = fdPar(d); location.hash = "favoris" + (p ? "/" + encodeURIComponent(p) : ""); }
   });
-  document.addEventListener("change", e => { const c = e.target.closest("[data-fd-tog]"); if (!c) return; const f = favs[c.dataset.fdTog]; f.dossiers = (f.dossiers || []).filter(d => d !== c.value); if (c.checked) f.dossiers.push(c.value); saveFavs("Favoris : range un article"); });
-  document.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.matches("[data-fd-input], .fd-add input")) { const b = e.target.parentNode.querySelector("button"); if (b) b.click(); } if (e.key === "Escape" && document.querySelector(".fd-sheet-bg")) { fdClose(); if (state.view === "favoris") viewFavoris(fdArg()); } });
+  document.addEventListener("change", e => { const c = e.target.closest("[data-fd-tog]"); if (!c) return; const f = favs[c.dataset.fdTog]; f.dossiers = (f.dossiers || []).filter(d => d !== c.value); if (c.checked) f.dossiers.push(c.value); saveFavs("Favoris : range un article"); const ok = document.querySelector(".fd-sheet [data-fd-close]"); if (ok) ok.textContent = "OK"; });
+  document.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.matches("[data-fd-input], .fd-add input")) { const b = e.target.parentNode.querySelector("button"); if (b) b.click(); } if (e.key === "Escape" && document.querySelector(".fd-sheet-bg")) { fdClose(); fdRefresh(); } });
 
   function matchF(q) { return f => !q || JSON.stringify([f.nom, f.auteur, f.accroche, f.blocs]).toLowerCase().includes(q); }
   function refResults(ref, q) {
@@ -1455,8 +1515,8 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     if (t.dataset.lang) { const id = location.hash.slice(1); state.lang[id] = t.dataset.lang; viewCarte(id); }
     else if (t.dataset.fav) {
       const id = t.dataset.fav; const c = (await edition(id.slice(0, 10))).cards.find(x => x.id === id);
-      if (favs[id]) { delete favs[id]; toast("Retirée des favoris"); } else { favs[id] = { titre: c.titre, matiere: c.matiere, dossiers: [], image: c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null }; toast("Ajoutée aux favoris · range-la dans Favoris"); }
-      saveFavs(favs[id] ? "Ajoute un favori" : "Retire un favori");
+      if (favs[id]) { delete favs[id]; toast("Retirée des favoris"); } else { favs[id] = { titre: c.titre, matiere: c.matiere, dossiers: [], image: c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null }; }
+      saveFavs(favs[id] ? "Ajoute un favori" : "Retire un favori"); if (favs[id]) fdSheet(id, true);
       t.setAttribute("aria-pressed", String(!!favs[id])); t.setAttribute("aria-label", favs[id] ? "Retirer des favoris" : "Ajouter aux favoris");
     }
     else if (t.dataset.fiche) { location.hash = t.dataset.fiche; }
