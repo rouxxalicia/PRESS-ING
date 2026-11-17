@@ -98,6 +98,15 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/10_Downing_Street_235.jpg/1280px-10_Downing_Street_235.jpg",
     "alt": "Façade du 10 Downing Street à Londres"
    }
+  },
+  "2026-11-17-espagnol-2": {
+   "titre": "Mexique : 17,3 millions de personnes sont sorties de la pauvreté entre 2018 et 2026 selon la Banque mondiale",
+   "matiere": "espagnol",
+   "dossiers": [],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg/1280px-Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg",
+    "alt": "Paseo de la Reforma à Mexico"
+   }
   }
  },
  "dossiers": [
@@ -110,5 +119,5 @@
   "UK/Brexit",
   "UK/Emplois"
  ],
- "favsMaj": 1794946276392
+ "favsMaj": 1794946491443
 }
