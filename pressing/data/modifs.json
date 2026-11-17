@@ -12,38 +12,52 @@
  "favs": {
   "2026-11-02-espagnol-1": {
    "titre": "Au forum de Barcelone, Pedro Sánchez affirme que « l'Espagne ne se gouverne ni depuis Washington, ni depuis Moscou ou Buenos Aires »",
-   "matiere": "espagnol"
+   "matiere": "espagnol",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg/1280px-Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg",
+    "alt": "Le président du gouvernement espagnol Pedro Sánchez au palais de la Moncloa"
+   }
   },
   "2026-11-14-espagnol-3": {
    "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
-   "matiere": "espagnol"
+   "matiere": "espagnol",
+   "image": null
   },
   "2026-11-17-esh-1": {
    "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
-   "matiere": "esh"
+   "matiere": "esh",
+   "image": null,
+   "dossiers": [
+    "IA"
+   ]
   },
   "2026-11-17-esh-2": {
    "titre": "Les dépenses de défense soutiennent la croissance économique en Europe de l'Est",
-   "matiere": "esh"
+   "matiere": "esh",
+   "image": null
   },
   "2026-11-17-anglais-1": {
    "titre": "Royaume-Uni : Andy Burnham juge que « le Brexit n'a pas fonctionné » et vise un nouvel accord avec l'UE",
    "matiere": "anglais",
-   "dossiers": []
+   "dossiers": [],
+   "image": null
   },
   "2026-11-17-anglais-2": {
    "titre": "Dette mondiale : les difficultés budgétaires des pays riches fragilisent les économies les plus pauvres",
    "matiere": "anglais",
-   "dossiers": []
+   "dossiers": [],
+   "image": null
   },
   "2026-11-17-anglais-4": {
    "titre": "Royaume-Uni : un plan contre le chômage des jeunes qui divise le Parti travailliste",
    "matiere": "anglais",
-   "dossiers": []
+   "dossiers": [],
+   "image": null
   }
  },
  "dossiers": [
+  "IA",
   "politique espagnole"
  ],
- "favsMaj": 1794941740430
+ "favsMaj": 1794942043132
 }
