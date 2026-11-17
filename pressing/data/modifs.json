@@ -54,7 +54,9 @@
   "2026-11-17-anglais-2": {
    "titre": "Dette mondiale : les difficultés budgétaires des pays riches fragilisent les économies les plus pauvres",
    "matiere": "anglais",
-   "dossiers": [],
+   "dossiers": [
+    "Économie"
+   ],
    "image": null
   },
   "2026-11-17-anglais-4": {
@@ -68,10 +70,11 @@
  },
  "dossiers": [
   "Amérique Latine",
+  "Économie",
   "Emplois",
   "IA",
   "politique espagnole",
   "UK"
  ],
- "favsMaj": 1794942215127
+ "favsMaj": 1794942295346
 }
