@@ -631,7 +631,10 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 @media (prefers-reduced-motion: reduce) { .fd-gl, .fd-mini { transition: none; } }
 .fd-search { width: 100%; margin: 0 0 26px; }
 .fd-note { margin: 2px 0 0; font-size: 13.5px; line-height: 1.4; color: var(--muted); font-style: italic; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.fd-acts { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 2px; }
+.fd-acts { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 2px; }
+.fd-acts .more { border-bottom: 0; padding: 0; font-size: 9.5px; letter-spacing: .1em; opacity: .55; transition: opacity .2s; }
+.fd-acts .more:hover { opacity: 1; }
+@media (hover: hover) { .fd-acts .more { opacity: 0; } .fd-prod:hover .fd-acts .more { opacity: .55; } .fd-prod:hover .fd-acts .more:hover { opacity: 1; } }
 .fd-recap-btn { border: 1px solid var(--fg); padding: 8px 12px; color: var(--fg); }
 .fd-recap-btn:hover { background: var(--fg); color: var(--bg); }
 .fd-drop-out { border-style: dashed; color: var(--accent); }
@@ -919,7 +922,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
       (f.note ? '<p class="fd-note">' + esc(f.note) + '</p>' : '') +
       (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') +
-      '<span class="fd-acts"><button type="button" class="more label" data-fd-ranger="' + id + '">Ranger</button><button type="button" class="more label" data-fd-note="' + id + '">' + (f.note ? 'Modifier la note' : 'Note') + '</button></span></div>'; }).join("") + '</div>'; }
+      '<span class="fd-acts"><button type="button" class="more label" data-fd-ranger="' + id + '">Ranger</button><button type="button" class="more label" data-fd-note="' + id + '">' + (f.note ? 'Note ✎' : 'Note') + '</button></span></div>'; }).join("") + '</div>'; }
   function fdTexte(id) { const c = fdCard(id) || {}, f = favs[id]; return [f.titre, f.note, fdDz(f).join(" "), NOM[f.matiere], c.faits, c.enjeux, (c.auteurs || []).map(a => a.nom + " " + a.ouvrage).join(" "), (c.notions || []).map(n => n.join(" ")).join(" ")].join(" ").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
   function fdChercher(q) {
     const z = document.getElementById("fd-res"), main = document.getElementById("fd-main"); if (!z) return;
