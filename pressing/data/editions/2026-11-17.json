@@ -10,7 +10,12 @@
    "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
    "faits": "Selon une étude de la Coface publiée en novembre 2026 et relayée par *Le Monde* le 17 novembre, l'utilisation de l'intelligence artificielle a fait disparaître environ 100 000 offres d'emploi en 2026. Les économistes Axelle Arquié et Aurélien Duthoit montrent que le phénomène ne provoque pas encore de vague massive de licenciements secs en Europe, mais un recul net et mesurable des annonces de recrutement. Les professions les plus exposées à l'automatisation des tâches de bureau sont les plus touchées : ressources humaines, comptabilité-gestion, services informatiques et forces de vente. Contrairement aux idées reçues, ce ralentissement des embauches dépasse désormais les seuls postes de débutants. En France, cela s'est traduit par des dizaines de milliers d'offres en moins sur un trimestre sur les plateformes comme France Travail.",
    "enjeux": "Cette étude illustre la manière dont le **progrès technique** transforme le **marché du travail** : l'ajustement se fait d'abord par le gel des embauches plutôt que par la destruction directe d'emplois existants. En économie, l'IA générative agit comme un choc sur les **tâches cognitives routinières**, ce qui modifie la demande de travail qualifié et menace les parcours d'insertion des jeunes diplômés. Si l'automatisation accroît la **productivité** des entreprises, elle pose aussi la question d'une **polarisation des emplois** et du financement d'une protection sociale assise sur les cotisations salariales. Le défi des politiques de l'emploi consiste donc à adapter le **capital humain** par la formation continue.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+    "alt": "Baies de serveurs dans un centre de données",
+    "credit": "Carl Lender from Sunrise, USA / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg"
+   },
    "programme": {
     "module": "Module 2 – Croissance et développement",
     "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
@@ -33,9 +38,18 @@
     }
    ],
    "notions": [
-    ["Destruction créatrice", "Processus par lequel les innovations détruisent d'anciennes activités et en créent de nouvelles plus productives."],
-    ["Polarisation des emplois", "Concentration des créations d'emplois aux extrémités de l'échelle des qualifications au détriment des emplois intermédiaires routiniers."],
-    ["Capital humain", "Ensemble des connaissances, compétences et qualifications accumulées par un individu qui augmentent sa productivité."]
+    [
+     "Destruction créatrice",
+     "Processus par lequel les innovations détruisent d'anciennes activités et en créent de nouvelles plus productives."
+    ],
+    [
+     "Polarisation des emplois",
+     "Concentration des créations d'emplois aux extrémités de l'échelle des qualifications au détriment des emplois intermédiaires routiniers."
+    ],
+    [
+     "Capital humain",
+     "Ensemble des connaissances, compétences et qualifications accumulées par un individu qui augmentent sa productivité."
+    ]
    ],
    "sujets": [
     "L'intelligence artificielle menace-t-elle l'emploi qualifié ?",
@@ -61,7 +75,12 @@
    "titre": "Les dépenses de défense soutiennent la croissance économique en Europe de l'Est",
    "faits": "Dans un article publié le 17 novembre 2026, *Le Figaro* souligne que l'effort historique de réarmement en Europe de l'Est agit comme un puissant moteur conjoncturel pour l'activité économique régionale. Confrontés aux tensions géopolitiques et à la guerre en Ukraine, les pays du flanc oriental de l'OTAN comme la Pologne, les pays baltes et la Roumanie ont fortement relevé leurs budgets militaires. Ces commandes publiques massives stimulent directement l'industrie locale, les coentreprises technologiques et la modernisation des infrastructures logistiques. Longtemps perçue uniquement comme une charge budgétaire, la dépense militaire devient ainsi un levier de politique industrielle et d'emplois qualifiés. La Banque européenne pour la reconstruction et le développement (BERD) relève toutefois les défis de financement que pose cette trajectoire.",
    "enjeux": "Cette dynamique illustre le rôle de la **dépense publique** comme stabilisateur et moteur de la **demande globale** à court terme, via un **effet multiplicateur** sur l'industrie et la sous-traitance. Elle renvoie aussi à l'une des fonctions régaliennes de l'État : la production de **biens collectifs purs** comme la défense nationale, que le marché privé ne peut assurer seul. Toutefois, les économistes s'interrogent sur la soutenabilité à long terme d'une croissance tirée par l'armement. Si ces dépenses financent des importations de matériel ou creusent les déficits sans accroître la **capacité productive** civile, elles risquent d'alimenter des tensions inflationnistes ou un **effet d'éviction** sur l'investissement privé.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Skyline_of_Warsaw%2C_Poland.jpg/1280px-Skyline_of_Warsaw%2C_Poland.jpg",
+    "alt": "Quartier financier de Varsovie en Pologne",
+    "credit": "Quintin Soloviev / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline_of_Warsaw,_Poland.jpg"
+   },
    "programme": {
     "module": "4 - Déséquilibres, régulation et action publique",
     "chapitre": "4.2 - L'intervention économique des pouvoirs publics"
@@ -83,9 +102,18 @@
     }
    ],
    "notions": [
-    ["Bien collectif pur", "Bien non rival et non excluable, comme la défense nationale, dont la production relève de l'État."],
-    ["Multiplicateur budgétaire", "Mécanisme par lequel une hausse de la dépense publique entraîne une augmentation plus que proportionnelle du PIB."],
-    ["Effet d'éviction", "Baisse de l'investissement privé provoquée par une hausse de la dépense publique ou de l'emprunt d'État."]
+    [
+     "Bien collectif pur",
+     "Bien non rival et non excluable, comme la défense nationale, dont la production relève de l'État."
+    ],
+    [
+     "Multiplicateur budgétaire",
+     "Mécanisme par lequel une hausse de la dépense publique entraîne une augmentation plus que proportionnelle du PIB."
+    ],
+    [
+     "Effet d'éviction",
+     "Baisse de l'investissement privé provoquée par une hausse de la dépense publique ou de l'emprunt d'État."
+    ]
    ],
    "sujets": [
     "Les dépenses militaires sont-elles un moteur durable de croissance économique ?",
@@ -111,7 +139,12 @@
    "titre": "Terres rares : le patron de Solvay réclame des prix sécurisés pour sauver la filière européenne",
    "faits": "Dans un entretien publié par *La Tribune* le 17 novembre 2026, le directeur général du groupe chimique Solvay, Philippe Kehren, lance un cri d'alarme sur l'avenir de la production de terres rares en Europe. Ces métaux critiques sont indispensables aux aimants permanents des véhicules électriques, des éoliennes et de l'industrie de défense. Alors que la Chine domine la chaîne de raffinage et utilise des restrictions à l'exportation, Solvay investit notamment sur son site français de La Rochelle pour développer des capacités européennes de séparation. Philippe Kehren demande toutefois à l'Union européenne d'instaurer des prix garantis sur le long terme ou des mécanismes de prix plancher. Selon lui, sans protection contre la concurrence subventionnée chinoise et américaine, les projets industriels européens risquent de ne pas être rentables.",
    "enjeux": "Cet appel illustre le retour en force de la **politique industrielle** et de la notion d'**autonomie stratégique** au cœur de la mondialisation. Dans des secteurs caractérisés par des coûts fixes élevés et des effets d'apprentissage, le libre-échange pur peut conduire à des **situations de monopole** géographique, exposant l'Europe à une dépendance critique. L'exigence d'un prix plancher montre que les entreprises privées ne peuvent supporter seules le risque de dumping de prix pratiqué par des concurrents soutenus par leur État. L'Union européenne doit donc arbitrer entre le respect des **règles de concurrence** et de libre-échange et la protection de ses filières stratégiques pour la **transition énergétique**.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hull%E2%80%93Rust%E2%80%93Mahoning_Open_Pit_Iron_Mine.jpg/1280px-Hull%E2%80%93Rust%E2%80%93Mahoning_Open_Pit_Iron_Mine.jpg",
+    "alt": "Mine à ciel ouvert industrielle",
+    "credit": "McGhiever / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hull%E2%80%93Rust%E2%80%93Mahoning_Open_Pit_Iron_Mine.jpg"
+   },
    "programme": {
     "module": "Module 3 – La mondialisation économique et financière",
     "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
@@ -134,9 +167,18 @@
     }
    ],
    "notions": [
-    ["Protectionnisme éducateur", "Protection temporaire et dégressive d'une industrie naissante le temps qu'elle atteigne la compétitivité."],
-    ["Autonomie stratégique", "Capacité d'un État ou d'une union à maîtriser ses approvisionnements et technologies critiques sans dépendance excessive."],
-    ["Dumping", "Pratique consistant à vendre à l'exportation à un prix inférieur au coût de production ou au prix intérieur pour conquérir des parts de marché."]
+    [
+     "Protectionnisme éducateur",
+     "Protection temporaire et dégressive d'une industrie naissante le temps qu'elle atteigne la compétitivité."
+    ],
+    [
+     "Autonomie stratégique",
+     "Capacité d'un État ou d'une union à maîtriser ses approvisionnements et technologies critiques sans dépendance excessive."
+    ],
+    [
+     "Dumping",
+     "Pratique consistant à vendre à l'exportation à un prix inférieur au coût de production ou au prix intérieur pour conquérir des parts de marché."
+    ]
    ],
    "sujets": [
     "L'Union européenne doit-elle revenir à une politique industrielle protectionniste ?",
@@ -162,7 +204,12 @@
    "titre": "COP31 : un premier projet de décision finale révèle de profonds désaccords entre États",
    "faits": "À la COP31 réunie à Antalya en Turquie du 9 au 20 novembre 2026, la présidence des négociations a publié un premier projet de décision finale de 18 pages et 144 paragraphes, rapporte *Le Monde* le 17 novembre. Ce document met en lumière de vives tensions entre les près de 200 pays participants à l'approche de la clôture du sommet. Le texte appelle à une « transition immédiate hors des énergies fossiles dans les systèmes énergétiques », une formulation vivement contestée par les pays producteurs d'hydrocarbures. Il multiplie aussi les références à l'objectif de 1,5 °C, dont le dépassement temporaire paraît de plus en plus imminent. Enfin, le financement de l'adaptation climatique et l'aide aux pays en développement restent des points de blocage majeurs.",
    "enjeux": "Les blocages de la COP31 illustrent la difficulté de gérer un **bien public mondial** comme le climat en l'absence de gouvernement mondial contraignant. Chaque État supporte immédiatement le coût économique de sa transition énergétique, tandis que les bénéfices climatiques profitent à toute la planète : c'est la logique du **passager clandestin** (*free rider*). Les désaccords entre pays industrialisés, pays pétroliers et pays en développement montrent aussi que la question climatique est indissociable de la **justice climatique** et de la répartition du fardeau financier. Faute d'accord mondial ambitieux, l'Europe risque de rester isolée avec des normes strictes (prix du carbone) face à des partenaires moins contraints.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Palace_of_Nations_Geneva_20102014_02.jpg/1280px-Palace_of_Nations_Geneva_20102014_02.jpg",
+    "alt": "Palais des Nations des Nations unies à Genève",
+    "credit": "Vassil / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Nations_Geneva_20102014_02.jpg"
+   },
    "programme": {
     "module": "Module 3 – La mondialisation économique et financière",
     "chapitre": "3.1 – La dynamique de la mondialisation économique : régionalisation, gouvernance et régulations internationales"
@@ -186,9 +233,18 @@
     }
    ],
    "notions": [
-    ["Bien public mondial", "Bien non rival et non excluable à l'échelle planétaire, comme la stabilité du climat."],
-    ["Passager clandestin", "Acteur qui profite d'un bien collectif sans contribuer à son financement."],
-    ["Externalité négative", "Effet négatif d'une activité économique sur un tiers qui ne donne lieu à aucune compensation monétaire."]
+    [
+     "Bien public mondial",
+     "Bien non rival et non excluable à l'échelle planétaire, comme la stabilité du climat."
+    ],
+    [
+     "Passager clandestin",
+     "Acteur qui profite d'un bien collectif sans contribuer à son financement."
+    ],
+    [
+     "Externalité négative",
+     "Effet négatif d'une activité économique sur un tiers qui ne donne lieu à aucune compensation monétaire."
+    ]
    ],
    "sujets": [
     "La gouvernance mondiale permet-elle de répondre efficacement à l'urgence climatique ?",
@@ -214,19 +270,48 @@
    "titre": "Royaume-Uni : Andy Burnham juge que « le Brexit n'a pas fonctionné » et vise un nouvel accord avec l'UE",
    "faits": "Le 16 novembre 2026, lors du banquet annuel du Lord-Maire à la City de Londres, le Premier ministre britannique Andy Burnham a livré une critique directe du Brexit, estimant que le pays avait « plus perdu que gagné » depuis 2016. Il a comparé le silence politique autour de ses effets économiques au conte des *Habits neufs de l'empereur*, affirmant que le Brexit dur avait nui au potentiel économique du Royaume-Uni. À quelques jours d'un sommet Royaume-Uni–UE à Bruxelles, Burnham entend conclure des accords ciblés sur l'agroalimentaire, le couplage des marchés carbone et la mobilité des jeunes. Selon Downing Street, ces accords pourraient accroître le PIB britannique de 0,4 %, soit environ 17 milliards de livres sterling. Le Premier ministre maintient toutefois les lignes rouges travaillistes en excluant un retour dans le marché unique ou l'union douanière avant les prochaines élections.",
    "enjeux": "Cette prise de position marque un tournant politique majeur dix ans après le référendum de 2016 : pour la première fois, un chef de gouvernement britannique reconnaît explicitement l'échec économique du **Brexit dur**. Sur le plan économique, la multiplication des **barrières non tarifaires** et des contrôles douaniers a freiné les échanges avec le premier partenaire commercial du pays. Toutefois, la marge de manœuvre de Burnham reste étroite : Bruxelles réclame des garanties juridiques, dont une clause de sortie au cas où un futur gouvernement conservateur ou réformiste reviendrait sur l'accord. De son côté, l'ancien Premier ministre Boris Johnson dénonce déjà une remise en cause du vote populaire, ravivant la fracture politique autour des relations avec l'**Union européenne**.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/London%2C_Palace_of_Westminster_--_2016_--_4800.jpg/1280px-London%2C_Palace_of_Westminster_--_2016_--_4800.jpg",
+    "alt": "Palais de Westminster à Londres",
+    "credit": "Dietmar Rabich / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:London,_Palace_of_Westminster_--_2016_--_4800.jpg"
+   },
    "vo": {
     "titre": "UK: Andy Burnham says Brexit 'has not worked' and seeks a new EU deal",
     "faits": "On 16 November 2026, speaking at the Lord Mayor's Banquet in the City of London, Prime Minister Andy Burnham delivered a blunt assessment of Brexit, stating that Britain had 'lost more than we gained' since 2016. He likened political reluctance to confront its economic fallout to *The Emperor's New Clothes*, arguing that a hard Brexit had damaged the UK's growth potential. Ahead of this week's UK-EU summit in Brussels, Burnham aims to secure targeted agreements on food and farming, emissions trading and a youth mobility scheme. Downing Street estimates these measures could raise UK GDP by 0.4%, or roughly £17bn. However, the Prime Minister is sticking to Labour's manifesto red lines, ruling out rejoining the single market or the customs union before the next general election.",
     "enjeux": "This speech marks a significant political turning point a decade after the 2016 referendum, as a sitting British Prime Minister openly acknowledges the economic cost of a **hard Brexit**. Economically, **non-tariff barriers** and border checks have weighed heavily on trade with the UK's largest trading partner. Yet Burnham's room for manoeuvre remains constrained: EU leaders are considering a safeguard exit clause in case a future Conservative or Reform government unravels the reset. Meanwhile, former Prime Minister Boris Johnson has warned against reopening the Brexit debate, underscoring how divisive the UK's **relationship with the EU** remains."
    },
    "vocab": [
-    ["a hard Brexit", "un Brexit dur", "Many economists argue that a hard Brexit raised trade costs for UK firms."],
-    ["non-tariff barriers", "des barrières non tarifaires", "Border checks act as non-tariff barriers that slow down food exports."],
-    ["the single market", "le marché unique", "Rejoining the single market remains outside Labour's current red lines."],
-    ["the customs union", "l'union douanière", "Leaving the customs union forced exporters to fill out new paperwork."],
-    ["red lines", "des lignes rouges", "The Prime Minister insisted he would not cross his manifesto red lines."],
-    ["a youth mobility scheme", "un programme de mobilité des jeunes", "A youth mobility scheme would make it easier for young Europeans to work in Britain."]
+    [
+     "a hard Brexit",
+     "un Brexit dur",
+     "Many economists argue that a hard Brexit raised trade costs for UK firms."
+    ],
+    [
+     "non-tariff barriers",
+     "des barrières non tarifaires",
+     "Border checks act as non-tariff barriers that slow down food exports."
+    ],
+    [
+     "the single market",
+     "le marché unique",
+     "Rejoining the single market remains outside Labour's current red lines."
+    ],
+    [
+     "the customs union",
+     "l'union douanière",
+     "Leaving the customs union forced exporters to fill out new paperwork."
+    ],
+    [
+     "red lines",
+     "des lignes rouges",
+     "The Prime Minister insisted he would not cross his manifesto red lines."
+    ],
+    [
+     "a youth mobility scheme",
+     "un programme de mobilité des jeunes",
+     "A youth mobility scheme would make it easier for young Europeans to work in Britain."
+    ]
    ],
    "sujets": [
     "Ten years after the 2016 referendum, can the UK realistically reset its relationship with the EU?",
@@ -252,19 +337,48 @@
    "titre": "Dette mondiale : les difficultés budgétaires des pays riches fragilisent les économies les plus pauvres",
    "faits": "Dans un article publié le 17 novembre 2026, le *New York Times* analyse comment l'endettement record des grandes puissances économiques pénalise désormais les pays à revenu faible et intermédiaire. Alors que les États-Unis, le Royaume-Uni, la France, l'Italie, la Chine et le Japon affichent des niveaux de dette publique historiques, la hausse des rendements obligataires mondiaux se répercute sur les emprunteurs les plus vulnérables. Selon un rapport de la Banque mondiale publié ce mois-ci, la dette cumulée des pays à revenu faible et intermédiaire a atteint 9 400 milliards de dollars l'an dernier. Les pays les plus pauvres font face à des taux d'intérêt qui n'avaient plus été observés depuis la fin des années 1980. Cette dégradation s'explique par une succession de chocs depuis la pandémie de Covid-19, aggravés par les crises énergétiques et l'inflation liées aux guerres en Ukraine et en Iran.",
    "enjeux": "Cette analyse met en évidence l'interdépendance du **système financier mondial** et les effets d'entraînement de la **politique budgétaire** des pays avancés. Lorsque les grandes économies émettent massivement de la dette, elles absorbent une part croissante de l'épargne mondiale et maintiennent les **taux d'intérêt** à un niveau élevé, exerçant un **effet d'éviction** à l'échelle internationale sur les pays du Sud. Pour les économies en développement, le service de la dette absorbe désormais des ressources vitales au détriment de l'éducation, de la santé et de l'adaptation climatique. Ce déséquilibre relance le débat sur la restructuration des dettes souveraines et la réforme des institutions de Bretton Woods.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg/1280px-11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg",
+    "alt": "Siège du Fonds monétaire international (FMI) à Washington",
+    "credit": "Marek Ślusarczyk (Tupungato) Photo portfolio / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg"
+   },
    "vo": {
     "titre": "Global debt: rich countries' fiscal strains squeeze the poorest nations",
     "faits": "In an article published on 17 November 2026, *The New York Times* examines how record public debt in wealthy nations is compounding financial pressures on low- and middle-income countries. While the United States, Britain, France, Italy, China and Japan all grapple with near-record debt burdens, higher global borrowing costs are spilling over onto vulnerable economies. According to a World Bank report released this month, the combined debt of low- and middle-income nations surged to $9.4 trillion last year. The poorest countries now face interest rates not seen since the late 1980s. A succession of shocks—from the Covid-19 pandemic to energy price spikes and inflation driven by the wars in Ukraine and Iran—has strained budgets worldwide.",
     "enjeux": "This report underscores the interconnectedness of the **global financial system** and the spillover effects of advanced economies' **fiscal policies**. Heavy borrowing by major powers competes for global savings and keeps **borrowing costs** elevated, effectively crowding out poorer nations from affordable credit. For developing economies, rising **debt-servicing costs** divert scarce public funds away from infrastructure, education and climate adaptation. The trend is intensifying calls for faster sovereign debt restructuring and reforms to multilateral lending institutions."
    },
    "vocab": [
-    ["public debt", "la dette publique", "Rising public debt has narrowed fiscal options in both rich and poor nations."],
-    ["borrowing costs", "les coûts d'emprunt", "Higher global borrowing costs hit developing countries hardest."],
-    ["to crowd out", "évincer (effet d'éviction)", "Heavy borrowing by wealthy states can crowd out poorer borrowers."],
-    ["debt-servicing costs", "le service de la dette", "Debt-servicing costs now exceed health spending in several low-income nations."],
-    ["sovereign debt restructuring", "la restructuration de la dette souveraine", "Creditors often struggle to agree on sovereign debt restructuring."],
-    ["spillover effects", "les effets d'entraînement / de débordement", "US interest-rate moves have immediate spillover effects across emerging markets."]
+    [
+     "public debt",
+     "la dette publique",
+     "Rising public debt has narrowed fiscal options in both rich and poor nations."
+    ],
+    [
+     "borrowing costs",
+     "les coûts d'emprunt",
+     "Higher global borrowing costs hit developing countries hardest."
+    ],
+    [
+     "to crowd out",
+     "évincer (effet d'éviction)",
+     "Heavy borrowing by wealthy states can crowd out poorer borrowers."
+    ],
+    [
+     "debt-servicing costs",
+     "le service de la dette",
+     "Debt-servicing costs now exceed health spending in several low-income nations."
+    ],
+    [
+     "sovereign debt restructuring",
+     "la restructuration de la dette souveraine",
+     "Creditors often struggle to agree on sovereign debt restructuring."
+    ],
+    [
+     "spillover effects",
+     "les effets d'entraînement / de débordement",
+     "US interest-rate moves have immediate spillover effects across emerging markets."
+    ]
    ],
    "sujets": [
     "How do the fiscal policies of wealthy nations affect developing economies?",
@@ -290,19 +404,48 @@
    "titre": "États-Unis : une panne informatique chez Chase perturbe les services de plusieurs grandes banques",
    "faits": "Le 16 novembre 2026, des milliers de clients des plus grandes banques américaines, dont JPMorgan Chase, Bank of America, Wells Fargo et US Bank, ont subi d'importantes perturbations de leurs services en ligne, rapporte la BBC. Chase Bank, la première banque des États-Unis avec plus de 86 millions de clients, a indiqué qu'un bug logiciel dans ses systèmes matériels était probablement à l'origine de l'incident et avait affecté d'autres établissements. La banque a assuré que le problème était temporaire et n'était ni systémique ni lié à une cyberattaque. Près de 5 000 signalements ont été recensés sur Downdetector, avec des retards sur les virements, les paiements mobiles et les opérations en agence. Cet incident survient quelques jours après une panne mondiale chez Microsoft et une défaillance réseau ayant immobilisé les vols aériens américains.",
    "enjeux": "Cette succession de pannes met en lumière la **vulnérabilité opérationnelle** d'économies et de systèmes financiers de plus en plus numérisés et interconnectés. Lorsque l'infrastructure de paiement repose sur un petit nombre d'acteurs dominants et de fournisseurs technologiques communs, un incident localisé peut se propager à l'ensemble du **système bancaire**. Si la panne de Chase n'a pas provoqué de crise de liquidité, elle rappelle que la **résilience opérationnelle** est devenue un enjeu majeur de régulation financière, au même titre que les ratios de fonds propres. La confiance des ménages et des entreprises dans les **paiements numériques** dépend directement de la fiabilité de ces réseaux critiques.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/New_York_Stock_Exchange%2C_Wall_Street_1.jpg/1280px-New_York_Stock_Exchange%2C_Wall_Street_1.jpg",
+    "alt": "Bourse de New York sur Wall Street",
+    "credit": "Photograph by Mike Peel (www.mikepeel.net). / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange,_Wall_Street_1.jpg"
+   },
    "vo": {
     "titre": "US: Software glitch at Chase disrupts services across major banks",
     "faits": "On 16 November 2026, thousands of customers at major US banks—including JPMorgan Chase, Bank of America, Wells Fargo and US Bank—experienced widespread disruptions to online and mobile services, the BBC reports. Chase Bank, the largest US lender with more than 86 million customers, said a software bug in its hardware systems may have caused the glitch and spilled over to other institutions. The bank stressed that the outage was temporary and neither systemic nor cyber-related. Nearly 5,000 user reports were logged on Downdetector, with customers unable to complete transfers or deposit checks at branches. The disruption follows a string of major technical failures, including a global Microsoft outage and a network failure that grounded US flights.",
     "enjeux": "This string of disruptions highlights the **operational vulnerability** of highly digitised and interconnected financial systems. When payment infrastructure relies on a handful of dominant banks and shared tech providers, a single technical failure can ripple across the wider **banking sector**. Although the Chase glitch did not trigger a liquidity crisis, it underscores why **operational resilience** has become a central priority for financial regulators alongside capital requirements. Public trust in **digital payments** ultimately rests on the reliability of these critical networks."
    },
    "vocab": [
-    ["a software glitch", "un bug / incident logiciel", "A single software glitch delayed thousands of bank transfers."],
-    ["operational resilience", "la résilience opérationnelle", "Regulators now treat operational resilience as a core banking requirement."],
-    ["a systemic risk", "un risque systémique", "Officials stressed that the technical outage did not pose a systemic risk."],
-    ["wire transfers", "les virements bancaires", "Small businesses complained that wire transfers were delayed for hours."],
-    ["to ripple across", "se propager à travers", "Problems at one major lender can quickly ripple across payment networks."],
-    ["critical infrastructure", "les infrastructures critiques", "Digital payment networks are now considered critical infrastructure."]
+    [
+     "a software glitch",
+     "un bug / incident logiciel",
+     "A single software glitch delayed thousands of bank transfers."
+    ],
+    [
+     "operational resilience",
+     "la résilience opérationnelle",
+     "Regulators now treat operational resilience as a core banking requirement."
+    ],
+    [
+     "a systemic risk",
+     "un risque systémique",
+     "Officials stressed that the technical outage did not pose a systemic risk."
+    ],
+    [
+     "wire transfers",
+     "les virements bancaires",
+     "Small businesses complained that wire transfers were delayed for hours."
+    ],
+    [
+     "to ripple across",
+     "se propager à travers",
+     "Problems at one major lender can quickly ripple across payment networks."
+    ],
+    [
+     "critical infrastructure",
+     "les infrastructures critiques",
+     "Digital payment networks are now considered critical infrastructure."
+    ]
    ],
    "sujets": [
     "Are modern financial systems overly vulnerable to technological failures?",
@@ -328,19 +471,48 @@
    "titre": "Royaume-Uni : un plan contre le chômage des jeunes qui divise le Parti travailliste",
    "faits": "Le 17 novembre 2026, l'ancien ministre travailliste de la Santé Alan Milburn doit publier son rapport très attendu sur le million de jeunes Britanniques qui ne sont ni en emploi, ni en études, ni en formation (NEETs). Ce rapport propose un double volet : d'un côté, plusieurs milliards de livres investis dans des emplois garantis et un accompagnement renforcé ; de l'autre, des coupes dans certaines aides sociales destinées aux moins de 25 ans. Le gouvernement d'Andy Burnham cherche à se démarquer des politiques d'austérité conservatrices en présentant l'inactivité des jeunes comme un « enjeu moral » nécessitant un nouveau contrat social. Toutefois, la perspective de réduire des prestations divise les députés travaillistes, un an après le rejet parlementaire d'une précédente réforme des aides sociales sous Keir Starmer.",
    "enjeux": "Ce débat met en tension deux approches de l'**État-providence** face au chômage et à l'exclusion des jeunes : l'accompagnement par l'investissement dans le **capital humain** et la logique de conditionnalité des aides, dite **workfare**. Pour l'exécutif, le coût économique et social d'un million de jeunes éloignés du marché du travail pèse à la fois sur les finances publiques et sur la croissance future. Mais les critiques soulignent que sanctionner financièrement des jeunes déjà vulnérables, notamment pour des raisons de santé mentale ou de formation insuffisante, risque d'aggraver la pauvreté sans créer d'emplois. Politiquement, ce dossier constitue un test majeur pour l'unité de la majorité travailliste.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/10_Downing_Street_235.jpg/1280px-10_Downing_Street_235.jpg",
+    "alt": "Façade du 10 Downing Street à Londres",
+    "credit": "Gillfoto / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:10_Downing_Street_235.jpg"
+   },
    "vo": {
     "titre": "UK: Youth employment review splits Labour over proposed benefit cuts",
     "faits": "On 17 November 2026, former health secretary Alan Milburn is set to publish his long-awaited review into the one million young people in Britain who are not in education, employment or training (Neets). The report combines billions of pounds in funding for guaranteed jobs and expanded employment support with proposals to cut certain welfare benefits for under-25s. Andy Burnham's government is eager to distinguish its approach from past Conservative austerity, framing youth worklessness as a moral issue requiring a new deal between young people and the state. However, the prospect of reducing welfare payments has sparked unease among Labour MPs, recalling the backbench rebellion that forced Keir Starmer's government to abandon disability benefit cuts last year.",
     "enjeux": "The debate highlights a classic dilemma within the **welfare state**: balancing active investment in **human capital** against stricter **workfare** conditionality. From an economic standpoint, having one million young people detached from the labour market imposes heavy long-term fiscal and productivity costs. Yet critics argue that cutting benefits for vulnerable under-25s—many of whom face mental health barriers or regional skills gaps—risks deepening poverty without addressing the root causes of joblessness. Politically, the review represents a crucial test of Andy Burnham's ability to unite his party behind welfare reform."
    },
    "vocab": [
-    ["welfare benefits", "les prestations sociales", "Cutting welfare benefits for young adults remains politically sensitive for Labour."],
-    ["worklessness", "l'inactivité / l'absence d'emploi", "Long-term youth worklessness carries heavy social and fiscal costs."],
-    ["the welfare state", "l'État-providence", "Reforming the welfare state often pits fiscal discipline against social protection."],
-    ["human capital", "le capital humain", "Training programmes aim to build human capital among school leavers."],
-    ["backbench MPs", "les députés de la majorité sans portefeuille", "Backbench MPs previously blocked government plans to cut disability payments."],
-    ["a safety net", "un filet de sécurité sociale", "Critics warn that benefit cuts weaken the safety net for vulnerable youths."]
+    [
+     "welfare benefits",
+     "les prestations sociales",
+     "Cutting welfare benefits for young adults remains politically sensitive for Labour."
+    ],
+    [
+     "worklessness",
+     "l'inactivité / l'absence d'emploi",
+     "Long-term youth worklessness carries heavy social and fiscal costs."
+    ],
+    [
+     "the welfare state",
+     "l'État-providence",
+     "Reforming the welfare state often pits fiscal discipline against social protection."
+    ],
+    [
+     "human capital",
+     "le capital humain",
+     "Training programmes aim to build human capital among school leavers."
+    ],
+    [
+     "backbench MPs",
+     "les députés de la majorité sans portefeuille",
+     "Backbench MPs previously blocked government plans to cut disability payments."
+    ],
+    [
+     "a safety net",
+     "un filet de sécurité sociale",
+     "Critics warn that benefit cuts weaken the safety net for vulnerable youths."
+    ]
    ],
    "sujets": [
     "Should welfare benefits for young people be conditional on accepting training or employment?",
@@ -366,19 +538,48 @@
    "titre": "Espagne : grève générale dans le secteur ferroviaire pour exiger plus de sécurité",
    "faits": "Le secteur ferroviaire espagnol est appelé ce mardi 17 novembre 2026 à une grève totale de 24 heures, touchant l'opérateur public Renfe, le gestionnaire d'infrastructures Adif ainsi que les concurrents privés Iryo et Ouigo et les opérateurs de fret. Le mouvement est soutenu par l'ensemble des syndicats, tant sectoriels (Semaf) que confédéraux (CCOO, UGT, CGT). Ils exigent un renforcement immédiat de la sécurité et des effectifs de contrôle du trafic après deux graves accidents ferroviaires à Adamuz et Urda qui ont fait 115 morts. Le nouveau ministre des Transports, Carlos Cuerpo, a déjà adopté un décret-loi sur la sécurité et remplacé les dirigeants de Renfe et d'Adif, sans parvenir à éviter la grève. Le ministère a fixé des services minimums à 75 % en heure de pointe pour les trains de banlieue (Cercanías) et à 72 % pour la grande vitesse.",
    "enjeux": "Ce conflit social majeur met en lumière les défis de la **libéralisation du transport ferroviaire** en Espagne et du financement des infrastructures publiques. L'ouverture à la concurrence sur les lignes à grande vitesse a fait baisser les prix et augmenté le trafic, mais les syndicats dénoncent une pression accrue sur le réseau et un sous-investissement dans la maintenance et les effectifs. La grève illustre aussi le poids du **dialogue social** et le rôle du service minimum dans les **services publics essentiels**, où le droit de grève doit être concilié avec la continuité de la mobilité des travailleurs. À moins de deux semaines des élections législatives du 29 novembre, cette crise constitue un test politique délicat pour le gouvernement.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Atocha_railway_station_-_Improvement_works_2026_-_Madrid_01.jpg/1280px-Atocha_railway_station_-_Improvement_works_2026_-_Madrid_01.jpg",
+    "alt": "Gare ferroviaire d'Atocha à Madrid",
+    "credit": "Javier Perez Montes / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Atocha_railway_station_-_Improvement_works_2026_-_Madrid_01.jpg"
+   },
    "vo": {
     "titre": "España: huelga total en el sector ferroviario para exigir más seguridad",
     "faits": "Todo el sector ferroviario español está convocado este martes 17 de noviembre de 2026 a una huelga total de 24 horas que afecta a Renfe, al gestor de infraestructuras Adif, a las operadoras privadas Iryo y Ouigo y al transporte de mercancías. El paro cuenta con el respaldo unánime de los sindicatos sectoriales, como Semaf, y de las grandes centrales CCOO, UGT y CGT. Los trabajadores exigen un refuerzo urgente de la seguridad y de las plantillas de control de tráfico tras los graves accidentes de Adamuz y Urda, que dejaron 115 fallecidos. El nuevo ministro de Transportes, Carlos Cuerpo, ha aprobado un real decreto ley y relevado a las cúpulas de Renfe y Adif, pero las centrales consideran insuficientes sus medidas. El Ministerio ha fijado servicios mínimos del 75 % en hora punta en Cercanías y del 72 % en alta velocidad.",
     "enjeux": "Este conflicto pone de relieve los retos de la **liberalización ferroviaria** en España y de la inversión en infraestructuras públicas. La entrada de nuevos operadores en la alta velocidad ha impulsado el tráfico y reducido los precios, pero los sindicatos denuncian una sobrecarga de la red y falta de personal técnico. La jornada ilustra también la tensión entre el derecho de huelga y la continuidad de los **servicios públicos esenciales** mediante los servicios mínimos. A menos de dos semanas de las elecciones generales del 29 de noviembre, la crisis supone una prueba política delicada para el Gobierno y su capacidad de **diálogo social**."
    },
    "vocab": [
-    ["una huelga total", "une grève générale / totale", "Los sindicatos convocaron una huelga total de veinticuatro horas."],
-    ["los servicios mínimos", "les services minimums", "El Gobierno decretó servicios mínimos para garantizar la movilidad laboral."],
-    ["la plantilla", "les effectifs / le personnel", "Los trabajadores reclaman ampliar la plantilla de controladores ferroviarios."],
-    ["el gestor de infraestructuras", "le gestionnaire d'infrastructures", "Adif actúa como gestor de infraestructuras de toda la red española."],
-    ["los trenes de cercanías", "les trains de banlieue", "Miles de usuarios dependen cada mañana de los trenes de cercanías."],
-    ["el diálogo social", "le dialogue social", "El diálogo social resulta clave para resolver conflictos en el transporte."]
+    [
+     "una huelga total",
+     "une grève générale / totale",
+     "Los sindicatos convocaron una huelga total de veinticuatro horas."
+    ],
+    [
+     "los servicios mínimos",
+     "les services minimums",
+     "El Gobierno decretó servicios mínimos para garantizar la movilidad laboral."
+    ],
+    [
+     "la plantilla",
+     "les effectifs / le personnel",
+     "Los trabajadores reclaman ampliar la plantilla de controladores ferroviarios."
+    ],
+    [
+     "el gestor de infraestructuras",
+     "le gestionnaire d'infrastructures",
+     "Adif actúa como gestor de infraestructuras de toda la red española."
+    ],
+    [
+     "los trenes de cercanías",
+     "les trains de banlieue",
+     "Miles de usuarios dependen cada mañana de los trenes de cercanías."
+    ],
+    [
+     "el diálogo social",
+     "le dialogue social",
+     "El diálogo social resulta clave para resolver conflictos en el transporte."
+    ]
    ],
    "sujets": [
     "¿Debe limitarse el derecho de huelga en los servicios públicos esenciales?",
@@ -404,19 +605,48 @@
    "titre": "Mexique : 17,3 millions de personnes sont sorties de la pauvreté entre 2018 et 2026 selon la Banque mondiale",
    "faits": "En novembre 2026, le gouvernement mexicain a mis en avant les chiffres d'un rapport de la Banque mondiale montrant une forte baisse de la pauvreté monétaire dans le pays, rapporte *El Universal*. Entre 2018 et 2026, 17,3 millions de Mexicains sont sortis de la pauvreté selon le seuil de référence de 8,30 dollars par jour en parité de pouvoir d'achat. La population concernée est ainsi passée de 43,9 millions de personnes en 2018 à 26,6 millions en 2026, faisant reculer le taux de pauvreté de 35,3 % à 20 %. Les autorités fédérales attribuent cette évolution à deux leviers principaux : la hausse soutenue du salaire minimum réel et l'extension des programmes sociaux de transferts directs. Ces résultats placent le Mexique parmi les pays d'Amérique latine ayant enregistré la plus forte réduction de la pauvreté sur la période.",
    "enjeux": "Ce bilan alimente un débat économique majeur en Amérique latine sur l'efficacité respective de la **redistribution directe** et de la hausse du **salaire minimum** pour réduire les inégalités. Au Mexique, l'augmentation continue du salaire minimum depuis 2018 a relevé les bas revenus sans provoquer la poussée du chômage formel souvent redoutée par les économistes orthodoxes. Toutefois, les analystes rappellent que la durabilité de ces progrès dépend de la **productivité** de l'économie, de la réduction du **secteur informel** et de la soutenabilité budgétaire des transferts sociaux à long terme. L'accès aux services publics de santé et d'éducation reste également un défi majeur au-delà du seul revenu monétaire.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg/1280px-Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg",
+    "alt": "Paseo de la Reforma à Mexico",
+    "credit": "Alejandro Islas Photograph AC / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg"
+   },
    "vo": {
     "titre": "México: 17,3 millones de personas salieron de la pobreza entre 2018 y 2026",
     "faits": "En noviembre de 2026, el Gobierno de México destacó un informe del Banco Mundial que refleja una fuerte caída de la pobreza por ingresos en el país, según recoge *El Universal*. Entre 2018 y 2026, 17,3 millones de mexicanos salieron de la pobreza tomando como referencia el umbral de 8,30 dólares diarios en paridad de poder adquisitivo. La población en esa situación pasó de 43,9 millones de personas en 2018 a 26,6 millones en 2026, reduciendo la tasa del 35,3 % al 20 %. Las autoridades federales atribuyen este avance a dos factores centrales: el incremento sostenido del salario mínimo real y la expansión de los programas sociales. Estos datos sitúan a México entre los países de América Latina con mayor reducción de la pobreza en dicho periodo.",
     "enjeux": "Este balance reabre en América Latina el debate sobre la eficacia de las **políticas redistributivas** y de la subida del **salario mínimo** frente a la pobreza. En México, los aumentos salariales desde 2018 elevaron los ingresos bajos sin generar un repunte significativo del desempleo formal. Sin embargo, los economistas advierten de que consolidar estos logros exige elevar la **productividad**, reducir la **informalidad laboral** y garantizar la sostenibilidad fiscal de las ayudas públicas. Además, medir la pobreza solo por ingresos no refleja carencias persistentes en salud o educación."
    },
    "vocab": [
-    ["la pobreza por ingresos", "la pauvreté monétaire", "El Banco Mundial mide la pobreza por ingresos según umbrales internacionales."],
-    ["el salario mínimo", "le salaire mínimo", "La subida del salario mínimo impulsó la renta de los hogares."],
-    ["la informalidad laboral", "le travail informel", "La informalidad laboral sigue limitando el acceso a la seguridad social."],
-    ["la paridad de poder adquisitivo", "la parité de pouvoir d'achat", "Las comparaciones internacionales utilizan la paridad de poder adquisitivo."],
-    ["los programas sociales", "les programmes sociaux", "Los programas sociales ampliaron las transferencias directas a las familias."],
-    ["la sostenibilidad fiscal", "la soutenabilité budgétaire", "El gasto social exige cuidar la sostenibilidad fiscal del Estado."]
+    [
+     "la pobreza por ingresos",
+     "la pauvreté monétaire",
+     "El Banco Mundial mide la pobreza por ingresos según umbrales internacionales."
+    ],
+    [
+     "el salario mínimo",
+     "le salaire mínimo",
+     "La subida del salario mínimo impulsó la renta de los hogares."
+    ],
+    [
+     "la informalidad laboral",
+     "le travail informel",
+     "La informalidad laboral sigue limitando el acceso a la seguridad social."
+    ],
+    [
+     "la paridad de poder adquisitivo",
+     "la parité de pouvoir d'achat",
+     "Las comparaciones internacionales utilizan la paridad de poder adquisitivo."
+    ],
+    [
+     "los programas sociales",
+     "les programmes sociaux",
+     "Los programas sociales ampliaron las transferencias directas a las familias."
+    ],
+    [
+     "la sostenibilidad fiscal",
+     "la soutenabilité budgétaire",
+     "El gasto social exige cuidar la sostenibilidad fiscal del Estado."
+    ]
    ],
    "sujets": [
     "¿Basta con subir el salario mínimo para reducir de forma duradera la pobreza en América Latina?",
@@ -442,19 +672,48 @@
    "titre": "Espagne : le gouvernement durcit les sanctions contre l'opacité salariale des entreprises",
    "faits": "Comme le rapporte *El País* le 17 novembre 2026, le gouvernement espagnol renforce les sanctions contre les entreprises qui dissimulent des informations essentielles sur les contrats ou les rémunérations à leurs salariés. Ce manquement, jusqu'ici qualifié d'infraction légère et sanctionné autour de 750 euros, devient une infraction grave passible d'amendes pouvant atteindre 7 500 euros. Cette réforme s'inscrit dans la transposition des directives européennes sur la transparence salariale et l'égalité de rémunération. Les employeurs devront préciser les critères de fixation des salaires, indiquer les rémunérations initiales dans les offres d'emploi et permettre aux travailleurs de connaître les salaires moyens à poste équivalent. Il leur sera également interdit de demander aux candidats leur historique salarial.",
    "enjeux": "Cette mesure vise à corriger une **asymétrie d'information** sur le marché du travail qui pénalise particulièrement les femmes et les jeunes actifs lors des négociations salariales. En imposant la **transparence salariale**, les pouvoirs publics cherchent à réduire les écarts de rémunération injustifiés sans fixer directement les salaires. Pour les entreprises, ces nouvelles obligations alourdissent les contraintes administratives et de conformité, mais favorisent une concurrence plus loyale pour attirer les talents. Cette réforme confirme la priorité accordée par le gouvernement sortant à la régulation du **marché du travail** avant les élections du 29 novembre.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Paseo_de_la_Castellana_%28Madrid%29_04.jpg/1280px-Paseo_de_la_Castellana_%28Madrid%29_04.jpg",
+    "alt": "Immeubles d'entreprises sur le Paseo de la Castellana à Madrid",
+    "credit": "Enrique Dans from Madrid (Spain). / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Paseo_de_la_Castellana_(Madrid)_04.jpg"
+   },
    "vo": {
     "titre": "España: el Gobierno endurece las sanciones por ocultar información salarial",
     "faits": "Según informa *El País* el 17 de noviembre de 2026, el Gobierno español eleva las multas a las empresas que oculten datos esenciales sobre el contrato o el salario a sus trabajadores. Esta falta, considerada hasta ahora una infracción leve castigada en torno a 750 euros, pasa a tipificarse como infracción grave con sanciones de hasta 7.500 euros. La reforma responde a la adaptación de la normativa europea sobre transparencia retributiva e igualdad salarial. Las compañías estarán obligadas a detallar los criterios de fijación de sueldos, publicar la retribución inicial en las ofertas de empleo y facilitar los salarios medios de puestos equivalentes. Además, quedará prohibido preguntar a los candidatos por su historial retributivo.",
     "enjeux": "Esta medida busca corregir una **asimetría de información** en el mercado laboral que suele perjudicar a las mujeres y a los jóvenes al negociar su sueldo. Al impulsar la **transparencia salarial**, el Ejecutivo pretende reducir la brecha retributiva sin intervenir directamente en la fijación de los salarios. Para el tejido empresarial, la norma supone mayores exigencias de cumplimiento, aunque también fomenta una competencia más justa por el talento. La iniciativa refuerza el perfil regulador del Gobierno en materia laboral a las puertas de las elecciones del 29 de noviembre."
    },
    "vocab": [
-    ["la transparencia salarial", "la transparence salariale", "La transparencia salarial ayuda a detectar discriminaciones en la empresa."],
-    ["la brecha retributiva", "l'écart de rémunération", "La directiva europea pretende reducir la brecha retributiva entre hombres y mujeres."],
-    ["una infracción grave", "une infraction grave", "Ocultar las condiciones del contrato pasa a ser una infracción grave."],
-    ["la oferta de empleo", "l'offre d'emploi", "Cada oferta de empleo deberá indicar la retribución inicial prevista."],
-    ["el historial retributivo", "l'historique salarial", "Las empresas ya no podrán preguntar por el historial retributivo previo."],
-    ["la asimetría de información", "l'asymétrie d'information", "El desconocimiento de los sueldos crea una asimetría de información laboral."]
+    [
+     "la transparencia salarial",
+     "la transparence salariale",
+     "La transparencia salarial ayuda a detectar discriminaciones en la empresa."
+    ],
+    [
+     "la brecha retributiva",
+     "l'écart de rémunération",
+     "La directiva europea pretende reducir la brecha retributiva entre hombres y mujeres."
+    ],
+    [
+     "una infracción grave",
+     "une infraction grave",
+     "Ocultar las condiciones del contrato pasa a ser una infracción grave."
+    ],
+    [
+     "la oferta de empleo",
+     "l'offre d'emploi",
+     "Cada oferta de empleo deberá indicar la retribución inicial prevista."
+    ],
+    [
+     "el historial retributivo",
+     "l'historique salarial",
+     "Las empresas ya no podrán preguntar por el historial retributivo previo."
+    ],
+    [
+     "la asimetría de información",
+     "l'asymétrie d'information",
+     "El desconocimiento de los sueldos crea una asimetría de información laboral."
+    ]
    ],
    "sujets": [
     "¿Es la transparencia salarial una herramienta eficaz para reducir las desigualdades en el trabajo?",
@@ -480,19 +739,48 @@
    "titre": "Espagne : vives tensions entre le gouvernement et le PP autour de la sincérité des comptes publics",
    "faits": "À moins de deux semaines des élections législatives du 29 novembre, une polémique oppose le ministère espagnol des Finances (Hacienda) au Parti populaire (PP), rapporte *El País* le 17 novembre 2026. Le chef de l'opposition, Alberto Núñez Feijóo, a laissé entendre que les comptes publics pourraient cacher un « déficit occulte » ou des engagements budgétaires non déclarés, promettant un audit en cas d'alternance. Le ministère a vivement réagi, jugeant irresponsable de mettre en doute la fiabilité des chiffres officiels sans preuves. Des responsables de l'administration et des auditeurs de l'État ont défendu le travail de l'IGAE, l'organe technique chargé du contrôle de la comptabilité publique. Selon eux, les mécanismes de vérification actuels rendent toute manipulation comptable extrêmement difficile.",
    "enjeux": "Cette passe d'armes illustre la politisation des **finances publiques** en période préélectorale et l'importance de la **crédibilité budgétaire** d'un État membre de la zone euro. Depuis la crise des dettes souveraines de 2010-2012, la transparence comptable est devenue un pilier de la confiance des marchés financiers et de la Commission européenne. Mettre en cause l'indépendance d'organes techniques de contrôle comme l'IGAE risque de fragiliser la **confiance institutionnelle** au-delà des clivages partisans. Ce débat rappelle également le rôle central de la rigueur budgétaire dans la campagne du 29 novembre, alors que l'Espagne affiche une dette publique encore élevée.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Banco_de_Espana_-_Madrid_07.jpg/1280px-Banco_de_Espana_-_Madrid_07.jpg",
+    "alt": "Siège de la Banque d'Espagne à Madrid",
+    "credit": "Javier Perez Montes / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Banco_de_Espana_-_Madrid_07.jpg"
+   },
    "vo": {
     "titre": "España: choque entre Hacienda y el PP por la fiabilidad de las cuentas públicas",
     "faits": "A menos de dos semanas de las elecciones generales del 29 de noviembre, ha estallado una polémica entre el Ministerio de Hacienda y el Partido Popular, informa *El País* el 17 de noviembre de 2026. El líder opositor, Alberto Núñez Feijóo, sugirió que las cuentas públicas podrían ocultar un déficit no declarado y prometió una auditoría si llega al Gobierno. Desde Hacienda rechazaron estas insinuaciones por considerarlas irresponsables y carentes de pruebas. Técnicos y auditores del Estado defendieron la labor de la IGAE, el organismo encargado de supervisar la contabilidad pública. Según estos expertos, los controles actuales hacen prácticamente imposible manipular las cifras oficiales.",
     "enjeux": "Este enfrentamiento muestra cómo las **finanzas públicas** se convierten en arma electoral y subraya el valor de la **credibilidad presupuestaria** en la eurozona. Desde la crisis de deuda de 2010, la transparencia contable resulta esencial para sostener la confianza de los mercados y de Bruselas. Cuestionar la imparcialidad de organismos técnicos como la IGAE puede erosionar la **confianza institucional** más allá del debate partidista. Además, confirma que el control del déficit y de la deuda ocupa un lugar central en la campaña del 29 de noviembre."
    },
    "vocab": [
-    ["las cuentas públicas", "les comptes publics", "La oposición cuestionó la transparencia de las cuentas públicas del Estado."],
-    ["el déficit oculto", "le déficit caché / occulte", "El PP denunció la posible existencia de un déficit oculto."],
-    ["una auditoría", "un audit", "El candidato prometió encargar una auditoría independiente al llegar al poder."],
-    ["la contabilidad pública", "la comptabilidad publique", "La IGAE supervisa la contabilidad pública de todas las administraciones."],
-    ["la credibilidad presupuestaria", "la crédibilité budgétaire", "Los mercados valoran la credibilidad presupuestaria de cada país."],
-    ["la confianza institucional", "la confiance institutionnelle", "Atacar a los órganos técnicos debilita la confianza institucional."]
+    [
+     "las cuentas públicas",
+     "les comptes publics",
+     "La oposición cuestionó la transparencia de las cuentas públicas del Estado."
+    ],
+    [
+     "el déficit oculto",
+     "le déficit caché / occulte",
+     "El PP denunció la posible existencia de un déficit oculto."
+    ],
+    [
+     "una auditoría",
+     "un audit",
+     "El candidato prometió encargar una auditoría independiente al llegar al poder."
+    ],
+    [
+     "la contabilidad pública",
+     "la comptabilidad publique",
+     "La IGAE supervisa la contabilidad pública de todas las administraciones."
+    ],
+    [
+     "la credibilidad presupuestaria",
+     "la crédibilité budgétaire",
+     "Los mercados valoran la credibilidad presupuestaria de cada país."
+    ],
+    [
+     "la confianza institucional",
+     "la confiance institutionnelle",
+     "Atacar a los órganos técnicos debilita la confianza institucional."
+    ]
    ],
    "sujets": [
     "¿Por qué es clave la independencia de los órganos de control presupuestario en democracia?",
@@ -518,19 +806,48 @@
    "titre": "Commerzbank : la Commission européenne approuve sans conditions le rachat par UniCredit",
    "faits": "Le 16 novembre 2026, la Commission européenne a donné son feu vert « sans conditions » au rachat de la banque allemande Commerzbank par le groupe italien UniCredit. Bruxelles a estimé que l'opération ne posait aucun problème de concurrence dans l'Espace économique européen, jugeant les parts de marché cumulées modérées en Allemagne, y compris pour le crédit aux PME du *Mittelstand*. La Banque centrale européenne avait déjà validé le rapprochement à la mi-octobre. UniCredit détient déjà près de la moitié des droits de vote de Commerzbank, après avoir surmonté l'opposition initiale de la direction allemande et de Berlin. L'État fédéral, qui possède encore 12,1 % du capital depuis le sauvetage de 2008, souhaite rester actionnaire et conserver deux représentants au conseil de surveillance.",
    "enjeux": "Cette fusion transfrontalière constitue une étape majeure vers l'achèvement de l'**union bancaire européenne**, longtemps freinée par les réflexes nationaux. Pour la Commission, l'Europe a besoin de banques plus grandes et plus intégrées afin de financer la transition verte et numérique face aux géants américains. En Allemagne, l'opération suscite toutefois de vives inquiétudes quant au financement futur du **Mittelstand** — le cœur du tissu industriel allemand — et aux éventuelles suppressions de postes lors de la restructuration. Le maintien d'une participation publique de 12,1 % illustre le compromis entre **intégration financière** européenne et défense des intérêts stratégiques nationaux.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Frankfurt_Main_Skyline_with_Commerzbank_Tower_-_04.jpg/1280px-Frankfurt_Main_Skyline_with_Commerzbank_Tower_-_04.jpg",
+    "alt": "Tour Commerzbank dans le quartier financier de Francfort-sur-le-Main",
+    "credit": "Norbert Nagel / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Frankfurt_Main_Skyline_with_Commerzbank_Tower_-_04.jpg"
+   },
    "vo": {
     "titre": "EU erlaubt Übernahme der Commerzbank durch UniCredit",
     "faits": "Die EU-Kommission hat am 16. November 2026 eine wichtige Entscheidung getroffen. Sie erlaubt die Übernahme der Commerzbank durch die italienische Bank UniCredit. Die Behörde stellt dafür keine Auflagen. Sie sieht keine Gefahr für den Wettbewerb in Deutschland. Das gilt auch für Kredite an kleine Firmen. Die Europäische Zentralbank hat den Plan schon im Oktober gebilligt. UniCredit besitzt bereits fast die Hälfte der Stimmrechte. Der deutsche Staat hält noch 12,1 Prozent der Anteile. Er will auch nach der Übernahme Aktionär bleiben.",
     "enjeux": "Diese Fusion ist ein großer Schritt für die **europäische Bankenunion**. Europa braucht größere Banken für den Wettbewerb mit den USA. Viele Deutsche haben aber Sorgen um die Kredite für **kleine Firmen**. Auch Arbeitsplätze bei der Commerzbank könnten wegfallen. Die Bundesregierung war lange gegen die Übernahme. Jetzt bleibt der Staat mit zwei Sitzen im Aufsichtsrat vertreten. Das zeigt den Konflikt zwischen **europäischer Integration** und nationalen Interessen."
    },
    "vocab": [
-    ["die Übernahme", "le rachat / l'acquisition", "Die EU-Kommission hat die Übernahme erlaubt."],
-    ["ohne Auflagen", "sans conditions", "Brüssel gab der Bank grünes Licht ohne Auflagen."],
-    ["der Marktanteil", "la part de marché", "Beide Banken haben zusammen einen kleinen Marktanteil."],
-    ["kleine Firmen", "les petites entreprises / PME", "Viele kleine Firmen in Deutschland brauchen Kredite."],
-    ["der Aufsichtsrat", "le conseil de surveillance", "Der Staat behält zwei Sitze im Aufsichtsrat."],
-    ["die Bankenunion", "l'union bancaire", "Die Bankenunion soll das europäische Finanzsystem stärken."]
+    [
+     "die Übernahme",
+     "le rachat / l'acquisition",
+     "Die EU-Kommission hat die Übernahme erlaubt."
+    ],
+    [
+     "ohne Auflagen",
+     "sans conditions",
+     "Brüssel gab der Bank grünes Licht ohne Auflagen."
+    ],
+    [
+     "der Marktanteil",
+     "la part de marché",
+     "Beide Banken haben zusammen einen kleinen Marktanteil."
+    ],
+    [
+     "kleine Firmen",
+     "les petites entreprises / PME",
+     "Viele kleine Firmen in Deutschland brauchen Kredite."
+    ],
+    [
+     "der Aufsichtsrat",
+     "le conseil de surveillance",
+     "Der Staat behält zwei Sitze im Aufsichtsrat."
+    ],
+    [
+     "die Bankenunion",
+     "l'union bancaire",
+     "Die Bankenunion soll das europäische Finanzsystem stärken."
+    ]
    ],
    "sujets": [
     "Braucht Europa große grenzüberschreitende Banken für den globalen Wettbewerb?",
@@ -546,19 +863,48 @@
    "titre": "Coalition allemande : Merz cherche cinq milliards d'euros pour baisser la taxe sur l'électricité",
    "faits": "Réunis le 17 novembre 2026 en comité de coalition à la chancellerie à Berlin, les dirigeants de la CDU/CSU et du SPD doivent trancher plusieurs dossiers budgétaires sensibles, rapporte *Tagesschau*. Bien que le budget 2027 soit déjà adopté, le chancelier Friedrich Merz et le chef de la CSU Markus Söder ont promis d'étendre aux ménages la baisse de la taxe sur l'électricité (*Stromsteuer*), jusqu'ici réservée à l'industrie, au commerce et à l'agriculture. Cette mesure représenterait une économie de 70 à 90 euros par an pour un foyer de trois personnes, mais coûterait au moins cinq milliards d'euros par an à l'État fédéral. Or, cette somme n'est pas inscrite au budget 2027 et le ministère des Finances dirigé par le SPD ignore comment la financer. La réforme des retraites et la compensation de la progression fiscale froide figurent également à l'ordre du jour.",
    "enjeux": "Cette crise au sommet de la coalition « noire-rouge » illustre la contrainte sévère imposée par les **règles budgétaires** allemandes sur les promesses politiques. Après la chute de la coalition précédente sur des désaccords budgétaires, Friedrich Merz joue sa **crédibilité** politique sur sa capacité à alléger les factures d'énergie des ménages sans creuser le déficit. Sur le plan économique, le débat oppose le soutien au **pouvoir d'achat** à la rigueur des finances publiques. L'absence de financement clair montre combien il est difficile de concilier baisse d'impôts, transition énergétique et financement des **retraites** en Allemagne.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_04.jpg/1280px-Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_04.jpg",
+    "alt": "Chancellerie fédérale (Bundeskanzleramt) à Berlin",
+    "credit": "Norbert Nagel / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_04.jpg"
+   },
    "vo": {
     "titre": "Koalition sucht Milliarden für niedrigere Stromsteuer",
     "faits": "Am 17. November 2026 trifft sich der Koalitionsausschuss in Berlin. CDU, CSU und SPD streiten dort über wichtige Geldfragen. Der Bundeshaushalt für 2027 ist zwar schon fertig. Trotzdem wollen Friedrich Merz und Markus Söder die Stromsteuer senken. Bisher zahlen nur Firmen und Bauern weniger Stromsteuer. Jetzt sollen auch private Haushalte 70 bis 90 Euro pro Jahr sparen. Das kostet den Staat aber mindestens fünf Milliarden Euro im Jahr. Das Finanzministerium weiß noch nicht, woher das Geld kommen soll.",
     "enjeux": "Dieser Streit zeigt die engen Grenzen für den **Bundeshaushalt**. Die letzte Regierung ist genau an solchen Geldfragen gescheitert. Kanzler Merz will seine Versprechen an die Bürger halten. Sonst verliert seine Regierung an **Glaubwürdigkeit**. Auf der einen Seite brauchen die Familien Entlastung bei den Energiekosten. Auf der anderen Seite darf der Staat nicht zu viele neue Schulden machen. Auch bei der **Rente** muss die Koalition noch schwere Kompromisse finden."
    },
    "vocab": [
-    ["die Stromsteuer", "la taxe sur l'électricité", "Die Regierung will die Stromsteuer für Haushalte senken."],
-    ["der Bundeshaushalt", "le budget fédéral", "Im Bundeshaushalt fehlen fünf Milliarden Euro für das Projekt."],
-    ["die Entlastung", "l'allègement (fiscal ou financier)", "Viele Familien warten auf eine Entlastung bei den Preisen."],
-    ["die Glaubwürdigkeit", "la crédibilité", "Unklare Pläne schaden der Glaubwürdigkeit der Politik."],
-    ["die Schulden", "les dettes", "Die Koalition will keine hohen neuen Schulden machen."],
-    ["der Kompromiss", "le compromis", "CDU und SPD suchen einen Kompromiss für die Rente."]
+    [
+     "die Stromsteuer",
+     "la taxe sur l'électricité",
+     "Die Regierung will die Stromsteuer für Haushalte senken."
+    ],
+    [
+     "der Bundeshaushalt",
+     "le budget fédéral",
+     "Im Bundeshaushalt fehlen fünf Milliarden Euro für das Projekt."
+    ],
+    [
+     "die Entlastung",
+     "l'allègement (fiscal ou financier)",
+     "Viele Familien warten auf eine Entlastung bei den Preisen."
+    ],
+    [
+     "die Glaubwürdigkeit",
+     "la crédibilité",
+     "Unklare Pläne schaden der Glaubwürdigkeit der Politik."
+    ],
+    [
+     "die Schulden",
+     "les dettes",
+     "Die Koalition will keine hohen neuen Schulden machen."
+    ],
+    [
+     "der Kompromiss",
+     "le compromis",
+     "CDU und SPD suchen einen Kompromiss für die Rente."
+    ]
    ],
    "sujets": [
     "Kann der deutsche Staat gleichzeitig Steuern senken und Schulden begrenzen?",
@@ -574,19 +920,48 @@
    "titre": "« Inside Deutsche Bank » : une fuite géante révèle de graves défaillances de contrôle interne",
    "faits": "Le 17 novembre 2026, un consortium international de plus de 50 médias, dont *Der Spiegel*, *Le Monde*, le *New York Times* et le *Financial Times*, a publié l'enquête « Inside Deutsche Bank ». Des lanceurs d'alerte ont transmis aux journalistes et aux autorités américaines plus de 15 millions de documents internes issus des services de contrôle et de gestion des risques de la première banque allemande. Ces archives montrent que des experts internes ont alerté à plusieurs reprises sur des risques de blanchiment d'argent, de corruption et de violation de sanctions, notamment avec des oligarques russes après 2014. Selon l'enquête, la direction a souvent ignoré ces avertissements pour préserver des affaires lucratives avec des clients influents, dont Jeffrey Epstein ou Donald Trump. La Deutsche Bank assure avoir profondément changé et investi sept milliards d'euros dans ses contrôles entre 2019 et 2025.",
    "enjeux": "Ce scandale pose la question de l'efficacité de la **supervision bancaire** et du respect des règles de conformité (*compliance*) dans les grandes banques européennes. Il met en lumière le conflit d'intérêts classique entre recherche de rentabilité à court terme et maîtrise du **risque de réputation** et juridique. Pour l'Allemagne, cette affaire fragilise l'image de sa place financière à Francfort au moment où elle cherche à attirer des capitaux internationaux. Elle relance aussi le débat sur la protection des **lanceurs d'alerte** et le renforcement des sanctions contre le **blanchiment d'argent** en Europe.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Deutsche_Bank_neue_Fassade.jpg/1280px-Deutsche_Bank_neue_Fassade.jpg",
+    "alt": "Tours jumelles de la Deutsche Bank à Francfort-sur-le-Main",
+    "credit": "Thomas Wolf (Der Wolf im Wald) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Deutsche_Bank_neue_Fassade.jpg"
+   },
    "vo": {
     "titre": "Datenleak belastet die Deutsche Bank schwer",
     "faits": "Am 17. November 2026 haben über 50 Medien große Recherchen veröffentlicht. Darunter sind der *Spiegel*, *Le Monde* und das ZDF. Hinweisgeber haben über 15 Millionen geheime Dokumente der Deutschen Bank weitergegeben. Die Papiere stammen aus den Kontrollabteilungen der größten deutschen Bank. Sie zeigen viele Warnungen vor Geldwäsche und Verstößen gegen Sanktionen. Trotz dieser Warnungen machte die Bank weiter Geschäfte mit russischen Oligarchen. Auch Verbindungen zu Jeffrey Epstein und Donald Trump werden beschrieben. Die Bank sagt, sie habe seit 2019 sieben Milliarden Euro in Kontrollen investiert.",
     "enjeux": "Dieser Skandal zeigt große Schwächen bei der **Bankenkontrolle** in Deutschland. Oft war der schnelle Gewinn wichtiger als die Sicherheit vor **Geldwäsche**. Das schadet dem Ruf der deutschen Wirtschaft und des Finanzplatzes Frankfurt. Experten fordern nun strengere Regeln für große Banken. Außerdem zeigt der Fall die wichtige Rolle von **Hinweisgebern** für die Demokratie. Die Politik muss klären, wie solche Fehler in Zukunft verhindert werden."
    },
    "vocab": [
-    ["die Geldwäsche", "le blanchiment d'argent", "Banken müssen strenge Regeln gegen Geldwäsche beachten."],
-    ["der Hinweisgeber", "le lanceur d'alerte", "Ein Hinweisgeber hat die geheimen Akten an Journalisten gegeben."],
-    ["die Kontrollabteilung", "le service de contrôle interne", "Die Kontrollabteilung warnte früh vor riskanten Kunden."],
-    ["die Sanktionen", "les sanctions", "Nach 2014 galten strenge Sanktionen gegen Russland."],
-    ["der Skandal", "le scandale", "Der Skandal beschädigt das Vertrauen in die Bank."],
-    ["der Ruf", "la réputation", "Die Affäre schadet dem Ruf des Finanzplatzes Frankfurt."]
+    [
+     "die Geldwäsche",
+     "le blanchiment d'argent",
+     "Banken müssen strenge Regeln gegen Geldwäsche beachten."
+    ],
+    [
+     "der Hinweisgeber",
+     "le lanceur d'alerte",
+     "Ein Hinweisgeber hat die geheimen Akten an Journalisten gegeben."
+    ],
+    [
+     "die Kontrollabteilung",
+     "le service de contrôle interne",
+     "Die Kontrollabteilung warnte früh vor riskanten Kunden."
+    ],
+    [
+     "die Sanktionen",
+     "les sanctions",
+     "Nach 2014 galten strenge Sanktionen gegen Russland."
+    ],
+    [
+     "der Skandal",
+     "le scandale",
+     "Der Skandal beschädigt das Vertrauen in die Bank."
+    ],
+    [
+     "der Ruf",
+     "la réputation",
+     "Die Affäre schadet dem Ruf des Finanzplatzes Frankfurt."
+    ]
    ],
    "sujets": [
     "Brauchen große Banken in Deutschland eine strengere staatliche Kontrolle?",
@@ -602,19 +977,48 @@
    "titre": "Énergies renouvelables : des économistes alertent sur des dizaines de milliards de surcoûts",
    "faits": "Le 17 novembre 2026, *Die Zeit* relaie l'avertissement lancé par un collectif de 26 économistes et chercheurs en énergie, dont Clemens Fuest, Monika Schnitzer et Veronika Grimm, face au projet de réforme de la loi sur les énergies renouvelables (EEG). Les scientifiques critiquent le compromis qui se dessine entre la CDU/CSU et le SPD pour étendre les subventions au biogaz et maintenir des tarifs garantis pour les petits panneaux solaires sur toiture. Selon leurs calculs, l'extension prévue du biogaz pourrait coûter environ 50 milliards d'euros supplémentaires sur vingt ans au budget fédéral. Ils estiment que ces deux filières figurent parmi les moyens les plus coûteux de produire de l'électricité. Les économistes reprochent au gouvernement de céder à des intérêts particuliers au lieu de réduire les coûts de la transition énergétique.",
    "enjeux": "Cette controverse met en lumière les dilemmes de la **transition énergétique** allemande (*Energiewende*) entre objectifs climatiques et **efficacité économique**. En subventionnant des technologies coûteuses sans tenir compte du prix du marché de l'électricité, l'État alourdit le **budget fédéral** et la facture énergétique globale. Pour les économistes, une politique climatique rationnelle doit privilégier la réduction de CO₂ au moindre coût grâce à la concurrence technologique et au prix du carbone. Ce débat illustre aussi le poids des lobbys locaux et agricoles dans la politique énergétique de l'Allemagne.",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Nordsee_One_Offshore_Windpark.jpg/1280px-Nordsee_One_Offshore_Windpark.jpg",
+    "alt": "Parc éolien offshore en mer du Nord",
+    "credit": "Capmat007 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nordsee_One_Offshore_Windpark.jpg"
+   },
    "vo": {
     "titre": "Ökonomen warnen vor hohen Kosten bei Ökostrom",
     "faits": "Am 17. November 2026 berichten Medien über eine Warnung von 26 deutschen Ökonomen. Zu der Gruppe gehören bekannte Forscher wie Clemens Fuest und Monika Schnitzer. Sie kritisieren die geplante Reform für erneuerbare Energien in Deutschland. Union und SPD wollen mehr Geld für Biogas und kleine Solaranlagen geben. Laut den Forschern könnte die Biogas-Förderung in 20 Jahren 50 Milliarden Euro extra kosten. Beide Stromarten sind nach ihrer Meinung viel zu teuer. Die Ökonomen fordern von der Regierung ein Ende dieser teuren Subventionen.",
     "enjeux": "Dieser Streit zeigt ein Grundproblem der deutschen **Energiewende**. Der Klimaschutz soll schnell gehen, aber die Kosten für den **Staatshaushalt** steigen stark. Viele Experten wünschen sich mehr **Wirtschaftlichkeit** bei der Stromproduktion. Der Staat sollte nur die günstigsten grünen Technologien fördern. Politische Kompromisse schützen aber oft einzelne Gruppen statt der Steuerzahler. So bleibt Strom in Deutschland für Bürger und Firmen teuer."
    },
    "vocab": [
-    ["erneuerbare Energien", "les énergies renouvelables", "Deutschland investiert viel Geld in erneuerbare Energien."],
-    ["die Subvention", "la subvention", "Ökonomen kritisieren zu hohe Subventionen für teuren Strom."],
-    ["die Energiewende", "la transition énergétique", "Die Energiewende kostet den Staat und die Bürger viel Geld."],
-    ["die Wirtschaftlichkeit", "l'efficacité économique / la rentabilité", "Bei neuen Gesetzen fordern Forscher mehr Wirtschaftlichkeit."],
-    ["der Steuerzahler", "le contribuable", "Am Ende zahlen die Steuerzahler für teure politische Kompromisse."],
-    ["die Förderung", "l'aide / le soutien financier", "Die Förderung für Biogas soll stark steigen."]
+    [
+     "erneuerbare Energien",
+     "les énergies renouvelables",
+     "Deutschland investiert viel Geld in erneuerbare Energien."
+    ],
+    [
+     "die Subvention",
+     "la subvention",
+     "Ökonomen kritisieren zu hohe Subventionen für teuren Strom."
+    ],
+    [
+     "die Energiewende",
+     "la transition énergétique",
+     "Die Energiewende kostet den Staat und die Bürger viel Geld."
+    ],
+    [
+     "die Wirtschaftlichkeit",
+     "l'efficacité économique / la rentabilité",
+     "Bei neuen Gesetzen fordern Forscher mehr Wirtschaftlichkeit."
+    ],
+    [
+     "der Steuerzahler",
+     "le contribuable",
+     "Am Ende zahlen die Steuerzahler für teure politische Kompromisse."
+    ],
+    [
+     "die Förderung",
+     "l'aide / le soutien financier",
+     "Die Förderung für Biogas soll stark steigen."
+    ]
    ],
    "sujets": [
     "Ist die deutsche Energiewende für den Staat zu teuer geworden?",
