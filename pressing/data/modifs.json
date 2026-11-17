@@ -28,7 +28,8 @@
    "matiere": "esh",
    "image": null,
    "dossiers": [
-    "IA"
+    "IA",
+    "Emplois"
    ]
   },
   "2026-11-17-esh-2": {
@@ -56,8 +57,9 @@
   }
  },
  "dossiers": [
+  "Emplois",
   "IA",
   "politique espagnole"
  ],
- "favsMaj": 1794942043132
+ "favsMaj": 1794942050227
 }
