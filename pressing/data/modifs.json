@@ -3,10 +3,84 @@
  "caches": {},
  "edits": {
   "txt|cg/auteurs|17m17uk": "Les penseurs du thème \"L'humanité\"",
-  "debats/ch1-1/0-1|Dépasser": "<p class=\"dbf-ti\">Le point de départ compte, la politique fait le reste</p><div class=\"dbf-sp\"><h3>Des avantages construits sous contrainte</h3><div class=\"dbf-body\" tabindex=\"0\"><div class=\"dbf-arg\"><p>Les dotations initiales limitent ce qu'un pays peut faire à court terme : on ne passe pas du cacao aux semi-conducteurs en quelques années. Mais l'État peut accélérer la construction des avantages : protection éducatrice de <span class=\"a\">List</span> (<span class=\"d\">1841</span>), politiques industrielles coréennes et chinoises. Les avantages comparatifs deviennent alors un objectif de politique économique, et non plus une donnée.</p></div></div></div>"
+  "debats/ch1-1/0-1|Dépasser": "<p class=\"dbf-ti\">Le point de départ compte, la politique fait le reste</p><div class=\"dbf-sp\"><h3>Des avantages construits sous contrainte</h3><div class=\"dbf-body\" tabindex=\"0\"><div class=\"dbf-arg\"><p>Les dotations initiales limitent ce qu'un pays peut faire à court terme : on ne passe pas du cacao aux semi-conducteurs en quelques années. Mais l'État peut accélérer la construction des avantages : protection éducatrice de <span class=\"a\">List</span> (<span class=\"d\">1841</span>), politiques industrielles coréennes et chinoises. Les avantages comparatifs deviennent alors un objectif de politique économique, et non plus une donnée.</p></div></div></div>",
+  "txt|cg|1l5tavr": "L'Humanité"
  },
  "ajouts": {
   "refs": [],
   "fiches": {}
- }
+ },
+ "favs": {
+  "2026-11-02-espagnol-1": {
+   "titre": "Au forum de Barcelone, Pedro Sánchez affirme que « l'Espagne ne se gouverne ni depuis Washington, ni depuis Moscou ou Buenos Aires »",
+   "matiere": "espagnol",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg/1280px-Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg",
+    "alt": "Le président du gouvernement espagnol Pedro Sánchez au palais de la Moncloa"
+   },
+   "dossiers": [
+    "politique espagnole"
+   ]
+  },
+  "2026-11-14-espagnol-3": {
+   "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
+   "matiere": "espagnol",
+   "image": null,
+   "dossiers": [
+    "Amérique Latine"
+   ]
+  },
+  "2026-11-17-esh-1": {
+   "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
+   "matiere": "esh",
+   "image": null,
+   "dossiers": [
+    "IA",
+    "Emplois"
+   ]
+  },
+  "2026-11-17-esh-2": {
+   "titre": "Les dépenses de défense soutiennent la croissance économique en Europe de l'Est",
+   "matiere": "esh",
+   "image": null,
+   "dossiers": [
+    "Économie"
+   ]
+  },
+  "2026-11-17-anglais-1": {
+   "titre": "Royaume-Uni : Andy Burnham juge que « le Brexit n'a pas fonctionné » et vise un nouvel accord avec l'UE",
+   "matiere": "anglais",
+   "dossiers": [
+    "UK"
+   ],
+   "image": null
+  },
+  "2026-11-17-anglais-2": {
+   "titre": "Dette mondiale : les difficultés budgétaires des pays riches fragilisent les économies les plus pauvres",
+   "matiere": "anglais",
+   "dossiers": [
+    "Économie"
+   ],
+   "image": null
+  },
+  "2026-11-17-anglais-4": {
+   "titre": "Royaume-Uni : un plan contre le chômage des jeunes qui divise le Parti travailliste",
+   "matiere": "anglais",
+   "dossiers": [
+    "UK"
+   ],
+   "image": null
+  }
+ },
+ "dossiers": [
+  "Amérique Latine",
+  "Économie",
+  "Emplois",
+  "IA",
+  "politique espagnole",
+  "UK",
+  "UK/Brexit",
+  "UK/Emplois"
+ ],
+ "favsMaj": 1794943073263
 }

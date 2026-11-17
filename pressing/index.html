@@ -545,6 +545,99 @@ section:first-child > .cat-head { padding-top: 28px; }
   .row { grid-template-columns: 96px minmax(0, 1fr); gap: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { .choice { transition: none; } }
+.fd-page { padding-bottom: 40px; }
+.fd-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 14px; margin-top: 8px; }
+@media (min-width: 700px) { .fd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 22px; } }
+@media (min-width: 1000px) { .fd-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.fd-tile { display: flex; flex-direction: column; gap: 4px; color: var(--fg); text-align: left; background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
+.fd-cover { aspect-ratio: 4 / 5; display: grid; gap: 2px; overflow: hidden; background: var(--soft); margin-bottom: 8px; transition: opacity .25s; }
+.fd-tile:hover .fd-cover { opacity: .85; }
+.fd-cover.n2 { grid-template-columns: 1fr 1fr; }
+.fd-cover.n3, .fd-cover.n4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+.fd-cover.n3 > :first-child { grid-row: span 2; }
+.fd-v { width: 100%; height: 100%; min-height: 0; overflow: hidden; }
+.fd-cover img, .fd-img img { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 0; }
+.fd-ph { width: 100%; height: 100%; min-height: 0; display: flex; align-items: flex-end; padding: 8px; box-sizing: border-box; }
+.fd-ph:not([data-m]) { background: var(--soft); }
+.fd-ph span { font-stretch: 70%; font-weight: 700; font-size: 14px; text-transform: uppercase; line-height: .9; }
+.fd-ph.vide { align-items: center; justify-content: center; border: 1px dashed var(--line); background: none; }
+.fd-ph.vide span { font-size: 34px; font-weight: 300; color: var(--muted); }
+.fd-nom { font-size: 16px; font-weight: 500; line-height: 1.25; }
+.fd-tools { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; margin: -4px 0 22px; }
+.fd-prods { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 14px; }
+@media (min-width: 700px) { .fd-prods { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 44px 22px; } }
+@media (min-width: 1000px) { .fd-prods { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.fd-prod { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.fd-prod > a { display: flex; flex-direction: column; gap: 5px; color: var(--fg); }
+.fd-img { aspect-ratio: 4 / 5; overflow: hidden; background: var(--soft); margin-bottom: 6px; }
+.fd-img img { transition: transform .5s ease; }
+.fd-prod > a:hover .fd-img img { transform: scale(1.03); }
+.fd-prod h3 { margin: 0; font-size: 14.5px; font-weight: 500; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.fd-tags { color: var(--accent); }
+.fd-ranger { align-self: flex-start; margin-top: 2px; }
+.fd-add { display: flex; gap: 8px; }
+.fd-add input { flex: 1; min-width: 0; }
+.fd-sheet-bg { position: fixed; inset: 0; z-index: 60; background: rgba(0,0,0,.35); display: flex; align-items: flex-end; justify-content: center; }
+.fd-sheet { background: var(--bg); color: var(--fg); width: 100%; max-width: 520px; max-height: 80vh; overflow: auto; padding: 22px 20px calc(22px + env(safe-area-inset-bottom, 0px)); display: flex; flex-direction: column; gap: 12px; box-sizing: border-box; }
+@media (min-width: 700px) { .fd-sheet-bg { align-items: center; } }
+.fd-sheet h3 { margin: 0 0 4px; font-size: 17px; font-weight: 500; line-height: 1.3; }
+.fd-check { display: flex; gap: 10px; align-items: center; font-size: 15px; cursor: pointer; }
+.fd-check input { width: 18px; height: 18px; accent-color: var(--accent); }
+.fd-ok { align-self: flex-end; }
+.fd-prod { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; cursor: grab; }
+.fd-prod img { -webkit-user-drag: none; pointer-events: none; }
+.fd-drag-src { opacity: .35; }
+.fd-press .fd-img { transform: scale(.97); transition: transform .35s; }
+.fd-astuce { text-transform: none; letter-spacing: 0; font-size: 13px; }
+body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
+.fd-ghost { position: fixed; left: 0; top: 0; width: 80px; aspect-ratio: 4 / 5; z-index: 80; pointer-events: none; box-shadow: 0 12px 30px rgba(0,0,0,.3); overflow: hidden; opacity: .92; }
+.fd-ghost .fd-ph span { font-size: 10px; }
+.fd-drop-panel { position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; background: var(--bg); border-top: 1px solid var(--fg); padding: 14px 16px calc(16px + env(safe-area-inset-bottom, 0px)); max-height: 42vh; overflow: auto; display: flex; flex-direction: column; gap: 10px; }
+.fd-drop-list { display: flex; flex-direction: column; gap: 6px; }
+.fd-drop-chip { border: 1px solid var(--line); padding: 12px 14px; }
+.fd-drop-chip.fd-over, .fd-tile.fd-over .fd-cover { outline: 2px solid var(--accent); outline-offset: 2px; }
+.fd-drop-chip.fd-over { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); outline: 0; }
+.fd-glwrap { position: relative; isolation: isolate; margin-top: 10px; }
+.fd-glwrap-s { margin: 4px 0 34px; }
+.fd-blobs { position: absolute; inset: -30px -10px; z-index: -1; pointer-events: none; }
+.fd-blobs i { position: absolute; border-radius: 50%; filter: blur(48px); }
+.fd-blobs i:nth-child(1) { width: 38%; height: 70%; left: 4%; top: 8%; background: rgba(110,106,100,.28); }
+.fd-blobs i:nth-child(2) { width: 34%; height: 65%; left: 42%; top: 30%; background: rgba(150,144,136,.38); }
+.fd-blobs i:nth-child(3) { width: 30%; height: 60%; right: 2%; top: 0; background: rgba(195,188,178,.42); }
+.fd-glwrap-s .fd-blobs { inset: -20px 0; }
+.fd-glgrid { gap: 22px 16px; }
+@media (min-width: 700px) { .fd-glgrid { gap: 28px 24px; } }
+.fd-item { display: block; color: var(--fg); -webkit-tap-highlight-color: transparent; }
+.fd-gl, .fd-mini { position: relative; color: var(--fg);
+  background: rgba(255,255,255,.22);
+  -webkit-backdrop-filter: blur(20px) saturate(160%); backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255,255,255,.55);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 10px 30px -18px rgba(20,20,18,.28);
+  transition: transform .6s cubic-bezier(.3,1.7,.45,1), background .3s; will-change: transform; }
+.fd-gl { display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; aspect-ratio: 4 / 5; border-radius: 26px; padding: 18px; }
+.fd-gl-n { font-size: 17px; font-weight: 500; line-height: 1.2; letter-spacing: -0.01em; }
+.fd-gl-c { color: var(--fg); opacity: .6; }
+.fd-item:hover .fd-gl, .fd-mini:hover { transform: translateY(-7px) scale(1.025); background: rgba(255,255,255,.3); }
+.fd-mini:hover { transform: translateY(-3px) scale(1.03); }
+.fd-item:active .fd-gl, .fd-mini:active { transform: scale(.98); transition-duration: .12s; }
+.fd-mini { display: inline-flex; align-items: center; padding: 11px 18px; border-radius: 99px; }
+.fd-mini-t { display: flex; align-items: baseline; gap: 8px; font-size: 15px; font-weight: 500; }
+.fd-minis { position: relative; display: flex; flex-wrap: wrap; gap: 12px; }
+.fd-item.fd-over .fd-gl, .fd-mini.fd-over { outline: 2px solid var(--accent); outline-offset: 3px; transform: scale(1.03); }
+.fd-item.fd-boing .fd-gl, .fd-mini.fd-boing { animation: fd-boing .35s ease-out; }
+@keyframes fd-boing { 0% { transform: scale(1); } 40% { transform: scale(.97); } 75% { transform: scale(1.01); } 100% { transform: scale(1); } }
+:root[data-theme="dark"] .fd-gl, :root[data-theme="dark"] .fd-mini { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 10px 30px -18px rgba(0,0,0,.8); }
+:root[data-theme="dark"] .fd-blobs i:nth-child(1) { background: rgba(255,255,255,.10); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .fd-gl, :root:not([data-theme="light"]) .fd-mini { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 10px 30px -18px rgba(0,0,0,.8); }
+  :root:not([data-theme="light"]) .fd-blobs i:nth-child(1) { background: rgba(255,255,255,.10); } }
+@media (prefers-reduced-motion: reduce) { .fd-boing .fd-gl, .fd-mini.fd-boing { animation: none; } .fd-gl, .fd-mini { transition: none; } }
+.fd-new-btn { border: 1px dashed var(--line); background: none; color: var(--muted); padding: 8px 12px; cursor: pointer; font: inherit; }
+.fd-new-btn:hover { color: var(--fg); border-color: var(--fg); }
+.fd-page .fd-glwrap + .fd-tools { margin: 30px 0 0; }
+.fd-mini-img { width: 36px; height: 44px; overflow: hidden; background: var(--soft); flex: none; }
+.fd-mini-img .fd-ph span { display: none; }
+.fd-mini-t { display: flex; align-items: baseline; gap: 8px; font-size: 15px; font-weight: 500; }
+.fd-h2 { margin: 36px 0 18px; padding-top: 22px; border-top: 1px solid var(--line); }
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -615,6 +708,8 @@ section:first-child > .cat-head { padding-top: 28px; }
   function load(k, f) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : f; } catch (e) { return f; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   let favs = load("pressing:favs", {});
+  let dossiers = load("pressing:dossiers", []), favsMaj = load("pressing:favsMaj", 0);
+  function saveFavs(msg) { favsMaj = Date.now(); save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (EDIT()) persist(msg || "Favoris"); }
   let lues = load("pressing:lues", {});
   // Modifications partagées : enregistrées dans data/modifs.json sur GitHub, visibles par tous
   let notes = {}, caches = {}, edits = {}, ajouts = { refs: [], fiches: {} };
@@ -636,7 +731,7 @@ section:first-child > .cat-head { padding-top: 28px; }
       for (let essai = 0; essai < 2; essai++) {
         const g = await fetch(url + "?ref=main&t=" + Date.now(), { headers: H, cache: "no-store" });
         const sha = g.ok ? (await g.json()).sha : undefined;
-        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, caches, edits, ajouts }, null, 1)), sha: sha, branch: "main" }) });
+        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, caches, edits, ajouts, favs, dossiers, favsMaj }, null, 1)), sha: sha, branch: "main" }) });
         if (r.ok) { toast("Publié · visible par tous d'ici quelques minutes"); break; }
         if (r.status === 401 || r.status === 403) { toast("Clé GitHub refusée : vérifie-la dans Mes notes"); break; }
         if (essai === 1) toast("Publication impossible, réessaie");
@@ -645,7 +740,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     ghBusy = false; if (ghAgain) { ghAgain = false; ghPush(msg); }
   }
   async function loadModifs() {
-    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); notes = m.notes || {}; caches = m.caches || {}; edits = m.edits || {}; ajouts = m.ajouts || ajouts; } catch (e) {}
+    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); notes = m.notes || {}; caches = m.caches || {}; edits = m.edits || {}; ajouts = m.ajouts || ajouts; if (EDIT() && (m.favsMaj || 0) > favsMaj) { const anciens = favsMaj ? {} : favs; favs = Object.assign({}, anciens, m.favs || {}); dossiers = m.dossiers || []; favsMaj = m.favsMaj; save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (Object.keys(anciens).some(k => !(m.favs || {})[k])) saveFavs("Favoris : fusionne un appareil"); } else if (EDIT() && !favsMaj && Object.keys(favs).length) saveFavs("Favoris : premier envoi"); } catch (e) {}
     if (EDIT()) { const c = load("pressing:copie", null); if (c) { notes = Object.assign({}, notes, c.notes); caches = Object.assign({}, caches, c.caches); edits = Object.assign({}, edits, c.edits); if (c.ajouts) ajouts = { refs: ajouts.refs.concat((c.ajouts.refs || []).filter(x => !ajouts.refs.some(y => y.id === x.id))), fiches: Object.assign({}, ajouts.fiches, c.ajouts.fiches) }; } }
   }
   function supprBtn(k) { if (!editOn()) return ""; return '<div class="ref-suppr"><button type="button" class="label more" data-cacher="' + esc(k) + '">Supprimer cette référence</button></div>'; }
@@ -760,8 +855,8 @@ section:first-child > .cat-head { padding-top: 28px; }
     h += '<span class="label muted">' + NOM[c.matiere] + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
     h += '<h1>' + esc(t.titre) + '</h1>';
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.faits) + '</p></div></section>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.enjeux) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + fmt(t.faits) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + fmt(t.enjeux) + '</p></div></section>';
     if (c.notions && c.notions.length) h += '<section class="sec"><h2 class="label">Notions clés</h2>' + c.notions.map(v => '<div class="notion"><span class="t">' + esc(v[0]) + '</span><span>' + fmt(v[1]) + '</span></div>').join("") + '</section>';
     if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
     if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')' + (a.cours ? ' <span class="label pill cours-pill">Cours</span>' : '') + '</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
@@ -783,13 +878,122 @@ section:first-child > .cat-head { padding-top: 28px; }
       state.index.map(d => '<button type="button" class="list-row" data-date="' + d + '"><span class="t">' + cap(dLong(d)) + '</span><span class="label muted">Ouvrir →</span></button>').join("") + '</div></div>';
   }
 
-  function viewFavoris() {
-    const ids = Object.keys(favs).sort().reverse();
-    let h = '<div class="narrow"><div class="page-head"><span class="label muted">Sur cet appareil</span><h1>Favoris</h1></div>';
-    if (!ids.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici et te faire un récap avant une khôlle.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
-    else h += '<div>' + ids.map((id, i) => { const f = favs[id]; return '<a class="row" href="#' + id + '">' + thumb(f, i + 1) + '<div class="row-body"><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h2>' + esc(f.titre) + '</h2></div></a>'; }).join("") + '</div>';
+  async function favImages() {
+    const manq = Object.keys(favs).filter(id => !("image" in favs[id]));
+    if (!manq.length) return;
+    await Promise.all([...new Set(manq.map(id => id.slice(0, 10)))].map(d => edition(d).catch(() => null)));
+    manq.forEach(id => { const e = state.editions[id.slice(0, 10)], c = e && e.cards.find(x => x.id === id); favs[id].image = c && c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null; });
+    save("pressing:favs", favs);
+  }
+  const fdDz = f => (f.dossiers || []).filter(d => dossiers.includes(d));
+  const fdLeaf = d => d.split("/").pop();
+  const fdPar = d => d.includes("/") ? d.slice(0, d.lastIndexOf("/")) : "";
+  const fdKids = p => dossiers.filter(d => fdPar(d) === p);
+  const fdIn = (d, v) => d === v || d.startsWith(v + "/");
+  const fdBeau = d => d.split("/").join(" › ");
+  const fdSort = () => dossiers.sort((a, b) => a.split("/").join("\u0000").localeCompare(b.split("/").join("\u0000"), "fr"));
+  function fdIds(v) { const ids = Object.keys(favs).sort().reverse(); return v === "tous" ? ids : v === "__sans" ? ids.filter(id => !fdDz(favs[id]).length) : ids.filter(id => fdDz(favs[id]).some(d => fdIn(d, v))); }
+  function fdVisuel(f) { const ph = '<div class="fd-ph" data-m="' + f.matiere + '"><span>' + esc(NOM[f.matiere]) + '</span></div>';
+    return f.image && f.image.url ? '<div class="fd-v" data-ph="' + esc(ph) + '"><img src="' + esc(f.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.outerHTML=this.parentNode.dataset.ph"></div>' : ph; }
+  const FD_IC = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2h7a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>';
+  function fdTuile(v, nom) { const n = fdIds(v).length;
+    return '<a class="fd-item" href="#favoris/' + encodeURIComponent(v) + '"' + (v !== "tous" && v !== "__sans" ? ' data-fd-drop="' + esc(v) + '"' : '') + '><span class="fd-gl"><span class="fd-gl-n">' + esc(nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+  function fdPlus(parent) { return '<button type="button" class="fd-new-btn label" data-fd-new="' + esc(parent) + '">+ ' + (parent ? 'Sous-dossier' : 'Nouveau dossier') + '</button>'; }
+  function fdMini(d) { const n = fdIds(d).length;
+    return '<a class="fd-mini" href="#favoris/' + encodeURIComponent(d) + '" data-fd-drop="' + esc(d) + '"><span class="fd-mini-t">' + esc(fdLeaf(d)) + '<span class="label muted">' + n + '</span></span></a>'; }
+  function fdProds(ids) { return '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdDz(f);
+      return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
+        (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
+     ; }
+  async function viewFavoris(arg) {
+    await favImages();
+    const all = Object.keys(favs);
+    if (!arg) {
+      let h = '<div class="wrap-wide fd-page"><div class="page-head"><span class="label muted">' + (EDIT() ? 'Synchronisés sur tous tes appareils' : 'Sur cet appareil') + '</span><h1>Favoris</h1></div>';
+      if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
+      else { const tri = fdIds("__sans");
+        h += '<div class="fd-glwrap"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + fdTuile("tous", "Tous les favoris") + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div><div class="fd-tools label">' + fdPlus("") + '</div>';
+        if (tri.length) h += '<h2 class="label fd-h2">À trier · ' + tri.length + '<span class="muted fd-astuce"> — fais-les glisser sur un dossier</span></h2>' + fdProds(tri); }
+      app.innerHTML = h + '</div>'; return;
+    }
+    const vrai = arg !== "tous" && arg !== "__sans";
+    if (vrai && !dossiers.includes(arg)) { location.hash = "favoris"; return; }
+    const nom = arg === "tous" ? "Tous les favoris" : arg === "__sans" ? "Non rangés" : fdLeaf(arg);
+    const ids = fdIds(arg), par = vrai ? fdPar(arg) : "";
+    let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris' + (par ? '/' + encodeURIComponent(par) : '') + '">← ' + esc(par ? fdLeaf(par) : 'Favoris') + '</a><div class="page-head"><span class="label muted">' + (par ? esc(fdBeau(par)) + ' · ' : '') + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
+    if (vrai) { h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button>' + fdPlus(arg) + '</div>';
+      const k = fdKids(arg); if (k.length) h += '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-minis">' + k.map(fdMini).join("") + '</div></div>'; }
+    h += ids.length ? fdProds(ids) : '<p class="muted">Aucun article ici pour l\'instant.</p>';
     app.innerHTML = h + '</div>';
   }
+  // Glisser un article sur un dossier (uniquement dans Favoris) — souris : cliquer-glisser ; téléphone : appui long puis glisser
+  (function () {
+    let st = null;
+    const fin = () => { if (!st) return; if (st.timer) clearTimeout(st.timer); if (st.ghost) st.ghost.remove(); if (st.panel) st.panel.remove(); if (st.card) st.card.classList.remove("fd-drag-src", "fd-press"); document.querySelectorAll(".fd-over").forEach(x => x.classList.remove("fd-over")); document.body.classList.remove("fd-dragging"); st = null; };
+    const cible = (x, y) => { const el = document.elementFromPoint(x, y); return el && el.closest("[data-fd-drop]"); };
+    function demarrer() {
+      st.on = true; st.card.classList.remove("fd-press"); st.card.classList.add("fd-drag-src"); document.body.classList.add("fd-dragging");
+      if (navigator.vibrate) try { navigator.vibrate(15); } catch (e) {}
+      const f = favs[st.id], g = document.createElement("div"); g.className = "fd-ghost"; g.innerHTML = fdVisuel(f); st.ghost = g; document.body.appendChild(g);
+      const pnl = document.createElement("div"); pnl.className = "fd-drop-panel"; pnl.innerHTML = '<span class="label muted">Lâche sur un dossier</span>' + (dossiers.length ? '<div class="fd-drop-list">' + dossiers.map(d => '<div class="fd-drop-chip label" data-fd-drop="' + esc(d) + '" style="margin-left:' + (d.split("/").length - 1) * 18 + 'px">' + esc(fdLeaf(d)) + ((f.dossiers || []).includes(d) ? ' ✓' : '') + '</div>').join("") + '</div>' : '<p class="muted" style="margin:0">Crée d\'abord un dossier.</p>');
+      st.panel = pnl; document.body.appendChild(pnl); bouger(st.x, st.y);
+    }
+    function bouger(x, y) { st.x = x; st.y = y; st.ghost.style.transform = "translate(" + (x - 95) + "px," + (y - 115) + "px)"; document.querySelectorAll(".fd-over").forEach(z => z.classList.remove("fd-over")); const c = cible(x, y); if (c) c.classList.add("fd-over"); }
+    function lacher(x, y) {
+      if (!st) return; if (!st.on) { fin(); return; }
+      const c = cible(x, y), id = st.id; fin(); window.__fdNoClick = Date.now();
+      if (c) { const d = c.dataset.fdDrop, f = favs[id]; f.dossiers = f.dossiers || []; if (!f.dossiers.includes(d)) { f.dossiers.push(d); saveFavs("Favoris : range un article"); toast("Rangé dans « " + fdLeaf(d) + " »"); } else toast("Déjà dans « " + fdLeaf(d) + " »"); viewFavoris(fdArg()); }
+    }
+    const carte = t => state.view === "favoris" && t.closest && !t.closest("button") ? t.closest(".fd-prod[data-fd-id]") : null;
+    // Souris
+    document.addEventListener("mousedown", e => { const c = carte(e.target); if (!c || e.button !== 0) return; e.preventDefault(); st = { id: c.dataset.fdId, card: c, x: e.clientX, y: e.clientY, x0: e.clientX, y0: e.clientY, on: false }; });
+    document.addEventListener("mousemove", e => { if (!st || st.touch) return; if (!st.on) { if (Math.hypot(e.clientX - st.x0, e.clientY - st.y0) > 6) { st.x = e.clientX; st.y = e.clientY; demarrer(); } return; } bouger(e.clientX, e.clientY); });
+    document.addEventListener("mouseup", e => { if (st && !st.touch) lacher(e.clientX, e.clientY); });
+    // Tactile
+    document.addEventListener("touchstart", e => { const c = carte(e.target); if (!c || e.touches.length > 1) return; const t = e.touches[0];
+      st = { id: c.dataset.fdId, card: c, x: t.clientX, y: t.clientY, x0: t.clientX, y0: t.clientY, on: false, touch: true }; c.classList.add("fd-press");
+      st.timer = setTimeout(() => { if (st && !st.on) demarrer(); }, 350); }, { passive: true });
+    document.addEventListener("touchmove", e => { if (!st || !st.touch) return; const t = e.touches[0];
+      if (!st.on) { if (Math.hypot(t.clientX - st.x0, t.clientY - st.y0) > 10) fin(); return; }
+      e.preventDefault(); bouger(t.clientX, t.clientY); }, { passive: false });
+    document.addEventListener("touchend", e => { if (!st || !st.touch) return; if (st.on) { e.preventDefault(); lacher(st.x, st.y); } else fin(); }, { passive: false });
+    document.addEventListener("touchcancel", () => fin());
+    document.addEventListener("click", e => { if (window.__fdNoClick && Date.now() - window.__fdNoClick < 500 && e.target.closest(".fd-prod, [data-fd-drop]")) { e.preventDefault(); e.stopPropagation(); } }, true);
+    document.addEventListener("contextmenu", e => { if (state.view === "favoris" && e.target.closest(".fd-prod")) e.preventDefault(); });
+  })();
+  document.addEventListener("click", e => { const a = e.target.closest(".fd-item, .fd-mini"); if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey) return; e.preventDefault();
+    a.classList.remove("fd-boing"); void a.offsetWidth; a.classList.add("fd-boing"); const h = a.getAttribute("href"); setTimeout(() => { location.hash = h.slice(1); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 180); });
+  const fdArg = () => { const h = decodeURIComponent(location.hash.slice(1)); return h.startsWith("favoris/") ? h.slice(8) : undefined; };
+  function fdSheet(id) {
+    fdClose(); const f = favs[id], ds = f.dossiers || [];
+    const w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet" role="dialog" aria-label="Ranger dans des dossiers"><span class="label muted">Ranger dans…</span><h3>' + esc(f.titre) + '</h3>' +
+      (dossiers.length ? dossiers.map(d => '<label class="fd-check" style="padding-left:' + (d.split("/").length - 1) * 24 + 'px"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(fdLeaf(d)) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
+      '<div class="fd-add"><input class="search" placeholder="Nouveau dossier" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div><button type="button" class="btn label fd-ok" data-fd-close>OK</button></div>';
+    document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) { fdClose(); viewFavoris(fdArg()); } });
+  }
+  function fdClose() { const x = document.querySelector(".fd-sheet-bg"); if (x) x.remove(); }
+  const fdNet = n => (n || "").replace(/\//g, "-").trim().replace(/\s+/g, " ");
+  function fdCreate(nom, id, parent) {
+    nom = fdNet(nom); if (!nom || nom.startsWith("__") || nom === "tous") return false;
+    nom = parent ? parent + "/" + nom : nom;
+    if (!dossiers.includes(nom)) dossiers.push(nom);
+    if (id && favs[id]) { favs[id].dossiers = favs[id].dossiers || []; if (!favs[id].dossiers.includes(nom)) favs[id].dossiers.push(nom); }
+    fdSort(); saveFavs("Favoris : dossier " + nom); return true;
+  }
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-fd-new],[data-fd-ren],[data-fd-del],[data-fd-ranger],[data-fd-create],[data-fd-close]"); if (!t) return;
+    if (t.hasAttribute("data-fd-close")) { fdClose(); viewFavoris(fdArg()); }
+    else if (t.hasAttribute("data-fd-new")) { fdClose(); const par = t.dataset.fdNew || "", w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet"><span class="label muted">' + (par ? 'Nouveau sous-dossier dans « ' + esc(fdLeaf(par)) + ' »' : 'Nouveau dossier') + '</span><div class="fd-add"><input class="search" placeholder="' + (par ? 'Ex. Mexique, Colombie' : 'Ex. Amérique latine, IA, pouvoir économique') + '" data-fd-input=""><button type="button" class="btn label" data-fd-create="" data-fd-parent="' + esc(par) + '">Créer</button></div></div>'; document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) fdClose(); }); w.querySelector("input").focus(); }
+    else if (t.dataset.fdRanger) fdSheet(t.dataset.fdRanger);
+    else if (t.dataset.fdCreate !== undefined) { const id = t.dataset.fdCreate, inp = t.parentNode.querySelector("input"); if (fdCreate(inp.value, id, t.dataset.fdParent || "")) { toast("Dossier créé"); if (id) fdSheet(id); else { fdClose(); viewFavoris(fdArg()); } } }
+    else if (t.dataset.fdRen) { if (t.dataset.ok) return; t.dataset.ok = 1; const old = t.dataset.fdRen, w = document.createElement("div"); w.className = "fd-add"; w.innerHTML = '<input class="search" value="' + esc(fdLeaf(old)) + '"><button type="button" class="btn label">Renommer</button>'; t.parentNode.after(w); const inp = w.querySelector("input"); inp.focus();
+      w.querySelector("button").onclick = () => { const n = fdNet(inp.value), par = fdPar(old), nom = n ? (par ? par + "/" + n : n) : ""; if (!n || nom === old || dossiers.includes(nom) || n === "tous" || n.startsWith("__")) { viewFavoris(old); return; }
+        const mv = d => fdIn(d, old) ? nom + d.slice(old.length) : d; dossiers = dossiers.map(mv); fdSort(); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.map(mv); }); saveFavs("Favoris : renomme un dossier"); history.replaceState(null, "", "#favoris/" + encodeURIComponent(nom)); viewFavoris(nom); }; }
+    else if (t.dataset.fdDel) { const d = t.dataset.fdDel, nk = dossiers.filter(x => x !== d && fdIn(x, d)).length; if (!t.dataset.ok) { t.dataset.ok = 1; t.textContent = "Confirmer la suppression" + (nk ? " (et ses " + nk + " sous-dossier" + (nk > 1 ? "s" : "") + ")" : "") + " · les articles restent dans tes favoris"; return; }
+      dossiers = dossiers.filter(x => !fdIn(x, d)); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => !fdIn(x, d)); }); saveFavs("Favoris : supprime un dossier"); toast("Dossier supprimé"); const p = fdPar(d); location.hash = "favoris" + (p ? "/" + encodeURIComponent(p) : ""); }
+  });
+  document.addEventListener("change", e => { const c = e.target.closest("[data-fd-tog]"); if (!c) return; const f = favs[c.dataset.fdTog]; f.dossiers = (f.dossiers || []).filter(d => d !== c.value); if (c.checked) f.dossiers.push(c.value); saveFavs("Favoris : range un article"); });
+  document.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.matches("[data-fd-input], .fd-add input")) { const b = e.target.parentNode.querySelector("button"); if (b) b.click(); } if (e.key === "Escape" && document.querySelector(".fd-sheet-bg")) { fdClose(); if (state.view === "favoris") viewFavoris(fdArg()); } });
 
   function matchF(q) { return f => !q || JSON.stringify([f.nom, f.auteur, f.accroche, f.blocs]).toLowerCase().includes(q); }
   function refResults(ref, q) {
@@ -810,7 +1014,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     if (b.type === "texte") inner = '<div class="prose">' + b.paras.map(p => '<p>' + fmt(p) + '</p>').join("") + '</div>';
     else if (b.type === "cartes") inner = '<div class="apps">' + b.items.map(i => '<div class="app"><strong>' + fmt(i.t) + '</strong><span>' + fmt(i.d) + '</span></div>').join("") + '</div>';
     else if (b.type === "etapes") inner = '<ol class="steps">' + b.items.map(i => '<li><span>' + fmt(i) + '</span></li>').join("") + '</ol>';
-    else if (b.type === "liens") inner = '<div>' + b.items.map(l => '<div class="lien"><b>' + esc(l.sens) + '</b><span><b>' + esc(l.nom) + '</b> <span class="muted">(' + esc(l.idee) + ')</span></span></div>').join("") + '</div><p class="label muted" style="margin:0">= va dans le même sens · ≠ va contre ou nuance</p>';
+    else if (b.type === "liens") inner = '<div>' + b.items.map(l => '<div class="lien"><b>' + esc(l.sens) + '</b><span><b>' + esc(l.nom) + '</b> <span class="muted">(' + fmt(l.idee) + ')</span></span></div>').join("") + '</div><p class="label muted" style="margin:0">= va dans le même sens · ≠ va contre ou nuance</p>';
     return '<section class="sec"><h2 class="label">' + esc(b.titre) + '</h2>' + inner + '</section>';
   }
   async function viewFiche(id) {
@@ -1213,14 +1417,14 @@ section:first-child > .cat-head { padding-top: 28px; }
       else if (h === "referentiel/esh") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
       else if (h === "cg" || h.startsWith("cg/")) { state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1)); }
       else if (h === "archives") { state.view = "archives"; setNav(); viewArchives(); }
-      else if (h === "favoris") { state.view = "favoris"; setNav(); viewFavoris(); }
+      else if (h === "favoris" || h.startsWith("favoris/")) { state.view = "favoris"; setNav(); fdClose(); await viewFavoris(h.startsWith("favoris/") ? h.slice(8) : undefined); }
       else if (h && h !== "accueil") {
         const ref = await referentiel().catch(() => null);
         if (ref && ref.fiches.some(f => f.id === h)) { state.view = "fiche"; setNav(); await viewFiche(h); }
         else { state.view = "accueil"; setNav(); await viewAccueil(); }
       }
       else { state.view = "accueil"; setNav(); await viewAccueil(); }
-      const tg = document.getElementById("edit-toggle"); if (tg) tg.hidden = false;
+      const tg = document.getElementById("edit-toggle"); if (tg) { const cg = h === "cg" || h.startsWith("cg/"); tg.hidden = !cg; if (!cg && document.body.classList.contains("edit-on")) { document.body.classList.remove("edit-on"); tg.textContent = "Modifier"; tg.classList.remove("on"); } }
       if (!/^\d{4}-\d{2}-\d{2}-/.test(h)) decorate(h);
     } catch (e) {
       app.innerHTML = '<div class="empty narrow"><p>Impossible de charger cette page.</p><p class="muted">Les données de l\'édition ne répondent pas. Recharge la page dans un instant.</p></div>';
@@ -1251,8 +1455,8 @@ section:first-child > .cat-head { padding-top: 28px; }
     if (t.dataset.lang) { const id = location.hash.slice(1); state.lang[id] = t.dataset.lang; viewCarte(id); }
     else if (t.dataset.fav) {
       const id = t.dataset.fav; const c = (await edition(id.slice(0, 10))).cards.find(x => x.id === id);
-      if (favs[id]) { delete favs[id]; toast("Retirée des favoris"); } else { favs[id] = { titre: c.titre, matiere: c.matiere }; toast("Ajoutée aux favoris"); }
-      save("pressing:favs", favs);
+      if (favs[id]) { delete favs[id]; toast("Retirée des favoris"); } else { favs[id] = { titre: c.titre, matiere: c.matiere, dossiers: [], image: c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null }; toast("Ajoutée aux favoris · range-la dans Favoris"); }
+      saveFavs(favs[id] ? "Ajoute un favori" : "Retire un favori");
       t.setAttribute("aria-pressed", String(!!favs[id])); t.setAttribute("aria-label", favs[id] ? "Retirer des favoris" : "Ajouter aux favoris");
     }
     else if (t.dataset.fiche) { location.hash = t.dataset.fiche; }

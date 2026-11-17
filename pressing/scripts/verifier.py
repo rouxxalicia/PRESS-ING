@@ -155,7 +155,7 @@ for c in cards:
             errors.append(f"{cid} : {pb}. Retrouve le vrai article et copie l'adresse depuis la barre du navigateur.")
     img = c.get("image")
     if not img:
-        warnings.append(f"{cid} : pas de photo")
+        errors.append(f"{cid} : pas de photo — chaque carte DOIT avoir une photo (voir « Photos » dans CONSIGNES.md)")
     else:
         if not allowed(str(img.get("url", "")), IMAGE_HOSTS):
             errors.append(f"{cid} : photo hors Wikimedia Commons / Unsplash ({host(str(img.get('url', '')))})")
