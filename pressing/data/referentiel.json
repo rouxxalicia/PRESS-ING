@@ -5593,6 +5593,105 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ia-et-emploi-verdugo",
+      "nom": "IA et polarisation de l'emploi par les tâches",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "2025",
+      "auteur": "Gregory Verdugo",
+      "accroche": "L'intelligence artificielle automatise des tâches plutôt que des métiers entiers, freinant d'abord les recrutements avant de détruire des emplois.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Gregory Verdugo**, *L'IA et l'emploi : un impact très incertain sur le marché du travail* (2025).",
+            "Dans la lignée de **David Autor** sur l'approche par les tâches (*task-based approach*), Verdugo distingue la **substitution** (quand l'IA réalise l'ensemble des tâches d'un poste) de la **complémentarité** (quand elle augmente la productivité du travailleur sans le remplacer)."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'IA générative cible des **tâches cognitives et routinières** (rédaction, tri de dossiers, support informatique, comptabilité).",
+            "Les entreprises ajustent d'abord par le **gel des recrutements** plutôt que par des licenciements secs, coûteux socialement et juridiquement.",
+            "Lorsque la complémentarité l'emporte, les travailleurs qualifiés gagnent en productivité ; lorsque la substitution domine, le volume d'offres d'emploi chute."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "L'impact du progrès technique sur le marché du travail ne se résume pas à un chômage technologique massif et immédiat : il passe par une **réallocation des tâches** et un ralentissement ciblé des embauches dans les métiers exposés."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Complémentarité vs substitution",
+              "d": "L'IA augmente la productivité des profils capables de la piloter, mais réduit le besoin en postes d'exécution."
+            },
+            {
+              "t": "Effet sur les juniors",
+              "d": "En automatisant les tâches d'entrée de carrière, l'IA peut fermer la porte aux débutants et compliquer leur montée en compétences."
+            },
+            {
+              "t": "Surveillance et autonomie",
+              "d": "Verdugo souligne aussi le risque d'un contrôle accru du travail grâce aux outils algorithmiques."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "L'ampleur finale sur l'emploi agrégé reste incertaine : si les gains de productivité font baisser les prix et stimulent la **demande globale**, de nouveaux métiers peuvent émerger, comme lors des révolutions industrielles précédentes."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Baisse des offres d'emploi en 2026",
+              "d": "Recul des annonces dans les fonctions administratives, RH et comptables sans vague de licenciements."
+            },
+            {
+              "t": "Insertion des jeunes diplômés",
+              "d": "Raréfaction des postes juniors dans la tech, le conseil et les services financiers."
+            },
+            {
+              "t": "Débat sur la formation continue",
+              "d": "Nécessité d'adapter le **capital humain** aux tâches complémentaires de l'IA."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Joseph Schumpeter (1942)",
+              "idee": "la **destruction créatrice** détruit des tâches anciennes et crée de nouvelles activités"
+            },
+            {
+              "sens": "≠",
+              "nom": "Karl Marx (1867)",
+              "idee": "la substitution du capital au travail nourrit l'armée de réserve et comprime les salaires"
+            },
+            {
+              "sens": "=",
+              "nom": "Gary Becker (1964)",
+              "idee": "l'investissement en **capital humain** détermine l'adaptation au progrès technique"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
