@@ -134,6 +134,40 @@ for m in MATS:
         if n > 2:
             errors.append(f"{m} : {n} actus viennent de {j} — 2 maximum par journal, va chercher dans d'autres journaux")
 
+def photo_nom(url):
+    from urllib.parse import unquote
+    parts = unquote(url).split("/")
+    if "thumb" in parts:
+        i = parts.index("thumb")
+        return parts[i + 3] if len(parts) > i + 3 else parts[-1]
+    return parts[-1]
+
+
+def check_image(url):
+    import urllib.request
+    try:
+        req = urllib.request.Request(url, method="GET", headers={"User-Agent": "IndexPrepa/1.0 (verificateur)", "Range": "bytes=0-1023"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            ct = r.headers.get("Content-Type", "")
+            return None if ct.startswith("image/") else f"ce n'est pas une image ({ct or 'type inconnu'})"
+    except Exception as e:
+        return str(getattr(e, "code", "") or e)[:80]
+
+
+photos_vues = set()
+photos_recentes = {}
+try:
+    _idx = json.loads((DATA / "index.json").read_text(encoding="utf-8")).get("editions", [])
+    for _d in sorted([x for x in _idx if x < date], reverse=True)[:10]:
+        _p = DATA / "editions" / f"{_d}.json"
+        if _p.exists():
+            for _c in json.loads(_p.read_text(encoding="utf-8")).get("cards", []):
+                _u = (_c.get("image") or {}).get("url")
+                if _u:
+                    photos_recentes.setdefault(photo_nom(_u), _d)
+except Exception:
+    pass
+
 ids = set()
 for c in cards:
     cid = c.get("id", "?")
@@ -162,6 +196,16 @@ for c in cards:
         for k in ("alt", "credit", "source"):
             if not img.get(k):
                 errors.append(f"{cid} : photo sans {k}")
+        fic = photo_nom(str(img.get("url", "")))
+        if fic in photos_vues:
+            errors.append(f"{cid} : même photo qu'une autre carte de l'édition ({fic})")
+        photos_vues.add(fic)
+        if fic in photos_recentes:
+            errors.append(f"{cid} : photo déjà utilisée le {photos_recentes[fic]} — trouve une photo propre à cet article (python3 scripts/photos.py \"mots-clés\")")
+        if "--sans-liens" not in sys.argv:
+            pb = check_image(str(img.get("url", "")))
+            if pb:
+                errors.append(f"{cid} : photo inaccessible ({pb}) — reprends l'adresse donnée par scripts/photos.py")
     if len(c.get("sujets", [])) < 2:
         errors.append(f"{cid} : il faut 2 sujets")
     if len(str(c.get("faits", ""))) < 300 or len(str(c.get("enjeux", ""))) < 300:

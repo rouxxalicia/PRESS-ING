@@ -16,7 +16,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    Suis la partie « Choisir les actus » ci-dessous : des sujets **utiles pour le concours**, **variés**, et **au moins 3 journaux différents par matière**.
 5. **Relie chaque carte esh aux cours d'Alicia** : pour chaque actu esh, lance `python3 scripts/cours.py <4 à 8 mots-clés de l'actu>` (ex. `python3 scripts/cours.py droits de douane Chine acier protectionnisme`). Il te donne les chapitres de son cours les plus proches et les auteurs de son cours à mobiliser. Suis la partie « Auteurs du cours » ci-dessous. **N'ouvre jamais** les fichiers de `data/cours/` à la main.
 6. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
-7. Trouve une photo pour **chaque** carte, sans exception (voir « Photos » ci-dessous). Une édition sans photo est refusée par le vérificateur.
+7. Trouve une photo pour **chaque** carte avec `python3 scripts/photos.py "mots-clés en anglais"`, en suivant la partie « Photos » ci-dessous : une photo qui montre **vraiment** le sujet de l'article. Une édition sans photo, avec une photo en double ou déjà utilisée récemment est refusée par le vérificateur.
 8. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
 9. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche (regarde la liste de l'étape 1), **crée une fiche** (voir « Fiches du référentiel » ci-dessous) : lance d'abord `python3 scripts/preparer.py --modele` pour voir la fiche modèle, écris la ou les nouvelles fiches dans un fichier `nouvelle_fiche.json` (un objet, ou une liste d'objets), lance `python3 scripts/ajouter_fiche.py nouvelle_fiche.json`, puis supprime `nouvelle_fiche.json`. N'édite jamais `data/referentiel.json` à la main. Mets l'`id` de la fiche dans le `ref` de l'auteur.
 10. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
@@ -82,9 +82,28 @@ Chaque carte a un champ `image` :
 - **Seulement des photos libres de droits**, prises sur **Wikimedia Commons** (`upload.wikimedia.org`) ou **Unsplash** (`images.unsplash.com`). **Jamais** une photo d'un article de presse, d'une agence (AFP, Reuters, Getty…) ou d'un site quelconque : elles sont protégées.
 - `url` : le lien **direct** vers le fichier image (il doit finir par .jpg, .jpeg, .png ou .webp, ou être un lien images.unsplash.com). Pour Wikimedia, prends une version de 1 000 à 1 600 px de large. Vérifie que l'adresse s'ouvre bien et affiche l'image.
 - `source` : la page de la photo (page « File: » sur Commons, page de la photo sur Unsplash). `credit` : l'auteur indiqué sur cette page, suivi de « / Wikimedia Commons » ou « / Unsplash ».
-- Choisis une **illustration du sujet** : un lieu (parlement, banque centrale, ville), un bâtiment, un drapeau, une usine, un port, un symbole. **Évite les photos de personnes reconnaissables.**
-- Photo horizontale de préférence, nette, sans texte incrusté. Évite d'utiliser deux fois la même photo dans une édition.
-- **Photo obligatoire sur chaque carte.** Si tu ne trouves rien de précis, prends une illustration plus générale du thème : drapeau du pays, vue de la capitale, bâtiment de l'institution concernée (parlement, banque centrale, siège d'entreprise), usine, port, champ… Il y a toujours quelque chose de correct sur Wikimedia Commons.
+- **Photo obligatoire sur chaque carte**, et **une photo qui montre vraiment le sujet de l'article**, pas une photo « passe-partout ».
+
+### Comment trouver la photo (à faire pour chaque carte)
+
+1. **Décide ce que la photo doit montrer**, dans cet ordre de préférence :
+   1. **le lieu, l'objet ou l'activité précis de l'article** : l'usine, la mine, le port, le chantier, la ville ou le quartier, le produit (puces électroniques, éoliennes, batteries, porte-conteneurs, champ de blé, centre de données, file d'attente devant une agence pour l'emploi…) ;
+   2. **le secteur montré concrètement** : une chaîne de montage automobile, une raffinerie, des panneaux solaires, une salle de marché, un supermarché… ;
+   3. **l'institution concernée**, seulement si l'article porte vraiment sur elle (une décision de la BCE → siège de la BCE ; un vote au Parlement → l'hémicycle) ;
+   4. en dernier recours, une **vue reconnaissable de la ville ou du pays** concerné.
+   **Interdit** de mettre un bâtiment officiel ou une skyline juste parce que l'article parle d'économie (pas de siège de la BCE, de Bercy, du Capitole ou de Canary Wharf « par défaut »).
+2. **Lance la recherche** avec 2 à 5 mots-clés **en anglais**, concrets :
+   `python3 scripts/photos.py "rare earth processing plant"`
+   `python3 scripts/photos.py "container ship port Valencia"`
+   Le script ne garde que des photos libres de droits, horizontales et assez grandes (pas de logos, cartes ni schémas), et signale celles **déjà utilisées** dans les éditions récentes.
+3. **Lis la description** de chaque photo proposée et prends celle qui correspond le mieux à l'article. Si aucune ne va, **relance avec d'autres mots-clés** (plus précis, ou au contraire plus généraux, ou le nom anglais du lieu) : fais au moins 2 ou 3 essais avant de descendre d'un niveau dans la liste ci-dessus.
+4. **Copie l'objet** `image` donné par le script dans la carte, puis écris l'`alt` en français : ce qu'on voit sur la photo (« Porte-conteneurs au port de Valence »).
+
+Règles :
+- **Jamais deux fois la même photo** dans une édition, et pas une photo déjà utilisée ces 10 derniers jours (le vérificateur refuse).
+- **Évite les photos de personnes reconnaissables** (pas de portraits de dirigeants).
+- Photo nette, sans texte incrusté.
+- Si `scripts/photos.py` ne marche pas, cherche directement sur commons.wikimedia.org avec les mêmes règles, ou sur Unsplash (`images.unsplash.com`).
 
 ## Règles de rédaction
 
