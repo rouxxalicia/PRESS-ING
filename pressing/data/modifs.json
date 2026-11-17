@@ -60,7 +60,9 @@
   "2026-11-17-anglais-4": {
    "titre": "Royaume-Uni : un plan contre le chômage des jeunes qui divise le Parti travailliste",
    "matiere": "anglais",
-   "dossiers": [],
+   "dossiers": [
+    "UK"
+   ],
    "image": null
   }
  },
@@ -71,5 +73,5 @@
   "politique espagnole",
   "UK"
  ],
- "favsMaj": 1794942091767
+ "favsMaj": 1794942215127
 }
