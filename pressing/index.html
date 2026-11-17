@@ -545,22 +545,45 @@ section:first-child > .cat-head { padding-top: 28px; }
   .row { grid-template-columns: 96px minmax(0, 1fr); gap: 24px; }
 }
 @media (prefers-reduced-motion: reduce) { .choice { transition: none; } }
-.fd-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
-.fd-chip { border: 1px solid var(--line); background: none; color: var(--fg); padding: 8px 12px; cursor: pointer; border-radius: 0; }
-.fd-chip.on { border-color: var(--fg); background: var(--fg); color: var(--bg); }
-.fd-chip.on .muted { color: var(--bg); opacity: .7; }
-.fd-new { color: var(--muted); border-style: dashed; }
-.fd-tools { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: -6px 0 16px; }
-.fd-add { display: flex; gap: 8px; margin: 0 0 16px; }
+.fd-page { padding-bottom: 40px; }
+.fd-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 14px; margin-top: 8px; }
+@media (min-width: 700px) { .fd-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 22px; } }
+@media (min-width: 1000px) { .fd-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.fd-tile { display: flex; flex-direction: column; gap: 4px; color: var(--fg); text-align: left; background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
+.fd-cover { aspect-ratio: 4 / 5; display: grid; gap: 2px; overflow: hidden; background: var(--soft); margin-bottom: 8px; transition: opacity .25s; }
+.fd-tile:hover .fd-cover { opacity: .85; }
+.fd-cover.n2 { grid-template-columns: 1fr 1fr; }
+.fd-cover.n3, .fd-cover.n4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+.fd-cover.n3 > :first-child { grid-row: span 2; }
+.fd-v { width: 100%; height: 100%; min-height: 0; overflow: hidden; }
+.fd-cover img, .fd-img img { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 0; }
+.fd-ph { width: 100%; height: 100%; min-height: 0; display: flex; align-items: flex-end; padding: 8px; box-sizing: border-box; }
+.fd-ph:not([data-m]) { background: var(--soft); }
+.fd-ph span { font-stretch: 70%; font-weight: 700; font-size: 14px; text-transform: uppercase; line-height: .9; }
+.fd-ph.vide { align-items: center; justify-content: center; border: 1px dashed var(--line); background: none; }
+.fd-ph.vide span { font-size: 34px; font-weight: 300; color: var(--muted); }
+.fd-nom { font-size: 16px; font-weight: 500; line-height: 1.25; }
+.fd-tools { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; margin: -4px 0 22px; }
+.fd-prods { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 14px; }
+@media (min-width: 700px) { .fd-prods { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 44px 22px; } }
+@media (min-width: 1000px) { .fd-prods { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.fd-prod { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.fd-prod > a { display: flex; flex-direction: column; gap: 5px; color: var(--fg); }
+.fd-img { aspect-ratio: 4 / 5; overflow: hidden; background: var(--soft); margin-bottom: 6px; }
+.fd-img img { transition: transform .5s ease; }
+.fd-prod > a:hover .fd-img img { transform: scale(1.03); }
+.fd-prod h3 { margin: 0; font-size: 14.5px; font-weight: 500; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.fd-tags { color: var(--accent); }
+.fd-ranger { align-self: flex-start; margin-top: 2px; }
+.fd-add { display: flex; gap: 8px; }
 .fd-add input { flex: 1; min-width: 0; }
-.fav-item { border-bottom: 1px solid var(--line); padding-bottom: 10px; }
-.fav-item .row { border-bottom: 0; }
-.fd-ranger { margin: 0 0 4px; }
-.fd-tags { display: block; margin-top: 6px; color: var(--accent); }
-.fd-panel { display: flex; flex-direction: column; gap: 10px; padding: 12px 0 6px; }
+.fd-sheet-bg { position: fixed; inset: 0; z-index: 60; background: rgba(0,0,0,.35); display: flex; align-items: flex-end; justify-content: center; }
+.fd-sheet { background: var(--bg); color: var(--fg); width: 100%; max-width: 520px; max-height: 80vh; overflow: auto; padding: 22px 20px calc(22px + env(safe-area-inset-bottom, 0px)); display: flex; flex-direction: column; gap: 12px; box-sizing: border-box; }
+@media (min-width: 700px) { .fd-sheet-bg { align-items: center; } }
+.fd-sheet h3 { margin: 0 0 4px; font-size: 17px; font-weight: 500; line-height: 1.3; }
 .fd-check { display: flex; gap: 10px; align-items: center; font-size: 15px; cursor: pointer; }
 .fd-check input { width: 18px; height: 18px; accent-color: var(--accent); }
-.fd-panel .fd-add { margin: 4px 0 0; }
+.fd-ok { align-self: flex-end; }
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -801,51 +824,69 @@ section:first-child > .cat-head { padding-top: 28px; }
       state.index.map(d => '<button type="button" class="list-row" data-date="' + d + '"><span class="t">' + cap(dLong(d)) + '</span><span class="label muted">Ouvrir →</span></button>').join("") + '</div></div>';
   }
 
-  function viewFavoris() {
-    const ids = Object.keys(favs).sort().reverse();
-    const sel = state.favDossier && dossiers.includes(state.favDossier) ? state.favDossier : "";
-    const dz = f => (f.dossiers || []).filter(d => dossiers.includes(d));
-    const vis = sel === "__sans" ? ids.filter(id => !dz(favs[id]).length) : sel ? ids.filter(id => dz(favs[id]).includes(sel)) : ids;
-    let h = '<div class="narrow"><div class="page-head"><span class="label muted">' + (EDIT() ? 'Synchronisés sur tous tes appareils' : 'Sur cet appareil') + '</span><h1>Favoris</h1></div>';
-    if (!ids.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici et te faire un récap avant une khôlle.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
-    else {
-      const chip = (v, nom, n) => '<button type="button" class="fd-chip label' + ((state.favDossier || "") === v ? ' on' : '') + '" data-fd="' + esc(v) + '">' + esc(nom) + ' <span class="muted">' + n + '</span></button>';
-      h += '<div class="fd-bar">' + chip("", "Tous", ids.length) + dossiers.map(d => chip(d, d, ids.filter(id => dz(favs[id]).includes(d)).length)).join("") +
-        (dossiers.length ? chip("__sans", "Non rangés", ids.filter(id => !dz(favs[id]).length).length) : '') +
-        '<button type="button" class="fd-chip label fd-new" data-fd-new>+ Nouveau dossier</button></div>';
-      if (sel && sel !== "__sans") h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(sel) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(sel) + '">Supprimer le dossier</button><span class="muted">(les articles restent dans Tous)</span></div>';
-      h += vis.length ? '<div>' + vis.map((id, i) => { const f = favs[id], ds = dz(f);
-        return '<div class="fav-item"><a class="row" href="#' + id + '">' + thumb(f, i + 1) + '<div class="row-body"><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h2>' + esc(f.titre) + '</h2>' +
-          (ds.length ? '<span class="fd-tags label">' + ds.map(esc).join('<span class="sep"> · </span>') + '</span>' : '') + '</div></a>' +
-          '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button><div class="fd-panel" data-fd-panel="' + id + '" hidden></div></div>'; }).join("") + '</div>'
-        : '<div class="empty"><p class="muted">Aucun article dans ce dossier. Utilise « Ranger dans… » sous un favori.</p></div>';
+  async function favImages() {
+    const manq = Object.keys(favs).filter(id => !("image" in favs[id]));
+    if (!manq.length) return;
+    await Promise.all([...new Set(manq.map(id => id.slice(0, 10)))].map(d => edition(d).catch(() => null)));
+    manq.forEach(id => { const e = state.editions[id.slice(0, 10)], c = e && e.cards.find(x => x.id === id); favs[id].image = c && c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null; });
+    save("pressing:favs", favs);
+  }
+  const fdDz = f => (f.dossiers || []).filter(d => dossiers.includes(d));
+  function fdIds(v) { const ids = Object.keys(favs).sort().reverse(); return v === "tous" ? ids : v === "__sans" ? ids.filter(id => !fdDz(favs[id]).length) : ids.filter(id => fdDz(favs[id]).includes(v)); }
+  function fdVisuel(f) { const ph = '<div class="fd-ph" data-m="' + f.matiere + '"><span>' + esc(NOM[f.matiere]) + '</span></div>';
+    return f.image && f.image.url ? '<div class="fd-v" data-ph="' + esc(ph) + '"><img src="' + esc(f.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.outerHTML=this.parentNode.dataset.ph"></div>' : ph; }
+  async function viewFavoris(arg) {
+    await favImages();
+    const all = Object.keys(favs);
+    if (!arg) {
+      let h = '<div class="wrap-wide fd-page"><div class="page-head"><span class="label muted">' + (EDIT() ? 'Synchronisés sur tous tes appareils' : 'Sur cet appareil') + '</span><h1>Favoris</h1></div>';
+      if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
+      else {
+        const tuile = (v, nom) => { const ids = fdIds(v), im = ids.slice(0, 4).map(id => favs[id]);
+          return '<a class="fd-tile" href="#favoris/' + encodeURIComponent(v) + '"><div class="fd-cover n' + Math.max(1, im.length) + '">' + (im.length ? im.map(fdVisuel).join("") : '<div class="fd-ph vide"></div>') + '</div><span class="fd-nom">' + esc(nom) + '</span><span class="label muted">' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span></a>'; };
+        h += '<div class="fd-grid">' + tuile("tous", "Tous les favoris") + dossiers.map(d => tuile(d, d)).join("") + (dossiers.length && fdIds("__sans").length ? tuile("__sans", "Non rangés") : '') +
+          '<button type="button" class="fd-tile fd-plus" data-fd-new><div class="fd-cover"><div class="fd-ph vide"><span>+</span></div></div><span class="fd-nom">Nouveau dossier</span><span class="label muted">Amérique latine, IA…</span></button></div>';
+      }
+      app.innerHTML = h + '</div>'; return;
     }
+    const nom = arg === "tous" ? "Tous les favoris" : arg === "__sans" ? "Non rangés" : arg;
+    if (arg !== "tous" && arg !== "__sans" && !dossiers.includes(arg)) { location.hash = "favoris"; return; }
+    const ids = fdIds(arg);
+    let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris">← Favoris</a><div class="page-head"><span class="label muted">' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
+    if (arg !== "tous" && arg !== "__sans") h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button></div>';
+    h += ids.length ? '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdDz(f);
+      return '<div class="fd-prod"><a href="#' + id + '"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
+        (ds.length ? '<span class="fd-tags label">' + ds.map(esc).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
+      : '<div class="empty"><p class="muted">Rien ici pour l\'instant. Dans « Tous les favoris », touche « Ranger dans… » sous un article.</p></div>';
     app.innerHTML = h + '</div>';
   }
-  function fdPanel(id) {
-    const f = favs[id], ds = f.dossiers || [];
-    return (dossiers.length ? dossiers.map(d => '<label class="fd-check"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(d) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un ici.</p>') +
-      '<div class="fd-add"><input class="search" placeholder="Nouveau dossier (ex. Amérique latine)" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div>';
+  const fdArg = () => { const h = decodeURIComponent(location.hash.slice(1)); return h.startsWith("favoris/") ? h.slice(8) : undefined; };
+  function fdSheet(id) {
+    fdClose(); const f = favs[id], ds = f.dossiers || [];
+    const w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet" role="dialog" aria-label="Ranger dans des dossiers"><span class="label muted">Ranger dans…</span><h3>' + esc(f.titre) + '</h3>' +
+      (dossiers.length ? dossiers.map(d => '<label class="fd-check"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(d) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
+      '<div class="fd-add"><input class="search" placeholder="Nouveau dossier" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div><button type="button" class="btn label fd-ok" data-fd-close>OK</button></div>';
+    document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) { fdClose(); viewFavoris(fdArg()); } });
   }
+  function fdClose() { const x = document.querySelector(".fd-sheet-bg"); if (x) x.remove(); }
   function fdCreate(nom, id) {
-    nom = (nom || "").trim().replace(/\s+/g, " "); if (!nom || nom.startsWith("__")) return false;
+    nom = (nom || "").trim().replace(/\s+/g, " "); if (!nom || nom.startsWith("__") || nom === "tous") return false;
     if (!dossiers.includes(nom)) dossiers.push(nom);
     if (id && favs[id]) { favs[id].dossiers = favs[id].dossiers || []; if (!favs[id].dossiers.includes(nom)) favs[id].dossiers.push(nom); }
     dossiers.sort((a, b) => a.localeCompare(b, "fr")); saveFavs("Favoris : dossier " + nom); return true;
   }
   document.addEventListener("click", e => {
-    const t = e.target.closest("[data-fd],[data-fd-new],[data-fd-ren],[data-fd-del],[data-fd-ranger],[data-fd-create]"); if (!t) return;
-    if (t.dataset.fd !== undefined) { state.favDossier = t.dataset.fd; viewFavoris(); }
-    else if (t.hasAttribute("data-fd-new")) { const bar = t.parentNode; if (bar.querySelector(".fd-add")) return; const w = document.createElement("div"); w.className = "fd-add"; w.innerHTML = '<input class="search" placeholder="Nom du dossier (ex. IA, pouvoir économique)" data-fd-input=""><button type="button" class="btn label" data-fd-create="">Créer</button>'; bar.after(w); w.querySelector("input").focus(); }
-    else if (t.dataset.fdRanger) { const p = app.querySelector('[data-fd-panel="' + t.dataset.fdRanger + '"]'); p.hidden = !p.hidden; if (!p.hidden) p.innerHTML = fdPanel(t.dataset.fdRanger); }
-    else if (t.dataset.fdCreate !== undefined) { const id = t.dataset.fdCreate, inp = t.parentNode.querySelector("input"); if (fdCreate(inp.value, id)) { if (id) { viewFavoris(); const p = app.querySelector('[data-fd-panel="' + id + '"]'); if (p) { p.hidden = false; p.innerHTML = fdPanel(id); } } else viewFavoris(); toast("Dossier créé"); } }
+    const t = e.target.closest("[data-fd-new],[data-fd-ren],[data-fd-del],[data-fd-ranger],[data-fd-create],[data-fd-close]"); if (!t) return;
+    if (t.hasAttribute("data-fd-close")) { fdClose(); viewFavoris(fdArg()); }
+    else if (t.hasAttribute("data-fd-new")) { fdClose(); const w = document.createElement("div"); w.className = "fd-sheet-bg"; w.innerHTML = '<div class="fd-sheet"><span class="label muted">Nouveau dossier</span><div class="fd-add"><input class="search" placeholder="Ex. Amérique latine, IA, pouvoir économique" data-fd-input=""><button type="button" class="btn label" data-fd-create="">Créer</button></div></div>'; document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) fdClose(); }); w.querySelector("input").focus(); }
+    else if (t.dataset.fdRanger) fdSheet(t.dataset.fdRanger);
+    else if (t.dataset.fdCreate !== undefined) { const id = t.dataset.fdCreate, inp = t.parentNode.querySelector("input"); if (fdCreate(inp.value, id)) { toast("Dossier créé"); if (id) fdSheet(id); else { fdClose(); viewFavoris(fdArg()); } } }
     else if (t.dataset.fdRen) { if (t.dataset.ok) return; t.dataset.ok = 1; const old = t.dataset.fdRen, w = document.createElement("div"); w.className = "fd-add"; w.innerHTML = '<input class="search" value="' + esc(old) + '"><button type="button" class="btn label">Renommer</button>'; t.parentNode.after(w); const inp = w.querySelector("input"); inp.focus();
-      w.querySelector("button").onclick = () => { const nom = inp.value.trim().replace(/\s+/g, " "); if (!nom || nom === old || dossiers.includes(nom)) { viewFavoris(); return; } dossiers = dossiers.map(d => d === old ? nom : d).sort((a, b) => a.localeCompare(b, "fr")); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.map(d => d === old ? nom : d); }); state.favDossier = nom; saveFavs("Favoris : renomme un dossier"); viewFavoris(); }; }
-    else if (t.dataset.fdDel) { if (!t.dataset.ok) { t.dataset.ok = 1; t.textContent = "Confirmer la suppression"; return; } const d = t.dataset.fdDel; dossiers = dossiers.filter(x => x !== d); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => x !== d); }); state.favDossier = ""; saveFavs("Favoris : supprime un dossier"); viewFavoris(); toast("Dossier supprimé"); }
+      w.querySelector("button").onclick = () => { const nom = inp.value.trim().replace(/\s+/g, " "); if (!nom || nom === old || dossiers.includes(nom) || nom === "tous" || nom.startsWith("__")) { viewFavoris(old); return; } dossiers = dossiers.map(d => d === old ? nom : d).sort((a, b) => a.localeCompare(b, "fr")); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.map(d => d === old ? nom : d); }); saveFavs("Favoris : renomme un dossier"); history.replaceState(null, "", "#favoris/" + encodeURIComponent(nom)); viewFavoris(nom); }; }
+    else if (t.dataset.fdDel) { if (!t.dataset.ok) { t.dataset.ok = 1; t.textContent = "Confirmer la suppression (les articles restent dans tes favoris)"; return; } const d = t.dataset.fdDel; dossiers = dossiers.filter(x => x !== d); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => x !== d); }); saveFavs("Favoris : supprime un dossier"); toast("Dossier supprimé"); location.hash = "favoris"; }
   });
-  document.addEventListener("change", e => { const c = e.target.closest("[data-fd-tog]"); if (!c) return; const f = favs[c.dataset.fdTog]; f.dossiers = (f.dossiers || []).filter(d => d !== c.value); if (c.checked) f.dossiers.push(c.value); saveFavs("Favoris : range un article");
-    const it = c.closest(".fav-item"), ds = f.dossiers.filter(d => dossiers.includes(d)); let tg = it.querySelector(".fd-tags"); if (!tg) { tg = document.createElement("span"); tg.className = "fd-tags label"; it.querySelector(".row-body").appendChild(tg); } tg.innerHTML = ds.map(esc).join('<span class="sep"> · </span>'); app.querySelectorAll("[data-fd]").forEach(b => { const v = b.dataset.fd, n = !v ? Object.keys(favs).length : v === "__sans" ? Object.values(favs).filter(x => !(x.dossiers || []).some(d => dossiers.includes(d))).length : Object.values(favs).filter(x => (x.dossiers || []).includes(v)).length; b.querySelector(".muted").textContent = n; }); });
-  document.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.matches("[data-fd-input], .fd-add input")) { const b = e.target.parentNode.querySelector("button"); if (b) b.click(); } });
+  document.addEventListener("change", e => { const c = e.target.closest("[data-fd-tog]"); if (!c) return; const f = favs[c.dataset.fdTog]; f.dossiers = (f.dossiers || []).filter(d => d !== c.value); if (c.checked) f.dossiers.push(c.value); saveFavs("Favoris : range un article"); });
+  document.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.matches("[data-fd-input], .fd-add input")) { const b = e.target.parentNode.querySelector("button"); if (b) b.click(); } if (e.key === "Escape" && document.querySelector(".fd-sheet-bg")) { fdClose(); if (state.view === "favoris") viewFavoris(fdArg()); } });
 
   function matchF(q) { return f => !q || JSON.stringify([f.nom, f.auteur, f.accroche, f.blocs]).toLowerCase().includes(q); }
   function refResults(ref, q) {
@@ -1269,7 +1310,7 @@ section:first-child > .cat-head { padding-top: 28px; }
       else if (h === "referentiel/esh") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
       else if (h === "cg" || h.startsWith("cg/")) { state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1)); }
       else if (h === "archives") { state.view = "archives"; setNav(); viewArchives(); }
-      else if (h === "favoris") { state.view = "favoris"; setNav(); viewFavoris(); }
+      else if (h === "favoris" || h.startsWith("favoris/")) { state.view = "favoris"; setNav(); fdClose(); await viewFavoris(h.startsWith("favoris/") ? h.slice(8) : undefined); }
       else if (h && h !== "accueil") {
         const ref = await referentiel().catch(() => null);
         if (ref && ref.fiches.some(f => f.id === h)) { state.view = "fiche"; setNav(); await viewFiche(h); }
@@ -1307,7 +1348,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     if (t.dataset.lang) { const id = location.hash.slice(1); state.lang[id] = t.dataset.lang; viewCarte(id); }
     else if (t.dataset.fav) {
       const id = t.dataset.fav; const c = (await edition(id.slice(0, 10))).cards.find(x => x.id === id);
-      if (favs[id]) { delete favs[id]; toast("Retirée des favoris"); } else { favs[id] = { titre: c.titre, matiere: c.matiere, dossiers: [] }; toast("Ajoutée aux favoris · range-la dans Favoris"); }
+      if (favs[id]) { delete favs[id]; toast("Retirée des favoris"); } else { favs[id] = { titre: c.titre, matiere: c.matiere, dossiers: [], image: c.image && c.image.url ? { url: c.image.url, alt: c.image.alt || "" } : null }; toast("Ajoutée aux favoris · range-la dans Favoris"); }
       saveFavs(favs[id] ? "Ajoute un favori" : "Retire un favori");
       t.setAttribute("aria-pressed", String(!!favs[id])); t.setAttribute("aria-label", favs[id] ? "Retirer des favoris" : "Ajouter aux favoris");
     }
