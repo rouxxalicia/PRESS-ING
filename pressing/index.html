@@ -597,8 +597,17 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 .fd-drop-chip { border: 1px solid var(--line); padding: 12px 14px; }
 .fd-drop-chip.fd-over, .fd-tile.fd-over .fd-cover { outline: 2px solid var(--accent); outline-offset: 2px; }
 .fd-drop-chip.fd-over { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); outline: 0; }
-.fd-sous { margin-bottom: 40px; }
-.fd-h2 { margin: 0 0 18px; padding-top: 22px; border-top: 1px solid var(--line); }
+.fd-new-btn { border: 1px dashed var(--line); background: none; color: var(--muted); padding: 8px 12px; cursor: pointer; font: inherit; }
+.fd-new-btn:hover { color: var(--fg); border-color: var(--fg); }
+.fd-page .fd-grid + .fd-tools { margin: 26px 0 0; }
+.fd-minis { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 28px; }
+.fd-mini { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); padding: 6px 14px 6px 6px; color: var(--fg); }
+.fd-mini:hover { border-color: var(--fg); }
+.fd-mini.fd-over { outline: 2px solid var(--accent); outline-offset: 2px; }
+.fd-mini-img { width: 36px; height: 44px; overflow: hidden; background: var(--soft); flex: none; }
+.fd-mini-img .fd-ph span { display: none; }
+.fd-mini-t { display: flex; align-items: baseline; gap: 8px; font-size: 15px; font-weight: 500; }
+.fd-h2 { margin: 36px 0 18px; padding-top: 22px; border-top: 1px solid var(--line); }
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -858,7 +867,9 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     return f.image && f.image.url ? '<div class="fd-v" data-ph="' + esc(ph) + '"><img src="' + esc(f.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.outerHTML=this.parentNode.dataset.ph"></div>' : ph; }
   function fdTuile(v, nom, sous) { const ids = fdIds(v), im = ids.slice(0, 4).map(id => favs[id]), nk = sous ? fdKids(v).length : 0;
     return '<a class="fd-tile" href="#favoris/' + encodeURIComponent(v) + '"' + (v !== "tous" && v !== "__sans" ? ' data-fd-drop="' + esc(v) + '"' : '') + '><div class="fd-cover n' + Math.max(1, im.length) + '">' + (im.length ? im.map(fdVisuel).join("") : '<div class="fd-ph vide"></div>') + '</div><span class="fd-nom">' + esc(nom) + '</span><span class="label muted">' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + (nk ? ' · ' + nk + ' sous-dossier' + (nk > 1 ? 's' : '') : '') + '</span></a>'; }
-  function fdPlus(parent) { return '<button type="button" class="fd-tile fd-plus" data-fd-new="' + esc(parent) + '"><div class="fd-cover"><div class="fd-ph vide"><span>+</span></div></div><span class="fd-nom">' + (parent ? 'Nouveau sous-dossier' : 'Nouveau dossier') + '</span><span class="label muted">' + (parent ? 'Dans « ' + esc(fdLeaf(parent)) + ' »' : 'Amérique latine, IA…') + '</span></button>'; }
+  function fdPlus(parent) { return '<button type="button" class="fd-new-btn label" data-fd-new="' + esc(parent) + '">+ ' + (parent ? 'Sous-dossier' : 'Nouveau dossier') + '</button>'; }
+  function fdMini(d) { const ids = fdIds(d), f = ids.length ? favs[ids[0]] : null;
+    return '<a class="fd-mini" href="#favoris/' + encodeURIComponent(d) + '" data-fd-drop="' + esc(d) + '"><span class="fd-mini-img">' + (f ? fdVisuel(f) : '') + '</span><span class="fd-mini-t">' + esc(fdLeaf(d)) + '<span class="label muted">' + ids.length + '</span></span></a>'; }
   function fdProds(ids) { return '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdDz(f);
       return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
         (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
@@ -869,8 +880,9 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     if (!arg) {
       let h = '<div class="wrap-wide fd-page"><div class="page-head"><span class="label muted">' + (EDIT() ? 'Synchronisés sur tous tes appareils' : 'Sur cet appareil') + '</span><h1>Favoris</h1></div>';
       if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
-      else h += '<div class="fd-grid fd-sous">' + fdKids("").map(d => fdTuile(d, d, true)).join("") + (dossiers.length && fdIds("__sans").length ? fdTuile("__sans", "Non rangés") : '') + fdPlus("") + '</div>' +
-        '<h2 class="label fd-h2">Tous tes articles · ' + all.length + '<span class="muted fd-astuce"> — fais-les glisser sur un dossier</span></h2>' + fdProds(fdIds("tous"));
+      else { const tri = fdIds("__sans");
+        h += '<div class="fd-grid">' + fdTuile("tous", "Tous les favoris") + fdKids("").map(d => fdTuile(d, d, true)).join("") + '</div><div class="fd-tools label">' + fdPlus("") + '</div>';
+        if (tri.length) h += '<h2 class="label fd-h2">À trier · ' + tri.length + '<span class="muted fd-astuce"> — fais-les glisser sur un dossier</span></h2>' + fdProds(tri); }
       app.innerHTML = h + '</div>'; return;
     }
     const vrai = arg !== "tous" && arg !== "__sans";
@@ -878,9 +890,9 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     const nom = arg === "tous" ? "Tous les favoris" : arg === "__sans" ? "Non rangés" : fdLeaf(arg);
     const ids = fdIds(arg), par = vrai ? fdPar(arg) : "";
     let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris' + (par ? '/' + encodeURIComponent(par) : '') + '">← ' + esc(par ? fdLeaf(par) : 'Favoris') + '</a><div class="page-head"><span class="label muted">' + (par ? esc(fdBeau(par)) + ' · ' : '') + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
-    if (vrai) h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button></div>';
-    if (vrai) h += '<div class="fd-grid fd-sous">' + fdKids(arg).map(d => fdTuile(d, fdLeaf(d), true)).join("") + fdPlus(arg) + '</div>' + (ids.length ? '<h2 class="label fd-h2">Articles' + (fdKids(arg).length ? ' (sous-dossiers compris)' : '') + '</h2>' : '');
-    h += ids.length ? fdProds(ids) : '<div class="empty"><p class="muted">Aucun article ici pour l\'instant. Fais glisser un article sur ce dossier depuis la page Favoris, ou touche « Ranger dans… ».</p></div>';
+    if (vrai) { h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button>' + fdPlus(arg) + '</div>';
+      const k = fdKids(arg); if (k.length) h += '<div class="fd-minis">' + k.map(fdMini).join("") + '</div>'; }
+    h += ids.length ? fdProds(ids) : '<p class="muted">Aucun article ici pour l\'instant.</p>';
     app.innerHTML = h + '</div>';
   }
   // Glisser un article sur un dossier (uniquement dans Favoris) — souris : cliquer-glisser ; téléphone : appui long puis glisser
