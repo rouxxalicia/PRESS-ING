@@ -1371,7 +1371,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
         else { state.view = "accueil"; setNav(); await viewAccueil(); }
       }
       else { state.view = "accueil"; setNav(); await viewAccueil(); }
-      const tg = document.getElementById("edit-toggle"); if (tg) tg.hidden = false;
+      const tg = document.getElementById("edit-toggle"); if (tg) { const cg = h === "cg" || h.startsWith("cg/"); tg.hidden = !cg; if (!cg && document.body.classList.contains("edit-on")) { document.body.classList.remove("edit-on"); tg.textContent = "Modifier"; tg.classList.remove("on"); } }
       if (!/^\d{4}-\d{2}-\d{2}-/.test(h)) decorate(h);
     } catch (e) {
       app.innerHTML = '<div class="empty narrow"><p>Impossible de charger cette page.</p><p class="muted">Les données de l\'édition ne répondent pas. Recharge la page dans un instant.</p></div>';
