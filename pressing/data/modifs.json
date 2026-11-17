@@ -46,7 +46,9 @@
   "2026-11-17-anglais-1": {
    "titre": "Royaume-Uni : Andy Burnham juge que « le Brexit n'a pas fonctionné » et vise un nouvel accord avec l'UE",
    "matiere": "anglais",
-   "dossiers": [],
+   "dossiers": [
+    "UK"
+   ],
    "image": null
   },
   "2026-11-17-anglais-2": {
@@ -66,7 +68,8 @@
   "Amérique Latine",
   "Emplois",
   "IA",
-  "politique espagnole"
+  "politique espagnole",
+  "UK"
  ],
- "favsMaj": 1794942077827
+ "favsMaj": 1794942091767
 }
