@@ -24,7 +24,10 @@
   "2026-11-14-espagnol-3": {
    "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
    "matiere": "espagnol",
-   "image": null
+   "image": null,
+   "dossiers": [
+    "Amérique Latine"
+   ]
   },
   "2026-11-17-esh-1": {
    "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
@@ -60,9 +63,10 @@
   }
  },
  "dossiers": [
+  "Amérique Latine",
   "Emplois",
   "IA",
   "politique espagnole"
  ],
- "favsMaj": 1794942059018
+ "favsMaj": 1794942077827
 }
