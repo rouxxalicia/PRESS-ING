@@ -16,7 +16,10 @@
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg/1280px-Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg",
     "alt": "Le président du gouvernement espagnol Pedro Sánchez au palais de la Moncloa"
-   }
+   },
+   "dossiers": [
+    "politique espagnole"
+   ]
   },
   "2026-11-14-espagnol-3": {
    "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
@@ -61,5 +64,5 @@
   "IA",
   "politique espagnole"
  ],
- "favsMaj": 1794942050227
+ "favsMaj": 1794942059018
 }
