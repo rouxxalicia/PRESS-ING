@@ -760,8 +760,8 @@ section:first-child > .cat-head { padding-top: 28px; }
     h += '<span class="label muted">' + NOM[c.matiere] + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
     h += '<h1>' + esc(t.titre) + '</h1>';
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.faits) + '</p></div></section>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + esc(t.enjeux) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + fmt(t.faits) + '</p></div></section>';
+    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + fmt(t.enjeux) + '</p></div></section>';
     if (c.notions && c.notions.length) h += '<section class="sec"><h2 class="label">Notions clés</h2>' + c.notions.map(v => '<div class="notion"><span class="t">' + esc(v[0]) + '</span><span>' + fmt(v[1]) + '</span></div>').join("") + '</section>';
     if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
     if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')' + (a.cours ? ' <span class="label pill cours-pill">Cours</span>' : '') + '</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
@@ -810,7 +810,7 @@ section:first-child > .cat-head { padding-top: 28px; }
     if (b.type === "texte") inner = '<div class="prose">' + b.paras.map(p => '<p>' + fmt(p) + '</p>').join("") + '</div>';
     else if (b.type === "cartes") inner = '<div class="apps">' + b.items.map(i => '<div class="app"><strong>' + fmt(i.t) + '</strong><span>' + fmt(i.d) + '</span></div>').join("") + '</div>';
     else if (b.type === "etapes") inner = '<ol class="steps">' + b.items.map(i => '<li><span>' + fmt(i) + '</span></li>').join("") + '</ol>';
-    else if (b.type === "liens") inner = '<div>' + b.items.map(l => '<div class="lien"><b>' + esc(l.sens) + '</b><span><b>' + esc(l.nom) + '</b> <span class="muted">(' + esc(l.idee) + ')</span></span></div>').join("") + '</div><p class="label muted" style="margin:0">= va dans le même sens · ≠ va contre ou nuance</p>';
+    else if (b.type === "liens") inner = '<div>' + b.items.map(l => '<div class="lien"><b>' + esc(l.sens) + '</b><span><b>' + esc(l.nom) + '</b> <span class="muted">(' + fmt(l.idee) + ')</span></span></div>').join("") + '</div><p class="label muted" style="margin:0">= va dans le même sens · ≠ va contre ou nuance</p>';
     return '<section class="sec"><h2 class="label">' + esc(b.titre) + '</h2>' + inner + '</section>';
   }
   async function viewFiche(id) {
