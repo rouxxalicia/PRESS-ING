@@ -51,7 +51,8 @@
    "titre": "Royaume-Uni : Andy Burnham juge que « le Brexit n'a pas fonctionné » et vise un nouvel accord avec l'UE",
    "matiere": "anglais",
    "dossiers": [
-    "UK"
+    "UK",
+    "UK/Brexit"
    ],
    "image": null
   },
@@ -67,7 +68,8 @@
    "titre": "Royaume-Uni : un plan contre le chômage des jeunes qui divise le Parti travailliste",
    "matiere": "anglais",
    "dossiers": [
-    "UK"
+    "UK",
+    "UK/Emplois"
    ],
    "image": null
   }
@@ -82,5 +84,5 @@
   "UK/Brexit",
   "UK/Emplois"
  ],
- "favsMaj": 1794944423309
+ "favsMaj": 1794944811171
 }
