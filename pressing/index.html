@@ -587,6 +587,8 @@ section:first-child > .cat-head { padding-top: 28px; }
 .fd-prod { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; cursor: grab; }
 .fd-prod img { -webkit-user-drag: none; pointer-events: none; }
 .fd-drag-src { opacity: .35; }
+.fd-press .fd-img { transform: scale(.97); transition: transform .35s; }
+.fd-astuce { text-transform: none; letter-spacing: 0; font-size: 13px; }
 body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 .fd-ghost { position: fixed; left: 0; top: 0; width: 80px; aspect-ratio: 4 / 5; z-index: 80; pointer-events: none; box-shadow: 0 12px 30px rgba(0,0,0,.3); overflow: hidden; opacity: .92; }
 .fd-ghost .fd-ph span { font-size: 10px; }
@@ -857,13 +859,18 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   function fdTuile(v, nom, sous) { const ids = fdIds(v), im = ids.slice(0, 4).map(id => favs[id]), nk = sous ? fdKids(v).length : 0;
     return '<a class="fd-tile" href="#favoris/' + encodeURIComponent(v) + '"' + (v !== "tous" && v !== "__sans" ? ' data-fd-drop="' + esc(v) + '"' : '') + '><div class="fd-cover n' + Math.max(1, im.length) + '">' + (im.length ? im.map(fdVisuel).join("") : '<div class="fd-ph vide"></div>') + '</div><span class="fd-nom">' + esc(nom) + '</span><span class="label muted">' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + (nk ? ' · ' + nk + ' sous-dossier' + (nk > 1 ? 's' : '') : '') + '</span></a>'; }
   function fdPlus(parent) { return '<button type="button" class="fd-tile fd-plus" data-fd-new="' + esc(parent) + '"><div class="fd-cover"><div class="fd-ph vide"><span>+</span></div></div><span class="fd-nom">' + (parent ? 'Nouveau sous-dossier' : 'Nouveau dossier') + '</span><span class="label muted">' + (parent ? 'Dans « ' + esc(fdLeaf(parent)) + ' »' : 'Amérique latine, IA…') + '</span></button>'; }
+  function fdProds(ids) { return '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdDz(f);
+      return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
+        (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
+     ; }
   async function viewFavoris(arg) {
     await favImages();
     const all = Object.keys(favs);
     if (!arg) {
       let h = '<div class="wrap-wide fd-page"><div class="page-head"><span class="label muted">' + (EDIT() ? 'Synchronisés sur tous tes appareils' : 'Sur cet appareil') + '</span><h1>Favoris</h1></div>';
       if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
-      else h += '<div class="fd-grid">' + fdTuile("tous", "Tous les favoris") + fdKids("").map(d => fdTuile(d, d, true)).join("") + (dossiers.length && fdIds("__sans").length ? fdTuile("__sans", "Non rangés") : '') + fdPlus("") + '</div>';
+      else h += '<div class="fd-grid fd-sous">' + fdKids("").map(d => fdTuile(d, d, true)).join("") + (dossiers.length && fdIds("__sans").length ? fdTuile("__sans", "Non rangés") : '') + fdPlus("") + '</div>' +
+        '<h2 class="label fd-h2">Tous tes articles · ' + all.length + '<span class="muted fd-astuce"> — fais-les glisser sur un dossier</span></h2>' + fdProds(fdIds("tous"));
       app.innerHTML = h + '</div>'; return;
     }
     const vrai = arg !== "tous" && arg !== "__sans";
@@ -873,42 +880,43 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris' + (par ? '/' + encodeURIComponent(par) : '') + '">← ' + esc(par ? fdLeaf(par) : 'Favoris') + '</a><div class="page-head"><span class="label muted">' + (par ? esc(fdBeau(par)) + ' · ' : '') + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
     if (vrai) h += '<div class="fd-tools label"><button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button></div>';
     if (vrai) h += '<div class="fd-grid fd-sous">' + fdKids(arg).map(d => fdTuile(d, fdLeaf(d), true)).join("") + fdPlus(arg) + '</div>' + (ids.length ? '<h2 class="label fd-h2">Articles' + (fdKids(arg).length ? ' (sous-dossiers compris)' : '') + '</h2>' : '');
-    h += ids.length ? '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdDz(f);
-      return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
-        (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') + '<button type="button" class="more label fd-ranger" data-fd-ranger="' + id + '">Ranger dans…</button></div>'; }).join("") + '</div>'
-      : '<div class="empty"><p class="muted">Aucun article ici pour l\'instant. Dans « Tous les favoris », touche « Ranger dans… » sous un article.</p></div>';
+    h += ids.length ? fdProds(ids) : '<div class="empty"><p class="muted">Aucun article ici pour l\'instant. Fais glisser un article sur ce dossier depuis la page Favoris, ou touche « Ranger dans… ».</p></div>';
     app.innerHTML = h + '</div>';
   }
-  // Glisser un article sur un dossier (souris : cliquer-glisser ; téléphone : appui long puis glisser)
+  // Glisser un article sur un dossier (uniquement dans Favoris) — souris : cliquer-glisser ; téléphone : appui long puis glisser
   (function () {
     let st = null;
-    const fin = () => { if (!st) return; if (st.timer) clearTimeout(st.timer); if (st.ghost) st.ghost.remove(); if (st.panel) st.panel.remove(); if (st.card) st.card.classList.remove("fd-drag-src"); document.querySelectorAll(".fd-over").forEach(x => x.classList.remove("fd-over")); document.body.classList.remove("fd-dragging"); st = null; };
+    const fin = () => { if (!st) return; if (st.timer) clearTimeout(st.timer); if (st.ghost) st.ghost.remove(); if (st.panel) st.panel.remove(); if (st.card) st.card.classList.remove("fd-drag-src", "fd-press"); document.querySelectorAll(".fd-over").forEach(x => x.classList.remove("fd-over")); document.body.classList.remove("fd-dragging"); st = null; };
     const cible = (x, y) => { const el = document.elementFromPoint(x, y); return el && el.closest("[data-fd-drop]"); };
     function demarrer() {
-      st.on = true; st.card.classList.add("fd-drag-src"); document.body.classList.add("fd-dragging");
+      st.on = true; st.card.classList.remove("fd-press"); st.card.classList.add("fd-drag-src"); document.body.classList.add("fd-dragging");
       if (navigator.vibrate) try { navigator.vibrate(15); } catch (e) {}
       const f = favs[st.id], g = document.createElement("div"); g.className = "fd-ghost"; g.innerHTML = fdVisuel(f); st.ghost = g; document.body.appendChild(g);
-      const pnl = document.createElement("div"); pnl.className = "fd-drop-panel"; pnl.innerHTML = '<span class="label muted">Glisse sur un dossier</span>' + (dossiers.length ? '<div class="fd-drop-list">' + dossiers.map(d => '<div class="fd-drop-chip label" data-fd-drop="' + esc(d) + '" style="margin-left:' + (d.split("/").length - 1) * 18 + 'px">' + esc(fdLeaf(d)) + ((f.dossiers || []).includes(d) ? ' ✓' : '') + '</div>').join("") + '</div>' : '<p class="muted" style="margin:0">Crée d\'abord un dossier.</p>');
+      const pnl = document.createElement("div"); pnl.className = "fd-drop-panel"; pnl.innerHTML = '<span class="label muted">Lâche sur un dossier</span>' + (dossiers.length ? '<div class="fd-drop-list">' + dossiers.map(d => '<div class="fd-drop-chip label" data-fd-drop="' + esc(d) + '" style="margin-left:' + (d.split("/").length - 1) * 18 + 'px">' + esc(fdLeaf(d)) + ((f.dossiers || []).includes(d) ? ' ✓' : '') + '</div>').join("") + '</div>' : '<p class="muted" style="margin:0">Crée d\'abord un dossier.</p>');
       st.panel = pnl; document.body.appendChild(pnl); bouger(st.x, st.y);
     }
-    function bouger(x, y) { st.ghost.style.transform = "translate(" + (x - 40) + "px," + (y - 50) + "px)"; document.querySelectorAll(".fd-over").forEach(z => z.classList.remove("fd-over")); const c = cible(x, y); if (c) c.classList.add("fd-over"); }
-    document.addEventListener("pointerdown", e => {
-      const card = e.target.closest(".fd-prod[data-fd-id]"); if (!card || e.target.closest("button") || e.button > 0) return;
-      st = { id: card.dataset.fdId, card, x: e.clientX, y: e.clientY, x0: e.clientX, y0: e.clientY, touch: e.pointerType !== "mouse", on: false };
-      if (st.touch) st.timer = setTimeout(() => { if (st && !st.on) demarrer(); }, 380);
-    });
-    document.addEventListener("pointermove", e => { if (!st) return; st.x = e.clientX; st.y = e.clientY; const d = Math.hypot(st.x - st.x0, st.y - st.y0);
-      if (!st.on) { if (st.touch) { if (d > 10) fin(); } else if (d > 6) demarrer(); return; }
-      e.preventDefault(); bouger(st.x, st.y); });
-    document.addEventListener("touchmove", e => { if (st && st.on) e.preventDefault(); }, { passive: false });
-    document.addEventListener("pointerup", e => { if (!st) return; if (!st.on) { fin(); return; }
-      const c = cible(e.clientX, e.clientY), id = st.id; st.drag = true; fin();
-      window.__fdNoClick = Date.now();
+    function bouger(x, y) { st.x = x; st.y = y; st.ghost.style.transform = "translate(" + (x - 95) + "px," + (y - 115) + "px)"; document.querySelectorAll(".fd-over").forEach(z => z.classList.remove("fd-over")); const c = cible(x, y); if (c) c.classList.add("fd-over"); }
+    function lacher(x, y) {
+      if (!st) return; if (!st.on) { fin(); return; }
+      const c = cible(x, y), id = st.id; fin(); window.__fdNoClick = Date.now();
       if (c) { const d = c.dataset.fdDrop, f = favs[id]; f.dossiers = f.dossiers || []; if (!f.dossiers.includes(d)) { f.dossiers.push(d); saveFavs("Favoris : range un article"); toast("Rangé dans « " + fdLeaf(d) + " »"); } else toast("Déjà dans « " + fdLeaf(d) + " »"); viewFavoris(fdArg()); }
-    });
-    document.addEventListener("pointercancel", () => { if (st && !st.on) fin(); });
-    document.addEventListener("click", e => { if (window.__fdNoClick && Date.now() - window.__fdNoClick < 400 && e.target.closest(".fd-prod, [data-fd-drop]")) { e.preventDefault(); e.stopPropagation(); } }, true);
-    document.addEventListener("contextmenu", e => { if (e.target.closest(".fd-prod")) e.preventDefault(); });
+    }
+    const carte = t => state.view === "favoris" && t.closest && !t.closest("button") ? t.closest(".fd-prod[data-fd-id]") : null;
+    // Souris
+    document.addEventListener("mousedown", e => { const c = carte(e.target); if (!c || e.button !== 0) return; e.preventDefault(); st = { id: c.dataset.fdId, card: c, x: e.clientX, y: e.clientY, x0: e.clientX, y0: e.clientY, on: false }; });
+    document.addEventListener("mousemove", e => { if (!st || st.touch) return; if (!st.on) { if (Math.hypot(e.clientX - st.x0, e.clientY - st.y0) > 6) { st.x = e.clientX; st.y = e.clientY; demarrer(); } return; } bouger(e.clientX, e.clientY); });
+    document.addEventListener("mouseup", e => { if (st && !st.touch) lacher(e.clientX, e.clientY); });
+    // Tactile
+    document.addEventListener("touchstart", e => { const c = carte(e.target); if (!c || e.touches.length > 1) return; const t = e.touches[0];
+      st = { id: c.dataset.fdId, card: c, x: t.clientX, y: t.clientY, x0: t.clientX, y0: t.clientY, on: false, touch: true }; c.classList.add("fd-press");
+      st.timer = setTimeout(() => { if (st && !st.on) demarrer(); }, 350); }, { passive: true });
+    document.addEventListener("touchmove", e => { if (!st || !st.touch) return; const t = e.touches[0];
+      if (!st.on) { if (Math.hypot(t.clientX - st.x0, t.clientY - st.y0) > 10) fin(); return; }
+      e.preventDefault(); bouger(t.clientX, t.clientY); }, { passive: false });
+    document.addEventListener("touchend", e => { if (!st || !st.touch) return; if (st.on) { e.preventDefault(); lacher(st.x, st.y); } else fin(); }, { passive: false });
+    document.addEventListener("touchcancel", () => fin());
+    document.addEventListener("click", e => { if (window.__fdNoClick && Date.now() - window.__fdNoClick < 500 && e.target.closest(".fd-prod, [data-fd-drop]")) { e.preventDefault(); e.stopPropagation(); } }, true);
+    document.addEventListener("contextmenu", e => { if (state.view === "favoris" && e.target.closest(".fd-prod")) e.preventDefault(); });
   })();
   const fdArg = () => { const h = decodeURIComponent(location.hash.slice(1)); return h.startsWith("favoris/") ? h.slice(8) : undefined; };
   function fdSheet(id) {
