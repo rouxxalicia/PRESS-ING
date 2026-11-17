@@ -1,5 +1,11 @@
 {
- "notes": {},
+ "notes": {
+  "undefined": {
+   "titre": "",
+   "texte": "Croissance tirée par l'armement ",
+   "maj": 1794946234912
+  }
+ },
  "caches": {},
  "edits": {
   "txt|cg/auteurs|17m17uk": "Les penseurs du thème \"L'humanité\"",
@@ -25,7 +31,10 @@
   "2026-11-14-espagnol-3": {
    "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
    "matiere": "espagnol",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bois_Verna%2C_Port-au-Prince%2C_Haiti_-_panoramio.jpg/1280px-Bois_Verna%2C_Port-au-Prince%2C_Haiti_-_panoramio.jpg",
+    "alt": "Quartier de Bois-Verna à Port-au-Prince en Haïti"
+   },
    "dossiers": [
     "Amérique Latine"
    ]
@@ -33,7 +42,10 @@
   "2026-11-17-esh-1": {
    "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
    "matiere": "esh",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
+    "alt": "Baies de serveurs dans un centre de données"
+   },
    "dossiers": [
     "IA",
     "Emplois"
@@ -42,7 +54,10 @@
   "2026-11-17-esh-2": {
    "titre": "Les dépenses de défense soutiennent la croissance économique en Europe de l'Est",
    "matiere": "esh",
-   "image": null,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Skyline_of_Warsaw%2C_Poland.jpg/1280px-Skyline_of_Warsaw%2C_Poland.jpg",
+    "alt": "Quartier financier de Varsovie en Pologne"
+   },
    "dossiers": [
     "Économie"
    ]
@@ -54,7 +69,10 @@
     "UK",
     "UK/Brexit"
    ],
-   "image": null
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/London%2C_Palace_of_Westminster_--_2016_--_4800.jpg/1280px-London%2C_Palace_of_Westminster_--_2016_--_4800.jpg",
+    "alt": "Palais de Westminster à Londres"
+   }
   },
   "2026-11-17-anglais-2": {
    "titre": "Dette mondiale : les difficultés budgétaires des pays riches fragilisent les économies les plus pauvres",
@@ -62,7 +80,10 @@
    "dossiers": [
     "Économie"
    ],
-   "image": null
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg/1280px-11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg",
+    "alt": "Siège du Fonds monétaire international (FMI) à Washington"
+   }
   },
   "2026-11-17-anglais-4": {
    "titre": "Royaume-Uni : un plan contre le chômage des jeunes qui divise le Parti travailliste",
@@ -71,7 +92,10 @@
     "UK",
     "UK/Emplois"
    ],
-   "image": null
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/10_Downing_Street_235.jpg/1280px-10_Downing_Street_235.jpg",
+    "alt": "Façade du 10 Downing Street à Londres"
+   }
   }
  },
  "dossiers": [
