@@ -16,7 +16,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    Suis la partie « Choisir les actus » ci-dessous : des sujets **utiles pour le concours**, **variés**, et **au moins 3 journaux différents par matière**.
 5. **Relie chaque carte esh aux cours d'Alicia** : pour chaque actu esh, lance `python3 scripts/cours.py <4 à 8 mots-clés de l'actu>` (ex. `python3 scripts/cours.py droits de douane Chine acier protectionnisme`). Il te donne les chapitres de son cours les plus proches et les auteurs de son cours à mobiliser. Suis la partie « Auteurs du cours » ci-dessous. **N'ouvre jamais** les fichiers de `data/cours/` à la main.
 6. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
-7. Trouve une photo pour chaque carte (voir « Photos » ci-dessous).
+7. Trouve une photo pour **chaque** carte, sans exception (voir « Photos » ci-dessous). Une édition sans photo est refusée par le vérificateur.
 8. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
 9. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche (regarde la liste de l'étape 1), **crée une fiche** (voir « Fiches du référentiel » ci-dessous) : lance d'abord `python3 scripts/preparer.py --modele` pour voir la fiche modèle, écris la ou les nouvelles fiches dans un fichier `nouvelle_fiche.json` (un objet, ou une liste d'objets), lance `python3 scripts/ajouter_fiche.py nouvelle_fiche.json`, puis supprime `nouvelle_fiche.json`. N'édite jamais `data/referentiel.json` à la main. Mets l'`id` de la fiche dans le `ref` de l'auteur.
 10. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
@@ -84,7 +84,7 @@ Chaque carte a un champ `image` :
 - `source` : la page de la photo (page « File: » sur Commons, page de la photo sur Unsplash). `credit` : l'auteur indiqué sur cette page, suivi de « / Wikimedia Commons » ou « / Unsplash ».
 - Choisis une **illustration du sujet** : un lieu (parlement, banque centrale, ville), un bâtiment, un drapeau, une usine, un port, un symbole. **Évite les photos de personnes reconnaissables.**
 - Photo horizontale de préférence, nette, sans texte incrusté. Évite d'utiliser deux fois la même photo dans une édition.
-- Si tu ne trouves vraiment rien de correct, mets `"image": null` plutôt qu'une image douteuse.
+- **Photo obligatoire sur chaque carte.** Si tu ne trouves rien de précis, prends une illustration plus générale du thème : drapeau du pays, vue de la capitale, bâtiment de l'institution concernée (parlement, banque centrale, siège d'entreprise), usine, port, champ… Il y a toujours quelque chose de correct sur Wikimedia Commons.
 
 ## Règles de rédaction
 
