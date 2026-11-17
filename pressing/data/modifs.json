@@ -8,5 +8,25 @@
  "ajouts": {
   "refs": [],
   "fiches": {}
- }
+ },
+ "favs": {
+  "2026-11-02-espagnol-1": {
+   "titre": "Au forum de Barcelone, Pedro Sánchez affirme que « l'Espagne ne se gouverne ni depuis Washington, ni depuis Moscou ou Buenos Aires »",
+   "matiere": "espagnol"
+  },
+  "2026-11-14-espagnol-3": {
+   "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
+   "matiere": "espagnol"
+  },
+  "2026-11-17-esh-1": {
+   "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
+   "matiere": "esh"
+  },
+  "2026-11-17-esh-2": {
+   "titre": "Les dépenses de défense soutiennent la croissance économique en Europe de l'Est",
+   "matiere": "esh"
+  }
+ },
+ "dossiers": [],
+ "favsMaj": 1794941404813
 }
