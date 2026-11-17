@@ -2,8 +2,8 @@
  "notes": {
   "undefined": {
    "titre": "",
-   "texte": "accroche : croissance tirée par l'armement ; soutenable",
-   "maj": 1794946252948
+   "texte": "accroche : croissance tirée par l'armement ; soutenable ?",
+   "maj": 1794946253555
   }
  },
  "caches": {},
@@ -60,7 +60,8 @@
    },
    "dossiers": [
     "Économie"
-   ]
+   ],
+   "note": "accroche : croissance tirée par l'armement ; soutenable ?"
   },
   "2026-11-17-anglais-1": {
    "titre": "Royaume-Uni : Andy Burnham juge que « le Brexit n'a pas fonctionné » et vise un nouvel accord avec l'UE",
@@ -108,5 +109,5 @@
   "UK/Brexit",
   "UK/Emplois"
  ],
- "favsMaj": 1794944811171
+ "favsMaj": 1794946254346
 }
