@@ -109,6 +109,28 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg/1280px-Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg",
     "alt": "Paseo de la Reforma à Mexico"
    }
+  },
+  "2026-11-18-anglais-1": {
+   "titre": "États-Unis : la démocrate Mary Peltola remporte le Sénat en Alaska et porte la majorité à 56 sièges",
+   "matiere": "anglais",
+   "dossiers": [
+    "USA"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/210103_Snowy_capitol.jpg",
+    "alt": "Le Capitole de l'État d'Alaska sous la neige à Juneau"
+   }
+  },
+  "2026-11-18-allemand-2": {
+   "titre": "Allemagne : les entreprises les plus automatisées sont aussi les plus optimistes pour l'emploi",
+   "matiere": "allemand",
+   "dossiers": [
+    "Économie"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Factory_Automation_Robotics_Palettizing_Bread.jpg",
+    "alt": "Bras robotisés industriels KUKA dans une usine en Allemagne"
+   }
   }
  },
  "dossiers": [
@@ -119,7 +141,16 @@
   "Politique espagnole",
   "UK",
   "UK/Brexit",
-  "UK/Emplois"
+  "UK/Emplois",
+  "USA"
  ],
- "favsMaj": 1794946493680
+ "favsMaj": 1794990916763,
+ "demandes": [
+  {
+   "id": "dmwlvrpnt",
+   "url": "https://elpais.com/america/2026-11-17/las-pandillas-haitianas-vengan-el-apoyo-a-bukele-con-el-asesinato-de-al-menos-10-personas-en-puerto-principe.html",
+   "matiere": "espagnol",
+   "date": "2026-11-18T08:49:55.625Z"
+  }
+ ]
 }

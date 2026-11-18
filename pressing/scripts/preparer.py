@@ -31,6 +31,25 @@ if (DATA / "editions" / f"{today}.json").exists():
     print(f"!! L'édition {today} existe déjà : arrête-toi et dis-le à Alicia.")
 print()
 
+# Articles proposés par Alicia depuis le site (file d'attente)
+try:
+    _mod = lire(DATA / "modifs.json")
+except Exception:
+    _mod = {}
+try:
+    _faits = set(lire(DATA / "demandes-traitees.json").get("ids", []))
+except Exception:
+    _faits = set()
+_att = [d for d in (_mod.get("demandes") or []) if not d.get("annule") and d.get("id") not in _faits]
+if _att:
+    print(f"=== ARTICLES PROPOSÉS PAR ALICIA À TRAITER ({len(_att)}) : à ajouter à l'édition (voir « Articles proposés » dans CONSIGNES.md) ===")
+    for d in _att:
+        print(f"- id {d.get('id')} | matière {d.get('matiere')} | {d.get('url')}")
+        if d.get("texte"):
+            print("  Texte collé par Alicia (article payant) :")
+            print("  " + d["texte"].strip().replace("\n", "\n  "))
+    print()
+
 print("=== SUJETS DÉJÀ TRAITÉS (5 dernières éditions) : ne pas les reprendre ===")
 programme = {}
 for d in editions[:5]:
