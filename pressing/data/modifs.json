@@ -113,7 +113,9 @@
   "2026-11-18-anglais-1": {
    "titre": "États-Unis : la démocrate Mary Peltola remporte le Sénat en Alaska et porte la majorité à 56 sièges",
    "matiere": "anglais",
-   "dossiers": [],
+   "dossiers": [
+    "USA"
+   ],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/210103_Snowy_capitol.jpg",
     "alt": "Le Capitole de l'État d'Alaska sous la neige à Juneau"
@@ -128,7 +130,8 @@
   "Politique espagnole",
   "UK",
   "UK/Brexit",
-  "UK/Emplois"
+  "UK/Emplois",
+  "USA"
  ],
- "favsMaj": 1794990524995
+ "favsMaj": 1794990535728
 }
