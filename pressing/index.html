@@ -1313,7 +1313,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 
   // Leçons ESH (cartes mentales et cartes de débats)
   function loadScript(src) { return new Promise((ok, ko) => { if (document.querySelector('script[data-src="' + src + '"]')) return ok(); const sc = document.createElement("script"); sc.src = src + "?v=1"; sc.dataset.src = src; sc.onload = ok; sc.onerror = ko; document.head.appendChild(sc); }); }
-  async function lecons() { await loadScript("lecons/cours-esh.js"); await loadScript("lecons/cours-debats.js"); await loadScript("lecons/debats-fiches.js"); await loadScript("lecons/debats-liens.js"); await loadScript("lecons/cartes.js"); return window.ESH_LESSONS || []; }
+  async function lecons() { await loadScript("lecons/cours-esh.js"); await loadScript("lecons/cours-debats.js"); await loadScript("lecons/debats-fiches.js"); await loadScript("lecons/debats-liens.js"); await loadScript("lecons/debats-smi.js"); await loadScript("lecons/cartes.js"); return window.ESH_LESSONS || []; }
   function eshTabs(cur) { return '<nav class="subtabs label" aria-label="Référentiel ESH"><a href="#referentiel/esh"' + (cur === "fiches" ? ' aria-current="page"' : '') + '>Fiches</a><a href="#lecons"' + (cur === "lecons" ? ' aria-current="page"' : '') + '>Leçons</a><a href="#debats"' + (cur === "debats" ? ' aria-current="page"' : '') + '>Débats</a></nav>'; }
   async function viewLecons(parts) {
     const ls = await lecons();
@@ -1345,6 +1345,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     { id: "gouvernance", nom: "Gouvernance et régionalisme", l: ["ch2-1", "ch2-2"] },
     { id: "monnaie", nom: "Monnaie et financement", l: ["im-1"] },
     { id: "sociologie", nom: "Sociologie", l: ["socio-1a"] },
+    { id: "smi", nom: "Monnaie internationale et change", l: ["smi-1"] },
     { id: "environnement", nom: "Environnement", l: ["ch3"] }
   ];
   function debThemes(ls) {
