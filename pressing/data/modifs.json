@@ -120,6 +120,15 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/210103_Snowy_capitol.jpg",
     "alt": "Le Capitole de l'État d'Alaska sous la neige à Juneau"
    }
+  },
+  "2026-11-18-allemand-2": {
+   "titre": "Allemagne : les entreprises les plus automatisées sont aussi les plus optimistes pour l'emploi",
+   "matiere": "allemand",
+   "dossiers": [],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Factory_Automation_Robotics_Palettizing_Bread.jpg",
+    "alt": "Bras robotisés industriels KUKA dans une usine en Allemagne"
+   }
   }
  },
  "dossiers": [
@@ -133,5 +142,5 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1794990535728
+ "favsMaj": 1794990909080
 }
