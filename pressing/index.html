@@ -1345,7 +1345,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       shown.forEach(t => t.l.filter(lid => t.items.some(it => it.lid === lid)).forEach(lid => { const L = ls.find(x => x.id === lid), its = t.items.filter(it => it.lid === lid);
         h += '<section class="deb-theme" id="deb-' + lid + '"><span class="label muted">' + esc(t.nom) + (L ? ' · ' + esc(L.short.replace(/ · intermédiaire$/, "")) : '') + '</span><h2 class="deb-lec">' + esc(L ? L.title : lid) + '</h2>' +
           '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' +
-          its.map(it => '<a class="fd-item" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(it.M.title) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span><span class="label fd-gl-c">' + it.D.ideas.length + ' arguments</span></span></a>').join("") + '</div></div></section>'; }));
+          its.map(it => '<a class="fd-item" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(it.M.title) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span></span></a>').join("") + '</div></div></section>'; }));
       app.innerHTML = h + '</div>';
       const cur = app.querySelector('nav[aria-label="Thèmes"] [aria-current]'); if (cur && tid) cur.parentNode.scrollLeft = cur.offsetLeft - 16;
       return;
@@ -1356,7 +1356,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       const its = t.items.filter(it => it.lid === lid), maps = []; its.forEach(it => { let g = maps.find(m => m.M === it.M); if (!g) maps.push(g = { M: it.M, its: [] }); g.its.push(it); });
       let h = '<div class="narrow"><a class="back label" href="#debats">← Débats</a><div class="page-head"><span class="label muted">' + esc(L ? L.short : "") + '</span><h1>' + esc(L ? L.title : lid) + '</h1><p class="muted" style="margin:4px 0 0">' + its.length + ' débat' + (its.length > 1 ? 's' : '') + '</p></div>';
       maps.forEach(g => {
-        h += '<div class="deb-map"><span class="label">' + esc(g.M.title) + '</span><div class="deb-list">' + g.its.map(it => '<a class="deb-row" href="#debats/' + it.lid + '/' + it.key + '"><span class="ti">' + esc(it.D.q) + '</span><span class="nb">' + it.D.ideas.length + ' arguments</span></a>').join("") + '</div></div>';
+        h += '<div class="deb-map"><span class="label">' + esc(g.M.title) + '</span><div class="deb-list">' + g.its.map(it => '<a class="deb-row" href="#debats/' + it.lid + '/' + it.key + '"><span class="ti">' + esc(it.D.q) + '</span></a>').join("") + '</div></div>';
       });
       app.innerHTML = h + '</div>';
       return;
