@@ -144,5 +144,13 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1794990916763
+ "favsMaj": 1794990916763,
+ "demandes": [
+  {
+   "id": "dmwlvrpnt",
+   "url": "https://elpais.com/america/2026-11-17/las-pandillas-haitianas-vengan-el-apoyo-a-bukele-con-el-asesinato-de-al-menos-10-personas-en-puerto-principe.html",
+   "matiere": "espagnol",
+   "date": "2026-11-18T08:49:55.625Z"
+  }
+ ]
 }
