@@ -124,7 +124,9 @@
   "2026-11-18-allemand-2": {
    "titre": "Allemagne : les entreprises les plus automatisées sont aussi les plus optimistes pour l'emploi",
    "matiere": "allemand",
-   "dossiers": [],
+   "dossiers": [
+    "Économie"
+   ],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Factory_Automation_Robotics_Palettizing_Bread.jpg",
     "alt": "Bras robotisés industriels KUKA dans une usine en Allemagne"
@@ -142,5 +144,5 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1794990909080
+ "favsMaj": 1794990916763
 }
