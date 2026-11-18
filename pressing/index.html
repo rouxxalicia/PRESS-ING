@@ -623,6 +623,9 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   transition: transform .6s cubic-bezier(.3,1.7,.45,1), background .3s; will-change: transform; }
 .fd-gl { display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; aspect-ratio: 4 / 5; border-radius: 26px; padding: 18px; }
 .fd-gl .fd-gl-c:first-child { margin-bottom: auto; }
+.deb-lec { font-size: 22px !important; letter-spacing: -0.01em !important; text-transform: none !important; font-weight: 500 !important; margin: 4px 0 12px !important; }
+.deb-gl { aspect-ratio: 1 / 1; }
+.deb-gl .fd-gl-n { font-size: 16px; }
 .fd-gl-n { font-size: 17px; font-weight: 500; line-height: 1.2; letter-spacing: -0.01em; }
 .fd-gl-c { color: var(--fg); opacity: .6; }
 .fd-item:hover .fd-gl, .fd-mini:hover { transform: translateY(-7px) scale(1.025); background: rgba(255,255,255,.3); }
@@ -1339,9 +1342,10 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       const shown = tid ? th.filter(t => t.id === tid) : th;
       let h = '<div class="wrap-wide fd-page"><a class="back label" href="#referentiel">← Référentiel</a>' + tete +
         '<nav class="subtabs label" aria-label="Thèmes" style="margin-top:0">' + '<a href="#debats"' + (!tid ? ' aria-current="page"' : '') + '>Tous</a>' + th.map(t => '<a href="#debats/t/' + t.id + '"' + (t.id === tid ? ' aria-current="page"' : '') + '>' + esc(t.nom) + '</a>').join("") + '</nav>';
-      const tuiles = []; shown.forEach(t => t.l.filter(lid => t.items.some(it => it.lid === lid)).forEach(lid => { const L = ls.find(x => x.id === lid), n = t.items.filter(it => it.lid === lid).length;
-        tuiles.push('<a class="fd-item" href="#debats/l/' + lid + '"><span class="fd-gl"><span class="label fd-gl-c">' + esc(t.nom) + '</span><span class="fd-gl-n">' + esc(L ? L.title : lid) + '</span><span class="label fd-gl-c">' + esc(L ? L.short.replace(/ · intermédiaire$/, "") + " · " : "") + n + ' débat' + (n > 1 ? 's' : '') + '</span></span></a>'); }));
-      h += '<div class="fd-glwrap" style="margin-top:28px"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + tuiles.join("") + '</div></div>';
+      shown.forEach(t => t.l.filter(lid => t.items.some(it => it.lid === lid)).forEach(lid => { const L = ls.find(x => x.id === lid), its = t.items.filter(it => it.lid === lid);
+        h += '<section class="deb-theme" id="deb-' + lid + '"><span class="label muted">' + esc(t.nom) + (L ? ' · ' + esc(L.short.replace(/ · intermédiaire$/, "")) : '') + '</span><h2 class="deb-lec">' + esc(L ? L.title : lid) + '</h2>' +
+          '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' +
+          its.map(it => '<a class="fd-item" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(it.M.title) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span><span class="label fd-gl-c">' + it.D.ideas.length + ' arguments</span></span></a>').join("") + '</div></div></section>'; }));
       app.innerHTML = h + '</div>';
       const cur = app.querySelector('nav[aria-label="Thèmes"] [aria-current]'); if (cur && tid) cur.parentNode.scrollLeft = cur.offsetLeft - 16;
       return;
@@ -1377,7 +1381,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     const f = F && F.parts ? F : fb();
     const para = p => { const [hd, ...rest] = p.split("\n"); return '<div class="dbf-arg">' + (rest.length ? '<p class="dbf-who">' + debFmt(hd) + '</p><p>' + debFmt(rest.join(" ")) + '</p>' : '<p>' + debFmt(hd) + '</p>') + '</div>'; };
     const prev = t.items[k - 1], next = t.items[k + 1];
-    let h = '<div class="narrow"><a class="back label" href="#debats/l/' + it.lid + '">← Débats · ' + esc(L ? L.title : t.nom) + '</a><article class="card dbf" id="dbf">' +
+    let h = '<div class="narrow"><a class="back label" href="#debats" data-deb-l="' + it.lid + '">← Débats · ' + esc(L ? L.title : t.nom) + '</a><article class="card dbf" id="dbf">' +
       '<span class="label muted">Débat · ' + esc(t.nom) + '</span><h1>' + esc(it.D.q) + '</h1>' +
       '<p class="lieu">' + esc(it.M.title) + (L ? '<br>' + esc(L.short) + ' · ' + esc(L.title) : '') + '</p>' +
       (f.idee ? '<p class="idee">' + debFmt(f.idee) + '</p>' : '') +
