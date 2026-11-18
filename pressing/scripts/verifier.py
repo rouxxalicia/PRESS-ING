@@ -108,8 +108,9 @@ cards = ed.get("cards", [])
 if ed.get("date") != date:
     errors.append(f"le champ date vaut {ed.get('date')!r} au lieu de {date!r}")
 order = [c.get("matiere") for c in cards]
+std = [c for c in cards if not c.get("perso")]
 for m in MATS:
-    n = order.count(m)
+    n = [c.get("matiere") for c in std].count(m)
     if n != 4:
         errors.append(f"{m} : {n} carte(s) au lieu de 4")
 if order != sorted(order, key=lambda m: MATS.index(m) if m in MATS else 9):
@@ -127,7 +128,7 @@ def journal(c):
 
 
 for m in MATS:
-    cnt = Counter(journal(c) for c in cards if c.get("matiere") == m)
+    cnt = Counter(journal(c) for c in std if c.get("matiere") == m)
     if cnt and len(cnt) < 3:
         errors.append(f"{m} : seulement {len(cnt)} journal(aux) différent(s) ({', '.join(cnt)}) — il en faut au moins 3 sur les 4 actus")
     for j, n in cnt.items():
@@ -181,7 +182,7 @@ for c in cards:
             errors.append(f"{cid} : champ {k} manquant ou vide")
     if not str(c.get("url", "")).startswith("http"):
         errors.append(f"{cid} : url invalide")
-    elif not allowed(c["url"], SOURCES):
+    elif not c.get("perso") and not allowed(c["url"], SOURCES):
         errors.append(f"{cid} : source non autorisée ({host(c['url'])}) — il faut un article de journal de la liste de CONSIGNES.md")
     elif "--sans-liens" not in sys.argv:
         pb = check_link(c["url"])
@@ -318,6 +319,30 @@ for i, a in enumerate(a_lire, 1):
 
 for w in warnings:
     print(" (à noter)", w)
+
+# Articles proposés par Alicia depuis le site
+try:
+    _mod = json.loads((DATA / "modifs.json").read_text(encoding="utf-8"))
+except Exception:
+    _mod = {}
+try:
+    _faits = set(json.loads((DATA / "demandes-traitees.json").read_text(encoding="utf-8")).get("ids", []))
+except Exception:
+    _faits = set()
+_dem = {d.get("id"): d for d in (_mod.get("demandes") or [])}
+for c in cards:
+    if c.get("perso"):
+        did = c.get("demande")
+        if not did or did not in _dem:
+            errors.append(f"{c.get('id')} : carte proposée par Alicia sans \"demande\" valide (mets l'id donné par preparer.py)")
+        elif did not in _faits:
+            errors.append(f"{c.get('id')} : ajoute {did!r} dans data/demandes-traitees.json (liste \"ids\")")
+        if not str(c.get("id", "")).startswith(f"{date}-{c.get('matiere')}-p"):
+            errors.append(f"{c.get('id')} : l'id d'une carte proposée doit être {date}-{c.get('matiere')}-p1, -p2…")
+_att = [d for d in _dem.values() if not d.get("annule") and d.get("id") not in _faits and not any(c.get("demande") == d.get("id") for c in cards)]
+for d in _att:
+    errors.append(f"article proposé par Alicia non traité : {d.get('url')} (id {d.get('id')}) — voir « Articles proposés » dans CONSIGNES.md")
+
 if errors:
     print(f"{len(errors)} problème(s) dans l'édition du {date} :")
     for e in errors:

@@ -6,7 +6,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 
 1. Lance `python3 scripts/preparer.py`. Il te donne en une fois tout ce qu'il faut savoir avant de commencer : la date du jour (s'il dit que l'édition existe déjà, arrête-toi et dis-le), les **sujets des 5 dernières éditions** (à ne pas reprendre), les **intitulés du programme** déjà utilisés, la **liste des fiches** du référentiel, et une carte esh et une carte anglais qui servent de **modèle de style et de longueur**. Pour l'allemand, le seul modèle est l'exemple de la partie « Allemand : niveau B2 » ci-dessous.
 2. **N'ouvre pas** les anciennes éditions ni `data/referentiel.json` : ce sont de très gros fichiers, et les lire te ralentit beaucoup. Tout ce dont tu as besoin est dans le résumé de l'étape 1.
-3. Va directement à la recherche.
+3. Si l'étape 1 affiche « ARTICLES PROPOSÉS PAR ALICIA », traite-les **en plus** des 16 actus (voir « Articles proposés » ci-dessous). Puis va directement à la recherche.
 4. Cherche sur le web l'actualité **des dernières 48 heures**, puis choisis 4 actus par matière (la première est l'actu principale) :
    - **esh** : économie française, européenne ou mondiale, et faits sociaux. Il faut qu'on puisse s'en servir dans une dissertation d'ESH.
    - **anglais** : Royaume-Uni et États-Unis (politique, société, économie).
@@ -23,6 +23,19 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 11. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`. Puis lance `python3 scripts/anki_envoyer.py` : il envoie les cartes directement dans l'Anki d'Alicia (si Anki est ouvert) et synchronise AnkiWeb. S'il dit qu'Anki est fermé, continue quand même et signale-le à la fin.
 12. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
 13. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », si les cartes sont bien arrivées dans Anki, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+
+## Articles proposés par Alicia
+
+Alicia peut coller un lien d'article sur le site : il arrive dans une file d'attente que `scripts/preparer.py` affiche (id, matière, lien, et parfois le texte de l'article qu'elle a collé parce que l'article est payant). Pour **chacun** :
+
+- Lis l'article (le texte collé par Alicia s'il y en a un, sinon la page) et rédige **une carte complète**, exactement au même format et avec les mêmes règles que les autres cartes de sa matière (faits, enjeux, sujets, auteurs du cours et notions pour l'esh, VO + vocabulaire pour les langues, photo, Anki…).
+- Ajoute à la carte `"perso": true` et `"demande": "<id donné par preparer.py>"`. Son `id` est `<date>-<matière>-p1` (puis `-p2` s'il y en a une deuxième dans la même matière).
+- Place-la **juste après les 4 cartes de sa matière**. Elle s'ajoute aux 4 actus : ne retire aucune actu pour lui faire de la place.
+- La règle des sources autorisées ne s'applique pas à ces cartes (c'est Alicia qui a choisi l'article), ni la règle des 48 heures.
+- Ajoute ensuite son id dans `data/demandes-traitees.json` (`{"ids": ["…", "…"]}` ; crée le fichier s'il n'existe pas, et ne retire jamais un id déjà présent). **Ne modifie jamais `data/modifs.json`.**
+- Si le lien ne s'ouvre pas et qu'Alicia n'a pas collé le texte, ne l'invente pas : ajoute quand même l'id dans `data/demandes-traitees.json` et dis-le à Alicia dans ton message final.
+
+Le vérificateur refuse l'édition tant qu'un article proposé n'est pas traité.
 
 ## Choisir les actus
 

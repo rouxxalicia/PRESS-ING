@@ -159,6 +159,13 @@ main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
 }
 
 /* À lire */
+.prop { padding-block: 56px 24px; }
+.prop-txt { margin: 14px 0 18px; max-width: 560px; font-size: 15px; line-height: 1.5; }
+.prop-list { margin-top: 26px; display: flex; flex-direction: column; }
+.prop-item { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; padding: 12px 0; border-top: 1px solid var(--line); font-size: 15px; }
+.prop-item a { color: var(--fg); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.prop-item .more { margin-left: auto; }
+.seg.prop-mats { display: flex; flex-wrap: wrap; align-self: stretch; }
 .alire { padding-block: 64px 8px; }
 .alire-grid { display: grid; gap: 36px; margin-top: 22px; }
 .alire-col h3 { margin: 0 0 4px; font-stretch: 125%; font-weight: 600; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; }
@@ -723,6 +730,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   function load(k, f) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : f; } catch (e) { return f; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   let favs = load("pressing:favs", {});
+  let demandes = load("pressing:demandes", []), traites = [];
   let dossiers = load("pressing:dossiers", []), favsMaj = load("pressing:favsMaj", 0);
   function saveFavs(msg) { favsMaj = Date.now(); save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (EDIT()) persist(msg || "Favoris"); }
   let lues = load("pressing:lues", {});
@@ -746,7 +754,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       for (let essai = 0; essai < 2; essai++) {
         const g = await fetch(url + "?ref=main&t=" + Date.now(), { headers: H, cache: "no-store" });
         const sha = g.ok ? (await g.json()).sha : undefined;
-        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, caches, edits, ajouts, favs, dossiers, favsMaj }, null, 1)), sha: sha, branch: "main" }) });
+        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, caches, edits, ajouts, favs, dossiers, favsMaj, demandes }, null, 1)), sha: sha, branch: "main" }) });
         if (r.ok) { toast("Publié · visible par tous d'ici quelques minutes"); break; }
         if (r.status === 401 || r.status === 403) { toast("Clé GitHub refusée : vérifie-la dans Mes notes"); break; }
         if (essai === 1) toast("Publication impossible, réessaie");
@@ -755,7 +763,8 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     ghBusy = false; if (ghAgain) { ghAgain = false; ghPush(msg); }
   }
   async function loadModifs() {
-    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); notes = m.notes || {}; caches = m.caches || {}; edits = m.edits || {}; ajouts = m.ajouts || ajouts; if (EDIT() && (m.favsMaj || 0) > favsMaj) { const anciens = favsMaj ? {} : favs; favs = Object.assign({}, anciens, m.favs || {}); dossiers = m.dossiers || []; favsMaj = m.favsMaj; save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (Object.keys(anciens).some(k => !(m.favs || {})[k])) saveFavs("Favoris : fusionne un appareil"); } else if (EDIT() && !favsMaj && Object.keys(favs).length) saveFavs("Favoris : premier envoi"); } catch (e) {}
+    try { traites = (await getJSON("data/demandes-traitees.json?t=" + Date.now())).ids || []; } catch (e) { traites = []; }
+    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); if (EDIT() && m.demandes) { const par = {}; m.demandes.concat(demandes).forEach(d => { const x = par[d.id]; par[d.id] = x ? Object.assign({}, x, d, { annule: x.annule || d.annule }) : d; }); demandes = Object.values(par).sort((a, b) => (a.date || "").localeCompare(b.date || "")); save("pressing:demandes", demandes); } notes = m.notes || {}; caches = m.caches || {}; edits = m.edits || {}; ajouts = m.ajouts || ajouts; if (EDIT() && (m.favsMaj || 0) > favsMaj) { const anciens = favsMaj ? {} : favs; favs = Object.assign({}, anciens, m.favs || {}); dossiers = m.dossiers || []; favsMaj = m.favsMaj; save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (Object.keys(anciens).some(k => !(m.favs || {})[k])) saveFavs("Favoris : fusionne un appareil"); } else if (EDIT() && !favsMaj && Object.keys(favs).length) saveFavs("Favoris : premier envoi"); } catch (e) {}
     if (EDIT()) { const c = load("pressing:copie", null); if (c) { notes = Object.assign({}, notes, c.notes); caches = Object.assign({}, caches, c.caches); edits = Object.assign({}, edits, c.edits); if (c.ajouts) ajouts = { refs: ajouts.refs.concat((c.ajouts.refs || []).filter(x => !ajouts.refs.some(y => y.id === x.id))), fiches: Object.assign({}, ajouts.fiches, c.ajouts.fiches) }; } }
   }
   function supprBtn(k) { if (!editOn()) return ""; return '<div class="ref-suppr"><button type="button" class="label more" data-cacher="' + esc(k) + '">Supprimer cette référence</button></div>'; }
@@ -819,12 +828,45 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
             '<h3>' + esc(lead.titre) + '</h3><p class="chapo">' + esc(firstSentence(lead.faits)) + '</p>' +
             '<span class="label muted">' + esc(lead.source) + ' · ' + lead.minutes + ' min' + (lues[lead.id] ? ' · Lue' : '') + '</span></a>' +
           '<div class="side">' + rest.map((c, i) => '<a class="small' + (c.image && c.image.url ? ' has-img' : '') + '" href="#' + c.id + '">' + photo(c) + '<span class="num" data-num="' + m + '">0' + (i + 2) + '</span>' +
-            '<h3>' + esc(c.titre) + '</h3><span class="label muted">' + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · Lue' : '') + '</span></a>').join("") + '</div>' +
+            '<h3>' + esc(c.titre) + '</h3><span class="label muted">' + (c.perso ? 'Proposé par toi · ' : '') + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · Lue' : '') + '</span></a>').join("") + '</div>' +
         '</div></section>';
     });
-    h += aLire(ed);
+    h += aLire(ed) + proposer();
     app.innerHTML = h;
   }
+  const enAttente = () => demandes.filter(d => !d.annule && !traites.includes(d.id));
+  function proposer() {
+    const att = enAttente();
+    return '<section class="prop"><div class="mag-head"><h2>Ajouter un article</h2><span class="mag-rule"></span></div>' +
+      '<p class="muted prop-txt">Colle le lien d\'un article qui t\'intéresse : il sera analysé et ajouté à la prochaine édition, comme les autres.</p>' +
+      '<button type="button" class="btn label" data-prop-new>+ Proposer un article</button>' +
+      (att.length ? '<div class="prop-list"><span class="label muted">En attente · ' + att.length + '</span>' + att.map(d => { let h = d.url; try { h = new URL(d.url).hostname.replace(/^www\./, ""); } catch (e) {}
+        return '<div class="prop-item"><span class="label">' + esc(NOM[d.matiere] || d.matiere) + '</span><a href="' + esc(d.url) + '" target="_blank" rel="noopener">' + esc(h) + '</a>' + (d.texte ? '<span class="muted">· texte collé</span>' : '') + '<button type="button" class="more label" data-prop-del="' + esc(d.id) + '">Annuler</button></div>'; }).join("") + '</div>' : '') + '</section>';
+  }
+  function devineMat(u) { let h = ""; try { h = new URL(u).hostname; } catch (e) {} if (/\.(es|mx|ar|co|cl)$|elpais|elmundo|lavanguardia|eldiario|clarin|rtve|efe\./.test(h)) return "espagnol"; if (/\.(de|at|ch)$|dw\.com/.test(h)) return "allemand"; if (/\.(uk)$|bbc|guardian|ft\.com|economist|nytimes|washingtonpost|wsj|bloomberg|politico|npr|cnn|axios|theatlantic|reuters|apnews/.test(h)) return "anglais"; return "esh"; }
+  function propSheet() {
+    if (!EDIT()) { toast("Active d'abord le mode éditrice (clé GitHub dans Mes notes)"); return; }
+    fdClose(); const w = document.createElement("div"); w.className = "fd-sheet-bg";
+    w.innerHTML = '<div class="fd-sheet" role="dialog" aria-label="Proposer un article"><span class="label muted">Proposer un article</span>' +
+      '<input class="search" type="url" placeholder="Colle le lien de l\'article" data-prop-url>' +
+      '<div class="seg label prop-mats" role="group" aria-label="Matière">' + MATS.map(m => '<button type="button" data-prop-mat="' + m + '" aria-pressed="' + (m === "esh") + '">' + NOM[m] + '</button>').join("") + '</div>' +
+      '<textarea class="note-area" rows="5" placeholder="Seulement si l\'article est payant (Les Échos, Le Monde…) : colle ici son texte" data-prop-texte></textarea>' +
+      '<button type="button" class="btn label fd-ok" data-prop-ok>Ajouter à la file</button></div>';
+    document.body.appendChild(w); w.addEventListener("click", e => { if (e.target === w) fdClose(); });
+    const u = w.querySelector("[data-prop-url]"); u.focus();
+    u.addEventListener("input", () => { if (w.dataset.matChoisie) return; const m = devineMat(u.value); w.querySelectorAll("[data-prop-mat]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.propMat === m))); });
+  }
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-prop-new],[data-prop-mat],[data-prop-ok],[data-prop-del]"); if (!t) return;
+    if (t.hasAttribute("data-prop-new")) propSheet();
+    else if (t.dataset.propMat) { const w = t.closest(".fd-sheet-bg"); w.dataset.matChoisie = 1; w.querySelectorAll("[data-prop-mat]").forEach(b => b.setAttribute("aria-pressed", String(b === t))); }
+    else if (t.hasAttribute("data-prop-ok")) { const w = t.closest(".fd-sheet"), url = w.querySelector("[data-prop-url]").value.trim(), texte = w.querySelector("[data-prop-texte]").value.trim(), mb = w.querySelector('[data-prop-mat][aria-pressed="true"]');
+      if (!/^https?:\/\/\S+\.\S+/.test(url)) { toast("Colle un lien qui commence par https://"); return; }
+      if (demandes.some(d => d.url === url && !d.annule)) { toast("Cet article est déjà dans la file"); return; }
+      demandes.push(Object.assign({ id: "d" + Date.now().toString(36), url, matiere: mb ? mb.dataset.propMat : "esh", date: new Date().toISOString() }, texte ? { texte } : {}));
+      save("pressing:demandes", demandes); persist("Propose un article"); fdClose(); toast("Ajouté : il sera dans la prochaine édition"); if (state.view === "accueil") viewAccueil(); }
+    else if (t.dataset.propDel) { const d = demandes.find(x => x.id === t.dataset.propDel); if (d) d.annule = true; save("pressing:demandes", demandes); persist("Annule une proposition d'article"); toast("Proposition annulée"); viewAccueil(); }
+  });
   function aLire(ed) {
     const l = (ed.a_lire || []).filter(a => a && /^https:\/\//.test(a.url || ""));
     if (!l.length) return "";
