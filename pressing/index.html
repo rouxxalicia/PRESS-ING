@@ -622,6 +622,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 10px 30px -18px rgba(20,20,18,.28);
   transition: transform .6s cubic-bezier(.3,1.7,.45,1), background .3s; will-change: transform; }
 .fd-gl { display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; aspect-ratio: 4 / 5; border-radius: 26px; padding: 18px; }
+.fd-gl .fd-gl-c:first-child { margin-bottom: auto; }
 .fd-gl-n { font-size: 17px; font-weight: 500; line-height: 1.2; letter-spacing: -0.01em; }
 .fd-gl-c { color: var(--fg); opacity: .6; }
 .fd-item:hover .fd-gl, .fd-mini:hover { transform: translateY(-7px) scale(1.025); background: rgba(255,255,255,.3); }
@@ -735,7 +736,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   function saveFavs(msg) { favsMaj = Date.now(); save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (EDIT()) persist(msg || "Favoris"); }
   let lues = load("pressing:lues", {});
   // Modifications partagées : enregistrées dans data/modifs.json sur GitHub, visibles par tous
-  let notes = {}, caches = {}, edits = {}, ajouts = { refs: [], fiches: {} };
+  let notes = {}, caches = {}, edits = {}, ajouts = { refs: [], fiches: {} }, notesPub = false;
   const GH = { repo: "rouxxalicia/PRESS-ING", path: "pressing/data/modifs.json" };
   const EDIT = () => !!load("pressing:gh", null);
   function b64(str) { const b = new TextEncoder().encode(str); let out = ""; for (let i = 0; i < b.length; i += 0x8000) out += String.fromCharCode.apply(null, b.subarray(i, i + 0x8000)); return btoa(out); }
@@ -754,7 +755,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       for (let essai = 0; essai < 2; essai++) {
         const g = await fetch(url + "?ref=main&t=" + Date.now(), { headers: H, cache: "no-store" });
         const sha = g.ok ? (await g.json()).sha : undefined;
-        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, caches, edits, ajouts, favs, dossiers, favsMaj, demandes }, null, 1)), sha: sha, branch: "main" }) });
+        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: msg || "Modifications d'Alicia", content: b64(JSON.stringify({ notes, notesPub, caches, edits, ajouts, favs, dossiers, favsMaj, demandes }, null, 1)), sha: sha, branch: "main" }) });
         if (r.ok) { toast("Publié · visible par tous d'ici quelques minutes"); break; }
         if (r.status === 401 || r.status === 403) { toast("Clé GitHub refusée : vérifie-la dans Mes notes"); break; }
         if (essai === 1) toast("Publication impossible, réessaie");
@@ -764,7 +765,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   }
   async function loadModifs() {
     try { traites = (await getJSON("data/demandes-traitees.json?t=" + Date.now())).ids || []; } catch (e) { traites = []; }
-    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); if (EDIT() && m.demandes) { const par = {}; m.demandes.concat(demandes).forEach(d => { const x = par[d.id]; par[d.id] = x ? Object.assign({}, x, d, { annule: x.annule || d.annule }) : d; }); demandes = Object.values(par).sort((a, b) => (a.date || "").localeCompare(b.date || "")); save("pressing:demandes", demandes); } notes = m.notes || {}; caches = m.caches || {}; edits = m.edits || {}; ajouts = m.ajouts || ajouts; if (EDIT() && (m.favsMaj || 0) > favsMaj) { const anciens = favsMaj ? {} : favs; favs = Object.assign({}, anciens, m.favs || {}); dossiers = m.dossiers || []; favsMaj = m.favsMaj; save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (Object.keys(anciens).some(k => !(m.favs || {})[k])) saveFavs("Favoris : fusionne un appareil"); } else if (EDIT() && !favsMaj && Object.keys(favs).length) saveFavs("Favoris : premier envoi"); } catch (e) {}
+    try { const m = await getJSON("data/modifs.json?t=" + Date.now()); if (EDIT() && m.demandes) { const par = {}; m.demandes.concat(demandes).forEach(d => { const x = par[d.id]; par[d.id] = x ? Object.assign({}, x, d, { annule: x.annule || d.annule }) : d; }); demandes = Object.values(par).sort((a, b) => (a.date || "").localeCompare(b.date || "")); save("pressing:demandes", demandes); } notesPub = !!m.notesPub; notes = (EDIT() || notesPub) ? (m.notes || {}) : {}; caches = m.caches || {}; edits = m.edits || {}; ajouts = m.ajouts || ajouts; if (EDIT() && (m.favsMaj || 0) > favsMaj) { const anciens = favsMaj ? {} : favs; favs = Object.assign({}, anciens, m.favs || {}); dossiers = m.dossiers || []; favsMaj = m.favsMaj; save("pressing:favs", favs); save("pressing:dossiers", dossiers); save("pressing:favsMaj", favsMaj); if (Object.keys(anciens).some(k => !(m.favs || {})[k])) saveFavs("Favoris : fusionne un appareil"); } else if (EDIT() && !favsMaj && Object.keys(favs).length) saveFavs("Favoris : premier envoi"); } catch (e) {}
     if (EDIT()) { const c = load("pressing:copie", null); if (c) { notes = Object.assign({}, notes, c.notes); caches = Object.assign({}, caches, c.caches); edits = Object.assign({}, edits, c.edits); if (c.ajouts) ajouts = { refs: ajouts.refs.concat((c.ajouts.refs || []).filter(x => !ajouts.refs.some(y => y.id === x.id))), fiches: Object.assign({}, ajouts.fiches, c.ajouts.fiches) }; } }
   }
   function supprBtn(k) { if (!editOn()) return ""; return '<div class="ref-suppr"><button type="button" class="label more" data-cacher="' + esc(k) + '">Supprimer cette référence</button></div>'; }
@@ -1265,10 +1266,11 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     if (EDIT()) h += '<a class="btn label" href="#notes/n">Nouvelle note</a>';
     h += ks.length ? '<div style="border-top:1px solid var(--fg);margin-top:24px">' + ks.map(k => '<a class="cg-ref" href="' + lien(k) + '"><span class="n">' + esc(type(k).slice(0, 3)) + '</span><span><span class="t">' + esc(notes[k].titre || "Sans titre") + '</span><span class="s">' + esc(type(k)) + ' · ' + esc((notes[k].texte || "").slice(0, 90)) + '</span></span><span class="label muted">→</span></a>').join("") + '</div>' : '<div class="empty"><p>Aucune note pour l\'instant.</p></div>';
     h += '<section class="editrice"><h2 class="label">Mode éditrice</h2>' + (EDIT()
-      ? '<p class="muted" style="margin:0">Activé sur cet appareil : tu peux écrire, modifier et supprimer, et tout est publié pour les autres.</p><button type="button" class="label more" id="gh-off">Désactiver sur cet appareil</button>'
+      ? '<p class="muted" style="margin:0">Activé sur cet appareil : tu peux écrire, modifier et supprimer, et tout est publié pour les autres.</p><label class="chip" style="margin:4px 0"><input type="checkbox" id="notes-pub"' + (notesPub ? ' checked' : '') + '><span>' + (notesPub ? 'Mes notes sont visibles par les autres' : 'Mes notes sont masquées pour les autres') + '</span></label><button type="button" class="label more" id="gh-off">Désactiver sur cet appareil</button>'
       : '<p class="muted" style="margin:0">Pour écrire et modifier le site, colle ta clé GitHub (à faire une fois par appareil).</p><input id="gh-tok" class="search" type="password" placeholder="github_pat_…" autocomplete="off"><button type="button" class="btn label" id="gh-on">Activer</button>') + '</section></div>';
     app.innerHTML = h;
     const on = document.getElementById("gh-on"), off = document.getElementById("gh-off");
+    const np = document.getElementById("notes-pub"); if (np) np.onchange = () => { notesPub = np.checked; persist(notesPub ? "Notes visibles" : "Notes masquées"); viewNotes([]); };
     if (off) off.onclick = () => { localStorage.removeItem("pressing:gh"); toast("Mode éditrice désactivé"); viewNotes([]); };
     if (on) on.onclick = async () => {
       const tok = document.getElementById("gh-tok").value.trim(); if (!tok) return;
@@ -1332,24 +1334,27 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   async function viewDebats(parts) {
     const ls = await lecons(), th = debThemes(ls);
     const tid = parts[0] === "t" ? parts[1] : null;
+    const tete = '<div class="page-head"><span class="label muted">ESH</span><h1>Débats</h1><p class="muted" style="margin:4px 0 0">' + th.reduce((s, t) => s + t.items.length, 0) + ' débats pour la dissertation, rangés par leçon. Chaque débat a sa fiche : les arguments pour, contre et les nuances, avec auteurs, œuvres et exemples.</p></div>' + eshTabs("debats");
     if (!parts.length || tid) {
       const shown = tid ? th.filter(t => t.id === tid) : th;
-      const nb = th.reduce((s, t) => s + t.items.length, 0);
-      let h = '<div class="narrow"><a class="back label" href="#referentiel">← Référentiel</a><div class="page-head"><span class="label muted">ESH</span><h1>Débats</h1><p class="muted" style="margin:4px 0 0">' + nb + ' débats pour la dissertation, rangés par thème. Chaque débat a sa fiche : les arguments pour, contre et les nuances, avec auteurs, œuvres et exemples.</p></div>' + eshTabs("debats") +
+      let h = '<div class="wrap-wide fd-page"><a class="back label" href="#referentiel">← Référentiel</a>' + tete +
         '<nav class="subtabs label" aria-label="Thèmes" style="margin-top:0">' + '<a href="#debats"' + (!tid ? ' aria-current="page"' : '') + '>Tous</a>' + th.map(t => '<a href="#debats/t/' + t.id + '"' + (t.id === tid ? ' aria-current="page"' : '') + '>' + esc(t.nom) + '</a>').join("") + '</nav>';
-      shown.forEach(t => {
-        h += '<section class="deb-theme">' + (tid ? '' : '<h2>' + esc(t.nom) + '</h2>');
-        const maps = []; t.items.forEach(it => { let g = maps.find(m => m.M === it.M); if (!g) maps.push(g = { M: it.M, its: [] }); g.its.push(it); });
-        maps.forEach(g => {
-          h += '<div class="deb-map"><span class="label">' + esc(g.M.title) + '</span><div class="deb-list">' + g.its.map(it => {
-            const c = { y: 0, n: 0, m: 0 }; it.D.ideas.forEach(i => c[i[1]]++);
-            return '<a class="deb-row" href="#debats/' + it.lid + '/' + it.key + '"><span class="ti">' + esc(it.D.q) + '</span><span class="nb">' + it.D.ideas.length + ' arguments</span></a>';
-          }).join("") + '</div></div>';
-        });
-        h += '</section>';
-      });
+      const tuiles = []; shown.forEach(t => t.l.filter(lid => t.items.some(it => it.lid === lid)).forEach(lid => { const L = ls.find(x => x.id === lid), n = t.items.filter(it => it.lid === lid).length;
+        tuiles.push('<a class="fd-item" href="#debats/l/' + lid + '"><span class="fd-gl"><span class="label fd-gl-c">' + esc(t.nom) + '</span><span class="fd-gl-n">' + esc(L ? L.title : lid) + '</span><span class="label fd-gl-c">' + esc(L ? L.short.replace(/ · intermédiaire$/, "") + " · " : "") + n + ' débat' + (n > 1 ? 's' : '') + '</span></span></a>'); }));
+      h += '<div class="fd-glwrap" style="margin-top:28px"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + tuiles.join("") + '</div></div>';
       app.innerHTML = h + '</div>';
       const cur = app.querySelector('nav[aria-label="Thèmes"] [aria-current]'); if (cur && tid) cur.parentNode.scrollLeft = cur.offsetLeft - 16;
+      return;
+    }
+    if (parts[0] === "l") {
+      const lid = parts[1], t = th.find(x => x.items.some(it => it.lid === lid)), L = ls.find(x => x.id === lid);
+      if (!t) { location.hash = "debats"; return; }
+      const its = t.items.filter(it => it.lid === lid), maps = []; its.forEach(it => { let g = maps.find(m => m.M === it.M); if (!g) maps.push(g = { M: it.M, its: [] }); g.its.push(it); });
+      let h = '<div class="narrow"><a class="back label" href="#debats">← Débats</a><div class="page-head"><span class="label muted">' + esc(L ? L.short : "") + '</span><h1>' + esc(L ? L.title : lid) + '</h1><p class="muted" style="margin:4px 0 0">' + its.length + ' débat' + (its.length > 1 ? 's' : '') + '</p></div>';
+      maps.forEach(g => {
+        h += '<div class="deb-map"><span class="label">' + esc(g.M.title) + '</span><div class="deb-list">' + g.its.map(it => '<a class="deb-row" href="#debats/' + it.lid + '/' + it.key + '"><span class="ti">' + esc(it.D.q) + '</span><span class="nb">' + it.D.ideas.length + ' arguments</span></a>').join("") + '</div></div>';
+      });
+      app.innerHTML = h + '</div>';
       return;
     }
     const t = th.find(x => x.items.some(it => it.lid === parts[0] && it.key === parts[1]));
@@ -1372,7 +1377,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     const f = F && F.parts ? F : fb();
     const para = p => { const [hd, ...rest] = p.split("\n"); return '<div class="dbf-arg">' + (rest.length ? '<p class="dbf-who">' + debFmt(hd) + '</p><p>' + debFmt(rest.join(" ")) + '</p>' : '<p>' + debFmt(hd) + '</p>') + '</div>'; };
     const prev = t.items[k - 1], next = t.items[k + 1];
-    let h = '<div class="narrow"><a class="back label" href="#debats/t/' + t.id + '">← Débats · ' + esc(t.nom) + '</a><article class="card dbf" id="dbf">' +
+    let h = '<div class="narrow"><a class="back label" href="#debats/l/' + it.lid + '">← Débats · ' + esc(L ? L.title : t.nom) + '</a><article class="card dbf" id="dbf">' +
       '<span class="label muted">Débat · ' + esc(t.nom) + '</span><h1>' + esc(it.D.q) + '</h1>' +
       '<p class="lieu">' + esc(it.M.title) + (L ? '<br>' + esc(L.short) + ' · ' + esc(L.title) : '') + '</p>' +
       (f.idee ? '<p class="idee">' + debFmt(f.idee) + '</p>' : '') +
