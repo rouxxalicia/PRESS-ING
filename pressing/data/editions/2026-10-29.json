@@ -233,10 +233,10 @@
    "faits": "Dans une enquête publiée le 29 octobre, le Guardian analyse le basculement des entreprises américaines et britanniques des simples robots conversationnels vers des « agents d'intelligence artificielle » capables d'exécuter seuls des chaînes de tâches complexes. Dans plusieurs start-up et services tertiaires, une poignée de salariés humains supervisent désormais des dizaines d'agents logiciels chargés du code informatique, de la prospection commerciale, de la comptabilité ou du service client. Le travail quotidien des employés consiste de moins en moins à rédiger ou programmer eux-mêmes, et de plus en plus à vérifier, corriger et coordonner ces assistants autonomes sur des messageries d'entreprise comme Slack. Si les directions vantent de forts gains de productivité, l'enquête souligne une fatigue cognitive accrue chez les salariés et un net ralentissement des embauches de jeunes diplômés.",
    "enjeux": "Cette évolution marque une nouvelle étape dans l'impact de l'**intelligence artificielle** sur le marché du travail des pays anglo-saxons. Contrairement aux vagues d'automatisation industrielle du XXe siècle qui remplaçaient des tâches manuelles routinières, l'IA dite « agentique » touche les **cols blancs** qualifiés (juristes, développeurs, analystes financiers). Le risque principal à court terme n'est pas tant le licenciement massif des cadres expérimentés que l'assèchement des postes d'entrée de carrière (**entry-level jobs**), où les jeunes acquéraient jusqu'ici leur expérience professionnelle. Ce bouleversement relance le débat sur la **polarisation des emplois**, la régulation algorithmique au travail et l'adaptation des systèmes universitaires.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Aerial_view_of_Silicon_Valley.jpg/1280px-Aerial_view_of_Silicon_Valley.jpg",
-    "alt": "Vue aérienne de la Silicon Valley en Californie, berceau des géants du numérique",
-    "credit": "Patrick Nouhailler / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Silicon_Valley.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Computer_keyboard_placed_on_a_black_desk_in_a_modern_workspace.jpg/1280px-Computer_keyboard_placed_on_a_black_desk_in_a_modern_workspace.jpg",
+    "alt": "Poste de travail informatique moderne avec clavier et écrans dans un bureau",
+    "credit": "Shixart1985 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_keyboard_placed_on_a_black_desk_in_a_modern_workspace.jpg"
    },
    "vo": {
     "titre": "Working alongside \"AI agents\": how autonomous artificial intelligence is reshaping white-collar jobs",

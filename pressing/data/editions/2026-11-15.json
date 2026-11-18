@@ -39,9 +39,18 @@
     }
    ],
    "notions": [
-    ["Croissance potentielle", "Rythme maximal de croissance qu'une économie peut atteindre durablement sans créer de tensions inflationnistes."],
-    ["Productivité globale des facteurs (PGF)", "Part de la croissance de la production qui ne s'explique pas par la quantité de travail et de capital utilisée, mais par l'efficacité de leur combinaison."],
-    ["PIB par habitant", "Richesse produite en moyenne par personne dans un pays, utilisée pour comparer les niveaux de vie entre économies."]
+    [
+     "Croissance potentielle",
+     "Rythme maximal de croissance qu'une économie peut atteindre durablement sans créer de tensions inflationnistes."
+    ],
+    [
+     "Productivité globale des facteurs (PGF)",
+     "Part de la croissance de la production qui ne s'explique pas par la quantité de travail et de capital utilisée, mais par l'efficacité de leur combinaison."
+    ],
+    [
+     "PIB par habitant",
+     "Richesse produite en moyenne par personne dans un pays, utilisée pour comparer les niveaux de vie entre économies."
+    ]
    ],
    "sujets": [
     "Le ralentissement de la croissance française est-il avant tout un problème de productivité ?",
@@ -95,9 +104,18 @@
     }
    ],
    "notions": [
-    ["Effet boule de neige", "Mécanisme par lequel le ratio dette/PIB augmente automatiquement lorsque le taux d'intérêt moyen de la dette dépasse le taux de croissance."],
-    ["Charge de la dette", "Montant des intérêts que l'État doit verser chaque année à ses créanciers pour rémunérer sa dette publique."],
-    ["Solde primaire", "Différence entre les recettes et les dépenses publiques avant paiement des intérêts de la dette."]
+    [
+     "Effet boule de neige",
+     "Mécanisme par lequel le ratio dette/PIB augmente automatiquement lorsque le taux d'intérêt moyen de la dette dépasse le taux de croissance."
+    ],
+    [
+     "Charge de la dette",
+     "Montant des intérêts que l'État doit verser chaque année à ses créanciers pour rémunérer sa dette publique."
+    ],
+    [
+     "Solde primaire",
+     "Différence entre les recettes et les dépenses publiques avant paiement des intérêts de la dette."
+    ]
    ],
    "sujets": [
     "La dette publique française est-elle soutenable ?",
@@ -151,9 +169,18 @@
     }
    ],
    "notions": [
-    ["Compétitivité hors-prix", "Capacité d'une entreprise ou d'un pays à gagner des parts de marché grâce à la qualité, l'innovation, le design ou l'image, indépendamment du prix."],
-    ["Relocalisation", "Décision d'une entreprise de rapatrier sur le territoire national une activité productive précédemment délocalisée à l'étranger."],
-    ["Piège du milieu de gamme", "Situation d'une industrie concurrencée à la fois par les pays à bas coûts sur les prix et par les leaders technologiques sur la qualité."]
+    [
+     "Compétitivité hors-prix",
+     "Capacité d'une entreprise ou d'un pays à gagner des parts de marché grâce à la qualité, l'innovation, le design ou l'image, indépendamment du prix."
+    ],
+    [
+     "Relocalisation",
+     "Décision d'une entreprise de rapatrier sur le territoire national une activité productive précédemment délocalisée à l'étranger."
+    ],
+    [
+     "Piège du milieu de gamme",
+     "Situation d'une industrie concurrencée à la fois par les pays à bas coûts sur les prix et par les leaders technologiques sur la qualité."
+    ]
    ],
    "sujets": [
     "La réindustrialisation de la France passe-t-elle nécessairement par la montée en gamme ?",
@@ -208,9 +235,18 @@
     }
    ],
    "notions": [
-    ["Capital social", "Ensemble des relations sociales et des réseaux mobilisables par un individu pour accéder à des ressources, un emploi ou un financement."],
-    ["Déterminisme social", "Idée selon laquelle la trajectoire et la position d'un individu sont fortement influencées par son origine sociale et son environnement."],
-    ["Égalité des chances", "Principe selon lequel tous les individus doivent pouvoir accéder aux mêmes positions sociales quel que soit leur milieu d'origine."]
+    [
+     "Capital social",
+     "Ensemble des relations sociales et des réseaux mobilisables par un individu pour accéder à des ressources, un emploi ou un financement."
+    ],
+    [
+     "Déterminisme social",
+     "Idée selon laquelle la trajectoire et la position d'un individu sont fortement influencées par son origine sociale et son environnement."
+    ],
+    [
+     "Égalité des chances",
+     "Principe selon lequel tous les individus doivent pouvoir accéder aux mêmes positions sociales quel que soit leur milieu d'origine."
+    ]
    ],
    "sujets": [
     "L'origine sociale et territoriale détermine-t-elle encore les trajectoires professionnelles en France ?",
@@ -248,12 +284,36 @@
     "enjeux": "This hiring freeze threatens the unwritten social contract that higher education leads to secure employment and upward mobility. Economists warn of a lasting scarring effect: prolonged spells out of work early in life permanently depress lifetime earnings and career prospects. For Andy Burnham's Labour government, the challenge is to revive youth employment and apprenticeships without breaching strict fiscal rules, while adapting skills training to an AI-reshaped economy."
    },
    "vocab": [
-    ["a scarring effect", "un effet de cicatrice durable (sur les salaires futurs)", "Early unemployment often leaves a lasting scarring effect on young workers."],
-    ["entry-level jobs", "les emplois de débutants", "Competition for entry-level jobs has grown fierce among recent graduates."],
-    ["a broken social contract", "un contrat social rompu", "Many young voters feel they are living under a broken social contract."],
-    ["to take a toll on", "peser lourdement sur / nuire à", "Months of rejection have taken a heavy toll on his mental health."],
-    ["upward mobility", "l'ascension sociale", "Housing costs and weak wage growth have stalled upward mobility."],
-    ["a hiring freeze", "un gel des embauches", "Several tech firms announced a hiring freeze amid economic uncertainty."]
+    [
+     "a scarring effect",
+     "un effet de cicatrice durable (sur les salaires futurs)",
+     "Early unemployment often leaves a lasting scarring effect on young workers."
+    ],
+    [
+     "entry-level jobs",
+     "les emplois de débutants",
+     "Competition for entry-level jobs has grown fierce among recent graduates."
+    ],
+    [
+     "a broken social contract",
+     "un contrat social rompu",
+     "Many young voters feel they are living under a broken social contract."
+    ],
+    [
+     "to take a toll on",
+     "peser lourdement sur / nuire à",
+     "Months of rejection have taken a heavy toll on his mental health."
+    ],
+    [
+     "upward mobility",
+     "l'ascension sociale",
+     "Housing costs and weak wage growth have stalled upward mobility."
+    ],
+    [
+     "a hiring freeze",
+     "un gel des embauches",
+     "Several tech firms announced a hiring freeze amid economic uncertainty."
+    ]
    ],
    "sujets": [
     "Is higher education still a reliable passport to economic security in Britain?",
@@ -291,12 +351,36 @@
     "enjeux": "The policy highlights a sharp US dilemma: curbing federal exposure to soaring student debt without reining in tuition fees. Critics warn that capping public loans could entrench socio-economic barriers in medicine, turning a meritocratic path into a privilege for affluent families. Over time, fewer graduates from modest or minority backgrounds could worsen physician shortages in underserved rural and urban communities."
    },
    "vocab": [
-    ["a lifetime limit / cap", "un plafond cumulé sur la durée des études", "The new law sets a $200,000 lifetime cap on federal loans."],
-    ["tuition fees", "les frais de scolarité", "Rising tuition fees have outpaced household income growth."],
-    ["to price someone out of", "exclure quelqu'un par les prix", "High borrowing costs risk pricing working-class students out of medicine."],
-    ["physician shortages", "la pénurie de médecins", "Rural states already face severe physician shortages."],
-    ["underserved communities", "les populations / zones mal desservies", "Graduates from modest backgrounds often return to work in underserved communities."],
-    ["to bridge the gap", "combler l'écart", "Many students rely on private lenders to bridge the funding gap."]
+    [
+     "a lifetime limit / cap",
+     "un plafond cumulé sur la durée des études",
+     "The new law sets a $200,000 lifetime cap on federal loans."
+    ],
+    [
+     "tuition fees",
+     "les frais de scolarité",
+     "Rising tuition fees have outpaced household income growth."
+    ],
+    [
+     "to price someone out of",
+     "exclure quelqu'un par les prix",
+     "High borrowing costs risk pricing working-class students out of medicine."
+    ],
+    [
+     "physician shortages",
+     "la pénurie de médecins",
+     "Rural states already face severe physician shortages."
+    ],
+    [
+     "underserved communities",
+     "les populations / zones mal desservies",
+     "Graduates from modest backgrounds often return to work in underserved communities."
+    ],
+    [
+     "to bridge the gap",
+     "combler l'écart",
+     "Many students rely on private lenders to bridge the funding gap."
+    ]
    ],
    "sujets": [
     "Does capping federal student loans solve the US higher-education crisis or deepen inequality?",
@@ -323,10 +407,10 @@
    "faits": "Le 13 novembre, la BBC rapporte que l'ancien PDG de Nvidia, Jensen Huang, a été convoqué pour témoigner en décembre devant une commission bancaire du Sénat américain. Il avait brusquement démissionné la veille après des révélations sur une liaison extraconjugale présumée avec une femme soupçonnée d'espionnage au profit de la Chine. Le secrétaire américain au Commerce, Howard Lutnick, est également convoqué par les sénateurs pour s'expliquer sur les exportations de puces d'intelligence artificielle sensibles vers la Chine. En cinq jours de crise, le géant des semi-conducteurs a perdu environ 550 milliards de dollars de capitalisation boursière.",
    "enjeux": "Au-delà de l'affaire personnelle, ce séisme révèle la fusion croissante entre **gouvernance d'entreprise** et **sécurité nationale** aux États-Unis. Les semi-conducteurs de pointe et l'IA sont devenus le cœur de la **rivalité stratégique sino-américaine**, chaque faille potentielle étant immédiatement traitée comme une menace géopolitique par le Congrès. La chute brutale de la valorisation de Nvidia montre aussi la vulnérabilité des marchés financiers face à la concentration extrême autour de quelques géants de la tech. Enfin, le renforcement attendu des contrôles à l'exportation pourrait pousser Pékin à accélérer son autonomie technologique.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/1280px-US_Capitol_west_side.JPG",
-    "alt": "Le Capitole des États-Unis à Washington",
-    "credit": "Martin Falbisoner / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Flickr_-_USCapitol_-_Russell_Senate_Office_Building.jpg/1280px-Flickr_-_USCapitol_-_Russell_Senate_Office_Building.jpg",
+    "alt": "Le bâtiment Russell du Sénat des États-Unis à Washington",
+    "credit": "USCapitol / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_Russell_Senate_Office_Building.jpg"
    },
    "vo": {
     "titre": "US: ex-Nvidia chief summoned by Senate amid China chip security fears",
@@ -334,12 +418,36 @@
     "enjeux": "Beyond personal misconduct, the upheaval underlines how closely corporate governance and national security are intertwined in the US tech sector. Advanced semiconductors sit at the centre of US–China strategic rivalry, meaning any perceived leak is treated by Congress as a geopolitical threat. Nvidia's sharp market drop also exposes the fragility of equity markets heavily concentrated in a handful of AI giants, while tighter export controls may spur China to speed up domestic chip self-reliance."
    },
    "vocab": [
-    ["to be summoned to testify", "être convoqué pour témoigner", "Tech executives were summoned to testify before the Senate committee."],
-    ["to shed market value", "perdre de la valeur boursière", "The firm shed billions in market value within a single week."],
-    ["export controls", "les contrôles à l'exportation", "Washington tightened export controls on advanced semiconductors."],
-    ["national security", "la sécurité nationale", "Lawmakers framed chip sales as a matter of national security."],
-    ["corporate governance", "la gouvernance d'entreprise", "The scandal triggered urgent questions about corporate governance."],
-    ["self-reliance", "l'autonomie / l'autosuffisance", "Sanctions have pushed Beijing toward technological self-reliance."]
+    [
+     "to be summoned to testify",
+     "être convoqué pour témoigner",
+     "Tech executives were summoned to testify before the Senate committee."
+    ],
+    [
+     "to shed market value",
+     "perdre de la valeur boursière",
+     "The firm shed billions in market value within a single week."
+    ],
+    [
+     "export controls",
+     "les contrôles à l'exportation",
+     "Washington tightened export controls on advanced semiconductors."
+    ],
+    [
+     "national security",
+     "la sécurité nationale",
+     "Lawmakers framed chip sales as a matter of national security."
+    ],
+    [
+     "corporate governance",
+     "la gouvernance d'entreprise",
+     "The scandal triggered urgent questions about corporate governance."
+    ],
+    [
+     "self-reliance",
+     "l'autonomie / l'autosuffisance",
+     "Sanctions have pushed Beijing toward technological self-reliance."
+    ]
    ],
    "sujets": [
     "Are US export controls slowing down China's AI ambitions or accelerating its self-reliance?",
@@ -377,12 +485,36 @@
     "enjeux": "These bottlenecks illustrate the lasting economic cost of non-tariff barriers created by leaving the EU single market, even under a tariff-free trade deal. For food supply chains, customs friction acts as an invisible tax that erodes the competitiveness of British exporters and adds pressure to consumer prices. The disruption strengthens business calls for a UK–EU veterinary agreement to ease border checks."
    },
    "vocab": [
-    ["non-tariff barriers", "les barrières non tarifaires", "Border checks and certificates act as costly non-tariff barriers."],
-    ["red tape", "la paperasserie / les lourdeurs administratives", "Small exporters complain that post-Brexit red tape hurts sales."],
-    ["perishable goods", "les denrées périssables", "Long border delays are especially damaging for perishable goods."],
-    ["customs friction", "les frictions douanières", "Businesses are urging London to reduce customs friction with the EU."],
-    ["a haulier", "un transporteur routier", "Hauliers face fines if transit documents contain minor errors."],
-    ["just-in-time delivery", "la livraison en flux tendu", "Border hold-ups disrupt just-in-time delivery across Europe."]
+    [
+     "non-tariff barriers",
+     "les barrières non tarifaires",
+     "Border checks and certificates act as costly non-tariff barriers."
+    ],
+    [
+     "red tape",
+     "la paperasserie / les lourdeurs administratives",
+     "Small exporters complain that post-Brexit red tape hurts sales."
+    ],
+    [
+     "perishable goods",
+     "les denrées périssables",
+     "Long border delays are especially damaging for perishable goods."
+    ],
+    [
+     "customs friction",
+     "les frictions douanières",
+     "Businesses are urging London to reduce customs friction with the EU."
+    ],
+    [
+     "a haulier",
+     "un transporteur routier",
+     "Hauliers face fines if transit documents contain minor errors."
+    ],
+    [
+     "just-in-time delivery",
+     "la livraison en flux tendu",
+     "Border hold-ups disrupt just-in-time delivery across Europe."
+    ]
    ],
    "sujets": [
     "Can Britain meaningfully reduce Brexit trade friction without rejoining the EU single market?",
@@ -420,12 +552,36 @@
     "enjeux": "La sucesión en el BCE refleja el peso de los equilibrios entre grandes potencias y países del sur en la gobernanza de la eurozona. Elegir entre un perfil más ortodoxo frente a la inflación o uno más pragmático influirá directamente en los tipos de interés y en la estabilidad financiera de los Estados más endeudados. Para España, alcanzar la presidencia del BCE consolidaría su influencia económica en la Unión Europea y proyectaría una imagen de solidez institucional pese a la tensión de la campaña electoral."
    },
    "vocab": [
-    ["la prima de riesgo", "la prime de risque", "La prima de riesgo subió ante las dudas sobre el presupuesto."],
-    ["el gobernador del banco central", "le gouverneur de la banque centrale", "El exgobernador defendió una política monetaria prudente."],
-    ["ganar enteros", "marquer des points / devenir favori", "El candidato español gana enteros tras las últimas negociaciones."],
-    ["la política monetaria", "la política monétaire", "La política monetaria busca contener la inflación sin frenar el crecimiento."],
-    ["el respaldo institucional", "le soutien institutionnel", "Su nombramiento contó con un amplio respaldo institucional."],
-    ["el equilibrio de poder", "l'équilibre des pouvoirs", "El reparto de cargos exige un delicado equilibrio de poder en Europa."]
+    [
+     "la prima de riesgo",
+     "la prime de risque",
+     "La prima de riesgo subió ante las dudas sobre el presupuesto."
+    ],
+    [
+     "el gobernador del banco central",
+     "le gouverneur de la banque centrale",
+     "El exgobernador defendió una política monetaria prudente."
+    ],
+    [
+     "ganar enteros",
+     "marquer des points / devenir favori",
+     "El candidato español gana enteros tras las últimas negociaciones."
+    ],
+    [
+     "la política monetaria",
+     "la política monétaire",
+     "La política monetaria busca contener la inflación sin frenar el crecimiento."
+    ],
+    [
+     "el respaldo institucional",
+     "le soutien institutionnel",
+     "Su nombramiento contó con un amplio respaldo institucional."
+    ],
+    [
+     "el equilibrio de poder",
+     "l'équilibre des pouvoirs",
+     "El reparto de cargos exige un delicado equilibrio de poder en Europa."
+    ]
    ],
    "sujets": [
     "¿Debe priorizar el BCE la lucha contra la inflación o la estabilidad financiera de los Estados?",
@@ -463,12 +619,36 @@
     "enjeux": "La ruta atlántica hacia Canarias sigue siendo uno de los mayores focos de presión migratoria en la Unión Europea. La concentración de llegadas en una isla pequeña como El Hierro agudiza el choque entre el Gobierno central y las comunidades autónomas sobre el reparto de los menores no acompañados y la financiación de la acogida. En plena campaña del 29-N, la crisis reaviva el debate entre la solidaridad territorial, la cooperación con países de origen y el control fronterizo."
    },
    "vocab": [
-    ["el cayuco", "l'embarcation de migrants (pirogue)", "Dos cayucos arribaron al puerto de La Restinga durante la noche."],
-    ["el dispositivo de acogida", "le dispositif d'accueil", "El dispositivo de acogida insular se encuentra al límite de su capacidad."],
-    ["el menor no acompañado", "le mineur non accompagné", "El reparto de menores no acompañados enfrenta a las regiones españolas."],
-    ["la travesía", "la traversée", "Muchos migrantes realizan una peligrosa travesía de varios días desde Senegal."],
-    ["la saturación", "la saturation", "Los alcaldes advierten sobre la saturación de los servicios locales."],
-    ["el control fronterizo", "le contrôle aux frontières", "La oposición exige reforzar el control fronterizo en el Atlántico."]
+    [
+     "el cayuco",
+     "l'embarcation de migrants (pirogue)",
+     "Dos cayucos arribaron al puerto de La Restinga durante la noche."
+    ],
+    [
+     "el dispositivo de acogida",
+     "le dispositif d'accueil",
+     "El dispositivo de acogida insular se encuentra al límite de su capacidad."
+    ],
+    [
+     "el menor no acompañado",
+     "le mineur non accompagné",
+     "El reparto de menores no acompañados enfrenta a las regiones españolas."
+    ],
+    [
+     "la travesía",
+     "la traversée",
+     "Muchos migrantes realizan una peligrosa travesía de varios días desde Senegal."
+    ],
+    [
+     "la saturación",
+     "la saturation",
+     "Los alcaldes advierten sobre la saturación de los servicios locales."
+    ],
+    [
+     "el control fronterizo",
+     "le contrôle aux frontières",
+     "La oposición exige reforzar el control fronterizo en el Atlántico."
+    ]
    ],
    "sujets": [
     "¿Cómo conciliar la acogida humanitaria con la gestión territorial de la inmigración en España?",
@@ -506,12 +686,36 @@
     "enjeux": "Las palabras del Papa visibilizan la persistencia del racismo estructural y de la exclusión económica que afectan a las minorías afrodescendientes e indígenas en América Latina. A menudo relegadas de los centros de decisión y con menor acceso a la educación o al empleo formal, estas comunidades reclaman mayor reconocimiento institucional y políticas de igualdad. En un Perú marcado por la fragilidad política, el mensaje pontificio refuerza la agenda de memoria histórica y justicia social."
    },
    "vocab": [
-    ["los afrodescendientes", "les personnes d'ascendance africaine", "Los afrodescendientes reclaman mayor visibilidad en las políticas públicas."],
-    ["el racismo estructural", "le racisme structurel", "Diversos informes documentan la persistencia del racismo estructural."],
-    ["la época virreinal", "l'époque coloniale (de la vice-royauté)", "Zaña fue un centro económico clave durante la época virreinal."],
-    ["la justicia social", "la justicia sociale", "El discurso vinculó la memoria histórica con la justicia social."],
-    ["el enclave", "l'enclave / le foyer", "La ciudad sigue siendo un enclave cultural afroperuano."],
-    ["relegar", "reléguer / écarter", "Las comunidades rurales denuncian haber sido relegadas por el Estado."]
+    [
+     "los afrodescendientes",
+     "les personnes d'ascendance africaine",
+     "Los afrodescendientes reclaman mayor visibilidad en las políticas públicas."
+    ],
+    [
+     "el racismo estructural",
+     "le racisme structurel",
+     "Diversos informes documentan la persistencia del racismo estructural."
+    ],
+    [
+     "la época virreinal",
+     "l'époque coloniale (de la vice-royauté)",
+     "Zaña fue un centro económico clave durante la época virreinal."
+    ],
+    [
+     "la justicia social",
+     "la justicia sociale",
+     "El discurso vinculó la memoria histórica con la justicia social."
+    ],
+    [
+     "el enclave",
+     "l'enclave / le foyer",
+     "La ciudad sigue siendo un enclave cultural afroperuano."
+    ],
+    [
+     "relegar",
+     "reléguer / écarter",
+     "Las comunidades rurales denuncian haber sido relegadas por el Estado."
+    ]
    ],
    "sujets": [
     "¿Siguen pesando las herencias coloniales en las desigualdades sociales de América Latina?",
@@ -549,12 +753,36 @@
     "enjeux": "La postura de Brasil refleja el reajuste del comercio mundial ante el proteccionismo estadounidense. En lugar de ceder ante la presión arancelaria de la Casa Blanca, las economías emergentes intensifican los intercambios Sur-Sur con mercados dinámicos como el sudeste asiático. Esta estrategia reduce la eficacia de las sanciones unilaterales de Washington y consolida el papel de Asia-Pacífico como motor alternativo del comercio internacional."
    },
    "vocab": [
-    ["los aranceles", "les droits de douane", "Los aranceles estadounidenses encarecieron las exportaciones industriales."],
-    ["diversificar los mercados", "diversifier les débouchés", "Brasil busca diversificar sus mercados hacia el sudeste asiático."],
-    ["la guerra comercial", "la guerre commerciale", "La guerra comercial altera las cadenas de suministro globales."],
-    ["el comercio Sur-Sur", "le commerce Sud-Sud", "El comercio Sur-Sud gana peso frente al eje tradicional con EE. UU."],
-    ["los socios comerciales", "les partenaires commerciaux", "Vietnam e Indonesia se consolidan como socios comerciales clave."],
-    ["contrarrestar la influencia", "contrer l'influence", "Washington intenta contrarrestar la influencia china en la región."]
+    [
+     "los aranceles",
+     "les droits de douane",
+     "Los aranceles estadounidenses encarecieron las exportaciones industriales."
+    ],
+    [
+     "diversificar los mercados",
+     "diversifier les débouchés",
+     "Brasil busca diversificar sus mercados hacia el sudeste asiático."
+    ],
+    [
+     "la guerra comercial",
+     "la guerre commerciale",
+     "La guerra comercial altera las cadenas de suministro globales."
+    ],
+    [
+     "el comercio Sur-Sur",
+     "le commerce Sud-Sud",
+     "El comercio Sur-Sud gana peso frente al eje tradicional con EE. UU."
+    ],
+    [
+     "los socios comerciales",
+     "les partenaires commerciaux",
+     "Vietnam e Indonesia se consolidan como socios comerciales clave."
+    ],
+    [
+     "contrarrestar la influencia",
+     "contrer l'influence",
+     "Washington intenta contrarrestar la influencia china en la región."
+    ]
    ],
    "sujets": [
     "¿Favorece el proteccionismo de Estados Unidos una reorganización del comercio Sur-Sur?",
@@ -592,12 +820,36 @@
     "enjeux": "Die Krise trifft nicht nur große Konzerne. Sie bedroht auch kleine Firmen und viele Familienbetriebe. Wenn Handwerker aufgeben, fehlt später Personal für die Energiewende. Man braucht diese Betriebe für Wärmepumpen, Solardächer und neue Wohnungen. Die Wirtschaftspolitik muss deshalb die Kosten für Firmen senken."
    },
    "vocab": [
-    ["das Handwerk", "l'artisanat / les métiers manuels", "Das Handwerk findet oft kaum noch junge Auszubildende."],
-    ["der Betrieb (-e)", "l'entreprise / l'atelier", "Viele kleine Betriebe kämpfen gegen hohe Energiekosten."],
-    ["der Bauauftrag (¨-e)", "la commande de travaux / de chantier", "Wegen teurer Kredite fehlen den Firmen neue Bauaufträge."],
-    ["der Familienbetrieb (-e)", "l'entreprise familiale", "Familienbetriebe sind wichtig für die deutsche Wirtschaft."],
-    ["gegensteuern", "rectifier le tir / agir contre", "Die Regierung muss bei den hohen Preisen schnell gegensteuern."],
-    ["die Energiewende", "la transition énergétique", "Ohne gute Handwerker gelingt die Energiewende nicht."]
+    [
+     "das Handwerk",
+     "l'artisanat / les métiers manuels",
+     "Das Handwerk findet oft kaum noch junge Auszubildende."
+    ],
+    [
+     "der Betrieb (-e)",
+     "l'entreprise / l'atelier",
+     "Viele kleine Betriebe kämpfen gegen hohe Energiekosten."
+    ],
+    [
+     "der Bauauftrag (¨-e)",
+     "la commande de travaux / de chantier",
+     "Wegen teurer Kredite fehlen den Firmen neue Bauaufträge."
+    ],
+    [
+     "der Familienbetrieb (-e)",
+     "l'entreprise familiale",
+     "Familienbetriebe sind wichtig für die deutsche Wirtschaft."
+    ],
+    [
+     "gegensteuern",
+     "rectifier le tir / agir contre",
+     "Die Regierung muss bei den hohen Preisen schnell gegensteuern."
+    ],
+    [
+     "die Energiewende",
+     "la transition énergétique",
+     "Ohne gute Handwerker gelingt die Energiewende nicht."
+    ]
    ],
    "sujets": [
     "Wie kann Deutschland kleine Firmen und das Handwerk schützen?",
@@ -625,12 +877,36 @@
     "enjeux": "Der Machtkampf zeigt die großen Probleme der SPD. Die Partei verliert seit Monaten viele Wähler. In der Koalition mit der Union muss die SPD harte Kompromisse machen. Viele Mitglieder sind unzufrieden mit der sozialen Politik. Ein offener Streit könnte auch die Bundesregierung schwächen."
    },
    "vocab": [
-    ["der Parteivorsitz", "la présidence du parti", "Heil bewirbt sich im Januar um den Parteivorsitz."],
-    ["herausfordern", "défier", "Ein Ex-Minister will den Vizekanzler im Januar herausfordern."],
-    ["der Parteitag (-e)", "le congrès du parti", "Die Mitglieder wählen die neue Führung auf dem Parteitag."],
-    ["der Fürsprecher (-)", "le partisan / le soutien", "Klingbeil hat viele Fürsprecher in der Regierung."],
-    ["die Kampfkandidatur (-en)", "la candidature concurrente / le duel", "Eine Kampfkandidatur zeigt oft tiefe Risse in einer Partei."],
-    ["die Koalition (-en)", "la coalition", "Streit in der SPD belastet die ganze Koalition."]
+    [
+     "der Parteivorsitz",
+     "la présidence du parti",
+     "Heil bewirbt sich im Januar um den Parteivorsitz."
+    ],
+    [
+     "herausfordern",
+     "défier",
+     "Ein Ex-Minister will den Vizekanzler im Januar herausfordern."
+    ],
+    [
+     "der Parteitag (-e)",
+     "le congrès du parti",
+     "Die Mitglieder wählen die neue Führung auf dem Parteitag."
+    ],
+    [
+     "der Fürsprecher (-)",
+     "le partisan / le soutien",
+     "Klingbeil hat viele Fürsprecher in der Regierung."
+    ],
+    [
+     "die Kampfkandidatur (-en)",
+     "la candidature concurrente / le duel",
+     "Eine Kampfkandidatur zeigt oft tiefe Risse in einer Partei."
+    ],
+    [
+     "die Koalition (-en)",
+     "la coalition",
+     "Streit in der SPD belastet die ganze Koalition."
+    ]
    ],
    "sujets": [
     "Warum befindet sich die SPD in einer tiefen Krise?",
@@ -658,12 +934,36 @@
     "enjeux": "Die deutsche Stahlindustrie steht vor einer schweren Aufgabe. Sie muss weniger CO2 ausstoßen und gleichzeitig im Wettbewerb bleiben. Wenn grüner Stahl zu teuer wird, wandern Firmen aus Europa ab. Das hilft dem Klima am Ende nicht. Deutschland braucht deshalb bezahlbare Energie für seine Industrie."
    },
    "vocab": [
-    ["der Stahlhersteller (-)", "le producteur d'acier / le sidérurgiste", "Der größte Stahlhersteller Deutschlands investiert in Duisburg."],
-    ["klimaneutral", "neutre pour le climat", "Bis 2045 will das Unternehmen klimaneutral produzieren."],
-    ["der Wasserstoff", "l'hydrogène", "Für grünen Stahl braucht die Industrie sehr viel Wasserstoff."],
-    ["wettbewerbsfähig", "compétitif", "Die Werke müssen auf dem Weltmarkt wettbewerbsfähig bleiben."],
-    ["umstellen auf", "convertir à / passer à", "Die Fabrik kann nicht sofort auf neue Technik umstellen."],
-    ["der Emissionshandel", "le marché des quotas d'émission", "Der europäische Emissionshandel macht schmutzige Produktion teurer."]
+    [
+     "der Stahlhersteller (-)",
+     "le producteur d'acier / le sidérurgiste",
+     "Der größte Stahlhersteller Deutschlands investiert in Duisburg."
+    ],
+    [
+     "klimaneutral",
+     "neutre pour le climat",
+     "Bis 2045 will das Unternehmen klimaneutral produzieren."
+    ],
+    [
+     "der Wasserstoff",
+     "l'hydrogène",
+     "Für grünen Stahl braucht die Industrie sehr viel Wasserstoff."
+    ],
+    [
+     "wettbewerbsfähig",
+     "compétitif",
+     "Die Werke müssen auf dem Weltmarkt wettbewerbsfähig bleiben."
+    ],
+    [
+     "umstellen auf",
+     "convertir à / passer à",
+     "Die Fabrik kann nicht sofort auf neue Technik umstellen."
+    ],
+    [
+     "der Emissionshandel",
+     "le marché des quotas d'émission",
+     "Der europäische Emissionshandel macht schmutzige Produktion teurer."
+    ]
    ],
    "sujets": [
     "Wie bleibt die deutsche Stahlindustrie beim Klimaschutz wettbewerbsfähig?",
@@ -691,12 +991,36 @@
     "enjeux": "Gute Kitas sind sehr wichtig für die Chancengleichheit in Deutschland. Viele Kinder lernen dort früh Deutsch. Aber im deutschen Föderalismus zahlen oft die Städte für die Aufgaben. Wenn Berlin neue Gesetze macht, brauchen die Kommunen mehr Geld. Sonst sinkt die Qualität in den Kitas noch weiter."
    },
    "vocab": [
-    ["die Kita (-s)", "la crèche / l'école maternelle", "In vielen Städten fehlen Plätze in der Kita."],
-    ["die Sprachförderung", "le soutien linguistique", "Frühe Sprachförderung hilft Kindern vor der Einschulung."],
-    ["die Kommune (-n)", "la commune / la collectivité locale", "Viele Kommunen haben heute hohe Schulden."],
-    ["der Qualitätsverlust (-e)", "la perte de qualité", "Ohne mehr Personal droht den Kitas ein Qualitätsverlust."],
-    ["der Bundesrat", "le Bundesrat (chambre des Länder)", "Die Länder können das Gesetz im Bundesrat blockieren."],
-    ["die Chancengleichheit", "l'égalité des chances", "Bildung am Lebensanfang ist entscheidend für die Chancengleichheit."]
+    [
+     "die Kita (-s)",
+     "la crèche / l'école maternelle",
+     "In vielen Städten fehlen Plätze in der Kita."
+    ],
+    [
+     "die Sprachförderung",
+     "le soutien linguistique",
+     "Frühe Sprachförderung hilft Kindern vor der Einschulung."
+    ],
+    [
+     "die Kommune (-n)",
+     "la commune / la collectivité locale",
+     "Viele Kommunen haben heute hohe Schulden."
+    ],
+    [
+     "der Qualitätsverlust (-e)",
+     "la perte de qualité",
+     "Ohne mehr Personal droht den Kitas ein Qualitätsverlust."
+    ],
+    [
+     "der Bundesrat",
+     "le Bundesrat (chambre des Länder)",
+     "Die Länder können das Gesetz im Bundesrat blockieren."
+    ],
+    [
+     "die Chancengleichheit",
+     "l'égalité des chances",
+     "Bildung am Lebensanfang ist entscheidend für die Chancengleichheit."
+    ]
    ],
    "sujets": [
     "Wer soll in Deutschland für bessere Kitas bezahlen?",

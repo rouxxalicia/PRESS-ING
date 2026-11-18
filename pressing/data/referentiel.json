@@ -5692,6 +5692,209 @@
           ]
         }
       ]
+    },
+    {
+      "id": "assurance-sociale-bismarck",
+      "nom": "Modèle bismarckien d'assurance sociale",
+      "categorie": "societe",
+      "type": "Modèle",
+      "annee": "1883",
+      "auteur": "Otto von Bismarck",
+      "accroche": "Une protection sociale financée par les cotisations sur le travail, qui ouvre des droits proportionnels à la carrière.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "Entre **1883 et 1889**, le chancelier allemand **Otto von Bismarck** instaure les premières assurances sociales obligatoires pour les ouvriers : maladie (1883), accidents du travail (1884) et vieillesse-invalidité (1889).",
+            "Son objectif est double : protéger les travailleurs face aux risques de la société industrielle et désamorcer la montée du mouvement socialiste en attachant les salariés à l'État."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "La protection est liée au **statut professionnel** : seuls les travailleurs qui cotisent (et leurs ayants droit) sont couverts.",
+            "Le financement repose sur des **cotisations sociales** assises sur les salaires, partagées entre employeurs et salariés.",
+            "Les prestations sont **proportionnelles** aux revenus antérieurs et aux trimestres validés : c'est une logique de **maintien du niveau de vie**, pas seulement de lutte contre la pauvreté."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le modèle bismarckien éclaire la logique **contributive** des systèmes de retraite par **répartition** (comme en France) : on acquiert des droits par le travail et les cotisations. Dès qu'on durcit les conditions de validation des trimestres, les travailleurs aux carrières hachées ou précaires risquent de perdre leurs droits, ce qui révèle la limite d'un système strictement fondé sur l'emploi."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "William Beveridge (1942)",
+              "d": "Le modèle **beveridgien** est universel, financé par l'impôt et vise à garantir un minimum à toute la population, sans condition de cotisation."
+            },
+            {
+              "t": "La Sécurité sociale française (1945)",
+              "d": "Un système **hybride** : d'inspiration bismarckienne pour les retraites et le chômage, mais universalisé par l'impôt (CSG) pour la santé et la famille."
+            },
+            {
+              "t": "Robert Castel (1995)",
+              "d": "Dans *Les Métamorphoses de la question sociale*, il montre que la « **propriété sociale** » attachée au salariat a permis l'essor des classes moyennes."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Un système pur d'assurance sociale laisse de côté ceux qui n'ont pas assez cotisé (chômeurs de longue durée, travailleurs précaires, aidants). De plus, le vieillissement démographique réduit le ratio cotisants/retraités et met sous tension l'équilibre financier de la répartition."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Débat répartition contre capitalisation",
+              "d": "Faut-il compléter les retraites contributives par un pilier d'épargne individuelle ou collective ?"
+            },
+            {
+              "t": "Précarisation du marché du travail",
+              "d": "Les carrières discontinues fragilisent l'accès aux droits sociaux liés à l'emploi stable."
+            },
+            {
+              "t": "Fiscalisation de la protection sociale",
+              "d": "Le passage des cotisations vers l'impôt (CSG, TVA sociale) pour alléger le coût du travail."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Robert Castel (1995)",
+              "idee": "la protection attachée au travail fonde la société salariale"
+            },
+            {
+              "sens": "≠",
+              "nom": "William Beveridge (1942)",
+              "idee": "protection universelle financée par l'impôt, indépendante des cotisations"
+            },
+            {
+              "sens": "≠",
+              "nom": "Franco Modigliani",
+              "idee": "les ménages lissent leur consommation sur le cycle de vie par l'épargne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "degradation-termes-echange-prebisch",
+      "nom": "Dégradation des termes de l'échange",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "1950",
+      "auteur": "Raúl Prebisch",
+      "accroche": "Les prix des matières premières augmentent moins vite que ceux des produits manufacturés, enfermant les pays exportateurs primaires dans la dépendance.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Raúl Prebisch**, *Le Développement économique de l'Amérique latine et ses principaux problèmes* (1950), thèse développée parallèlement par **Hans Singer** (hypothèse Prebisch-Singer).",
+            "À rebours de la théorie ricardienne des avantages comparatifs, qui prédit un gain mutuel au libre-échange, Prebisch observe depuis la CEPAL que la spécialisation primaire de l'Amérique latine ne lui permet pas de rattraper les pays industrialisés."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les pays du « **centre** » exportent des biens manufacturés à forte valeur ajoutée, tandis que ceux de la « **périphérie** » exportent des matières premières agricoles ou minières.",
+            "Lorsque le revenu mondial augmente, la demande de biens industriels croît plus vite que celle de produits primaires (faible **élasticité-revenu** des matières premières).",
+            "Les prix des exportations primaires progressent donc moins vite que ceux des importations industrielles : les **termes de l'échange** de la périphérie se dégradent à long terme."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La spécialisation internationale n'est pas neutre : exporter des matières premières brutes expose un pays à la **volatilité des cours** et capte peu de valeur ajoutée. Cette théorie justifie les stratégies de **remontée de filière**, de transformation locale des ressources et de diversification industrielle plutôt que le tout-export primaire."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Industrialisation par substitution aux importations (ISI)",
+              "d": "Protéger le marché intérieur par des droits de douane pour bâtir une industrie nationale (Amérique latine, années 1950-1970)."
+            },
+            {
+              "t": "Malédiction des ressources (Sachs et Warner, 1995)",
+              "d": "L'abondance de rentes minières ou pétrolières peut freiner la diversification (syndrome hollandais) et nourrir la corruption."
+            },
+            {
+              "t": "Immanuel Wallerstein (1980)",
+              "d": "Analyse la division internationale du travail comme un système **centre-périphérie** structuré par des rapports de domination."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Les stratégies d'ISI menées en Amérique latine ont souvent échoué faute de taille critique des marchés intérieurs et de concurrence, créant des industries peu compétitives et de lourds déficits. Par ailleurs, la hausse de la demande chinoise dans les années 2000 ou la transition énergétique (lithium, cuivre, bauxite) peut temporairement inverser les termes de l'échange."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Minerais critiques en Afrique et en Amérique latine",
+              "d": "Faut-il exporter du minerai brut ou imposer une transformation locale (batteries, raffinage) ?"
+            },
+            {
+              "t": "Reprimarisation du Brésil ou de l'Argentine",
+              "d": "Le poids croissant du soja, du fer ou du pétrole dans les exportations fragilise le tissu industriel."
+            },
+            {
+              "t": "Accords commerciaux Nord-Sud",
+              "d": "Les critiques sur l'asymétrie entre exportations agricoles du Sud et produits industriels du Nord."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Immanuel Wallerstein (1980)",
+              "idee": "le commerce mondial reproduit une hiérarchie centre-périphérie"
+            },
+            {
+              "sens": "=",
+              "nom": "Pierre Salama",
+              "idee": "la « reprimarisation » rend la croissance des émergents plus fragile"
+            },
+            {
+              "sens": "≠",
+              "nom": "David Ricardo (1817)",
+              "idee": "tous les pays gagnent à se spécialiser selon leur avantage comparatif"
+            },
+            {
+              "sens": "≠",
+              "nom": "Jagdish Bhagwati",
+              "idee": "le libre-échange reste le meilleur moteur de croissance et de rattrapage"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
