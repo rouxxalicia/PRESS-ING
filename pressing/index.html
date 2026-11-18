@@ -625,6 +625,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 .fd-gl .fd-gl-c:first-child { margin-bottom: auto; }
 .deb-lec { font-size: 22px !important; letter-spacing: -0.01em !important; text-transform: none !important; font-weight: 500 !important; margin: 4px 0 12px !important; }
 .deb-gl { aspect-ratio: 1 / 1; }
+.deb-gl .fd-gl-n:first-child { margin-top: auto; }
 .deb-tools { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 26px 0 0; }
 .deb-tools .search { flex: 1 1 260px; margin: 0; }
 .deb-vide { margin-top: 24px; }
@@ -1393,7 +1394,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     }
     const tid = parts[0] === "t" ? parts[1] : null;
     const tete = '<div class="page-head"><span class="label muted">ESH</span><h1>Débats</h1><p class="muted" style="margin:4px 0 0">' + th.reduce((s, t) => s + t.items.length, 0) + ' débats pour la dissertation, rangés par leçon. Chaque débat a sa fiche : les arguments pour, contre et les nuances, avec auteurs, œuvres et exemples.</p></div>' + eshTabs("debats");
-    const bulleDeb = (it, L, t, haut) => '<a class="fd-item" data-q="' + esc(debTexte(it, L, t)) + '" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(haut) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span></span></a>';
+    const bulleDeb = (it, L, t, haut) => '<a class="fd-item" data-q="' + esc(debTexte(it, L, t)) + '" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl">' + (haut ? '<span class="label fd-gl-c">' + esc(haut) + '</span>' : '') + '<span class="fd-gl-n">' + esc(it.D.q) + '</span></span></a>';
     const verre = x => '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + x + '</div></div>';
     if (!parts.length || tid) {
       const shown = tid ? th.filter(t => t.id === tid) : th;
@@ -1419,7 +1420,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       if (!t) { location.hash = "debats"; return; }
       const its = t.items.filter(it => it.lid === lid), maps = []; its.forEach(it => { let g = maps.find(m => m.M === it.M); if (!g) maps.push(g = { M: it.M, its: [] }); g.its.push(it); });
       let h = '<div class="wrap-wide fd-page"><a class="back label" href="#debats">← Débats</a><div class="page-head"><span class="label muted">' + esc(t.nom) + (L ? ' · ' + esc(L.short.replace(/ · intermédiaire$/, "")) : '') + '</span><h1>' + esc(L ? L.title : lid) + '</h1></div>';
-      maps.forEach(g => { h += '<section class="deb-theme"><h2 class="deb-lec">' + esc(g.M.title) + '</h2>' + verre(g.its.map(it => bulleDeb(it, L, t, g.M.title)).join("")) + '</section>'; });
+      maps.forEach(g => { h += '<section class="deb-theme"><h2 class="deb-lec">' + esc(g.M.title) + '</h2>' + verre(g.its.map(it => bulleDeb(it, L, t, "")).join("")) + '</section>'; });
       app.innerHTML = h + '</div>';
       return;
     }
