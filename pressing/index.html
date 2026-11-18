@@ -859,7 +859,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     if (idx < 0) { app.innerHTML = '<div class="empty narrow"><p>Cette actu est introuvable.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>'; return; }
     const c = ed.cards[idx];
     lues[id] = 1; save("pressing:lues", lues);
-    const lang = state.lang[id] || "fr";
+    const lang = state.lang[id] || (c.vo ? "vo" : "fr");
     const t = lang === "vo" && c.vo ? c.vo : c;
     const L = lang === "vo" && c.vo ? ({ anglais: "en", espagnol: "es", allemand: "de" })[c.matiere] || "fr" : "fr";
     const same = ed.cards.filter(x => x.matiere === c.matiere);
