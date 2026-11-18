@@ -1393,20 +1393,24 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     }
     const tid = parts[0] === "t" ? parts[1] : null;
     const tete = '<div class="page-head"><span class="label muted">ESH</span><h1>Débats</h1><p class="muted" style="margin:4px 0 0">' + th.reduce((s, t) => s + t.items.length, 0) + ' débats pour la dissertation, rangés par leçon. Chaque débat a sa fiche : les arguments pour, contre et les nuances, avec auteurs, œuvres et exemples.</p></div>' + eshTabs("debats");
+    const bulleDeb = (it, L, t, haut) => '<a class="fd-item" data-q="' + esc(debTexte(it, L, t)) + '" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(haut) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span></span></a>';
+    const verre = x => '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + x + '</div></div>';
     if (!parts.length || tid) {
       const shown = tid ? th.filter(t => t.id === tid) : th;
       let h = '<div class="wrap-wide fd-page"><a class="back label" href="#referentiel">← Référentiel</a>' + tete +
         '<nav class="subtabs label" aria-label="Thèmes" style="margin-top:0">' + '<a href="#debats"' + (!tid ? ' aria-current="page"' : '') + '>Tous</a>' + th.map(t => '<a href="#debats/t/' + t.id + '"' + (t.id === tid ? ' aria-current="page"' : '') + '>' + esc(t.nom) + '</a>').join("") + '</nav>';
       h += '<div class="deb-tools"><input class="search" id="deb-q" type="search" placeholder="Chercher un débat : protectionnisme, Keynes, inégalités, carbone…" autocomplete="off"><a class="btn label" href="#debats/hasard">Sujet au hasard ↻</a></div><p class="muted deb-vide" id="deb-vide" hidden>Aucun débat ne correspond.</p>';
+      let lecs = "", tous = "";
       shown.forEach(t => t.l.filter(lid => t.items.some(it => it.lid === lid)).forEach(lid => { const L = ls.find(x => x.id === lid), its = t.items.filter(it => it.lid === lid);
-        h += '<section class="deb-theme" id="deb-' + lid + '"><span class="label muted">' + esc(t.nom) + (L ? ' · ' + esc(L.short.replace(/ · intermédiaire$/, "")) : '') + '</span><h2 class="deb-lec">' + esc(L ? L.title : lid) + '</h2>' +
-          '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' +
-          its.map(it => '<a class="fd-item" data-q="' + esc(debTexte(it, L, t)) + '" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(it.M.title) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span></span></a>').join("") + '</div></div></section>'; }));
+        lecs += '<a class="fd-item" href="#debats/l/' + lid + '"><span class="fd-gl"><span class="label fd-gl-c">' + esc(t.nom) + '</span><span class="fd-gl-n">' + esc(L ? L.title : lid) + '</span><span class="label fd-gl-c">' + its.length + ' débat' + (its.length > 1 ? 's' : '') + '</span></span></a>';
+        tous += its.map(it => bulleDeb(it, L, t, L ? L.title : t.nom)).join(""); }));
+      h += '<div id="deb-lecs" style="margin-top:28px">' + verre(lecs) + '</div><div id="deb-res" hidden style="margin-top:28px">' + verre(tous) + '</div>';
       app.innerHTML = h + '</div>';
       const cur = app.querySelector('nav[aria-label="Thèmes"] [aria-current]'); if (cur && tid) cur.parentNode.scrollLeft = cur.offsetLeft - 16;
       const q = document.getElementById("deb-q"), filtre = () => { const mots = debNorm(q.value).split(/\s+/).filter(Boolean); let n = 0;
-        app.querySelectorAll(".deb-theme").forEach(sec => { let v = 0; sec.querySelectorAll(".fd-item").forEach(a => { const ok = mots.every(m => a.dataset.q.includes(m)); a.hidden = !ok; if (ok) v++; }); sec.hidden = !v; n += v; });
-        document.getElementById("deb-vide").hidden = !!n; state.debQ = q.value; };
+        document.getElementById("deb-lecs").hidden = !!mots.length; document.getElementById("deb-res").hidden = !mots.length;
+        document.querySelectorAll("#deb-res .fd-item").forEach(a => { const ok = mots.every(m => a.dataset.q.includes(m)); a.hidden = !ok; if (ok) n++; });
+        document.getElementById("deb-vide").hidden = !mots.length || !!n; state.debQ = q.value; };
       q.value = state.debQ || ""; q.addEventListener("input", filtre); if (q.value) filtre();
       return;
     }
@@ -1414,10 +1418,8 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       const lid = parts[1], t = th.find(x => x.items.some(it => it.lid === lid)), L = ls.find(x => x.id === lid);
       if (!t) { location.hash = "debats"; return; }
       const its = t.items.filter(it => it.lid === lid), maps = []; its.forEach(it => { let g = maps.find(m => m.M === it.M); if (!g) maps.push(g = { M: it.M, its: [] }); g.its.push(it); });
-      let h = '<div class="narrow"><a class="back label" href="#debats">← Débats</a><div class="page-head"><span class="label muted">' + esc(L ? L.short : "") + '</span><h1>' + esc(L ? L.title : lid) + '</h1><p class="muted" style="margin:4px 0 0">' + its.length + ' débat' + (its.length > 1 ? 's' : '') + '</p></div>';
-      maps.forEach(g => {
-        h += '<div class="deb-map"><span class="label">' + esc(g.M.title) + '</span><div class="deb-list">' + g.its.map(it => '<a class="deb-row" href="#debats/' + it.lid + '/' + it.key + '"><span class="ti">' + esc(it.D.q) + '</span></a>').join("") + '</div></div>';
-      });
+      let h = '<div class="wrap-wide fd-page"><a class="back label" href="#debats">← Débats</a><div class="page-head"><span class="label muted">' + esc(t.nom) + (L ? ' · ' + esc(L.short.replace(/ · intermédiaire$/, "")) : '') + '</span><h1>' + esc(L ? L.title : lid) + '</h1></div>';
+      maps.forEach(g => { h += '<section class="deb-theme"><h2 class="deb-lec">' + esc(g.M.title) + '</h2>' + verre(g.its.map(it => bulleDeb(it, L, t, g.M.title)).join("")) + '</section>'; });
       app.innerHTML = h + '</div>';
       return;
     }
@@ -1442,7 +1444,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     const f = F && F.parts ? F : fb();
     const para = p => { const [hd, ...rest] = p.split("\n"); return '<div class="dbf-arg">' + (rest.length ? '<p class="dbf-who">' + debFmt(hd) + '</p><p>' + debFmt(rest.join(" ")) + '</p>' : '<p>' + debFmt(hd) + '</p>') + '</div>'; };
     const prev = t.items[k - 1], next = t.items[k + 1];
-    let h = '<div class="narrow"><a class="back label" href="#debats" data-deb-l="' + it.lid + '">← Débats · ' + esc(L ? L.title : t.nom) + '</a><article class="card dbf" id="dbf">' +
+    let h = '<div class="narrow"><a class="back label" href="#debats/l/' + it.lid + '">← Débats · ' + esc(L ? L.title : t.nom) + '</a><article class="card dbf" id="dbf">' +
       '<span class="label muted">Débat · ' + esc(t.nom) + '</span><h1>' + esc(it.D.q) + '</h1>' +
       '<p class="lieu">' + esc(it.M.title) + (L ? '<br>' + esc(L.short) + ' · ' + esc(L.title) : '') + '</p>' +
       (f.idee ? '<p class="idee">' + debFmt(f.idee) + '</p>' : '') +
