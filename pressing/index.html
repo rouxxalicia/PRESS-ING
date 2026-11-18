@@ -625,6 +625,31 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 .fd-gl .fd-gl-c:first-child { margin-bottom: auto; }
 .deb-lec { font-size: 22px !important; letter-spacing: -0.01em !important; text-transform: none !important; font-weight: 500 !important; margin: 4px 0 12px !important; }
 .deb-gl { aspect-ratio: 1 / 1; }
+.deb-tools { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 26px 0 0; }
+.deb-tools .search { flex: 1 1 260px; margin: 0; }
+.deb-vide { margin-top: 24px; }
+.deb-hasard { margin-top: 40px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.deb-hasard h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 6px 0; text-wrap: balance; }
+.deb-chrono { font-size: 54px; font-weight: 300; letter-spacing: .02em; font-variant-numeric: tabular-nums; margin: 10px 0; }
+.deb-chrono.fini { color: var(--accent); font-size: 28px; font-weight: 500; }
+.deb-h-acts { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; }
+.deb-btn2 { background: none !important; color: var(--fg) !important; border: 1px solid var(--fg); }
+.deb-liens { display: grid; gap: 12px; }
+@media (min-width: 700px) { .deb-liens { grid-template-columns: 1fr 1fr; } }
+.deb-lien { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 18px; color: var(--fg); transition: border-color .2s; }
+.deb-lien:hover { border-color: var(--fg); }
+.deb-lien strong { font-size: 16.5px; font-weight: 500; line-height: 1.3; }
+.deb-lien-l, .deb-lien-s { font-size: 14.5px; line-height: 1.55; }
+.deb-lien-l b, .deb-lien-s b { display: block; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--accent); margin-bottom: 2px; }
+.deb-lien-s { font-style: italic; }
+.deb-lien-s b { font-style: normal; }
+.deb-actus { display: flex; flex-direction: column; gap: 12px; }
+.deb-actu { display: grid; grid-template-columns: 86px minmax(0,1fr); gap: 14px; align-items: center; color: var(--fg); }
+.deb-actu img, .deb-actu > span:first-child { width: 86px; height: 86px; object-fit: cover; border-radius: 12px; background: var(--soft); display: block; }
+.deb-actu > span:last-child { display: flex; flex-direction: column; gap: 4px; }
+.deb-actu strong { font-size: 15.5px; font-weight: 500; line-height: 1.3; }
+.deb-actu:hover strong { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.deb-actu-m { font-size: 13px; color: var(--muted); }
 .deb-gl .fd-gl-n { font-size: 16px; }
 .fd-gl-n { font-size: 17px; font-weight: 500; line-height: 1.2; letter-spacing: -0.01em; }
 .fd-gl-c { color: var(--fg); opacity: .6; }
@@ -1288,7 +1313,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 
   // Leçons ESH (cartes mentales et cartes de débats)
   function loadScript(src) { return new Promise((ok, ko) => { if (document.querySelector('script[data-src="' + src + '"]')) return ok(); const sc = document.createElement("script"); sc.src = src + "?v=1"; sc.dataset.src = src; sc.onload = ok; sc.onerror = ko; document.head.appendChild(sc); }); }
-  async function lecons() { await loadScript("lecons/cours-esh.js"); await loadScript("lecons/cours-debats.js"); await loadScript("lecons/debats-fiches.js"); await loadScript("lecons/cartes.js"); return window.ESH_LESSONS || []; }
+  async function lecons() { await loadScript("lecons/cours-esh.js"); await loadScript("lecons/cours-debats.js"); await loadScript("lecons/debats-fiches.js"); await loadScript("lecons/debats-liens.js"); await loadScript("lecons/cartes.js"); return window.ESH_LESSONS || []; }
   function eshTabs(cur) { return '<nav class="subtabs label" aria-label="Référentiel ESH"><a href="#referentiel/esh"' + (cur === "fiches" ? ' aria-current="page"' : '') + '>Fiches</a><a href="#lecons"' + (cur === "lecons" ? ' aria-current="page"' : '') + '>Leçons</a><a href="#debats"' + (cur === "debats" ? ' aria-current="page"' : '') + '>Débats</a></nav>'; }
   async function viewLecons(parts) {
     const ls = await lecons();
@@ -1334,20 +1359,54 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       .replace(/\{f:([^{}]+)\}/g, (m, v) => '<span class="f">' + v.replace(/^([^=<]{1,60}?) = /, "<b>$1</b> = ") + '</span>')
       .replace(/\s*\{!\}/g, '<i class="imp"></i>');
   }
+  const debNorm = x => String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  function debTexte(it, L, t) { const F = (window.ESH_DEBAT_FICHES || {})[it.lid + "/" + it.key];
+    return debNorm([it.D.q, it.M.title, L ? L.title : "", t.nom, it.D.ideas.map(i => i.join(" ")).join(" "), F ? JSON.stringify(F) : "", ((window.ESH_DEBAT_KW || {})[it.lid + "/" + it.key] || []).join(" ")].join(" ").replace(/\[(a|d|w|n):|\{(e|f):|[\]{}]/g, " ")); }
+  let debActus = null;
+  async function debToutesActus() {
+    if (debActus) return debActus;
+    const ix = await getJSON("data/index.json"), out = [];
+    const eds = await Promise.all(ix.editions.map(d => edition(d).catch(() => null)));
+    eds.forEach(e => e && (e.cards || []).forEach(c => { if (c.matiere !== "esh") return;
+      out.push({ c: c, t: debNorm(c.titre + " " + (c.sujets || []).join(" ")), b: debNorm(c.faits + " " + c.enjeux + " " + ((c.notions || []).map(n => [].concat(n).join(" ")).join(" "))) }); }));
+    return debActus = out;
+  }
+  function debMotsTrouves(kw, txt) { return kw.filter(k => { const n = debNorm(k); return new RegExp("(^|[^a-z0-9])" + n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(s|x)?([^a-z0-9]|$)").test(txt); }); }
   async function viewDebats(parts) {
     const ls = await lecons(), th = debThemes(ls);
+    if (parts[0] === "hasard") {
+      const tous = th.flatMap(t => t.items.map(it => ({ it: it, t: t })));
+      const pick = tous[Math.floor(Math.random() * tous.length)], L = ls.find(x => x.id === pick.it.lid);
+      app.innerHTML = '<div class="narrow"><a class="back label" href="#debats">← Débats</a><div class="deb-hasard"><span class="label muted">Sujet tiré au hasard</span><h1>« ' + esc(pick.it.D.q) + ' »</h1>' +
+        '<p class="muted">Fais ton plan avant d\'ouvrir la fiche : problématique, deux ou trois parties, un auteur et un exemple par sous-partie.</p>' +
+        '<div class="deb-chrono" id="deb-chrono" aria-live="polite">5:00</div>' +
+        '<div class="deb-h-acts"><button type="button" class="btn label" id="deb-go">Lancer 5 minutes</button><a class="btn label deb-btn2" href="#debats/' + pick.it.lid + '/' + pick.it.key + '/r">Voir la fiche en mode révision</a><a class="label more" href="#debats/hasard" id="deb-autre">Autre sujet ↻</a></div>' +
+        '<p class="label muted" style="margin-top:28px" id="deb-ou" hidden>' + esc(pick.t.nom) + (L ? ' · ' + esc(L.title) : '') + '</p></div></div>';
+      document.getElementById("deb-autre").onclick = e => { e.preventDefault(); viewDebats(["hasard"]); };
+      let fin = 0, tm = null; const ch = document.getElementById("deb-chrono"), go = document.getElementById("deb-go");
+      go.onclick = () => { if (tm) { clearInterval(tm); tm = null; go.textContent = "Reprendre"; return; }
+        if (!fin || ch.dataset.reste) fin = Date.now() + (+ch.dataset.reste || 300000); go.textContent = "Pause"; document.getElementById("deb-ou").hidden = false;
+        tm = setInterval(() => { if (!document.body.contains(ch)) return clearInterval(tm); const r = Math.max(0, fin - Date.now()); ch.dataset.reste = r; ch.textContent = Math.floor(r / 60000) + ":" + String(Math.floor(r / 1000) % 60).padStart(2, "0");
+          if (!r) { clearInterval(tm); tm = null; ch.textContent = "Temps écoulé"; ch.classList.add("fini"); go.textContent = "Relancer"; ch.dataset.reste = ""; fin = 0; } }, 250); };
+      return;
+    }
     const tid = parts[0] === "t" ? parts[1] : null;
     const tete = '<div class="page-head"><span class="label muted">ESH</span><h1>Débats</h1><p class="muted" style="margin:4px 0 0">' + th.reduce((s, t) => s + t.items.length, 0) + ' débats pour la dissertation, rangés par leçon. Chaque débat a sa fiche : les arguments pour, contre et les nuances, avec auteurs, œuvres et exemples.</p></div>' + eshTabs("debats");
     if (!parts.length || tid) {
       const shown = tid ? th.filter(t => t.id === tid) : th;
       let h = '<div class="wrap-wide fd-page"><a class="back label" href="#referentiel">← Référentiel</a>' + tete +
         '<nav class="subtabs label" aria-label="Thèmes" style="margin-top:0">' + '<a href="#debats"' + (!tid ? ' aria-current="page"' : '') + '>Tous</a>' + th.map(t => '<a href="#debats/t/' + t.id + '"' + (t.id === tid ? ' aria-current="page"' : '') + '>' + esc(t.nom) + '</a>').join("") + '</nav>';
+      h += '<div class="deb-tools"><input class="search" id="deb-q" type="search" placeholder="Chercher un débat : protectionnisme, Keynes, inégalités, carbone…" autocomplete="off"><a class="btn label" href="#debats/hasard">Sujet au hasard ↻</a></div><p class="muted deb-vide" id="deb-vide" hidden>Aucun débat ne correspond.</p>';
       shown.forEach(t => t.l.filter(lid => t.items.some(it => it.lid === lid)).forEach(lid => { const L = ls.find(x => x.id === lid), its = t.items.filter(it => it.lid === lid);
         h += '<section class="deb-theme" id="deb-' + lid + '"><span class="label muted">' + esc(t.nom) + (L ? ' · ' + esc(L.short.replace(/ · intermédiaire$/, "")) : '') + '</span><h2 class="deb-lec">' + esc(L ? L.title : lid) + '</h2>' +
           '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' +
-          its.map(it => '<a class="fd-item" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(it.M.title) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span></span></a>').join("") + '</div></div></section>'; }));
+          its.map(it => '<a class="fd-item" data-q="' + esc(debTexte(it, L, t)) + '" href="#debats/' + it.lid + '/' + it.key + '"><span class="fd-gl deb-gl"><span class="label fd-gl-c">' + esc(it.M.title) + '</span><span class="fd-gl-n">' + esc(it.D.q) + '</span></span></a>').join("") + '</div></div></section>'; }));
       app.innerHTML = h + '</div>';
       const cur = app.querySelector('nav[aria-label="Thèmes"] [aria-current]'); if (cur && tid) cur.parentNode.scrollLeft = cur.offsetLeft - 16;
+      const q = document.getElementById("deb-q"), filtre = () => { const mots = debNorm(q.value).split(/\s+/).filter(Boolean); let n = 0;
+        app.querySelectorAll(".deb-theme").forEach(sec => { let v = 0; sec.querySelectorAll(".fd-item").forEach(a => { const ok = mots.every(m => a.dataset.q.includes(m)); a.hidden = !ok; if (ok) v++; }); sec.hidden = !v; n += v; });
+        document.getElementById("deb-vide").hidden = !!n; state.debQ = q.value; };
+      q.value = state.debQ || ""; q.addEventListener("input", filtre); if (q.value) filtre();
       return;
     }
     if (parts[0] === "l") {
@@ -1361,6 +1420,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       app.innerHTML = h + '</div>';
       return;
     }
+    const revision = parts[2] === "r";
     const t = th.find(x => x.items.some(it => it.lid === parts[0] && it.key === parts[1]));
     if (!t) { location.hash = "debats"; return; }
     const k = t.items.findIndex(it => it.lid === parts[0] && it.key === parts[1]), it = t.items[k], L = ls.find(x => x.id === it.lid);
@@ -1392,13 +1452,28 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
         P.sp.map(s => '<div class="dbf-sp">' + (s.t ? '<h3>' + esc(s.t) + '</h3>' : '') + '<div class="dbf-body">' + s.p.map(para).join("") +
           (s.ex && s.ex.length ? s.ex.map(e => '<p class="dbf-ex">' + debFmt(e.replace(/^[a-zà-ÿ]/, c => c.toUpperCase())) + '</p>').join("") : '') + '</div></div>').join("") + '</section>';
     });
+    const ici = it.lid + "/" + it.key, tousIts = th.flatMap(x => x.items.map(y => ({ it: y, t: x })));
+    const liens = (window.ESH_DEBAT_LIENS || []).filter(l => l.a === ici || l.b === ici).map(l => ({ l: l, o: tousIts.find(z => z.it.lid + "/" + z.it.key === (l.a === ici ? l.b : l.a)) })).filter(x => x.o);
+    const liensH = liens.length ? '<section class="sec deb-liens-sec"><h2 class="label">Débats liés</h2><div class="deb-liens">' + liens.map(x => { const L2 = ls.find(y => y.id === x.o.it.lid);
+      return '<a class="deb-lien" href="#debats/' + x.o.it.lid + '/' + x.o.it.key + '"><span class="label muted">' + esc(x.o.t.nom) + (L2 && L2.id !== it.lid ? ' · autre leçon' : ' · même leçon') + '</span><strong>' + esc(x.o.it.D.q) + '</strong>' +
+        '<span class="deb-lien-l"><b>Le lien</b>' + esc(x.l.lien) + '</span><span class="deb-lien-s"><b>À croiser dans un sujet comme</b>« ' + esc(x.l.sujet) + ' »</span></a>'; }).join("") + '</div></section>' : '';
     if (f.usages && f.usages.length) h += '<section class="sec"><h2 class="label">Trois sujets où le mobiliser</h2><div class="apps dbf-body">' + f.usages.map(u => '<div class="app"><strong>' + esc(u.t) + '</strong><span>' + debFmt(u.d) + '</span></div>').join("") + '</div></section>';
+    h += liensH + '<section class="sec" id="deb-actus" hidden><h2 class="label">Dans l\'actu</h2><p class="muted" style="margin:0 0 12px;font-size:14px">Des articles d\'Index prépa à utiliser comme accroche ou exemple récent dans ce débat.</p><div class="deb-actus" id="deb-actus-l"></div></section>';
     h += '</article><div class="deb-nav">' + (prev ? '<a href="#debats/' + prev.lid + '/' + prev.key + '"><span class="label">← Débat précédent</span><span>' + esc(prev.D.q) + '</span></a>' : '<span></span>') +
       (next ? '<a href="#debats/' + next.lid + '/' + next.key + '"><span class="label">Débat suivant →</span><span>' + esc(next.D.q) + '</span></a>' : '') + '</div>' +
       (L ? '<p style="margin-top:26px"><a class="label" href="#lecons/' + L.id + '">Voir la leçon · ' + esc(L.title) + ' →</a></p>' : '') + '</div>';
     app.innerHTML = h; window.scrollTo(0, 0);
     const card = document.getElementById("dbf"), hb = document.getElementById("dbf-hide");
     hb.addEventListener("click", () => { const on = card.classList.toggle("dbf-hide"); hb.setAttribute("aria-pressed", on); card.querySelectorAll(".dbf-body.open").forEach(x => x.classList.remove("open")); });
+    if (revision) hb.click();
+    const kw = (window.ESH_DEBAT_KW || {})[ici] || [];
+    if (kw.length) debToutesActus().then(A => { const box = document.getElementById("deb-actus-l"); if (!box) return;
+      const res = A.map(a => { const mt = debMotsTrouves(kw, a.t), mb = debMotsTrouves(kw, a.b), tous = [...new Set(mt.concat(mb))]; return { a: a, n: tous.length, sc: mt.length * 2 + mb.length, mots: tous }; })
+        .filter(r => r.n >= 2 && r.sc >= 3).sort((x, y) => y.sc - x.sc || y.a.c.id.localeCompare(x.a.c.id)).slice(0, 3);
+      if (!res.length) return;
+      box.innerHTML = res.map(r => { const c = r.a.c; return '<a class="deb-actu" href="#' + c.id + '">' + (c.image && c.image.url ? '<img src="' + esc(c.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '<span></span>') +
+        '<span><span class="label muted">' + esc(c.source || "") + ' · ' + esc(dShort(c.id.slice(0, 10))) + '</span><strong>' + esc(c.titre) + '</strong><span class="deb-actu-m">En lien : ' + esc(r.mots.slice(0, 4).join(", ")) + '</span></span></a>'; }).join("");
+      document.getElementById("deb-actus").hidden = false; }).catch(() => {});
     card.querySelectorAll(".dbf-body").forEach(el => { el.tabIndex = 0; const tg = () => { if (card.classList.contains("dbf-hide")) el.classList.toggle("open"); }; el.addEventListener("click", tg); el.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tg(); } }); });
   }
 
