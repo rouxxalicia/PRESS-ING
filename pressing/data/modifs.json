@@ -143,6 +143,17 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bonn_DTAG2.jpg",
     "alt": "Siège social de Deutsche Telekom à Bonn, Allemagne"
    }
+  },
+  "2026-11-19-espagnol-p1": {
+   "titre": "Haïti : les gangs se vengent du soutien populaire à Nayib Bukele en exécutant au moins dix jeunes à Port-au-Prince",
+   "matiere": "espagnol",
+   "dossiers": [
+    "Amérique Latine"
+   ],
+   "image": {
+    "url": "https://images.unsplash.com/photo-1562428580-33e2cc141402?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Manifestation de rue dans les Caraïbes"
+   }
   }
  },
  "dossiers": [
@@ -156,7 +167,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1795087489474,
+ "favsMaj": 1795088552247,
  "demandes": [
   {
    "id": "dmwlvrpnt",
