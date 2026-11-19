@@ -1,0 +1,1154 @@
+{
+ "date": "2026-11-19",
+ "cards": [
+  {
+   "id": "2026-11-19-esh-1",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/secteur/high-tech/anthropic-va-lever-68-5-milliards-de-dollars-pour-son-introduction-en-bourse-selon-la-presse-americaine-20261118",
+   "minutes": 3,
+   "titre": "Anthropic réalise une introduction en Bourse historique de plus de 80 milliards de dollars",
+   "faits": "Ce jeudi 19 novembre, la start-up américaine Anthropic, créatrice du modèle d'intelligence artificielle Claude, fait son entrée à Wall Street en réalisant la plus importante introduction en Bourse de l'histoire. Face à une demande massive des investisseurs, l'entreprise de San Francisco a relevé son prix d'introduction à 83 dollars par action et augmenté le volume de titres mis en vente à plus de 956 millions. L'opération lui permet de lever au moins 79,4 milliards de dollars, et 81,3 milliards en incluant les actions cédées par ses sept cofondateurs, dépassant le record établi par SpaceX en juin dernier (environ 75 milliards). Une option de surallocation pourrait même porter le montant total de la levée à environ 91,6 milliards de dollars dans les jours suivants. L'entreprise est ainsi valorisée à près de 1 500 milliards de dollars dès son premier jour de cotation. Cet engouement intervient pourtant dans un contexte boursier tendu, alors que l'indice Nasdaq a reculé de plus de 11 % depuis son pic d'octobre et que le secteur fait face au scandale touchant Nvidia ainsi qu'à des restrictions locales contre les centres de données aux États-Unis.",
+   "enjeux": "Cette introduction en Bourse record illustre la puissance de l'**économie de marchés de capitaux** américaine, capable de mobiliser en quelques heures des dizaines de milliards de dollars d'épargne mondiale pour financer une innovation de rupture. À la différence des financements bancaires classiques, les marchés financiers acceptent de porter un risque élevé en échange d'anticipations de profits futurs considérables. Toutefois, une valorisation proche de 1 500 milliards de dollars alors que le Nasdaq corrige relance le débat sur une éventuelle **bulle spéculative** dans l'intelligence artificielle. L'ampleur de la demande révèle un phénomène de **mimétisme financier** : les investisseurs achètent moins en fonction des bénéfices immédiats que de la certitude que d'autres voudront détenir le titre. Cette concentration extrême de la capitalisation boursière sur quelques géants technologiques accentue par ailleurs la **fragilité systémique** des marchés actions américains en cas de retournement des anticipations.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1660626063662-55bb5e169e1d?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Quartier financier de Wall Street et de la Bourse de New York",
+    "credit": "Ash Cook / Unsplash",
+    "source": "https://unsplash.com/s/photos/wall-street"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.2 – La dynamique de la mondialisation financière : constitution et fonctionnement du marché international des capitaux"
+   },
+   "auteurs": [
+    {
+     "nom": "John Maynard Keynes",
+     "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+     "annee": "1936",
+     "ref": "concours-de-beaute",
+     "cours": "2A-06-globalisation-financiere",
+     "texte": "Keynes compare la Bourse à un **concours de beauté** : face à l'incertitude radicale, les investisseurs n'évaluent pas la valeur intrinsèque d'une entreprise, mais cherchent à deviner ce que l'opinion moyenne va acheter. Sur l'entrée en Bourse d'Anthropic à près de 1 500 milliards de dollars, cette analyse éclaire le **mimétisme** qui pousse les capitaux vers les valeurs d'IA malgré le recul récent du Nasdaq. À mobiliser dans tout sujet sur l'efficience des marchés financiers ou la formation des bulles spéculatives."
+    },
+    {
+     "nom": "John Hicks",
+     "ouvrage": "The Crisis in Keynesian Economics",
+     "annee": "1974",
+     "ref": "economie-endettement-marches-hicks",
+     "cours": "2A-06-globalisation-financiere",
+     "texte": "Hicks oppose l'**économie d'endettement**, où les entreprises se financent par crédit bancaire, à l'**économie de marchés financiers**, où elles lèvent directement des fonds propres sur les marchés de capitaux. La capacité d'Anthropic à réunir plus de 80 milliards de dollars en une opération illustre l'avantage comparatif financier des États-Unis pour soutenir des innovations très capitalistiques. À mobiliser pour nuancer les critiques de la finance de marché et comparer les modèles de financement américain et européen."
+    }
+   ],
+   "notions": [
+    [
+     "Introduction en Bourse (IPO)",
+     "Opération par laquelle une entreprise ouvre son capital au public sur un marché financier pour lever des fonds propres."
+    ],
+    [
+     "Capitalisation boursière",
+     "Valeur totale d'une entreprise cotée, obtenue en multipliant le nombre de ses actions par le cours de l'action."
+    ],
+    [
+     "Bulle spéculative",
+     "Hausse rapide et auto-entretenue du prix d'un actif qui s'écarte durablement de sa valeur fondamentale."
+    ],
+    [
+     "Économie de marchés de capitaux",
+     "Système financier dans lequel le financement des entreprises passe prioritairement par l'émission directe de titres (actions, obligations)."
+    ]
+   ],
+   "sujets": [
+    "Les marchés financiers financent-ils efficacement l'innovation ?",
+    "La globalisation financière rend-elle les bulles spéculatives inévitables ?"
+   ],
+   "anki": [
+    {
+     "q": "Montant levé et valorisation d'Anthropic lors de son IPO (novembre 2026)",
+     "r": "Au moins C{79,4 Md$} (C{81,3 Md$} avec les fondateurs) pour une valorisation proche de C{1 500 Md$}, dépassant le record de SpaceX (C{75 Md$} en juin D{2026}).\n→ Illustre la puissance de l'B{économie de marchés financiers} américaine (A{Hicks}, O{The Crisis in Keynesian Economics}, D{1974}) mais aussi le risque de B{bulle mimétique} dans l'IA → accroche pour un sujet sur la finance et l'innovation."
+    },
+    {
+     "q": "Contraste boursier entourant l'IPO d'Anthropic (novembre 2026)",
+     "r": "Demande massive et relèvement du prix à C{83 $} par action alors que le Nasdaq a reculé de plus de C{11 %} depuis octobre D{2026}.\n→ Montre que les cours reflètent des anticipations autoréalisatrices plutôt que la seule prudence conjoncturelle : A{Keynes}, O{Théorie générale} (D{1936}) sur le B{concours de beauté}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-esh-2",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/19/la-crise-du-detroit-d-ormuz-favorise-une-etroite-convergence-entre-securite-energetique-et-objectifs-climatiques-selon-le-directeur-de-l-aie-fatih-birol_6813236_3234.html",
+   "minutes": 3,
+   "titre": "Crise du détroit d'Ormuz : l'AIE voit une convergence entre sécurité énergétique et transition climatique",
+   "faits": "À l'occasion de la publication du rapport annuel World Energy Outlook 2026 de l'Agence internationale de l'énergie (AIE), son directeur exécutif Fatih Birol estime ce jeudi 19 novembre que la crise dans le détroit d'Ormuz provoque une convergence inédite entre sécurité énergétique et objectifs climatiques. Les perturbations majeures sur cette voie maritime stratégique, provoquées par le conflit au Moyen-Orient et la guerre en Iran, constituent selon lui la plus grave menace pour la sécurité énergétique de l'histoire, dépassant l'ampleur des chocs pétroliers des années 1970. Fatih Birol prévient qu'il n'existe aucune voie crédible vers un retour à la situation énergétique d'avant-crise. Par ce détroit transitaient en effet une part décisive du pétrole brut et du gaz naturel liquéfié consommés dans le monde, exposant les économies importatrices à une flambée durable des coûts. Face à cette vulnérabilité géopolitique, de nombreux gouvernements accélèrent la diversification de leurs approvisionnements et les investissements dans les énergies décarbonées produites localement. L'AIE souligne ainsi que la souveraineté énergétique devient le premier moteur de la sortie des énergies fossiles, au-delà des seuls engagements climatiques internationaux.",
+   "enjeux": "Cette analyse de l'AIE éclaire la double nature des crises énergétiques contemporaines. À court terme, le blocage du détroit d'Ormuz agit comme un **choc d'offre négatif** : la hausse des prix des hydrocarbures renchérit les coûts de production, alimente l'**inflation importée** et comprime le pouvoir d'achat des ménages, au risque de faire resurgir la **stagflation**. À moyen et long terme, toutefois, ce choc géopolitique joue le rôle d'un brutal **signal-prix** qui rend les énergies renouvelables, le nucléaire et l'électrification plus compétitifs face aux combustibles fossiles importés. La transition écologique cesse alors d'apparaître comme une simple contrainte environnementale pour devenir un impératif de **souveraineté économique**. Le défi majeur pour les États reste néanmoins l'**acceptabilité sociale** : contrairement à une taxe carbone redistribuée, une hausse subie des prix du pétrole appauvrit les ménages modestes sans dégager de recettes publiques permettant de les compenser.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1755876519511-bd38af92a5af?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Navire pétrolier en mer acheminant des hydrocarbures",
+    "credit": "Punto Fotográfico / Unsplash",
+    "source": "https://unsplash.com/s/photos/oil-tanker"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la soutenabilité de la croissance et du développement"
+   },
+   "auteurs": [
+    {
+     "nom": "Christian Gollier",
+     "ouvrage": "Le Climat après la fin du mois",
+     "annee": "2019",
+     "ref": "double-dividende-gollier",
+     "cours": "1A-soutenabilite",
+     "texte": "Gollier montre que la transition écologique ne peut réussir sans concilier « fin du monde » et « fin du mois » : seul un **double dividende** redistribuant les recettes du prix du carbone aux ménages modestes la rend politiquement acceptable. Face à la crise du détroit d'Ormuz, sa thèse rappelle qu'un choc pétrolier subi accélère certes la sortie des fossiles, mais risque de provoquer de graves tensions sociales faute de mécanisme compensatoire. À mobiliser dans les sujets sur la soutenabilité de la croissance et la fiscalité écologique."
+    },
+    {
+     "nom": "Arthur Cecil Pigou",
+     "ouvrage": "L'Économie du bien-être",
+     "annee": "1920",
+     "ref": "externalites-pigou",
+     "texte": "Pigou montre que les activités polluantes engendrent des **externalités négatives** non prises en compte par les prix de marché, ce qui justifie l'instauration d'un **signal-prix** (taxe pigouvienne) pour orienter les comportements. L'analyse de Fatih Birol montre que la crise géopolitique d'Ormuz impose de fait un prix élevé aux hydrocarbures, alignant l'intérêt stratégique des États avec l'internalisation du coût climatique. À mobiliser pour discuter le rôle des prix dans la transition énergétique."
+    }
+   ],
+   "notions": [
+    [
+     "Choc d'offre négatif",
+     "Perturbation soudaine qui augmente les coûts de production (énergie, matières premières) et provoque à la fois inflation et ralentissement."
+    ],
+    [
+     "Externalité négative",
+     "Coût imposé à la collectivité par une activité économique (comme les émissions de CO₂) sans compensation financière par le marché."
+    ],
+    [
+     "Double dividende",
+     "Effet d'une fiscalité écologique qui réduit la pollution (premier dividende) tout en finançant des compensations sociales ou des baisses d'impôts (second dividende)."
+    ],
+    [
+     "Sécurité énergétique",
+     "Capacité d'un pays à garantir un approvisionnement stable, diversifié et abordable en énergie."
+    ]
+   ],
+   "sujets": [
+    "Les crises énergétiques accélèrent-elles ou freinent-elles la transition écologique ?",
+    "Le signal-prix suffit-il à assurer une croissance soutenable ?"
+   ],
+   "anki": [
+    {
+     "q": "Diagnostic de l'AIE (Fatih Birol) sur la crise du détroit d'Ormuz (novembre 2026)",
+     "r": "Qualifiée de « plus grande menace pour la sécurité énergétique de l'histoire », dépassant les chocs pétroliers des années D{1970}, sans retour possible à l'avant-crise.\n→ Crée une convergence entre B{sécurité énergétique} et B{transition climatique}, agissant comme un signal-prix brutal (A{Pigou}, O{L'Économie du bien-être}, D{1920}) → accroche pour un sujet sur la transition écologique."
+    },
+    {
+     "q": "Limite sociale d'une transition poussée par un choc pétrolier plutôt que par une taxe carbone",
+     "r": "Un choc d'offre importé renchérit l'énergie sans générer de recettes fiscales redistribuables aux ménages modestes.\n→ Risque de conflit « fin du monde contre fin du mois » : A{Christian Gollier}, O{Le Climat après la fin du mois} (D{2019}) sur la nécessité du B{double dividende}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-esh-3",
+   "matiere": "esh",
+   "source": "Libération",
+   "url": "https://www.liberation.fr/economie/conso/decouverts-bancaires-quels-changements-avec-les-nouvelles-regles-mises-en-place-a-partir-de-ce-vendredi-20-novembre-20261119_NOQBCRPIAJG6TGFTAB3LQ7EPHU/",
+   "minutes": 3,
+   "titre": "Découverts bancaires et crédit à la consommation : des règles européennes plus strictes entrent en vigueur",
+   "faits": "À compter de ce vendredi 20 novembre 2026, de nouvelles règles encadrant les découverts bancaires et le crédit à la consommation entrent en vigueur en France, en application de la directive européenne DCC2 transposée par ordonnance en septembre 2025. Jusqu'ici, les autorisations de découvert de moins de 200 euros ou d'une durée inférieure à un mois échappaient au régime protecteur du crédit à la consommation. Désormais, tous les nouveaux découverts autorisés, quels que soient leur montant ou leur durée, sont assimilés à un crédit et imposent aux banques une analyse préalable de la solvabilité du client (revenus, charges et situation financière). Les contrats déjà signés avant le 20 novembre restent soumis à l'ancien régime, mais les découverts permanents bénéficient de nouvelles garanties : la banque devra respecter un préavis obligatoire de deux mois avant toute suppression et proposer un remboursement échelonné en douze mensualités sans frais. La réforme élargit également le plafond du crédit à la consommation de 75 000 à 100 000 euros et soumet les paiements fractionnés en trois ou quatre fois (« Buy Now, Pay Later ») aux mêmes obligations de transparence. Enfin, les publicités pour le crédit devront afficher un avertissement standardisé rappelant qu'un crédit coûte de l'argent et doit être remboursé.",
+   "enjeux": "Cette réforme illustre le rôle de la **régulation publique** pour corriger les **défaillances de marché** liées à l'**asymétrie d'information** dans la finance de détail. L'essor des paiements fractionnés et des mini-crédits instantanés avait créé une zone grise favorisant le **surendettement** des ménages les plus vulnérables, souvent peu informés du coût réel de ces facilités de trésorerie. En imposant une vérification systématique de la solvabilité, l'Union européenne cherche à responsabiliser les établissements prêteurs et à prévenir les défauts de paiement. Toutefois, ce durcissement réglementaire comporte un effet ambivalent : en renchérissant le coût administratif du risque, il peut inciter les banques à durcir leurs critères d'octroi et à **rationner le crédit** pour les ménages aux revenus précaires. Le débat oppose ainsi la protection contre le surendettement au risque d'**exclusion bancaire** de foyers qui utilisent le découvert comme amortisseur de fin de mois.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Terminal de paiement par carte bancaire et reçu de transaction",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/payment-terminal"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : la monnaie et le financement de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "George Akerlof",
+     "ouvrage": "« Le marché des tacots »",
+     "annee": "1970",
+     "ref": "asymetrie-d-information-akerlof",
+     "cours": "1A-hpe",
+     "texte": "Akerlof montre que l'**asymétrie d'information** entre vendeurs et acheteurs conduit à l'**antisélection** et dégrade le fonctionnement du marché, justifiant l'intervention d'un régulateur. La directive européenne DCC2 illustre cette logique : en imposant transparence sur les paiements fractionnés et vérification de la solvabilité sur les petits découverts, elle réduit l'opacité du crédit à la consommation. À mobiliser pour justifier la régulation prudentielle et la protection des consommateurs."
+    },
+    {
+     "nom": "Joseph Stiglitz et Andrew Weiss",
+     "ouvrage": "« Le rationnement du crédit dans des marchés à information imparfaite »",
+     "annee": "1981",
+     "ref": "rationnement-du-credit-stiglitz-weiss",
+     "cours": "1A-hpe",
+     "texte": "Stiglitz et Weiss démontrent qu'en situation d'information imparfaite, les banques préfèrent **rationner le crédit** plutôt que d'augmenter indéfiniment leurs taux, de peur d'attirer les emprunteurs les plus risqués. Appliquée à la réforme du 20 novembre 2026, cette analyse nuance les effets de la régulation : en rendant plus exigeante l'évaluation de solvabilité, les banques risquent de refuser des découverts aux ménages modestes pourtant capables de rembourser. À mobiliser pour analyser les limites de la régulation bancaire et l'accès au crédit."
+    }
+   ],
+   "notions": [
+    [
+     "Asymétrie d'information",
+     "Situation dans laquelle un agent économique dispose de plus d'informations que son partenaire lors d'une transaction."
+    ],
+    [
+     "Rationnement du crédit",
+     "Limitation quantitative des prêts accordés par les banques face à l'incertitude sur la solvabilité des emprunteurs."
+    ],
+    [
+     "Solvabilité",
+     "Capacité d'un ménage ou d'une entreprise à rembourser ses dettes à leur échéance grâce à ses revenus et son patrimoine."
+    ],
+    [
+     "Régulation prudentielle",
+     "Ensemble des règles imposées aux établissements financiers pour limiter leur prise de risque et protéger les déposants ou emprunteurs."
+    ]
+   ],
+   "sujets": [
+    "Faut-il renforcer la régulation du crédit pour protéger les ménages ?",
+    "Les marchés financiers et bancaires peuvent-ils s'autoréguler ?"
+   ],
+   "anki": [
+    {
+     "q": "Entrée en vigueur et portée de la réforme européenne des découverts bancaires (France, 2026)",
+     "r": "Le D{20 novembre 2026} (directive DCC2) : fin de l'exception pour les découverts de moins de C{200 €} ou de moins d'C{1 mois}, analyse de solvabilité obligatoire et plafond du crédit conso porté de C{75 000 €} à C{100 000 €}.\n→ Corrige les B{asymétries d'information} (A{Akerlof}, O{Le marché des tacots}, D{1970}) mais crée un risque de B{rationnement du crédit} pour les ménages précaires (A{Stiglitz et Weiss}, D{1981}) → accroche pour un sujet sur la régulation bancaire."
+    },
+    {
+     "q": "Nouvelles garanties pour les découverts permanents déjà en cours (France, novembre 2026)",
+     "r": "Préavis obligatoire de C{2 mois} en cas de suppression par la banque et remboursement échelonné sur C{12 mensualités} sans frais.\n→ Illustre l'arbitrage entre lutte contre le surendettement et continuité de trésorerie pour les ménages."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-esh-4",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conso/les-cocos-de-paimpol-ne-doivent-plus-financer-le-cola-d-atlanta-serge-papin-appelle-a-flecher-l-inflation-vers-les-agriculteurs-et-les-pme-20261119",
+   "minutes": 3,
+   "titre": "Négociations commerciales : Serge Papin veut réorienter la valeur vers les agriculteurs et les PME",
+   "faits": "À moins de deux semaines de l'ouverture des négociations commerciales annuelles entre la grande distribution et les industriels de l'agroalimentaire, prévue le 1er décembre, le ministre du Commerce Serge Papin a interpellé les patrons d'enseignes ce jeudi 19 novembre lors des Dialogues du commerce à Paris. Devant les dirigeants de Carrefour et de Coopérative U, il a affirmé que l'inflation alimentaire devait être fléchée prioritairement vers les agriculteurs et les PME françaises plutôt que vers les grands groupes internationaux. « Les cocos de Paimpol ne doivent plus financer le Cola d'Atlanta », a-t-il lancé pour dénoncer des rapports de force déséquilibrés au détriment des producteurs locaux. Le ministre a ainsi demandé aux distributeurs de se montrer conciliants avec les fournisseurs les plus fragiles et exigeants avec les multinationales. Il a également défendu le « localisme », défini comme la capacité à produire, vendre et acheter localement afin que la valeur créée sur un territoire y finance des emplois. De son côté, le PDG de Carrefour Alexandre Bompard a plaidé pour la transparence sur les coûts de production et la protection de la matière première agricole.",
+   "enjeux": "Ces négociations commerciales mettent en lumière les mécanismes de la **concurrence imparfaite** dans la filière agroalimentaire française. Entre des centrales d'achat très concentrées (situation d'**oligopsone**) et des multinationales disposant de marques incontournables (situation d'**oligopole**), les agriculteurs et les PME locales subissent une asymétrie de **pouvoir de marché** qui comprime leurs marges. Le partage de la **valeur ajoutée** tout au long de la chaîne de valeur devient ainsi un enjeu central de **souveraineté alimentaire** et d'aménagement du territoire. Pour sortir d'une concurrence par les seuls prix où elles sont perdantes, les filières agricoles françaises misent sur la **compétitivité hors-prix** (appellations d'origine, qualité, proximité), symbolisée ici par le coco de Paimpol. L'intervention politique rappelle toutefois la difficulté pour l'État d'arbitrer entre la défense du revenu agricole et la préservation du **pouvoir d'achat** des consommateurs dans un contexte d'inflation persistante.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1553546895-531931aa1aa8?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Rayon de supermarché avec fruits et légumes frais",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/supermarket"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Joan Robinson",
+     "ouvrage": "L'Économie de la concurrence imparfaite",
+     "annee": "1933",
+     "ref": "concurrence-imparfaite-robinson",
+     "cours": "1A-entreprise",
+     "texte": "Robinson rompt avec l'hypothèse d'atomicité du marché en intégrant **monopoles** et **oligopoles**, montrant que les grandes firmes disposent d'un **pouvoir de marché** leur permettant d'influencer les prix et de capter des rentes. Les négociations commerciales françaises illustrent directement ce déséquilibre : les multinationales et les centrales d'achat imposent leurs conditions aux PME et aux agriculteurs. À mobiliser dans tout sujet sur la formation des prix, le partage de la valeur ou le rôle des firmes multinationales."
+    },
+    {
+     "nom": "Michael Porter",
+     "ouvrage": "L'Avantage concurrentiel",
+     "annee": "1985",
+     "ref": "competitivite-porter",
+     "texte": "Porter distingue la **domination par les coûts** (compétitivité-prix) de la **différenciation** (compétitivité hors-prix) fondée sur la qualité, l'image ou l'origine du produit. L'appel à défendre les produits de terroir et le localisme face aux géants agroalimentaires illustre la nécessité pour les producteurs français de monter en gamme pour préserver leurs marges. À mobiliser pour montrer comment les PME peuvent résister à la pression concurrentielle de la mondialisation."
+    }
+   ],
+   "notions": [
+    [
+     "Pouvoir de marché",
+     "Capacité d'une entreprise ou d'un acheteur concentré à influencer les prix et les conditions d'échange au-delà de l'équilibre concurrentiel."
+    ],
+    [
+     "Oligopsone",
+     "Structure de marché caractérisée par un petit nombre d'acheteurs (comme les centrales d'achat) face à un grand nombre de vendeurs."
+    ],
+    [
+     "Compétitivité hors-prix",
+     "Capacité d'un produit à s'imposer par sa qualité, son innovation, son origine ou son image plutôt que par un prix bas."
+    ],
+    [
+     "Partage de la valeur ajoutée",
+     "Répartition de la richesse créée entre les différents acteurs économiques (producteurs, transformateurs, distributeurs, salariés, actionnaires)."
+    ]
+   ],
+   "sujets": [
+    "La concentration des entreprises nuit-elle toujours au consommateur et aux producteurs ?",
+    "Comment concilier souveraineté alimentaire et pouvoir d'achat ?"
+   ],
+   "anki": [
+    {
+     "q": "Formule de Serge Papin avant les négociations commerciales du 1er décembre (novembre 2026)",
+     "r": "« Les cocos de Paimpol ne doivent plus financer le Cola d'Atlanta » : appel à flécher l'inflation vers les agriculteurs et les PME plutôt que vers les multinationales.\n→ Illustre l'asymétrie de B{pouvoir de marché} en B{concurrence imparfaite} (A{Joan Robinson}, O{L'Économie de la concurrence imparfaite}, D{1933}) → accroche pour un sujet sur le partage de la valeur ou les FTN."
+    },
+    {
+     "q": "Stratégie défendue pour préserver les marges des producteurs locaux face aux géants mondiaux",
+     "r": "Valorisation du « localisme » et des produits de terroir protégés pour retenir la valeur ajoutée sur les territoires.\n→ Relève de la B{différenciation hors-prix} : A{Michael Porter}, O{L'Avantage concurrentiel} (D{1985})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-anglais-1",
+   "matiere": "anglais",
+   "source": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o",
+   "minutes": 3,
+   "titre": "Royaume-Uni : le gouvernement s'apprête à abolir le système du « leasehold » en Angleterre et au Pays de Galles",
+   "faits": "Le gouvernement britannique présente ce jeudi 19 novembre son projet de loi Commonhold and Leasehold Reform Bill, qui vise à mettre fin au système du « leasehold » pour la plupart des nouveaux appartements en Angleterre et au Pays de Galles. Dans ce régime spécifique, l'acheteur d'un appartement ne possède pas le terrain ni l'immeuble, mais seulement un bail de longue durée, tandis qu'un propriétaire foncier (« freeholder ») conserve la propriété ultime et perçoit une rente foncière annuelle (« ground rent »). Le texte prévoit de remplacer ce modèle par le « commonhold », un système de copropriété collective similaire à celui en vigueur dans la plupart des autres pays. Pour les propriétaires actuels, la rente foncière sera plafonnée à 250 livres par an dès 2028, avant d'être ramenée à un montant symbolique au bout de quarante ans. Le ministre du Logement Matthew Pennycook a qualifié le leasehold d'« anachronisme du XXIe siècle » qui gâche la vie de nombreux résidents confrontés à des charges de gestion élevées. L'association des propriétaires fonciers (Residential Freehold Association) dénonce en revanche une atteinte sans précédent au droit de propriété qui risque d'amputer de plusieurs milliards de livres la valeur des fonds de pension investis dans l'immobilier.",
+   "enjeux": "Cette réforme s'attaque à l'un des héritages les plus emblématiques du **droit foncier féodal** britannique, alors que la crise du logement reste au cœur du débat politique outre-Manche. Le système du leasehold est critiqué depuis des années pour les abus liés aux charges de copropriété, aux frais d'assurance après l'incendie de la tour Grenfell et aux rentes foncières croissantes qui rendent certains logements difficiles à revendre. En promouvant le **commonhold**, le gouvernement travailliste cherche à rééquilibrer les droits au profit des résidents et des classes moyennes propriétaires. Le projet révèle toutefois un arbitrage délicat entre **justice sociale** et **sécurité juridique des investisseurs**, car de nombreux fonds de pension britanniques détiennent ces droits fonciers comme actifs de long terme. Le parcours parlementaire du texte, qui devra être approuvé par les deux chambres, s'annonce donc particulièrement disputé.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1659944804457-506a7348d43e?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Immeubles résidentiels d'appartements le long de la Tamise à Londres",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/london-apartment"
+   },
+   "vo": {
+    "titre": "UK set to scrap leasehold system for new flats in England and Wales",
+    "faits": "The British government is publishing its Commonhold and Leasehold Reform Bill on Thursday 19 November, aiming to end the leasehold system for most new flats in England and Wales. Under leasehold, flat buyers do not own the building or the land it stands on, but instead purchase a long-term right to occupy the property while a freeholder retains ultimate ownership and collects an annual ground rent. The legislation would replace this model with commonhold, allowing residents to own and manage their buildings collectively. For existing leaseholders, ground rent will be capped at £250 a year from 2028 before falling to a nominal peppercorn rate after 40 years. Housing Minister Matthew Pennycook described leasehold as an 'anachronism in the 21st century' that has blighted residents' lives amid soaring service charges. However, the Residential Freehold Association condemned the plan as an unprecedented breach of property rights, warning it could wipe billions off the value of pension funds heavily invested in residential freeholds.",
+    "enjeux": "The reform tackles one of the most contentious relics of Britain's feudal land-ownership tradition at a time when housing affordability dominates domestic politics. For years, leaseholders have complained of escalating ground rents, opaque service charges and steep insurance bills linked to building-safety defects, leaving many flats hard to sell. By shifting towards commonhold, the Labour government seeks to rebalance power in favour of ordinary homeowners and align England and Wales with international norms. Yet the bill exposes a sharp tension between consumer protection and investor certainty, since institutional pension funds rely on freehold portfolios for predictable long-term returns. With scrutiny required in both Houses of Parliament, the legislation is set to trigger fierce lobbying before it can become law next year."
+   },
+   "vocab": [
+    [
+     "leasehold",
+     "bail emphytéotique / propriété sans le terrain",
+     "Many flat buyers in England regret buying under leasehold."
+    ],
+    [
+     "ground rent",
+     "rente foncière annuelle",
+     "The bill proposes capping ground rent at £250 a year."
+    ],
+    [
+     "commonhold",
+     "copropriété collective (incluant le terrain)",
+     "Commonhold gives residents full control over their building."
+    ],
+    [
+     "service charges",
+     "charges de copropriété / frais de gestion",
+     "Rising service charges have strained household budgets."
+    ],
+    [
+     "a peppercorn rate",
+     "un montant symbolique (quasi nul)",
+     "Ground rents will eventually drop to a peppercorn rate."
+    ],
+    [
+     "to blight",
+     "gâcher, miner",
+     "Unfair housing rules have blighted the lives of many residents."
+    ]
+   ],
+   "sujets": [
+    "Is the British housing market still shaped by outdated feudal institutions?",
+    "Should governments prioritise homeowners' rights over pension fund investors?"
+   ],
+   "anki": [
+    {
+     "q": "Key measures of the UK Commonhold and Leasehold Reform Bill (November 2026)",
+     "r": "Bans most new leasehold flats in England and Wales in favour of B{commonhold} and caps existing B{ground rents} at C{£250} a year from D{2028} (then peppercorn after C{40 years}).\n→ Landmark attempt to dismantle a feudal property relic amid the UK housing crisis → hook for an essay on British housing or social reform."
+    },
+    {
+     "q": "Main economic objection to abolishing leasehold in England and Wales (2026)",
+     "r": "The Residential Freehold Association warns it could wipe billions off the value of B{pension funds} invested in residential freeholds.\n→ Shows the trade-off between protecting homeowners and preserving institutional investors' property rights."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-anglais-2",
+   "matiere": "anglais",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6043185/democrats-nominate-jeffries-for-speaker-prep-investigations-into-trumps-orbit",
+   "minutes": 3,
+   "titre": "États-Unis : les démocrates désignent Hakeem Jeffries pour présider la Chambre et préparent des enquêtes sur l'entourage de Trump",
+   "faits": "Réunis à huis clos au Capitole le mercredi 18 novembre, les élus démocrates ont largement désigné leur chef de file Hakeem Jeffries comme candidat à la présidence (« Speaker ») de la Chambre des représentants, qu'ils contrôleront à partir de janvier 2027 après leur victoire aux élections de mi-mandat. Candidat unique, l'élu de New York a recueilli 251 voix contre 11, malgré les réserves de quelques nouveaux élus de l'aile progressiste qui réclamaient un renouvellement des dirigeants. Hakeem Jeffries a affirmé que les Américains exigeaient « un changement audacieux et profond » face à un statu quo jugé inacceptable. Les démocrates ont parallèlement commencé à préparer leur programme d'enquêtes parlementaires visant l'administration Trump et son entourage dès la rentrée du nouveau Congrès. Au Sénat, où les démocrates ont repris la majorité en remportant neuf sièges, la direction du groupe est en revanche disputée : le chef sortant Chuck Schumer fait face à la candidature du sénateur du Maryland Chris Van Hollen. Le vote formel de l'ensemble de la Chambre pour élire le Speaker aura lieu en janvier.",
+   "enjeux": "La désignation de Hakeem Jeffries marque le retour d'un **gouvernement divisé** (*divided government*) à Washington, mécanisme central du système américain de **séparation des pouvoirs** (*checks and balances*). Après deux années où Donald Trump disposait de majorités républicaines au Congrès, la reprise des deux chambres par les démocrates offre à l'opposition un puissant levier législatif et surtout un **pouvoir d'enquête** (*oversight*) sur l'exécutif. Cette séquence révèle néanmoins des tensions internes au Parti démocrate, où l'aile progressiste pousse pour une relève générationnelle et une ligne plus offensive, comme l'illustre le défi lancé contre Chuck Schumer au Sénat. Pour les deux dernières années du mandat présidentiel, la confrontation entre la Maison-Blanche et le Capitole risque de bloquer les grandes réformes législatives et de déplacer le combat politique vers les commissions d'enquête et les décrets présidentiels.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1721486214643-d0ee6ccc14e6?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Capitole des États-Unis à Washington, siège du Congrès américain",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/us-capitol"
+   },
+   "vo": {
+    "titre": "Democrats nominate Hakeem Jeffries for House Speaker and prepare Trump probes",
+    "faits": "Meeting behind closed doors on Capitol Hill on Wednesday 18 November, House Democrats overwhelmingly nominated Minority Leader Hakeem Jeffries to become the next Speaker of the House when they take control of Congress in January 2027. Running unopposed, the New York congressman won by 251 votes to 11, overcoming muted grumbling from newly elected progressives calling for a generational shift in leadership. Jeffries declared that Americans were demanding 'bold, dramatic and transformational change' and rejected the political status quo. At the same time, Democrats began outlining an extensive oversight agenda targeting President Donald Trump's administration and close orbit once the new session opens. In the Senate, where Democrats flipped nine seats in the midterms, the leadership race is more contested, with Maryland Senator Chris Van Hollen challenging incumbent leader Chuck Schumer. The full House will hold the formal vote for Speaker in January.",
+    "enjeux": "Jeffries's nomination heralds the return of divided government in Washington, a defining feature of the American system of checks and balances. After two years of Republican control on Capitol Hill, Democratic majorities in both chambers hand the opposition not only legislative veto power over the White House, but also formidable subpoena and investigative authority. Yet the leadership votes expose persistent fractures within the Democratic Party, as younger progressive lawmakers press for a more confrontational posture and fresh faces at the top. Over the final two years of Trump's presidency, gridlock between Congress and the executive branch is likely to stall major bills, shifting political battles towards congressional inquiries and executive orders."
+   },
+   "vocab": [
+    [
+     "Speaker of the House",
+     "président(e) de la Chambre des représentants",
+     "Hakeem Jeffries is poised to become the next Speaker of the House."
+    ],
+    [
+     "checks and balances",
+     "équilibre des pouvoirs / contre-pouvoirs",
+     "Congressional oversight is a cornerstone of US checks and balances."
+    ],
+    [
+     "divided government",
+     "cohabitation / gouvernement divisé",
+     "Midterm elections frequently usher in a period of divided government."
+    ],
+    [
+     "oversight",
+     "contrôle parlementaire / surveillance",
+     "Democrats plan aggressive oversight of the White House."
+    ],
+    [
+     "to run unopposed",
+     "se présenter sans concurrent",
+     "Jeffries ran unopposed and secured a sweeping majority."
+    ],
+    [
+     "gridlock",
+     "blocage institutionnel / paralysie politique",
+     "Partisan gridlock often prevents Congress from passing major laws."
+    ]
+   ],
+   "sujets": [
+    "Does divided government strengthen or paralyse American democracy?",
+    "Can congressional oversight effectively check presidential power in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "Democratic nomination vote for US House Speaker (November 2026)",
+     "r": "B{Hakeem Jeffries} nominated by C{251} votes to C{11} on D{18 November 2026}, ahead of Democrats taking control of Congress in January D{2027} (after flipping C{9} Senate seats).\n→ Marks the return of B{divided government} and congressional B{oversight} over the Trump administration → hook for an essay on US checks and balances."
+    },
+    {
+     "q": "Internal Democratic tension following the 2026 US midterms",
+     "r": "Newly elected progressives questioned the old guard, and Senator Chris Van Hollen challenged Senate leader B{Chuck Schumer}.\n→ Shows that even after a midterm sweep, generational and ideological divides persist inside the Democratic Party."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/science/2026/nov/19/weight-loss-drugs-nearly-one-in-10-homes-great-britain-study-finds",
+   "minutes": 3,
+   "titre": "Royaume-Uni : près d'un foyer sur dix utilise désormais des médicaments amaigrissants",
+   "faits": "Selon une étude de l'institut Worldpanel by Numerator publiée ce jeudi 19 novembre, 8,5 % des foyers de Grande-Bretagne comptent désormais au moins une personne prenant des médicaments amaigrissants de type GLP-1, comme Wegovy ou Mounjaro. Environ 2,6 millions d'adultes britanniques y avaient recours en août 2026, soit une hausse de 700 000 utilisateurs en seulement six mois par rapport à février (où la part des foyers concernés était de 6,3 %). Ce chiffre dépasse désormais la proportion combinée des foyers comptant des végétariens et des pescatariens. L'accélération s'explique notamment par l'autorisation en juin au Royaume-Uni des versions en comprimé quotidien, vendues en pharmacie depuis juillet, qui représentent déjà 11,2 % des utilisateurs. Les hommes contribuent aussi fortement à cette diffusion : leur nombre a presque doublé en neuf mois pour atteindre 830 000, soit près d'un tiers des patients. L'enquête, menée auprès de plus de 9 600 ménages, révèle un impact économique direct : les foyers concernés ont réduit leurs achats alimentaires en supermarché d'un milliard de livres sur un an, soit 389 livres de moins par ménage et 415 millions d'articles non achetés.",
+   "enjeux": "L'essor fulgurant des traitements GLP-1 au Royaume-Uni constitue à la fois une rupture de **santé publique** et un bouleversement des **habitudes de consommation**. Dans un pays confronté à un taux d'obésité élevé qui pèse lourdement sur le **NHS** (le service public de santé britannique), ces médicaments promettent une réduction des maladies chroniques et des dépenses hospitalières à long terme. Néanmoins, leur diffusion massive via les pharmacies privées soulève des enjeux d'**inégalités sociales de santé**, l'accès dépendant largement du revenu disponible des ménages. Sur le plan économique, la baisse d'un milliard de livres des dépenses de supermarché montre comment une innovation pharmaceutique peut reconfigurer toute la filière agroalimentaire et la grande distribution. Elle pose enfin des questions de régulation face à la médicalisation croissante de la perte de poids.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1562243061-204550d8a2c9?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Flacon de médicaments et gélules délivrés sur ordonnance",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/prescription-drug"
+   },
+   "vo": {
+    "titre": "Weight-loss drugs now used in nearly one in ten British households",
+    "faits": "According to research by Worldpanel by Numerator published on Thursday 19 November, at least one person is taking GLP-1 weight-loss medication such as Wegovy or Mounjaro in 8.5% of households across Great Britain. Roughly 2.6 million British adults were using the drugs in August 2026, up by around 700,000 in just six months from February, when 6.3% of homes were affected. Households with a GLP-1 user now outnumber those containing vegetarians and pescatarians combined. The surge has been driven by the UK regulator's approval of daily pill versions in June—which went on sale in high-street pharmacies in July and already account for 11.2% of users—as well as a sharp rise in male uptake, which nearly doubled to 830,000 men. Tracking more than 9,600 households, the study also highlights a major shift in consumer spending: affected homes spent £1bn less on groceries over the past year, equivalent to £389 less per household and 415 million fewer items bought.",
+    "enjeux": "The rapid adoption of GLP-1 drugs marks both a public-health turning point and a structural disruption for Britain's food retail sector. In a country where obesity places a heavy burden on the NHS, effective treatments could eventually curb chronic illnesses and ease pressure on public hospitals. Yet widespread reliance on private pharmacy prescriptions raises concerns about health inequalities, as lower-income households may struggle to afford ongoing treatment. Economically, a £1bn drop in grocery spending demonstrates how medical breakthroughs can swiftly reshape consumer markets, forcing supermarkets and food manufacturers to adapt their product lines. It also sparks ethical debates over the growing medicalisation of weight management."
+   },
+   "vocab": [
+    [
+     "weight-loss drugs",
+     "médicaments amaigrissants",
+     "Weight-loss drugs are reshaping British eating habits."
+    ],
+    [
+     "high-street pharmacies",
+     "pharmacies de ville",
+     "Daily weight-loss pills went on sale in high-street pharmacies."
+    ],
+    [
+     "uptake",
+     "taux d'adoption / recours",
+     "Male uptake of the treatment has nearly doubled."
+    ],
+    [
+     "grocery spending",
+     "dépenses alimentaires / courses",
+     "Grocery spending fell sharply among households using the drugs."
+    ],
+    [
+     "the NHS",
+     "le service public de santé britannique",
+     "Obesity costs the NHS billions of pounds each year."
+    ],
+    [
+     "to curb",
+     "freiner, endiguer",
+     "Health experts hope new therapies will curb chronic disease."
+    ]
+   ],
+   "sujets": [
+    "Are weight-loss drugs a miracle solution or a risk for public health policy?",
+    "How is medical innovation reshaping consumer behaviour in modern Britain?"
+   ],
+   "anki": [
+    {
+     "q": "Share of British households using GLP-1 weight-loss drugs (August 2026)",
+     "r": "C{8.5 %} of homes (C{2.6 million} adults, up C{700,000} in 6 months), fuelled by daily pills approved in June D{2026}.\n→ Shows rapid medicalisation of obesity in Britain, with major implications for the B{NHS} and health inequalities → hook for an essay on public health."
+    },
+    {
+     "q": "Impact of GLP-1 weight-loss drugs on UK supermarket sales (2026 study)",
+     "r": "Affected households spent C{£1bn} less on groceries over a year (C{£389} per household, C{415 million} fewer items).\n→ Demonstrates how pharmaceutical innovation can disrupt the entire food and retail industry."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-anglais-4",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump",
+   "minutes": 3,
+   "titre": "États-Unis : Elon Musk assure ne pas être « MAGA » et regrette ses dépenses record pour les midterms",
+   "faits": "Lors d'un entretien en visioconférence au sommet Dealbook du New York Times le mercredi 18 novembre, alors qu'il accompagne Donald Trump en Chine, le milliardaire Elon Musk a pris ses distances avec le mouvement « Make America Great Again ». « Je ne suis pas MAGA », a affirmé l'homme le plus riche du monde, rejetant toute « adhésion aveugle » au Parti républicain, alors même qu'il s'était proclamé « dark, gothic MAGA » lors d'un meeting en 2024. Le patron de Tesla et SpaceX, qui avait déjà versé au moins 250 millions de dollars pour la campagne de Donald Trump en 2024, a récemment dépensé près de 500 millions de dollars pour soutenir les candidats républicains lors des élections de mi-mandat de 2026. Face à la défaite de nombreux candidats qu'il soutenait, Musk a reconnu que ses dépenses avaient « échoué » et confié se sentir « plutôt idiot ». Il a ajouté qu'un pouvoir partagé entre les deux partis à Washington pouvait être une bonne chose, estimant qu'il y avait « du positif et du négatif dans les deux camps ».",
+   "enjeux": "Ce revirement spectaculaire relance le débat sur le rôle de l'**argent en politique** aux États-Unis depuis l'arrêt *Citizens United* de la Cour suprême (2010), qui a ouvert la voie à des financements illimités via les *Super PACs*. Les près de 500 millions de dollars engloutis par Elon Musk lors des midterms illustrent l'influence sans précédent des **milliardaires de la tech** dans la vie démocratique américaine. Pourtant, son aveu d'échec démontre aussi les **limites du pouvoir financier** face aux urnes : des dépenses record ne suffisent pas à inverser une dynamique électorale défavorable. Sa prise de distance opportuniste, alors que les démocrates s'apprêtent à contrôler le Congrès et à superviser la régulation technologique, rappelle enfin que les intérêts économiques des grands patrons priment souvent sur leurs loyautés partisanes.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1540908390241-82158ab62887?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Scrutin et vote lors d'une élection aux États-Unis",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/election"
+   },
+   "vo": {
+    "titre": "Elon Musk denies being Maga and regrets nearly $500m midterm spending",
+    "faits": "Speaking via video link to the New York Times Dealbook summit on Wednesday 18 November from China, where he is accompanying President Donald Trump, billionaire Elon Musk distanced himself from the 'Make America Great Again' movement. 'I'm not Maga,' the world's richest person declared, rejecting 'blind adherence' to Republican policies despite having famously described himself as 'dark, gothic Maga' at a 2024 rally. After donating at least $250m to help elect Trump in 2024, the Tesla and SpaceX chief recently spent nearly $500m backing Republican candidates in the 2026 midterm elections, many of whom went on to lose. Musk admitted his spending had 'failed' and said he felt 'pretty foolish' about the outlay. He even suggested that split control in Washington could be beneficial, noting that there are 'positives and negatives in both' major parties.",
+    "enjeux": "Musk's abrupt pivot reignites the long-running debate over big money in American politics, unleashed since the Supreme Court's 2010 Citizens United ruling enabled unlimited spending through Super PACs. Pouring nearly half a billion dollars into a single midterm cycle underscores the extraordinary political clout wielded by tech oligarchs in the United States. At the same time, Musk's candid admission of defeat highlights the limits of financial firepower at the ballot box, proving that record donations cannot always override voter discontent. His sudden moderation—just as Democrats prepare to take over Congress and scrutinise Silicon Valley—also shows how corporate self-interest frequently outweighs ideological loyalty."
+   },
+   "vocab": [
+    [
+     "midterm elections",
+     "élections de mi-mandat",
+     "Democrats swept the 2026 midterm elections."
+    ],
+    [
+     "campaign spending",
+     "dépenses de campagne électorale",
+     "Record campaign spending failed to secure a Republican majority."
+    ],
+    [
+     "split control",
+     "pouvoir partagé (au Congrès / à Washington)",
+     "Musk claimed split control could benefit Washington."
+    ],
+    [
+     "blind adherence",
+     "adhésion aveugle",
+     "He denied showing blind adherence to Republican policies."
+    ],
+    [
+     "political clout",
+     "poids / influence politique",
+     "Tech billionaires wield unprecedented political clout in the US."
+    ],
+    [
+     "to distance oneself from",
+     "prendre ses distances avec",
+     "Musk sought to distance himself from the Maga label."
+    ]
+   ],
+   "sujets": [
+    "Does billionaire campaign spending undermine American democracy?",
+    "Can money alone buy election victories in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "Elon Musk's political spending in 2024 and 2026 US elections",
+     "r": "At least C{$250m} for Trump in D{2024}, then nearly C{$500m} for Republicans in the D{2026} midterms — which he called 'pretty foolish' after Democratic victories.\n→ Highlights both the scale of B{money in US politics} (post-Citizens United) and its limits at the ballot box → hook for an essay on money and democracy."
+    },
+    {
+     "q": "Political pivot by Elon Musk after the November 2026 US midterms",
+     "r": "Declared 'I'm not Maga' and praised B{split control} in Washington after Democrats won Congress.\n→ Shows how tech billionaires hedge their political bets when regulatory power shifts in Congress."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-espagnol-1",
+   "matiere": "espagnol",
+   "source": "elDiario.es",
+   "url": "https://www.eldiario.es/politica/ultimo-cara-cara-sanchez-feijoo-pp-rebaja-expectativas-lider-psoe-prepara-revancha-2023_1_13674800.html",
+   "minutes": 3,
+   "titre": "Espagne : Pedro Sánchez et Alberto Núñez Feijóo s'affrontent dans un débat télévisé décisif avant le 29-N",
+   "faits": "À dix jours des élections générales du 29 novembre en Espagne, le président du gouvernement socialiste Pedro Sánchez et le chef de l'opposition conservatrice Alberto Núñez Feijóo (PP) s'affrontent ce jeudi soir dans leur unique débat télévisé en face-à-face. Les deux rivaux abordent ce rendez-vous avec un fort esprit de revanche hérité du scrutin de 2023. Pedro Sánchez entend effacer le souvenir du débat d'il y a trois ans, durant lequel Feijóo l'avait déstabilisé par une rafale d'interpellations, tandis que le dirigeant du PP cherche à concrétiser dans les urnes l'avance que lui accordent la plupart des sondages, ce qu'il n'avait pas réussi à faire en 2023. La majorité des enquêtes d'opinion prévoient une victoire de la droite et une majorité absolue pour le bloc PP-Vox, même si le PP tente de modérer les attentes pour éviter une démobilisation de son électorat. De son côté, le PSOE s'appuie sur ses sondages internes et sur une étude de SW Demoscopia pour affirmer que l'écart se resserre et que le scrutin reste ouvert. Cette confrontation de 90 minutes constitue l'un des derniers moments clés pour convaincre les électeurs indécis.",
+   "enjeux": "Ce face-à-face résume la profonde **polarisation bipartisane** qui structure la vie politique espagnole, malgré la fragmentation parlementaire née depuis 2015. L'enjeu central du 29-N dépasse la seule rivalité entre le PSOE et le PP : il porte sur la capacité du bloc conservateur à gouverner avec ou sans l'extrême droite de **Vox**, et sur la survie d'une majorité progressiste plurielle. Le rôle des **sondages électoraux** et de la **communication télévisée** y apparaît déterminant, chaque camp cherchant à mobiliser sa base tout en évitant l'excès de confiance. Pour la civilisation espagnole, ce scrutin teste la solidité du modèle de coalitions et la capacité des institutions à dégager une majorité stable après des années de tensions territoriales et parlementaires.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1479292889369-1a48f234247e?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Architecture du centre de Madrid en Espagne",
+    "credit": "Joel Filipe / Unsplash",
+    "source": "https://unsplash.com/s/photos/madrid"
+   },
+   "vo": {
+    "titre": "Sánchez y Feijóo se miden en un cara a cara decisivo antes del 29-N",
+    "faits": "A diez días de las elecciones generales del 29 de noviembre en España, el presidente del Gobierno, Pedro Sánchez (PSOE), y el líder de la oposición, Alberto Núñez Feijóo (PP), se enfrentan este jueves por la noche en su último debate cara a cara. Ambos rivales llegan marcados por un fuerte deseo de revancha respecto a los comicios de 2023. Sánchez asegura haber aprendido la lección del debate de hace tres años, cuando Feijóo logró descolocarlo con un aluvión de interpelaciones, mientras que el líder popular busca culminar en las urnas la ventaja que le otorgan las encuestas y que no logró traducir en La Moncloa en 2023. La mayoría de los sondeos proyectan una holgada mayoría de PP y Vox, aunque la dirección popular rebaja las expectativas para evitar la desmovilización de sus votantes. Desde Ferraz, en cambio, sostienen que el partido sigue abierto y confían en recortar distancias entre los indecisos.",
+    "enjeux": "Este duelo televisado condensa la intensa polarización política que domina la España actual, pese a la fragmentación parlamentaria consolidada desde la última década. Más allá del choque personal entre Sánchez y Feijóo, el 29-N decidirá si el bloque conservador logra gobernar —y bajo qué grado de dependencia respecto a Vox— o si resiste una coalición progresista. El papel de los sondeos y la estrategia mediática resultan cruciales, pues ambos partidos temen tanto el exceso de confianza como la abstención de su electorado. A escala institucional, las elecciones pondrán a prueba la estabilidad parlamentaria en un país marcado por difíciles equilibrios territoriales y pactos de gobierno."
+   },
+   "vocab": [
+    [
+     "un cara a cara",
+     "un débat en face-à-face",
+     "El cara a cara televisado puede inclinar la balanza electoral."
+    ],
+    [
+     "las encuestas / los sondeos",
+     "les sondages",
+     "La mayoría de los sondeos dan ventaja al bloque conservador."
+    ],
+    [
+     "la revancha",
+     "la revanche",
+     "Ambos líderes llegan al debate con ganas de revancha."
+    ],
+    [
+     "descolocar a alguien",
+     "déstabiliser quelqu'un",
+     "Feijóo logró descolocar a Sánchez durante el debate de 2023."
+    ],
+    [
+     "los indecisos",
+     "les électeurs indécis",
+     "El objetivo principal del debate es convencer a los indecisos."
+    ],
+    [
+     "rebajar expectativas",
+     "modérer / abaisser les attentes",
+     "El PP intenta rebajar expectativas para movilizar a sus bases."
+    ]
+   ],
+   "sujets": [
+    "¿Influyen realmente los debates televisados en el resultado de las elecciones en España?",
+    "¿La polarización política debilita la democracia parlamentaria española?"
+   ],
+   "anki": [
+    {
+     "q": "Enjeu du débat « cara a cara » Sánchez–Feijóo (novembre 2026)",
+     "r": "Último cara a cara el D{19 de noviembre de 2026}, diez días antes de las elecciones generales del D{29-N}, con la mayoría de encuestas proyectando una mayoría PP–Vox.\n→ Ilustra la B{polarización bipartidista} y el peso de los debates televisados para movilizar a los indecisos → gancho para un ensayo sobre la vida política española."
+    },
+    {
+     "q": "Stratégies croisées du PP et du PSOE avant le 29-N (2026)",
+     "r": "El PP rebaja expectativas para evitar la desmovilización (tras el precedente de D{2023}), mientras el PSOE busca remontar apelando al voto útil.\n→ Muestra cómo la gestión de los sondeos forma parte central de las campañas electorales."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-espagnol-2",
+   "matiere": "espagnol",
+   "source": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/cw30gd28rjn9o",
+   "minutes": 3,
+   "titre": "Venezuela : première visite d'un secrétaire américain à la Défense en plusieurs décennies après la capture de Maduro",
+   "faits": "Le secrétaire américain à la Défense, Pete Hegseth, a effectué une visite historique à Caracas, devenant le premier chef du Pentagone depuis des décennies à se rendre au Venezuela. Accueilli au palais présidentiel de Miraflores par la présidente par intérim Delcy Rodríguez, il a signé un accord de coopération militaire rétablissant les liens entre le Pentagone et les forces armées vénézuéliennes. Lors d'un discours prononcé à l'ambassade des États-Unis, Pete Hegseth s'est félicité de la capture de Nicolás Maduro par les forces américaines le 3 janvier 2026, qualifiant cette opération d'« opération militaire la plus sophistiquée de l'histoire de l'Amérique latine ». Il a présenté cette date comme un « jour de libération » et salué la stratégie de « paix par la force » du président Donald Trump, affirmant que Washington avait résolu « en quelques heures un problème vieux de 27 ans » dans l'hémisphère occidental. Ce déplacement s'inscrit dans une tournée régionale du chef du Pentagone visant à réaffirmer l'influence stratégique américaine en Amérique latine.",
+   "enjeux": "Cette visite spectaculaire illustre le retour assumé d'une **doctrine interventionniste** américaine en Amérique latine, rappelant l'héritage de la **doctrine Monroe** et du *Big Stick*. Le rétablissement d'une coopération militaire directe avec Caracas, moins d'un an après la capture de Nicolás Maduro, marque un basculement géopolitique majeur après vingt-sept ans de rupture chaviste avec Washington. L'accord signé avec la présidente par intérim Delcy Rodríguez témoigne toutefois d'un pragmatisme stratégique complexe, Washington cherchant à sécuriser la transition et à contenir l'influence de la Chine et de la Russie dans son arrière-cour. Pour les pays latino-américains, cet épisode ravive le débat historique entre **souveraineté nationale**, principe de non-ingérence et dépendance sécuritaire vis-à-vis des États-Unis.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1724711603891-ca4557b9f40f?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Vue aérienne de Caracas au pied du Cerro El Ávila, Venezuela",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/caracas"
+   },
+   "vo": {
+    "titre": "El jefe del Pentágono visita Venezuela y firma un pacto militar tras la captura de Maduro",
+    "faits": "El secretario de Defensa estadounidense, Pete Hegseth, realizó una visita sin precedentes en décadas a Caracas, donde se reunió en el Palacio de Miraflores con la presidenta interina, Delcy Rodríguez, para firmar un acuerdo de cooperación militar. El pacto supone el restablecimiento formal de los lazos entre el Pentágono y las Fuerzas Armadas venezolanas. Durante un discurso en la embajada de Estados Unidos, Hegseth alardeó de la captura de Nicolás Maduro el pasado 3 de enero, que definió como 'la operación militar más sofisticada en la historia de América Latina' y 'un día de liberación'. El responsable estadounidense atribuyó el giro a la política de 'paz a través de la fuerza' de Donald Trump, asegurando que Washington resolvió en horas un conflicto hemisférico de 27 años. La escala en Caracas forma parte de una gira latinoamericana destinada a reforzar la presencia militar de Estados Unidos en la región.",
+    "enjeux": "La visita de Hegseth simboliza el retorno explícito del intervencionismo estadounidense en América Latina, evocando la vigencia renovada de la doctrina Monroe. La reanudación de la cooperación militar con Caracas, menos de un año después de la captura de Maduro, cierra abruptamente casi tres décadas de enfrentamiento entre el chavismo y Washington. Sin embargo, el entendimiento con la presidenta interina Delcy Rodríguez refleja un pragmatismo geopolítico destinado a estabilizar la transición y frenar la influencia de potencias rivales en el hemisferio occidental. Para el resto de la región, el episodio reabre el debate histórico sobre la soberanía nacional frente a la hegemonía militar de Estados Unidos."
+   },
+   "vocab": [
+    [
+     "alardear de",
+     "se vanter de, exhiber fièrement",
+     "El ministro alardeó del éxito de la operación militar."
+    ],
+    [
+     "la presidenta interina",
+     "la présidente par intérim",
+     "La presidenta interina firmó el acuerdo en Miraflores."
+    ],
+    [
+     "el restablecimiento de lazos",
+     "le rétablissement des liens",
+     "El pacto marca el restablecimiento de lazos militares."
+    ],
+    [
+     "el hemisferio occidental",
+     "l'hémisphère occidental (les Amériques)",
+     "Washington quiere reafirmar su control en el hemisferio occidental."
+    ],
+    [
+     "la paz a través de la fuerza",
+     "la paix par la force",
+     "La Casa Blanca defiende la doctrina de la paz a través de la fuerza."
+    ],
+    [
+     "la injerencia",
+     "l'ingérence",
+     "Muchos países latinoamericanos temen el regreso de la injerencia extranjera."
+    ]
+   ],
+   "sujets": [
+    "¿Ha regresado la doctrina Monroe a las relaciones entre Estados Unidos y América Latina?",
+    "¿Puede la intervención militar extranjera garantizar una transición democrática duradera?"
+   ],
+   "anki": [
+    {
+     "q": "Visite du chef du Pentagone Pete Hegseth à Caracas (novembre 2026)",
+     "r": "Primera visita de un secretario de Defensa de EE.UU. a Venezuela en décadas : firma de un acuerdo de cooperación militar con B{Delcy Rodríguez} tras la captura de Maduro el D{3 de enero de 2026}.\n→ Simboliza el regreso de la B{doctrina Monroe} y la estrategia de « paz a través de la fuerza » en América Latina → gancho para un ensayo sobre EE.UU. y América Latina."
+    },
+    {
+     "q": "Portée historique revendiquée par Washington lors de l'accord militaire à Caracas (2026)",
+     "r": "Hegseth afirmó haber cerrado un conflicto hemisférico de C{27 años} y restablecido lazos con las Fuerzas Armadas venezolanas.\n→ Muestra el pragmatismo geopolítico de Washington para asegurar su influencia en el hemisferio occidental."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-espagnol-3",
+   "matiere": "espagnol",
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/economia/20261119/11687600/ayudas-compra-coches-electricos-agotaran-dias.html",
+   "minutes": 3,
+   "titre": "Espagne : les aides à l'achat de voitures électriques sur le point d'être épuisées avant les élections",
+   "faits": "Les fonds du programme espagnol Auto+, destiné à subventionner l'achat de véhicules électriques ou hybrides rechargeables par les particuliers, seront épuisés d'ici la fin novembre ou début décembre, selon le ministère de l'Industrie. Sur les 350 millions d'euros budgétés, 326,27 millions avaient déjà été demandés au 11 novembre, soit plus de 93 % de l'enveloppe, pour un total de 103 038 dossiers dont 63 % concernent des véhicules 100 % électriques. Le gouvernement n'envisage pas de débloquer de rallonge budgétaire immédiate et renvoie l'extension du dispositif à 2027, avec un éventuel effet rétroactif pour les achats de décembre. Cette promesse reste toutefois entièrement suspendue au résultat des élections générales du 29 novembre et à la formation du futur gouvernement. La fédération des concessionnaires Faconauto s'inquiète d'un « vide » commercial prolongé, estimant que la demande de voitures électriques ne peut pas encore se maintenir sans subvention directe et craignant qu'une coalition impliquant Vox ne remette en cause ces aides.",
+   "enjeux": "L'épuisement rapide du plan Auto+ illustre le dilemme de la **transition écologique** dans l'industrie automobile espagnole, deuxième producteur européen de véhicules. Si le succès des 103 038 demandes montre un décollage réel du marché électrique, la dépendance persistante des ventes aux **subventions publiques** révèle que le différentiel de prix reste trop élevé pour les ménages moyens. L'incertitude liée aux élections du 29-N démontre en outre comment le **risque politique** peut freiner les investissements et les décisions d'achat dans la décarbonation. Pour l'Espagne, la continuité de la politique industrielle verte est d'autant plus stratégique que les usines nationales doivent se convertir rapidement à l'électrique face à la concurrence chinoise et aux normes européennes.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1663579747228-d30eee006200?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Borne de recharge pour véhicule électrique",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/electric-car-charging-station"
+   },
+   "vo": {
+    "titre": "Las ayudas para comprar coches eléctricos en España están a punto de agotarse",
+    "faits": "Los fondos del programa español Auto+, destinado a subvencionar la compra de coches eléctricos e híbridos enchufables para particulares, se agotarán entre finales de noviembre y principios de diciembre, según el Ministerio de Industria. Hasta el 11 de noviembre ya se habían solicitado 326,27 millones de euros de los 350 millones presupuestados —más del 93 % del total—, con 103.038 peticiones registradas, de las cuales un 63 % corresponden a eléctricos puros. El Ejecutivo descarta aprobar una partida extraordinaria inmediata y promete renovar el plan en 2027 con carácter retroactivo, pero esa continuidad depende del resultado de las elecciones del 29-N y de la formación del nuevo Gobierno. La patronal de concesionarios Faconauto advierte de que las ventas quedarán en un limbo, pues la demanda aún no avanza sin ayudas directas y un giro político en La Moncloa podría cancelar el programa.",
+    "enjeux": "El rápido agotamiento del plan Auto+ pone de manifiesto las tensiones de la transición ecológica en un sector clave para la economía española, segundo fabricante europeo de automóviles. Aunque el volumen de solicitudes confirma el despegue del vehículo eléctrico, la fuerte dependencia de las subvenciones públicas demuestra que su precio sigue siendo una barrera para las familias. Además, la incertidumbre electoral del 29-N ilustra cómo la inestabilidad política puede frenar decisiones de consumo e inversión ligadas a la descarbonización. Garantizar un marco estable resulta vital para que las plantas españolas completen su reconversión frente a la competencia asiática."
+   },
+   "vocab": [
+    [
+     "agotarse",
+     "s'épuiser (fonds, stocks)",
+     "Los fondos del programa estatal se agotarán en pocos días."
+    ],
+    [
+     "una partida presupuestaria",
+     "une ligne / enveloppe budgétaire",
+     "El Gobierno descarta aprobar una partida extraordinaria."
+    ],
+    [
+     "un híbrido enchufable",
+     "un véhicule hybride rechargeable",
+     "Las ayudas cubren tanto eléctricos puros como híbridos enchufables."
+    ],
+    [
+     "quedar en un limbo",
+     "rester dans le flou / en suspens",
+     "Las compras de diciembre quedarán en un limbo administrativo."
+    ],
+    [
+     "los concesionarios",
+     "les concessionnaires automobiles",
+     "Los concesionarios temen una caída brusca de las ventas."
+    ],
+    [
+     "con carácter retroactivo",
+     "avec effet rétroactif",
+     "El Ejecutivo propone ampliar el plan con carácter retroactivo."
+    ]
+   ],
+   "sujets": [
+    "¿Puede despegar la transición hacia el coche eléctrico sin subvenciones públicas?",
+    "¿En qué medida la inestabilidad política frena la transición ecológica en España?"
+   ],
+   "anki": [
+    {
+     "q": "Épuisement du programme espagnol Auto+ pour les voitures électriques (novembre 2026)",
+     "r": "Ya se han solicitado C{326,27 M€} de los C{350 M€} (más del C{93 %}) con C{103.038} peticiones (C{63 %} eléctricos puros), dejando diciembre en un limbo ante el 29-N.\n→ Demuestra que la demanda de coches eléctricos sigue dependiendo de las B{subvenciones públicas} y es vulnerable a la incertidumbre política → gancho para un ensayo sobre transición ecológica."
+    },
+    {
+     "q": "Crainte des concessionnaires espagnols (Faconauto) face à la fin des aides Auto+ (2026)",
+     "r": "Advierten que « la demanda ahora no se mueve sola sin una ayuda directa » y temen que un cambio de gobierno con Vox frene las ayudas.\n→ Ilustra el peso de la estabilidad política en la reconversión industrial."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-espagnol-4",
+   "matiere": "espagnol",
+   "source": "Clarín",
+   "url": "https://www.clarin.com/energia-y-mineria/cambio-rigi-enfrenta-industria-proveedores-mineros-petroleros_0_wzY4bcNCJP.html",
+   "minutes": 3,
+   "titre": "Argentine : la réforme du régime d'incitation aux grands investissements (RIGI) divise l'industrie et les PME locales",
+   "faits": "Un décret publié par le gouvernement argentin élargissant la définition de « fournisseur local » dans le cadre du Régime d'incitation aux grands investissements (RIGI) provoque un vif affrontement au sein du secteur productif. Le RIGI impose aux mégaprojets miniers et énergétiques un minimum de 20 % d'achats auprès de fournisseurs locaux : désormais, les contrats attribués à des filiales argentines de groupes étrangers pourront être comptabilisés dans ce quota. La principale organisation patronale, l'Union industrielle argentine (UIA), soutient la mesure, arguant que ces filiales produisent, emploient et paient leurs impôts en Argentine, tout en respectant les règles d'origine du Mercosur. À l'inverse, les fédérations de fournisseurs miniers et pétroliers (dont le GAPP) dénoncent une menace directe pour les PME à capital national, qui risquent d'être évincées des grands chantiers. Cette polémique éclate alors que le mégaprojet de cuivre Vicuña (porté par BHP et Lundin dans la province de San Juan) vient d'attribuer à deux entreprises argentines la construction de trois campements pour 1 350 travailleurs, après avoir été critiqué en juin pour avoir confié une partie d'un chantier à un consortium chinois.",
+   "enjeux": "Ce conflit autour du RIGI cristallise le débat économique majeur de l'Argentine de Javier Milei : comment attirer massivement les **investissements directs étrangers (IDE)** dans les mines et l'énergie sans sacrifier le tissu industriel national ? En assouplissant les critères de contenu local, le gouvernement privilégie la compétitivité et la rapidité d'exécution des grands projets extractifs (cuivre, lithium, hydrocarbures), essentiels pour faire entrer des **devises** dans le pays. Les PME locales redoutent toutefois un modèle purement **extractiviste** où la valeur ajoutée et les contrats stratégiques profiteraient surtout aux multinationales étrangères plutôt qu'au développement des provinces. Ce débat fait écho à une question classique en Amérique latine : la capacité des ressources naturelles à générer un véritable **effet d'entraînement** sur l'économie nationale.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1523848309072-c199db53f137?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Exploitation minière à ciel ouvert avec engins d'extraction",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/mining"
+   },
+   "vo": {
+    "titre": "Un cambio en el RIGI argentino enfrenta a la industria con las pymes mineras y petroleras",
+    "faits": "Un decreto del Gobierno argentino que amplía la definición de 'proveedor local' dentro del Régimen de Incentivo para Grandes Inversiones (RIGI) ha abierto una fuerte disputa en el sector productivo. El RIGI exige a los megaproyectos mineros y energéticos un mínimo del 20 % de compras locales, pero a partir de ahora las contrataciones a filiales argentinas de grupos extranjeros podrán computarse dentro de ese cupo. La Unión Industrial Argentina (UIA) respaldó el cambio al señalar que dichas empresas fabrican y tributan en el país y respetan las reglas de origen del Mercosur. Por el contrario, los proveedores mineros y petroleros —como el GAPP— advierten de que las pymes de capital nacional perderán terreno frente a competidores globales. El debate coincide con la adjudicación, por parte del megaproyecto de cobre Vicuña en San Juan, de tres campamentos para 1.350 trabajadores a dos constructoras argentinas, tras la polémica suscitada en junio por un contrato otorgado a un consorcio chino.",
+    "enjeux": "La reforma del RIGI refleja el dilema central de la política económica argentina: cómo atraer grandes inversiones extranjeras en minería y energía sin debilitar el entramado industrial nacional. Al flexibilizar los requisitos de contenido local, el Ejecutivo busca acelerar la llegada de divisas y reducir costes en proyectos estratégicos de cobre, litio e hidrocarburos. Sin embargo, las pymes locales temen quedar relegadas a un modelo meramente extractivista en el que el valor añadido se concentre en multinacionales extranjeras. La controversia reaviva un desafío histórico en América Latina: lograr que la explotación de recursos naturales impulse un desarrollo productivo federal e inclusivo."
+   },
+   "vocab": [
+    [
+     "un proveedor local",
+     "un fournisseur local",
+     "El decreto amplía la definición de proveedor local en el RIGI."
+    ],
+    [
+     "una filial",
+     "une filiale",
+     "Las filiales de grupos extranjeros también tributan en el país."
+    ],
+    [
+     "una licitación",
+     "un appel d'offres",
+     "Dos empresas argentinas ganaron la licitación en San Juan."
+    ],
+    [
+     "las pymes",
+     "les PME",
+     "Las pymes nacionales temen perder contratos frente a multinacionales."
+    ],
+    [
+     "el extractivismo",
+     "l'extractivisme",
+     "Los críticos denuncian el riesgo de un modelo puramente extractivista."
+    ],
+    [
+     "la llegada de divisas",
+     "l'entrée de devises",
+     "La minería es clave para acelerar la llegada de divisas a Argentina."
+    ]
+   ],
+   "sujets": [
+    "¿Son los grandes proyectos mineros extranjeros una oportunidad o una amenaza para la industria argentina?",
+    "¿Cómo pueden los países latinoamericanos conciliar inversión extranjera y desarrollo de las pymes locales?"
+   ],
+   "anki": [
+    {
+     "q": "Réforme du quota de fournisseurs locaux du RIGI en Argentine (novembre 2026)",
+     "r": "El decreto permite computar a filiales argentinas de grupos extranjeros dentro del mínimo del C{20 %} de compras locales exigido a megaproyectos mineros y petroleros.\n→ Opone atracción de B{inversión extranjera} (defendida por la UIA) y protección de las B{pymes nacionales} frente al riesgo extractivista → gancho para un ensayo sobre desarrollo en América Latina."
+    },
+    {
+     "q": "Exemple du projet de cuivre Vicuña en Argentine (San Juan, 2026)",
+     "r": "El proyecto de BHP y Lundin adjudicó campamentos para C{1.350} trabajadores a dos firmas argentinas, tras críticas en junio por contratar a un consorcio chino.\n→ Ilustra la batalla política y económica por retener valor añadido en las provincias mineras."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-espagnol-p1",
+   "matiere": "espagnol",
+   "perso": true,
+   "demande": "dmwlvrpnt",
+   "source": "El País",
+   "url": "https://elpais.com/america/2026-11-17/las-pandillas-haitianas-vengan-el-apoyo-a-bukele-con-el-asesinato-de-al-menos-10-personas-en-puerto-principe.html",
+   "minutes": 3,
+   "titre": "Haïti : les gangs se vengent du soutien populaire à Nayib Bukele en exécutant au moins dix jeunes à Port-au-Prince",
+   "faits": "En Haïti, des groupes armés ont exécuté de sang-froid au moins dix jeunes dans la plaine du Cul-de-Sac, dans la zone métropolitaine de Port-au-Prince, en représailles au soutien populaire affiché envers le président salvadorien Nayib Bukele. Selon l'agence EFE et des médias locaux, les victimes ont été interceptées dans la rue puis assassinées après que des membres de gangs ont trouvé sur leurs téléphones portables des photos ou des vidéos favorables au dirigeant centraméricain. Ces tueries surviennent alors que des milliers d'Haïtiens ont manifesté le 17 novembre dans la capitale pour soutenir l'intervention militaire salvadorienne, brandissant des pancartes appelant Bukele « le sauveur » et le suppliant de ne pas abandonner le terrain. Nayib Bukele avait déployé un contingent passé de 200 à près de 2 500 soldats, incluant des forces spéciales, après la disparition de quatre militaires salvadoriens le 18 octobre dans la même zone. Ce déploiement est le plus important en Haïti depuis la fin de la mission onusienne Minustah. Selon Romain Le Cour, directeur de l'Observatoire Haïti à Global Initiative (GI-TOC), le nombre réel de civils tués en représailles serait « bien supérieur » à dix.",
+   "enjeux": "Ces représailles sanglantes illustrent à la fois l'effondrement de l'**État haïtien** face à l'emprise territoriale des gangs et l'aura croissante du **modèle sécuritaire « mano dura »** incarné par Nayib Bukele en Amérique latine. Prise en étau entre la terreur des bandes armées et l'impuissance des autorités locales, une partie de la population haïtienne voit dans l'intervention salvadorienne un ultime recours, au prix d'une exposition mortelle aux représailles. Pour Nayib Bukele, l'envoi de près de 2 500 soldats constitue une opération de **diplomatie sécuritaire** qui projette son image d'homme fort au-delà du Salvador. Cet épisode soulève néanmoins de graves interrogations sur l'efficacité et la légitimité d'interventions militaires unilatérales dans un pays ravagé par une crise institutionnelle et humanitaire profonde.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1562428580-33e2cc141402?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Manifestation de rue dans les Caraïbes",
+    "credit": "Jacob Ogando Duran / Unsplash",
+    "source": "https://unsplash.com/s/photos/protest"
+   },
+   "vo": {
+    "titre": "Las pandillas haitianas asesinan al menos a diez jóvenes en represalia por el apoyo a Bukele",
+    "faits": "Al menos diez jóvenes han sido ejecutados a sangre fría por grupos armados en la planicie de Cul-de-Sac, en el área metropolitana de Puerto Príncipe, como venganza por el respaldo ciudadano al presidente salvadoreño, Nayib Bukele. Según medios locales y la agencia EFE, las víctimas fueron interceptadas en la calle y asesinadas tras descubrir los pandilleros fotos o vídeos alusivos al mandatario centroamericano en sus teléfonos móviles. Las represalias coincidieron con multitudinarias manifestaciones el 17 de noviembre en las que miles de haitianos salieron a pedir que continúe la ofensiva militar salvadoreña, llamando a Bukele 'el salvador'. El presidente salvadoreño desplegó inicialmente 200 soldados —hoy cerca de 2.500, incluidas fuerzas especiales— tras la desaparición de cuatro militares de su país el 18 de octubre en esa misma zona, conformando el mayor contingente extranjero desde la salida de la Minustah. El experto Romain Le Cour, de Global Initiative, estima que las víctimas civiles por represalias son en realidad muchas más que diez.",
+    "enjeux": "Esta ola de represalias evidencia tanto el colapso del Estado haitiano frente al control territorial de las pandillas como el atractivo regional del modelo de 'mano dura' impulsado por Nayib Bukele. Atrapada entre la violencia de las bandas y la ausencia de autoridad nacional, parte de la población haitiana deposita sus esperanzas en la intervención extranjera, aunque ello la exponga a castigos brutales. Para Bukele, el envío de casi 2.500 militares refuerza su proyección geopolítica como referente de la seguridad en América Latina. Sin embargo, la escalada plantea serias dudas sobre los límites de una respuesta puramente militar ante una crisis institucional y social tan arraigada."
+   },
+   "vocab": [
+    [
+     "las pandillas",
+     "les gangs / bandes armées",
+     "Las pandillas controlan gran parte de Puerto Príncipe."
+    ],
+    [
+     "las represalias",
+     "les représailles",
+     "Los grupos armados lanzaron brutales represalias contra civiles."
+    ],
+    [
+     "a sangre fría",
+     "de sang-froid",
+     "Varios jóvenes fueron ejecutados a sangre fría en la calle."
+    ],
+    [
+     "el despliegue militar",
+     "le déploiement militaire",
+     "El despliegue militar salvadoreño roza los 2.500 soldados."
+    ],
+    [
+     "la mano dura",
+     "la politique sécuritaire ferme / main de fer",
+     "El modelo de mano dura de Bukele genera debate en toda la región."
+    ],
+    [
+     "el colapso del Estado",
+     "l'effondrement de l'État",
+     "El colapso del Estado impide proteger a la población civil."
+    ]
+   ],
+   "sujets": [
+    "¿Es el modelo de «mano dura» de Nayib Bukele exportable a otros países de América Latina?",
+    "¿Puede una intervención militar extranjera resolver la crisis de seguridad en Haití?"
+   ],
+   "anki": [
+    {
+     "q": "Représailles des gangs haïtiens contre les partisans de Bukele (novembre 2026)",
+     "r": "Al menos C{10} jóvenes ejecutados en Puerto Príncipe tras hallar fotos de B{Nayib Bukele} en sus móviles, mientras cerca de C{2.500} soldados salvadoreños operan en Haití.\n→ Muestra el atractivo desesperado del modelo de B{mano dura} ante el colapso estatal, pero también el riesgo de escalada sobre los civiles → gancho para un ensayo sobre seguridad y democracia en América Latina."
+    },
+    {
+     "q": "Ampleur du contingent salvadorien déployé en Haïti (automne 2026)",
+     "r": "Pasó de C{200} a casi C{2.500} soldados tras el ataque del D{18 de octubre} contra cuatro militares salvadoreños : mayor contingente desde la B{Minustah}.\n→ Ilustra la diplomacia sécuritaire de Bukele y los límites del multilateralismo en Haití."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-allemand-1",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/politik/deutschland/2026-11/ministerpraesidentenwahl-sachsen-anhalt-afd-ulrich-siegmund-cdu-bsw-gxe",
+   "minutes": 3,
+   "titre": "Saxe-Anhalt : l'AfD envisage d'avancer l'élection du ministre-président",
+   "faits": "En Saxe-Anhalt, l'AfD et son chef de file Ulrich Siegmund envisagent d'avancer l'élection du ministre-président au Parlement régional (Landtag). Initialement prévue lors de la séance régulière du 15 décembre, l'élection pourrait finalement se tenir dès le 8 décembre lors d'une session extraordinaire, une décision devant être prise après le week-end. Lors des élections régionales du 6 septembre 2026, l'AfD est arrivée en tête avec 39 sièges sur 83, mais elle n'a pas obtenu la majorité absolue de 42 voix nécessaire aux deux premiers tours. Si Ulrich Siegmund était élu, il deviendrait le premier ministre-président issu de l'AfD dans un Land allemand. Pour empêcher tout soupçon de vote caché en sa faveur, le groupe CDU a annoncé qu'il quitterait l'hémicycle au moment du scrutin, tandis que le BSW prévoit de s'abstenir. De son côté, Die Linke a présenté sa cheffe de groupe, Eva von Angern, comme candidate rivale.",
+   "enjeux": "Cette séquence politique place le **fédéralisme allemand** devant un test historique autour du « pare-feu » (**Brandmauer**) censé empêcher l'extrême droite d'accéder au pouvoir exécutif. Même sans majorité absolue, l'AfD cherche à profiter de la fragmentation du Parlement régional et de l'abstention d'autres groupes pour forcer une décision rapide. Le choix de la CDU de quitter la salle témoigne du traumatisme laissé par la crise de Thuringe en 2020, lorsqu'une élection avec les voix de l'AfD avait déclenché un séisme politique national. Si Ulrich Siegmund accédait à la tête du gouvernement régional de Magdebourg, l'AfD disposerait non seulement d'un pouvoir exécutif local (police, écoles, budget), mais aussi de voix au **Bundesrat**, la chambre représentant les Länder au niveau fédéral.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1569404291956-bfbf99ad83c7?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Bâtiment parlementaire allemand symbolisant les institutions fédérales",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/bundestag"
+   },
+   "vo": {
+    "titre": "Sachsen-Anhalt: AfD will Wahl wohl vorziehen",
+    "faits": "In Sachsen-Anhalt plant die AfD einen neuen Termin für die Ministerpräsidentenwahl. Die Wahl war bisher für den 15. Dezember geplant. Jetzt schlägt die AfD eine Sondersitzung am 8. Dezember vor. Spitzenkandidat Ulrich Siegmund will schnell Klarheit schaffen. Bei der Landtagswahl im September gewann die AfD 39 von 83 Sitzen. Für eine Mehrheit braucht Siegmund aber 42 Stimmen. Die CDU will bei der Wahl den Saal verlassen. Das BSW will sich enthalten, und die Linke stellt eine eigene Kandidatin auf.",
+    "enjeux": "Diese Wahl ist ein historischer Test für die Demokratie in Deutschland. Wenn Siegmund gewinnt, bekommt die AfD erstmals einen Ministerpräsidenten. Die anderen Parteien wollen nicht mit der AfD zusammenarbeiten. Das nennt man in Deutschland die Brandmauer. Die CDU will verhindern, dass jemand geheim für die AfD stimmt. Ein AfD-Regierungschef hätte viel Macht im Bundesland und auch im Bundesrat."
+   },
+   "vocab": [
+    [
+     "der Landtag",
+     "le Parlement régional (d'un Land)",
+     "Der Landtag in Magdeburg hat 83 Sitze."
+    ],
+    [
+     "die Sondersitzung",
+     "la session extraordinaire",
+     "Die Partei fordert eine Sondersitzung im Dezember."
+    ],
+    [
+     "die Brandmauer",
+     "le pare-feu / cordon sanitaire",
+     "Die Parteien streiten über die Brandmauer zur AfD."
+    ],
+    [
+     "sich enthalten",
+     "s'abstenir (lors d'un vote)",
+     "Das BSW will sich bei der Wahl enthalten."
+    ],
+    [
+     "vorziehen",
+     "avancer (une date)",
+     "Die AfD will den Termin der Wahl vorziehen."
+    ],
+    [
+     "die Mehrheit",
+     "la majorité",
+     "Die Partei hat keine absolute Mehrheit im Parlament."
+    ]
+   ],
+   "sujets": [
+    "Hält die Brandmauer gegen die AfD noch?",
+    "Wie verändert ein AfD-Wahlsieg die deutsche Politik?"
+   ]
+  },
+  {
+   "id": "2026-11-19-allemand-2",
+   "matiere": "allemand",
+   "source": "Süddeutsche Zeitung",
+   "url": "https://www.sueddeutsche.de/wirtschaft/streiks-24-stunden-ig-metall-bosch-audi-bmw-li.3582375",
+   "minutes": 3,
+   "titre": "Allemagne : IG Metall lance des grèves de 24 heures chez Audi, BMW et dans l'industrie métallurgique",
+   "faits": "Le conflit salarial dans l'industrie métallurgique et électrique allemande franchit un nouveau palier : pour la première fois depuis huit ans, le puissant syndicat IG Metall a appelé à des grèves d'avertissement de 24 heures. Ces débrayages concernent de grands sites industriels, notamment les usines BMW en Bavière (Munich-Milbertshofen, Dingolfing, Landshut), l'usine Audi d'Ingolstadt ainsi que des équipementiers comme Bosch et ZF. Ils s'inscrivent dans la négociation collective (Tarifrunde) portant sur 3,7 millions de salariés, après plusieurs semaines de grèves plus courtes ayant déjà mobilisé près d'un demi-million de travailleurs. IG Metall réclame une hausse salariale de 5 % sur douze mois ainsi que des garanties d'investissement et d'emploi sur les sites allemands. Le patronat n'a proposé jusqu'ici qu'une hausse de 1,3 % différée et demande davantage de flexibilité sur le temps de travail et les primes. Cette grève de 24 heures constitue l'avant-dernière étape avant un éventuel référendum syndical pour une grève illimitée.",
+   "enjeux": "Cette escalade sociale met sous pression le modèle allemand de **partenariat social** (*Sozialpartnerschaft*) et d'**autonomie tarifaire** (*Tarifautonomie*), traditionnellement fondé sur la recherche du compromis. L'industrie automobile allemande, pilier économique du pays, traverse une crise structurelle marquée par la transition vers l'électrique, les coûts énergétiques élevés et la concurrence chinoise. Les employeurs invoquent la perte de compétitivité pour limiter les hausses de salaires, tandis que les syndicats défendent le pouvoir d'achat et refusent que les salariés paient seuls la restructuration industrielle. Le dénouement de cette *Tarifrunde* servira de baromètre pour l'ensemble des négociations salariales et la paix sociale en Allemagne.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1639246473723-5d6946d45878?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Chaîne d'assemblage dans une usine automobile",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/car-factory"
+   },
+   "vo": {
+    "titre": "IG Metall ruft zu 24-Stunden-Streiks auf",
+    "faits": "Die Gewerkschaft IG Metall verschärft den Streit um höhere Löhne. Zum ersten Mal seit acht Jahren gibt es 24-Stunden-Streiks. Betroffen sind große Werke von BMW, Audi, Bosch und ZF. Die Verhandlungen gelten für 3,7 Millionen Menschen in der Metallindustrie. IG Metall fordert fünf Prozent mehr Lohn für zwölf Monate. Die Gewerkschaft will auch sichere Arbeitsplätze in Deutschland. Die Arbeitgeber bieten aber nur 1,3 Prozent mehr Geld an. Sie fordern zudem mehr Flexibilität bei der Arbeitszeit.",
+    "enjeux": "Der Konflikt zeigt die schwere Lage der deutschen Industrie. Vor allem die Autobranche steht unter großem Druck. Hohe Energiepreise und starke Konkurrenz aus China belasten die Firmen. Normalerweise suchen Arbeitgeber und Gewerkschaften in Deutschland schnell einen Kompromiss. Das nennt man Sozialpartnerschaft. Wenn die Gespräche scheitern, droht ein noch längerer Streik."
+   },
+   "vocab": [
+    [
+     "die Gewerkschaft",
+     "le syndicat",
+     "Die Gewerkschaft organisiert große Streiks in Bayern."
+    ],
+    [
+     "der Warnstreik",
+     "la grève d'avertissement",
+     "Viele Arbeiter nehmen am Warnstreik teil."
+    ],
+    [
+     "die Tarifrunde",
+     "la négociation salariale collective",
+     "Die Tarifrunde betrifft Millionen Beschäftigte."
+    ],
+    [
+     "die Sozialpartnerschaft",
+     "le partenariat social",
+     "Die Sozialpartnerschaft ist wichtig für die deutsche Wirtschaft."
+    ],
+    [
+     "der Arbeitgeber",
+     "l'employeur / le patronat",
+     "Die Arbeitgeber lehnen die hohen Forderungen ab."
+    ],
+    [
+     "der Arbeitsplatz",
+     "l'emploi / le poste de travail",
+     "Die Gewerkschaft kämpft für sichere Arbeitsplätze."
+    ]
+   ],
+   "sujets": [
+    "Ist die deutsche Sozialpartnerschaft noch zeitgemäß?",
+    "Kann sich die deutsche Autoindustrie höhere Löhne leisten?"
+   ]
+  },
+  {
+   "id": "2026-11-19-allemand-3",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-telekom-steigt-bei-europas-ki-hoffnung-mistral-ein-a-d3e7a956-a3eb-4eec-8f7e-0366020961bc",
+   "minutes": 3,
+   "titre": "Intelligence artificielle : Deutsche Telekom investit 100 millions d'euros dans la start-up française Mistral",
+   "faits": "Le géant allemand des télécommunications Deutsche Telekom, basé à Bonn, a annoncé un investissement de 100 millions d'euros dans la start-up française d'intelligence artificielle Mistral AI. Cette prise de participation, réalisée via son fonds T.Capital Tech Fund dans le cadre de la levée de fonds de série D de Mistral, pose les bases d'un partenariat stratégique de long terme. L'objectif est de fournir aux entreprises industrielles et aux administrations allemandes et européennes des solutions d'IA souveraines et sécurisées. Deutsche Telekom apportera son infrastructure informatique — notamment son « usine à IA » de Munich — ainsi que son réseau commercial, tandis que Mistral fournira ses modèles d'intelligence artificielle avancés et ses logiciels d'entreprise. Les deux groupes insistent sur la nécessité de permettre aux acteurs européens d'utiliser l'IA tout en gardant le contrôle total de leurs données. Cette annonce intervient le jour même de l'introduction en Bourse record du géant américain Anthropic.",
+   "enjeux": "Cette alliance franco-allemande illustre la quête de **souveraineté numérique** de l'Europe face à la domination écrasante des géants américains (OpenAI, Anthropic, Google) et chinois. Pour l'industrie allemande, très sensible à la protection de ses secrets industriels et au respect du règlement européen sur les données, disposer d'une alternative européenne crédible est devenu un enjeu de survie économique. Néanmoins, l'écart d'échelle financière reste vertigineux : les 100 millions d'euros investis par Deutsche Telekom paraissent modestes face aux dizaines de milliards levés à Wall Street par les acteurs américains. Ce partenariat montre que la **coopération franco-allemande** tente de combiner le savoir-faire logiciel français et la puissance industrielle et d'infrastructure allemande.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bonn_DTAG2.jpg",
+    "alt": "Siège social de Deutsche Telekom à Bonn, Allemagne",
+    "credit": "Qualle / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bonn_DTAG2.jpg"
+   },
+   "vo": {
+    "titre": "Deutsche Telekom investiert 100 Millionen Euro in Mistral",
+    "faits": "Die Deutsche Telekom beteiligt sich an der französischen KI-Firma Mistral. Der Konzern aus Bonn investiert 100 Millionen Euro. Beide Unternehmen planen eine enge Partnerschaft für Europa. Sie wollen deutsche Firmen und Behörden mit sicherer KI versorgen. Die Telekom bringt ihre Rechenzentren in München und viele Kunden ein. Mistral liefert dafür moderne KI-Modelle und Software. Die Daten der europäischen Kunden sollen in Europa bleiben.",
+    "enjeux": "Europa will bei Künstlicher Intelligenz unabhängiger von den USA werden. Große US-Firmen wie OpenAI und Anthropic haben aber viel mehr Geld. Die Summe von 100 Millionen Euro ist im Vergleich dazu klein. Trotzdem ist das Bündnis ein wichtiges Signal für Deutschland und Frankreich. Deutsche Firmen brauchen moderne KI, wollen aber ihre Daten schützen. Digitale Souveränität wird für die europäische Wirtschaft immer wichtiger."
+   },
+   "vocab": [
+    [
+     "sich beteiligen an",
+     "prendre une participation dans",
+     "Die Telekom beteiligt sich an dem französischen Start-up."
+    ],
+    [
+     "die Partnerschaft",
+     "le partenariat",
+     "Beide Firmen schließen eine strategische Partnerschaft."
+    ],
+    [
+     "das Rechenzentrum",
+     "le centre de données",
+     "Die Telekom betreibt ein neues Rechenzentrum in München."
+    ],
+    [
+     "die Behörde",
+     "l'administration / les pouvoirs publics",
+     "Auch deutsche Behörden sollen die neue KI nutzen."
+    ],
+    [
+     "der Datenschutz",
+     "la protection des données",
+     "Datenschutz spielt für europäische Firmen eine große Rolle."
+    ],
+    [
+     "unabhängig",
+     "indépendant",
+     "Europa möchte bei der Technik unabhängiger werden."
+    ]
+   ],
+   "sujets": [
+    "Kann Europa bei Künstlicher Intelligenz mit den USA mithalten?",
+    "Wie wichtig ist die deutsch-französische Zusammenarbeit in der Wirtschaft?"
+   ]
+  },
+  {
+   "id": "2026-11-19-allemand-4",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/pistorius-reise-polen-100.html",
+   "minutes": 3,
+   "titre": "Défense : Boris Pistorius en Pologne pour renforcer la coopération militaire face à la Russie",
+   "faits": "Le ministre allemand de la Défense, Boris Pistorius, effectue une visite de deux jours en Pologne, marquée notamment par un recueillement au mémorial d'Auschwitz. Près de six mois après la signature de l'accord de défense germano-polonais, Berlin et Varsovie veulent afficher la solidité de leur partenariat sécuritaire sur le flanc est de l'OTAN. Les deux armées multiplient les coopérations concrètes : cet été, des sapeurs de la Bundeswehr ont aidé l'armée polonaise à fortifier sa frontière nord, tandis que les deux pays collaborent dans la défense antiaérienne, la lutte antidrones et au sein du corps multinational de Szczecin. Ce mois-ci, l'exercice de l'OTAN « Grand Eagle 26 » prévoit même le transit de troupes allemandes à travers la Pologne par rail et par route jusqu'en Lituanie. Ensemble, l'Allemagne et la Pologne représentent près de 40 % des dépenses de défense de l'Union européenne. Boris Pistorius a souligné que l'Allemagne et la Pologne étaient désormais « deux partenaires forts, côte à côte et sur un pied d'égalité », même si le chercheur Kai-Olaf Lang note qu'une certaine méfiance persiste dans les milieux nationaux-conservateurs polonais.",
+   "enjeux": "Cette visite illustre l'ampleur de la **Zeitenwende** (tournant historique) de la politique de défense allemande depuis l'invasion russe de l'Ukraine en 2022. Longtemps réticente à assumer un rôle militaire majeur en Europe centrale en raison de son passé nazi, l'Allemagne s'impose aujourd'hui comme un pilier logistique et financier de la **dissuasion de l'OTAN**. Le transit de soldats allemands sur le sol polonais, impensable pendant des décennies, symbolise la normalisation progressive des relations bilatérales face à la menace russe. Toutefois, la persistance de méfiances historiques montre que la construction d'une véritable **défense européenne** exige autant de diplomatie mémorielle que de budgets militaires.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1630161861535-b39e5635da68?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Char militaire lors d'un exercice sur le terrain",
+    "credit": "Kevin Schmid / Unsplash",
+    "source": "https://unsplash.com/s/photos/military-tank"
+   },
+   "vo": {
+    "titre": "Pistorius wirbt in Polen für starke Verteidigung",
+    "faits": "Verteidigungsminister Boris Pistorius besucht zwei Tage lang Polen. Er will dort auch die Gedenkstätte Auschwitz besuchen. Vor einem halben Jahr schlossen beide Länder ein Verteidigungsabkommen. Seitdem arbeiten die Bundeswehr und die polnische Armee eng zusammen. Im Sommer halfen deutsche Soldaten beim Schutz der polnischen Grenze. In diesem Monat fahren deutsche Truppen durch Polen nach Litauen. Zusammen tragen beide Länder fast 40 Prozent der EU-Verteidigungsausgaben.",
+    "enjeux": "Die Beziehung zwischen Deutschland und Polen war historisch oft schwierig. Heute sind beide Länder wichtige Partner in der NATO. Sie wollen die Ostflanke gegen Russland gemeinsam schützen. Pistorius spricht von einer Partnerschaft auf Augenhöhe. Experten sehen in Teilen Polens aber noch etwas Misstrauen gegen Deutschland. Deshalb verbindet der Minister militärische Zusammenarbeit mit historischer Erinnerung."
+   },
+   "vocab": [
+    [
+     "die Verteidigung",
+     "la défense",
+     "Deutschland und Polen stärken ihre gemeinsame Verteidigung."
+    ],
+    [
+     "das Abkommen",
+     "l'accord / le traité",
+     "Beide Länder haben ein neues Abkommen unterzeichnet."
+    ],
+    [
+     "die Gedenkstätte",
+     "le mémorial",
+     "Der Minister besucht die Gedenkstätte in Auschwitz."
+    ],
+    [
+     "die Ostflanke",
+     "le flanc est (de l'OTAN)",
+     "Die NATO will ihre Ostflanke besser schützen."
+    ],
+    [
+     "das Misstrauen",
+     "la méfiance",
+     "In der Politik gibt es noch etwas Misstrauen."
+    ],
+    [
+     "auf Augenhöhe",
+     "d'égal à égal / sur un pied d'égalité",
+     "Polen und Deutschland arbeiten heute auf Augenhöhe."
+    ]
+   ],
+   "sujets": [
+    "Wie wichtig ist Polen für die deutsche Sicherheitspolitik?",
+    "Kann Europa seine Verteidigung ohne die USA sichern?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "Mode : la taxe sur les petits colis n'a pas fait dérailler l'ultra-fast fashion chinoise",
+   "url": "https://www.lesechos.fr/industrie-services/mode-luxe/mode-la-taxe-sur-les-petits-colis-na-pas-fait-derailler-lultra-fast-fashion-chinoise-2263499",
+   "pourquoi": "Utile pour évaluer les limites du **protectionnisme tarifaire** face aux contournements logistiques des plateformes chinoises comme Shein et Temu."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Automobile : le marché de l'occasion, l'autre victime des marques chinoises",
+   "url": "https://www.lesechos.fr/idees-debats/editos-analyses/automobile-le-marche-de-loccasion-lautre-victime-des-marques-chinoises-2263425",
+   "pourquoi": "Un décryptage précieux sur l'onde de choc de la **concurrence chinoise** sur toute la chaîne de valeur automobile européenne, jusqu'aux valeurs résiduelles."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Trajet domicile-école : les élèves ruraux pénalisés",
+   "url": "https://www.lesechos.fr/politique-societe/education/trajet-domicile-ecole-les-eleves-ruraux-penalises-2263355",
+   "pourquoi": "Apporte des éléments concrets sur les **inégalités scolaires territoriales** et le poids de la géographie dans l'orientation, à mobiliser en sociologie."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« L’impopularité des droits de douane imposés par Donald Trump révèle les limites de sa politique économique, fondée sur une illusion »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/19/l-impopularite-des-droits-de-douane-revele-les-limites-de-la-politique-economique-de-donald-trump-fondee-sur-une-illusion_6813256_3232.html",
+   "pourquoi": "Une analyse claire des coûts inflationnistes et politiques du **protectionnisme américain** pour les consommateurs et la croissance."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "L’extension des aéroports de Roissy-Charles-de-Gaulle et d’Orly validée, sous réserve, par le régulateur des transports",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/19/l-extension-des-aeroports-de-roissy-charles-de-gaulle-et-d-orly-validee-sous-reserve-par-le-regulateur-des-transports_6813252_3234.html",
+   "pourquoi": "Illustre concrètement la tension entre **attractivité des infrastructures** et **sobriété carbone** dans la régulation des transports."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Régularisation des sans-papiers : « Nous ne pouvons pas bénéficier de leur travail et leur refuser la stabilité administrative qui leur permettrait de vivre dignement »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/19/regularisation-des-sans-papiers-nous-ne-pouvons-pas-beneficier-de-leur-travail-et-leur-refuser-la-stabilite-administrative-qui-leur-permettrait-de-vivre-dignement_6813248_3232.html",
+   "pourquoi": "Nourrit la réflexion sur le rôle économique de l'**immigration de travail** dans les métiers en tension et la segmentation du marché du travail."
+  }
+ ]
+}

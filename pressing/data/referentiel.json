@@ -5895,6 +5895,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": "double-dividende-gollier",
+      "nom": "Double dividende et acceptabilité de la transition écologique",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "2019",
+      "auteur": "Christian Gollier",
+      "accroche": "Une transition écologique sans compensation sociale est politiquement vouée à l'échec : la tarification du carbone doit redistribuer ses recettes pour concilier fin du monde et fin du mois.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Christian Gollier**, *Le Climat après la fin du mois* (2019), publié au lendemain du mouvement des Gilets jaunes en France.",
+            "En économie de l'environnement, la **taxe carbone** (héritée d'**Arthur Cecil Pigou**, 1920) est l'outil le plus efficace pour réduire les émissions en donnant un prix au carbone. Mais son impact régressif sur les ménages modestes, très dépendants de leur voiture et des énergies fossiles, provoque de vives résistances sociales."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'État instaure un **prix du carbone** (taxe ou marché de quotas) qui reflète le coût social des émissions et renchérit les énergies fossiles.",
+            "Les entreprises et les ménages sont incités à substituer des technologies bas-carbone aux énergies polluantes : c'est le **premier dividende** (environnemental).",
+            "Les recettes fiscales générées sont immédiatement redistribuées sous forme de **chèque vert** aux ménages modestes ou de baisse des prélèvements sur le travail : c'est le **second dividende** (social et économique).",
+            "En rendant la réforme juste et lisible, la redistribution assure l'**acceptabilité politique** de la transition sur le long terme."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "L'idée d'une « transition heureuse » sans coût à court terme est une **utopie** : la décarbonation implique des arbitrages réels sur le pouvoir d'achat et les modes de vie. Pour réussir, la politique climatique ne peut pas se résumer à une contrainte fiscale ; elle doit articuler **signal-prix** et **justice redistributive** afin d'éviter que l'écologie ne soit perçue comme un impôt punitif."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Fonds social pour le climat (UE)",
+              "d": "L'Union européenne accompagne l'extension du **marché carbone** (ETS 2) au bâtiment et aux transports routiers d'un fonds destiné aux ménages vulnérables."
+            },
+            {
+              "t": "Taux d'actualisation écologique",
+              "d": "Gollier défend un **taux d'actualisation** faible pour les investissements verts, afin de donner un poids suffisant au bien-être des générations futures."
+            },
+            {
+              "t": "Effet de cliquet énergétique",
+              "d": "Les chocs géopolitiques (comme les crises au Moyen-Orient) jouent un rôle brutal de signal-prix, accélérant la convergence entre **sécurité énergétique** et **décarbonation**."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La redistribution des recettes ne suffit pas toujours si les ménages ruraux ou modestes ne disposent d'**aucune alternative concrète** (transports en commun, isolation accessible, véhicules électriques abordables). De plus, un choc exogène sur les prix de l'énergie (comme une hausse du pétrole) ne rapporte pas de recettes fiscales à redistribuer, contrairement à une taxe planifiée."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Crises énergétiques et géopolitique",
+              "d": "Montrer comment la hausse des prix des hydrocarbures (crise du détroit d'Ormuz, guerre en Ukraine) pousse vers les renouvelables mais menace le pouvoir d'achat."
+            },
+            {
+              "t": "Mouvement des Gilets jaunes (2018)",
+              "d": "Exemple emblématique d'une hausse de taxe carbone sans compensation lisible, ayant bloqué la fiscalité écologique française."
+            },
+            {
+              "t": "Extension du marché carbone européen",
+              "d": "Analyser les débats sur l'acceptabilité sociale de l'ETS 2 pour le chauffage et les carburants."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Arthur Cecil Pigou (1920)",
+              "idee": "le signal-prix est le moyen le plus efficace d'internaliser les externalités négatives"
+            },
+            {
+              "sens": "=",
+              "nom": "Nicholas Stern (2006)",
+              "idee": "le coût de l'inaction climatique est très supérieur au coût d'une action précoce"
+            },
+            {
+              "sens": "≠",
+              "nom": "William Stanley Jevons (1865)",
+              "idee": "les gains d'efficacité énergétique peuvent stimuler la demande via l'effet rebond"
+            },
+            {
+              "sens": "≠",
+              "nom": "Éloi Laurent",
+              "idee": "insiste davantage sur la planification publique et les indicateurs de bien-être que sur le seul prix du carbone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rationnement-du-credit-stiglitz-weiss",
+      "nom": "Rationnement du crédit en information imparfaite",
+      "categorie": "monnaie",
+      "type": "Modèle",
+      "annee": "1981",
+      "auteur": "Joseph Stiglitz et Andrew Weiss",
+      "accroche": "Face à l'incertitude sur la solvabilité des emprunteurs, les banques préfèrent limiter le volume de prêts plutôt que d'augmenter les taux d'intérêt, au risque d'exclure des agents solvables.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Joseph Stiglitz** et **Andrew Weiss**, *« Credit Rationing in Markets with Imperfect Information »* (*American Economic Review*, 1981).",
+            "Dans la théorie néoclassique standard, un excès de demande sur le marché du crédit se résorbe automatiquement par une hausse du **taux d'intérêt**. Stiglitz et Weiss montrent que ce mécanisme échoue dès lors que les banques connaissent moins bien le risque des projets que les emprunteurs eux-mêmes (**asymétrie d'information**)."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Une banque ne peut pas distinguer parfaitement les emprunteurs prudents des emprunteurs risqués.",
+            "Si elle relève son **taux d'intérêt**, les emprunteurs les plus sûrs renoncent à emprunter, tandis que les plus risqués restent candidats : c'est l'**antisélection**.",
+            "Des taux élevés incitent aussi les emprunteurs déjà financés à choisir des projets plus spéculatifs pour pouvoir rembourser : c'est l'**aléa moral**.",
+            "Au-delà d'un certain taux optimal, le rendement espéré de la banque diminue ; elle choisit donc de **rationner le crédit** (refuser certains prêts) plutôt que de monter davantage ses taux."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le marché du crédit n'est pas un marché walrassien qui s'équilibre spontanément par les prix : il existe un **rationnement d'équilibre** durable. Ce modèle permet d'expliquer pourquoi les PME, les jeunes entreprises ou les ménages modestes peinent à accéder au financement bancaire, et pourquoi un durcissement réglementaire ou monétaire peut provoquer un **resserrement du crédit** (*credit crunch*) pénalisant l'activité."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Canal du crédit (Bernanke et Gertler)",
+              "d": "L'**accélérateur financier** amplifie les cycles : quand la valeur des garanties baisse en récession, les banques rationnent encore plus le crédit."
+            },
+            {
+              "t": "Régulation prudentielle et scoring",
+              "d": "Les banques réduisent l'asymétrie d'information par l'analyse obligatoire de **solvabilité**, les fichiers d'incidents et les garanties (*collatéral*)."
+            },
+            {
+              "t": "Exclusion bancaire",
+              "d": "Un contrôle accru du risque protège contre le surendettement mais peut écarter les ménages précaires du crédit formel."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle suppose que les banques manquent d'information, alors que la numérisation bancaire (analyse en temps réel des flux de compte, *open banking*) réduit aujourd'hui une partie de cette opacité. Par ailleurs, la régulation publique du crédit ne vise pas seulement à corriger une défaillance de marché : elle répond aussi à un objectif social de lutte contre le **surendettement**."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Encadrement des découverts bancaires (2026)",
+              "d": "Montrer le dilemme entre protection des ménages contre le surendettement et risque d'exclusion du crédit de trésorerie pour les foyers fragiles."
+            },
+            {
+              "t": "Financement des PME et start-up",
+              "d": "Expliquer pourquoi les entreprises innovantes manquant de garanties peinent à obtenir des prêts bancaires et recourent au capital-risque."
+            },
+            {
+              "t": "Resserrrement monétaire (2022-2024)",
+              "d": "Analyser comment la hausse des taux directeurs s'accompagne d'un durcissement des critères d'octroi des crédits immobiliers."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "George Akerlof (1970)",
+              "idee": "l'asymétrie d'information provoque une sélection adverse qui dégrade le marché"
+            },
+            {
+              "sens": "=",
+              "nom": "Kenneth Arrow (1963)",
+              "idee": "l'aléa moral modifie le comportement de l'agent une fois le contrat signé"
+            },
+            {
+              "sens": "≠",
+              "nom": "Léon Walras (1874)",
+              "idee": "en concurrence pure et parfaite, l'ajustement des prix garantit l'équilibre sans rationnement"
+            },
+            {
+              "sens": "=",
+              "nom": "Ben Bernanke (1983)",
+              "idee": "la contraction du crédit bancaire amplifie fortement les crises macroéconomiques"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
