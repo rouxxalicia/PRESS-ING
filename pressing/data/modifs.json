@@ -6,6 +6,7 @@
    "maj": 1794992218538
   }
  },
+ "notesPub": false,
  "caches": {},
  "edits": {
   "txt|cg/auteurs|17m17uk": "Les penseurs du thème \"L'humanité\"",
@@ -131,6 +132,17 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Factory_Automation_Robotics_Palettizing_Bread.jpg",
     "alt": "Bras robotisés industriels KUKA dans une usine en Allemagne"
    }
+  },
+  "2026-11-19-allemand-3": {
+   "titre": "Intelligence artificielle : Deutsche Telekom investit 100 millions d'euros dans la start-up française Mistral",
+   "matiere": "allemand",
+   "dossiers": [
+    "IA"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bonn_DTAG2.jpg",
+    "alt": "Siège social de Deutsche Telekom à Bonn, Allemagne"
+   }
   }
  },
  "dossiers": [
@@ -144,7 +156,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1794990916763,
+ "favsMaj": 1795087489474,
  "demandes": [
   {
    "id": "dmwlvrpnt",
