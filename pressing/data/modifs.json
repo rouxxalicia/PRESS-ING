@@ -154,6 +154,17 @@
     "url": "https://images.unsplash.com/photo-1562428580-33e2cc141402?auto=format&fit=crop&w=1280&q=80",
     "alt": "Manifestation de rue dans les Caraïbes"
    }
+  },
+  "2026-11-13-anglais-2": {
+   "titre": "Royaume-Uni : l'IA supprime les emplois de débutants dans la finance à Bournemouth",
+   "matiere": "anglais",
+   "dossiers": [
+    "IA"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg/1280px-Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg",
+    "alt": "Tours du quartier financier de Canary Wharf à Londres"
+   }
   }
  },
  "dossiers": [
@@ -167,7 +178,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1795088552247,
+ "favsMaj": 1795107534469,
  "demandes": [
   {
    "id": "dmwlvrpnt",
