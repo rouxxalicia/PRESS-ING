@@ -165,6 +165,18 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg/1280px-Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg",
     "alt": "Tours du quartier financier de Canary Wharf à Londres"
    }
+  },
+  "2026-11-13-anglais-1": {
+   "titre": "Royaume-Uni : Andy Burnham promet un accord « gagnant-gagnant » avec l'Union européenne",
+   "matiere": "anglais",
+   "dossiers": [
+    "UK",
+    "UK/Brexit"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg/1280px-Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg",
+    "alt": "Le palais de Westminster à Londres vu depuis la Tamise"
+   }
   }
  },
  "dossiers": [
@@ -178,7 +190,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1795107534469,
+ "favsMaj": 1795107607766,
  "demandes": [
   {
    "id": "dmwlvrpnt",
