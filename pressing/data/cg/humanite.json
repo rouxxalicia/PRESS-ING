@@ -33,7 +33,56 @@
    "desc": "Les grands sujets du thème."
   }
  ],
- "enjeux": [],
+ "enjeux": [
+  {
+   "id": "t1",
+   "code": "T1",
+   "nom": "Définir l'homme",
+   "question": "Peut-on définir l'homme par une essence ?"
+  },
+  {
+   "id": "t2",
+   "code": "T2",
+   "nom": "Homme et animal",
+   "question": "Différence de degré ou de nature ?"
+  },
+  {
+   "id": "t3",
+   "code": "T3",
+   "nom": "L'homme et la nature",
+   "question": "Hors de la nature ou dedans ?"
+  },
+  {
+   "id": "t4",
+   "code": "T4",
+   "nom": "Devenir humain",
+   "question": "Naît-on homme ou le devient-on ?"
+  },
+  {
+   "id": "t5",
+   "code": "T5",
+   "nom": "Un seul genre humain ?",
+   "question": "Unité, diversité, exclusions"
+  },
+  {
+   "id": "t6",
+   "code": "T6",
+   "nom": "Humanité et inhumanité",
+   "question": "Faire preuve d'humanité, et ce que révèle l'inhumain"
+  },
+  {
+   "id": "t7",
+   "code": "T7",
+   "nom": "Humanité et technique",
+   "question": "La technique fait-elle ou défait-elle l'homme ?"
+  },
+  {
+   "id": "t8",
+   "code": "T8",
+   "nom": "L'avenir de l'humanité",
+   "question": "Survivre, transmettre, répondre de ceux qui viennent"
+  }
+ ],
  "refs": [],
  "fiches": {}
 }
