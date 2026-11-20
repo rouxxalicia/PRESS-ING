@@ -210,6 +210,17 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Shanghai-Yangshan-Port-Containers2013-01.JPG/1280px-Shanghai-Yangshan-Port-Containers2013-01.JPG",
     "alt": "Alignement de conteneurs maritimes et grues portuaires au terminal de Yangshan à Shanghai"
    }
+  },
+  "2026-11-20-espagnol-2": {
+   "titre": "Brésil : le contact inhabituel d'un groupe d'indigènes isolés awá alerte sur la pression des bûcherons en Amazonie",
+   "matiere": "espagnol",
+   "dossiers": [
+    "Amérique Latine"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Aerial_view_of_the_Amazon_Rainforest.jpg",
+    "alt": "Vue aérienne de la forêt amazonienne et d'un fleuve au Brésil"
+   }
   }
  },
  "dossiers": [
@@ -223,7 +234,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1795163997535,
+ "favsMaj": 1795164597354,
  "demandes": [
   {
    "id": "dmwlvrpnt",
