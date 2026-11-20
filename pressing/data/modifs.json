@@ -199,6 +199,15 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
     "alt": "Salle de serveurs informatiques dans un centre de données"
    }
+  },
+  "2026-11-12-esh-4": {
+   "titre": "Vingt-cinq ans après son accession à l'OMC, la Chine affiche un excédent commercial record qui déstabilise le commerce mondial",
+   "matiere": "esh",
+   "dossiers": [],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Shanghai-Yangshan-Port-Containers2013-01.JPG/1280px-Shanghai-Yangshan-Port-Containers2013-01.JPG",
+    "alt": "Alignement de conteneurs maritimes et grues portuaires au terminal de Yangshan à Shanghai"
+   }
   }
  },
  "dossiers": [
@@ -212,7 +221,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1795162074016,
+ "favsMaj": 1795163993821,
  "demandes": [
   {
    "id": "dmwlvrpnt",
