@@ -76,72 +76,71 @@
    "id": "2026-11-20-esh-2",
    "matiere": "esh",
    "source": "Le Monde",
-   "url": "https://www.lemonde.fr/economie/article/2026/11/20/comment-la-france-a-echoue-a-enrayer-sa-desindustrialisation-plus-de-3-000-usines-ont-ferme-depuis-2009_6813580_3234.html",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/20/vaisselle-poubelles-draps-les-nouvelles-regles-d-airbnb-suscitent-la-colere-des-petits-proprietaires_6813590_3234.html",
    "minutes": 3,
-   "titre": "Désindustrialisation : plus de 3 000 usines ont fermé en France depuis 2009 malgré les plans de relance",
-   "faits": "Dans une enquête publiée le 20 novembre 2026, Le Monde dresse un bilan sévère de la trajectoire productive française en soulignant que plus de 3 000 usines ont fermé sur le territoire national depuis 2009. Ce recensement, qui s'appuie sur le suivi des fermetures et ouvertures de sites industriels mené depuis la fin des années 2000 par l'observatoire Trendeo et corrélé aux séries de l'Insee, montre que le recul industriel n'a jamais été durablement inversé. L'hémorragie touche des filières très variées, de l'automobile à la métallurgie en passant par l'agroalimentaire, malgré la succession de plans publics de réindustrialisation. Si la France a connu au début des années 2020 une brève embellie avec un solde net d'ouvertures temporairement positif, la tendance s'est de nouveau dégradée sous l'effet de la hausse des coûts de l'énergie, de la concurrence asiatique et du ralentissement européen. Sur longue période, la contribution de l'industrie manufacturière à la valeur ajoutée française a été divisée par deux depuis les années 1980 pour s'établir autour de 10 à 11 % du PIB, confirmant le glissement prononcé vers une économie de services.",
-   "enjeux": "La persistance de la **désindustrialisation** constitue l'une des faiblesses structurelles majeures de l'économie française. L'industrie concentre l'essentiel des dépenses de **recherche et développement**, des gains de productivité et des exportations de biens : son érosion explique directement le creusement chronique du déficit commercial français. Cette évolution s'explique par un double effet : d'une part, la **tertiarisation** et l'externalisation de fonctions autrefois intégrées aux usines (logistique, informatique, conseil), et d'autre part un défaut de **compétitivité-coût** et hors-prix qui place de nombreuses entreprises françaises dans le piège du milieu de gamme. Les fermetures d'usines fragilisent également la cohésion territoriale en frappant des bassins d'emploi périphériques où les reconversions sont lentes et coûteuses. Face à ce constat, les pouvoirs publics oscillent entre politique d'attractivité fiscale et retour d'une **politique industrielle** ciblée sur les filières stratégiques, dans un contexte où les États-Unis et la Chine subventionnent massivement leurs champions.",
+   "titre": "Airbnb : les nouvelles règles de la plateforme sur le ménage suscitent la colère des petits propriétaires",
+   "dossier": "regles-airbnb-plateformes",
+   "faits": "Entrées en vigueur le 20 novembre 2026 et décryptées par Le Monde et la BBC, les nouvelles règles d'Airbnb encadrent strictement ce que les hôtes peuvent demander aux voyageurs avant leur départ. Les propriétaires peuvent désormais choisir parmi sept règles standard (nombre d'occupants, animaux, tabac, etc.), mais ne doivent plus imposer aux locataires de faire la vaisselle, d'enlever les draps, de sortir les poubelles ou de limiter l'usage des équipements. La plateforme examine les annonces et permet aux hôtes de déposer un recours s'ils jugent une règle supplémentaire indispensable ; sans validation d'Airbnb, un avertissement du type « inclut des tâches ménagères » est affiché sur l'annonce. Airbnb justifie cette réforme par la nécessité de lever un frein aux réservations, alors que de nombreux clients se plaignaient de longues listes de corvées malgré des frais de ménage élevés. À l'inverse, de nombreux petits propriétaires dénoncent une atteinte à leur autonomie et préviennent que le recours accru à des prestataires de nettoyage alourdira leurs coûts, qui finiront par être répercutés sur les prix des nuitées.",
+   "enjeux": "Ce bras de fer illustre le fonctionnement d'un **marché biface** (*two-sided market*) dans l'**économie de plateforme**, où l'intermédiaire numérique arbitre en permanence entre l'attractivité pour les consommateurs et la rentabilité des offreurs. En position quasi hégémonique sur la location touristique de courte durée, Airbnb exerce un **pouvoir de marché** qui lui permet de dicter unilatéralement les standards contractuels à des millions de petits propriétaires atomisés, bien au-delà de son rôle initial de simple mise en relation. L'épisode met aussi en évidence le problème des **coûts de transaction** et des **coûts cachés** (frais de ménage et tâches de départ) qui nuisaient à la transparence des prix et alimentaient la concurrence de l'hôtellerie traditionnelle. Toutefois, en transférant la charge du nettoyage vers les hôtes, la plateforme risque de provoquer une hausse des tarifs affichés et d'accélérer la **professionnalisation** du marché au détriment des particuliers occasionnels. En dissertation d'ESH, cette actualité est un cas concret idéal pour analyser la régulation privée exercée par les plateformes numériques et la concurrence imparfaite.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/SteelMill_interior.jpg",
-    "alt": "Intérieur d'une usine sidérurgique illustrant l'activité industrielle lourde",
-    "credit": "Payton Chung from DC, USA / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:SteelMill_interior.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Modern_living_room_with_stylish_furniture_and_a_view_of_the_outdoors_in_a_cozy_apartment_setting.jpg",
+    "alt": "Salon moderne d'un appartement meublé destiné à la location de courte durée",
+    "credit": "Shixart1985 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Modern_living_room_with_stylish_furniture_and_a_view_of_the_outdoors_in_a_cozy_apartment_setting.jpg"
    },
    "programme": {
-    "module": "Module 3 – La mondialisation économique et financière",
-    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
    },
    "auteurs": [
     {
-     "nom": "Élie Cohen et Jean-Hervé Lorenzi",
-     "ouvrage": "Politiques industrielles pour l'Europe",
-     "annee": "2000",
-     "ref": "politique-industrielle-cohen-lorenzi",
-     "cours": "2A-02-ftn",
-     "texte": "Cohen et Lorenzi définissent la **politique industrielle** comme une intervention ciblée de l'État, justifiée par la dépendance nationale, la recherche d'autonomie technologique ou les défaillances de l'initiative privée. Appliquée à la fermeture de plus de 3 000 usines depuis 2009, leur analyse montre que le seul jeu du marché ne suffit pas à maintenir une base manufacturière face à des concurrents étrangers subventionnés. À mobiliser dans un sujet sur la réindustrialisation ou la souveraineté économique pour défendre des politiques sectorielles coordonnées à l'échelle européenne."
+     "nom": "Joan Robinson",
+     "ouvrage": "L'Économie de la concurrence imparfaite",
+     "annee": "1933",
+     "ref": "concurrence-imparfaite-robinson",
+     "cours": "1A-entreprise",
+     "texte": "Joan Robinson rompt avec l'hypothèse d'atomicité des agents pour montrer que les grandes firmes disposent d'un **pouvoir de marché** qui leur permet d'imposer leurs conditions sur les prix et les contrats. Appliquée aux nouvelles règles d'Airbnb, son analyse éclaire la dissymétrie entre une plateforme mondiale concentrée et une multitude de petits propriétaires dépendants de sa visibilité pour louer leurs biens. À mobiliser dans un sujet sur la concurrence imparfaite ou la puissance des plateformes numériques."
     },
     {
-     "nom": "Lionel Fontagné",
-     "ouvrage": "Pas d'industrie, pas d'avenir ?",
-     "annee": "2014",
-     "ref": "activite-industrielle-fontagne",
-     "cours": "2A-02-ftn",
-     "texte": "Fontagné invite à nuancer le diagnostic de désindustrialisation en distinguant l'**industrie au sens strict** (la fabrication matérielle) de l'**activité industrielle** (conception, R&D, marque, organisation de la chaîne de valeur). Même lorsqu'une firme ferme des usines sur le sol national, elle peut conserver en France les maillons les plus créateurs de valeur ajoutée, à l'image des groupes du luxe ou de l'aéronautique. À mobiliser pour éviter une lecture catastrophiste et montrer que la réindustrialisation passe d'abord par la montée en gamme."
+     "nom": "Ronald Coase",
+     "ouvrage": "La Nature de la firme",
+     "annee": "1937",
+     "ref": "couts-de-transaction",
+     "texte": "Coase montre que recourir au marché engendre des **coûts de transaction** (recherche, négociation, contrôle des contrats), ce qui explique le rôle des organisations et des règles standardisées pour les réduire. En imposant sept règles standard et en bannissant les corvées imprévues, Airbnb cherche précisément à abaisser les coûts de transaction et d'incertitude pour les voyageurs afin de fluidifier les échanges sur sa plateforme. À mobiliser pour expliquer l'efficacité économique des intermédiaires numériques tout en montrant comment ils déplacent les coûts vers les offreurs."
     }
    ],
    "notions": [
     [
-     "Désindustrialisation",
-     "Recul durable de la part de l'industrie dans l'emploi total et dans la valeur ajoutée d'une économie."
+     "Marché biface",
+     "Marché organisé par une plateforme qui met en relation deux groupes d'utilisateurs distincts (hôtes et voyageurs) liés par des effets de réseau croisés."
     ],
     [
-     "Politique industrielle",
-     "Intervention ciblée des pouvoirs publics visant à orienter, soutenir ou protéger des secteurs productifs jugés stratégiques."
+     "Pouvoir de marché",
+     "Capacité d'une entreprise dominante à fixer ses prix ou ses conditions contractuelles au-dessus de ce que permettrait la concurrence pure et parfaite."
     ],
     [
-     "Chaîne de valeur mondiale",
-     "Fragmentation internationale des étapes de production d'un bien, de la conception jusqu'à l'assemblage et la commercialisation."
+     "Coûts de transaction",
+     "Coûts liés à la recherche d'information, à la négociation et au contrôle de l'exécution d'un échange sur un marché."
     ],
     [
-     "Compétitivité hors-prix",
-     "Capacité d'une entreprise ou d'un pays à gagner des parts de marché grâce à la qualité, l'innovation ou l'image de marque plutôt que par des prix bas."
+     "Économie de plateforme",
+     "Modèle économique fondé sur des intermédiaires numériques qui organisent et standardisent la mise en relation entre offreurs et demandeurs."
     ]
    ],
    "sujets": [
-    "La réindustrialisation de la France est-elle possible dans une économie ouverte ?",
-    "La désindustrialisation est-elle nécessairement le signe d'un déclin économique ?"
+    "Les plateformes numériques renforcent-elles la concurrence ou créent-elles de nouveaux pouvoirs de marché ?",
+    "Comment l'économie de plateforme transforme-t-elle les relations entre entreprises, travailleurs et consommateurs ?"
    ],
    "anki": [
     {
-     "q": "Nombre d'usines fermées en France depuis 2009 et poids actuel de l'industrie dans le PIB (Le Monde, 2026)",
-     "r": "Plus de C{3 000} usines fermées depuis D{2009}, et une industrie manufacturière ramenée autour de C{10 à 11 %} du PIB.\n→ Illustre l'échec relatif des plans de réindustrialisation face à la concurrence internationale ; A{Élie Cohen et Jean-Hervé Lorenzi}, O{Politiques industrielles pour l'Europe} (D{2000}) : appelle une politique industrielle ciblée → accroche pour un sujet sur la désindustrialisation."
+     "q": "Changement imposé par Airbnb aux propriétaires le 20 novembre 2026 et sanction en cas de refus",
+     "r": "Choix limité à C{7} règles standard ; interdiction d'imposer vaisselle, draps ou poubelles sans validation, sinon un avertissement est affiché sur l'annonce.\n→ Illustre le B{pouvoir de marché} d'une plateforme biface sur des offreurs atomisés (A{Joan Robinson}, O{L'Économie de la concurrence imparfaite}, D{1933}) et la réduction des B{coûts de transaction} (A{Ronald Coase}, D{1937}) → accroche pour un sujet sur les plateformes numériques."
     },
     {
-     "q": "Distinction à mobiliser pour nuancer les fermetures d'usines en France",
-     "r": "B{Industrie au sens strict} (fabrication) contre B{activité industrielle} (conception, marque, propriété intellectuelle).\n→ A{Lionel Fontagné}, O{Pas d'industrie, pas d'avenir ?} (D{2014}) : montre qu'une économie peut perdre des usines tout en captant les segments à forte valeur ajoutée des chaînes mondiales."
+     "q": "Effet économique redouté par les petits propriétaires face aux nouvelles règles d'Airbnb (2026)",
+     "r": "Hausse des coûts de nettoyage répercutée sur les prix des nuitées et accélération de la professionnalisation du secteur.\n→ Montre qu'une standardisation décidée pour rassurer la demande peut évincer les petits offreurs particuliers."
     }
-   ],
-   "dossier": "desindustrialisation-france"
+   ]
   },
   {
    "id": "2026-11-20-esh-3",
@@ -361,69 +360,69 @@
    "id": "2026-11-20-anglais-1",
    "matiere": "anglais",
    "source": "The Guardian",
-   "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+   "url": "https://www.theguardian.com/politics/2026/nov/19/andy-burnham-political-donations-cap-overseas-donors-elections",
    "minutes": 3,
-   "titre": "Royaume-Uni – UE : Londres et Bruxelles proches d'un accord post-Brexit sur la mobilité des jeunes et l'agroalimentaire",
-   "faits": "À la veille du sommet Royaume-Uni – Union européenne à Bruxelles, les négociateurs britanniques et européens se sont fortement rapprochés jeudi 19 novembre d'un accord de « réinitialisation » post-Brexit. Les deux parties se sont provisoirement entendues sur un programme de mobilité des jeunes plafonné à 100 000 citoyens européens par an autorisés à venir au Royaume-Uni, contre un quota initialement souhaité par Londres de 50 000 à 80 000, avec une limite d'âge relevée de 30 à 31 ans. En échange, Bruxelles a abandonné à la dernière minute son exigence d'aligner les frais de scolarité des étudiants européens sur ceux des étudiants britanniques, acceptant de négocier des frais internationaux réduits dans un accord complémentaire d'ici six mois. Le point le plus délicat restait la place de Londres dans l'élaboration des futures normes sanitaires et phytosanitaires (SPS) dans le cadre d'un accord agroalimentaire destiné à alléger les contrôles aux frontières. Face à l'opposition ferme de la France, le gouvernement d'Andy Burnham a renoncé à réclamer un droit de vote sur les lois européennes et devrait se contenter d'un mécanisme de consultation. Si l'accord est scellé lors du sommet, Londres prévoit de déposer rapidement un projet de loi pour réduire les coûts commerciaux liés au Brexit.",
-   "enjeux": "Ce compromis de dernière minute illustre le pragmatisme imposé par le coût économique durable du **Brexit** : selon les économistes, la sortie du marché unique continue de peser sur les échanges agroalimentaires et sur le PIB par habitant britannique. Pour le Premier ministre travailliste **Andy Burnham**, l'enjeu consiste à obtenir des gains économiques tangibles sans franchir les « lignes rouges » politiques qui réveilleraient l'opposition conservatrice et celle de Reform UK, très hostiles à tout retour à la libre circulation. Les concessions britanniques sur le plafond de 100 000 jeunes et sur l'abandon d'un droit de vote normatif montrent toutefois l'asymétrie du rapport de force avec Bruxelles : l'UE refuse toujours le « picorage » (*cherry-picking*) et exige des contreparties concrètes pour ouvrir son marché. L'accord sur la **mobilité des jeunes** répond aussi aux besoins de secteurs britanniques en pénurie de main-d'œuvre, comme l'hôtellerie et la culture. En khôlle d'anglais, cet événement est idéal pour analyser l'évolution de la relation post-Brexit et le dilemme britannique entre souveraineté formelle et intégration économique.",
+   "titre": "Royaume-Uni : le gouvernement pressé de plafonner l'ensemble des dons politiques, pas seulement ceux venus de l'étranger",
+   "dossier": "financement-partis-royaume-uni",
+   "faits": "Selon The Guardian du 19 novembre 2026, le Premier ministre britannique Andy Burnham fait face à des appels croissants pour instaurer un plafond général sur tous les dons aux partis politiques, alors que le projet de loi électorale (*representation of the people bill*) arrive devant la Chambre des Lords. L'ancien ministre travailliste David Blunkett et plusieurs pairs ont déposé un amendement proposant une limite annuelle de 500 000 livres par donateur, plutôt que le seul plafond de 100 000 livres ciblant les donateurs basés à l'étranger, jugé « incroyablement complexe » et facile à contourner par les experts. Ce débat est alimenté par les 72 millions de livres de dons reçus récemment par Reform UK — dont 36 millions du milliardaire des cryptomonnaies Ben Delo et 36 millions de Christopher Harborne. Reform UK, dirigé par Nigel Farage, affirme qu'il contestera devant les tribunaux toute application rétroactive du plafond étranger annoncé en mars, un point qui inquiète aussi la commission constitutionnelle des Lords. De son côté, le Parti travailliste reste prudent, car les syndicats craignent qu'un plafonnement universel ne réduise leur propre poids financier au sein du parti.",
+   "enjeux": "Cette controverse met au jour une singularité majeure de la **démocratie britannique** : contrairement à la France ou aux États-Unis, le Royaume-Uni plafonne les dépenses de campagne électorale mais n'impose aucune limite aux dons individuels faits aux partis. L'irruption de « méga-dons » de plusieurs dizaines de millions de livres au profit de **Reform UK** relance la crainte d'une **américanisation** de la vie politique britannique et d'une captation du débat public par quelques milliardaires. Le dilemme du **Parti travailliste** est révélateur des rapports de force internes à Westminster : plafonner tous les dons permettrait de tarir les financements géants de ses rivaux, mais risquerait de remettre en cause le lien historique et financier entre le Labour et les **syndicats** (*trade unions*). Par ailleurs, la menace de recours judiciaires sur la rétroactivité de la loi illustre le rôle de contre-pouvoir de la **Chambre des Lords** et de la justice britannique (*judicial review*). En khôlle d'anglais, cette actualité est un cas d'école pour débattre du financement de la vie politique et de l'influence de l'argent en démocratie.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/White_Cliffs_of_Dover_02.JPG",
-    "alt": "Falaises blanches de Douvres face à la Manche, symbole de la frontière entre le Royaume-Uni et l'UE",
-    "credit": "Immanuel Giel / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:White_Cliffs_of_Dover_02.JPG"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Westminster_palace.jpg",
+    "alt": "Palais de Westminster, siège du Parlement britannique à Londres",
+    "credit": "DaniKauf / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Westminster_palace.jpg"
    },
    "vo": {
-    "titre": "UK and EU close in on post-Brexit reset deal ahead of Brussels summit",
-    "faits": "On the eve of the UK-EU summit in Brussels, British and European negotiators moved close to a post-Brexit reset agreement on Thursday, 19 November. Both sides provisionally agreed on a youth mobility scheme capped at 100,000 EU citizens per year allowed to come to the UK—up from London's earlier target of 50,000 to 80,000—while raising the age limit from 30 to 31. In a late concession, Brussels dropped its demand that EU students pay domestic tuition fees at British universities, agreeing instead to settle details on reduced international fees through a supplementary deal within six months. Talks went down to the wire over Britain's role in shaping future food and farming standards under a sanitary and phytosanitary (SPS) agreement designed to ease border checks. Following strong opposition from France, Prime Minister Andy Burnham's government dropped its bid for voting rights on EU food legislation and is set to accept a consultation mechanism instead. If finalised at the summit, Downing Street plans to introduce legislation swiftly to cut post-Brexit trade friction.",
-    "enjeux": "This eleventh-hour compromise highlights the economic pragmatism forced by the lasting costs of Brexit, as border friction continues to weigh heavily on agrifood trade and British living standards. For Labour Prime Minister Andy Burnham, the challenge is to secure tangible commercial relief without crossing political red lines that would fuel backlash from the Conservatives and Reform UK over immigration. Yet London's concessions on the 100,000 youth cap and on regulatory voting rights underscore the asymmetry of negotiations with Brussels, which remains firmly opposed to cherry-picking single-market benefits without reciprocal obligations. The youth mobility deal also addresses acute labour shortages in sectors such as hospitality and the arts while reopening opportunities for young Britons across Europe. Overall, the summit encapsulates Britain's post-Brexit dilemma between formal regulatory sovereignty and closer economic alignment with its largest trading partner."
+    "titre": "Burnham urged to cap all UK political donations, not just overseas donors",
+    "faits": "According to The Guardian on 19 November 2026, Prime Minister Andy Burnham is facing mounting pressure to introduce a universal cap on political donations as the representation of the people bill enters the House of Lords. Former Labour home secretary David Blunkett is among peers who have tabled an amendment proposing a £500,000 annual limit per donor, arguing it should replace the government's £100,000 cap on overseas donors, which experts have criticised as overly complex and riddled with loopholes. The debate has been sharpened by £72m in recent donations to Nigel Farage's Reform UK, including £36m from crypto billionaire Ben Delo and £36m from Christopher Harborne. Reform UK has vowed to challenge any retrospective enforcement of the overseas limit in the courts, a concern echoed by the House of Lords constitution committee. Meanwhile, Downing Street has hesitated to back a blanket cap because trade unions fear tighter limits could diminish their own financial influence inside the Labour Party.",
+    "enjeux": "The row highlights a striking feature of British democracy: while the UK tightly regulates campaign spending, it places no upper limit on individual donations to political parties. The arrival of mega-donations worth tens of millions of pounds for Reform UK has fuelled fears that British politics is becoming increasingly dominated by billionaire backers. Labour's hesitation exposes a longstanding structural dilemma at Westminster, as an all-encompassing cap designed to curb wealthy donors could simultaneously weaken the historic funding link between the party and trade unions. Furthermore, warnings over retrospective legislation and potential judicial review underline the constitutional scrutiny still exercised by the House of Lords. For essays on British institutions, the dispute provides a timely case study on money in politics and democratic integrity."
    },
    "vocab": [
     [
-     "to go down to the wire",
-     "se jouer jusqu'à la dernière minute",
-     "The trade negotiations went down to the wire before the Brussels summit."
+     "a donations cap",
+     "un plafonnement des dons",
+     "Peers are pushing for a universal donations cap to clean up British politics."
     ],
     [
-     "a youth mobility scheme",
-     "un programme de mobilité des jeunes",
-     "Universities welcomed the new youth mobility scheme between London and Brussels."
+     "a loophole",
+     "une faille / une échappatoire (juridique)",
+     "Experts warned that a rule limited to foreign donors would leave major loopholes."
     ],
     [
-     "tuition fees",
-     "les frais de scolarité (universitaires)",
-     "High international tuition fees have deterred many European students from studying in Britain."
+     "retrospective legislation",
+     "une loi rétroactive",
+     "The Lords committee expressed concern over the precedent of retrospective legislation."
     ],
     [
-     "border checks",
-     "les contrôles aux frontières",
-     "A food standards deal would significantly reduce post-Brexit border checks."
+     "judicial review",
+     "le contrôle juridictionnel (d'une décision publique)",
+     "Opposition parties threatened to seek a judicial review if the measure passes."
     ],
     [
-     "a sticking point",
-     "un point de blocage",
-     "Britain's demand for a say in EU law-making remained the main sticking point."
+     "to table an amendment",
+     "déposer un amendement",
+     "Several senior peers chose to table an amendment ahead of the Lords debate."
     ],
     [
-     "cherry-picking",
-     "le fait de choisir à la carte (les avantages sans les obligations)",
-     "Brussels has repeatedly ruled out any cherry-picking of single-market rules."
+     "to water down",
+     "édulcorer / affaiblir",
+     "Trade unions fear that new funding rules could water down their political voice."
     ]
    ],
    "sujets": [
-    "Can Britain repair its economic relationship with the EU without reopening the Brexit divide?",
-    "Does closer alignment with Brussels mean giving up the promise of post-Brexit sovereignty?"
+    "Should the United Kingdom introduce a strict cap on all political donations?",
+    "Is the growing influence of billionaire donors undermining British democracy?"
    ],
    "anki": [
     {
-     "q": "Provisional cap and age limit agreed for the UK-EU youth mobility scheme (Nov 2026)",
-     "r": "C{100,000} EU citizens per year (up from London's initial C{50,000–80,000} target), age cap raised from C{30} to C{31}.\n→ Shows London's pragmatic concessions to secure a B{post-Brexit reset} and ease agrifood border checks → accroche for an essay on UK-EU relations."
+     "q": "Amount of recent mega-donations to Reform UK and universal cap proposed in the House of Lords (Nov 2026)",
+     "r": "C{£72m} donated to Reform UK (C{£36m} each from Ben Delo and Christopher Harborne); Labour peers propose a C{£500,000/year} cap per donor.\n→ Exposes the absence of an overall donation ceiling in Britain and the dilemma between curbing billionaire influence and preserving B{trade union} funding → accroche for an essay on UK democracy."
     },
     {
-     "q": "Key concession made by Britain on EU food and farming rules before the Brussels summit (Nov 2026)",
-     "r": "Dropped its demand for a B{voting role} on EU food standards after French opposition, settling for B{consultation}.\n→ Illustrates the EU's refusal of B{cherry-picking} and the trade-off between market access and regulatory sovereignty."
+     "q": "Constitutional objection raised in the House of Lords against the UK overseas donor cap (Nov 2026)",
+     "r": "Its B{retrospective} application back to March, which the Lords constitution committee warned could trigger B{judicial review}.\n→ Highlights the constitutional scrutiny role of the House of Lords."
     }
-   ],
-   "dossier": "relation-royaume-uni-ue"
+   ]
   },
   {
    "id": "2026-11-20-anglais-2",
@@ -564,274 +563,274 @@
   {
    "id": "2026-11-20-anglais-4",
    "matiere": "anglais",
-   "source": "NPR",
-   "url": "https://www.npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/19/religious-messages-agriculture-secretary-unconstitutional",
    "minutes": 3,
-   "titre": "États-Unis : la victoire démocrate à la Chambre lors des midterms est la plus large depuis cinquante ans",
-   "faits": "Alors que le dépouillement des dernières circonscriptions s'achève, les chiffres compilés par NPR le 19 novembre 2026 confirment l'ampleur historique de la victoire démocrate aux élections de mi-mandat à la Chambre des représentants. Au niveau national, environ 56 % des électeurs ont voté pour les candidats démocrates contre 42 % pour les républicains, soit un écart de 14 points — le plus large enregistré par l'un ou l'autre parti depuis les midterms qui avaient suivi le scandale du Watergate il y a cinquante ans. À titre de comparaison, les vagues électorales de 2006, 2010 et 2018 avaient toutes affiché des écarts inférieurs à 10 points. Les démocrates ont déjà repris 46 sièges aux républicains et pourraient en faire basculer jusqu'à 49, ce qui leur offrirait près de 260 élus, leur plus forte majorité à la Chambre depuis le début des années 1990. Avec ce renversement, le contrôle de la Chambre aura changé de camp cinq fois en vingt ans, un niveau de volatilité inédit depuis l'ère qui a suivi la Reconstruction au XIXe siècle.",
-   "enjeux": "Cette vague électorale confirme la loi historique des **élections de mi-mandat** américaines, qui sanctionnent presque systématiquement le parti du président en exercice, mais son ampleur exceptionnelle traduit un rejet profond de la conjoncture économique et de la politique étrangère de l'administration Trump. La répétition des alternances à la Chambre (cinq changements de majorité en vingt ans) met en évidence la **volatilité électorale** d'un pays pourtant très polarisé, où une frange d'électeurs indépendants fait basculer les scrutins en fonction du coût de la vie. Pour les républicains, ce recul ramène le parti à son niveau d'avant la « révolution républicaine » de 1994 menée par Newt Gingrich et ouvre un débat interne sur l'après-Trump. Pour les démocrates, disposer d'une majorité confortable autour de 260 sièges facilitera la discipline parlementaire, les enquêtes sur l'exécutif et le blocage de l'agenda législatif de la Maison-Blanche jusqu'à la présidentielle de 2028. En dissertation, ces chiffres sont incontournables pour analyser la dynamique des *midterms* et la fragilité des majorités politiques aux États-Unis.",
+   "titre": "États-Unis : la justice juge inconstitutionnels les e-mails religieux envoyés par la secrétaire à l'Agriculture à ses agents",
+   "dossier": "separation-eglise-etat-etats-unis",
+   "faits": "Jeudi 19 novembre 2026, une juge fédérale de San Francisco, Trina Thompson, a jugé inconstitutionnels les messages à caractère religieux envoyés par la secrétaire américaine à l'Agriculture Brooke Rollins aux 100 000 employés de son ministère (USDA), rapporte The Guardian. Brooke Rollins avait diffusé depuis son adresse officielle des e-mails comportant des références et images chrétiennes à l'occasion de fêtes comme Pâques, Noël, Thanksgiving ou le 4 juillet, sans jamais mentionner d'autres religions. La magistrate a estimé que ces courriels violaient la clause d'établissement (*Establishment Clause*) du Premier amendement de la Constitution, car ils émanaient d'une autorité hiérarchique officielle et laissaient entendre que le christianisme constituait la foi commune des fonctionnaires du ministère. La juge a souligné que les employés ne pouvaient pas raisonnablement refuser de lire les messages de leur ministre, créant un risque de pression morale ou d'autocensure religieuse au travail. La plainte avait été déposée en mai par six agents de l'USDA et par le syndicat National Federation of Federal Employees, qui représente 19 000 salariés du ministère.",
+   "enjeux": "Cette décision de justice illustre la vigueur du débat américain autour de la **séparation de l'Église et de l'État** et de la place du **christianisme évangélique** au sein de l'administration fédérale. Contrairement à la laïcité française, le **Premier amendement** américain garantit à la fois la liberté d'expression religieuse (*Free Exercise Clause*) et l'interdiction pour l'État de promouvoir une religion officielle (*Establishment Clause*). L'arrêt de la juge Thompson trace une frontière précise : un haut responsable peut évoquer sa foi dans des conversations privées ou volontaires, mais ne peut utiliser son autorité institutionnelle ni une messagerie gouvernementale pour pratiquer le prosélytisme auprès de ses subordonnés. Le procès reflète plus largement l'offensive du courant **nationaliste chrétien** dans la vie publique américaine et le rôle essentiel des **tribunaux fédéraux** et des syndicats de fonctionnaires comme contre-pouvoirs constitutionnels. En civilisation américaine, cet exemple concret est précieux pour nuancer l'idée d'une confusion totale entre religion et État aux États-Unis.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/United_States_House_of_Representatives_chamber.jpg",
-    "alt": "Hémicycle de la Chambre des représentants des États-Unis au Capitole",
-    "credit": "United States House of Representatives / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:United_States_House_of_Representatives_chamber.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Jamie_L._Whitten_Federal_Building_20170526-OC-LSC-0022_%2834206448083%29.jpg",
+    "alt": "Façade du siège du département américain de l'Agriculture (USDA) à Washington",
+    "credit": "U.S. Department of Agriculture / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamie_L._Whitten_Federal_Building_20170526-OC-LSC-0022_(34206448083).jpg"
    },
    "vo": {
-    "titre": "Democrats' 2026 House victory is the widest midterm margin in 50 years",
-    "faits": "With vote counts wrapping up in the closest districts, figures reported by NPR on 19 November 2026 confirm the historic scale of the Democrats' midterm triumph in the House of Representatives. Nationwide, roughly 56% of voters backed Democratic House candidates compared with 42% for Republicans—a 14-point margin, the widest for either party in half a century, since the post-Watergate era. By comparison, the major wave elections of 2006, 2010 and 2018 all featured national House margins under 10 points. Democrats have already flipped 46 Republican-held seats and lead in three uncalled races, putting them on track for up to 260 seats—their largest House majority since the early 1990s. When the new Congress convenes in January, control of the House will have changed hands five times in the past 20 years, a level of turnover unseen since the late nineteenth century.",
-    "enjeux": "The landslide reinforces the classic midterm pattern in which voters punish the sitting president's party, yet its sheer scale signals acute frustration with living costs and foreign entanglements under the Trump administration. Five flips of House control in two decades also underscore the paradox of modern U.S. politics: deep partisan polarisation coexists with high electoral volatility driven by swing voters. For the GOP, falling back to pre-1994 levels—three decades after Newt Gingrich's Republican Revolution—intensifies internal soul-searching over the party's post-Trump direction. For Democrats, a cushioned majority near 260 seats will make floor management far easier, empowering aggressive congressional oversight and stalling White House legislation ahead of the 2028 presidential race. These figures provide a striking benchmark for analysing midterm cycles and institutional instability in the United States."
+    "titre": "Federal judge rules US agriculture secretary's religious emails to staff unconstitutional",
+    "faits": "On Thursday, 19 November 2026, U.S. district judge Trina Thompson in San Francisco ruled that religious emails sent by Agriculture Secretary Brooke Rollins to the department's 100,000 employees violated the U.S. Constitution, The Guardian reports. Rollins had used her official government account to send Christian messages and imagery on holidays such as Easter, Christmas, Thanksgiving and Independence Day, while omitting holidays from other faiths. Judge Thompson held that the emails breached the First Amendment's establishment clause because Rollins's position of authority and use of an official account implied that Christianity was the shared faith of USDA staff. Because federal workers cannot realistically opt out of reading messages from their agency head, the court warned that such communications could coerce employees into hiding their own beliefs. The lawsuit had been brought in May by six USDA staffers alongside the National Federation of Federal Employees, a union representing 19,000 agency workers.",
+    "enjeux": "The ruling spotlights the intensifying American debate over the separation of church and state and the growing visibility of Christian conservatism inside federal agencies. Unlike French laïcité, the U.S. First Amendment balances two distinct principles: protecting individual religious expression under the free exercise clause while barring government endorsement of a faith under the establishment clause. Judge Thompson drew a clear boundary between personal faith shared in voluntary conversations and top-down proselytising through official government channels. More broadly, the case illustrates how federal courts and public-sector unions continue to act as institutional guardrails against ideological overreach in the executive branch. For students of U.S. society, the decision is a sharp illustration of how constitutional law mediates religion in the American workplace."
    },
    "vocab": [
     [
-     "a landslide victory",
-     "une victoire écrasante / raz-de-marée électoral",
-     "The 14-point national margin amounted to a historic landslide victory."
+     "the establishment clause",
+     "la clause de non-établissement (séparation Église-État, 1er amendement)",
+     "The judge ruled that the official emails violated the First Amendment's establishment clause."
     ],
     [
-     "to flip a seat",
-     "faire basculer un siège (d'un parti à l'autre)",
-     "Democrats managed to flip at least 46 Republican-held House seats."
+     "to proselytize",
+     "faire du prosélytisme",
+     "Cabinet officials are barred from using public resources to proselytize among staff."
     ],
     [
-     "a wave election",
-     "une élection marquée par une vague électorale",
-     "Analysts compared the 2026 midterms to the post-Watergate wave election."
+     "to opt out",
+     "se désinscrire / refuser de participer",
+     "Subordinates cannot realistically opt out of reading emails from their department head."
     ],
     [
-     "electoral volatility",
-     "la volatilité électorale",
-     "Five changes of House control in 20 years reflect rising electoral volatility."
+     "a federal judge",
+     "un juge fédéral",
+     "A federal judge in San Francisco sided with the employees' union."
     ],
     [
-     "to change hands",
-     "changer de camp / de mains",
-     "Control of the House of Representatives will change hands once again in January."
+     "a hostile work environment",
+     "un environnement de travail hostile",
+     "Persistent religious pressure from a manager can create a hostile work environment."
     ],
     [
-     "a referendum on the president",
-     "un référendum sur le président",
-     "Midterm elections almost always act as a referendum on the sitting president."
+     "separation of church and state",
+     "la séparation de l'Église et de l'État",
+     "The ruling reaffirmed the constitutional boundary of separation of church and state."
     ]
    ],
    "sujets": [
-    "Why have U.S. midterm elections become such powerful checks on presidential authority?",
-    "Does frequent turnover in Congress reflect healthy democracy or chronic political instability?"
+    "Is the separation of church and state still effectively protected in the United States?",
+    "How should American law balance religious freedom and neutrality in the federal workplace?"
    ],
    "anki": [
     {
-     "q": "National House vote split and seat gains for Democrats in the 2026 U.S. midterms (NPR)",
-     "r": "C{56%} Democratic vs C{42%} Republican (C{14-point} spread, widest in C{50} years); at least C{46} seats flipped (up to C{260} seats).\n→ Confirms the B{midterm backlash} against the sitting president at a post-Watergate scale → accroche for an essay on U.S. elections or political polarisation."
+     "q": "Federal court ruling on U.S. Agriculture Secretary Brooke Rollins's religious emails to staff (Nov 19, 2026)",
+     "r": "Ruled B{unconstitutional} under the First Amendment's B{establishment clause} after emails sent to C{100,000} USDA workers.\n→ Shows how federal courts enforce B{separation of church and state} against proselytising from positions of official authority → accroche for an essay on religion and politics in the U.S."
     },
     {
-     "q": "Frequency of changes in U.S. House control over the past 20 years (NPR, Nov 2026)",
-     "r": "Control of the House will have changed hands C{5 times} in C{20 years}, the highest turnover since the post-Reconstruction era (D{1875}).\n→ Shows that extreme partisan polarisation coexists with strong B{electoral volatility} driven by economic discontent."
+     "q": "Legal distinction drawn by Judge Trina Thompson on workplace religious expression at the USDA (Nov 2026)",
+     "r": "Permitted in voluntary personal conversations, but barred via official accounts because subordinates cannot B{opt out}.\n→ Illustrates the balance between the B{free exercise clause} and the B{establishment clause}."
     }
-   ],
-   "dossier": "midterms-2026"
+   ]
   },
   {
    "id": "2026-11-20-espagnol-1",
    "matiere": "espagnol",
-   "source": "El País",
-   "url": "https://elpais.com/sociedad/2026-11-20/la-eutanasia-en-el-aire-si-la-derecha-gana-las-elecciones.html",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/economia/empresas/2026/11/20/6af72bb5fdddff213e8b4583.html",
    "minutes": 3,
-   "titre": "Espagne : l'avenir de la loi sur l'euthanasie fragilisé en cas de victoire de la droite le 29 novembre",
-   "faits": "À neuf jours des élections générales du 29 novembre 2026, El País révèle le 20 novembre que l'avenir de la loi espagnole sur l'euthanasie, adoptée en 2021, reste incertain en cas de victoire du Parti populaire (PP) et de Vox. Le programme électoral du PP met en avant une loi sur les soins palliatifs, présentée implicitement comme une alternative à l'aide active à mourir, sans préciser ce qu'il adviendra du texte en vigueur. Dans plusieurs interviews récentes, le chef du PP Alberto Núñez Feijóo a reconnu son désaccord avec la loi actuelle et évoqué une modification pouvant aller jusqu'à une « abrogation totale ou partielle », tout en réclamant un rôle accru des médecins et des comités d'éthique — alors que la loi exige déjà l'avis de deux médecins, le feu vert d'une commission autonome de garantie et une confirmation du patient quinze jours après sa demande. Ce flou s'explique par un dilemme électoral : si la droite avait d'abord combattu le texte, le PP a voté contre son abrogation demandée par Vox en octobre 2025, conscient du large consensus social sur la question. Dès 1995, le CIS mesurait déjà 62 % d'opinions favorables, et seuls 15 % des Espagnols s'y disaient opposés lors de son adoption il y a cinq ans.",
-   "enjeux": "Ce débat illustre la transformation profonde de la **société espagnole** depuis la Transition démocratique : jadis fortement marquée par le catholicisme, l'Espagne est devenue l'un des pays les plus avancés d'Europe en matière de **droits sociétaux** (mariage pour tous en 2005, avortement, euthanasie en 2021). L'embarras d'Alberto Núñez Feijóo reflète la fracture interne de la droite espagnole, prise entre un électorat modéré majoritairement attaché aux acquis sociaux et la pression idéologique de l'extrême droite **Vox**, dont le soutien pourrait s'avérer indispensable pour gouverner après le 29-N. En opposant **soins palliatifs** et euthanasie, le PP tente de ménager son aile conservatrice sans s'aliéner le centre, au risque d'entretenir une ambiguïté dénoncée par la gauche. Plus largement, la campagne montre que les **guerres culturelles** (fin de vie, droits des femmes, mémoire historique) demeurent un levier central de polarisation politique en Espagne. En khôlle d'espagnol, cette actualité permet d'aborder l'évolution des mœurs, la sécularisation et la recomposition des droites ibériques.",
+   "titre": "Espagne : la hausse continue de l'absentéisme au travail atteint 7,76 % et inquiète les entreprises",
+   "dossier": "absenteisme-travail-espagne",
+   "faits": "Dans une enquête publiée le 20 novembre 2026, El Mundo met en lumière la progression continue de l'absentéisme au travail en Espagne, devenu une préoccupation majeure pour le tissu productif. Selon un rapport de The Adecco Group analysant la période depuis 2019, le taux d'absentéisme est passé d'un niveau stable d'environ 5,5 % avant la pandémie à 7,76 % au deuxième trimestre 2026, une tendance haussière généralisée à tous les secteurs depuis 2020 que ni les entreprises ni les pouvoirs publics n'ont réussi à corriger. D'après le baromètre InfoJobs, 44 % des entreprises estiment que la gestion de l'absentéisme freine directement leur capacité à croître et à créer des emplois, pointant aussi des lacunes d'organisation interne et de communication entre managers et salariés. Parallèlement, une étude de Gi Group Holding et d'Ipsos révèle un profond décalage de perception dans la société espagnole : 45 % des sondés associent spontanément l'absentéisme aux absences injustifiées, contre seulement 22 % aux arrêts maladie, alors que ces derniers représentent en réalité la grande majorité des absences recensées.",
+   "enjeux": "L'essor de l'**absentéisme au travail** est devenu l'un des défis structurels de la **productivité** et de la compétitivité de l'économie espagnole. Alors que l'Espagne affiche l'une des plus fortes croissances de la zone euro grâce au tourisme et aux créations d'emplois, la hausse de plus de deux points du taux d'absentéisme depuis 2019 alourdit les coûts de remplacement pour les entreprises et les dépenses d'indemnisation de la **Sécurité sociale**. Le débat oppose deux lectures : le patronat met en avant la longueur des délais médicaux dans le système public de santé et appelle à un meilleur contrôle des arrêts maladie, tandis que les syndicats soulignent la dégradation des **conditions de travail**, la montée des troubles psychosociaux et le vieillissement de la population active. L'enquête Ipsos montre enfin que la stigmatisation des salariés absents nuit au dialogue social en confondant fraude et problème de santé publique. En khôlle d'espagnol, cette actualité est idéale pour nuancer le dynamisme macroéconomique espagnol par les fragilités de son marché du travail.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Solemne_apertura_de_la_XIV_Legislatura_04.jpg",
-    "alt": "Hémicycle du Congrès des députés à Madrid en Espagne",
-    "credit": "Pool Moncloa/Fernando Calvo / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Solemne_apertura_de_la_XIV_Legislatura_04.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/AZCA.c.m.2.jpg",
+    "alt": "Tours de bureaux du quartier d'affaires AZCA à Madrid en Espagne",
+    "credit": "M.Peinado / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:AZCA.c.m.2.jpg"
    },
    "vo": {
-    "titre": "El futuro de la ley de eutanasia queda en el aire ante un posible Gobierno de la derecha",
-    "faits": "A nueve días de las elecciones generales del 29 de noviembre de 2026, El País señala que la continuidad de la ley de eutanasia, aprobada en 2021, resulta incierta si el Partido Popular (PP) y Vox llegan al poder. El programa electoral del PP propone una ley de cuidados paliativos, planteada implícitamente como alternativa a la muerte digna, pero evita concretar qué hará con la norma vigente. En entrevistas recientes, Alberto Núñez Feijóo admitió su desacuerdo con la ley actual y habló de una reforma que podría ser «una derogación total o parcial», reclamando mayor peso para médicos y comités de ética, pese a que la legislación ya exige la valoración de dos facultativos, la aprobación de una comisión autonómica y una ratificación a los quince días. Esta ambigüedad refleja un dilema político: aunque el PP votó en octubre de 2025 contra la derogación impulsada por Vox, teme disgustar tanto a su ala conservadora como a una ciudadanía ampliamente favorable. Ya en 1995 el CIS registraba un 62 % de respaldo social y, cuando se aprobó la ley hace cinco años, solo un 15 % de los españoles se mostró en contra.",
-    "enjeux": "Esta polémica refleja la profunda secularización de la sociedad española desde la Transición, que ha convertido al país en referente europeo en materia de derechos civiles, desde el matrimonio igualitario hasta la regulación de la muerte digna. Las vacilaciones de Feijóo evidencian la encrucijada de la derecha española, atrapada entre la necesidad de seducir al votante moderado y la presión ideológica de Vox ante una eventual coalición tras el 29-N. Al contraponer los cuidados paliativos a la eutanasia, el PP busca rebajar el coste electoral de cuestionar una prestación con amplio consenso ciudadano. El debate confirma, además, que las cuestiones bioéticas y las llamadas guerras culturales siguen desempeñando un papel decisivo en la polarización política española. Para el análisis de la España contemporánea, el caso ilustra la tensión entre avances sociales consolidados y la recomposición conservadora."
+    "titre": "El absentismo laboral escala hasta el 7,76 % en España y alarma a las empresas",
+    "faits": "En un reportaje publicado el 20 de noviembre de 2026, El Mundo analiza el repunte sostenido del absentismo laboral en España, convertido en uno de los grandes retos del tejido empresarial. Según un informe de The Adecco Group, la tasa de absentismo ha pasado de niveles estables en torno al 5,5 % en 2019 hasta alcanzar el 7,76 % en el segundo trimestre de 2026, en una dinámica ascendente generalizada desde 2020. De acuerdo con el Barómetro de InfoJobs, el 44 % de las empresas señala que la dificultad para gestionar las ausencias limita su capacidad de crecer y generar empleo, y apunta además a fallos de organización y de comunicación interna. Al mismo tiempo, un estudio de Gi Group Holding e Ipsos revela una fuerte brecha de percepción social: el 45 % de los encuestados asocia el absentismo a faltas injustificadas y solo el 22 % piensa en bajas médicas, pese a que estas constituyen la mayor parte de los casos.",
+    "enjeux": "El auge del absentismo laboral se ha consolidado como un lastre estructural para la productividad y la competitividad de la economía española. Aunque España lidera el crecimiento de la eurozona, el salto de más de dos puntos desde 2019 encarece los costes laborales de las empresas y eleva el gasto de la Seguridad Social en prestaciones. El fenómeno divide a los agentes sociales: la patronal denuncia los cuellos de botella en la sanidad pública que prolongan las bajas médicas, mientras los sindicatos señalan el deterioro de las condiciones laborales, el aumento de la salud mental y el envejecimiento de la plantilla. La confusión ciudadana entre baja justificada y fraude dificulta además un diagnóstico sereno y eficaz. El caso permite matizar el buen momento macroeconómico español a través de las tensiones internas de su mercado de trabajo."
    },
    "vocab": [
     [
-     "estar en el aire",
-     "être incertain / en suspens",
-     "El futuro de varias reformas sociales está en el aire a pocos días de las elecciones."
+     "el absentismo laboral",
+     "l'absentéisme au travail",
+     "El absentismo laboral preocupa cada vez más a las empresas españolas."
     ],
     [
-     "la derogación",
-     "l'abrogation",
-     "El partido ultraderechista exigió la derogación inmediata de la ley de 2021."
+     "una baja médica",
+     "un arrêt maladie",
+     "La mayoría de las ausencias registradas corresponden a bajas médicas justificadas."
     ],
     [
-     "los cuidados paliativos",
-     "les soins palliatifs",
-     "Los médicos insisten en que los cuidados paliativos no se oponen a la eutanasia."
+     "las faltas injustificadas",
+     "les absences injustifiées",
+     "Muchos ciudadanos confunden el absentismo con las faltas injustificadas."
     ],
     [
-     "el respaldo social",
-     "le soutien de l'opinion publique",
-     "La ley de muerte digna cuenta con un amplio respaldo social en España."
+     "la brecha de percepción",
+     "le décalage de perception",
+     "Existe una gran brecha de percepción entre los datos reales y la opinión pública."
     ],
     [
-     "el programa electoral",
-     "le programme électoral",
-     "El programa electoral evita aclarar el alcance real de la reforma."
+     "el tejido empresarial",
+     "le tissu entrepreneurial / économique",
+     "El aumento de las bajas médicas genera costes adicionales al tejido empresarial."
     ],
     [
-     "la muerte digna",
-     "la fin de vie dans la dignité",
-     "El debate sobre la muerte digna ha vuelto al centro de la campaña del 29-N."
+     "las condiciones laborales",
+     "les conditions de travail",
+     "Los sindicatos vinculan el repunte de las bajas al deterioro de las condiciones laborales."
     ]
    ],
    "sujets": [
-    "¿Pueden las alternancias políticas poner en peligro los derechos sociales consolidados en España?",
-    "¿Qué papel desempeñan los debates éticos y culturales en las elecciones españolas?"
+    "¿Es el aumento del absentismo laboral en España un problema de productividad o de salud pública?",
+    "¿Cómo pueden las empresas y el Estado mejorar las condiciones de trabajo sin perder competitividad?"
    ],
    "anki": [
     {
-     "q": "Respaldo social histórico a la eutanasia en España frente a la posición del PP antes del 29-N (El País, 2026)",
-     "r": "Ley aprobada en D{2021} con solo un C{15%} en contra (ya tenía C{62%} de apoyo en D{1995}); Feijóo evoca una «derogación total o parcial».\n→ Ilustra el dilema de la derecha española entre su ala conservadora/Vox y una sociedad muy secularizada → accroche para un ensayo sobre sociedad y política en España."
+     "q": "Evolución de la tasa de absentismo laboral en España entre 2019 y 2026 (Adecco / El Mundo)",
+     "r": "Pasó del C{5,5%} en D{2019} al C{7,76%} en el segundo trimestre de D{2026}; el C{44%} de las empresas afirma que frena su crecimiento.\n→ Matiza el auge macroeconómico español y revela tensiones en B{productividad}, salud pública y condiciones laborales → accroche para un ensayo sobre el mercado laboral en España."
     },
     {
-     "q": "Garantías previstas por la ley española de eutanasia de 2021",
-     "r": "Aprobación por C{2 médicos}, filtro de una comisión autonómica de garantía y ratificación del paciente tras C{15 días}.\n→ Muestra el carácter estrictamente regulado del texto frente a las críticas que reclaman más controles."
+     "q": "Brecha de percepción sobre el absentismo laboral en España según Ipsos y Gi Group (2026)",
+     "r": "El C{45%} de los españoles lo asocia a faltas injustificadas y solo el C{22%} a B{bajas médicas}, pese a que estas explican la mayoría de los casos.\n→ Muestra cómo la confusión social dificulta el diálogo entre patronal y sindicatos."
     }
-   ],
-   "dossier": "elections-espagne-29n"
+   ]
   },
   {
    "id": "2026-11-20-espagnol-2",
    "matiere": "espagnol",
-   "source": "El Mundo",
-   "url": "https://www.elmundo.es/economia/2026/11/20/6aff2c5521efa0ac158b4577.html",
+   "source": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/c6wy9d7ee1zwo",
    "minutes": 3,
-   "titre": "Brésil : le real chute et la Bourse recule alors que le plan d'ajustement budgétaire de Lula divise sa majorité",
-   "faits": "Au lendemain de sa réélection historique pour un quatrième mandat face à Flávio Bolsonaro, le président brésilien Luiz Inácio Lula da Silva se heurte à une vive défiance des marchés financiers, rapporte El Mundo le 20 novembre 2026. Alors que le Sénat a approuvé mercredi soir un plan d'ajustement budgétaire — baptisé « plan Moretti » du nom du ministre de la Planification Bruno Moretti —, le dollar a bondi à 5,91 reais jeudi, son plus haut niveau depuis avril 2025 contre 5,15 en septembre, tandis que la Bourse de São Paulo reculait de 1,34 %. Ce texte, qui doit encore être voté par la Chambre des députés lundi, prévoit environ 56 milliards de reais (près de 8,6 milliards d'euros) d'économies et de recettes nouvelles par an à partir de 2027, un effort jugé insuffisant par des investisseurs inquiets d'une dette publique supérieure à 92 % du PIB. Face à la dégringolade du real, la Banque centrale du Brésil a même dû intervenir sur le marché des changes en vendant un milliard de dollars de réserves. Politiquement, Lula se retrouve pris en tenaille : l'aile gauche du Parti des travailleurs (PT) dénonce un reniement social après des promesses de campagne estimées à 50 milliards d'euros, tandis que l'opposition de droite parle d'« escroquerie électorale ».",
-   "enjeux": "Cette crise de confiance illustre le dilemme récurrent des gouvernements progressistes en **Amérique latine**, pris entre la **contrainte financière extérieure** et les attentes sociales de leur électorat. Lorsque la **dette publique** dépasse 90 % du PIB dans un pays émergent, la moindre hésitation sur la trajectoire budgétaire déclenche une fuite des capitaux et une **dépréciation monétaire** qui renchérit les produits importés (notamment les carburants) et ravive l'**inflation**, frappant d'abord les classes populaires. Le « plan Moretti » montre que même un dirigeant historique de gauche comme Lula ne peut ignorer la discipline des marchés s'il veut préserver la stabilité macroéconomique avant sa prise de fonction en janvier 2027. L'incertitude autour du futur ministre des Finances — entre figures modérées comme le vice-président Geraldo Alckmin et profils plus interventionnistes du PT — accentue cette nervosité. En essai d'espagnol, le cas brésilien est une excellente illustration de la tension entre **ajustement budgétaire** et promesses redistributives dans les grandes économies latino-américaines.",
+   "titre": "Brésil : le contact inhabituel d'un groupe d'indigènes isolés awá alerte sur la pression des bûcherons en Amazonie",
+   "dossier": "peuples-autochtones-amazonie-bresil",
+   "faits": "Comme le rapporte BBC Mundo le 19 novembre 2026, l'apparition inhabituelle de 20 indigènes awá isolés devant un poste de la Fondation nationale des peuples indigènes (Funai) le 16 novembre dans la terre indigène d'Arariboia, dans l'État brésilien du Maranhão, suscite une vive inquiétude chez les défenseurs de l'Amazonie. Les awá, qui vivent de chasse, de pêche et de cueillette dans le nord-est amazonien, avaient jusqu'ici choisi l'isolement volontaire, mais sont sortis de la forêt pour entrer en contact avec des membres du peuple guajajara. Selon Sarah Schenker, directrice de l'ONG Survival Brasil, ce type de rapprochement forcé résulte presque toujours de l'avancée des bûcherons illégaux, des éleveurs et des colons qui encerclent leurs territoires à coups de tronçonneuses et de pistes forestières. L'article rappelle le précédent de trois awá contraints de fuir la forêt en 2015 face à la pression minière et forestière liée au méga-projet minier de Carajás lancé dans les années 1980, qui avaient alors contracté des maladies respiratoires graves comme la grippe et la tuberculose. Pour les ONG, chaque contact non désiré expose ces peuples à un risque sanitaire mortel faute d'immunité et menace directement leur survie culturelle.",
+   "enjeux": "Cet épisode révèle la vulnérabilité persistante des **peuples autochtones isolés** d'Amazonie face au modèle extractiviste et à la **déforestation illégale** au Brésil. Même dans des terres officiellement démarquées comme Arariboia, la faiblesse des moyens de surveillance de la **Funai** laisse le champ libre aux réseaux illégaux de bois, d'orpaillage et d'élevage extensif. L'enjeu dépasse les seuls droits humains : de nombreuses études montrent que les territoires autochtones constituent les meilleurs remparts contre la destruction de la **forêt amazonienne** et la perte de biodiversité, faisant de leur protection un levier majeur contre le changement climatique. Le cas des awá rappelle également le dilemme historique de l'**Amérique latine** entre exploitation des ressources naturelles (mines, agro-industrie) pour financer le développement et respect du droit à l'autodétermination des communautés indigènes. En essai d'espagnol, cette actualité offre un exemple précis et marquant pour traiter l'écologie, l'extractivisme et les droits des peuples originaires.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Bovespa.jpg",
-    "alt": "Siège de la Bourse de São Paulo (Bovespa) au Brésil",
-    "credit": "Rockmysock / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Bovespa.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Aerial_view_of_the_Amazon_Rainforest.jpg",
+    "alt": "Vue aérienne de la forêt amazonienne et d'un fleuve au Brésil",
+    "credit": "lubasi / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Amazon_Rainforest.jpg"
    },
    "vo": {
-    "titre": "El real cae y la Bolsa retrocede mientras el ajuste fiscal de Lula divide a su base",
-    "faits": "Tras lograr un histórico cuarto mandato presidencial frente a Flávio Bolsonaro, Luiz Inácio Lula da Silva afronta fuertes turbulencias financieras, según informa El Mundo el 20 de noviembre de 2026. Después de que el Senado aprobara el miércoles por la noche un paquete de ajuste fiscal —conocido como «plan Moretti» por el ministro de Planificación Bruno Moretti—, el dólar subió el jueves hasta los 5,91 reales, su máximo desde abril de 2025 frente a los 5,15 de septiembre, mientras la Bolsa de São Paulo cayó un 1,34 %. El proyecto, que espera el voto definitivo de la Cámara de Diputados el lunes, prevé ahorros y mayores ingresos por unos 56.000 millones de reales anuales (cerca de 8.600 millones de euros) a partir de 2027, una cifra que los mercados consideran insuficiente ante una deuda pública superior al 92 % del PIB. Para frenar la escalada del dólar, el Banco Central de Brasil tuvo que vender mil millones de dólares de sus reservas. En el plano político, el plan desató el malestar del ala izquierda del Partido de los Trabajadores (PT), mientras la oposición acusa al presidente de «estafa electoral» tras sus millonarias promesas de campaña.",
-    "enjeux": "Esta crisis de confianza ilustra el dilema recurrente de los gobiernos progresistas en América Latina, atrapados entre la disciplina de los mercados financieros y las demandas sociales de su electorado. Cuando la deuda pública rebasa el 90 % del PIB en una economía emergente, las dudas sobre la consolidación fiscal provocan salidas de capital y una depreciación de la moneda que encarece las importaciones y alimenta la inflación, erosionando el poder adquisitivo popular. El «plan Moretti» demuestra que incluso un líder histórico de la izquierda como Lula necesita enviar señales de rigor macroeconómico antes de iniciar su nuevo mandato en enero. Además, la incógnita sobre quién dirigirá el Ministerio de Hacienda —entre perfiles moderados como Geraldo Alckmin o figuras más intervencionistas del PT— prolonga el nerviosismo inversor. El episodio constituye un ejemplo clave de la difícil convivencia entre políticas redistributivas y estabilidad financiera en la región."
+    "titre": "El inusual contacto de indígenas awá aislados alerta sobre la presión maderera en la Amazonía",
+    "faits": "Según informa BBC Mundo el 19 de noviembre de 2026, la aparición de 20 indígenas awá aislados ante un puesto de la Fundación Nacional de los Pueblos Indígenas (Funai) el 16 de noviembre en la Tierra Indígena Arariboia, en el estado brasileño de Maranhão, ha despertado gran preocupación entre las ONG ambientalistas. Los awá, cazadores-recolectores del noreste amazónico que evitaban todo contacto exterior, salieron de la selva y se acercaron a indígenas guajajaras. Para Sarah Schenker, directora de Survival Brasil, estos desplazamientos forzados suelen obedecer al cerco de madereros ilegales, ganaderos y colonos que abren carreteras y talan árboles en sus tierras. El reportaje recuerda el caso de tres awá obligados a abandonar la selva en 2015 bajo la presión derivada del Gran Proyecto Carajás —iniciado en los años ochenta—, quienes sufrieron gripe y tuberculosis al perder su aislamiento. Los especialistas advierten que cada contacto involuntario expone a estos pueblos a enfermedades letales y amenaza su supervivencia.",
+    "enjeux": "El episodio pone de manifiesto la fragilidad de los pueblos indígenas en aislamiento voluntario frente al avance de la deforestación ilegal y del extractivismo en Brasil. Incluso en territorios oficialmente protegidos como Arariboia, la falta de recursos de la Funai dificulta frenar a las redes de tala ilegal y ganadería extensiva. Más allá de los derechos humanos y la autodeterminación, proteger las tierras indígenas resulta esencial para la lucha contra el cambio climático, ya que actúan como las barreras más eficaces contra la destrucción de la selva amazónica. El drama de los awá refleja el dilema histórico de América Latina entre explotar sus recursos naturales y preservar su biodiversidad y diversidad cultural. En un ensayo de civilización, el caso ilustra de forma concreta los costes humanos y ecológicos del modelo extractivista."
    },
    "vocab": [
     [
-     "un ajuste fiscal",
-     "un ajustement budgétaire",
-     "El Gobierno impulsa un ajuste fiscal para contener el crecimiento de la deuda pública."
+     "los pueblos indígenas aislados",
+     "les peuples autochtones isolés",
+     "El Estado tiene el deber de proteger el territorio de los pueblos indígenas aislados."
     ],
     [
-     "la estafa electoral",
-     "l'escroquerie électorale",
-     "La oposición calificó los recortes de estafa electoral tras las promesas de campaña."
+     "los madereros ilegales",
+     "les bûcherons illégaux",
+     "El avance de los madereros ilegales amenaza la supervivencia de la selva."
     ],
     [
-     "las turbulencias financieras",
-     "les turbulences financières",
-     "Las dudas presupuestarias provocaron fuertes turbulencias financieras en São Paulo."
+     "la tala de árboles",
+     "l'abattage d'arbres / la déforestation",
+     "La tala de árboles abre caminos que invaden las reservas protegidas."
     ],
     [
-     "contener el gasto",
-     "maîtriser la dépense publique",
-     "Los inversores exigen medidas más ambiciosas para contener el gasto estatal."
+     "la autodeterminación",
+     "l'autodétermination",
+     "Las ONG defienden el derecho a la autodeterminación de las comunidades aisladas."
     ],
     [
-     "la recaudación",
-     "les recettes fiscales",
-     "El plan combina recortes presupuestarios con medidas para aumentar la recaudación."
+     "el desplazamiento forzado",
+     "le déplacement forcé",
+     "La presión minera provocó el desplazamiento forzado de varias familias indígenas."
     ],
     [
-     "las reservas internacionales",
-     "les réserves de change",
-     "El Banco Central vendió mil millones de dólares de sus reservas internacionales."
+     "el extractivismo",
+     "l'extractivisme",
+     "El modelo basado en el extractivismo choca con la conservación de la Amazonía."
     ]
    ],
    "sujets": [
-    "¿Pueden los gobiernos progresistas de América Latina conciliar políticas sociales y confianza de los mercados?",
-    "¿En qué medida condiciona la deuda pública las decisiones políticas en América Latina?"
+    "¿Cómo puede América Latina conciliar el desarrollo económico con la protección de la Amazonía y los pueblos indígenas?",
+    "¿Son eficaces las políticas actuales de defensa de los derechos territoriales indígenas en América Latina?"
    ],
    "anki": [
     {
-     "q": "Reacción del real brasileño y monto del ajuste fiscal («plan Moretti») impulsado por Lula (nov 2026)",
-     "r": "El dólar subió de C{5,15} a C{5,91 reales} y la Bolsa cayó C{1,34%}, pese a un ajuste previsto de C{56.000 M de reales} (C{8.600 M€}) anuales.\n→ Muestra cómo la desconfianza financiera limita el margen de un gobierno de izquierda con deuda superior al C{92%} del PIB → accroche para un ensayo sobre economía y política en América Latina."
+     "q": "Evento inusual ocurrido en la Tierra Indígena Arariboia (Maranhão, Brasil) el 16 de noviembre de 2026 (BBC Mundo)",
+     "r": "C{20} indígenas B{awá} aislados salieron de la selva ante un puesto de la B{Funai}, acorralados por madereros ilegales y ganaderos.\n→ Ilustra el peligro sanitario y cultural del B{extractivismo} y la deforestación sobre los pueblos aislados de la Amazonía → accroche para un ensayo sobre medio ambiente o derechos indígenas en América Latina."
     },
     {
-     "q": "Doble presión política que enfrenta Lula tras aprobarse el ajuste fiscal en el Senado (nov 2026)",
-     "r": "El ala izquierda del B{PT} denuncia un giro austero, mientras la derecha lo acusa de «B{estafa electoral}» tras prometer ayudas en campaña.\n→ Ilustra el dilema entre promesas redistributivas y credibilidad macroeconómica."
+     "q": "Riesgo principal que enfrentan los pueblos amazónicos aislados al entrar en contacto forzado",
+     "r": "Enfermedades respiratorias comunes (gripe, tuberculosis) contra las que carecen de inmunidad, además de la pérdida de su territorio de caza.\n→ Demuestra por qué la protección territorial estricta es clave para su supervivencia y la de la selva."
     }
-   ],
-   "dossier": "bresil-lula-budget"
+   ]
   },
   {
    "id": "2026-11-20-espagnol-3",
    "matiere": "espagnol",
-   "source": "Clarín",
-   "url": "https://www.clarin.com/economia/exportaciones-alcanzaron-nuevo-record-acumulo-meses-superavit-comercial_0_I5RgTv5OUr.html",
+   "source": "La Tercera",
+   "url": "https://www.latercera.com/nacional/noticia/despachan-del-senado-presupuesto-2027-aprueban-partidas-de-educacion-y-mujer-pero-rechazan-fondos-de-agricultura/",
    "minutes": 3,
-   "titre": "Argentine : les exportations battent un nouveau record en octobre et portent l'excédent commercial près de 25 milliards de dollars",
-   "faits": "Selon les chiffres officiels publiés le 19 novembre 2026 et analysés par Clarín, les exportations argentines de biens ont dépassé pour le deuxième mois consécutif les 10 milliards de dollars en octobre (10,061 milliards), atteignant un record historique avec une hausse de 26 % sur un an. Cette performance a permis de dégager un excédent commercial mensuel de 3,394 milliards de dollars, portant le solde cumulé entre janvier et octobre à 24,568 milliards de dollars, contre 6,859 milliards sur la même période en 2025. Le bond des ventes à l'étranger est tiré de façon spectaculaire par le secteur des combustibles et de l'énergie, dont les exportations ont grimpé de 93,9 % en octobre pour atteindre 1,734 milliard de dollars, avec un pétrole brut en hausse de 121,7 % sur un an. Les produits manufacturés d'origine agroalimentaire restent toutefois le premier poste d'exportation sur dix mois (29,044 milliards de dollars). En parallèle, les importations ont reculé de 6,7 % en octobre (et de 2,9 % sur dix mois), reflétant notamment la chute des achats de biens de consommation (−11,3 %) et de véhicules (−24,2 %), signe d'une activité intérieure encore atone.",
-   "enjeux": "Ces chiffres révèlent la transformation profonde du modèle extérieur argentin sous la présidence de Javier Milei, mais aussi ses fragilités structurelles. D'un côté, la montée en puissance des hydrocarbures (notamment le gisement de **Vaca Muerta**) et la vigueur de l'agro-exportation fournissent au pays les **devises** indispensables pour reconstituer ses réserves de change et stabiliser son économie. De l'autre, l'ampleur de l'**excédent commercial** tient aussi au recul des importations, directement lié à la faiblesse de la demande intérieure et de l'industrie locale — une asymétrie typique des plans d'ajustement récessifs. L'Argentine voit ainsi se renforcer sa **reprimarisation**, c'est-à-dire sa dépendance aux matières premières agricoles et énergétiques dont les prix fluctuent sur les marchés mondiaux. Sur le plan géopolitique, la persistance de déficits commerciaux avec la Chine et le Brésil contraste avec les excédents enregistrés envers le Chili, l'Union européenne et les États-Unis. En khôlle, cette actualité illustre parfaitement les succès et les limites de la stratégie d'ouverture et d'ajustement argentine.",
+   "titre": "Chili : le Sénat adopte le budget 2027 pour l'Éducation et les Femmes mais rejette les crédits agricoles",
+   "dossier": "budget-chili-2027",
+   "faits": "À l'aube du vendredi 20 novembre 2026, le Sénat chilien a transmis en troisième lecture le projet de loi de budget 2027 après avoir achevé le vote des treize derniers volets ministériels, rapporte La Tercera. Grâce à une série de compromis entre le gouvernement et l'opposition, les sénateurs ont finalement rétabli les dépenses variables de ministères clés comme l'Éducation, l'Intérieur, les Mines, les Sciences, la Culture et la Condition féminine, et approuvé à l'unanimité le budget du ministère public renforcé de 4,454 milliards de pesos. En revanche, les sénateurs ont rejeté la partie consacrée à l'Agriculture en raison de coupes prévues dans les financements de l'Indap, l'institut public de soutien à la petite agriculture familiale. Le débat sur le logement social a également cristallisé des critiques transpartisanes contre une clause gouvernementale qui aurait durci les conditions d'avances publiques versées aux constructeurs, finalement retirée par l'exécutif à la demande de la présidente du Sénat Paulina Núñez. Même si le volet Logement a finalement été adopté par 32 voix, plusieurs subventions destinées à la rénovation et à l'habitat rural ont été rejetées, reflétant des négociations budgétaires très serrées.",
+   "enjeux": "Ce marathon parlementaire reflète l'équilibre politique fragmenté du **Chili**, où l'exécutif ne dispose pas de majorité absolue au Congrès et doit négocier chaque ligne budgétaire avec l'opposition. Le rejet des crédits de l'Agriculture et des aides à l'habitat rural met en lumière une fracture territoriale récurrente entre la métropole de **Santiago** et les régions rurales, très dépendantes des subventions publiques à l'agriculture familiale et au logement. Parallèlement, la hausse des moyens du ministère public et les exigences de transparence votées par le Sénat témoignent de la priorité accordée à la **sécurité** et à l'efficacité judiciaire dans le débat public chilien. Sur le plan économique, le compromis sur le **budget 2027** illustre la recherche d'un équilibre difficile entre **responsabilité fiscale** — marqueur historique du modèle chilien — et maintien des politiques sociales (éducation, logement, égalité). En khôlle d'espagnol, le Chili offre un contrepoint institutionnel intéressant face aux crises plus polarisées de ses voisins latino-américains.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Puerto_de_Buenos_Aires%2C_Argentina.jpg",
-    "alt": "Installations portuaires et conteneurs au port de Buenos Aires en Argentine",
-    "credit": "Unknown author Unknown author / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Puerto_de_Buenos_Aires,_Argentina.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Edificio_del_congreso_nacional_de_chile.JPG",
+    "alt": "Bâtiment du Congrès national du Chili à Valparaíso",
+    "credit": "Luchin66 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Edificio_del_congreso_nacional_de_chile.JPG"
    },
    "vo": {
-    "titre": "Las exportaciones argentinas marcan un récord histórico y el superávit comercial roza los 25.000 millones",
-    "faits": "Según datos oficiales difundidos el 19 de noviembre de 2026 y analizados por Clarín, las exportaciones argentinas de bienes superaron por segundo mes consecutivo los 10.000 millones de dólares en octubre (10.061 millones), marcando un récord histórico con un salto interanual del 26 %. Este desempeño generó un superávit comercial mensual de 3.394 millones de dólares y elevó el saldo positivo acumulado entre enero y octubre a 24.568 millones, frente a los 6.859 millones del mismo periodo de 2025. El impulso estuvo liderado por combustibles y energía, que crecieron un 93,9 % interanual en octubre hasta los 1.734 millones, con ventas de petróleo crudo un 121,7 % superiores a las de hace un año. No obstante, las manufacturas de origen agropecuario siguen encabezando el acumulado anual con 29.044 millones de dólares. En sentido contrario, las importaciones cayeron un 6,7 % en octubre —con fuertes descensos en bienes de consumo (−11,3 %) y automóviles (−24,2 %)—, lo que refleja la debilidad de la actividad interna.",
-    "enjeux": "Estas cifras muestran tanto la transformación del sector externo argentino como las contradicciones del ajuste económico. Por un lado, el auge energético y la fortaleza agroexportadora aportan las divisas necesarias para reforzar las reservas y apuntalar la estabilización macroeconómica. Por otro lado, el abultado superávit comercial se explica también por la contracción de las importaciones, síntoma de un consumo interno reprimido y de una industria fabril golpeada. El modelo acentúa así la reprimarización de la economía argentina, cada vez más dependiente de los precios internacionales de las materias primas y del petróleo. En el plano bilateral, el déficit con China y Brasil contrasta con los superávits logrados frente a Chile, la Unión Europea y Estados Unidos. El caso ilustra con claridad las luces y sombras de la inserción comercial de América Latina en la economía global."
+    "titre": "El Senado de Chile despacha el Presupuesto 2027 tras aprobar Educación y rechazar Agricultura",
+    "faits": "En la madrugada del viernes 20 de noviembre de 2026, el Senado chileno despachó a tercer trámite el proyecto de Presupuesto 2027 tras votar las últimas trece partidas ministeriales, informa La Tercera. Mediante acuerdos entre el Ejecutivo y la oposición, los senadores repusieron los gastos variables de carteras clave como Educación, Interior, Minería, Ciencia, Cultura y Mujer, y aprobaron por unanimidad un refuerzo de 4.454 millones de pesos para el Ministerio Público. En cambio, la Cámara Alta rechazó los fondos de Agricultura en protesta por los recortes al Indap, organismo clave para la pequeña agricultura familiar. En la partida de Vivienda, críticas transversales obligaron al Gobierno a retirar una glosa que endurecía los anticipos a las constructoras de viviendas sociales, aunque también se rechazaron subsidios para el patrimonio familiar y la habitabilidad rural. El texto pasa ahora a su siguiente fase legislativa bajo una fuerte presión por conciliar rigor fiscal y demandas regionales.",
+    "enjeux": "Esta negociación presupuestaria refleja la fragmentación política de Chile, donde la ausencia de mayorías absolutas en el Congreso obliga a pactar cada partida entre el Ejecutivo y la oposición. El rechazo de los fondos agrícolas y de los subsidios rurales evidencia la brecha persistente entre la capital y las regiones, muy dependientes del apoyo estatal a la agricultura familiar y a la construcción. Al mismo tiempo, el incremento de recursos para la Fiscalía y las nuevas exigencias de transparencia confirman el peso creciente de la seguridad ciudadana en la agenda política chilena. En el plano económico, el Presupuesto 2027 muestra el difícil equilibrio entre la tradicional disciplina fiscal del país y la financiación de derechos sociales como la educación y la vivienda. El caso chileno ilustra así el papel central de la negociación institucional en la gobernabilidad democrática latinoamericana."
    },
    "vocab": [
     [
-     "el superávit comercial",
-     "l'excédent commercial",
-     "Argentina acumuló un superávit comercial cercano a los 25.000 millones de dólares."
+     "despachar un proyecto",
+     "adopter et transmettre un projet de loi",
+     "El Senado despachó el proyecto de Presupuesto tras una larga sesión."
     ],
     [
-     "el salto interanual",
-     "le bond sur un an",
-     "Las exportaciones registraron un salto interanual del 26 % en octubre."
+     "una partida presupuestaria",
+     "une ligne / un volet budgétaire",
+     "Los parlamentarios rechazaron la partida presupuestaria dedicada a la agricultura."
     ],
     [
-     "el petróleo crudo",
-     "le pétrole brut",
-     "El petróleo crudo se convirtió en el principal motor de las ventas exteriores."
+     "la vivienda social",
+     "le logement social",
+     "Las constructoras advirtieron del impacto de las trabas sobre la vivienda social."
     ],
     [
-     "las manufacturas agropecuarias",
-     "les produits manufacturés agroalimentaires",
-     "Las manufacturas agropecuarias siguen siendo el primer rubro exportador del país."
+     "el rigor fiscal",
+     "la rigueur budgétaire",
+     "Chile intenta compatibilizar el rigor fiscal con la inversión en educación."
     ],
     [
-     "la reprimarización",
-     "la reprimarisation (retour vers les matières premières)",
-     "El peso creciente de la energía reaviva el debate sobre la reprimarización económica."
+     "críticas transversales",
+     "des critiques transpartisanes",
+     "La propuesta del Ejecutivo recibió críticas transversales en el Congreso."
     ],
     [
-     "la actividad interna",
-     "l'activité économique intérieure",
-     "La caída de las importaciones refleja la debilidad persistente de la actividad interna."
+     "el Ministerio Público",
+     "le ministère public / le parquet",
+     "El presupuesto aumentó los fondos del Ministerio Público para reforzar la seguridad."
     ]
    ],
    "sujets": [
-    "¿Constituye el auge energético una oportunidad duradera o una nueva dependencia para Argentina?",
-    "¿Basta un fuerte superávit comercial para garantizar la recuperación económica de un país latinoamericano?"
+    "¿Es la fragmentación parlamentaria un obstáculo o una garantía democrática en América Latina?",
+    "¿Cómo equilibrar disciplina presupuestaria y cohesión territorial en países como Chile?"
    ],
    "anki": [
     {
-     "q": "Exportaciones de octubre y superávit comercial acumulado de Argentina en 2026 (Clarín, nov 2026)",
-     "r": "Récord de C{10.061 M$} en octubre (+C{26%} interanual) y superávit de C{24.568 M$} entre enero y octubre (frente a C{6.859 M$} en D{2025}).\n→ Impulsado por la energía (+C{93,9%}), pero también por la caída de importaciones (−C{6,7%}), reflejando un ajuste recesivo y mayor B{reprimarización} → accroche para un ensayo sobre economía argentina."
+     "q": "Decisiones clave del Senado de Chile sobre el Presupuesto 2027 (La Tercera, nov 2026)",
+     "r": "Repuso gastos de B{Educación} y B{Mujer} y sumó C{4.454 M de pesos} al Ministerio Público, pero rechazó B{Agricultura} por recortes al Indap.\n→ Refleja la negociación obligada en un Congreso fragmentado y la brecha entre Santiago y las regiones rurales → accroche para un ensayo sobre gobernabilidad en América Latina."
     },
     {
-     "q": "Contraste en los saldos bilaterales de Argentina en octubre de 2026",
-     "r": "Déficit con China (C{−400 M$}) y Brasil (C{−156 M$}), frente a superávit con Chile (C{+534 M$}), la UE (C{+277 M$}) y EE. UU. (C{+250 M$}).\n→ Muestra la fuerte dependencia industrial respecto a China y Brasil pese al récord exportador."
+     "q": "Medida retirada por el Gobierno chileno en la partida de Vivienda del Presupuesto 2027",
+     "r": "Una glosa que limitaba los anticipos del Serviu a constructoras de B{viviendas sociales}, criticada de forma transversal por oficialismo y oposición.\n→ Muestra el peso de los consensos parlamentarios en defensa de la inversión regional."
     }
-   ],
-   "dossier": "economie-argentine-milei"
+   ]
   },
   {
    "id": "2026-11-20-espagnol-4",
