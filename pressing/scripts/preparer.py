@@ -53,8 +53,8 @@ if _att:
 sys.path.insert(0, str(ROOT / "scripts"))
 import dossiers
 print(dossiers.resume(today))
-print("INTERDIT = ce sujet ne peut pas revenir aujourd'hui. « suite seulement » = possible uniquement avec un fait nouveau")
-print("et décisif (champ \"suite\"), une seule suite par édition. Les dossiers « libres » anciens ne sont pas affichés.")
+print("« suite seulement » = ce sujet ne revient que s'il y a une vraie évolution (champ \"suite\"), une seule suite")
+print("par édition. Pour redire la même chose : non, choisis une autre actu. Les dossiers « libres » anciens ne sont pas affichés.")
 print()
 print("=== « À LIRE » DES 5 DERNIÈRES ÉDITIONS : ne pas les reprendre ===")
 programme = {}

@@ -5,11 +5,9 @@ qu'elle raconte (ex. "midterms-2026", "elections-espagne-29n", "economie-argenti
 Toutes les cartes qui parlent de la même histoire ont le même dossier, quel que soit l'angle.
 
 Règles (vérifiées par scripts/verifier.py) :
-- un dossier traité il y a moins de SUITE_MIN jours est interdit ;
-- traité il y a SUITE_MIN à JOURS_PAUSE jours : seulement en carte "suite"
-  (champ "suite" = le fait nouveau et décisif en une phrase) ;
-- un dossier traité MAX_FENETRE fois ou plus sur les FENETRE derniers jours est saturé :
-  il ne redevient jamais libre, seulement possible en "suite" ;
+- un dossier traité ces JOURS_PAUSE derniers jours, ou saturé (MAX_FENETRE cartes ou plus
+  sur les FENETRE derniers jours), ne revient qu'en carte "suite" : champ "suite" = la vraie
+  évolution en une phrase (résultat, vote, décision, chiffre officiel), jamais pour redire la même chose ;
 - une seule carte "suite" par édition ;
 - jamais deux cartes du même dossier dans une édition (toutes matières confondues).
 
@@ -24,7 +22,6 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
 JOURS_PAUSE = 10
-SUITE_MIN = 4
 FENETRE = 30
 MAX_FENETRE = 3
 
@@ -66,12 +63,10 @@ def bloques(avant):
         dernier = cartes[0][0]
         ecart = (d0 - _date.fromisoformat(dernier)).days
         sature = len(cartes) >= MAX_FENETRE
-        if ecart < SUITE_MIN:
-            interdits[dos] = f"traité le {dernier} (il y a {ecart} jour{'s' if ecart > 1 else ''})"
-        elif ecart <= JOURS_PAUSE:
-            suite_ok[dos] = f"traité le {dernier} : seulement en « suite » s'il y a un fait nouveau décisif"
+        if ecart <= JOURS_PAUSE:
+            suite_ok[dos] = f"traité le {dernier} : seulement en « suite » s'il y a une vraie évolution"
         elif sature:
-            suite_ok[dos] = f"saturé ({len(cartes)} cartes en {FENETRE} jours) : seulement en « suite » s'il y a un fait nouveau décisif"
+            suite_ok[dos] = f"saturé ({len(cartes)} cartes en {FENETRE} jours) : seulement en « suite » s'il y a une vraie évolution"
     return interdits, suite_ok
 
 
