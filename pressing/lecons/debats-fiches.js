@@ -20,13 +20,14 @@ parts: [
 {lab:"Non", ti:"Certaines spécialisations appauvrissent", sp:[
  {t:"Se spécialiser au mauvais endroit", p:[
   "[a:Graham], [w:Some Aspects of Protection Further Considered] ([d:1923])\nUn pays qui se spécialise dans un secteur à rendements décroissants (l'agriculture) et abandonne un secteur à rendements croissants (l'industrie) voit ses coûts monter à mesure qu'il produit plus : il peut perdre à l'échange."],
-  ex:["La Côte d'Ivoire est le premier producteur mondial de cacao mais ne capte qu'environ [n:6 %] des [n:130 Md$] de valeur de la filière : la transformation et la marque restent au Nord."]},
+  ex:["La Côte d'Ivoire est le premier producteur mondial de cacao mais ne capte qu'environ [n:6 %] des [n:130 Md$] de valeur de la filière : la transformation et la marque restent au Nord.", "La Guinée, premier producteur mondial de bauxite, cherche [n:1,9 Md$] pour un port en eaux profondes afin d'exporter plus de minerai, tout en disant vouloir se diversifier au-delà des mines (La Tribune, 18 nov. 2026)."]},
  {t:"Des prix qui jouent contre le Sud", p:[
   "[a:Prebisch], [w:The Economic Development of Latin America and its Principal Problems] ([d:1950])\nLes termes de l'échange des produits primaires se dégradent sur longue période : quand le revenu mondial augmente, la demande de matières premières augmente moins vite que celle de biens industriels, et les gains de productivité du Nord se traduisent en hausses de salaires plutôt qu'en baisses de prix. Le Sud doit exporter toujours plus pour importer autant.",
   "[a:Bhagwati], [w:Immiserizing Growth] ([d:1958])\nCroissance appauvrissante : si un grand exportateur produit davantage d'un bien dont la demande est peu sensible au prix, le cours mondial s'effondre et sa recette baisse. Il produit plus et s'appauvrit."],
   ex:["La Zambie dépend du cuivre : chaque chute des cours fait plonger ses recettes d'exportation.", "Le café brésilien à la fin des années 1920 : la surproduction fait s'effondrer les cours, et le Brésil finit par brûler une partie de ses stocks."]},
  {t:"Un échange inégal", p:[
-  "[a:Emmanuel], [w:L'Échange inégal] ([d:1969])\nComme les salaires du Sud sont bien plus bas, une heure de travail du Sud s'échange contre moins d'une heure de travail du Nord. Le commerce transfère de la valeur du Sud vers le Nord, même quand les prix paraissent justes."]}
+  "[a:Emmanuel], [w:L'Échange inégal] ([d:1969])\nComme les salaires du Sud sont bien plus bas, une heure de travail du Sud s'échange contre moins d'une heure de travail du Nord. Le commerce transfère de la valeur du Sud vers le Nord, même quand les prix paraissent justes."],
+  ex:["Selon Josep Borrell, [n:70 %] des ressources minières de l'Amérique latine sont encore exportées brutes, sans être raffinées sur place, alors que le continent détient plus de la moitié des réserves mondiales de lithium (El País, 3 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Tous gagnent, mais pas autant", sp:[
  {t:"Le partage dépend de la demande", p:[
@@ -64,7 +65,7 @@ parts: [
   ex:["La zone économique spéciale de Shenzhen ([d:1980]) : un village de pêcheurs devenu un pôle mondial de l'électronique."]},
  {t:"Remonter les filières", p:[
   "[a:Akamatsu] ([d:1937])\nVol d'oies sauvages : un pays importe un produit, puis le fabrique, puis l'exporte, avant de passer à des biens plus sophistiqués et de laisser les anciens aux pays qui le suivent."],
-  ex:["Le Japon de l'ère Meiji passe du textile à l'industrie lourde ; les dragons asiatiques suivent ensuite la même trajectoire derrière lui."]}
+  ex:["Le Japon de l'ère Meiji passe du textile à l'industrie lourde ; les dragons asiatiques suivent ensuite la même trajectoire derrière lui.", "La Chine garde sur son sol la « masse noire » des batteries usagées, riche en lithium, cobalt et nickel, pour contrôler aussi le recyclage ; l'UE et les États-Unis limitent à leur tour l'export de ces déchets (Courrier international, 16 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Le point de départ compte, la politique fait le reste", sp:[
  {t:"Des avantages construits sous contrainte", p:[
@@ -94,7 +95,7 @@ parts: [
   "[a:Samuelson], [w:International Trade and the Equalisation of Factor Prices] ([d:1948])\nThéorème d'égalisation des prix des facteurs : en échangeant des biens, les pays échangent indirectement les facteurs qu'ils contiennent. Les salaires des non-qualifiés du Nord sont tirés vers ceux du Sud sans que personne ne migre."]},
  {t:"Des territoires sinistrés", p:[
   "[a:Autor, Dorn et Hanson], [w:The China Syndrome] ([d:2013])\nLa concurrence des importations chinoises explique environ un quart du recul de l'emploi industriel américain entre [d:1990] et [d:2007]. Les pertes sont concentrées dans certains bassins d'emploi, où chômage et baisse des salaires durent."],
-  ex:["La Rust Belt américaine, dont le vote a pesé dans l'élection de Trump en 2016."]}
+  ex:["La Rust Belt américaine, dont le vote a pesé dans l'élection de Trump en 2016.", "En Argentine, l'ouverture commerciale de Milei fait chuter la production textile de [n:34 %] en trois ans : plus de [n:1 000] PME fermées et [n:25 000] emplois détruits, surtout dans la province de Buenos Aires et le nord du pays (Clarín, 11 nov. 2026).", "La liquidation de Fibre Excellence à Saint-Gaudens, dernier producteur français de pâte à papier, face aux usines géantes sud-américaines et scandinaves : [n:300] licenciements et plus de [n:2 000] emplois indirects fragilisés en Occitanie (Le Figaro, 12 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Nomades et sédentaires", sp:[
  {t:"Un nouveau clivage", p:[
@@ -129,7 +130,8 @@ parts: [
  {t:"Des études fragiles", p:[
   "[a:Rodriguez et Rodrik], [w:Trade Policy and Economic Growth] ([d:1999])\nLes études qui relient ouverture et croissance mesurent mal l'ouverture et la confondent avec d'autres facteurs : institutions, stabilité macroéconomique. Aucune causalité n'est démontrée. [a:Irwin] ([d:2019]) trouve toutefois, dans les travaux récents, un effet positif moyen des libéralisations."]},
  {t:"Une concurrence déloyale", p:[
-  "[a:Allais], [w:La Mondialisation : la destruction des emplois et de la croissance] ([d:1999])\nLe libre-échange entre pays aux salaires et aux protections sociales très différents détruit emplois et croissance en Europe. Il ne vaut qu'entre économies comparables, d'où son plaidoyer pour un libre-échange régional."]}
+  "[a:Allais], [w:La Mondialisation : la destruction des emplois et de la croissance] ([d:1999])\nLe libre-échange entre pays aux salaires et aux protections sociales très différents détruit emplois et croissance en Europe. Il ne vaut qu'entre économies comparables, d'où son plaidoyer pour un libre-échange régional."],
+  ex:["Pékin subventionne ses capacités industrielles plutôt que les revenus des ménages : les surcapacités chinoises sont déversées sur les marchés occidentaux, selon Jean Pisani-Ferry (Le Monde, 8 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Un accélérateur, sous conditions", sp:[
  {t:"Le décollage est d'abord interne", p:[
@@ -152,7 +154,7 @@ parts: [
 {lab:"Oui", ti:"Cinq raisons de protéger", sp:[
  {t:"Éduquer une industrie naissante", p:[
   "[a:List], [w:Système national d'économie politique] ([d:1841])\nUne industrie naissante ne peut pas affronter tout de suite des concurrents déjà installés. Il faut la protéger le temps qu'elle apprenne, avec une protection temporaire et dégressive, puis revenir au libre-échange."],
-  ex:["La Corée protège son automobile dans les années 1970 : Hyundai devient ensuite un exportateur mondial."]},
+  ex:["La Corée protège son automobile dans les années 1970 : Hyundai devient ensuite un exportateur mondial.", "Le patron de Solvay demande à l'UE des prix garantis ou un prix plancher pour les terres rares : sans protection contre la concurrence subventionnée chinoise, l'usine de séparation de La Rochelle risque de ne pas être rentable (La Tribune, 17 nov. 2026)."]},
  {t:"Capter une rente", p:[
   "[a:Brander et Spencer], [w:Export Subsidies and International Market Share Rivalry] ([d:1985])\nSur un marché mondial dominé par quelques firmes, une subvention publique peut dissuader le concurrent étranger d'entrer et transférer la rente vers la firme nationale : c'est la politique commerciale stratégique."],
   ex:["Airbus face à Boeing ; BYD, qui reçoit [n:2,1 Md€] de subventions publiques en [d:2022]."]},
@@ -163,12 +165,14 @@ parts: [
   "[a:Cripps et Godley] ([d:1976])\nDans une économie ouverte, une relance fuit par les importations : elle doit s'accompagner d'une protection ciblée."],
   ex:["La relance Mauroy de [d:1981] creuse le déficit extérieur et mène au tournant de la rigueur en [d:1983]."]},
  {t:"Financer l'État", p:[
-  "[a:Stiglitz], [w:La Grande Désillusion] ([d:2002])\nDans les pays en développement, les droits de douane sont une part importante des recettes fiscales : libéraliser trop vite prive l'État de ressources pour l'éducation ou les infrastructures."]}
+  "[a:Stiglitz], [w:La Grande Désillusion] ([d:2002])\nDans les pays en développement, les droits de douane sont une part importante des recettes fiscales : libéraliser trop vite prive l'État de ressources pour l'éducation ou les infrastructures."],
+  ex:["Le Mexique relève ses droits de douane de [n:5 %] à [n:50 %] sur plus de [n:500] produits venus de pays sans accord commercial, mais les recettes ([n:143 Md] de pesos sur neuf mois) restent très en dessous de l'objectif de [n:188 Md] (El País, 3 nov. 2026)."]}
 ]},
 {lab:"Non", ti:"Une protection qui coûte cher", sp:[
  {t:"Pour les consommateurs", p:[
   "[a:Bastiat], [w:Pétition des fabricants de chandelles] ([d:1845])\nDans cette satire, les fabricants de chandelles demandent qu'on interdise le soleil. Le bénéfice de la protection est concentré sur quelques producteurs, son coût est dispersé sur tous les consommateurs : c'est pourquoi les producteurs obtiennent la protection par le lobbying.",
-  "[a:Hufbauer et Lowry] ([d:2012])\nLes droits américains sur les pneus chinois ont coûté aux consommateurs environ [n:900 000 $] par emploi sauvé."]},
+  "[a:Hufbauer et Lowry] ([d:2012])\nLes droits américains sur les pneus chinois ont coûté aux consommateurs environ [n:900 000 $] par emploi sauvé."],
+  ex:["Selon l'institut Bruegel, les droits de douane européens sur les voitures électriques chinoises renchérissent les véhicules pour les ménages sans suffire à rendre les constructeurs européens compétitifs (Die Welt, 29 oct. 2026)."]},
  {t:"Pour les producteurs en aval", p:[
   "[a:François et Baughman], [w:The Unintended Consequences of US Steel Import Tariffs] ([d:2003])\nLes droits sur l'acier de [d:2002] renchérissent l'acier pour les industries qui l'utilisent : environ [n:200 000] emplois y sont perdus, plus qu'il n'y en a dans la sidérurgie protégée."]},
  {t:"Une protection contournée", p:[
@@ -193,7 +197,7 @@ parts: [
 {lab:"Oui", ti:"Un objectif, s'il est bien défini", sp:[
  {t:"Vendre et élever le niveau de vie", p:[
   "[a:Tyson], [w:Who's Bashing Whom?] ([d:1992])\nUne nation est compétitive si elle produit des biens qui résistent à la concurrence internationale tout en augmentant durablement le niveau de vie de sa population. Cela passe surtout par la compétitivité hors-prix."],
-  ex:["L'Allemagne dégage d'importants excédents malgré des coûts salariaux élevés, grâce à la qualité de ses machines et de ses voitures."]},
+  ex:["L'Allemagne dégage d'importants excédents malgré des coûts salariaux élevés, grâce à la qualité de ses machines et de ses voitures.", "La France décroche : PIB en recul de [n:0,1 %] au 3e trimestre 2026 à cause de la chute des exportations ([n:−1,7 %]), et PIB par habitant désormais sous la moyenne de l'UE (Insee, Le Monde, oct.-nov. 2026)."]},
  {t:"Retrouver la compétitivité-prix par le change", p:[
   "[a:Houthakker et Magee], [w:Income and Price Elasticities in World Trade] ([d:1969])\nUne dévaluation améliore la balance commerciale si les volumes réagissent assez aux prix (condition de Marshall-Lerner). Elle la dégrade d'abord, le temps que les volumes s'ajustent, puis l'améliore : c'est la courbe en J."]}
 ]},
@@ -206,11 +210,13 @@ parts: [
 {lab:"Dépasser", ti:"Des politiques de compétitivité aux effets limités", sp:[
  {t:"La concurrence fiscale", p:[
   "Chaque pays baisse l'impôt sur les sociétés pour attirer les entreprises : tous perdent des recettes sans en attirer davantage, c'est un dilemme du prisonnier. Pour [a:Tiebout], [w:A Pure Theory of Local Expenditures] ([d:1956]), cette concurrence oblige pourtant les collectivités à mieux dépenser, car les contribuables « votent avec leurs pieds »."],
-  ex:["En France, le taux de l'impôt sur les sociétés passe de [n:33 %] à [n:25 %]."]},
+  ex:["En France, le taux de l'impôt sur les sociétés passe de [n:33 %] à [n:25 %].", "La Grèce taxe à [n:5 %] les plus-values des gérants de fonds (contre [n:15 %] avant) et propose un impôt forfaitaire de [n:100 000 €] par an aux nouveaux résidents fortunés (Le Monde, 16 nov. 2026) ; l'Italie riposte par une exit tax de [n:26 %] sur les plus-values latentes de ceux qui partent (Le Monde, 6 nov. 2026)."]},
  {t:"Baisser le coût du travail", p:[
-  "[a:Malgouyres et Mayer], [w:Exports and Labor Costs] ([d:2018])\nLe CICE, qui baissait le coût du travail, a peu aidé les entreprises exportatrices : la compétitivité française souffre surtout d'un problème hors-prix."]},
+  "[a:Malgouyres et Mayer], [w:Exports and Labor Costs] ([d:2018])\nLe CICE, qui baissait le coût du travail, a peu aidé les entreprises exportatrices : la compétitivité française souffre surtout d'un problème hors-prix."],
+  ex:["Plus de [n:70 Md€] par an d'allègements fiscaux et sociaux depuis le CICE (2014), pour des gains de productivité quasi nuls et un déficit commercial manufacturier record (Alternatives économiques, 9 nov. 2026) ; à l'inverse, l'Institut de l'entreprise juge que « la politique de l'offre n'a pas eu lieu » : [n:509 Md€] orientés vers les ménages contre [n:213 Md€] vers les entreprises entre 2018 et 2025 (Le Figaro, 20 nov. 2026)."]},
  {t:"Le patriotisme économique", p:[
-  "[a:Combe], [w:Résister à la tentation protectionniste] ([d:2018])\nPoussé trop loin, le patriotisme économique a des effets pervers : il protège des entreprises peu efficaces et invite les partenaires à riposter."]}
+  "[a:Combe], [w:Résister à la tentation protectionniste] ([d:2018])\nPoussé trop loin, le patriotisme économique a des effets pervers : il protège des entreprises peu efficaces et invite les partenaires à riposter."],
+  ex:["Au salon du Made in France, plus de [n:1 000] exposants défendent la production locale en intégrant coûts logistiques, délais et qualité (Le Figaro, 15 nov. 2026) ; le ministre Serge Papin veut que les hausses de prix alimentaires aillent aux agriculteurs et PME françaises : « les cocos de Paimpol ne doivent plus financer le Cola d'Atlanta » (Le Figaro, 19 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -228,7 +234,7 @@ parts: [
   "[a:Bello], [w:Deglobalization] ([d:2002]) ; [a:Sapir], [w:La démondialisation] ([d:2011])\nLes pays doivent recentrer leur production sur les besoins intérieurs et se protéger pour retrouver souveraineté et emplois."]},
  {t:"Des États qui se ferment", p:[
   "Les États-Unis contestent le multilatéralisme, et la Chine se recentre sur son marché intérieur."],
-  ex:["La guerre commerciale lancée par Trump en [d:2018] (droits sur l'acier, l'aluminium et les produits chinois).", "Le taux d'ouverture de la Chine passe de [n:27 %] en [d:2007] à [n:16 %] en [d:2018]."]},
+  ex:["La guerre commerciale lancée par Trump en [d:2018] (droits sur l'acier, l'aluminium et les produits chinois).", "Le taux d'ouverture de la Chine passe de [n:27 %] en [d:2007] à [n:16 %] en [d:2018].", "La fin de la franchise douanière pour les colis de moins de [n:150 €] fait chuter de [n:28 %] la fréquentation de Shein et Temu en France au 3e trimestre 2026 (Le Figaro, 7 nov. 2026)."]},
  {t:"Une mondialisation par blocs", p:[
   "Le friend-shoring défendu par [a:Yellen] consiste à ne commercer qu'avec des pays alliés ; [a:Frachon] parle de globalisation régionalisée. La géopolitique redessine les échanges."],
   ex:["La guerre en Ukraine en [d:2022] et les sanctions contre la Russie."]}
@@ -236,16 +242,19 @@ parts: [
 {lab:"Non", ti:"Un ralentissement, pas un recul", sp:[
  {t:"Un retour à la normale", p:[
   "[a:Sébastien Jean] (CEPII, [d:2017])\nLes exportations sont passées de [n:18 %] à [n:30 %] du PIB mondial jusqu'en [d:2008], une hausse exceptionnelle liée à l'entrée de la Chine dans l'OMC. Le plateau actuel est une normalisation.",
-  "Slowbalisation ([w:The Economist], [d:2019])\nLe commerce croît désormais au même rythme que le PIB (élasticité tombée à 1) : il ralentit, il ne s'effondre pas."]},
+  "Slowbalisation ([w:The Economist], [d:2019])\nLe commerce croît désormais au même rythme que le PIB (élasticité tombée à 1) : il ralentit, il ne s'effondre pas."],
+  ex:["Vingt-cinq ans après son entrée à l'OMC, la Chine termine 2026 avec un excédent commercial manufacturier proche de [n:1 000 Md$] : le commerce mondial ne recule pas, il se déséquilibre (La Croix, 12 nov. 2026)."]},
  {t:"Des chaînes de valeur résilientes", p:[
-  "[a:Mezzadri et Ruwanpura] ([d:2020])\nLes chaînes de valeur ont résisté au Covid : elles se sont réorganisées plutôt que rompues."]},
+  "[a:Mezzadri et Ruwanpura] ([d:2020])\nLes chaînes de valeur ont résisté au Covid : elles se sont réorganisées plutôt que rompues."],
+  ex:["Face aux droits de douane américains, Lula cherche de nouveaux débouchés plutôt que de « supplier » Washington : les échanges du Brésil avec l'Indonésie ([n:+15 %]) et le Vietnam ([n:+19 %]) bondissent (Clarín, 15 nov. 2026)."]},
  {t:"Rien à voir avec les années 1930", p:[
   "Dans les années 1930, les droits de douane explosent et le commerce mondial s'effondre de plus de moitié en valeur. Rien de comparable aujourd'hui."],
   ex:["Le tarif Hawley-Smoot ([d:1930]) porte les droits américains à [n:59 %] sur les produits taxés."]}
 ]},
 {lab:"Dépasser", ti:"Une recomposition", sp:[
  {t:"Le précautionnisme", p:[
-  "[a:Lamy] ([w:Le Monde], [d:2020])\nLes nouvelles barrières ne sont plus des droits de douane mais des normes sanitaires, environnementales ou de sécurité. Elles protègent le consommateur plus que le producteur. La mondialisation ne recule pas, elle change de règles."]}
+  "[a:Lamy] ([w:Le Monde], [d:2020])\nLes nouvelles barrières ne sont plus des droits de douane mais des normes sanitaires, environnementales ou de sécurité. Elles protègent le consommateur plus que le producteur. La mondialisation ne recule pas, elle change de règles."],
+  ex:["Une commission parlementaire juge le Royaume-Uni « dangereusement » dépendant de la Chine pour ses minéraux critiques, ce qui menace sa défense, l'IA et ses objectifs climatiques (The Guardian, 5 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -274,7 +283,7 @@ parts: [
  {t:"Propriété et contrôle séparés", p:[
   "[a:Berle et Means], [w:L'entreprise moderne et la propriété privée] ([d:1932])\nDans les grandes sociétés par actions, l'actionnariat est dispersé : les dirigeants contrôlent la firme sans la posséder. Ils peuvent poursuivre leurs propres objectifs, la taille ou le prestige, plutôt que le profit.",
   "[a:Jensen et Meckling], [w:Theory of the Firm] ([d:1976])\nL'actionnaire ne peut pas observer tout ce que fait le dirigeant : c'est la relation d'agence. Pour réduire ces coûts d'agence, on aligne le dirigeant sur l'actionnaire par des stock-options, d'où la gouvernance par la valeur actionnariale."],
-  ex:["Dans les années 1980-1990, les grandes firmes américaines adoptent la « création de valeur pour l'actionnaire » comme objectif."]}
+  ex:["Dans les années 1980-1990, les grandes firmes américaines adoptent la « création de valeur pour l'actionnaire » comme objectif.", "Le directoire d'Evonik et la fondation RAG refusent l'OPA de BASF à [n:11,2 Md€], malgré une prime de [n:39 %] sur le cours de Bourse, pour préserver l'indépendance de l'entreprise (FAZ, 1er nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Une organisation qui négocie et apprend", sp:[
  {t:"Une coalition", p:[
@@ -307,7 +316,7 @@ parts: [
   ex:["La valeur ajoutée d'un ouvrier américain est environ [n:28] fois celle d'un ouvrier chinois."]},
  {t:"L'accès au marché", p:[
   "IDE horizontal\n[n:70 %] des IDE des pays développés vont vers d'autres pays développés. Les firmes veulent produire près de leurs clients, éviter les droits de douane et s'adapter à la demande locale."],
-  ex:["Toyota assemble la Yaris à Valenciennes pour le marché européen."]},
+  ex:["Toyota assemble la Yaris à Valenciennes pour le marché européen.", "Sous la menace de droits de douane américains de [n:50 %] sur les voitures canadiennes, Stellantis renonce à produire la Jeep Compass en Ontario et la relocalise dans l'Illinois (Les Échos, 13 nov. 2026)."]},
  {t:"Les institutions", p:[
   "[a:Acemoglu et Robinson], [w:Why Nations Fail] ([d:2012])\nLes FMN évitent les pays aux institutions extractives, où une élite capte les richesses et où les droits de propriété sont incertains : le risque d'expropriation y compte plus que le salaire."],
   ex:["L'Afrique ne reçoit qu'environ [n:6 %] des IDE mondiaux."]},
@@ -371,14 +380,16 @@ parts: [
  {t:"Des importations qui remplacent des emplois", p:[
   "[a:Arthuis] (rapport au Sénat, [d:1993])\nLes produits importés des pays à bas salaires contiennent des emplois qui ne sont plus créés en France : les délocalisations menacent l'emploi industriel."]},
  {t:"Un choc qui se propage", p:[
-  "[a:Acemoglu, Autor, Dorn et Hanson] ([d:2016])\nLe choc des importations chinoises détruit environ [n:2 millions] d'emplois aux États-Unis : les pertes se propagent des secteurs concurrencés à leurs fournisseurs et aux commerces locaux."]},
+  "[a:Acemoglu, Autor, Dorn et Hanson] ([d:2016])\nLe choc des importations chinoises détruit environ [n:2 millions] d'emplois aux États-Unis : les pertes se propagent des secteurs concurrencés à leurs fournisseurs et aux commerces locaux."],
+  ex:["La crise des constructeurs se transmet aux sous-traitants : les équipementiers français et allemands estiment que plus de [n:80 000] emplois sont menacés d'ici 2028 (Le Monde, 7 nov. 2026) ; Schaeffler supprime [n:3 460] postes et ferme quatre usines en Allemagne (Der Spiegel, 4 nov. 2026)."]},
  {t:"Les non-qualifiés perdent", p:[
   "Modèle HOS et théorème d'égalisation des prix des facteurs\nLe Nord se spécialise dans les biens qualifiés : les non-qualifiés perdent, soit par le chômage quand les salaires sont rigides (Europe), soit par des salaires plus bas (États-Unis)."]}
 ]},
 {lab:"Non", ti:"D'autres causes, un effet net faible", sp:[
  {t:"La désindustrialisation a d'autres causes", p:[
   "[a:Demmou], [w:La désindustrialisation en France] ([d:2010])\nLa concurrence étrangère n'explique qu'environ [n:13 %] des pertes d'emplois industriels ; l'essentiel vient des gains de productivité et de l'externalisation de services.",
-  "[a:Rowthorn et Ramaswamy], [w:Deindustrialization: Causes and Implications] ([d:1997])\nLa désindustrialisation est une étape normale du développement : la productivité industrielle progresse vite et la demande se tourne vers les services."]},
+  "[a:Rowthorn et Ramaswamy], [w:Deindustrialization: Causes and Implications] ([d:1997])\nLa désindustrialisation est une étape normale du développement : la productivité industrielle progresse vite et la demande se tourne vers les services."],
+  ex:["Volkswagen ([n:5,8 Md€] de pertes au 3e trimestre 2026) et Mercedes, qui menace de fermer des usines en Allemagne, souffrent surtout de l'effondrement de leurs ventes en Chine face à BYD, d'une électrification lente et du coût de l'énergie (Die Welt, Le Figaro, nov. 2026)."]},
  {t:"Un solde presque nul", p:[
   "[a:Barlet, Blanchet et Crusson] (INSEE, [d:2010])\nLes délocalisations détruisent environ [n:36 000] emplois par an, mais les implantations étrangères et les exportations en créent autour de [n:40 000].",
   "[a:Fontagné et Lorenzi] ([d:2005])\nLes délocalisations ne représentent qu'environ [n:7 %] des destructions d'emplois."]}
@@ -402,13 +413,16 @@ parts: [
 {lab:"Les actionnaires", ti:"Une part salariale en baisse", sp:[
  {t:"Gouverner pour l'actionnaire", p:[
   "[a:Jensen et Meckling], [w:Theory of the Firm] ([d:1976])\nLes stock-options alignent les dirigeants sur l'actionnaire : la priorité devient la rentabilité, ce qui pousse à comprimer la masse salariale.",
-  "[a:Gutiérrez et Philippon], [w:Ownership, Concentration and Investment] ([d:2018])\nAux États-Unis, la part des actions détenue par les investisseurs institutionnels passe de [n:10 %] à [n:85 %] : les firmes distribuent davantage et investissent moins."]},
+  "[a:Gutiérrez et Philippon], [w:Ownership, Concentration and Investment] ([d:2018])\nAux États-Unis, la part des actions détenue par les investisseurs institutionnels passe de [n:10 %] à [n:85 %] : les firmes distribuent davantage et investissent moins."],
+  ex:["Les neuf plus grandes majors pétrolières dégagent plus de [n:95 Md$] de profits au 3e trimestre 2026 grâce à la guerre avec l'Iran, reversés en dividendes et rachats d'actions, pendant que les factures des ménages montent (The Guardian, 3 nov. 2026)."]},
  {t:"Une part salariale qui recule", p:[
-  "CEPII ([d:2019])\nLa part des salaires dans la valeur ajoutée baisse de [n:7,2 points] aux États-Unis, et environ [n:70 %] de cette baisse vient du comportement des firmes elles-mêmes (concentration, marges)."]}
+  "CEPII ([d:2019])\nLa part des salaires dans la valeur ajoutée baisse de [n:7,2 points] aux États-Unis, et environ [n:70 %] de cette baisse vient du comportement des firmes elles-mêmes (concentration, marges)."],
+  ex:["Contre-exemple français : la part des salaires dans la valeur ajoutée atteint [n:68 %], au-dessus de la moyenne européenne, et le taux de marge des entreprises tombe sous [n:31 %], au plus bas depuis 2019 (Insee, Le Monde, 9 nov. 2026)."]}
 ]},
 {lab:"Les machines", ti:"Le capital remplace le travail", sp:[
  {t:"Un capital moins cher", p:[
-  "[a:Karabarbounis et Neiman], [w:The Global Decline of the Labor Share] ([d:2013])\nLa part du travail baisse partout depuis les années 1980 parce que les biens d'investissement deviennent moins chers : les firmes remplacent le travail par le capital."]}
+  "[a:Karabarbounis et Neiman], [w:The Global Decline of the Labor Share] ([d:2013])\nLa part du travail baisse partout depuis les années 1980 parce que les biens d'investissement deviennent moins chers : les firmes remplacent le travail par le capital."],
+  ex:["L'IA a fait disparaître environ [n:100 000] offres d'emploi en 2026, surtout en RH, comptabilité, informatique et vente : pas de licenciements massifs, mais moins d'embauches (Coface, Le Monde, 17 nov. 2026)."]}
 ]},
 {lab:"Le pays du siège", ti:"Les activités clés restent au siège", sp:[
  {t:"Garder ce qui rapporte", p:[
@@ -435,17 +449,17 @@ parts: [
  {t:"La politique industrielle", p:[
   "[a:Cohen et Lorenzi], [w:Politiques industrielles pour l'Europe] ([d:2000])\nPlusieurs défaillances de marché (externalités, rendements croissants, coordination) justifient que l'État soutienne certaines filières.",
   "[a:Aghion et Howitt], [w:Appropriate Growth Policy] ([d:2005])\nLa bonne politique dépend du niveau de développement : loin de la frontière technologique, aider l'imitation ; près de la frontière, financer la recherche et favoriser la concurrence."],
-  ex:["Le programme Galileo ; le plan France 2030 ([n:54 Md€])."]},
+  ex:["Le programme Galileo ; le plan France 2030 ([n:54 Md€]).", "Pour les six EPR2, l'État négocie avec Bruxelles un contrat pour différence qui garantit à EDF un prix pendant [n:40] ans (Renseignement économique, 23 oct. 2026) et envisage de mobiliser l'épargne du Livret A (Alternatives économiques, 10 nov. 2026)."]},
  {t:"Le contrôle des IDE", p:[
   "[a:Keynes], [w:De l'autosuffisance nationale] ([d:1933])\nUn propriétaire lointain ne rend de comptes à personne sur place : l'État a donc des raisons de contrôler qui possède les entreprises stratégiques."],
-  ex:["Le CFIUS aux États-Unis ; le décret Montebourg de [d:2014] après l'affaire Alstom."]},
+  ex:["Le CFIUS aux États-Unis ; le décret Montebourg de [d:2014] après l'affaire Alstom.", "L'Allemagne rachète [n:50 %] de KNDS, à parité avec l'État français, pour garder un pouvoir de décision sur les programmes d'armement ; l'introduction en Bourse est abandonnée (Le Monde, 6 nov. 2026)."]},
  {t:"Attirer les emplois qualifiés", p:[
   "[a:Moretti], [w:The New Geography of Jobs] ([d:2012])\nUn emploi qualifié dans l'innovation crée [n:4 à 5] emplois locaux dans les services : l'État a intérêt à attirer les FMN innovantes par des zones d'activité."]}
 ]},
 {lab:"Non", ti:"Des firmes plus mobiles que l'État", sp:[
  {t:"Les FMN votent avec leurs pieds", p:[
   "[a:Tiebout], [w:A Pure Theory of Local Expenditures] ([d:1956])\nLes agents mobiles choisissent le territoire qui leur offre le meilleur rapport impôts-services. Les FMN font jouer la concurrence entre États."],
-  ex:["L'Irlande attire les sièges européens avec un impôt sur les sociétés à [n:12,5 %]."]},
+  ex:["L'Irlande attire les sièges européens avec un impôt sur les sociétés à [n:12,5 %].", "Stellantis vend son usine canadienne de Brampton et part produire aux États-Unis ; Ottawa répond par un avis de défaut et menace de récupérer des centaines de millions de dollars de subventions (Les Échos, 13 nov. 2026)."]},
  {t:"La capture réglementaire", p:[
   "[a:Stigler], [w:The Theory of Economic Regulation] ([d:1971])\nLes régulateurs finissent par servir les intérêts des firmes qu'ils doivent contrôler, car elles sont mieux informées et mieux organisées."],
   ex:["En [d:2020], la Fed confie à BlackRock la gestion de ses achats d'obligations."]}
@@ -468,7 +482,7 @@ parts: [
 {lab:"Oui", ti:"Une production mondialisée", sp:[
  {t:"Une stratégie mondiale", p:[
   "[a:Porter], [w:Competition in Global Industries] ([d:1986])\nLa firme globale installe chaque activité là où elle est la plus efficace et vend une offre standardisée dans le monde entier."],
-  ex:["Apple vend le même iPhone partout."]},
+  ex:["Apple vend le même iPhone partout.", "Une panne de Microsoft (Outlook, Teams) paralyse pendant plus de [n:18] heures entreprises, administrations et universités dans le monde entier, les 12 et 13 novembre 2026 (Le Figaro, 13 nov. 2026)."]},
  {t:"Les chaînes de valeur mondiales", p:[
   "[a:Baldwin], [w:Global Supply Chains] ([d:2012])\nDepuis les années 1990, le second dégroupement : les technologies de l'information permettent de découper la production entre pays. On n'échange plus seulement des biens, mais des tâches.",
   "CNUCED\nEnviron [n:80 %] du commerce mondial est organisé par les FMN, à l'intérieur de leurs chaînes de valeur."],
@@ -476,7 +490,8 @@ parts: [
 ]},
 {lab:"Non", ti:"Des firmes ancrées dans leur pays", sp:[
  {t:"Un ancrage national", p:[
-  "[a:Berger], [w:Made in Monde] ([d:2006])\nLes FMN gardent leur siège, leur recherche, leurs actionnaires et leur culture dans leur pays d'origine : elles restent nationales."]},
+  "[a:Berger], [w:Made in Monde] ([d:2006])\nLes FMN gardent leur siège, leur recherche, leurs actionnaires et leur culture dans leur pays d'origine : elles restent nationales."],
+  ex:["Le gouvernement de Rhénanie-du-Nord-Westphalie salue le refus d'Evonik d'être racheté par BASF, malgré les garanties promises sur l'emploi et les sites allemands (FAZ, 1er nov. 2026)."]},
  {t:"Des cultures nationales", p:[
   "[a:d'Iribarne], [w:La Logique de l'honneur] ([d:1989])\nChaque pays a sa culture du travail (l'honneur du métier en France, le contrat aux États-Unis, le consensus aux Pays-Bas). Le management reste national."],
   ex:["L'échec de la fusion Daimler-Chrysler ([d:1998-2007])."]}
@@ -486,7 +501,8 @@ parts: [
   "[a:Perlmutter] ([d:1969])\nLes FMN passent d'une stratégie centrée sur le pays d'origine à une organisation par grandes régions (régiocentrisme), en adaptant l'offre aux marchés locaux."],
   ex:["« Think global, act local » (Sony)."]},
  {t:"Des chaînes qui se raccourcissent", p:[
-  "CNUCED\nDepuis les années 2010, relocalisations, régionalisation et raccourcissement des chaînes de valeur éloignent encore du modèle de la firme globale."]}
+  "CNUCED\nDepuis les années 2010, relocalisations, régionalisation et raccourcissement des chaînes de valeur éloignent encore du modèle de la firme globale."],
+  ex:["Stellantis rapatrie aux États-Unis la production de la Jeep Compass prévue au Canada pour échapper aux droits de douane américains (Les Échos, 13 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -506,14 +522,15 @@ parts: [
  {t:"Le réalisme", p:[
   "[a:Gilpin], [w:War and Change in World Politics] ([d:1981])\nL'ordre international reflète la répartition de la puissance. Quand l'hégémon décline, l'ordre entre en crise, souvent jusqu'à la guerre.",
   "[a:Krasner], [w:International Regimes] ([d:1983])\nUn régime international n'est respecté que tant qu'il sert les intérêts des puissants."],
-  ex:["Les États-Unis paralysent l'OMC dès qu'elle les gêne face à la Chine."]}
+  ex:["Les États-Unis paralysent l'OMC dès qu'elle les gêne face à la Chine.", "Trump menace de doubler les droits de douane sur les produits mexicains si le Mexique ne bloque pas les caravanes de migrants : l'arme commerciale sert un objectif non commercial (El País, 13 nov. 2026)."]}
 ]},
 {lab:"Non", ti:"La coopération survit par intérêt", sp:[
  {t:"Des institutions utiles", p:[
   "[a:Keohane], [w:After Hegemony] ([d:1984])\nLes institutions créées par l'hégémon survivent à son déclin, car elles réduisent l'incertitude et les coûts de négociation entre États : chacun a intérêt à les garder."],
   ex:["Plus de [n:600] différends portés devant l'ORD depuis [d:1995]."]},
  {t:"Une gouvernance polycentrique", p:[
-  "[a:Ostrom], [w:La Gouvernance des biens communs] ([d:1990])\nLa coopération peut s'organiser à plusieurs niveaux, sans autorité centrale ni gouvernement mondial."]},
+  "[a:Ostrom], [w:La Gouvernance des biens communs] ([d:1990])\nLa coopération peut s'organiser à plusieurs niveaux, sans autorité centrale ni gouvernement mondial."],
+  ex:["Lula, invité au sommet de l'ASEAN à Manille, plaide pour diversifier les partenaires commerciaux face aux droits de douane américains (Clarín, 15 nov. 2026)."]},
  {t:"Des États qui coopèrent", p:[
   "[a:Beck], [w:Pouvoir et contre-pouvoir à l'ère de la mondialisation] ([d:2003])\nL'État retrouve du pouvoir en coopérant avec les autres : c'est l'État cosmopolite."],
   ex:["L'impôt minimal mondial de [n:15 %] sur les multinationales, adopté à l'OCDE en [d:2021]."]}
@@ -543,12 +560,12 @@ parts: [
  {t:"Le passager clandestin", p:[
   "[a:Kindleberger], [w:International Public Goods without International Government] ([d:1986])\nSans gouvernement mondial, chaque État compte sur les autres pour payer : le bien public est sous-produit.",
   "[a:Olson], [w:Logique de l'action collective] ([d:1965])\nPlus un groupe est grand, plus chacun a intérêt à ne pas contribuer, car sa part du bénéfice est faible et son absence passe inaperçue."],
-  ex:["Les États-Unis ne ratifient pas Kyoto et sortent de l'accord de Paris."]},
+  ex:["Les États-Unis ne ratifient pas Kyoto et sortent de l'accord de Paris.", "À l'ouverture de la COP31 à Antalya, Friedrich Merz et les représentants de la nouvelle majorité américaine boycottent le sommet, et les pays du Sud rappellent que les [n:100 Md$] par an promis pour l'adaptation n'ont toujours pas été versés en entier (Alternatives économiques, 9 nov. 2026)."]},
  {t:"La tragédie des communs", p:[
   "[a:Hardin], [w:La Tragédie des communs] ([d:1968])\nUne ressource en accès libre est surexploitée jusqu'à disparaître, car chacun a intérêt à en prendre le plus possible."]},
  {t:"Pas de coercition", p:[
   "Sans pouvoir de sanction, les intérêts nationaux l'emportent sur l'intérêt commun."],
-  ex:["Pendant le Covid, les pays riches préemptent les vaccins au détriment de COVAX."]}
+  ex:["Pendant le Covid, les pays riches préemptent les vaccins au détriment de COVAX.", "Faute de sanctions, de nombreuses délégations de la COP31 réclament des sanctions commerciales contre les États qui ne tiennent pas leurs engagements (Alternatives économiques, 9 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Des biens publics choisis", sp:[
  {t:"Des critères exigeants", p:[
@@ -570,14 +587,15 @@ termes: "La souveraineté est la capacité d'un État à décider seul de ses po
 parts: [
 {lab:"Oui", ti:"Des États contraints", sp:[
  {t:"Le trilemme", p:[
-  "[a:Rodrik], [w:The Globalization Paradox] ([d:2011])\nOn ne peut pas avoir à la fois l'hypermondialisation, la souveraineté nationale et la démocratie : il faut renoncer à l'une des trois."]},
+  "[a:Rodrik], [w:The Globalization Paradox] ([d:2011])\nOn ne peut pas avoir à la fois l'hypermondialisation, la souveraineté nationale et la démocratie : il faut renoncer à l'une des trois."],
+  ex:["Réélu, Lula fait voter par le Sénat un plan de [n:50] à [n:60 Md] de réaux d'économies pour rassurer les marchés, après la chute de la Bourse et du réal au lendemain de l'élection (El País, 29 oct. et 14 nov. 2026)."]},
  {t:"La fiscalité contournée", p:[
   "[a:Zucman], [w:La richesse cachée des nations] ([d:2013])\nLes FMN déplacent leurs profits vers les paradis fiscaux : les États perdent une partie de leur pouvoir de taxer."],
-  ex:["[n:55 %] des profits réalisés à l'étranger par les FMN américaines sont déclarés dans six territoires à faible fiscalité."]},
+  ex:["[n:55 %] des profits réalisés à l'étranger par les FMN américaines sont déclarés dans six territoires à faible fiscalité.", "L'Italie instaure une exit tax de [n:26 %] ([n:33 %] sur les cryptoactifs) sur les plus-values latentes des contribuables fortunés qui quittent le pays, pour freiner l'évasion fiscale (Le Monde, 6 nov. 2026)."]},
  {t:"Des règles imposées", p:[
   "[a:Stiglitz], [w:La Grande Désillusion] ([d:2002])\nLe FMI impose les mêmes remèdes à tous les pays (austérité, libéralisation) : « one size fits all ».",
   "[a:Aglietta] (CEPII, [d:2009])\nLes règles prudentielles de Bâle ont été largement écrites sous l'influence du lobby bancaire."],
-  ex:["La crise asiatique de [d:1997], aggravée par les plans du FMI."]}
+  ex:["La crise asiatique de [d:1997], aggravée par les plans du FMI.", "La BCE refuse d'activer son bouclier anti-fragmentation (TPI) pour la France, réservé aux pays qui respectent le Pacte de stabilité, alors que l'écart de taux avec l'Allemagne s'élargit de plus de [n:80] points de base (Les Échos, 11 nov. 2026)."]}
 ]},
 {lab:"Non", ti:"Une souveraineté partagée", sp:[
  {t:"Coopérer pour retrouver du pouvoir", p:[
@@ -617,7 +635,7 @@ parts: [
   "[a:Stiglitz et Charlton], [w:Pour un commerce mondial plus juste] ([d:2005])\nLes règles servent surtout les pays riches : propriété intellectuelle protégée, agriculture du Nord subventionnée."]},
  {t:"Une protection déplacée", p:[
   "CEPII ([d:2018])\nLes barrières non tarifaires (normes, réglementations) équivalent en moyenne à un droit de douane de [n:40 %]. L'agriculture reste protégée à [n:17 %], contre [n:3 %] pour l'industrie."],
-  ex:["Le conflit du bœuf aux hormones entre l'UE et les États-Unis.", "L'initiative coton : quatre pays africains dénoncent les subventions américaines au coton."]}
+  ex:["Le conflit du bœuf aux hormones entre l'UE et les États-Unis.", "L'initiative coton : quatre pays africains dénoncent les subventions américaines au coton.", "Après le Brexit, les contrôles sanitaires font attendre jusqu'à [n:9] heures les camions de produits frais à Calais : un coût de plus de [n:3 Md£] par an selon l'agroalimentaire britannique, alors qu'aucun droit de douane n'a été rétabli (The Guardian, 4 et 15 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Une théorie trop statique", sp:[
  {t:"Les limites du modèle ricardien", p:[
@@ -646,11 +664,12 @@ parts: [
   "Règle du consensus\nAvec [n:166] membres, chaque pays dispose de fait d'un droit de veto."]},
  {t:"Le rejet des grandes puissances", p:[
   "[a:Sébastien Jean], [w:L'Économie mondiale 2020] ([d:2019])\nLes États-Unis rejettent l'OMC, et la Chine en profite comme passager clandestin, en gardant subventions et statut de pays en développement.",
-  "ORD paralysé\nDepuis [d:2019], les États-Unis bloquent la nomination des juges d'appel : l'OMC ne peut plus trancher les différends."]},
+  "ORD paralysé\nDepuis [d:2019], les États-Unis bloquent la nomination des juges d'appel : l'OMC ne peut plus trancher les différends."],
+  ex:["Biden avait gardé presque tous les droits de douane de Trump en y ajoutant les subventions de l'IRA ; après la défaite républicaine aux midterms, les Européens espèrent une réactivation des règles de l'OMC (Alternatives économiques, 8 nov. 2026)."]},
  {t:"Fragmentation et contournement", p:[
   "[a:Bhagwati]\nLa multiplication des accords régionaux crée un « bol de spaghetti » de règles qui fragmente le commerce mondial.",
   "[a:Krugman] ; [a:Brander et Spencer] ([d:1985])\nZones grises, commerce administré (managed trade) et politique commerciale stratégique contournent les règles."],
-  ex:["Airbus et Boeing, subventionnés des deux côtés de l'Atlantique."]}
+  ex:["Airbus et Boeing, subventionnés des deux côtés de l'Atlantique.", "La Chine accumule un excédent proche de [n:1 000 Md$] ; l'UE et les États-Unis répondent par des barrières et des procédures anti-subventions, et l'OMC ne peut arbitrer faute d'organe d'appel (La Croix, 12 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Réformer", sp:[
  {t:"Des pistes de réforme", p:[
@@ -671,7 +690,7 @@ parts: [
 {lab:"Oui", ti:"Une rivalité qui fragmente", sp:[
  {t:"Le piège de Thucydide", p:[
   "[a:Allison], [w:Vers la guerre] ([d:2019])\nQuand une puissance montante défie une puissance établie, l'histoire montre que la guerre est fréquente : c'est le risque entre Washington et Pékin."],
-  ex:["L'offensive tarifaire de Trump contre la Chine en [d:2018]."]},
+  ex:["L'offensive tarifaire de Trump contre la Chine en [d:2018].", "La Chine domine le raffinage des terres rares et restreint ses exportations, indispensables aux voitures électriques, aux éoliennes et à la défense (La Tribune, 17 nov. 2026)."]},
  {t:"Des institutions concurrentes", p:[
   "La Chine crée ses propres institutions, et les politiques climatiques se fragmentent."],
   ex:["La Banque asiatique d'investissement pour les infrastructures (BAII), créée en [d:2014].", "L'IRA américain et le mécanisme d'ajustement carbone européen (MACF)."]}
@@ -681,7 +700,7 @@ parts: [
   "[a:Keohane], [w:After Hegemony] ([d:1984])\nLes États gardent les institutions communes parce qu'elles leur sont utiles, même quand ils sont rivaux."]},
  {t:"Des relances", p:[
   "Des États relancent la coopération au lieu de rompre."],
-  ex:["Le Japon relance en [d:2018] le Partenariat transpacifique à 11, après le retrait américain."]}
+  ex:["Le Japon relance en [d:2018] le Partenariat transpacifique à 11, après le retrait américain.", "Londres et Bruxelles finalisent un accord pour supprimer presque tous les contrôles sanitaires sur l'alimentation entre la Grande-Bretagne et l'UE, en vigueur en 2028 (The Guardian, 4 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Un FMI qui s'adapte à peine", sp:[
  {t:"Une réforme limitée", p:[
@@ -747,7 +766,7 @@ parts: [
 {lab:"Oui", ti:"Plus de commerce créé que détourné", sp:[
  {t:"La création l'emporte", p:[
   "[a:Balassa] ([d:1970])\nPour la CEE, la création de commerce dépasse très largement le détournement."],
-  ex:["Environ [n:46,5 Md] de commerce créé contre [n:1,2 Md] détourné."]},
+  ex:["Environ [n:46,5 Md] de commerce créé contre [n:1,2 Md] détourné.", "Le Brexit en négatif : sortir du marché unique a recréé des certificats sanitaires et des files d'attente de plusieurs heures à Calais, d'où l'accord de 2026 pour les supprimer (The Guardian, 4 et 15 nov. 2026)."]},
  {t:"Des partenaires naturels", p:[
   "[a:Krugman] ([d:1991])\nEntre pays proches qui commercent déjà beaucoup, un accord détourne peu de commerce : il officialise des échanges existants."],
   ex:["L'accord Canada-États-Unis ([d:1989])."]},
@@ -783,7 +802,7 @@ parts: [
 {lab:"Oui", ti:"Des raisons économiques", sp:[
  {t:"Sécuriser les chaînes de valeur", p:[
   "[a:Baldwin], [w:21st Century Regionalism] ([d:2011])\nLes accords d'aujourd'hui servent moins à baisser des droits qu'à protéger les investissements, les services et la propriété intellectuelle : on négocie pour pouvoir produire à l'étranger."],
-  ex:["Le RCEP ([d:2022]), entre quinze pays d'Asie-Pacifique."]},
+  ex:["Le RCEP ([d:2022]), entre quinze pays d'Asie-Pacifique.", "Josep Borrell propose à l'Amérique latine de s'intégrer autour du lithium, de l'électricité et de l'agriculture, sur le modèle de la CECA de 1951 (El País, 3 nov. 2026)."]},
  {t:"Une OMC bloquée", p:[
   "OCDE\nL'OMC est paralysée, les droits de douane sont déjà bas, et chaque pays craint d'être marginalisé s'il reste en dehors des accords."]},
  {t:"La proximité compte", p:[
@@ -831,7 +850,7 @@ parts: [
   ex:["Au Mexique, PME et paysans sont ruinés par la concurrence américaine, et le PIB chute de [n:5 %] en [d:2009] avec la crise aux États-Unis."]},
  {t:"Le grand impose ses règles", p:[
   "[a:Bhagwati]\nDans un accord bilatéral, le grand pays impose ses règles au petit, notamment sur la propriété intellectuelle."],
-  ex:["L'accord États-Unis-Maroc ([d:2004]) contient des clauses « ADPIC-plus » sur les médicaments.", "Le Brésil pèse [n:75 %] du PIB du Mercosur."]}
+  ex:["L'accord États-Unis-Maroc ([d:2004]) contient des clauses « ADPIC-plus » sur les médicaments.", "Le Brésil pèse [n:75 %] du PIB du Mercosur.", "Malgré l'ACEUM, Washington menace d'imposer [n:50 %] de droits de douane sur les voitures canadiennes, et Stellantis déplace une production du Canada vers les États-Unis (Les Échos, 13 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Des effets ambigus", sp:[
  {t:"Au profit des FMN", p:[
@@ -865,7 +884,8 @@ parts: [
 ]},
 {lab:"Non", ti:"Elle agit sur l'économie réelle", sp:[
  {t:"Le taux d'intérêt", p:[
-  "[a:Keynes], [w:Théorie générale de l'emploi, de l'intérêt et de la monnaie] ([d:1936])\nLa monnaie est désirée pour elle-même (préférence pour la liquidité). La quantité de monnaie fixe le taux d'intérêt, qui détermine l'investissement, donc la production et l'emploi."]},
+  "[a:Keynes], [w:Théorie générale de l'emploi, de l'intérêt et de la monnaie] ([d:1936])\nLa monnaie est désirée pour elle-même (préférence pour la liquidité). La quantité de monnaie fixe le taux d'intérêt, qui détermine l'investissement, donc la production et l'emploi."],
+  ex:["Avec des taux de crédit immobilier autour de [n:3,5 %], les réservations de logements neufs chutent de plus de [n:25 %] sur un an, au plus bas depuis près de trente ans (Le Monde, 12 nov. 2026)."]},
  {t:"La déflation par la dette", p:[
   "[a:Fisher], [w:The Debt-Deflation Theory of Great Depressions] ([d:1933])\nDes agents surendettés vendent pour rembourser, les prix baissent, ce qui alourdit le poids réel de leurs dettes : la crise s'auto-entretient."],
   ex:["Aux États-Unis en [d:1933], les prix ont baissé de [n:25 %] et le chômage atteint [n:24,9 %]."]},
@@ -881,7 +901,7 @@ parts: [
 {lab:"Dépasser", ti:"Neutre seulement à long terme", sp:[
  {t:"L'illusion monétaire", p:[
   "[a:Friedman], [w:The Role of Monetary Policy] ([d:1968])\nÀ court terme, une relance monétaire trompe les salariés (illusion monétaire) et fait baisser le chômage. À long terme, ils corrigent leurs anticipations : le chômage revient à son taux naturel, avec plus d'inflation."],
-  ex:["La stagflation des années 1970 : inflation et chômage montent ensemble."]}
+  ex:["La stagflation des années 1970 : inflation et chômage montent ensemble.", "Le salaire de base du privé augmente de [n:1,9 %] mais les prix de [n:3,1 %] : le pouvoir d'achat recule de [n:1,1 %] sur un an (Dares, Le Monde, 6 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -910,7 +930,8 @@ parts: [
   "[a:Aglietta et Orléan], [w:La monnaie souveraine] ([d:1998])\nElle repose sur trois confiances emboîtées : méthodique (l'habitude), hiérarchique (un garant, la banque centrale) et éthique (les valeurs de la société)."],
   ex:["L'euro, décidé à Maastricht en [d:1992].", "L'hyperinflation allemande de [d:1923] : la confiance s'effondre, la monnaie aussi."]},
  {t:"Une création de l'État", p:[
-  "[a:Knapp], [w:Théorie étatique de la monnaie] ([d:1905])\nLa monnaie vaut parce que l'État l'impose et l'accepte en paiement des impôts."]},
+  "[a:Knapp], [w:Théorie étatique de la monnaie] ([d:1905])\nLa monnaie vaut parce que l'État l'impose et l'accepte en paiement des impôts."],
+  ex:["La BCE prépare un euro numérique public pour 2028, pour que l'Europe ne dépende plus de Visa, Mastercard ou des stablecoins en dollars ; elle veut plafonner sa détention à [n:3 000 €] pour éviter une fuite des dépôts bancaires (El País, 2 nov. 2026)."]},
  {t:"Un rapport social", p:[
   "[a:Marx], [w:Le Capital] ([d:1867])\nL'argent devient capital quand on l'avance pour en récupérer davantage (A → M → A') : il exprime un rapport d'exploitation."]}
 ]},
@@ -933,7 +954,8 @@ parts: [
  {t:"Les crédits font les dépôts", p:[
   "[a:Withers], [w:The Meaning of Money] ([d:1909])\nUne banque ne prête pas l'argent des déposants : en accordant un crédit, elle crée le dépôt de l'emprunteur.",
   "Diviseur de crédit\nLes banques accordent d'abord les crédits, puis se procurent la monnaie centrale nécessaire. La banque centrale ne peut pas refuser : elle ne contrôle que son prix.",
-  "Banking School, [a:Tooke], [w:An Inquiry into the Currency Principle] ([d:1844])\nLoi du reflux : la monnaie émise en trop revient à la banque quand les crédits sont remboursés, il n'y a pas d'excès durable."]}
+  "Banking School, [a:Tooke], [w:An Inquiry into the Currency Principle] ([d:1844])\nLoi du reflux : la monnaie émise en trop revient à la banque quand les crédits sont remboursés, il n'y a pas d'excès durable."],
+  ex:["En Argentine, quand les banques réclament plus de liquidités et que le taux interbancaire monte à près de [n:32 %], la banque centrale doit injecter des fonds : elle suit la demande des banques (Clarín, 16 nov. 2026)."]}
 ]},
 {lab:"La banque centrale", ti:"Contrôler la quantité", sp:[
  {t:"Le multiplicateur", p:[
@@ -945,7 +967,7 @@ parts: [
 {lab:"Dépasser", ti:"Piloter le prix de la monnaie", sp:[
  {t:"Les taux directeurs", p:[
   "La banque centrale ne fixe pas la quantité de monnaie : elle agit sur le coût du crédit par ses taux directeurs, et donc sur la demande de crédit."],
-  ex:["La BCE remonte ses taux de [n:0 %] à [n:4 %] en [d:2022-2023] pour lutter contre l'inflation."]}
+  ex:["La BCE remonte ses taux de [n:0 %] à [n:4 %] en [d:2022-2023] pour lutter contre l'inflation.", "Face à une inflation de [n:4 %] en zone euro, tirée par l'énergie, la BCE a relevé son taux de dépôt à [n:2,5 %] et prépare une troisième hausse en décembre 2026 (Der Spiegel, 5 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -977,9 +999,11 @@ parts: [
 ]},
 {lab:"Dépasser", ti:"L'autonomie plutôt que l'indépendance", sp:[
  {t:"Le déficit démocratique", p:[
-  "[a:Blancheton]\nUne indépendance totale pose un problème démocratique et empêche de coordonner politique monétaire et budgétaire (policy mix) : mieux vaut une autonomie encadrée."]},
+  "[a:Blancheton]\nUne indépendance totale pose un problème démocratique et empêche de coordonner politique monétaire et budgétaire (policy mix) : mieux vaut une autonomie encadrée."],
+  ex:["La succession de Christine Lagarde se joue entre gouvernements : le Sud soutient Pablo Hernández de Cos, le Nord le « faucon » Klaas Knot (El País, 4 nov. 2026)."]},
  {t:"L'aléa moral", p:[
-  "Les banques trop grandes pour faire faillite (« too big to fail ») prennent trop de risques, sûres d'être sauvées par la banque centrale."]}
+  "Les banques trop grandes pour faire faillite (« too big to fail ») prennent trop de risques, sûres d'être sauvées par la banque centrale."],
+  ex:["La BCE refuse de soutenir la dette française par son TPI : l'écart de taux reflète selon elle les choix budgétaires de la France, et l'aide est réservée aux pays qui respectent le Pacte de stabilité (Les Échos, 11 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -995,11 +1019,13 @@ parts: [
 {lab:"Oui", ti:"L'épargne d'abord", sp:[
  {t:"Sinon, la crise", p:[
   "[a:Hayek], [w:Prix et production] ([d:1931])\nSi le crédit finance plus d'investissement que l'épargne disponible, le taux d'intérêt est trop bas : les entreprises investissent trop, et la crise finit par corriger ces erreurs.",
-  "[a:Rueff], [w:Le Péché monétaire de l'Occident] ([d:1971])\nUne monnaie créée sans épargne en face donne de faux droits sur la production et alimente l'inflation."]}
+  "[a:Rueff], [w:Le Péché monétaire de l'Occident] ([d:1971])\nUne monnaie créée sans épargne en face donne de faux droits sur la production et alimente l'inflation."],
+  ex:["L'État veut mobiliser une partie des plus de [n:570 Md€] du Livret A et du LDDS pour financer les EPR2 et la défense : l'épargne des ménages finance l'investissement de long terme (Alternatives économiques, 10 nov. 2026)."]}
 ]},
 {lab:"Non", ti:"Le crédit d'abord", sp:[
  {t:"Le crédit crée l'épargne", p:[
-  "[a:Keynes], [w:Théorie générale de l'emploi, de l'intérêt et de la monnaie] ([d:1936])\nL'investissement est financé par le crédit. Il crée du revenu (effet multiplicateur), et c'est dans ce revenu que se forme ensuite l'épargne."]},
+  "[a:Keynes], [w:Théorie générale de l'emploi, de l'intérêt et de la monnaie] ([d:1936])\nL'investissement est financé par le crédit. Il crée du revenu (effet multiplicateur), et c'est dans ce revenu que se forme ensuite l'épargne."],
+  ex:["En France, les ménages épargnent plus de [n:17 %] de leur revenu par précaution pendant que l'investissement recule trois trimestres de suite : l'épargne abondante ne se transforme pas en investissement (Insee, oct. 2026)."]},
  {t:"Le bon rythme", p:[
   "[a:Harrod] ([d:1939]) et [a:Domar] ([d:1946])\nPour une croissance équilibrée, l'investissement doit progresser exactement au bon rythme : sinon l'économie s'écarte de l'équilibre (croissance sur le fil du rasoir)."]},
  {t:"L'économie d'endettement", p:[
@@ -1026,14 +1052,16 @@ parts: [
 ]},
 {lab:"Les marchés", ti:"Ils financent l'innovation", sp:[
  {t:"Les 3D", p:[
-  "[a:Bourguinat], [w:Les Vertiges de la finance internationale] ([d:1987])\nDéréglementation, désintermédiation et décloisonnement (les 3D) ont permis aux marchés d'allouer le capital plus souplement et à moindre coût."]},
+  "[a:Bourguinat], [w:Les Vertiges de la finance internationale] ([d:1987])\nDéréglementation, désintermédiation et décloisonnement (les 3D) ont permis aux marchés d'allouer le capital plus souplement et à moindre coût."],
+  ex:["Anthropic lève au moins [n:79,4 Md$] lors de la plus grosse introduction en Bourse de l'histoire (Le Figaro, 19 nov. 2026)."]},
  {t:"Le retard européen", p:[
   "L'Europe dépend trop des banques et manque de capital-risque pour financer les jeunes entreprises innovantes."],
-  ex:["Les actifs bancaires représentent environ [n:300 %] du PIB dans l'UE, contre [n:85 %] aux États-Unis."]}
+  ex:["Les actifs bancaires représentent environ [n:300 %] du PIB dans l'UE, contre [n:85 %] aux États-Unis.", "Le Parlement européen rejette à [n:14] voix près la directive sur l'investissement de détail (RIS), pilier de l'Union des marchés de capitaux censé orienter l'épargne vers l'investissement productif (Les Échos, 14 nov. 2026)."]}
 ]},
 {lab:"Limite", ti:"Les deux ont des failles", sp:[
  {t:"Le rationnement du crédit", p:[
-  "[a:Stiglitz et Weiss], [w:Credit Rationing in Markets with Imperfect Information] ([d:1981])\nUne hausse du taux attirerait surtout les emprunteurs les plus risqués : les banques préfèrent rationner le crédit, et les projets innovants peuvent en être privés."]},
+  "[a:Stiglitz et Weiss], [w:Credit Rationing in Markets with Imperfect Information] ([d:1981])\nUne hausse du taux attirerait surtout les emprunteurs les plus risqués : les banques préfèrent rationner le crédit, et les projets innovants peuvent en être privés."],
+  ex:["Depuis le 20 novembre 2026, tout découvert autorisé, même de moins de [n:200 €], est traité comme un crédit : la banque doit d'abord vérifier la solvabilité du client (Libération, 19 nov. 2026)."]},
  {t:"Le risque systémique", p:[
   "Avec la titrisation, les banques revendent leurs crédits et surveillent moins les emprunteurs. Les règles de Bâle III poussent une partie de l'activité vers la finance de l'ombre (shadow banking)."],
   ex:["La crise des subprimes ([d:2007-2008])."]}
@@ -1193,16 +1221,18 @@ parts: [
  {t:"La reproduction", p:[
   "[a:Bourdieu et Passeron], [w:La Reproduction] ([d:1970])\nL'école valorise la culture des classes favorisées (capital culturel) et présente la réussite comme un don personnel. Cette violence symbolique rend la reproduction légitime.",
   "[a:Bourdieu et Passeron], [w:Les Héritiers] ([d:1964])\nLes enfants des classes favorisées, qui « héritent » de la culture scolaire, sont surreprésentés dans l'enseignement supérieur."],
-  ex:["En CPGE, [n:54 %] des élèves sont enfants de cadres, [n:6,4 %] enfants d'ouvriers.", "PISA : un écart de [n:100] points entre élèves favorisés et défavorisés en France, contre [n:85] dans l'OCDE."]},
+  ex:["En CPGE, [n:54 %] des élèves sont enfants de cadres, [n:6,4 %] enfants d'ouvriers.", "PISA : un écart de [n:100] points entre élèves favorisés et défavorisés en France, contre [n:85] dans l'OCDE.", "En Colombie, il faut en moyenne [n:11] générations pour qu'un enfant pauvre atteigne le revenu moyen (OCDE), ce que montre le documentaire « El juego de la vida », tiré d'une enquête sur [n:10 000] familles (BBC Mundo, 14 nov. 2026)."]},
  {t:"Les choix des familles", p:[
   "[a:Boudon], [w:L'Inégalité des chances] ([d:1973])\nÀ chaque palier d'orientation, les familles comparent coûts, bénéfices et risques selon leur position sociale. Les écarts s'accumulent d'un palier à l'autre."]},
  {t:"Des effets pervers", p:[
-  "Paradoxe d'Anderson ([d:1961]) ; [a:Peugny], [w:Le Déclassement] ([d:2009])\nÊtre plus diplômé que ses parents ne garantit pas une meilleure position : quand tout le monde est plus diplômé, les diplômes valent moins, et certains enfants connaissent un déclassement."]}
+  "Paradoxe d'Anderson ([d:1961]) ; [a:Peugny], [w:Le Déclassement] ([d:2009])\nÊtre plus diplômé que ses parents ne garantit pas une meilleure position : quand tout le monde est plus diplômé, les diplômes valent moins, et certains enfants connaissent un déclassement."],
+  ex:["En Espagne, [n:37,6 %] des actifs occupés sont surqualifiés pour leur poste, record de l'UE : le nombre de diplômés du supérieur a bondi de [n:119 %] depuis 2002, bien plus vite que la montée en gamme des emplois (El País, 29 oct. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Un déterminisme nuancé", sp:[
  {t:"Ni miracle ni fatalité", p:[
   "[a:Lahire], [w:La Culture des individus] ([d:2004])\nLes réussites improbables ne sont pas des « miracles » : elles s'expliquent par des dispositions précises transmises dans la famille.",
-  "[a:Henri-Panabière], [w:Des « héritiers » en échec scolaire] ([d:2010])\nLe capital culturel ne se transmet pas tout seul : il faut du temps et des conditions pour qu'il passe des parents aux enfants."]}
+  "[a:Henri-Panabière], [w:Des « héritiers » en échec scolaire] ([d:2010])\nLe capital culturel ne se transmet pas tout seul : il faut du temps et des conditions pour qu'il passe des parents aux enfants."],
+  ex:["L'association Les Déterminés de Moussa Camara a accompagné plus de [n:4 000] créateurs d'entreprise issus des banlieues et des campagnes isolées, qui partagent le même manque de réseau et de financement (RFI, 13 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -1248,7 +1278,7 @@ parts: [
   ex:["La nuit du 4 août 1789 : l'abolition des privilèges."]},
  {t:"Les mouvements sociaux", p:[
   "[a:Touraine], [w:Production de la société] ([d:1973])\nUn mouvement social réunit une identité, un adversaire et un enjeu commun (principe de totalité) : il fait évoluer la société."],
-  ex:["Les Gilets jaunes ([d:2018]) ; le mouvement contre la réforme des retraites ([d:2023])."]}
+  ex:["Les Gilets jaunes ([d:2018]) ; le mouvement contre la réforme des retraites ([d:2023]).", "Après la mobilisation des lycéens et des étudiants, le gouvernement ouvre une concertation pour réformer Parcoursup sans le supprimer : publication des critères de classement, plus d'orientation dès la seconde (AFP, 24 oct. 2026)."]}
 ]},
 {lab:"Oui, une étape", ti:"Une étape d'un cycle", sp:[
  {t:"Le cycle des relations", p:[
@@ -1292,9 +1322,11 @@ parts: [
   "Les gains de productivité agricole ont démenti Malthus : la production a augmenté bien plus vite que la population."],
   ex:["Les lois Pisani ([d:1960-1962]) modernisent l'agriculture française."]},
  {t:"La substitution", p:[
-  "[a:Solow] ([d:1991])\nLe progrès technique permet de remplacer les ressources rares par d'autres ou par du capital."]},
+  "[a:Solow] ([d:1991])\nLe progrès technique permet de remplacer les ressources rares par d'autres ou par du capital."],
+  ex:["Le recyclage des batteries produit une « masse noire » riche en lithium, cobalt et nickel, qui permet de récupérer des métaux critiques (Courrier international, 16 nov. 2026)."]},
  {t:"Le prix de la rareté", p:[
-  "[a:Hotelling], [w:The Economics of Exhaustible Resources] ([d:1931])\nLe prix d'une ressource épuisable augmente au rythme du taux d'intérêt : la rareté se traduit par des prix croissants, qui poussent à économiser et à trouver des substituts."]}
+  "[a:Hotelling], [w:The Economics of Exhaustible Resources] ([d:1931])\nLe prix d'une ressource épuisable augmente au rythme du taux d'intérêt : la rareté se traduit par des prix croissants, qui poussent à économiser et à trouver des substituts."],
+  ex:["Selon l'AIE, la crise du détroit d'Ormuz est la pire menace pour la sécurité énergétique de l'histoire, et elle pousse les pays à investir dans les énergies décarbonées produites sur place (Le Monde, 19 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Des prévisions trop pessimistes", sp:[
  {t:"Ce que Meadows sous-estime", p:[
@@ -1323,7 +1355,8 @@ parts: [
 ]},
 {lab:"Non", ti:"La durabilité forte", sp:[
  {t:"Une dégradation irréversible", p:[
-  "[a:Georgescu-Roegen], [w:La Décroissance] ([d:1979])\nToute activité économique dégrade de façon irréversible l'énergie et la matière (loi de l'entropie) : la croissance infinie est physiquement impossible."]},
+  "[a:Georgescu-Roegen], [w:La Décroissance] ([d:1979])\nToute activité économique dégrade de façon irréversible l'énergie et la matière (loi de l'entropie) : la croissance infinie est physiquement impossible."],
+  ex:["Au Brésil, des Awá isolés sortent de la forêt sous la pression des bûcherons illégaux en Amazonie (BBC Mundo, 20 nov. 2026)."]},
  {t:"La décroissance", p:[
   "[a:Latouche], [w:La Décroissance] ([d:2019])\nLe développement durable est un oxymore : on ne peut pas croître indéfiniment en préservant la nature.",
   "[a:Parrique], [w:Ralentir ou périr] ([d:2023])\nLe découplage entre croissance et émissions n'est ni total, ni global, ni permanent : il ne suffit pas.",
@@ -1332,7 +1365,7 @@ parts: [
 {lab:"Dépasser", ti:"Effet rebond et décroissance sélective", sp:[
  {t:"L'effet rebond", p:[
   "[a:Jevons], [w:The Coal Question] ([d:1865])\nQuand une technique devient plus efficace, on l'utilise davantage : les gains d'efficacité sont mangés par la hausse de la consommation."],
-  ex:["Les moteurs consomment moins, mais les voitures deviennent des SUV."]},
+  ex:["Les moteurs consomment moins, mais les voitures deviennent des SUV.", "En Espagne, les centres de données attirés par l'électricité solaire bon marché consomment aussi la nuit : sans règle, il faudrait faire tourner des centrales à gaz, d'où [n:+14 %] d'émissions de CO2 du secteur électrique et [n:2 Md€] de plus par an sur les factures d'ici 2030 (El País, 3 nov. 2026)."]},
  {t:"Trier les activités", p:[
   "[a:Raworth], [w:La Théorie du donut] ([d:2017])\nL'économie doit rester entre un plancher social et un plafond écologique : il faut faire décroître certaines activités, pas toutes.",
   "[a:Gollier], [w:Le Climat après la fin du mois] ([d:2019])\nUn prix du carbone permet de trier les activités selon leur coût pour le climat."]}
@@ -1354,7 +1387,7 @@ parts: [
  {t:"Un constat scientifique", p:[
   "GIEC\nLe réchauffement atteint déjà [n:+1,1 °C], et son origine humaine est certaine.",
   "[a:Crutzen], [w:Geology of Mankind] ([d:2002])\nL'homme est devenu une force géologique : nous sommes entrés dans l'anthropocène."],
-  ex:["L'assèchement de la mer d'Aral."]},
+  ex:["L'assèchement de la mer d'Aral.", "La COP31 s'ouvre alors que 2026 s'annonce comme une nouvelle année record de température et que le dépassement de [n:1,5 °C] paraît imminent (Le Monde, 17 nov. 2026)."]},
  {t:"La tragédie de l'horizon", p:[
   "[a:Carney] (discours à la Lloyd's, [d:2015])\nLes dégâts du climat arriveront au-delà de l'horizon des décideurs, d'où leur inaction. Mais les réserves fossiles risquent de devenir des actifs échoués, impossibles à exploiter."]}
 ]},
@@ -1389,7 +1422,8 @@ parts: [
 ]},
 {lab:"Non", ti:"D'autres outils", sp:[
  {t:"Négocier", p:[
-  "[a:Coase], [w:Le problème du coût social] ([d:1960])\nSi les droits de propriété sont clairement définis, pollueurs et victimes peuvent négocier entre eux sans intervention de l'État."]},
+  "[a:Coase], [w:Le problème du coût social] ([d:1960])\nSi les droits de propriété sont clairement définis, pollueurs et victimes peuvent négocier entre eux sans intervention de l'État."],
+  ex:["L'accord franco-allemand sur le CO2 maintient la fin des voitures thermiques neuves en 2035 mais assouplit les pénalités des constructeurs : une norme négociée avec l'industrie plutôt qu'un prix (Le Monde, 7 nov. 2026)."]},
  {t:"Les nudges", p:[
   "[a:Thaler et Sunstein], [w:Nudge] ([d:2008])\nOn peut orienter les comportements sans les taxer, par de petites incitations."],
   ex:["Une facture d'énergie qui compare sa consommation à celle des voisins."]},
@@ -1427,9 +1461,10 @@ parts: [
   "[a:Olson], [w:La Logique de l'action collective] ([d:1965])\nChaque pays a intérêt à laisser les autres réduire leurs émissions : plus le groupe est grand, plus la coopération est difficile.",
   "[a:Hardin], [w:La tragédie des communs] ([d:1968])\nUne ressource en accès libre est surexploitée jusqu'à disparaître.",
   "[a:Kindleberger] ([d:1986])\nLe climat est un bien public mondial que personne n'a intérêt à financer seul."],
-  ex:["L'effondrement de la morue de Terre-Neuve, qui impose un moratoire en [d:1992].", "Les États-Unis ne ratifient pas Kyoto."]},
+  ex:["L'effondrement de la morue de Terre-Neuve, qui impose un moratoire en [d:1992].", "Les États-Unis ne ratifient pas Kyoto.", "COP31 : boycott de Friedrich Merz et des représentants américains, [n:100 Md$] annuels promis au Sud toujours pas versés en entier (Alternatives économiques, 9 nov. 2026)."]},
  {t:"Un accord sans sanction", p:[
-  "L'accord de Paris ([d:2015]) repose sur des engagements volontaires, sans aucune sanction."]}
+  "L'accord de Paris ([d:2015]) repose sur des engagements volontaires, sans aucune sanction."],
+  ex:["Le projet de décision de la COP31 appelle à une « transition hors des énergies fossiles », contestée par les pays producteurs ; faute de sanctions, des délégations demandent des sanctions commerciales contre les États défaillants (Le Monde, 17 nov. ; Alternatives économiques, 9 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Des communs mieux gérés qu'on ne croit", sp:[
  {t:"Un mythe", p:[
@@ -1459,7 +1494,8 @@ parts: [
 {lab:"Non", ti:"Une responsabilité différenciée", sp:[
  {t:"La justice climatique", p:[
   "Le Nord s'est développé en polluant : il a une dette écologique envers le Sud et doit faire l'effort principal.",
-  "[a:Brunel], [w:Le Développement durable] ([d:2004])\nExiger du Sud le même effort serait un prétexte pour bloquer son développement."]},
+  "[a:Brunel], [w:Le Développement durable] ([d:2004])\nExiger du Sud le même effort serait un prétexte pour bloquer son développement."],
+  ex:["À la COP31, les pays émergents dénoncent l'hypocrisie des pays riches, qui n'ont pas versé en entier les [n:100 Md$] par an promis pour l'adaptation (Alternatives économiques, 9 nov. 2026)."]},
  {t:"Des émissions inégales", p:[
   "Les émissions dépendent surtout du niveau de vie : ce sont les plus riches, partout, qui émettent le plus."],
   ex:["Les [n:10 %] les plus émetteurs du monde produisent près de la moitié des émissions."]}
