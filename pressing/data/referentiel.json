@@ -6105,6 +6105,321 @@
           ]
         }
       ]
+    },
+    {
+      "id": "demande-effective-keynes",
+      "nom": "Demande effective et multiplicateur budgétaire",
+      "categorie": "politiques",
+      "type": "Théorie",
+      "annee": "1936",
+      "auteur": "John Maynard Keynes",
+      "accroche": "À court terme, c'est la demande anticipée par les entreprises — et non l'offre — qui détermine le niveau de production et d'emploi, ce qui justifie une relance budgétaire en période de sous-emploi.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**John Maynard Keynes**, *Théorie générale de l'emploi, de l'intérêt et de la monnaie* (1936), rédigée en pleine Grande Dépression.",
+            "Keynes renverse la **loi des débouchés** de **Jean-Baptiste Say** (1803), selon laquelle « l'offre crée sa propre demande ». En période d'incertitude, les ménages épargnent par précaution et les entreprises reportent leurs investissements : la demande peut rester durablement insuffisante, installant un **équilibre de sous-emploi**."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les entrepreneurs décident du volume de production et d'embauches en fonction de la **demande effective**, c'est-à-dire la demande globale (consommation + investissement) qu'ils anticipent.",
+            "Si leurs anticipations sont pessimistes, ils produisent moins et licencient, ce qui réduit les revenus distribués et confirme la faiblesse de la consommation.",
+            "L'État peut briser ce cercle vicieux en injectant une dépense publique autonome qui accroît les revenus des ménages et des entreprises.",
+            "Une part de ce revenu supplémentaire (la **propension marginale à consommer** $c$) est aussitôt consommée, engendrant de nouveaux revenus par vagues successives : le PIB augmente plus que la dépense initiale, selon le **multiplicateur budgétaire** $k = \\frac{1}{1 - c}$."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Une économie de marché ne revient pas automatiquement au plein-emploi par la seule flexibilité des prix et des salaires. En récession ou en situation de sous-utilisation des capacités productives, une **politique budgétaire de relance** (soutien au pouvoir d'achat, investissement public) est plus efficace qu'une baisse de salaires ou une cure d'austérité, qui risquent au contraire de déprimer davantage la demande globale."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le modèle IS-LM (Hicks, 1937)",
+              "d": "Formalise la synthèse néoclassique : une relance budgétaire peut provoquer un **effet d'éviction** financier si la hausse des taux d'intérêt freine l'investissement privé."
+            },
+            {
+              "t": "Multiplicateurs en temps de crise (Blanchard et Leigh, 2013)",
+              "d": "Le FMI a reconnu que le multiplicateur budgétaire était supérieur à 1 en récession, ce qui explique l'impact récessif de l'austérité européenne après 2010."
+            },
+            {
+              "t": "La contrainte extérieure",
+              "d": "Dans une économie ouverte, une partie de la relance fuit vers les **importations**, ce qui réduit la valeur du multiplicateur national et creuse le déficit commercial."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La relance keynésienne suppose des capacités de production inutilisées : si l'économie est proche du plein-emploi ou bloquée par des contraintes d'offre, elle génère surtout de l'**inflation** et des importations. De plus, lorsque la dette publique est déjà très élevée, la répétition de plans de soutien à la demande peut alimenter la défiance des marchés et la hausse des taux d'emprunt."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La relance Mauroy en France (1981-1982)",
+              "d": "Hausse du SMIC et des prestations sociales, mais fuite par les importations et contrainte extérieure conduisant au tournant de la rigueur en 1983."
+            },
+            {
+              "t": "Le « quoi qu'il en coûte » (2020-2021)",
+              "d": "Soutien massif aux revenus des ménages et des entreprises face au choc du Covid-19, évitant l'effondrement de la demande mais creusant la dette publique."
+            },
+            {
+              "t": "Le débat politique de l'offre contre politique de la demande",
+              "d": "Pour arbitrer entre soutien au pouvoir d'achat des ménages et allègement des prélèvements sur les entreprises en période de croissance faible."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Michał Kalecki (1933)",
+              "idee": "la demande effective et la répartition salaires/profits commandent l'activité"
+            },
+            {
+              "sens": "≠",
+              "nom": "Jean-Baptiste Say (1803)",
+              "idee": "l'offre crée sa propre demande, il n'y a pas de crise générale de surproduction"
+            },
+            {
+              "sens": "≠",
+              "nom": "Helmut Schmidt (1974)",
+              "idee": "ce sont les profits et l'offre qui créent l'investissement puis l'emploi"
+            },
+            {
+              "sens": "≠",
+              "nom": "Robert Barro (1974)",
+              "idee": "les ménages épargnent la relance en anticipant les impôts futurs (équivalence ricardienne)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ordre-spontane-hayek",
+      "nom": "Ordre spontané et rôle informatif des prix",
+      "categorie": "fondamentaux",
+      "type": "Théorie",
+      "annee": "1945",
+      "auteur": "Friedrich Hayek",
+      "accroche": "Le système de prix libres coordonne mieux des millions d'agents qu'aucun planificateur, car il synthétise instantanément une information dispersée que l'État ne peut jamais centraliser.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Friedrich Hayek**, *« L'utilisation de la connaissance dans la société »* (1945), prolongé dans *Droit, législation et liberté* (1973-1979).",
+            "Chef de file de l'**école autrichienne**, Hayek répond aux théoriciens de la planification socialiste en montrant que le problème économique central n'est pas l'allocation optimale de ressources connues, mais la **dispersion de la connaissance** locale, tacite et changeante entre des millions d'individus."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Chaque consommateur et chaque producteur détient des informations locales sur ses besoins, ses coûts et les pénuries qu'aucune administration centrale ne peut collecter en temps réel.",
+            "Les **prix de marché** agissent comme un système de télécommunication : une hausse de prix signale instantanément une rareté relative sans que les agents aient besoin d'en connaître la cause.",
+            "Ce signal incite spontanément les producteurs à accroître l'offre et les consommateurs à économiser la ressource ou à lui chercher des substituts.",
+            "L'interaction libre des agents engendre ainsi un **ordre spontané** (la *catallaxie*) que toute fixation autoritaire des prix vient brouiller."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Intervenir directement sur les prix — par un **plafonnement des loyers**, un blocage des tarifs de l'énergie ou une planification centralisée — détruit le signal de rareté et déséquilibre durablement le marché. En empêchant les prix d'ajuster l'offre et la demande, l'État décourage l'investissement et risque de transformer un problème de cherté en **pénurie**."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Effets pervers des prix plafonds",
+              "d": "En microéconomie standard, un prix fixé sous le prix d'équilibre crée une demande excédentaire, réduit la qualité de l'offre et favorise le marché noir."
+            },
+            {
+              "t": "La « présomption fatale » (Hayek, 1988)",
+              "d": "Critique du constructivisme : croire que l'État peut redessiner rationnellement la société conduit à l'inefficacité et à la restriction des libertés."
+            },
+            {
+              "t": "L'information imparfaite (Stiglitz, Akerlof)",
+              "d": "Nuance majeure : quand l'information est asymétrique ou que les marchés sont imparfaits, les prix seuls ne suffisent pas à garantir un équilibre efficace."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le signal-prix indique ce qui est rentable, mais pas ce qui est **socialement juste** ou écologiquement soutenable. Sur des marchés de première nécessité comme le logement ou la santé, un prix d'équilibre libre peut exclure les ménages modestes, et le marché ignore par lui-même les **externalités** négatives s'il n'est pas encadré."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'encadrement des loyers dans les métropoles",
+              "d": "Pour analyser le risque que le plafonnement décourage les propriétaires bailleurs et contracte l'offre locative."
+            },
+            {
+              "t": "Les boucliers tarifaires sur l'énergie",
+              "d": "En bloquant les prix du gaz ou de l'électricité, l'État protège le pouvoir d'achat mais réduit l'incitation à la sobriété énergétique."
+            },
+            {
+              "t": "Le débat sur la planification écologique",
+              "d": "Pour confronter l'usage d'un signal-prix (taxe carbone) aux normes administratives et aux quotas."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Adam Smith (1776)",
+              "idee": "la main invisible coordonne spontanément les intérêts privés par le marché"
+            },
+            {
+              "sens": "=",
+              "nom": "Milton Friedman (1962)",
+              "idee": "la liberté des prix est le fondement de l'efficacité économique et de la liberté politique"
+            },
+            {
+              "sens": "≠",
+              "nom": "Karl Polanyi (1944)",
+              "idee": "le marché autorégulateur détruit le lien social et appelle une contre-régulation publique"
+            },
+            {
+              "sens": "≠",
+              "nom": "Joseph Stiglitz (2001)",
+              "idee": "les asymétries d'information empêchent les prix de refléter toute l'information pertinente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "institutions-north",
+      "nom": "Institutions et droits de propriété",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "1990",
+      "auteur": "Douglass North",
+      "accroche": "Les institutions — formelles et informelles — fixent les règles du jeu économique : en garantissant la sécurité juridique et les droits de propriété, elles réduisent l'incertitude et rendent la croissance possible.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Douglass North**, *Institutions, Institutional Change and Economic Performance* (1990) ; prix Nobel d'économie en 1993.",
+            "Figure centrale de la **nouvelle économie institutionnelle**, North cherche à expliquer pourquoi certains pays se sont enrichis durablement depuis la révolution industrielle tandis que d'autres stagnent. Il montre que l'accumulation de capital et le progrès technique ne sont que les causes immédiates de la croissance : la cause profonde réside dans la qualité des **institutions**."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les institutions regroupent les règles formelles (lois, constitutions, brevets, justice) et informelles (normes sociales, confiance, usages).",
+            "Des droits de propriété clairs et protégés contre l'arbitraire assurent aux entrepreneurs et aux créateurs qu'ils pourront récolter les fruits de leurs investissements.",
+            "La stabilité et la prévisibilité du cadre juridique abaissent les **coûts de transaction** (coûts de négociation, de contrôle et de contentieux).",
+            "Inversement, l'instabilité réglementaire ou l'insécurité juridique découragent l'innovation, freinent l'investissement productif et poussent les acteurs vers la rente ou l'exil."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La croissance et l'innovation ne dépendent pas seulement des capitaux ou des ingénieurs, mais d'un **cadre juridique stable, lisible et équilibré**. Protéger les droits de propriété (notamment la propriété intellectuelle) est indispensable pour inciter à créer, mais une insécurité juridique excessive ou des règles floues multiplient les contentieux et paralysent l'investissement."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Institutions inclusives vs extractives (Acemoglu et Robinson, 2012)",
+              "d": "Dans *Pourquoi les nations échouent*, ils montrent que les institutions inclusives (État de droit, concurrence ouverte) favorisent la prospérité durable."
+            },
+            {
+              "t": "Coûts de transaction (Coase, 1937 ; Williamson, 1975)",
+              "d": "Les institutions réduisent les frictions liées aux contrats incomplets et à l'opportunisme des acteurs économiques."
+            },
+            {
+              "t": "Dépendance au sentier (path dependence)",
+              "d": "Les institutions évoluent lentement : des choix historiques anciens continuent de structurer la trajectoire économique d'un pays."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "L'approche institutionnelle peine parfois à trancher sur le **bon niveau de régulation** lorsque deux droits de propriété légitimes entrent en conflit — par exemple les droits d'auteur des créateurs face à la liberté d'innover des acteurs de l'intelligence artificielle. De plus, des pays aux institutions autoritaires comme la Chine ont connu une croissance très rapide pendant plusieurs décennies."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La régulation de l'IA et du droit d'auteur",
+              "d": "Pour montrer que l'incertitude juridique et la judiciarisation freinent l'investissement, tout en rappelant que la protection des créateurs est un droit de propriété."
+            },
+            {
+              "t": "La révolution industrielle anglaise",
+              "d": "Le Bill of Rights (1689) et le système de brevets ont sécurisé la propriété privée et encouragé l'innovation."
+            },
+            {
+              "t": "Les écarts de développement Nord-Sud",
+              "d": "La corruption, l'instabilité politique et la faiblesse de l'État de droit expliquent le retard d'investissement dans de nombreux pays en développement."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Daron Acemoglu et James Robinson (2012)",
+              "idee": "les institutions inclusives sont la clé de la prospérité des nations"
+            },
+            {
+              "sens": "=",
+              "nom": "Ronald Coase (1937)",
+              "idee": "le droit et les institutions réduisent les coûts de transaction"
+            },
+            {
+              "sens": "=",
+              "nom": "John Locke (1690)",
+              "idee": "la protection du droit de propriété est la mission première de l'État"
+            },
+            {
+              "sens": "≠",
+              "nom": "Robert Solow (1956)",
+              "idee": "le modèle néoclassique standard explique la croissance par le capital, le travail et un progrès technique exogène sans intégrer les institutions"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

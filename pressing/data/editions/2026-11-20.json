@@ -1,0 +1,1158 @@
+{
+ "date": "2026-11-20",
+ "cards": [
+  {
+   "id": "2026-11-20-esh-1",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conjoncture/une-politique-de-la-demande-sous-steroides-une-etude-refute-le-mythe-de-l-offre-sous-emmanuel-macron-20261119",
+   "minutes": 3,
+   "titre": "Politique de l'offre ou de la demande : une note de l'Institut de l'entreprise conteste le bilan économique des deux quinquennats Macron",
+   "faits": "Publiée en novembre 2026 et relayée par Le Figaro le 19 novembre, une note de l'Institut de l'entreprise intitulée « 2017-2026 : la politique de l'offre n'a pas eu lieu » remet en cause l'idée que les deux quinquennats d'Emmanuel Macron auraient obéi à une ligne libérale tournée vers les entreprises. D'après ce think tank patronal, entre 2018 et 2025, les flux budgétaires supplémentaires ont été orientés à hauteur d'environ 509 milliards d'euros vers les ménages, notamment via les retraites et les aides au pouvoir d'achat, contre 213 milliards d'euros vers les entreprises, soit un ratio de 2,4 en faveur de la demande. L'étude estime qu'une véritable politique de l'offre repose sur trois piliers indissociables : la fiscalité, la formation et la simplification des normes. Or, si la baisse de l'impôt sur les sociétés et la création de la flat tax ont bien été engagées en début de mandat, elles ont ensuite été partiellement compensées par le maintien d'une fraction de la CVAE et des surtaxes exceptionnelles. Parallèlement, la formation continue des salariés de terrain a reculé tandis que le stock de normes législatives et réglementaires a continué de croître. Cette publication intervient alors que la dette publique française frôle les 119 % du PIB et que la gauche attribue au contraire le dérapage budgétaire aux baisses d'impôts accordées aux entreprises et aux détenteurs de capital.",
+   "enjeux": "Cette controverse est au cœur du programme d'ESH, car elle oppose frontalement **politique de l'offre** et **politique de la demande** dans un pays contraint par sa dette publique. Pour l'Institut de l'entreprise, soutenir massivement le revenu disponible des ménages sans lever les freins productifs (coût du travail, formation, normes) alimente surtout les importations et le déficit, tout en laissant stagner la **productivité**. À l'inverse, les économistes et responsables politiques de gauche soulignent que les allègements fiscaux et sociaux accordés aux entreprises n'ont pas suffi à redresser la balance commerciale ni à enrayer la baisse de la part de l'industrie dans le PIB. Le débat illustre l'arbitrage délicat de l'**allocation des dépenses publiques** : arbitrer entre transferts sociaux de court terme et investissements productifs de long terme. Lorsque la dette approche 120 % du PIB, la **contrainte budgétaire** réduit la marge de manœuvre et oblige à évaluer rigoureusement le rendement économique de chaque euro dépensé ou exonéré. En dissertation, cette étude constitue un contre-exemple précieux pour nuancer l'idée reçue d'une décennie purement néolibérale en France.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Palais_Brongniart_Facade.jpg",
+    "alt": "Façade du palais Brongniart à Paris, lieu de débats économiques et financiers",
+    "credit": "Arthur Weidmann / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palais_Brongniart_Facade.jpg"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "Helmut Schmidt",
+     "ouvrage": "Théorème de Schmidt",
+     "annee": "1974",
+     "ref": "theoreme-de-schmidt",
+     "cours": "1A-acteurs-fonctions",
+     "texte": "Selon le **théorème de Schmidt**, « les profits d'aujourd'hui sont les investissements de demain et les emplois d'après-demain ». Cette logique fonde les **politiques de l'offre** défendues par l'Institut de l'entreprise : restaurer les marges, alléger les normes et former la main-d'œuvre conditionnent l'investissement productif et la croissance future. À mobiliser dans un sujet sur la compétitivité ou l'efficacité des politiques budgétaires pour justifier la priorité donnée aux producteurs plutôt qu'aux transferts de consommation."
+    },
+    {
+     "nom": "John Maynard Keynes",
+     "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+     "annee": "1936",
+     "ref": "demande-effective-keynes",
+     "cours": "1A-croissance",
+     "texte": "À l'inverse, Keynes montre que c'est la **demande effective** anticipée par les entreprises qui détermine le niveau de production et d'emploi à court terme. Sur cette actualité, son analyse permet de comprendre pourquoi l'État a soutenu les ménages à hauteur de 509 milliards d'euros face aux chocs récents (Covid, inflation), afin d'éviter un effondrement de la consommation, même si l'effet du **multiplicateur budgétaire** s'affaiblit dans une économie ouverte et très endettée. À mobiliser pour construire le débat entre relance par la demande et réformes de l'offre."
+    }
+   ],
+   "notions": [
+    [
+     "Politique de l'offre",
+     "Ensemble des mesures visant à stimuler la production en réduisant les coûts, la fiscalité et les normes pesant sur les entreprises."
+    ],
+    [
+     "Politique de la demande",
+     "Politique conjoncturelle qui cherche à relancer l'activité économique en soutenant la consommation des ménages ou l'investissement public."
+    ],
+    [
+     "Productivité",
+     "Rapport entre la richesse produite et la quantité de facteurs de production (travail, capital) mobilisée pour la réaliser."
+    ],
+    [
+     "Contrainte budgétaire",
+     "Limite imposée aux dépenses publiques par la nécessité de financer le déficit et de maintenir la soutenabilité de la dette."
+    ]
+   ],
+   "sujets": [
+    "Les politiques de l'offre sont-elles plus efficaces que les politiques de la demande pour relancer la croissance ?",
+    "La dépense publique française soutient-elle suffisamment la croissance de long terme ?"
+   ],
+   "anki": [
+    {
+     "q": "Répartition des flux budgétaires ménages / entreprises en France entre 2018 et 2025 (Institut de l'entreprise)",
+     "r": "Environ C{509 Md€} vers les ménages contre C{213 Md€} vers les entreprises (ratio de C{2,4} en faveur de la demande).\n→ Nuance l'idée d'une décennie purement néolibérale et nourrit le débat B{politique de l'offre} vs B{politique de la demande} ; A{Helmut Schmidt}, O{Théorème de Schmidt} (D{1974}) : sans restauration durable de l'offre, la productivité stagne → accroche pour un sujet sur l'efficacité des politiques économiques."
+    },
+    {
+     "q": "Trois piliers d'une politique de l'offre selon l'Institut de l'entreprise (2026)",
+     "r": "B{Fiscalité}, B{formation} et simplification des B{normes}.\n→ Montre qu'une politique de l'offre réduite à des baisses d'impôts partielles échoue si le capital humain et l'inflation normative ne sont pas traités ; à opposer à A{John Maynard Keynes}, O{Théorie générale de l'emploi, de l'intérêt et de la monnaie} (D{1936}) sur le rôle de la demande effective."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-esh-2",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/20/comment-la-france-a-echoue-a-enrayer-sa-desindustrialisation-plus-de-3-000-usines-ont-ferme-depuis-2009_6813580_3234.html",
+   "minutes": 3,
+   "titre": "Désindustrialisation : plus de 3 000 usines ont fermé en France depuis 2009 malgré les plans de relance",
+   "faits": "Dans une enquête publiée le 20 novembre 2026, Le Monde dresse un bilan sévère de la trajectoire productive française en soulignant que plus de 3 000 usines ont fermé sur le territoire national depuis 2009. Ce recensement, qui s'appuie sur le suivi des fermetures et ouvertures de sites industriels mené depuis la fin des années 2000 par l'observatoire Trendeo et corrélé aux séries de l'Insee, montre que le recul industriel n'a jamais été durablement inversé. L'hémorragie touche des filières très variées, de l'automobile à la métallurgie en passant par l'agroalimentaire, malgré la succession de plans publics de réindustrialisation. Si la France a connu au début des années 2020 une brève embellie avec un solde net d'ouvertures temporairement positif, la tendance s'est de nouveau dégradée sous l'effet de la hausse des coûts de l'énergie, de la concurrence asiatique et du ralentissement européen. Sur longue période, la contribution de l'industrie manufacturière à la valeur ajoutée française a été divisée par deux depuis les années 1980 pour s'établir autour de 10 à 11 % du PIB, confirmant le glissement prononcé vers une économie de services.",
+   "enjeux": "La persistance de la **désindustrialisation** constitue l'une des faiblesses structurelles majeures de l'économie française. L'industrie concentre l'essentiel des dépenses de **recherche et développement**, des gains de productivité et des exportations de biens : son érosion explique directement le creusement chronique du déficit commercial français. Cette évolution s'explique par un double effet : d'une part, la **terciarisation** et l'externalisation de fonctions autrefois intégrées aux usines (logistique, informatique, conseil), et d'autre part un défaut de **compétitivité-coût** et hors-prix qui place de nombreuses entreprises françaises dans le piège du milieu de gamme. Les fermetures d'usines fragilisent également la cohésion territoriale en frappant des bassins d'emploi périphériques où les reconversions sont lentes et coûteuses. Face à ce constat, les pouvoirs publics oscillent entre politique d'attractivité fiscale et retour d'une **politique industrielle** ciblée sur les filières stratégiques, dans un contexte où les États-Unis et la Chine subventionnent massivement leurs champions.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/SteelMill_interior.jpg",
+    "alt": "Intérieur d'une usine sidérurgique illustrant l'activité industrielle lourde",
+    "credit": "Payton Chung from DC, USA / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:SteelMill_interior.jpg"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Élie Cohen et Jean-Hervé Lorenzi",
+     "ouvrage": "Politiques industrielles pour l'Europe",
+     "annee": "2000",
+     "ref": "politique-industrielle-cohen-lorenzi",
+     "cours": "2A-02-ftn",
+     "texte": "Cohen et Lorenzi définissent la **politique industrielle** comme une intervention ciblée de l'État, justifiée par la dépendance nationale, la recherche d'autonomie technologique ou les défaillances de l'initiative privée. Appliquée à la fermeture de plus de 3 000 usines depuis 2009, leur analyse montre que le seul jeu du marché ne suffit pas à maintenir une base manufacturière face à des concurrents étrangers subventionnés. À mobiliser dans un sujet sur la réindustrialisation ou la souveraineté économique pour défendre des politiques sectorielles coordonnées à l'échelle européenne."
+    },
+    {
+     "nom": "Lionel Fontagné",
+     "ouvrage": "Pas d'industrie, pas d'avenir ?",
+     "annee": "2014",
+     "ref": "activite-industrielle-fontagne",
+     "cours": "2A-02-ftn",
+     "texte": "Fontagné invite à nuancer le diagnostic de désindustrialisation en distinguant l'**industrie au sens strict** (la fabrication matérielle) de l'**activité industrielle** (conception, R&D, marque, organisation de la chaîne de valeur). Même lorsqu'une firme ferme des usines sur le sol national, elle peut conserver en France les maillons les plus créateurs de valeur ajoutée, à l'image des groupes du luxe ou de l'aéronautique. À mobiliser pour éviter une lecture catastrophiste et montrer que la réindustrialisation passe d'abord par la montée en gamme."
+    }
+   ],
+   "notions": [
+    [
+     "Désindustrialisation",
+     "Recul durable de la part de l'industrie dans l'emploi total et dans la valeur ajoutée d'une économie."
+    ],
+    [
+     "Politique industrielle",
+     "Intervention ciblée des pouvoirs publics visant à orienter, soutenir ou protéger des secteurs productifs jugés stratégiques."
+    ],
+    [
+     "Chaîne de valeur mondiale",
+     "Fragmentation internationale des étapes de production d'un bien, de la conception jusqu'à l'assemblage et la commercialisation."
+    ],
+    [
+     "Compétitivité hors-prix",
+     "Capacité d'une entreprise ou d'un pays à gagner des parts de marché grâce à la qualité, l'innovation ou l'image de marque plutôt que par des prix bas."
+    ]
+   ],
+   "sujets": [
+    "La réindustrialisation de la France est-elle possible dans une économie ouverte ?",
+    "La désindustrialisation est-elle nécessairement le signe d'un déclin économique ?"
+   ],
+   "anki": [
+    {
+     "q": "Nombre d'usines fermées en France depuis 2009 et poids actuel de l'industrie dans le PIB (Le Monde, 2026)",
+     "r": "Plus de C{3 000} usines fermées depuis D{2009}, et une industrie manufacturière ramenée autour de C{10 à 11 %} du PIB.\n→ Illustre l'échec relatif des plans de réindustrialisation face à la concurrence internationale ; A{Élie Cohen et Jean-Hervé Lorenzi}, O{Politiques industrielles pour l'Europe} (D{2000}) : appelle une politique industrielle ciblée → accroche pour un sujet sur la désindustrialisation."
+    },
+    {
+     "q": "Distinction à mobiliser pour nuancer les fermetures d'usines en France",
+     "r": "B{Industrie au sens strict} (fabrication) contre B{activité industrielle} (conception, marque, propriété intellectuelle).\n→ A{Lionel Fontagné}, O{Pas d'industrie, pas d'avenir ?} (D{2014}) : montre qu'une économie peut perdre des usines tout en captant les segments à forte valeur ajoutée des chaînes mondiales."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-esh-3",
+   "matiere": "esh",
+   "source": "Libération",
+   "url": "https://www.liberation.fr/societe/ville/apres-des-debats-houleux-lencadrement-des-loyers-prolonge-de-deux-ans-20261119_KBM353LD2VEULICY624EQXZNLU/",
+   "minutes": 3,
+   "titre": "Logement : l'Assemblée nationale prolonge l'encadrement des loyers de deux ans jusqu'en 2028",
+   "faits": "Jeudi 19 novembre 2026, à l'issue de débats très tendus, l'Assemblée nationale a définitivement adopté par 148 voix contre 95 la prolongation pour deux ans de l'expérimentation de l'encadrement des loyers, désormais prorogée jusqu'en novembre 2028. Le dispositif, issu de la loi Élan de 2018, devait arriver à échéance fin novembre 2026 et a été sauvé de justesse grâce à un compromis voté sans modification après son passage au Sénat. Il continue de s'appliquer à périmètre constant dans environ 70 communes situées en zone tendue — parmi lesquelles Paris, Lyon, Lille, Bordeaux, Montpellier et le Pays basque —, protégeant près de 1,2 million de foyers locataires. En revanche, le texte ne pérennise pas la mesure et n'autorise pas de nouvelles villes candidates, comme Marseille, à rejoindre le dispositif. Face à l'obstruction parlementaire des groupes RN, UDR et LR qui dénoncent une atteinte au droit de propriété et un frein à l'investissement locatif, le ministre du Logement Vincent Jeanbrun a dû recourir à l'article 44 alinéa 2 de la Constitution pour permettre le vote de la proposition portée par le député socialiste Iñaki Echaniz.",
+   "enjeux": "L'encadrement des loyers constitue un cas d'école microéconomique du **prix plafond** sur un marché en tension. Ses partisans soulignent que le logement est un bien de première nécessité dont l'offre est rigide à court terme : sans régulation, la flambée des loyers dans les métropoles accroît les **dépenses contraintes**, alimente la **ségrégation socio-spatiale** et chasse les classes moyennes et populaires des centres-villes. Ses détracteurs s'appuient au contraire sur l'analyse néoclassique : fixer un loyer maximal en dessous du prix d'équilibre décourage les propriétaires bailleurs, réduit l'entretien du parc et incite à basculer les logements vers la location touristique de courte durée, aggravant finalement la **pénurie locative**. Le refus du Parlement d'étendre le dispositif à de nouvelles villes traduit cet arbitrage politique et économique non tranché entre protection immédiate du pouvoir d'achat des locataires en place et incitation à construire davantage. En dissertation, cette actualité permet d'illustrer concrètement les limites respectives du marché autorégulateur et de l'intervention publique par les prix.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Bishan-Ang_Mo_Kio_Park.jpg",
+    "alt": "Immeubles d'habitation collectifs illustrant les enjeux du logement urbain",
+    "credit": "Wirbel1980 . / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bishan-Ang_Mo_Kio_Park.jpg"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les grands courants de la pensée économique depuis le XVIe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Karl Polanyi",
+     "ouvrage": "La Grande Transformation",
+     "annee": "1944",
+     "ref": "encastrement-polanyi",
+     "cours": "1A-transformations-sociales",
+     "texte": "Polanyi montre qu'un marché laissé à lui-même, en particulier pour des « marchandises fictives » comme la terre et le logement, engendre des destructions sociales qui appellent une **contre-régulation institutionnelle**. Prolonger l'encadrement des loyers pour 1,2 million de foyers illustre ce « double mouvement » par lequel la société se protège contre l'éviction des ménages modestes hors des métropoles. À mobiliser pour justifier l'intervention de l'État social sur les marchés de biens essentiels."
+    },
+    {
+     "nom": "Friedrich Hayek",
+     "ouvrage": "« L'utilisation de la connaissance dans la société »",
+     "annee": "1945",
+     "ref": "ordre-spontane-hayek",
+     "cours": "1A-hpe",
+     "texte": "À l'inverse, Hayek considère que les prix libres constituent un **système d'information** irremplaçable qui coordonne spontanément les acteurs économiques. Bloquer ou plafonner les loyers brouille le signal de rareté, décourage les bailleurs et les constructeurs et risque d'aggraver à moyen terme la pénurie de logements disponibles. À mobiliser dans un sujet sur la régulation des marchés pour montrer les effets pervers du contrôle des prix."
+    }
+   ],
+   "notions": [
+    [
+     "Prix plafond",
+     "Prix maximal fixé par les pouvoirs publics en dessous du prix d'équilibre, susceptible de créer une demande excédentaire."
+    ],
+    [
+     "Elasticité-prix de l'offre",
+     "Mesure de la sensibilité des quantités offertes à une variation de prix ; elle est très faible à court terme dans l'immobilier."
+    ],
+    [
+     "Dépenses contraintes",
+     "Part du revenu des ménages absorbée par des dépenses difficilement compressibles à court terme, comme le loyer ou l'énergie."
+    ],
+    [
+     "Ségrégation socio-spatiale",
+     "Concentration géographique des ménages selon leur niveau de revenu ou leur catégorie sociale au sein d'un territoire."
+    ]
+   ],
+   "sujets": [
+    "Le contrôle des prix est-il un instrument efficace de protection du pouvoir d'achat ?",
+    "L'État doit-il réguler le marché du logement ou favoriser la liberté des prix ?"
+   ],
+   "anki": [
+    {
+     "q": "Vote de l'Assemblée nationale sur l'encadrement des loyers et nombre de foyers concernés (novembre 2026)",
+     "r": "Prolongé de C{2 ans} jusqu'en D{novembre 2028} (C{148} voix contre C{95}) dans environ C{70} communes, protégeant C{1,2 million} de foyers.\n→ Exemple concret de B{prix plafond} opposant protection sociale (A{Karl Polanyi}, O{La Grande Transformation}, D{1944}) et distorsion du signal-prix (A{Friedrich Hayek}, O{« L'utilisation de la connaissance dans la société »}, D{1945}) → accroche pour un sujet sur la régulation des marchés."
+    },
+    {
+     "q": "Limite du compromis voté sur l'encadrement des loyers en novembre 2026",
+     "r": "Le dispositif reste expérimental à périmètre constant, sans ouverture à de nouvelles villes candidates comme Marseille.\n→ Traduit l'arbitrage politique entre protection des locataires en place et crainte de décourager l'investissement locatif."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-esh-4",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/le-gouvernement-enterre-son-projet-de-nouveaux-trains-de-nuit-2263514",
+   "minutes": 3,
+   "titre": "Trains de nuit : l'État déclare l'appel d'offres infructueux et mise sur la rénovation des rames Corail",
+   "faits": "Comme l'ont révélé Les Échos le 19 novembre 2026, le gouvernement, par la voix du ministre des Transports Philippe Tabarot, a déclaré infructueux l'appel d'offres lancé en 2025 pour louer de nouvelles voitures-couchettes destinées à relancer les trains de nuit en France. Ce marché, évalué à 1,1 milliard d'euros, s'est heurté à un manque de concurrence — un seul candidat étant resté en lice — ainsi qu'à des exigences industrielles, financières et de délais jugées intenables. En conséquence, l'ambition affichée depuis 2021 d'étendre largement le réseau vers une dizaine de lignes nationales et transversales avec du matériel neuf est abandonnée sous sa forme initiale. L'État a retenu un plan de repli moins coûteux combinant la location de 27 locomotives neuves attribuée à Alpha Trains, pour une mise en service à l'horizon 2030, et la rénovation complète des anciennes voitures Corail datant des années 1980 par la SNCF. Cette décision illustre la difficulté pour la puissance publique de financer des infrastructures ferroviaires de niche dans un contexte budgétaire très contraint.",
+   "enjeux": "L'échec de cet appel d'offres met en lumière les spécificités économiques des **industries de réseau** et du **monopole naturel** ferroviaire. Le transport ferroviaire de nuit combine des coûts fixes considérables (matériel spécifique, sillons, maintenance) et une faible densité de clientèle, ce qui limite spontanément le nombre d'offreurs privés capables de répondre à une mise en concurrence. Alors que la **transition écologique** plaide pour le report modal de l'avion vers le train afin de réduire les **externalités négatives** de carbone, la contrainte budgétaire pousse l'État à privilégier la prolongation d'actifs existants plutôt que l'investissement neuf. Cette situation illustre aussi la tension entre les règles européennes d'ouverture à la concurrence dans les transports et la réalité d'un marché étroit où les **économies d'échelle** manquent. En dissertation, cet épisode constitue un exemple actuel et précis des limites de la mise en concurrence dans les services publics en réseau et du sous-investissement public face aux objectifs climatiques.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/L%27Intercit%C3%A9s_de_nuit_Paris_-_Austerlitz_Brian%C3%A7on_entre_en_gare_de_Brian%C3%A7on.jpg",
+    "alt": "Train Intercités de nuit Paris-Austerlitz – Briançon entrant en gare",
+    "credit": "Damd071 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:L%27Intercit%C3%A9s_de_nuit_Paris_-_Austerlitz_Brian%C3%A7on_entre_en_gare_de_Brian%C3%A7on.jpg"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+   },
+   "auteurs": [
+    {
+     "nom": "Robert Barro",
+     "ouvrage": "Government Spending in a Simple Model of Endogenous Growth",
+     "annee": "1990",
+     "ref": "croissance-endogene",
+     "cours": "1A-croissance",
+     "texte": "Dans la théorie de la **croissance endogène**, Barro montre que les **infrastructures publiques** (transports, réseaux) génèrent des externalités positives qui rendent le capital privé plus productif, mais qu'elles doivent être arbitrées avec la contrainte fiscale. L'abandon des voitures-couchettes neuves au profit d'une rénovation des rames Corail montre comment un État endetté peine à financer des investissements publics pourtant favorables à l'aménagement du territoire et à la décarbonation. À mobiliser dans un sujet sur le rôle de l'État dans la croissance ou la transition écologique."
+    },
+    {
+     "nom": "Marcel Boiteux",
+     "ouvrage": "« Sur la gestion des monopoles publics astreints à l'équilibre budgétaire »",
+     "annee": "1956",
+     "ref": "monopole-naturel-boiteux",
+     "texte": "Boiteux analyse l'économie du **monopole naturel** dans les services en réseau où les coûts fixes élevés entraînent des rendements croissants et rendent la concurrence inefficace ou impossible. L'appel d'offres infructueux sur les trains de nuit, avec un seul candidat en lice pour 1,1 milliard d'euros, confirme que la mise en concurrence de segments ferroviaires étroits échoue souvent et impose un arbitrage public entre équilibre budgétaire et mission de service public. À mobiliser pour nuancer les bienfaits de l'ouverture à la concurrence dans les transports."
+    }
+   ],
+   "notions": [
+    [
+     "Monopole naturel",
+     "Situation où, en raison de coûts fixes très élevés, une seule entreprise peut produire à un coût inférieur à celui de plusieurs concurrents."
+    ],
+    [
+     "Infrastructures publiques",
+     "Équipements collectifs financés ou organisés par l'État (rail, routes, réseaux) qui soutiennent la productivité globale de l'économie."
+    ],
+    [
+     "Report modal",
+     "Transfert des déplacements de passagers ou de marchandises d'un mode de transport polluant (avion, route) vers un mode moins émetteur (train)."
+    ],
+    [
+     "Économies d'échelle",
+     "Baisse du coût unitaire de production lorsque les quantités produites augmentent, grâce à l'étalement des coûts fixes."
+    ]
+   ],
+   "sujets": [
+    "L'ouverture à la concurrence est-elle toujours efficace dans les services publics en réseau ?",
+    "La contrainte budgétaire empêche-t-elle l'État de financer la transition écologique ?"
+   ],
+   "anki": [
+    {
+     "q": "Montant de l'appel d'offres infructueux pour les trains de nuit français et solution de repli retenue (novembre 2026)",
+     "r": "Appel d'offres de C{1,1 Md€} déclaré infructueux (C{1} seul candidat) ; repli sur C{27} locomotives neuves (horizon D{2030}) et rénovation des rames Corail.\n→ Illustre les limites de la concurrence dans un B{monopole naturel} ferroviaire (A{Marcel Boiteux}, O{« Sur la gestion des monopoles publics astreints à l'équilibre budgétaire »}, D{1956}) et la contrainte budgétaire sur les infrastructures (A{Robert Barro}, D{1990}) → accroche pour un sujet sur les services publics ou la transition écologique."
+    },
+    {
+     "q": "Pourquoi la mise en concurrence des trains de nuit se heurte-t-elle au manque de candidats ?",
+     "r": "Coûts fixes élevés pour un matériel spécifique sur un marché étroit, privant les constructeurs d'B{économies d'échelle}.\n→ Montre que les industries de réseau ne vérifient pas les hypothèses de la concurrence pure et parfaite."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-esh-p1",
+   "matiere": "esh",
+   "perso": true,
+   "demande": "dmwlw13dz",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/idees-debats/cercle/ia-et-droit-dauteur-la-france-organise-volontairement-son-propre-sabotage-denoncent-une-trentaine-de-patrons-de-la-french-tech-2262954",
+   "minutes": 3,
+   "titre": "IA et droit d'auteur : des patrons de la French Tech dénoncent une proposition de loi jugée néfaste à la souveraineté technologique",
+   "faits": "Dans une tribune publiée dans Les Échos à la veille de l'examen à l'Assemblée nationale, le 19 novembre 2026, d'une proposition de loi sur l'intelligence artificielle et le droit d'auteur, une trentaine d'entrepreneurs et dirigeants de PME et d'ETI de la French Tech appellent les députés à rejeter le texte. La proposition vise à instaurer une présomption d'utilisation des contenus protégés dès lors qu'un « indice » rend vraisemblable l'usage d'une œuvre par un modèle d'IA, obligeant le fournisseur à prouver qu'il ne l'a pas utilisée. Les signataires jugent cette inversion de la charge de la preuve techniquement irréalisable sur des corpus de milliards de documents et redoutent une judiciarisation permanente entre créateurs et entreprises technologiques. Selon eux, ce risque juridique pénaliserait avant tout les acteurs européens implantés en France — où se trouvent leurs chercheurs, leurs serveurs et leurs clients — alors que les géants américains et chinois entraînent leurs modèles sous d'autres législations. Tout en reconnaissant la légitimité de la rémunération des créateurs, les dirigeants réclament d'éviter une loi nationale isolée adoptée en niche parlementaire et de bâtir un cadre européen commun applicable à tous les fournisseurs opérant sur le marché européen.",
+   "enjeux": "Ce conflit oppose deux piliers essentiels de la croissance moderne : la protection des **droits de propriété intellectuelle** et l'incitation à l'**innovation technologique**. D'un côté, les auteurs, éditeurs et ayants droit soulignent que sans rémunération juste des contenus qui nourrissent l'entraînement des modèles, l'incitation à créer des œuvres originales s'effondre, ce qui constitue un problème classique de **passager clandestin** sur des biens informationnels. De l'autre, les entrepreneurs alertent sur le coût de l'**insécurité juridique** : dans une course mondiale à l'IA où les effets de réseau et les économies d'échelle favorisent le « winner-takes-all », une réglementation nationale plus stricte risque de provoquer une fuite des capitaux et des talents vers les États-Unis ou la Chine. Le débat pose enfin la question de l'échelle optimale de la **régulation** : face à des marchés numériques mondiaux, seule une norme européenne homogène peut concilier protection des créateurs et **souveraineté technologique** sans créer de distorsion de concurrence au détriment des champions nationaux.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
+    "alt": "Salle de serveurs informatiques dans un centre de données",
+    "credit": "BalticServers.com / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+   },
+   "auteurs": [
+    {
+     "nom": "Douglass North",
+     "ouvrage": "Institutions, Institutional Change and Economic Performance",
+     "annee": "1990",
+     "ref": "institutions-north",
+     "cours": "1A-croissance",
+     "texte": "North montre que les **institutions** fixent les règles du jeu : en garantissant des **droits de propriété** clairs et en réduisant l'incertitude juridique, elles abaissent les coûts de transaction et rendent l'investissement possible. Cette tribune illustre la double face de sa théorie : les créateurs ont besoin d'une protection effective de leur propriété intellectuelle, mais une règle floue renversant la charge de la preuve crée une insécurité juridique qui détourne l'argent de la R&D vers les contentieux. À mobiliser dans un sujet sur le rôle des institutions ou de la régulation dans la croissance."
+    },
+    {
+     "nom": "Joseph Schumpeter",
+     "ouvrage": "Capitalisme, socialisme et démocratie",
+     "annee": "1942",
+     "ref": "destruction-creatrice",
+     "cours": "1A-croissance",
+     "texte": "Schumpeter décrit le progrès technique comme un processus de **destruction créatrice** qui bouleverse les positions acquises et provoque inévitablement des résistances de la part des secteurs menacés. L'affrontement entre les acteurs de l'IA et les industries culturelles reflète cette tension entre l'émergence d'une nouvelle grappe d'innovations et la défense des modèles économiques existants. À mobiliser pour montrer que toute révolution technologique exige d'inventer de nouveaux compromis institutionnels sans étouffer l'innovation."
+    }
+   ],
+   "notions": [
+    [
+     "Droits de propriété intellectuelle",
+     "Droits exclusifs (brevets, droits d'auteur) garantissant aux créateurs et inventeurs le contrôle et la rémunération de leurs œuvres."
+    ],
+    [
+     "Souveraineté technologique",
+     "Capacité d'un État ou d'une union à maîtriser les technologies stratégiques sans dépendre entièrement de puissances étrangères."
+    ],
+    [
+     "Insécurité juridique",
+     "Incertitude liée à des règles floues ou instables, qui accroît les risques de contentieux et freine l'investissement."
+    ],
+    [
+     "Destruction créatrice",
+     "Processus par lequel les innovations remplacent progressivement les activités, techniques et emplois anciens."
+    ]
+   ],
+   "sujets": [
+    "La régulation est-elle un frein ou une condition de l'innovation technologique ?",
+    "Comment concilier protection de la propriété intellectuelle et développement de l'intelligence artificielle ?"
+   ],
+   "anki": [
+    {
+     "q": "Mécanisme contesté par une trentaine de patrons de la French Tech dans la proposition de loi sur l'IA (novembre 2026)",
+     "r": "Une B{présomption d'utilisation} des œuvres protégées sur simple « indice », inversant la charge de la preuve sur des corpus de milliards de documents.\n→ Illustre le conflit entre B{droits de propriété} et B{insécurité juridique} ; A{Douglass North}, O{Institutions, Institutional Change and Economic Performance} (D{1990}) : des règles floues augmentent les coûts de transaction et freinent la R&D → accroche pour un sujet sur la régulation de l'innovation."
+    },
+    {
+     "q": "Échelle de régulation réclamée par la French Tech face à la concurrence américaine et chinoise en IA",
+     "r": "Un cadre B{européen} commun applicable à tous les fournisseurs opérant sur le marché de l'UE, plutôt qu'une loi nationale isolée.\n→ Montre le risque de distorsion de concurrence et de perte de B{souveraineté technologique} si un pays légifère seul."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+   "minutes": 3,
+   "titre": "Royaume-Uni – UE : Londres et Bruxelles proches d'un accord post-Brexit sur la mobilité des jeunes et l'agroalimentaire",
+   "faits": "À la veille du sommet Royaume-Uni – Union européenne à Bruxelles, les négociateurs britanniques et européens se sont fortement rapprochés jeudi 19 novembre d'un accord de « réinitialisation » post-Brexit. Les deux parties se sont provisoirement entendues sur un programme de mobilité des jeunes plafonné à 100 000 citoyens européens par an autorisés à venir au Royaume-Uni, contre un quota initialement souhaité par Londres de 50 000 à 80 000, avec une limite d'âge relevée de 30 à 31 ans. En échange, Bruxelles a abandonné à la dernière minute son exigence d'aligner les frais de scolarité des étudiants européens sur ceux des étudiants britanniques, acceptant de négocier des frais internationaux réduits dans un accord complémentaire d'ici six mois. Le point le plus délicat restait la place de Londres dans l'élaboration des futures normes sanitaires et phytosanitaires (SPS) dans le cadre d'un accord agroalimentaire destiné à alléger les contrôles aux frontières. Face à l'opposition ferme de la France, le gouvernement d'Andy Burnham a renoncé à réclamer un droit de vote sur les lois européennes et devrait se contenter d'un mécanisme de consultation. Si l'accord est scellé lors du sommet, Londres prévoit de déposer rapidement un projet de loi pour réduire les coûts commerciaux liés au Brexit.",
+   "enjeux": "Ce compromis de dernière minute illustre le pragmatisme imposé par le coût économique durable du **Brexit** : selon les économistes, la sortie du marché unique continue de peser sur les échanges agroalimentaires et sur le PIB par habitant britannique. Pour le Premier ministre travailliste **Andy Burnham**, l'enjeu consiste à obtenir des gains économiques tangibles sans franchir les « lignes rouges » politiques qui réveilleraient l'opposition conservatrice et celle de Reform UK, très hostiles à tout retour à la libre circulation. Les concessions britanniques sur le plafond de 100 000 jeunes et sur l'abandon d'un droit de vote normatif montrent toutefois l'asymétrie du rapport de force avec Bruxelles : l'UE refuse toujours le « picorage » (*cherry-picking*) et exige des contreparties concrètes pour ouvrir son marché. L'accord sur la **mobilité des jeunes** répond aussi aux besoins de secteurs britanniques en pénurie de main-d'œuvre, comme l'hôtellerie et la culture. En khôlle d'anglais, cet événement est idéal pour analyser l'évolution de la relation post-Brexit et le dilemme britannique entre souveraineté formelle et intégration économique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/White_Cliffs_of_Dover_02.JPG",
+    "alt": "Falaises blanches de Douvres face à la Manche, symbole de la frontière entre le Royaume-Uni et l'UE",
+    "credit": "Immanuel Giel / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Cliffs_of_Dover_02.JPG"
+   },
+   "vo": {
+    "titre": "UK and EU close in on post-Brexit reset deal ahead of Brussels summit",
+    "faits": "On the eve of the UK-EU summit in Brussels, British and European negotiators moved close to a post-Brexit reset agreement on Thursday, 19 November. Both sides provisionally agreed on a youth mobility scheme capped at 100,000 EU citizens per year allowed to come to the UK—up from London's earlier target of 50,000 to 80,000—while raising the age limit from 30 to 31. In a late concession, Brussels dropped its demand that EU students pay domestic tuition fees at British universities, agreeing instead to settle details on reduced international fees through a supplementary deal within six months. Talks went down to the wire over Britain's role in shaping future food and farming standards under a sanitary and phytosanitary (SPS) agreement designed to ease border checks. Following strong opposition from France, Prime Minister Andy Burnham's government dropped its bid for voting rights on EU food legislation and is set to accept a consultation mechanism instead. If finalised at the summit, Downing Street plans to introduce legislation swiftly to cut post-Brexit trade friction.",
+    "enjeux": "This eleventh-hour compromise highlights the economic pragmatism forced by the lasting costs of Brexit, as border friction continues to weigh heavily on agrifood trade and British living standards. For Labour Prime Minister Andy Burnham, the challenge is to secure tangible commercial relief without crossing political red lines that would fuel backlash from the Conservatives and Reform UK over immigration. Yet London's concessions on the 100,000 youth cap and on regulatory voting rights underscore the asymmetry of negotiations with Brussels, which remains firmly opposed to cherry-picking single-market benefits without reciprocal obligations. The youth mobility deal also addresses acute labour shortages in sectors such as hospitality and the arts while reopening opportunities for young Britons across Europe. Overall, the summit encapsulates Britain's post-Brexit dilemma between formal regulatory sovereignty and closer economic alignment with its largest trading partner."
+   },
+   "vocab": [
+    [
+     "to go down to the wire",
+     "se jouer jusqu'à la dernière minute",
+     "The trade negotiations went down to the wire before the Brussels summit."
+    ],
+    [
+     "a youth mobility scheme",
+     "un programme de mobilité des jeunes",
+     "Universities welcomed the new youth mobility scheme between London and Brussels."
+    ],
+    [
+     "tuition fees",
+     "les frais de scolarité (universitaires)",
+     "High international tuition fees have deterred many European students from studying in Britain."
+    ],
+    [
+     "border checks",
+     "les contrôles aux frontières",
+     "A food standards deal would significantly reduce post-Brexit border checks."
+    ],
+    [
+     "a sticking point",
+     "un point de blocage",
+     "Britain's demand for a say in EU law-making remained the main sticking point."
+    ],
+    [
+     "cherry-picking",
+     "le fait de choisir à la carte (les avantages sans les obligations)",
+     "Brussels has repeatedly ruled out any cherry-picking of single-market rules."
+    ]
+   ],
+   "sujets": [
+    "Can Britain repair its economic relationship with the EU without reopening the Brexit divide?",
+    "Does closer alignment with Brussels mean giving up the promise of post-Brexit sovereignty?"
+   ],
+   "anki": [
+    {
+     "q": "Provisional cap and age limit agreed for the UK-EU youth mobility scheme (Nov 2026)",
+     "r": "C{100,000} EU citizens per year (up from London's initial C{50,000–80,000} target), age cap raised from C{30} to C{31}.\n→ Shows London's pragmatic concessions to secure a B{post-Brexit reset} and ease agrifood border checks → accroche for an essay on UK-EU relations."
+    },
+    {
+     "q": "Key concession made by Britain on EU food and farming rules before the Brussels summit (Nov 2026)",
+     "r": "Dropped its demand for a B{voting role} on EU food standards after French opposition, settling for B{consultation}.\n→ Illustrates the EU's refusal of B{cherry-picking} and the trade-off between market access and regulatory sovereignty."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-anglais-2",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/19/us/politics/senate-iran-war-powers-trump.html",
+   "minutes": 3,
+   "titre": "États-Unis : les sénateurs républicains bloquent une résolution visant à limiter les pouvoirs de guerre de Donald Trump en Iran",
+   "faits": "Jeudi 19 novembre 2026, le Sénat américain a rejeté par 51 voix contre 48 une résolution sur les pouvoirs de guerre qui aurait contraint le président Donald Trump à mettre fin aux opérations militaires américaines contre l'Iran. Le scrutin s'est largement déroulé selon les lignes partisanes : seuls trois sénateurs républicains — Susan Collins (Maine), Lisa Murkowski (Alaska) et Rand Paul (Kentucky) — ont voté avec les démocrates en faveur du texte, tandis que John Fetterman (Pennsylvanie) a été le seul démocrate à s'y opposer. La résolution avait déjà été adoptée par la Chambre des représentants en septembre, mais les alliés de la Maison-Blanche au Sénat ont une nouvelle fois bloqué toute contrainte législative sur l'exécutif. Il s'agissait du premier grand test au Congrès depuis les élections de mi-mandat du 3 novembre, au cours desquelles les républicains ont perdu le contrôle des deux chambres à compter de janvier. Déclenché en février par des frappes américano-israéliennes, le conflit en Iran et la flambée des prix de l'énergie qu'il a provoquée ont pesé lourdement sur le vote des électeurs. Les dirigeants démocrates ont déjà annoncé que mettre un terme à cette intervention figurerait parmi les priorités du nouveau Congrès dès janvier 2027.",
+   "enjeux": "Ce vote met en lumière la tension constitutionnelle permanente entre la présidence et le Congrès autour des **pouvoirs de guerre** (*war powers*). Bien que la Constitution américaine confie au Congrès le pouvoir de déclarer la guerre, les présidents successifs ont multiplié les interventions militaires sans autorisation formelle depuis la **War Powers Resolution de 1973**, illustrant la dérive vers une « **présidence impériale** ». Le rejet du texte pendant la session de transition (*lame-duck session*) montre aussi la loyauté persistante de la majorité républicaine sortante envers Donald Trump, malgré le désaveu électoral des midterms. Dès janvier 2027, l'entrée en fonction d'un Congrès à majorité démocrate ouvrira toutefois une phase aiguë de **gouvernement divisé**, où les contre-pouvoirs législatifs et budgétaires (*power of the purse*) pourraient freiner la politique étrangère de la Maison-Blanche. En civilisation américaine, cette actualité est un exemple de premier plan pour illustrer le fonctionnement — et les limites — des *checks and balances* en temps de guerre.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/United_States_Senate_Floor.jpg",
+    "alt": "Hémicycle du Sénat des États-Unis au Capitole à Washington",
+    "credit": "United States Senate / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_Senate_Floor.jpg"
+   },
+   "vo": {
+    "titre": "Senate Republicans block war powers resolution aimed at curbing Trump on Iran",
+    "faits": "On Thursday, 19 November 2026, the U.S. Senate voted 51 to 48 to block a war powers resolution that would have forced President Donald Trump to halt U.S. military operations against Iran. The vote broke largely along party lines: only three Republicans—Susan Collins of Maine, Lisa Murkowski of Alaska and Rand Paul of Kentucky—crossed the aisle to back the measure, while Pennsylvania's John Fetterman was the lone Democrat to oppose it. Although the resolution had already passed the House of Representatives in September, Senate Republicans once again shielded the White House from congressional limits. The ballot marked the first major legislative test of GOP backing for the conflict since the 3 November midterms, in which Republicans lost control of both chambers starting in January. Launched in February with U.S.-Israeli strikes, the Iran war and the resulting surge in oil and gas prices were widely seen as a major drag on Republicans at the polls. Democratic leaders have signalled that curbing the conflict will be a top priority once the new Congress convenes in January.",
+    "enjeux": "The vote underscores the enduring constitutional clash between the White House and Capitol Hill over war powers. While the U.S. Constitution grants Congress the authority to declare war, successive presidents have launched military operations without formal approval despite the 1973 War Powers Resolution, reinforcing what historians call the imperial presidency. Blocking the measure during the lame-duck session also reflects the outgoing GOP majority's continued loyalty to Donald Trump even after a bruising midterm defeat. Once Democrats assume control of both chambers in January 2027, however, Washington will enter an intense phase of divided government, in which lawmakers could wield oversight and the power of the purse to constrain executive foreign policy. For students of American institutions, the episode offers a vivid case study of both the resilience and the partisan limits of checks and balances."
+   },
+   "vocab": [
+    [
+     "a war powers resolution",
+     "une résolution sur les pouvoirs de guerre",
+     "Lawmakers introduced a war powers resolution to reassert congressional authority."
+    ],
+    [
+     "to cross the aisle",
+     "voter avec le camp adverse",
+     "Only three Republican senators chose to cross the aisle on the Iran vote."
+    ],
+    [
+     "a lame-duck session",
+     "une session parlementaire de transition (après élection)",
+     "Outgoing majorities often use the lame-duck session to shield the president."
+    ],
+    [
+     "checks and balances",
+     "l'équilibre des pouvoirs / les contre-pouvoirs",
+     "Partisan loyalty can weaken the constitutional system of checks and balances."
+    ],
+    [
+     "divided government",
+     "la cohabitation / un gouvernement divisé",
+     "Divided government is set to reshape U.S. foreign and fiscal policy in January."
+    ],
+    [
+     "to rein in",
+     "brider / contenir",
+     "Democrats vowed to rein in executive military action once they take control of Congress."
+    ]
+   ],
+   "sujets": [
+    "Has the U.S. Congress lost its constitutional power to restrain the president in foreign policy?",
+    "How does divided government reshape the balance of power in Washington?"
+   ],
+   "anki": [
+    {
+     "q": "U.S. Senate vote on the Iran war powers resolution and Republican defections (Nov 19, 2026)",
+     "r": "Blocked C{51–48}; only C{3} Republicans (Collins, Murkowski, Rand Paul) voted with Democrats.\n→ Shows how partisan loyalty protects the B{imperial presidency} during a B{lame-duck session}, limiting B{checks and balances} → accroche for an essay on U.S. institutions."
+    },
+    {
+     "q": "Political factor linking the Iran conflict to the November 2026 U.S. midterms",
+     "r": "U.S.-Israeli strikes launched in D{February 2026} drove up oil and gas prices, weighing heavily on GOP voters.\n→ Illustrates how foreign-policy shocks directly impact domestic elections via inflation and energy costs."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-anglais-3",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cmpdwev0jgp6o",
+   "minutes": 3,
+   "titre": "Royaume-Uni : la BBC avertit que sa nouvelle vague d'économies affectera davantage les téléspectateurs",
+   "faits": "Dans un rapport publié le 20 novembre 2026, le National Audit Office (NAO), l'organisme britannique de contrôle des dépenses publiques, prévient que la prochaine vague d'économies de la BBC sera nettement plus perceptible pour le public que les plans précédents. Le groupe audiovisuel public a déjà annoncé cette année la suppression d'environ 1 800 postes — soit une baisse de 11 % de ses effectifs sur trois ans — ainsi que l'arrêt de plusieurs émissions de télévision et de radio, mais doit encore trouver des coupes pour atteindre son objectif de 500 millions de livres d'économies. Selon le NAO, les recettes issues de la redevance audiovisuelle (*licence fee*) ont chuté de 26 % en termes réels au cours des dix dernières années, alors que les coûts de production ont grimpé. Dans le même temps, la part des adultes britanniques consommant chaque semaine les services de la BBC (télévision, radio, iPlayer ou site web) est tombée de 90 % en 2021-2022 à 81 % en 2025-2026, creusant un déficit d'exploitation de 209 millions de livres sur le dernier exercice. La BBC a déjà prévu de fermer la diffusion hertzienne de BBC Three, BBC Scotland et BBC Radio 4 Extra, et réclame une réforme en profondeur de son modèle de financement avant le renouvellement de sa charte royale dans un peu plus d'un an.",
+   "enjeux": "La crise financière de la BBC pose une question centrale de civilisation britannique : l'avenir de l'**audiovisuel public** (*public service broadcasting*) à l'ère des plateformes mondiales de streaming. Financé depuis près d'un siècle par une **redevance** universelle payée par les foyers équipés d'un téléviseur, le modèle s'érode rapidement à mesure que les jeunes générations se tournent vers Netflix, YouTube ou les réseaux sociaux. L'effritement de l'audience hebdomadaire (de 90 % à 81 % en quatre ans) fragilise la légitimité politique d'un impôt uniforme, régulièrement critiqué par une partie de la droite britannique. À l'approche du renouvellement de la **Charte royale** (*Charter renewal*), le gouvernement devra trancher entre le maintien d'une redevance réformée, un financement fiscal progressif ou un modèle hybride incluant des abonnements. Au-delà des budgets, l'enjeu est démocratique et culturel : la BBC reste un pilier du *soft power* britannique et de l'information pluraliste dans un paysage médiatique de plus en plus polarisé.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/MDR_Kripo_live.jpg",
+    "alt": "Plateau d'un studio de télévision publique lors d'une émission",
+    "credit": "Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:MDR_Kripo_live.jpg"
+   },
+   "vo": {
+    "titre": "Next round of BBC cuts will hit audiences harder, spending watchdog warns",
+    "faits": "In a report released on 20 November 2026, the National Audit Office (NAO) warned that the BBC's next wave of budget cuts will be far more noticeable to viewers and listeners than earlier efficiency drives. Earlier this year, the public broadcaster outlined plans to cut around 1,800 roles—reducing its workforce by 11% over three years—and axe several TV and radio shows, yet it still needs further savings to meet its £500m target. According to the watchdog, licence fee income has fallen by 26% in real terms over the past decade while production costs have climbed sharply. Meanwhile, the share of UK adults using BBC television, radio, iPlayer or online services each week dropped from 90% in 2021-22 to 81% in 2025-26, leaving an operating deficit of £209m in the last financial year. The corporation has already decided to close linear broadcasts for BBC Three, BBC Scotland and BBC Radio 4 Extra, and reiterated that its current funding model is unsustainable ahead of Charter renewal in just over a year.",
+    "enjeux": "The BBC's financial squeeze goes to the heart of a major British debate: the survival of public service broadcasting in the streaming era. Funded for decades through a flat-rate household licence fee, the corporation is seeing its revenue base erode as younger viewers migrate to global giants such as Netflix and YouTube. A nine-point drop in weekly reach in just four years weakens political consensus around a universal fee that critics increasingly view as outdated. With Charter renewal looming, ministers face tough choices between reforming the licence fee, shifting to progressive taxation or introducing partial subscriptions. Beyond accounting, the stakes are civic and cultural, as the BBC remains both a cornerstone of impartial news in a polarised media landscape and a vital asset of British soft power."
+   },
+   "vocab": [
+    [
+     "the licence fee",
+     "la redevance audiovisuelle",
+     "Licence fee revenues have dropped by more than a quarter in real terms over ten years."
+    ],
+    [
+     "public service broadcasting",
+     "l'audiovisuel de service public",
+     "The watchdog warned that public service broadcasting faces difficult strategic choices."
+    ],
+    [
+     "a spending watchdog",
+     "un organisme de contrôle des dépenses publiques",
+     "The National Audit Office acts as Britain's independent public spending watchdog."
+    ],
+    [
+     "in real terms",
+     "en termes réels (corrigé de l'inflation)",
+     "Although nominal budgets stayed flat, funding fell sharply in real terms."
+    ],
+    [
+     "Charter renewal",
+     "le renouvellement de la Charte royale (de la BBC)",
+     "Debates over how to fund the BBC always intensify ahead of Charter renewal."
+    ],
+    [
+     "to axe programmes",
+     "supprimer des émissions",
+     "To save £500m, the broadcaster has had to axe several long-running programmes."
+    ]
+   ],
+   "sujets": [
+    "Is the BBC licence fee still fit for purpose in the age of global streaming platforms?",
+    "Why does public service broadcasting still matter to British democracy?"
+   ],
+   "anki": [
+    {
+     "q": "Real-term drop in BBC licence fee income over the past decade and weekly UK adult reach (NAO, Nov 2026)",
+     "r": "Licence fee income down C{26%} in real terms; weekly reach fell from C{90%} (D{2021-22}) to C{81%} (D{2025-26}), with a C{£209m} deficit.\n→ Highlights the structural crisis of B{public service broadcasting} facing streaming rivals ahead of B{Charter renewal} → accroche for an essay on British media or soft power."
+    },
+    {
+     "q": "Scale of BBC job cuts and savings target reported by the National Audit Office (Nov 2026)",
+     "r": "About C{1,800} roles cut (C{11%} of workforce over three years) toward a C{£500m} savings goal.\n→ Shows that efficiency gains are exhausted and further cuts will directly erode public-service content."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-anglais-4",
+   "matiere": "anglais",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+   "minutes": 3,
+   "titre": "États-Unis : la victoire démocrate à la Chambre lors des midterms est la plus large depuis cinquante ans",
+   "faits": "Alors que le dépouillement des dernières circonscriptions s'achève, les chiffres compilés par NPR le 19 novembre 2026 confirment l'ampleur historique de la victoire démocrate aux élections de mi-mandat à la Chambre des représentants. Au niveau national, environ 56 % des électeurs ont voté pour les candidats démocrates contre 42 % pour les républicains, soit un écart de 14 points — le plus large enregistré par l'un ou l'autre parti depuis les midterms qui avaient suivi le scandale du Watergate il y a cinquante ans. À titre de comparaison, les vagues électorales de 2006, 2010 et 2018 avaient toutes affiché des écarts inférieurs à 10 points. Les démocrates ont déjà repris 46 sièges aux républicains et pourraient en faire basculer jusqu'à 49, ce qui leur offrirait près de 260 élus, leur plus forte majorité à la Chambre depuis le début des années 1990. Avec ce renversement, le contrôle de la Chambre aura changé de camp cinq fois en vingt ans, un niveau de volatilité inédit depuis l'ère qui a suivi la Reconstruction au XIXe siècle.",
+   "enjeux": "Cette vague électorale confirme la loi historique des **élections de mi-mandat** américaines, qui sanctionnent presque systématiquement le parti du président en exercice, mais son ampleur exceptionnelle traduit un rejet profond de la conjoncture économique et de la politique étrangère de l'administration Trump. La répétition des alternances à la Chambre (cinq changements de majorité en vingt ans) met en évidence la **volatilité électorale** d'un pays pourtant très polarisé, où une frange d'électeurs indépendants fait basculer les scrutins en fonction du coût de la vie. Pour les républicains, ce recul ramène le parti à son niveau d'avant la « révolution républicaine » de 1994 menée par Newt Gingrich et ouvre un débat interne sur l'après-Trump. Pour les démocrates, disposer d'une majorité confortable autour de 260 sièges facilitera la discipline parlementaire, les enquêtes sur l'exécutif et le blocage de l'agenda législatif de la Maison-Blanche jusqu'à la présidentielle de 2028. En dissertation, ces chiffres sont incontournables pour analyser la dynamique des *midterms* et la fragilité des majorités politiques aux États-Unis.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/United_States_House_of_Representatives_chamber.jpg",
+    "alt": "Hémicycle de la Chambre des représentants des États-Unis au Capitole",
+    "credit": "United States House of Representatives / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:United_States_House_of_Representatives_chamber.jpg"
+   },
+   "vo": {
+    "titre": "Democrats' 2026 House victory is the widest midterm margin in 50 years",
+    "faits": "With vote counts wrapping up in the closest districts, figures reported by NPR on 19 November 2026 confirm the historic scale of the Democrats' midterm triumph in the House of Representatives. Nationwide, roughly 56% of voters backed Democratic House candidates compared with 42% for Republicans—a 14-point margin, the widest for either party in half a century, since the post-Watergate era. By comparison, the major wave elections of 2006, 2010 and 2018 all featured national House margins under 10 points. Democrats have already flipped 46 Republican-held seats and lead in three uncalled races, putting them on track for up to 260 seats—their largest House majority since the early 1990s. When the new Congress convenes in January, control of the House will have changed hands five times in the past 20 years, a level of turnover unseen since the late nineteenth century.",
+    "enjeux": "The landslide reinforces the classic midterm pattern in which voters punish the sitting president's party, yet its sheer scale signals acute frustration with living costs and foreign entanglements under the Trump administration. Five flips of House control in two decades also underscore the paradox of modern U.S. politics: deep partisan polarisation coexists with high electoral volatility driven by swing voters. For the GOP, falling back to pre-1994 levels—three decades after Newt Gingrich's Republican Revolution—intensifies internal soul-searching over the party's post-Trump direction. For Democrats, a cushioned majority near 260 seats will make floor management far easier, empowering aggressive congressional oversight and stalling White House legislation ahead of the 2028 presidential race. These figures provide a striking benchmark for analysing midterm cycles and institutional instability in the United States."
+   },
+   "vocab": [
+    [
+     "a landslide victory",
+     "une victoire écrasante / raz-de-marée électoral",
+     "The 14-point national margin amounted to a historic landslide victory."
+    ],
+    [
+     "to flip a seat",
+     "faire basculer un siège (d'un parti à l'autre)",
+     "Democrats managed to flip at least 46 Republican-held House seats."
+    ],
+    [
+     "a wave election",
+     "une élection marquée par une vague électorale",
+     "Analysts compared the 2026 midterms to the post-Watergate wave election."
+    ],
+    [
+     "electoral volatility",
+     "la volatilité électorale",
+     "Five changes of House control in 20 years reflect rising electoral volatility."
+    ],
+    [
+     "to change hands",
+     "changer de camp / de mains",
+     "Control of the House of Representatives will change hands once again in January."
+    ],
+    [
+     "a referendum on the president",
+     "un référendum sur le président",
+     "Midterm elections almost always act as a referendum on the sitting president."
+    ]
+   ],
+   "sujets": [
+    "Why have U.S. midterm elections become such powerful checks on presidential authority?",
+    "Does frequent turnover in Congress reflect healthy democracy or chronic political instability?"
+   ],
+   "anki": [
+    {
+     "q": "National House vote split and seat gains for Democrats in the 2026 U.S. midterms (NPR)",
+     "r": "C{56%} Democratic vs C{42%} Republican (C{14-point} spread, widest in C{50} years); at least C{46} seats flipped (up to C{260} seats).\n→ Confirms the B{midterm backlash} against the sitting president at a post-Watergate scale → accroche for an essay on U.S. elections or political polarisation."
+    },
+    {
+     "q": "Frequency of changes in U.S. House control over the past 20 years (NPR, Nov 2026)",
+     "r": "Control of the House will have changed hands C{5 times} in C{20 years}, the highest turnover since the post-Reconstruction era (D{1875}).\n→ Shows that extreme partisan polarisation coexists with strong B{electoral volatility} driven by economic discontent."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/sociedad/2026-11-20/la-eutanasia-en-el-aire-si-la-derecha-gana-las-elecciones.html",
+   "minutes": 3,
+   "titre": "Espagne : l'avenir de la loi sur l'euthanasie fragilisé en cas de victoire de la droite le 29 novembre",
+   "faits": "À neuf jours des élections générales du 29 novembre 2026, El País révèle le 20 novembre que l'avenir de la loi espagnole sur l'euthanasie, adoptée en 2021, reste incertain en cas de victoire du Parti populaire (PP) et de Vox. Le programme électoral du PP met en avant une loi sur les soins palliatifs, présentée implicitement comme une alternative à l'aide active à mourir, sans préciser ce qu'il adviendra du texte en vigueur. Dans plusieurs interviews récentes, le chef du PP Alberto Núñez Feijóo a reconnu son désaccord avec la loi actuelle et évoqué une modification pouvant aller jusqu'à une « abrogation totale ou partielle », tout en réclamant un rôle accru des médecins et des comités d'éthique — alors que la loi exige déjà l'avis de deux médecins, le feu vert d'une commission autonome de garantie et une confirmation du patient quinze jours après sa demande. Ce flou s'explique par un dilemme électoral : si la droite avait d'abord combattu le texte, le PP a voté contre son abrogation demandée par Vox en octobre 2025, conscient du large consensus social sur la question. Dès 1995, le CIS mesurait déjà 62 % d'opinions favorables, et seuls 15 % des Espagnols s'y disaient opposés lors de son adoption il y a cinq ans.",
+   "enjeux": "Ce débat illustre la transformation profonde de la **société espagnole** depuis la Transition démocratique : jadis fortement marquée par le catholicisme, l'Espagne est devenue l'un des pays les plus avancés d'Europe en matière de **droits sociétaux** (mariage pour tous en 2005, avortement, euthanasie en 2021). L'embarras d'Alberto Núñez Feijóo reflète la fracture interne de la droite espagnole, prise entre un électorat modéré majoritairement attaché aux acquis sociaux et la pression idéologique de l'extrême droite **Vox**, dont le soutien pourrait s'avérer indispensable pour gouverner après le 29-N. En opposant **soins palliatifs** et euthanasie, le PP tente de ménager son aile conservatrice sans s'aliéner le centre, au risque d'entretenir une ambiguïté dénoncée par la gauche. Plus largement, la campagne montre que les **guerres culturelles** (fin de vie, droits des femmes, mémoire historique) demeurent un levier central de polarisation politique en Espagne. En khôlle d'espagnol, cette actualité permet d'aborder l'évolution des mœurs, la sécularisation et la recomposition des droites ibériques.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Solemne_apertura_de_la_XIV_Legislatura_04.jpg",
+    "alt": "Hémicycle du Congrès des députés à Madrid en Espagne",
+    "credit": "Pool Moncloa/Fernando Calvo / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Solemne_apertura_de_la_XIV_Legislatura_04.jpg"
+   },
+   "vo": {
+    "titre": "El futuro de la ley de eutanasia queda en el aire ante un posible Gobierno de la derecha",
+    "faits": "A nueve días de las elecciones generales del 29 de noviembre de 2026, El País señala que la continuidad de la ley de eutanasia, aprobada en 2021, resulta incierta si el Partido Popular (PP) y Vox llegan al poder. El programa electoral del PP propone una ley de cuidados paliativos, planteada implícitamente como alternativa a la muerte digna, pero evita concretar qué hará con la norma vigente. En entrevistas recientes, Alberto Núñez Feijóo admitió su desacuerdo con la ley actual y habló de una reforma que podría ser «una derogación total o parcial», reclamando mayor peso para médicos y comités de ética, pese a que la legislación ya exige la valoración de dos facultativos, la aprobación de una comisión autonómica y una ratificación a los quince días. Esta ambigüedad refleja un dilema político: aunque el PP votó en octubre de 2025 contra la derogación impulsada por Vox, teme disgustar tanto a su ala conservadora como a una ciudadanía ampliamente favorable. Ya en 1995 el CIS registraba un 62 % de respaldo social y, cuando se aprobó la ley hace cinco años, solo un 15 % de los españoles se mostró en contra.",
+    "enjeux": "Esta polémica refleja la profunda secularización de la sociedad española desde la Transición, que ha convertido al país en referente europeo en materia de derechos civiles, desde el matrimonio igualitario hasta la regulación de la muerte digna. Las vacilaciones de Feijóo evidencian la encrucijada de la derecha española, atrapada entre la necesidad de seducir al votante moderado y la presión ideológica de Vox ante una eventual coalición tras el 29-N. Al contraponer los cuidados paliativos a la eutanasia, el PP busca rebajar el coste electoral de cuestionar una prestación con amplio consenso ciudadano. El debate confirma, además, que las cuestiones bioéticas y las llamadas guerras culturales siguen desempeñando un papel decisivo en la polarización política española. Para el análisis de la España contemporánea, el caso ilustra la tensión entre avances sociales consolidados y la recomposición conservadora."
+   },
+   "vocab": [
+    [
+     "estar en el aire",
+     "être incertain / en suspens",
+     "El futuro de varias reformas sociales está en el aire a pocos días de las elecciones."
+    ],
+    [
+     "la derogación",
+     "l'abrogation",
+     "El partido ultraderechista exigió la derogación inmediata de la ley de 2021."
+    ],
+    [
+     "los cuidados paliativos",
+     "les soins palliatifs",
+     "Los médicos insisten en que los cuidados paliativos no se oponen a la eutanasia."
+    ],
+    [
+     "el respaldo social",
+     "le soutien de l'opinion publique",
+     "La ley de muerte digna cuenta con un amplio respaldo social en España."
+    ],
+    [
+     "el programa electoral",
+     "le programme électoral",
+     "El programa electoral evita aclarar el alcance real de la reforma."
+    ],
+    [
+     "la muerte digna",
+     "la fin de vie dans la dignité",
+     "El debate sobre la muerte digna ha vuelto al centro de la campaña del 29-N."
+    ]
+   ],
+   "sujets": [
+    "¿Pueden las alternancias políticas poner en peligro los derechos sociales consolidados en España?",
+    "¿Qué papel desempeñan los debates éticos y culturales en las elecciones españolas?"
+   ],
+   "anki": [
+    {
+     "q": "Respaldo social histórico a la eutanasia en España frente a la posición del PP antes del 29-N (El País, 2026)",
+     "r": "Ley aprobada en D{2021} con solo un C{15%} en contra (ya tenía C{62%} de apoyo en D{1995}); Feijóo evoca una «derogación total o parcial».\n→ Ilustra el dilema de la derecha española entre su ala conservadora/Vox y una sociedad muy secularizada → accroche para un ensayo sobre sociedad y política en España."
+    },
+    {
+     "q": "Garantías previstas por la ley española de eutanasia de 2021",
+     "r": "Aprobación por C{2 médicos}, filtro de una comisión autonómica de garantía y ratificación del paciente tras C{15 días}.\n→ Muestra el carácter estrictamente regulado del texto frente a las críticas que reclaman más controles."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/economia/2026/11/20/6aff2c5521efa0ac158b4577.html",
+   "minutes": 3,
+   "titre": "Brésil : le real chute et la Bourse recule alors que le plan d'ajustement budgétaire de Lula divise sa majorité",
+   "faits": "Au lendemain de sa réélection historique pour un quatrième mandat face à Flávio Bolsonaro, le président brésilien Luiz Inácio Lula da Silva se heurte à une vive défiance des marchés financiers, rapporte El Mundo le 20 novembre 2026. Alors que le Sénat a approuvé mercredi soir un plan d'ajustement budgétaire — baptisé « plan Moretti » du nom du ministre de la Planification Bruno Moretti —, le dollar a bondi à 5,91 reais jeudi, son plus haut niveau depuis avril 2025 contre 5,15 en septembre, tandis que la Bourse de São Paulo reculait de 1,34 %. Ce texte, qui doit encore être voté par la Chambre des députés lundi, prévoit environ 56 milliards de reais (près de 8,6 milliards d'euros) d'économies et de recettes nouvelles par an à partir de 2027, un effort jugé insuffisant par des investisseurs inquiets d'une dette publique supérieure à 92 % du PIB. Face à la dégringolade du real, la Banque centrale du Brésil a même dû intervenir sur le marché des changes en vendant un milliard de dollars de réserves. Politiquement, Lula se retrouve pris en tenaille : l'aile gauche du Parti des travailleurs (PT) dénonce un reniement social après des promesses de campagne estimées à 50 milliards d'euros, tandis que l'opposition de droite parle d'« escroquerie électorale ».",
+   "enjeux": "Cette crise de confiance illustre le dilemme récurrent des gouvernements progressistes en **Amérique latine**, pris entre la **contrainte financière extérieure** et les attentes sociales de leur électorat. Lorsque la **dette publique** dépasse 90 % du PIB dans un pays émergent, la moindre hésitation sur la trajectoire budgétaire déclenche une fuite des capitaux et une **dépréciation monétaire** qui renchérit les produits importés (notamment les carburants) et ravive l'**inflation**, frappant d'abord les classes populaires. Le « plan Moretti » montre que même un dirigeant historique de gauche comme Lula ne peut ignorer la discipline des marchés s'il veut préserver la stabilité macroéconomique avant sa prise de fonction en janvier 2027. L'incertitude autour du futur ministre des Finances — entre figures modérées comme le vice-président Geraldo Alckmin et profils plus interventionnistes du PT — accentue cette nervosité. En essai d'espagnol, le cas brésilien est une excellente illustration de la tension entre **ajustement budgétaire** et promesses redistributives dans les grandes économies latino-américaines.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Bovespa.jpg",
+    "alt": "Siège de la Bourse de São Paulo (Bovespa) au Brésil",
+    "credit": "Rockmysock / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bovespa.jpg"
+   },
+   "vo": {
+    "titre": "El real cae y la Bolsa retrocede mientras el ajuste fiscal de Lula divide a su base",
+    "faits": "Tras lograr un histórico cuarto mandato presidencial frente a Flávio Bolsonaro, Luiz Inácio Lula da Silva afronta fuertes turbulencias financieras, según informa El Mundo el 20 de noviembre de 2026. Después de que el Senado aprobara el miércoles por la noche un paquete de ajuste fiscal —conocido como «plan Moretti» por el ministro de Planificación Bruno Moretti—, el dólar subió el jueves hasta los 5,91 reales, su máximo desde abril de 2025 frente a los 5,15 de septiembre, mientras la Bolsa de São Paulo cayó un 1,34 %. El proyecto, que espera el voto definitivo de la Cámara de Diputados el lunes, prevé ahorros y mayores ingresos por unos 56.000 millones de reales anuales (cerca de 8.600 millones de euros) a partir de 2027, una cifra que los mercados consideran insuficiente ante una deuda pública superior al 92 % del PIB. Para frenar la escalada del dólar, el Banco Central de Brasil tuvo que vender mil millones de dólares de sus reservas. En el plano político, el plan desató el malestar del ala izquierda del Partido de los Trabajadores (PT), mientras la oposición acusa al presidente de «estafa electoral» tras sus millonarias promesas de campaña.",
+    "enjeux": "Esta crisis de confianza ilustra el dilema recurrente de los gobiernos progresistas en América Latina, atrapados entre la disciplina de los mercados financieros y las demandas sociales de su electorado. Cuando la deuda pública rebasa el 90 % del PIB en una economía emergente, las dudas sobre la consolidación fiscal provocan salidas de capital y una depreciación de la moneda que encarece las importaciones y alimenta la inflación, erosionando el poder adquisitivo popular. El «plan Moretti» demuestra que incluso un líder histórico de la izquierda como Lula necesita enviar señales de rigor macroeconómico antes de iniciar su nuevo mandato en enero. Además, la incógnita sobre quién dirigirá el Ministerio de Hacienda —entre perfiles moderados como Geraldo Alckmin o figuras más intervencionistas del PT— prolonga el nerviosismo inversor. El episodio constituye un ejemplo clave de la difícil convivencia entre políticas redistributivas y estabilidad financiera en la región."
+   },
+   "vocab": [
+    [
+     "un ajuste fiscal",
+     "un ajustement budgétaire",
+     "El Gobierno impulsa un ajuste fiscal para contener el crecimiento de la deuda pública."
+    ],
+    [
+     "la estafa electoral",
+     "l'escroquerie électorale",
+     "La oposición calificó los recortes de estafa electoral tras las promesas de campaña."
+    ],
+    [
+     "las turbulencias financieras",
+     "les turbulences financières",
+     "Las dudas presupuestarias provocaron fuertes turbulencias financieras en São Paulo."
+    ],
+    [
+     "contener el gasto",
+     "maîtriser la dépense publique",
+     "Los inversores exigen medidas más ambiciosas para contener el gasto estatal."
+    ],
+    [
+     "la recaudación",
+     "les recettes fiscales",
+     "El plan combina recortes presupuestarios con medidas para aumentar la recaudación."
+    ],
+    [
+     "las reservas internacionales",
+     "les réserves de change",
+     "El Banco Central vendió mil millones de dólares de sus reservas internacionales."
+    ]
+   ],
+   "sujets": [
+    "¿Pueden los gobiernos progresistas de América Latina conciliar políticas sociales y confianza de los mercados?",
+    "¿En qué medida condiciona la deuda pública las decisiones políticas en América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Reacción del real brasileño y monto del ajuste fiscal («plan Moretti») impulsado por Lula (nov 2026)",
+     "r": "El dólar subió de C{5,15} a C{5,91 reales} y la Bolsa cayó C{1,34%}, pese a un ajuste previsto de C{56.000 M de reales} (C{8.600 M€}) anuales.\n→ Muestra cómo la desconfianza financiera limita el margen de un gobierno de izquierda con deuda superior al C{92%} del PIB → accroche para un ensayo sobre economía y política en América Latina."
+    },
+    {
+     "q": "Doble presión política que enfrenta Lula tras aprobarse el ajuste fiscal en el Senado (nov 2026)",
+     "r": "El ala izquierda del B{PT} denuncia un giro austero, mientras la derecha lo acusa de «B{estafa electoral}» tras prometer ayudas en campaña.\n→ Ilustra el dilema entre promesas redistributivas y credibilidad macroeconómica."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-espagnol-3",
+   "matiere": "espagnol",
+   "source": "Clarín",
+   "url": "https://www.clarin.com/economia/exportaciones-alcanzaron-nuevo-record-acumulo-meses-superavit-comercial_0_I5RgTv5OUr.html",
+   "minutes": 3,
+   "titre": "Argentine : les exportations battent un nouveau record en octobre et portent l'excédent commercial près de 25 milliards de dollars",
+   "faits": "Selon les chiffres officiels publiés le 19 novembre 2026 et analysés par Clarín, les exportations argentines de biens ont dépassé pour le deuxième mois consécutif les 10 milliards de dollars en octobre (10,061 milliards), atteignant un record historique avec une hausse de 26 % sur un an. Cette performance a permis de dégager un excédent commercial mensuel de 3,394 milliards de dollars, portant le solde cumulé entre janvier et octobre à 24,568 milliards de dollars, contre 6,859 milliards sur la même période en 2025. Le bond des ventes à l'étranger est tiré de façon spectaculaire par le secteur des combustibles et de l'énergie, dont les exportations ont grimpé de 93,9 % en octobre pour atteindre 1,734 milliard de dollars, avec un pétrole brut en hausse de 121,7 % sur un an. Les produits manufacturés d'origine agroalimentaire restent toutefois le premier poste d'exportation sur dix mois (29,044 milliards de dollars). En parallèle, les importations ont reculé de 6,7 % en octobre (et de 2,9 % sur dix mois), reflétant notamment la chute des achats de biens de consommation (−11,3 %) et de véhicules (−24,2 %), signe d'une activité intérieure encore atone.",
+   "enjeux": "Ces chiffres révèlent la transformation profonde du modèle extérieur argentin sous la présidence de Javier Milei, mais aussi ses fragilités structurelles. D'un côté, la montée en puissance des hydrocarbures (notamment le gisement de **Vaca Muerta**) et la vigueur de l'agro-exportation fournissent au pays les **devises** indispensables pour reconstituer ses réserves de change et stabiliser son économie. De l'autre, l'ampleur de l'**excédent commercial** tient aussi au recul des importations, directement lié à la faiblesse de la demande intérieure et de l'industrie locale — une asymétrie typique des plans d'ajustement récessifs. L'Argentine voit ainsi se renforcer sa **reprimarisation**, c'est-à-dire sa dépendance aux matières premières agricoles et énergétiques dont les prix fluctuent sur les marchés mondiaux. Sur le plan géopolitique, la persistance de déficits commerciaux avec la Chine et le Brésil contraste avec les excédents enregistrés envers le Chili, l'Union européenne et les États-Unis. En khôlle, cette actualité illustre parfaitement les succès et les limites de la stratégie d'ouverture et d'ajustement argentine.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Puerto_de_Buenos_Aires%2C_Argentina.jpg",
+    "alt": "Installations portuaires et conteneurs au port de Buenos Aires en Argentine",
+    "credit": "Unknown author Unknown author / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Puerto_de_Buenos_Aires,_Argentina.jpg"
+   },
+   "vo": {
+    "titre": "Las exportaciones argentinas marcan un récord histórico y el superávit comercial roza los 25.000 millones",
+    "faits": "Según datos oficiales difundidos el 19 de noviembre de 2026 y analizados por Clarín, las exportaciones argentinas de bienes superaron por segundo mes consecutivo los 10.000 millones de dólares en octubre (10.061 millones), marcando un récord histórico con un salto interanual del 26 %. Este desempeño generó un superávit comercial mensual de 3.394 millones de dólares y elevó el saldo positivo acumulado entre enero y octubre a 24.568 millones, frente a los 6.859 millones del mismo periodo de 2025. El impulso estuvo liderado por combustibles y energía, que crecieron un 93,9 % interanual en octubre hasta los 1.734 millones, con ventas de petróleo crudo un 121,7 % superiores a las de hace un año. No obstante, las manufacturas de origen agropecuario siguen encabezando el acumulado anual con 29.044 millones de dólares. En sentido contrario, las importaciones cayeron un 6,7 % en octubre —con fuertes descensos en bienes de consumo (−11,3 %) y automóviles (−24,2 %)—, lo que refleja la debilidad de la actividad interna.",
+    "enjeux": "Estas cifras muestran tanto la transformación del sector externo argentino como las contradicciones del ajuste económico. Por un lado, el auge energético y la fortaleza agroexportadora aportan las divisas necesarias para reforzar las reservas y apuntalar la estabilización macroeconómica. Por otro lado, el abultado superávit comercial se explica también por la contracción de las importaciones, síntoma de un consumo interno reprimido y de una industria fabril golpeada. El modelo acentúa así la reprimarización de la economía argentina, cada vez más dependiente de los precios internacionales de las materias primas y del petróleo. En el plano bilateral, el déficit con China y Brasil contrasta con los superávits logrados frente a Chile, la Unión Europea y Estados Unidos. El caso ilustra con claridad las luces y sombras de la inserción comercial de América Latina en la economía global."
+   },
+   "vocab": [
+    [
+     "el superávit comercial",
+     "l'excédent commercial",
+     "Argentina acumuló un superávit comercial cercano a los 25.000 millones de dólares."
+    ],
+    [
+     "el salto interanual",
+     "le bond sur un an",
+     "Las exportaciones registraron un salto interanual del 26 % en octubre."
+    ],
+    [
+     "el petróleo crudo",
+     "le pétrole brut",
+     "El petróleo crudo se convirtió en el principal motor de las ventas exteriores."
+    ],
+    [
+     "las manufacturas agropecuarias",
+     "les produits manufacturés agroalimentaires",
+     "Las manufacturas agropecuarias siguen siendo el primer rubro exportador del país."
+    ],
+    [
+     "la reprimarización",
+     "la reprimarisation (retour vers les matières premières)",
+     "El peso creciente de la energía reaviva el debate sobre la reprimarización económica."
+    ],
+    [
+     "la actividad interna",
+     "l'activité économique intérieure",
+     "La caída de las importaciones refleja la debilidad persistente de la actividad interna."
+    ]
+   ],
+   "sujets": [
+    "¿Constituye el auge energético una oportunidad duradera o una nueva dependencia para Argentina?",
+    "¿Basta un fuerte superávit comercial para garantizar la recuperación económica de un país latinoamericano?"
+   ],
+   "anki": [
+    {
+     "q": "Exportaciones de octubre y superávit comercial acumulado de Argentina en 2026 (Clarín, nov 2026)",
+     "r": "Récord de C{10.061 M$} en octubre (+C{26%} interanual) y superávit de C{24.568 M$} entre enero y octubre (frente a C{6.859 M$} en D{2025}).\n→ Impulsado por la energía (+C{93,9%}), pero también por la caída de importaciones (−C{6,7%}), reflejando un ajuste recesivo y mayor B{reprimarización} → accroche para un ensayo sobre economía argentina."
+    },
+    {
+     "q": "Contraste en los saldos bilaterales de Argentina en octubre de 2026",
+     "r": "Déficit con China (C{−400 M$}) y Brasil (C{−156 M$}), frente a superávit con Chile (C{+534 M$}), la UE (C{+277 M$}) y EE. UU. (C{+250 M$}).\n→ Muestra la fuerte dependencia industrial respecto a China y Brasil pese al récord exportador."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-espagnol-4",
+   "matiere": "espagnol",
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/economia/20261119/11688566/llarden-cree-espana-exportar-energia-primera-vez-hidrogeno.html",
+   "minutes": 3,
+   "titre": "Espagne : le président d'Enagás estime que l'hydrogène vert pourrait faire du pays un exportateur d'énergie",
+   "faits": "Lors d'un forum organisé par La Vanguardia le 19 novembre 2026, le président d'Enagás — le gestionnaire espagnol des infrastructures gazières —, Antoni Llardén, a affirmé que l'Espagne pourrait devenir pour la première fois de son histoire un exportateur récurrent d'énergie grâce à l'hydrogène vert. Ce basculement reposerait sur la mise en service future du corridor européen H2med, conçu pour acheminer l'hydrogène renouvelable depuis la péninsule Ibérique vers la France, l'Allemagne et le nord de l'Europe, même si le projet reste encore à un stade initial. Antoni Llardén a également alerté sur le choc énergétique provoqué par le conflit iranien dans le détroit d'Ormuz, rappelant que l'énergie en Europe coûte actuellement huit à neuf fois plus cher qu'aux États-Unis. Selon lui, la flambée du gaz — autour de 85 euros le mégawattheure — ne se normalisera pas avant 2028, date à laquelle les prix pourraient redescendre vers 40 euros/MWh si les tensions géopolitiques s'apaisent. Enfin, il s'est montré très sceptique face à l'hypothèse d'un retour durable au gaz russe évoquée lors du sommet de Shenzhen entre Trump, Xi et Poutine, estimant que les Européens ne jugeraient plus cet approvisionnement fiable.",
+   "enjeux": "Ces déclarations mettent en lumière l'atout géostratégique majeur que représentent les **énergies renouvelables** (solaire et éolien) pour l'Espagne dans une Europe vulnérable aux chocs d'approvisionnement. Historiquement « île énergétique » dépendante des importations d'hydrocarbures, la péninsule Ibérique ambitionne de devenir le grand hub de l'**hydrogène vert** du continent grâce au corridor **H2med**, afin de décarboner l'industrie lourde européenne tout en renforçant la **souveraineté énergétique** de l'UE. L'écart de coût de l'énergie entre l'Europe et les États-Unis (de un à huit ou neuf) constitue en effet une menace directe pour la compétitivité industrielle européenne, aggravée par la crise du détroit d'Ormuz qui renchérit aussi les engrais et l'alimentation. Le projet H2med se heurte toutefois à des défis financiers, techniques et politiques, notamment sur les interconnexions avec la France. En essai d'espagnol, cette actualité est précieuse pour montrer comment la **transition écologique** peut redessiner la place économique de l'Espagne au sein de l'Union européenne.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Windpark_Galicia.jpg",
+    "alt": "Parc éolien produisant de l'électricité renouvelable en Galice en Espagne",
+    "credit": "Arnejohs at English Wikipedia / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Windpark_Galicia.jpg"
+   },
+   "vo": {
+    "titre": "El presidente de Enagás afirma que el hidrógeno verde podría convertir a España en exportador de energía",
+    "faits": "Durante un foro organizado por La Vanguardia el 19 de noviembre de 2026, el presidente de Enagás, Antoni Llardén, sostuvo que España podría convertirse por primera vez en su historia en un exportador recurrente de energía gracias al hidrógeno verde. Ese giro dependería de la puesta en marcha del corredor europeo H2med, diseñado para transportar hidrógeno renovable desde la península ibérica hacia Francia, Alemania y el norte de Europa, aunque el proyecto se encuentra todavía en una fase incipiente. Llardén advirtió también del impacto del conflicto iraní en el estrecho de Ormuz y recordó que la energía en Europa resulta actualmente entre ocho y nueve veces más cara que en Estados Unidos. A su juicio, el precio del gas —hoy en torno a 85 euros/MWh— no se reducirá a la mitad hasta 2028 debido a la persistencia de las crisis en Irán y Ucrania. Por último, descartó que Europa vuelva a depender a largo plazo del gas ruso, incluso tras un eventual acuerdo de paz, por falta de fiabilidad geopolítica.",
+    "enjeux": "Estas declaraciones ponen de relieve la ventaja geoestratégica que las energías renovables otorgan a España en una Europa expuesta a constantes sobresaltos energéticos. Históricamente considerada una «isla energética» dependiente de hidrocarburos importados, la península ibérica aspira a transformarse en el gran nodo europeo del hidrógeno verde mediante el corredor H2med, reforzando la autonomía estratégica comunitaria. La brecha de costes energéticos frente a Estados Unidos constituye un lastre severo para la competitividad industrial europea, agravado por las tensiones en Ormuz que encarecen fertilizantes y alimentos. No obstante, el despliegue del hidrógeno verde exige cuantiosas inversiones y una estrecha cooperación con Francia en materia de interconexiones. Para el debate sobre la España actual, el proyecto demuestra cómo la transición ecológica puede convertir una debilidad histórica en un nuevo motor económico."
+   },
+   "vocab": [
+    [
+     "el hidrógeno verde",
+     "l'hydrogène vert (renouvelable)",
+     "España apuesta por el hidrógeno verde para transformar su modelo energético."
+    ],
+    [
+     "el corredor energético",
+     "le corridor énergétique",
+     "El corredor H2med conectará la península ibérica con el centro de Europa."
+    ],
+    [
+     "la brecha energética",
+     "l'écart de coût énergétique",
+     "La brecha energética respecto a Estados Unidos lastra a la industria europea."
+    ],
+    [
+     "en fase incipiente",
+     "à un stade encore embryonnaire",
+     "El proyecto del hidroducto europeo se encuentra todavía en fase incipiente."
+    ],
+    [
+     "la cadena de transporte",
+     "la chaîne d'approvisionnement / de transport",
+     "La crisis en Ormuz ha alterado la cadena de transporte de combustibles y alimentos."
+    ],
+    [
+     "la autonomía estratégica",
+     "l'autonomie stratégique",
+     "Reducir la dependencia del gas importado es clave para la autonomía estratégica europea."
+    ]
+   ],
+   "sujets": [
+    "¿Puede la transición energética convertir a España en una potencia industrial y exportadora en Europa?",
+    "¿Cómo puede la Unión Europea superar su vulnerabilidad energética en un mundo inestable?"
+   ],
+   "anki": [
+    {
+     "q": "Brecha de precio de la energía entre Europa y EE. UU. y precio actual del gas según Enagás (nov 2026)",
+     "r": "La energía en Europa cuesta C{8 a 9 veces} más que en EE. UU.; el gas ronda los C{85 €/MWh} (normalización prevista hacia C{40 €/MWh} en D{2028}).\n→ Explica la pérdida de competitividad europea y la urgencia de proyectos como B{H2med} para la B{autonomía estratégica} → accroche para un ensayo sobre energía o transición ecológica en España."
+    },
+    {
+     "q": "Papel estratégico atribuido al corredor H2med para España (Antoni Llardén, nov 2026)",
+     "r": "Permitiría a España convertirse por primera vez en B{exportador recurrente de energía} enviando B{hidrógeno verde} hacia Francia y Alemania.\n→ Muestra cómo las renovables pueden transformar una histórica «isla energética» en potencia exportadora."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-allemand-1",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/gesellschaft/wg-zimmer-gen-z-proteste-wohnungskrise-100.html",
+   "minutes": 3,
+   "titre": "Allemagne : la flambée des loyers en colocation compromet l'accès des jeunes aux études supérieures",
+   "faits": "À l'occasion d'une nouvelle journée de mobilisation de la jeunesse en Allemagne sous le slogan « Gen Z regelt », une enquête de données publiée par Tagesschau le 20 novembre 2026 révèle l'ampleur de la crise du logement étudiant. D'après l'analyse de plus de 1,5 million d'annonces publiées sur le portail WG-Gesucht.de, le loyer d'une chambre en colocation (WG-Zimmer) a bondi en moyenne de 75 % en quinze ans, et a même doublé à Berlin, dans le Brandebourg et en Saxe. Cette flambée dépasse très largement la hausse générale des loyers en Allemagne, qui n'a progressé que d'environ un quart selon l'indice des prix à la consommation, car celui-ci inclut les baux anciens. Dans les grandes métropoles, l'aide publique aux étudiants (BAföG), dont le forfait logement s'élève à 380 euros, ne couvre plus la réalité du marché : une chambre hors charges coûte autour de 550 euros à Berlin ou Hambourg, et près du double du forfait à Munich. Le président du Deutsches Studierendenwerk, Matthias Anbuhl, alerte sur la détresse psychologique croissante d'étudiants contraints de renoncer à certaines universités ou d'envisager d'abandonner leurs études faute de toit abordable.",
+   "enjeux": "Cette enquête met en évidence un double clivage dans la société allemande contemporaine : une **fracture générationnelle** et une aggravation des **inégalités sociales** devant l'enseignement supérieur. Parce que les anciens baux sont beaucoup mieux protégés que les nouvelles locations, les jeunes qui arrivent sur le marché paient parfois davantage pour une simple chambre que des retraités pour un appartement entier. En conséquence, le choix de la ville universitaire dépend désormais de plus en plus du patrimoine familial, ce qui fragilise l'**égalité des chances** (*Chancengleichheit*) et freine la mobilité étudiante — un nombre croissant de jeunes restant vivre chez leurs parents. Alors que l'Allemagne souffre déjà d'une pénurie aiguë de main-d'œuvre qualifiée (*Fachkräftemangel*), la crise du logement dans les pôles universitaires risque aussi de peser sur le capital humain futur du pays. En civilisation allemande, cette actualité est un exemple parlant pour traiter le malaise de la génération Z, le logement dans les grandes villes et les limites du système BAföG.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Hamburg-university-2005-05.png/1280px-Hamburg-university-2005-05.png",
+    "alt": "Bâtiment principal de l'université de Hambourg en Allemagne",
+    "credit": "Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hamburg-university-2005-05.png"
+   },
+   "vo": {
+    "titre": "Hohe WG-Mieten: Studieren wird zur Geldfrage",
+    "faits": "In Deutschland demonstrieren junge Menschen heute wieder für ein bezahlbares Leben. Eine neue Datenanalyse zeigt das große Problem bei den Mieten. Ein WG-Zimmer kostet heute meist 75 Prozent mehr als vor 15 Jahren. In Berlin, Brandenburg und Sachsen haben sich die Mieten sogar verdoppelt. Die Mieten für alle Wohnungen stiegen dagegen nur um rund ein Viertel. Die staatliche Hilfe BAföG zahlt eine Wohnpauschale von 380 Euro. In Hamburg oder Berlin kostet ein Zimmer aber rund 550 Euro kalt. In München zahlen Studierende fast das Doppelte der Pauschale.",
+    "enjeux": "Die hohen Mieten sind ein großes soziales Problem in Deutschland. Junge Menschen zahlen für ein kleines Zimmer oft mehr als ältere Mieter mit alten Verträgen. Dadurch wächst die Kluft zwischen den Generationen. Besonders schwer ist die Lage für Studierende ohne reiche Eltern. Viele können sich ein Studium in großen Städten nicht mehr leisten. Deshalb wohnen immer mehr junge Menschen länger bei ihren Eltern. Die Wohnungskrise bedroht also die Chancengleichheit bei der Bildung."
+   },
+   "vocab": [
+    [
+     "das WG-Zimmer",
+     "la chambre en colocation",
+     "Ein WG-Zimmer in München ist sehr teuer."
+    ],
+    [
+     "die Wohnungskrise",
+     "la crise du logement",
+     "Die Wohnungskrise trifft besonders junge Menschen."
+    ],
+    [
+     "bezahlbar",
+     "abordable",
+     "Studierende fordern bezahlbare Zimmer in den Städten."
+    ],
+    [
+     "die Kaltmiete",
+     "le loyer hors charges",
+     "In Berlin liegt die Kaltmiete bei 550 Euro."
+    ],
+    [
+     "das BAföG",
+     "la bourse d'études publique allemande",
+     "Das BAföG reicht oft nicht für die Miete."
+    ],
+    [
+     "die Chancengleichheit",
+     "l'égalité des chances",
+     "Hohe Mieten gefährden die Chancengleichheit beim Studium."
+    ]
+   ],
+   "sujets": [
+    "Ist Studieren in Deutschland heute nur noch etwas für reiche Familien?",
+    "Wie kann der Staat bezahlbaren Wohnraum für junge Menschen schaffen?"
+   ]
+  },
+  {
+   "id": "2026-11-20-allemand-2",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/politik/deutschland/erbschaftsteuer-cdu-und-spd-fordern-schaerfere-regeln-fuer-steuerschlupfloecher-a-61bda154-e21b-4e27-b33b-d9d8433ea4d6",
+   "minutes": 3,
+   "titre": "Impôt sur les successions : la CDU et le SPD réclament la fin des niches fiscales après l'affaire Döpfner",
+   "faits": "Le 20 novembre 2026, Der Spiegel rapporte que de nouvelles révélations issues de la fuite « Inside Deutsche Bank » ont déclenché une vive réaction au sein de la coalition allemande contre les niches fiscales de l'impôt sur les successions et donations (*Erbschaftsteuer*). Les documents montrent comment Friede Springer a fait don en 2020 d'un paquet d'actions d'environ un milliard d'euros au patron du groupe Axel Springer, Mathias Döpfner, qui aurait normalement dû acquitter près d'un demi-milliard d'euros d'impôts. Grâce à un mécanisme légal baptisé *Verschonungsbedarfsprüfung* — conçu à l'origine pour éviter que les héritiers d'entreprises familiales ne doivent vendre leur société pour payer le fisc —, Mathias Döpfner a pu réduire drastiquement sa facture fiscale en démontrant qu'il ne disposait pas des liquidités privées nécessaires. L'affaire a scandalisé les deux partis au pouvoir : Dennis Radtke, président de l'aile sociale de la CDU (CDA), a dénoncé des « exceptions absurdes » offrant une quasi-exonération aux milliardaires, tandis que des responsables du SPD ont parlé d'un « scandale annoncé ». Les deux formations réclament désormais un durcissement des règles, alors que la Cour constitutionnelle fédérale examine déjà la constitutionnalité des privilèges accordés aux grandes transmissions d'entreprises.",
+   "enjeux": "Cette controverse ravive l'un des débats fiscaux et sociaux les plus sensibles d'Allemagne : la **justice fiscale** face à la concentration croissante des patrimoines. Alors que les salariés supportent une imposition élevée sur les revenus du travail, les très grandes transmissions d'entreprises bénéficient d'exemptions massives au nom de la préservation du **Mittelstand** et de l'emploi. L'affaire Döpfner montre comment des dispositifs pensés pour protéger des PME familiales peuvent être détournés par des montages sophistiqués au profit de milliardaires. L'intervention conjointe de l'aile sociale de la **CDU** et du **SPD** illustre la pression croissante sur le gouvernement pour réformer l'impôt sur les successions, d'autant que les finances publiques allemandes sont sous tension. En khôlle d'allemand, ce sujet permet d'articuler inégalités de patrimoine, fiscalité et modèle économique du *Mittelstand*.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Euro_coins_and_banknotes.jpg",
+    "alt": "Billets et pièces en euros illustrant le débat fiscal en Allemagne",
+    "credit": "Avij ( talk · contribs ) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Euro_coins_and_banknotes.jpg"
+   },
+   "vo": {
+    "titre": "Erbschaftsteuer: Kritik an Regeln für sehr Reiche",
+    "faits": "Neue Berichte über den Springer-Chef Mathias Döpfner sorgen für großen Ärger. Er bekam im Jahr 2020 Aktien im Wert von einer Milliarde Euro geschenkt. Normalerweise hätte er sehr hohe Steuern zahlen müssen. Durch eine spezielle Ausnahme im Gesetz zahlte er aber fast nichts. Diese Regel sollte eigentlich normale Familienbetriebe schützen. Politiker von CDU und SPD kritisieren dieses Gesetz jetzt sehr stark. Sie fordern neue und strengere Regeln für reiche Erben. Auch das Bundesverfassungsgericht prüft das Gesetz zur Erbschaftsteuer.",
+    "enjeux": "Der Fall startet eine große Debatte über Steuergerechtigkeit in Deutschland. Normale Arbeitnehmer zahlen jeden Monat hohe Steuern auf ihr Gehalt. Sehr reiche Menschen nutzen dagegen oft Lücken im Gesetz. Viele Bürger finden diese Ungleichheit nicht fair. Wirtschaftspolitiker wollen aber weiter Arbeitsplätze in Familienunternehmen schützen. Die Regierung muss jetzt einen guten Kompromiss finden. Es geht um Vertrauen in den Staat und in das Steuersystem."
+   },
+   "vocab": [
+    [
+     "die Erbschaftsteuer",
+     "l'impôt sur les successions",
+     "Viele Politiker wollen die Erbschaftsteuer reformieren."
+    ],
+    [
+     "das Steuerschlupfloch",
+     "la niche fiscale / faille fiscale",
+     "Der Staat will alte Steuerschlupflöcher endlich schließen."
+    ],
+    [
+     "die Steuergerechtigkeit",
+     "la justice fiscale",
+     "Der Skandal schadet dem Gefühl für Steuergerechtigkeit."
+    ],
+    [
+     "das Familienunternehmen",
+     "l'entreprise familiale",
+     "Das Gesetz sollte eigentlich kleine Familienunternehmen schützen."
+    ],
+    [
+     "strengere Regeln",
+     "des règles plus strictes",
+     "CDU und SPD fordern jetzt strengere Regeln."
+    ],
+    [
+     "das Vermögen",
+     "le patrimoine / la fortune",
+     "Große Vermögen werden in Deutschland oft niedrig besteuert."
+    ]
+   ],
+   "sujets": [
+    "Soll Deutschland sehr große Erbschaften stärker besteuern?",
+    "Wie kann der Staat Steuergerechtigkeit und Familienunternehmen schützen?"
+   ]
+  },
+  {
+   "id": "2026-11-20-allemand-3",
+   "matiere": "allemand",
+   "source": "Deutsche Welle",
+   "url": "https://www.dw.com/de/k%C3%BCrzungen-bei-demokratie-f%C3%B6rderung-treffen-projekte-gegen-antisemitismus-und-rassismus/a-79991213",
+   "minutes": 3,
+   "titre": "Allemagne : les coupes budgétaires dans le programme « Demokratie leben » inquiètent les associations",
+   "faits": "Selon Deutsche Welle le 19 novembre 2026, de nombreuses associations et fondations allemandes protestent contre les coupes budgétaires prévues par la coalition CDU-SPD dans le projet de budget fédéral 2027 pour le programme « Demokratie leben » (« Vivre la démocratie »). Ce dispositif du ministère fédéral de la Famille doit voir son enveloppe réduite d'environ 20 millions d'euros par rapport à 2026, pour tomber à 170 millions d'euros. Pour Tahera Ameer, membre du directoire de la fondation Amadeu Antonio, ces économies menacent l'existence même de structures locales de prévention qui ne pourront pas être reconstruites rapidement si elles ferment. Les coupes touchent notamment des organismes reconnus de lutte contre l'antisémitisme et les discriminations, comme le réseau RIAS, le centre de conseil OFEK et l'alliance CLAIM, ce qui a suscité une vive critique du Comité central des catholiques allemands (ZdK). Alors que des députés conservateurs plaident pour une réorientation des priorités du programme, les associations dénoncent un signal désastreux au moment où l'extrême droite (AfD) enchaîne des scores records aux élections régionales de 2026, notamment en Saxe-Anhalt.",
+   "enjeux": "Cette polémique met en lumière la tension croissante en Allemagne entre **rigueur budgétaire** et défense active de la **démocratie militante** (*wehrhafte Demokratie*). Depuis l'après-guerre, la République fédérale s'appuie sur un dense réseau d'associations citoyennes et de centres d'éducation politique financés par l'État pour prévenir l'extrémisme, le racisme et l'antisémitisme. Réduire ces financements en pleine poussée électorale de l'**AfD** alimente l'inquiétude d'une partie de la société civile, qui redoute un affaiblissement des contre-feux démocratiques sur le terrain, en particulier dans les Länder de l'Est. Le débat révèle aussi un clivage politique au sein même de la coalition : certains élus conservateurs reprochent au programme un manque de neutralité ou un ciblage inadapté, tandis que les associations défendent leur indépendance. En civilisation allemande, cette actualité est très utile pour illustrer les défis de la culture démocratique et de la mémoire en Allemagne aujourd'hui.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Brandenburger_Tor_abends.jpg",
+    "alt": "Porte de Brandebourg illuminée le soir à Berlin en Allemagne",
+    "credit": "Thomas Wolf , www.foto-tw.de / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg"
+   },
+   "vo": {
+    "titre": "Haushalt 2027: Kritik an Kürzungen bei Demokratie-Projekten",
+    "faits": "Die Bundesregierung will im Haushalt 2027 bei Projekten für Demokratie sparen. Das Programm «Demokratie leben» soll nur noch 170 Millionen Euro bekommen. Das sind rund 20 Millionen Euro weniger als im Jahr 2026. Viele Vereine und Stiftungen protestieren gegen diese Pläne. Auch Projekte gegen Antisemitismus und Rassismus erhalten weniger Geld. Die Amadeu Antonio Stiftung warnt vor dem Ende vieler lokaler Initiativen. Auch katholische Verbände nennen die Kürzungen ein falsches Signal. Konservative Politiker fordern dagegen neue Schwerpunkte bei der Förderung.",
+    "enjeux": "Der Streit kommt in einer politisch schwierigen Zeit für Deutschland. Die rechtsextreme AfD hat im Jahr 2026 viele Wahlen gewonnen. Deshalb halten viele Initiativen die Arbeit für Demokratie für besonders wichtig. Wenn Vereine schließen müssen, gehen wichtige Netzwerke vor Ort verloren. Gleichzeitig muss die Regierung im Bundeshaushalt viel Geld sparen. So entsteht ein Konflikt zwischen Sparpolitik und politischer Bildung. Das Thema zeigt, wie schwer der Schutz der Demokratie heute ist."
+   },
+   "vocab": [
+    [
+     "die Kürzung",
+     "la coupe budgétaire / réduction",
+     "Viele Vereine kritisieren die Kürzung der staatlichen Mittel."
+    ],
+    [
+     "die Förderung",
+     "le soutien financier / la subvention",
+     "Die Förderung von Demokratie-Projekten sinkt im nächsten Jahr."
+    ],
+    [
+     "der Bundeshaushalt",
+     "le budget fédéral",
+     "Die Regierung muss im Bundeshaushalt viel Geld sparen."
+    ],
+    [
+     "die Stiftung",
+     "la fondation",
+     "Die Stiftung warnt vor großen Schäden für Vereine."
+    ],
+    [
+     "der Schwerpunkt",
+     "la priorité / l'axe prioritaire",
+     "Einige Politiker fordern neue Schwerpunkte für das Programm."
+    ],
+    [
+     "die Zivilgesellschaft",
+     "la société civile",
+     "Eine starke Zivilgesellschaft hilft beim Schutz der Demokratie."
+    ]
+   ],
+   "sujets": [
+    "Darf der Staat bei Projekten für die Demokratie sparen?",
+    "Wie kann die Zivilgesellschaft gegen Extremismus in Deutschland helfen?"
+   ]
+  },
+  {
+   "id": "2026-11-20-allemand-4",
+   "matiere": "allemand",
+   "source": "Süddeutsche Zeitung",
+   "url": "https://www.sueddeutsche.de/wirtschaft/basf-evonik-uebernahme-chemiebranche-ludwigshafen-essen-li.3583220",
+   "minutes": 3,
+   "titre": "Chimie allemande : BASF renonce à racheter Evonik après le rejet de ses offres",
+   "faits": "Comme l'annonce la Süddeutsche Zeitung le 19 novembre 2026, le géant allemand de la chimie BASF, basé à Ludwigshafen, met fin à ses démarches pour racheter son concurrent spécialisé Evonik, implanté à Essen. BASF avait soumis deux offres amicales en numéraire, la dernière à 24 euros par action valorisant Evonik à plus de 11 milliards d'euros, mais la direction d'Evonik les a toutes deux rejetées pour préserver son indépendance stratégique. Le patron de BASF, Markus Kamieth, a estimé que les perspectives et les risques d'Evonik ne justifiaient pas de surenchérir dans l'intérêt de ses actionnaires, tout en continuant de défendre l'idée qu'une fusion aurait créé un acteur mondial plus compétitif. À l'annonce de l'abandon, l'action Evonik a chuté jusqu'à 23 % en Bourse tandis que le titre BASF gagnait près de 3 %. Le projet s'était également heurté à une forte opposition politique en Rhénanie-du-Nord-Westphalie, où le ministre-président CDU Hendrik Wüst avait refusé de voir disparaître ce pilier industriel régional qui emploie 11 000 salariés.",
+   "enjeux": "L'échec de ce rapprochement illustre le dilemme actuel du **modèle industriel allemand** face à la concurrence américaine et chinoise. Durement touchée par les prix élevés de l'énergie et la transition climatique, la **chimie allemande** cherche à atteindre une taille critique pour résister aux géants étrangers, ce qui nourrit le débat sur la création de **champions nationaux** ou européens. Mais cette logique de concentration se heurte au **fédéralisme allemand** et au patriotisme économique des Länder : Hendrik Wüst a défendu le maintien des centres de décision et des emplois d'Evonik en Rhénanie-du-Nord-Westphalie contre une absorption par Ludwigshafen. La chute brutale du titre Evonik montre toutefois que les marchés doutent de la capacité d'acteurs de taille moyenne à prospérer seuls dans un secteur en crise. En civilisation allemande, cette affaire éclaire concrètement les tensions entre compétitivité mondiale, ancrage territorial des entreprises et restructuration de l'industrie lourde.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ludwigshafenmitte_ausderluft.jpg",
+    "alt": "Vue aérienne de Ludwigshafen am Rhein, siège historique du groupe chimique BASF",
+    "credit": "Dominik Lott ( Dolo280 ) / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ludwigshafenmitte_ausderluft.jpg"
+   },
+   "vo": {
+    "titre": "Chemiebranche: BASF stoppt Übernahme von Evonik",
+    "faits": "Der große Chemiekonzern BASF will die Firma Evonik nicht mehr kaufen. BASF hatte vorher zwei Angebote für den Kauf gemacht. Zuletzt bot BASF 24 Euro pro Aktie für Evonik. Damit lag der Wert von Evonik bei über elf Milliarden Euro. Der Vorstand von Evonik lehnte beide Angebote jedoch klar ab. Deshalb will BASF jetzt keinen höheren Preis mehr bieten. Nach der Nachricht fiel die Aktie von Evonik um 23 Prozent. Auch NRW-Ministerpräsident Hendrik Wüst war gegen den Verkauf von Evonik.",
+    "enjeux": "Der Fall zeigt die schweren Probleme der deutschen Chemieindustrie. Hohe Energiekosten und starke Konkurrenz aus China setzen die Firmen unter Druck. BASF-Chef Markus Kamieth wollte einen größeren Konzern für den Weltmarkt schaffen. In Deutschland spielen aber auch die Interessen der Bundesländer eine große Rolle. Hendrik Wüst will die 11.000 Arbeitsplätze und die Zentrale in Nordrhein-Westfalen behalten. Es bleibt offen, ob mittelgroße Firmen allein im globalen Markt bestehen können."
+   },
+   "vocab": [
+    [
+     "die Übernahme",
+     "le rachat / l'acquisition",
+     "BASF beendet seine Pläne für eine Übernahme."
+    ],
+    [
+     "die Chemiebranche",
+     "le secteur de la chimie",
+     "Die deutsche Chemiebranche kämpft mit hohen Kosten."
+    ],
+    [
+     "das Kaufangebot",
+     "l'offre d'achat",
+     "Evonik hat das zweite Kaufangebot klar abgelehnt."
+    ],
+    [
+     "wettbewerbsfähig",
+     "compétitif",
+     "Große Konzerne sind im Ausland oft besser wettbewerbsfähig."
+    ],
+    [
+     "eigenständig",
+     "indépendant",
+     "Die Firma will auch in Zukunft eigenständig bleiben."
+    ],
+    [
+     "der Arbeitsplatz",
+     "l'emploi / le poste de travail",
+     "Die Politik will 11.000 Arbeitsplätze im Land schützen."
+    ]
+   ],
+   "sujets": [
+    "Braucht Deutschland größere Konzerne für den globalen Wettbewerb?",
+    "Soll die Politik bei der Übernahme von Firmen eingreifen?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "Fraude fiscale : ces centaines de millions d'euros des cryptomonnaies qui échappent à l'impôt",
+   "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/fraude-fiscale-ces-centaines-de-millions-deuros-des-cryptomonnaies-qui-echappent-a-limpot-2263562",
+   "pourquoi": "Illustre concrètement le défi de la **souveraineté fiscale** et du contrôle des **cryptoactifs** face à l'érosion de l'assiette de l'impôt."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "L'éclairage inédit de l'Insee sur la relation des Français à leurs services publics",
+   "url": "https://www.lesechos.fr/economie-france/conjoncture/leclairage-inedit-de-linsee-sur-la-relation-des-francais-a-leurs-services-publics-2263342",
+   "pourquoi": "Fournit des données récentes sur le paradoxe français entre fort attachement aux **services publics** et insatisfaction face au niveau des **prélèvements obligatoires**."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Assurance : le coût des émeutes du 17 octobre dépasse déjà les 200 millions d'euros",
+   "url": "https://www.lesechos.fr/finance-marches/banque-assurances/le-cout-des-emeutes-du-17-octobre-depasse-les-200-millions-deuros-2263533",
+   "pourquoi": "Montre le coût économique direct de l'instabilité sociale et pose la question de l'**assurabilité** des risques collectifs."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Le sommet de Paris contre l’oligarchie internationale, un clin d’œil au colloque Lippmann qui a inventé le néolibéralisme",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/20/le-sommet-de-paris-contre-l-oligarchie-internationale-un-clin-d-il-au-colloque-lippmann-qui-a-invente-le-neoliberalisme_6813596_3232.html",
+   "pourquoi": "Met en perspective historique le **colloque Lippmann (1938)** et le débat contemporain sur la concentration des richesses et la crise du **néolibéralisme**."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Vie chère en outre-mer : l’Assemblée nationale vote une « petite avancée »",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/20/les-deputes-votent-une-petite-avancee-contre-la-vie-chere-en-outre-mer_6813481_823448.html",
+   "pourquoi": "Éclaire les mécanismes d'**oligopole**, d'octroi de mer et d'écarts de prix dans les économies insulaires françaises."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Présidentielle 2027 : les créateurs de contenu auront des obligations de pluralisme dans leur traitement de l’élection",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/19/presidentielle-2027-les-createurs-de-contenu-auront-des-obligations-de-pluralisme-dans-leur-traitement-de-l-election_6813376_3234.html",
+   "pourquoi": "Analyse l'extension de la **régulation** de l'information aux plateformes numériques et aux influenceurs à l'approche d'un scrutin majeur."
+  }
+ ]
+}
