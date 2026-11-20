@@ -188,6 +188,17 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg/1280px-Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg",
     "alt": "Un isoloir et un bureau de vote aux États-Unis"
    }
+  },
+  "2026-11-20-esh-p1": {
+   "titre": "IA et droit d'auteur : des patrons de la French Tech dénoncent une proposition de loi jugée néfaste à la souveraineté technologique",
+   "matiere": "esh",
+   "dossiers": [
+    "IA"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
+    "alt": "Salle de serveurs informatiques dans un centre de données"
+   }
   }
  },
  "dossiers": [
@@ -201,7 +212,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1795159124609,
+ "favsMaj": 1795162074016,
  "demandes": [
   {
    "id": "dmwlvrpnt",
