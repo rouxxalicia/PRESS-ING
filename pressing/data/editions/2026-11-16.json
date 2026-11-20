@@ -65,7 +65,8 @@
      "q": "Effet de la multiplication des data centers sur l'efficacité énergétique de l'IA",
      "r": "B{Hausse nette} de la demande d'électricité malgré les progrès techniques.\n→ Illustration du paradoxe de A{Jevons}, O{The Coal Question} (D{1865}) : les gains d'efficacité entraînent un effet rebond."
     }
-   ]
+   ],
+   "dossier": "ruee-vers-cree-effet"
   },
   {
    "id": "2026-11-16-esh-2",
@@ -131,7 +132,8 @@
      "q": "Part des profits étrangers des FMN américaines déclarée dans six territoires à faible fiscalité (Zucman)",
      "r": "C{55 %} des profits étrangers.\n→ Montre l'érosion de l'assiette fiscale en l'absence d'impôt minimal mondial : A{Zucman}, O{La richesse cachée des nations} (D{2013})."
     }
-   ]
+   ],
+   "dossier": "grece-seduit-grandes-fortunes"
   },
   {
    "id": "2026-11-16-esh-3",
@@ -196,7 +198,8 @@
      "q": "Poids de la dette publique par rapport au PIB en 1980 vs aujourd'hui (Villeroy de Galhau)",
      "r": "C{20 %} du PIB en D{1980}, contre un fardeau C{6 fois} plus lourd aujourd'hui.\n→ Pose la question de l'équité intergénérationnelle et de l'anticipation fiscale : A{Barro}, O{« Are Government Bonds Net Wealth? »} (D{1974})."
     }
-   ]
+   ],
+   "dossier": "francois-villeroy-galhau-alerte"
   },
   {
    "id": "2026-11-16-esh-4",
@@ -262,7 +265,8 @@
      "q": "Plafond européen décidé le 12 octobre 2026 sur les véhicules hybrides chinois",
      "r": "C{350 000} véhicules par an à partir de décembre (part de marché ramenée sous C{10 %}).\n→ Protection insuffisante sans innovation à la frontière : A{Aghion et Howitt} (D{2005})."
     }
-   ]
+   ],
+   "dossier": "terres-rares-matieres-critiques"
   },
   {
    "id": "2026-11-16-anglais-1",
@@ -329,7 +333,8 @@
      "q": "Cost comparison: charging an EV vs filling a petrol car in the UK (Nov. 2026)",
      "r": "Under C{£10} for a full EV charge vs over C{£100} for a petrol tank.\n→ Demonstrates that delaying the EV transition can worsen the B{cost of living} for households."
     }
-   ]
+   ],
+   "dossier": "crise-automobile-europe"
   },
   {
    "id": "2026-11-16-anglais-2",
@@ -396,7 +401,8 @@
      "q": "White House leverage used against RNC dissidents (Nov. 2026)",
      "r": "Threatening to cut off B{fundraising assistance} if rebels do not fall in line.\n→ Illustrates the structural power of campaign finance in US party discipline."
     }
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-16-anglais-3",
@@ -463,7 +469,8 @@
      "q": "Ethical controversy involving US Commerce Secretary Howard Lutnick (Nov. 2026)",
      "r": "He pushed for softer chip rules affecting a client of B{Cantor Fitzgerald}, his former firm now run by his sons.\n→ Illustrates risks of B{conflict of interest} and regulatory capture in trade policy."
     }
-   ]
+   ],
+   "dossier": "secretaire-commerce-howard-lutnick"
   },
   {
    "id": "2026-11-16-anglais-4",
@@ -530,7 +537,8 @@
      "q": "Side effect of Intel's pivot toward AI data centre chips (Nov. 2026)",
      "r": "Higher component costs for standard PCs and consumer electronics.\n→ Illustrates B{capacity crowding-out} inside the semiconductor supply chain (hook on AI investment)."
     }
-   ]
+   ],
+   "dossier": "actionnaires-poursuivent-intel-chute"
   },
   {
    "id": "2026-11-16-espagnol-1",
@@ -597,7 +605,8 @@
      "q": "Enveloppe totale du plan de relance européen accordée à l'Espagne (subventions et prêts)",
      "r": "Près de C{80 Md€} de subventions et C{21,5 Md€} de prêts.\n→ Montre l'ampleur inédite de la solidarité budgétaire de B{NextGenerationEU} en échange de réformes structurelles."
     }
-   ]
+   ],
+   "dossier": "elections-espagne-29n"
   },
   {
    "id": "2026-11-16-espagnol-2",
@@ -664,7 +673,8 @@
      "q": "Nombre de candidats restants après les retraits d'octobre et novembre 2026 à l'OIT",
      "r": "Un seul candidat en lice, le directeur sortant togolais B{Gilbert F. Houngbo}, après les retraits de Javier González-Olaechea et Yolanda Díaz.\n→ Reflète le poids des majorités du B{Sud global} dans les agences de l'ONU."
     }
-   ]
+   ],
+   "dossier": "yolanda-diaz-retire-candidature"
   },
   {
    "id": "2026-11-16-espagnol-3",
@@ -731,7 +741,8 @@
      "q": "Niveau du taux interbancaire argentin avant l'intervention de la BCRA (nov. 2026)",
      "r": "C{31,98 %} par an (plus haut niveau depuis février), forçant la BCRA à injecter des liquidités pour C{2,1 billions de pesos} d'échanges quotidiens.\n→ Illustre la fragilité de la B{liquidité bancaire} face aux chocs calendaires et à l'incertitude politique."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-16-espagnol-4",
@@ -798,7 +809,8 @@
      "q": "Durée des peines et d'incarcération de Miguel Ángel Félix Gallardo au Mexique",
      "r": "C{76 ans} de prison cumulés (dont C{37 ans} passés derrière les barreaux depuis D{1989}), notamment pour l'assassinat de l'agent de la DEA Kiki Camarena en D{1985}.\n→ Illustre l'ancienneté de la coopération et des tensions sécuritaires entre Mexico et Washington."
     }
-   ]
+   ],
+   "dossier": "mort-ans-miguel-angel"
   },
   {
    "id": "2026-11-16-allemand-1",
@@ -855,7 +867,8 @@
    "sujets": [
     "Soll Deutschland die Schuldenbremse wieder strenger anwenden?",
     "Warum ist der Abbau von klimaschädlichen Subventionen politisch so schwer?"
-   ]
+   ],
+   "dossier": "budget-allemagne"
   },
   {
    "id": "2026-11-16-allemand-2",
@@ -912,7 +925,8 @@
    "sujets": [
     "Kann das Altersvorsorgedepot die gesetzliche Rente in Deutschland sinnvoll ergänzen?",
     "Warum meiden viele deutsche Sparer noch immer den Aktienmarkt?"
-   ]
+   ],
+   "dossier": "retraites-allemagne"
   },
   {
    "id": "2026-11-16-allemand-3",
@@ -969,7 +983,8 @@
    "sujets": [
     "Wie kann der Staat Haushalte vor hohen Heizkosten schützen?",
     "Beschleunigen hohe Gaspreise den Umstieg auf Wärmepumpen in Deutschland?"
-   ]
+   ],
+   "dossier": "facture-chauffage-alourdit-nouveau"
   },
   {
    "id": "2026-11-16-allemand-4",
@@ -1026,7 +1041,8 @@
    "sujets": [
     "Ist Deutschland gut genug gegen moderne Cyberangriffe geschützt?",
     "Wie viel Befugnisse braucht die Polizei im digitalen Raum?"
-   ]
+   ],
+   "dossier": "chef-police-federale-allemande"
   }
  ],
  "a_lire": [

@@ -116,6 +116,11 @@ for m in MATS:
 if order != sorted(order, key=lambda m: MATS.index(m) if m in MATS else 9):
     errors.append("les cartes ne sont pas dans l'ordre esh, anglais, espagnol, allemand")
 
+# Pas deux fois le même sujet : champ "dossier" (voir scripts/dossiers.py)
+sys.path.insert(0, str(ROOT / "scripts"))
+import dossiers
+errors.extend(dossiers.verifier(date, cards))
+
 # Variété des journaux : au moins 3 journaux différents par matière, jamais plus de 2 du même
 from collections import Counter
 from urllib.parse import urlparse

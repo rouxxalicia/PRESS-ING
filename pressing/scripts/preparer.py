@@ -50,20 +50,19 @@ if _att:
             print("  " + d["texte"].strip().replace("\n", "\n  "))
     print()
 
-print("=== SUJETS DÉJÀ TRAITÉS (5 dernières éditions) : ne pas les reprendre ===")
+sys.path.insert(0, str(ROOT / "scripts"))
+import dossiers
+print(dossiers.resume(today))
+print("INTERDIT = ce sujet ne peut pas revenir aujourd'hui. « suite seulement » = possible uniquement avec un fait nouveau")
+print("et décisif (champ \"suite\"), une seule suite par édition. Les dossiers « libres » anciens ne sont pas affichés.")
+print()
+print("=== « À LIRE » DES 5 DERNIÈRES ÉDITIONS : ne pas les reprendre ===")
 programme = {}
 for d in editions[:5]:
     p = DATA / "editions" / f"{d}.json"
-    if not p.exists():
-        continue
-    ed = lire(p)
-    print(f"[{d}]")
-    for m in MATS:
-        for c in ed.get("cards", []):
-            if c.get("matiere") == m:
-                print(f"  {m:9} {c.get('titre', '')}")
-    for a in ed.get("a_lire", []) or []:
-        print(f"  à lire    {a.get('journal', '')} : {a.get('titre', '')}")
+    if p.exists():
+        for a in lire(p).get("a_lire", []) or []:
+            print(f"  [{d}] {a.get('journal', '')} : {a.get('titre', '')}")
 for d in editions:
     p = DATA / "editions" / f"{d}.json"
     if p.exists():

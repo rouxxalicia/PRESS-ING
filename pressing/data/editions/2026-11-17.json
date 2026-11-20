@@ -64,7 +64,8 @@
      "q": "Mécanisme d'action de l'IA sur les métiers selon Gregory Verdugo",
      "r": "L'IA automatise des B{tâches} (substitution vs complémentarité), pas des métiers entiers.\n→ A{Verdugo}, O{L'IA et l'emploi} (D{2025}) : permet de nuancer l'annonce d'un chômage technologique de masse."
     }
-   ]
+   ],
+   "dossier": "ia-emploi"
   },
   {
    "id": "2026-11-17-esh-2",
@@ -128,7 +129,8 @@
      "q": "Les trois fonctions économiques de l'État selon Richard Musgrave (1959)",
      "r": "B{Allocation} (biens collectifs), B{redistribution} (inégalités), B{stabilisation} (conjoncture).\n→ A{Musgrave}, O{The Theory of Public Finance} (D{1959}) : montre qu'une dépense militaire peut cumuler allocation et stabilisation."
     }
-   ]
+   ],
+   "dossier": "defense-europe"
   },
   {
    "id": "2026-11-17-esh-3",
@@ -193,7 +195,8 @@
      "q": "Critique de la politique européenne par Cohen et Lorenzi (2014)",
      "r": "L'UE a privilégié la concurrence sur la B{politique industrielle}, affaiblissant sa souveraineté technologique.\n→ A{Cohen et Lorenzi}, O{Politique industrielle pour l'Europe} (D{2014}) : éclaire la vulnérabilité européenne sur les métaux critiques."
     }
-   ]
+   ],
+   "dossier": "terres-rares-matieres-critiques"
   },
   {
    "id": "2026-11-17-esh-4",
@@ -259,7 +262,8 @@
      "q": "Lien entre biens publics mondiaux et passager clandestin selon Kindleberger",
      "r": "Un bien collectif mondial est accessible à tous, mais aucun État n'a intérêt à le financer seul.\n→ A{Kindleberger}, O{International Public Goods without International Government} (D{1986}) : explique la sous-production de coopération climatique."
     }
-   ]
+   ],
+   "dossier": "cop31-climat"
   },
   {
    "id": "2026-11-17-anglais-1",
@@ -326,7 +330,8 @@
      "q": "Key quote from UK PM Andy Burnham on Brexit at the Lord Mayor's Banquet (16 Nov 2026)",
      "r": "'The Brexit we were given has not worked. We have lost more than we gained.'\n→ Marks a political shift ten years after the D{2016} referendum while keeping single market membership off the table."
     }
-   ]
+   ],
+   "dossier": "relation-royaume-uni-ue"
   },
   {
    "id": "2026-11-17-anglais-2",
@@ -393,7 +398,8 @@
      "q": "Main cause of rising borrowing costs for poor countries according to the NYT (Nov 2026)",
      "r": "Record borrowing by wealthy states (US, UK, France, Japan) plus inflation and energy shocks.\n→ Illustrates the B{spillover effects} of advanced economies' fiscal policies on the Global South."
     }
-   ]
+   ],
+   "dossier": "difficultes-budgetaires-pays-riches"
   },
   {
    "id": "2026-11-17-anglais-3",
@@ -460,7 +466,8 @@
      "q": "Recent sequence of US/global tech outages cited by BBC (Nov 2026)",
      "r": "A global Microsoft outage, a US flight-grounding network failure, and the Chase banking glitch.\n→ Illustrates why B{operational resilience} of critical infrastructure is a growing economic and regulatory issue."
     }
-   ]
+   ],
+   "dossier": "panne-informatique-chez-chase"
   },
   {
    "id": "2026-11-17-anglais-4",
@@ -527,7 +534,8 @@
      "q": "Two-pillar approach proposed in Alan Milburn's UK youth review (17 Nov 2026)",
      "r": "Billions in guaranteed jobs and training support, paired with benefit cuts for some under-25s.\n→ Tests Labour unity after backbench MPs blocked disability benefit cuts under Keir Starmer."
     }
-   ]
+   ],
+   "dossier": "emploi-jeunes-royaume-uni"
   },
   {
    "id": "2026-11-17-espagnol-1",
@@ -594,7 +602,8 @@
      "q": "Servicios mínimos fijados por Transportes para Cercanías en hora punta",
      "r": "C{75 %} en Cercanías en hora punta y C{72 %} en alta velocidad.\n→ Muestra cómo España intenta conciliar derecho de huelga y continuidad del servicio público."
     }
-   ]
+   ],
+   "dossier": "greves-espagne"
   },
   {
    "id": "2026-11-17-espagnol-2",
@@ -661,7 +670,8 @@
      "q": "Límites señalados por los economistas al balance mexicano de reducción de la pobreza",
      "r": "La persistencia de la B{informalidad laboral}, la baja productividad y el reto de la B{sostenibilidad fiscal}.\n→ Permite matizar el éxito de las transferencias directas."
     }
-   ]
+   ],
+   "dossier": "mexique-pauvrete-emploi"
   },
   {
    "id": "2026-11-17-espagnol-3",
@@ -728,7 +738,8 @@
      "q": "Nuevas obligaciones de las empresas españolas en las ofertas de empleo (noviembre de 2026)",
      "r": "Publicar la retribución inicial y prohibir preguntar por el historial retributivo.\n→ Adapta la directiva europea de transparencia salarial para limitar la brecha de género."
     }
-   ]
+   ],
+   "dossier": "gouvernement-durcit-sanctions-contre"
   },
   {
    "id": "2026-11-17-espagnol-4",
@@ -795,7 +806,8 @@
      "q": "Papel de la IGAE en el control presupuestario español",
      "r": "Supervisa la B{contabilidad pública} y garantiza la fiabilidad de las cifras de déficit.\n→ Su independencia técnica sostiene la confianza de los mercados y de Bruselas."
     }
-   ]
+   ],
+   "dossier": "vives-tensions-entre-gouvernement"
   },
   {
    "id": "2026-11-17-allemand-1",
@@ -852,7 +864,8 @@
    "sujets": [
     "Braucht Europa große grenzüberschreitende Banken für den globalen Wettbewerb?",
     "Schadet die Übernahme der Commerzbank den kleinen deutschen Firmen?"
-   ]
+   ],
+   "dossier": "commission-europeenne-approuve-sans"
   },
   {
    "id": "2026-11-17-allemand-2",
@@ -909,7 +922,8 @@
    "sujets": [
     "Kann der deutsche Staat gleichzeitig Steuern senken und Schulden begrenzen?",
     "Wie stabil ist die schwarz-rote Koalition unter Kanzler Merz?"
-   ]
+   ],
+   "dossier": "taxe-electricite-allemagne"
   },
   {
    "id": "2026-11-17-allemand-3",
@@ -966,7 +980,8 @@
    "sujets": [
     "Brauchen große Banken in Deutschland eine strengere staatliche Kontrolle?",
     "Wie wichtig sind Hinweisgeber für die Aufdeckung von Wirtschaftskriminalität?"
-   ]
+   ],
+   "dossier": "fuite-geante-revele-graves"
   },
   {
    "id": "2026-11-17-allemand-4",
@@ -1023,7 +1038,8 @@
    "sujets": [
     "Ist die deutsche Energiewende für den Staat zu teuer geworden?",
     "Sollte der Staat nur die günstigsten grünen Technologien fördern?"
-   ]
+   ],
+   "dossier": "economistes-alertent-dizaines-milliards"
   }
  ],
  "a_lire": [

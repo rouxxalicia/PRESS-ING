@@ -39,7 +39,8 @@
    "sujets": [
     "Les monnaies numériques de banque centrale renforcent-elles ou fragilisent-elles le système financier ?",
     "La souveraineté monétaire européenne est-elle menacée par la numérisation des paiements ?"
-   ]
+   ],
+   "dossier": "bataille-plafond-000-euros"
   },
   {
    "id": "2026-11-02-esh-2",
@@ -79,7 +80,8 @@
    "sujets": [
     "Peut-il y avoir une croissance durable sans accumulation massive de capital physique ?",
     "La tertiarisation des économies avancées condamne-t-elle ou renouvelle-t-elle les gains de productivité ?"
-   ]
+   ],
+   "dossier": "debat-inspiration-productivite-economie"
   },
   {
    "id": "2026-11-02-esh-3",
@@ -119,7 +121,8 @@
    "sujets": [
     "Le modèle économique du low-cost peut-il survivre au renchérissement durable de l'énergie et du carbone ?",
     "Comment les chocs pétroliers se transmettent-ils aux prix et aux salaires dans une économie tertiarisée ?"
-   ]
+   ],
+   "dossier": "choc-petrolier-iran"
   },
   {
    "id": "2026-11-02-anglais-1",
@@ -170,7 +173,8 @@
    "sujets": [
     "Are congressional checks and balances still effective against the modern \"imperial presidency\"?",
     "Does divided government in Washington lead to healthy compromise or institutional paralysis?"
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-02-anglais-2",
@@ -221,7 +225,8 @@
    "sujets": [
     "Can a middle-sized power like post-Brexit Britain maintain an independent policy between the US and China?",
     "How should Western democracies balance economic openness with national security when dealing with Beijing?"
-   ]
+   ],
+   "dossier": "politique-chine-royaume-uni"
   },
   {
    "id": "2026-11-02-anglais-3",
@@ -272,7 +277,8 @@
    "sujets": [
     "Can the Commonwealth remain relevant in the 21st century without addressing financial reparations for slavery?",
     "Why are more Caribbean nations preparing to remove the British monarch as their head of state?"
-   ]
+   ],
+   "dossier": "sommet-commonwealth-antigua-charles"
   },
   {
    "id": "2026-11-02-espagnol-1",
@@ -323,7 +329,8 @@
    "sujets": [
     "¿Se ha convertido España en el principal laboratorio europeo del choque entre socialdemocracia y derecha radical?",
     "¿Qué papel juega la política exterior en la campaña electoral española del 29 de noviembre?"
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-02-espagnol-2",
@@ -374,7 +381,8 @@
    "sujets": [
     "¿Es el auge del populismo en Occidente y América Latina consecuencia del fracaso económico de las élites liberales?",
     "¿Amenaza la inteligencia artificial con agravar la desigualdad y debilitar aún más las democracias?"
-   ]
+   ],
+   "dossier": "daron-acemoglu-democrates-croient"
   },
   {
    "id": "2026-11-02-espagnol-3",
@@ -425,7 +433,8 @@
    "sujets": [
     "¿Por qué la inseguridad y la política penitenciaria se han convertido en el eje central de la política chilena?",
     "¿Demuestra la crisis del Gobierno de Kast los límites del discurso de «mano dura» en América Latina?"
-   ]
+   ],
+   "dossier": "chili-kast"
   },
   {
    "id": "2026-11-02-allemand-1",
@@ -476,7 +485,8 @@
    "sujets": [
     "Ist das deutsche Rentensystem angesichts des demografischen Wandels noch finanzierbar?",
     "Führt der Umbau der gesetzlichen Rente zur „Basisabsicherung“ zu einem Bruch mit dem deutschen Sozialmodell?"
-   ]
+   ],
+   "dossier": "retraites-allemagne"
   },
   {
    "id": "2026-11-02-allemand-2",
@@ -527,7 +537,8 @@
    "sujets": [
     "Sind staatliche Preisdeckel bei Energie und Kraftstoffen mit der Sozialen Marktwirtschaft vereinbar?",
     "Wie sollte der Staat Bürgerinnen und Bürger bei externen Energiepreisschocks entlasten?"
-   ]
+   ],
+   "dossier": "prix-carburants-allemagne"
   },
   {
    "id": "2026-11-02-allemand-3",
@@ -578,7 +589,8 @@
    "sujets": [
     "Ist die „Technologieoffenheit“ beim Heizen ein realistischer Weg zum Klimaschutz oder eine Kostenfalle für Mieter?",
     "Warum ist die Wärmewende im Wohnungsbestand in der Mieterrepublik Deutschland politisch so konfliktbeladen?"
-   ]
+   ],
+   "dossier": "futur-quota-gaz-fioul"
   }
  ]
 }

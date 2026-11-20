@@ -49,7 +49,8 @@
      "q": "Deux principaux candidats en lice pour la présidence de la BCE fin 2026",
      "r": "Pablo Hernández de Cos (soutenu par l'Espagne, DG de la BRI) et Klaas Knot (soutenu par les Pays-Bas).\n→ A{Keynes}, O{Théorie générale} (D{1936}) : les marchés financiers ajustent leurs anticipations de taux selon la réputation des dirigeants monétaires."
     }
-   ]
+   ],
+   "dossier": "succession-lagarde-bce"
   },
   {
    "id": "2026-11-04-esh-2",
@@ -99,7 +100,8 @@
      "q": "Objectif d'économies annuelles du plan de restructuration de Schaeffler d'ici 2029",
      "r": "C{300 millions d'euros} par an, face à la chute des volumes de vente et à la concurrence chinoise.\n→ A{Porter}, O{L'Avantage concurrentiel} (D{1985}) : la différenciation mécanique traditionnelle ne suffit plus face à la domination par les coûts dans les batteries."
     }
-   ]
+   ],
+   "dossier": "crise-automobile-europe"
   },
   {
    "id": "2026-11-04-esh-3",
@@ -149,7 +151,8 @@
      "q": "Critère européen visé par la hausse du salaire minimum en Espagne",
      "r": "Atteindre C{60 %} du salaire moyen net, conformément à la Charte sociale européenne.\n→ A{Polanyi}, O{La Grande Transformation} (D{1944}) : le travail est une marchandise fictive nécessitant un réencastrement protecteur par la loi."
     }
-   ]
+   ],
+   "dossier": "comite-experts-preconise-hausse"
   },
   {
    "id": "2026-11-04-anglais-1",
@@ -216,7 +219,8 @@
      "q": "First Democratic senator elected in Texas since 1988 (November 2026)",
      "r": "James Talarico, defeating Republican attorney general Ken Paxton.\n→ Economic frustration over inflation and fuel prices swung independent voters away from the GOP."
     }
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-04-anglais-2",
@@ -283,7 +287,8 @@
      "q": "Estimated annual cost of Brexit food customs bureaucracy for UK agricultural exporters",
      "r": "Over C{£3bn} in compliance fees and delays, which stoked UK food inflation."
     }
-   ]
+   ],
+   "dossier": "relation-royaume-uni-ue"
   },
   {
    "id": "2026-11-04-anglais-3",
@@ -350,7 +355,8 @@
      "q": "Number of UK households facing a mortgage payment jump on fixed deals (late 2026)",
      "r": "Over C{2.3 million} households.\n→ The mortgage cliff compresses consumer disposable income and slows residential construction."
     }
-   ]
+   ],
+   "dossier": "courtier-savills-attend-aucun"
   },
   {
    "id": "2026-11-04-espagnol-1",
@@ -417,7 +423,8 @@
      "q": "Decisión electoral adicional comunicada por Óscar Puente",
      "r": "Renuncia a formar parte de las listas electorales del PSOE para el 29-N.\n→ Supone la baja de uno de los principales arietes dialécticos del Gobierno de Pedro Sánchez."
     }
-   ]
+   ],
+   "dossier": "demission-surprise-ministre-transports"
   },
   {
    "id": "2026-11-04-espagnol-2",
@@ -484,7 +491,8 @@
      "q": "Efecto de las cláusulas sancionadas en la web de Amazon España",
      "r": "Limitaron la publicidad de rivales y bloquearon campañas alternativas a compradores de Apple.\n→ Conecta con el Reglamento de Mercados Digitales (DMA) frente al poder de los gatekeepers."
     }
-   ]
+   ],
+   "dossier": "regulation-numerique-ue"
   },
   {
    "id": "2026-11-04-espagnol-3",
@@ -551,7 +559,8 @@
      "q": "Límite del peronismo tradicional frente al ascenso libertario de Milei",
      "r": "Su dependencia del aparato territorial y sindical, inaudible para los jóvenes en redes.\n→ La política latinoamericana transita de la movilización de calle a la polarización algorítmica."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-04-allemand-1",
@@ -608,7 +617,8 @@
    "sujets": [
     "Ist der Bau neuer Gaskraftwerke eine unverzichtbare Brückentechnologie oder ein Rückschritt für die deutsche Energiewende?",
     "Wie lässt sich die Versorgungssicherheit eines Industrielandes bei hohem Anteil erneuerbarer Energien finanzierbar halten?"
-   ]
+   ],
+   "dossier": "agence-reseaux-alloue-milliards"
   },
   {
    "id": "2026-11-04-allemand-2",
@@ -665,7 +675,8 @@
    "sujets": [
     "Verhindert die deutsche Schuldenbremse notwendige Zukunftsinvestitionen in die Infrastruktur?",
     "Welche verfassungsrechtlichen und ökonomischen Risiken bergen Schattenhaushalte staatlicher Unternehmen?"
-   ]
+   ],
+   "dossier": "cour-comptes-fustige-projet"
   },
   {
    "id": "2026-11-04-allemand-3",
@@ -722,7 +733,8 @@
    "sujets": [
     "Ist eine verlässliche europäische Energieversorgung ohne Importe aus autoritären Staaten dauerhaft möglich?",
     "Wie verändern geopolitische Krisen die Prioritäten zwischen Klimaschutz, Wirtschaftlichkeit und Versorgungssicherheit?"
-   ]
+   ],
+   "dossier": "europe-rejette-projet-donald"
   }
  ]
 }

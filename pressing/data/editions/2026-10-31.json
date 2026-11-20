@@ -39,7 +39,8 @@
    "sujets": [
     "Faut-il réduire le déficit public en période de faible croissance ?",
     "L'incertitude est-elle un frein majeur à l'investissement ?"
-   ]
+   ],
+   "dossier": "pib-francais-recule-troisieme"
   },
   {
    "id": "2026-10-31-esh-2",
@@ -79,7 +80,8 @@
    "sujets": [
     "La politique monétaire peut-elle lutter à la fois contre l'inflation et le ralentissement économique ?",
     "L'indépendance des banques centrales est-elle toujours justifiée ?"
-   ]
+   ],
+   "dossier": "succession-lagarde-bce"
   },
   {
    "id": "2026-10-31-esh-3",
@@ -119,7 +121,8 @@
    "sujets": [
     "La dette publique réduit-elle la souveraineté économique des États ?",
     "La rigueur budgétaire est-elle socialement soutenable ?"
-   ]
+   ],
+   "dossier": "finances-publiques-france"
   },
   {
    "id": "2026-10-31-anglais-1",
@@ -170,7 +173,8 @@
    "sujets": [
     "Can a Labour government still deliver radical economic change?",
     "Does Britain need far-reaching devolution to fix its regional divide?"
-   ]
+   ],
+   "dossier": "premier-budget-prudent-andy"
   },
   {
    "id": "2026-10-31-anglais-2",
@@ -221,7 +225,8 @@
    "sujets": [
     "Should Britain offer a formal apology and reparations for its colonial past?",
     "Does the Commonwealth still have a meaningful role in the twenty-first century?"
-   ]
+   ],
+   "dossier": "andy-burnham-dit-ouvert"
   },
   {
    "id": "2026-10-31-anglais-3",
@@ -272,7 +277,8 @@
    "sujets": [
     "Are US midterm elections merely a referendum on the sitting president?",
     "Has partisan polarisation broken America's system of checks and balances?"
-   ]
+   ],
+   "dossier": "democrates-tete-sondages-vote"
   },
   {
    "id": "2026-10-31-espagnol-1",
@@ -323,7 +329,8 @@
    "sujets": [
     "¿Es sostenible el milagro económico español?",
     "¿Es la inmigración imprescindible para el futuro económico de España?"
-   ]
+   ],
+   "dossier": "espagne-affiche-croissance-troisieme"
   },
   {
    "id": "2026-10-31-espagnol-2",
@@ -374,7 +381,8 @@
    "sujets": [
     "¿Es España un país cada vez más difícil de gobernar?",
     "¿Por qué la vivienda se ha convertido en el eje central de la política española?"
-   ]
+   ],
+   "dossier": "elections-espagne-29n"
   },
   {
    "id": "2026-10-31-espagnol-3",
@@ -425,7 +433,8 @@
    "sujets": [
     "¿Es el «modelo Bukele» una solución duradera contra la violencia en América Latina?",
     "Seguridad ciudadana y Estado de derecho: ¿dónde está el límite en la lucha contra el crimen?"
-   ]
+   ],
+   "dossier": "bukele-haiti"
   },
   {
    "id": "2026-10-31-allemand-1",
@@ -476,7 +485,8 @@
    "sujets": [
     "Hat Deutschland die Wirtschaftskrise wirklich überwunden?",
     "Sind staatliche Subventionen wie der Tankrabatt das richtige Mittel gegen hohe Energiepreise?"
-   ]
+   ],
+   "dossier": "economie-allemande-conjoncture"
   },
   {
    "id": "2026-10-31-allemand-2",
@@ -527,7 +537,8 @@
    "sujets": [
     "Steigende Arbeitslosigkeit trotz Fachkräftemangel: Wie lässt sich dieses deutsche Paradox erklären?",
     "Ist das duale Ausbildungssystem in Deutschland noch ein Erfolgsmodell?"
-   ]
+   ],
+   "dossier": "955-millions-chomeurs-reprise"
   },
   {
    "id": "2026-10-31-allemand-3",
@@ -578,7 +589,8 @@
    "sujets": [
     "Kann Deutschland seine wirtschaftliche Abhängigkeit von China wirklich verringern?",
     "AfD bei 30 Prozent: Ist die Brandmauer der deutschen Parteien noch haltbar?"
-   ]
+   ],
+   "dossier": "afd-extreme-droite-allemagne"
   }
  ]
 }

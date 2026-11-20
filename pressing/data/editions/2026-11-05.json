@@ -49,7 +49,8 @@
      "q": "Montant de l'effort budgétaire prévu dans le PLF 2027 initial du gouvernement",
      "r": "C{54 milliards d'euros} d'économies et de hausses fiscales pour freiner le déficit public.\n→ A{Domar}, O{The Burden of the Debt} (D{1944}) : sans maîtrise du solde primaire, l'effet boule de neige rend la trajectoire d'endettement insoutenable."
     }
-   ]
+   ],
+   "dossier": "budget-france-2027"
   },
   {
    "id": "2026-11-05-esh-2",
@@ -99,7 +100,8 @@
      "q": "Niveau du taux de dépôt de la BCE à l'automne 2026 avant la réunion de décembre",
      "r": "C{2,50 %}, avec une probable troisième hausse de taux de l'année annoncée pour décembre 2026.\n→ A{Kaldor}, O{Alternative Theories of Distribution} (D{1956}) : l'inflation résulte d'un conflit de répartition déclenché par le choc énergétique importé."
     }
-   ]
+   ],
+   "dossier": "hausse-fond-choc-energetique"
   },
   {
    "id": "2026-11-05-esh-3",
@@ -149,7 +151,8 @@
      "q": "Composante salariale ayant le plus reculé chez les cadres en France en 2026",
      "r": "La part variable (primes d'objectifs et intéressement) sous la pression des marges des entreprises.\n→ A{Bourdieu}, O{La Reproduction} (D{1970}) : l'inflation des diplômes et la dépréciation des titres engendrent un risque de déclassement social."
     }
-   ]
+   ],
+   "dossier": "salaires-france"
   },
   {
    "id": "2026-11-05-anglais-1",
@@ -216,7 +219,8 @@
      "q": "Key policy mechanism recommended by MPs to secure critical raw materials in Britain",
      "r": "Creation of a state-backed C{Critical Minerals Finance Facility} to fund equity and debt in mining and processing.\n→ Marks a decisive shift towards state intervention, friendshoring and economic statecraft."
     }
-   ]
+   ],
+   "dossier": "politique-chine-royaume-uni"
   },
   {
    "id": "2026-11-05-anglais-2",
@@ -283,7 +287,8 @@
      "q": "Economic paradox of server farms highlighted by local American ballot measures",
      "r": "They absorb vast amounts of land, water and electricity but create negligible permanent local employment.\n→ Digital infrastructure triggers acute negative externalities sparking politicised NIMBY resistance."
     }
-   ]
+   ],
+   "dossier": "data-centers-ia"
   },
   {
    "id": "2026-11-05-anglais-3",
@@ -350,7 +355,8 @@
      "q": "Underlying economic challenge facing the UK labour market targeted by the Milburn report",
      "r": "Persistent post-pandemic surge in economic inactivity and record numbers of young NEETs.\n→ Structural labour supply constraints reduce potential growth and inflate public welfare bills."
     }
-   ]
+   ],
+   "dossier": "emploi-jeunes-royaume-uni"
   },
   {
    "id": "2026-11-05-espagnol-1",
@@ -417,7 +423,8 @@
      "q": "Porcentaje del parque de vivienda social en España comparado con la media de la Unión Europea",
      "r": "Apenas un C{2,5 %} en España frente al C{9 %} de media comunitaria.\n→ El déficit crónico de oferta pública de alquiler agrava la exclusión habitacional juvenil."
     }
-   ]
+   ],
+   "dossier": "logement-espagne"
   },
   {
    "id": "2026-11-05-espagnol-2",
@@ -484,7 +491,8 @@
      "q": "Reto estructural que persiste en el sector de los cuidados a domicilio en España",
      "r": "La persistencia mayoritaria del trabajo no declarado y la dependencia demográfica del cuidado informal.\n→ El envejecimiento de la población tensiona la conciliación laboral y familiar."
     }
-   ]
+   ],
+   "dossier": "regularisation-etrangers-fait-bondir"
   },
   {
    "id": "2026-11-05-espagnol-3",
@@ -551,7 +559,8 @@
      "q": "Instrumento denunciado por Arévalo como principal mecanismo de sabotaje contra su Gobierno",
      "r": "La guerra judicial (lawfare) y la cooptación del Ministerio Público por élites oligárquicas.\n→ La judicialización de la política sustituye a los golpes de Estado tradicionales para bloquear reformas."
     }
-   ]
+   ],
+   "dossier": "madrid-bernardo-arevalo-appelle"
   },
   {
    "id": "2026-11-05-allemand-1",
@@ -608,7 +617,8 @@
    "sujets": [
     "Sollte die Europäische Union am vollständigen Verbot von Verbrennungsmotoren festhalten?",
     "Wie kann die deutsche Industrie den Übergang zu Elektroautos erfolgreich bewältigen?"
-   ]
+   ],
+   "dossier": "commission-environnement-vote-assouplissement"
   },
   {
    "id": "2026-11-05-allemand-2",
@@ -665,7 +675,8 @@
    "sujets": [
     "Wie kann Deutschland eine würdevolle Pflege im Alter dauerhaft finanzieren?",
     "Sollte der Staat pflegende Angehörige stärker finanziell und beruflich entlasten?"
-   ]
+   ],
+   "dossier": "dependance-allemagne"
   },
   {
    "id": "2026-11-05-allemand-3",
@@ -722,7 +733,8 @@
    "sujets": [
     "Braucht eine parlamentarische Demokratie ein überparteiliches Staatsoberhaupt?",
     "Welche Bedeutung hat das Amt des Bundespräsidenten für den Zusammenhalt in Deutschland?"
-   ]
+   ],
+   "dossier": "presidence-federale-allemagne"
   }
  ]
 }

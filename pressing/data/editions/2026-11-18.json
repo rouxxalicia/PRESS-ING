@@ -69,7 +69,8 @@
      "q": "Pourquoi EDF privilégie un consortium plutôt qu'un appel d'offres concurrentiel pour les EPR2",
      "r": "Mutualiser les compétences et éviter les dérapages de coûts et de délais\n→ Illustre les B{défaillances de coordination} et le rôle d'A{Cohen et Lorenzi} (O{Politiques industrielles pour l'Europe}, D{2000}) sur l'autonomie stratégique."
     }
-   ]
+   ],
+   "dossier": "nucleaire-epr2"
   },
   {
    "id": "2026-11-18-esh-2",
@@ -138,7 +139,8 @@
      "q": "Déficit public français prévu par Bruxelles pour 2026 et mécanisme associé",
      "r": "C{5,5 % du PIB} avec une croissance de C{0,4 %}\n→ A{Domar} (D{1944}) : lorsque r > g et que le déficit primaire reste élevé, l'B{effet boule de neige} fait grimper la dette."
     }
-   ]
+   ],
+   "dossier": "finances-publiques-france"
   },
   {
    "id": "2026-11-18-esh-3",
@@ -207,7 +209,8 @@
      "q": "Mécanisme économique justifiant un pilier de retraite par capitalisation",
      "r": "L'épargne accumulée pendant la vie active finance la consommation future\n→ A{Modigliani}, O{Théorie du cycle de vie} (D{1954}) : lissage de la consommation sur la durée de vie."
     }
-   ]
+   ],
+   "dossier": "debat-repartition-contre-capitalisation"
   },
   {
    "id": "2026-11-18-esh-4",
@@ -277,7 +280,8 @@
      "q": "Risque économique d'une accélération des exportations de bauxite brute sans transformation locale",
      "r": "Enfermement dans la spécialisation primaire\n→ A{Prebisch} (D{1950}) : la B{dégradation des termes de l'échange} limite les gains de long terme face aux produits manufacturés."
     }
-   ]
+   ],
+   "dossier": "guinee-recherche-milliard-dollars"
   },
   {
    "id": "2026-11-18-anglais-1",
@@ -344,7 +348,8 @@
      "q": "Two institutional limits on a 56-seat US Senate majority",
      "r": "The B{presidential veto} and the C{60-vote} B{filibuster} threshold\n→ Shows why a decisive midterm swing still forces bipartisan compromise."
     }
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-18-anglais-2",
@@ -411,7 +416,8 @@
      "q": "Why EU member states resist easing business mobility for the UK",
      "r": "Fear of giving British B{financial and business services} an unfair edge without single-market rules\n→ Shows the structural asymmetry of post-Brexit negotiations."
     }
-   ]
+   ],
+   "dossier": "relation-royaume-uni-ue"
   },
   {
    "id": "2026-11-18-anglais-3",
@@ -478,7 +484,8 @@
      "q": "Decision taken by Nvidia's board on Jensen Huang despite quarterly revenue doubling",
      "r": "Refused to reinstate him as CEO\n→ Shows that strong financial results do not shield tech giants from B{corporate governance} crises."
     }
-   ]
+   ],
+   "dossier": "nvidia-jensen-huang"
   },
   {
    "id": "2026-11-18-anglais-4",
@@ -545,7 +552,8 @@
      "q": "Legal basis invoked by the UK for sanctioning West Bank settlement builders",
      "r": "Settlements are illegal under B{international law}\n→ Shows how London uses B{financial sanctions} to uphold international law even at the risk of diplomatic friction."
     }
-   ]
+   ],
+   "dossier": "londres-sanctionne-huit-entreprises"
   },
   {
    "id": "2026-11-18-espagnol-1",
@@ -612,7 +620,8 @@
      "q": "Causa política del abandono de la reforma del registro horario en España",
      "r": "Falta de acuerdo entre B{Sumar} y el B{PSOE} antes de las elecciones del D{29-N}\n→ Muestra los límites de los B{gobiernos de coalición} sin mayoría estable."
     }
-   ]
+   ],
+   "dossier": "elections-espagne-29n"
   },
   {
    "id": "2026-11-18-espagnol-2",
@@ -679,7 +688,8 @@
      "q": "Impacto macroeconómico del encarecimiento de la vivienda en España",
      "r": "Reduce la renta disponible de los jóvenes y frena la B{movilidad laboral}\n→ La escasez de B{vivienda asequible} agrava las desigualdades generacionales y territoriales."
     }
-   ]
+   ],
+   "dossier": "logement-espagne"
   },
   {
    "id": "2026-11-18-espagnol-3",
@@ -746,7 +756,8 @@
      "q": "Dato de inflación mayorista en Argentina en octubre de 2026 citado por Milei",
      "r": "C{1,6 %}, frente a una inflación minorista todavía frenada por la recomposición de tarifas\n→ Muestra la diferencia entre el ajuste de B{precios mayoristas} y la inercia del B{coste de la vida}."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-18-espagnol-4",
@@ -813,7 +824,8 @@
      "q": "Empleos formales creados ante el IMSS en México entre enero y octubre de 2026",
      "r": "C{571 000 puestos} (segunda cifra más baja desde la pandemia)\n→ Ilustra el peso persistente de la B{economía informal}, que limita la B{base tributaria} del Estado."
     }
-   ]
+   ],
+   "dossier": "fiscalite-mexique"
   },
   {
    "id": "2026-11-18-allemand-1",
@@ -870,7 +882,8 @@
    "sujets": [
     "Kann das deutsche Exportmodell die Wirtschaft dauerhaft retten?",
     "Warum investieren deutsche Unternehmen trotz besserer Zahlen so wenig?"
-   ]
+   ],
+   "dossier": "economie-allemande-conjoncture"
   },
   {
    "id": "2026-11-18-allemand-2",
@@ -927,7 +940,8 @@
    "sujets": [
     "Vernichten Roboter in Deutschland mehr Jobs als sie schaffen?",
     "Hilft die Automatisierung gegen den Fachkräftemangel in der Industrie?"
-   ]
+   ],
+   "dossier": "ia-emploi"
   },
   {
    "id": "2026-11-18-allemand-3",
@@ -984,7 +998,8 @@
    "sujets": [
     "Ist ein Abschiebezentrum in Ruanda eine gute Lösung für Deutschland?",
     "Wie verändert der politische Druck die deutsche Migrationspolitik?"
-   ]
+   ],
+   "dossier": "allemagne-quatre-pays-europeens"
   },
   {
    "id": "2026-11-18-allemand-4",
@@ -1041,7 +1056,8 @@
    "sujets": [
     "Warum hat die deutsche Koalition so große Probleme beim Bundeshaushalt?",
     "Soll der Staat die Energiepreise in Deutschland stärker bremsen?"
-   ]
+   ],
+   "dossier": "prix-carburants-allemagne"
   }
  ],
  "a_lire": [

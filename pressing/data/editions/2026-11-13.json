@@ -69,7 +69,8 @@
      "q": "Réaction du gouvernement canadien à la vente de l'usine Stellantis de Brampton",
      "r": "Ottawa signifie un avis de défaut pour récupérer des centaines de millions de dollars de subventions.\n→ Pose la question de la B{conditionnalité des aides publiques} face à la mobilité des FMN."
     }
-   ]
+   ],
+   "dossier": "crise-automobile-europe"
   },
   {
    "id": "2026-11-13-esh-2",
@@ -139,7 +140,8 @@
      "q": "Mécanisme économique qui enferme les clients chez un géant logiciel",
      "r": "B{Effets de réseau} et B{coûts de changement} (*switching costs*) élevés.\n→ Explique la persistance du pouvoir de marché et l'enjeu de l'interopérabilité (A{Aghion et Howitt}, D{1998})."
     }
-   ]
+   ],
+   "dossier": "souverainete-numerique-panne-microsoft"
   },
   {
    "id": "2026-11-13-esh-3",
@@ -208,7 +210,8 @@
      "q": "Arbitrage de l'État-employeur face aux revendications salariales selon Musgrave",
      "r": "Tension entre la fonction d'B{allocation} (qualité des services publics) et la contrainte de B{stabilisation} budgétaire (A{Richard Musgrave}, O{Théorie des finances publiques}, D{1959})."
     }
-   ]
+   ],
+   "dossier": "salaires-france"
   },
   {
    "id": "2026-11-13-esh-4",
@@ -278,7 +281,8 @@
      "q": "Rôle de l'entrepreneur dans le renouvellement industriel selon Schumpeter",
      "r": "L'entrepreneur introduit des innovations qui transforment les procédés établis par B{destruction créatrice} (A{Joseph Schumpeter}, O{Capitalisme, socialisme et démocratie}, D{1942})."
     }
-   ]
+   ],
+   "dossier": "nucleaire-epr2"
   },
   {
    "id": "2026-11-13-anglais-1",
@@ -345,7 +349,8 @@
      "q": "Main political trade-off of Andy Burnham's EU reset ahead of the 20 November 2026 summit",
      "r": "Smoother market access requires B{dynamic regulatory alignment}, which critics frame as a loss of B{sovereignty}."
     }
-   ]
+   ],
+   "dossier": "relation-royaume-uni-ue"
   },
   {
    "id": "2026-11-13-anglais-2",
@@ -412,7 +417,8 @@
      "q": "Long-term human capital risk of cutting junior finance roles",
      "r": "Removing the bottom rung of the B{career ladder} deprives firms of future trained managers and weakens local service economies."
     }
-   ]
+   ],
+   "dossier": "emploi-jeunes-royaume-uni"
   },
   {
    "id": "2026-11-13-anglais-3",
@@ -479,7 +485,8 @@
      "q": "Main risk identified by economists regarding fewer Fed rate-setting meetings",
      "r": "Slower central bank reaction to sudden economic shocks while B{inflation} remains stubborn."
     }
-   ]
+   ],
+   "dossier": "kevin-warsh-supprime-vote"
   },
   {
    "id": "2026-11-13-anglais-4",
@@ -546,7 +553,8 @@
      "q": "Broader economic contradiction of targeting skilled migrant workers in the US",
      "r": "Detaining integrated professionals worsens staffing pressures in sectors already facing acute B{labour shortages}, such as hospitals and universities."
     }
-   ]
+   ],
+   "dossier": "vive-mobilisation-californie-detention"
   },
   {
    "id": "2026-11-13-espagnol-1",
@@ -613,7 +621,8 @@
      "q": "Factores que explican los bajos ingresos medios en la hostelería española",
      "r": "Abundancia del B{empleo a tiempo parcial}, B{estacionalidad} turística y baja productividad."
     }
-   ]
+   ],
+   "dossier": "salaires-banque-jusqu-quatre"
   },
   {
    "id": "2026-11-13-espagnol-2",
@@ -680,7 +689,8 @@
      "q": "Promesa institucional de Alberto Núñez Feijóo al inicio de la campaña electoral",
      "r": "Suprimir los ministerios de B{Vivienda} e B{Igualdad} si llega a La Moncloa, marcando el giro programático de la derecha."
     }
-   ]
+   ],
+   "dossier": "elections-espagne-29n"
   },
   {
    "id": "2026-11-13-espagnol-3",
@@ -747,7 +757,8 @@
      "q": "Dilema del Gobierno de Claudia Sheinbaum frente al ultimátum estadounidense",
      "r": "Proteger las exportaciones hacia su primer B{socio comercial} sin renunciar a su soberanía ni agravar la crisis humanitaria."
     }
-   ]
+   ],
+   "dossier": "caravane-migrante-sous-pression"
   },
   {
    "id": "2026-11-13-espagnol-4",
@@ -814,7 +825,8 @@
      "q": "Efecto del estancamiento industrial sobre la estructura laboral argentina",
      "r": "Destrucción de empleo asalariado formal compensada solo parcialmente por B{trabajo independiente} más precario."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-13-allemand-1",
@@ -871,7 +883,8 @@
    "sujets": [
     "Sollte Deutschland die Schuldenbremse dauerhaft reformieren?",
     "Wie kann der Staat Sicherheit finanzieren und gleichzeitig sparen?"
-   ]
+   ],
+   "dossier": "budget-allemagne"
   },
   {
    "id": "2026-11-13-allemand-2",
@@ -928,7 +941,8 @@
    "sujets": [
     "Warum stecken kleine und mittlere Firmen in der Krise?",
     "Welche Reformen braucht die deutsche Wirtschaft heute?"
-   ]
+   ],
+   "dossier": "faillites-entreprises-atteignent-leur"
   },
   {
    "id": "2026-11-13-allemand-3",
@@ -985,7 +999,8 @@
    "sujets": [
     "Wie kann sich Deutschland von US-Tech-Konzernen unabhängiger machen?",
     "Ist digitale Souveränität für die Wirtschaft heute wichtiger als niedrige Kosten?"
-   ]
+   ],
+   "dossier": "panne-microsoft-relance-debat"
   },
   {
    "id": "2026-11-13-allemand-4",
@@ -1042,7 +1057,8 @@
    "sujets": [
     "Welche Risiken bringt die Digitalisierung der Bundeswehr mit sich?",
     "Muss der Staat Rüstungsfirmen besser vor Cyberangriffen schützen?"
-   ]
+   ],
+   "dossier": "bundeswehr-temporairement-privee-drones"
   }
  ],
  "a_lire": [

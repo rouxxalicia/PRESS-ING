@@ -49,7 +49,8 @@
      "q": "Usage des superprofits pétroliers pendant la hausse du coût de la vie",
      "r": "Dividendes et rachats d'actions plutôt qu'investissement dans les énergies décarbonées.\n→ A{Kaldor}, O{Alternative Theories of Distribution} (D{1956}) : les actionnaires consomment moins que les salariés, donc des profits non réinvestis dépriment la demande."
     }
-   ]
+   ],
+   "dossier": "choc-petrolier-iran"
   },
   {
    "id": "2026-11-03-esh-2",
@@ -103,7 +104,8 @@
      "q": "Mécanisme par lequel les centres de données renchérissent l'électricité de tous",
      "r": "B{Merit order} : la dernière centrale appelée, presque toujours au gaz, fixe le prix payé par tous.\n→ Le surcoût du numérique retombe sur les ménages et les PME."
     }
-   ]
+   ],
+   "dossier": "data-centers-ia"
   },
   {
    "id": "2026-11-03-esh-3",
@@ -157,7 +159,8 @@
      "q": "Croissance américaine prévue en 2026 comparée à la zone euro",
      "r": "Plus de C{2,2 %}, soit deux à trois fois plus vite que la zone euro."
     }
-   ]
+   ],
+   "dossier": "comment-croissance-americaine-creuse"
   },
   {
    "id": "2026-11-03-anglais-1",
@@ -222,7 +225,8 @@
      "q": "What Shabana Mahmood gave up on low-paid care workers",
      "r": "The planned 15-year wait: those who arrived before May 2025 and earn at least C{£25,000} keep the 5-year route.\n→ Political restriction collides with structural labour needs: the NHS and care homes rely on foreign workers."
     }
-   ]
+   ],
+   "dossier": "immigration-royaume-uni"
   },
   {
    "id": "2026-11-03-anglais-2",
@@ -283,7 +287,8 @@
      "q": "Reasons behind the unionisation of Big Tech engineers",
      "r": "Layoffs, AI-related restructuring and ethical disputes over military contracts.\n→ Even a high-wage, individualistic sector is turning to collective action."
     }
-   ]
+   ],
+   "dossier": "google-signe-accord-historique"
   },
   {
    "id": "2026-11-03-anglais-3",
@@ -344,7 +349,8 @@
      "q": "Main concerns of young US voters in the 2026 midterms",
      "r": "The cost of living (rent, food, student loans) and fears for civil liberties (ICE, election integrity).\n→ Persistent inflation could bring part of Gen Z back to the Democrats, whose youth lead eroded in 2024."
     }
-   ]
+   ],
+   "dossier": "entre-vie-chere-desillusion"
   },
   {
    "id": "2026-11-03-espagnol-1",
@@ -405,7 +411,8 @@
      "q": "Propuesta de Borrell para integrar América Latina",
      "r": "Empezar por el litio, la electricidad y la agricultura, como la CECA en D{1951}.\n→ La integración económica precede a la política, pero las divisiones ideológicas paralizan una política industrial común."
     }
-   ]
+   ],
+   "dossier": "terres-rares-matieres-critiques"
   },
   {
    "id": "2026-11-03-espagnol-2",
@@ -470,7 +477,8 @@
      "q": "Límite del Plan México",
      "r": "La industria mexicana depende de piezas asiáticas para ensamblar sus exportaciones.\n→ La sustitución de importaciones choca con la realidad de las cadenas de valor."
     }
-   ]
+   ],
+   "dossier": "fiscalite-mexique"
   },
   {
    "id": "2026-11-03-espagnol-3",
@@ -535,7 +543,8 @@
      "q": "Uso interno del duelo entre Sánchez y Milei",
      "r": "Sánchez lo utiliza como argumento de campaña antes de las legislativas del D{29 de noviembre}.\n→ La diplomacia de Estado cede ante la confrontación entre bloques políticos."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-03-allemand-1",
@@ -586,7 +595,8 @@
    "sujets": [
     "Welche politische Bedeutung hat das Amt des Bundespräsidenten in Zeiten gesellschaftlicher Polarisierung?",
     "Warum hat es in der Bundesrepublik Deutschland fast acht Jahrzehnte gedauert, bis eine Frau Staatsoberhaupt werden soll?"
-   ]
+   ],
+   "dossier": "presidence-federale-allemagne"
   },
   {
    "id": "2026-11-03-allemand-2",
@@ -637,7 +647,8 @@
    "sujets": [
     "Kann Deutschland bis 2030 tatsächlich zu einer führenden und souveränen „KI-Nation“ aufsteigen?",
     "Droht Europa bei der Künstlichen Intelligenz eine neue strategische Abhängigkeit von den USA?"
-   ]
+   ],
+   "dossier": "allemagne-reve-made-germany"
   },
   {
    "id": "2026-11-03-allemand-3",
@@ -688,7 +699,8 @@
    "sujets": [
     "Billiges Ticket, aber weniger Züge: Steckt der öffentliche Nahverkehr in Deutschland in einer Finanzierungsfalle?",
     "Wie verschärft der Rückzug des öffentlichen Verkehrs im ländlichen Raum die politische Spaltung in Deutschland?"
-   ]
+   ],
+   "dossier": "deutsche-bahn"
   }
  ]
 }

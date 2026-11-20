@@ -63,7 +63,8 @@
      "q": "Candidats favoris pour la présidence de la BCE en 2027",
      "r": "A{Pablo Hernández de Cos} (Espagne, ligne pragmatique) face à A{Klaas Knot} (Pays-Bas, faucon orthodoxe).\n→ Le choix du président détermine la tolérance de la BCE face aux écarts de taux d'emprunt (spreads) en zone euro."
     }
-   ]
+   ],
+   "dossier": "succession-lagarde-bce"
   },
   {
    "id": "2026-11-08-esh-2",
@@ -127,7 +128,8 @@
      "q": "Décret sur les minima de branche (France, novembre 2026)",
      "r": "Obligation sous sanctions financières de relever les minima conventionnels inférieurs au C{Smic}.\n→ Reflète la tentative de l'État de relancer la négociation collective face aux rigidités de branche."
     }
-   ]
+   ],
+   "dossier": "salaires-france"
   },
   {
    "id": "2026-11-08-esh-3",
@@ -191,7 +193,8 @@
      "q": "Diagnostic de Jean Pisani-Ferry sur le modèle chinois (2026)",
      "r": "Une relance par l'offre et les subventions manufacturières qui aggrave les surcapacités au détriment des revenus des ménages.\n→ A{Krugman}, O{The Myth of Asia's Miracle} (D{1994}) : la croissance extensive par accumulation bute sur les rendements décroissants."
     }
-   ]
+   ],
+   "dossier": "chine-modele-excedent"
   },
   {
    "id": "2026-11-08-esh-4",
@@ -255,7 +258,8 @@
      "q": "Effet des barrières commerciales sur le pouvoir d'achat des ménages",
      "r": "Hausse du coût des biens importés et distorsion des chaînes de valeur globales.\n→ A{Ricardo}, O{Des principes de l'économie politique} (D{1817}) : entraver la division internationale du travail réduit le surplus global."
     }
-   ]
+   ],
+   "dossier": "echec-electoral-trump-marque"
   },
   {
    "id": "2026-11-08-anglais-1",
@@ -322,7 +326,8 @@
      "q": "Term describing the saturation of UK public bodies by chatbot emails",
      "r": "B{AI clog}.\n→ Illustrates how technological democratization strains cash-strapped local public infrastructure."
     }
-   ]
+   ],
+   "dossier": "afflux-requetes-generees-intelligence"
   },
   {
    "id": "2026-11-08-anglais-2",
@@ -389,7 +394,8 @@
      "q": "Structural feature of UK mortgages compared to France",
      "r": "Predominance of short-term B{2 to 5-year fixed deals} vs. long-term 25-year fixed mortgages in France.\n→ Speeds up the transmission of interest rate hikes directly onto consumer demand."
     }
-   ]
+   ],
+   "dossier": "banque-angleterre-taux"
   },
   {
    "id": "2026-11-08-anglais-3",
@@ -456,7 +462,8 @@
      "q": "Key policy prerogatives wielded by US state legislatures",
      "r": "Authority over B{electoral redistricting}, voting regulations, education, and state-level healthcare rights.\n→ Bypasses Congressional gridlock in Washington."
     }
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-08-anglais-4",
@@ -523,7 +530,8 @@
      "q": "Mechanism behind the 'transit death spiral' in US metropolitan areas",
      "r": "Farebox shortfall → service cuts → ridership drops further → worse deficits.\n→ Hits low-income commuters hardest who lack work-from-home flexibility."
     }
-   ]
+   ],
+   "dossier": "baie-san-francisco-bord"
   },
   {
    "id": "2026-11-08-espagnol-1",
@@ -590,7 +598,8 @@
      "q": "Motivo de fricción institucional entre el Gobierno central y las comunidades autónomas",
      "r": "El reparto obligatorio de los B{menores no acompañados} y la financiación de los recursos de acogida.\n→ Divide a los gobiernos autonómicos del PP y al ejecutivo central de coalición."
     }
-   ]
+   ],
+   "dossier": "migrations-canaries"
   },
   {
    "id": "2026-11-08-espagnol-2",
@@ -657,7 +666,8 @@
      "q": "Principal dilema de la política cambiaria del gobierno argentino",
      "r": "Mantener el B{cepo cambiario} para anclar la inflación frente a la urgencia de atraer inversión extranjera.\n→ La falta de divisas frena la recuperación de la actividad económica."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-08-espagnol-3",
@@ -724,7 +734,8 @@
      "q": "Consecuencia del encarecimiento de los alquileres en la juventud española",
      "r": "La edad media de B{emancipación juvenil} supera ya los C{30 años}.\n→ Frena la movilidad laboral y acentúa la brecha de riqueza intergeneracional."
     }
-   ]
+   ],
+   "dossier": "logement-espagne"
   },
   {
    "id": "2026-11-08-espagnol-4",
@@ -791,7 +802,8 @@
      "q": "Impacto de la guerra de drones sobre las comunidades rurales colombianas",
      "r": "Aumento del B{desplazamiento forzado} masivo de campesinos y comunidades indígenas en Cauca.\n→ Ilustra la persistencia de la violencia armada vinculada al narcotráfico."
     }
-   ]
+   ],
+   "dossier": "proliferation-drones-pieges-met"
   },
   {
    "id": "2026-11-08-allemand-1",
@@ -848,7 +860,8 @@
    "sujets": [
     "Braucht Deutschland einheitliche Regeln für alle Schulen?",
     "Wie kann der Staat die Chancen für Kinder verbessern?"
-   ]
+   ],
+   "dossier": "streit-das-startchancen-programm"
   },
   {
    "id": "2026-11-08-allemand-2",
@@ -905,7 +918,8 @@
    "sujets": [
     "Hat das duale Ausbildungssystem in Deutschland noch Zukunft?",
     "Wie kann der Staat junge Menschen besser fördern?"
-   ]
+   ],
+   "dossier": "fast-drei-millionen-junge"
   },
   {
    "id": "2026-11-08-allemand-3",
@@ -962,7 +976,8 @@
    "sujets": [
     "Welche Rolle spielt der Bundespräsident in einer Demokratie?",
     "Braucht Deutschland noch ein Staatsoberhaupt ohne Macht?"
-   ]
+   ],
+   "dossier": "presidence-federale-allemagne"
   },
   {
    "id": "2026-11-08-allemand-4",
@@ -1019,7 +1034,8 @@
    "sujets": [
     "Kann die Energiewende die Sicherheit der Industrie garantieren?",
     "Sollte der Staat moderne Gaskraftwerke mit Steuern finanzieren?"
-   ]
+   ],
+   "dossier": "scharfere-regeln-fur-neue"
   }
  ],
  "a_lire": [

@@ -4,7 +4,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
 
 ## Étapes, dans l'ordre
 
-1. Lance `python3 scripts/preparer.py`. Il te donne en une fois tout ce qu'il faut savoir avant de commencer : la date du jour (s'il dit que l'édition existe déjà, arrête-toi et dis-le), les **sujets des 5 dernières éditions** (à ne pas reprendre), les **intitulés du programme** déjà utilisés, la **liste des fiches** du référentiel, et une carte esh et une carte anglais qui servent de **modèle de style et de longueur**. Pour l'allemand, le seul modèle est l'exemple de la partie « Allemand : niveau B2 » ci-dessous.
+1. Lance `python3 scripts/preparer.py`. Il te donne en une fois tout ce qu'il faut savoir avant de commencer : la date du jour (s'il dit que l'édition existe déjà, arrête-toi et dis-le), les **dossiers déjà traités** ces 30 derniers jours, avec ceux qui sont **INTERDITS** aujourd'hui (voir « Ne pas reprendre un sujet »), les **intitulés du programme** déjà utilisés, la **liste des fiches** du référentiel, et une carte esh et une carte anglais qui servent de **modèle de style et de longueur**. Pour l'allemand, le seul modèle est l'exemple de la partie « Allemand : niveau B2 » ci-dessous.
 2. **N'ouvre pas** les anciennes éditions ni `data/referentiel.json` : ce sont de très gros fichiers, et les lire te ralentit beaucoup. Tout ce dont tu as besoin est dans le résumé de l'étape 1.
 3. Si l'étape 1 affiche « ARTICLES PROPOSÉS PAR ALICIA », traite-les **en plus** des 16 actus (voir « Articles proposés » ci-dessous). Puis va directement à la recherche.
 4. Cherche sur le web l'actualité **des dernières 48 heures**, puis choisis 4 actus par matière (la première est l'actu principale) :
@@ -14,6 +14,7 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    - **allemand** : Allemagne (Autriche ou Suisse seulement si c'est vraiment marquant).
    **Uniquement des médias reconnus**, ceux de la liste « Sources autorisées » ci-dessous. Si tu trouves une info ailleurs, retrouve-la dans un de ces médias avant de l'utiliser ; sinon, choisis une autre actu.
    Suis la partie « Choisir les actus » ci-dessous : des sujets **utiles pour le concours**, **variés**, et **au moins 3 journaux différents par matière**.
+   **Avant de garder une actu, vérifie qu'elle n'appartient pas à un dossier INTERDIT** de l'étape 1 (voir « Ne pas reprendre un sujet »). Si c'est le cas, cherche une autre actu tout de suite, ne la rédige pas.
 5. **Relie chaque carte esh aux cours d'Alicia** : pour chaque actu esh, lance `python3 scripts/cours.py <4 à 8 mots-clés de l'actu>` (ex. `python3 scripts/cours.py droits de douane Chine acier protectionnisme`). Il te donne les chapitres de son cours les plus proches et les auteurs de son cours à mobiliser. Suis la partie « Auteurs du cours » ci-dessous. **N'ouvre jamais** les fichiers de `data/cours/` à la main.
 6. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
 7. Trouve une photo pour **chaque** carte avec `python3 scripts/photos.py "mots-clés en anglais"`, en suivant la partie « Photos » ci-dessous : une photo qui montre **vraiment** le sujet de l'article. Une édition sans photo, avec une photo en double ou déjà utilisée récemment est refusée par le vérificateur.
@@ -56,7 +57,20 @@ Le seul critère : **est-ce qu'Alicia pourra s'en servir** comme exemple, accroc
 - **Au moins 3 journaux différents par matière, dans l'édition du jour** : jamais plus de 2 actus du même journal dans une matière. Va chercher au-delà du premier site trouvé. Par exemple, en ESH : Les Échos, Le Monde, Alternatives économiques, La Tribune, Le Figaro, le Financial Times ; en anglais : The Guardian, BBC, FT, The Economist, NYT ; en espagnol : El País, El Mundo, La Vanguardia, elDiario.es, Clarín, BBC Mundo ; en allemand : Tagesschau, Spiegel, Zeit, FAZ, Süddeutsche, DW. Le vérificateur refuse l'édition sinon.
 - **4 thèmes différents par matière** : pas deux actus sur le même secteur ou le même événement (par exemple deux actus sur l'automobile).
 - En **espagnol**, mélange Espagne et Amérique latine. En **anglais**, mélange Royaume-Uni et États-Unis.
-- D'un jour à l'autre, ne reprends pas les mêmes sujets : le résumé de l'étape 1 te montre ce qui a déjà été fait.
+- D'un jour à l'autre, ne reprends pas les mêmes sujets : voir la partie suivante.
+
+## Ne pas reprendre un sujet
+
+Alicia ne veut **pas lire dix fois la même histoire** (les midterms, l'économie de Milei, les élections espagnoles, le Brexit…). Chaque carte a donc un champ `dossier` : l'identifiant de **l'histoire de fond** qu'elle raconte, quel que soit l'angle du jour.
+
+- **Même histoire = même dossier.** Les résultats des midterms, la désignation du président de la Chambre et les regrets d'Elon Musk sur ses dépenses de campagne, c'est le même dossier `midterms-2026`. Une grève chez Audi et un vote de grève chez IG Metall, c'est `greves-ig-metall`. L'inflation argentine et le budget de Milei, c'est `economie-argentine-milei`.
+- **Réutilise exactement l'identifiant** affiché par `preparer.py` quand c'est la même histoire. N'invente jamais un nouvel identifiant pour contourner un dossier interdit : c'est le même sujet, Alicia le verra.
+- Nouveau sujet : crée un identifiant de 2 à 6 mots en minuscules, sans accents, séparés par des tirets, qui nomme l'histoire de façon **large** (`logement-espagne`, pas `logement-social-ventes-espagne-novembre`).
+- **INTERDIT** : un dossier traité il y a **moins de 4 jours**.
+- **« suite seulement »** : un dossier traité il y a 4 à 10 jours, ou **saturé** (déjà 3 cartes ou plus en 30 jours), peut revenir **uniquement** s'il y a un **fait nouveau et décisif** : un résultat d'élection, un vote définitif, une décision officielle, un chiffre officiel qui change le diagnostic. Ajoute alors `"suite": "<le fait nouveau en une phrase>"`. **Une seule carte « suite » par édition.** Une déclaration, un sondage, une réaction ou une analyse de plus ne sont **pas** des faits décisifs.
+- Jamais deux cartes du même dossier dans une édition, même dans deux matières différentes.
+- Les articles proposés par Alicia (`perso`) ont aussi un dossier, mais ne sont jamais bloqués.
+- Le vérificateur refuse l'édition si une règle n'est pas respectée.
 
 ## Sources autorisées
 
@@ -128,6 +142,7 @@ Règles :
 - `source` : le média principal. `minutes` : 3.
 - `url` : **ouvre l'article dans le navigateur et copie l'adresse depuis la barre d'adresse.** N'écris **jamais** une adresse de mémoire, ne la reconstitue pas à partir du titre, n'invente pas d'identifiant (un lien inventé tombe sur une page d'erreur). Pas de page de direct, de vidéo ou de tag : un article. Si tu ne retrouves pas l'article exact, choisis une autre actu.
 - `id` : `<date>-<matiere>-<numéro>`, par exemple `2026-11-01-esh-1`.
+- `dossier` : obligatoire, voir « Ne pas reprendre un sujet ». `suite` : seulement dans le cas prévu par cette partie.
 - `sujets` : 2 sujets de dissertation (en français pour l'ESH, dans la langue étrangère pour les langues).
 
 ### Cartes esh (en plus)
@@ -222,7 +237,7 @@ Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Des
  "cards": [
   {
    "id": "2026-11-01-esh-1", "matiere": "esh", "source": "…", "url": "https://…", "minutes": 3,
-   "titre": "…", "faits": "…", "enjeux": "…",
+   "titre": "…", "dossier": "budget-france-2027", "faits": "…", "enjeux": "…",
    "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "programme": {"module": "…", "chapitre": "…"},
    "auteurs": [{"nom": "…", "ouvrage": "…", "annee": "…", "ref": "…", "cours": "2A-01-mondialisation-commerciale", "texte": "…"}],
@@ -232,7 +247,7 @@ Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Des
   },
   {
    "id": "2026-11-01-anglais-1", "matiere": "anglais", "source": "…", "url": "https://…", "minutes": 3,
-   "titre": "…", "faits": "…", "enjeux": "…",
+   "titre": "…", "dossier": "midterms-2026", "faits": "…", "enjeux": "…",
    "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "vo": {"titre": "…", "faits": "…", "enjeux": "…"},
    "vocab": [["…", "…", "…"]],

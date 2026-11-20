@@ -39,7 +39,8 @@
    "sujets": [
     "Les règles budgétaires sont-elles nécessaires pour maîtriser la dépense publique ?",
     "Peut-on réduire le déficit public sans sacrifier les investissements d'avenir ?"
-   ]
+   ],
+   "dossier": "budget-france-2027"
   },
   {
    "id": "2026-10-29-esh-2",
@@ -79,7 +80,8 @@
    "sujets": [
     "L'industrie européenne est-elle condamnée au déclin face à la Chine et aux États-Unis ?",
     "La destruction créatrice suffit-elle à expliquer les crises industrielles contemporaines ?"
-   ]
+   ],
+   "dossier": "crise-automobile-europe"
   },
   {
    "id": "2026-10-29-esh-3",
@@ -119,7 +121,8 @@
    "sujets": [
     "Les chocs énergétiques accélèrent-ils ou freinent-ils la transition écologique ?",
     "Faut-il taxer les superprofits des grandes entreprises ?"
-   ]
+   ],
+   "dossier": "choc-petrolier-iran"
   },
   {
    "id": "2026-10-29-anglais-1",
@@ -170,7 +173,8 @@
    "sujets": [
     "Should British banks and energy giants bear the brunt of the cost-of-living crisis?",
     "Is the City of London still an asset or a constraint for the British economy?"
-   ]
+   ],
+   "dossier": "banque-lloyds-attaque-surtaxe"
   },
   {
    "id": "2026-10-29-anglais-2",
@@ -221,7 +225,8 @@
    "sujets": [
     "Do kitchen-table economics always trump culture wars in American elections?",
     "How are demographic shifts reshaping the electoral map of the American South?"
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-10-29-anglais-3",
@@ -272,7 +277,8 @@
    "sujets": [
     "Will artificial intelligence destroy the career ladder for young graduates?",
     "Does technological progress inevitably widen inequalities in the workplace?"
-   ]
+   ],
+   "dossier": "ia-emploi"
   },
   {
    "id": "2026-10-29-espagnol-1",
@@ -323,7 +329,8 @@
    "sujets": [
     "¿Por qué la economía española no logra aprovechar el talento de sus jóvenes titulados?",
     "Educación y mercado laboral en España: ¿cómo corregir el desajuste entre universidad y empresa?"
-   ]
+   ],
+   "dossier": "salaries-occupent-emploi-inferieur"
   },
   {
    "id": "2026-10-29-espagnol-2",
@@ -374,7 +381,8 @@
    "sujets": [
     "¿Puede un gobierno de izquierda en América Latina aplicar políticas sociales ambiciosas sin chocar con los mercados financieros?",
     "Tras la victoria de Lula frente a Flávio Bolsonaro, ¿ha superado Brasil la polarización del bolsonarismo?"
-   ]
+   ],
+   "dossier": "bresil-lula-budget"
   },
   {
    "id": "2026-10-29-espagnol-3",
@@ -425,7 +433,8 @@
    "sujets": [
     "¿Cómo financiar un sistema de pensiones justo en países con una alta tasa de informalidad laboral?",
     "¿Qué balance deja el giro a la izquierda en Colombia tras la presidencia de Gustavo Petro?"
-   ]
+   ],
+   "dossier": "congres-sauve-extremis-reforme"
   },
   {
    "id": "2026-10-29-allemand-1",
@@ -476,7 +485,8 @@
    "sujets": [
     "Partner, Wettbewerber, systemischer Rivale: Wie sollte Deutschland seine Beziehungen zu China gestalten?",
     "Warum ist China vom Wachstumsmotor zum größten Konkurrenten der deutschen Industrie geworden?"
-   ]
+   ],
+   "dossier": "presidence-federale-allemagne"
   },
   {
    "id": "2026-10-29-allemand-2",
@@ -527,7 +537,8 @@
    "sujets": [
     "Ist die deutsche Sozialpartnerschaft in Zeiten der Industriekrise noch ein Erfolgsmodell?",
     "Höhere Löhne für mehr Kaufkraft oder Lohnzurückhaltung für mehr Wettbewerbsfähigkeit: Welchen Weg braucht Deutschland?"
-   ]
+   ],
+   "dossier": "greves-ig-metall"
   },
   {
    "id": "2026-10-29-allemand-3",
@@ -578,7 +589,8 @@
    "sujets": [
     "Verliert Deutschland seine Rolle als Industrienation zugunsten des Dienstleistungssektors?",
     "Warum bleibt der deutsche Arbeitsmarkt trotz jahrelanger Konjunkturschwäche vergleichsweise robust?"
-   ]
+   ],
+   "dossier": "economie-allemande-conjoncture"
   }
  ]
 }

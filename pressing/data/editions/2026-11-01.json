@@ -39,7 +39,8 @@
    "sujets": [
     "L'intelligence artificielle est-elle le moteur d'un nouveau cycle de croissance ou d'une nouvelle bulle financière ?",
     "Les marchés financiers allouent-ils efficacement le capital vers l'innovation ?"
-   ]
+   ],
+   "dossier": "ia-bulle-big-tech"
   },
   {
    "id": "2026-11-01-esh-2",
@@ -79,7 +80,8 @@
    "sujets": [
     "Les fusions-acquisitions permettent-elles de sauver la compétitivité de l'industrie européenne ?",
     "L'Europe est-elle condamnée à la désindustrialisation face au coût de l'énergie ?"
-   ]
+   ],
+   "dossier": "basf-evonik"
   },
   {
    "id": "2026-11-01-esh-3",
@@ -119,7 +121,8 @@
    "sujets": [
     "L'évolution de la consommation des ménages ne dépend-elle que du pouvoir d'achat ?",
     "Le numérique favorise-t-il une économie plus sobre et solidaire ?"
-   ]
+   ],
+   "dossier": "comment-crise-pouvoir-achat"
   },
   {
    "id": "2026-11-01-anglais-1",
@@ -170,7 +173,8 @@
    "sujets": [
     "Does unlimited campaign spending undermine American democracy?",
     "Have tech billionaires acquired too much political power in the United States?"
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-01-anglais-2",
@@ -221,7 +225,8 @@
    "sujets": [
     "Should governments slow down net zero policies during a cost-of-living crisis?",
     "Why has Britain struggled to decarbonise its housing stock?"
-   ]
+   ],
+   "dossier": "coupes-budget-healey-compromettent"
   },
   {
    "id": "2026-11-01-anglais-3",
@@ -272,7 +277,8 @@
    "sujets": [
     "Is the UK-US \"special relationship\" coming to an end?",
     "Ten years after the referendum, is Brexit being quietly undone by geopolitical reality?"
-   ]
+   ],
+   "dossier": "relation-royaume-uni-ue"
   },
   {
    "id": "2026-11-01-espagnol-1",
@@ -323,7 +329,8 @@
    "sujets": [
     "¿Por qué el mercado hipotecario y de la vivienda es tan vulnerable a los tipos de interés en España?",
     "¿Qué aportaría un presidente español al frente del Banco Central Europeo?"
-   ]
+   ],
+   "dossier": "euribor-cloture-octobre-239"
   },
   {
    "id": "2026-11-01-espagnol-2",
@@ -374,7 +381,8 @@
    "sujets": [
     "¿Ha provocado la digitalización y concentración de la banca una nueva forma de exclusión social en España?",
     "¿Debe el Estado intervenir más para regular las comisiones y los servicios básicos de la banca?"
-   ]
+   ],
+   "dossier": "banques-facturent-jusqu-276"
   },
   {
    "id": "2026-11-01-espagnol-3",
@@ -425,7 +433,8 @@
    "sujets": [
     "¿Puede la derecha brasileña reinventarse sin el apellido Bolsonaro?",
     "¿Cómo influyen las afinidades ideológicas de los gobiernos en las relaciones diplomáticas de América Latina?"
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-01-allemand-1",
@@ -476,7 +485,8 @@
    "sujets": [
     "Scheitert die deutsche Verkehrswende an der maroden Infrastruktur?",
     "Wie konnte das einstige Vorzeigemodell der deutschen Infrastruktur in eine solche Krise geraten?"
-   ]
+   ],
+   "dossier": "deutsche-bahn"
   },
   {
    "id": "2026-11-01-allemand-2",
@@ -527,7 +537,8 @@
    "sujets": [
     "Verlieren die traditionellen Volksparteien in Deutschland endgültig ihre Bindungskraft?",
     "Zwingen Koalitionsregierungen Parteien zwangsläufig zur Verwässerung ihres Profils?"
-   ]
+   ],
+   "dossier": "presidents-federation-suggerent-friedrich"
   },
   {
    "id": "2026-11-01-allemand-3",
@@ -578,7 +589,8 @@
    "sujets": [
     "Kinderarmut in einem reichen Land: Warum sind Alleinerziehende in Deutschland so stark benachteiligt?",
     "Darf die Haushaltskonsolidierung auf Kosten von Familien- und Sozialleistungen gehen?"
-   ]
+   ],
+   "dossier": "tolle-ministre-karin-prien"
   }
  ]
 }

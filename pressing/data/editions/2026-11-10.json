@@ -72,7 +72,8 @@
      "q": "Mécanisme du salaire d'efficience selon Shapiro et Stiglitz",
      "r": "A{Carl Shapiro et Joseph Stiglitz} (D{1984}) : les firmes paient un salaire au-dessus de l'équilibre pour inciter à l'effort face aux asymétries d'information, ce qui génère un B{chômage involontaire d'équilibre}."
     }
-   ]
+   ],
+   "dossier": "stabilisation-inattendue-taux-chomage"
   },
   {
    "id": "2026-11-10-esh-2",
@@ -145,7 +146,8 @@
      "q": "Thèse de James Buchanan sur le biais pour le déficit public",
      "r": "A{James Buchanan}, O{The Calculus of Consent} (D{1962}) : les élus maximisent leurs chances de réélection en accordant des dépenses financées par l'emprunt, créant un B{biais structurel vers le déficit}."
     }
-   ]
+   ],
+   "dossier": "finances-publiques-france"
   },
   {
    "id": "2026-11-10-esh-3",
@@ -218,7 +220,8 @@
      "q": "Thèse de Mariana Mazzucato sur le rôle de l'État entrepreneur",
      "r": "A{Mariana Mazzucato}, O{L'État entrepreneur} (D{2013}) : seul l'État est capable d'apporter le B{capital patient} nécessaire aux innovations de rupture (nucléaire, biotech) que les marchés financiers jugent trop risquées."
     }
-   ]
+   ],
+   "dossier": "etat-mobilise-epargne-reglementee"
   },
   {
    "id": "2026-11-10-esh-4",
@@ -292,7 +295,8 @@
      "q": "Définition économique des effets de réseau dans la tech",
      "r": "B{Effets de réseau} : chaque utilisateur supplémentaire augmente la valeur du service pour tous les autres, créant des tendances naturelles au monopole (« winner-takes-most ») dans les modèles d'IA."
     }
-   ]
+   ],
+   "dossier": "regulation-numerique-ue"
   },
   {
    "id": "2026-11-10-anglais-1",
@@ -363,7 +367,8 @@
      "q": "Main driver of British wage stagnation since 2008",
      "r": "Chronic weakness in B{business investment} and aggregate B{productivity growth}, keeping real wage increases near zero for over a decade."
     }
-   ]
+   ],
+   "dossier": "emploi-jeunes-royaume-uni"
   },
   {
    "id": "2026-11-10-anglais-2",
@@ -434,7 +439,8 @@
      "q": "Main risk highlighted by UK probation unions regarding early release",
      "r": "Severe probation understaffing leading to inadequate supervision and higher rates of criminal B{recidivism}."
     }
-   ]
+   ],
+   "dossier": "nouvelle-vague-liberations-anticipees"
   },
   {
    "id": "2026-11-10-anglais-3",
@@ -505,7 +511,8 @@
      "q": "Theoretical requirement for effective wealth taxation according to economists",
      "r": "A unified B{federal tax framework} across all jurisdictions to prevent domestic border arbitrage and residency shifting by the ultra-wealthy."
     }
-   ]
+   ],
+   "dossier": "electeurs-californie-rejettent-taxe"
   },
   {
    "id": "2026-11-10-anglais-4",
@@ -576,7 +583,8 @@
      "q": "Key driver behind the recent surge in US electricity demand",
      "r": "The massive expansion of B{AI data centers}, domestic chip manufacturing plants, and industrial electrification."
     }
-   ]
+   ],
+   "dossier": "accord-bipartisan-senat-accelerer"
   },
   {
    "id": "2026-11-10-espagnol-1",
@@ -647,7 +655,8 @@
      "q": "Crítica pedagógica al uso excesivo de la repetición de curso",
      "r": "Supone un elevado B{coste presupuestario} para el Estado y a menudo fracasa en mejorar el rendimiento de los alumnos desfavorecidos."
     }
-   ]
+   ],
+   "dossier": "parti-populaire-propose-interdire"
   },
   {
    "id": "2026-11-10-espagnol-2",
@@ -718,7 +727,8 @@
      "q": "Impacto diplomático de las brechas de seguridad en inteligencia",
      "r": "Erosión de la confianza mutua y debilitamiento de la cooperación militar con socios estratégicos de la B{OTAN}."
     }
-   ]
+   ],
+   "dossier": "fin-enquete-judiciaire-fuite"
   },
   {
    "id": "2026-11-10-espagnol-3",
@@ -789,7 +799,8 @@
      "q": "Dilema macroeconómico del ancla cambiaria en regímenes inflacionarios",
      "r": "Frena temporalmente la inflación al abaratar bienes importados, pero genera B{atraso cambiario} y deteriora el saldo de la B{balanza de pagos}."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-10-espagnol-4",
@@ -860,7 +871,8 @@
      "q": "Riesgo institucional de la violencia contra comunicadores y jueces",
      "r": "Genera B{autocensura generalizada} y deteriora el B{Estado de derecho}, abriendo la puerta a la captura criminal de las instituciones."
     }
-   ]
+   ],
+   "dossier": "assassinat-journaliste-investigation-ravive"
   },
   {
    "id": "2026-11-10-allemand-1",
@@ -917,7 +929,8 @@
    "sujets": [
     "Braucht Deutschland einen Preisdeckel für Konzertkarten im Internet?",
     "Soll der Staat die Preise auf digitalen Plattformen strenger kontrollieren?"
-   ]
+   ],
+   "dossier": "gouvernement-prepare-plafonnement-prix"
   },
   {
    "id": "2026-11-10-allemand-2",
@@ -974,7 +987,8 @@
    "sujets": [
     "Bedroht Künstliche Intelligenz viele Arbeitsplätze in Deutschland?",
     "Müssen sich Beschäftigte heute schneller weiterbilden als früher?"
-   ]
+   ],
+   "dossier": "vodafone-supprime-poste-cinq"
   },
   {
    "id": "2026-11-10-allemand-3",
@@ -1031,7 +1045,8 @@
    "sujets": [
     "Verliert Deutschland als Industriestandort seine Stärke in der Welt?",
     "Brauchen deutsche Unternehmen weniger Bürokratie für mehr Wachstum?"
-   ]
+   ],
+   "dossier": "constructeurs-machines-alertent-degradation"
   },
   {
    "id": "2026-11-10-allemand-4",
@@ -1088,7 +1103,8 @@
    "sujets": [
     "Kann die Deutsche Bahn eine echte Alternative zum Auto sein?",
     "Soll der Staat mehr Geld in die Bahn als in Straßen investieren?"
-   ]
+   ],
+   "dossier": "deutsche-bahn"
   }
  ],
  "a_lire": [

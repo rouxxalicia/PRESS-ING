@@ -49,7 +49,8 @@
      "q": "Projet financier initialement prévu pour KNDS avant l'entrée au capital de Berlin",
      "r": "Une C{introduction en Bourse} (IPO) à Paris et Francfort, reportée sine die pour privilégier un contrôle régalien.\n→ A{Musgrave}, O{The Theory of Public Finance} (D{1959}) : la défense relève d'un bien collectif pur nécessitant la fonction d'allocation publique."
     }
-   ]
+   ],
+   "dossier": "defense-europe"
   },
   {
    "id": "2026-11-06-esh-2",
@@ -99,7 +100,8 @@
      "q": "Catégories professionnelles enregistrant le plus fort recul salarial réel en France en 2026",
      "r": "Les cadres et professions intermédiaires (C{-1,3 %}) et les ouvriers (C{-1,2 %}), accélérant le tassement de l'échelle salariale.\n→ A{Akerlof et Yellen}, O{Efficiency Wage Models} (D{1984}) : l'érosion du pouvoir d'achat menace l'effort et la productivité du travail."
     }
-   ]
+   ],
+   "dossier": "salaires-france"
   },
   {
    "id": "2026-11-06-esh-3",
@@ -149,7 +151,8 @@
      "q": "Risque économique mis en avant par les opposants à l'exit tax italienne",
      "r": "La fuite préventive des investisseurs fortunés et l'érosion de l'attractivité territoriale de la Péninsule.\n→ A{Laffer}, O{An Equilibrium Approach} (D{1974}) : au-delà d'un seuil critique, la surtaxation détruit l'assiette imposable future."
     }
-   ]
+   ],
+   "dossier": "italie-instaure-exit-tax"
   },
   {
    "id": "2026-11-06-anglais-1",
@@ -216,7 +219,8 @@
      "q": "Primary political consequence of the 2026 US midterm elections for the White House",
      "r": "Democrats recaptured the C{Senate}, forcing the administration into divided government.\n→ Heightens constitutional friction between congressional oversight and presidential executive decrees."
     }
-   ]
+   ],
+   "dossier": "trump-administration"
   },
   {
    "id": "2026-11-06-anglais-2",
@@ -283,7 +287,8 @@
      "q": "Underlying vulnerability of the global equity market exposed by the AI tech rout",
      "r": "Extreme index concentration in mega-cap tech stocks and widening gap between capex and real monetization.\n→ Illustrates how speculative bubbles burst when political and infrastructure constraints appear."
     }
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-06-anglais-3",
@@ -350,7 +355,8 @@
      "q": "Economic rationale behind banning prior salary history inquiries during job interviews",
      "r": "Prevents historic wage inequalities and career breaks from perpetually depressing future earnings.\n→ Promotes labour market mobility and fair market wage discovery."
     }
-   ]
+   ],
+   "dossier": "gouvernement-burnham-rend-obligatoire"
   },
   {
    "id": "2026-11-06-espagnol-1",
@@ -417,7 +423,8 @@
      "q": "Propuesta de cuantía anual del Salario Mínimo Interprofesional (SMI) en España para 2027",
      "r": "C{18.004 euros} anuales (C{1.286 euros} mensuales en 14 pagas), con un incremento propuesto del C{5,3 %}.\n→ Beneficia de forma directa a más de C{2,5 millones de trabajadores} precarios."
     }
-   ]
+   ],
+   "dossier": "ministere-budget-releve-deduction"
   },
   {
    "id": "2026-11-06-espagnol-2",
@@ -484,7 +491,8 @@
      "q": "Partida presupuestaria que sufrió el mayor ajuste fiscal en Argentina bajo el plan de Milei",
      "r": "Las transferencias discrecionales a las provincias, con caídas reales superiores al C{55 %}.\n→ Provoca graves tensiones políticas con los gobernadores y paraliza la inversión en servicios locales."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-06-espagnol-3",
@@ -551,7 +559,8 @@
      "q": "Reto diplomático principal evidenciado durante la Cumbre de Madrid",
      "r": "La ausencia de la mayoría de mandatarios regionales (incluidos México, Brasil y Argentina) por tensiones ideológicas.\n→ Ilustra la creciente polarización y el debilitamiento del multilateralismo tradicional."
     }
-   ]
+   ],
+   "dossier": "sommet-ibero-americain-madrid"
   },
   {
    "id": "2026-11-06-allemand-1",
@@ -608,7 +617,8 @@
    "sujets": [
     "Kann die deutsche Industrie ihre weltweite Spitzenposition in Zukunft behaupten?",
     "Welche Rolle spielt die Automobilindustrie für den Wohlstand in Deutschland?"
-   ]
+   ],
+   "dossier": "economie-allemande-conjoncture"
   },
   {
    "id": "2026-11-06-allemand-2",
@@ -665,7 +675,8 @@
    "sujets": [
     "Ist die deutsche Mitbestimmung ein Vorteil oder ein Nachteil für Unternehmen in der Krise?",
     "Wie können Tarifpartner Arbeitsplätze sichern und gleichzeitig die Wettbewerbsfähigkeit erhalten?"
-   ]
+   ],
+   "dossier": "volkswagen-recule-projet-gel"
   },
   {
    "id": "2026-11-06-allemand-3",
@@ -722,7 +733,8 @@
    "sujets": [
     "Sollten Kinder in Deutschland länger gemeinsam lernen, um die Chancengleichheit zu verbessern?",
     "Welche Verantwortung trägt der Staat für den sozialen Aufstieg durch Bildung?"
-   ]
+   ],
+   "dossier": "debat-national-reforme-financement"
   }
  ]
 }

@@ -69,7 +69,8 @@
      "q": "Volume des emprunts d'État que la France doit refinancer sur les marchés obligataires en 2027",
      "r": "Près de C{300 Md€} d'émissions de dette à moyen et long terme.\n→ Contrainte financière record qui rend le Trésor vulnérable aux décisions de la BCE : A{Bagehot} (D{1873}) rappelle que l'absence de garantie d'un prêteur en dernier ressort expose les emprunteurs aux tensions de liquidité de marché → argument pour un sujet sur les politiques budgétaires."
     }
-   ]
+   ],
+   "dossier": "finances-publiques-france"
   },
   {
    "id": "2026-11-11-esh-2",
@@ -135,7 +136,8 @@
      "q": "Part de l'impôt sur le revenu payée par les 10 % des foyers fiscaux les plus aisés en France",
      "r": "Plus de C{75 %} de la totalité des recettes collectées.\n→ Très forte concentration fiscale qui alimente les débats sur l'incitation à l'effort : A{Laffer} (D{1979}) soutient qu'un fardeau fiscal excessif sur une minorité de contribuables peut éroder l'assiette imposable → argument pour un sujet sur l'efficacité et l'équité de l'impôt."
     }
-   ]
+   ],
+   "dossier": "recettes-impot-revenu-progressent"
   },
   {
    "id": "2026-11-11-esh-3",
@@ -201,7 +203,8 @@
      "q": "Sanctions financières prévues par le futur Digital Fairness Act européen contre les pratiques déloyales",
      "r": "Jusqu'à C{4 %} du chiffre d'affaires mondial des plateformes numériques en infraction.\n→ Répression des abus de dépendance cognitive des usagers : A{Galbraith} (D{1967}) montre que la filière inversée permet aux oligopoles de manipuler la demande des ménages → argument pour un sujet sur le pouvoir des grandes entreprises."
     }
-   ]
+   ],
+   "dossier": "regulation-numerique-ue"
   },
   {
    "id": "2026-11-11-esh-4",
@@ -267,7 +270,8 @@
      "q": "Part moyenne des dépenses pré-engagées (contraintes) dans le revenu disponible des ménages en France",
      "r": "Environ C{35 %} du revenu moyen, et plus de C{60 %} pour les ménages les plus modestes.\n→ Rigidité budgétaire qui transforme chaque hausse de tarif en crise de pouvoir d'achat : A{Kaldor} (D{1959}) souligne que l'inflation par les coûts active un conflit de répartition de la valeur ajoutée → argument pour un sujet sur les politiques sociales et l'inflation."
     }
-   ]
+   ],
+   "dossier": "prix-energie-france"
   },
   {
    "id": "2026-11-11-anglais-1",
@@ -334,7 +338,8 @@
      "q": "Constat des inspections scolaires de l'Ofsted dans les établissements britanniques sans téléphone",
      "r": "Amélioration mesurable des B{résultats académiques} et baisse nette des B{incidents de discipline}.\n→ Argument empirique montrant que la réduction des distractions numériques favorise la productivité et les apprentissages scolaires → argument pour un sujet sur la régulation des technologies."
     }
-   ]
+   ],
+   "dossier": "durcissement-regles-interdiction-totale"
   },
   {
    "id": "2026-11-11-anglais-2",
@@ -401,7 +406,8 @@
      "q": "Nature des suppressions de postes annoncées par Aldi au Royaume-Uni (novembre 2026)",
      "r": "Suppression de plusieurs centaines d'emplois dans les B{bureaux centraux} et la B{logistique}, magasins épargnés.\n→ Compression des coûts de structure pour absorber la hausse du salaire minimum et la guerre des prix → argument pour un sujet sur le travail et la compétitivité."
     }
-   ]
+   ],
+   "dossier": "aldi-supprime-centaines-emplois"
   },
   {
    "id": "2026-11-11-anglais-3",
@@ -468,7 +474,8 @@
      "q": "Argument principal de Bernie Sanders pour justifier sa fronde contre Schumer",
      "r": "Rejet d'une ligne jugée B{trop modérée et liée aux grandes entreprises}, réclamation d'un programme axé sur la B{classe ouvrière}.\n→ Débat central sur la sociologie électorale démocrate face à la montée du populisme trumpiste → argument pour un sujet sur les partis et le Congrès américain."
     }
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-11-anglais-4",
@@ -535,7 +542,8 @@
      "q": "Objectif juridique du National Popular Vote Interstate Compact",
      "r": "Engager chaque État signataire à attribuer la B{totalité de ses grands électeurs} au vainqueur du B{vote populaire national}.\n→ Tentative de garantir que le vainqueur du suffrage universel direct remporte toujours la présidence des États-Unis → argument pour un sujet sur la démocratie et le fédéralisme."
     }
-   ]
+   ],
+   "dossier": "democrates-relancent-initiative-vote"
   },
   {
    "id": "2026-11-11-espagnol-1",
@@ -602,7 +610,8 @@
      "q": "Position du patronat espagnol (CEOE) face à la grève générale de novembre 2026",
      "r": "Condamnation ferme, dénonciation d'un B{mouvement politique et irresponsable} nuisible à la productivité et aux entreprises.\n→ Polarisation vive entre dialogue social institutionnel et contestation populaire de rue → argument pour un sujet sur le dialogue social en Espagne."
     }
-   ]
+   ],
+   "dossier": "greves-espagne"
   },
   {
    "id": "2026-11-11-espagnol-2",
@@ -669,7 +678,8 @@
      "q": "Répartition effective du financement de la dépendance entre régions et État central en Espagne",
      "r": "Les B{communautés autonomes financent près de 70 %} des coûts effectifs, contre seulement B{30 % pour l'État central}.\n→ Conflit budgétaire permanent et disparités territoriales majeures au sein du modèle décentralisé espagnol → argument pour un sujet sur le fédéralisme et les politiques sociales."
     }
-   ]
+   ],
+   "dossier": "vingt-ans-loi-dependance"
   },
   {
    "id": "2026-11-11-espagnol-3",
@@ -736,7 +746,8 @@
      "q": "Nombre d'emplois formels détruits dans le secteur textile argentin face aux importations",
      "r": "Plus de C{25 000 emplois industriels} supprimés, principalement dans la province de Buenos Aires.\n→ Illustration du coût social de la thérapie de choc néolibérale et du débat sur la désindustrialisation précoce → argument pour un sujet sur le protectionnisme et le libre-échange."
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-11-espagnol-4",
@@ -803,7 +814,8 @@
      "q": "Part de la population active mexicaine travaillant dans le secteur informel (2026)",
      "r": "Plus de C{54 % de la main-d'œuvre}.\n→ Obstacle majeur à l'assiette de l'impôt sur le revenu et à la protection sociale universelle → argument pour un sujet sur le travail et le sous-développement."
     }
-   ]
+   ],
+   "dossier": "fiscalite-mexique"
   },
   {
    "id": "2026-11-11-allemand-1",
@@ -860,7 +872,8 @@
    "sujets": [
     "Welche Rolle spielt der Bundespräsident in Deutschland?",
     "Braucht eine Demokratie eine starke Brandmauer?"
-   ]
+   ],
+   "dossier": "presidence-federale-allemagne"
   },
   {
    "id": "2026-11-11-allemand-2",
@@ -917,7 +930,8 @@
    "sujets": [
     "Wie sichert man die medizinische Versorgung auf dem Land?",
     "Gefährdet der Online-Handel die lokalen Geschäfte?"
-   ]
+   ],
+   "dossier": "fermeture-acceleree-officines-fragilise"
   },
   {
    "id": "2026-11-11-allemand-3",
@@ -974,7 +988,8 @@
    "sujets": [
     "Soll Deutschland chinesische Investitionen strenger kontrollieren?",
     "Helfen Zölle der heimischen Industrie wirklich?"
-   ]
+   ],
+   "dossier": "entreprises-chinoises-renforcent-leur"
   },
   {
    "id": "2026-11-11-allemand-4",
@@ -1031,7 +1046,8 @@
    "sujets": [
     "Wie kann Deutschland die Pflege in Zukunft finanzieren?",
     "Bedroht der demografische Wandel den deutschen Sozialstaat?"
-   ]
+   ],
+   "dossier": "dependance-allemagne"
   }
  ],
  "a_lire": [

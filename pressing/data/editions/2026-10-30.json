@@ -39,7 +39,8 @@
    "sujets": [
     "La zone euro est-elle une zone monétaire optimale ?",
     "L'intégration européenne favorise-t-elle la convergence des économies ?"
-   ]
+   ],
+   "dossier": "zone-euro-accelere-mais"
   },
   {
    "id": "2026-10-30-esh-2",
@@ -79,7 +80,8 @@
    "sujets": [
     "Faut-il réduire les déficits publics par la baisse des dépenses ou par la hausse des impôts ?",
     "La fiscalité des entreprises nuit-elle à la compétitivité de la France ?"
-   ]
+   ],
+   "dossier": "budget-france-2027"
   },
   {
    "id": "2026-10-30-esh-3",
@@ -119,7 +121,8 @@
    "sujets": [
     "L'épargne est-elle toujours favorable à la croissance économique ?",
     "La consommation des ménages reste-t-elle le moteur principal de la croissance française ?"
-   ]
+   ],
+   "dossier": "menages-francais-epargnent-precaution"
   },
   {
    "id": "2026-10-30-anglais-1",
@@ -170,7 +173,8 @@
    "sujets": [
     "Can the Federal Reserve remain truly independent from American electoral politics?",
     "Why has the US economy weathered recent global shocks better than Europe?"
-   ]
+   ],
+   "dossier": "fed-maintient-taux-entre"
   },
   {
    "id": "2026-10-30-anglais-2",
@@ -221,7 +225,8 @@
    "sujets": [
     "Why do strong macroeconomic figures often fail to convince voters at the ballot box?",
     "Is artificial intelligence widening the economic gap between the United States and Europe?"
-   ]
+   ],
+   "dossier": "croissance-bondit-troisieme-trimestre"
   },
   {
    "id": "2026-10-30-anglais-3",
@@ -272,7 +277,8 @@
    "sujets": [
     "Why has successive British governments' promise to fix the housing crisis repeatedly failed?",
     "Can public services in the UK be rebuilt without raising headline income taxes?"
-   ]
+   ],
+   "dossier": "obr-prevoit-recul-niveau"
   },
   {
    "id": "2026-10-30-espagnol-1",
@@ -323,7 +329,8 @@
    "sujets": [
     "¿Por qué el buen crecimiento macroeconómico de España no siempre se traduce en bienestar para los hogares?",
     "El turismo masivo en España: ¿motor económico o fuente de desigualdades?"
-   ]
+   ],
+   "dossier": "inflation-maintient-octobre-tiree"
   },
   {
    "id": "2026-10-30-espagnol-2",
@@ -374,7 +381,8 @@
    "sujets": [
     "¿Por qué España no ha logrado construir un verdadero parque de vivienda pública desde la Transición?",
     "Las dificultades de emancipación de los jóvenes en España: ¿un problema generacional y demográfico?"
-   ]
+   ],
+   "dossier": "logement-espagne"
   },
   {
    "id": "2026-10-30-espagnol-3",
@@ -425,7 +433,8 @@
    "sujets": [
     "¿Es la inseguridad el principal obstáculo para el desarrollo económico de América Latina?",
     "¿Cómo puede América Latina salir de la trampa del bajo crecimiento?"
-   ]
+   ],
+   "dossier": "croissance-plafonne-2026-tandis"
   },
   {
    "id": "2026-10-30-allemand-1",
@@ -476,7 +485,8 @@
    "sujets": [
     "Kann der Indopazifik China als Wachstumsmotor für die deutsche Exportwirtschaft ersetzen?",
     "Wirtschaft und Sicherheitspolitik: Braucht Deutschland eine neue Außenhandelsstrategie?"
-   ]
+   ],
+   "dossier": "seoul-friedrich-merz-acheve"
   },
   {
    "id": "2026-10-30-allemand-2",
@@ -527,7 +537,8 @@
    "sujets": [
     "Bremst Deutschlands Sparkurs die Handlungsfähigkeit der Europäischen Union?",
     "Braucht Europa gemeinsame Schulden, um im globalen Wettbewerb mitzuhalten?"
-   ]
+   ],
+   "dossier": "friedrich-merz-prend-tete"
   },
   {
    "id": "2026-10-30-allemand-3",
@@ -578,7 +589,8 @@
    "sujets": [
     "Umweltsteuern in der Wirtschaftskrise: Notwendige Lenkung oder Gefahr für den Standort Deutschland?",
     "Warum fällt der versprochene Bürokratieabbau in Deutschland so schwer?"
-   ]
+   ],
+   "dossier": "federations-patronales-somment-chancellerie"
   }
  ]
 }

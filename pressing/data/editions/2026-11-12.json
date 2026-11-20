@@ -69,7 +69,8 @@
      "q": "Rôle du logement dans la fracture générationnelle selon Louis Chauvel",
      "r": "A{Louis Chauvel}, O{La Spirale du déclassement} (D{2016}) : la barrière immobilière consacre le primat de l'héritage sur les diplômes et bloque l'ascenseur social des jeunes générations.\n→ argument pour un sujet sur les inégalités patrimoniales"
     }
-   ]
+   ],
+   "dossier": "promoteurs-immobiliers-enfoncent-recession"
   },
   {
    "id": "2026-11-12-esh-2",
@@ -139,7 +140,8 @@
      "q": "Critique du sauvetage d'industries matures selon Philippe Aghion et Peter Howitt",
      "r": "A{Philippe Aghion et Peter Howitt}, O{Appropriate Growth Policy} (D{2005}) : à la frontière technologique, subventionner des secteurs traditionnels sans saut d'innovation entrave la réallocation productive des capitaux vers les activités d'avenir.\n→ argument pour un sujet sur l'efficacité des aides publiques"
     }
-   ]
+   ],
+   "dossier": "desindustrialisation-france"
   },
   {
    "id": "2026-11-12-esh-3",
@@ -209,7 +211,8 @@
      "q": "Raison du coup de frein sur les dépenses internes d'IA chez les géants de la tech (novembre 2026)",
      "r": "Explosion des coûts opérationnels de calcul (multipliés par C{4} en six mois) sans gains tangibles sur la rentabilité.\n→ exemple d'arbitrage de gestion et de rendements décroissants de l'adoption technologique"
     }
-   ]
+   ],
+   "dossier": "ia-bulle-big-tech"
   },
   {
    "id": "2026-11-12-esh-4",
@@ -279,7 +282,8 @@
      "q": "Thèse historique de Paul Bairoch sur le protectionnisme et l'ouverture",
      "r": "A{Paul Bairoch}, O{Mythes et paradoxes de l'histoire économique} (D{1993}) : le protectionnisme est la règle historique et le libre-échange l'exception ; les asymétries d'ouverture finissent toujours par provoquer un retour des barrières douanières.\n→ argument pour un sujet sur le retour du protectionnisme"
     }
-   ]
+   ],
+   "dossier": "chine-modele-excedent"
   },
   {
    "id": "2026-11-12-anglais-1",
@@ -346,7 +350,8 @@
      "q": "Headline reform proposed by Alan Milburn for under-25s on Universal Credit",
      "r": "A C{50 %} benefit cut for claimants who refuse mandatory training or job placements after C{four months}.\n→ example of workfare and conditional social assistance"
     }
-   ]
+   ],
+   "dossier": "emploi-jeunes-royaume-uni"
   },
   {
    "id": "2026-11-12-anglais-2",
@@ -413,7 +418,8 @@
      "q": "Main driver of British economic growth in late 2026",
      "r": "Specialised tech services, AI software consulting, and financial exports, offsetting slumps in manufacturing.\n→ example of comparative advantage in knowledge-intensive services"
     }
-   ]
+   ],
+   "dossier": "pib-progresse-troisieme-trimestre"
   },
   {
    "id": "2026-11-12-anglais-3",
@@ -480,7 +486,8 @@
      "q": "Core demographic and strategic factor behind Scott Colom's Senate victory",
      "r": "Massive turnout among Black voters (C{38 %} of the state) combined with suburban support focused on rural hospitals.\n→ example of multiracial coalition-building in American elections"
     }
-   ]
+   ],
+   "dossier": "midterms-2026"
   },
   {
    "id": "2026-11-12-anglais-4",
@@ -547,7 +554,8 @@
      "q": "Political role of the House Freedom Caucus since its creation in 2015",
      "r": "An ultra-conservative faction using procedural obstruction and debt ceiling brinkmanship to hold Republican leadership hostage.\n→ example of legislative dysfunction in Capitol Hill"
     }
-   ]
+   ],
+   "dossier": "tensions-divisions-sein-freedom"
   },
   {
    "id": "2026-11-12-espagnol-1",
@@ -614,7 +622,8 @@
      "q": "Porcentaje de vivienda social en España en comparación con la media europea",
      "r": "Apenas el C{2 %} del parque residencial en España frente a un C{9 %} de media en la Unión Europea.\n→ argumento sobre el déficit estructural de políticas públicas habitacionales"
     }
-   ]
+   ],
+   "dossier": "logement-espagne"
   },
   {
    "id": "2026-11-12-espagnol-2",
@@ -681,7 +690,8 @@
      "q": "Controversia política en torno a la financiación del rearme militar en España",
      "r": "Uso de créditos extraordinarios y decretos sin debate parlamentario previo, rechazado por los socios de izquierda.\n→ ejemplo de tensiones en la gobernanza y los equilibrios del gasto público"
     }
-   ]
+   ],
+   "dossier": "defense-europe"
   },
   {
    "id": "2026-11-12-espagnol-3",
@@ -748,7 +758,8 @@
      "q": "Papel histórico del INE (antiguo IFE) en la transición democrática de México",
      "r": "Órgano autónomo creado en los años D{1990} para arrebatar el control electoral al gobierno del PRI y garantizar elecciones competitivas.\n→ ejemplo de la importancia de los contrapesos democráticos en América Latina"
     }
-   ]
+   ],
+   "dossier": "designation-presidence-ine-paralysee"
   },
   {
    "id": "2026-11-12-espagnol-4",
@@ -815,7 +826,8 @@
      "q": "Principal impacto social de la retirada de subsidios al transporte en Buenos Aires",
      "r": "Fuerte encarecimiento del coste del viaje diario y multiplicación de paros sindicales en el subte y trenes.\n→ ejemplo de tensiones distributivas bajo el gobierno de Javier Milei"
     }
-   ]
+   ],
+   "dossier": "economie-argentine-milei"
   },
   {
    "id": "2026-11-12-allemand-1",
@@ -872,7 +884,8 @@
    "sujets": [
     "Wie kann Deutschland die Bildungschancen für alle Kinder verbessern?",
     "Sollte der Staat mehr Geld für Kitas ausgeben?"
-   ]
+   ],
+   "dossier": "creches-allemagne"
   },
   {
    "id": "2026-11-12-allemand-2",
@@ -929,7 +942,8 @@
    "sujets": [
     "Wie kann die Politik arme Bürger besser vor Schulden schützen?",
     "Bedroht die Überschuldung den sozialen Frieden in Deutschland?"
-   ]
+   ],
+   "dossier": "adulte-dix-surendette-selon"
   },
   {
    "id": "2026-11-12-allemand-3",
@@ -986,7 +1000,8 @@
    "sujets": [
     "Wie kann Deutschland die Energiewende sozial gerecht gestalten?",
     "Gefährden hohe Strompreise den Industriestandort Deutschland?"
-   ]
+   ],
+   "dossier": "taxe-electricite-allemagne"
   },
   {
    "id": "2026-11-12-allemand-4",
@@ -1043,7 +1058,8 @@
    "sujets": [
     "Ist das Modell der Sozialpartnerschaft in Deutschland in Gefahr?",
     "Können deutsche Industriebetriebe hohe Lohnerhöhungen noch verkraften?"
-   ]
+   ],
+   "dossier": "greves-ig-metall"
   }
  ],
  "a_lire": [
