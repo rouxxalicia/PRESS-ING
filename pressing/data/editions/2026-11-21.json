@@ -1,0 +1,762 @@
+{
+ "date": "2026-11-21",
+ "cards": [
+  {
+   "id": "2026-11-21-esh-1",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/21/telephonie-mobile-par-satellite-le-chemin-tortueux-des-operateurs-europeens-vers-une-constellation-souveraine_6813948_3234.html",
+   "minutes": 3,
+   "titre": "Téléphonie mobile par satellite : les opérateurs européens tentent de bâtir une constellation souveraine",
+   "dossier": "telephonie-satellite-europe",
+   "faits": "Face à l'essor rapide des services de connexion directe entre satellites et smartphones standards, quatre grands opérateurs européens — Orange, Deutsche Telekom, Telefónica et Vodafone — s'organisent pour proposer une alternative souveraine sur le continent. Ils ont signé une lettre d'intention pour préparer une candidature commune à la réattribution par la Commission européenne des fréquences mobiles par satellite dans la bande des 2 GHz. Contrairement à l'Américain SpaceX, qui déploie sa propre constellation Starlink de bout en bout, les opérateurs européens misent sur une mutualisation des infrastructures au sol associée à un partenaire satellitaire. L'objectif est d'offrir un service Direct-to-Device ouvert de manière non discriminatoire à l'ensemble des opérateurs du marché européen. En parallèle, l'opérateur luxembourgeois SES et l'Agence spatiale européenne travaillent sur des technologies 5G hybrides pour relier directement satellites et téléphones. Le projet reste toutefois complexe à finaliser en raison des investissements lourds requis et de l'avance technologique prise par les acteurs américains.",
+   "enjeux": "Cette initiative illustre le dilemme de la **souveraineté technologique** européenne face à l'émergence d'un **quasi-monopole** privé américain dans l'orbite basse. Si SpaceX capte directement la relation client dans les zones blanches ou les communications d'urgence, les opérateurs européens risquent d'être réduits au rang de simples tuyaux locaux et les États de perdre la maîtrise d'une **infrastructure critique**. Le secteur spatial cumule des **coûts fixes** colossaux et de fortes **économies d'échelle**, ce qui rend la fragmentation nationale européenne particulièrement pénalisante. En choisissant un modèle mutualisé et un accès ouvert, les quatre opérateurs cherchent à concilier **politique industrielle** et **concurrence** sur le marché intérieur. Ce dossier montre aussi que la **régulation du spectre** par Bruxelles devient un levier stratégique pour orienter l'investissement et protéger l'autonomie du continent.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Awarua_Tracking_Station.jpg/1280px-Awarua_Tracking_Station.jpg",
+    "alt": "Antenne parabolique d'une station de suivi satellitaire de l'Agence spatiale européenne",
+    "credit": "Robin McNeill / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Awarua_Tracking_Station.jpg"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Élie Cohen et Jean-Hervé Lorenzi",
+     "ouvrage": "Politiques industrielles pour l'Europe",
+     "annee": "2000",
+     "ref": "politique-industrielle-cohen-lorenzi",
+     "cours": "2A-02-ftn",
+     "texte": "Cohen et Lorenzi définissent la **politique industrielle** comme une action publique ciblée, justifiée par la **dépendance nationale**, la recherche d'**autonomie technologique** ou la défaillance de l'initiative privée. Ici, aucun opérateur européen ne peut supporter seul le coût d'une constellation face à SpaceX, ce qui légitime la coordination impulsée par Bruxelles via les fréquences de 2 GHz. À mobiliser dans tout sujet sur la politique industrielle européenne ou la souveraineté numérique."
+    },
+    {
+     "nom": "Philippe Aghion et Peter Howitt",
+     "ouvrage": "Appropriate Growth Policy: A Unifying Framework",
+     "annee": "2005",
+     "ref": "frontiere-technologique-aghion",
+     "cours": "2A-02-ftn",
+     "texte": "Aghion et Howitt montrent que l'efficacité d'une politique industrielle dépend de la distance à la **frontière technologique** : dans les économies avancées, il faut stimuler la **concurrence** et l'**innovation** plutôt que de créer des monopoles fermés. Le choix des opérateurs européens d'un accès ouvert et non discriminatoire répond à cette exigence, tout en évitant le piège d'un champion protégé peu innovant. À utiliser pour nuancer les limites du colbertisme traditionnel face aux ruptures technologiques."
+    }
+   ],
+   "notions": [
+    ["Souveraineté technologique", "Capacité d'un État ou d'une union à maîtriser ses infrastructures et technologies critiques sans dépendance stratégique extérieure."],
+    ["Économies d'échelle", "Baisse du coût moyen de production lorsque la quantité produite augmente, grâce à l'étalement des coûts fixes."],
+    ["Politique industrielle", "Intervention ciblée des pouvoirs publics visant à orienter la spécialisation productive et à soutenir des secteurs jugés stratégiques."]
+   ],
+   "sujets": [
+    "L'Union européenne peut-elle concilier politique de la concurrence et souveraineté industrielle ?",
+    "La politique industrielle est-elle de retour dans les économies avancées ?"
+   ],
+   "anki": [
+    {
+     "q": "Alliance européenne dans la téléphonie par satellite (2026)",
+     "r": "B{Orange}, B{Deutsche Telekom}, B{Telefónica} et B{Vodafone} préparent une candidature commune pour les fréquences MSS (C{2 GHz}) afin de contrer Starlink.\n→ Exemple d'alliance industrielle européenne pour préserver la B{souveraineté technologique} face à un quasi-monopole américain (A{Cohen et Lorenzi}, O{Politiques industrielles pour l'Europe}, D{2000}) → accroche pour un sujet sur la politique industrielle européenne."
+    },
+    {
+     "q": "Modèle économique choisi par les opérateurs européens pour le Direct-to-Device",
+     "r": "Mutualisation des infrastructures au sol avec un accès ouvert non discriminatoire, sans bâtir de fusées en propre.\n→ Illustre l'arbitrage entre B{économies d'échelle} et maintien de la B{concurrence} à la frontière technologique (A{Aghion et Howitt}, D{2005})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-esh-2",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/economie-france/social/emploi-le-dispositif-territoire-zero-chomeur-perennise-2263574",
+   "minutes": 3,
+   "titre": "Emploi : le Parlement pérennise le dispositif « Territoires zéro chômeur de longue durée »",
+   "dossier": "territoires-zero-chomeur",
+   "faits": "Le Parlement français a définitivement pérennisé le dispositif « Territoires zéro chômeur de longue durée » (TZCLD), mettant fin à son statut expérimental qui devait s'achever fin 2026. Une proposition de loi transpartisane a été adoptée à la quasi-unanimité par l'Assemblée nationale afin de sécuriser l'avenir des dizaines de territoires engagés et des milliers de salariés concernés. Lancé il y a dix ans, ce mécanisme permet d'embaucher en CDI à temps choisi, au SMIC, des personnes privées d'emploi depuis plus d'un an au sein d'Entreprises à But d'Emploi (EBE). Ces structures réalisent des activités jugées utiles localement — recyclage, maraîchage, services de proximité, menuiserie — mais non couvertes par le secteur marchand classique. Le financement repose sur la réallocation d'une partie des coûts engendrés par le chômage de longue durée (allocations, manque à gagner fiscal et social). Le vote consacre l'ancrage durable de cet outil dans les politiques publiques de l'emploi en France.",
+   "enjeux": "Cette pérennisation relance le débat sur le rôle de l'**État employeur en dernier ressort** face à la persistance du **chômage structurel**. Le chômage de longue durée érode progressivement le **capital humain** et enferme les individus dans une trappe d'exclusion que la simple reprise conjoncturelle ne suffit pas à résorber. L'originalité du dispositif est de transformer des **dépenses passives** d'indemnisation en **politiques actives de l'emploi**, tout en répondant à des besoins sociaux et écologiques locaux non satisfaits par le marché. Ses partisans y voient une preuve que le travail ne manque pas si l'on redirige correctement la dépense publique. Ses critiques soulignent toutefois un coût net élevé par emploi créé, un faible taux de sortie vers l'emploi marchand classique et un risque d'**effet d'enfermement** dans des structures subventionnées.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Atelier_menuiserie_03.jpg/1280px-Atelier_menuiserie_03.jpg",
+    "alt": "Atelier de menuiserie et travail du bois en France",
+    "credit": "Jogopla / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Atelier_menuiserie_03.jpg"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les grands courants de la pensée économique depuis le XVIe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Olivier Blanchard et Lawrence Summers",
+     "ouvrage": "« Hysteresis and the European Unemployment Problem »",
+     "annee": "1986",
+     "ref": "effet-hysterese-blanchard-summers",
+     "cours": "1A-hpe",
+     "texte": "Blanchard et Summers montrent que le chômage de longue durée détruit l'**employabilité** : une hausse conjoncturelle du chômage devient **structurelle** par **effet d'hystérèse**. En réinsérant des personnes sans emploi depuis plus d'un an dans des CDI locaux, Territoires zéro chômeur cherche précisément à briser cette spirale de perte de compétences et de stigmatisation. À mobiliser dans toute dissertation sur les politiques de l'emploi et la lutte contre le chômage structurel."
+    },
+    {
+     "nom": "Milton Friedman",
+     "ouvrage": "« The Role of Monetary Policy »",
+     "annee": "1968",
+     "ref": "chomage-naturel-friedman",
+     "cours": "1A-acteurs-fonctions",
+     "texte": "Dans une perspective libérale, Friedman défend l'idée d'un **taux de chômage naturel** lié aux rigidités du marché du travail et aux incitations individuelles, que la dépense publique ne peut réduire durablement sans coût économique. Cette approche permet de nuancer le dispositif TZCLD en pointant le risque de subventionner durablement des emplois peu productifs au lieu d'améliorer le fonctionnement du marché du travail. À mobiliser pour opposer politiques d'emplois aidés et réformes structurelles de l'offre de travail."
+    }
+   ],
+   "notions": [
+    ["Effet d'hystérèse", "Phénomène par lequel une hausse temporaire du chômage devient durable en raison de la perte de compétences et de la stigmatisation des chômeurs."],
+    ["Politiques actives de l'emploi", "Mesures publiques visant à favoriser le retour à l'emploi par la formation, l'accompagnement ou la création d'emplois aidés, par opposition à la simple indemnisation."],
+    ["Chômage structurel", "Chômage durable lié aux déséquilibres profonds du marché du travail (inadéquation des qualifications, rigidités), indépendant de la conjoncture."]
+   ],
+   "sujets": [
+    "L'État peut-il être l'employeur en dernier ressort pour vaincre le chômage de longue durée ?",
+    "Faut-il privilégier les politiques actives ou la flexibilité du marché du travail pour réduire le chômage ?"
+   ],
+   "anki": [
+    {
+     "q": "Statut du dispositif « Territoires zéro chômeur » en France (novembre 2026)",
+     "r": "Définitivement B{pérennisé} par le Parlement en D{novembre 2026}, après dix ans d'expérimentation (embauche en CDI au SMIC dans des Entreprises à But d'Emploi).\n→ Exemple concret de politique active contre l'B{effet d'hystérèse} (A{Blanchard et Summers}, D{1986}) → accroche pour un sujet sur le chômage de longue durée ou le rôle de l'État sur le marché du travail."
+    },
+    {
+     "q": "Principe de financement de Territoires zéro chômeur et sa principale limite",
+     "r": "Réallocation des coûts du chômage de longue durée vers des emplois locaux non concurrentiels ; limite : coût net élevé et faible sortie vers l'emploi marchand.\n→ Permet de nuancer les emplois aidés face aux approches libérales du B{chômage structurel} (A{Friedman}, D{1968})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-esh-3",
+   "matiere": "esh",
+   "source": "La Tribune",
+   "url": "https://www.latribune.fr/article/entreprises-finance/industrie/250343849401514/sommet-choose-france-une-cinquante-de-projets-industriels-sera-presentee-ce-lundi-annonce-le-ministre-de-l-industrie",
+   "minutes": 3,
+   "titre": "Réindustrialisation : plus de 50 nouveaux projets présentés au sommet Choose France consacré aux entreprises françaises",
+   "dossier": "choose-france-attractivite",
+   "faits": "Le ministre délégué chargé de l'Industrie, Sébastien Martin, a annoncé le 21 novembre dans La Tribune que plus d'une cinquantaine de nouveaux projets industriels seront présentés le 23 novembre lors de la deuxième édition du sommet « Choose France — édition France ». Organisé à la Cité internationale universitaire de Paris en complément du sommet habituel dédié aux investisseurs étrangers, l'événement réunira plus de 250 dirigeants d'entreprises françaises ayant choisi d'investir sur le territoire national. Le ministre a également mis en avant les données arrêtées à fin juin 2026 selon lesquelles une usine ouvre en moyenne tous les deux jours dans l'Hexagone. Un nouveau portail consacré aux formations industrielles doit aussi être lancé pour répondre aux difficultés de recrutement dans les usines. Cette initiative intervient alors que le climat des affaires mesuré par l'Insee vient de reculer en novembre à 95, sous sa moyenne de longue période.",
+   "enjeux": "Ce sommet illustre la volonté des pouvoirs publics de soutenir la **réindustrialisation** non seulement par l'accueil d'**investissements directs à l'étranger (IDE)**, mais aussi en retenant l'investissement des entreprises nationales. L'**attractivité territoriale** dépend à la fois de la compétitivité-coût (fiscalité, prix de l'énergie) et de la **compétitivité hors-prix** : qualité des infrastructures, disponibilité de la main-d'œuvre qualifiée et stabilité du cadre institutionnel. L'accent mis sur la formation souligne un goulet d'étranglement majeur de l'industrie française, où les pénuries de compétences freinent les projets malgré les aides publiques. Toutefois, le décalage entre l'affichage politique de nouveaux projets et la baisse du climat des affaires rappelle la fragilité de la base industrielle française. La France reste confrontée à une **désindustrialisation** ancienne et à une forte concurrence internationale sur les secteurs de pointe.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/UR16e_robot_arm.png/1280px-UR16e_robot_arm.png",
+    "alt": "Bras robotisé industriel utilisé sur une ligne de production",
+    "credit": "Auledas / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:UR16e_robot_arm.png"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Douglass North",
+     "ouvrage": "Institutions, Institutional Change and Economic Performance",
+     "annee": "1990",
+     "ref": "institutions-north",
+     "cours": "2A-02-ftn",
+     "texte": "North montre que les **institutions** sont les règles du jeu de l'économie : des institutions stables et prévisibles réduisent l'incertitude et favorisent l'investissement productif. Si le sommet Choose France met en valeur la dynamique d'implantation industrielle, le recul simultané du climat des affaires rappelle que l'instabilité fiscale ou réglementaire pèse directement sur les décisions des chefs d'entreprise. À mobiliser pour montrer que l'attractivité repose d'abord sur la visibilité institutionnelle."
+    },
+    {
+     "nom": "Patrick Artus",
+     "ouvrage": "« Faut-il attendre une vague de relocalisations en France ? »",
+     "annee": "2020",
+     "ref": "piege-milieu-de-gamme",
+     "cours": "2A-02-ftn",
+     "texte": "Artus explique que la France est piégée dans le **milieu de gamme** : relocaliser des productions standardisées est illusoire face aux coûts étrangers, et seule une **montée en gamme** par l'innovation et la formation peut inverser la désindustrialisation. Le lancement d'un portail de formations industrielles lors du sommet confirme que le capital humain est décisif pour réussir cette transformation. À utiliser pour évaluer la portée réelle des annonces de réindustrialisation."
+    }
+   ],
+   "notions": [
+    ["Attractivité territoriale", "Capacité d'un territoire à attirer et à retenir des investissements productifs, des entreprises et des talents."],
+    ["Réindustrialisation", "Processus visant à augmenter la part de l'industrie manufacturière dans le PIB et l'emploi après une phase de désindustrialisation."],
+    ["Compétitivité hors-prix", "Capacité d'une entreprise ou d'un pays à conquérir des parts de marché par la qualité, l'innovation, la fiabilité ou le capital humain plutôt que par les prix."]
+   ],
+   "sujets": [
+    "La réindustrialisation de la France est-elle possible dans une économie mondialisée ?",
+    "L'attractivité d'un territoire repose-t-elle d'abord sur sa fiscalité ?"
+   ],
+   "anki": [
+    {
+     "q": "Chiffres du sommet « Choose France — édition France » (novembre 2026)",
+     "r": "Plus de C{50} nouveaux projets industriels et C{250} dirigeants français réunis en D{novembre 2026} (et une usine ouverte tous les deux jours à fin juin 2026 selon Bercy).\n→ Illustre l'enjeu de la B{réindustrialisation} et de la B{montée en gamme} par la formation (A{Artus}, D{2020}) → accroche pour un sujet sur l'attractivité ou la désindustrialisation."
+    },
+    {
+     "q": "Condition institutionnelle de l'attractivité selon Douglass North (1990)",
+     "r": "Des B{institutions} stables et prévisibles réduisent l'incertitude et attirent l'investissement productif (A{North}, O{Institutions, Institutional Change and Economic Performance}, D{1990}).\n→ Permet de nuancer les sommets d'annonces lorsque le climat des affaires recule à C{95}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-esh-4",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/industrie-services/energie-environnement/methane-leurope-saccorde-deux-ans-de-repit-au-nom-de-la-securite-energetique-2263525",
+   "minutes": 3,
+   "titre": "Transition écologique : l'Union européenne reporte de deux ans ses règles sur les importations de méthane",
+   "dossier": "reglement-methane-europe",
+   "faits": "Le Conseil de l'Union européenne et le Parlement européen ont conclu le 19 novembre un accord provisoire pour reporter de deux ans plusieurs obligations clés du règlement européen sur les émissions de méthane. Les exigences de surveillance, de déclaration et de vérification imposées aux importateurs de pétrole brut, de gaz naturel et de charbon sont ainsi décalées au 1er janvier 2029 au lieu de 2027. L'échéance concernant la déclaration de l'intensité en méthane, qui s'applique tant aux producteurs européens qu'aux importateurs, est également repoussée d'août 2028 à août 2030. Ce délai supplémentaire a été négocié afin de laisser plus de temps aux pays exportateurs et au secteur des hydrocarbures pour se conformer aux règles européennes de traçabilité. Bruxelles justifie ce compromis par la nécessité de préserver la sécurité d'approvisionnement énergétique de l'Union dans un contexte de tensions persistantes sur les marchés mondiaux du gaz et du pétrole.",
+   "enjeux": "Cet accord met en lumière l'arbitrage permanent de l'Union européenne entre **transition écologique**, **compétitivité** et **sécurité énergétique**. Le méthane possède un pouvoir réchauffant bien supérieur à celui du dioxyde de carbone à court terme, ce qui en fait une **externalité négative** majeure dont la réduction est cruciale pour le climat. En voulant imposer ses normes de traçabilité aux fournisseurs étrangers, l'UE tentait d'exercer son **pouvoir normatif** pour décarboner ses importations sans pénaliser les producteurs européens. Mais sa forte dépendance aux importations de gaz naturel liquéfié limite sa marge de manœuvre lorsque les tensions géopolitiques renchérissent l'énergie. Ce report de deux ans illustre ainsi le recul relatif de l'agenda climatique européen face aux contraintes de court terme sur les prix et les approvisionnements.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Fl%C3%BCssiggasterminal_Melk%C3%B8ya_mit_LNG-Tanker_Gaslog_Saratoga_%282015%29.jpg/1280px-Fl%C3%BCssiggasterminal_Melk%C3%B8ya_mit_LNG-Tanker_Gaslog_Saratoga_%282015%29.jpg",
+    "alt": "Terminal méthanier de gaz naturel liquéfié et navire méthanier",
+    "credit": "JoachimKohler-HB / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fl%C3%BCssiggasterminal_Melk%C3%B8ya_mit_LNG-Tanker_Gaslog_Saratoga_(2015).jpg"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la soutenabilité de la croissance et du développement"
+   },
+   "auteurs": [
+    {
+     "nom": "Arthur Cecil Pigou",
+     "ouvrage": "L'Économie du bien-être",
+     "annee": "1920",
+     "ref": "externalites-pigou",
+     "texte": "Pigou montre que la présence d'**externalités négatives**, comme la pollution, crée un écart entre coût privé et coût social que le marché ne corrige pas spontanément. L'intervention publique par la réglementation ou la taxation est donc nécessaire pour **internaliser** ces dommages environnementaux. Dans ce dossier, le règlement européen sur le méthane répond à cette logique, et son report de deux ans retarde d'autant la correction de cette défaillance de marché."
+    },
+    {
+     "nom": "Christian Gollier",
+     "ouvrage": "Le climat après la fin du mois",
+     "annee": "2019",
+     "ref": "double-dividende-gollier",
+     "cours": "1A-soutenabilite",
+     "texte": "Gollier rappelle que la « transition heureuse » est une utopie et résume la tension politique par l'opposition entre **fin du monde** et **fin du mois**. Lorsque les normes climatiques menacent les prix de l'énergie ou la sécurité d'approvisionnement, elles se heurtent à de fortes résistances économiques et politiques. À mobiliser pour expliquer pourquoi l'UE assouplit temporairement son calendrier environnemental face aux chocs énergétiques."
+    }
+   ],
+   "notions": [
+    ["Externalité négative", "Effet nuisible de l'activité d'un agent économique sur le bien-être d'un autre agent, sans compensation monétaire par le marché."],
+    ["Internalisation des externalités", "Processus par lequel les pouvoirs publics intègrent le coût social d'une pollution dans les prix ou les normes afin de modifier les comportements."],
+    ["Sécurité énergétique", "Disponibilité ininterrompue des sources d'énergie à un prix abordable pour un pays ou une zone économique."]
+   ],
+   "sujets": [
+    "La transition écologique est-elle compatible avec la sécurité énergétique de l'Europe ?",
+    "La réglementation est-elle le meilleur instrument pour lutter contre le réchauffement climatique ?"
+   ],
+   "anki": [
+    {
+     "q": "Report du règlement européen sur le méthane (novembre 2026)",
+     "r": "Le D{19 novembre 2026}, Conseil et Parlement européens reportent de C{2 ans} (à D{2029} et D{2030}) les obligations de traçabilité du méthane sur les hydrocarbures importés.\n→ Illustre l'arbitrage entre correction des B{externalités négatives} (A{Pigou}, D{1920}) et B{sécurité énergétique} → accroche pour un sujet sur la transition écologique en Europe."
+    },
+    {
+     "q": "Tension politique de la transition selon Christian Gollier (2019)",
+     "r": "Opposition entre « B{fin du monde} » et « B{fin du mois} » : sans prise en compte des coûts de court terme, les normes climatiques suscitent des blocages (A{Gollier}, O{Le climat après la fin du mois}, D{2019}).\n→ Explique les reculs ou délais accordés dans le calendrier climatique européen."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/20/jp-morgan-jamie-dimon-uk-tax-hike-bank-surcharge",
+   "minutes": 3,
+   "titre": "Royaume-Uni : le patron de JP Morgan veut compenser la hausse « injuste » de la surtaxe sur les banques",
+   "dossier": "taxe-banques-royaume-uni",
+   "faits": "Lors d'un événement organisé à Londres, le directeur général de JP Morgan, Jamie Dimon, a vivement critiqué la hausse de la surtaxe bancaire décidée par le gouvernement travailliste et annoncé qu'il chercherait des moyens de compenser ce surcoût. À partir de janvier, cette surtaxe sur les profits bancaires au Royaume-Uni doit passer de 3 % à 6 % pour une durée temporaire de quinze mois. Jamie Dimon a jugé la mesure « injuste » et affirmé vouloir « donner l'exemple » afin que les gouvernements comprennent les arbitrages qu'impliquent de telles hausses d'impôts. La banque américaine emploie environ 23 000 personnes au Royaume-Uni, sans que son dirigeant précise encore comment il comptait absorber la facture supplémentaire. Depuis plusieurs mois, Dimon faisait pression contre toute augmentation de la fiscalité bancaire, allant jusqu'à évoquer une remise en cause d'un projet de tour de 3 milliards de livres à Canary Wharf.",
+   "enjeux": "Cet affrontement illustre le rapport de force classique entre un État contraint budgétairement et les géants de la **finance internationale**. Pour financer des mesures de soutien aux ménages sans augmenter les grands impôts sur le revenu ou la TVA, le gouvernement travailliste a ciblé les profits bancaires, perçus comme plus faciles à taxer politiquement. Mais la menace d'une grande banque de réduire ses investissements ou de répercuter la taxe sur ses clients met en évidence la **mobilité du capital** et la vulnérabilité de la **City de Londres**. Si les banques répercutent le surcoût sur les taux de crédit ou les frais bancaires, l'**incidence fiscale** réelle peut finir par peser sur les ménages et les entreprises. Le débat pose ainsi la question de la marge de manœuvre fiscale d'un pays très dépendant de son secteur financier.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/London_MMB_%C2%BB2M1_Threadneedle_Street.jpg/1280px-London_MMB_%C2%BB2M1_Threadneedle_Street.jpg",
+    "alt": "Threadneedle Street dans le quartier financier de la City à Londres",
+    "credit": "mattbuck / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:London_MMB_%C2%BB2M1_Threadneedle_Street.jpg"
+   },
+   "vo": {
+    "titre": "UK: JP Morgan chief vows to offset 'unfair' rise in bank surcharge",
+    "faits": "Speaking at an event in London, JP Morgan chief executive Jamie Dimon strongly criticised the Labour government's decision to raise taxes on banks and pledged to find ways to claw back the extra cost. From January, the UK bank surcharge is set to double from 3% to 6% as a temporary 15-month measure. Dimon described the hike as unfair and said he wanted to set an example so that governments understand the trade-offs behind such levies. JP Morgan employs around 23,000 staff in Britain, though Dimon did not specify how the lender would offset the higher bill. He had lobbied Labour for months against raising bank taxes and previously hinted that plans for a new £3bn tower in Canary Wharf could be reconsidered.",
+    "enjeux": "This clash highlights the classic tug-of-war between fiscally constrained governments and global financial institutions. Seeking to fund household support without raising income tax or VAT, Labour targeted bank profits as a politically palatable revenue stream. Yet Dimon's warning underscores the mobility of capital and the sensitivity of the City of London's competitiveness. Moreover, if lenders pass higher levies on through pricier loans or fees, the true tax incidence may ultimately fall on consumers and businesses. The dispute therefore raises a broader question about how much fiscal autonomy a country retains when its economy relies heavily on financial services."
+   },
+   "vocab": [
+    ["a bank surcharge", "une surtaxe sur les banques", "The Treasury doubled the bank surcharge to fund household relief."],
+    ["to claw back", "récupérer / compenser (une perte)", "Large lenders often seek to claw back higher levies through fees."],
+    ["a trade-off", "un arbitrage / un compromis", "Policymakers face a trade-off between tax revenue and competitiveness."],
+    ["to lobby against", "faire pression contre", "Financial groups lobbied heavily against the proposed windfall tax."],
+    ["tax incidence", "l'incidence fiscale (qui paie réellement l'impôt)", "Economists debate the true tax incidence of corporate levies."],
+    ["a lender", "un établissement prêteur / une banque", "Major lenders warned that higher taxes could curb investment."]
+   ],
+   "sujets": [
+    "Can governments effectively tax global banks without hurting domestic competitiveness?",
+    "Is the City of London still a strength or a vulnerability for the British economy?"
+   ],
+   "anki": [
+    {
+     "q": "UK bank surcharge hike contested by JP Morgan (2026)",
+     "r": "Surcharge raised from C{3%} to C{6%} for C{15 months} starting in D{January 2027}; Jamie Dimon (JP Morgan, C{23,000} UK staff) vowed to offset it.\n→ Highlights the B{trade-off} between fiscal revenue and the competitiveness of the City of London → hook for an essay on taxing global finance."
+    },
+    {
+     "q": "Economic risk of higher bank levies beyond relocation",
+     "r": "Banks may pass the extra cost onto borrowers and clients through higher fees or rates.\n→ Shows that real B{tax incidence} often differs from the legal taxpayer."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-anglais-2",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/21/us/politics/international-student-enrollment-plunged.html",
+   "minutes": 3,
+   "titre": "États-Unis : la chute des inscriptions d'étudiants étrangers fragilise les universités américaines",
+   "dossier": "etudiants-etrangers-etats-unis",
+   "faits": "Selon les données publiées mi-novembre par l'Institute of International Education (IIE), le nombre de nouveaux étudiants internationaux inscrits dans les universités américaines a chuté de 15 % à la rentrée 2026, après une première baisse de 18 % l'année précédente. Au total, les effectifs d'étudiants étrangers présents sur les campus américains reculent de 9 % cet automne, frappant particulièrement les programmes de master et les flux en provenance d'Inde et de Chine. La participation au programme OPT, qui permet aux diplômés étrangers de travailler temporairement aux États-Unis après leurs études, recule également de 6 %. Près de 88 % des universités interrogées pointent les retards et obstacles liés aux visas, dans un contexte de durcissement migratoire, de contrôles accrus et de restrictions de voyage. Les établissements redoutent de nouvelles pertes financières et préparent déjà des coupes budgétaires.",
+   "enjeux": "Ce décrochage menace un pilier essentiel du **modèle économique** et du **soft power** américains. Comme les étudiants étrangers paient généralement des frais de scolarité pleins, leur absence creuse rapidement les déficits des universités publiques et privées, qui subventionnaient en partie les étudiants locaux grâce à ces recettes. Au-delà des budgets universitaires, c'est l'attractivité de l'écosystème américain de **recherche et d'innovation** qui est en jeu, car une part majeure des chercheurs et fondateurs de start-up dans les sciences et technologies est issue de ces flux. Des pays concurrents comme le Royaume-Uni, le Canada ou l'Australie cherchent à capter ces talents détournés des États-Unis. L'épisode illustre le coût économique durable que peuvent engendrer des politiques migratoires restrictives dans une **économie de la connaissance**.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bender_Library%2C_American_University.jpg/1280px-Bender_Library%2C_American_University.jpg",
+    "alt": "Bibliothèque universitaire sur le campus de l'American University aux États-Unis",
+    "credit": "American University / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bender_Library,_American_University.jpg"
+   },
+   "vo": {
+    "titre": "US: plunge in international student enrolment strains American universities",
+    "faits": "Data released in mid-November by the Institute of International Education (IIE) shows that new international student enrolment at US universities fell by 15% in autumn 2026, following an 18% drop the previous year. Overall international student numbers on American campuses declined by 9%, hitting graduate programmes hardest and reflecting pullbacks from major sending countries such as India and China. Participation in Optional Practical Training (OPT), which allows foreign graduates to work temporarily in the United States, also slipped by 6%. Roughly 88% of surveyed institutions cited visa delays and hurdles amid tighter immigration policies, expanded vetting and travel restrictions. Many universities are now bracing for further revenue losses and preparing spending cuts.",
+    "enjeux": "This sharp decline threatens a cornerstone of both the US higher-education business model and American soft power. Because international students typically pay full tuition fees, their departure leaves immediate holes in university budgets that often help subsidise domestic students. Beyond campus finances, the downturn risks weakening America's research and innovation ecosystem, which has long relied on foreign-born STEM graduates and entrepreneurs. Rival destinations such as Canada, Australia and European hubs stand to attract talent deterred by US visa uncertainty. The trend illustrates the long-term economic cost of restrictive immigration policies in a global knowledge economy."
+   },
+   "vocab": [
+    ["enrolment", "les inscriptions (universitaires)", "International student enrolment fell sharply for the second year running."],
+    ["tuition fees", "les frais de scolarité", "Foreign students often pay full tuition fees at US colleges."],
+    ["visa hurdles", "les obstacles liés aux visas", "Most universities blamed visa hurdles for the drop in applications."],
+    ["to brace for", "se préparer à (un choc)", "Public universities are bracing for further budget shortfalls."],
+    ["brain drain / brain gain", "fuite / gain de cerveaux", "Tighter borders could turn America's historic brain gain into a loss."],
+    ["soft power", "la puissance d'influence culturelle et académique", "Top universities have long been a vital asset of US soft power."]
+   ],
+   "sujets": [
+    "Are restrictive immigration policies undermining America's economic competitiveness?",
+    "Is the United States losing its global leadership in higher education?"
+   ],
+   "anki": [
+    {
+     "q": "Drop in new international student enrolment in US universities (2025–2026)",
+     "r": "Down C{15%} in D{fall 2026} after an C{18%} plunge in D{2025–2026}; overall foreign student numbers fell C{9%} (IIE).\n→ Threatens US university budgets and American B{soft power} and innovation → hook for an essay on US immigration or higher education."
+    },
+    {
+     "q": "Main cause cited by US universities for falling foreign enrolment (2026)",
+     "r": "C{88%} of surveyed universities cited B{visa hurdles} and delays, alongside tighter vetting and travel bans.\n→ Shows how immigration restrictions directly affect the B{knowledge economy}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-anglais-3",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo",
+   "minutes": 3,
+   "titre": "États-Unis : le maire de New York Zohran Mamdani dévoile un plan pour fermer la prison de Rikers Island d'ici 2032",
+   "dossier": "fermeture-rikers-island-new-york",
+   "faits": "Le maire de New York, Zohran Mamdani, a présenté le 20 novembre un plan visant à fermer d'ici 2032 le célèbre complexe pénitentiaire de Rikers Island, situé entre le Queens et le Bronx. Le projet prévoit la construction de quatre nouvelles prisons de quartier et une réduction drastique de la population carcérale municipale, qui passerait de plus de 6 500 détenus actuellement à environ 4 100. Le conseil municipal avait déjà voté dès 2019 la fermeture de ce site vétuste et miné par les violences, mais le calendrier avait accumulé les retards faute de consensus sur le relogement des prisonniers. Dana Kaplan, nommée par le maire pour piloter le dossier, y voit une occasion générationnelle de refonder le système de détention new-yorkais. Le syndicat des gardiens de prison (NYC Correction Officers' Benevolent Association) a toutefois dénoncé un plafond « arbitraire » qui menacerait selon lui la sécurité publique.",
+   "enjeux": "Ce dossier concentre les débats américains sur la **justice pénale**, l'**incarcération de masse** et la **sécurité urbaine**. Rikers Island, où la majorité des détenus sont en attente de jugement, symbolise depuis des décennies les défaillances des prisons locales aux États-Unis : surpopulation, manque de personnel, violences chroniques et prise en charge insuffisante des troubles psychiatriques. Pour les réformateurs, réduire le nombre de détenus passe par une justice plus rapide et des alternatives à la détention provisoire. Mais le projet se heurte à la méfiance des syndicats pénitentiaires et d'une partie des riverains opposés à l'implantation de nouvelles prisons dans leur arrondissement. Il constitue un test politique majeur pour la capacité d'un exécutif municipal progressiste à concilier réforme sociale et exigence de sécurité.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rikers_Island_from_the_air.JPG/1280px-Rikers_Island_from_the_air.JPG",
+    "alt": "Vue aérienne du complexe pénitentiaire de Rikers Island à New York",
+    "credit": "Cdogsimmons / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rikers_Island_from_the_air.JPG"
+   },
+   "vo": {
+    "titre": "US: New York mayor unveils plan to shut Rikers Island jail by 2032",
+    "faits": "On 20 November, New York City Mayor Zohran Mamdani unveiled a plan to close the notorious Rikers Island jail complex by 2032. The proposal calls for building four new borough-based jails while sharply cutting the city's detainee population from more than 6,500 inmates to around 4,100. New York's city council originally voted in 2019 to close the decrepit facility, located between Queens and the Bronx, but the timetable repeatedly slipped over disputes about where to house inmates. Dana Kaplan, appointed by Mamdani to oversee the closure, described the plan as a generational opportunity to build a more humane detention system. However, the city's correction officers' union criticised the 4,100 cap as arbitrary and warned it could endanger public safety.",
+    "enjeux": "The debate over Rikers Island encapsulates America's broader struggle with criminal justice reform, mass incarceration and urban safety. Holding mostly detainees awaiting trial, the island complex has long come to symbolise the dysfunctions of local US jails, marked by chronic violence, staffing shortages and inadequate mental-health care. Reformers argue that shrinking the jail population requires faster court proceedings and alternatives to pre-trial detention. Yet closing the facility faces pushback from prison unions and local residents reluctant to host new jails in their neighbourhoods. For a progressive mayor, delivering on the pledge without triggering a backlash over crime is a decisive test of governance."
+   },
+   "vocab": [
+    ["a jail complex", "un complexe pénitentiaire", "Rikers Island is one of the most notorious jail complexes in the US."],
+    ["an inmate / a detainee", "un détenu", "The city aims to reduce the number of inmates awaiting trial."],
+    ["pre-trial detention", "la détention provisoire", "Activists have long called for reforms to pre-trial detention."],
+    ["decrepit", "vétuste / délabré", "Officials pledged to replace the decrepit island facility."],
+    ["a cap", "un plafond / une limite", "Unions opposed placing an arbitrary cap on available jail beds."],
+    ["public safety", "la sécurité publique", "Critics argued the plan could jeopardize public safety."]
+   ],
+   "sujets": [
+    "Can major US cities reform their prison systems without undermining public safety?",
+    "Why has mass incarceration proven so difficult to reverse in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "New York's plan to close Rikers Island jail (November 2026)",
+     "r": "Mayor Zohran Mamdani unveiled on D{20 November 2026} a plan to shut Rikers by D{2032}, build C{4} new jails and cut inmates from over C{6,500} to C{4,100}.\n→ Illustrates the tension between B{criminal justice reform} and B{public safety} → hook for an essay on US prisons or urban governance."
+    },
+    {
+     "q": "Main opposition to New York's Rikers Island closure plan",
+     "r": "The NYC correction officers' union called the C{4,100}-bed cap irresponsible and warned of risks to public safety.\n→ Shows the political and institutional obstacles to reducing B{mass incarceration}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-anglais-4",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/ck9874vydr83o",
+   "minutes": 3,
+   "titre": "Royaume-Uni : Andy Burnham rejette le transfert de nouveaux pouvoirs vers le pays de Galles",
+   "dossier": "devolution-pays-de-galles",
+   "faits": "Dans une lettre adressée le 20 novembre au Premier ministre gallois Rhun ap Iorwerth, le Premier ministre britannique Andy Burnham a rejeté les demandes de transfert de nouvelles compétences de Westminster vers Cardiff. Il s'est dit « non convaincu » par l'intérêt de déléguer au pays de Galles la police, la justice, la gestion du Crown Estate et les infrastructures ferroviaires. Ce refus surprend d'autant plus que Burnham avait auparavant semblé ouvert à la discussion et qu'il contredit la position du chef du Parti travailliste gallois, Ken Skates. Rhun ap Iorwerth a aussitôt accusé le dirigeant britannique de « tourner le dos à la dévolution » et de ne pas traiter le pays de Galles comme une nation égale. Burnham a justifié sa décision par la nécessité de préserver un système policier et judiciaire intégré entre l'Angleterre et le pays de Galles afin de garantir son efficacité.",
+   "enjeux": "Cet épisode révèle les tensions persistantes autour de la **dévolution** et de l'équilibre constitutionnel du **Royaume-Uni**. Depuis la fin des années 1990, la dévolution britannique reste asymétrique : l'Écosse et l'Irlande du Nord disposent déjà de compétences sur la police et la justice, contrairement au pays de Galles. En refusant d'aligner Cardiff sur Édimbourg, Andy Burnham — pourtant connu comme ancien maire de Manchester pour son soutien à la décentralisation régionale en Angleterre — ravive le sentiment d'injustice des nationalistes gallois de Plaid Cymru et met en difficulté sa propre aile travailliste au pays de Galles. Le dossier illustre la crainte récurrente de Westminster que de nouveaux transferts de pouvoirs n'affaiblissent la cohésion de l'Union ou n'alimentent les revendications indépendantistes.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Senedd%2C_Welsh_parliament%2C_Cardiff_Bay.jpg/1280px-Senedd%2C_Welsh_parliament%2C_Cardiff_Bay.jpg",
+    "alt": "Bâtiment du Senedd, le Parlement gallois dans la baie de Cardiff",
+    "credit": "Cardiff at wts wikivoyage / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Senedd,_Welsh_parliament,_Cardiff_Bay.jpg"
+   },
+   "vo": {
+    "titre": "UK: Burnham rejects devolution of policing and justice powers to Wales",
+    "faits": "In a letter sent on 20 November to Welsh First Minister Rhun ap Iorwerth, Prime Minister Andy Burnham turned down longstanding calls to transfer new powers from Westminster to Cardiff. Burnham said he was not persuaded by the case for devolving policing, justice, the Crown Estate and rail infrastructure to Wales. The refusal caught observers off guard because Burnham had previously signalled openness to the idea, and it puts him at odds with Welsh Labour leader Ken Skates. Ap Iorwerth accused the Prime Minister of turning his back on devolution and failing to treat Wales as an equal nation. Burnham defended his stance by arguing that an integrated England-and-Wales policing and justice system preserves cross-border coordination and national expertise.",
+    "enjeux": "The clash highlights the unresolved tensions surrounding devolution and the constitutional balance of the United Kingdom. Since the late 1990s, British devolution has remained asymmetrical: Scotland and Northern Ireland control their own policing and justice systems, whereas Wales does not. By refusing to close that gap, Burnham—despite his reputation as a former Manchester mayor who championed regional devolution in England—has angered Welsh nationalists and embarrassed Welsh Labour. The dispute reflects Westminster's recurring hesitation over whether granting greater autonomy strengthens the Union or fuels separatist ambitions. It remains a central issue for the future cohesion of the UK."
+   },
+   "vocab": [
+    ["devolution", "la dévolution / le transfert de compétences", "Devolution has reshaped British politics since the late 1990s."],
+    ["to be at odds with", "être en désaccord avec", "Downing Street is at odds with Welsh Labour over policing powers."],
+    ["the Crown Estate", "le domaine de la Couronne", "Cardiff wants control over revenues generated by the Crown Estate."],
+    ["asymmetrical", "asymétrique", "Critics point out that UK devolution remains deeply asymmetrical."],
+    ["cross-border", "transfrontalier", "Ministers stressed the need for seamless cross-border policing."],
+    ["to turn one's back on", "tourner le dos à", "Opponents accused the government of turning its back on local democracy."]
+   ],
+   "sujets": [
+    "Has devolution strengthened or weakened the unity of the United Kingdom?",
+    "Should Westminster grant Wales the same constitutional powers as Scotland?"
+   ],
+   "anki": [
+    {
+     "q": "Powers refused to Wales by PM Andy Burnham (November 2026)",
+     "r": "On D{20 November 2026}, Burnham rejected devolving B{policing}, B{justice}, the B{Crown Estate} and B{rail infrastructure} to Cardiff.\n→ Highlights Britain's B{asymmetrical devolution} compared with Scotland → hook for an essay on UK institutions or regionalism."
+    },
+    {
+     "q": "Westminster's main argument against devolving policing to Wales",
+     "r": "Maintaining an integrated England-and-Wales framework ensures cross-border interoperability and access to national specialist capabilities.\n→ Illustrates the classic tension between B{local autonomy} and B{state efficiency}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/mexico/2026-11-21/detenido-el-chapo-isidro-en-un-operativo-que-desata-el-terror-en-sinaloa.html",
+   "minutes": 3,
+   "titre": "Mexique : l'arrestation d'« El Chapo Isidro » déclenche une flambée de violence dans le Sinaloa",
+   "dossier": "narcotrafic-sinaloa-mexique",
+   "faits": "Dans la nuit du 20 novembre, une opération conjointe de l'armée, de la Marine et de la Garde nationale mexicaines à Guasave, dans l'État du Sinaloa, a abouti à l'arrestation de Fausto Isidro Meza Flores, surnommé « El Chapo Isidro ». Considéré comme le chef de l'organisation Meza Flores, historiquement liée aux Beltrán Leyva, il figurait parmi les dix fugitifs les plus recherchés par le FBI, qui offrait jusqu'à 5 millions de dollars pour sa capture. Plusieurs membres clés de son entourage, dont son bras droit et son opérateur financier, auraient également été interpellés avant un transfert sous haute sécurité vers Mexico. L'opération a immédiatement provoqué une vague de représailles dans le nord du Sinaloa : fusillades, incendies de véhicules et barrages routiers sur des axes majeurs comme la route fédérale 15. Les autorités locales ont appelé la population à rester confinée et des événements publics, dont un match de baseball à Guasave, ont dû être suspendus.",
+   "enjeux": "Cette capture spectaculaire illustre le paradoxe chronique de la lutte contre le **narcotrafic** au Mexique. D'un côté, l'arrestation d'une figure majeure répond aux attentes sécuritaires intérieures et à la pression constante de Washington, qui réclame des résultats visibles contre les cartels. De l'autre, la stratégie de **décapitation des cartels** déclenche presque systématiquement des représailles immédiates contre la population civile et risque de fragmenter davantage les groupes armés en alimentant de nouvelles guerres de territoire. L'État du Sinaloa, déjà meurtri par des conflits internes entre factions criminelles, voit ainsi son économie locale et sa vie quotidienne paralysées à chaque coup de filet. Le dossier montre que la réponse militaire seule peine à restaurer durablement l'**État de droit** sans affaiblir les réseaux financiers et la corruption locale.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Vista_panor%C3%A1mica_de_Culiac%C3%A1n.jpg/1280px-Vista_panor%C3%A1mica_de_Culiac%C3%A1n.jpg",
+    "alt": "Vue panoramique de Culiacán, capitale de l'État du Sinaloa au Mexique",
+    "credit": "FAL56 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_panor%C3%A1mica_de_Culiac%C3%A1n.jpg"
+   },
+   "vo": {
+    "titre": "México: la captura de 'El Chapo Isidro' desata una ola de violencia en Sinaloa",
+    "faits": "La noche del 20 de noviembre, un operativo conjunto del Ejército, la Marina y la Guardia Nacional en Guasave, Sinaloa, culminó con la detención de Fausto Isidro Meza Flores, alias 'El Chapo Isidro'. Señalado como el máximo líder de la organización Meza Flores, vinculada históricamente a los Beltrán Leyva, figuraba entre los diez fugitivos más buscados por el FBI, que ofrecía hasta cinco millones de dólares por su captura. Junto a él habrían caído operadores cercanos antes de su traslado bajo fuerte custodia a Ciudad de México. La detención desencadenó de inmediato represalias en el norte de Sinaloa, con tiroteos, quema de vehículos y narcobloqueos en vías estratégicas como la carretera federal 15. Las autoridades estatales pidieron a la población resguardarse y varios actos públicos, incluido un partido de béisbol en Guasave, fueron suspendidos.",
+    "enjeux": "Esta captura pone de relieve el dilema persistente de la lucha contra el narcotráfico en México. Por un lado, la caída de un capo de alto perfil responde tanto a la demanda interna de seguridad como a la presión constante de Estados Unidos para frenar a los cárteles. Por otro, la estrategia de descabezamiento suele provocar represalias inmediatas contra la población civil y fragmentar aún más a los grupos criminales, avivando disputas territoriales. En Sinaloa, un estado ya golpeado por pugnas internas, cada gran operativo paraliza temporalmente la vida cotidiana y la actividad económica. El episodio demuestra que el despliegue militar por sí solo no basta para consolidar el Estado de derecho si no se desmantelan también las redes financieras y la impunidad local."
+   },
+   "vocab": [
+    ["un operativo conjunto", "une opération conjointe", "Las fuerzas federales lanzaron un operativo conjunto en el norte del país."],
+    ["los narcobloqueos", "les barrages routiers des cartels", "Los narcobloqueos paralizaron las principales carreteras del estado."],
+    ["un capo", "un chef de cartel / un baron de la drogue", "La detención de un capo rara vez pone fin a la violencia criminal."],
+    ["el descabezamiento", "la décapitation (d'une organisation)", "Muchos expertos cuestionan la eficacia de la estrategia de descabezamiento."],
+    ["el Estado de derecho", "l'État de droit", "Fortalecer el Estado de derecho exige reformar la justicia local."],
+    ["las represalias", "les représailles", "Las autoridades temen nuevas represalias contra la población civil."]
+   ],
+   "sujets": [
+    "¿Es eficaz la estrategia militar para acabar con el narcotráfico en México?",
+    "¿Qué papel desempeña la presión de Estados Unidos en la política de seguridad mexicana?"
+   ],
+   "anki": [
+    {
+     "q": "Captura de 'El Chapo Isidro' en México (noviembre de 2026)",
+     "r": "Fausto Isidro Meza Flores, buscado por el FBI (recompensa de C{5 M$}), fue detenido el D{20 de noviembre de 2026} en Guasave, Sinaloa, desatando narcobloqueos.\n→ Ilustra los límites de la estrategia de B{descabezamiento} de los cárteles → gancho para un ensayo sobre el narcotráfico o el Estado de derecho en México."
+    },
+    {
+     "q": "Efecto colateral de las grandes detenciones de capos en México",
+     "r": "Provocan represalias inmediatas contra civiles y suelen fragmentar a los cárteles en facciones aún más violentas.\n→ Muestra que el despliegue militar no basta sin atacar las redes financieras."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-espagnol-2",
+   "matiere": "espagnol",
+   "source": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/c8zxl4rd6nq5o",
+   "minutes": 3,
+   "titre": "Colombie : dix ans après l'accord de paix avec les FARC, un bilan contrasté",
+   "dossier": "accord-paix-farc-colombie",
+   "faits": "En novembre 2026, la Colombie marque les dix ans de la signature, le 24 novembre 2016, de l'accord final de paix entre le gouvernement de Juan Manuel Santos et la guérilla marxiste des FARC, après quatre années de négociations à La Havane. Fondées en 1964, les FARC avaient compté jusqu'à 16 000 à 20 000 combattants à leur apogée, dans un conflit de plus de cinquante ans ayant fait des centaines de milliers de morts et des millions de déplacés. Grâce à l'accord, plus de 13 000 guérilleros ont déposé les armes et entamé une réinsertion dans la vie civile, parfois à travers des projets culturels, agricoles ou associatifs. Dix ans plus tard, la majorité des anciens combattants sont restés fidèles à la paix malgré des menaces persistantes. Toutefois, la persistance de groupes dissidents, la lenteur de la réforme agraire et les violences dans les campagnes montrent que la pacification reste inachevée.",
+   "enjeux": "Cet anniversaire est une référence majeure pour analyser les processus de **sortie de conflit** et de **justice transitionnelle** en Amérique latine. L'accord de 2016 a été salué internationalement pour son ambition : désarmement massif, participation politique des anciens rebelles, réparation des victimes et promesse de développement rural. Mais sa mise en œuvre s'est heurtée à la polarisation politique colombienne et à l'incapacité de l'État à occuper durablement tous les territoires abandonnés par les FARC. Là où l'État reste absent, d'autres groupes armés liés au trafic de drogue et à l'orpaillage illégal ont pris le relais. Ce bilan en demi-teinte prouve qu'un accord de paix ne suffit pas sans présence institutionnelle, sécurité pour les ex-combattants et réduction des **inégalités territoriales**.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Plaza_de_Bol%C3%ADvar_-_Bogot%C3%A1_-_Colombia_2024.jpg/1280px-Plaza_de_Bol%C3%ADvar_-_Bogot%C3%A1_-_Colombia_2024.jpg",
+    "alt": "Place Bolívar au centre historique de Bogotá en Colombie",
+    "credit": "José Luiz / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_Bol%C3%ADvar_-_Bogot%C3%A1_-_Colombia_2024.jpg"
+   },
+   "vo": {
+    "titre": "Colombia: balance agridulce diez años después del acuerdo de paz con las FARC",
+    "faits": "En noviembre de 2026 se cumplen diez años de la firma, el 24 de noviembre de 2016, del acuerdo final de paz entre el gobierno de Juan Manuel Santos y la guerrilla de las FARC, tras cuatro años de negociaciones en La Habana. Nacidas en 1964, las FARC llegaron a reunir entre 16.000 y 20.000 combatientes en su apogeo, en un conflicto de más de medio siglo que dejó cientos de miles de muertos y millones de desplazados. Gracias al pacto, más de 13.000 guerrilleros entregaron las armas y se reincorporaron a la vida civil mediante proyectos productivos, comunitarios o culturales. Diez años después, la mayoría de los excombatientes sigue comprometida con la paz. Sin embargo, el auge de disidencias, los retrasos en la reforma rural y la violencia en regiones apartadas evidencian que el proceso sigue inconcluso.",
+    "enjeux": "Este décimo aniversario ofrece una referencia clave para reflexionar sobre la justicia transicional y la construcción de paz en América Latina. El acuerdo de 2016 fue reconocido internacionalmente por combinar desarme, reparación a las víctimas, participación política y reforma del campo. No obstante, su aplicación se vio frenada por la polarización política y por la dificultad del Estado para ocupar de forma efectiva las zonas que dejaron las FARC. En esos vacíos de poder, otros grupos armados vinculados al narcotráfico y a la minería ilegal han perpetuado el ciclo de violencia. El balance demuestra que la paz duradera exige no solo silenciar los fusiles, sino también garantizar presencia estatal y reducir las brechas territoriales."
+   },
+   "vocab": [
+    ["la reincorporación", "la réinsertion", "Más de trece mil exguerrilleros iniciaron su reincorporación a la vida civil."],
+    ["entregar las armas", "déposer les armes", "El acuerdo histórico permitió que la guerrilla entregara las armas."],
+    ["la justicia transicional", "la justice transitionnelle", "La justicia transicional busca equilibrar la verdad y la reparación."],
+    ["las disidencias", "les factions dissidentes", "Las disidencias aprovechan la debilidad del Estado en zonas rurales."],
+    ["los desplazados", "les personnes déplacées", "El conflicto armado generó millones de desplazados internos en Colombia."],
+    ["un vacío de poder", "un vide de pouvoir", "Los grupos ilegales ocuparon el vacío de poder tras el desarme."]
+   ],
+   "sujets": [
+    "¿Se puede considerar un éxito el acuerdo de paz de 2016 en Colombia diez años después?",
+    "¿Cómo construir una paz duradera tras décadas de conflicto armado en América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Diez años del acuerdo de paz con las FARC en Colombia (noviembre de 2026)",
+     "r": "Firmado el D{24 de noviembre de 2016}, permitió que más de C{13.000} guerrilleros dejaran las armas tras más de C{50 años} de conflicto.\n→ Referencia clave sobre la B{justicia transicional} y la dificultad de llenar el B{vacío de poder} estatal en zonas rurales → gancho para un ensayo sobre paz y violencia en América Latina."
+    },
+    {
+     "q": "Principal límite del proceso de paz colombiano diez años después",
+     "r": "Persistencia de disidencias armadas, retrasos en la reforma rural y presencia insuficiente del Estado en los territorios abandonados por las FARC.\n→ Demuestra que un pacto de paz requiere inversión social y presencia institucional duradera."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-espagnol-3",
+   "matiere": "espagnol",
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/politica/20261121/11689451/catalunya-apacigua-conflicto-politico-antiguas-carencias-cronifican.html",
+   "minutes": 3,
+   "titre": "Espagne : la Catalogne apaise son conflit politique, mais ses carences d'infrastructures se chronicisent",
+   "dossier": "catalogne-services-publics",
+   "faits": "Selon une analyse publiée le 21 novembre par La Vanguardia, la normalisation politique en Catalogne s'est consolidée au cours des dernières années grâce à la stratégie d'apaisement menée par Madrid, marquée par le dialogue, les grâces puis la loi d'amnistie liée au procés. Porté en 2024 par une demande majoritaire de « tourner la page » de la crise indépendantiste, le gouvernement régional socialiste de Salvador Illa s'est fixé pour priorité la gestion quotidienne. Pourtant, les problèmes structurels qui pèsent sur les Catalans restent largement non résolus, qu'il s'agisse du financement régional ou de l'état dégradé des transports publics. Le réseau ferroviaire de banlieue Rodalies, frappé notamment par un accident à Gelida en janvier 2026, incarne ce retard persistant d'investissement. Alors que la question catalane n'occupe plus le centre du débat national comme il y a trois ans, le quotidien des usagers continue de pâtir de ces blocages.",
+   "enjeux": "Ce constat met en lumière la mutation profonde de la question territoriale en Espagne : la crise identitaire s'est refroidie, mais le malaise autour des **services publics** et du **financement autonomique** demeure intact. L'État des autonomies espagnol repose sur un équilibre complexe entre solidarité nationale et compétences régionales, dans lequel la Catalogne dénonce de longue date un déficit d'investissement de l'État central dans ses infrastructures. Le dysfonctionnement chronique des trains Rodalies est devenu un symbole politique puissant, car il affecte directement la productivité économique de l'aire métropolitaine de Barcelone et la confiance citoyenne envers les institutions. L'apaisement politique offre une fenêtre de réforme, mais l'absence de résultats tangibles risque d'alimenter à terme une nouvelle forme de désaffection démocratique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Barcelona_Rodalies_352M_train_02.jpg/1280px-Barcelona_Rodalies_352M_train_02.jpg",
+    "alt": "Train de banlieue Rodalies en gare de Barcelone en Catalogne",
+    "credit": "Ad Meskens / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Rodalies_352M_train_02.jpg"
+   },
+   "vo": {
+    "titre": "España: Cataluña apacigua el conflicto político pero arrastra carencias estructurales",
+    "faits": "Según un análisis publicado el 21 de noviembre por La Vanguardia, la normalización política en Cataluña se ha consolidado en los últimos años gracias a la estrategia de distensión impulsada desde Madrid, que incluyó mesas de diálogo, indultos y la amnistía de las causas del procés. Respaldado en 2024 por una demanda mayoritaria de pasar página, el Govern socialista de Salvador Illa prometió centrarse en la gestión cotidiana. Sin embargo, los problemas estructurales que más afectan a los ciudadanos siguen sin resolverse, desde la financiación autonómica hasta el deterioro de las infraestructuras. La red ferroviaria de cercanías Rodalies, marcada por el accidente ocurrido en Gelida en enero de 2026, simboliza ese retraso acumulado. Aunque Cataluña ya no monopoliza la agenda política española como hace tres años, el malestar por el funcionamiento de los servicios públicos persiste.",
+    "enjeux": "Este diagnóstico refleja la transformación del debate territorial en España: la tensión identitaria ha remitido, pero las demandas en torno a la financiación regional y los servicios públicos siguen vigentes. El Estado de las autonomías descansa sobre un delicado equilibrio entre solidaridad interterritorial e inversión estatal, en el que Cataluña denuncia desde hace años una infradotación crónica en sus infraestructuras. Las averías recurrentes de Rodalies perjudican tanto la vida diaria de miles de trabajadores como la competitividad del área metropolitana de Barcelona. La distensión política ha abierto una oportunidad para abordar reformas de fondo, pero la falta de mejoras visibles amenaza con erosionar la confianza en las instituciones."
+   },
+   "vocab": [
+    ["el apaciguamiento / la distensión", "l'apaisement / la détente", "La estrategia de distensión redujo la crispación política en Cataluña."],
+    ["las carencias estructurales", "les carences structurelles", "El informe subraya las carencias estructurales del transporte público."],
+    ["la financiación autonómica", "le financement des régions autonomes", "La reforma de la financiación autonómica divide a las regiones españolas."],
+    ["los trenes de cercanías", "les trains de banlieue", "Los retrasos en los trenes de cercanías afectan a miles de usuarios."],
+    ["pasar página", "tourner la page", "Muchos votantes expresaron el deseo de pasar página tras el procés."],
+    ["la infradotación", "le sous-investissement", "Los alcaldes denuncian una infradotación histórica en infraestructuras."]
+   ],
+   "sujets": [
+    "¿Ha logrado España resolver de forma duradera el conflicto territorial en Cataluña?",
+    "¿Hasta qué punto la calidad de los servicios públicos determina la confianza en las instituciones?"
+   ],
+   "anki": [
+    {
+     "q": "Situación política e infraestructuras en Cataluña (noviembre de 2026)",
+     "r": "Tras la amnistía y la llegada de Salvador Illa (D{2024}), el conflicto del procés se ha apaciguado, pero persisten la crisis de B{Rodalies} (accidente de Gelida en D{enero de 2026}) y el debate sobre la financiación.\n→ Muestra el paso de una crisis identitaria a una crisis de B{servicios públicos} → gancho para un ensayo sobre el Estado de las autonomías."
+    },
+    {
+     "q": "Símbolo del déficit de inversión estatal en Cataluña",
+     "r": "La red de trenes de cercanías B{Rodalies}, afectada por averías crónicas y falta de inversión.\n→ Ilustra el peso económico y político de las infraestructuras en la cohesión territorial."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-espagnol-4",
+   "matiere": "espagnol",
+   "source": "Clarín",
+   "url": "https://www.clarin.com/politica/ley-ludopatia-presion-oficialismo-habilita-debate-buscara-imponer-proyecto-propio_0_823BoIWjhY.html",
+   "minutes": 3,
+   "titre": "Argentine : sous pression, le Congrès relance le débat sur une loi contre la ludopathie en ligne",
+   "dossier": "ludopathie-paris-ligne-argentine",
+   "faits": "Sous la pression de l'opposition et de l'Église catholique, le Sénat argentin a convenu de débattre le 26 novembre d'un projet de loi de prévention de la ludopathie et de régulation des paris en ligne, à quelques jours de la clôture de la session parlementaire le 30 novembre. Un premier texte avait été adopté par la Chambre des députés dès 2024, mais il était resté bloqué au Sénat faute de soutien de la majorité présidentielle, qui risquait de le laisser devenir caduc. Ce texte initial prévoyait notamment d'interdire la publicité des plateformes de paris en ligne, une mesure jugée trop restrictive par le parti au pouvoir La Libertad Avanza au nom des libertés commerciales et des compétences provinciales. En avril 2026, le président Javier Milei avait soumis un contre-projet davantage centré sur la répression des sites illégaux. Pour éviter d'apparaître isolé sur un sujet très sensible socialement, le camp présidentiel prépare désormais une proposition intermédiaire.",
+   "enjeux": "Ce débat parlementaire reflète l'inquiétude grandissante en Argentine face à l'essor massif des **paris sportifs en ligne**, en particulier chez les adolescents et les jeunes adultes. L'omniprésence du sponsoring de plateformes de jeu dans le football, sur les réseaux sociaux et via des influenceurs a normalisé une pratique aux lourdes conséquences sociales et psychologiques. Le dossier révèle aussi une fracture idéologique classique sur la **régulation numérique** : faut-il restreindre la publicité et encadrer strictement le marché au nom de la **santé publique**, ou privilégier la liberté d'entreprise en ne poursuivant que l'offre illégale ? À cela s'ajoute un enjeu fédéral, puisque la régulation des jeux d'argent relève en Argentine des provinces. L'issue du vote du 26 novembre constituera un test de la capacité du Congrès à protéger les mineurs face à l'économie numérique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/CongresodelaNacionArgentina-nov2017.jpg/1280px-CongresodelaNacionArgentina-nov2017.jpg",
+    "alt": "Palais du Congrès de la Nation argentine à Buenos Aires",
+    "credit": "Ezarate / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:CongresodelaNacionArgentina-nov2017.jpg"
+   },
+   "vo": {
+    "titre": "Argentina: el Senado retoma bajo presión el debate de la ley contra la ludopatía",
+    "faits": "Impulsado por la presión de la oposición y de la Iglesia, el Senado argentino acordó tratar el 26 de noviembre el proyecto de ley de prevención de la ludopatía, pocos días antes del cierre de las sesiones ordinarias el 30 de noviembre. La Cámara de Diputados había aprobado en 2024 un texto que prohibía la publicidad de las plataformas de apuestas en línea, pero la iniciativa nunca avanzó en la Cámara Alta por el rechazo del oficialismo, que alegaba límites a la libertad comercial y a las competencias provinciales. En abril de 2026, el presidente Javier Milei envió un proyecto alternativo centrado en combatir las casas de apuestas ilegales. Ante el riesgo de que el texto pierda estado parlamentario a fin de mes, La Libertad Avanza anunció que buscará consensuar una propuesta intermedia.",
+    "enjeux": "El debate parlamentario refleja la alarma social en Argentina por la rápida expansión de las apuestas deportivas en línea, especialmente entre adolescentes y jóvenes. La fuerte presencia publicitaria de estas plataformas en el fútbol y en las redes sociales ha normalizado una adicción que preocupa a familias, docentes y médicos. La discusión opone además dos visiones de la regulación digital: limitar la publicidad en nombre de la salud pública o defender la libertad de mercado persiguiendo únicamente el juego ilegal. A ello se suma la complejidad del federalismo argentino, donde las provincias regulan tradicionalmente el juego. La votación del 26 de noviembre pondrá a prueba la capacidad del Estado para proteger a los menores en la era digital."
+   },
+   "vocab": [
+    ["la ludopatía", "l'addiction aux jeux d'argent / la ludopathie", "La ludopatía juvenil se ha convertido en un problema de salud pública."],
+    ["las apuestas en línea", "les paris en ligne", "Las plataformas de apuestas en línea multiplican sus campañas publicitarias."],
+    ["el oficialismo", "le camp présidentiel / la majorité au pouvoir", "El oficialismo aceptó debatir la ley bajo presión social."],
+    ["perder estado parlamentario", "devenir caduc (un projet de loi)", "Si el Senado no vota antes del 30 de noviembre, el texto perderá estado parlamentario."],
+    ["las competencias provinciales", "les compétences des provinces", "El reparto de competencias provinciales complica la regulación nacional."],
+    ["la salud pública", "la santé publique", "Los médicos reclaman medidas firmes en defensa de la salud pública."]
+   ],
+   "sujets": [
+    "¿Debe el Estado prohibir la publicidad de las apuestas en línea para proteger a los jóvenes?",
+    "¿Cómo regular los nuevos riesgos de la economía digital en América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Debate en el Senado argentino sobre la Ley de Ludopatía (noviembre de 2026)",
+     "r": "Votación fijada para el D{26 de noviembre de 2026} (antes del vencimiento del D{30 de noviembre}) tras el bloqueo del texto de D{2024} sobre publicidad de apuestas en línea.\n→ Ilustra el choque entre B{salud pública} (protección de menores) y B{libertad comercial} → gancho para un ensayo sobre regulación digital o juventud en América Latina."
+    },
+    {
+     "q": "Divergencia entre Diputados y el oficialismo argentino sobre las apuestas en línea",
+     "r": "Diputados propuso prohibir la publicidad; el oficialismo prefiere perseguir solo las casas ilegales y preservar competencias provinciales.\n→ Refleja dos modelos opuestos de intervención estatal en el mercado digital."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-allemand-1",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/autobahnen-vertrauliches-gutachten-empfiehlt-pkw-maut-zur-finanzierung-a-e105dfef-32ed-4421-9a26-b935f697e8f9",
+   "minutes": 3,
+   "titre": "Allemagne : un rapport confidentiel recommande un péage autoroutier pour les voitures",
+   "dossier": "peage-autoroutes-allemagne",
+   "faits": "Selon un rapport confidentiel révélé le 21 novembre par Der Spiegel, l'Allemagne aura besoin de nouvelles recettes pour financer durablement l'entretien de ses autoroutes. L'étude commandée pour le gouvernement fédéral juge insuffisante la réforme envisagée par le ministre des Transports Steffen Bilger, qui souhaite autoriser la société publique Autobahn GmbH à s'endetter tout en lui reversant une partie de la taxe poids lourds. Les experts estiment que la société accumulerait des pertes continues et se heurterait à un grave manque de financement au plus tard en 2034. Pour combler ce déficit, le rapport recommande notamment l'introduction d'un péage kilométrique pour les voitures particulières (Pkw-Maut). Dans l'évaluation économique réalisée par les auteurs, la combinaison d'un péage poids lourds et d'un péage voitures obtient le meilleur score, loin devant le statu quo.",
+   "enjeux": "Cette révélation relance un sujet hautement sensible en Allemagne, où la gratuité des autoroutes pour les voitures est un symbole politique et culturel fort. Le précédent projet de péage porté par l'ancien ministre Andreas Scheuer avait échoué en 2019 devant la Cour de justice de l'Union européenne et coûté des centaines de millions d'euros en indemnités. Pourtant, l'état dégradé des ponts et des routes allemandes, conséquence de décennies de sous-investissement dans les **infrastructures publiques**, impose de trouver de nouvelles sources de financement. Le débat oppose le **principe utilisateur-payeur**, jugé plus juste et plus stable par les économistes, à la crainte politique de mécontenter les automobilistes déjà confrontés à la hausse du coût de la vie. Il illustre plus largement les contraintes budgétaires allemandes face à la modernisation du pays.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Autobahn_A5_bei_Heidelberg_-_Stau.JPG/1280px-Autobahn_A5_bei_Heidelberg_-_Stau.JPG",
+    "alt": "Circulation dense sur l'autoroute allemande A5 près de Heidelberg",
+    "credit": "Radosław Drożdżewski / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Autobahn_A5_bei_Heidelberg_-_Stau.JPG"
+   },
+   "vo": {
+    "titre": "Experten empfehlen Pkw-Maut für deutsche Autobahnen",
+    "faits": "Ein geheimer Bericht für die Bundesregierung empfiehlt eine Pkw-Maut. Das hat der Spiegel am 21. November berichtet. Verkehrsminister Steffen Bilger will die Finanzierung der Autobahnen ändern. Die Autobahn GmbH soll bald eigene Kredite aufnehmen dürfen. Sie soll auch Geld aus der Lkw-Maut bekommen. Die Experten halten diesen Plan aber für zu schwach. Laut dem Bericht fehlt ab 2034 viel Geld. Deshalb schlagen die Fachleute eine Gebühr für Autos vor.",
+    "enjeux": "Das Thema Pkw-Maut ist in Deutschland politisch sehr heikel. Viele Bürger sind gegen Gebühren auf der Autobahn. Ein früheres Projekt ist im Jahr 2019 vor Gericht gescheitert. Gleichzeitig sind viele Straßen und Brücken in Deutschland sehr alt. Der Staat braucht Milliarden für neue Bauprojekte. Die Nutzer könnten mit einer Maut direkt für die Straßen zahlen. Die Regierung hat aber Angst vor der Wut der Autofahrer."
+   },
+   "vocab": [
+    ["die Pkw-Maut", "le péage pour les voitures", "Viele Fahrer lehnen eine neue Pkw-Maut ab."],
+    ["das Gutachten", "l'expertise / le rapport", "Das Gutachten kritisiert die Pläne des Ministers."],
+    ["die Autobahn", "l'autoroute", "Die deutschen Autobahnen brauchen viel mehr Geld."],
+    ["der Kredit", "le crédit / l'emprunt", "Die Firma will Kredite für neue Brücken aufnehmen."],
+    ["scheitern", "échouer", "Das alte Maut-Projekt ist vor Gericht gescheitert."],
+    ["die Gebühr", "la taxe / la redevance", "Die Fahrer sollen eine Gebühr pro Kilometer zahlen."]
+   ],
+   "sujets": [
+    "Sollte Deutschland eine Pkw-Maut für Autobahnen einführen?",
+    "Wie kann der Staat alte Straßen und Brücken finanzieren?"
+   ]
+  },
+  {
+   "id": "2026-11-21-allemand-2",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/wirtschaft/bayer-glyphosat-vergleich-usa-100.html",
+   "minutes": 3,
+   "titre": "Allemagne : la justice américaine valide l'accord de 7,25 milliards de dollars de Bayer sur le glyphosate",
+   "dossier": "bayer-glyphosate-accord",
+   "faits": "Un tribunal de Saint-Louis, dans le Missouri, a donné le 20 novembre son approbation définitive à l'accord collectif négocié par le groupe chimico-pharmaceutique allemand Bayer avec les plaignants américains autour du désherbant Roundup. Cet accord prévoit que la filiale Monsanto verse jusqu'à 7,25 milliards de dollars sur une période pouvant aller jusqu'à vingt et un ans dans un fonds d'indemnisation. Il vise à clore l'essentiel des poursuites actuelles et futures liées au lymphome non hodgkinien, un cancer du système lymphatique attribué par les plaignants au glyphosate. Bayer ne reconnaît toutefois aucune responsabilité et continue d'affirmer que le produit est sûr. Cette validation fait suite à un arrêt favorable de la Cour suprême américaine en juin 2026, même si des recours en appel restent encore possibles contre l'accord.",
+   "enjeux": "Cette décision marque un tournant majeur pour l'un des fleurons de l'**industrie allemande**, fragilisé depuis son rachat très coûteux de l'Américain Monsanto en 2018. Pendant huit ans, l'avalanche de procès aux États-Unis a pesé sur la valorisation boursière de Bayer, englouti des milliards d'euros et freiné sa capacité d'investissement dans la recherche pharmaceutique. En plafonnant et en étalant les paiements sur plus de deux décennies, le groupe retrouve enfin une meilleure visibilité financière. Le dossier reste néanmoins un cas d'école des **risques juridiques** liés aux acquisitions transatlantiques et des tensions entre industrie agrochimique, santé publique et justice américaine.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Pano-bayer-leverkusen.jpg/1280px-Pano-bayer-leverkusen.jpg",
+    "alt": "Vue panoramique du site industriel chimique de Bayer à Leverkusen en Allemagne",
+    "credit": "A.Savin / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pano-bayer-leverkusen.jpg"
+   },
+   "vo": {
+    "titre": "US-Gericht billigt Bayer-Vergleich zu Glyphosat",
+    "faits": "Ein Gericht in den USA hat am 20. November entschieden. Es hat einen großen Vergleich für den Konzern Bayer gebilligt. Dabei geht es um Klagen gegen das Mittel Roundup. Viele Kläger machen den Stoff Glyphosat für Krebs verantwortlich. Die Bayer-Tochter Monsanto zahlt nun bis zu 7,25 Milliarden Dollar. Das Geld fließt über maximal 21 Jahre in einen Fonds. Bayer gibt aber offiziell keine Schuld zu. Gegen das Urteil sind noch Einsprüche möglich.",
+    "enjeux": "Das Urteil ist ein wichtiger Schritt für die deutsche Firma. Bayer hat Monsanto im Jahr 2018 gekauft. Seitdem belasten tausende Klagen in den USA den Konzern. Das hat Bayer sehr viel Geld und Vertrauen gekostet. Durch den Vergleich kann die Firma wieder besser planen. Trotzdem bleibt der Streit um Glyphosat ein großes Thema. Kritiker sorgen sich weiter um Gesundheit und Umwelt."
+   },
+   "vocab": [
+    ["der Vergleich", "l'accord amiable / le règlement judiciaire", "Bayer und die Kläger haben einen Vergleich geschlossen."],
+    ["die Klage", "la plainte / le procès", "Tausende Menschen haben eine Klage eingereicht."],
+    ["billigen", "approuver / valider", "Das Gericht hat den Vertrag am Freitag gebilligt."],
+    ["der Konzern", "le grand groupe industriel", "Der deutsche Konzern will endlich Ruhe haben."],
+    ["die Schuld", "la faute / la responsabilité", "Die Firma weist jede Schuld von sich."],
+    ["der Einspruch", "le recours / l'appel", "Einige Kläger können noch Einspruch einlegen."]
+   ],
+   "sujets": [
+    "War der Kauf von Monsanto ein Fehler für Bayer?",
+    "Sollte Europa den Stoff Glyphosat komplett verbieten?"
+   ]
+  },
+  {
+   "id": "2026-11-21-allemand-3",
+   "matiere": "allemand",
+   "source": "Süddeutsche Zeitung",
+   "url": "https://www.sueddeutsche.de/politik/gen-z-proteste-schueler-studierende-frankfurt-berlin-ausschreitungen-gewerkschaften-li.3582673",
+   "minutes": 3,
+   "titre": "Allemagne : la génération Z manifeste dans des dizaines de villes pour l'éducation et contre le service militaire",
+   "dossier": "mobilisation-jeunesse-allemagne",
+   "faits": "Des milliers de lycéens, d'étudiants et de jeunes adultes ont de nouveau manifesté le 20 novembre dans des dizaines de villes allemandes, dont Berlin, Francfort et Munich, sous le mot d'ordre « Gen Z regelt ». Trois semaines après une première vague de rassemblements, les manifestants protestent contre les coupes budgétaires dans les universités, la cherté du logement et les projets de rétablissement du service militaire obligatoire. À Francfort, des slogans comme « Bildung statt Bomben » (« L'éducation plutôt que les bombes ») dénonçaient la priorité donnée aux dépenses de défense. Les représentants lycéens cherchent désormais à élargir la mobilisation en s'alliant aux parents d'élèves et aux syndicats de l'éducation. Les rassemblements sont restés globalement pacifiques, même si les organisateurs redoutaient des débordements.",
+   "enjeux": "Ce mouvement traduit un **malaise générationnel** croissant dans une Allemagne vieillissante où les jeunes se sentent peu écoutés par les décideurs politiques. Face au réarmement décidé par Berlin et aux contraintes budgétaires, la jeunesse craint que l'école, l'université et le climat ne passent au second plan. La question du retour éventuel de la **conscription**, suspendue en 2011, cristallise particulièrement la défiance d'une génération qui refuse de porter seule le poids des crises géopolitiques et démographiques. L'enjeu pour ces collectifs est désormais de transformer une colère ponctuelle en un mouvement structuré et durable, à l'image de ce qu'avait réussi Fridays for Future quelques années plus tôt.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Youth_Demo_against_G20_%40_Hamburg_%2835279893093%29.jpg",
+    "alt": "Jeunes manifestants défilant dans les rues d'une ville allemande",
+    "credit": "Montecruz Foto / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Youth_Demo_against_G20_@_Hamburg_(35279893093).jpg"
+   },
+   "vo": {
+    "titre": "Generation Z protestiert in vielen deutschen Städten",
+    "faits": "Am 20. November haben wieder viele junge Menschen demonstriert. Die Proteste fanden in Berlin, Frankfurt und anderen Städten statt. Schüler und Studierende fordern mehr Geld für Schulen und Universitäten. Sie protestieren auch gegen hohe Mieten und gegen die Wehrpflicht. In Frankfurt trugen Jugendliche Plakate mit dem Spruch Bildung statt Bomben. Die Schüler wollen nun enger mit Eltern und Gewerkschaften arbeiten. Die Demos blieben fast überall friedlich.",
+    "enjeux": "Viele junge Menschen fühlen sich von der Politik vergessen. Deutschland hat eine ältere Gesellschaft und andere Prioritäten. Der Staat gibt gerade viel mehr Geld für das Militär aus. Die Jugend fürchtet deshalb Kürzungen bei Bildung und Klimaschutz. Auch die Debatte über eine neue Wehrpflicht macht vielen Angst. Die Gruppen wollen nun eine dauerhafte Bewegung aufbauen. So wollen sie mehr Druck auf die Regierung machen."
+   },
+   "vocab": [
+    ["die Wehrpflicht", "le service militaire obligatoire", "Viele Schüler lehnen eine neue Wehrpflicht ab."],
+    ["die Kürzung", "la coupe budgétaire / la réduction", "Studierende protestieren gegen Kürzungen an ihrer Universität."],
+    ["die Gewerkschaft", "le syndicat", "Die Schüler suchen die Hilfe der Gewerkschaften."],
+    ["friedlich", "pacifique", "Der Protest in Berlin verlief zum Glück friedlich."],
+    ["die Bewegung", "le mouvement (social/politique)", "Die Jugend will aus den Demos eine Bewegung machen."],
+    ["die Bildung", "l'éducation / la formation", "Gute Bildung ist sehr wichtig für die Zukunft."]
+   ],
+   "sujets": [
+    "Hört die deutsche Politik genug auf junge Menschen?",
+    "Sollte Deutschland die Wehrpflicht wieder einführen?"
+   ]
+  },
+  {
+   "id": "2026-11-21-allemand-4",
+   "matiere": "allemand",
+   "source": "FAZ",
+   "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/einkommen-gestiegen-ungleichheit-auch-was-zeigen-diw-daten-201698063.html",
+   "minutes": 3,
+   "titre": "Allemagne : les revenus réels ont progressé en trente ans, mais les inégalités se sont creusées",
+   "dossier": "revenus-inegalites-allemagne",
+   "faits": "Deux nouvelles études publiées en Allemagne, dont une analyse de l'institut économique DIW à Berlin, nuancent le sentiment de déclassement exprimé par une majorité d'Allemands. Alors qu'un sondage récent montre que 60 % de la population craint que ses revenus ne suffisent pas durablement pour vivre, les données du DIW révèlent que les revenus réels des ménages — corrigés de l'inflation — ont augmenté en moyenne de 30 % entre 1995 et 2024. La part des Allemands satisfaits de leur revenu a même doublé depuis 2005, passant de 13 % à 26 %. Toutefois, ces gains sont très inégalement répartis : les 10 % les plus aisés ont vu leurs revenus bondir de 51 %, contre 26 % pour la classe moyenne et une stagnation pour les 10 % les plus pauvres. Une seconde étude de l'économiste Christian Dustmann souligne en revanche que les inégalités salariales pures ont nettement reculé récemment.",
+   "enjeux": "Ces chiffres mettent en lumière le décalage entre les statistiques de **niveau de vie** et le ressenti subjectif des citoyens. En Allemagne, la peur du **déclassement** alimente la colère sociale et le vote protestataire, alors même que la prospérité moyenne a progressé sur trente ans. Le creusement des **inégalités de revenus** s'explique en partie par les revenus du capital (dividendes, loyers), qui profitent surtout aux plus riches, tandis que le bas de l'échelle intègre aussi de nombreux réfugiés récents confrontés à des barrières linguistiques sur le marché du travail. Le paradoxe allemand pose un défi majeur à la cohésion sociale : comment rassurer les classes moyennes sans freiner la croissance ni alourdir la fiscalité ?",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/D%C3%BClmen%2C_Marktstra%C3%9Fe_--_2023_--_6668.jpg/1280px-D%C3%BClmen%2C_Marktstra%C3%9Fe_--_2023_--_6668.jpg",
+    "alt": "Rue commerçante animée en Rhénanie-du-Nord-Westphalie en Allemagne",
+    "credit": "Dietmar Rabich / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Marktstra%C3%9Fe_--_2023_--_6668.jpg"
+   },
+   "vo": {
+    "titre": "Einkommen in Deutschland steigen, aber Ungleichheit auch",
+    "faits": "Zwei neue Studien untersuchen den Wohlstand in Deutschland. Laut einer Umfrage haben 60 Prozent der Deutschen Angst um ihr Geld. Daten des Instituts DIW zeigen aber ein anderes Bild. Von 1995 bis 2024 stiegen die realen Einkommen um 30 Prozent. Heute sind 26 Prozent mit ihrem Einkommen zufrieden. Im Jahr 2005 waren es nur 13 Prozent. Die reichsten zehn Prozent gewannen aber 51 Prozent dazu. Bei den ärmsten Haushalten gab es dagegen keinen Anstieg.",
+    "enjeux": "Die Zahlen zeigen einen großen Widerspruch in Deutschland. Den meisten Menschen geht es heute besser als vor dreißig Jahren. Trotzdem wächst bei vielen Bürgern die Angst vor dem Abstieg. Ein Grund dafür ist die größere Lücke zwischen Arm und Reich. Reiche Haushalte profitieren stark von Zinsen, Mieten und Aktien. Viele Migranten verdienen am Anfang oft nur wenig Geld. Die Politik muss diese sozialen Unterschiede ernst nehmen."
+   },
+   "vocab": [
+    ["der Wohlstand", "la prospérité / le niveau de vie", "Viele Deutsche sorgen sich um ihren Wohlstand."],
+    ["das Einkommen", "le revenu", "Die realen Einkommen sind seit 1995 deutlich gestiegen."],
+    ["die Ungleichheit", "l'inégalité", "Die Ungleichheit zwischen Arm und Reich nimmt zu."],
+    ["der Abstieg", "le déclassement", "Die Angst vor dem sozialen Abstieg ist groß."],
+    ["der Haushalt", "le ménage (foyer)", "Mittlere Haushalte haben weniger stark profitiert."],
+    ["der Widerspruch", "la contradiction", "Zwischen Gefühlen und Zahlen gibt es einen Widerspruch."]
+   ],
+   "sujets": [
+    "Warum fürchten viele Deutsche den Verlust ihres Wohlstands?",
+    "Wird die Gesellschaft in Deutschland immer ungleicher?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "La pire semaine depuis le Covid : la tech s'effondre à Wall Street et entraîne le reste des marchés mondiaux",
+   "url": "https://www.lesechos.fr/finance-marches/marches-financiers/a-wall-street-la-chute-de-la-tech-saccelere-et-entraine-avec-elle-les-marches-mondiaux-2263871",
+   "pourquoi": "Un cas d'école sur la **volatilité financière** et le risque d'éclatement d'une **bulle spéculative** autour des valorisations de l'intelligence artificielle."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Les patrons français s'enfoncent dans la déprime",
+   "url": "https://www.lesechos.fr/economie-france/conjoncture/les-patrons-francais-senfoncent-dans-la-deprime-2263748",
+   "pourquoi": "Les chiffres de l'Insee sur la baisse du **climat des affaires** à 95 en novembre illustrent le rôle des **anticipations** et de l'incertitude sur l'investissement."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Cyberattaque : la BCE pointe la dépendance des banques aux prestataires informatiques",
+   "url": "https://www.lesechos.fr/finance-marches/banque-assurances/cyberattaque-la-bce-pointe-la-dependance-des-banques-aux-prestataires-informatiques-2263575",
+   "pourquoi": "Une analyse précieuse sur le **risque systémique** opérationnel et la régulation prudentielle face à la concentration des fournisseurs cloud."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Thomas Piketty : « Le projet de convention fiscale de l’ONU a le potentiel de changer la face du monde »",
+   "url": "https://www.lemonde.fr/la-chronique-de-thomas-piketty/article/2026/11/21/thomas-piketty-le-projet-de-convention-fiscale-de-l-onu-a-le-potentiel-de-changer-la-face-du-monde_6813978_6649149.html",
+   "pourquoi": "Une tribune directement mobilisable en ESH sur la **coopération fiscale internationale**, la lutte contre les paradis fiscaux et la gouvernance mondiale."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« L’entrée en Bourse d’Anthropic est probablement davantage dictée par la peur que par la foi en l’avenir de l’IA »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/20/l-entree-en-bourse-d-anthropic-est-probablement-davantage-dictee-par-la-peur-que-par-la-foi-en-l-avenir-de-l-ia_6813694_3232.html",
+   "pourquoi": "Un regard critique sur le financement de l'**innovation** et les comportements mimétiques sur les **marchés financiers**."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Bernabé Malacalza, géopolitologue : « Il existe une construction narrative complotiste autour de l’influence chinoise en Amérique latine »",
+   "url": "https://www.lemonde.fr/international/article/2026/11/20/bernabe-malacalza-geopolitologue-il-existe-une-construction-narrative-complotiste-autour-de-l-influence-chinoise-en-amerique-latine_6813679_3210.html",
+   "pourquoi": "Un entretien utile à la fois en ESH et en espagnol pour nuancer la **rivalité sino-américaine** et les investissements chinois en Amérique latine."
+  }
+ ]
+}

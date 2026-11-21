@@ -6623,6 +6623,111 @@
           ]
         }
       ]
+    },
+    {
+      "id": "effet-hysterese-blanchard-summers",
+      "nom": "Effet d'hystérèse du chômage",
+      "categorie": "politiques",
+      "type": "Effet",
+      "annee": "1986",
+      "auteur": "Olivier Blanchard et Lawrence Summers",
+      "accroche": "Une hausse temporaire du chômage peut devenir permanente car le chômage de longue durée détruit l'employabilité.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Olivier Blanchard** et **Lawrence Summers**, *« Hysteresis and the European Unemployment Problem »* (1986), publié dans le *NBER Macroeconomics Annual*.",
+            "Dans les années 1980, le chômage européen reste durablement élevé même après le reflux des chocs pétroliers et de l'inflation. Pour expliquer cette persistance qui contredit l'idée d'un retour automatique au **taux de chômage naturel** de Milton Friedman, Blanchard et Summers empruntent à la physique la notion d'**hystérèse** : un système garde la mémoire des chocs qu'il a subis."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un choc conjoncturel (récession, crise financière ou énergétique) détruit des emplois et fait monter le chômage à court terme.",
+            "Si le chômage dure, les travailleurs perdent une partie de leur **capital humain** (obsolescence des compétences, perte des habitudes de travail) et subissent une **stigmatisation** de la part des employeurs.",
+            "Les salariés déjà en place (**insiders**) négocient leurs salaires sans tenir compte des chômeurs de longue durée (**outsiders**), qui n'exercent plus de pression à la baisse sur les salaires.",
+            "Lorsque la croissance repart, les chômeurs de longue durée peinent à retrouver un emploi : le **chômage conjoncturel** s'est transformé en **chômage structurel**."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "L'effet d'hystérèse montre que **l'inaction publique face à une récession a un coût durable** : laisser le chômage monter détruit du potentiel productif pour de longues années. Il justifie donc une intervention rapide en période de crise (activité partielle, relance ciblée) ainsi que des **politiques actives de l'emploi** (formation, accompagnement, insertion) pour empêcher l'enlisement dans le chômage de longue durée."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Modèle insiders-outsiders (Lindbeck et Snower, 1988)",
+              "d": "Les coûts de rotation de la main-d'œuvre donnent aux salariés en place un **pouvoir de négociation** qui exclut les chômeurs du marché du travail."
+            },
+            {
+              "t": "Activité partielle (crise Covid, 2020)",
+              "d": "En Europe, le financement massif du chômage partiel a visé explicitement à éviter la rupture des contrats et un effet d'hystérèse durable."
+            },
+            {
+              "t": "État employeur en dernier ressort",
+              "d": "Des dispositifs ciblés comme **Territoires zéro chômeur de longue durée** cherchent à briser la perte d'employabilité en recréant directement des emplois locaux."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La théorie n'implique pas que toute politique de relance résout le chômage structurel : une fois les compétences dégradées ou inadaptées aux nouveaux secteurs, une simple hausse de la demande risque d'alimenter l'inflation plutôt que l'embauche des chômeurs de longue durée. Le débat reste ouvert sur l'efficacité comparée des **emplois aidés**, de la **formation professionnelle** et des réformes du marché du travail."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Chômage de longue durée en France",
+              "d": "La pérennisation de **Territoires zéro chômeur** vise à réinsérer des personnes éloignées de l'emploi depuis plus d'un an."
+            },
+            {
+              "t": "Crise de la zone euro (2011-2013)",
+              "d": "L'austérité budgétaire prolongée a fait exploser le chômage des jeunes en Espagne et en Grèce, laissant des cicatrices durables."
+            },
+            {
+              "t": "Réponse européenne au Covid-19 (2020)",
+              "d": "Le recours au **chômage partiel** a préservé le lien salarial et limité l'effet d'hystérèse par rapport aux États-Unis."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "le marché du travail ne revient pas spontanément au plein emploi"
+            },
+            {
+              "sens": "=",
+              "nom": "Assar Lindbeck et Dennis Snower (1988)",
+              "idee": "le pouvoir des insiders maintient les chômeurs à l'écart de l'emploi"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1968)",
+              "idee": "l'économie revient toujours à son taux de chômage naturel de long terme"
+            },
+            {
+              "sens": "=",
+              "nom": "Gary Becker (1964)",
+              "idee": "la dépréciation du capital humain réduit la productivité individuelle"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
