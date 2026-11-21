@@ -126,7 +126,7 @@ parts: [
   "Conseil d'analyse économique, [w:Réformer le système monétaire international] ([d:2011])\nLa Chine pourrait peser environ [n:25 %] du PIB mondial en 2050 contre [n:20 %] pour les États-Unis : la hiérarchie monétaire devrait suivre."]},
  {t:"Se libérer du dollar", p:[
   "[a:Zhou Xiaochuan], gouverneur de la banque centrale chinoise ([d:2009])\nAprès la crise de 2008, il propose de faire des DTS du FMI la monnaie de réserve, pour ne plus dépendre des seuls États-Unis."],
-  ex:["Le gel des réserves russes en dollars et en euros ([d:2022]) pousse plusieurs pays à acheter de l'or et à commercer dans leurs monnaies.", "Les BRICS discutent de paiements en monnaies nationales pour contourner le dollar."]}
+  ex:["Le gel des réserves russes en dollars et en euros ([d:2022]) pousse plusieurs pays à acheter de l'or et à commercer dans leurs monnaies.", "Les BRICS discutent de paiements en monnaies nationales pour contourner le dollar.", "L'euro numérique, prévu pour 2028, doit donner à la zone euro son autonomie dans les paiements face à Visa, Mastercard, PayPal et aux stablecoins en dollars (El País, 2 nov. 2026)."]}
 ]},
 {lab:"Non", ti:"Une domination difficile à remplacer", sp:[
  {t:"L'inertie des monnaies", p:[
@@ -163,7 +163,7 @@ parts: [
  {t:"Le reflet d'un déséquilibre interne", p:[
   "[a:Alexander], « Effects of a Devaluation on a Trade Balance » ([d:1952])\nApproche par l'absorption : un pays est en déficit quand il consomme et investit plus qu'il ne produit. Le problème n'est pas d'abord la compétitivité, mais l'excès de dépense intérieure.",
   "[a:Daniel], [w:Ricardo, reviens ! Ils sont devenus keynésiens] ([d:2012])\nLe déficit extérieur est le symptôme d'un manque d'épargne : souvent, il accompagne un déficit public (déficits jumeaux)."],
-  ex:["Les États-Unis cumulent depuis longtemps déficit public et déficit courant."]},
+  ex:["Les États-Unis cumulent depuis longtemps déficit public et déficit courant.", "En Chine, la crise immobilière et le vieillissement renforcent l'épargne de précaution : la consommation reste faible malgré les plans de relance, et la production en trop est exportée (Pisani-Ferry, Le Monde, 8 nov. 2026)."]},
  {t:"Une épargne mal utilisée", p:[
   "[a:Artus], [w:Discipliner la finance] ([d:2019])\nL'épargne des émergents finance la consommation américaine au lieu de leur propre investissement : le capital va des pays pauvres vers le pays riche.",
   "[a:Palley], « The Fallacy of the Revised Bretton Woods Hypothesis » ([d:2006])\nLe système n'est ni coopératif ni soutenable : il repose sur l'endettement croissant des ménages américains."],
@@ -172,7 +172,7 @@ parts: [
 {lab:"Dépasser", ti:"Tout dépend de leur cause", sp:[
  {t:"Les excédents aussi déséquilibrent", p:[
   "Trésor-Éco, « Comment expliquer le niveau élevé de l'excédent courant allemand ? » ([d:2017])\nL'excédent allemand vient de la modération des coûts salariaux et de l'externalisation vers l'Europe centrale. Dans une union monétaire, l'excédent des uns est le déficit des autres : l'ajustement pèse alors sur les pays du Sud."],
-  ex:["Dans les années 2010, l'Allemagne dégage un excédent courant autour de [n:8 %] de son PIB, pendant que l'Europe du Sud doit réduire ses déficits par l'austérité."]}
+  ex:["Dans les années 2010, l'Allemagne dégage un excédent courant autour de [n:8 %] de son PIB, pendant que l'Europe du Sud doit réduire ses déficits par l'austérité.", "L'excédent commercial chinois approche [n:1 000 Md$] en 2026 : l'UE et les États-Unis multiplient les barrières, et les économistes craignent une fragmentation en blocs (La Croix, 12 nov. 2026)."]}
 ]}
 ],
 usages: [
@@ -196,7 +196,7 @@ parts: [
   "[a:Friedman], « The Case for Flexible Exchange Rates » ([d:1953])\nLes changes flottants s'ajustent en continu aux fondamentaux, comme un prix. Ils évitent de faire baisser les prix et les salaires pour corriger un déséquilibre, et rendent son autonomie à la politique monétaire."]},
  {t:"Des ancrages fragiles", p:[
   "[a:Obstfeld et Rogoff], « The Mirage of Fixed Exchange Rates » ([d:1995])\nAvec des capitaux mobiles, les ancrages fixes durent en moyenne environ cinq ans : tôt ou tard, la spéculation teste la parité."],
-  ex:["L'Argentine arrime le peso au dollar en 1991 ; en 2001-2002, le régime s'effondre dans une crise profonde.", "En janvier 2015, la Banque nationale suisse abandonne d'un coup le cours plancher de [n:1,20] franc pour un euro."]}
+  ex:["L'Argentine arrime le peso au dollar en 1991 ; en 2001-2002, le régime s'effondre dans une crise profonde.", "En janvier 2015, la Banque nationale suisse abandonne d'un coup le cours plancher de [n:1,20] franc pour un euro.", "En Argentine, les réserves nettes de la banque centrale restent précaires à l'approche des échéances de dette de 2027, ce qui fragilise le peso (Clarín, 10 nov. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Chaque pays son régime", sp:[
  {t:"Du trilemme au dilemme", p:[
@@ -233,7 +233,7 @@ parts: [
   "[a:Cassel] ([d:1916])\nParité de pouvoir d'achat : à long terme, le change suit l'inflation. Si la baisse de la monnaie fait monter les prix intérieurs, le gain de compétitivité disparaît."]},
  {t:"Une dette qui gonfle", p:[
   "[a:Eichengreen et Hausmann], « Exchange Rates and Financial Fragility » ([d:1999])\nPéché originel : les pays qui empruntent en dollars voient leur dette exploser quand leur monnaie baisse."],
-  ex:["La chute de la livre turque en 2018 alourdit la dette en devises des entreprises turques."]},
+  ex:["La chute de la livre turque en 2018 alourdit la dette en devises des entreprises turques.", "Le risque pays argentin remonte malgré l'excédent budgétaire primaire de Milei : les marchés doutent de sa capacité à rembourser sa dette en devises en 2027 (Clarín, 8 nov. 2026)."]},
  {t:"Un jeu non coopératif", p:[
   "[a:Mantega], ministre brésilien des Finances ([d:2010])\nLes États-Unis et la Chine mènent une « guerre des monnaies » : si chacun déprécie, personne ne gagne et les émergents paient."]}
 ]},
@@ -263,7 +263,7 @@ parts: [
 {lab:"Non", ti:"Les anticipations font la crise", sp:[
  {t:"Une crise autoréalisatrice", p:[
   "[a:Obstfeld], « The Logic of Currency Crises » ([d:1994])\nCrise de 2e génération : même avec des fondamentaux sains, une attaque réussit si les marchés pensent que le gouvernement préférera abandonner la parité plutôt que de monter ses taux au prix du chômage."],
-  ex:["Le mercredi noir (16 septembre 1992) : la livre sort du SME après les attaques de spéculateurs comme George Soros."]},
+  ex:["Le mercredi noir (16 septembre 1992) : la livre sort du SME après les attaques de spéculateurs comme George Soros.", "Au lendemain de la réélection de Lula, la Bourse de São Paulo recule et le réal se déprécie : les investisseurs anticipent des dépenses sociales avant toute décision (El País, 29 oct. 2026)."]},
  {t:"Un marché qui surréagit", p:[
   "[a:Dornbusch], « Expectations and Exchange Rate Dynamics » ([d:1976])\nLes marchés financiers s'ajustent plus vite que les prix des biens : après un choc monétaire, le change dépasse son nouvel équilibre avant d'y revenir.",
   "[a:Blanchard et Watson] ([d:1982])\nUne bulle peut être rationnelle : chacun suit le mouvement tant qu'il pense que les autres le suivront.",
@@ -299,12 +299,12 @@ parts: [
  {t:"Pas de budget commun", p:[
   "[a:Ingram et Johnson] ([d:1969])\nUne union monétaire suppose des transferts budgétaires vers les régions touchées par un choc, comme entre États américains.",
   "[a:Eichengreen] ([d:2011])\nL'euro est une « monnaie sans État » : sans union budgétaire, chaque pays affronte seul les crises."],
-  ex:["Crise des dettes souveraines de 2010-2012 : la Grèce, qui ne peut pas dévaluer, s'ajuste par une austérité très lourde."]}
+  ex:["Crise des dettes souveraines de 2010-2012 : la Grèce, qui ne peut pas dévaluer, s'ajuste par une austérité très lourde.", "Au 3e trimestre 2026, avec le même taux de la BCE, l'Irlande croît de [n:5,5 %] et l'Espagne de [n:0,6 %], tandis que la France recule de [n:0,1 %] (Eurostat, La Vanguardia, 30 oct. 2026)."]}
 ]},
 {lab:"Dépasser", ti:"Une zone qui se construit", sp:[
  {t:"Des critères qui se créent", p:[
   "La monnaie unique fait elle-même progresser l'intégration commerciale et la convergence des cycles : les critères de la zone optimale peuvent se construire après coup. Encore faut-il des outils communs."],
-  ex:["Le plan de relance européen de 2020 (NextGenerationEU) repose pour la première fois sur une grande dette commune.", "L'engagement de la BCE à faire « tout ce qu'il faudra » (Draghi, 2012) calme la crise de l'euro."]}
+  ex:["Le plan de relance européen de 2020 (NextGenerationEU) repose pour la première fois sur une grande dette commune.", "L'engagement de la BCE à faire « tout ce qu'il faudra » (Draghi, 2012) calme la crise de l'euro.", "Contre-exemple : la BCE refuse d'activer son TPI pour la France tant que celle-ci ne respecte pas le Pacte de stabilité (Les Échos, 11 nov. 2026)."]}
 ]}
 ],
 usages: [
