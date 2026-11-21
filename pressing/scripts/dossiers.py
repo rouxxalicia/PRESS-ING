@@ -30,6 +30,11 @@ MAX_FENETRE = 3
 MAX_INTERDIT = 5      # 5 cartes ou plus en 30 jours : dossier interdit (sauf une "suite" espacée)
 PAUSE_SUITE = 14      # après une carte "suite", le dossier est interdit pendant 14 jours
 
+# Sujets mis en pause par Alicia : interdits jusqu'à la date indiquée (incluse), même en "suite".
+PAUSES = {
+    "relation-royaume-uni-ue": "2026-12-05",
+}
+
 
 def slug_ok(s):
     return bool(re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+){1,5}", str(s or "")))
@@ -64,6 +69,9 @@ def bloques(avant):
     d0 = _date.fromisoformat(avant)
     h = historique(avant)
     interdits, suite_ok = {}, {}
+    for dos, fin in PAUSES.items():
+        if avant <= fin:
+            interdits[dos] = f"INTERDIT : mis en pause par Alicia jusqu'au {fin}, même avec une évolution"
     for dos, cartes in h.items():
         dernier = cartes[0][0]
         ecart = (d0 - _date.fromisoformat(dernier)).days
