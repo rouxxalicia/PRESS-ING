@@ -8,6 +8,9 @@ Règles (vérifiées par scripts/verifier.py) :
 - un dossier traité ces JOURS_PAUSE derniers jours, ou saturé (MAX_FENETRE cartes ou plus
   sur les FENETRE derniers jours), ne revient qu'en carte "suite" : champ "suite" = la vraie
   évolution en une phrase (résultat, vote, décision, chiffre officiel), jamais pour redire la même chose ;
+- un dossier qui a eu une carte "suite" ces PAUSE_SUITE derniers jours est INTERDIT ;
+- un dossier très saturé (MAX_INTERDIT cartes ou plus sur FENETRE jours) est INTERDIT, sauf une
+  seule "suite" tous les PAUSE_SUITE jours pour un résultat/vote/décision définitif ;
 - une seule carte "suite" par édition ;
 - jamais deux cartes du même dossier dans une édition (toutes matières confondues).
 
@@ -24,6 +27,8 @@ DATA = ROOT / "data"
 JOURS_PAUSE = 10
 FENETRE = 30
 MAX_FENETRE = 3
+MAX_INTERDIT = 5      # 5 cartes ou plus en 30 jours : dossier interdit (sauf une "suite" espacée)
+PAUSE_SUITE = 14      # après une carte "suite", le dossier est interdit pendant 14 jours
 
 
 def slug_ok(s):
@@ -48,7 +53,7 @@ def historique(avant, jours=FENETRE):
             continue
         for c in ed.get("cards", []):
             if c.get("dossier"):
-                out.setdefault(c["dossier"], []).append((d, c.get("id", ""), c.get("titre", "")))
+                out.setdefault(c["dossier"], []).append((d, c.get("id", ""), c.get("titre", ""), bool(str(c.get("suite", "")).strip())))
     for v in out.values():
         v.sort(reverse=True)
     return out
@@ -63,7 +68,13 @@ def bloques(avant):
         dernier = cartes[0][0]
         ecart = (d0 - _date.fromisoformat(dernier)).days
         sature = len(cartes) >= MAX_FENETRE
-        if ecart <= JOURS_PAUSE:
+        suites = [x[0] for x in cartes if len(x) > 3 and x[3]]
+        if suites and (d0 - _date.fromisoformat(suites[0])).days <= PAUSE_SUITE:
+            interdits[dos] = f"INTERDIT : déjà une « suite » le {suites[0]}, plus rien sur ce sujet avant {PAUSE_SUITE} jours"
+        elif len(cartes) >= MAX_INTERDIT:
+            suite_ok[dos] = (f"TRÈS SATURÉ ({len(cartes)} cartes en {FENETRE} jours) : Alicia en a assez — seulement un résultat "
+                             "d'élection, un vote définitif ou une décision officielle qui change tout, sinon choisis une autre actu")
+        elif ecart <= JOURS_PAUSE:
             suite_ok[dos] = f"traité le {dernier} : seulement en « suite » s'il y a une vraie évolution"
         elif sature:
             suite_ok[dos] = f"saturé ({len(cartes)} cartes en {FENETRE} jours) : seulement en « suite » s'il y a une vraie évolution"
@@ -113,7 +124,7 @@ def resume(avant):
         lignes.append("(aucun)")
     for dos in sorted(h, key=lambda d: (-len(h[d]), d)):
         cartes = h[dos]
-        etat = "INTERDIT" if dos in interdits else ("suite seulement" if dos in suite_ok else "libre")
+        etat = "INTERDIT" if dos in interdits else (("TRÈS SATURÉ : résultat/vote/décision définitive seulement" if len(cartes) >= MAX_INTERDIT else "suite seulement") if dos in suite_ok else "libre")
         if etat == "libre" and len(cartes) < 2:
             continue
         lignes.append(f"- {dos} [{etat}] {len(cartes)}x, dernière le {cartes[0][0][5:]} : {cartes[0][2][:75]}")

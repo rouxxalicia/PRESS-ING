@@ -67,7 +67,10 @@ Alicia ne veut **pas lire dix fois la même histoire** (les midterms, l'économi
 - **Réutilise exactement l'identifiant** affiché par `preparer.py` quand c'est la même histoire. N'invente jamais un nouvel identifiant pour contourner un dossier interdit : c'est le même sujet, Alicia le verra.
 - Nouveau sujet : crée un identifiant de 2 à 6 mots en minuscules, sans accents, séparés par des tirets, qui nomme l'histoire de façon **large** (`logement-espagne`, pas `logement-social-ventes-espagne-novembre`).
 - **« suite seulement »** : un dossier traité ces **10 derniers jours**, ou **saturé** (déjà 3 cartes ou plus en 30 jours), ne revient **que s'il y a une vraie évolution** : un résultat d'élection, un vote définitif, une décision officielle, un chiffre officiel qui change le diagnostic. Ajoute alors `"suite": "<l'évolution en une phrase>"`. Si c'est pour redire la même chose (une déclaration, un sondage, une réaction ou une analyse de plus), c'est **non** : choisis une autre actu. **Une seule carte « suite » par édition.**
+- **INTERDIT** : un dossier qui a déjà eu une carte « suite » ces **14 derniers jours** ne revient pas du tout, même avec une évolution. Un dossier **très saturé** (5 cartes ou plus en 30 jours, ex. le Brexit, Milei, les midterms) ne revient que pour un vrai tournant définitif (résultat d'élection, vote final, accord signé), jamais pour une étape intermédiaire.
 - Jamais deux cartes du même dossier dans une édition, même dans deux matières différentes.
+- **Pas deux cartes sur le même personnage** dans une édition (ex. deux actus sur Andy Burnham), même si ce sont deux dossiers différents : Alicia a l'impression de lire la même chose.
+- En **anglais**, varie les pays et les thèmes : pas plus de **2 actus sur la politique britannique** par édition, et pense aussi au reste du monde anglophone (Irlande, Canada, Australie, Inde…) et aux sujets économiques et sociaux, pas seulement à Westminster.
 - Les articles proposés par Alicia (`perso`) ont aussi un dossier, mais ne sont jamais bloqués.
 - Le vérificateur refuse l'édition si une règle n'est pas respectée.
 
