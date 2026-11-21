@@ -6420,6 +6420,209 @@
           ]
         }
       ]
+    },
+    {
+      "id": "risque-incertitude-knight",
+      "nom": "Risque et incertitude radicale",
+      "categorie": "fondamentaux",
+      "type": "Notion",
+      "annee": "1921",
+      "auteur": "Frank Knight",
+      "accroche": "Le risque est probabilisable et assurable, tandis que l'incertitude radicale échappe à tout calcul et fonde le profit de l'entrepreneur.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Frank Knight**, *Risque, incertitude et profit* (*Risk, Uncertainty and Profit*, 1921), économiste américain fondateur de l'école de Chicago.",
+            "La théorie néoclassique standard suppose une **information parfaite** ou, au minimum, des probabilités connues permettant aux agents d'optimiser leurs choix. Knight rompt avec cette hypothèse en distinguant deux situations fondamentalement différentes face à l'avenir : le **risque mesurable** et l'**incertitude véritable**."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Dans une situation de **risque**, les événements futurs possibles et leurs probabilités sont connus par le calcul ou la statistique (incendie, accident) : on peut donc s'assurer contre eux et intégrer leur coût dans le prix.",
+            "Dans une situation d'**incertitude radicale**, l'événement est unique et inédit (innovation de rupture, crise géopolitique, choc réglementaire) : aucune distribution de probabilité fiable ne peut être établie.",
+            "L'entrepreneur qui accepte d'investir malgré cette incertitude non assurable obtient un **profit** résiduel, qui rémunère précisément cette prise de décision dans l'inconnu."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette distinction montre pourquoi les chefs d'entreprise gèlent leurs **investissements** lorsque l'horizon économique, fiscal ou politique devient illisible : face à une **incertitude radicale**, aucun calcul actuariel ne permet de sécuriser un projet. Elle explique aussi l'origine économique du **profit** en concurrence, non pas comme une rente de monopole, mais comme la contrepartie d'un pari sur un avenir imprévisible."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "John Maynard Keynes (1936)",
+              "d": "Prolonge l'incertitude radicale : faute de probabilités, les investisseurs suivent leurs **esprits animaux** et les conventions de marché."
+            },
+            {
+              "t": "Nicholas Bloom (2009)",
+              "d": "Mesure empiriquement les **chocs d'incertitude** : une hausse brutale de l'incertitude politique ou économique provoque un report immédiat des embauches et des investissements (« *wait and see* »)."
+            },
+            {
+              "t": "Nassim Nicholas Taleb (2007)",
+              "d": "Popularise la notion de **cygne noir** : événement rarissime, imprévisible et aux conséquences majeures qui invalide les modèles probabilistes classiques."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La frontière entre risque et incertitude évolue dans le temps : les progrès des données, de la finance et des produits dérivés permettent d'assurer des aléas autrefois incertains, même si la financiarisation peut aussi masquer des **risques systémiques** mal évalués, comme lors de la crise des subprimes en 2008."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Instabilité budgétaire et climat des affaires",
+              "d": "Lorsque les règles fiscales ou budgétaires changent sans visibilité, les entreprises reportent leurs projets par attentisme."
+            },
+            {
+              "t": "Transition écologique et choc énergétique",
+              "d": "Les industriels hésitent à investir dans des technologies décarbonées tant que le prix futur du carbone ou les normes restent incertains."
+            },
+            {
+              "t": "Pandémie de Covid-19 (2020)",
+              "d": "Choc exogène non probabilisable qui a paralysé les prévisions économiques et justifié l'intervention de l'État comme assureur en dernier ressort."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "l'incertitude radicale empêche le calcul rationnel et rend l'investissement instable"
+            },
+            {
+              "sens": "=",
+              "nom": "Douglass North (1990)",
+              "idee": "des institutions stables réduisent l'incertitude et sécurisent l'investissement"
+            },
+            {
+              "sens": "≠",
+              "nom": "Robert Lucas (1972)",
+              "idee": "les agents forment des anticipations rationnelles en exploitant toute l'information disponible"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "causalite-cumulative-myrdal",
+      "nom": "Causalité circulaire et cumulative",
+      "categorie": "societe",
+      "type": "Théorie",
+      "annee": "1944",
+      "auteur": "Gunnar Myrdal",
+      "accroche": "Loin de se corriger spontanément par le marché, les inégalités, la pauvreté et les discriminations s'auto-entretiennent dans un cercle vicieux que seule une intervention publique volontariste peut inverser.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Gunnar Myrdal**, économiste et sociologue suédois (prix de la Banque de Suède 1974), formule ce concept dans *An American Dilemma: The Negro Problem and Modern Democracy* (1944), puis l'étend aux inégalités régionales et au sous-développement dans *Théorie économique et pays sous-développés* (1957).",
+            "Contre l'idée néoclassique d'un **équilibre stable** où les forces du marché corrigent automatiquement les écarts, Myrdal montre que les phénomènes sociaux et économiques obéissent souvent à des dynamiques cumulatives qui amplifient les déséquilibres initiaux."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un désavantage initial (pauvreté, discrimination, absence de logement ou de qualification) réduit les opportunités d'accès à l'emploi stable et à l'éducation.",
+            "Cette exclusion aggrave à son tour la précarité financière, la santé et l'isolement social, confirmant les stigmates et réduisant encore l'employabilité : c'est un **cercle vicieux**.",
+            "À l'inverse, une intervention publique ciblée (accompagnement, emploi d'insertion, accès aux droits) peut enclencher une **spirale ascendante** où chaque progrès facilite le suivant."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La causalité cumulative permet de justifier les **politiques actives d'insertion** et de lutte contre la pauvreté : laisser jouer le seul marché du travail ne résorbe pas l'exclusion de longue durée, car les handicaps se cumulent. Elle montre aussi que réduire les financements d'accompagnement social au nom d'économies budgétaires de court terme risque d'alimenter une dégradation durable de la cohésion sociale et des coûts publics futurs plus élevés."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Effets de remous et de diffusion (1957)",
+              "d": "Myrdal applique la même logique aux territoires : les régions riches attirent capitaux et main-d'œuvre qualifiée au détriment des régions périphériques (*backwash effects*)."
+            },
+            {
+              "t": "Paul Krugman (1991)",
+              "d": "La **nouvelle économie géographique** formalise ces dynamiques cumulatives d'agglomération grâce aux économies d'échelle et aux coûts de transport."
+            },
+            {
+              "t": "Amartya Sen (1999)",
+              "d": "L'approche par les **capabilités** montre que la pauvreté est multidimensionnelle (santé, logement, éducation) et exige des leviers coordonnés pour restaurer la liberté réelle d'agir."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle ne garantit pas que toute intervention publique produise automatiquement une spirale vertueuse : des dispositifs mal calibrés, soumis à des objectifs chiffrés rigides ou créant des **trappes à inactivité**, peuvent échouer à briser l'exclusion si les freins périphériques (logement, garde d'enfants, santé) ne sont pas levés simultanément."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Insertion par l'activité économique (IAE)",
+              "d": "Accompagner des publics éloignés de l'emploi sur le travail, le logement et la santé permet d'inverser un cercle vicieux d'exclusion."
+            },
+            {
+              "t": "Décrochage des territoires désindustrialisés",
+              "d": "La fermeture d'usines fait fuir les actifs qualifiés et les services publics, aggravant l'appauvrissement local."
+            },
+            {
+              "t": "Inégalités scolaires et ségrégation urbaine",
+              "d": "La concentration de la pauvreté dans certains quartiers renforce les difficultés scolaires et freine la mobilité sociale."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Pierre Bourdieu (1970)",
+              "idee": "les inégalités sociales et culturelles tendent à se reproduire de génération en génération"
+            },
+            {
+              "sens": "=",
+              "nom": "Amartya Sen (1999)",
+              "idee": "la pauvreté résulte d'un cumul de privations de capabilités nécessitant une action publique"
+            },
+            {
+              "sens": "≠",
+              "nom": "Robert Solow (1956)",
+              "idee": "les rendements décroissants du capital devraient conduire à une convergence spontanée des économies"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1968)",
+              "idee": "le chômage persistant s'explique d'abord par les rigidités institutionnelles du marché du travail"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
