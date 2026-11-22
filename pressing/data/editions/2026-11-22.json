@@ -1,0 +1,1101 @@
+{
+ "date": "2026-11-22",
+ "cards": [
+  {
+   "id": "2026-11-22-esh-1",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/monde/europe/apres-dix-ans-de-negociations-leurope-et-lindonesie-signent-leur-traite-de-libre-echange-2263929",
+   "minutes": 3,
+   "titre": "Après dix ans de négociations, l'Union européenne et l'Indonésie signent leur traité de libre-échange",
+   "dossier": "accord-libre-echange-ue-indonesie",
+   "faits": "Le 21 novembre 2026, l'Union européenne et l'Indonésie ont officiellement signé à Bruxelles un Accord de partenariat économique global (CEPA) ainsi qu'un Accord de protection des investissements (IPA). Cette signature conclut dix années de négociations engagées en 2016 et relie deux ensembles représentant un marché combiné de plus de 730 millions de personnes. Le traité prévoit la suppression des droits de douane sur plus de 98 % des exportations européennes vers l'Indonésie, ce qui devrait représenter environ 600 millions d'euros d'économies tarifaires par an. Les secteurs européens de la chimie, de la pharmacie, des machines et des équipements de transport figurent parmi les principaux bénéficiaires. En contrepartie, l'UE abaisse ou supprime ses barrières sur des produits indonésiens clés comme le textile, la chaussure, la pêche et l'huile de palme. L'accord intervient juste avant la sortie de l'Indonésie du système européen de préférences généralisées prévue le 1er janvier 2027 et doit encore être ratifié par le Parlement européen.",
+   "enjeux": "Face au durcissement protectionniste américain et à la concurrence chinoise, Bruxelles accélère sa stratégie de **diversification commerciale** vers l'Asie du Sud-Est. L'Indonésie, première économie de l'ASEAN et quatrième pays le plus peuplé du monde, constitue un partenaire stratégique pour sécuriser les approvisionnements européens en **matières premières critiques**, notamment le nickel indispensable aux batteries. Sur le plan théorique, ce traité illustre la logique du **régionalisme commercial** bilatéral qui contourne la paralysie du multilatéralisme à l'OMC. Il ravive toutefois l'arbitrage classique entre **gains à l'échange** pour les industries exportatrices et vulnérabilité de secteurs exposés à une concurrence à bas coûts. Les ONG environnementales et certains syndicats dénoncent en outre un risque de **déforestation importée** lié à l'huile de palme, malgré les chapitres de développement durable intégrés au texte. Cet exemple permet de montrer en dissertation que le libre-échange contemporain est devenu un instrument autant géopolitique qu'économique.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Porte-conteneurs et grues dans un terminal portuaire de fret maritime",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/container-ship"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+   },
+   "auteurs": [
+    {
+     "nom": "David Ricardo",
+     "ouvrage": "Des principes de l'économie politique et de l'impôt",
+     "annee": "1817",
+     "ref": "avantages-comparatifs",
+     "cours": "2A-01-mondialisation-commerciale",
+     "texte": "Ricardo démontre que chaque pays gagne à se spécialiser selon son **avantage comparatif** (son moindre désavantage relatif), faisant du commerce international un jeu à somme positive. Appliquée au CEPA, cette logique explique la complémentarité recherchée entre l'industrie européenne à forte valeur ajoutée (chimie, pharmacie, machines) et les dotations indonésiennes en matières premières et main-d'œuvre. À mobiliser dans un sujet sur le libre-échange pour montrer d'où viennent les gains attendus d'un accord commercial."
+    },
+    {
+     "nom": "Friedrich List",
+     "ouvrage": "Système national d'économie politique",
+     "annee": "1841",
+     "ref": "protectionnisme-educateur",
+     "texte": "À l'inverse, List défend un **protectionnisme éducateur** temporaire pour éviter que l'ouverture prématurée ne brise des secteurs vulnérables et ne fige une spécialisation défavorable. Sur ce dossier, sa thèse éclaire les réticences des syndicats européens face à la concurrence à bas coûts et les enjeux de montée en gamme industrielle de l'Indonésie autour du nickel. À mobiliser pour nuancer les gains globaux du libre-échange par ses effets sectoriels et stratégiques."
+    }
+   ],
+   "notions": [
+    [
+     "Accord de libre-échange",
+     "Traité entre deux ou plusieurs pays visant à supprimer les droits de douane et obstacles aux échanges de biens, services et investissements."
+    ],
+    [
+     "Avantage comparatif",
+     "Capacité d'un pays à produire un bien à un coût d'opportunité relatif plus faible que ses partenaires commerciaux."
+    ],
+    [
+     "Système de préférences généralisées (SPG)",
+     "Dispositif unilatéral par lequel un pays développé accorde des réductions tarifaires aux exportations de pays en développement."
+    ],
+    [
+     "Régionalisme commercial",
+     "Conclusion d'accords commerciaux préférentiels entre un nombre limité de pays, en marge des règles multilatérales de l'OMC."
+    ]
+   ],
+   "sujets": [
+    "Les accords bilatéraux de libre-échange sont-ils l'avenir de la mondialisation commerciale ?",
+    "L'ouverture commerciale est-elle compatible avec la transition écologique et la souveraineté industrielle ?"
+   ],
+   "anki": [
+    {
+     "q": "Portée tarifaire de l'accord UE-Indonésie (novembre 2026)",
+     "r": "Suppression des droits de douane sur plus de C{98 %} des exportations européennes (environ C{600 M€}/an d'économies) pour un marché de C{730 millions} d'habitants (D{21 novembre 2026}).\n→ Accroche pour un sujet sur le B{libre-échange} ou la diversification commerciale européenne face à la Chine et aux États-Unis. A{Ricardo}, O{Des principes de l'économie politique et de l'impôt} (D{1817}) : spécialisation selon les avantages comparatifs."
+    },
+    {
+     "q": "Enjeu stratégique de l'accord UE-Indonésie pour l'Europe",
+     "r": "Sécuriser l'accès aux B{matières premières critiques} (dont le nickel) et diversifier les partenaires hors Chine et États-Unis.\n→ Montre que la politique commerciale devient un outil de souveraineté industrielle et de transition énergétique, tout en exposant certains secteurs à la concurrence (A{List}, O{Système national d'économie politique}, D{1841})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-esh-2",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conjoncture/budget-le-conseil-europeen-prevoit-des-coupes-de-204-milliards-d-euros-et-une-taxe-numerique-20261121",
+   "minutes": 3,
+   "titre": "Budget de l'UE 2028-2034 : 204 milliards d'euros de coupes et une taxe numérique divisent Paris et Berlin",
+   "dossier": "budget-ue-2028-2034",
+   "faits": "Le 21 novembre 2026, le président du Conseil européen António Costa a présenté un projet révisé pour le futur budget pluriannuel de l'Union européenne couvrant la période 2028-2034. Le plafond des dépenses est abaissé de 204 milliards d'euros par rapport à la proposition initiale de la Commission européenne, qui approchait les 2 000 milliards d'euros, pour revenir autour de 1 781 milliards d'euros. Pour financer ce cadre sans alourdir autant les contributions nationales, le texte propose de créer de nouvelles ressources propres, dont une taxe de 3 % sur le chiffre d'affaires des géants du numérique et une réflexion sur la taxation des cryptoactifs. Les coupes pèsent notamment sur les fonds de cohésion et les enveloppes nationales liées à la Politique agricole commune (PAC). L'Élysée a aussitôt rejeté une copie jugée « très décevante », estimant que le compte n'y est pas pour le revenu des agriculteurs. À l'opposé, le chancelier allemand Friedrich Merz a salué un « premier pas » tout en jugeant le montant encore excessif alors que les États doivent assainir leurs finances publiques.",
+   "enjeux": "Cet affrontement illustre l'inachèvement structurel de l'**intégration européenne** : l'Union dispose d'une monnaie unique, mais son budget commun reste faible et soumis à la règle de l'unanimité entre vingt-sept États aux priorités divergentes. L'opposition entre pays dits « frugaux » (Allemagne, Pays-Bas, Suède), soucieux de contenir les contributions nationales, et pays attachés à la PAC ou aux **fonds de cohésion** bloque la montée en puissance d'un véritable **fédéralisme budgétaire**. L'idée d'une **taxe numérique** européenne de 3 % vise à doter l'UE de **ressources propres** autonomes tout en corrigeant l'optimisation fiscale des plateformes multinationales. Toutefois, l'assainissement simultané des budgets nationaux réduit la marge de manœuvre politique pour financer les nouveaux biens publics européens (défense, transition énergétique, compétitivité). En dissertation, cet épisode permet de questionner la capacité de l'Union européenne à mener une politique budgétaire commune à la hauteur de son décrochage productif.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1759169306825-d1d4b832ae3a?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Drapeaux de l'Union européenne devant un bâtiment institutionnel à Bruxelles",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/eu-parliament"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : régionalisation, gouvernance et régulations internationales"
+   },
+   "auteurs": [
+    {
+     "nom": "Bela Balassa",
+     "ouvrage": "The Theory of Economic Integration",
+     "annee": "1961",
+     "ref": "etapes-integration-balassa",
+     "cours": "2A-04-regionalisation",
+     "texte": "Balassa décrit l'intégration régionale en cinq étapes emboîtées, de la zone de libre-échange jusqu'à l'**union économique et monétaire** (UEM). Les blocages autour du budget 2028-2034 montrent que l'UE a atteint le dernier stade monétaire sans avoir achevé l'union budgétaire et fiscale qui devrait l'accompagner. À mobiliser dans tout sujet sur l'intégration européenne pour souligner l'asymétrie entre intégration monétaire et souverainetés budgétaires nationales."
+    },
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "The Theory of Public Finance",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "texte": "Musgrave attribue au budget public trois fonctions : **allocation** des ressources (biens publics), **redistribution** (réduction des écarts) et **stabilisation** conjoncturelle. Le budget européen assure aujourd'hui surtout de la redistribution (PAC, cohésion) et une allocation ciblée, mais peine à financer de nouveaux biens publics européens sans ressources propres suffisantes. À mobiliser pour évaluer ce que peut et ne peut pas faire le budget de l'UE."
+    }
+   ],
+   "notions": [
+    [
+     "Cadre financier pluriannuel (CFP)",
+     "Budget de long terme de l'Union européenne qui fixe les plafonds de dépenses par grande politique sur sept ans."
+    ],
+    [
+     "Ressources propres",
+     "Recettes directement affectées au budget européen (droits de douane, fraction de TVA, futures taxes européennes) sans passer par un arbitrage national annuel."
+    ],
+    [
+     "Fédéralisme budgétaire",
+     "Organisation dans laquelle un échelon supranational ou fédéral dispose d'un budget autonome suffisant pour financer des biens publics et amortir les chocs asymétriques."
+    ],
+    [
+     "Fonds de cohésion",
+     "Transferts budgétaires européens destinés à réduire les écarts de développement entre régions et États membres."
+    ]
+   ],
+   "sujets": [
+    "L'Union européenne peut-elle rester compétitive sans renforcer son budget commun ?",
+    "L'intégration économique européenne souffre-t-elle d'un manque de fédéralisme budgétaire ?"
+   ],
+   "anki": [
+    {
+     "q": "Révision du projet de budget européen 2028-2034 (novembre 2026)",
+     "r": "António Costa propose C{204 Md€} de coupes (ramenant le budget à environ C{1 781 Md€}) et une B{taxe numérique} de C{3 %}, mais Paris rejette le texte (PAC) et Berlin le juge encore trop élevé (D{21 novembre 2026}).\n→ Accroche pour un sujet sur l'B{intégration européenne} ou le fédéralisme budgétaire. A{Balassa}, O{The Theory of Economic Integration} (D{1961}) : une UEM inachevée sur le plan budgétaire."
+    },
+    {
+     "q": "Rôle des ressources propres dans le projet de budget européen 2028-2034",
+     "r": "Taxe de C{3 %} sur les géants du numérique et étude sur les cryptoactifs pour limiter la hausse des contributions nationales.\n→ Illustre la difficulté à financer les fonctions d'B{allocation} et de B{redistribution} à l'échelle européenne (A{Musgrave}, O{The Theory of Public Finance}, D{1959})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-esh-3",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/22/au-sein-du-geant-des-boissons-castel-une-crise-de-gouvernance-amplifiee-par-une-architecture-complexe-de-holdings-de-fonds-et-de-trusts_6814144_3234.html",
+   "minutes": 3,
+   "titre": "Groupe Castel : une crise de gouvernance amplifiée par une architecture complexe de holdings et de trusts",
+   "dossier": "gouvernance-groupe-castel",
+   "faits": "Le 22 novembre 2026, Le Monde détaille la guerre de pouvoir qui secoue le Groupe Castel, géant français du vin et de la bière fortement implanté en Afrique. Le conflit oppose une branche de la famille fondatrice, menée par Romy Castel, fille unique du fondateur Pierre Castel, à la direction opérationnelle incarnée par le directeur général Grégory Clerc. Au cœur de la crise figure l'architecture juridique mise en place en 2008 par le fondateur, qui a logé son empire dans un trust irrévocable et discrétionnaire de droit singapourien. Ce montage contrôle des sociétés charnières et des holdings luxembourgeoises, dont DF Holding qui pilote les divisions opérationnelles, dissociant la détention patrimoniale familiale du pouvoir de nomination des dirigeants. Plusieurs conseils d'administration ont évincé Romy Castel de ses mandats dans des filiales africaines clés, tandis que la Haute Cour de Singapour lui a accordé des victoires procédurales sur ses droits de vote. L'affrontement judiciaire s'étend désormais entre Singapour, la Suisse et le Luxembourg autour du contrôle stratégique du groupe.",
+   "enjeux": "Cette affaire est un cas d'école de **gouvernance d'entreprise** au sein du **capitalisme familial** mondialisé. Contrairement à l'image simple de l'entrepreneur-propriétaire qui réunit capital et direction, la croissance internationale et les montages patrimoniaux (holdings en cascade, trusts étrangers) créent une **séparation entre propriété et contrôle** aussi aiguë que dans les sociétés cotées. L'opacité d'une architecture multi-juridictionnelle renforce l'**asymétrie d'information** et donne un pouvoir considérable aux gestionnaires (*trustees*) et aux managers salariés face aux héritiers. Ce conflit montre aussi l'ambivalence des structures de verrouillage : conçues pour assurer la stabilité de long terme et protéger la firme contre les querelles familiales, elles peuvent engendrer une paralysie judiciaire lorsque la confiance se rompt. En dissertation sur l'entreprise, cet exemple permet de dépasser la seule opposition entre capitalisme familial et capitalisme managérial.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1694781558887-d84d9ba7603f?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Rangées de barriques de vin dans un chai en France",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/wine-barrels"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Adolf Berle et Gardiner Means",
+     "ouvrage": "L'Entreprise moderne et la propriété privée",
+     "annee": "1932",
+     "ref": "separation-propriete-controle-berle-means",
+     "cours": "1A-entreprise",
+     "texte": "Berle et Means montrent qu'avec le gigantisme des firmes, la **propriété** du capital se sépare de la **direction**, captée par les managers. Le cas Castel prouve que cette séparation ne concerne pas seulement les sociétés cotées à actionnariat dispersé : des trusts et holdings peuvent également priver des héritiers propriétaires du contrôle opérationnel. À mobiliser pour expliquer l'origine structurelle des conflits de pouvoir dans la grande entreprise."
+    },
+    {
+     "nom": "Michael Jensen et William Meckling",
+     "ouvrage": "Théorie de la firme",
+     "annee": "1976",
+     "ref": "theorie-agence-jensen-meckling",
+     "cours": "1A-entreprise",
+     "texte": "Jensen et Meckling analysent la firme comme une **relation d'agence** entre un principal (les propriétaires) et un agent (le dirigeant), marquée par des divergences d'intérêts et des **coûts d'agence**. Chez Castel, la bataille judiciaire internationale entre héritiers et direction générale illustre le coût élevé d'une gouvernance où les mécanismes de contrôle et d'alignement des intérêts sont verrouillés. À mobiliser pour analyser les défaillances de contrôle dans la gouvernance d'entreprise."
+    }
+   ],
+   "notions": [
+    [
+     "Gouvernance d'entreprise",
+     "Ensemble des règles, organes et mécanismes qui organisent la répartition des pouvoirs et le contrôle des dirigeants au sein d'une firme."
+    ],
+    [
+     "Capitalisme familial",
+     "Forme d'organisation dans laquelle une famille détient une part déterminante du capital ou des droits de vote d'une entreprise, souvent transmise entre générations."
+    ],
+    [
+     "Holding",
+     "Société dont l'objet principal est de détenir des participations dans d'autres entreprises afin d'en orienter ou verrouiller le contrôle."
+    ],
+    [
+     "Coûts d'agence",
+     "Coûts de surveillance, de contrôle et pertes d'efficacité qui naissent lorsque les intérêts des dirigeants divergent de ceux des propriétaires."
+    ]
+   ],
+   "sujets": [
+    "Qui détient réellement le pouvoir dans la grande entreprise contemporaine ?",
+    "Le capitalisme familial échappe-t-il aux conflits de gouvernance ?"
+   ],
+   "anki": [
+    {
+     "q": "Origine juridique de la crise de gouvernance du Groupe Castel (novembre 2026)",
+     "r": "Un B{trust} irrévocable créé à Singapour en D{2008} et des holdings au Luxembourg séparent la propriété familiale du contrôle opérationnel, déclenchant des procès entre héritiers et direction générale.\n→ Accroche pour un sujet sur la B{gouvernance d'entreprise}. A{Berle et Means}, O{L'Entreprise moderne et la propriété privée} (D{1932}) : la séparation propriété/contrôle touche même les géants familiaux."
+    },
+    {
+     "q": "Lecture de la guerre de pouvoir chez Castel par la théorie de l'agence",
+     "r": "Asymétrie d'information et conflits d'intérêts entre héritiers (B{principal}) et direction opérationnelle (B{agent}), entraînant de lourds coûts judiciaires.\n→ A{Jensen et Meckling}, O{Théorie de la firme} (D{1976}) : une gouvernance opaque accroît les B{coûts d'agence}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-esh-4",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/taxe-zucman-partisans-et-opposants-fourbissent-leurs-armes-en-vue-de-la-presidentielle-2263897",
+   "minutes": 3,
+   "titre": "Taxe Zucman : partisans et opposants s'affrontent sur la fiscalité des très hauts patrimoines en vue de 2027",
+   "dossier": "taxe-zucman-patrimoine",
+   "faits": "Le 21 novembre 2026, Les Échos revient sur la montée en puissance de la « taxe Zucman », devenue l'un des principaux marqueurs économiques à l'approche de l'élection présidentielle française de 2027. Inspirée des travaux de l'économiste Gabriel Zucman, cette proposition prévoit un impôt plancher d'au moins 2 % par an sur les patrimoines nets supérieurs à 100 millions d'euros, concernant environ 1 800 foyers fiscaux en France. Rejetée à l'Assemblée nationale le 16 octobre 2026 lors de l'examen du budget 2027 par une majorité allant du centre au Rassemblement national, la mesure reste au cœur des programmes des partis de gauche. En novembre, Gabriel Zucman a relancé le débat avec un « Manifeste de Paris », soutenu notamment par Esther Duflo et Joseph Stiglitz, plaidant aussi pour une contribution exceptionnelle sur les impôts évités par le passé. Ses partisans soulignent que les ultra-riches, dont la fortune est logée dans des holdings, paient en proportion moins d'impôts que les classes moyennes. Ses adversaires, du centre à la droite, dénoncent un impôt jugé confiscatoire qui menacerait l'attractivité économique et provoquerait un exil fiscal.",
+   "enjeux": "Ce débat cristallise l'arbitrage fondamental entre **justice fiscale** et **efficacité économique** dans une économie ouverte où le capital est très mobile. L'argument central en faveur d'un impôt plancher sur le patrimoine repose sur la **régressivité au sommet** du système fiscal : lorsque les dividendes restent capitalisés dans des holdings familiales, ils échappent à l'impôt progressif sur le revenu. À l'inverse, les critiques mettent en avant le risque d'**éviction de l'investissement**, les difficultés de valorisation d'actifs professionnels peu liquides et la **concurrence fiscale** entre États européens, qui peut réduire l'assiette taxable si la mesure est adoptée de façon isolée par la France. Le clivage pose donc la question de l'échelle pertinente de la régulation : une taxation nationale unilatérale risque l'évasion, alors qu'une coordination internationale (G20, ONU) reste difficile à obtenir. En dissertation, ce dossier offre un exemple contemporain idéal pour discuter le rôle de la fiscalité du capital dans la réduction des inégalités.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1754442996662-d61009f58cc8?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Architecture institutionnelle à Paris",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/paris-architecture"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : inégalités et stratégies de développement"
+   },
+   "auteurs": [
+    {
+     "nom": "Thomas Piketty",
+     "ouvrage": "Le Capital au XXIe siècle",
+     "annee": "2013",
+     "ref": "fiscalite-du-capital-piketty",
+     "cours": "1A-inegalites-developpement",
+     "texte": "Piketty montre que depuis 1980 le rendement du capital dépasse durablement la croissance économique, ce qui fait croître les patrimoines plus vite que les revenus du travail et creuse les inégalités. Il défend en conséquence une **fiscalité progressive du capital**, idéalement coordonnée à l'échelle internationale, pour corriger cette dynamique. À mobiliser pour justifier le principe économique d'un impôt plancher sur les très hauts patrimoines comme la taxe Zucman."
+    },
+    {
+     "nom": "Arthur Laffer",
+     "ouvrage": "Courbe de Laffer",
+     "annee": "1974",
+     "ref": "courbe-de-laffer",
+     "cours": "1A-acteurs-fonctions",
+     "texte": "Selon la **courbe de Laffer**, au-delà d'un certain taux d'imposition, une hausse de la fiscalité décourage l'effort productif, stimule l'évasion fiscale et finit par réduire les recettes publiques (« trop d'impôt tue l'impôt »). Cette logique fonde l'argument des opposants à la taxe Zucman dans un pays aux prélèvements obligatoires déjà élevés, redoutant un exil fiscal des capitaux. À mobiliser pour nuancer l'efficacité d'une hausse unilatérale de la fiscalité du capital."
+    }
+   ],
+   "notions": [
+    [
+     "Impôt plancher",
+     "Prélèvement minimal garantissant qu'un contribuable ou une entreprise acquitte au moins un certain pourcentage d'impôt, quels que soient ses dispositifs d'optimisation."
+    ],
+    [
+     "Progressivité de l'impôt",
+     "Principe fiscal selon lequel le taux moyen d'imposition augmente avec le niveau de revenu ou de patrimoine du contribuable."
+    ],
+    [
+     "Concurrence fiscale",
+     "Rivalité entre États qui abaissent leurs impôts sur les bases mobiles (capitaux, grandes fortunes, entreprises) pour attirer investissements et résidents fiscaux."
+    ],
+    [
+     "Exil fiscal",
+     "Transfert de la résidence fiscale d'un contribuable ou d'une entreprise vers un pays à fiscalité plus avantageuse afin de réduire son imposition."
+    ]
+   ],
+   "sujets": [
+    "Faut-il taxer davantage le patrimoine pour réduire les inégalités ?",
+    "La concurrence fiscale rend-elle impossible toute politique nationale de redistribution ?"
+   ],
+   "anki": [
+    {
+     "q": "Principe et cible de la « taxe Zucman » débattue en France (2026)",
+     "r": "Impôt plancher de C{2 %} sur les patrimoines nets supérieurs à C{100 M€} (environ C{1 800} foyers fiscaux), rejeté à l'Assemblée en D{octobre 2026} mais central pour D{2027}.\n→ Accroche pour un sujet sur la B{fiscalité du capital} ou la justice fiscale. A{Piketty}, O{Le Capital au XXIe siècle} (D{2013}) : corriger la concentration du patrimoine."
+    },
+    {
+     "q": "Limite économique opposée à une taxation unilatérale des grandes fortunes",
+     "r": "Risque d'B{exil fiscal}, de fuite des capitaux et de baisse des recettes dans un pays à forts prélèvements obligatoires.\n→ A{Laffer}, O{Courbe de Laffer} (D{1974}) : au-delà d'un seuil, la hausse du taux peut réduire l'assiette taxable."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-anglais-1",
+   "matiere": "anglais",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
+   "minutes": 3,
+   "titre": "États-Unis : Donald Trump impose aux prestataires fédéraux de consulter la Maison-Blanche avant de répondre au Congrès",
+   "dossier": "controle-congres-contrats-federaux",
+   "faits": "Le 20 novembre 2026 au soir, Donald Trump a signé un décret présidentiel ordonnant aux entreprises prestataires et sous-traitantes de l'État fédéral de consulter son administration avant de répondre à toute demande d'information du Congrès. Les sociétés concernées doivent également retenir les communications que la Maison-Blanche juge couvertes par le privilège exécutif et coordonner leurs réponses avec les agences fédérales. En cas de non-respect, le décret menace les entreprises d'une résiliation de leurs contrats en cours et d'une suspension de toute commande publique future. Cette mesure intervient alors que les démocrates s'apprêtent à prendre le contrôle du Congrès en janvier 2027 et ont fait des contrats publics, notamment au Pentagone, une priorité de leurs futures enquêtes parlementaires. Plus tôt dans la semaine, le conseiller juridique de la Maison-Blanche, Will Scharf, avait déjà demandé aux agences fédérales d'obtenir son accord préalable avant d'accepter de témoigner devant le Congrès. Le représentant démocrate Robert Garcia, chef de file de son parti à la commission de contrôle de la Chambre, a dénoncé une attaque frontale contre le droit constitutionnel du Congrès.",
+   "enjeux": "Ce décret ouvre un bras de fer constitutionnel majeur autour du principe américain des **checks and balances** (freins et contrepoids) entre le pouvoir exécutif et le pouvoir législatif. La capacité du Congrès à contrôler l'usage des fonds publics (*congressional oversight*) constitue l'un des piliers du contrôle démocratique aux États-Unis, particulièrement en période de **gouvernement divisé**. En invoquant le **privilège exécutif** et en utilisant la menace financière de la commande publique contre des entreprises privées, la Maison-Blanche étend considérablement la portée de la théorie de l'**exécutif unitaire**. Si ce dispositif est contesté en justice, il pourrait donner lieu à une bataille devant la Cour suprême sur les limites du pouvoir présidentiel par décret (*executive order*). Pour les concours, cet épisode illustre concrètement la fragilisation des contre-pouvoirs institutionnels américains.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1697873176711-6fa4b9e33657?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Le Capitole des États-Unis à Washington",
+    "credit": "Toni Pomar / Unsplash",
+    "source": "https://unsplash.com/s/photos/us-capitol-washington"
+   },
+   "vo": {
+    "titre": "US: Trump orders federal contractors to consult the White House before answering Congress",
+    "faits": "Late on 20 November 2026, President Donald Trump signed an executive order requiring federal contractors and subcontractors to consult his administration before responding to any congressional inquiry. Affected companies must also withhold communications the White House deems privileged and coordinate their responses with federal agencies. The order warns that firms failing to comply risk having their existing contracts terminated and future federal work suspended. The move comes as Democrats prepare to take control of Congress in January 2027 and have singled out government contracts, particularly at the Pentagon, as a prime target for investigation. Earlier in the week, White House counsel Will Scharf had already instructed federal agencies to seek approval before agreeing to testify before lawmakers. Rep. Robert Garcia, the ranking Democrat on the House Oversight Committee, condemned the directive as a blatant assault on Congress's constitutional oversight authority.",
+    "enjeux": "The directive sets up a major constitutional clash over the American system of checks and balances between the executive and legislative branches. Congressional oversight of public spending is a cornerstone of democratic accountability in the United States, especially during periods of divided government. By invoking executive privilege and leveraging the financial threat of federal procurement against private firms, the White House is markedly expanding the reach of the unitary executive theory. Should the order face legal challenges, it could trigger a Supreme Court showdown over the boundaries of presidential rule by executive order. For exam essays, this episode offers a sharp illustration of mounting institutional friction within US democracy."
+   },
+   "vocab": [
+    [
+     "congressional oversight",
+     "le contrôle parlementaire (du Congrès)",
+     "Congressional oversight is essential to prevent the misuse of public funds."
+    ],
+    [
+     "an executive order",
+     "un décret présidentiel",
+     "Presidents often rely on executive orders when Congress is deadlocked."
+    ],
+    [
+     "federal contractors",
+     "les prestataires / sous-traitants de l'État fédéral",
+     "Federal contractors account for a huge share of Pentagon spending."
+    ],
+    [
+     "checks and balances",
+     "les freins et contrepoids (séparation des pouvoirs)",
+     "The US Constitution relies on checks and balances to limit executive power."
+    ],
+    [
+     "to withhold information",
+     "retenir / dissimuler des informations",
+     "Lawmakers accused the agency of trying to withhold vital information."
+    ],
+    [
+     "divided government",
+     "la cohabitation / le gouvernement divisé",
+     "Divided government often leads to sharper clashes over federal investigations."
+    ]
+   ],
+   "sujets": [
+    "Are checks and balances still strong enough to restrain presidential power in the United States?",
+    "Does divided government strengthen or paralyse American democracy?"
+   ],
+   "anki": [
+    {
+     "q": "White House rule imposed on US federal contractors (Nov 2026)",
+     "r": "An B{executive order} (D{20 Nov 2026}) requires federal contractors to consult the White House before answering B{Congress}, under threat of losing contracts.\n→ Hook for an essay on B{checks and balances} and executive overreach in a divided government."
+    },
+    {
+     "q": "Constitutional principle challenged by restricting contractors' replies to Congress",
+     "r": "B{Congressional oversight} of public spending, countered by an expanded claim of B{executive privilege}.\n→ Shows how the White House can use federal procurement to blunt legislative scrutiny."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-anglais-2",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/21/us/politics/judge-trump-homeless-aid-addiction-treatment.html",
+   "minutes": 3,
+   "titre": "États-Unis : une juge fédérale bloque la réforme de l'aide aux sans-abri voulue par l'administration Trump",
+   "dossier": "politique-sans-abri-etats-unis",
+   "faits": "Le 20 novembre 2026, la juge fédérale Mary McElroy, du district de Rhode Island, a bloqué les principales dispositions de la réforme fédérale de l'aide aux sans-abri portée par l'administration Trump. Le ministère du Logement et du Développement urbain (HUD) souhaitait réorienter 1,3 milliard de dollars, sur les plus de 4 milliards alloués par le Congrès au programme Continuum of Care, afin de rompre avec l'approche dite du « Housing First ». Ce modèle privilégie l'accès rapide à un logement permanent sans condition préalable de sobriété ou d'emploi, alors que l'exécutif voulait favoriser les hébergements temporaires et conditionner l'aide à un suivi des addictions. Saisie par une coalition d'États et d'associations de défense du logement, la magistrate a estimé que le HUD avait outrepassé son autorité légale au regard de la loi McKinney-Vento. Elle a reproché à l'agence d'avoir contourné les critères votés par le Congrès et pénalisé les opérateurs refusant d'imposer des traitements obligatoires. Le tribunal a ordonné au ministère de rouvrir la procédure de subventions et de verser l'intégralité des fonds avant le 31 décembre 2026.",
+   "enjeux": "Cette décision met en lumière deux fractures majeures de la société américaine : la crise persistante du **sans-abrisme** et le rôle croissant des tribunaux fédéraux comme contre-pouvoir face à l'exécutif. Sur le fond, le procès oppose deux philosophies de politique sociale : le modèle **Housing First**, soutenu par de nombreux chercheurs pour stabiliser les personnes vulnérables avant tout suivi médical, et une approche plus conservatrice qui privilégie la **conditionnalité des aides** et la lutte obligatoire contre les addictions. Sur le plan institutionnel, le jugement rappelle que les agences fédérales ne peuvent pas redéfinir seules l'usage de crédits votés par le Congrès, illustrant le poids du **pouvoir judiciaire** dans le fédéralisme américain. L'affaire révèle aussi l'ampleur de la crise du logement abordable aux États-Unis, que la polarisation politique rend difficile à traiter de manière consensuelle.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1648846381937-e49d6dd3d120?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Tente installée sur un trottoir en milieu urbain",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/homeless-tent"
+   },
+   "vo": {
+    "titre": "US: federal judge blocks Trump administration's overhaul of homelessness aid",
+    "faits": "On 20 November 2026, US District Judge Mary McElroy in Rhode Island struck down key parts of the Trump administration's planned overhaul of federal homelessness funding. The Department of Housing and Urban Development (HUD) had sought to redirect $1.3 billion out of more than $4 billion appropriated by Congress for the Continuum of Care program, moving away from the longstanding Housing First model. That approach prioritises placing people into permanent housing without prerequisites such as sobriety or employment, whereas the administration wanted to favour temporary shelters and mandatory addiction treatment. Acting on a lawsuit brought by states and housing advocacy groups, Judge McElroy ruled that HUD had exceeded its statutory authority under the McKinney-Vento Act. She found the agency had unlawfully bypassed congressional criteria and penalised providers that did not impose treatment conditions. The court ordered HUD to reopen grant applications and distribute the full funding by 31 December 2026.",
+    "enjeux": "The ruling highlights two enduring fault lines in American public life: the deepening homelessness crisis and the growing role of federal courts in checking executive action. Substantively, the case pits two competing philosophies of social policy against each other: the Housing First model, widely backed by researchers as a foundation for recovery, versus a conservative emphasis on conditional aid and compulsory addiction treatment. Institutionally, the decision underscores that federal agencies cannot unilaterally rewrite spending rules laid down by Congress, illustrating the weight of judicial review in US federalism. It also exposes how acute political polarisation hampers consensus on America's affordable housing emergency."
+   },
+   "vocab": [
+    [
+     "homelessness",
+     "le sans-abrisme",
+     "Rising rents have pushed homelessness to record levels in major US cities."
+    ],
+    [
+     "to strike down a policy",
+     "invalider / censurer une mesure (en justice)",
+     "A federal court moved to strike down the agency's new funding rules."
+    ],
+    [
+     "Housing First",
+     "l'approche « Logement d'abord »",
+     "Supporters of Housing First argue that shelter must precede addiction treatment."
+    ],
+    [
+     "statutory authority",
+     "la compétence / l'autorité conférée par la loi",
+     "The judge ruled that the department had exceeded its statutory authority."
+    ],
+    [
+     "addiction treatment",
+     "la prise en charge des addictions",
+     "Access to affordable addiction treatment remains uneven across American states."
+    ],
+    [
+     "grant applications",
+     "les demandes de subventions",
+     "Local charities had to resubmit their grant applications before the deadline."
+    ]
+   ],
+   "sujets": [
+    "Should social assistance in the United States be unconditional or tied to behavioural requirements?",
+    "Have federal courts become the main counterweight to executive power in America?"
+   ],
+   "anki": [
+    {
+     "q": "Federal court ruling on US homelessness funding (Nov 2026)",
+     "r": "A Rhode Island federal judge blocked HUD from redirecting C{$1.3bn} (out of C{$4bn+}) away from the B{Housing First} model toward conditional treatment shelters (D{20 Nov 2026}).\n→ Hook for an essay on B{social welfare}, homelessness or B{judicial review} in the US."
+    },
+    {
+     "q": "Core debate between Housing First and conditional homelessness aid",
+     "r": "Unconditional permanent housing as a prerequisite for recovery versus temporary shelters tied to sobriety or B{addiction treatment}.\n→ Illustrates the ideological divide over the US welfare state and individual responsibility."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-anglais-3",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/21/suffolk-village-votes-to-leave-the-uk-over-plans-to-house-asylum-seekers-nearby",
+   "minutes": 3,
+   "titre": "Royaume-Uni : un village du Suffolk vote symboliquement son « départ » du pays contre un centre de demandeurs d'asile",
+   "dossier": "accueil-demandeurs-asile-royaume-uni",
+   "faits": "Le 21 novembre 2026, les habitants de Barnham, un village rural du Suffolk, ont voté symboliquement pour « quitter le Royaume-Uni » lors d'un référendum local organisé contre un projet gouvernemental d'hébergement de demandeurs d'asile. Londres envisage en effet d'installer jusqu'à 930 demandeurs d'asile sur l'ancienne base militaire de RAF Barnham, l'un des trois sites du ministère de la Défense retenus en juin dernier. Sur environ 500 habitants inscrits, 257 ont voté en faveur d'une indépendance symbolique, contre 16 voix contre et un bulletin nul. Les organisateurs proposaient de réclamer un statut de « dépendance de la Couronne », comparable à Jersey ou Guernesey, pour rester fidèles à la monarchie tout en échappant à la tutelle du ministère de l'Intérieur. Une consultation similaire avait déjà eu lieu en septembre à Piddington, dans l'Oxfordshire, face à un projet visant plus de 1 000 migrants sur une autre ancienne base. Le député local a reconnu des inquiétudes légitimes sur les infrastructures, tout en accusant l'opposition d'instrumentaliser la colère pour attiser les tensions raciales.",
+   "enjeux": "Au-delà de son caractère insolite, ce vote révèle la profonde crise politique et territoriale provoquée par la gestion de l'**asile au Royaume-Uni**. Le recours à d'anciennes bases militaires rurales pour fermer les hôtels coûteux où étaient logés les demandeurs d'asile déplace la tension vers des communes peu peuplées aux services publics limités. Le fait qu'un village de 500 habitants doive accueillir près d'un millier de personnes nourrit un fort sentiment d'**abandon des zones rurales** face à Westminster. Politiquement, ces mobilisations locales illustrent la difficulté du gouvernement travailliste à concilier maîtrise budgétaire, obligations humanitaires et apaisement d'un électorat tenté par le **populisme anti-immigration**. En khôlle comme en essai, cet exemple concret éclaire la fracture entre le pouvoir central londonien et l'Angleterre rurale.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1588933505258-28b2fbd2a2a3?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Maison traditionnelle dans un village rural anglais",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/english-village-countryside"
+   },
+   "vo": {
+    "titre": "UK: Suffolk village symbolically votes to leave Britain over asylum housing plans",
+    "faits": "On 21 November 2026, residents of Barnham, a rural village in Suffolk, voted symbolically to leave the United Kingdom in a local referendum protesting government plans to house asylum seekers nearby. Westminster intends to accommodate up to 930 asylum seekers at the former military base of RAF Barnham, one of three Ministry of Defence sites shortlisted in June. Out of roughly 500 eligible villagers, 257 backed symbolic independence, while 16 voted against and one ballot was spoiled. Organisers proposed seeking crown dependency status, akin to Jersey or Guernsey, so the parish could remain loyal to the monarchy while removing itself from Home Office jurisdiction. A similar vote took place in September in Piddington, Oxfordshire, over plans to house more than 1,000 migrants at another disused base. The local MP acknowledged genuine concerns about local services, while accusing opposition parties of exploiting residents' anger to stir up racial discord.",
+    "enjeux": "Beyond its tongue-in-cheek format, the vote exposes the acute political and territorial strain caused by Britain's asylum system. Turning disused rural military bases into accommodation centres to cut the soaring cost of migrant hotels shifts the burden onto small communities with stretched public services. Housing nearly a thousand newcomers next to a village of 500 residents fuels a deep sense of rural alienation from Westminster. Politically, these grassroots revolts highlight the Labour government's struggle to balance fiscal restraint, humanitarian duties and an electorate increasingly drawn to anti-immigration populism. In essays, the episode neatly illustrates the widening rift between central government and rural England."
+   },
+   "vocab": [
+    [
+     "asylum seekers",
+     "les demandeurs d'asile",
+     "Councils often struggle to house asylum seekers when local services are stretched."
+    ],
+    [
+     "a former military base",
+     "une ancienne base militaire",
+     "The Home Office plans to convert a former military base into accommodation."
+    ],
+    [
+     "the Home Office",
+     "le ministère britannique de l'Intérieur",
+     "The Home Office faces growing pressure to cut asylum hotel costs."
+    ],
+    [
+     "a symbolic referendum",
+     "un référendum symbolique",
+     "Villagers held a symbolic referendum to protest against central government plans."
+    ],
+    [
+     "crown dependency status",
+     "le statut de dépendance de la Couronne",
+     "Crown dependency status gives islands autonomy from Westminster on domestic matters."
+    ],
+    [
+     "to stir up discord",
+     "attiser les tensions / la discorde",
+     "Critics accused rival politicians of trying to stir up discord in the community."
+    ]
+   ],
+   "sujets": [
+    "Why has asylum accommodation become such a divisive issue in British politics?",
+    "Is the divide between Westminster and rural Britain growing wider?"
+   ],
+   "anki": [
+    {
+     "q": "Symbolic protest vote in Barnham, Suffolk (Nov 2026)",
+     "r": "Residents voted C{257} to C{16} to symbolically 'leave the UK' in protest against plans to house C{930} B{asylum seekers} at a former RAF base next to a village of C{500} (D{21 Nov 2026}).\n→ Hook for an essay on B{asylum policy} or the Westminster vs rural Britain divide."
+    },
+    {
+     "q": "Why the UK government uses former military bases for asylum seekers",
+     "r": "To reduce reliance on expensive B{migrant hotels}, though this triggers local backlash in small rural parishes.\n→ Shows the trade-off between fiscal restraint and local consent in British immigration policy."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-anglais-4",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo",
+   "minutes": 3,
+   "titre": "Royaume-Uni : les projets de registres d'entreprises à Jersey et Guernesey jugés insuffisants contre l'argent sale",
+   "dossier": "transparence-fiscale-iles-anglo-normandes",
+   "faits": "Le 22 novembre 2026, la BBC rapporte les vives critiques du député britannique Sir Andrew Mitchell contre les projets de transparence financière présentés par Jersey et Guernesey. Les deux dépendances de la Couronne ont détaillé leur projet permettant à des demandeurs agréés — journalistes, chercheurs ou organisations ayant un « intérêt légitime » — d'accéder aux registres identifiant les propriétaires réels des sociétés immatriculées sur leurs territoires. Cette démarche fait suite à un engagement commun pris en décembre 2023 par Jersey, Guernesey et l'île de Man pour lutter contre le blanchiment d'argent et la criminalité financière. Jusqu'ici, ces données restaient réservées aux autorités policières, aux régulateurs et à certains professionnels tenus à des contrôles antiblanchiment. Or la consultation de Jersey prévoit que les demandeurs devront prouver avoir épuisé toutes les autres sources raisonnables avant d'obtenir l'accès au registre. Sir Andrew Mitchell dénonce un piège absurde qui empêche les enquêteurs de détecter des fraudes ou des menaces de sécurité nationale.",
+   "enjeux": "Ce dossier illustre la tension persistante entre le rôle mondial de la finance britannique et la lutte contre l'**opacité fiscale** dans les **dépendances de la Couronne**. En tant que centres financiers offshore proches de la City de Londres, Jersey et Guernesey défendent la confidentialité des affaires et leur autonomie juridique, tandis que les parlementaires de Westminster réclament des **registres publics des bénéficiaires effectifs**. Le critère restrictif de l'« intérêt légitime » montre les limites de l'autorégulation lorsqu'elle reste subordonnée à des filtres administratifs dissuasifs pour les journalistes d'investigation. L'enjeu dépasse la seule évasion fiscale : comme le rappelle Sir Andrew Mitchell, les sociétés écrans facilitent le **blanchiment d'argent** et le détournement de fonds venus des pays du Sud. Pour un essai de civilisation britannique, cet exemple actualise le débat sur l'héritage post-impérial des paradis fiscaux liés à Londres.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1659870525989-04899a2461c5?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Port britannique bordé de bateaux le long de la côte",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/uk-harbour-boats"
+   },
+   "vo": {
+    "titre": "UK: MP criticises Channel Islands' plans for company ownership registers",
+    "faits": "On 22 November 2026, the BBC reported sharp criticism from Westminster MP Sir Andrew Mitchell over new corporate transparency proposals unveiled by Jersey and Guernsey. The two Crown Dependencies outlined plans to grant approved applicants — including journalists and academics with a legitimate interest — access to registers showing who ultimately owns or controls locally registered companies. The proposals stem from a December 2023 joint pledge by Jersey, Guernsey and the Isle of Man to strengthen safeguards against money laundering and financial crime. At present, beneficial ownership data is largely restricted to law enforcement agencies, regulators and regulated firms conducting compliance checks. Under Jersey's consultation response, however, applicants would have to prove that all reasonable alternative sources had been exhausted before access is granted. Sir Andrew warned this creates a catch-22 that undermines the purpose of a register and risks hiding national security threats.",
+    "enjeux": "The dispute highlights the enduring tension between Britain's global financial network and the fight against offshore secrecy in the Crown Dependencies. Acting as major offshore centres closely linked to the City of London, Jersey and Guernsey seek to protect commercial confidentiality and constitutional autonomy, while Westminster campaigners push for fully public beneficial ownership registers. Restrictive legitimate-interest thresholds show the limits of transparency reforms when administrative hurdles deter investigative journalists. The stakes extend beyond tax avoidance: as Sir Andrew stressed, shell companies enable money laundering and the siphoning of dirty money from the global south. For British civilisation essays, the case brings up to date the debate over the UK's offshore financial ecosystem."
+   },
+   "vocab": [
+    [
+     "beneficial ownership",
+     "la propriété réelle / les bénéficiaires effectifs",
+     "Public beneficial ownership registers make it harder to hide behind shell companies."
+    ],
+    [
+     "Crown Dependencies",
+     "les dépendances de la Couronne (Jersey, Guernesey, île de Man)",
+     "The Crown Dependencies set their own tax rules outside Westminster."
+    ],
+    [
+     "money laundering",
+     "le blanchiment d'argent",
+     "Banks face heavy fines if they fail to prevent money laundering."
+    ],
+    [
+     "a legitimate interest",
+     "un intérêt légitime",
+     "Journalists must prove a legitimate interest to inspect the restricted files."
+    ],
+    [
+     "a catch-22",
+     "une situation inextricable / un cercle vicieux",
+     "Needing proof of fraud before seeing the register creates a classic catch-22."
+    ],
+    [
+     "dirty money",
+     "l'argent sale",
+     "Campaigners want London to stem the flow of dirty money through offshore hubs."
+    ]
+   ],
+   "sujets": [
+    "Should Westminster force the Crown Dependencies to adopt fully public company registers?",
+    "Is the United Kingdom doing enough to tackle offshore secrecy and dirty money?"
+   ],
+   "anki": [
+    {
+     "q": "Criticism of Jersey and Guernsey's company register plans (Nov 2026)",
+     "r": "MP Sir Andrew Mitchell called the plans a B{catch-22} because Jersey expects applicants to exhaust all other sources before inspecting B{beneficial ownership} data (D{22 Nov 2026}).\n→ Hook for an essay on B{tax havens}, offshore secrecy and Britain's financial sector."
+    },
+    {
+     "q": "Who can currently access company ownership registers in the Channel Islands",
+     "r": "Mainly law enforcement, regulators and regulated firms, despite the D{December 2023} pledge to open access to those with a B{legitimate interest}.\n→ Shows the slow pace of anti-money laundering reform in the B{Crown Dependencies}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/2026-11-22/los-fallos-en-los-sistemas-antiblanqueo-ponen-a-revolut-y-otros-neobancos-en-el-punto-de-mira.html",
+   "minutes": 3,
+   "titre": "Espagne : les failles antiblanchiment placent Revolut et les néobanques sous surveillance en Europe",
+   "dossier": "neobanques-blanchiment-espagne",
+   "faits": "Le 22 novembre 2026, El País analyse l'inquiétude suscitée en Espagne et en Europe par les défaillances des systèmes de lutte contre le blanchiment de capitaux chez les néobanques, au premier rang desquelles Revolut. Le dossier a pris une ampleur particulière après la décision de la justice italienne de placer la succursale de Revolut en Italie sous administration judiciaire pour un an. Le parquet et le tribunal de Milan reprochent à la banque numérique des filtres insuffisants qui n'auraient pas bloqué ni signalé des opérations suspectes de dizaines de millions d'euros, liées en partie au crime organisé. En Espagne, où Revolut compte des millions de clients, la filiale locale a tenté de rassurer en assurant qu'elle ne faisait l'objet d'aucune enquête pénale sur le territoire espagnol et que les comptes fonctionnaient normalement. L'affaire relance néanmoins la vigilance des régulateurs européens envers l'ensemble des banques 100 % numériques à croissance très rapide.",
+   "enjeux": "L'essor fulgurant des **néobanques** en Espagne et en Europe a profondément transformé les services bancaires grâce à des frais réduits et à une ouverture de compte instantanée sur smartphone. Mais cette croissance fondée sur la simplicité et le volume crée une tension structurelle avec les exigences de **conformité bancaire** (*compliance*) et de **lutte contre le blanchiment** (*prevención de blanqueo de capitales*). Contrairement aux banques traditionnelles dotées de lourds dispositifs de contrôle, certains acteurs numériques peinent à adapter leur surveillance au rythme de l'afflux de nouveaux clients et de flux transfrontaliers. L'épisode souligne aussi les limites d'une supervision financière encore fragmentée entre États membres au sein du marché unique européen. En essai d'espagnol, ce sujet permet de réfléchir aux dérives de la **numérisation financière** et au rôle indispensable de la régulation publique.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1635950340810-2fb374521a7b?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Paiement bancaire par carte et smartphone",
+    "credit": "CardMapr.nl / Unsplash",
+    "source": "https://unsplash.com/s/photos/mobile-banking"
+   },
+   "vo": {
+    "titre": "España: los fallos antiblanqueo ponen a Revolut y a los neobancos bajo vigilancia en Europa",
+    "faits": "El 22 de noviembre de 2026, El País analiza la preocupación generada en España y en Europa por las deficiencias en los sistemas de prevención del blanqueo de capitales de los neobancos, con Revolut en el centro del debate. El caso cobró gran repercusión tras la decisión de la justicia italiana de someter a administración judicial durante un año la sucursal de Revolut en Italia. La Fiscalía y el Tribunal de Milán reprochan a la entidad digital filtros insuficientes que no frenaron ni notificaron operaciones sospechosas por decenas de millones de euros, vinculadas en parte a la delincuencia organizada. En España, donde Revolut cuenta con millones de clientes, la filial local trató de tranquilizar asegurando que no es objeto de ninguna investigación penal en territorio español y que las cuentas operan con normalidad. Sin embargo, el episodio ha redoblado la vigilancia de los supervisores europeos sobre toda la banca exclusivamente digital.",
+    "enjeux": "El auge fulgurante de los neobancos en España y en Europa ha transformado la banca minorista gracias a comisiones bajas y a la apertura inmediata de cuentas desde el móvil. No obstante, ese crecimiento apoyado en la agilidad genera una tensión estructural con las exigencias de cumplimiento normativo y de prevención del blanqueo de capitales. Frente a la banca tradicional, que arrastra pesados dispositivos de control, algunas entidades digitales tienen dificultades para reforzar su vigilancia al mismo ritmo que crecen sus clientes y los flujos transfronterizos. El caso pone además de relieve los límites de una supervisión financiera todavía fragmentada entre Estados miembros dentro del mercado único. En un ensayo, permite debatir el equilibrio entre innovación financiera y regulación pública."
+   },
+   "vocab": [
+    [
+     "el blanqueo de capitales",
+     "le blanchiment de capitaux",
+     "Los reguladores exigen controles estrictos contra el blanqueo de capitales."
+    ],
+    [
+     "un neobanco",
+     "une néobanque (banque en ligne)",
+     "Muchos jóvenes eligen un neobanco por sus bajas comisiones."
+    ],
+    [
+     "la administración judicial",
+     "la mise sous administration judiciaire",
+     "El tribunal decretó la administración judicial de la sucursal durante un año."
+    ],
+    [
+     "en el punto de mira",
+     "dans le collimateur / sous surveillance",
+     "Las plataformas digitales están en el punto de mira de Bruselas."
+    ],
+    [
+     "una sucursal",
+     "une succursale",
+     "La entidad aclaró que la sanción solo afecta a su sucursal italiana."
+    ],
+    [
+     "el cumplimiento normativo",
+     "la conformité réglementaire",
+     "El cumplimiento normativo exige inversiones crecientes en tecnología y personal."
+    ]
+   ],
+   "sujets": [
+    "¿Debe Europa endurecer la regulación de los neobancos y las plataformas financieras digitales?",
+    "¿La digitalización de la banca beneficia realmente a los ciudadanos?"
+   ],
+   "anki": [
+    {
+     "q": "Medida judicial contra Revolut que alerta a los reguladores europeos (noviembre 2026)",
+     "r": "La justicia italiana puso la sucursal de Revolut bajo B{administración judicial} durante C{un año} por fallos contra el B{blanqueo de capitales}, reabriendo el debate sobre los neobancos en España (D{22 de noviembre de 2026}).\n→ Ejemplo útil para un ensayo sobre la regulación financiera y la banca digital en Europa."
+    },
+    {
+     "q": "Tensión estructural del modelo de crecimiento de los neobancos",
+     "r": "Captación masiva y rápida de clientes frente a las exigencias de B{cumplimiento normativo} y control de flujos transfronterizos.\n→ Muestra que la innovación financiera sin supervisión adecuada aumenta el riesgo sistémico y delictivo."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/economia/2026/11/22/6ad78f0be85ece69198b4591.html",
+   "minutes": 3,
+   "titre": "Espagne : 3,3 milliards d'euros de fonds européens pour numériser l'administration, mais une bureaucratie jugée pesante",
+   "dossier": "numerisation-services-publics-espagne",
+   "faits": "Le 22 novembre 2026, El Mundo dresse un bilan critique de la numérisation des administrations publiques espagnoles, cinq ans après le lancement de l'Agenda España Digital 2025. Initialement doté de 2,6 milliards d'euros de fonds européens, puis porté à plus de 3,3 milliards après l'avenant de 2023 au plan de relance, ce programme a déjà été exécuté à plus de 74 %. Pourtant, la promesse d'un guichet unique en ligne simple et efficace ne s'est accomplie qu'à moitié, selon des fonctionnaires et des usagers interrogés par le quotidien. Une déléguée syndicale de la Sécurité sociale à León explique que les outils numériques fonctionnent pour les démarches simples, mais multiplient les applications complexes pour le reste et éloignent l'administration du citoyen. D'après le premier baromètre de la numérisation réalisé par Línea Directa et Neovantas, 30,4 % des Espagnols ont subi des pannes ou des coupures sur les sites publics. Les critiques estiment que la dématérialisation a surtout transféré la charge administrative vers les citoyens eux-mêmes.",
+   "enjeux": "Ce bilan pose la question de l'efficacité réelle des **fonds européens Next Generation EU** dans la modernisation de l'État espagnol. L'investissement massif dans le numérique ne suffit pas à améliorer la qualité des **services publics** si les procédures ne sont pas simplifiées en amont et si les outils restent instables. Sur le plan social, la généralisation de la **ventanilla online** (guichet en ligne) aggrave la **fracture numérique** (*brecha digital*), en pénalisant les personnes âgées, les ménages modestes et les habitants de l'« Espagne vidée » (*España vaciada*). En transférant une partie du travail administratif aux usagers, la dématérialisation peut nourrir la défiance envers les institutions publiques. En essai d'espagnol, ce cas concret illustre les limites du tout-numérique dans l'action publique.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1655814695913-b78ba009ceb3?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Bâtiments historiques sur la Gran Vía à Madrid",
+    "credit": "Salva Uf / Unsplash",
+    "source": "https://unsplash.com/s/photos/madrid"
+   },
+   "vo": {
+    "titre": "España: más de 3.300 millones de fondos europeos en digitalización pública con trámites aún pesados",
+    "faits": "El 22 de noviembre de 2026, El Mundo hace un balance crítico de la digitalización de las Administraciones públicas españolas, cinco años después del lanzamiento de la Agenda España Digital 2025. Dotado inicialmente con 2.600 millones de euros de fondos europeos y ampliado después hasta más de 3.300 millones tras la adenda de 2023 al Plan de Recuperación, el presupuesto ya se ha ejecutado en más de un 74 %. Sin embargo, la promesa de una ventanilla única en línea ágil y eficaz solo se ha cumplido a medias, según funcionarios y usuarios consultados por el diario. Una delegada sindical de la Seguridad Social en León señala que la tecnología resuelve los trámites sencillos, pero obliga a usar múltiples aplicaciones y aleja a la Administración del ciudadano. Según el I Barómetro de la Digitalización de Línea Directa y Neovantas, un 30,4 % de los usuarios ha sufrido fallos o caídas en las webs estatales. Las críticas coinciden en que el proceso ha acabado trasladando gran parte de la carga burocrática al propio ciudadano.",
+    "enjeux": "Este balance cuestiona la eficacia real de los fondos europeos Next Generation EU para modernizar el Estado español. Invertir miles de millones en tecnología no garantiza mejores servicios públicos si antes no se simplifican los procedimientos y no se asegura la estabilidad de los sistemas informáticos. Desde el punto de vista social, la generalización de la ventanilla en línea agrava la brecha digital, perjudicando especialmente a las personas mayores y a los habitantes de la España vaciada. Al desplazar parte del trabajo administrativo hacia los usuarios, la digitalización mal diseñada puede alimentar la desconfianza hacia las instituciones. En un ensayo, este ejemplo permite matizar el entusiasmo por la administración electrónica."
+   },
+   "vocab": [
+    [
+     "la ventanilla única",
+     "le guichet unique",
+     "El Gobierno prometió una ventanilla única para agilizar los trámites."
+    ],
+    [
+     "los trámites administrativos",
+     "les démarches administratives",
+     "Muchos ciudadanos se quejan de la complejidad de los trámites administrativos."
+    ],
+    [
+     "la brecha digital",
+     "la fracture numérique",
+     "La brecha digital excluye a una parte de las personas mayores."
+    ],
+    [
+     "una caída de servidor",
+     "une panne de serveur",
+     "Una caída de servidor impidió presentar las solicitudes a tiempo."
+    ],
+    [
+     "la carga de trabajo",
+     "la charge de travail",
+     "La falta de personal aumenta la carga de trabajo en las oficinas públicas."
+    ],
+    [
+     "ejecutar un presupuesto",
+     "exécuter / dépenser un budget",
+     "España ya ha ejecutado gran parte del presupuesto europeo."
+    ]
+   ],
+   "sujets": [
+    "¿La digitalización acerca o aleja los servicios públicos de los ciudadanos en España?",
+    "¿Han servido realmente los fondos europeos para modernizar la economía y el Estado españoles?"
+   ],
+   "anki": [
+    {
+     "q": "Inversión europea y fallos en la digitalización administrativa española (noviembre 2026)",
+     "r": "Más de C{3.300 M€} (ejecutados en más de un C{74 %}), pero un C{30,4 %} de ciudadanos ha sufrido caídas en las webs estatales (D{22 de noviembre de 2026}).\n→ Accroche para un ensayo sobre la B{brecha digital} o la eficacia de los fondos europeos en España."
+    },
+    {
+     "q": "Principal crítica de usuarios y funcionarios a la ventanilla online española",
+     "r": "No simplifica los trámites complejos y traslada la B{carga burocrática} al ciudadano.\n→ Muestra los límites de la modernización tecnológica cuando no va acompañada de atención presencial."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-espagnol-3",
+   "matiere": "espagnol",
+   "source": "La Tercera",
+   "url": "https://www.latercera.com/politica/noticia/chile-y-bolivia-reactivan-mecanismo-de-consultas-politicas-tras-16-anos-y-apuntan-a-normalizar-relaciones-diplomaticas/",
+   "minutes": 3,
+   "titre": "Chili et Bolivie : les deux pays réactivent leurs consultations politiques après 16 ans pour normaliser leurs relations",
+   "dossier": "rapprochement-chili-bolivie",
+   "faits": "Le 21 novembre 2026, La Tercera annonce que le Chili et la Bolivie ont tenu la 23e réunion de leur Mécanisme de consultations politiques, une instance bilatérale qui n'avait plus siégé depuis 2010, soit seize ans. La rencontre a été coprésidée par le ministre chilien par intérim des Affaires étrangères, Patricio Torres, et par le vice-ministre bolivien des Affaires étrangères, Carlos Paz. Cette relance répond au mandat fixé par les présidents chilien José Antonio Kast et bolivien Rodrigo Paz dans leur déclaration conjointe signée à La Paz le 16 octobre 2026. Les deux gouvernements ont salué une année de dialogue intensifié, marquée par des rencontres présidentielles, une commission bilatérale consulaire et migratoire, ainsi que des accords sur le commerce, les mines, l'énergie et la connectivité numérique. Dans un communiqué commun, Santiago et La Paz affirment leur volonté d'avancer vers la normalisation complète de leurs relations diplomatiques avec pragmatisme et gradualité. Les discussions ont notamment porté sur l'intégration physique et la connectivité transfrontalière dans les Andes.",
+   "enjeux": "Ce rapprochement marque un tournant géopolitique majeur en **Amérique du Sud**, où les relations diplomatiques entre le Chili et la Bolivie sont rompues au niveau des ambassadeurs depuis 1978 en raison du contentieux historique sur l'accès bolivien à l'océan Pacifique, perdu lors de la guerre du Pacifique (1879-1884). L'alignement politique entre les nouveaux présidents José Antonio Kast et Rodrigo Paz favorise une approche pragmatique qui dissocie la coopération économique des différends territoriaux anciens. Les intérêts matériels sont considérables : gestion partagée des **flux migratoires** à la frontière nord du Chili, lutte contre le crime transnational et valorisation du **triangle du lithium** andin, stratégique pour la transition énergétique mondiale. En civilisation hispano-américaine, cet épisode montre comment le pragmatisme économique et sécuritaire peut surmonter des rivalités nationales séculaires.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1653465229786-b10f53e91b36?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Sommets de la cordillère des Andes entre le Chili et la Bolivie",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/andes-mountains"
+   },
+   "vo": {
+    "titre": "Chile y Bolivia reactivan sus consultas políticas tras 16 años para normalizar relaciones",
+    "faits": "El 21 de noviembre de 2026, La Tercera informó de que Chile y Bolivia celebraron la 23ª reunión de su Mecanismo de Consultas Políticas, una instancia bilateral que no sesionaba desde 2010, hace dieciséis años. El encuentro fue copresidido por el ministro subrogante de Relaciones Exteriores chileno, Patricio Torres, y por el viceministro boliviano de Relaciones Exteriores, Carlos Paz. La reanudación responde al mandato acordado por los presidentes José Antonio Kast y Rodrigo Paz en la declaración conjunta firmada en La Paz el 16 de octubre de 2026. Ambos gobiernos destacaron un año de intenso diálogo, con una comisión bilateral en asuntos consulares y migratorios, así como acuerdos en comercio, minería, energía y conectividad digital. En su comunicado, Santiago y La Paz expresaron su voluntad de avanzar hacia la normalización diplomática con pragmatismo y gradualidad. Las delegaciones revisaron especialmente la agenda de integración física y conectividad en la frontera andina.",
+    "enjeux": "Este acercamiento supone un giro geopolítico relevante en Sudamérica, ya que ambos países carecen de relaciones diplomáticas plenas a nivel de embajadores desde 1978 por la disputa histórica sobre la salida boliviana al océano Pacífico. La sintonía entre los presidentes José Antonio Kast y Rodrigo Paz impulsa un enfoque pragmático que separa la cooperación económica de los litigios históricos. Los intereses compartidos son estratégicos: control de los flujos migratorios en el norte chileno, seguridad fronteriza y desarrollo del sector minero y energético, incluido el litio andino. En un ensayo sobre América Latina, este episodio ilustra cómo el pragmatismo económico y la seguridad regional pueden abrir paso a la integración pese a rivalidades centenarias."
+   },
+   "vocab": [
+    [
+     "normalizar las relaciones diplomáticas",
+     "normaliser les relations diplomatiques",
+     "Ambos gobiernos buscan normalizar las relaciones diplomáticas tras décadas de tensión."
+    ],
+    [
+     "un mecanismo de consultas",
+     "un mécanisme de consultations",
+     "La reactivación del mecanismo de consultas facilita el diálogo bilateral."
+    ],
+    [
+     "la integración física",
+     "l'intégration par les infrastructures",
+     "La integración física mejora el comercio a través de la cordillera."
+    ],
+    [
+     "diferencias históricas",
+     "des différends historiques",
+     "Los dos países decidieron aparcar sus diferencias históricas para cooperar."
+    ],
+    [
+     "la seguridad fronteriza",
+     "la sécurité frontalière",
+     "La seguridad fronteriza y la migración son prioridades para Santiago."
+    ],
+    [
+     "un enfoque pragmático",
+     "une approche pragmatique",
+     "Los cancilleres defendieron un enfoque pragmático basado en intereses comunes."
+    ]
+   ],
+   "sujets": [
+    "¿Puede la cooperación económica superar las rivalidades históricas en América Latina?",
+    "¿Qué obstáculos frenan todavía la integración regional en América del Sur?"
+   ],
+   "anki": [
+    {
+     "q": "Hito diplomático entre Chile y Bolivia (noviembre 2026)",
+     "r": "Reactivación de su Mecanismo de Consultas Políticas tras C{16 años} (sin reunirse desde D{2010}), bajo el impulso de los presidentes Kast y Paz (D{21 de noviembre de 2026}).\n→ Accroche para un ensayo sobre la B{integración regional} y el pragmatismo diplomático en América Latina."
+    },
+    {
+     "q": "Ámbitos clave de la nueva agenda bilateral entre Santiago y La Paz",
+     "r": "Cooperación B{migratoria}, seguridad fronteriza, minería, energía e B{integración física}, pese a la ruptura de embajadores desde D{1978}.\n→ Demuestra que los intereses económicos y de seguridad pesan cada vez más frente a los litigios históricos."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-espagnol-4",
+   "matiere": "espagnol",
+   "source": "El Tiempo",
+   "url": "https://www.eltiempo.com/economia/sectores/tras-giro-del-iva-a-la-canasta-familiar-gobierno-y-congreso-buscan-ahora-como-cuadrar-las-cuentas-3603094",
+   "minutes": 3,
+   "titre": "Colombie : après le retrait de la TVA sur le panier de base, gouvernement et Congrès cherchent à boucler le budget",
+   "dossier": "reforme-fiscale-tva-colombie",
+   "faits": "Le 21 novembre 2026, El Tiempo analyse le casse-tête budgétaire ouvert en Colombie après la volte-face du gouvernement sur la taxation des produits alimentaires de base. Dans son projet de réforme fiscale baptisé « Ley de Rescate Económico », déposé fin octobre, l'exécutif du président Abelardo De La Espriella envisageait d'étendre le taux général de TVA de 19 % à plusieurs produits du panier familial jusque-là exonérés ou taxés à 5 %, comme le café, le sucre ou les pâtes. Face à une forte opposition politique et citoyenne, le chef de l'État a reculé et le ministre des Finances, Miguel Gómez Martínez, a confirmé devant le Congrès que les aliments de base et les intrants agricoles resteraient exemptés. Ce retrait laisse toutefois un manque à gagner estimé par les analystes à environ 12 000 milliards de pesos dans les recettes prévues pour 2027. Gouvernement et parlementaires négocient désormais des solutions de remplacement pour équilibrer les comptes publics, notamment des coupes supplémentaires dans la dépense publique et des cessions d'actifs de l'État. Le gouvernement a même ouvert la porte à une éventuelle baisse du taux général de TVA de 19 % à 18 % ou 17 %.",
+   "enjeux": "Cet épisode illustre la difficulté récurrente des **réformes fiscales en Amérique latine**, où les États doivent assainir leurs finances publiques sans déclencher de crise sociale. En Colombie, la **TVA** (*IVA*) sur le panier alimentaire est un sujet politiquement explosif depuis les vastes manifestations de 2021 contre une tentative similaire : impôt indirect, la TVA pèse proportionnellement davantage sur les ménages modestes, ce qui la rend socialement **régressive**. Le recul du président De La Espriella montre les limites de la légitimité parlementaire face à la sensibilité du **pouvoir d'achat** dans une société très inégalitaire. En renonçant à ces recettes, le gouvernement se retrouve contraint à des arbitrages budgétaires serrés entre austérité, privatisations et respect de la règle fiscale. Pour un essai, ce cas éclaire le dilemme latino-américain entre stabilité macroéconomique et acceptabilité sociale de l'impôt.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1759374514091-74aa7d9d073f?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Vue urbaine et commerciale en Colombie",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/bogota-colombia"
+   },
+   "vo": {
+    "titre": "Colombia: tras retirar el IVA a la canasta familiar, Gobierno y Congreso buscan cuadrar las cuentas",
+    "faits": "El 21 de noviembre de 2026, El Tiempo analiza el rompecabezas fiscal abierto en Colombia tras la marcha atrás del Gobierno sobre el IVA a los alimentos básicos. En su proyecto de reforma tributaria, llamado Ley de Rescate Económico y presentado a finales de octubre, el Ejecutivo del presidente Abelardo De La Espriella proponía extender la tarifa general del 19 % a productos de la canasta familiar hasta ahora excluidos o gravados al 5 %, como el café, el azúcar o las pastas. Ante el fuerte rechazo político y ciudadano, el mandatario dio marcha atrás y el ministro de Hacienda, Miguel Gómez Martínez, confirmó ante el Congreso que los alimentos básicos y los agroinsumos quedarán exentos. Este giro deja un hueco de recaudo estimado por los analistas en unos 12 billones de pesos para 2027. Gobierno y ponentes negocian ahora alternativas para cuadrar las cuentas públicas, entre ellas mayores recortes del gasto y la venta de activos estatales. El equipo económico ha abierto incluso la puerta a estudiar una rebaja de la tarifa general del IVA del 19 % al 18 % o 17 %.",
+    "enjeux": "Este episodio ilustra la dificultad recurrente de las reformas tributarias en América Latina, donde los Gobiernos deben sanear las finanzas públicas sin provocar un estallido social. En Colombia, gravar la canasta familiar con IVA es un asunto políticamente inflamable desde las masivas protestas de 2021 contra un intento parecido: al ser un impuesto indirecto, resulta socialmente regresivo porque afecta más a los hogares de menores ingresos. El retroceso del Ejecutivo evidencia la fuerza de la presión ciudadana en torno al poder adquisitivo en una sociedad muy desigual. Al renunciar a esos ingresos, el país se ve obligado a elegir entre recortes del gasto público, enajenación de activos y tensión sobre la regla fiscal. En un ensayo, permite reflexionar sobre el equilibrio entre rigor presupuestario y justicia fiscal en América Latina."
+   },
+   "vocab": [
+    [
+     "la canasta familiar",
+     "le panier de biens de première nécessité",
+     "Subir impuestos a la canasta familiar genera un fuerte rechazo social."
+    ],
+    [
+     "cuadrar las cuentas",
+     "équilibrer les comptes / boucler le budget",
+     "El Ministerio de Hacienda busca fórmulas para cuadrar las cuentas de 2027."
+    ],
+    [
+     "un impuesto regresivo",
+     "un impôt régressif",
+     "Los economistas recuerdan que el IVA es un impuesto regresivo."
+    ],
+    [
+     "el recaudo fiscal",
+     "les recettes fiscales",
+     "La caída del recaudo fiscal obliga a recortar el gasto público."
+    ],
+    [
+     "dar marcha atrás",
+     "faire marche arrière / reculer",
+     "El presidente tuvo que dar marcha atrás ante la presión del Congreso."
+    ],
+    [
+     "los recortes del gasto",
+     "les coupes dans la dépense publique",
+     "Los recortes del gasto suelen afectar a la inversión pública."
+    ]
+   ],
+   "sujets": [
+    "¿Por qué son tan difíciles de aprobar las reformas fiscales en América Latina?",
+    "¿Cómo conciliar equilibrio presupuestario y justicia social en los países latinoamericanos?"
+   ],
+   "anki": [
+    {
+     "q": "Giro fiscal del Gobierno colombiano y su impacto en el presupuesto (noviembre 2026)",
+     "r": "Retiro del B{IVA del C{19 %}} a la B{canasta familiar}, lo que deja un hueco de recaudo estimado en C{12 billones de pesos} para D{2027} (D{21 de noviembre de 2026}).\n→ Accroche para un ensayo sobre la B{justicia fiscal} y el equilibrio presupuestario en América Latina."
+    },
+    {
+     "q": "Por qué el IVA a los alimentos básicos es políticamente explosivo en Colombia",
+     "r": "Es un B{impuesto regresivo} que golpea a los hogares modestos y recuerda las protestas masivas de D{2021}.\n→ Ilustra el límite social del ajuste fiscal mediante impuestos indirectos."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-allemand-1",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/innenpolitik/femizide-mord-gesetzentwurf-100.html",
+   "minutes": 3,
+   "titre": "Allemagne : un projet de loi veut qualifier clairement les féminicides de meurtre",
+   "dossier": "femizide-strafrecht-allemagne",
+   "faits": "Le 22 novembre 2026, Tagesschau révèle que le ministère fédéral allemand de la Justice a préparé un projet de loi destiné à durcir le paragraphe du Code pénal consacré au meurtre (*Mord*). La ministre sociale-démocrate Stefanie Hubig souhaite inscrire explicitement dans la loi les « motifs liés au genre ou autres motifs méprisant la dignité humaine » comme critères qualifiant le meurtre. L'objectif est de viser clairement les cas où un homme tue sa compagne ou son ex-compagne parce qu'elle veut se séparer de lui ou décider librement de sa vie. Selon la ministre, presque chaque jour en Allemagne, un homme tue ou tente de tuer sa partenaire ou son ex-partenaire. Aujourd'hui déjà, ces actes peuvent être jugés comme meurtres si la justice retient des « motifs bas » (*niedrige Beweggründe*), mais ce n'est pas systématique. Stefanie Hubig rejette en revanche la création d'une infraction autonome de « féminicide », estimant que la réforme du texte actuel offre une meilleure sécurité juridique.",
+   "enjeux": "Cette initiative répond à une prise de conscience croissante en Allemagne face aux **violences faites aux femmes** et aux limites de la jurisprudence actuelle sur les « homicides de séparation » (*Trennungstötungen*). En droit pénal allemand, la distinction entre *Totschlag* (homicide volontaire) et *Mord* (meurtre aggravé) est décisive, car seul le *Mord* entraîne obligatoirement la **réclusion criminelle à perpétuité**. Clarifier la loi vise donc à garantir une **sécurité juridique** uniforme devant les tribunaux et à reconnaître explicitement le mobile patriarcal de possession. Le refus de créer un délit spécifique de féminicide reflète aussi la tradition juridique allemande, attachée à des catégories pénales générales plutôt qu'à des lois catégorielles. Pour les concours, ce dossier illustre comment l'Allemagne adapte son droit pénal aux débats européens sur l'égalité femmes-hommes et la protection des victimes.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Marteau de juge et balance de la justice",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/judge-gavel"
+   },
+   "vo": {
+    "titre": "Deutschland: Femizide sollen eindeutig als Mord gelten",
+    "faits": "Das deutsche Justizministerium hat einen neuen Gesetzentwurf vorbereitet. Justizministerin Stefanie Hubig will das Strafrecht verschärfen. Künftig sollen Femizide eindeutig als Mord gelten. Das betrifft Männer, die ihre Partnerin nach einer Trennung töten. Laut Hubig passiert eine solche Tat oder ein Versuch fast jeden Tag. Schon heute urteilen Gerichte oft auf Mord. Aber das geschieht nicht in jedem Fall. Die Ministerin will keinen eigenen Straftatbestand für Femizide schaffen. Stattdessen ergänzt sie das bestehende Gesetz für Mord.",
+    "enjeux": "Gewalt gegen Frauen ist in Deutschland ein großes Problem. Viele Frauen sind nach einer Trennung in Gefahr. Im deutschen Strafrecht ist der Unterschied zwischen Totschlag und Mord sehr wichtig. Nur bei Mord gibt es eine lebenslange Haftstrafe. Der Entwurf soll den Gerichten klare Regeln geben. So sollen Urteile gerechter und einheitlicher werden. Das Gesetz sendet auch ein klares Signal an die Gesellschaft. Der Staat will Frauen besser vor Gewalt schützen."
+   },
+   "vocab": [
+    [
+     "der Gesetzentwurf",
+     "le projet de loi",
+     "Das Ministerium hat einen neuen Gesetzentwurf vorgelegt."
+    ],
+    [
+     "das Strafrecht",
+     "le droit pénal",
+     "Die Regierung will das Strafrecht für Täter verschärfen."
+    ],
+    [
+     "der Mord",
+     "le meurtre (avec circonstances aggravantes)",
+     "Das Gericht hat die Tat als Mord gewertet."
+    ],
+    [
+     "die Trennung",
+     "la séparation",
+     "Nach einer Trennung brauchen viele Frauen besonderen Schutz."
+    ],
+    [
+     "die lebenslange Haftstrafe",
+     "la peine de prison à perpétuité",
+     "Auf Mord steht in Deutschland eine lebenslange Haftstrafe."
+    ],
+    [
+     "das Gericht",
+     "le tribunal",
+     "Das Gericht muss jedes Motiv genau prüfen."
+    ]
+   ],
+   "sujets": [
+    "Schützt das Strafrecht Frauen in Deutschland gut genug?",
+    "Reichen härtere Strafen gegen Gewalt an Frauen aus?"
+   ]
+  },
+  {
+   "id": "2026-11-22-allemand-2",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/gesellschaft/armut-kinder-familien-100.html",
+   "minutes": 3,
+   "titre": "Allemagne : comment la pauvreté infantile pèse directement sur la santé des enfants",
+   "dossier": "kinderarmut-gesundheit-allemagne",
+   "faits": "Le 22 novembre 2026, Tagesschau consacre un dossier à l'impact direct de la pauvreté sur la santé physique et mentale des enfants en Allemagne. Le reportage cite notamment l'exemple de familles contraintes de recourir chaque semaine aux banques alimentaires (*Tafeln*), faute de moyens pour assurer une alimentation équilibrée. Selon des études de long terme de l'Institut Robert Koch, les enfants issus de familles à faibles revenus présentent un risque plus de deux fois supérieur de développer des troubles psychiques. Pour l'obésité sévère, le risque est même trois fois plus élevé que chez les enfants de milieux plus aisés. Le sociologue de la santé Nico Dragano, de l'hôpital universitaire de Düsseldorf, souligne qu'il s'agit d'un lien structurel et non de cas isolés. Les logements trop petits, humides ou mal chauffés en hiver favorisent également les maladies respiratoires, tandis que de nombreuses aides sociales existantes n'atteignent pas les familles concernées.",
+   "enjeux": "Cette enquête met en lumière les failles de l'**État-providence allemand** face à la **pauvreté infantile** (*Kinderarmut*), un sujet sensible dans l'un des pays les plus riches d'Europe. Au-delà du revenu, la précarité se traduit par de profondes **inégalités sociales de santé** qui s'installent dès les premières années de vie et compromettent les chances scolaires et professionnelles futures. Le recours croissant aux associations caritatives comme les *Tafeln* révèle les limites des prestations publiques et le problème du **non-recours aux droits**, souvent dû à la complexité administrative. En civilisation allemande, ce dossier permet de nuancer l'image d'une économie sociale de marché protectrice en montrant la persistance de la reproduction sociale des inégalités.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1633257057305-033b31735407?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Panier de produits alimentaires et légumes",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/grocery-basket"
+   },
+   "vo": {
+    "titre": "Deutschland: Armut macht viele Kinder krank",
+    "faits": "In Deutschland gefährdet Armut die Gesundheit vieler Kinder. Manche Familien holen jede Woche Essen bei der Tafel. Sie haben nicht genug Geld für gesundes Essen. Studien des Robert Koch-Instituts zeigen klare Zahlen. Arme Kinder haben doppelt so oft psychische Probleme. Ihr Risiko für starkes Übergewicht ist sogar dreimal so hoch. Der Forscher Nico Dragano sieht ein strukturelles Problem. Schlechte und kalte Wohnungen führen oft zu Atemwegserkrankungen. Viele staatliche Hilfen kommen bei diesen Familien nicht an.",
+    "enjeux": "Kinderarmut ist ein ernstes Problem in einem reichen Land. Armut beeinflusst die Gesundheit schon in jungen Jahren. Kranke Kinder haben später oft schlechtere Chancen in der Schule. Die Tafeln helfen vielen Menschen im Alltag. Aber Vereine können den Sozialstaat nicht ersetzen. Viele Familien kennen die staatlichen Hilfen nicht oder finden Anträge zu schwer. Deshalb fordern Experten einfachere Hilfen für arme Familien."
+   },
+   "vocab": [
+    [
+     "die Kinderarmut",
+     "la pauvreté infantile",
+     "Kinderarmut bleibt ein großes soziales Problem in Deutschland."
+    ],
+    [
+     "die Tafel",
+     "la banque alimentaire (en Allemagne)",
+     "Immer mehr Familien holen Lebensmittel bei der Tafel."
+    ],
+    [
+     "die Ernährung",
+     "l'alimentation",
+     "Eine gesunde Ernährung ist für arme Familien oft zu teuer."
+    ],
+    [
+     "das Übergewicht",
+     "le surpoids / l'obésité",
+     "Starkes Übergewicht kann bei Kindern lange Folgen haben."
+    ],
+    [
+     "einkommensschwach",
+     "à faibles revenus / modeste",
+     "Einkommensschwache Familien brauchen bessere Unterstützung vom Staat."
+    ],
+    [
+     "die staatliche Hilfe",
+     "l'aide publique / de l'État",
+     "Viele Menschen beantragen staatliche Hilfe aus Scham nicht."
+    ]
+   ],
+   "sujets": [
+    "Tut der deutsche Sozialstaat genug gegen Kinderarmut?",
+    "Warum hängen Armut und Gesundheit in Deutschland eng zusammen?"
+   ]
+  },
+  {
+   "id": "2026-11-22-allemand-3",
+   "matiere": "allemand",
+   "source": "Frankfurter Allgemeine Zeitung",
+   "url": "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/bauern-rufen-wieder-zum-protest-warum-ist-der-politische-einfluss-der-landwirte-so-gross-201635365.html",
+   "minutes": 3,
+   "titre": "Allemagne : pourquoi l'influence politique du lobby agricole reste si puissante",
+   "dossier": "lobby-agricole-allemagne",
+   "faits": "Le 21 novembre 2026, la Frankfurter Allgemeine Zeitung analyse les ressorts de la puissance politique des agriculteurs allemands, alors que le syndicat agricole DBV appelle à manifester le 23 novembre devant la Chancellerie à Berlin. En déposant des bottes vides devant le siège du gouvernement, les exploitants protestent contre les coupes envisagées dans les aides agricoles du futur budget européen 2028-2034. L'action rappelle les grandes manifestations de tracteurs de janvier 2024 contre la fin des avantages fiscaux sur le diesel agricole, qui avaient contraint Berlin à reculer partiellement. Le quotidien souligne un paradoxe frappant : le poids économique et démographique de l'agriculture est aujourd'hui faible, puisqu'elle ne représente qu'une petite fraction de l'emploi total en Allemagne comme en France. Pourtant, les agriculteurs parviennent régulièrement à peser sur les décisions nationales et européennes, notamment en matière de subventions et de traités commerciaux. Cet ascendant tient à une organisation syndicale très structurée, à une forte visibilité symbolique héritée de l'après-guerre et à une présence directe au sein des parlements.",
+   "enjeux": "Cet article éclaire le fonctionnement concret des **groupes d'intérêt** (*Interessenverbände*) dans la démocratie allemande et européenne. Il illustre le paradoxe classique de l'action collective : un groupe restreint mais très organisé et concentré sur des enjeux vitaux (subventions, fiscalité, normes) exerce souvent davantage d'influence politique qu'une majorité dispersée de consommateurs ou de contribuables. En Allemagne, la crainte des partis traditionnels de perdre l'électorat rural renforce encore le poids du **Deutscher Bauernverband** (DBV) lors des arbitrages budgétaires. Ce rapport de force explique pourquoi la réforme des aides agricoles et la conciliation entre **transition écologique** et revenus paysans restent parmi les dossiers les plus sensibles à Berlin comme à Bruxelles.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1667420193182-a266ffeb9614?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Tracteur agricole au travail dans un champ",
+    "credit": "Martin Baron / Unsplash",
+    "source": "https://unsplash.com/s/photos/farming-field"
+   },
+   "vo": {
+    "titre": "Deutschland: Warum die Bauernlobby so viel Macht hat",
+    "faits": "Der Deutsche Bauernverband ruft wieder zu Protesten in Berlin auf. Die Landwirte stellen leere Gummistiefel vor das Kanzleramt. Sie protestieren gegen geplante Kürzungen im neuen EU-Haushalt. Die Aktion erinnert an die großen Traktor-Proteste im Januar 2024. Damals nahm die Regierung einen Teil ihrer Sparpläne zurück. Dabei ist die wirtschaftliche Rolle der Landwirtschaft heute relativ klein. In Deutschland und Frankreich arbeiten nur noch wenige Menschen dort. Trotzdem haben die Bauern großen politischen Einfluss. Sie stoppen oft Reformen bei Subventionen und im Handel.",
+    "enjeux": "Die Bauern sind gut organisiert und sehr sichtbar. Ein Traktor-Protest bekommt sofort viel Aufmerksamkeit in den Medien. Außerdem haben Landwirte ein starkes Bild in der Gesellschaft. Viele Menschen verbinden sie mit der Versorgung mit Lebensmitteln. Auch in den Parteien und Parlamenten hat die Landwirtschaft gute Kontakte. Die Politik hat Angst vor Wut auf dem Land. Deshalb bleiben Subventionen und Umweltregeln für die Regierung ein schwieriges Thema."
+   },
+   "vocab": [
+    [
+     "der Landwirt / der Bauer",
+     "l'agriculteur",
+     "Viele Landwirte protestieren vor dem Kanzleramt in Berlin."
+    ],
+    [
+     "die Subvention",
+     "la subvention",
+     "Die Bauern kämpfen für hohe Subventionen aus Brüssel."
+    ],
+    [
+     "der Einfluss",
+     "l'influence",
+     "Die Bauernlobby hat einen starken politischen Einfluss."
+    ],
+    [
+     "die Kürzung",
+     "la coupe budgétaire / la réduction",
+     "Die Landwirte lehnen jede Kürzung im Agrarbudget ab."
+    ],
+    [
+     "das Kanzleramt",
+     "la Chancellerie fédérale",
+     "Die Demonstranten versammeln sich direkt vor dem Kanzleramt."
+    ],
+    [
+     "die Versorgung",
+     "l'approvisionnement",
+     "Die sichere Versorgung mit Lebensmitteln ist politisch wichtig."
+    ]
+   ],
+   "sujets": [
+    "Haben Bauern in Deutschland zu viel politischen Einfluss?",
+    "Wie kann Deutschland Landwirtschaft und Klimaschutz besser verbinden?"
+   ]
+  },
+  {
+   "id": "2026-11-22-allemand-4",
+   "matiere": "allemand",
+   "source": "Süddeutsche Zeitung",
+   "url": "https://www.sueddeutsche.de/wirtschaft/antibiotika-amoxicillin-sandoz-kundl-china-indien-pharmaproduktion-li.3583063",
+   "minutes": 3,
+   "titre": "Antibiotiques : l'Allemagne et l'Europe toujours plus dépendantes de la Chine et de l'Inde",
+   "dossier": "dependance-antibiotiques-allemagne",
+   "faits": "Le 20 novembre 2026, la Süddeutsche Zeitung alerte sur la dépendance croissante de l'Allemagne et de l'Europe envers la Chine et l'Inde pour la production d'antibiotiques essentiels comme l'amoxicilline. D'après une étude mondiale de la start-up allemande Qyobo, il ne reste plus que trois sites en dehors de la Chine et de l'Inde qui fabriquent encore le principe actif nécessaire à l'amoxicilline, dont l'usine du groupe Sandoz à Kundl, en Autriche, et un site en Espagne. Aux États-Unis, cette production de principe actif a totalement disparu après le retrait du groupe israélien Teva. Depuis 2005, l'Europe et les États-Unis ont perdu six sites de production d'amoxicilline et de ses précurseurs. Aujourd'hui, 80 à 90 % des principes actifs d'antibiotiques dans le monde sont produits hors d'Europe, principalement en Asie, sous l'effet de prix très bas et de subventions chinoises. Le site de Sandoz à Kundl, dernière grande usine européenne totalement intégrée de pénicilline, subit une forte pression économique et a saisi la Commission européenne d'un projet de plainte antidumping.",
+   "enjeux": "Cette enquête illustre les risques géopolitiques et sanitaires de la **désindustrialisation pharmaceutique** en Europe, particulièrement sensibles en Allemagne où les pénuries de médicaments font régulièrement débat. Les délocalisations vers l'Asie ont permis de baisser les prix des génériques pour les caisses d'assurance maladie, mais au prix d'une **dépendance stratégique** critique sur des traitements vitaux. En cas de crise diplomatique, de rupture logistique ou de restrictions d'exportation, l'approvisionnement des hôpitaux allemands et européens serait immédiatement menacé. Le dossier pose ainsi un dilemme classique de **politique industrielle** : faut-il payer les médicaments plus cher ou instaurer des droits antidumping pour préserver une **souveraineté sanitaire** en Europe ?",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1631980838946-755ba8443ab7?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Comprimés et gélules de médicaments",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/photos/a-close-up-of-pills-and-tablets-on-a-table-755ba8443ab7"
+   },
+   "vo": {
+    "titre": "Antibiotika: Europa wird immer abhängiger von Asien",
+    "faits": "Europa hängt bei wichtigen Antibiotika stark von China und Indien ab. Das zeigt eine neue Studie der Firma Qyobo. Außerhalb dieser Länder gibt es nur noch drei Werke für den Wirkstoff von Amoxicillin. Eines davon ist das Werk von Sandoz in Österreich. Ein anderes Werk steht in Spanien. In den USA wird dieser Wirkstoff nicht mehr hergestellt. Seit 2005 haben Europa und die USA sechs Standorte verloren. Asiatische Hersteller produzieren viel billiger als europäische Firmen. Das Werk in Österreich steht deshalb unter großem Preisdruck.",
+    "enjeux": "Die Abhängigkeit von Asien ist ein Risiko für die Gesundheit. Wenn Lieferketten brechen, fehlen in deutschen Apotheken wichtige Medikamente. Billige Medikamente sparen den Krankenkassen zuerst viel Geld. Aber sie machen Europa im Krisenfall sehr verwundbar. Sandoz fordert deshalb Schutz gegen unfaire Preise aus China. Die Politik steht vor einer schweren Wahl. Europa muss mehr bezahlen, wenn es wieder eigene Medikamente produzieren will."
+   },
+   "vocab": [
+    [
+     "der Wirkstoff",
+     "le principe actif",
+     "Die meisten Wirkstoffe für Antibiotika kommen heute aus Asien."
+    ],
+    [
+     "die Abhängigkeit",
+     "la dépendance",
+     "Die starke Abhängigkeit von China bereitet vielen Ärzten Sorgen."
+    ],
+    [
+     "der Standort",
+     "le site de production",
+     "Europa hat viele wichtige Standorte für Medikamente verloren."
+    ],
+    [
+     "die Lieferkette",
+     "la chaîne d'approvisionnement",
+     "Eine Krise kann internationale Lieferketten sehr schnell unterbrechen."
+    ],
+    [
+     "der Preisdruck",
+     "la pression sur les prix",
+     "Der hohe Preisdruck bedroht das letzte Penicillin-Werk Europas."
+    ],
+    [
+     "die Krankenkasse",
+     "la caisse d'assurance maladie",
+     "Krankenkassen suchen oft die billigsten Medikamente auf dem Markt."
+    ]
+   ],
+   "sujets": [
+    "Muss Europa wieder mehr Medikamente selbst produzieren?",
+    "Ist billige Produktion in Asien ein Risiko für unsere Gesundheit?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "Crise du pouvoir d'achat : comment les gouvernements européens luttent-ils contre la vie chère",
+   "url": "https://www.lesechos.fr/monde/europe/crise-du-pouvoir-dachat-comment-les-gouvernements-europeens-luttent-ils-contre-la-vie-chere-2263912",
+   "pourquoi": "Une comparaison européenne utile en dissertation pour confronter **boucliers tarifaires**, aides ciblées et **contrainte budgétaire** face à l'inflation."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Comment l'éclatement de la bulle IA pourrait faire dérailler l'économie mondiale",
+   "url": "https://www.lesechos.fr/monde/enjeux-internationaux/comment-leclatement-de-la-bulle-ia-pourrait-faire-derailler-leconomie-mondiale-2263903",
+   "pourquoi": "Un décryptage macroéconomique des canaux de transmission (effet richesse, investissement, crédit) par lesquels une **bulle financière** sur l'IA peut provoquer une récession."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "IA : avec une nouvelle génération de fibre optique, la Chine pourrait « prendre le dessus sur l'ensemble de ses concurrents »",
+   "url": "https://www.lesechos.fr/monde/enjeux-internationaux/ia-avec-une-nouvelle-generation-de-fibre-optique-la-chine-pourrait-prendre-le-dessus-sur-lensemble-de-ses-concurrents-2263896",
+   "pourquoi": "Un éclairage sur la **compétitivité hors-prix** et la course aux infrastructures technologiques entre la Chine et les États-Unis."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« Le paradoxe est saisissant : les Français réclament plus de services publics ? On leur propose moins d'État »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/22/le-paradoxe-est-saisissant-les-francais-reclament-plus-de-services-publics-on-leur-propose-moins-d-etat_6814195_3232.html",
+   "pourquoi": "Une tribune directement mobilisable sur le **rôle économique de l'État**, la demande de services publics et le débat entre austérité et investissement public."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« Alors que la science montre de mieux en mieux le rôle des substances chimiques dans l'épidémie de maladies de civilisation, l'Europe affaiblit sa réglementation »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/22/alors-que-la-science-montre-de-mieux-en-mieux-le-role-des-substances-chimiques-dans-l-epidemie-de-maladies-de-civilisation-l-europe-affaiblit-sa-reglementation_6814145_3232.html",
+   "pourquoi": "Une analyse de l'arbitrage européen entre **déréglementation** au nom de la compétitivité et internalisation des **externalités négatives** sanitaires."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Data centers : la défiance monte partout dans le monde, de l'Inde au Chili en passant par l'Irlande ou le Japon",
+   "url": "https://www.lemonde.fr/international/article/2026/11/22/data-centers-la-defiance-monte-partout-dans-le-monde-de-l-inde-au-chili-en-passant-par-l-irlande-ou-le-japon_6814186_3210.html",
+   "pourquoi": "Des exemples internationaux frappants pour illustrer les **externalités environnementales** (eau, électricité, foncier) de l'économie numérique."
+  }
+ ]
+}

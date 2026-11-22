@@ -6728,6 +6728,306 @@
           ]
         }
       ]
+    },
+    {
+      "id": "etapes-integration-balassa",
+      "nom": "Les étapes de l'intégration économique régionale",
+      "categorie": "commerce",
+      "type": "Modèle",
+      "annee": "1961",
+      "auteur": "Bela Balassa",
+      "accroche": "L'intégration régionale progresse par cinq étapes emboîtées, de la simple zone de libre-échange jusqu'à l'union économique et monétaire.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Bela Balassa**, *The Theory of Economic Integration* (1961).",
+            "Dans le sillage de la création de la Communauté économique européenne par le traité de Rome (1957), l'économiste hongrois propose une typologie devenue classique pour classer les accords régionaux selon leur degré d'approfondissement, depuis l'intégration **négative** (supprimer les barrières) jusqu'à l'intégration **positive** (construire des politiques communes)."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**1. Zone de libre-échange** : les pays membres suppriment les droits de douane entre eux, tout en gardant chacun sa propre politique commerciale vis-à-vis des pays tiers (ex. ACEUM).",
+            "**2. Union douanière** : les membres ajoutent un **tarif extérieur commun** (TEC) face au reste du monde, comme la CEE dès 1968.",
+            "**3. Marché commun** : la libre circulation s'étend aux **facteurs de production** (capitaux et travailleurs), en plus des marchandises et des services.",
+            "**4. Union économique** : les États coordonnent ou harmonisent leurs **politiques économiques** (concurrence, normes, fiscalité, politiques sectorielles).",
+            "**5. Union économique et monétaire (UEM)** : les membres adoptent une **monnaie unique** et une politique monétaire commune, stade atteint par la zone euro en 1999."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La grille de Balassa permet de situer précisément n'importe quel accord régional et de montrer pourquoi l'**Union européenne** est un cas unique au monde : elle a franchi les cinq stades, mais reste inachevée sur le plan budgétaire et fiscal. Elle éclaire aussi le lien entre degré d'intégration et **transferts de souveraineté** : plus on monte dans l'échelle, plus la coordination politique et un budget commun deviennent nécessaires."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Jacob Viner (1950)",
+              "d": "Distingue **création de trafic** (remplacer une production locale coûteuse par un partenaire plus efficace) et **détournement de trafic** (remplacer un producteur mondial plus efficace par un partenaire protégé)."
+            },
+            {
+              "t": "Bela Balassa (1970)",
+              "d": "Montre empiriquement que la CEE a généré beaucoup plus de création de trafic (46,5 milliards d'ECU) que de détournement (1,2 milliard), validant un gain net de bien-être."
+            },
+            {
+              "t": "Robert Mundell (1961)",
+              "d": "La théorie des **zones monétaires optimales** précise les conditions pour que le 5e stade (monnaie unique) fonctionne sans crise : mobilité du travail, flexibilité des prix ou transferts budgétaires."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le schéma est linéaire, alors que l'intégration peut **stagner ou reculer** (comme le Brexit en 2020). Surtout, passer à l'union monétaire sans **union budgétaire** ni ressources propres suffisantes expose la zone à des asymétries durables, comme l'a montré la crise des dettes souveraines européennes de 2010-2012."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le budget européen 2028-2034",
+              "d": "Les blocages sur les ressources propres et la taille du budget illustrent l'inachèvement budgétaire de l'UEM."
+            },
+            {
+              "t": "Le Mercosur ou l'ACEUM",
+              "d": "Des accords qui restent aux stades 1 ou 2, sans libre circulation du travail ni monnaie commune."
+            },
+            {
+              "t": "Le Brexit",
+              "d": "Sortir du marché unique et de l'union douanière montre le coût concret d'une marche arrière sur l'échelle de Balassa."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Jacob Viner (1950)",
+              "idee": "évalue les gains nets d'une union douanière entre création et détournement de trafic"
+            },
+            {
+              "sens": "=",
+              "nom": "Robert Mundell (1961)",
+              "idee": "fixe les conditions de viabilité du cinquième stade, l'union monétaire"
+            },
+            {
+              "sens": "≠",
+              "nom": "Jagdish Bhagwati (1991)",
+              "idee": "craint que les accords régionaux ne soient des pierres d'achoppement plutôt que des marches vers le multilatéralisme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "separation-propriete-controle-berle-means",
+      "nom": "Séparation de la propriété et du contrôle",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "1932",
+      "auteur": "Adolf Berle et Gardiner Means",
+      "accroche": "Dans la grande entreprise moderne, les propriétaires du capital ne dirigent plus : le pouvoir passe aux mains de managers salariés dont les intérêts peuvent diverger.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Adolf Berle** et **Gardiner Means**, *L'Entreprise moderne et la propriété privée* (*The Modern Corporation and Private Property*, 1932).",
+            "À partir d'une enquête sur les 200 plus grandes sociétés américaines au tournant des années 1930, les deux auteurs constatent la fin du modèle classique de l'entrepreneur-propriétaire (tel que décrit par Turgot ou Smith) : l'actionnariat devient dispersé et passif, tandis que la direction quotidienne revient à des **dirigeants salariés**."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**Croissance de la taille des firmes** : financer l'industrie moderne exige des capitaux qui dépassent la fortune d'un seul individu ou d'une famille.",
+            "**Dispersion de l'actionnariat** : le capital se fragmente entre de nombreux petits actionnaires ou via des structures complexes (holdings, trusts), qui n'ont ni le temps ni le poids pour contrôler la gestion.",
+            "**Capture du contrôle par les managers** : disposant de l'information interne, les dirigeants pilotent la stratégie selon leurs propres objectifs (taille de la firme, prestige, stabilité) plutôt que la seule maximisation du profit pour les actionnaires."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette thèse fonde toute la réflexion moderne sur la **gouvernance d'entreprise** : l'entreprise n'est pas un acteur homogène qui maximise mécaniquement son profit, mais un lieu de **conflits de pouvoir** entre propriétaires et dirigeants. Elle explique pourquoi la structure juridique (conseil d'administration, holdings, droits de vote) détermine qui contrôle réellement une firme, y compris dans les grands groupes familiaux devenus multinationaux."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "John Kenneth Galbraith (1967)",
+              "d": "Dans *Le Nouvel État industriel*, la **technostructure** (cadres, ingénieurs, experts) détient le pouvoir réel et cherche la croissance et la sécurité plutôt que le profit maximal."
+            },
+            {
+              "t": "Alfred Chandler (1977)",
+              "d": "La **main visible** des managers professionnels remplace la main invisible du marché pour coordonner efficacement les grandes firmes intégrées."
+            },
+            {
+              "t": "Le retour des actionnaires (années 1980)",
+              "d": "La montée des **investisseurs institutionnels** (fonds de pension, gestionnaires d'actifs) réaffirme le pouvoir actionnarial et la norme de valeur pour l'actionnaire."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La séparation n'est ni totale ni universelle : en Europe continentale et en Asie, le **capitalisme familial** reste puissant et concentre souvent les droits de vote. De plus, les deux auteurs se concentrent sur le face-à-face actionnaires/dirigeants, en laissant de côté les autres **parties prenantes** (salariés, clients, territoires)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les crises de succession dans les groupes familiaux",
+              "d": "Quand des trusts et holdings séparent la détention patrimoniale du contrôle opérationnel (ex. Groupe Castel)."
+            },
+            {
+              "t": "Les débats sur la rémunération des PDG",
+              "d": "Un conseil d'administration peu indépendant peut valider des salaires déconnectés de la performance."
+            },
+            {
+              "t": "La financiarisation des années 1980-2000",
+              "d": "La gouvernance actionnariale cherche à refermer l'écart ouvert par Berle et Means, parfois au détriment de l'investissement de long terme."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Michael Jensen et William Meckling (1976)",
+              "idee": "formalisent ce conflit en termes de relation d'agence et d'asymétrie d'information"
+            },
+            {
+              "sens": "=",
+              "nom": "John Kenneth Galbraith (1967)",
+              "idee": "montre l'emprise de la technostructure sur la grande firme industrielle"
+            },
+            {
+              "sens": "≠",
+              "nom": "Blanche Segrestin et Armand Hatchuel (2012)",
+              "idee": "refusent de réduire la gouvernance au seul face-à-face actionnaires/managers et défendent l'intérêt collectif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theorie-agence-jensen-meckling",
+      "nom": "Théorie de l'agence",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "1976",
+      "auteur": "Michael Jensen et William Meckling",
+      "accroche": "Lorsque le propriétaire (principal) délègue la gestion à un dirigeant (agent), l'asymétrie d'information engendre des coûts d'agence que la gouvernance cherche à réduire.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Michael Jensen** et **William Meckling**, *Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure* (*Théorie de la firme*, 1976).",
+            "S'appuyant sur le constat de Berle et Means (1932) et sur l'économie de l'information, les deux auteurs définissent la firme non comme une boîte noire, mais comme un **nœud de contrats** traversé par des conflits d'intérêts entre mandants et mandataires."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**Délégation sous asymétrie d'information** : l'actionnaire (**principal**) confie la gestion au dirigeant (**agent**), qui connaît mieux le fonctionnement interne de l'entreprise.",
+            "**Risque d'opportunisme** : comme leurs intérêts diffèrent, l'agent peut privilégier ses avantages personnels, sa sécurité ou l'expansion de son pouvoir plutôt que la rentabilité du capital.",
+            "**Apparition de coûts d'agence** : la firme supporte des **coûts de surveillance** (audits, conseils), des **coûts de dédouanement** (reporting) et une **perte résiduelle** liée aux décisions sous-optimales.",
+            "**Mécanismes d'alignement** : pour réduire ces coûts, on associe le dirigeant aux résultats (stock-options, bonus), on renforce le contrôle du conseil d'administration ou on utilise l'endettement comme discipline."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La théorie de l'agence explique l'essor des outils de **gouvernance actionnariale** (administrateurs indépendants, rémunérations indexées sur la Bourse, codes de gouvernance comme Afep-Medef). En dissertation, elle montre pourquoi la transparence et les contre-pouvoirs internes sont décisifs pour éviter la **capture de la firme** par ses dirigeants ou par un bloc de contrôle."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La gouvernance partenariale",
+              "d": "Élargit la relation au-delà des seuls actionnaires pour inclure salariés, créanciers, clients et État (modèle rhénan de **codétermination**)."
+            },
+            {
+              "t": "Les effets pervers des stock-options",
+              "d": "L'alignement sur le cours boursier peut inciter au **court-termisme**, aux rachats d'actions ou à la manipulation comptable (scandale Enron, 2001)."
+            },
+            {
+              "t": "Loi Sarbanes-Oxley (2002)",
+              "d": "Renforce la responsabilité pénale des dirigeants et le contrôle externe des comptes pour réduire l'asymétrie d'information."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle suppose des acteurs purement opportunistes et ignore la **confiance**, la culture d'entreprise ou l'attachement au projet industriel. Surtout, réduire la firme à un nœud de contrats au service des seuls actionnaires peut nuire à l'investissement de long terme et au partage de la valeur ajoutée (comme le souligne le CEPII sur la baisse de la part salariale)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les conflits entre héritiers et dirigeants",
+              "d": "Quand une architecture de holdings et de trusts rend difficile le contrôle des managers par les propriétaires (ex. Groupe Castel)."
+            },
+            {
+              "t": "Les scandales financiers et comptables",
+              "d": "Enron, Wirecard ou les failles de contrôle interne illustrent l'échec des mécanismes de surveillance."
+            },
+            {
+              "t": "La rémunération des dirigeants du CAC 40",
+              "d": "Justifiée au nom de l'alignement des intérêts, mais critiquée pour ses dérives et ses inégalités."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Adolf Berle et Gardiner Means (1932)",
+              "idee": "constatent les premiers la séparation entre propriété et contrôle dans la grande firme"
+            },
+            {
+              "sens": "=",
+              "nom": "Kenneth Arrow (1963)",
+              "idee": "analyse l'aléa moral dans les situations d'asymétrie d'information"
+            },
+            {
+              "sens": "≠",
+              "nom": "Blanche Segrestin et Armand Hatchuel (2012)",
+              "idee": "critiquent la vision actionnariale et défendent une entreprise fondée sur un projet collectif"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
