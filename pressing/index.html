@@ -380,6 +380,56 @@ button.lien:hover .lien-nom, button.lien:hover .lien-arr { color: var(--accent);
 @media (min-width: 820px) { .cg-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 48px; } }
 @media (max-width: 520px) { .enjeu-row { grid-template-columns: minmax(0, 1fr); gap: 2px; } }
 
+
+/* Ma semaine (visible seulement en mode éditrice) */
+.sem-only { display: none !important; }
+body.perso .top-nav .sem-only { display: inline !important; }
+body.perso nav.bottom .sem-only { display: flex !important; }
+body.perso nav.bottom { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.sem-sum { display: flex; align-items: baseline; gap: 14px; padding-block: 4px 18px; border-bottom: 1px solid var(--fg); }
+.sem-sum b { font-stretch: 125%; font-weight: 600; font-size: clamp(30px, 7vw, 40px); line-height: 1; color: var(--accent); }
+.sem-sum span { color: var(--muted); }
+.sem-days { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
+.sem-days button { background: none; border: 0; color: var(--muted); font: inherit; padding: 14px 0 12px; display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.sem-days button .d { font-size: 18px; font-weight: 500; color: var(--fg); }
+.sem-days button.today .d { color: var(--accent); }
+.sem-days button[aria-selected="true"] { border-bottom-color: var(--fg); color: var(--fg); }
+.sem-days .pips { display: flex; gap: 3px; height: 4px; }
+.sem-days .pips i { width: 4px; height: 4px; background: var(--line); }
+.sem-days .pips i.on { background: var(--fg); }
+.sem-h { margin: 30px 0 4px; color: var(--muted); }
+.sem-h.acc { color: var(--accent); }
+.sem-ev { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 15px; }
+.sem-ev .t { width: 96px; flex: none; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sem-ev.hi .l { color: var(--accent); font-weight: 500; }
+.sem-task { display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+.sem-task .box { flex: none; width: 20px; height: 20px; border: 1px solid var(--fg); margin-top: 2px; display: grid; place-items: center; }
+.sem-task.done .box { background: var(--fg); }
+.sem-task.done .box::after { content: ""; width: 5px; height: 10px; border: solid var(--bg); border-width: 0 1.5px 1.5px 0; transform: rotate(45deg) translate(-1px, -1px); }
+.sem-task .x { flex: 1; min-width: 0; }
+.sem-task .tx { display: block; font-size: 16px; line-height: 1.45; }
+.sem-task.done .tx { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
+.sem-task .m { display: block; margin-top: 4px; color: var(--muted); }
+.sem-task .m b { font-weight: 600; color: var(--fg); }
+.sem-del { background: none; border: 0; color: var(--muted); cursor: pointer; padding: 0 0 0 8px; }
+.sem-new { display: flex; gap: 14px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.sem-new span { width: 20px; text-align: center; color: var(--muted); }
+.sem-new input { flex: 1; min-width: 0; border: 0; background: none; color: var(--fg); font: inherit; font-size: 16px; padding: 4px 0; outline: none; }
+.sem-anki { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.sem-anki button { background: none; border: 1px solid var(--fg); color: var(--fg); font: inherit; padding: 7px 14px; cursor: pointer; }
+.sem-anki button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.sem-ok { color: var(--accent); margin-top: 12px; }
+.sem-goal { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.sem-goal .n { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.sem-goal .st { display: flex; }
+.sem-goal .st button { width: 40px; height: 34px; background: none; border: 1px solid var(--line); color: var(--fg); font: inherit; font-size: 18px; cursor: pointer; }
+.sem-goal .st button + button { border-left: 0; }
+.sem-goal .bar { grid-column: 1 / -1; height: 2px; background: var(--line); }
+.sem-goal .bar span { display: block; height: 100%; background: var(--fg); transition: width .3s; }
+.sem-goal input { width: 56px; border: 0; border-bottom: 1px solid var(--line); background: none; color: var(--fg); font: inherit; font-size: 16px; text-align: center; margin-left: 8px; }
+.sem-foot { color: var(--muted); font-size: 14px; margin: 10px 0 0; }
+@media (max-width: 420px) { .sem-ev .t { width: 80px; } .sem-days button .d { font-size: 16px; } }
+
 /* Bordeaux */
 :root { --accent: #6b1424; --accent-soft: #f3f1ef; --accent-fg: #ffffff; }
 :root[data-theme="dark"] { --accent: #8e1f35; --accent-soft: #2a1519; --accent-fg: #0c0c0b; }
@@ -763,6 +813,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
         <a href="#referentiel" data-nav="referentiel">Référentiel</a>
         <a href="#archives" data-nav="archives">Archives</a>
         <a href="#favoris" data-nav="favoris">Favoris</a>
+        <a href="#semaine" data-nav="semaine" class="sem-only">Ma semaine</a>
       </nav>
       <a href="#accueil" class="brand" aria-label="Index prépa, accueil">INDEX PRÉPA</a>
       <span class="top-right"><button type="button" class="label top-edit" id="edit-toggle" hidden>Modifier</button><button type="button" class="top-icon" id="qs-open" aria-label="Rechercher (⌘K)" title="Rechercher (⌘K)"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.2" y2="16.2"/></svg></button><button type="button" class="top-icon" id="theme-toggle" aria-label="Changer de thème" title="Changer de thème"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2.5 12h2M19.5 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button><span class="label muted top-date" id="top-date"></span></span>
@@ -779,6 +830,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   <a href="#referentiel" data-nav="referentiel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.6h9.6a2.4 2.4 0 0 1 2.4 2.4v12.4H7.4A2.4 2.4 0 0 1 5 17V4.6z"/><path d="M8.6 9h5.4M8.6 12.4h5.4"/><path d="M17 7h2v12.4H7.4"/></svg>Référentiel</a>
   <a href="#archives" data-nav="archives"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><path d="M12 7.5v4.8l3 1.8"/></svg>Archives</a>
   <a href="#favoris" data-nav="favoris"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5h12v15l-6-4-6 4z"/></svg>Favoris</a>
+  <a href="#semaine" data-nav="semaine" class="sem-only"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="5.5" width="15" height="14"/><path d="M4.5 9.5h15M9 3.5v4M15 3.5v4M8.5 14l2 2 4-4"/></svg>Ma semaine</a>
 </nav>
 
 <script>
@@ -871,7 +923,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       '<h2>' + esc(c.titre) + '</h2><p>' + esc(firstSentence(c.faits)) + '</p></div></a>';
   }
   function setNav() {
-    const sec = state.view === "fiche" ? "referentiel" : (state.view === "cg" || state.view === "refhub" ? "referentiel" : (["referentiel", "archives", "favoris"].includes(state.view) ? state.view : "accueil"));
+    const sec = state.view === "fiche" ? "referentiel" : (state.view === "cg" || state.view === "refhub" ? "referentiel" : (["referentiel", "archives", "favoris", "semaine"].includes(state.view) ? state.view : "accueil"));
     document.querySelectorAll("[data-nav]").forEach(a => a.dataset.nav === sec ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
     document.getElementById("top-date").textContent = state.date ? dShort(state.date) : "";
   }
@@ -1475,7 +1527,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     if (on) on.onclick = async () => {
       const tok = document.getElementById("gh-tok").value.trim(); if (!tok) return;
       try { const r = await fetch("https://api.github.com/repos/" + GH.repo, { headers: { Authorization: "Bearer " + tok, Accept: "application/vnd.github+json" } }); const j = await r.json();
-        if (r.ok && j.permissions && j.permissions.push) { save("pressing:gh", tok); toast("Mode éditrice activé"); viewNotes([]); } else toast("Clé refusée : vérifie ses droits sur PRESS-ING");
+        if (r.ok && j.permissions && j.permissions.push) { save("pressing:gh", tok); document.body.classList.add("perso"); toast("Mode éditrice activé"); viewNotes([]); } else toast("Clé refusée : vérifie ses droits sur PRESS-ING");
       } catch (e) { toast("Vérification impossible, réessaie"); }
     };
     if (!document.getElementById("exp")) return;
@@ -1784,6 +1836,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       else if (h === "referentiel/esh") { state.fromCarte = null; state.view = "referentiel"; setNav(); await viewReferentiel(); }
       else if (h === "cg" || h.startsWith("cg/")) { state.fromCarte = null; state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1)); }
       else if (h === "cg-peaknews" || h.startsWith("cg-peaknews/")) { state.fromCarte = null; state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1), "peaknews"); }
+      else if (h === "semaine") { state.fromCarte = null; if (!EDIT()) { location.hash = "accueil"; return; } state.view = "semaine"; setNav(); await viewSemaine(); }
       else if (h === "archives") { state.fromCarte = null; state.view = "archives"; setNav(); viewArchives(); }
       else if (h === "favoris" || h.startsWith("favoris/")) { state.fromCarte = null; state.view = "favoris"; setNav(); fdClose(); await viewFavoris(h.startsWith("favoris/") ? h.slice(8) : undefined); }
       else if (h && h !== "accueil") {
@@ -1906,6 +1959,109 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => { navigator.serviceWorker.register("./sw.js").catch(() => {}); });
   }
+
+
+  // ===== Ma semaine : planning perso, visible seulement en mode éditrice =====
+  const SEM_SUBJ = { maths: "Maths", esh: "ESH", philo: "Philo", lettres: "Lettres", anglais: "Anglais", espagnol: "Espagnol", vie: "Perso" };
+  const SEM_GH = "pressing/data/semaine/etat.json";
+  const semPad = n => String(n).padStart(2, "0");
+  const semIso = d => d.getFullYear() + "-" + semPad(d.getMonth() + 1) + "-" + semPad(d.getDate());
+  const semParse = s => { const a = s.split("-").map(Number); return new Date(a[0], a[1] - 1, a[2]); };
+  const semLong = s => { const d = semParse(s); const j = JOURS[d.getDay()]; return j.charAt(0).toUpperCase() + j.slice(1) + " " + d.getDate() + " " + MOIS[d.getMonth()]; };
+  const SEM = { plan: null, etat: null, sel: null, all: {} };
+  function semBlank() { return { done: {}, counts: {}, targets: {}, anki: {}, extra: {}, maj: 0 }; }
+  async function semLoad() {
+    const today = semIso(new Date());
+    const liste = (await getJSON("data/semaine/liste.json?t=" + Date.now())).semaines || [];
+    const w = liste.find(x => x.start <= today && today <= x.end) || liste.filter(x => x.start <= today).sort((a, b) => b.start.localeCompare(a.start))[0] || liste[0];
+    if (!w) return false;
+    if (!SEM.plan || SEM.plan.week !== w.week) SEM.plan = await getJSON("data/semaine/" + w.week + ".json?t=" + Date.now());
+    let remote = {}; try { remote = await getJSON("data/semaine/etat.json?t=" + Date.now()); } catch (e) {}
+    const local = load("pressing:semaine", {});
+    SEM.all = Object.assign({}, remote);
+    Object.keys(local).forEach(k => { if (!SEM.all[k] || (local[k].maj || 0) > (SEM.all[k].maj || 0)) SEM.all[k] = local[k]; });
+    SEM.etat = Object.assign(semBlank(), SEM.all[w.week] || {});
+    SEM.all[w.week] = SEM.etat;
+    return true;
+  }
+  let semT, semBusy = false, semAgain = false;
+  function semSave() {
+    SEM.etat.maj = Date.now(); SEM.all[SEM.plan.week] = SEM.etat; save("pressing:semaine", SEM.all);
+    clearTimeout(semT); semT = setTimeout(semPush, 1500);
+  }
+  async function semPush() {
+    if (!EDIT()) return;
+    if (semBusy) { semAgain = true; return; }
+    semBusy = true;
+    const tok = load("pressing:gh", ""), url = "https://api.github.com/repos/" + GH.repo + "/contents/" + SEM_GH;
+    const H = { Authorization: "Bearer " + tok, Accept: "application/vnd.github+json" };
+    try {
+      for (let essai = 0; essai < 2; essai++) {
+        const g = await fetch(url + "?ref=main&t=" + Date.now(), { headers: H, cache: "no-store" });
+        const sha = g.ok ? (await g.json()).sha : undefined;
+        const r = await fetch(url, { method: "PUT", headers: H, body: JSON.stringify({ message: "Ma semaine", content: b64(JSON.stringify(SEM.all, null, 1)), sha: sha, branch: "main" }) });
+        if (r.ok) break;
+        if (r.status === 401 || r.status === 403) { toast("Clé GitHub refusée : gardé sur cet appareil"); break; }
+      }
+    } catch (e) {}
+    semBusy = false; if (semAgain) { semAgain = false; semPush(); }
+  }
+  function semTask(t, extra) {
+    const on = !!SEM.etat.done[t.id];
+    return '<div class="sem-task' + (on ? ' done' : '') + '" tabindex="0" role="checkbox" aria-checked="' + on + '" data-sem="toggle" data-id="' + esc(t.id) + '"><span class="box"></span><span class="x"><span class="tx">' + esc(t.text) + '</span><span class="m label"><b>' + esc(SEM_SUBJ[t.subj] || "") + '</b>' + (t.when ? ' · ' + esc(t.when) : '') + (extra ? ' · ' + esc(extra) : '') + '</span></span></div>';
+  }
+  function semExtras(date) {
+    return (SEM.etat.extra[date] || []).map(x => '<div class="sem-task' + (x.done ? ' done' : '') + '" tabindex="0" role="checkbox" aria-checked="' + !!x.done + '" data-sem="xtoggle" data-date="' + date + '" data-id="' + esc(x.id) + '"><span class="box"></span><span class="x"><span class="tx">' + esc(x.text) + '</span></span><button type="button" class="sem-del label" data-sem="xdel" data-date="' + date + '" data-id="' + esc(x.id) + '">Supprimer</button></div>').join("");
+  }
+  const semDayDone = d => d.tasks.length && d.tasks.every(t => SEM.etat.done[t.id]);
+  function semRender() {
+    const p = SEM.plan, e = SEM.etat, today = semIso(new Date()), days = p.days;
+    if (!SEM.sel || !days.some(d => d.date === SEM.sel)) SEM.sel = (days.find(d => d.date === today) || days.find(d => d.date > today) || days[days.length - 1]).date;
+    const all = days.flatMap(d => d.tasks), done = all.filter(t => e.done[t.id]).length, full = days.filter(d => d.date <= today && semDayDone(d)).length;
+    let h = '<div class="narrow"><div class="page-head"><span class="label muted">Visible seulement par toi</span><h1>Ma semaine</h1><p class="muted" style="margin:4px 0 0">' + esc(p.label || "") + '</p></div>';
+    h += '<div class="sem-sum"><b>' + done + '/' + all.length + '</b><span class="label">priorités faites · ' + full + ' journée' + (full > 1 ? 's' : '') + ' complète' + (full > 1 ? 's' : '') + '</span></div>';
+    h += '<div class="sem-days" role="tablist">' + days.map(d => { const dt = semParse(d.date), n = d.tasks.filter(t => e.done[t.id]).length; return '<button type="button" role="tab" class="' + (d.date === today ? 'today' : '') + '" aria-selected="' + (d.date === SEM.sel) + '" data-sem="sel" data-date="' + d.date + '"><span class="label">' + JOURS[dt.getDay()].slice(0, 3) + '</span><span class="d">' + dt.getDate() + '</span><span class="pips">' + d.tasks.map((t, i) => '<i class="' + (i < n ? 'on' : '') + '"></i>').join("") + '</span></button>'; }).join("") + '</div>';
+    const d = days.find(x => x.date === SEM.sel);
+    h += '<p class="label sem-h acc">' + (d.date === today ? "Aujourd'hui · " : "") + esc(semLong(d.date)) + '</p>';
+    h += (d.events || []).map(v => '<div class="sem-ev' + (v.k ? ' hi' : '') + '"><span class="t">' + esc(v.t || "") + '</span><span class="l">' + esc(v.l) + '</span></div>').join("");
+    h += '<p class="label sem-h">Priorités</p>' + d.tasks.map(t => semTask(t)).join("");
+    if (semDayDone(d)) h += '<p class="label sem-ok">Journée complète. Le reste, c\'est du bonus.</p>';
+    h += '<p class="label sem-h">Si tu as encore du temps</p>' + (d.bonus || []).map(t => semTask(t)).join("") + semExtras(d.date) +
+      '<form class="sem-new" data-date="' + d.date + '"><span>+</span><input placeholder="Nouvelle tâche" aria-label="Nouvelle tâche"></form>' +
+      '<div class="sem-anki"><span>Anki du jour</span><button type="button" class="label" data-sem="anki" data-date="' + d.date + '" aria-pressed="' + !!e.anki[d.date] + '">' + (e.anki[d.date] ? 'Fait' : 'À faire') + '</button></div>';
+    const late = days.filter(x => x.date < today).flatMap(x => x.tasks.filter(t => !e.done[t.id]).map(t => [t, semLong(x.date)]));
+    if (late.length) h += '<p class="label sem-h acc">À rattraper</p>' + late.map(a => semTask(a[0], a[1])).join("") + '<p class="sem-foot">Pas coché les jours passés : cale-le dans un trou.</p>';
+    h += '<p class="label sem-h">Objectifs de la semaine</p>' + (p.goals || []).map(g => { const c = e.counts[g.id] || 0, tg = e.targets[g.id] || g.target || 0, w = tg ? Math.min(100, c / tg * 100) : 0; return '<div class="sem-goal"><span>' + esc(g.label) + (g.target ? '' : '<input type="number" min="1" inputmode="numeric" placeholder="total" value="' + (e.targets[g.id] || '') + '" data-sem-total="' + g.id + '" aria-label="Nombre total">') + '</span><span class="n">' + c + (tg ? ' / ' + tg : '') + '</span><span class="st"><button type="button" data-sem="minus" data-id="' + g.id + '" aria-label="Moins">−</button><button type="button" data-sem="plus" data-id="' + g.id + '" aria-label="Plus">+</button></span><span class="bar"><span style="width:' + w + '%"></span></span></div>'; }).join("");
+    if ((p.reserve || []).length) h += '<p class="label sem-h">Réserve</p>' + p.reserve.map(t => semTask(t)).join("") + '<p class="sem-foot">À piocher quand tes priorités sont faites.</p>';
+    if (p.note) h += '<p class="sem-foot" style="margin-top:24px">' + esc(p.note) + '</p>';
+    app.innerHTML = h + '</div>';
+  }
+  async function viewSemaine() {
+    app.innerHTML = '<div class="narrow"><p class="label muted" style="padding-top:32px">Chargement…</p></div>';
+    const ok = await semLoad().catch(() => false);
+    if (!ok) { app.innerHTML = '<div class="empty narrow"><p>Pas encore de planning.</p><p class="muted">On le fait ensemble dimanche matin.</p></div>'; return; }
+    semRender();
+  }
+  function semAct(el) {
+    const a = el.dataset.sem, id = el.dataset.id, date = el.dataset.date, e = SEM.etat;
+    if (a === "sel") { SEM.sel = date; semRender(); return; }
+    if (a === "toggle") { if (e.done[id]) delete e.done[id]; else e.done[id] = true; }
+    else if (a === "anki") { if (e.anki[date]) delete e.anki[date]; else e.anki[date] = true; }
+    else if (a === "xtoggle") { const x = (e.extra[date] || []).find(x => x.id === id); if (x) x.done = !x.done; }
+    else if (a === "xdel") { e.extra[date] = (e.extra[date] || []).filter(x => x.id !== id); }
+    else if (a === "plus") { e.counts[id] = (e.counts[id] || 0) + 1; }
+    else if (a === "minus") { e.counts[id] = Math.max(0, (e.counts[id] || 0) - 1); }
+    else return;
+    semRender(); semSave();
+  }
+  document.addEventListener("click", ev => { if (state.view !== "semaine") return; const el = ev.target.closest("[data-sem]"); if (!el) return; ev.preventDefault(); ev.stopPropagation(); semAct(el); });
+  document.addEventListener("keydown", ev => { if (state.view !== "semaine") return; if ((ev.key === " " || ev.key === "Enter") && ev.target.matches && ev.target.matches(".sem-task[role=checkbox]")) { ev.preventDefault(); semAct(ev.target); } });
+  document.addEventListener("change", ev => { if (state.view !== "semaine") return; const el = ev.target; if (!el.dataset || !el.dataset.semTotal) return; const v = parseInt(el.value, 10); if (v > 0) SEM.etat.targets[el.dataset.semTotal] = v; else delete SEM.etat.targets[el.dataset.semTotal]; semRender(); semSave(); });
+  document.addEventListener("submit", ev => { if (state.view !== "semaine") return; const f = ev.target.closest(".sem-new"); if (!f) return; ev.preventDefault(); const v = f.querySelector("input").value.trim(); if (!v) return; const d = f.dataset.date; (SEM.etat.extra[d] = SEM.etat.extra[d] || []).push({ id: "x" + Date.now().toString(36), text: v.slice(0, 200), done: false }); semRender(); semSave(); const n = app.querySelector(".sem-new input"); if (n) n.focus(); });
+  function semPerso() { document.body.classList.toggle("perso", EDIT()); }
+  semPerso();
+  document.addEventListener("click", ev => { if (ev.target.closest("#gh-off")) setTimeout(semPerso, 50); });
+  window.addEventListener("storage", semPerso);
 
   window.addEventListener("hashchange", () => { qsClose(); route().then(() => { window.scrollTo(0, 0); updateProg(); }); });
 
