@@ -1,0 +1,19 @@
+{
+  "name": "Index Prépa",
+  "short_name": "Index Prépa",
+  "description": "Revue de presse, référentiel ESH et culture générale pour la prépa ECG.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111110",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
