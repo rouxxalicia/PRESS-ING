@@ -816,7 +816,12 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 
   async function getJSON(p) { const r = await fetch(p, { cache: "no-cache" }); if (!r.ok) throw new Error(p); return r.json(); }
   async function edition(d) { if (!state.editions[d]) state.editions[d] = await getJSON("data/editions/" + d + ".json"); return state.editions[d]; }
-  async function cgData() {
+  async function cgData(src) {
+    if (src === "peaknews") {
+      if (!state.cgPeakBase) state.cgPeakBase = await getJSON("data/cg/peaknews.json");
+      const b = state.cgPeakBase;
+      return Object.assign({}, b, { refs: b.refs.slice(), fiches: Object.assign({}, b.fiches, ajouts.fiches || {}) });
+    }
     if (!state.cgBase) state.cgBase = await getJSON("data/cg/humanite.json");
     const b = state.cgBase, refs = b.refs.slice();
     (ajouts.refs || []).forEach(a => { const i = refs.findIndex(x => x.id === a.id); if (i >= 0) refs[i] = Object.assign({}, refs[i], a); else { const j = refs.map(x => x.rub).lastIndexOf(a.rub); refs.splice(j + 1, 0, a); } });
@@ -1167,27 +1172,31 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 
   // Culture générale
   const pad2 = n => String(n).padStart(2, "0");
-  async function viewCG(parts) {
-    const cg0 = await cgData();
-    const cg = Object.assign({}, cg0, { refs: cg0.refs.filter(x => !caches["cg:" + x.id] || (parts[0] === "f" && parts[1] === x.id)) });
-    const nCache = cg0.refs.length - cg0.refs.filter(x => !caches["cg:" + x.id]).length;
+  function cgTabs(cur) { return '<nav class="subtabs label" aria-label="Culture générale"><a href="#cg"' + (cur === "cg" ? ' aria-current="page"' : '') + '>Mon cours</a><a href="#cg-peaknews"' + (cur === "cg-peaknews" ? ' aria-current="page"' : '') + '>PeakNews</a></nav>'; }
+  async function viewCG(parts, src) {
+    const isPeak = src === "peaknews";
+    const base = isPeak ? "cg-peaknews" : "cg";
+    const pref = isPeak ? "cgp:" : "cg:";
+    const cg0 = await cgData(src);
+    const cg = Object.assign({}, cg0, { refs: cg0.refs.filter(x => !caches[pref + x.id] || (parts[0] === "f" && parts[1] === x.id)) });
+    const nCache = cg0.refs.length - cg0.refs.filter(x => !caches[pref + x.id]).length;
     const rubNom = id => (cg.rubriques.find(r => r.id === id) || {}).nom || "";
     const back = (href, txt) => '<a class="back label" href="' + href + '">← ' + txt + '</a>';
     if (!parts.length) {
-      let h = '<div class="narrow">' + back("#referentiel", "Référentiel") + '<div class="cg-head"><span class="label muted">Culture générale · ' + esc(cg.annee) + '</span><h1>' + esc(cg.theme) + '</h1><p>Le thème de l\'année, référence par référence : ce qu\'il faut savoir décrire, ce que ça montre, et où le placer dans une copie.</p></div>';
+      let h = '<div class="narrow">' + back("#referentiel", "Référentiel") + '<div class="cg-head"><span class="label muted">Culture générale · ' + esc(cg.annee) + '</span><h1>' + esc(cg.theme) + '</h1><p>' + esc(cg.desc || "Le thème de l'année, référence par référence : ce qu'il faut savoir décrire, ce que ça montre, et où le placer dans une copie.") + '</p></div>' + cgTabs(base);
       const themes = cg.enjeux.filter(e => e.code);
-      if (themes.length) h += '<section class="sec"><h2 class="label">Les thèmes</h2><div class="cg-grid">' + themes.map(e => { const n = cg.refs.filter(x => (x.enjeux || []).includes(e.id)).length; return '<a class="cg-tile" href="#cg/e/' + e.id + '"><span class="n"></span><span class="t">' + esc(e.nom) + '<span class="d">' + esc(e.question || '') + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div></section><section class="sec"><h2 class="label">Les références</h2>';
-      h += '<div class="cg-grid">' + cg.rubriques.map((r, i) => { const n = cg.refs.filter(x => x.rub === r.id).length; return '<a class="cg-tile" href="#cg/' + r.id + '"><span class="n">' + ["I","II","III","IV","V","VI"][i] + '</span><span class="t">' + esc(r.nom) + '<span class="d">' + esc(r.desc) + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div>' + (themes.length ? '</section>' : '');
-      h += '<a class="cg-enjeux" href="#cg/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>Les références par thème</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + ' thèmes</span></span><span class="label">→</span></a>' +
-        '<a class="cg-enjeux cg-dossier" href="#cg/cartes"><span><span class="label muted">Réviser</span><strong>Cartes mentales</strong><span class="muted" style="font-size:14px">Les cartes du thème</span></span><span class="label">→</span></a>' +
-        cg.enjeux.filter(e => e.dossier && !e.code).map(e => '<a class="cg-enjeux cg-dossier" href="#cg/e/' + e.id + '"><span><span class="label muted">Dossier</span><strong>' + esc(e.nom) + '</strong><span class="muted" style="font-size:14px">Les notions, les auteurs, les objections</span></span><span class="label">→</span></a>').join("") + (nCache && EDIT() ? '<p class="label muted" style="margin-top:28px">' + nCache + ' référence' + (nCache > 1 ? 's' : '') + ' supprimée' + (nCache > 1 ? 's' : '') + ' · <button type="button" class="more" data-retablir="cg">Tout rétablir</button></p>' : '') + '</div>';
+      if (themes.length) h += '<section class="sec"><h2 class="label">Les thèmes</h2><div class="cg-grid">' + themes.map(e => { const n = cg.refs.filter(x => (x.enjeux || []).includes(e.id)).length; return '<a class="cg-tile" href="#' + base + '/e/' + e.id + '"><span class="n"></span><span class="t">' + esc(e.nom) + '<span class="d">' + esc(e.question || '') + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div></section><section class="sec"><h2 class="label">Les références</h2>';
+      h += '<div class="cg-grid">' + cg.rubriques.map((r, i) => { const n = cg.refs.filter(x => x.rub === r.id).length; return '<a class="cg-tile" href="#' + base + '/' + r.id + '"><span class="n">' + ["I","II","III","IV","V","VI"][i] + '</span><span class="t">' + esc(r.nom) + '<span class="d">' + esc(r.desc) + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div>' + (themes.length ? '</section>' : '');
+      h += '<a class="cg-enjeux" href="#' + base + '/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>' + (isPeak ? 'Les références par enjeu' : 'Les références par thème') + '</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + (isPeak ? ' enjeux' : ' thèmes') + '</span></span><span class="label">→</span></a>' +
+        (isPeak ? '' : '<a class="cg-enjeux cg-dossier" href="#cg/cartes"><span><span class="label muted">Réviser</span><strong>Cartes mentales</strong><span class="muted" style="font-size:14px">Les cartes du thème</span></span><span class="label">→</span></a>') +
+        cg.enjeux.filter(e => e.dossier && !e.code).map(e => '<a class="cg-enjeux cg-dossier" href="#' + base + '/e/' + e.id + '"><span><span class="label muted">Dossier</span><strong>' + esc(e.nom) + '</strong><span class="muted" style="font-size:14px">Les notions, les auteurs, les objections</span></span><span class="label">→</span></a>').join("") + (nCache && EDIT() ? '<p class="label muted" style="margin-top:28px">' + nCache + ' référence' + (nCache > 1 ? 's' : '') + ' supprimée' + (nCache > 1 ? 's' : '') + ' · <button type="button" class="more" data-retablir="' + (isPeak ? 'cgp' : 'cg') + '">Tout rétablir</button></p>' : '') + '</div>';
       app.innerHTML = h; return;
     }
     if (parts[0] === "enjeux") {
       const rubs = cg.rubriques.filter(r => r.id !== "dissertations");
-      let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">Partir d\'un sujet</span><h1>Les références par thème</h1></div>';
+      let h = '<div class="narrow">' + back("#" + base, cg.theme) + '<div class="page-head"><span class="label muted">Partir d\'un sujet</span><h1>' + (isPeak ? 'Les références par enjeu' : 'Les références par thème') + '</h1></div>';
       h += cg.enjeux.map(e => { const rs = cg.refs.filter(x => (x.enjeux || []).includes(e.id));
-        return '<section class="enjeu"><h2>' + (e.dossier || e.code ? '<a href="#cg/e/' + e.id + '">' + esc(e.nom) + ' <span class="label dossier-tag">' + (e.code ? 'Thème' : 'Dossier') + ' →</span></a>' : esc(e.nom)) + '</h2>' + rubs.map(r => { const l = rs.filter(x => x.rub === r.id); return l.length ? '<div class="enjeu-row"><span class="label muted">' + esc(r.nom.replace(/^Les /, "")) + '</span><span>' + l.map(x => '<a href="#cg/f/' + x.id + '">' + esc(x.titre) + '</a>').join('<span class="sep">·</span>') + '</span></div>' : ""; }).join("") +
+        return '<section class="enjeu"><h2>' + (e.dossier || e.code || isPeak ? '<a href="#' + base + '/e/' + e.id + '">' + esc(e.nom) + ' <span class="label dossier-tag">' + (e.code ? 'Thème' : isPeak ? 'Enjeu' : 'Dossier') + ' →</span></a>' : esc(e.nom)) + '</h2>' + rubs.map(r => { const l = rs.filter(x => x.rub === r.id); return l.length ? '<div class="enjeu-row"><span class="label muted">' + esc(r.nom.replace(/^Les /, "")) + '</span><span>' + l.map(x => '<a href="#' + base + '/f/' + x.id + '">' + esc(x.titre) + '</a>').join('<span class="sep">·</span>') + '</span></div>' : ""; }).join("") +
           (rs.some(x => x.rub === "dissertations") ? '<div class="enjeu-row"><span class="label muted">Sujets</span><span>' + rs.filter(x => x.rub === "dissertations").map(x => esc(x.titre)).join('<span class="sep">·</span>') + '</span></div>' : "") + '</section>'; }).join("");
       app.innerHTML = h + '</div>'; return;
     }
@@ -1242,19 +1251,19 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     }
     if (parts[0] === "e") {
       const e = cg.enjeux.find(x => x.id === parts[1]);
-      if (!e) { location.hash = "cg/enjeux"; return; }
+      if (!e) { location.hash = base + "/enjeux"; return; }
       const rs = cg.refs.filter(x => (x.enjeux || []).includes(e.id) && x.rub !== "dissertations");
-      let h = '<div class="narrow">' + (e.code ? back("#cg", cg.theme) : back("#cg/enjeux", "Les enjeux")) + '<article class="card"><span class="label muted">' + (e.code ? 'Thème' : 'Dossier') + '</span><h1>' + esc(e.nom) + '</h1>' + (e.question ? '<p class="idee">' + esc(e.question) + '</p>' : '');
+      let h = '<div class="narrow">' + (e.code ? back("#" + base, cg.theme) : back("#" + base + "/enjeux", "Les enjeux")) + '<article class="card"><span class="label muted">' + (e.code ? 'Thème' : isPeak ? 'Enjeu' : 'Dossier') + '</span><h1>' + esc(e.nom) + '</h1>' + (e.question ? '<p class="idee">' + esc(e.question) + '</p>' : '');
       if (e.dossier) h += '<p class="idee">' + fmt(e.dossier.chapo) + '</p>' + e.dossier.blocs.map(bloc).join("");
-      h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#cg/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
-      h += notesBox("dossier:" + e.id, e.nom);
+      h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#' + base + '/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
+      h += notesBox((isPeak ? "dossierp:" : "dossier:") + e.id, e.nom);
       app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
     }
     if (parts[0] === "f") {
       const r = cg.refs.find(x => x.id === parts[1]);
-      if (!r) { app.innerHTML = '<div class="empty narrow"><p>Référence introuvable.</p><a class="btn label" href="#cg">Retour</a></div>'; return; }
+      if (!r) { app.innerHTML = '<div class="empty narrow"><p>Référence introuvable.</p><a class="btn label" href="#' + base + '">Retour</a></div>'; return; }
       const f = (cg.fiches || {})[r.id];
-      let h = '<div class="narrow">' + back("#cg/" + r.rub, rubNom(r.rub)) + '<article class="card">';
+      let h = '<div class="narrow">' + back("#" + base + "/" + r.rub, rubNom(r.rub)) + '<article class="card">';
       if (r.image && /^https:\/\//.test(r.image.url)) h += '<figure class="oeuvre"><img src="' + esc(r.image.url) + '" alt="' + esc(r.titre) + '" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'figure\').remove()"><figcaption class="credit"><a href="' + esc(r.image.source) + '" target="_blank" rel="noopener">' + esc(r.image.credit) + '</a></figcaption></figure>';
       h += '<span class="label muted">' + esc(rubNom(r.rub)) + '</span><h1>' + esc(r.titre) + '</h1>';
       if (r.voir) h += '<a class="label more" href="' + esc(r.voir) + '" target="_blank" rel="noopener" style="align-self:flex-start">Voir l\'œuvre ↗</a>';
@@ -1262,16 +1271,16 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       if (f) { h += '<p class="idee">' + fmt(f.idee) + '</p>' + f.blocs.map(bloc).join(""); }
       else h += editOn() ? squelette(r) : '<div class="empty" style="padding-block:24px"><p>Fiche à venir.</p>' + (EDIT() ? '<p class="muted">Appuie sur « Modifier » en haut pour l\'écrire.</p>' : '') + '</div>';
       const en = (r.enjeux || []).map(id => (cg.enjeux.find(e => e.id === id) || {}).nom).filter(Boolean);
-      if (en.length) h += '<section class="sec"><h2 class="label">Thèmes</h2><ol class="sujets">' + en.map((e, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(e) + '</span></li>').join("") + '</ol></section>';
-      h += notesBox("cg:" + r.id, r.titre) + (caches["cg:" + r.id] && EDIT() ? '<div class="ref-suppr"><span class="label muted">Référence supprimée · </span><button type="button" class="label more" data-retablir="cg:' + esc(r.id) + '">Rétablir</button></div>' : supprBtn("cg:" + r.id));
+      if (en.length) h += '<section class="sec"><h2 class="label">' + (isPeak ? 'Enjeux' : 'Thèmes') + '</h2><ol class="sujets">' + en.map((e, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(e) + '</span></li>').join("") + '</ol></section>';
+      h += notesBox(pref + r.id, r.titre) + (caches[pref + r.id] && EDIT() ? '<div class="ref-suppr"><span class="label muted">Référence supprimée · </span><button type="button" class="label more" data-retablir="' + pref + esc(r.id) + '">Rétablir</button></div>' : supprBtn(pref + r.id));
       app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
     }
     const rub = cg.rubriques.find(x => x.id === parts[0]);
-    if (!rub) { location.hash = "cg"; return; }
+    if (!rub) { location.hash = base; return; }
     const l = cg.refs.filter(x => x.rub === rub.id);
-    let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">' + l.length + ' références</span><h1>' + esc(rub.nom) + '</h1><p class="muted" style="margin:4px 0 0">' + esc(rub.desc) + '</p></div><div style="border-top:1px solid var(--fg)">';
-    h += l.map((x, i) => { const ok = cg.fiches && cg.fiches[x.id]; return (rub.id === "dissertations" ? '<div class="cg-ref" data-id="' + esc(x.id) + '">' : '<a class="cg-ref" href="#cg/f/' + x.id + '">') + (x.image ? '<img class="mini" src="' + esc(x.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '<span class="n">' + pad2(i + 1) + '</span>') + '<span><span class="t">' + esc(x.titre) + (x.cours ? ' <span class="vu-cours" title="Vu en cours" aria-label="Vu en cours"></span>' : '') + (x.perso ? ' <span class="label pill cours-pill">Ajout</span>' : '') + '</span>' + (x.sous ? '<span class="s">' + esc(x.sous) + '</span>' : '') + '</span>' + (rub.id === "dissertations" ? '<span></span></div>' : '<span class="label etat' + (ok ? ' ok' : ' muted') + '">' + (ok ? 'Fiche →' : 'À venir') + '</span></a>'); }).join("");
-    if (editOn()) h += '</div><a class="btn label" style="margin-top:24px" href="#cg/ajout/' + rub.id + '">+ Ajouter ' + (rub.id === "dissertations" ? "un sujet" : "une référence") + '</a><div>';
+    let h = '<div class="narrow">' + back("#" + base, cg.theme) + '<div class="page-head"><span class="label muted">' + l.length + ' références</span><h1>' + esc(rub.nom) + '</h1><p class="muted" style="margin:4px 0 0">' + esc(rub.desc) + '</p></div><div style="border-top:1px solid var(--fg)">';
+    h += l.map((x, i) => { const ok = cg.fiches && cg.fiches[x.id]; return (rub.id === "dissertations" ? '<div class="cg-ref" data-id="' + esc(x.id) + '" data-pref="' + pref + '">' : '<a class="cg-ref" href="#' + base + '/f/' + x.id + '">') + (x.image ? '<img class="mini" src="' + esc(x.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '<span class="n">' + pad2(i + 1) + '</span>') + '<span><span class="t">' + esc(x.titre) + (x.cours ? ' <span class="vu-cours" title="Vu en cours" aria-label="Vu en cours"></span>' : '') + (x.perso ? ' <span class="label pill cours-pill">Ajout</span>' : '') + '</span>' + (x.sous ? '<span class="s">' + esc(x.sous) + '</span>' : '') + '</span>' + (rub.id === "dissertations" ? '<span></span></div>' : '<span class="label etat' + (ok ? ' ok' : ' muted') + '">' + (ok ? 'Fiche →' : 'À venir') + '</span></a>'); }).join("");
+    if (editOn() && !isPeak) h += '</div><a class="btn label" style="margin-top:24px" href="#cg/ajout/' + rub.id + '">+ Ajouter ' + (rub.id === "dissertations" ? "un sujet" : "une référence") + '</a><div>';
     app.innerHTML = h + '</div></div>';
   }
 
@@ -1292,8 +1301,8 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       a.focus(); return;
     }
     const ks = Object.keys(notes).sort((x, y) => (notes[y].maj || 0) - (notes[x].maj || 0));
-    const lien = k => k.startsWith("perso:") ? "#notes/n/" + encodeURIComponent(k) : k.startsWith("esh:") ? "#" + k.slice(4) : k.startsWith("cg:") ? "#cg/f/" + k.slice(3) : "#cg/e/" + k.slice(8);
-    const type = k => k.startsWith("perso:") ? "Note libre" : k.startsWith("esh:") ? "Fiche ESH" : k.startsWith("cg:") ? "Fiche Culture G." : "Dossier";
+    const lien = k => k.startsWith("perso:") ? "#notes/n/" + encodeURIComponent(k) : k.startsWith("esh:") ? "#" + k.slice(4) : k.startsWith("cgp:") ? "#cg-peaknews/f/" + k.slice(4) : k.startsWith("cg:") ? "#cg/f/" + k.slice(3) : k.startsWith("dossierp:") ? "#cg-peaknews/e/" + k.slice(9) : "#cg/e/" + k.slice(8);
+    const type = k => k.startsWith("perso:") ? "Note libre" : k.startsWith("esh:") ? "Fiche ESH" : k.startsWith("cgp:") ? "Culture G. · PeakNews" : k.startsWith("cg:") ? "Fiche Culture G." : "Dossier";
     let h = '<div class="narrow">' + back + '<div class="page-head"><span class="label muted">' + (EDIT() ? 'Mode éditrice' : 'Lecture') + '</span><h1>' + (EDIT() ? 'Mes notes' : 'Notes d\'Alicia') + '</h1><p class="muted" style="margin:4px 0 0">' + (EDIT() ? 'Tes notes et tes modifications sont publiées : tous ceux qui ont le code les voient.' : 'Les notes d\'Alicia sur les fiches et ses notes libres.') + '</p></div>';
     if (EDIT()) h += '<a class="btn label" href="#notes/n">Nouvelle note</a>';
     h += ks.length ? '<div style="border-top:1px solid var(--fg);margin-top:24px">' + ks.map(k => '<a class="cg-ref" href="' + lien(k) + '"><span class="n">' + esc(type(k).slice(0, 3)) + '</span><span><span class="t">' + esc(notes[k].titre || "Sans titre") + '</span><span class="s">' + esc(type(k)) + ' · ' + esc((notes[k].texte || "").slice(0, 90)) + '</span></span><span class="label muted">→</span></a>').join("") + '</div>' : '<div class="empty"><p>Aucune note pour l\'instant.</p></div>';
@@ -1486,13 +1495,15 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
 
   // Référentiel : choix de la matière (carrousel de cartes en verre)
   async function viewRefHub() {
-    let nE = "", nC = "";
+    let nE = "", nC = "", nP = "";
     try { nE = (await referentiel()).fiches.length + " fiches"; } catch (e) {}
     try { const cg = await cgData(); nC = cg.refs.length + " références"; } catch (e) {}
+    try { const cgp = await cgData("peaknews"); nP = cgp.refs.length + " références"; } catch (e) {}
     const cards = [
       { href: "#referentiel/esh", k: "I", t: "ESH", s: "Économie · Sociologie · Histoire", d: "Les fiches d'auteurs et de théories, les cartes mentales de chaque leçon et les débats.", n: nE },
       { href: "#cg", k: "II", t: "Culture G.", s: "L'Humanité", d: "Auteurs, poèmes, romans, tableaux, films, rangés par enjeu.", n: nC },
-      { href: "#notes", k: "III", t: EDIT() ? "Mes notes" : "Notes", s: EDIT() ? "À toi d'écrire" : "Les notes d'Alicia", d: EDIT() ? "Écris, modifie, supprime : tout est publié pour ceux qui ont le code." : "Ses notes sur les fiches et ses notes libres.", n: Object.keys(notes).length + " notes" }
+      { href: "#cg-peaknews", k: "III", t: "PeakNews", s: "Culture G. · L'Humanité", d: "Les titres et 15 enjeux de référence extraits de PeakNews.", n: nP },
+      { href: "#notes", k: "IV", t: EDIT() ? "Mes notes" : "Notes", s: EDIT() ? "À toi d'écrire" : "Les notes d'Alicia", d: EDIT() ? "Écris, modifie, supprime : tout est publié pour ceux qui ont le code." : "Ses notes sur les fiches et ses notes libres.", n: Object.keys(notes).length + " notes" }
     ];
     app.innerHTML = '<div class="hub"><div class="hub-bg" aria-hidden="true"><i></i><i></i><i></i></div>' +
       '<div class="hub-head"><span class="label muted">Référentiel</span><h1>Que veux-tu réviser ?</h1></div>' +
@@ -1550,11 +1561,12 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     });
     if (!editOn()) return;
     // poubelles sur les listes
-    app.querySelectorAll('.cg-ref[href^="#cg/f/"], .list-row[data-fiche]').forEach(row => {
-      const id = row.dataset.fiche ? "esh:" + row.dataset.fiche : "cg:" + decodeURIComponent(row.getAttribute("href").slice(6));
+    app.querySelectorAll('.cg-ref[href^="#cg/f/"], .cg-ref[href^="#cg-peaknews/f/"], .list-row[data-fiche]').forEach(row => {
+      const hr = row.getAttribute("href") || "";
+      const id = row.dataset.fiche ? "esh:" + row.dataset.fiche : hr.startsWith("#cg-peaknews/f/") ? "cgp:" + decodeURIComponent(hr.slice(15)) : "cg:" + decodeURIComponent(hr.slice(6));
       row.insertAdjacentHTML("beforeend", trashBtn('data-del-ref="' + esc(id) + '"'));
     });
-    app.querySelectorAll('div.cg-ref[data-id]').forEach(row => row.insertAdjacentHTML("beforeend", trashBtn('data-del-ref="cg:' + esc(row.dataset.id) + '"')));
+    app.querySelectorAll('div.cg-ref[data-id]').forEach(row => row.insertAdjacentHTML("beforeend", trashBtn('data-del-ref="' + esc((row.dataset.pref || "cg:") + row.dataset.id) + '"')));
   }
   // enregistrer quand on quitte un texte
   document.addEventListener("focusout", e => {
@@ -1612,6 +1624,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       else if (h === "lecons" || h.startsWith("lecons/")) { state.view = "refhub"; setNav(); await viewLecons(h.split("/").slice(1)); }
       else if (h === "referentiel/esh") { state.view = "referentiel"; setNav(); await viewReferentiel(); }
       else if (h === "cg" || h.startsWith("cg/")) { state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1)); }
+      else if (h === "cg-peaknews" || h.startsWith("cg-peaknews/")) { state.view = "cg"; setNav(); await viewCG(h.split("/").slice(1), "peaknews"); }
       else if (h === "archives") { state.view = "archives"; setNav(); viewArchives(); }
       else if (h === "favoris" || h.startsWith("favoris/")) { state.view = "favoris"; setNav(); fdClose(); await viewFavoris(h.startsWith("favoris/") ? h.slice(8) : undefined); }
       else if (h && h !== "accueil") {
@@ -1620,7 +1633,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
         else { state.view = "accueil"; setNav(); await viewAccueil(); }
       }
       else { state.view = "accueil"; setNav(); await viewAccueil(); }
-      const tg = document.getElementById("edit-toggle"); if (tg) { const cg = h === "cg" || h.startsWith("cg/"); tg.hidden = !cg; if (!cg && document.body.classList.contains("edit-on")) { document.body.classList.remove("edit-on"); tg.textContent = "Modifier"; tg.classList.remove("on"); } }
+      const tg = document.getElementById("edit-toggle"); if (tg) { const cg = h === "cg" || h.startsWith("cg/") || h === "cg-peaknews" || h.startsWith("cg-peaknews/"); tg.hidden = !cg; if (!cg && document.body.classList.contains("edit-on")) { document.body.classList.remove("edit-on"); tg.textContent = "Modifier"; tg.classList.remove("on"); } }
       if (!/^\d{4}-\d{2}-\d{2}-/.test(h)) decorate(h);
     } catch (e) {
       app.innerHTML = '<div class="empty narrow"><p>Impossible de charger cette page.</p><p class="muted">Les données de l\'édition ne répondent pas. Recharge la page dans un instant.</p></div>';

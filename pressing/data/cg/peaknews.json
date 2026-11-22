@@ -1,0 +1,263 @@
+{
+  "theme": "L'Humanité",
+  "annee": "2026-2027 · Sélection PeakNews",
+  "desc": "Les titres et enjeux de référence sur le thème de L'Humanité (extraits de la sélection PeakNews), prêts à être fichés ou annotés.",
+  "rubriques": [
+    {
+      "id": "auteurs",
+      "nom": "Les auteurs",
+      "desc": "Les grands penseurs du thème."
+    },
+    {
+      "id": "poemes",
+      "nom": "Les poèmes",
+      "desc": "Les vers à citer et ce qu'ils disent de l'homme."
+    },
+    {
+      "id": "litterature",
+      "nom": "Les œuvres littéraires",
+      "desc": "Romans, épopées, témoignages : les œuvres clés."
+    },
+    {
+      "id": "art",
+      "nom": "Les œuvres d'art",
+      "desc": "Peinture et sculpture, de l'Antiquité à l'époque moderne."
+    },
+    {
+      "id": "films",
+      "nom": "Les films",
+      "desc": "Les œuvres cinématographiques du thème."
+    },
+    {
+      "id": "dissertations",
+      "nom": "Les dissertations",
+      "desc": "Les grands sujets du thème."
+    }
+  ],
+  "enjeux": [
+    { "id": "e1", "nom": "L'humanité face à la déshumanisation" },
+    { "id": "e2", "nom": "L'humanité et l'animalité" },
+    { "id": "e3", "nom": "La nature humaine" },
+    { "id": "e4", "nom": "L'humanité à l'épreuve de la technique" },
+    { "id": "e5", "nom": "L'unité et la diversité de l'humanité" },
+    { "id": "e6", "nom": "La vulnérabilité humaine et le soin" },
+    { "id": "e7", "nom": "Les exclus de l'humanité" },
+    { "id": "e8", "nom": "L'humanité à venir et la transmission" },
+    { "id": "e9", "nom": "La mémoire de l'humanité et le témoignage" },
+    { "id": "e10", "nom": "La dignité humaine" },
+    { "id": "e11", "nom": "L'humanité dans le rapport à autrui" },
+    { "id": "e12", "nom": "La civilisation humaine et la barbarie" },
+    { "id": "e13", "nom": "La condition mortelle de l'humanité" },
+    { "id": "e14", "nom": "L'humanité dans la nature" },
+    { "id": "e15", "nom": "L'art et l'humanité" }
+  ],
+  "refs": [
+    {
+      "id": "pn-hannah-arendt",
+      "rub": "auteurs",
+      "titre": "Hannah Arendt",
+      "sous": "1906 - 1975",
+      "enjeux": ["e1", "e3", "e7", "e9", "e10", "e13"]
+    },
+    {
+      "id": "pn-simone-weil",
+      "rub": "auteurs",
+      "titre": "Simone Weil",
+      "sous": "1909 - 1943",
+      "enjeux": ["e1", "e5", "e6", "e8", "e9", "e10", "e11"]
+    },
+    {
+      "id": "pn-emmanuel-levinas",
+      "rub": "auteurs",
+      "titre": "Emmanuel Levinas",
+      "sous": "1906 - 1995",
+      "enjeux": ["e5", "e6", "e10", "e11"]
+    },
+    {
+      "id": "pn-claude-levi-strauss",
+      "rub": "auteurs",
+      "titre": "Claude Lévi-Strauss",
+      "sous": "1908 - 2009",
+      "enjeux": ["e2", "e5", "e7", "e12"]
+    },
+    {
+      "id": "pn-michel-foucault",
+      "rub": "auteurs",
+      "titre": "Michel Foucault",
+      "sous": "1926 - 1984",
+      "enjeux": ["e1", "e3", "e4", "e7"]
+    },
+    {
+      "id": "pn-ballade-des-pendus",
+      "rub": "poemes",
+      "titre": "Ballade des pendus",
+      "sous": "François Villon · vers 1462",
+      "enjeux": ["e1", "e5", "e6", "e9", "e10", "e11", "e13"]
+    },
+    {
+      "id": "pn-choeur-antigone",
+      "rub": "poemes",
+      "titre": "Le chœur d'Antigone sur l'homme",
+      "sous": "Sophocle · vers 441 av. J.-C.",
+      "enjeux": ["e3", "e4", "e13", "e14"]
+    },
+    {
+      "id": "pn-ozymandias",
+      "rub": "poemes",
+      "titre": "Ozymandias",
+      "sous": "Percy Bysshe Shelley · 1818",
+      "enjeux": ["e8", "e13", "e15"]
+    },
+    {
+      "id": "pn-mort-du-loup",
+      "rub": "poemes",
+      "titre": "La Mort du loup",
+      "sous": "Alfred de Vigny · 1843",
+      "enjeux": ["e2", "e10"]
+    },
+    {
+      "id": "pn-chanson-de-moi-meme",
+      "rub": "poemes",
+      "titre": "Chanson de moi-même",
+      "sous": "Walt Whitman · 1855",
+      "enjeux": ["e5", "e11"]
+    },
+    {
+      "id": "pn-homme-et-la-mer",
+      "rub": "poemes",
+      "titre": "L'Homme et la Mer",
+      "sous": "Charles Baudelaire · 1857",
+      "enjeux": ["e3", "e12"]
+    },
+    {
+      "id": "pn-epopee-de-gilgamesh",
+      "rub": "litterature",
+      "titre": "L'Épopée de Gilgamesh",
+      "sous": "Mésopotamie · vers 1200 av. J.-C.",
+      "enjeux": ["e2", "e5", "e8", "e9", "e13", "e14", "e15"]
+    },
+    {
+      "id": "pn-frankenstein",
+      "rub": "litterature",
+      "titre": "Frankenstein ou le Prométhée moderne",
+      "sous": "Mary Shelley · 1818",
+      "enjeux": ["e3", "e4", "e7"]
+    },
+    {
+      "id": "pn-la-metamorphose",
+      "rub": "litterature",
+      "titre": "La Métamorphose",
+      "sous": "Franz Kafka · 1915",
+      "enjeux": ["e1", "e2", "e7", "e10"]
+    },
+    {
+      "id": "pn-meilleur-des-mondes",
+      "rub": "litterature",
+      "titre": "Le Meilleur des mondes",
+      "sous": "Aldous Huxley · 1932",
+      "enjeux": ["e3", "e4", "e7"]
+    },
+    {
+      "id": "pn-si-c-est-un-homme",
+      "rub": "litterature",
+      "titre": "Si c'est un homme",
+      "sous": "Primo Levi · 1947",
+      "enjeux": ["e1", "e6", "e9", "e10"]
+    },
+    {
+      "id": "pn-triomphe-de-la-mort",
+      "rub": "art",
+      "titre": "Le Triomphe de la Mort",
+      "sous": "Pieter Bruegel l'Ancien · vers 1562",
+      "enjeux": ["e1", "e6", "e8", "e9", "e13"]
+    },
+    {
+      "id": "pn-galate-mourant",
+      "rub": "art",
+      "titre": "Le Galate mourant",
+      "sous": "École de Pergame · vers 230-220 av. J.-C.",
+      "enjeux": ["e5", "e6", "e10"]
+    },
+    {
+      "id": "pn-adam-et-eve",
+      "rub": "art",
+      "titre": "Adam et Ève",
+      "sous": "Albrecht Dürer · 1507",
+      "enjeux": ["e2", "e3"]
+    },
+    {
+      "id": "pn-judith-holopherne",
+      "rub": "art",
+      "titre": "Judith décapitant Holopherne",
+      "sous": "Artemisia Gentileschi · vers 1620",
+      "enjeux": ["e1"]
+    },
+    {
+      "id": "pn-peste-asdod",
+      "rub": "art",
+      "titre": "La Peste d'Asdod",
+      "sous": "Nicolas Poussin · 1630-1631",
+      "enjeux": ["e6", "e7"]
+    },
+    {
+      "id": "pn-ruban-blanc",
+      "rub": "films",
+      "titre": "Le Ruban blanc",
+      "sous": "Michael Haneke · 2009",
+      "enjeux": ["e1", "e3", "e7", "e12"]
+    },
+    {
+      "id": "pn-metropolis",
+      "rub": "films",
+      "titre": "Metropolis",
+      "sous": "Fritz Lang · 1927",
+      "enjeux": ["e4", "e7"]
+    },
+    {
+      "id": "pn-temps-modernes",
+      "rub": "films",
+      "titre": "Les Temps modernes",
+      "sous": "Charlie Chaplin · 1936",
+      "enjeux": ["e4"]
+    },
+    {
+      "id": "pn-2001-odyssee-espace",
+      "rub": "films",
+      "titre": "2001 : l'Odyssée de l'espace",
+      "sous": "Stanley Kubrick · 1968",
+      "enjeux": ["e2", "e4", "e15"]
+    },
+    {
+      "id": "pn-blade-runner",
+      "rub": "films",
+      "titre": "Blade Runner",
+      "sous": "Ridley Scott · 1982",
+      "enjeux": ["e3", "e4", "e13"]
+    },
+    {
+      "id": "pn-dissert-animal",
+      "rub": "dissertations",
+      "titre": "L'homme est-il un animal comme les autres ?",
+      "enjeux": ["e2", "e3"]
+    },
+    {
+      "id": "pn-dissert-perdre-humanite",
+      "rub": "dissertations",
+      "titre": "Peut-on perdre son humanité ?",
+      "enjeux": ["e1", "e10"]
+    },
+    {
+      "id": "pn-dissert-technique",
+      "rub": "dissertations",
+      "titre": "La technique menace-t-elle l'humanité ?",
+      "enjeux": ["e4", "e8"]
+    },
+    {
+      "id": "pn-dissert-freres",
+      "rub": "dissertations",
+      "titre": "Sommes-nous tous frères ?",
+      "enjeux": ["e5", "e11"]
+    }
+  ],
+  "fiches": {}
+}
