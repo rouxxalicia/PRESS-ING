@@ -12,18 +12,19 @@ Tu rédiges **Press'ing**, la revue de presse quotidienne d'Alicia, étudiante e
    - **anglais** : Royaume-Uni et États-Unis (politique, société, économie).
    - **espagnol** : Espagne et Amérique latine.
    - **allemand** : Allemagne (Autriche ou Suisse seulement si c'est vraiment marquant).
+   **En plus**, en espagnol : **1 actu culturelle** (voir « Actu culturelle (espagnol) » ci-dessous), soit 17 cartes en tout.
    **Uniquement des médias reconnus**, ceux de la liste « Sources autorisées » ci-dessous. Si tu trouves une info ailleurs, retrouve-la dans un de ces médias avant de l'utiliser ; sinon, choisis une autre actu.
    Suis la partie « Choisir les actus » ci-dessous : des sujets **utiles pour le concours**, **variés**, et **au moins 3 journaux différents par matière**.
    **Avant de garder une actu, vérifie qu'elle n'appartient pas à un dossier déjà traité** de l'étape 1 (voir « Ne pas reprendre un sujet »). Si c'est le cas, garde-la seulement s'il y a une vraie évolution (voir « suite »), sinon cherche une autre actu tout de suite.
 5. **Relie chaque carte esh aux cours d'Alicia** : pour chaque actu esh, lance `python3 scripts/cours.py <4 à 8 mots-clés de l'actu>` (ex. `python3 scripts/cours.py droits de douane Chine acier protectionnisme`). Il te donne les chapitres de son cours les plus proches et les auteurs de son cours à mobiliser. Suis la partie « Auteurs du cours » ci-dessous. **N'ouvre jamais** les fichiers de `data/cours/` à la main.
 6. Choisis la liste **« À lire »** : 3 articles des *Échos* et 3 articles du *Monde* (voir « À lire » ci-dessous).
 7. Trouve une photo pour **chaque** carte avec `python3 scripts/photos.py "mots-clés en anglais"`, en suivant la partie « Photos » ci-dessous : une photo qui montre **vraiment** le sujet de l'article. Une édition sans photo, avec une photo en double ou déjà utilisée récemment est refusée par le vérificateur.
-8. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
+8. Écris `data/editions/<date>.json` (format ci-dessous), avec les 16 cartes + l'actu culturelle espagnole (juste après les 4 cartes d'espagnol) dans l'ordre esh, anglais, espagnol, allemand, puis la liste `a_lire`.
 9. Pour chaque auteur des cartes esh dont la théorie n'a pas encore de fiche (regarde la liste de l'étape 1), **crée une fiche** (voir « Fiches du référentiel » ci-dessous) : lance d'abord `python3 scripts/preparer.py --modele` pour voir la fiche modèle, écris la ou les nouvelles fiches dans un fichier `nouvelle_fiche.json` (un objet, ou une liste d'objets), lance `python3 scripts/ajouter_fiche.py nouvelle_fiche.json`, puis supprime `nouvelle_fiche.json`. N'édite jamais `data/referentiel.json` à la main. Mets l'`id` de la fiche dans le `ref` de l'auteur.
 10. Ajoute la date **en premier** dans la liste `editions` de `data/index.json`.
 11. Lance `python3 scripts/anki.py` : il fabrique les paquets Anki dans `data/anki/`. Puis lance `python3 scripts/anki_envoyer.py` : il envoie les cartes directement dans l'Anki d'Alicia (si Anki est ouvert) et synchronise AnkiWeb. S'il dit qu'Anki est fermé, continue quand même et signale-le à la fin.
 12. Lance `python3 scripts/verifier.py` et corrige jusqu'à ce qu'il affiche « Édition valide ». Il ouvre chaque lien d'article : s'il signale un lien cassé, retrouve le vrai article et remplace l'adresse (ne contourne jamais le contrôle avec `--sans-liens`).
-13. Termine par un message très court à Alicia : les 16 titres, les 6 articles « À lire », si les cartes sont bien arrivées dans Anki, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
+13. Termine par un message très court à Alicia : les 16 titres, celui de l'actu culturelle, les 6 articles « À lire », si les cartes sont bien arrivées dans Anki, les fiches ajoutées au référentiel, et ce qu'il te reste à faire pour publier (dans GitHub Desktop : **Commit**, puis **Push origin**).
 
 ## Articles proposés par Alicia
 
@@ -51,13 +52,36 @@ Le seul critère : **est-ce qu'Alicia pourra s'en servir** comme exemple, accroc
 
 **Les faits divers** : **un seul au maximum par matière**, et seulement s'il est vraiment intéressant, c'est-à-dire s'il révèle un phénomène de société ou un débat (violences, justice, santé publique, conditions de travail, catastrophe liée au climat…). Le fait divers sans portée reste exclu.
 
-**Ce qui n'est pas utile :** l'annonce d'un produit ou la stratégie d'une entreprise sans portée générale, le sport, les people, la culture sans enjeu de société, les sujets trop locaux, et pour l'allemand, l'anglais ou l'espagnol, une actu qui ne concerne pas le pays (une usine Tesla au Texas n'a rien à faire en allemand).
+**Ce qui n'est pas utile :** l'annonce d'un produit ou la stratégie d'une entreprise sans portée générale, le sport, les people, la culture sans enjeu de société (sauf pour l'actu culturelle espagnole, qui a ses propres règles), les sujets trop locaux, et pour l'allemand, l'anglais ou l'espagnol, une actu qui ne concerne pas le pays (une usine Tesla au Texas n'a rien à faire en allemand).
 
 **De la variété :**
 - **Au moins 3 journaux différents par matière, dans l'édition du jour** : jamais plus de 2 actus du même journal dans une matière. Va chercher au-delà du premier site trouvé. Par exemple, en ESH : Les Échos, Le Monde, Alternatives économiques, La Tribune, Le Figaro, le Financial Times ; en anglais : The Guardian, BBC, FT, The Economist, NYT ; en espagnol : El País, El Mundo, La Vanguardia, elDiario.es, Clarín, BBC Mundo ; en allemand : Tagesschau, Spiegel, Zeit, FAZ, Süddeutsche, DW. Le vérificateur refuse l'édition sinon.
 - **4 thèmes différents par matière** : pas deux actus sur le même secteur ou le même événement (par exemple deux actus sur l'automobile).
 - En **espagnol**, mélange Espagne et Amérique latine. En **anglais**, mélange Royaume-Uni et États-Unis.
 - D'un jour à l'autre, ne reprends pas les mêmes sujets : voir la partie suivante.
+
+## Actu culturelle (espagnol)
+
+Chaque édition a, **en plus des 4 actus d'espagnol**, une **actu culturelle** du monde hispanique. Elle sert aux **entretiens de personnalité** des écoles de commerce : Alicia y parle de l'Espagne, et son professeur trouve ce qu'elle en dit **superficiel**. La carte doit donc lui donner une **vraie culture**, pas une brève : de quoi parler 2 minutes avec précision et un avis personnel.
+
+**Ce qui convient :**
+- **Cinéma et séries** : un film espagnol ou latino-américain qui sort ou qui est primé (Goya, San Sebastián, Cannes, Berlin…), un réalisateur et son œuvre (Almodóvar, Bayona, Sorogoyen, Carla Simón, Rodrigo Cortés…).
+- **Littérature** : prix Cervantes, prix Planeta, prix Nadal, un roman ou un auteur dont on parle (Javier Cercas, Rosa Montero, Fernando Aramburu, Almudena Grandes…), un anniversaire littéraire (Lorca, la génération de 27, García Márquez…).
+- **Arts et musées** : une exposition au Prado, au Reina Sofía, au Thyssen, au Guggenheim de Bilbao, une acquisition, un débat sur les collections (Goya, Velázquez, Picasso, Dalí, Miró, Sorolla, Frida Kahlo…).
+- **Musique et scène** : flamenco, nouvelles scènes espagnoles et latino-américaines, quand l'actu dit quelque chose de la société (pas de people).
+- **Patrimoine, langue et politique culturelle** : Unesco, RAE et langue espagnole, langues co-officielles, mémoire historique (Valle de Cuelgamuros), décolonisation des musées, tauromachie, Sagrada Família, tourisme culturel.
+- **Plutôt l'Espagne** (c'est ce dont Alicia parle en entretien), parfois l'Amérique latine.
+
+**Ce qui ne convient pas :** une brève sans fond (un concert annoncé, un festival qui ouvre, une vente aux enchères), les people, le sport, une œuvre trop confidentielle pour qu'un jury la connaisse ou qu'Alicia puisse la voir ou la lire.
+
+**Règles :**
+- `id` : `<date>-espagnol-c1`, `matiere` : `espagnol`, et `"culture": true`. Place-la **juste après les 4 cartes d'espagnol** (avant une éventuelle carte proposée par Alicia).
+- Même format que les autres cartes d'espagnol (`faits`, `enjeux`, `vo` en C1, `vocab`, `sujets`, `anki`, photo, `dossier`) et mêmes sources autorisées (rubriques culture d'El País, El Mundo, ABC, La Vanguardia, elDiario.es, RTVE, Clarín, BBC Mundo… ou Le Monde, Libération, France Culture, Courrier international). L'article peut dater des **7 derniers jours** si rien de solide n'est sorti en 48 heures. Elle ne compte pas dans les 4 actus d'espagnol ni dans la règle des 3 journaux.
+- `faits` : l'œuvre ou l'événement, précisément (titre, auteur, date, lieu, ce qu'elle raconte ou montre).
+- `enjeux` : ce que ça dit de l'Espagne (ou du pays) : histoire, société, mémoire, identité, rapport à l'Europe ou à l'Amérique latine. C'est ce qui rend la culture **non superficielle**.
+- `reperes` : **3 ou 4** paires `["repère", "explication en 1 ou 2 phrases"]` en français : la culture de fond pour aller plus loin que l'actu (les œuvres majeures de l'artiste, le mouvement, la période historique, une œuvre classique à laquelle la relier). Par ex. `["La Movida madrileña", "Explosion culturelle des années 1980 après la mort de Franco ; Almodóvar en est issu, d'où sa liberté de ton."]`.
+- `entretien` : **4 à 6 phrases** en français pour s'en servir en entretien de personnalité : comment l'amener naturellement (« J'ai vu / lu / visité… »), un **avis personnel** argumenté qu'Alicia peut défendre, le **lien avec elle** (ses voyages en Espagne, son goût pour la création, la mode, les voyages, la cuisine), et une **question de relance** probable du jury avec l'idée de réponse.
+- **Ne reprends pas** une œuvre ou un artiste déjà traité ces 30 derniers jours (le champ `dossier` s'applique : ex. `cine-almodovar`, `premio-cervantes`, `museo-del-prado`).
 
 ## Ne pas reprendre un sujet
 
@@ -253,6 +277,17 @@ Une fiche = **une théorie ou une notion** (pas un auteur en général) : « Des
    "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
    "vo": {"titre": "…", "faits": "…", "enjeux": "…"},
    "vocab": [["…", "…", "…"]],
+   "sujets": ["…", "…"],
+   "anki": [{"q": "…", "r": "…"}]
+  },
+  {
+   "id": "2026-11-01-espagnol-c1", "matiere": "espagnol", "culture": true, "source": "…", "url": "https://…", "minutes": 3,
+   "titre": "…", "dossier": "cine-almodovar", "faits": "…", "enjeux": "…",
+   "image": {"url": "https://…", "alt": "…", "credit": "…", "source": "https://…"},
+   "vo": {"titre": "…", "faits": "…", "enjeux": "…"},
+   "vocab": [["…", "…", "…"]],
+   "reperes": [["…", "…"], ["…", "…"], ["…", "…"]],
+   "entretien": "…",
    "sujets": ["…", "…"],
    "anki": [{"q": "…", "r": "…"}]
   }

@@ -898,7 +898,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
             '<h3>' + esc(lead.titre) + '</h3><p class="chapo">' + esc(firstSentence(lead.faits)) + '</p>' +
             '<span class="label muted">' + esc(lead.source) + ' · ' + lead.minutes + ' min' + (lues[lead.id] ? ' · Lue' : '') + '</span></a>' +
           '<div class="side">' + rest.map((c, i) => '<a class="small' + (c.image && c.image.url ? ' has-img' : '') + '" href="#' + c.id + '">' + photo(c) + '<span class="num" data-num="' + m + '">0' + (i + 2) + '</span>' +
-            '<h3>' + esc(c.titre) + '</h3><span class="label muted">' + (c.perso ? 'Proposé par toi · ' : '') + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · Lue' : '') + '</span></a>').join("") + '</div>' +
+            '<h3>' + esc(c.titre) + '</h3><span class="label muted">' + (c.perso ? 'Proposé par toi · ' : '') + (c.culture ? 'Culture · ' : '') + esc(c.source) + ' · ' + c.minutes + ' min' + (lues[c.id] ? ' · Lue' : '') + '</span></a>').join("") + '</div>' +
         '</div></section>';
     });
     h += aLire(ed) + proposer();
@@ -980,7 +980,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     const next = same[pos + 1] || ed.cards[(idx + 1) % ed.cards.length];
     let h = '<div class="narrow"><a class="back label" href="#' + c.matiere + '">← ' + NOM[c.matiere] + '</a>';
     h += '<article class="card">' + (c.image && c.image.url ? photo(c, "hero") + (c.image.credit ? '<p class="credit">Photo · ' + (c.image.source ? '<a href="' + esc(c.image.source) + '" target="_blank" rel="noopener">' + esc(c.image.credit) + '</a>' : esc(c.image.credit)) + '</p>' : '') : '<div class="band" data-m="' + c.matiere + '"></div>');
-    h += '<span class="label muted">' + NOM[c.matiere] + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
+    h += '<span class="label muted">' + NOM[c.matiere] + (c.culture ? ' · Culture' : '') + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
     h += '<h1>' + esc(t.titre) + '</h1>';
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
     h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + fmt(t.faits) + '</p></div></section>';
@@ -990,6 +990,8 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       return '<div class="notion">' + (fid ? '<button type="button" class="t notion-btn" data-fiche="' + esc(fid) + '"><span>' + esc(v[0]) + '</span><span class="notion-go">Fiche →</span></button>' : '<span class="t">' + esc(v[0]) + '</span>') + '<span>' + fmt(v[1]) + '</span></div>';
     }).join("") + '</section>';
     if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
+    if (c.reperes && c.reperes.length) h += '<section class="sec"><h2 class="label">Repères culturels</h2>' + c.reperes.map(v => '<div class="notion"><span class="t">' + esc(v[0]) + '</span><span>' + fmt(v[1]) + '</span></div>').join("") + '</section>';
+    if (c.entretien) h += '<aside class="prog"><span class="label">Pour l\'entretien de personnalité</span><div class="prose"><p>' + fmt(c.entretien) + '</p></div></aside>';
     if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')' + (a.cours ? ' <span class="label pill cours-pill">Cours</span>' : '') + '</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
     if (c.programme) h += '<aside class="prog"><span class="label">Lien avec le programme</span><p><strong>Module</strong> · ' + esc(c.programme.module) + '</p><p><strong>Chapitre</strong> · ' + esc(c.programme.chapitre) + '</p></aside>';
     h += '<section class="sec"><h2 class="label">Sujets possibles</h2><ol class="sujets">' + c.sujets.map((s, i) => '<li><b>0' + (i + 1) + '</b><span>' + esc(s) + '</span></li>').join("") + '</ol></section>';

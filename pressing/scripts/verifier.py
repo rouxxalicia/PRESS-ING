@@ -108,11 +108,27 @@ cards = ed.get("cards", [])
 if ed.get("date") != date:
     errors.append(f"le champ date vaut {ed.get('date')!r} au lieu de {date!r}")
 order = [c.get("matiere") for c in cards]
-std = [c for c in cards if not c.get("perso")]
+std = [c for c in cards if not c.get("perso") and not c.get("culture")]
 for m in MATS:
     n = [c.get("matiere") for c in std].count(m)
     if n != 4:
         errors.append(f"{m} : {n} carte(s) au lieu de 4")
+# Actu culturelle espagnole (obligatoire à partir du 24/11/2026)
+cult = [c for c in cards if c.get("culture")]
+if date >= "2026-11-24" and len(cult) != 1:
+    errors.append(f"il faut 1 actu culturelle espagnole (\"culture\": true), ici {len(cult)} — voir « Actu culturelle (espagnol) » dans CONSIGNES.md")
+for c in cult:
+    cid = c.get("id", "?")
+    if c.get("matiere") != "espagnol" or cid != f"{date}-espagnol-c1":
+        errors.append(f"{cid} : l'actu culturelle doit être en espagnol avec l'id {date}-espagnol-c1")
+    rep = c.get("reperes") or []
+    if not 3 <= len(rep) <= 4 or any(not isinstance(v, list) or len(v) != 2 or not all(v) for v in rep):
+        errors.append(f"{cid} : il faut 3 ou 4 reperes [repère, explication]")
+    if len(str(c.get("entretien", ""))) < 250:
+        errors.append(f"{cid} : champ entretien manquant ou trop court (4 à 6 phrases)")
+esp = [c.get("id") for c in cards if c.get("matiere") == "espagnol" and not c.get("perso")]
+if cult and esp and esp[-1] != cult[0].get("id"):
+    errors.append("l'actu culturelle doit venir juste après les 4 cartes d'espagnol")
 if order != sorted(order, key=lambda m: MATS.index(m) if m in MATS else 9):
     errors.append("les cartes ne sont pas dans l'ordre esh, anglais, espagnol, allemand")
 
