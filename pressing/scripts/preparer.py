@@ -98,6 +98,14 @@ if p.exists():
             c = {k: v for k, v in c.items() if k not in ("image", "url")}
             print(json.dumps(c, ensure_ascii=False, indent=1))
 
+if "--sans-rss" not in sys.argv:
+    try:
+        import rss
+        print()
+        print(rss.formater(rss.collecter(MATS, heures=48, par_matiere=10)))
+    except Exception as e:
+        print(f"\n(Flux RSS indisponibles : {e})")
+
 if "--modele" in sys.argv:
     print()
     print("=== FICHE MODÈLE : avantages-comparatifs ===")
