@@ -7028,6 +7028,823 @@
           ]
         }
       ]
+    },
+    {
+      "id": "gouvernance-biens-communs-ostrom",
+      "nom": "Gouvernance des biens communs",
+      "categorie": "politiques",
+      "type": "Théorie",
+      "annee": "1990",
+      "auteur": "Elinor Ostrom",
+      "accroche": "Des communautés peuvent gérer durablement une ressource commune sans passer par la privatisation ni par un État central coercitif.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Elinor Ostrom**, *Gouvernance des biens communs : pour une nouvelle approche des ressources naturelles* (*Governing the Commons*, 1990), première femme prix Nobel d'économie en 2009.",
+            "Elle répond à **Garrett Hardin** (*La Tragédie des biens communs*, 1968), selon qui toute ressource en libre accès (non excluable mais rivale) est condamnée à la surexploitation sauf si on la privatise ou on l'étatise."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les usagers d'un bien commun ne sont pas des individus isolés incapables de coopérer : ils peuvent définir des **règles collectives** d'accès et de prélèvement.",
+            "Une **gouvernance polycentrique** — à plusieurs niveaux imbriqués (local, régional, sectoriel) — permet de surveiller les usages et de sanctionner graduellement les resquilleurs.",
+            "La **confiance** et la réciprocité construites dans le temps réduisent les coûts de contrôle et empêchent l'épuisement de la ressource."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Entre le tout-marché et l'État mondial introuvable, il existe une troisième voie fondée sur l'**action collective** et les arrangements institutionnels décentralisés. Lorsque les négociations climatiques mondiales bloquent faute d'unanimité, des coalitions régionales, des accords sectoriels ou des initiatives locales peuvent malgré tout faire avancer la transition."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Huit principes de conception",
+              "d": "Ostrom identifie des règles précises pour qu'un commun dure : frontières claires, règles adaptées au terrain, contrôle par les pairs, sanctions progressives."
+            },
+            {
+              "t": "Gouvernance polycentrique du climat",
+              "d": "Dans ses travaux tardifs (2009-2010), elle applique son approche au réchauffement climatique : agir à plusieurs échelles évite d'attendre un traité mondial parfait."
+            },
+            {
+              "t": "Les communs numériques",
+              "d": "Logiciels libres, Wikipédia ou bases de données ouvertes montrent que la logique des communs s'étend aux ressources immatérielles."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "L'auto-organisation fonctionne d'autant mieux que le groupe est restreint et homogène : à l'échelle planétaire, pour le climat ou la haute mer, le problème du **passager clandestin** et les asymétries de puissance entre États restent très difficiles à surmonter sans règles contraignantes."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Impasse des COP climatiques",
+              "d": "Malgré l'absence d'accord mondial à l'unanimité, l'UE, des États américains ou des villes maintiennent des objectifs contraignants."
+            },
+            {
+              "t": "Gestion de l'eau et de l'irrigation",
+              "d": "Associations d'agriculteurs qui répartissent l'eau en période de sécheresse sans privatisation."
+            },
+            {
+              "t": "Quotas de pêche locaux",
+              "d": "Coopératives de pêcheurs qui limitent les prises pour préserver les stocks halieutiques."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "Garrett Hardin (1968)",
+              "idee": "le libre accès mène fatalement à la surexploitation sans État ou propriété privée"
+            },
+            {
+              "sens": "≠",
+              "nom": "Charles Kindleberger (1986)",
+              "idee": "les biens publics mondiaux sont sous-produits faute de puissance hégémonique"
+            },
+            {
+              "sens": "=",
+              "nom": "Jean-Marc Siroën (1999)",
+              "idee": "le cadre régional permet de produire des règles communes entre pays proches"
+            },
+            {
+              "sens": "=",
+              "nom": "Inge Kaul (2003)",
+              "idee": "les biens publics mondiaux supposent une gouvernance partagée et équitable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "croissance-qualitative-grossman-helpman",
+      "nom": "Innovation endogène et croissance qualitative",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "1991",
+      "auteur": "Gene Grossman et Elhanan Helpman",
+      "accroche": "La croissance ne vient pas seulement de produire plus, mais d'améliorer sans cesse la qualité et la valeur des biens sur une échelle technologique.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Gene Grossman et Elhanan Helpman**, *Innovation and Growth in the Global Economy* (1991) et leurs travaux sur l'innovation endogène et les **échelles de qualité** (*quality ladders*).",
+            "Ils prolongent les modèles de **croissance endogène** (Paul Romer, 1990) en montrant que la R&D privée est le moteur d'une montée en gamme continue dans une économie ouverte."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les entreprises investissent en **R&D** pour créer une version supérieure d'un bien existant, espérant capter une **rente d'innovation** temporaire.",
+            "Chaque saut qualitatif chasse le produit précédent, mais repose sur les connaissances accumulées : la **croissance qualitative** élève la valeur ajoutée sans accroître forcément les volumes.",
+            "L'ouverture internationale élargit la taille du marché, rentabilise la R&D et diffuse les gains d'innovation le long des **chaînes de valeur**."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Un pays ou un continent n'a pas besoin de dominer les plateformes grand public pour profiter d'une vague technologique : s'il contrôle des **maillons de haute technologie** à forte valeur ajoutée (machines de lithographie, équipements électriques de précision), il capte une part durable des gains de productivité mondiaux grâce à sa **compétitivité hors-prix**."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Paul Romer (1990)",
+              "d": "L'innovation accroît la variété des biens intermédiaires et génère des rendements croissants au niveau agrégé."
+            },
+            {
+              "t": "Aghion et Howitt (1992)",
+              "d": "Modèle schumpétérien où chaque innovation rend l'ancienne obsolète par destruction créatrice."
+            },
+            {
+              "t": "Courbe du sourire (Stan Shih)",
+              "d": "La valeur ajoutée se concentre en amont (R&D, composants critiques) et en aval (services), bien plus que dans l'assemblage."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Miser sur quelques niches d'équipements spécialisés ne garantit pas la diffusion de la productivité dans le reste du tissu économique : si les PME et les services adoptent peu les nouvelles technologies, le pays risque un **dualisme productif** et un décrochage global."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Position de l'Europe dans l'IA",
+              "d": "Absence de géants logiciels comparables aux États-Unis, mais monopole d'ASML ou force de Schneider Electric et Siemens."
+            },
+            {
+              "t": "Montée en gamme allemande",
+              "d": "Spécialisation sur les machines-outils et composants industriels face à la concurrence à bas coûts."
+            },
+            {
+              "t": "Rivalité États-Unis / Chine sur les puces",
+              "d": "Contrôle des exportations d'équipements de lithographie pour freiner la montée en qualité du concurrent."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Paul Romer (1990)",
+              "idee": "la R&D privée produit un progrès technique endogène à rendements croissants"
+            },
+            {
+              "sens": "=",
+              "nom": "Michael Porter (1990)",
+              "idee": "la compétitivité hors-prix repose sur la différenciation et l'innovation"
+            },
+            {
+              "sens": "≠",
+              "nom": "François Bourguignon (2025)",
+              "idee": "l'Europe décroche des États-Unis faute de gains de productivité généralisés"
+            },
+            {
+              "sens": "≠",
+              "nom": "Robert Gordon (2012)",
+              "idee": "les innovations récentes ont des effets plus limités que les grandes vagues passées"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regle-de-hartwick",
+      "nom": "Règle de Hartwick",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "1977",
+      "auteur": "John M. Hartwick",
+      "accroche": "Une économie peut épuiser ses ressources non renouvelables tout en maintenant sa consommation si elle réinvestit la totalité de la rente en capital productif.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**John M. Hartwick**, article « Intergenerational Equity and the Investing of Rents from Exhaustible Resources » (*American Economic Review*, 1977), prolongeant le modèle de Robert Solow (1974).",
+            "La question est celle de l'**équité intergénérationnelle** : comment une économie qui consomme du pétrole ou des minerais finis peut-elle éviter l'appauvrissement de ses générations futures ?"
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'exploitation d'une ressource épuisable dégage une **rente de rareté** (différence entre prix de vente et coût d'extraction).",
+            "Si cette rente est consommée immédiatement (subventions, dépenses courantes), le stock total de richesse baisse quand le gisement s'épuise.",
+            "Si l'État réinvestit la rente dans du **capital reproductible** (usines, infrastructures, éducation, actifs financiers), la capacité productive reste constante d'une génération à l'autre."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La règle de Hartwick fonde la **soutenabilité faible** et justifie théoriquement les **fonds souverains** des pays exportateurs d'hydrocarbures (Norvège, pays du Golfe). Mais elle montre aussi leur écueil : si la rente est investie dans des projets non rentables ou à perte, le capital naturel détruit n'est pas remplacé par du vrai capital productif."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Soutenabilité faible vs forte",
+              "d": "Hartwick suppose le **capital naturel** et le **capital physique** substituables (soutenabilité faible), ce que conteste l'économie écologique (Herman Daly)."
+            },
+            {
+              "t": "Malédiction des ressources (Sachs et Warner)",
+              "d": "Sans institutions solides, la rente pétrolière évince l'industrie manufacturière (syndrome hollandais) et alimente la rente politique."
+            },
+            {
+              "t": "Fonds souverain norvégien",
+              "d": "Créé en 1990, il place la rente pétrolière à l'étranger en actifs diversifiés pour préserver la richesse future et éviter la surchauffe."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La règle suppose deux conditions très exigeantes : d'une part, que le capital artificiel puisse toujours remplacer la nature (ce qui est faux pour le climat ou la biodiversité) ; d'autre part, que l'État sélectionne des investissements **économiquement rentables**, sans gaspillage ni capture politique."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Arabie saoudite et Vision 2030",
+              "d": "Le fonds souverain PIF tente de transformer la rente pétrolière en économie diversifiée, au risque de dépréciations sur des mégaprojets coûteux."
+            },
+            {
+              "t": "Modèle norvégien",
+              "d": "Placement prudent des recettes d'hydrocarbures dans un fonds d'épargne intergénérationnel."
+            },
+            {
+              "t": "Débat sur le nucléaire et les terres rares",
+              "d": "Comment financer la substitution d'énergies fossiles par des infrastructures bas-carbone."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Robert Solow (1974)",
+              "idee": "le capital physique et le progrès technique peuvent compenser l'épuisement des ressources"
+            },
+            {
+              "sens": "≠",
+              "nom": "Herman Daly (1990)",
+              "idee": "soutenabilité forte : capital naturel et capital physique sont complémentaires, non substituables"
+            },
+            {
+              "sens": "≠",
+              "nom": "Rapport Meadows (1972)",
+              "idee": "les limites physiques de la planète imposent un plafonnement de la croissance matérielle"
+            },
+            {
+              "sens": "=",
+              "nom": "Acemoglu et Robinson (2012)",
+              "idee": "la transformation de la rente en croissance durable dépend de la qualité des institutions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "institutions-inclusives-acemoglu-robinson",
+      "nom": "Institutions inclusives et institutions extractives",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "2012",
+      "auteur": "Daron Acemoglu et James Robinson",
+      "accroche": "Les écarts de richesse entre nations s'expliquent avant tout par leurs institutions politiques et économiques, plus que par la géographie ou la culture.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Daron Acemoglu et James Robinson**, *Prospérité, puissance et pauvreté* (*Why Nations Fail*, 2012) — travaux récompensés par le prix Nobel d'économie 2024 (avec Simon Johnson).",
+            "Ils prolongent l'économie néo-institutionnaliste de **Douglass North** en reliant explicitement la répartition du pouvoir politique au dynamisme économique de long terme."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Des **institutions inclusives** garantissent les droits de propriété, l'État de droit, l'égalité des chances et l'ouverture des marchés à de nouveaux entrants.",
+            "Elles encouragent l'investissement, l'éducation et la **destruction créatrice**, car chacun sait qu'il recueillera les fruits de son effort.",
+            "À l'inverse, des **institutions extractives** concentrent le pouvoir et les rentes aux mains d'une élite qui bloque les réformes et l'innovation susceptibles de menacer sa position."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Une croissance dirigée par le haut dans un cadre **extractif** peut mobiliser beaucoup de capitaux et impressionner à court terme, mais elle finit par buter sur la mauvaise allocation des ressources, l'absence de contre-pouvoirs et la méfiance des investisseurs privés. Le développement durable exige des **contre-pouvoirs** et une concurrence économique réelle."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Croissance sous régime extractif",
+              "d": "L'URSS des années 1930-1960 ou certains États rentiers croissent par accumulation extensive, mais s'essoufflent faute d'innovation décentralisée."
+            },
+            {
+              "t": "Dépendance au sentier (path dependence)",
+              "d": "Des choix institutionnels anciens créent des cercles vicieux ou vertueux difficiles à renverser."
+            },
+            {
+              "t": "Conjonctures critiques",
+              "d": "La Peste noire ou la Révolution glorieuse de 1688 ont fait bifurquer l'Angleterre vers des institutions inclusives."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle peine à expliquer l'essor prolongé de la **Chine** depuis 1978 sous un régime politique autoritaire, que d'autres économistes expliquent par une décentralisation économique pragmatique, un fort capital humain et une concurrence entre provinces."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Fonds souverains et grands projets",
+              "d": "L'absence de contrôle indépendant favorise le surinvestissement dans des projets prestigieux mais peu rentables (ex. mégaprojets saoudiens)."
+            },
+            {
+              "t": "Comparaison des deux Corées",
+              "d": "Même culture et même géographie, mais trajectoires opposées depuis 1945 selon le type d'institutions."
+            },
+            {
+              "t": "Ouverture financière des émergents",
+              "d": "Sans État de droit ni régulation bancaire crédible, l'afflux de capitaux alimente des crises financières plutôt que la croissance."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Douglass North (1990)",
+              "idee": "les institutions réduisent l'incertitude et incitent à investir"
+            },
+            {
+              "sens": "=",
+              "nom": "Joseph Schumpeter (1942)",
+              "idee": "la croissance suppose que de nouveaux entrepreneurs puissent défier les rentes établies"
+            },
+            {
+              "sens": "≠",
+              "nom": "Jeffrey Sachs (2001)",
+              "idee": "la géographie, le climat et les maladies pèsent directement sur le sous-développement"
+            },
+            {
+              "sens": "≠",
+              "nom": "Michel Aglietta et Guo Bai (2012)",
+              "idee": "le socialisme de marché chinois montre qu'un État autoritaire peut piloter la croissance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arbitrage-concurrence-efficacite-williamson",
+      "nom": "Arbitrage concurrence-efficacité des fusions",
+      "categorie": "fondamentaux",
+      "type": "Modèle",
+      "annee": "1968",
+      "auteur": "Oliver Williamson",
+      "accroche": "Une fusion qui accroît le pouvoir de marché et les prix peut néanmoins améliorer le bien-être collectif si les économies d'échelle dépassent la perte sèche.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Oliver Williamson**, article « Economies as an Antitrust Defense: The Welfare Tradeoffs » (*American Economic Review*, 1968), prix Nobel d'économie 2009.",
+            "Il répond aux autorités antitrust américaines qui interdisaient presque systématiquement les concentrations horizontales au nom du seul maintien d'un grand nombre de concurrents."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Une fusion réduit le nombre d'offreurs, renforce le **pouvoir de marché** et permet une hausse des prix, ce qui crée une **perte sèche** pour les consommateurs.",
+            "Dans le même temps, le regroupement supprime des doublons, mutualise les réseaux ou les achats et génère des **gains d'efficacité** (baisse du coût moyen).",
+            "L'autorité de concurrence compare les deux triangles/rectangles sur le **surplus total** : si la baisse des coûts l'emporte sur la perte sèche, la fusion est socialement souhaitable."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le modèle éclaire le dilemme quotidien des autorités de la concurrence face aux **oligopoles** en réseau (télécoms, énergie, transport). Réduire le nombre d'opérateurs de quatre à trois menace la concurrence sur les prix, mais peut libérer des **économies d'échelle** et des capacités d'investissement dans les infrastructures."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Critère du surplus du consommateur",
+              "d": "En Europe, la Commission privilégie souvent le seul surplus du consommateur plutôt que le surplus total, exigeant que les gains soient répercutés sur les prix."
+            },
+            {
+              "t": "Relation en U inversé (Aghion et al., 2005)",
+              "d": "Trop peu de concurrence endort l'innovation, mais une concurrence excessive réduit les marges nécessaires pour financer la R&D."
+            },
+            {
+              "t": "Indice de Lerner (1934)",
+              "d": "Mesure le pouvoir de marché par l'écart relatif entre prix et coût marginal : (P − Cm) / P."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Les économies de coûts annoncées par les entreprises avant une fusion sont souvent surestimées, tandis que les hausses de prix ou les ententes tacites dans un **oligopole étroit** (à trois acteurs) peuvent durer longtemps. De plus, la concentration accroît le pouvoir de lobbying et les inégalités (Thomas Philippon, 2019)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Télécoms en France (dossier SFR)",
+              "d": "Débat sur le passage de quatre à trois opérateurs mobiles : crainte de hausse des forfaits vs besoin d'investir dans la fibre et la 5G."
+            },
+            {
+              "t": "Fusion Alstom-Siemens (2019)",
+              "d": "Refusée par Bruxelles malgré l'argument de taille critique face au géant chinois CRRC."
+            },
+            {
+              "t": "Consolidation bancaire ou aérienne",
+              "d": "Évaluation des synergies de coûts face aux risques de position dominante sur certaines lignes ou régions."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "Joan Robinson (1933)",
+              "idee": "en concurrence imparfaite, les grandes firmes fixent les prix au-dessus du coût marginal"
+            },
+            {
+              "sens": "≠",
+              "nom": "Thomas Philippon (2019)",
+              "idee": "la hausse de la concentration aux États-Unis depuis 2000 a fait monter les prix et les marges"
+            },
+            {
+              "sens": "=",
+              "nom": "Philippe Aghion (2005)",
+              "idee": "un certain degré de concentration préserve les rentes nécessaires à l'investissement et l'innovation"
+            },
+            {
+              "sens": "=",
+              "nom": "Joseph Schumpeter (1942)",
+              "idee": "les grandes entreprises disposent de moyens financiers supérieurs pour innover"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protectionnisme-strategique-brander-spencer",
+      "nom": "Politique commerciale stratégique",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "1985",
+      "auteur": "James Brander et Barbara Spencer",
+      "accroche": "Dans un oligopole mondial à rendements croissants, des subventions publiques ciblées permettent à une firme nationale de capter une rente au détriment de ses rivales étrangères.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**James Brander et Barbara Spencer**, « Export Subsidies and International Market Share Rivalry » (*Journal of International Economics*, 1985), prolongé avec **Paul Krugman** dans la **nouvelle théorie du commerce international**.",
+            "Contrairement au modèle ricardien en **concurrence pure et parfaite** où toute subvention crée une perte sèche, Brander et Spencer étudient des secteurs stratégiques (aéronautique, semi-conducteurs, spatial) dominés par un **oligopole mondial** à coûts fixes élevés et **rendements d'échelle croissants**."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un secteur à forts coûts d'entrée ne peut rentabiliser qu'un nombre très limité de producteurs mondiaux (duopole de type Cournot).",
+            "L'État subventionne la R&D ou la production d'un **champion national**, ce qui abaisse de façon crédible ses coûts marginaux et l'incite à produire davantage.",
+            "Face à cet engagement crédible, le concurrent étranger réduit sa production : le champion national capte une **rente d'oligopole** supérieure au montant de la subvention publique."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette théorie justifie une **politique industrielle** et des **subventions publiques** ciblées dans les secteurs de pointe. Elle explique pourquoi ouvrir des fonds publics européens à des groupes extra-communautaires risque de transférer des subventions vers des concurrents américains ou asiatiques, au lieu de consolider des champions européens."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La concurrence en prix de Bertrand (Eaton et Grossman, 1986)",
+              "d": "Si les firmes se concurrencent par les prix plutôt que par les quantités, la politique optimale est une taxe à l'exportation et non une subvention."
+            },
+            {
+              "t": "Les aides chinoises et l'IRA américain",
+              "d": "Subventions massives aux véhicules électriques (BYD) ou aux technologies vertes pour conquérir les parts de marché mondiales."
+            },
+            {
+              "t": "Le dilemme du prisonnier commercial",
+              "d": "Si tous les États subventionnent leurs champions, la rente disparaît et les contribuables financent une guerre des subventions."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Paul Krugman lui-même a souligné les limites pratiques du modèle : l'État dispose rarement de l'information parfaite pour choisir les bons gagnants (*picking winners*), s'expose à la capture par les lobbies industriels et déclenche des **représailles commerciales** des pays partenaires."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La rivalité Airbus-Boeing",
+              "d": "Exemple historique du soutien public européen qui a permis de briser le monopole américain."
+            },
+            {
+              "t": "Les fonds européens pour la compétitivité et la défense",
+              "d": "Débat sur la préférence européenne face aux firmes américaines ou sud-coréennes."
+            },
+            {
+              "t": "La guerre des semi-conducteurs et des batteries",
+              "d": "Course aux subventions entre le *CHIPS Act* américain, le *Chips Act* européen et la politique industrielle chinoise."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Friedrich List (1841)",
+              "idee": "le protectionnisme éducateur protège temporairement les industries naissantes pour bâtir des avantages"
+            },
+            {
+              "sens": "=",
+              "nom": "Élie Cohen et Jean-Hervé Lorenzi (2000)",
+              "idee": "la politique industrielle ciblée répond aux enjeux de souveraineté technologique"
+            },
+            {
+              "sens": "≠",
+              "nom": "David Ricardo (1817)",
+              "idee": "le libre-échange et la spécialisation selon les coûts comparatifs maximisent le bien-être"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arbitrage-fusions-antitrust-williamson",
+      "nom": "Arbitrage des fusions et politique antitrust",
+      "categorie": "fondamentaux",
+      "type": "Modèle",
+      "annee": "1968",
+      "auteur": "Oliver Williamson",
+      "accroche": "Une concentration d'entreprises peut accroître le bien-être collectif si les gains d'efficacité productifs compensent la perte liée au pouvoir de marché.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Oliver Williamson**, « Economies as an Antitrust Defense: The Welfare Tradeoffs » (*American Economic Review*, 1968 ; prix Nobel d'économie 2009).",
+            "Dans les années 1960, la doctrine antitrust américaine condamne presque automatiquement les fusions horizontales au nom de la concurrence. Williamson propose un cadre d'analyse coût-bénéfice devenu la référence des autorités de la concurrence."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Une fusion réduit le nombre de concurrents et donne à l'entité née du rapprochement un **pouvoir de marché** qui peut pousser les prix à la hausse.",
+            "Cette hausse des prix engendre une **perte sèche** de surplus pour les consommateurs (triangle d'Harberger).",
+            "Mais le regroupement dégage aussi des **économies d'échelle** et des synergies qui abaissent le coût unitaire de production : si ce gain de coûts dépasse la perte sèche, le **surplus total** augmente."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le modèle montre pourquoi une autorité de la concurrence (Commission européenne, Autorité de la concurrence) ne juge pas une opération uniquement sur le nombre d'acteurs (par exemple passer de quatre à trois opérateurs télécoms), mais évalue la balance entre **risque de hausse des prix** et **capacité d'investissement** ou gains d'efficacité."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Critère du surplus du consommateur vs surplus total",
+              "d": "Les autorités européennes et américaines exigent souvent que les gains d'efficacité soient répercutés aux consommateurs, et pas seulement captés en profits."
+            },
+            {
+              "t": "La courbe en U inversé (Aghion et al., 2005)",
+              "d": "Trop peu de concurrence endort l'innovation, mais une concurrence excessive réduit les marges nécessaires à la R&D."
+            },
+            {
+              "t": "Les remèdes structurels et comportementaux",
+              "d": "Cessions d'actifs ou engagements tarifaires exigés pour autoriser une fusion."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "L'analyse statique de Williamson néglige les effets dynamiques sur l'**innovation**, la qualité de service et l'emploi, ainsi que l'asymétrie d'information : les entreprises surestiment souvent leurs futures synergies pour convaincre le régulateur."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La consolidation des télécoms en Europe",
+              "d": "Débat sur le passage de quatre à trois opérateurs (rachat de SFR, fusions en Espagne ou au Royaume-Uni) entre prix bas et financement de la 5G/fibre."
+            },
+            {
+              "t": "Le veto de Bruxelles sur Alstom-Siemens (2019)",
+              "d": "Refus fondé sur le maintien de la concurrence européenne face à l'argument d'un champion mondial."
+            },
+            {
+              "t": "Les acquisitions des géants du numérique (Big Tech)",
+              "d": "Contrôle des rachats prédateurs (*killer acquisitions*) de start-up innovantes."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Joseph Schumpeter (1942)",
+              "idee": "les grandes firmes dotées d'un pouvoir de marché financent plus aisément l'innovation"
+            },
+            {
+              "sens": "≠",
+              "nom": "Joan Robinson (1933)",
+              "idee": "la concurrence imparfaite confère aux firmes une rente au détriment des consommateurs"
+            },
+            {
+              "sens": "≠",
+              "nom": "Abba Lerner (1934)",
+              "idee": "l'écart entre prix et coût marginal mesure l'exploitation du pouvoir de marché"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "division-du-travail-durkheim",
+      "nom": "Division du travail social et anomie",
+      "categorie": "societe",
+      "type": "Théorie",
+      "annee": "1893",
+      "auteur": "Émile Durkheim",
+      "accroche": "Dans les sociétés modernes, la spécialisation transforme le lien social vers une solidarité organique, mais une organisation dérégulée du travail engendre l'anomie.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Émile Durkheim**, *De la division du travail social* (1893), thèse fondatrice de la sociologie française.",
+            "Face aux théoriciens qui craignent que l'individualisme et l'industrialisation ne détruisent la cohésion sociale, Durkheim examine comment le travail spécialisé peut fonder un nouveau type de lien collectif — ou au contraire produire des pathologies sociales."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les sociétés traditionnelles reposent sur une **solidarité mécanique** fondée sur la similitude des individus et une forte conscience collective.",
+            "Avec la croissance démographique et l'urbanisation, la **division du travail** progresse et engendre une **solidarité organique** : les individus sont différents mais interdépendants.",
+            "Lorsque cette division du travail évolue trop vite sans règles ni dialogue social, ou devient purement contrainte, elle produit de l'**anomie** (perte de repères, conflits, mal-être au travail)."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Durkheim permet d'analyser les crises du **travail contemporain** (risques psychosociaux, perte de sens, intensification) non comme des fragilités psychologiques individuelles, mais comme des **faits sociaux** liés à l'organisation du travail et au déficit de régulation collective."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La division du travail anomique et contrainte (Livre III)",
+              "d": "Durkheim montre que le taylorisme naissant et les crises industrielles brisent la solidarité quand le travailleur est réduit à un rouage isolé."
+            },
+            {
+              "t": "Le rôle des corps intermédiaires",
+              "d": "Dans la préface de 1902, Durkheim plaide pour des groupements professionnels (syndicats, instances paritaires) afin de réguler les relations de travail."
+            },
+            {
+              "t": "Le Suicide (1897)",
+              "d": "Démonstration statistique qu'un déficit d'intégration et de régulation sociales accroît les pathologies individuelles."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "En mettant l'accent sur la cohésion et les fonctions intégratrices des normes, l'approche **holiste** de Durkheim sous-estime parfois les **rapports de domination** et de conflit de classe analysés par **Karl Marx**, ainsi que la marge d'autonomie stratégique des acteurs soulignée plus tard par la sociologie des organisations."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La montée des risques psychosociaux et du mal-être au travail",
+              "d": "Relier l'intensification du travail et l'affaiblissement des instances de dialogue (comme la fusion CHSCT/CSE) à une forme d'anomie organisationnelle."
+            },
+            {
+              "t": "L'ubérisation et le travail indépendant de plateforme",
+              "d": "Montrer l'isolement des travailleurs hors des collectifs et des protections collectives."
+            },
+            {
+              "t": "Le débat sur la cohésion sociale et la crise des corps intermédiaires",
+              "d": "Illustrer le rôle régulateur des syndicats et de la négociation collective."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Karl Polanyi (1944)",
+              "idee": "le travail désencastré des protections sociales détruit le tissu humain et appelle une régulation"
+            },
+            {
+              "sens": "≠",
+              "nom": "Adam Smith (1776)",
+              "idee": "la division du travail est d'abord un moteur technique de productivité et de richesse"
+            },
+            {
+              "sens": "≠",
+              "nom": "Karl Marx (1867)",
+              "idee": "la division capitaliste du travail exprime l'aliénation et l'exploitation de classe"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

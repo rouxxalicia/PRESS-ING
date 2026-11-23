@@ -1,0 +1,1104 @@
+{
+ "date": "2026-11-23",
+ "cards": [
+  {
+   "id": "2026-11-23-esh-1",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/planete/article/2026/11/22/a-la-cop31-la-communaute-internationale-sort-dechiree-face-au-manque-d-ambition-sur-la-sortie-des-energies-fossiles-et-les-transferts-financiers_6814242_3244.html",
+   "minutes": 3,
+   "titre": "COP31 à Antalya : la conférence s'achève sans accord final sur les énergies fossiles",
+   "dossier": "cop31-climat",
+   "suite": "La COP31 à Antalya s'est achevée le 22 novembre sans accord final après le veto de l'Union européenne et de plusieurs États insulaires face à l'absence d'engagement sur la sortie des énergies fossiles.",
+   "faits": "Le dimanche 22 novembre, la COP31 réunie à Antalya, en Turquie, s'est terminée sur un échec historique après des prolongations records. Le projet de texte final présenté par la présidence turque et australienne ne mentionnait plus aucune sortie ni transition hors du charbon, du pétrole et du gaz. Il se contentait d'allusions vagues et d'objectifs généraux d'électrification, en recul par rapport aux engagements de Dubaï. Jugeant ce compromis inacceptable, l'Union européenne, représentée par la présidence irlandaise, a refusé d'approuver le texte et dénoncé une conférence prise en otage par des États pétroliers. Plusieurs pays vulnérables, dont le Panama, les Îles Marshall, le Vanuatu et le Belize, ont également opposé leur veto. Faute du consensus unanime requis par les règles de l'ONU, le président de la conférence Murat Kurum a dû acter l'absence d'accord final.",
+   "enjeux": "Cet échec illustre la difficulté structurelle à gouverner le climat comme un **bien public mondial** : non rival et non excluable, le climat incite chaque État à se comporter en **passager clandestin**. Les pays producteurs d'hydrocarbures défendent leurs rentes à court terme, tandis que les pays en développement exigent des transferts financiers d'adaptation avant d'accepter de nouvelles contraintes. Sans mécanisme de sanction ni puissance hégémonique capable d'imposer une discipline commune, la règle de l'unanimité paralyse l'action multilatérale. Pour l'Union européenne, ce blocage pose la question de l'efficacité d'une stratégie climatique solitaire, qui risque d'entraîner des **fuites de carbone** et des pertes de compétitivité industrielle si elle n'est pas protégée par des instruments comme le mécanisme d'ajustement carbone aux frontières. L'impasse d'Antalya renvoie ainsi la transition écologique vers des coalitions régionales et des accords sectoriels plutôt que vers un traité universel.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1741171161116-6f99bf00020b?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Panaches de fumée sortant des cheminées d'une centrale électrique",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/coal-power-plant"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : régionalisation, gouvernance et régulations internationales"
+   },
+   "auteurs": [
+    {
+     "nom": "Charles Kindleberger",
+     "ouvrage": "International Public Goods without International Government",
+     "annee": "1986",
+     "ref": "biens-publics-mondiaux",
+     "cours": "2A-03-gouvernance",
+     "texte": "Kindleberger montre que les **biens collectifs mondiaux** profitent à tous les États mais qu'aucun n'a intérêt à en supporter seul le coût en l'absence d'un gouvernement mondial. Chacun adopte une stratégie de **passager clandestin** en espérant bénéficier des efforts des autres, ce qui explique l'échec d'Antalya dès lors que les pays pétroliers refusent de renoncer à leurs exportations. À mobiliser dans tout sujet sur les limites de la gouvernance mondiale, le climat ou le multilatéralisme."
+    },
+    {
+     "nom": "Elinor Ostrom",
+     "ouvrage": "Gouvernance des biens communs",
+     "annee": "1990",
+     "ref": "gouvernance-biens-communs-ostrom",
+     "cours": "2A-03-gouvernance",
+     "texte": "Ostrom nuance ce pessimisme en montrant que des communautés peuvent s'auto-organiser pour gérer durablement une ressource commune sans État mondial coercitif. Elle défend une **gouvernance polycentrique** à plusieurs échelles, où des coalitions régionales, des villes ou des traités ciblés continuent de réduire les émissions même quand un accord global échoue. À mobiliser pour dépasser le constat d'impuissance des COP et discuter les alternatives à l'unanimité onusienne."
+    }
+   ],
+   "notions": [
+    [
+     "Bien public mondial",
+     "Bien non rival et non excluable dont les bénéfices ou les dégradations dépassent les frontières nationales."
+    ],
+    [
+     "Passager clandestin",
+     "Agent ou État qui profite d'un bien collectif sans contribuer à son financement ni aux efforts nécessaires."
+    ],
+    [
+     "Fuite de carbone",
+     "Délocalisation d'activités polluantes vers des pays aux normes environnementales plus souples."
+    ],
+    [
+     "Gouvernance polycentrique",
+     "Organisation de la décision publique répartie entre plusieurs niveaux d'acteurs locaux, régionaux et internationaux."
+    ]
+   ],
+   "sujets": [
+    "Le multilatéralisme est-il condamné à l'impuissance face à la crise climatique ?",
+    "L'Union européenne peut-elle mener seule la transition écologique ?"
+   ],
+   "anki": [
+    {
+     "q": "Issue de la COP31 à Antalya (22 novembre 2026)",
+     "r": "Échec sans accord final après le veto de l'UE et d'États insulaires face à un texte omettant la sortie des énergies fossiles.\n→ A{Kindleberger}, O{International Public Goods without International Government} (D{1986}) : illustre l'impasse du passager clandestin quand aucun État ne peut imposer la coopération → accroche pour un sujet sur la gouvernance mondiale ou le climat."
+    },
+    {
+     "q": "Réponse théorique d'Ostrom à l'impasse d'un traité climatique mondial",
+     "r": "La B{gouvernance polycentrique} : des coalitions régionales ou locales agissent sans attendre l'unanimité.\n→ A{Ostrom}, O{Gouvernance des biens communs} (D{1990}) : nuance la paralysie des COP et montre le rôle des échelons régionaux comme l'UE."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-esh-2",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/monde/europe/un-beneficiaire-de-second-rang-et-non-une-version-ratee-des-etats-unis-comment-leurope-profite-malgre-tout-du-boom-de-lia-2263981",
+   "minutes": 3,
+   "titre": "L'Europe, « bénéficiaire de second rang » mais maillon indispensable du boom de l'IA",
+   "dossier": "europe-modele-croissance-ia",
+   "faits": "Dans une analyse publiée le 22 novembre, Les Échos reviennent sur la place réelle de l'Europe dans l'essor mondial de l'intelligence artificielle. Souvent présentée comme distancée par les États-Unis et la Chine faute de géants du cloud ou de modèles de fondation comparables, l'économie européenne capte pourtant une part essentielle de la valeur en amont. Les analystes décrivent l'Europe comme un « bénéficiaire de second rang », fournisseur des équipements indispensables à l'écosystème mondial de l'IA. Le groupe néerlandais ASML détient ainsi un quasi-monopole mondial sur les machines de lithographie extrême ultraviolet nécessaires à la gravure des puces avancées. En parallèle, des champions industriels comme Schneider Electric en France et Siemens en Allemagne profitent de l'explosion des commandes pour alimenter et refroidir les centres de données. Les sociétés de services numériques comme Capgemini bénéficient enfin de l'intégration de l'IA dans les entreprises traditionnelles.",
+   "enjeux": "Ce constat nuance l'idée d'un déclassement technologique uniforme de l'Europe le long des **chaînes de valeur mondiales**. En contrôlant des goulets d'étranglement physiques et industriels à très forte **compétitivité hors-prix**, le Vieux Continent bénéficie des investissements massifs réalisés outre-Atlantique sans en porter directement les risques financiers. Toutefois, cette spécialisation dans les biens d'équipement ne suffit pas à combler le **décrochage de productivité** global de l'Europe vis-à-vis des États-Unis. L'enjeu macroéconomique réside moins dans la fabrication des modèles d'IA que dans leur **diffusion** rapide au sein des PME et des services européens. Si l'Europe reste simple fournisseur d'outils pendant que les gains de productivité et les rentes logicielles s'accumulent ailleurs, l'écart de revenu par habitant continuera de se creuser.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1759169306784-40fc77c746a6?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Drapeaux de l'Union européenne devant une institution européenne",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/european-parliament"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+   },
+   "auteurs": [
+    {
+     "nom": "Gene Grossman et Elhanan Helpman",
+     "ouvrage": "Innovation and Growth in the Global Economy",
+     "annee": "1991",
+     "ref": "croissance-qualitative-grossman-helpman",
+     "cours": "1A-croissance",
+     "texte": "Grossman et Helpman montrent que la croissance peut être **qualitative** : l'investissement en R&D permet de gravir des échelles de qualité et d'accroître la valeur des biens sans augmenter les quantités. Cette approche explique comment l'Europe capte des **rentes d'innovation** grâce à des niches technologiques critiques comme la lithographie d'ASML ou les équipements électriques de Schneider et Siemens. À mobiliser sur les sujets consacrés à la compétitivité hors-prix, aux chaînes de valeur et à l'innovation."
+    },
+    {
+     "nom": "François Bourguignon",
+     "ouvrage": "Croissance européenne et croissance américaine : le décrochage",
+     "annee": "2025",
+     "ref": "decrochage-productivite-europe",
+     "cours": "1A-croissance",
+     "texte": "Bourguignon rappelle que l'écart de revenu par tête entre les États-Unis et l'Europe atteint 25 % en raison d'une érosion de la **productivité globale des facteurs** dans les pays fondateurs de l'UE. Il nuance ainsi l'optimisme lié à quelques champions industriels européens, car la croissance de long terme exige une diffusion large du progrès technique dans toute l'économie. À mobiliser pour analyser le rapport Draghi et le défi du potentiel de croissance européen."
+    }
+   ],
+   "notions": [
+    [
+     "Compétitivité hors-prix",
+     "Capacité d'une entreprise ou d'un pays à gagner des parts de marché grâce à la qualité, l'innovation ou la technologie plutôt que par les prix bas."
+    ],
+    [
+     "Chaîne de valeur mondiale",
+     "Répartition internationale des différentes étapes de conception, fabrication et commercialisation d'un produit."
+    ],
+    [
+     "Croissance qualitative",
+     "Hausse de la valeur créée par l'amélioration de la qualité et du contenu technologique des produits plutôt que par les volumes."
+    ],
+    [
+     "Productivité globale des facteurs",
+     "Efficacité avec laquelle le travail et le capital combinés produisent de la richesse, reflet du progrès technique."
+    ]
+   ],
+   "sujets": [
+    "L'Europe décroche-t-elle irrémédiablement dans la course mondiale à l'innovation ?",
+    "La spécialisation dans les biens d'équipement suffit-elle à soutenir la croissance ?"
+   ],
+   "anki": [
+    {
+     "q": "Position de l'Europe dans la chaîne de valeur de l'IA (ASML, Schneider Electric, Siemens)",
+     "r": "Fournisseur indispensable des machines de lithographie et des réseaux électriques pour centres de données.\n→ A{Grossman et Helpman}, O{Innovation and Growth in the Global Economy} (D{1991}) : illustre la B{croissance qualitative} et la capture de valeur sur des maillons critiques → accroche pour un sujet sur la compétitivité européenne."
+    },
+    {
+     "q": "Écart de revenu par habitant entre États-Unis et Europe selon François Bourguignon (2025)",
+     "r": "C{25 %} d'écart en faveur des États-Unis.\n→ A{Bourguignon}, O{Croissance européenne et croissance américaine : le décrochage} (D{2025}) : montre que quelques champions industriels ne suffisent pas sans diffusion large de la productivité."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-esh-3",
+   "matiere": "esh",
+   "source": "The Economist",
+   "url": "https://www.economist.com/finance-and-economics/2026/11/22/saudi-arabias-1trn-wealth-pot-suffers-an-identity-crisis",
+   "minutes": 3,
+   "titre": "Arabie saoudite : le fonds souverain PIF face à une « crise d'identité » à 1 000 milliards de dollars",
+   "dossier": "fonds-souverain-arabie-saoudite",
+   "faits": "Dans un article publié le 22 novembre, The Economist analyse les difficultés du Public Investment Fund (PIF), le fonds souverain saoudien doté d'environ 1 000 milliards de dollars d'actifs. Après une décennie de dépenses massives destinées à préparer l'après-pétrole dans le cadre du programme Vision 2030, le fonds lance sa stratégie 2026-2030 sous le signe de la rigueur financière. Les coûts démesurés de ses mégaprojets urbains, en premier lieu Neom et sa ville linéaire The Line initialement pensée sur 170 kilomètres, ont contraint Riyad à réduire ses ambitions, reporter plusieurs phases et acter des dépréciations d'actifs de plusieurs milliards de dollars. D'autres chantiers comme New Murabba ont subi des pauses ou des remaniements de direction. Le PIF réorganise désormais ses avoirs en trois portefeuilles distincts (Vision, Stratégique et Financier) et cherche à associer des capitaux privés et étrangers via des partenariats public-privé.",
+   "enjeux": "Cette réorientation illustre les ambiguïtés d'un **fonds souverain** partagé entre deux rôles contradictoires : épargner prudemment la **rente pétrolière** pour les générations futures ou piloter directement la politique industrielle nationale. Lorsque l'État stratège choisit des projets pharaoniques sans discipline de marché ni évaluation indépendante, il risque de détruire du capital au lieu de bâtir une économie diversifiée. Le cas saoudien rappelle ainsi les défis de la **malédiction des ressources naturelles** : transformer une richesse épuisable en actifs productifs exige des **institutions** capables de sélectionner des investissements rentables et d'associer le secteur privé, plutôt que de tout financer par la dépense publique.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1643155193188-38eb08e2b54f?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Antenne-relais de télécommunications sous un ciel couvert",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/cell-tower"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la soutenabilité de la croissance et du développement"
+   },
+   "auteurs": [
+    {
+     "nom": "John M. Hartwick",
+     "ouvrage": "« Intergenerational Equity and the Investing of Rents from Exhaustible Resources »",
+     "annee": "1977",
+     "ref": "regle-de-hartwick",
+     "cours": "1A-soutenabilite",
+     "texte": "Hartwick montre que l'épuisement d'une ressource naturelle est soutenable si la totalité de la **rente** est réinvestie en **capital reproductible** pour les générations futures. Les dépréciations du PIF rappellent que cette règle de soutenabilité faible échoue dès lors que les capitaux sont immobilisés dans des mégaprojets non rentables plutôt que dans des actifs productifs. À mobiliser sur les fonds souverains, la soutenabilité et l'après-pétrole."
+    },
+    {
+     "nom": "Daron Acemoglu et James Robinson",
+     "ouvrage": "Prospérité, puissance et pauvreté",
+     "annee": "2012",
+     "ref": "institutions-inclusives-acemoglu-robinson",
+     "cours": "1A-croissance",
+     "texte": "Acemoglu et Robinson opposent les **institutions inclusives**, qui garantissent concurrence et contre-pouvoirs, aux **institutions extractives**, qui concentrent les rentes autour d'une élite politique et génèrent une croissance fragile. Le recentrage forcé de Vision 2030 montre les limites d'une diversification décidée d'en haut sans contrôle indépendant ni dynamisme privé autonome. À mobiliser pour comparer le modèle rentier du Golfe au fonds souverain norvégien."
+    }
+   ],
+   "notions": [
+    [
+     "Règle de Hartwick",
+     "Principe de soutenabilité faible selon lequel la rente tirée d'une ressource épuisable doit être intégralement réinvestie en capital productif."
+    ],
+    [
+     "Fonds souverain",
+     "Fonds d'investissement public gérant l'épargne tirée des ressources naturelles ou des excédents commerciaux d'un État."
+    ],
+    [
+     "Malédiction des ressources",
+     "Paradoxe selon lequel les pays riches en matières premières connaissent souvent une moindre diversification et une croissance plus fragile."
+    ],
+    [
+     "Institutions extractives",
+     "Règles politiques et économiques concentrant le pouvoir et les rentes au profit d'une minorité, au détriment de l'innovation diffuse."
+    ]
+   ],
+   "sujets": [
+    "Les fonds souverains suffisent-ils à préparer l'après-pétrole ?",
+    "L'État stratège peut-il se substituer au secteur privé pour diversifier une économie ?"
+   ],
+   "anki": [
+    {
+     "q": "Taille du fonds souverain saoudien (PIF) et réorientation stratégique 2026-2030",
+     "r": "Environ C{1 000 Md$} d'actifs ; coupes et dépréciations sur Neom au profit de la discipline financière et des PPP.\n→ A{Hartwick}, O{Intergenerational Equity and the Investing of Rents from Exhaustible Resources} (D{1977}) : montre que la B{rente} doit être réinvestie en capital productif rentable → accroche pour un sujet sur l'État stratège ou la soutenabilité."
+    },
+    {
+     "q": "Limite institutionnelle d'une diversification pilotée d'en haut (Acemoglu et Robinson)",
+     "r": "Sans contre-pouvoirs ni concurrence privée, les choix publics risquent une mauvaise allocation du capital.\n→ A{Acemoglu et Robinson}, O{Prospérité, puissance et pauvreté} (D{2012}) : distingue B{institutions inclusives} et extractives."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-esh-4",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/23/la-recomposition-du-marche-des-telecoms-pour-les-entreprises-l-autre-enjeu-du-rachat-de-sfr_6814355_3234.html",
+   "minutes": 3,
+   "titre": "Rachat de SFR : le marché des télécoms pour les entreprises au cœur de la bataille concurrentielle",
+   "dossier": "rachat-sfr-telecoms",
+   "faits": "Le 23 novembre, Le Monde met en lumière un volet stratégique souvent négligé du projet de rachat et de démantèlement de SFR par Orange, Bouygues Telecom et Free : le marché des entreprises. Validé sous forme de protocole d'accord par Altice France autour de 20,35 milliards d'euros, le partage des actifs et des abonnés de SFR fait l'objet depuis juillet 2026 d'une instruction approfondie de l'Autorité de la concurrence. Aucune migration des clients n'est attendue avant la fin de 2027 ou 2028. Alors que les associations de consommateurs redoutent la fin de la guerre des prix sur les forfaits mobiles grand public, le sort de SFR Business suscite une vive attention. La reprise de cette branche pourrait en effet bouleverser les parts de marché face au poids historique d'Orange sur les contrats professionnels et publics. Pour rassurer les régulateurs, la directrice générale d'Orange, Christel Heydemann, cite la baisse des prix de 10 % observée deux ans après la fusion Orange-MasMovil en Espagne en 2024.",
+   "enjeux": "Ce dossier illustre l'arbitrage classique de la **politique de la concurrence** dans les industries de réseau à coûts fixes très élevés. Le passage de quatre à trois opérateurs fait craindre un **oligopole étroit**, favorable au **pouvoir de marché**, aux hausses de tarifs ou aux ententes tacites sur les segments grand public et entreprises. En sens inverse, les opérateurs font valoir que la fragmentation excessive réduit leurs marges et freine les **économies d'échelle** nécessaires pour financer le déploiement de la fibre et de la 5G. L'Autorité de la concurrence doit ainsi trancher entre la préservation d'une rivalité tarifaire immédiate et le renforcement de la capacité d'investissement des acteurs nationaux.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Intérieur d'un espace de bureaux contemporain",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/office-desk"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Joan Robinson",
+     "ouvrage": "L'Économie de la concurrence imparfaite",
+     "annee": "1933",
+     "ref": "concurrence-imparfaite-robinson",
+     "cours": "1A-entreprise",
+     "texte": "Joan Robinson rompt avec le modèle d'atomicité du marché en analysant le monopole et l'**oligopole**, où chaque grande firme exerce un **pouvoir de marché** sur ses prix. Sa théorie explique les craintes des régulateurs face au passage de quatre à trois opérateurs dans les télécoms français, notamment sur les services aux entreprises. À mobiliser pour montrer pourquoi une forte concentration menace le surplus du consommateur."
+    },
+    {
+     "nom": "Oliver Williamson",
+     "ouvrage": "Economies as an Antitrust Defense: The Welfare Tradeoffs",
+     "annee": "1968",
+     "ref": "arbitrage-concurrence-efficacite-williamson",
+     "cours": "2A-02-ftn",
+     "texte": "Williamson montre qu'une **concentration** accroissant le pouvoir de marché peut néanmoins augmenter le bien-être collectif si les **gains d'efficacité** et d'échelle dépassent la perte sèche liée à la hausse des prix. Ce modèle éclaire exactement l'instruction de l'Autorité de la concurrence sur le partage de SFR entre Orange, Bouygues et Free. À mobiliser dans tout sujet sur les fusions-acquisitions et la régulation antitrust."
+    }
+   ],
+   "notions": [
+    [
+     "Oligopole",
+     "Structure de marché dominée par un petit nombre de grandes entreprises interdépendantes dans leurs choix de prix."
+    ],
+    [
+     "Pouvoir de marché",
+     "Capacité d'une firme à fixer ses prix durablement au-dessus de son coût marginal sans perdre tous ses clients."
+    ],
+    [
+     "Économies d'échelle",
+     "Baisse du coût moyen de production lorsque les quantités produites augmentent grâce à l'étalement des coûts fixes."
+    ],
+    [
+     "Politique de la concurrence",
+     "Action publique visant à empêcher les ententes, les abus de position dominante et les fusions nuisibles au bien-être collectif."
+    ]
+   ],
+   "sujets": [
+    "La concentration des entreprises est-elle toujours défavorable aux consommateurs ?",
+    "Comment la politique de la concurrence doit-elle arbitrer entre prix bas et capacité d'investissement ?"
+   ],
+   "anki": [
+    {
+     "q": "Montant indicatif du protocole d'accord pour le rachat de SFR par ses trois rivaux",
+     "r": "Environ C{20,35 Md€}, faisant passer le marché français de 4 à 3 opérateurs sous réserve de l'Autorité de la concurrence.\n→ A{Williamson}, O{Economies as an Antitrust Defense} (D{1968}) : illustre l'arbitrage entre gains d'efficacité et pouvoir de marché → accroche pour un sujet sur la concurrence."
+    },
+    {
+     "q": "Risque principal d'un passage de 4 à 3 opérateurs télécoms (Robinson)",
+     "r": "Un B{oligopole} plus étroit qui accroît le pouvoir de marché et réduit la pression à la baisse sur les prix.\n→ A{Robinson}, O{L'Économie de la concurrence imparfaite} (D{1933}) : rompt avec l'atomicité des marchés."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-anglais-1",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/money/2026/nov/23/cost-of-renting-in-britain-to-rise-twice-as-fast-as-buying-amid-shortage-of-properties",
+   "minutes": 3,
+   "titre": "Royaume-Uni : les loyers devraient augmenter deux fois plus vite que les prix immobiliers d'ici 2029",
+   "dossier": "loyers-penurie-logement-uk",
+   "faits": "Selon une étude de l'agence immobilière Hamptons publiée par The Guardian le 23 novembre, le coût de la location en Grande-Bretagne devrait progresser deux fois plus vite que les prix d'achat au cours des prochaines années. Les loyers des nouveaux baux devraient augmenter de 14,2 % entre 2026 et 2029, contre une hausse de 7,2 % pour les prix des logements. La progression annuelle des loyers atteindrait un pic de 4,5 % en 2027, avant de ralentir à 3,5 % en 2028 puis 2,5 % en 2029. Cette flambée s'explique par un recul marqué de l'offre locative : en octobre, le nombre de biens disponibles à la location était inférieur de 26 % à son niveau d'il y a dix ans, et de 39 % à Londres. Dans le même temps, la hausse de la demande de locataires (+10 % sur un an en octobre) reste alimentée par les ménages qui ne parviennent plus à devenir propriétaires.",
+   "enjeux": "Cette divergence entre loyers et prix d'achat met en lumière un **effet d'éviction** sur le marché britannique du logement. Confrontés à une fiscalité plus lourde, à des taux d'intérêt élevés et à un durcissement réglementaire, de nombreux propriétaires bailleurs se retirent du marché, contractant l'offre disponible. Or la baisse de l'offre locative pèse d'abord sur les jeunes actifs et les ménages modestes, qui peinent à épargner pour un apport initial à mesure que le loyer absorbe une part croissante de leurs revenus. Pour les autorités britanniques, le défi consiste à concilier la **protection des locataires** avec des incitations suffisantes à la construction et au maintien d'un parc locatif privé.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1794019431976-ced241f530be?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Façades d'immeubles et maisons mitoyennes dans une rue britannique",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/london"
+   },
+   "vo": {
+    "titre": "UK: rents forecast to rise twice as fast as house prices through 2029",
+    "faits": "According to research by estate agent Hamptons reported by The Guardian on 23 November, the cost of renting in Britain is projected to grow roughly twice as fast as the cost of buying over the coming years. Rents on newly agreed tenancies are forecast to climb by 14.2% between 2026 and 2029, compared with 7.2% for house prices. Annual rental inflation is expected to peak at 4.5% in 2027 across Great Britain before easing to 3.5% in 2028 and 2.5% in 2029. The surge stems from a severe supply squeeze: the number of rental homes on the market in October was 26% lower than a decade earlier, and 39% down in London. Meanwhile, prospective tenant demand rose 10% year-on-year in October as would-be buyers remained priced out of homeownership.",
+    "enjeux": "This widening gap between rents and purchase prices exposes a structural affordability trap in Britain's housing market. Faced with higher borrowing costs, heavier tax burdens and tighter regulation, many private landlords have exited the buy-to-let sector, shrinking the pool of available lets. That contraction falls hardest on younger workers and lower-income households, who struggle to save for a mortgage deposit while rent consumes a growing share of disposable income. For policymakers, the central dilemma is how to strengthen tenant protections without further discouraging private rental supply and new housebuilding."
+   },
+   "vocab": [
+    [
+     "a tenancy / lease",
+     "un bail de location",
+     "Rents on newly agreed tenancies are climbing rapidly."
+    ],
+    [
+     "a supply squeeze",
+     "une pénurie / contraction de l'offre",
+     "A persistent supply squeeze is pushing up housing costs."
+    ],
+    [
+     "to be priced out (of)",
+     "être exclu du marché par les prix",
+     "First-time buyers are increasingly priced out of London."
+    ],
+    [
+     "a buy-to-let landlord",
+     "un propriétaire bailleur (investissement locatif)",
+     "Higher taxes have prompted many buy-to-let landlords to sell."
+    ],
+    [
+     "a mortgage deposit",
+     "un apport personnel pour un prêt immobilier",
+     "Rising rents make saving for a mortgage deposit harder."
+    ],
+    [
+     "affordability",
+     "l'accessibilité financière",
+     "Housing affordability remains a major issue for young Britons."
+    ]
+   ],
+   "sujets": [
+    "Why has housing affordability become a generational divide in the UK?",
+    "Can stronger tenant protections coexist with an adequate supply of rental homes?"
+   ],
+   "anki": [
+    {
+     "q": "Forecast gap between UK rents and house prices (2026–2029, Hamptons)",
+     "r": "Rents up C{14.2%} vs house prices up C{7.2%}.\n→ Shows a B{supply squeeze} in private rentals (-26% supply over a decade) trapping would-be buyers in renting → hook for an essay on housing and inequality."
+    },
+    {
+     "q": "Drop in rental homes available in London over the past decade (Oct 2026)",
+     "r": "Down C{39%} (vs C{26%} across Britain), while demand rose C{10%} year-on-year.\n→ Illustrates how landlord exits due to costs and regulation intensify the urban cost-of-living crisis."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-anglais-2",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/22/business/procter-gamble-factory-automated.html",
+   "minutes": 3,
+   "titre": "États-Unis : Procter & Gamble généralise les équipes d'usine sans présence humaine",
+   "dossier": "automatisation-usines-etats-unis",
+   "faits": "Le 22 novembre, The New York Times rapporte que le géant américain des biens de consommation Procter & Gamble (Tide, Gillette, Pampers) va multiplier les équipes de production entièrement automatisées, sans ouvriers sur place. Présenté lors d'une journée investisseurs à Cincinnati le 19 novembre, ce modèle d'« opérations sans surveillance » fonctionne déjà sur plus de 15 sites dans le monde et doit être accéléré dès l'exercice 2027. Grâce à la robotique, à la logistique pilotée par l'intelligence artificielle et à des camions autonomes en phase d'essai, des chaînes tournent la nuit pendant plusieurs heures sans intervention humaine. Ce virage s'inscrit dans le plan Supply 3.0, par lequel le groupe vise jusqu'à 10 milliards de dollars d'économies cumulées de productivité entre 2027 et 2030. À terme, Procter & Gamble prévoit d'accroître la productivité industrielle jusqu'à 20 % tout en réduisant de 20 à 30 % les effectifs de sa chaîne d'approvisionnement d'ici 2030.",
+   "enjeux": "Cette annonce marque une nouvelle étape de la **substitution du capital au travail** dans l'industrie manufacturière américaine. Jusqu'ici associée aux tâches administratives avec l'essor de l'IA générative, la vague d'automatisation combine désormais capteurs, robotique avancée et logiciels pour transformer les entrepôts et les lignes d'assemblage en usines dites « dans le noir ». Pour les entreprises, ces **gains de productivité** renforcent la compétitivité et limitent l'exposition aux pénuries de main-d'œuvre ou aux hausses salariales. Sur le plan social, cependant, une coupe de 20 à 30 % dans la logistique et la production ravive les craintes d'une **destruction d'emplois ouvriers** plus rapide que la reconversion professionnelle des salariés concernés.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1720645042951-014193bb5c61?auto=format&fit=crop&w=1280&h=853&q=80",
+    "alt": "Pylônes et lignes électriques à haute tension sous le ciel",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/power-line"
+   },
+   "vo": {
+    "titre": "US: Procter & Gamble expands human-free factory shifts to slash costs",
+    "faits": "On 22 November, The New York Times reported that US consumer-goods giant Procter & Gamble plans to expand fully automated, human-free production shifts in its factories and warehouses. Unveiled at an investor day in Cincinnati on 19 November, the 'unattended operations' model is already running across more than 15 sites worldwide and will scale up in fiscal 2027. Combining advanced robotics, AI-managed logistics and trials of autonomous freight trucks, lines can operate overnight for hours without human workers on the floor. Under its broader Supply 3.0 strategy, P&G targets up to $10 billion in cumulative productivity savings between fiscal 2027 and 2030. The company expects unattended shifts to lift manufacturing productivity by up to 20%, alongside a 20% to 30% reduction in its supply-chain workforce, including contractors, by 2030.",
+    "enjeux": "The move signals a new phase of capital-for-labour substitution across US manufacturing. While recent debates centred on generative AI disrupting white-collar work, combining robotics with AI logistics is now transforming factories and loading docks into 'lights-out' facilities. For large corporations, these productivity gains protect profit margins and reduce exposure to labour shortages and wage inflation. Yet cutting up to 30% of product-supply roles over four years highlights the social risk that rapid industrial automation could displace blue-collar workers faster than retraining programmes can absorb them."
+   },
+   "vocab": [
+    [
+     "unattended operations",
+     "opérations sans présence humaine",
+     "Unattended operations allow factories to run smoothly overnight."
+    ],
+    [
+     "a lights-out factory",
+     "une usine entièrement automatisée (sans éclairage ni ouvriers)",
+     "Robotics is turning traditional plants into lights-out factories."
+    ],
+    [
+     "supply-chain workforce",
+     "la main-d'œuvre de la chaîne logistique",
+     "Automation could shrink the global supply-chain workforce."
+    ],
+    [
+     "productivity savings",
+     "les économies liées aux gains de productivité",
+     "The group aims for billions in productivity savings."
+    ],
+    [
+     "to scale up",
+     "passer à grande échelle / déployer largement",
+     "Executives plan to scale up automated shifts next year."
+    ],
+    [
+     "blue-collar jobs",
+     "les emplois ouvriers / manuels",
+     "New robotics technologies are reshaping blue-collar jobs."
+    ]
+   ],
+   "sujets": [
+    "Does AI-driven automation threaten industrial employment more than white-collar work?",
+    "How should governments manage the social costs of corporate productivity gains?"
+   ],
+   "anki": [
+    {
+     "q": "P&G target for cumulative productivity savings and workforce cut under Supply 3.0",
+     "r": "Up to C{$10bn} in savings (2027–2030) and a C{20% to 30%} cut in its supply-chain workforce by D{2030}.\n→ Demonstrates accelerating B{capital-for-labour substitution} via AI robotics → hook for an essay on automation and jobs."
+    },
+    {
+     "q": "Scale of P&G's 'unattended operations' as of November 2026",
+     "r": "Already running in over C{15 sites} worldwide, expected to boost manufacturing productivity by up to C{20%}.\n→ Shows industrial AI moving from pilots to mass deployment."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-anglais-3",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o",
+   "minutes": 3,
+   "titre": "Royaume-Uni : le patron de Centrica s'inquiète d'une flambée des factures d'énergie dès janvier",
+   "dossier": "crise-energie-menages-uk",
+   "faits": "Le 22 novembre, le directeur général de Centrica (maison mère de British Gas), Chris O'Shea, s'est dit très inquiet sur la BBC face à la hausse imminente des factures d'énergie des ménages britanniques. Avant l'annonce officielle du régulateur Ofgem prévue mercredi, le cabinet Cornwall Insight prévoit que le plafond tarifaire annuel augmentera de 443 livres sterling à partir de janvier pour un foyer moyen. Cette envolée frappera les ménages en plein hiver, au moment où la consommation est maximale et après les dépenses des fêtes de fin d'année. Le gouvernement a promis une aide ponctuelle de 100 livres pour certains foyers, un montant jugé dérisoire par l'association Citizens Advice. Chris O'Shea alerte sur l'explosion des impayés, qui coûtent déjà environ 1,50 à 1,60 livre par semaine à chaque abonné à l'électricité pour compenser les créances non recouvrées.",
+   "enjeux": "Cette alerte met en évidence l'effet régressif d'un **choc énergétique** sur le pouvoir d'achat et la cohésion sociale au Royaume-Uni. Lorsque les prix régulés bondissent en hiver, les ménages modestes consacrent une part disproportionnée de leur budget au chauffage et basculent dans la **précarité énergétique**. De plus, le mécanisme de mutualisation des factures impayées crée un cercle vicieux : plus les défauts de paiement augmentent, plus les tarifs des autres consommateurs sont majorés pour absorber les pertes des fournisseurs. Pour l'exécutif travailliste d'Andy Burnham, ce regain d'inflation énergétique complique à la fois la lutte contre la vie chère et le respect d'une stricte discipline budgétaire.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1672264597620-d792bb6de88d?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Quartier d'affaires et centre économique d'une grande ville australienne",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/sydney"
+   },
+   "vo": {
+    "titre": "UK: Centrica chief warns of winter surge in unpaid energy bills",
+    "faits": "Speaking to the BBC on 22 November, Centrica chief executive Chris O'Shea warned he was 'hugely concerned' about the impact of surging household energy bills in the new year. Ahead of energy regulator Ofgem's official announcement on Wednesday, consultancy Cornwall Insight forecasts the annual price cap will jump by £443 from January for a typical household. O'Shea stressed that the increase hits during the peak winter quarter, just as families face post-Christmas expenses. While the government has offered a £100 payment to eligible households, consumer charity Citizens Advice dismissed the support as a 'drop in the ocean'. O'Shea added that unpaid bills already add between £1.50 and £1.60 a week to every electricity customer's bill and warned that defaults will worsen.",
+    "enjeux": "The warning highlights the regressive impact of rising energy costs on British living standards and social cohesion. Because heating is an essential good with low price elasticity, winter price hikes disproportionately squeeze low-income households and deepen fuel poverty. Moreover, passing bad debt on to paying customers creates a vicious circle: as arrears mount, standing charges rise for everyone else, eroding real disposable income across the economy. For Andy Burnham's government, soaring energy bills test both its pledge to ease the cost-of-living crisis and its tight fiscal headroom."
+   },
+   "vocab": [
+    [
+     "the energy price cap",
+     "le plafond des tarifs de l'énergie",
+     "Ofgem adjusts the energy price cap every quarter."
+    ],
+    [
+     "fuel poverty",
+     "la précarité énergétique",
+     "Steep winter bills are pushing more families into fuel poverty."
+    ],
+    [
+     "a drop in the ocean",
+     "une goutte d'eau dans l'océan",
+     "Charities called the £100 energy rebate a drop in the ocean."
+    ],
+    [
+     "arrears / unpaid bills",
+     "les arriérés / factures impayées",
+     "Energy suppliers struggle to recover billions in household arrears."
+    ],
+    [
+     "a typical household",
+     "un ménage type / moyen",
+     "The forecast adds over £400 for a typical household."
+    ],
+    [
+     "the cost-of-living crisis",
+     "la crise du coût de la vie",
+     "Rising utility costs remain central to the cost-of-living crisis."
+    ]
+   ],
+   "sujets": [
+    "Should governments subsidise energy bills directly or target structural insulation?",
+    "How does energy inflation reshape Britain's cost-of-living debate?"
+   ],
+   "anki": [
+    {
+     "q": "Forecast rise in the UK energy price cap from January 2027 (Cornwall Insight)",
+     "r": "Up C{£443} a year for a typical household (vs C{£100} government support).\n→ Illustrates the regressive shock of energy inflation and deepening B{fuel poverty} → hook for an essay on the UK cost-of-living crisis."
+    },
+    {
+     "q": "Weekly cost added to every UK electricity customer's bill due to unpaid energy bills (Centrica)",
+     "r": "Between C{£1.50 and £1.60} a week.\n→ Shows how household arrears spill over into higher tariffs for all consumers."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-anglais-4",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/23/unemployment-to-surpass-5-and-things-will-get-a-bit-harder-treasurer-jim-chalmers-warns",
+   "minutes": 3,
+   "titre": "Australie : le gouvernement anticipe un chômage au-dessus de 5 % et un ralentissement durable",
+   "dossier": "chomage-ralentissement-australie",
+   "faits": "Le 23 novembre, le ministre australien des Finances (Treasurer) Jim Chalmers a averti devant le Parlement que la conjoncture allait « devenir un peu plus difficile avant de s'améliorer ». Selon les chiffres préliminaires de la révision budgétaire de mi-année attendue le mois prochain, le taux de chômage devrait dépasser la barre des 5 %. Parallèlement, la croissance économique australienne resterait inférieure à 2 % par an en 2027 et en 2028. Devant ces prévisions jugées « préoccupantes » par l'exécutif lui-même, plusieurs économistes soulignent la montée d'un risque de récession. Cette dégradation traduit l'essoufflement de la demande intérieure et la sensibilité d'une économie très ouverte aux incertitudes mondiales.",
+   "enjeux": "Cet avertissement illustre le dilemme macroéconomique auquel sont confrontées les économies développées après une longue phase de taux d'intérêt élevés et d'inflation persistante. En Australie, la perspective d'une croissance inférieure à 2 % pendant deux ans réduit mécaniquement les recettes fiscales tout en augmentant les dépenses sociales liées à la remontée du chômage. Le gouvernement travailliste se trouve ainsi pris en étau entre la tentation d'une **relance budgétaire** pour soutenir l'activité et la crainte de raviver les tensions sur les prix. Cet épisode rappelle aussi la vulnérabilité des économies exportatrices de matières premières face au ralentissement mondial et à la demande asiatique.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1772764767986-84286d73f99b?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Terminal moderne d'un grand aéroport international américain",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/airport"
+   },
+   "vo": {
+    "titre": "Australia: Treasurer warns jobless rate will top 5% as growth slows",
+    "faits": "On 23 November, Australian Treasurer Jim Chalmers told parliament that economic conditions would 'get a bit harder before they get easier'. Revealing figures ahead of next month's mid-year economic and fiscal outlook, he confirmed that unemployment is forecast to climb above 5%. At the same time, the government projects annual economic growth to remain below 2% in both 2027 and 2028. Chalmers described the upcoming numbers as 'concerning', while private-sector economists warned of rising recession risks. The slowdown reflects sluggish domestic demand alongside global economic headwinds weighing on Australia's open economy.",
+    "enjeux": "The bleak outlook underscores the macroeconomic trade-off facing advanced economies after prolonged inflation and tight financial conditions. Sub-2% growth over two consecutive years squeezes tax revenues at the exact moment higher unemployment raises welfare outlays, narrowing Canberra's fiscal room for manoeuvre. For the Labor government, any stimulus package risks stoking inflation, yet excessive fiscal restraint could tip the economy into an outright downturn. The warning also highlights how commodity-exporting nations remain exposed to global trade uncertainty and slower regional growth."
+   },
+   "vocab": [
+    [
+     "a fiscal outlook",
+     "une prévision / perspective budgétaire",
+     "The mid-year fiscal outlook revealed weaker growth projections."
+    ],
+    [
+     "to surpass",
+     "dépasser / franchir",
+     "Economists expect the jobless rate to surpass 5% next year."
+    ],
+    [
+     "recessionary risks",
+     "les risques de récession",
+     "Slower consumer spending is heightening recessionary risks."
+    ],
+    [
+     "headwinds",
+     "des vents contraires / freins conjoncturels",
+     "Exporting nations face strong global economic headwinds."
+    ],
+    [
+     "sluggish growth",
+     "une croissance atone / molle",
+     "Sluggish growth limits the government's ability to cut debt."
+    ],
+    [
+     "a downturn",
+     "un ralentissement / retournement conjoncturel",
+     "Central banks try to avoid triggering a sharp downturn."
+    ]
+   ],
+   "sujets": [
+    "How should governments respond when unemployment rises alongside sluggish growth?",
+    "Are commodity-exporting economies overly vulnerable to global downturns?"
+   ],
+   "anki": [
+    {
+     "q": "Australian government forecasts for unemployment and GDP growth (2027–2028, Nov 2026)",
+     "r": "Unemployment expected to surpass C{5%}, with GDP growth below C{2%} in D{2027} and D{2028}.\n→ Illustrates the stagflationary squeeze on fiscal policy in open advanced economies → hook for an essay on growth and unemployment."
+    },
+    {
+     "q": "Political and economic dilemma highlighted by Treasurer Jim Chalmers's warning",
+     "r": "Weak growth reduces tax receipts just as rising joblessness increases social spending.\n→ Forces a choice between B{fiscal stimulus} (inflation risk) and restraint (recession risk)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/economia/negocios/2026-11-23/la-inflacion-se-come-las-subidas-salariales-y-harta-a-los-trabajadores.html",
+   "minutes": 3,
+   "titre": "Espagne : l'inflation ronge les hausses de salaires et nourrit le mécontentement social",
+   "dossier": "inflation-salaires-espagne",
+   "faits": "Dans un article publié le 23 novembre, El País souligne que la reprise de l'inflation en Espagne efface les gains salariaux négociés et exaspère les travailleurs. Selon les données du ministère du Travail, les salaires fixés dans les conventions collectives n'ont progressé que d'environ 3,1 %, alors que l'inflation atteint près de 4,9 %, creusant un écart de près de deux points. Le syndicat Comisiones Obreras (CC OO) avertit que la légère récupération du pouvoir d'achat observée mi-2026 par rapport à 2019 risque d'être annulée par cette nouvelle poussée des prix. Ce décalage alimente le malaise social et accroît la rotation du personnel dans les entreprises. Face à cette pression, le Conseil des ministres a approuvé pour 2027 une hausse du salaire minimum (SMI) de 5,3 %, à 1 286 euros par mois, ainsi qu'une revalorisation de 4,5 % pour les fonctionnaires et des ajustements de l'impôt sur le revenu.",
+   "enjeux": "Cette situation illustre le décalage classique entre la rigidité des **négociations salariales** pluriannuelles et la rapidité des chocs de prix. Lorsque les salaires réels reculent, la consommation des ménages — principal moteur de la croissance espagnole — risque de s'essouffler. Parallèlement, la hausse volontariste du **salaire minimum** et des traitements publics permet de protéger les revenus les plus vulnérables, mais ravive le débat sur la compétitivité des petites entreprises et le risque d'une **boucle prix-salaires**. L'Espagne se trouve ainsi confrontée au défi de préserver la cohésion sociale tout en évitant d'alimenter les tensions inflationnistes.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1754398006469-d0c3ee80749a?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Rayons alimentaires à l'intérieur d'un supermarché",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/supermarket"
+   },
+   "vo": {
+    "titre": "España: la inflación devora las subidas salariales y agota a los trabajadores",
+    "faits": "Según analiza El País el 23 de noviembre, el repunte de la inflación en España está absorbiendo las mejoras pactadas en los convenios y genera un creciente malestar laboral. Los datos del Ministerio de Trabajo muestran que los salarios de convenio han subido en torno al 3,1%, casi dos puntos por debajo de una inflación situada cerca del 4,9%. El sindicato CC OO advierte de que la leve recuperación del poder adquisitivo alcanzada a mediados de 2026 respecto a 2019 amenaza con truncarse por esta nueva escalada de los precios. Esta brecha incrementa el descontento en las plantillas y eleva la rotación laboral en las empresas. Para amortiguar el golpe de cara a 2027, el Consejo de Ministros ha aprobado subir el salario mínimo interprofesional (SMI) un 5,3%, hasta 1.286 euros mensuales, además de un alza del 4,5% para los empleados públicos y ajustes en el IRPF.",
+    "enjeux": "Esta coyuntura refleja la asimetría entre la inercia de la negociación colectiva y la rapidez con que los precios erosionan la renta disponible. Cuando los salarios reales retroceden, el consumo privado —pilar esencial del crecimiento español— corre el riesgo de enfriarse y acentuar las desigualdades sociales. Al mismo tiempo, las subidas del SMI y de los sueldos públicos protegen a los hogares más vulnerables, pero reabren el debate patronal sobre los costes laborales de las pymes y el peligro de efectos de segunda ronda. España afronta así la difícil tarea de sostener el poder adquisitivo sin perpetuar las presiones inflacionistas."
+   },
+   "vocab": [
+    [
+     "el poder adquisitivo",
+     "le pouvoir d'achat",
+     "La subida de los precios erosiona el poder adquisitivo."
+    ],
+    [
+     "el convenio colectivo",
+     "la convention collective",
+     "Los sindicatos negocian nuevos aumentos en el convenio colectivo."
+    ],
+    [
+     "el salario mínimo interprofesional (SMI)",
+     "le salaire minimum interprofessionnel",
+     "El Gobierno ha decidido elevar el SMI para 2027."
+    ],
+    [
+     "la brecha salarial",
+     "l'écart salarial / le décalage de rémunération",
+     "Crece la brecha entre la inflación y los sueldos."
+    ],
+    [
+     "la rotación laboral",
+     "le renouvellement / turnover du personnel",
+     "Los bajos salarios provocan una elevada rotación laboral."
+    ],
+    [
+     "el malestar social",
+     "le malaise social",
+     "La pérdida de renta real alimenta el malestar social."
+    ]
+   ],
+   "sujets": [
+    "¿Es eficaz subir el salario mínimo para proteger el poder adquisitivo frente a la inflación?",
+    "¿Cómo conciliar la recuperación salarial con la competitividad de las empresas en España?"
+   ],
+   "anki": [
+    {
+     "q": "Brecha entre salarios de convenio e inflación en España (noviembre de 2026)",
+     "r": "Los salarios pactados crecen un C{3,1%}, frente a una inflación cercana al C{4,9%}.\n→ Muestra la erosión de los B{salarios reales} y el riesgo de enfriamiento del consumo → gancho para un tema sobre inflación y poder adquisitivo."
+    },
+    {
+     "q": "Subida del SMI aprobada en España para 2027 frente a la inflación",
+     "r": "Alza del C{5,3%} hasta C{1.286 €} mensuales (y C{4,5%} para los empleados públicos).\n→ Ilustra la intervención estatal para sostener las rentas bajas pese al debate sobre costes laborales."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/economia/macroeconomia/2026/11/22/6aff3ddf21efa0821c8b4584.html",
+   "minutes": 3,
+   "titre": "Espagne : les travailleurs de Madrid résidant le long de la ligne TGV sud multipliés par quatre depuis 2011",
+   "dossier": "mobilite-travail-grande-vitesse-madrid",
+   "faits": "Selon une enquête publiée par El Mundo le 22 novembre à partir des matrices de mobilité du recensement de l'INE, le nombre de personnes travaillant à Madrid mais résidant dans les villes du corridor sud à grande vitesse (AVE) a été multiplié par plus de quatre depuis 2011. À Ciudad Real, située à 162 kilomètres et à un peu plus d'une heure de train de la capitale, seuls quelque 340 habitants effectuaient ce trajet quotidien en 2011, contre une part nettement supérieure de l'emploi local en 2023. Le phénomène dépasse d'ailleurs le seul axe vers l'Andalousie et s'observe encore plus fortement au sein de la région madrilène : entre 2021 et 2023, les actifs employés dans la capitale mais vivant dans une autre commune de la Communauté de Madrid ont augmenté d'environ 50 000. Cette dépendance accrue aux trajets ferroviaires expose toutefois ces navetteurs à une grande fragilité, comme l'ont montré les deux coupures de la ligne Madrid-Andalousie survenues cette année après l'accident d'Adamuz.",
+   "enjeux": "Cette métropolisation à grande distance illustre les effets ambivalents des **infrastructures de transport** et de la flambée immobilière dans les grandes capitales. Faute de pouvoir se loger à Madrid, des milliers d'actifs arbitrent en faveur de villes moyennes reliées par le train rapide, élargissant le **bassin d'emploi** métropolitain bien au-delà des limites administratives régionales. Si cette dynamique soutient le pouvoir d'achat immobilier des ménages et l'activité des villes périphériques, elle révèle aussi les failles d'une **organisation territoriale** hyper-concentrée autour de Madrid et dépendante de la fiabilité du réseau ferroviaire.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1553453005-34d0cb607b23?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Voie ferrée s'étendant en ligne droite pour les trains rapides",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/high-speed-train"
+   },
+   "vo": {
+    "titre": "España: se cuadruplican desde 2011 los trabajadores en Madrid que viven en el corredor del AVE sur",
+    "faits": "Según un análisis publicado por El Mundo el 22 de noviembre con datos censales del INE, los ocupados que trabajan en Madrid pero residen en ciudades del corredor sur de alta velocidad se han multiplicado por más de cuatro desde 2011. En localidades como Ciudad Real, a 162 kilómetros de la capital y a poco más de una hora en tren, unos 340 vecinos viajaban a diario en 2011, una proporción que creció con fuerza hasta 2023. Esta tendencia se extiende también a otras provincias y al interior de la propia región: entre 2021 y 2023, los trabajadores con empleo en Madrid capital que viven en otros municipios de la comunidad aumentaron en cerca de 50.000 personas. Sin embargo, los dos cortes sufridos este año en la línea entre Madrid y Andalucía, incluido el accidente de Adamuz, han dejado al descubierto la vulnerabilidad diaria de estos viajeros.",
+    "enjeux": "Esta expansión de los desplazamientos de larga distancia muestra cómo el encarecimiento de la vivienda en Madrid y la red de alta velocidad han transformado la geografía del empleo en España. Al buscar alquileres o hipotecas más asequibles fuera de la capital, miles de trabajadores amplían el área metropolitana hacia provincias vecinas, integrando mercados laborales antes separados. No obstante, esta hiperconcentración económica en Madrid genera desequilibrios territoriales y convierte cualquier fallo de mantenimiento o interrupción ferroviaria en una grave crisis de movilidad cotidiana."
+   },
+   "vocab": [
+    [
+     "la alta velocidad (AVE)",
+     "la grande vitesse ferroviaire",
+     "La alta velocidad conecta varias capitales de provincia con Madrid."
+    ],
+    [
+     "los ocupados",
+     "les actifs occupés",
+     "Cada vez más ocupados residen lejos de su puesto de trabajo."
+    ],
+    [
+     "el corredor ferroviario",
+     "le corridor ferroviaire",
+     "El corredor ferroviario del sur concentra miles de viajeros diarios."
+    ],
+    [
+     "el desequilibrio territorial",
+     "le déséquilibre territorial",
+     "La atracción de la capital acentúa el desequilibrio territorial."
+    ],
+    [
+     "los desplazamientos diarios",
+     "les trajets quotidiens (domicile-travail)",
+     "Los cortes de la vía complican los desplazamientos diarios."
+    ],
+    [
+     "el mercado laboral",
+     "le marché du travail",
+     "El tren rápido ha unificado un amplio mercado laboral."
+    ]
+   ],
+   "sujets": [
+    "¿Contribuye la alta velocidad ferroviaria a reequilibrar el territorio español o refuerza el centralismo de Madrid?",
+    "¿Hasta qué punto la crisis de la vivienda transforma la movilidad laboral en España?"
+   ],
+   "anki": [
+    {
+     "q": "Evolución desde 2011 de los trabajadores en Madrid que viven en el corredor sur del AVE (INE / El Mundo)",
+     "r": "Se han multiplicado por más de C{cuatro} (y +C{50.000} residentes de otros municipios madrileños entre D{2021} y D{2023}).\n→ Muestra cómo el precio de la vivienda y el tren rápido expanden la metrópoli → gancho para un tema sobre ordenación territorial."
+    },
+    {
+     "q": "Riesgo expuesto por los dos cortes de la línea AVE Madrid-Andalucía en 2026",
+     "r": "La fuerte vulnerabilidad laboral de miles de viajeros diarios ante fallos de infraestructura.\n→ Subraya la dependencia de la periferia respecto al empleo concentrado en Madrid."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El Tiempo",
+   "url": "https://www.eltiempo.com/economia/ocde-prende-cuatro-alertas-sobre-economia-colombiana-que-necesita-el-pais-para-volver-a-crecer-con-fuerza-3602710",
+   "minutes": 3,
+   "titre": "Colombie : l'OCDE lance quatre alertes sur la croissance, le déficit et l'informalité",
+   "dossier": "economie-colombie-alertes-ocde",
+   "faits": "Dans son rapport économique sur la Colombie relayé par El Tiempo le 22 novembre, l'OCDE estime que le pays traverse une situation difficile et formule quatre alertes majeures. Premièrement, l'organisation s'inquiète du déséquilibre macroéconomique : un déficit budgétaire élevé, projeté à 7,2 % du PIB en 2026 et 2027, et l'affaiblissement des règles fiscales minent la crédibilité auprès des marchés, maintenant des taux d'intérêt élevés et freinant l'activité. La croissance du PIB ralentirait ainsi de 2,6 % en 2026 à 2,1 % en 2027. Deuxièmement, l'OCDE alerte sur le vieillissement rapide de la population et son coût sur le système de retraites. Troisièmement, elle souligne le poids persistant de l'informalité du travail, qui touche environ 56 % des actifs et empêche la majorité de cotiser suffisamment pour une pension. Enfin, elle appelle à stimuler l'investissement privé et l'adoption numérique des PME.",
+   "enjeux": "Ce diagnostic met en lumière les blocages structurels communs à plusieurs économies d'Amérique latine, pris entre contrainte budgétaire et faible productivité. En Colombie, la combinaison d'un déficit public de 7,2 % du PIB et d'une politique monétaire restrictive provoque un **effet d'éviction** sur l'investissement privé. Sur le plan social, une **informalité** supérieure à la moitié de la main-d'œuvre réduit l'assiette fiscale et prive des millions de travailleurs de protection sociale, alors même que la transition démographique s'accélère. L'OCDE recommande donc d'alléger les prélèvements sur les bas salaires et de restaurer la crédibilité budgétaire pour relancer le **potentiel de croissance**.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1755224508921-816d8c7c0f84?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Conteneurs et grues portuaires sur un terminal maritime commercial",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/container-ship"
+   },
+   "vo": {
+    "titre": "Colombia: la OCDE lanza cuatro alertas sobre déficit, informalidad y crecimiento",
+    "faits": "En su Estudio Económico de Colombia 2026, recogido por El Tiempo el 22 de noviembre, la OCDE advierte de que el país atraviesa una situación difícil y plantea cuatro alertas principales. En primer lugar, señala el desequilibrio macroeconómico: un déficit fiscal proyectado en el 7,2% del PIB para 2026 y 2027 y la pérdida de credibilidad fiscal encarecen la financiación y frenan la economía, cuyo crecimiento pasaría del 2,6% en 2026 al 2,1% en 2027. En segundo lugar, alerta sobre el acelerado envejecimiento demográfico y su presión sobre las pensiones. En tercer lugar, subraya la baja productividad y una informalidad laboral cercana al 56%, que impide a la mayoría completar las semanas requeridas para jubilarse. Por último, insta a reactivar la inversión privada y la digitalización de las pymes.",
+    "enjeux": "El informe expone los cuellos de botella estructurales que lastran a Colombia y a buena parte de América Latina. Un déficit público elevado obliga a mantener tipos de interés altos para contener la inflación y preservar la confianza financiera, lo que desplaza la inversión privada y reduce el crecimiento potencial. A su vez, una economía con más de la mitad de sus trabajadores en la informalidad recauda menos impuestos y deja desprotegida a una población que envejece rápido. Por ello, la OCDE aboga por reducir las cargas sobre los salarios bajos y retomar la disciplina fiscal para impulsar la formalización."
+   },
+   "vocab": [
+    [
+     "el déficit fiscal",
+     "le déficit budgétaire",
+     "El elevado déficit fiscal encarece el endeudamiento del Estado."
+    ],
+    [
+     "la informalidad laboral",
+     "le travail informel",
+     "Más de la mitad del empleo sufre la informalidad laboral."
+    ],
+    [
+     "el envejecimiento demográfico",
+     "le vieillissement démographique",
+     "El envejecimiento demográfico exige reformar el sistema pensional."
+    ],
+    [
+     "el crecimiento potencial",
+     "la croissance potentielle",
+     "La baja productividad frena el crecimiento potencial del país."
+    ],
+    [
+     "la credibilidad fiscal",
+     "la crédibilité budgétaire",
+     "Los mercados vigilan de cerca la credibilidad fiscal del Gobierno."
+    ],
+    [
+     "las cargas laborales",
+     "les charges sociales / sur le travail",
+     "Reducir las cargas laborales facilitaría la contratación formal."
+    ]
+   ],
+   "sujets": [
+    "¿Por qué la informalidad laboral sigue siendo el principal freno al desarrollo en América Latina?",
+    "¿Cómo puede Colombia conciliar la reducción del déficit fiscal con el impulso al crecimiento?"
+   ],
+   "anki": [
+    {
+     "q": "Déficit fiscal proyectado y tasa de informalidad en Colombia según la OCDE (noviembre de 2026)",
+     "r": "Déficit del C{7,2%} del PIB en 2026-2027 e informalidad cercana al C{56%} de los trabajadores.\n→ Ilustra el doble bloqueo macroeconómico y social en América Latina → gancho para un tema sobre desarrollo e informalidad."
+    },
+    {
+     "q": "Previsión de desaceleración del PIB colombiano según la OCDE (2026 vs 2027)",
+     "r": "Del C{2,6%} en D{2026} al C{2,1%} en D{2027}.\n→ Refleja el impacto de los tipos altos y la caída de la inversión privada."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-espagnol-4",
+   "matiere": "espagnol",
+   "source": "La Nación",
+   "url": "https://www.lanacion.com.ar/economia/fuerte-preocupacion-empresaria-por-una-medida-de-kicillof-que-obligara-a-informar-sueldos-y-jornadas-nid22112026/",
+   "minutes": 3,
+   "titre": "Argentine : vive inquiétude patronale face à une nouvelle obligation de déclaration salariale à Buenos Aires",
+   "dossier": "regulation-travail-buenos-aires",
+   "faits": "Le 22 novembre, La Nación rapporte la vive protestation des organisations patronales face à une nouvelle norme du gouvernement de la province de Buenos Aires, dirigé par Axel Kicillof. Par la résolution 260/2026, le ministère provincial du Travail crée le formulaire numérique F.U.T.U.R.O., qui impose aux employeurs bonaerenses de remettre chaque mois une déclaration sur l'honneur détaillant les salaires versés et les dispositifs de contrôle des horaires de travail. Facultatif pour la paie de décembre 2026, ce dispositif devient obligatoire à partir de janvier 2027, avec une première échéance fin février. Les entreprises doivent transmettre les bulletins de salaire, les preuves de virement et la ventilation des primes via un portail numérique provincial. La Sociedad Rural Argentina et la Cámara Argentina de Comercio ont exigé la suspension immédiate d'une mesure accusée de dupliquer les déclarations déjà transmises à l'administration fiscale nationale.",
+   "enjeux": "Cet épisode révèle les tensions entre régulation provinciale et politique nationale dans une Argentine fédérale politiquement polarisée. Pour l'exécutif péroniste de la province la plus peuplée du pays, le renforcement de la **traçabilité administrative** vise à lutter contre le travail non déclaré et les abus sur le temps de travail. Pour le patronat et les PME, en revanche, cette superposition de normes accroît les **coûts de conformité** et la bureaucratie, à rebours de la déréglementation prônée à l'échelon fédéral. Le conflit illustre le dilemme classique entre protection des salariés et **compétitivité des entreprises** dans une économie fragilisée.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Rangées de serveurs informatiques dans un centre de données",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/server-room"
+   },
+   "vo": {
+    "titre": "Argentina: rechazo empresario a la obligación de informar sueldos en Buenos Aires",
+    "faits": "Según informó La Nación el 22 de noviembre, las cámaras empresariales expresaron una fuerte preocupación por una medida del gobierno bonaerense de Axel Kicillof. Mediante la Resolución 260/2026, el Ministerio de Trabajo provincial creó el formulario digital F.U.T.U.R.O., que obliga a los empleadores de la provincia de Buenos Aires a presentar mensualmente una declaración jurada sobre salarios y control de jornadas laborales. El trámite será optativo en diciembre de 2026 y pasará a ser obligatorio desde enero de 2027, con primer vencimiento a fines de febrero. Las empresas deberán detallar recibos, comprobantes de pago y el sistema de registro horario en el portal provincial. Entidades como la Sociedad Rural Argentina (SRA) y la Cámara Argentina de Comercio (CAC) pidieron suspender la norma por duplicar trámites ya exigidos por el fisco nacional.",
+    "enjeux": "El conflicto refleja la pugna de modelos económicos entre el gobierno peronista de la provincia más poblada del país y la agenda desreguladora nacional. Las autoridades bonaerenses defienden una mayor fiscalización digital para combatir el empleo no registrado y el fraude en las horas trabajadas. Sin embargo, las asociaciones patronales advierten de que superponer controles provinciales y nacionales eleva la carga burocrática y los costes operativos, en especial para las pymes. El debate ilustra la tensión recurrente en América Latina entre la tutela estatal del trabajo y la simplificación administrativa para fomentar el empleo formal."
+   },
+   "vocab": [
+    [
+     "la declaración jurada",
+     "la déclaration sur l'honneur",
+     "Las empresas deben presentar una declaración jurada mensual."
+    ],
+    [
+     "la jornada laboral",
+     "la journée / durée du travail",
+     "La norma exige informar cómo se controla la jornada laboral."
+    ],
+    [
+     "la carga burocrática",
+     "le poids administratif / bureaucratique",
+     "Las pymes denuncian un aumento de la carga burocrática."
+    ],
+    [
+     "el empleo no registrado",
+     "le travail non déclaré",
+     "La inspección busca reducir el empleo no registrado."
+    ],
+    [
+     "las cámaras empresariales",
+     "les fédérations patronales",
+     "Las cámaras empresariales reclaman la suspensión del decreto."
+    ],
+    [
+     "el recibo de sueldo",
+     "la fiche / bulletin de paie",
+     "El portal exige adjuntar cada recibo de sueldo."
+    ]
+   ],
+   "sujets": [
+    "¿El refuerzo de los controles laborales protege al trabajador o frena la contratación formal?",
+    "¿Cómo afecta el federalismo económico a la seguridad jurídica en Argentina?"
+   ],
+   "anki": [
+    {
+     "q": "Medida aprobada por la provincia de Buenos Aires mediante la Resolución 260/2026",
+     "r": "El formulario digital obligatorio F.U.T.U.R.O. (desde enero de D{2027}) para declarar cada mes sueldos y control horario.\n→ Muestra el choque entre fiscalización laboral provincial y demandas patronales de desregulación → gancho sobre el debate económico argentino."
+    },
+    {
+     "q": "Principal crítica de la SRA y la CAC al formulario F.U.T.U.R.O.",
+     "r": "Duplica datos ya enviados al organismo nacional ARCA y eleva los costes burocráticos de las pymes.\n→ Ilustra el coste regulatorio como freno a la competitividad."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-allemand-1",
+   "matiere": "allemand",
+   "source": "FAZ",
+   "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/stromnetze-bdew-und-vku-fordern-krisengipfel-mit-katherina-reiche-201701678.html",
+   "minutes": 3,
+   "titre": "Allemagne : les énergéticiens réclament un sommet de crise sur les réseaux électriques",
+   "dossier": "reseaux-electriques-allemagne",
+   "faits": "Le 22 novembre, la Frankfurter Allgemeine Zeitung rapporte que les fédérations allemandes de l'énergie BDEW et VKU ont écrit à la ministre de l'Économie Katherina Reiche pour exiger un sommet de crise avec l'État fédéral et les Länder. Elles alertent sur l'engorgement critique des réseaux de distribution locaux, incapables d'absorber assez vite les nouvelles demandes de raccordement. Rien que l'an dernier, environ 1,5 million d'installations solaires, d'éoliennes, de bornes de recharge et de batteries ont été connectées en Allemagne, tandis que centres de données et usines attendent souvent des années pour être raccordés. En Allemagne, construire de nouvelles lignes à haute tension prend entre dix et quinze ans. Les professionnels demandent donc d'alléger les études d'impact et d'unifier les procédures d'autorisation dans tout le pays.",
+   "enjeux": "Ce blocage illustre le goulet d'étranglement central de la **transition énergétique** (*Energiewende*) en Allemagne : la production renouvelable et l'électrification progressent bien plus vite que les infrastructures qui transportent le courant. Or le pays reste en retard sur l'électrification de son économie par rapport aux États scandinaves ou à la Chine. Pour l'industrie allemande et les nouveaux centres de données gourmands en énergie, l'attente de raccordement devient un handicap de **compétitivité territoriale** (*Standortnachteil*). L'épisode montre aussi combien le **fédéralisme** et la lourdeur bureaucratique freinent l'investissement rapide dans les réseaux critiques.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1773869910367-9a9bdb61ec1a?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Dôme radar et station de communication spatiale sur une colline",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/satellite"
+   },
+   "vo": {
+    "titre": "Stromnetze: Energieverbände fordern Krisengipfel mit der Ministerin",
+    "faits": "Die Verbände BDEW und VKU haben einen Brief an Wirtschaftsministerin Katherina Reiche geschrieben. Sie fordern einen schnellen Krisengipfel von Bund und Ländern. Das Problem sind die lokalen Stromnetze in Deutschland. Sie wachsen viel zu langsam für den steigenden Bedarf. Allein im letzten Jahr kamen rund 1,5 Millionen neue Anlagen ans Netz. Dazu gehören Solaranlagen, Windräder und Ladestationen für Elektroautos. Fabriken und Rechenzentren warten deshalb oft Jahre auf einen Stromanschluss. Neue große Leitungen brauchen in Deutschland zehn bis fünfzehn Jahre. Die Verbände wollen daher viel einfachere und einheitliche Regeln für Genehmigungen.",
+    "enjeux": "Die Stromnetze sind ein großes Problem für die deutsche Energiewende. Deutschland produziert immer mehr grünen Strom. Aber das Netz kann diesen Strom oft nicht schnell genug verteilen. Auch bei der Elektrifizierung liegt Deutschland hinter China und Skandinavien. Lange Wartezeiten schaden heute der deutschen Wirtschaft. Firmen können neue Fabriken oder Rechenzentren nicht rechtzeitig öffnen. Oft bremsen lange Prüfungen und verschiedene Regeln der Bundesländer den Bau. Ohne moderne Netze verliert der Standort Deutschland weiter an Kraft."
+   },
+   "vocab": [
+    [
+     "das Stromnetz",
+     "le réseau électrique",
+     "Das deutsche Stromnetz muss schnell modernisiert werden."
+    ],
+    [
+     "der Krisengipfel",
+     "le sommet de crise",
+     "Die Energiebranche fordert jetzt einen Krisengipfel in Berlin."
+    ],
+    [
+     "der Stromanschluss",
+     "le raccordement électrique",
+     "Viele neue Fabriken warten lange auf ihren Stromanschluss."
+    ],
+    [
+     "die Genehmigung",
+     "l'autorisation / le permis",
+     "Unternehmen wünschen sich eine schnellere Genehmigung für Leitungen."
+    ],
+    [
+     "das Rechenzentrum",
+     "le centre de données",
+     "Jedes neue Rechenzentrum braucht sehr viel elektrischen Strom."
+    ],
+    [
+     "die Energiewende",
+     "la transition énergétique",
+     "Ohne gute Netze gelingt die deutsche Energiewende nicht."
+    ]
+   ],
+   "sujets": [
+    "Warum kommen die deutschen Stromnetze bei der Energiewende zu spät?",
+    "Schadet die Bürokratie der Wettbewerbsfähigkeit der deutschen Wirtschaft?"
+   ]
+  },
+  {
+   "id": "2026-11-23-allemand-2",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/verschaerfung-der-regeln-fuer-altersteilzeit-koennte-milliarden-einbringen-a-27bb3a60-c9b2-446e-8f99-abe739300de7",
+   "minutes": 3,
+   "titre": "Allemagne : durcir la préretraite progressive pourrait rapporter jusqu'à 2,8 milliards d'euros par an",
+   "dossier": "preretraite-altersteilzeit-allemagne",
+   "faits": "Selon une étude de l'institut économique DIW pour la fondation Bertelsmann révélée par Der Spiegel le 23 novembre, un durcissement des règles de préretraite progressive (Altersteilzeit) rapporterait de l'ordre de 818 millions à 2,8 milliards d'euros par an aux finances publiques. Une commission gouvernementale sur les retraites a proposé de relever l'âge d'accès à ce dispositif de 55 à 58 ans et de l'indexer à l'avenir sur l'âge légal de départ. Elle recommande aussi de supprimer le très populaire « modèle par blocs » (Blockmodell), dans lequel le salarié travaille à temps plein durant la première moitié puis cesse toute activité tout en restant rémunéré dans la seconde. Selon l'étude, cette réforme permettrait de préserver entre 32 500 et 110 000 emplois à temps plein. Le ministre fédéral du Travail Alexander Schweitzer (SPD) s'est toutefois opposé à la suppression du Blockmodell, invoquant les difficultés de restructuration des entreprises.",
+   "enjeux": "Ce débat illustre la tension aiguë entre **vieillissement démographique** et gestion sociale des restructurations industrielles en Allemagne. Alors que les générations du baby-boom partent massivement à la retraite, les économistes alertent sur la **pénurie de main-d'œuvre** qualifiée et sur la soutenabilité des caisses sociales. Cependant, dans une industrie automobile et manufacturière en crise, les grands groupes comme les syndicats utilisent le modèle par blocs pour réduire les effectifs sans licenciements secs. Supprimer cet outil soulagerait le budget et l'emploi global, mais priverait les entreprises d'un amortisseur social précieux.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1280&q=80",
+    "alt": "Site de production et équipements industriels dans une usine",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/factory"
+   },
+   "vo": {
+    "titre": "Studie: Strengere Altersteilzeit könnte dem Staat Milliarden sparen",
+    "faits": "Eine neue Studie des DIW zeigt große Sparchancen bei der Altersteilzeit. Eine Expertenkommission will die Regeln für diesen frühen Ausstieg deutlich verschärfen. Das Einstiegsalter soll von 55 auf 58 Jahre steigen. Außerdem soll das beliebte Blockmodell bald enden. Bei diesem Modell arbeiten Menschen erst voll und bleiben später bezahlt zu Hause. Laut Studie blieben so bis zu 110.000 Vollzeitstellen erhalten. Der Staat bekäme jedes Jahr bis zu 2,8 Milliarden Euro mehr. Arbeitsminister Alexander Schweitzer lehnt diese Pläne aber derzeit noch ab. Viele Betriebe nutzen das Modell für einen fairen Stellenabbau.",
+    "enjeux": "Deutschland erlebt einen starken demografischen Wandel. Immer mehr ältere Fachkräfte gehen in den nächsten Jahren in Rente. Deshalb fehlen auf dem Arbeitsmarkt schon heute viele erfahrene Menschen. Ein späterer Ausstieg würde den Betrieben und den Rentenkassen helfen. Aber in der Industrie gibt es auch eine tiefe Krise. Viele Firmen bauen gerade Arbeitsplätze ab. Gewerkschaften und Manager nutzen das Blockmodell oft als sanfte Lösung ohne Entlassungen. Die Politik sucht nun einen Weg zwischen Sparen und sozialem Frieden."
+   },
+   "vocab": [
+    [
+     "die Altersteilzeit",
+     "la préretraite progressive",
+     "Viele ältere Arbeiter nutzen in Deutschland die Altersteilzeit."
+    ],
+    [
+     "die Fachkraft",
+     "le travailleur qualifié",
+     "Der Industrie fehlt heute fast jede zweite erfahrene Fachkraft."
+    ],
+    [
+     "die Vollzeitstelle",
+     "le poste à temps plein",
+     "Die Reform soll viele wichtige Vollzeitstellen im Land sichern."
+    ],
+    [
+     "der Stellenabbau",
+     "la suppression d'emplois",
+     "Das Modell erleichtert Firmen einen friedlichen Stellenabbau."
+    ],
+    [
+     "die Rentenkasse",
+     "la caisse de retraite",
+     "Längeres Arbeiten bringt mehr Geld für die Rentenkasse."
+    ],
+    [
+     "der demografische Wandel",
+     "le changement démographique",
+     "Der demografische Wandel verändert den deutschen Arbeitsmarkt stark."
+    ]
+   ],
+   "sujets": [
+    "Sollte Deutschland den frühen Ausstieg aus dem Beruf stärker begrenzen?",
+    "Wie kann Deutschland auf den Mangel an Arbeitskräften reagieren?"
+   ]
+  },
+  {
+   "id": "2026-11-23-allemand-3",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/inland/innenpolitik/bericht-aus-berlin-arzttermine-baas-100.html",
+   "minutes": 3,
+   "titre": "Santé en Allemagne : le patron de la caisse TK rejette la piste des rendez-vous médicaux payants",
+   "dossier": "systeme-sante-allemagne",
+   "faits": "Le 22 novembre, dans l'émission Bericht aus Berlin reprise par Tagesschau, Jens Baas, président de la plus grande caisse publique d'assurance maladie (Techniker Krankenkasse), a vivement répliqué aux propos du chef des médecins conventionnés Andreas Gassen. Ce dernier avait suggéré que les assurés devraient bientôt payer de leur poche pour obtenir plus vite un rendez-vous chez un spécialiste, en accusant la rigueur financière des caisses. Jens Baas a rejeté cette logique du « plus d'argent pour plus de rendez-vous », rappelant la loi adoptée en 2019 par l'ancien ministre de la Santé Jens Spahn. Malgré des milliards d'euros de primes versées aux médecins pour des créneaux rapides, le nombre de consultations n'a pas augmenté et les délais d'attente se sont au contraire allongés. Le dirigeant réclame une réforme structurelle de l'organisation des soins plutôt que de nouvelles hausses tarifaires.",
+   "enjeux": "Cette polémique met en cause l'efficacité du **système de santé à deux vitesses** entre assurés publics et assurés privés en Allemagne. En laissant entendre que le paiement direct accélérerait l'accès au spécialiste, le représentant des médecins ravive le débat sur l'**égalité d'accès aux soins**, pilier de l'État-providence allemand. L'argument financier de la TK souligne par ailleurs un problème classique d'économie de la santé : injecter davantage d'argent dans une offre médicale contrainte en temps de travail crée surtout des rentes sans élargir le volume des soins. Face au vieillissement de la population et au déficit des caisses publiques, l'Allemagne doit réformer le parcours de soins et la répartition des tâches médicales.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1755896659498-09ed8ac13166?auto=format&fit=crop&w=1280&h=853&q=80",
+    "alt": "Immeubles résidentiels en zone urbaine allemande",
+    "credit": "Marcus Lenk / Unsplash",
+    "source": "https://unsplash.com/s/photos/berlin-apartment"
+   },
+   "vo": {
+    "titre": "Gesundheit: TK-Chef lehnt Bezahlung für schnelle Arzttermine ab",
+    "faits": "In Deutschland gibt es Streit über lange Wartezeiten beim Facharzt. Ärzte-Chef Andreas Gassen hatte einen umstrittenen Vorschlag gemacht. Patienten sollten für einen schnellen Termin selbst extra bezahlen. Grund sei die strenge Sparpolitik der Krankenkassen. Nun widerspricht Jens Baas von der größten Kasse TK deutlich. Mehr Geld schaffe keine zusätzlichen Arzttermine, sagte er im Fernsehen. Er erinnerte an ein Gesetz aus dem Jahr 2019. Damals erhielten Ärzte Milliarden Euro extra für schnelle Termine. Trotzdem warteten die Patienten danach sogar noch länger. Baas fordert nun ein grundlegend neues System für die Praxen.",
+    "enjeux": "Die Debatte berührt ein wichtiges Thema der deutschen Gesellschaft. Viele Menschen klagen schon lange über eine Zwei-Klassen-Medizin. Privat versicherte Patienten bekommen oft viel schneller einen Termin beim Facharzt. Eine direkte Zahlung für Kassenpatienten würde diese Ungleichheit noch vergrößern. Gleichzeitig stehen die gesetzlichen Krankenkassen unter starkem finanziellem Druck. Eine ältere Bevölkerung braucht immer mehr teure Behandlungen. Einfach mehr Geld zu zahlen löst den Mangel an Ärzten nicht. Deutschland muss deshalb die Organisation der Gesundheit besser planen."
+   },
+   "vocab": [
+    [
+     "der Facharzt",
+     "le médecin spécialiste",
+     "Man wartet oft Monate auf einen Termin beim Facharzt."
+    ],
+    [
+     "die Krankenkasse",
+     "la caisse d'assurance maladie",
+     "Die gesetzliche Krankenkasse übernimmt die meisten Kosten für Patienten."
+    ],
+    [
+     "die Wartezeit",
+     "le temps d'attente",
+     "Die lange Wartezeit in Praxen ärgert viele kranke Menschen."
+    ],
+    [
+     "aus eigener Tasche",
+     "de sa propre poche",
+     "Patienten wollen Behandlungen nicht aus eigener Tasche bezahlen."
+    ],
+    [
+     "der Sparzwang",
+     "la contrainte d'économies",
+     "Die Kassen stehen wegen hoher Ausgaben unter starkem Sparzwang."
+    ],
+    [
+     "das Gesetz",
+     "la loi",
+     "Das neue Gesetz sollte die Wartezeiten spürbar verkürzen."
+    ]
+   ],
+   "sujets": [
+    "Sollten Patienten für schnellere Arzttermine extra bezahlen?",
+    "Wie kann Deutschland die Zwei-Klassen-Medizin überwinden?"
+   ]
+  },
+  {
+   "id": "2026-11-23-allemand-4",
+   "matiere": "allemand",
+   "source": "Die Zeit",
+   "url": "https://www.zeit.de/politik/deutschland/2026-11/kalte-progression-ausgleich-markus-soeder-cdu-dennis-radtke",
+   "minutes": 3,
+   "titre": "Allemagne : la baisse d'impôts réclamée par Markus Söder divise le camp conservateur avant le vote du budget",
+   "dossier": "kalte-progression-allemagne",
+   "faits": "Le 23 novembre, Die Zeit rapporte de vives tensions au sein de la coalition et du camp conservateur autour de la compensation de la « progression à froid » (kalte Progression), cette hausse cachée de l'impôt sur le revenu liée à l'inflation. À quelques jours du vote du budget fédéral 2027 prévu vendredi, le chef de la CSU et ministre-président bavarois Markus Söder a réclamé une correction complète dès 2027, d'un coût national estimé à environ 4,2 milliards d'euros. Il a jugé profondément injuste l'absence de compensation dans le compromis conclu par le chancelier Friedrich Merz et le ministre des Finances Lars Klingbeil. Mais le chef de l'aile sociale de la CDU (CDA), Dennis Radtke, a vivement critiqué cette sortie, estimant qu'elle arrive « plusieurs semaines trop tard ». Selon lui, une telle réforme ne peut plus être financée sérieusement à la dernière minute et suscite de faux espoirs chez les contribuables.",
+   "enjeux": "Cette controverse révèle les contradictions fiscales de la grande coalition à Berlin entre rigueur budgétaire et défense du pouvoir d'achat des classes moyennes. Sans ajustement des tranches d'imposition, une hausse nominale de salaire destinée à compenser l'inflation fait basculer les ménages dans une tranche fiscale supérieure, réduisant leur revenu réel. Mais la marge de manœuvre budgétaire du gouvernement reste étroite face aux dépenses de défense, d'infrastructures et à la montée des charges d'intérêts. Cet affrontement entre la CSU bavaroise et la CDU sociale illustre aussi la concurrence politique autour de l'électorat salarié.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1720139290909-5f05410b20c6?auto=format&fit=crop&w=1280&h=853&q=80",
+    "alt": "Poste de travail informatique avec écrans et clavier sur un bureau",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/laptop-desk"
+   },
+   "vo": {
+    "titre": "Steuern: Streit in der Union über Markus Söders Vorstoß",
+    "faits": "Kurz vor dem neuen Haushalt streiten CSU und CDU über Steuern. Bayerns Regierungschef Markus Söder fordert den Ausgleich der kalten Progression. Ohne diesen Schritt zahlen Bürger trotz Inflation heimlich höhere Einkommensteuern. Die Entlastung würde rund 4,2 Milliarden Euro im Jahr kosten. Söder nennt das Fehlen der Regel im Haushalt 2027 ungerecht. Doch Dennis Radtke vom sozialen Flügel der CDU kritisiert Söder scharf. Seine Forderung komme viele Wochen zu spät vor der Abstimmung. Am Freitag soll der Bundestag den Haushalt schon beschließen. Radtke warnt vor falschen Hoffnungen für die Bürger ohne Finanzierung.",
+    "enjeux": "Bei der kalten Progression steigen die Steuern schneller als die Preise. Bekommen Arbeiter mehr Lohn wegen hoher Preise, rutschen sie oft höher. Am Ende bleibt ihnen dadurch real nicht mehr Geld zum Leben. Deshalb verlangen viele Politiker eine faire Anpassung der Steuergrenzen. Aber dem Staat fehlt im Bundeshaushalt das Geld für große Geschenke. Die Koalition muss hohe Ausgaben für Verteidigung und Zinsen bezahlen. Der Streit zwischen Söder und der CDU zeigt diesen harten Konflikt. Jede Partei will dabei die arbeitende Mitte für sich gewinnen."
+   },
+   "vocab": [
+    [
+     "die kalte Progression",
+     "la progression à froid (glissement fiscal)",
+     "Die kalte Progression verringert den Nutzen einer Lohnerhöhung."
+    ],
+    [
+     "der Haushalt",
+     "le budget",
+     "Der Bundestag stimmt am Freitag über den neuen Haushalt ab."
+    ],
+    [
+     "die Entlastung",
+     "l'allègement fiscal / financier",
+     "Viele Familien hoffen auf eine spürbare steuerliche Entlastung."
+    ],
+    [
+     "die Einkommensteuer",
+     "l'impôt sur le revenu",
+     "Jeder Arbeitnehmer zahlt monatlich seine Einkommensteuer an den Staat."
+    ],
+    [
+     "der Vorstoß",
+     "l'initiative / l'offensive politique",
+     "Der späte Vorstoß von Markus Söder sorgt für viel Kritik."
+    ],
+    [
+     "die Finanzierung",
+     "le financement",
+     "Für neue Steuerpläne braucht die Regierung eine klare Finanzierung."
+    ]
+   ],
+   "sujets": [
+    "Sollte der Staat die kalte Progression jedes Jahr automatisch ausgleichen?",
+    "Wie kann Deutschland Steuersenkungen und Sparsamkeit im Haushalt verbinden?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "Budget : l'Elysée serait prêt à relancer le débat sur la règle d'or avant la présidentielle",
+   "url": "https://www.lesechos.fr/economie-france/budget-fiscalite/budget-lelysee-serait-pret-a-relancer-le-debat-sur-la-regle-dor-avant-la-presidentielle-2263960",
+   "pourquoi": "Permet d'analyser la **règle d'or budgétaire** comme solution institutionnelle à l'incohérence temporelle des déficits et à la dérive du spread français."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Choose France : l'investissement des entreprises, nouveau point noir de l'économie française",
+   "url": "https://www.lesechos.fr/economie-france/conjoncture/choose-france-linvestissement-des-entreprises-nouveau-point-noir-de-leconomie-francaise-2263936",
+   "pourquoi": "Met en évidence le paradoxe entre l'attractivité affichée pour les **IDE** étrangers et le recul de l'**investissement productif** des entreprises domestiques."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Contribution à l'UE : « La France ne pourra pas obtenir de rabais sans lâcher quelque chose en contrepartie »",
+   "url": "https://www.lesechos.fr/idees-debats/cercle/contribution-a-lue-la-france-ne-pourra-pas-obtenir-de-rabais-sans-lacher-quelque-chose-en-contrepartie-2263909",
+   "pourquoi": "Éclaire les rapports de force autour du **budget européen** 2028-2034, entre pays frugaux, défense de la PAC et financement de la souveraineté."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« Limiter l’accès à l’enseignement supérieur peut sembler une économie aujourd’hui, mais c’est un appauvrissement demain »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/22/limiter-l-acces-a-l-enseignement-superieur-peut-sembler-une-economie-aujourd-hui-mais-c-est-un-appauvrissement-demain_6814233_3232.html",
+   "pourquoi": "Relie l'investissement public dans le **capital humain** (Becker, Lucas) au potentiel de **croissance endogène** et à la mobilité sociale."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Le boom des embauches dans le secteur médico-social cache les fragilités de l’économie sociale et solidaire",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/21/le-boom-des-embauches-dans-le-secteur-medico-social-cache-les-fragilites-de-l-economie-sociale-et-solidaire_6814018_3234.html",
+   "pourquoi": "Illustre le rôle d'amortisseur social de l'**ESS** face au vieillissement, mais aussi sa dépendance critique aux financements publics."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Clément Pouré, finaliste du prix Penser le travail 2026 : « Les outils de surveillance au travail sont construits pour enlever du pouvoir aux travailleurs »",
+   "url": "https://www.lemonde.fr/vie-au-travail/article/2026/11/23/clement-poure-finaliste-du-prix-penser-le-travail-2026-les-outils-de-surveillance-au-travail-sont-construits-pour-enlever-du-pouvoir-aux-travailleurs_6814345_6768900.html",
+   "pourquoi": "Analyse le **taylorisme numérique** et la façon dont le management algorithmique transforme le rapport de force entre employeurs et salariés."
+  }
+ ]
+}
