@@ -1,7 +1,7 @@
 """Collecte les flux RSS des grands journaux autorisés (48h) et filtre les sujets utiles prépa ECG.
 
 Usage :
-    python3 scripts/rss.py              -> toutes les matières (esh, anglais, espagnol, allemand)
+    python3 scripts/rss.py              -> toutes les matières (esh, anglais, espagnol)
     python3 scripts/rss.py esh anglais  -> seulement les matières demandées
     python3 scripts/rss.py --max 15     -> nombre d'articles affichés par matière (défaut : 12)
 """
@@ -219,7 +219,7 @@ def title_sig(title):
 
 
 def collecter(matieres=None, heures=48, par_matiere=12):
-    mats = [m for m in (matieres or ["esh", "anglais", "espagnol", "allemand"]) if m in FEEDS]
+    mats = [m for m in (matieres or ["esh", "anglais", "espagnol"]) if m in FEEDS]
     jobs = [(m, src, url) for m in mats for src, url in FEEDS[m]]
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=heures)
