@@ -1326,9 +1326,16 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     h += '<h1>' + esc(f.nom) + '</h1><p class="idee">' + fmt(f.accroche) + '</p>';
     h += f.blocs.map(b => bloc(b, ref, f.id)).join("");
     if (va.length) h += '<section class="sec"><h2 class="label">Voir aussi</h2><div class="voir-aussi">' + va.map(x => '<button type="button" class="list-row" data-fiche="' + esc(x.id) + '"><span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span class="t">' + esc(x.nom) + '</span><span class="muted" style="font-size:13.5px">' + esc(x.auteur) + ', ' + esc(x.annee) + '</span></span><span class="label muted">→</span></button>').join("") + '</div></section>';
+    h += '<section class="sec" id="fi-actus" hidden><h2 class="label">Articles reliés</h2><div class="deb-actus" id="fi-actus-l"></div></section>';
     h += notesBox("esh:" + f.id, f.nom) + (caches["esh:" + f.id] && EDIT() ? '<div class="ref-suppr"><span class="label muted">Fiche supprimée · </span><button type="button" class="label more" data-retablir="esh:' + esc(f.id) + '">Rétablir</button></div>' : supprBtn("esh:" + f.id));
     app.innerHTML = h + '</article></div>';
     window.scrollTo(0, 0);
+    actusDeFiche(ref, f.id).then(cs => {
+      const box = document.getElementById("fi-actus-l"); if (!box || !cs.length) return;
+      const N = 4, draw = all => { box.innerHTML = (all ? cs : cs.slice(0, N)).map(c => actuLigne(c)).join("") + (!all && cs.length > N ? '<button type="button" class="label more" id="fi-actus-plus">Voir les ' + cs.length + ' articles</button>' : '');
+        const b = document.getElementById("fi-actus-plus"); if (b) b.onclick = () => draw(true); };
+      draw(false); document.getElementById("fi-actus").hidden = false;
+    }).catch(() => {});
   }
 
   // Culture générale
@@ -1540,11 +1547,55 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
   let debActus = null;
   async function debToutesActus() {
     if (debActus) return debActus;
-    const ix = await getJSON("data/index.json"), out = [];
-    const eds = await Promise.all(ix.editions.map(d => edition(d).catch(() => null)));
-    eds.forEach(e => e && (e.cards || []).forEach(c => { if (c.matiere !== "esh") return;
-      out.push({ c: c, t: debNorm(c.titre + " " + (c.sujets || []).join(" ")), b: debNorm(c.faits + " " + c.enjeux + " " + ((c.notions || []).map(n => [].concat(n).join(" ")).join(" "))) }); }));
-    return debActus = out;
+    const A = await toutesActus();
+    return debActus = A.filter(a => a.c.matiere === "esh").map(a => ({ c: a.c, t: debNorm(a.c.titre + " " + (a.c.sujets || []).join(" ")), b: debNorm(a.c.faits + " " + a.c.enjeux + " " + ((a.c.notions || []).map(n => [].concat(n).join(" ")).join(" "))) }));
+  }
+  // Toutes les actus de toutes les éditions (chargées une fois), avec leur texte pour la recherche
+  let tousArticles = null;
+  function toutesActus() {
+    if (tousArticles) return tousArticles;
+    tousArticles = (async () => {
+      const ix = await getJSON("data/index.json"), out = [];
+      const eds = await Promise.all(ix.editions.map(d => edition(d).catch(() => null)));
+      eds.forEach(e => e && (e.cards || []).forEach(c => {
+        const v = c.vo || {};
+        out.push({ c: c,
+          t: debNorm(c.titre + " " + (v.titre || "")),
+          n: debNorm((c.notions || []).map(n => n[0]).join(" ") + " " + (c.auteurs || []).map(a => a.nom + " " + a.ouvrage).join(" ") + " " + (c.reperes || []).map(r => r[0]).join(" ")),
+          b: debNorm([c.faits, c.enjeux, v.faits, v.enjeux, (c.notions || []).map(n => n[1]).join(" "), (c.auteurs || []).map(a => a.texte).join(" "), (c.sujets || []).join(" "), (c.vocab || []).map(x => x.join(" ")).join(" "), (c.reperes || []).map(r => r[1]).join(" "), c.entretien, c.source, NOM[c.matiere]].filter(Boolean).join(" ").replace(/\*\*|\*/g, "")) });
+      }));
+      return out.sort((x, y) => y.c.id.localeCompare(x.c.id));
+    })().catch(e => { tousArticles = null; throw e; });
+    return tousArticles;
+  }
+  const motRe = w => new RegExp("(^|[^a-z0-9])" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  function chercherArticles(A, q) {
+    const mots = debNorm(q).split(/[^a-z0-9]+/).filter(w => w.length >= 2 && !["le","la","les","de","du","des","et","en","un","une","the","of","el","los","las","y"].includes(w));
+    if (!mots.length) return [];
+    const res = [];
+    A.forEach(a => {
+      let sc = 0;
+      for (const w of mots) { const r = motRe(w); const st = r.test(a.t), sn = r.test(a.n), sb = r.test(a.b); if (!st && !sn && !sb) return; sc += (st ? 6 : 0) + (sn ? 3 : 0) + (sb ? 1 : 0); }
+      res.push({ a: a, sc: sc });
+    });
+    return res.sort((x, y) => y.sc - x.sc || y.a.c.id.localeCompare(x.a.c.id));
+  }
+  // Fiche ESH → actus qui s'y rattachent (auteur à mobiliser ou notion clé qui renvoie à la fiche)
+  let actusParFiche = null;
+  async function actusDeFiche(ref, id) {
+    if (!actusParFiche) {
+      const A = await toutesActus(), m = {};
+      A.forEach(a => { const ids = new Set(), c = a.c;
+        (c.auteurs || []).forEach(x => { if (x.ref) ids.add(x.ref); });
+        (c.notions || []).forEach(n => { const fid = matchNotionFiche(ref, n[0], n[2]); if (fid) ids.add(fid); });
+        ids.forEach(i => (m[i] = m[i] || []).push(c)); });
+      actusParFiche = m;
+    }
+    return actusParFiche[id] || [];
+  }
+  function actuLigne(c, extra) {
+    return '<a class="deb-actu" href="#' + c.id + '">' + (c.image && c.image.url ? '<img src="' + esc(c.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' : '<span></span>') +
+      '<span><span class="label muted">' + esc(NOM[c.matiere] || "") + ' · ' + esc(c.source || "") + ' · ' + esc(dShort(c.id.slice(0, 10))) + '</span><strong>' + esc(c.titre) + '</strong>' + (extra ? '<span class="deb-actu-m">' + extra + '</span>' : '') + '</span></a>';
   }
   function debMotsTrouves(kw, txt) { return kw.filter(k => { const n = debNorm(k); return new RegExp("(^|[^a-z0-9])" + n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(s|x)?([^a-z0-9]|$)").test(txt); }); }
   async function viewDebats(parts) {
@@ -1877,21 +1928,30 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
     ]);
     const bg = document.createElement("div");
     bg.className = "qs-bg";
-    bg.innerHTML = '<div class="qs-box" role="dialog" aria-label="Recherche rapide"><div class="qs-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.2" y2="16.2"/></svg><input type="search" placeholder="Chercher une fiche ESH, un auteur, une actu du jour…" autocomplete="off"><button type="button" class="label muted" data-qs-close>Échap</button></div><div class="qs-list"></div></div>';
+    bg.innerHTML = '<div class="qs-box" role="dialog" aria-label="Recherche rapide"><div class="qs-head"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.2" y2="16.2"/></svg><input type="search" placeholder="Chercher une fiche, un auteur, un mot-clé d\'article…" autocomplete="off"><button type="button" class="label muted" data-qs-close>Échap</button></div><div class="qs-list"></div></div>';
     document.body.appendChild(bg);
     const inp = bg.querySelector("input"), list = bg.querySelector(".qs-list");
+    let A = null, charge = false;
     function render(q) {
       const nq = refNorm(q);
-      const fs = (ref.fiches || []).filter(f => !caches["esh:" + f.id] && (!nq || refNorm(f.nom + " " + f.auteur + " " + f.accroche).includes(nq))).slice(0, nq ? 8 : 5);
-      const cs = (ed.cards || []).filter(c => !nq || refNorm(c.titre + " " + NOM[c.matiere] + " " + (c.notions || []).map(n => n[0]).join(" ")).includes(nq)).slice(0, nq ? 6 : 4);
+      const fs = (ref.fiches || []).filter(f => !caches["esh:" + f.id] && (!nq || refNorm(f.nom + " " + f.auteur + " " + f.accroche).includes(nq))).slice(0, nq ? 6 : 5);
       let h = "";
       if (fs.length) h += '<div class="qs-grp label">Référentiel ESH</div>' + fs.map(f => '<button type="button" class="qs-item" data-qs-go="' + esc(f.id) + '"><span><div class="t">' + esc(f.nom) + '</div><div class="sub">' + esc(f.auteur) + ', ' + esc(f.annee) + '</div></span><span class="label muted">→</span></button>').join("");
-      if (cs.length) h += '<div class="qs-grp label">Édition du ' + esc(dShort(state.date)) + '</div>' + cs.map(c => '<button type="button" class="qs-item" data-qs-go="' + esc(c.id) + '"><span><div class="t">' + esc(c.titre) + '</div><div class="sub">' + esc(NOM[c.matiere]) + ' · ' + esc(c.source) + '</div></span><span class="label muted">→</span></button>').join("");
+      if (!nq) {
+        const cs = (ed.cards || []).slice(0, 4);
+        if (cs.length) h += '<div class="qs-grp label">Édition du ' + esc(dShort(state.date)) + '</div>' + cs.map(c => '<button type="button" class="qs-item" data-qs-go="' + esc(c.id) + '"><span><div class="t">' + esc(c.titre) + '</div><div class="sub">' + esc(NOM[c.matiere]) + ' · ' + esc(c.source) + '</div></span><span class="label muted">→</span></button>').join("");
+      } else if (A) {
+        const rs = chercherArticles(A, q), cs = rs.slice(0, 12);
+        if (cs.length) h += '<div class="qs-grp label">Articles · ' + rs.length + ' résultat' + (rs.length > 1 ? 's' : '') + '</div>' + cs.map(r => { const c = r.a.c; return '<button type="button" class="qs-item" data-qs-go="' + esc(c.id) + '"><span><div class="t">' + esc(c.titre) + '</div><div class="sub">' + esc(NOM[c.matiere]) + ' · ' + esc(c.source) + ' · ' + esc(dShort(c.id.slice(0, 10))) + '</div></span><span class="label muted">→</span></button>'; }).join("");
+      } else if (charge) h += '<p class="muted" style="padding:10px 0;margin:0">Recherche dans tous les articles…</p>';
       list.innerHTML = h || '<p class="muted" style="padding:14px 0;margin:0">Aucun résultat pour « ' + esc(q) + ' ».</p>';
     }
     render("");
     inp.focus();
-    inp.addEventListener("input", () => render(inp.value));
+    inp.addEventListener("input", () => {
+      if (!A && !charge && inp.value.trim()) { charge = true; toutesActus().then(x => { A = x; charge = false; if (document.body.contains(inp)) render(inp.value); }).catch(() => { charge = false; }); }
+      render(inp.value);
+    });
     bg.addEventListener("click", e => {
       if (e.target === bg || e.target.closest("[data-qs-close]")) { qsClose(); return; }
       const g = e.target.closest("[data-qs-go]");
