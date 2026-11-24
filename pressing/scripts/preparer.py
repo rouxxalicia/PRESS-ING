@@ -56,6 +56,15 @@ print(dossiers.resume(today))
 print("« suite seulement » = ce sujet ne revient que s'il y a une vraie évolution (champ \"suite\"), une seule suite")
 print("par édition. Pour redire la même chose : non, choisis une autre actu. Les dossiers « libres » anciens ne sont pas affichés.")
 print()
+print("=== ACTUS CULTURELLES ESPAGNOLES DES 30 DERNIÈRES ÉDITIONS : ne pas reprendre l'œuvre ni l'artiste ===")
+for d in editions[:30]:
+    p = DATA / "editions" / f"{d}.json"
+    if p.exists():
+        for c in lire(p).get("cards", []):
+            if c.get("culture"):
+                print(f"  [{d}] {c.get('dossier', '')} : {c.get('titre', '')}")
+print("Rappel : 1 actu culturelle espagnole par édition, voir « Actu culturelle (espagnol) » dans CONSIGNES.md.")
+print()
 print("=== « À LIRE » DES 5 DERNIÈRES ÉDITIONS : ne pas les reprendre ===")
 programme = {}
 for d in editions[:5]:
