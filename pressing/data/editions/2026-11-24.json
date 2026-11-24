@@ -1,0 +1,1189 @@
+{
+ "date": "2026-11-24",
+ "cards": [
+  {
+   "id": "2026-11-24-esh-1",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/24/inflation-pourquoi-la-hausse-des-cours-de-l-energie-tarde-a-se-repercuter-sur-l-ensemble-des-prix-en-france_6814604_3234.html",
+   "minutes": 3,
+   "titre": "Inflation en France : pourquoi la hausse des cours de l'énergie tarde à se diffuser aux autres prix",
+   "dossier": "prix-energie-france",
+   "faits": "Selon une analyse publiée par Le Monde le 24 novembre, l'envolée des cours du pétrole et du gaz ne se répercute que lentement sur l'ensemble des prix à la consommation en France. Alors que la facture énergétique pèse déjà sur les coûts de transport et de production, l'inflation sous-jacente reste contenue à court terme. Deux facteurs expliquent ce décalage : l'atonie de l'activité économique française et la remontée du chômage, qui freinent la demande des ménages. Face à des consommateurs qui arbitrent et restreignent leurs achats, les entreprises hésitent à relever leurs tarifs de vente. Elles absorbent donc provisoirement une partie du surcoût énergétique en comprimant leurs marges. Le journal souligne toutefois que cette situation reste fragile si les prix de l'énergie demeurent durablement élevés.",
+   "enjeux": "Cette dynamique illustre les mécanismes de transmission d'un **choc d'offre** énergétique à l'économie réelle. Contrairement à 2022, où la reprise post-Covid avait facilité le passage des hausses de coûts aux prix finaux, la faiblesse actuelle de la **demande globale** bloque les **effets de second tour**. La remontée du chômage réduit le pouvoir de négociation des salariés et empêche le déclenchement d'une **boucle prix-salaires**. Pour les entreprises, ce **compression des marges** (ou *margin squeeze*) risque toutefois de freiner l'investissement et l'embauche si le choc se prolonge. Pour la Banque centrale européenne, ce décalage complique le diagnostic entre risque de **stagflation** et désinflation sous-jacente.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1611807527279-f6ac568cd4f8?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Pistolet de pompe à essence dans une station-service",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/gas-station"
+   },
+   "programme": {
+    "module": "Module 4 – Déséquilibres, régulation et action publique",
+    "chapitre": "4.1 – Équilibres et déséquilibres macroéconomiques : l'inflation et le chômage"
+   },
+   "auteurs": [
+    {
+     "nom": "Paul Samuelson et Robert Solow",
+     "ouvrage": "« Analytical Aspects of Anti-Inflation Policy »",
+     "annee": "1960",
+     "ref": "courbe-de-phillips",
+     "cours": "1A-inflation",
+     "texte": "Samuelson et Solow transforment la **courbe de Phillips** en un arbitrage de politique économique entre chômage et inflation. Leur modèle éclaire la situation française : parce que le chômage remonte et que l'activité reste atone, les tensions salariales sont faibles et freinent la diffusion de l'inflation énergétique. À mobiliser dans un sujet sur le lien entre marché du travail et dynamique des prix."
+    },
+    {
+     "nom": "Milton Friedman",
+     "ouvrage": "« The Role of Monetary Policy »",
+     "annee": "1968",
+     "ref": "chomage-naturel-friedman",
+     "texte": "Friedman nuance cet arbitrage en montrant que la courbe de Phillips devient verticale à long terme au niveau du **taux de chômage naturel**, dès lors que les agents intègrent l'inflation dans leurs **anticipations adaptatives**. Si la hausse des prix de l'énergie dure, les ménages et les entreprises finiront par réviser leurs anticipations à la hausse, relançant l'inflation même sans plein-emploi. Utile pour montrer les limites d'un amortissement purement conjoncturel."
+    }
+   ],
+   "notions": [
+    [
+     "Choc d'offre négatif",
+     "Perturbation exogène qui renchérit les coûts de production, comme une hausse brutale des prix de l'énergie."
+    ],
+    [
+     "Effets de second tour",
+     "Diffusion d'une hausse initiale des prix de l'énergie aux autres biens et aux salaires via les anticipations."
+    ],
+    [
+     "Boucle prix-salaires",
+     "Enchaînement cumulatif où la hausse des prix entraîne des revalorisations salariales qui alimentent à leur tour l'inflation."
+    ],
+    [
+     "Inflation sous-jacente",
+     "Indicateur d'inflation qui exclut les prix les plus volatils, notamment l'énergie et l'alimentation non transformée."
+    ]
+   ],
+   "sujets": [
+    "Un choc énergétique entraîne-t-il nécessairement un retour durable de l'inflation ?",
+    "L'arbitrage entre inflation et chômage est-il encore pertinent aujourd'hui ?"
+   ],
+   "anki": [
+    {
+     "q": "Freins à la transmission de la hausse de l'énergie aux prix en France (novembre 2026)",
+     "r": "L'atonie de l'activité et la remontée du chômage obligent les entreprises à comprimer leurs marges.\n→ Montre qu'une B{demande faible} bloque les B{effets de second tour}, conformément à la B{courbe de Phillips} (A{Samuelson} et A{Solow}, D{1960})."
+    },
+    {
+     "q": "Rôle des anticipations si un choc énergétique se prolonge",
+     "r": "Les agents révisent leurs anticipations d'inflation, ce qui finit par diffuser le choc aux salaires et aux prix.\n→ A{Friedman} (D{1968}) montre que le répit conjoncturel disparaît si les B{anticipations} se désancrent."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-esh-2",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/societes/le-principal-embouteilleur-de-coca-cola-dans-le-viseur-de-bruxelles-20261123",
+   "minutes": 3,
+   "titre": "Concurrence : Bruxelles ouvre une enquête contre le principal embouteilleur européen de Coca-Cola",
+   "dossier": "concurrence-antitrust-ue",
+   "faits": "Le 23 novembre, la Commission européenne a annoncé l'ouverture d'une enquête antitrust approfondie contre Coca-Cola Europacific Partners (CCEP), le principal producteur et distributeur des boissons du groupe américain dans huit pays européens dont la France, l'Allemagne et l'Espagne. Bruxelles soupçonne l'entreprise d'avoir abusé de sa position dominante, en infraction avec l'article 102 du traité sur le fonctionnement de l'UE. CCEP aurait empêché les grands distributeurs de négocier des contrats d'approvisionnement communs à plusieurs pays et conditionné certains rabais à l'absence de réexportation. La Commission examine aussi le recours à des formats d'emballage différenciés par pays pour freiner le commerce parallèle. L'objectif présumé est de cloisonner les marchés nationaux afin d'y maintenir des prix plus élevés. CCEP a indiqué coopérer pleinement tout en contestant les accusations.",
+   "enjeux": "Cette procédure illustre le cœur de la **politique de la concurrence** européenne : garantir l'unicité du **marché intérieur** face aux stratégies de segmentation des firmes dominantes. En empêchant les **importations parallèles**, une entreprise en position quasi monopolistique peut pratiquer une **discrimination par les prix** entre États membres et capter une **rente de monopole** au détriment du surplus du consommateur. L'affaire rappelle que la libre circulation des marchandises reste menacée par des barrières privées, même en l'absence de droits de douane. Pour l'UE, sanctionner ces pratiques vise à préserver le pouvoir d'achat dans la grande distribution tout en rappelant les limites posées au **pouvoir de marché** des grands groupes.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1750085037147-0f141272a67f?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Rayon de bouteilles et canettes de sodas dans un supermarché",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/supermarket"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Joan Robinson",
+     "ouvrage": "L'Économie de la concurrence imparfaite",
+     "annee": "1933",
+     "ref": "concurrence-imparfaite-robinson",
+     "cours": "1A-entreprise",
+     "texte": "Joan Robinson intègre le monopole et l'oligopole dans l'analyse économique en rompant avec l'hypothèse d'**atomicité** des marchés. Elle montre que les grandes firmes disposent d'un **pouvoir de marché** leur permettant de fixer des prix supérieurs au coût marginal et de segmenter les marchés par la **discrimination par les prix**. C'est exactement ce que reproche Bruxelles à CCEP en cloisonnant les marchés nationaux."
+    },
+    {
+     "nom": "Philippe Aghion et Peter Howitt",
+     "ouvrage": "« Competition, Imitation and Growth with Step-by-Step Innovation »",
+     "annee": "2001",
+     "ref": "frontiere-technologique-aghion",
+     "cours": "1A-croissance",
+     "texte": "Aghion et Howitt montrent que la concurrence incite les firmes à innover pour échapper à leurs rivaux (*escape competition*), tandis qu'une rente de position dominante trop protégée décourage l'efficacité. Leur analyse justifie une **politique antitrust** ferme pour empêcher les leaders installés de verrouiller les marchés et d'imposer des prix excessifs."
+    }
+   ],
+   "notions": [
+    [
+     "Abus de position dominante",
+     "Pratique anticoncurrentielle par laquelle une entreprise leader utilise son pouvoir de marché pour évincer des rivaux ou exploiter ses clients."
+    ],
+    [
+     "Pouvoir de marché",
+     "Capacité d'une firme à fixer un prix supérieur au coût marginal sans perdre tous ses clients (firme price-maker)."
+    ],
+    [
+     "Commerce parallèle",
+     "Achat de produits dans un pays où ils sont moins chers pour les revendre dans un autre sans l'accord du producteur."
+    ],
+    [
+     "Discrimination par les prix",
+     "Stratégie consistant à vendre un même bien à des prix différents selon les segments de clientèle ou les zones géographiques."
+    ]
+   ],
+   "sujets": [
+    "La politique de la concurrence européenne suffit-elle à protéger le consommateur ?",
+    "Les grandes entreprises sont-elles une menace pour l'efficacité du marché unique ?"
+   ],
+   "anki": [
+    {
+     "q": "Pratiques reprochées à CCEP par la Commission européenne (novembre 2026)",
+     "r": "Refus de contrats transfrontaliers, rabais conditionnés à la non-réexportation et formats différenciés pour cloisonner 8 marchés.\n→ Exemple d'B{abus de position dominante} et de B{discrimination par les prix} (A{Robinson}, O{L'Économie de la concurrence imparfaite}, D{1933}) → accroche pour un sujet sur la concurrence."
+    },
+    {
+     "q": "Article du traité européen sanctionnant l'abus de position dominante",
+     "r": "Article C{102} du traité sur le fonctionnement de l'UE (TFUE).\n→ Outil central de la B{politique antitrust} européenne pour préserver l'unicité du marché intérieur."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-esh-3",
+   "matiere": "esh",
+   "source": "La Tribune",
+   "url": "https://www.latribune.fr/article/defense-aerospatiale/defense/1485109435708/fonds-de-competitivite-comment-largent-de-leurope-devrait-enrichir-des-groupes-extra-communautaires-notamment-americains",
+   "minutes": 3,
+   "titre": "Fonds européen pour la compétitivité : le débat sur l'ouverture aux groupes extra-communautaires",
+   "dossier": "fonds-competitivite-europeen",
+   "faits": "Le 23 novembre, La Tribune révèle que les rapporteurs de la commission de l'industrie (ITRE) du Parlement européen ont contourné un vote en plénière pour engager directement les négociations interinstitutionnelles (trilogue) sur le futur Fonds européen pour la compétitivité. Doté de 409 milliards d'euros sur la période 2028-2034, dont 131 milliards fléchés vers la défense et le spatial, cet instrument doit soutenir la base industrielle européenne. Or, le texte proposé ouvre l'accès à ces financements publics aux entreprises de pays tiers, notamment américaines, japonaises et sud-coréennes, sous l'impulsion de l'Allemagne et du rapporteur Christian Ehler. Cette orientation suscite de vives critiques en France, qui défend une préférence européenne stricte. Les opposants craignent que l'argent du contribuable européen ne subventionne des concurrents étrangers déjà protégés chez eux.",
+   "enjeux": "Ce dossier cristallise le clivage doctrinal au sein de l'Union européenne entre **libre-échange** ouvert et **politique industrielle** stratégique. D'un côté, l'approche ordolibérale allemande privilégie l'ouverture aux fournisseurs extra-européens pour éviter des coûts excessifs et préserver les chaînes d'approvisionnement transatlantiques. De l'autre, l'approche française plaide pour la **préférence communautaire** afin de bâtir une véritable **autonomie stratégique** et d'éviter les **effets d'éviction** au profit des géants américains. Sans conditionnalité géographique, les subventions européennes risquent de ne pas générer d'**économies d'échelle** ni d'effets d'apprentissage sur le sol européen, alors même que les États-Unis pratiquent un protectionnisme assumé.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1768213022263-0414dc145dfd?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Hémicycle du Parlement européen à Strasbourg",
+    "credit": "Nico Ruge / Unsplash",
+    "source": "https://unsplash.com/s/photos/european-parliament"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Élie Cohen et Jean-Hervé Lorenzi",
+     "ouvrage": "Politiques industrielles pour l'Europe",
+     "annee": "2000",
+     "ref": "politique-industrielle-cohen-lorenzi",
+     "cours": "2A-02-ftn",
+     "texte": "Cohen et Lorenzi définissent la **politique industrielle** comme une action ciblée justifiée par la recherche d'**autonomie technologique**, la réduction de la dépendance nationale et la correction des défaillances de l'initiative privée. Ouvrir le Fonds européen pour la compétitivité aux groupes américains va à l'encontre de cette logique en diluant l'objectif de souveraineté dans des secteurs critiques comme la défense et le spatial."
+    },
+    {
+     "nom": "James Brander et Barbara Spencer",
+     "ouvrage": "« Export Subsidies and International Market Share Rivalry »",
+     "annee": "1985",
+     "ref": "protectionnisme-strategique-brander-spencer",
+     "texte": "Dans la **politique commerciale stratégique**, les subventions publiques permettent à une firme domestique de conquérir des parts de marché et de capter des rentes dans des oligopoles mondiaux à rendements croissants (comme l'aéronautique ou le spatial). À l'inverse, subventionner des firmes tierces revient à transférer ces rentes hors d'Europe."
+    }
+   ],
+   "notions": [
+    [
+     "Politique industrielle",
+     "Intervention ciblée des pouvoirs publics visant à orienter la spécialisation productive vers des secteurs jugés stratégiques."
+    ],
+    [
+     "Préférence communautaire",
+     "Principe réservant les financements ou marchés publics européens aux entreprises produisant et innovant sur le territoire de l'UE."
+    ],
+    [
+     "Autonomie stratégique",
+     "Capacité d'un État ou d'une union économique à décider et agir sans dépendre de puissances extérieures dans les secteurs clés."
+    ],
+    [
+     "Politique commerciale stratégique",
+     "Soutien public (subventions, protection ciblée) permettant aux firmes nationales de capter les rentes d'oligopoles mondiaux."
+    ]
+   ],
+   "sujets": [
+    "L'Union européenne doit-elle adopter une préférence européenne dans sa politique industrielle ?",
+    "La mondialisation rend-elle les politiques industrielles nationales obsolètes ?"
+   ],
+   "anki": [
+    {
+     "q": "Dotation du Fonds européen pour la compétitivité 2028-2034 (défense/spatial inclus)",
+     "r": "C{409 Md€} au total, dont C{131 Md€} pour la défense et le spatial.\n→ Enjeu de B{politique industrielle} (A{Cohen} et A{Lorenzi}, D{2000}) : l'ouverture aux firmes américaines divise France et Allemagne → accroche pour un sujet sur la souveraineté européenne."
+    },
+    {
+     "q": "Argument économique contre le financement de firmes extra-européennes en oligopole",
+     "r": "Dans les industries à rendements croissants, la subvention doit capter la rente au profit des firmes domestiques.\n→ A{Brander} et A{Spencer} (D{1985}) : sans B{préférence communautaire}, la rente oligopolistique fuit hors de l'UE."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-esh-4",
+   "matiere": "esh",
+   "source": "Alternatives économiques",
+   "url": "https://www.alternatives-economiques.fr/a-la-fois-fonciere-fondation-et-federation-terre-de-liens-veut-sortir-la-terre-de-la-speculation_24",
+   "minutes": 3,
+   "titre": "Foncier agricole : comment Terre de liens tente de sortir la terre de la spéculation marchande",
+   "dossier": "foncier-agricole-agroecologie",
+   "faits": "Dans un reportage publié le 24 novembre, Alternatives économiques revient sur l'action du mouvement citoyen Terre de liens face à la crise agricole française. En cinquante ans, la France a perdu 4,6 millions d'hectares de terres agricoles, soit environ 7 000 fermes par an, sous l'effet de l'artificialisation et de la concentration des exploitations. Le modèle dominant pousse les jeunes repreneurs à s'endetter pour racheter des surfaces voisines et se spécialiser, ce qui fragilise la biodiversité et accroît la dépendance aux intrants. Pour y répondre, Terre de liens fonctionne à la fois comme une foncière, une fondation et une fédération d'associations. Grâce à l'épargne citoyenne et aux dons, la structure achète des fermes pour les soustraire définitivement au marché spéculatif et les louer par bail rural environnemental à des paysans en agroécologie. Plus de 14 000 hectares ont ainsi été préservés et 905 agriculteurs installés.",
+   "enjeux": "Cette initiative illustre le rôle de l'**économie sociale et solidaire (ESS)** et la gestion des terres comme un **bien commun** plutôt que comme une simple marchandise. Face aux **défaillances de marché** — spéculation foncière, barrières à l'entrée pour les jeunes agriculteurs et **externalités négatives** de l'agriculture intensive sur le climat —, le droit de propriété classique montre ses limites. En dissociant la propriété du foncier (collectivisée et inaliénable) de son usage (confié à l'exploitant), Terre de liens abaisse le coût d'installation et favorise la **transition agroécologique**. Ce modèle pose toutefois la question de son changement d'échelle face à la masse des capitaux nécessaires pour peser sur le marché foncier national.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1483871788521-4f224a86e166?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Champs agricoles cultivés en zone rurale",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/organic-farm"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la soutenabilité de la croissance et du développement"
+   },
+   "auteurs": [
+    {
+     "nom": "Elinor Ostrom",
+     "ouvrage": "Gouvernance des biens communs",
+     "annee": "1990",
+     "ref": "gouvernance-biens-communs-ostrom",
+     "cours": "2A-03-gouvernance",
+     "texte": "Ostrom démontre que des communautés peuvent s'auto-organiser pour gérer durablement une **ressource commune** sans recourir ni à la privatisation marchande ni à l'État coercitif. Terre de liens applique cette logique au foncier agricole grâce à l'épargne solidaire et à des baux environnementaux contraignants."
+    },
+    {
+     "nom": "Karl Polanyi",
+     "ouvrage": "La Grande Transformation",
+     "annee": "1944",
+     "ref": "encastrement-polanyi",
+     "texte": "Polanyi analyse la terre, le travail et la monnaie comme des « **marchandises fictives** » dont le traitement purement marchand menace la cohésion sociale et la nature. Soustraire le foncier agricole au marché spéculatif constitue un mouvement de **réencastrement** de l'économie dans des règles sociales et écologiques."
+    }
+   ],
+   "notions": [
+    [
+     "Bien commun",
+     "Ressource rivale mais difficilement excluable, ou gérée collectivement selon des règles d'usage partagées pour éviter son épuisement."
+    ],
+    [
+     "Économie sociale et solidaire",
+     "Ensemble d'organisations (associations, coopératives, fondations) dont le fonctionnement repose sur l'utilité sociale et une gouvernance non lucrative."
+    ],
+    [
+     "Externalité négative",
+     "Effet nuisible de l'activité d'un agent sur un tiers ou sur l'environnement, non compensé par le système de prix."
+    ],
+    [
+     "Marchandise fictive",
+     "Concept de Polanyi désignant des éléments (terre, travail, monnaie) qui ne sont pas produits pour être vendus mais traités comme tels par le marché."
+    ]
+   ],
+   "sujets": [
+    "Les biens communs sont-ils une réponse crédible aux limites de la propriété privée et du marché ?",
+    "L'économie sociale et solidaire peut-elle accélérer la transition écologique ?"
+   ],
+   "anki": [
+    {
+     "q": "Recul des terres agricoles en France en cinquante ans et bilan de Terre de liens",
+     "r": "C{4,6 millions d'ha} perdus (C{7 000} fermes/an) ; Terre de liens a préservé C{14 000 ha} et installé C{905} paysans.\n→ Illustre la gestion d'un B{bien commun} hors marché (A{Ostrom}, O{Gouvernance des biens communs}, D{1990}) → accroche pour un sujet sur l'ESS ou la soutenabilité."
+    },
+    {
+     "q": "Statut de la terre dans l'analyse de Karl Polanyi (1944)",
+     "r": "Une « B{marchandise fictive} » dont la mise en marché intégrale détruit le lien social et l'environnement.\n→ A{Polanyi}, O{La Grande Transformation} (D{1944}) : sortir le foncier de la spéculation relève du B{réencastrement}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-anglais-1",
+   "matiere": "anglais",
+   "source": "Financial Times",
+   "url": "https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1",
+   "minutes": 3,
+   "titre": "États-Unis : comment la Silicon Valley et Donald Trump ont orchestré le retour de Jensen Huang chez Nvidia",
+   "dossier": "nvidia-jensen-huang",
+   "suite": "Sous la pression de la Silicon Valley et de Donald Trump, Jensen Huang accepte finalement de reprendre la direction de Nvidia.",
+   "faits": "Le Financial Times révèle le 23 novembre les coulisses du retour spectaculaire de Jensen Huang à la tête de Nvidia, onze jours après sa démission liée à des révélations personnelles et à des soupçons concernant l'exportation de puces vers la Chine. Inquiets de la chute boursière du groupe et des valeurs technologiques, des dirigeants et investisseurs de la Silicon Valley ont mis sur pied une véritable cellule de crise (« war room ») pour obtenir sa réintégration. Soutenus par une pétition de plus de 165 000 signatures appuyée par Elon Musk, ils ont sollicité le vice-président JD Vance et Donald Trump. Le président américain a publiquement soutenu le retour de Huang et appelé directement le conseil d'administration de Nvidia durant le week-end, assurant que le dirigeant ne représentait pas un risque pour la sécurité nationale. Le conseil a voté à l'unanimité sa réintégration, faisant bondir l'action Nvidia de plus de 30 %.",
+   "enjeux": "Cet épisode révèle l'imbrication inédite entre **capitalisme technologique**, marchés financiers et pouvoir exécutif aux États-Unis. Nvidia étant devenu un actif systémique pour l'économie américaine et la course à l'intelligence artificielle, la frontière entre **gouvernance d'entreprise** privée et intérêt stratégique national s'estompe. L'intervention directe du président auprès d'un conseil d'administration pose toutefois de lourdes questions d'**éthique publique** et de **sécurité nationale**, alors que le Congrès maintient ses enquêtes sur le contournement des contrôles à l'exportation vers la Chine.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1731400800900-1bce57414c09?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Puce électronique et circuit imprimé",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/microchip"
+   },
+   "vo": {
+    "titre": "Inside the 'war room' that lobbied Trump to bring back Jensen Huang",
+    "faits": "On November 23, the Financial Times detailed the behind-the-scenes campaign that reinstated Jensen Huang as Nvidia CEO just eleven days after he resigned over personal misconduct and scrutiny regarding chip exports to China. Alarmed by a sharp sell-off in Nvidia shares and broader tech stocks, Silicon Valley investors and allies set up a dedicated 'war room' to engineer his return. Backed by a petition garnering over 165,000 signatures, including support from Elon Musk, the coalition lobbied Vice President JD Vance and President Donald Trump. Trump publicly championed Huang's reinstatement and personally dialed into an Nvidia board meeting over the weekend to assure directors that Huang posed no national security threat. The board unanimously voted to bring him back, sending Nvidia shares surging by over 30%.",
+    "enjeux": "This episode exposes the unprecedented entanglement of Big Tech, financial markets, and executive power in the United States. Because Nvidia has become a systemic pillar of the US economy and the global AI race, the boundary between private corporate governance and national strategic interest is increasingly blurred. Yet a president directly pressuring a corporate board raises acute concerns over conflicts of interest and national security, as bipartisan lawmakers on Capitol Hill continue probing export control breaches involving China."
+   },
+   "vocab": [
+    [
+     "to reinstate",
+     "réintégrer / rétablir dans ses fonctions",
+     "The board voted unanimously to reinstate the ousted chief executive."
+    ],
+    [
+     "a sell-off",
+     "une vague de ventes (en Bourse)",
+     "His abrupt departure triggered a severe sell-off across technology stocks."
+    ],
+    [
+     "to lobby",
+     "faire pression sur / démarcher",
+     "Tech executives lobbied the White House to protect the semiconductor supply chain."
+    ],
+    [
+     "corporate governance",
+     "la gouvernance d'entreprise",
+     "Political interference in private boardrooms challenges traditional corporate governance."
+    ],
+    [
+     "export controls",
+     "les contrôles à l'exportation",
+     "Washington tightened export controls on advanced AI chips bound for China."
+    ],
+    [
+     "to surge",
+     "bondir / s'envoler",
+     "Nvidia shares surged by over 30% following the announcement."
+    ]
+   ],
+   "sujets": [
+    "Should national security concerns override market interests in the US tech sector?",
+    "Does the concentration of economic power in Big Tech threaten corporate governance and democracy?"
+   ],
+   "anki": [
+    {
+     "q": "Number of days between Jensen Huang's resignation and reinstatement, and Nvidia's stock jump (Nov 2026)",
+     "r": "Reinstated after C{11 days}; Nvidia shares surged over C{30%}.\n→ Shows how B{systemic} AI chipmakers have become for Wall Street and US politics → hook for an essay on Big Tech power."
+    },
+    {
+     "q": "Role of Donald Trump in Jensen Huang's return to Nvidia",
+     "r": "He dialed directly into an Nvidia board meeting to offer White House national security assurances.\n→ Highlights unprecedented B{executive intervention} in private B{corporate governance}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/politics/2026/nov/24/zack-polanski-backs-report-endorsing-nato-membership-maintaining-nuclear-weapons",
+   "minutes": 3,
+   "titre": "Royaume-Uni : le chef des Verts Zack Polanski soutient un rapport favorable à l'OTAN et à la dissuasion nucléaire",
+   "dossier": "verts-royaume-uni-defense",
+   "faits": "Selon The Guardian du 24 novembre, Zack Polanski, dirigeant du Parti vert d'Angleterre et du Pays de Galles, a apporté son soutien à un rapport stratégique qui approuve le maintien du Royaume-Uni dans l'OTAN et la conservation de l'arsenal nucléaire britannique. Ce positionnement marque une rupture nette avec la ligne historique des Verts, qui prônaient encore le désarmement nucléaire unilatéral avant les élections législatives de 2024. Cette évolution intervient alors que les sondages montrent que seuls 17 % des électeurs britanniques font confiance au Parti vert sur les questions de défense. Zack Polanski a salué l'appel du rapport à bâtir un cadre de sécurité global, tout en cherchant à rendre son parti crédible comme force de gouvernement. Cette inflexion risque toutefois de susciter des tensions avec l'aile pacifiste traditionnelle du mouvement.",
+   "enjeux": "Ce virage stratégique illustre la recomposition de la **politique britannique** dans un contexte géopolitique dégradé en Europe. Longtemps cantonné au rôle de parti protestataire, le Parti vert cherche à élargir son électorat au-delà de sa base militante en levant le tabou de la **sécurité nationale** et de la **dissuasion nucléaire**. Cette normalisation rappelle la stratégie de crédibilisation menée autrefois par le New Labour ou par les Verts allemands. Elle montre que la guerre en Ukraine et les incertitudes autour de l'engagement américain contraignent même les partis écologistes à intégrer le réalisme stratégique.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1684778522082-c6f91d8fc4c3?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Drapeaux institutionnels à Bruxelles",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/brussels"
+   },
+   "vo": {
+    "titre": "Zack Polanski backs report endorsing Nato membership and nuclear deterrent",
+    "faits": "On November 24, The Guardian reported that Green Party leader Zack Polanski has backed a new policy paper endorsing Britain's continued membership of Nato and the retention of its nuclear deterrent. This stance marks a sharp departure from the party's platform ahead of the 2024 general election, which favoured unilateral nuclear disarmament. The shift comes as polling indicates that only 17% of British voters trust the Greens on national defence. Polanski welcomed the report's call for a comprehensive security framework, aiming to bolster the party's credibility as a serious contender for government. However, the pivot risks alienating traditional pacifist factions within the party's grassroots.",
+    "enjeux": "This strategic pivot reflects the reshaping of British party politics amid a deteriorating European security landscape. Long viewed as a protest movement, the Green Party is seeking to broaden its electoral appeal by overcoming its vulnerability on national security and deterrence. The move echoes earlier efforts by European Green parties, notably in Germany, to embrace defence realism. It demonstrates how persistent geopolitical instability in Europe forces even anti-establishment parties to adapt their core pacifist doctrines."
+   },
+   "vocab": [
+    [
+     "a nuclear deterrent",
+     "une force de dissuasion nucléaire",
+     "Maintaining a credible nuclear deterrent remains a pillar of British defence."
+    ],
+    [
+     "a sharp departure from",
+     "une rupture nette avec",
+     "The new defence paper represents a sharp departure from past manifestos."
+    ],
+    [
+     "unilateral disarmament",
+     "le désarmement unilatéral",
+     "Activists have long campaigned for unilateral nuclear disarmament."
+    ],
+    [
+     "to bolster",
+     "renforcer / consolider",
+     "The leadership hopes the policy shift will bolster its electoral credibility."
+    ],
+    [
+     "grassroots",
+     "la base militante",
+     "The proposal sparked heated debate among the party's grassroots."
+    ],
+    [
+     "to endorse",
+     "approuver / soutenir officiellement",
+     "Several senior figures decided to endorse the security report."
+    ]
+   ],
+   "sujets": [
+    "Can Britain's Green Party become a credible party of government without losing its core identity?",
+    "How have recent geopolitical crises reshaped British consensus on defence and Nato?"
+   ],
+   "anki": [
+    {
+     "q": "Share of British voters who trust the Green Party on defence (Nov 2026)",
+     "r": "Only C{17%}, prompting leader Zack Polanski to back a report endorsing Nato and nuclear weapons.\n→ Illustrates how B{geopolitical realism} forces protest parties to moderate their platform."
+    },
+    {
+     "q": "Major policy shift backed by Green leader Zack Polanski (Nov 2026)",
+     "r": "Endorsing Nato membership and maintaining Britain's nuclear deterrent, breaking with unilateral disarmament.\n→ Shows the B{normalisation} of British Greens on national security."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-anglais-3",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/23/us/politics/taiwan-elections-misinformation.html",
+   "minutes": 3,
+   "titre": "Taïwan : des chercheurs révèlent une campagne de désinformation par IA alignée sur Pékin",
+   "dossier": "desinformation-ia-taiwan",
+   "faits": "Le New York Times rapporte le 23 novembre qu'une équipe de chercheurs de l'université Vanderbilt, en collaboration avec l'organisation taïwanaise Doublethink Lab, a identifié une vaste campagne d'influence numérique ciblant les élections locales à Taïwan. Grâce à un nouvel outil d'analyse linguistique capable de distinguer la syntaxe humaine des textes générés par intelligence artificielle, les chercheurs ont repéré des milliers de faux comptes alignés sur les positions du Parti communiste chinois. Ces profils inauthentiques publiaient d'abord des contenus banals sur la cuisine ou les animaux pour gagner en crédibilité, avant de diffuser des messages favorables à Pékin et critiques envers le parti au pouvoir à Taïwan. D'autres comptes se faisaient passer pour des partisans du gouvernement afin d'interagir avec de petits comptes pro-chinois et d'amplifier leur visibilité algorithmique. Les autorités taïwanaises ont signalé ces réseaux coordonnés aux plateformes comme Meta.",
+   "enjeux": "Cette enquête met en lumière l'industrialisation des **opérations d'ingérence étrangère** grâce à l'**intelligence artificielle générative**. Pour les démocraties occidentales et leurs alliés comme Taïwan, l'IA abaisse drastiquement le coût de la **désinformation** en permettant de produire des contenus culturellement crédibles à grande échelle. L'enjeu dépasse le seul scrutin local : il s'agit de fragiliser la cohésion interne de Taïwan et de tester des techniques de **guerre cognitive** susceptibles d'être répliquées lors des élections américaines ou européennes.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1607470954361-98567951c6f8?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "La tour Taipei 101 illuminée au crépuscule à Taïwan",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/taipei"
+   },
+   "vo": {
+    "titre": "Fake Personas Aligned With China Target Taiwan's Election, Researchers Say",
+    "faits": "On November 23, The New York Times reported that researchers at Vanderbilt University, working alongside Taiwan's Doublethink Lab, uncovered a coordinated influence campaign targeting Taiwan's local elections. Using a specialized tool designed to detect subtle stylistic differences between human writing and AI-generated text, the team identified thousands of fake social media personas promoting narratives aligned with the Chinese Communist Party. Many accounts initially posted mundane content about food or pets to appear authentic before weaving in pro-Beijing talking points and criticism of Taiwan's ruling party. Other personas posed as ruling-party supporters while engaging with minor pro-China accounts to manipulate platform algorithms and boost Beijing's messaging. Taiwanese security agencies have flagged thousands of these accounts to platforms including Meta.",
+    "enjeux": "The findings underscore how generative artificial intelligence is transforming foreign interference and cognitive warfare. By dramatically lowering the cost of producing culturally fluent propaganda at scale, AI enables state-aligned actors to overcome the clumsiness of earlier influence campaigns. For Washington and democratic allies, Taiwan serves as a testing ground for algorithmic manipulation tactics that threaten electoral integrity far beyond East Asia."
+   },
+   "vocab": [
+    [
+     "inauthentic activity",
+     "activité inauthentique (faux comptes)",
+     "Platforms pledged to crack down on coordinated inauthentic activity ahead of the vote."
+    ],
+    [
+     "talking points",
+     "éléments de langage",
+     "The bot network relentlessly amplified Beijing's talking points online."
+    ],
+    [
+     "to flag",
+     "signaler",
+     "Security officials flagged thousands of suspicious profiles to social media firms."
+    ],
+    [
+     "algorithmic visibility",
+     "la visibilité algorithmique",
+     "Coordinated replies are used to artificially inflate algorithmic visibility."
+    ],
+    [
+     "foreign interference",
+     "l'ingérence étrangère",
+     "Democracies face growing threats of AI-driven foreign interference."
+    ],
+    [
+     "a testing ground",
+     "un terrain d'expérimentation",
+     "Taiwan has become a testing ground for sophisticated cyber disinformation."
+    ]
+   ],
+   "sujets": [
+    "Does generative AI pose an existential threat to democratic elections?",
+    "How can democracies counter foreign disinformation without infringing on free speech?"
+   ],
+   "anki": [
+    {
+     "q": "Tactic used by AI-powered pro-China personas in Taiwan's local elections (Nov 2026)",
+     "r": "Posting mundane content first to build credibility, then boosting Beijing narratives via algorithmic engagement.\n→ Shows how B{generative AI} makes B{foreign interference} cheaper and harder to detect → hook for an essay on AI and democracy."
+    },
+    {
+     "q": "Institutions behind the detection of China-aligned AI bots in Taiwan",
+     "r": "Vanderbilt University researchers and Taiwanese nonprofit Doublethink Lab.\n→ Highlights the growing role of B{linguistic detection tools} against cognitive warfare."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-anglais-4",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/23/trump-justice-department-federal-executions-gavin-newsom",
+   "minutes": 3,
+   "titre": "États-Unis : Donald Trump presse la justice d'accélérer les exécutions fédérales et attaque Gavin Newsom",
+   "dossier": "peine-de-mort-etats-unis",
+   "faits": "Selon The Guardian du 24 novembre, le président Donald Trump a exhorté la veille le ministère de la Justice à accélérer le rythme des exécutions fédérales, lors d'un discours très partisan. Il a directement pris pour cible le gouverneur démocrate de Californie, Gavin Newsom, critiquant sa récente décision de commuer les peines de mort de 548 détenus dans son État. Donald Trump a présenté la peine capitale comme un outil indispensable de fermeté sécuritaire face à la criminalité. Cette sortie intervient dans un climat de vive polarisation politique après les élections de mi-mandat, alors que les démocrates ont repris le contrôle du Congrès. Gavin Newsom, figure pressentie pour la présidentielle de 2028, défend à l'inverse l'abolition de fait d'un système qu'il juge coûteux, inefficace et moralement dépassé.",
+   "enjeux": "Cet affrontement illustre la fracture profonde de la société américaine autour de la **peine de mort** et des équilibres du **fédéralisme**. Tandis qu'un nombre croissant d'États démocrates appliquent des moratoires ou commuent les condamnations, le pouvoir fédéral sous Donald Trump fait de la reprise des exécutions un marqueur politique de la stratégie « **law and order** ». L'épisode montre aussi comment la justice pénale devient un thème central de la précampagne de 2028 entre la Californie progressiste et la Maison-Blanche conservatrice.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1697237089826-331838962a04?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Façade néoclassique de la Cour suprême des États-Unis à Washington",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/supreme-court"
+   },
+   "vo": {
+    "titre": "Trump urges justice department to speed up federal executions in dig at Gavin Newsom",
+    "faits": "On November 23, President Donald Trump urged the US Department of Justice to accelerate federal executions during a strongly partisan speech. He directly targeted California's Democratic Governor Gavin Newsom over his decision to commute the death sentences of 548 prisoners in the state. Trump framed capital punishment as a vital deterrent and a symbol of tough-on-crime leadership. The remarks come amid heightened political polarization following the midterm elections, in which Democrats regained control of Congress. Newsom, widely viewed as a leading contender for the 2028 presidential race, has defended his clemency drive by arguing that the death penalty is costly, racially biased, and ineffective.",
+    "enjeux": "The clash highlights America's deepening divide over capital punishment and the tensions inherent in US federalism. While several Democratic-led states have moved toward moratoria or mass commutations, the Trump administration has elevated federal executions into a flagship 'law and order' policy. Beyond criminal justice, the confrontation underscores how state governors and the White House are already staking out opposing ideological positions ahead of the 2028 presidential election."
+   },
+   "vocab": [
+    [
+     "to commute a sentence",
+     "commuer une peine",
+     "The governor decided to commute hundreds of death sentences to life imprisonment."
+    ],
+    [
+     "capital punishment",
+     "la peine de mort",
+     "Public support for capital punishment has gradually declined in several states."
+    ],
+    [
+     "law and order",
+     "la fermeté sécuritaire / l'ordre public",
+     "The president campaigned heavily on a strict law-and-order platform."
+    ],
+    [
+     "clemency",
+     "la clémence / la grâce",
+     "Advocacy groups welcomed the governor's sweeping clemency decision."
+    ],
+    [
+     "partisan",
+     "partisan / politisé",
+     "Critics warned against turning the justice department into a partisan arena."
+    ],
+    [
+     "death row",
+     "le couloir de la mort",
+     "More than five hundred inmates were removed from California's death row."
+    ]
+   ],
+   "sujets": [
+    "Why does capital punishment remain such a polarizing issue in the United States?",
+    "To what extent does US federalism allow states to resist federal criminal justice policies?"
+   ],
+   "anki": [
+    {
+     "q": "Number of California death sentences commuted by Governor Gavin Newsom (Nov 2026)",
+     "r": "C{548} prisoners, prompting Donald Trump to urge faster federal executions.\n→ Illustrates the sharp divide in US B{federalism} over B{capital punishment} → hook for an essay on US justice or polarization."
+    },
+    {
+     "q": "Political strategy behind Donald Trump's push for federal executions",
+     "r": "Reasserting a tough-on-crime 'law and order' stance against Democratic governors ahead of 2028.\n→ Shows how B{criminal justice} serves as an ideological wedge issue."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/economia/2026/11/24/6b04613de9cf4ac8208b45a7.html",
+   "minutes": 3,
+   "titre": "Espagne : les dépenses de retraites dépasseront de 43 % la moyenne de l'UE en 2050 selon Funcas",
+   "dossier": "retraites-pensions-espagne",
+   "faits": "Le 24 novembre, El Mundo publie les conclusions d'une étude du think tank économique Funcas sur la soutenabilité du système de retraites espagnol. D'après les projections de l'Ageing Report de la Commission européenne, l'Espagne consacrera 17,3 % de son PIB aux pensions en 2050, contre 12,1 % en moyenne dans l'Union européenne, soit un effort supérieur de 43 %. Cette dérive s'explique par le départ à la retraite des générations nombreuses du baby-boom espagnol et par un vieillissement démographique particulièrement rapide. Funcas compare cinq modèles européens et critique la réforme du gouvernement espagnol, qui a choisi d'augmenter les cotisations sociales et les transferts budgétaires de l'État. L'institut déplore l'absence de mécanismes d'ajustement automatique liés à l'espérance de vie, contrairement à l'Allemagne ou à la Suède.",
+   "enjeux": "Ce constat met en lumière la fragilité structurelle du **système par répartition** espagnol face au **choc démographique**. En privilégiant la hausse des **cotisations sociales** plutôt que le recul de l'âge effectif de départ ou l'introduction d'un facteur de soutenabilité, l'exécutif risque d'alourdir le coût du travail et de peser sur la compétitivité des entreprises. De plus, le recours croissant aux transferts du budget général réduit les marges de manœuvre pour d'autres dépenses d'avenir comme l'éducation ou la transition écologique, posant un défi majeur d'**équité intergénérationnelle**.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1778593116976-85b71d54c67f?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Couple de retraités marchant dans un parc",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/seniors-walking"
+   },
+   "vo": {
+    "titre": "España gastará en pensiones un 43% más de PIB que la UE en 2050",
+    "faits": "El 24 de noviembre, El Mundo difundió un estudio de Funcas que alerta sobre la sostenibilidad del sistema español de pensiones. Según las proyecciones del Ageing Report de la Comisión Europea, el gasto en pensiones alcanzará el 17,3% del PIB en 2050 en España, frente al 12,1% de media en la Unión Europea, lo que supone una proporción un 43% superior. Este fuerte incremento obedece a la jubilación de las cohortes del baby boom y al rápido envejecimiento de la población. Al comparar cinco modelos europeos, Funcas cuestiona la estrategia del Gobierno de elevar las cotizaciones sociales y recurrir a transferencias del Estado. El centro de estudios reprocha la falta de factores de ajuste automático ligados a la esperanza de vida, como los aplicados en Alemania o Suecia.",
+    "enjeux": "El informe subraya la vulnerabilidad estructural del sistema de reparto español ante el invierno demográfico. Al optar por subir las cotizaciones en lugar de retrasar la edad efectiva de retiro o vincular la cuantía de las pensiones a la demografía, el Ejecutivo corre el riesgo de encarecer el factor trabajo y lastrar la competitividad. Asimismo, financiar el déficit del sistema mediante transferencias presupuestarias limita los recursos disponibles para la inversión pública y plantea un serio debate sobre la equidad intergeneracional."
+   },
+   "vocab": [
+    [
+     "el sistema de reparto",
+     "le système par répartition",
+     "El sistema de reparto español depende de la proporción entre activos y jubilados."
+    ],
+    [
+     "las cotizaciones sociales",
+     "les cotisations sociales",
+     "Subir las cotizaciones sociales puede frenar la creación de empleo."
+    ],
+    [
+     "el envejecimiento demográfico",
+     "le vieillissement démographique",
+     "El envejecimiento demográfico exige reformas profundas del Estado del bienestar."
+    ],
+    [
+     "la esperanza de vida",
+     "l'espérance de vie",
+     "Varios países vinculan la edad de jubilación a la esperanza de vida."
+    ],
+    [
+     "la sostenibilidad",
+     "la soutenabilité / viabilité",
+     "Los economistas debaten sobre la sostenibilidad a largo plazo de la deuda."
+    ],
+    [
+     "la equidad intergeneracional",
+     "l'équité intergénérationnelle",
+     "Garantizar la equidad intergeneracional es clave en cualquier reforma de pensiones."
+    ]
+   ],
+   "sujets": [
+    "¿Es sostenible a largo plazo el modelo español de pensiones frente al envejecimiento demográfico?",
+    "¿Debe priorizarse el aumento de cotizaciones o el retraso de la edad de jubilación para financiar las pensiones?"
+   ],
+   "anki": [
+    {
+     "q": "Gasto previsto en pensiones en España en 2050 frente a la media de la UE (Funcas / Ageing Report)",
+     "r": "Un C{17,3%} del PIB en España frente al C{12,1%} de media en la UE (un C{43%} más).\n→ Muestra el impacto del B{envejecimiento} en el B{sistema de reparto} → gancho para un ensayo sobre el Estado del bienestar."
+    },
+    {
+     "q": "Crítica principal de Funcas a la reforma de pensiones española frente a Alemania o Suecia",
+     "r": "España sube cotizaciones y transferencias estatales pero carece de mecanismos de ajuste ligados a la esperanza de vida.\n→ Plantea un dilema entre B{competitividad} laboral y protección social."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/mexico/economia/2026-11-23/la-economia-mexicana-se-recupera-y-crece-un-33-a-tasa-anual-en-el-tercer-trimestre-del-ano.html",
+   "minutes": 3,
+   "titre": "Mexique : le PIB accélère à 3,3 % sur un an au troisième trimestre, porté par les services",
+   "dossier": "croissance-economique-mexique",
+   "faits": "Selon les chiffres définitifs de l'institut statistique INEGI publiés le 23 novembre et relayés par El País, le PIB du Mexique a progressé de 3,3 % en glissement annuel au troisième trimestre 2026. Ce résultat, légèrement supérieur à l'estimation préliminaire de 3,2 %, marque la plus forte expansion trimestrielle sur un an depuis trois ans. En rythme trimestriel, la croissance atteint 0,9 % par rapport au deuxième trimestre. Le rebond est tiré avant tout par le secteur tertiaire (commerce et services), qui croît de 3,6 % sur un an, devant l'industrie (+2,7 %) soutenue par la construction et le secteur primaire (+1,5 %). Sur les neuf premiers mois de l'année, l'économie mexicaine cumule ainsi une progression de 1,9 %.",
+   "enjeux": "Cette accélération témoigne de la résilience de l'économie mexicaine grâce au dynamisme de sa **demande intérieure** et de ses services, malgré les incertitudes commerciales avec les États-Unis. Le rebond modéré de l'industrie confirme toutefois que la dynamique du **nearshoring** (relocalisation à proximité du marché américain) reste tributaire du climat des affaires et des infrastructures. Pour le gouvernement, cette embellie conjoncturelle offre un répit budgétaire bienvenu alors que la faiblesse des recettes fiscales pesait sur les comptes publics.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1648697242862-4713bb802e88?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Vue panoramique aérienne de Mexico",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/mexico-city"
+   },
+   "vo": {
+    "titre": "La economía mexicana se recupera y crece un 3,3% anual en el tercer trimestre",
+    "faits": "Según los datos definitivos del INEGI publicados el 23 de noviembre y recogidos por El País, el PIB de México creció un 3,3% a tasa anual en el tercer trimestre de 2026. La cifra supera ligeramente la estimación preliminar del 3,2% y representa el mayor avance para un periodo similar en tres años. En comparación trimestral, la economía avanzó un 0,9% respecto al trimestre anterior. El impulso procedió principalmente del sector terciario (comercio y servicios), que creció un 3,6% interanual, seguido de la industria (+2,7%) y las actividades primarias (+1,5%). En los nueve primeros meses del año, el PIB acumuló una expansión del 1,9%.",
+    "enjeux": "Este repunte refleja la solidez del consumo interno y de los servicios en México pese a las tensiones comerciales con Estados Unidos. Sin embargo, el crecimiento más moderado de las manufacturas muestra que el aprovechamiento del nearshoring depende todavía de la inversión en infraestructuras y de la seguridad jurídica. Para el Ejecutivo mexicano, esta mejora coyuntural supone un alivio frente a la presión sobre las cuentas públicas."
+   },
+   "vocab": [
+    [
+     "a tasa anual / interanual",
+     "en rythme annuel / en glissement annuel",
+     "La economía registró su mayor crecimiento interanual desde hace tres años."
+    ],
+    [
+     "el sector terciario",
+     "le secteur tertiaire",
+     "El sector terciario sigue siendo el principal motor del empleo en México."
+    ],
+    [
+     "el consumo interno",
+     "la consommation intérieure",
+     "El dinamismo del consumo interno compensó las dudas del comercio exterior."
+    ],
+    [
+     "el nearshoring",
+     "la relocalisation de proximité",
+     "México busca atraer inversiones industriales gracias al nearshoring."
+    ],
+    [
+     "el repunte",
+     "le rebond / la reprise",
+     "Los analistas destacan el repunte de la construcción en el tercer trimestre."
+    ],
+    [
+     "la estimación preliminar",
+     "l'estimation préliminaire",
+     "El dato definitivo superó en una décima la estimación preliminar."
+    ]
+   ],
+   "sujets": [
+    "¿Puede México consolidar su crecimiento más allá del dinamismo coyuntural del consumo?",
+    "¿Qué retos enfrenta América Latina para convertir el nearshoring en desarrollo industrial duradero?"
+   ],
+   "anki": [
+    {
+     "q": "Crecimiento del PIB de México en el tercer trimestre de 2026 y motor principal (INEGI)",
+     "r": "Un C{3,3%} anual (C{0,9%} trimestral), impulsado por el comercio y los servicios (+C{3,6%}).\n→ Refleja la resiliencia de la B{demanda interna} mexicana pese al contexto comercial norteamericano."
+    },
+    {
+     "q": "Desempeño acumulado del PIB mexicano en los nueve primeros meses de 2026",
+     "r": "Un avance acumulado del C{1,9%}.\n→ Muestra una recuperación gradual tras un inicio de año más débil."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-espagnol-3",
+   "matiere": "espagnol",
+   "source": "Expansión",
+   "url": "https://www.expansion.com/elecciones/elecciones-generales/2026/11/24/rentas-medias-pagan-2-800-7-200-euros-irpf-sanchez.html",
+   "minutes": 3,
+   "titre": "Espagne : la non-indexation de l'impôt sur le revenu pèse lourdement sur les classes moyennes",
+   "dossier": "fiscalite-irpf-espagne",
+   "faits": "Le 24 novembre, Expansión souligne que les ménages espagnols de la classe moyenne ont payé entre 2 800 et 7 200 euros d'impôt sur le revenu (IRPF) supplémentaires depuis l'arrivée au pouvoir de Pedro Sánchez en 2018. Cette hausse fiscale silencieuse provient du refus du gouvernement d'indexer les tranches du barème de l'IRPF sur l'inflation. Selon le quotidien économique, cette « progression à froid » a rapporté environ 55 milliards d'euros de recettes supplémentaires aux caisses publiques depuis 2018. Parallèlement, la flambée du coût du logement, de l'énergie et de l'alimentation pèse sur le pouvoir d'achat : les ménages les plus modestes consacrent déjà 60 % de leurs revenus à ces dépenses contraintes. Ce thème fiscal devient un axe majeur du débat économique en Espagne.",
+   "enjeux": "Ce phénomène illustre le mécanisme économique de la **progression à froid** (ou *fiscal drag*) : lorsque les salaires nominaux augmentent pour compenser l'inflation mais que les seuils fiscaux restent figés, les contribuables basculent dans des tranches d'imposition plus élevées sans gain de pouvoir d'achat réel. Pour l'État, c'est un outil discret d'ajustement budgétaire, mais pour les ménages, cela s'apparente à une hausse d'impôt déguisée qui réduit leur **revenu disponible** et accentue le poids des **dépenses contraintes**.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1650706855037-ebb7424e37a6?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Gros plan sur des billets en euros",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/euro"
+   },
+   "vo": {
+    "titre": "Las rentas medias pagan hasta 7.200 euros más de IRPF por la no deflactación",
+    "faits": "El 24 de noviembre, Expansión publicó que las rentas medias en España han abonado entre 2.800 y 7.200 euros adicionales en el impuesto sobre la renta (IRPF) desde 2018. Este sobrecoste se debe a la negativa del Gobierno de Pedro Sánchez a deflactar los tramos del impuesto para ajustarlos a la inflación acumulada. Según el diario económico, esta falta de actualización ha generado cerca de 55.000 millones de euros en ingresos extra para las arcas públicas. Al mismo tiempo, la crisis de la vivienda y el encarecimiento de los suministros y la cesta de la compra llevan a los hogares más modestos a destinar ya el 60% de sus ingresos a gastos básicos.",
+    "enjeux": "El debate ilustra los efectos de la llamada progresividad en frío: cuando los salarios nominales suben por la inflación pero los tramos del IRPF permanecen congelados, los contribuyentes soportan un tipo efectivo mayor sin haber ganado poder adquisitivo real. Si bien esta recaudación adicional ha facilitado la consolidación fiscal, erosiona la renta disponible de las clases medias y agrava la presión de los gastos fijos sobre el presupuesto familiar."
+   },
+   "vocab": [
+    [
+     "deflactar el IRPF",
+     "indexer le barème de l'impôt sur l'inflation",
+     "La oposición reclama deflactar el IRPF para aliviar a las clases medias."
+    ],
+    [
+     "las arcas públicas",
+     "les caisses de l'État",
+     "La inflación ha incrementado la recaudación que entra en las arcas públicas."
+    ],
+    [
+     "la progresividad en frío",
+     "la progression à froid (glissement fiscal)",
+     "La progresividad en frío actúa como una subida de impuestos encubierta."
+    ],
+    [
+     "la renta disponible",
+     "le revenu disponible",
+     "El aumento de la vivienda y los impuestos reduce la renta disponible."
+    ],
+    [
+     "la cesta de la compra",
+     "le panier de la ménagère",
+     "El encarecimiento de la cesta de la compra castiga a los hogares humildes."
+    ],
+    [
+     "los tramos impositivos",
+     "les tranches d'imposition",
+     "Actualizar los tramos impositivos evita que la inflación eleve la carga fiscal."
+    ]
+   ],
+   "sujets": [
+    "¿Es justa la no deflactación del IRPF en periodos de inflación elevada?",
+    "¿Cómo conciliar la reducción del déficit público con la defensa del poder adquisitivo de las clases medias?"
+   ],
+   "anki": [
+    {
+     "q": "Recaudación extra obtenida por el Estado español al no deflactar el IRPF desde 2018 (Expansión)",
+     "r": "Unos C{55.000 millones} de euros (entre C{2.800} y C{7.200 €} más para las rentas medias).\n→ Ejemplo claro de B{progresividad en frío} que reduce la B{renta disponible} → gancho para un ensayo sobre fiscalidad."
+    },
+    {
+     "q": "Porcentaje de ingresos que los hogares modestos españoles destinan a vivienda, suministros y alimentación",
+     "r": "Un C{60%} de sus ingresos.\n→ Subraya el peso de los B{gastos obligatorios} en el poder adquisitivo en España."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-espagnol-4",
+   "matiere": "espagnol",
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/economia/20261122/11690445/consejeros-delegados-moderan-prevision-crecimiento-priorizan-inversion-ia.html",
+   "minutes": 3,
+   "titre": "Espagne : les patrons modèrent leurs prévisions de croissance et misent sur l'intelligence artificielle",
+   "dossier": "entreprises-ia-espagne",
+   "faits": "Selon l'enquête annuelle CEO Outlook de KPMG relayée par La Vanguardia le 22 novembre, les dirigeants des grandes entreprises espagnoles se montrent plus prudents sur la croissance de leur activité. La part des PDG anticipant une expansion annuelle d'au moins 2,5 % au cours des trois prochaines années chute de 14 points en un an, à 62 %, soit dix points sous la moyenne mondiale. Parallèlement, 76 % restent optimistes pour l'économie espagnole dans son ensemble (-4 points en un an) et 98 % prévoient tout de même une hausse de leur chiffre d'affaires. Fait notable, 96 % des dirigeants en Espagne envisagent d'augmenter leurs effectifs, le taux le plus élevé avec l'Italie. Enfin, 82 % ressentent une pression accrue sur la rentabilité de long terme et placent l'intelligence artificielle en tête de leurs priorités d'investissement.",
+   "enjeux": "Cette enquête révèle un paradoxe de l'économie espagnole : une macroéconomie dynamique et créatrice d'emplois, mais des entreprises confrontées à un défi de **productivité** et de **montée en gamme**. La priorité accordée à l'**intelligence artificielle** traduit la volonté des dirigeants d'automatiser les processus pour préserver leurs marges face à la concurrence internationale. Elle pose toutefois la question de l'adaptation des compétences et de l'écart entre grandes entreprises et PME, ces dernières peinant davantage à financer la transformation numérique.",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+    "alt": "Allée de serveurs informatiques dans un centre de données",
+    "credit": "Christopher Bowns / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg"
+   },
+   "vo": {
+    "titre": "Los consejeros delegados moderan su previsión de crecimiento y priorizan la IA",
+    "faits": "Según la última edición del informe CEO Outlook de KPMG recogida por La Vanguardia el 22 de noviembre, los máximos ejecutivos de las grandes empresas españolas han rebajado sus expectativas de expansión. El porcentaje de directivos que prevé que sus compañías crezcan al menos un 2,5% anual en los próximos tres años cae 14 puntos respecto al año pasado, hasta el 62%, diez puntos por debajo de la media global. Con todo, el 98% espera aumentar su facturación y el 96% planea elevar sus plantillas, la proporción más alta de Europa junto con Italia. Además, el 82% reconoce una mayor presión para garantizar la prosperidad a largo plazo e identifica la inteligencia artificial como el principal destino de sus inversiones.",
+    "enjeux": "La encuesta pone de relieve una dualidad clave del tejido productivo español: mientras el empleo sigue mostrando un gran dinamismo, las empresas buscan acelerar la transformación tecnológica para mejorar su productividad. La apuesta decidida por la inteligencia artificial responde a la necesidad de sostener los márgenes en un entorno global incierto, aunque exige invertir en formación y evitar que las pymes queden rezagadas en la transición digital."
+   },
+   "vocab": [
+    [
+     "el consejero delegado",
+     "le directeur général / PDG",
+     "El consejero delegado anunció un nuevo plan de inversión tecnológica."
+    ],
+    [
+     "las expectativas de crecimiento",
+     "les prévisions de croissance",
+     "La incertidumbre geopolítica ha moderado las expectativas de crecimiento."
+    ],
+    [
+     "la facturación",
+     "le chiffre d'affaires",
+     "Casi todas las compañías esperan incrementar su facturación este año."
+    ],
+    [
+     "elevar la plantilla",
+     "augmenter les effectifs",
+     "Pese a la automatización, las firmas prevén elevar su plantilla."
+    ],
+    [
+     "quedar rezagado",
+     "prendre du retard / être distancé",
+     "Las pequeñas empresas corren el riesgo de quedar rezagadas en la era digital."
+    ],
+    [
+     "el tejido productivo",
+     "le tissu productif",
+     "Modernizar el tejido productivo es esencial para subir los salarios."
+    ]
+   ],
+   "sujets": [
+    "¿Logrará la inversión en inteligencia artificial resolver el problema de productividad de las empresas españolas?",
+    "¿Son compatibles la automatización y la creación de empleo en la economía actual?"
+   ],
+   "anki": [
+    {
+     "q": "Porcentaje de directivos españoles que prevé aumentar su plantilla según KPMG (nov 2026)",
+     "r": "El C{96%}, el nivel más alto junto con Italia, pese a que el C{62%} modera su previsión de crecimiento.\n→ Muestra la apuesta simultánea por el empleo y la inversión en B{inteligencia artificial}."
+    },
+    {
+     "q": "Caída en las expectativas de crecimiento (>2,5%) de los CEO españoles (KPMG, 2026)",
+     "r": "Cae C{14 puntos} hasta el C{62%} (diez puntos bajo la media mundial).\n→ Refleja una mayor B{cautela empresarial} y presión sobre la rentabilidad a largo plazo."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-espagnol-c1",
+   "matiere": "espagnol",
+   "culture": true,
+   "source": "El País",
+   "url": "https://elpais.com/cultura/2026-11-24/una-casa-2991-pesetas-y-una-obsesion-el-testamento-de-antoni-gaudi-ve-la-luz-100-anos-despues-de-su-muerte.html",
+   "minutes": 3,
+   "titre": "Barcelone : l'inventaire de l'héritage d'Antoni Gaudí dévoilé cent ans après sa mort",
+   "dossier": "centenario-antoni-gaudi",
+   "faits": "Le 24 novembre, El País révèle que le Collège des notaires de Catalogne a rendu public pour la première fois l'inventaire notarié de l'héritage d'Antoni Gaudí, à l'occasion du centenaire de sa mort survenue en juin 1926. Le testament original de 1911 ayant été détruit en 1936 lors d'un incendie au début de la Guerre civile, ce document rédigé en novembre 1926 restait la seule preuve écrite de ses dernières volontés. Il révèle la modestie du patrimoine personnel de l'architecte : sa maison du Park Güell, estimée à 45 000 pesetas, et 2 991,62 pesetas réparties sur deux comptes bancaires. Sans descendants, Gaudí avait désigné trois « héritiers de confiance » chargés de vendre tous ses biens pour financer intégralement la poursuite des travaux de la Sagrada Família. Parmi les annexes figure même un certificat officiel signé à Madrid en juillet 1926 par un jeune fonctionnaire nommé Manuel Azaña, futur président de la Seconde République.",
+   "enjeux": "Cette découverte éclaire d'un jour concret le **modernisme catalan** et la dimension quasi mystique de l'engagement d'Antoni Gaudí envers son œuvre majeure, la **Sagrada Família**. Elle rappelle aussi comment la **mémoire historique** espagnole et la Guerre civile ont marqué jusqu'aux archives artistiques du pays, à travers la destruction du testament de 1911 et la signature symbolique de Manuel Azaña. Cent ans après la disparition de Gaudí, cet épisode montre comment un projet d'abord austère et religieux est devenu le monument le plus visité d'Espagne et un pilier du **patrimoine culturel** européen.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1786780410540-6a2ef442f192?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Vue aérienne de la Sagrada Família à Barcelone",
+    "credit": "Filipe Nobre / Unsplash",
+    "source": "https://unsplash.com/s/photos/sagrada-familia"
+   },
+   "vo": {
+    "titre": "El inventario de la herencia de Antoni Gaudí ve la luz cien años después de su muerte",
+    "faits": "El 24 de noviembre, El País informó de que el Colegio Notarial de Cataluña ha hecho público por primera vez el inventario de la herencia de Antoni Gaudí con motivo del centenario de su fallecimiento en junio de 1926. Dado que su testamento original de 1911 ardió en 1936 al inicio de la Guerra Civil, este documento redactado en noviembre de 1926 constituye el único testimonio oficial de sus últimas voluntades. El expediente muestra la austeridad del arquitecto: dejó únicamente su residencia en el Park Güell, valorada en 45.000 pesetas, y 2.991,62 pesetas en cuentas bancarias. Sin herederos directos, nombró a tres 'herederos de confianza' para vender su patrimonio y destinarlo íntegramente a las obras de la Sagrada Família. Como anécdota histórica, el certificado de últimas voluntades lleva la firma de un joven funcionario madrileño llamado Manuel Azaña.",
+    "enjeux": "El hallazgo ilumina la entrega absoluta de Gaudí a su obra cumbre y el contraste entre su ascetismo personal y la monumentalidad del modernismo catalán. Al mismo tiempo, la pérdida del protocolo de 1911 y la firma de Manuel Azaña recuerdan cómo la historia política española del siglo XX atraviesa incluso los archivos artísticos. A un siglo de su muerte, la Sagrada Família simboliza tanto la identidad arquitectónica de Barcelona como el desafío contemporáneo del turismo cultural masivo."
+   },
+   "vocab": [
+    [
+     "las últimas voluntades",
+     "les dernières volontés",
+     "El archivo notarial conservó el registro de sus últimas voluntades."
+    ],
+    [
+     "el centenario",
+     "le centenaire",
+     "Barcelona conmemora en 2026 el centenario de la muerte de Gaudí."
+    ],
+    [
+     "el patrimonio",
+     "le patrimoine",
+     "La Sagrada Família forma parte del patrimonio mundial de la Unesco."
+    ],
+    [
+     "el templo expiatorio",
+     "le temple expiatoire",
+     "Gaudí dedicó sus últimos años en exclusiva al templo expiatorio."
+    ],
+    [
+     "la austeridad",
+     "l'austérité / la sobriété",
+     "Su modesta cuenta bancaria confirma la austeridad de su vida."
+    ],
+    [
+     "el modernismo catalán",
+     "le modernisme catalan",
+     "El modernismo catalán combinó innovación técnica, naturaleza e identidad regional."
+    ]
+   ],
+   "reperes": [
+    [
+     "Le modernisme catalan (fin XIXe - début XXe)",
+     "Mouvement architectural et artistique lié à la Renaixença catalane, mêlant lignes organiques, ferronnerie, céramique (trencadís) et prouesse technique."
+    ],
+    [
+     "La Sagrada Família (commencée en 1882)",
+     "Œuvre monumentale reprise par Gaudí en 1883 ; financée uniquement par les dons et les billets d'entrée, elle incarne un chantier permanent de plus de 140 ans."
+    ],
+    [
+     "Manuel Azaña (1880-1940)",
+     "Fonctionnaire au ministère de la Justice en 1926, devenu chef du gouvernement puis président de la Seconde République espagnole pendant la Guerre civile."
+    ],
+    [
+     "Le Park Güell et la Casa Batlló",
+     "Autres réalisations majeures de Gaudí à Barcelone, conçues à l'origine pour la bourgeoisie industrielle catalane avant son retrait total vers la Sagrada Família."
+    ]
+   ],
+   "entretien": "En entretien de personnalité, je peux amener ce sujet en évoquant un voyage à Barcelone et la Sagrada Família, dont on célèbre justement le centenaire de la mort de Gaudí en 2026. Ce qui m'a marquée dans la publication de son inventaire notarié, c'est le contraste saisissant entre l'extravagance créatrice de son architecture et son dépouillement personnel absolu — moins de 3 000 pesetas à la banque pour tout léguer à son chantier. À titre personnel, cet équilibre entre audace esthétique et exigence de sens résonne avec mon goût pour la création, la mode et les lieux qui racontent une histoire authentique, loin des visites touristiques superficielles. Si le jury me demande si Barcelone n'est pas devenue victime du surtourisme autour de Gaudí, je répondrai que c'est précisément un défi de gouvernance culturelle : réguler les flux sans perdre l'âme d'un patrimoine vivant.",
+   "sujets": [
+    "¿Cómo conciliar la preservación del patrimonio histórico con el auge del turismo cultural en España?",
+    "¿Qué revela la figura de Antoni Gaudí sobre la relación entre arte, identidad y sociedad en Cataluña?"
+   ],
+   "anki": [
+    {
+     "q": "Patrimonio revelado en el inventario de 1926 de Antoni Gaudí publicado en 2026",
+     "r": "Su casa del Park Güell (C{45.000 pesetas}) y C{2.991,62 pesetas} en cuentas, todo legado a la Sagrada Família.\n→ Muestra el ascetismo del maestro del B{modernismo catalán} en el centenario de su muerte → gancho cultural para entrevistas."
+    },
+    {
+     "q": "Por qué el testamento original de 1911 de Gaudí no se conserva",
+     "r": "Fue destruido e incendiado en D{1936} al inicio de la Guerra Civil española.\n→ Recuerda el impacto de la historia política española sobre los archivos culturales."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-allemand-1",
+   "matiere": "allemand",
+   "source": "Der Spiegel",
+   "url": "https://www.spiegel.de/wirtschaft/gutachter-sieht-autobahn-schulden-als-umgehung-der-schuldenbremse-a-d03e377a-694b-4f1e-8737-5f93bd1bf7b3",
+   "minutes": 3,
+   "titre": "Allemagne : un rapport critique les projets d'endettement d'Autobahn GmbH face au frein à la dette",
+   "dossier": "frein-endettement-autobahn-allemagne",
+   "faits": "Selon des informations publiées par Der Spiegel le 23 novembre, un nouvel avis d'expert juridique remet en question la réforme de financement des autoroutes voulue par le ministre des Transports Patrick Bilger. Le projet prévoit d'autoriser la société publique fédérale Autobahn GmbH à contracter ses propres dettes afin de financer la rénovation du réseau routier. Or, le rapport estime que ce mécanisme risque de constituer un contournement illégal du frein constitutionnel à l'endettement (Schuldenbremse). L'opposition demande désormais une révision complète de la réforme avant son examen au Parlement. Ce débat intervient alors que de nombreux ponts et axes autoroutiers allemands nécessitent des investissements urgents après des années de sous-investissement.",
+   "enjeux": "Cette controverse illustre le dilemme budgétaire central de l'Allemagne contemporaine : comment moderniser des **infrastructures** vieillissantes tout en respectant la **Schuldenbremse** inscrite dans la Loi fondamentale ? Le recours à des sociétés publiques ou à des fonds spéciaux hors budget expose le gouvernement à la censure de la Cour constitutionnelle, comme lors de la crise budgétaire de 2023. Pour les économistes, le maintien d'une règle budgétaire rigide risque de sacrifier l'**investissement public** et la compétitivité logistique du pays au nom de la discipline financière.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1598566135435-e81a1ba6c6b6?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Autoroute allemande illuminée de nuit près de Bonn",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/autobahn"
+   },
+   "vo": {
+    "titre": "Streit über neue Schulden für deutsche Autobahnen",
+    "faits": "Der Spiegel hat am 23. November über ein neues Gutachten berichtet. Es geht um eine Finanzreform von Verkehrsminister Bilger. Nach seinen Plänen soll die Autobahn GmbH bald eigene Schulden machen dürfen. Mit dem Geld will der Bund kaputte Brücken und Straßen sanieren. Ein Experte warnt jedoch vor diesem Plan. Er sieht darin eine Umgehung der Schuldenbremse im Grundgesetz. Die Opposition fordert jetzt eine große Überarbeitung der Reform.",
+    "enjeux": "Deutschland braucht dringend Geld für moderne Straßen und Brücken. Viele Jahre lang hat der Staat zu wenig in die Infrastruktur investiert. Doch die Schuldenbremse erlaubt nur wenig neue Kredite. Deshalb sucht die Regierung oft nach Wegen außerhalb des normalen Haushalts. Solche Tricks sind aber rechtlich sehr riskant. Wenn die Schuldenbremse zu streng bleibt, leidet langfristig die Wirtschaft."
+   },
+   "vocab": [
+    [
+     "die Schuldenbremse",
+     "le frein à l'endettement",
+     "Die Schuldenbremse begrenzt neue Kredite des deutschen Staates."
+    ],
+    [
+     "die Umgehung",
+     "le contournement",
+     "Kritiker nennen den Plan eine Umgehung der Regeln."
+    ],
+    [
+     "das Gutachten",
+     "l'expertise / le rapport d'expert",
+     "Ein neues Gutachten warnt vor rechtlichen Problemen."
+    ],
+    [
+     "sanieren",
+     "rénover / assainir",
+     "Deutschland muss viele alte Brücken dringend sanieren."
+    ],
+    [
+     "der Haushalt",
+     "le budget",
+     "Im normalen Haushalt fehlt oft das Geld für Investitionen."
+    ],
+    [
+     "die Überarbeitung",
+     "la révision / refonte",
+     "Die Opposition verlangt eine schnelle Überarbeitung des Gesetzes."
+    ]
+   ],
+   "sujets": [
+    "Braucht Deutschland eine Reform der Schuldenbremse für mehr Investitionen?",
+    "Wie kann der Staat die deutsche Infrastruktur wieder modernisieren?"
+   ]
+  },
+  {
+   "id": "2026-11-24-allemand-2",
+   "matiere": "allemand",
+   "source": "DW",
+   "url": "https://www.dw.com/de/deutsche-experten-vor-dem-eu-westbalkan-gipfel-unter-der-regierung-der-studentenliste-muss-sich-serbien-zwischen-aufbruch-und-kontinuit%C3%A4t-entscheiden/a-80019985",
+   "minutes": 3,
+   "titre": "UE - Balkans occidentaux : les experts allemands scrutent le virage de la Serbie avant le sommet de Bruxelles",
+   "dossier": "allemagne-balkans-serbie",
+   "faits": "À la veille du sommet entre l'Union européenne et les six pays des Balkans occidentaux prévu le 25 novembre à Bruxelles, la Deutsche Welle analyse le regard des experts allemands sur la nouvelle direction serbe. Issue de la « liste des étudiants », la nouvelle gouvernance à Belgrade suscite à la fois espoir et scepticisme à Berlin et à Bruxelles. Le président du Conseil européen António Costa a présenté l'élargissement aux Balkans comme un investissement géopolitique central pour l'UE. Alors que le Monténégro approche de la fin de ses négociations d'adhésion, les analystes allemands soulignent que la Serbie doit encore clarifier ses choix sur l'État de droit, la normalisation avec le Kosovo et son alignement européen. Le sommet doit aussi aborder le plan de croissance régional et les défis sécuritaires communs.",
+   "enjeux": "Ce dossier illustre le retour de l'**élargissement de l'Union européenne** au premier plan de la politique étrangère allemande face aux influences russe et chinoise dans les Balkans. Pour Berlin, ancrer la Serbie et ses voisins dans le marché unique et les valeurs démocratiques est une priorité stratégique, mais sans renoncer aux **critères de Copenhague** sur l'État de droit. L'équilibre entre ouverture géopolitique et exigence de réformes reste au cœur du débat européen.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1754444239479-d33f23129b24?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Drapeaux européens devant les institutions à Bruxelles",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/european-union"
+   },
+   "vo": {
+    "titre": "Blick aus Berlin auf den EU-Westbalkan-Gipfel in Brüssel",
+    "faits": "Am 25. November treffen sich die Chefs der EU und der sechs Westbalkan-Staaten in Brüssel. Sie sprechen über Reformen, Sicherheit und einen Wachstumsplan für die Region. EU-Ratspräsident António Costa nennt den Beitritt der Region eine wichtige geopolitische Investition. Vor dem Gipfel schauen deutsche Experten besonders auf Serbien. Dort regiert jetzt eine neue Führung aus der Studentenliste. Sie bringt neue Hoffnung auf Reformen, aber es gibt noch offene Fragen. Serbien muss beim Thema Kosovo und beim Rechtsstaat klarer werden.",
+    "enjeux": "Für Deutschland und die EU ist der Westbalkan strategisch sehr wichtig. Andere Mächte wie Russland und China suchen dort ebenfalls Einfluss. Deshalb will Brüssel die sechs Länder enger an die EU binden. Gleichzeitig darf ein Beitritt nicht zu schnell ohne echte Reformen erfolgen. Demokratie, Rechtsstaat und gute Nachbarschaft bleiben wichtige Bedingungen für jedes neue Mitglied."
+   },
+   "vocab": [
+    [
+     "der Beitritt",
+     "l'adhésion",
+     "Viele Länder auf dem Westbalkan hoffen auf den EU-Beitritt."
+    ],
+    [
+     "der Rechtsstaat",
+     "l'État de droit",
+     "Ein starker Rechtsstaat ist Bedingung für jedes EU-Land."
+    ],
+    [
+     "der Gipfel",
+     "le sommet",
+     "Auf dem Gipfel in Brüssel sprechen die Politiker über Sicherheit."
+    ],
+    [
+     "die Bedingung",
+     "la condition",
+     "Reformen in der Justiz sind eine klare Bedingung."
+    ],
+    [
+     "der Einfluss",
+     "l'influence",
+     "Europa will den Einfluss von Russland auf dem Balkan begrenzen."
+    ],
+    [
+     "der Wachstumsplan",
+     "le plan de croissance",
+     "Ein neuer Wachstumsplan soll der Wirtschaft vor Ort helfen."
+    ]
+   ],
+   "sujets": [
+    "Sollte die EU die Länder des Westbalkans schneller aufnehmen?",
+    "Warum ist der Westbalkan für die Sicherheit Deutschlands so wichtig?"
+   ]
+  },
+  {
+   "id": "2026-11-24-allemand-3",
+   "matiere": "allemand",
+   "source": "FAZ",
+   "url": "https://www.faz.net/aktuell/politik/inland/bundeswehr-geloebnisse-vor-parlamenten-warum-die-linke-falsch-liegt-201709550.html",
+   "minutes": 3,
+   "titre": "Berlin : la présidente du Parlement régional veut mettre fin aux serments publics de la Bundeswehr",
+   "dossier": "bundeswehr-die-linke-berlin",
+   "faits": "Selon la Frankfurter Allgemeine Zeitung du 24 novembre, la nouvelle présidente du Parlement régional de Berlin (Abgeordnetenhaus), Hendrikje Klein (Die Linke), souhaite mettre fin à la tenue des cérémonies de prestation de serment (Gelöbnisse) des recrues de la Bundeswehr devant l'assemblée berlinoise. Elle a indiqué dans la presse locale répondre au souhait de certains élus. Dans son éditorial, la FAZ critique vivement cette initiative et défend la visibilité de l'armée dans l'espace public démocratique. Le quotidien rappelle que les soldats allemands sont des « citoyens en uniforme » qui jurent fidélité à la République fédérale, au droit et à la liberté du peuple allemand, et non à un régime autoritaire.",
+   "enjeux": "Cet épisode ravive le débat sur la place de la **Bundeswehr** dans la société allemande et sur la notion de **Parlamentsarmee** (armée placée sous le contrôle étroit du Parlement). Depuis la fin de la guerre froide et plus encore depuis le tournant stratégique (*Zeitenwende*) lié à la guerre en Ukraine, la normalisation du lien entre armée et citoyens reste sensible, en particulier à gauche de l'échiquier politique. Pour les partisans des serments publics, reléguer les soldats derrière les clôtures des casernes affaiblirait l'ancrage démocratique de la défense allemande.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1641218803472-ca97ceae73c4?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Façade du Parlement allemand et drapeau à Berlin",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/bundestag"
+   },
+   "vo": {
+    "titre": "Streit in Berlin über Gelöbnisse der Bundeswehr",
+    "faits": "In Berlin gibt es Streit über öffentliche Feiern der Bundeswehr. Die neue Präsidentin des Berliner Parlaments heißt Hendrikje Klein. Sie gehört zur Partei Die Linke. Sie will keine Gelöbnisse von jungen Soldaten mehr vor dem Parlament. Das sagte sie laut der FAZ vom 24. November in einer Zeitung. Die FAZ kritisiert diesen Plan sehr deutlich. Die Zeitung erinnert daran, dass Soldaten heute demokratische Bürger in Uniform sind.",
+    "enjeux": "In Deutschland ist die Bundeswehr eine Parlamentsarmee unter der Kontrolle der Abgeordneten. Darum finden viele Feiern der Soldaten bewusst auf öffentlichen Plätzen statt. Die Menschen sollen sehen, dass die Armee ein Teil der Demokratie ist. Teile der Linkspartei lehnen die Bundeswehr jedoch weiter stark ab. Durch die Krisen in Europa wächst aber der Wunsch nach einer sichtbaren Verteidigung."
+   },
+   "vocab": [
+    [
+     "das Gelöbnis",
+     "la prestation de serment",
+     "Die jungen Soldaten legen ihr Gelöbnis vor dem Parlament ab."
+    ],
+    [
+     "die Bundeswehr",
+     "l'armée fédérale allemande",
+     "Die Rolle der Bundeswehr wird in Deutschland oft diskutiert."
+    ],
+    [
+     "der Bürger in Uniform",
+     "le citoyen en uniforme",
+     "Das Konzept vom Bürger in Uniform schützt die Demokratie."
+    ],
+    [
+     "ablehnen",
+     "rejeter / refuser",
+     "Einige Politiker lehnen militärische Feiern in der Stadt ab."
+    ],
+    [
+     "öffentlich",
+     "public",
+     "Ein öffentlicher Platz zeigt die Nähe zwischen Bürgern und Staat."
+    ],
+    [
+     "die Verteidigung",
+     "la défense",
+     "Die Verteidigung Europas ist heute ein großes Thema."
+    ]
+   ],
+   "sujets": [
+    "Gehören Feiern der Bundeswehr in die Mitte der Gesellschaft?",
+    "Wie hat sich das Bild der Bundeswehr in Deutschland verändert?"
+   ]
+  },
+  {
+   "id": "2026-11-24-allemand-4",
+   "matiere": "allemand",
+   "source": "Tagesschau",
+   "url": "https://www.tagesschau.de/wirtschaft/verbraucher/stromspar-checks-kostenlose-energieberatung-bundesumweltministerium-100.html",
+   "minutes": 3,
+   "titre": "Allemagne : 165 millions d'euros pour aider les ménages modestes à réduire leur facture d'électricité",
+   "dossier": "precarite-energetique-allemagne",
+   "faits": "Selon Tagesschau le 24 novembre, le ministère fédéral de l'Environnement prolonge et renforce le dispositif gratuit « Stromspar-Check » destiné aux ménages à faibles revenus. Entre 2027 et 2029, l'État débloque 165 millions d'euros pour conseiller plus de 100 000 foyers supplémentaires, après plus de 500 000 ménages déjà accompagnés. Mené avec Caritas et les agences locales de l'énergie, le programme propose des visites à domicile ou en ligne, ainsi que l'installation gratuite de matériel économe comme des ampoules LED ou des multiprises à interrupteur, permettant environ 15 % d'économies d'électricité. Les bénéficiaires d'aides sociales ou de petites retraites pourront aussi recevoir des bons de réparation et une prime allant jusqu'à 200 euros pour remplacer un réfrigérateur ou un lave-linge ancien. Particularité sociale : les conseillers sont d'anciens chômeurs de longue durée formés à ce métier.",
+   "enjeux": "Ce programme illustre la recherche d'une **transition écologique socialement juste** en Allemagne, où le prix de l'électricité reste élevé pour les ménages modestes. Plutôt que de subventionner indifféremment la consommation énergétique, l'État cible l'**efficacité énergétique** des foyers vulnérables tout en réduisant les émissions de CO₂. En confiant ces diagnostics à d'anciens **chômeurs de longue durée**, le dispositif articule politique climatique, lutte contre la pauvreté énergétique et réinsertion professionnelle.",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1605688688509-2d0af3946fc5?fm=jpg&q=80&w=1280&auto=format&fit=crop",
+    "alt": "Panneaux solaires et équipements d'économie d'énergie",
+    "credit": "Unsplash",
+    "source": "https://unsplash.com/s/photos/solar-panels"
+   },
+   "vo": {
+    "titre": "Mehr kostenlose Energieberatung für arme Haushalte in Deutschland",
+    "faits": "Das Umweltministerium baut den kostenlosen Stromspar-Check für arme Haushalte aus. Von 2027 bis 2029 stellt der Staat dafür 165 Millionen Euro bereit. Mehr als 100.000 weitere Familien sollen so Hilfe bekommen. Berater kommen in die Wohnung oder helfen online beim Sparen. Sie bringen zum Beispiel kostenlose LED-Lampen mit. So sinken die Stromkosten oft um rund 15 Prozent. Für alte Waschmaschinen oder Kühlschränke gibt es nun bis zu 200 Euro Zuschuss.",
+    "enjeux": "In Deutschland ist Strom für viele Haushalte mit wenig Geld sehr teuer. Das Programm verbindet Klimaschutz mit sozialer Hilfe im Alltag. Wer weniger Strom braucht, spart Geld und schützt zugleich das Klima. Interessant ist auch ein zweiter Effekt auf dem Arbeitsmarkt. Viele Berater waren früher lange arbeitslos und haben eine neue Ausbildung bekommen."
+   },
+   "vocab": [
+    [
+     "der Haushalt",
+     "le ménage / foyer",
+     "Viele Haushalte suchen nach Wegen für niedrigere Stromkosten."
+    ],
+    [
+     "der Zuschuss",
+     "la subvention / prime",
+     "Familien erhalten einen Zuschuss für ein neues Gerät."
+    ],
+    [
+     "sparen",
+     "économiser",
+     "Mit einfachen Tipps kann man im Alltag Energie sparen."
+    ],
+    [
+     "arbeitslos",
+     "au chômage",
+     "Früher arbeitslose Menschen arbeiten nun als Berater."
+    ],
+    [
+     "der Klimaschutz",
+     "la protection du climat",
+     "Soziale Hilfe und Klimaschutz passen hier gut zusammen."
+    ],
+    [
+     "die Stromkosten",
+     "les coûts d'électricité",
+     "Die hohen Stromkosten belasten Menschen mit kleiner Rente."
+    ]
+   ],
+   "sujets": [
+    "Wie kann Deutschland den Klimaschutz sozial gerecht gestalten?",
+    "Sind solche Programme besser als allgemeine Hilfen für Energiepreise?"
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "Pouvoir d'achat : ces États européens à court de marges de manœuvre pour venir à la rescousse des ménages",
+   "url": "https://www.lesechos.fr/monde/europe/pouvoir-dachat-ces-etats-europeens-a-court-de-marges-de-manoeuvre-pour-venir-a-la-rescousse-des-menages-2264216",
+   "pourquoi": "Analyse les **contraintes budgétaires** qui empêchent aujourd'hui les gouvernements européens de reconduire les boucliers tarifaires face à la nouvelle poussée des prix de l'énergie."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "La Chine redevient l'empire du Milieu",
+   "url": "https://www.lesechos.fr/idees-debats/editos-analyses/la-chine-redevient-lempire-du-milieu-2264220",
+   "pourquoi": "Décrypte la stratégie de Pékin pour reconquérir une centralité **géoéconomique** et technologique mondiale face aux États-Unis et à l'Europe."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "« C'est inquiétant » : les banques financent encore trop les énergies fossiles par rapport aux renouvelables",
+   "url": "https://www.lesechos.fr/finance-marches/banque-assurances/cest-inquietant-les-banques-financent-encore-trop-les-energies-fossiles-par-rapport-aux-renouvelables-2264198",
+   "pourquoi": "Met en évidence le décalage persistant entre les engagements climatiques du secteur bancaire et la réalité de l'**allocation des capitaux** vers les hydrocarbures."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Les épargnants ont retiré près de 10 milliards d’euros de leurs Livret A depuis janvier, un record depuis dix ans",
+   "url": "https://www.lemonde.fr/argent/article/2026/11/24/les-epargnants-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livret-a-depuis-janvier-un-record-depuis-dix-ans_6814708_1657007.html",
+   "pourquoi": "Chiffre précieux pour illustrer l'arbitrage des ménages entre **épargne réglementée** à taux réduit (1,7 %) et consommation ou placements plus rémunérateurs."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "La France va créer des stocks stratégiques de terres rares et de métaux prioritaires pour réduire sa dépendance à la Chine d’ici à 2027",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/23/la-france-va-creer-des-stocks-strategiques-de-terres-rares-et-de-metaux-prioritaires-pour-reduire-sa-dependance-a-la-chine-d-ici-a-2027_6814452_3234.html",
+   "pourquoi": "Exemple concret de **politique de souveraineté** industrielle et d'approvisionnement en matières premières critiques face au quasi-monopole chinois."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Pesticides : « Omnibus X menace la santé des citoyens sans résoudre le problème bureaucratique qu’il dénonce »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/23/pesticides-omnibus-x-menace-la-sante-des-citoyens-sans-resoudre-le-probleme-bureaucratique-qu-il-denonce_6814419_3232.html",
+   "pourquoi": "Tribune utile pour nourrir le débat européen entre **simplification réglementaire** (compétitivité agricole) et protection de la santé publique comme bien collectif."
+  }
+ ]
+}

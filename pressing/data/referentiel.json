@@ -7845,6 +7845,106 @@
           ]
         }
       ]
+    },
+    {
+      "id": "courbe-de-phillips",
+      "nom": "Courbe de Phillips",
+      "categorie": "politiques",
+      "type": "Modèle",
+      "annee": "1958",
+      "auteur": "Alban William Phillips, Paul Samuelson et Robert Solow",
+      "accroche": "Une relation inverse entre taux de chômage et inflation, qui laisse espérer un arbitrage mais disparaît à long terme.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Alban William Phillips** (1958) observe au Royaume-Uni (1861-1957) une relation décroissante entre le taux de chômage et le taux de croissance des salaires nominaux.",
+            "En 1960, **Paul Samuelson** et **Robert Solow** (*« Analytical Aspects of Anti-Inflation Policy »*) transposent cette relation aux États-Unis en remplaçant les salaires par l'inflation : ils y voient un « **cruel dilemme** » offrant aux gouvernements un menu d'arbitrage entre moins de chômage et plus de hausse des prix."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Quand le chômage baisse et s'approche du plein-emploi, la main-d'œuvre devient rare et le pouvoir de négociation des salariés augmente.",
+            "Les salaires nominaux progressent plus vite que la productivité, ce qui accroît les coûts unitaires de production des entreprises.",
+            "Les entreprises répercutent cette hausse des coûts sur leurs prix de vente : l'**inflation** accélère.",
+            "Inversement, une hausse du chômage et une demande atone modèrent les revendications salariales et freinent la diffusion des hausses de prix."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le modèle explique pourquoi les chocs de demande et la conjoncture du marché du travail modulent la transmission des prix : une économie en sous-emploi absorbe plus longtemps un choc énergétique sans **boucle prix-salaires**, tandis qu'une économie proche du plein-emploi voit l'inflation s'emballer."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Milton Friedman (1968) et Edmund Phelps",
+              "d": "Avec les **anticipations adaptatives**, l'arbitrage disparaît à long terme : la courbe devient verticale au niveau du **taux de chômage naturel** (NAIRU)."
+            },
+            {
+              "t": "Robert Lucas (1972)",
+              "d": "Avec les **anticipations rationnelles**, même à court terme une relance anticipée ne crée que de l'inflation, sans effet sur l'emploi."
+            },
+            {
+              "t": "L'aplatissement récent",
+              "d": "Dans les années 2010, l'ancrage des anticipations par les banques centrales et la mondialisation ont rendu la courbe presque plate."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La courbe de Phillips échoue face aux **chocs d'offre** négatifs, comme les chocs pétroliers des années 1970 ou les tensions énergétiques de 2026 : la hausse des coûts importés provoque simultanément de l'inflation et du chômage (**stagflation**), faisant disparaître l'arbitrage."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Transmission d'un choc énergétique (2026)",
+              "d": "Un chômage en hausse et une demande faible freinent les effets de second tour sur les prix."
+            },
+            {
+              "t": "La stagflation des années 1970",
+              "d": "Chocs pétroliers de 1973 et 1979 : inflation et chômage progressent ensemble."
+            },
+            {
+              "t": "Politique monétaire de la BCE ou de la Fed",
+              "d": "Remonter les taux refroidit l'activité pour casser les anticipations d'inflation."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Nicholas Kaldor (1959)",
+              "idee": "les goulets d'étranglement créent de l'inflation avant le plein-emploi"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1968)",
+              "idee": "à long terme, la courbe est verticale au taux de chômage naturel"
+            },
+            {
+              "sens": "≠",
+              "nom": "Iain Macleod (1965)",
+              "idee": "la stagflation combine chômage élevé et inflation par choc d'offre"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
