@@ -961,6 +961,20 @@ details.ar-mois[open] .ar-plus { display: none; }
   body.side-closed .mag2, body.side-closed .alire2 { scroll-margin-top: calc(var(--topbar, 65px) + 60px); }
 }
 
+/* Coins arrondis partout */
+:root { --r: 14px; --r-s: 10px; }
+.ph, .thumb, .nl-ph, .ec-ph, .fd-cover, .fd-img, .fd-mini-img, .fd-ph, .card .hero, .hero, .oeuvre img, .deb-actu img, img.mini, .row .ph { border-radius: var(--r); overflow: hidden; }
+.cult, .alire2, .suivi, .lead, .cg-enjeux, .choice, .qs-box, .fd-sheet, .deb-gl, .enjeu, textarea, .note-area, .prog, .mes-notes, .empty { border-radius: var(--r); }
+.cult { overflow: hidden; }
+.cult .ph { border-radius: 0; }
+.btn, .chip, .nl-ok, .anki-btn, .fav-btn, .next-btn, .deb-btn2, .fd-recap-btn, .fd-drop-chip, .seg, .seg button, .ed-jump a, .pill, .toast, .search, input[type="search"], input[type="text"], input[type="password"], select, #gate input, #gate button, .bar a, .bar button, .cm-chip, .cm-btn, .fd-new-btn, .prop-item, .fd-ghost { border-radius: var(--r-s); }
+.nl-badge { border-radius: 99px; }
+.ec-day { border-top-right-radius: var(--r-s); }
+.suivi .bars i { border-radius: 2px; }
+@media (max-width: 699px) { .une .ph { border-radius: 0; } }
+/* Date de l'édition un peu plus grande */
+.une-date { font-size: clamp(40px, 6.2vw, 76px); }
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
