@@ -1,6 +1,6 @@
 {
  "titre": "Les définitions",
- "desc": "Les définitions telles qu'elles sont écrites dans tes cours de philo et de lettres.",
+ "desc": "Les définitions marquées d'une étoile ou surlignées en rouge dans tes cours.",
  "cours": [
   {
    "id": "philo",
@@ -8,144 +8,23 @@
    "source": "Cours de philo « L'Humanité »",
    "parties": [
     {
-     "titre": "Introduction : les sens du mot « humanité »",
-     "defs": [
-      {
-       "terme": "Humanité (sens 1)",
-       "def": "Le caractère de ce qui est humain, c'est-à-dire l'essence de l'homme : l'ensemble des caractères spécifiques à l'espèce « Homme » qui permettent de définir, de délimiter et d'identifier une nature humaine."
-      },
-      {
-       "terme": "Essence",
-       "def": "L'être intime d'une chose, ce qu'elle est et ce qui la distingue de toutes les autres."
-      },
-      {
-       "terme": "Propres de l'homme",
-       "def": "Ce qui n'appartient qu'à l'homme : le langage, la raison, la technique, l'empathie, le rire (l'humour), la morale, les croyances, la culture (notamment l'éducation), l'art et la politique."
-      },
-      {
-       "terme": "Humanité (sens 2)",
-       "def": "Le fait d'être bon, bienveillant, d'éprouver de la sollicitude, de l'empathie ou de la pitié à l'égard de ses semblables. L'humanité est ici une manière de manifester notre dignité."
-      },
-      {
-       "terme": "Humanité (sens 3)",
-       "def": "Quelque chose qui forme un tout : l'ensemble des hommes, le genre humain, la communauté des hommes. Une sorte d'être collectif qui dépasse chaque homme pris isolément."
-      },
-      {
-       "terme": "Les humanités (sens 4)",
-       "def": "Un projet éducatif qui se fait une certaine idée de l'homme et de ce qu'il doit être, et qui vise à développer et à accomplir l'humanité de l'homme. Les humanités désignent ainsi l'ensemble des savoirs qui étudient l'homme et ses productions."
-      },
-      {
-       "terme": "Humanités numériques",
-       "def": "Un ensemble de pratiques et de recherches qui utilisent le numérique pour analyser des données (littéraires ou issues des sciences humaines) et qui cherchent à interroger un corpus."
-      },
-      {
-       "terme": "Humanisation du monde",
-       "def": "La capacité à faire DU monde NOTRE monde, dont le langage est le principe.",
-       "auteur": "Arendt"
-      },
-      {
-       "terme": "Sensibilité physique",
-       "def": "La capacité d'éprouver de la douleur, de la peine et du plaisir, partagée avec les animaux.",
-       "auteur": "Bentham"
-      },
-      {
-       "terme": "Sensibilité morale",
-       "def": "Discerner le bien du mal, être capable de percevoir la souffrance chez l'autre et agir en conséquence.",
-       "auteur": "Bentham"
-      },
-      {
-       "terme": "Amour de soi et amour des autres",
-       "def": "Les deux sentiments innés propres à l'homme ; l'amour des autres est la répugnance à voir souffrir nos semblables.",
-       "auteur": "Rousseau"
-      },
-      {
-       "terme": "Principe utilitariste",
-       "def": "Maximiser les plaisirs et diminuer au maximum les douleurs et les peines.",
-       "auteur": "Mill"
-      }
-     ]
-    },
-    {
      "titre": "Éléments de problématisation",
      "defs": [
       {
        "terme": "Intension",
-       "def": "La définition d'un concept, sa signification."
+       "def": "L'intension d'un concept est sa définition, sa signification."
       },
       {
        "terme": "Extension",
-       "def": "L'ensemble des choses auxquelles la définition en intension s'applique."
-      },
-      {
-       "terme": "Partager",
-       "def": "Délimiter et séparer, mais aussi créer du commun : on partage AVEC les autres."
-      },
-      {
-       "terme": "Ontologie scalaire",
-       "def": "Une organisation hiérarchique de l'ensemble des êtres."
+       "def": "L'extension est l'ensemble des choses auxquelles la définition en intension s'applique."
       },
       {
        "terme": "Réductionnisme",
-       "def": "Le courant qui réduit l'ensemble des phénomènes humains à des phénomènes physico-chimiques."
-      },
-      {
-       "terme": "Habitabilité",
-       "def": "« Non pas les conditions physico-chimiques inertes qui ont permis l'apparition du vivant, mais les conditions que la vie elle-même produit et maintient pour permettre à la vie de continuer. »",
-       "auteur": "Neyret et Morizot"
-      },
-      {
-       "terme": "Anthropocène",
-       "def": "Une époque géologique nouvelle qui succéderait aux subdivisions géologiques antérieures déjà établies."
-      },
-      {
-       "terme": "Nihilisme",
-       "def": "La remise en cause radicale des idéaux et des valeurs propres à un groupe. Au sens strict, l'affirmation qu'il n'existe aucune transcendance, aucun fondement ni aucune justification ultime à nos valeurs, à nos principes ou à nos comportements."
-      },
-      {
-       "terme": "Surhomme",
-       "def": "La figure qui désigne le dépassement de l'homme.",
-       "auteur": "Nietzsche"
-      },
-      {
-       "terme": "Théorie critique",
-       "def": "Un courant philosophique héritier du marxisme, qui remet en cause la société bourgeoise et cherche à combattre les mécanismes de domination, pour défendre la raison comme idéal émancipateur."
-      },
-      {
-       "terme": "Dialectique négative de la raison",
-       "def": "Le processus d'autodestruction de la raison : la raison construit elle-même les conditions de son anéantissement futur.",
-       "auteur": "Horkheimer et Adorno"
-      },
-      {
-       "terme": "Télos",
-       "def": "La fin de l'homme : ce vers quoi il doit tendre."
-      },
-      {
-       "terme": "Péché originel",
-       "def": "À l'origine de la condition humaine, il y a la culpabilité, le fait d'avoir chuté, failli (on appelle cet épisode la Chute)."
+       "def": "Le réductionnisme est le courant qui réduit l'ensemble des phénomènes humains à des phénomènes physico-chimiques."
       },
       {
        "terme": "Humanisme",
        "def": "Courant de pensée né à la Renaissance, qui accorde une valeur irréductible à l'homme et défend pour l'humanité tout entière un idéal de liberté (autonomie) et de développement civilisationnel conduit par la raison."
-      },
-      {
-       "terme": "Posthumanisme",
-       "def": "Ce qui vient après : il cherche à définir des normes et des valeurs pour préparer l'après-humanisme."
-      },
-      {
-       "terme": "Transhumanisme",
-       "def": "Ce qui va au-delà : il conserve la distinction homme/animal et se concentre sur l'homme, en particulier sur son cerveau, dont il s'agit d'améliorer les performances."
-      },
-      {
-       "terme": "Anthropocentrisme",
-       "def": "Ce qui fait de l'homme le point à partir duquel on pense le monde et l'être qui a le plus de valeur."
-      },
-      {
-       "terme": "Antispécisme",
-       "def": "On ne peut pas discriminer les êtres en fonction de leur espèce."
-      },
-      {
-       "terme": "Animalisme",
-       "def": "L'homme est un animal comme les autres, il n'y a pas de raison de le traiter différemment."
       },
       {
        "terme": "Humanitaire",
@@ -153,276 +32,16 @@
       },
       {
        "terme": "Divertissement",
-       "def": "Du latin divertere, se détourner : le fait de détourner son regard de sa condition, de ne pas voir le sens que l'on a à donner à sa propre vie.",
-       "auteur": "Pascal"
-      },
-      {
-       "terme": "Dignité",
-       "def": "La valeur intrinsèque de l'homme : quel qu'il soit, il a une valeur, il compte, il doit être protégé et ne doit jamais être traité comme un moyen mais comme une fin."
+       "def": "(du latin divertere, se détourner) Le fait de détourner son regard de sa condition, de ne pas voir le sens que l'on a à donner à sa propre vie."
       }
      ]
     },
     {
-     "titre": "Définir l'homme",
+     "titre": "II. Être humain, c'est être une substance pensante étroitement unie à un corps",
      "defs": [
-      {
-       "terme": "Devoir-être",
-       "def": "Dire ce qu'est l'homme, c'est dire ce qu'il doit être, et dessiner un certain idéal humain.",
-       "auteur": "Wolff"
-      },
-      {
-       "terme": "Humanité (dans l'Encyclopédie)",
-       "def": "La bienveillance universelle envers les autres hommes."
-      },
-      {
-       "terme": "Définir",
-       "def": "Chercher à déterminer par le langage l'essence d'une chose.",
-       "auteur": "Aristote"
-      },
-      {
-       "terme": "Zôon",
-       "def": "Le vivant : celui qui possède la zôè, la vie.",
-       "auteur": "Aristote"
-      },
-      {
-       "terme": "Différence spécifique",
-       "def": "Les traits qui distinguent l'espèce humaine des autres espèces du même genre.",
-       "auteur": "Aristote"
-      },
-      {
-       "terme": "Espèce",
-       "def": "Elle se définit par le croisement, à l'intérieur d'un genre, de plusieurs traits spécifiques.",
-       "auteur": "Aristote"
-      },
-      {
-       "terme": "Instinct",
-       "def": "Un comportement que l'animal ne peut ni choisir ni changer."
-      },
-      {
-       "terme": "Autarcie",
-       "def": "La capacité de la cité, comme ensemble de citoyens, à se suffire à elle-même.",
-       "auteur": "Aristote"
-      },
-      {
-       "terme": "Voix (phônè) / parole (logos)",
-       "def": "La voix des animaux est expressive : elle fait entendre ce qui nous affecte. La parole consiste à articuler une succession de sons à l'intérieur d'une phrase pour produire du sens.",
-       "auteur": "Aristote"
-      },
       {
        "terme": "Épistémologie",
-       "def": "Du grec épistémè, science, connaissance : réflexion sur la manière dont s'établissent nos connaissances et nos lois scientifiques."
-      },
-      {
-       "terme": "Res cogitans",
-       "def": "Une chose qui pense.",
-       "auteur": "Descartes"
-      },
-      {
-       "terme": "Technique",
-       "def": "La mise en pratique des savoirs.",
-       "auteur": "Descartes"
-      },
-      {
-       "terme": "Perfectibilité",
-       "def": "La capacité à progresser et à apprendre.",
-       "auteur": "Rousseau"
-      },
-      {
-       "terme": "Culture",
-       "def": "Transmettre, conserver et augmenter son savoir.",
-       "auteur": "Pascal"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "lettres",
-   "nom": "Lettres",
-   "source": "Cours de lettres (M. Billon)",
-   "parties": [
-    {
-     "titre": "Introduction : I à III",
-     "defs": [
-      {
-       "terme": "Être un humain / être humain",
-       "def": "Être un humain : appartenir à l'espèce. Être humain : avoir de l'humanité, de la bonté, de la compassion.",
-       "auteur": "Wolff"
-      },
-      {
-       "terme": "Concept normatif",
-       "def": "On s'y réfère pour dire ce qu'on doit faire, pas seulement pour décrire ce qu'on est.",
-       "auteur": "Wolff"
-      },
-      {
-       "terme": "Être prothétique et sans qualités",
-       "def": "L'homme, à la différence de l'animal, dont les qualités sont fixées d'emblée. Il n'a donc pas d'origine : il n'est que par défaut, il n'est qu'en devenant.",
-       "auteur": "Stiegler"
-      },
-      {
-       "terme": "Dikè / aidos",
-       "def": "La justice / la vergogne, le savoir des limites.",
-       "auteur": "Stiegler"
-      },
-      {
-       "terme": "Hominisation",
-       "def": "Le moment où l'espèce humaine apparaît (processus progressif, que la technique rend possible)."
-      },
-      {
-       "terme": "Humanisation",
-       "def": "Le fait de devenir humain, qui n'est jamais acquis."
-      },
-      {
-       "terme": "Plasticité",
-       "def": "La capacité d'être modelé sans se briser.",
-       "auteur": "Pic de la Mirandole"
-      },
-      {
-       "terme": "Civilisation",
-       "def": "Elle résulte d'un long processus où les contraintes extérieures sur la violence deviennent des contraintes intériorisées (autocontrôle).",
-       "auteur": "Elias"
-      }
-     ]
-    },
-    {
-     "titre": "Introduction : IV et V",
-     "defs": [
-      {
-       "terme": "Liberté",
-       "def": "Le critère de l'appartenance à l'humanité : la capacité de distance par rapport à la nature.",
-       "auteur": "Ferry"
-      },
-      {
-       "terme": "Fonction impérative / déclarative",
-       "def": "Impérative : obtenir quelque chose. Déclarative : commenter le monde et partager.",
-       "auteur": "Ferry"
-      },
-      {
-       "terme": "Humanisme abstrait",
-       "def": "Un être humain est respectable indépendamment de ses appartenances (langue, nation, race, religion).",
-       "auteur": "Ferry"
-      },
-      {
-       "terme": "Droits « objectifs »",
-       "def": "Les droits des animaux, comme ceux des monuments qu'on protège.",
-       "auteur": "Ferry"
-      },
-      {
-       "terme": "L'existence précède l'essence",
-       "def": "L'homme est d'abord rien, il se rencontre, surgit dans le monde, puis se définit.",
-       "auteur": "Sartre"
-      },
-      {
-       "terme": "Néoténie (néotène)",
-       "def": "Organisme animal qui atteint la maturité sexuelle et est capable de se reproduire tout en conservant ses caractéristiques ou sa structure larvaire ou juvénile.",
-       "auteur": "Nisand"
-      },
-      {
-       "terme": "Seconde nature",
-       "def": "La culture que l'homme, né incomplet, est obligé de se donner. Elle a trois suppléments : les récits, les grammaires et les prothèses.",
-       "auteur": "Nisand"
-      },
-      {
-       "terme": "Outil ad hoc / outil permanent",
-       "def": "L'outil de l'animal est ad hoc : immédiat, sans lendemain. L'outil de l'homme est permanent : il suppose la mémoire du manque passé et l'usage futur.",
-       "auteur": "Nisand"
-      },
-      {
-       "terme": "Convergence NBIC",
-       "def": "La convergence des nanotechnologies, des biotechnologies, de l'informatique et des sciences cognitives, qui vise la refonte de la première nature par la seconde.",
-       "auteur": "Nisand"
-      }
-     ]
-    },
-    {
-     "titre": "Introduction : VI (Descola)",
-     "defs": [
-      {
-       "terme": "Ontologie",
-       "def": "Un discours sur l'être.",
-       "auteur": "Descola"
-      },
-      {
-       "terme": "Intériorité / physicalité",
-       "def": "L'intériorité : âme, esprit, intentionnalité. La physicalité : corps, matière.",
-       "auteur": "Descola"
-      },
-      {
-       "terme": "Animisme",
-       "def": "Intériorité commune, physicalités différentes.",
-       "auteur": "Descola"
-      },
-      {
-       "terme": "Totémisme",
-       "def": "Continuité des intériorités et des physicalités.",
-       "auteur": "Descola"
-      },
-      {
-       "terme": "Analogisme",
-       "def": "Discontinuité des intériorités et des physicalités : tout est singulier.",
-       "auteur": "Descola"
-      },
-      {
-       "terme": "Naturalisme",
-       "def": "Continuité des physicalités (mêmes lois pour tous les êtres), discontinuité des intériorités.",
-       "auteur": "Descola"
-      },
-      {
-       "terme": "Ethnographie",
-       "def": "Immersion dans une population ; le résultat est une description."
-      },
-      {
-       "terme": "Ethnologie",
-       "def": "Comparaison avec des peuples proches."
-      },
-      {
-       "terme": "Anthropologie",
-       "def": "Hypothèses sur la vie sociale à un niveau théorique, qui cherchent les attributs universels de la pensée humaine."
-      },
-      {
-       "terme": "Mobilier ontologique",
-       "def": "Les êtres qui peuplent un monde et leurs propriétés.",
-       "auteur": "Descola"
-      }
-     ]
-    },
-    {
-     "titre": "Cours 1 : l'espèce humaine",
-     "defs": [
-      {
-       "terme": "Suffisance",
-       "def": "La présomption.",
-       "auteur": "Montaigne"
-      },
-      {
-       "terme": "Différence de degré / de nature",
-       "def": "Différence de degré, c'est-à-dire continuité (Montaigne), ou différence de nature, c'est-à-dire rupture (Bossuet).",
-       "auteur": "Montaigne, Bossuet"
-      },
-      {
-       "terme": "Inhumanité",
-       "def": "Chez Montaigne, la cruauté de l'homme envers les bêtes. Chez Bossuet, la violation de la fraternité humaine.",
-       "auteur": "Montaigne, Bossuet"
-      },
-      {
-       "terme": "Animal dénaturé",
-       "def": "Un animal qui manifeste et revendique une rupture avec la nature.",
-       "auteur": "Vercors"
-      },
-      {
-       "terme": "Nature / culture",
-       "def": "La nature désigne les dispositions et capacités innées. La culture désigne ce qui est acquis et transmis : le langage, le savoir, les règles.",
-       "auteur": "Truffaut"
-      },
-      {
-       "terme": "L'à-propos",
-       "def": "Ajuster ses paroles à la situation : le propre de l'homme selon Descartes.",
-       "auteur": "Fontenay"
-      },
-      {
-       "terme": "Humanité-fait / humanité-norme",
-       "def": "Une humanité-fait, biologique, et une humanité-norme, morale et décidée.",
-       "auteur": "Fontenay"
+       "def": "(du grec épistémè, science, connaissance) Réflexion sur la manière dont s'établissent nos connaissances et nos lois scientifiques."
       }
      ]
     }
