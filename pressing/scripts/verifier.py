@@ -10,7 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-MATS = ["esh", "anglais", "espagnol", "allemand"]
+MATS = ["esh", "anglais", "espagnol"]  # plus d'allemand depuis le 24/11/2026
+NB = {"esh": 6, "anglais": 5, "espagnol": 5}
 errors = []
 warnings = []
 
@@ -111,8 +112,10 @@ order = [c.get("matiere") for c in cards]
 std = [c for c in cards if not c.get("perso") and not c.get("culture")]
 for m in MATS:
     n = [c.get("matiere") for c in std].count(m)
-    if n != 4:
-        errors.append(f"{m} : {n} carte(s) au lieu de 4")
+    if date >= "2026-11-25" and n != NB[m]:
+        errors.append(f"{m} : {n} carte(s) au lieu de {NB[m]}")
+if date >= "2026-11-25" and "allemand" in order:
+    errors.append("plus d'actus en allemand : supprime les cartes allemand")
 # Actu culturelle espagnole (obligatoire à partir du 24/11/2026)
 cult = [c for c in cards if c.get("culture")]
 if date >= "2026-11-24" and len(cult) != 1:
@@ -128,9 +131,9 @@ for c in cult:
         errors.append(f"{cid} : champ entretien manquant ou trop court (4 à 6 phrases)")
 esp = [c.get("id") for c in cards if c.get("matiere") == "espagnol" and not c.get("perso")]
 if cult and esp and esp[-1] != cult[0].get("id"):
-    errors.append("l'actu culturelle doit venir juste après les 4 cartes d'espagnol")
-if order != sorted(order, key=lambda m: MATS.index(m) if m in MATS else 9):
-    errors.append("les cartes ne sont pas dans l'ordre esh, anglais, espagnol, allemand")
+    errors.append("l'actu culturelle doit venir juste après les 5 cartes d'espagnol")
+if order != sorted(order, key=lambda m: (MATS + ["allemand"]).index(m) if m in MATS + ["allemand"] else 9):
+    errors.append("les cartes ne sont pas dans l'ordre esh, anglais, espagnol")
 
 # Pas deux fois le même sujet : champ "dossier" (voir scripts/dossiers.py)
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -151,7 +154,7 @@ def journal(c):
 for m in MATS:
     cnt = Counter(journal(c) for c in std if c.get("matiere") == m)
     if cnt and len(cnt) < 3:
-        errors.append(f"{m} : seulement {len(cnt)} journal(aux) différent(s) ({', '.join(cnt)}) — il en faut au moins 3 sur les 4 actus")
+        errors.append(f"{m} : seulement {len(cnt)} journal(aux) différent(s) ({', '.join(cnt)}) — il en faut au moins 3 par matière")
     for j, n in cnt.items():
         if n > 2:
             errors.append(f"{m} : {n} actus viennent de {j} — 2 maximum par journal, va chercher dans d'autres journaux")

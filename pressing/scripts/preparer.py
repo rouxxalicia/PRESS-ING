@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-MATS = ["esh", "anglais", "espagnol", "allemand"]
+MATS = ["esh", "anglais", "espagnol"]
 MODELE_STYLE = "2026-10-31"
 
 
@@ -100,7 +100,7 @@ p = DATA / "editions" / f"{MODELE_STYLE}.json"
 if p.exists():
     ed = lire(p)
     print(f"=== MODÈLE DE STYLE ET DE LONGUEUR ({MODELE_STYLE}) : une carte esh et une carte anglais ===")
-    print("(Le style seulement : ne reprends ni les sources ni les sujets. L'allemand suit la partie B2 de CONSIGNES.md.)")
+    print("(Le style seulement : ne reprends ni les sources ni les sujets.)")
     for m in ("esh", "anglais"):
         c = next((c for c in ed["cards"] if c.get("matiere") == m), None)
         if c:
