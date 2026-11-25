@@ -7945,6 +7945,311 @@
           ]
         }
       ]
+    },
+    {
+      "id": "demande-reciproque-mill",
+      "nom": "Théorie de la demande réciproque",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "1848",
+      "auteur": "John Stuart Mill",
+      "accroche": "Le gain à l'échange international est mutuel, mais son partage dépend de l'intensité respective des demandes et du rapport de force entre pays.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**John Stuart Mill**, *Principes d'économie politique* (1848), livre III, chapitre 18.",
+            "**David Ricardo** (1817) avait démontré que deux pays gagnent à se spécialiser selon leurs **avantages comparatifs**, mais sans déterminer le prix exact auquel les biens s'échangent. Mill comble cette lacune en montrant que les **termes de l'échange** se fixent au point d'équilibre entre l'offre d'exportations d'un pays et la demande d'importations de son partenaire."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les coûts comparatifs en autarcie bornent la fourchette à l'intérieur de laquelle le prix international est mutuellement avantageux.",
+            "À l'intérieur de cette fourchette, le prix relatif dépend de la **demande réciproque** : si le pays A désire fortement le bien du pays B alors que B a une faible élasticité de demande pour le bien de A, le prix relatif du bien de B monte.",
+            "L'équilibre est atteint lorsque la valeur totale des exportations de A finance exactement ses importations en provenance de B.",
+            "Plus le terme de l'échange se rapproche des coûts autarciques de A, plus le pays B capte la majeure partie du **gain à l'échange**."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Le libre-échange enrichit globalement les partenaires, mais **le partage des gains est asymétrique**. En dissertation, Mill permet de dépasser l'opposition simpliste entre libre-échange et protectionnisme en expliquant pourquoi un grand marché ou un pays dont les exportations sont très demandées tire davantage profit d'un accord commercial qu'un partenaire plus petit ou moins compétitif."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Alfred Marshall (1879)",
+              "d": "Formalise graphiquement la demande réciproque grâce aux **courbes d'offre et de demande internationales** (offer curves)."
+            },
+            {
+              "t": "Prebisch et Singer (1950)",
+              "d": "Montrent une **dégradation tendancielle des termes de l'échange** des pays exportateurs de produits primaires, dont la demande mondiale croît moins vite que celle des biens manufacturés."
+            },
+            {
+              "t": "Droits de douane optimaux (Edgeworth, Scitovsky)",
+              "d": "Un grand pays peut manipuler les termes de l'échange en sa faveur par un tarif douanier modéré, au risque de représailles commerciales."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle reste néoclassique et suppose une **concurrence parfaite**, l'absence de coûts de transport et le **plein-emploi** des facteurs dans chaque pays. Il néglige le rôle des **barrières non tarifaires** (normes sanitaires, environnementales), des taux de change et des firmes multinationales qui structurent aujourd'hui les chaînes de valeur mondiales."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'accord UE-Mercosur",
+              "d": "La forte demande européenne de matières premières agricoles avantage rapidement les exportations brésiliennes, tandis que l'industrie et les vins européens peinent à percer."
+            },
+            {
+              "t": "Les tensions commerciales Chine - Europe",
+              "d": "La taille du marché chinois et sa faible dépendance aux importations occidentales pèsent sur le partage des gains dans les négociations."
+            },
+            {
+              "t": "La hausse des prix de l'énergie",
+              "d": "Une demande européenne très inélastique pour le gaz naturel liquéfié dégrade les termes de l'échange de la zone euro au profit des pays exportateurs."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "David Ricardo (1817)",
+              "idee": "prolonge la théorie des avantages comparatifs en expliquant la formation du prix international"
+            },
+            {
+              "sens": "≠",
+              "nom": "Raúl Prebisch (1950)",
+              "idee": "montre que les termes de l'échange jouent structurellement contre les exportateurs de matières premières"
+            },
+            {
+              "sens": "≠",
+              "nom": "Paul Krugman (1979)",
+              "idee": "explique les gains à l'échange entre pays semblables par les rendements croissants plutôt que par les coûts comparatifs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modele-beveridgien-assistance",
+      "nom": "Modèle beveridgien d'assistance sociale",
+      "categorie": "societe",
+      "type": "Modèle",
+      "annee": "1942",
+      "auteur": "William Beveridge",
+      "accroche": "Financée par l'impôt et ouverte à tous les citoyens sans condition de cotisation, la protection sociale beveridgienne vise à garantir un minimum vital universel.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**William Beveridge**, *Social Insurance and Allied Services* (*Rapport Beveridge*, 1942).",
+            "Commandé par le gouvernement britannique pendant la Seconde Guerre mondiale, ce rapport propose d'éradiquer les « cinq géants » — la misère, la maladie, l'ignorance, l'insalubrité et l'oisiveté — par un système public de protection sociale fondé sur la **citoyenneté** plutôt que sur le statut professionnel."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**Universalité** : toute la population résidente est couverte contre les risques sociaux, sans dépendre d'un emploi salarié ni de cotisations préalables.",
+            "**Unité** : une administration publique unique centralise la gestion des prestations afin de simplifier l'accès aux droits.",
+            "**Uniformité** : les allocations sont forfaitaires et financées par l'**impôt** pour assurer à chacun un filet de sécurité minimal, laissant le maintien du niveau de vie à l'assurance privée ou à l'épargne."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Ce modèle permet de montrer qu'il existe deux grandes logiques de protection sociale : la **logique d'assurance** (bismarckienne, financée par les cotisations et proportionnelle au salaire) et la **logique d'assistance et de solidarité nationale** (beveridgienne, financée par l'impôt pour lutter contre la pauvreté). En France, le système créé en 1945 est devenu **hybride** avec la création du RMI puis du RSA, de la CSG et de la protection universelle maladie (PUMA)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Gøsta Esping-Andersen (1990)",
+              "d": "Dans *Les Trois Mondes de l'État-providence*, classe les systèmes sociaux en régimes libéral, conservateur-corporatiste (bismarckien) et social-démocrate (universel)."
+            },
+            {
+              "t": "Robert Castel (1995)",
+              "d": "Analyse la crise de la **société salariale** : lorsque le chômage de masse exclut du salariat, les filets d'assistance financés par l'impôt deviennent indispensables contre la **désaffiliation**."
+            },
+            {
+              "t": "La fiscalisation de la protection sociale",
+              "d": "Le recours croissant à l'impôt (CSG, TVA sociale) évite de peser uniquement sur le **coût du travail**, mais expose les prestations aux arbitrages budgétaires annuels."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Beveridge concevait le minimum garanti comme un socle couplé à une politique active de **plein-emploi** afin d'éviter la dépendance durable aux aides. Les économistes néoclassiques soulignent le risque de **trappe à inactivité** lorsque le niveau des minima sociaux réduit l'incitation financière à reprendre un emploi peu rémunéré, ce qui nourrit les réformes conditionnant les aides à une activité obligatoire."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La réforme du RSA et les 15 heures d'activité",
+              "d": "Illustre la tension entre la logique d'un minimum vital inconditionnel et le basculement vers une assistance conditionnelle et punitive."
+            },
+            {
+              "t": "Le débat sur le revenu universel",
+              "d": "Prolonge l'idéal beveridgien d'universalité en supprimant le contrôle des ressources et les effets de seuil."
+            },
+            {
+              "t": "Le financement de la branche maladie en France",
+              "d": "Le remplacement progressif de cotisations salariales par la CSG marque une beveridgisation du financement social."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "Otto von Bismarck (1883-1889)",
+              "idee": "fonde la protection sociale sur le travail, les cotisations et la logique assurantielle"
+            },
+            {
+              "sens": "=",
+              "nom": "Robert Castel (1995)",
+              "idee": "montre l'importance des droits sociaux pour éviter la désaffiliation des plus précaires"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1962)",
+              "idee": "critique les aides rigides et défend la flexibilité du marché du travail (tout en proposant un impôt négatif simplifié)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modele-beveridgien",
+      "nom": "Modèle beveridgien d'assistance sociale",
+      "categorie": "politiques",
+      "type": "Modèle",
+      "annee": "1942",
+      "auteur": "William Beveridge",
+      "accroche": "Une protection sociale universelle, financée par l'impôt et fondée sur les besoins, protège chaque citoyen contre la pauvreté sans exiger de cotisations préalables.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**William Beveridge**, *Social Insurance and Allied Services* (1942), connu sous le nom de **Rapport Beveridge**.",
+            "Publié en pleine Seconde Guerre mondiale, ce rapport pose les bases de l'**État-providence** britannique moderne en identifiant cinq « géants » à vaincre : le besoin, la maladie, l'ignorance, l'insalubrité et l'oisiveté."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**Universalité** : toute la population résidente est couverte, quel que soit son statut professionnel ou son passé de cotisant.",
+            "**Unité et uniformité** : la gestion est centralisée par l'État et garantit un **filet de sécurité minimal** uniforme financé principalement par l'**impôt**.",
+            "**Logique d'assistance et de redistribution** : pour les minima sociaux, l'allocation dépend des ressources du foyer afin de cibler la réduction de la **pauvreté** et de l'exclusion."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Contrairement au modèle **bismarckien** fondé sur l'assurance et le travail salarié, le modèle **beveridgien** repose sur la **solidarité nationale** : il garantit une protection aux personnes éloignées de l'emploi ou aux carrières discontinues.",
+            "Il permet d'évaluer le système français hybride de 1945 (combiné aux minima sociaux comme le **RSA**) : durcir les sanctions ou conditionner les aides de dernier recours fragilise ce filet universel et risque de creuser la grande pauvreté."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le modèle hybride français (1945)",
+              "d": "La Sécurité sociale combine des assurances sociales **bismarckiennes** (retraites, chômage) et une solidarité **beveridgienne** (RMI en 1988, RSA en 2009, PUMa)."
+            },
+            {
+              "t": "Gøsta Esping-Andersen (1990)",
+              "d": "Dans *Les Trois Mondes de l'État-providence*, il distingue les régimes **libéral** (ciblé sur les plus pauvres), **corporatiste** (bismarckien) et **social-démocrate** (universel et généreux)."
+            },
+            {
+              "t": "L'impôt négatif de Milton Friedman (1962)",
+              "d": "Un revenu minimum versé automatiquement par le fisc sous un certain seuil, afin de soutenir les bas revenus sans **trappe à inactivité** ni bureaucratie punitive."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Un modèle purement **beveridgien** offre souvent des prestations forfaitaires modestes : les ménages aisés recourent alors aux assurances privées, ce qui peut réduire le consentement à l'impôt.",
+            "Par ailleurs, des prestations versées sous condition de ressources créent un risque de **non-recours** (complexité administrative, stigmatisation) et de **trappe à pauvreté** si le taux marginal de reprise d'emploi est peu incitatif."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le conditionnement du RSA",
+              "d": "L'obligation de 15 heures d'activité hebdomadaires et les suspensions d'allocations interrogent le passage de l'assistance inconditionnelle au *workfare*."
+            },
+            {
+              "t": "Le financement de la Sécurité sociale",
+              "d": "Le recours croissant à la CSG et aux impôts affectés montre la « beveridgisation » progressive du financement social français."
+            },
+            {
+              "t": "La création de la PUMa (2016)",
+              "d": "Le rattachement de la couverture maladie à la résidence en France illustre l'extension de la logique **universaliste**."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "Otto von Bismarck (1883-1889)",
+              "idee": "protection contributive réservée aux travailleurs cotisants et proportionnelle aux salaires"
+            },
+            {
+              "sens": "=",
+              "nom": "Robert Castel (1995)",
+              "idee": "la désaffiliation menace les exclus du salariat si la protection sociale ne prend pas le relais"
+            },
+            {
+              "sens": "≠",
+              "nom": "Charles Murray (1984)",
+              "idee": "les aides d'assistance non conditionnées désincitent au travail et entretiennent la dépendance"
+            },
+            {
+              "sens": "=",
+              "nom": "Gøsta Esping-Andersen (1990)",
+              "idee": "typologie des États-providence selon leur degré de démarchandisation"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
