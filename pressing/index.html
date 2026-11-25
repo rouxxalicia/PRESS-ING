@@ -1721,10 +1721,20 @@ details.ar-mois[open] .ar-plus { display: none; }
       if (!e) { location.hash = base + "/enjeux"; return; }
       const rs = cg.refs.filter(x => (x.enjeux || []).includes(e.id) && x.rub !== "dissertations");
       let h = '<div class="narrow">' + (e.code ? back("#" + base, cg.theme) : back("#" + base + "/enjeux", "Les enjeux")) + '<article class="card"><span class="label muted">' + (e.code ? 'Thème' : isPeak ? 'Enjeu' : 'Dossier') + '</span><h1>' + esc(e.nom) + '</h1>' + (e.question ? '<p class="idee">' + esc(e.question) + '</p>' : '');
-      if (e.dossier) h += '<p class="idee">' + fmt(e.dossier.chapo) + '</p>' + e.dossier.blocs.map(bloc).join("");
-      h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#' + base + '/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
+      const estDeb = e.dossier && e.dossier.blocs.some(b => b.type === "debat");
+      if (estDeb) h = h.replace('<article class="card">', '<article class="card dbf" id="dbf">');
+      const cgF = x => debFmt(x).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+      const cgPara = p => { const [hd, ...rest] = p.split("\n"); return '<div class="dbf-arg">' + (rest.length ? '<p class="dbf-who">' + cgF(hd) + '</p><p>' + cgF(rest.join(" ")) + '</p>' : '<p>' + cgF(hd) + '</p>') + '</div>'; };
+      const debBloc = b => '<section class="sec"><h2 class="label">' + esc(b.titre) + '</h2>' + (b.ti ? '<p class="dbf-ti">' + cgF(b.ti) + '</p>' : '') +
+        b.sp.map(sp => '<div class="dbf-sp">' + (sp.t ? '<h3>' + esc(sp.t) + '</h3>' : '') + '<div class="dbf-body">' + sp.p.map(cgPara).join("") + (sp.ex || []).map(x => '<p class="dbf-ex">' + cgF(x) + '</p>').join("") + '</div></div>').join("") + '</section>';
+      if (e.dossier) h += '<p class="idee">' + fmt(e.dossier.chapo) + '</p>' + (estDeb ? '<div class="dbf-tools"><button type="button" class="cm-btn" id="dbf-hide" aria-pressed="false">Mode révision</button><span class="muted">Tout est flouté sauf les titres : récite, puis touche pour vérifier.</span></div>' : '') + e.dossier.blocs.map(b => b.type === "debat" ? debBloc(b) : bloc(b)).join("");
+      if (rs.length || !estDeb) h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#' + base + '/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
       h += notesBox((isPeak ? "dossierp:" : "dossier:") + e.id, e.nom);
-      app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
+      app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0);
+      if (estDeb) { const card = document.getElementById("dbf"), hb = document.getElementById("dbf-hide");
+        hb.addEventListener("click", () => { const on = card.classList.toggle("dbf-hide"); hb.setAttribute("aria-pressed", on); card.querySelectorAll(".dbf-body.open").forEach(x => x.classList.remove("open")); });
+        card.querySelectorAll(".dbf-body").forEach(el => { el.tabIndex = 0; el.addEventListener("click", () => { if (card.classList.contains("dbf-hide")) el.classList.toggle("open"); }); }); }
+      return;
     }
     if (parts[0] === "f") {
       const r = cg.refs.find(x => x.id === parts[1]);
