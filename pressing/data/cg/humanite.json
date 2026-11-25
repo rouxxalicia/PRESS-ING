@@ -38,7 +38,59 @@
    "id": "t1",
    "code": "T1",
    "nom": "Définir l'homme",
-   "question": "Peut-on définir l'homme par une essence ?"
+   "question": "Peut-on définir l'homme par une essence ?",
+   "dossier": {
+    "chapo": "Définir, c'est déterminer par le langage l'**essence** d'une chose : ce qu'elle est et ce qui la distingue de toutes les autres. Pour l'homme, l'entreprise bute sur trois difficultés : il n'a peut-être rien de fixe, toute définition trace une frontière qui exclut, et dire ce qu'est l'homme, c'est toujours dire ce qu'il doit être.",
+    "blocs": [
+     {
+      "titre": "Débat 1 · L'homme a-t-il une essence ?",
+      "type": "texte",
+      "paras": [
+       "**L'homme se définit par ce qui le distingue.** Pour **Aristote** (*Politique*), définir, c'est situer une chose dans son genre puis donner sa **différence spécifique**. L'homme appartient au genre *zôon*, le vivant, mais il est le seul à posséder le *logos* : la voix (*phônè*) des animaux exprime seulement le plaisir et la douleur, alors que la parole produit du sens et permet de dire le juste et l'injuste. D'où les deux définitions de l'homme, **animal politique** et **animal rationnel**, dont la fin (*télos*) est la vie selon la raison. Ce modèle donne une définition stable, valable pour tout homme, sur laquelle on peut fonder sa dignité.",
+       "**Même en refusant la méthode d'Aristote, on retrouve une essence.** **Descartes** (*Méditations métaphysiques*, 1641) rejette la définition par le genre et l'espèce, qui renvoie à l'infini d'un terme à l'autre. Mais l'introspection lui fait découvrir ce qu'il est d'abord : une **chose qui pense** (*res cogitans*), étroitement unie à un corps. **Bossuet** (*De la connaissance de Dieu et de soi-même*) va plus loin : entre l'homme, qui connaît Dieu, et l'animal, la différence n'est pas de degré mais de **nature**.",
+       "**Mais chercher l'essence de l'homme, c'est supposer ce qu'on veut prouver.** **Montaigne** (*Apologie de Raymond Sebond*, 1580) rabaisse la raison et rapproche l'homme de l'animal : il y a *« plus de différence de tel homme à tel homme que de tel animal à tel homme »*. Définir l'homme par la raison relève de la **suffisance**, de la présomption. La biologie confirme la difficulté : l'espèce humaine n'est que la photographie, à un instant donné, d'une lignée en transformation, et il a existé plusieurs espèces humaines (*sapiens*, Néandertal, *floresiensis*). Il n'y a pas de définition biologique fixe : il n'y a pas une humanité, mais **des** humanités.",
+       "**L'homme n'a pas de nature : il se fait.** Chez **Pic de la Mirandole** (*De la dignité de l'homme*, 1486), Dieu crée l'homme en dernier, sans place ni nature fixées : sa **plasticité** lui permet de dégénérer en bête ou de se régénérer en être divin. **Stiegler** (*Philosopher par accident*, 2004) lit le mythe de Prométhée de la même façon : oublié dans la distribution des qualités, l'homme est un être **sans qualités**, prothétique, qui n'est qu'en devenant. **Sartre** (*L'existentialisme est un humanisme*, 1946) en tire la thèse la plus radicale : sans Dieu artisan pour le concevoir comme un coupe-papier, *« l'existence précède l'essence »* et l'homme n'est rien d'autre que ce qu'il se fait. **Nisand** (*Où va l'humanité ?*, 2013) le confirme : l'homme naît incomplet (**néoténie**) et doit se donner une seconde nature, faite de récits, de grammaires et de prothèses.",
+       "**Le propre de l'homme est peut-être de ne pas avoir d'essence.** **Ferry** (*Qu'est-ce que l'homme ?*, 2010) fait de cette absence le critère de l'humanité : la **liberté**, comme capacité de distance par rapport à la nature. Deux limites restent à penser. Chez Pic, cette liberté reste orientée sur une échelle des êtres (la bête, l'ange). Et chez Nisand, la même absence de nature rend possible la refonte de l'homme par les technologies (convergence NBIC) : si l'homme est libre de se définir, peut-il se définir en dehors de l'humain ?"
+      ]
+     },
+     {
+      "titre": "Débat 2 · Définir l'homme, est-ce exclure ?",
+      "type": "texte",
+      "paras": [
+       "**Toute définition trace une frontière.** Partager l'humanité, c'est à la fois **séparer** et **créer du commun** : on fixe ce que les hommes ont en partage, mais aussi des limites au-delà desquelles les règles ne valent plus. On crée du même et de l'autre : l'animal, le barbare, le sous-homme. Ces lignes ont varié : Grec et Barbare, homme libre et esclave, homme et femme dans l'Antiquité ; chrétien et non-chrétien ; colonisateur et colonisé à la Renaissance ; au XVIIe siècle, être fou, c'est ne pas être homme.",
+       "**Fixer une nature humaine, c'est préparer la discrimination.** Pour **Ferry**, le sexisme et le racisme supposent une essence de « la » femme, du « Noir » ou du « Juif », d'où l'on déduirait des caractères nécessaires. **Fontenay** (*Gaspard de la nuit*, 2018) montre le même danger dans toute définition par une capacité : quand **Descartes** fait de « l'à-propos » le propre de l'homme, il *« n'a pas su mettre la barre assez bas »*, et celui qui ne remplit pas le critère se trouve exclu. La formule *« Parle, et je te baptise »* résume cette logique. Le critère qui définit l'homme devient celui qui permet de trier : sous l'Occupation, des internés de l'hôpital du Vinatier, à Lyon, sont morts de faim.",
+       "**Pourtant, sans définition, on ne sait plus qui protéger.** L'**humanitaire**, qui soigne le bourreau comme la victime, veut échapper à toute définition de l'homme. Mais pour protéger l'homme, il faut savoir qui l'on protège : il retrouve un minimum, être reconnu comme **libre, conscient, égal** à ses semblables et capable de fraternité. **Bossuet** montre aussi qu'une définition peut inclure : la perfection de l'âme se mesure à la capacité de l'**espèce**, non de l'individu, si bien que le moins doué des hommes appartient pleinement à la nature humaine. À l'inverse, **Singer** (*La Libération animale*, 1975) fait dépendre la valeur des propriétés actuelles d'un être, et accepte de sacrifier le handicapé mental plutôt que le chien.",
+       "**L'humanité devient alors une décision et un devoir.** L'**humanisme abstrait** (Ferry) tient l'être humain pour respectable indépendamment de ses appartenances et de ses capacités. **Fontenay** va plus loin : il faut traiter chacun comme s'il possédait pleinement l'humanité, qui n'est plus un constat mais une exigence. Quand De Gaulle dit sur la tombe de sa fille trisomique *« Maintenant elle est comme les autres »*, elle y voit un *« désespérant aveu : la mort a réussi là où l'homme a échoué »*."
+      ]
+     },
+     {
+      "titre": "Débat 3 · La définition de l'homme est-elle un constat ou une décision ?",
+      "type": "texte",
+      "paras": [
+       "**On peut chercher à constater ce qu'est l'homme.** **Leroi-Gourhan** (*Le Geste et la Parole*, 1964) donne des critères d'humanité observables : la station verticale, la face courte, la main libre pendant la marche et l'usage d'outils, le volume du cerveau n'étant qu'un critère secondaire. **Hume** (*Traité de la nature humaine*, 1739-1740) veut fonder une science de l'homme sur l'observation et l'expérimentation, comme les sciences de la nature.",
+       "**Mais l'homme ne peut pas s'observer comme un objet neutre.** *« Nous-mêmes ne sommes pas seulement les êtres qui raisonnent, mais aussi l'un des objets sur lesquels nous raisonnons »* : l'homme est **juge et partie** (Hume). Et pour **Foucault** (*Les Mots et les Choses*, 1966), que l'homme soit un objet à connaître n'a rien d'évident : c'est le fruit d'une histoire et d'une longue construction.",
+       "**La frontière de l'humanité est décidée, et la décision est politique.** Dans *Les Animaux dénaturés* (1952) de **Vercors**, la cour d'assises ne peut pas dire si tuer un Tropi est un meurtre, faute de critère scientifique : c'est le Parlement qui tranche, en définissant l'homme comme un *« animal dénaturé »*, qui revendique une rupture avec la nature. De la définition dépendent l'esclavage, le meurtre et le droit.",
+       "**Dire ce qu'est l'homme, c'est dire ce qu'il doit être.** Pour **Wolff** (*Notre humanité*, 2010), définir l'homme est à chaque époque un **acte d'autodétermination** : une société qui se définit dessine un **devoir-être** de l'homme. L'humanité est un **concept normatif**, au point que même le crime contre l'humanité est commis au nom d'une certaine idée de ce que doit être l'humanité. **Sartre** le dit à l'échelle de l'individu : en me choisissant, je crée une image de l'homme tel que j'estime qu'il doit être, et j'engage l'humanité entière.",
+       "**Cette décision dépend d'une culture.** Pour **Descola** (*Les Formes du visible*, 2021), la frontière entre humains et non-humains n'est pas universelle : elle dépend d'une **ontologie**, et il en existe quatre (animisme, totémisme, analogisme, naturalisme). La coupure entre l'homme et le reste du vivant est propre au **naturalisme** occidental ; même le critère de Ferry, la liberté comme distance à la nature, le suppose déjà. La vraie question n'est donc plus « qu'est-ce que l'homme ? », mais « quelle humanité voulons-nous ? »."
+      ]
+     },
+     {
+      "titre": "Sujets possibles",
+      "type": "etapes",
+      "items": [
+       "L'homme a-t-il une nature ?",
+       "Y a-t-il un propre de l'homme ?",
+       "Qu'est-ce qui fait l'humanité de l'homme ?",
+       "Définir l'homme, est-ce exclure ?",
+       "Faut-il un critère de l'humanité ?",
+       "Y a-t-il des degrés d'humanité ?",
+       "L'homme est-il un animal dénaturé ?",
+       "Où s'arrête l'humanité ?",
+       "La frontière de l'humanité est-elle naturelle ou culturelle ?"
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "t2",
