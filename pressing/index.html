@@ -975,6 +975,16 @@ details.ar-mois[open] .ar-plus { display: none; }
 /* Date de l'édition un peu plus grande */
 .une-date { font-size: clamp(40px, 6.2vw, 76px); }
 
+/* Date en gras, étroite, en capitales */
+.une-date { font-size: clamp(44px, 6.6vw, 86px); line-height: 0.95; font-weight: 800; font-stretch: 68%; letter-spacing: -0.01em; text-transform: uppercase; gap: 12px; }
+.une-date .label { font-stretch: 100%; text-transform: uppercase; font-weight: 500; letter-spacing: 0.14em; }
+/* Les photos « bumpent » au survol */
+.ph img, .ec-ph img, .nl-ph img, .fd-cover img, .fd-img img, .deb-actu img { transition: transform 0.45s cubic-bezier(.2, .7, .2, 1); }
+@media (hover: hover) {
+  a:hover .ph img, a:hover .ec-ph img, a.nl-ph:hover img, .nl-row:hover .nl-ph img, a:hover .fd-cover img, a:hover .fd-img img, .fd-prod:hover .fd-img img, a:hover.deb-actu img { transform: scale(1.045); }
+}
+@media (prefers-reduced-motion: reduce) { .ph img, .ec-ph img, .nl-ph img, .fd-cover img, .fd-img img, .deb-actu img { transition: none; } a:hover .ph img, a:hover .ec-ph img, .nl-row:hover .nl-ph img { transform: none; } }
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
