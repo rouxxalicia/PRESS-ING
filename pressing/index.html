@@ -558,6 +558,11 @@ body.fs-lock { overflow: hidden; }
 .dbf-arg p { margin: 0; font-size: 16px; line-height: 1.7; }
 .dbf-arg .dbf-who { font-size: 15px; line-height: 1.5; margin-bottom: 2px; }
 .dbf .a { font-weight: 700; color: #ec5c07; }
+.ta { font-weight: 700; color: #ec5c07; }
+.tw { font-style: italic; color: #ec5c07; }
+.td { font-weight: 700; color: #38761d; white-space: nowrap; }
+.tn { font-weight: 700; color: #1155cc; }
+.te { background: var(--soft); padding: 1px 5px; border-radius: 4px; }
 .dbf .w { font-style: italic; color: #ec5c07; }
 .dbf .n { font-weight: 700; }
 .dbf .e { background: var(--soft); padding: 1px 5px; border-radius: 4px; }
@@ -1114,7 +1119,7 @@ details.ar-mois[open] .ar-plus { display: none; }
   }
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
-  function fmt(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>"); }
+  function fmt(s) { return esc(s).replace(/\[(a|d|w|n):([^\]]+)\]/g, (m, t, v) => '<span class="t' + t + '">' + v + '</span>').replace(/\{e:([^{}]+)\}/g, '<span class="te">$1</span>').replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>"); }
   function pd(d) { const [y, m, j] = d.split("-").map(Number); return new Date(y, m - 1, j); }
   function dLong(d) { const x = pd(d); return JOURS[x.getDay()] + " " + x.getDate() + " " + MOIS[x.getMonth()] + " " + x.getFullYear(); }
   function dShort(d) { const x = pd(d); return String(x.getDate()).padStart(2, "0") + "." + String(x.getMonth() + 1).padStart(2, "0") + "." + String(x.getFullYear()).slice(2); }
