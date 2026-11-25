@@ -985,6 +985,16 @@ details.ar-mois[open] .ar-plus { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .ph img, .ec-ph img, .nl-ph img, .fd-cover img, .fd-img img, .deb-actu img { transition: none; } a:hover .ph img, a:hover .ec-ph img, .nl-row:hover .nl-ph img { transform: none; } }
 
+/* Le menu latéral s'ouvre par-dessus la page : rien ne bouge */
+@media (min-width: 1000px) {
+  body, body.side-closed { padding-left: 0; padding-top: var(--topbar, 65px); }
+  body.side-closed header.top { position: fixed; top: 0; left: 0; right: 0; bottom: auto; z-index: 40; background: var(--bg); }
+  body:not(.side-closed) header.top { z-index: 50; box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.25); }
+  body:not(.side-closed)::before { content: ""; position: fixed; inset: 0; height: auto; z-index: 45; background: rgba(12, 12, 11, 0.28); }
+  .une-tabs, body.side-closed .une-tabs { top: var(--topbar, 65px); }
+  .mag2, .alire2 { scroll-margin-top: calc(var(--topbar, 65px) + 60px); }
+}
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -2237,7 +2247,7 @@ details.ar-mois[open] .ar-plus { display: none; }
   // Onglets des matières de l'édition : suivent le défilement
   function syncTabs() {
     const nav = document.querySelector(".une-tabs"); if (!nav) return;
-    const cs = getComputedStyle(document.documentElement), off = (parseInt(cs.getPropertyValue("--hdr")) || 0) + (window.innerWidth >= 1000 && document.body.classList.contains("side-closed") ? (parseInt(cs.getPropertyValue("--topbar")) || 65) : 0) + 90;
+    const cs = getComputedStyle(document.documentElement), off = (parseInt(cs.getPropertyValue("--hdr")) || 0) + (window.innerWidth >= 1000 ? (parseInt(cs.getPropertyValue("--topbar")) || 65) : 0) + 90;
     let cur = null; nav.querySelectorAll("[data-goto]").forEach(b => { const s = document.getElementById(b.dataset.goto); if (s && s.getBoundingClientRect().top <= off) cur = b; });
     nav.querySelectorAll("[data-goto]").forEach(b => b === cur ? b.setAttribute("aria-current", "true") : b.removeAttribute("aria-current"));
   }
@@ -2327,6 +2337,13 @@ details.ar-mois[open] .ar-plus { display: none; }
   }
   setSide(true);
   if (sideBtn) sideBtn.addEventListener("click", () => setSide(!document.body.classList.contains("side-closed")));
+  // menu ouvert : un clic à côté ou sur un lien le referme
+  document.addEventListener("click", e => {
+    if (document.body.classList.contains("side-closed") || window.innerWidth < 1000) return;
+    if (e.composedPath().some(n => n && n.id === "side-toggle") || !e.target.isConnected) return;
+    if (!e.target.closest("header.top") || e.target.closest("header.top a")) setSide(true);
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !document.body.classList.contains("side-closed")) setSide(true); });
   function sideFavs() {
     const el = document.getElementById("side-favs"); if (!el) return;
     const top = dossiers.filter(d => !d.includes("/")).slice(0, 8);
