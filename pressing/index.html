@@ -374,6 +374,14 @@ button.lien:hover .lien-nom, button.lien:hover .lien-arr { color: var(--accent);
 .editrice { margin-top: 40px; padding: 22px; background: var(--soft); border-radius: 18px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
 .editrice .search { background: var(--bg); padding: 0 12px; border: 1px solid var(--line); border-radius: 10px; }
 .cg-dossier { margin-top: 12px; }
+.def-cours { margin-top: 36px; }
+.def-cours > h2 { border-bottom: 1px solid var(--fg); padding-bottom: 10px; margin: 0; }
+.def-partie h3 { font-stretch: 112%; font-weight: 600; font-size: 17px; margin: 26px 0 4px; }
+.def-partie dl { margin: 0; }
+.def { padding-block: 13px; border-bottom: 1px solid var(--line); }
+.def dt { font-weight: 600; font-size: 15.5px; color: var(--accent); }
+.def dt .label { font-weight: 400; margin-left: 6px; color: var(--muted); }
+.def dd { margin: 4px 0 0; line-height: 1.55; }
 .dossier-tag { color: var(--accent); margin-left: 8px; white-space: nowrap; }
 .enjeu h2 a:hover { color: var(--accent); }
 .lieu { margin: -6px 0 0; color: var(--muted); font-size: 13.5px; }
@@ -1356,6 +1364,7 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
       if (themes.length) h += '<section class="sec"><h2 class="label">Les thèmes</h2><div class="cg-grid">' + themes.map(e => { const n = cg.refs.filter(x => (x.enjeux || []).includes(e.id)).length; return '<a class="cg-tile" href="#' + base + '/e/' + e.id + '"><span class="n"></span><span class="t">' + esc(e.nom) + '<span class="d">' + esc(e.question || '') + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div></section><section class="sec"><h2 class="label">Les références</h2>';
       h += '<div class="cg-grid">' + cg.rubriques.map((r, i) => { const n = cg.refs.filter(x => x.rub === r.id).length; return '<a class="cg-tile" href="#' + base + '/' + r.id + '"><span class="n">' + ["I","II","III","IV","V","VI"][i] + '</span><span class="t">' + esc(r.nom) + '<span class="d">' + esc(r.desc) + '</span></span><span class="label muted">' + n + '</span></a>'; }).join("") + '</div>' + (themes.length ? '</section>' : '');
       h += '<a class="cg-enjeux" href="#' + base + '/enjeux"><span><span class="label muted">Partir d\'un sujet</span><strong>' + (isPeak ? 'Les références par enjeu' : 'Les références par thème') + '</strong><span class="muted" style="font-size:14px">' + cg.enjeux.length + (isPeak ? ' enjeux' : ' thèmes') + '</span></span><span class="label">→</span></a>' +
+        (isPeak ? '' : '<a class="cg-enjeux cg-dossier" href="#cg/definitions"><span><span class="label muted">Le vocabulaire</span><strong>Les définitions</strong><span class="muted" style="font-size:14px">Toutes les notions des cours de philo et de lettres</span></span><span class="label">→</span></a>') +
         (isPeak ? '' : '<a class="cg-enjeux cg-dossier" href="#cg/cartes"><span><span class="label muted">Réviser</span><strong>Cartes mentales</strong><span class="muted" style="font-size:14px">Les cartes du thème</span></span><span class="label">→</span></a>') +
         cg.enjeux.filter(e => e.dossier && !e.code).map(e => '<a class="cg-enjeux cg-dossier" href="#' + base + '/e/' + e.id + '"><span><span class="label muted">Dossier</span><strong>' + esc(e.nom) + '</strong><span class="muted" style="font-size:14px">Les notions, les auteurs, les objections</span></span><span class="label">→</span></a>').join("") + (nCache && EDIT() ? '<p class="label muted" style="margin-top:28px">' + nCache + ' référence' + (nCache > 1 ? 's' : '') + ' supprimée' + (nCache > 1 ? 's' : '') + ' · <button type="button" class="more" data-retablir="' + (isPeak ? 'cgp' : 'cg') + '">Tout rétablir</button></p>' : '') + '</div>';
       app.innerHTML = h; return;
@@ -1367,6 +1376,25 @@ body.fd-dragging, body.fd-dragging * { cursor: grabbing !important; }
         return '<section class="enjeu"><h2>' + (e.dossier || e.code || isPeak ? '<a href="#' + base + '/e/' + e.id + '">' + esc(e.nom) + ' <span class="label dossier-tag">' + (e.code ? 'Thème' : isPeak ? 'Enjeu' : 'Dossier') + ' →</span></a>' : esc(e.nom)) + '</h2>' + rubs.map(r => { const l = rs.filter(x => x.rub === r.id); return l.length ? '<div class="enjeu-row"><span class="label muted">' + esc(r.nom.replace(/^Les /, "")) + '</span><span>' + l.map(x => '<a href="#' + base + '/f/' + x.id + '">' + esc(x.titre) + '</a>').join('<span class="sep">·</span>') + '</span></div>' : ""; }).join("") +
           (rs.some(x => x.rub === "dissertations") ? '<div class="enjeu-row"><span class="label muted">Sujets</span><span>' + rs.filter(x => x.rub === "dissertations").map(x => esc(x.titre)).join('<span class="sep">·</span>') + '</span></div>' : "") + '</section>'; }).join("");
       app.innerHTML = h + '</div>'; return;
+    }
+    if (parts[0] === "definitions") {
+      if (!state.cgDefs) state.cgDefs = await getJSON("data/cg/definitions.json");
+      const D = state.cgDefs, cur = parts[1] || "tout";
+      const all = D.cours.reduce((n, c) => n + c.parties.reduce((m, p) => m + p.defs.length, 0), 0);
+      let h = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">' + all + ' définitions</span><h1>' + esc(D.titre) + '</h1><p class="muted" style="margin:4px 0 0">' + esc(D.desc) + '</p></div>';
+      h += '<nav class="subtabs label" aria-label="Cours"><a href="#cg/definitions"' + (cur === "tout" ? ' aria-current="page"' : '') + '>Tout</a>' + D.cours.map(c => '<a href="#cg/definitions/' + c.id + '"' + (cur === c.id ? ' aria-current="page"' : '') + '>' + esc(c.nom) + '</a>').join("") + '</nav>';
+      h += '<input class="search" id="def-q" type="search" placeholder="Chercher une notion : plasticité, télos, néoténie…" autocomplete="off"><p class="muted" id="def-vide" hidden>Aucune définition ne correspond.</p>';
+      D.cours.filter(c => cur === "tout" || c.id === cur).forEach(c => {
+        h += '<section class="def-cours"><h2 class="label">' + esc(c.source) + '</h2>' + c.parties.map(p => '<div class="def-partie"><h3>' + esc(p.titre) + '</h3><dl>' + p.defs.map(d => '<div class="def"><dt>' + esc(d.terme) + (d.auteur ? ' <span class="label muted">' + esc(d.auteur) + '</span>' : '') + '</dt><dd>' + esc(d.def) + '</dd></div>').join("") + '</dl></div>').join("") + '</section>';
+      });
+      app.innerHTML = h + '</div>';
+      const q = document.getElementById("def-q"), norm = x => x.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      q.addEventListener("input", () => { const v = norm(q.value.trim()); let n = 0;
+        app.querySelectorAll(".def").forEach(el => { const ok = !v || norm(el.textContent).includes(v); el.hidden = !ok; if (ok) n++; });
+        app.querySelectorAll(".def-partie").forEach(el => { el.hidden = !el.querySelector(".def:not([hidden])"); });
+        app.querySelectorAll(".def-cours").forEach(el => { el.hidden = !el.querySelector(".def-partie:not([hidden])"); });
+        document.getElementById("def-vide").hidden = n > 0; });
+      return;
     }
     if (parts[0] === "cartes") {
       app.innerHTML = '<div class="narrow">' + back("#cg", cg.theme) + '<div class="page-head"><span class="label muted">Culture générale</span><h1>Cartes mentales</h1></div><div class="empty"><p>Pas encore de carte.</p><p class="muted">Les cartes du thème « L\'Humanité » arriveront ici.</p></div></div>';
