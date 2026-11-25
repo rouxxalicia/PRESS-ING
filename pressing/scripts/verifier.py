@@ -24,7 +24,6 @@ axios.com theatlantic.com elpais.com elmundo.es abc.es lavanguardia.com eldiario
 europapress.es efe.com expansion.com clarin.com lanacion.com.ar eluniversal.com.mx eltiempo.com latercera.com
 tagesschau.de zdf.de dw.com spiegel.de zeit.de faz.net sueddeutsche.de handelsblatt.com welt.de tagesspiegel.de
 taz.de nzz.ch derstandard.at diepresse.com""".split()
-IMAGE_HOSTS = ["upload.wikimedia.org", "images.unsplash.com"]
 
 
 def host(url):
@@ -169,14 +168,21 @@ def photo_nom(url):
 
 
 def check_image(url):
-    import urllib.request
-    try:
-        req = urllib.request.Request(url, method="GET", headers={"User-Agent": "IndexPrepa/1.0 (verificateur)", "Range": "bytes=0-1023"})
-        with urllib.request.urlopen(req, timeout=20) as r:
-            ct = r.headers.get("Content-Type", "")
-            return None if ct.startswith("image/") else f"ce n'est pas une image ({ct or 'type inconnu'})"
-    except Exception as e:
-        return str(getattr(e, "code", "") or e)[:80]
+    import os, ssl, urllib.request
+    ctx = ssl.create_default_context(cafile="/etc/ssl/cert.pem") if os.path.exists("/etc/ssl/cert.pem") else None
+    ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    for method, extra in (("HEAD", {}), ("GET", {"Range": "bytes=0-1023"}), ("GET", {})):
+        try:
+            req = urllib.request.Request(url, method=method, headers={"User-Agent": ua, **extra})
+            with urllib.request.urlopen(req, timeout=20, context=ctx) as r:
+                ct = r.headers.get("Content-Type", "")
+                if ct.startswith("image/"):
+                    return None
+                if method != "HEAD":
+                    return f"ce n'est pas une image ({ct or 'type inconnu'})"
+        except Exception as e:
+            err = str(getattr(e, "code", "") or e)[:80]
+    return err
 
 
 photos_vues = set()
@@ -216,21 +222,22 @@ for c in cards:
     if not img:
         errors.append(f"{cid} : pas de photo — chaque carte DOIT avoir une photo (voir « Photos » dans CONSIGNES.md)")
     else:
-        if not allowed(str(img.get("url", "")), IMAGE_HOSTS):
-            errors.append(f"{cid} : photo hors Wikimedia Commons / Unsplash ({host(str(img.get('url', '')))})")
+        img_url = str(img.get("url", ""))
+        if not img_url.startswith("https://"):
+            errors.append(f"{cid} : l'URL de la photo doit commencer par https:// ({img_url[:60]})")
         for k in ("alt", "credit", "source"):
             if not img.get(k):
                 errors.append(f"{cid} : photo sans {k}")
-        fic = photo_nom(str(img.get("url", "")))
+        fic = photo_nom(img_url)
         if fic in photos_vues:
             errors.append(f"{cid} : même photo qu'une autre carte de l'édition ({fic})")
         photos_vues.add(fic)
         if fic in photos_recentes:
-            errors.append(f"{cid} : photo déjà utilisée le {photos_recentes[fic]} — trouve une photo propre à cet article (python3 scripts/photos.py \"mots-clés\")")
+            errors.append(f"{cid} : photo déjà utilisée le {photos_recentes[fic]} — trouve une photo propre à cet article")
         if "--sans-liens" not in sys.argv:
-            pb = check_image(str(img.get("url", "")))
+            pb = check_image(img_url)
             if pb:
-                errors.append(f"{cid} : photo inaccessible ({pb}) — reprends l'adresse donnée par scripts/photos.py")
+                errors.append(f"{cid} : photo inaccessible ({pb}) — utilise python3 scripts/photos.py --url \"...\" ou le secours Wikimedia")
     if len(c.get("sujets", [])) < 2:
         errors.append(f"{cid} : il faut 2 sujets")
     if len(str(c.get("faits", ""))) < 300 or len(str(c.get("enjeux", ""))) < 300:

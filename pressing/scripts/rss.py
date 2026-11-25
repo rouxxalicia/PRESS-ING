@@ -154,6 +154,41 @@ def parse_date(raw):
         return None
 
 
+BAD_IMG_RE = re.compile(r"(?:1x1|pixel|spacer|blank|favicon|feedburner|doubleclick|scorecardresearch|logo[-_]?(?:default|placeholder)?\.(?:png|svg))", re.I)
+
+
+def extract_rss_image(it, raw_desc=""):
+    """Extrait l'URL d'image principale d'un item RSS/Atom (media:content, media:thumbnail, enclosure, img)."""
+    candidates = []
+    for tag in (
+        "{http://search.yahoo.com/mrss/}content",
+        "{http://search.yahoo.com/mrss/}thumbnail",
+        "enclosure",
+    ):
+        for el in it.findall(tag):
+            u = (el.attrib.get("url") or "").strip()
+            if not u.startswith("http"):
+                continue
+            t = (el.attrib.get("type") or "").lower()
+            m = (el.attrib.get("medium") or "").lower()
+            if tag == "enclosure" and t and not t.startswith("image/"):
+                continue
+            if m and m != "image" and not t.startswith("image/"):
+                continue
+            candidates.append(u)
+    if raw_desc:
+        for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\']', raw_desc, re.I):
+            u = html.unescape(m.group(1).strip())
+            if u.startswith("http"):
+                candidates.append(u)
+    for u in candidates:
+        if u.startswith("http://"):
+            u = "https://" + u[7:]
+        if not BAD_IMG_RE.search(u):
+            return u
+    return ""
+
+
 def fetch_feed(args):
     mat, source, url = args
     try:
@@ -181,11 +216,13 @@ def fetch_feed(args):
 
         title = clean_text(get_tag("title", "{http://purl.org/rss/1.0/}title", "{http://www.w3.org/2005/Atom}title"))
         link = clean_text(get_tag("link", "{http://purl.org/rss/1.0/}link", "{http://www.w3.org/2005/Atom}link"))
-        desc = clean_text(get_tag(
+        raw_desc = get_tag(
             "description",
             "{http://purl.org/rss/1.0/}description",
             "{http://www.w3.org/2005/Atom}summary",
-        ))
+        )
+        desc = clean_text(raw_desc)
+        img = extract_rss_image(it, raw_desc)
         pub = get_tag(
             "pubDate",
             "{http://purl.org/dc/elements/1.1/}date",
@@ -200,6 +237,7 @@ def fetch_feed(args):
             "titre": title,
             "desc": desc[:190] + ("…" if len(desc) > 190 else ""),
             "url": link.split("#")[0],
+            "image": img,
             "dt": parse_date(pub),
         })
     return out
@@ -285,6 +323,8 @@ def formater(data):
             if it["desc"]:
                 lignes.append(f"    {it['desc']}")
             lignes.append(f"    {it['url']}")
+            if it.get("image"):
+                lignes.append(f"    Image: {it['image']}")
     return "\n".join(lignes)
 
 

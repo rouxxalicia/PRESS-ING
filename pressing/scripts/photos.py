@@ -1,20 +1,21 @@
-"""Cherche des photos libres de droits sur Wikimedia Commons pour une carte.
+"""Récupère la vraie photo d'un article de presse (comme PeakNews) ou cherche en secours sur Wikimedia Commons.
 
-Usage : python3 scripts/photos.py "mots-clés en anglais" [--n 8] [--portrait]
+Usage :
+  python3 scripts/photos.py --url "https://www.lemonde.fr/..."
+  python3 scripts/photos.py "mots-clés en anglais" [--n 8] [--portrait]
 
-Exemples :
-  python3 scripts/photos.py "rare earth processing plant"
-  python3 scripts/photos.py "Zocalo Mexico City"
-  python3 scripts/photos.py "container ship port Valencia"
+Mode prioritaire (--url) :
+  Extrait l'image principale de l'article (og:image / twitter:image / JSON-LD),
+  vérifie qu'elle est accessible en HTTPS et affiche l'objet "image" prêt à copier.
 
-Affiche les meilleures photos trouvées (horizontales, assez grandes, pas de logo,
-de carte ni de schéma), avec leur description et l'objet "image" prêt à copier
-dans la carte. Signale les photos déjà utilisées dans les éditions récentes.
+Mode secours (mots-clés) :
+  Cherche sur Wikimedia Commons si l'article n'a pas de photo exploitable.
 Internet nécessaire.
 """
 import html
 import json
 import re
+import subprocess
 import sys
 import urllib.parse
 import urllib.request
@@ -24,7 +25,9 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "IndexPrepa/1.0 (revue de presse etudiante; https://rouxxalicia.github.io/PRESS-ING/)"
+BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 EXCLURE = re.compile(r"\b(logo|map|carte|karte|mapa|diagram|chart|graph|plan|coat of arms|blason|wappen|escudo|icon|seal|signature|screenshot|poster|affiche)\b", re.I)
+BAD_PRESS_IMG = re.compile(r"(?:favicon|default[-_]?og|og[-_]?default|placeholder|sprite|1x1|pixel|blank\.(?:png|gif)|apple-touch-icon|logo[-_.]\w*\.(?:png|svg|jpg))", re.I)
 
 
 def texte(s, n=160):
@@ -103,9 +106,93 @@ def chercher(q, n, portrait):
     return res
 
 
+def _meta_content(page_html, attr, val):
+    for pat in (
+        rf'<meta[^>]+{attr}=["\']{val}["\'][^>]+content=["\']([^"\']+)["\']',
+        rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]+{attr}=["\']{val}["\']',
+    ):
+        m = re.search(pat, page_html, re.I)
+        if m:
+            return html.unescape(m.group(1).strip())
+    return ""
+
+
+def _verifier_url_image(url):
+    r = subprocess.run(
+        ["curl", "-sIL", "--max-time", "10", "-A", BROWSER_UA, url],
+        capture_output=True, text=True,
+    )
+    if r.returncode != 0:
+        return False
+    headers = r.stdout.lower()
+    return "content-type: image/" in headers and bool(re.search(r"http/\S+\s+(?:200|206)\b", headers))
+
+
+def photo_article(article_url):
+    """Extrait l'image principale d'un article de presse (og:image / twitter:image / JSON-LD)."""
+    r = subprocess.run(
+        ["curl", "-sL", "--max-time", "12", "-A", BROWSER_UA, article_url],
+        capture_output=True, text=True, errors="replace",
+    )
+    if r.returncode != 0 or not r.stdout:
+        return None, "impossible de télécharger la page de l'article"
+    page = r.stdout
+    candidates = []
+    for attr, val in (
+        ("property", "og:image:secure_url"),
+        ("property", "og:image"),
+        ("name", "twitter:image:src"),
+        ("name", "twitter:image"),
+    ):
+        u = _meta_content(page, attr, val)
+        if u:
+            candidates.append(u)
+    for m in re.finditer(r'"image"\s*:\s*(?:\[\s*)?"(https?://[^"]+)"', page):
+        candidates.append(html.unescape(m.group(1)))
+
+    site = _meta_content(page, "property", "og:site_name")
+    if not site:
+        h = (urllib.parse.urlparse(article_url).hostname or "").lower()
+        site = h.removeprefix("www.")
+
+    vues = deja_utilisees()
+    for u in candidates:
+        u = urllib.parse.urljoin(article_url, u)
+        if u.startswith("http://"):
+            u = "https://" + u[7:]
+        if not u.startswith("https://") or BAD_PRESS_IMG.search(u):
+            continue
+        if _verifier_url_image(u):
+            deja = vues.get(nom_fichier(u))
+            return {
+                "deja_utilisee": deja,
+                "image": {
+                    "url": u,
+                    "alt": "",
+                    "credit": site or "Presse",
+                    "source": article_url,
+                },
+            }, None
+    return None, "aucune image d'article exploitable trouvée (protégée ou absente)"
+
+
 def main():
     args = sys.argv[1:]
-    if not args or args[0].startswith("-"):
+    if not args:
+        print(__doc__)
+        sys.exit(1)
+    if args[0] in ("--url", "--article") and len(args) >= 2:
+        res, err = photo_article(args[1])
+        if err:
+            print(f"Pas de photo exploitable sur cet article ({err}).")
+            print('Utilise le mode secours : python3 scripts/photos.py "mots-clés en anglais"')
+            sys.exit(1)
+        if res["deja_utilisee"]:
+            print(f"⚠ Photo déjà utilisée le {res['deja_utilisee']}")
+        print("Photo de l'article trouvée — copie cet objet dans \"image\" et écris un \"alt\" en français :\n")
+        print(json.dumps(res["image"], ensure_ascii=False))
+        return
+    if args[0].startswith("-"):
         print(__doc__)
         sys.exit(1)
     q = args[0]
