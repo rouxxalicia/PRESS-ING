@@ -8250,6 +8250,618 @@
           ]
         }
       ]
+    },
+    {
+      "id": "refonder-entreprise-segrestin-hatchuel",
+      "nom": "Refonder l'entreprise et dépasser la gouvernance actionnariale",
+      "categorie": "croissance",
+      "type": "Théorie",
+      "annee": "2012",
+      "auteur": "Blanche Segrestin et Armand Hatchuel",
+      "accroche": "L'entreprise ne se réduit pas à un contrat au service des actionnaires : elle est un projet collectif créateur d'innovations qui doit protéger l'intérêt des parties prenantes.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Blanche Segrestin et Armand Hatchuel**, *Refonder l'entreprise* (2012).",
+            "Face à la montée des rachats par effet de levier (LBO) et de la **valeur actionnariale**, les deux chercheurs des Mines ParisTech rappellent que le droit français ne confond pas la société commerciale (propriété des associés) avec l'entreprise (organisation productive collective)."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Sous l'influence de la **théorie de l'agence** (Jensen et Meckling, 1976), les dirigeants sont incités par des bonus ou des « management packages » à maximiser la rentabilité financière à court terme.",
+            "Cette pression court-termiste favorise le désendettement rapide, la compression des coûts et les dividendes au détriment de la R&D, des compétences et des conditions de travail.",
+            "Segrestin et Hatchuel proposent de reconnaître juridiquement l'**objet social** et les **parties prenantes** (salariés, territoires, environnement) via un statut d'entreprise à mission."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La gouvernance purement actionnariale détruit les capacités d'**innovation** de long terme lorsqu'elle soumet l'entreprise à des objectifs de profit immédiat. Cette thèse a inspiré la création en France de la « **société à mission** » par la loi PACTE de 2019."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Adolf Berle et Gardiner Means (1932)",
+              "d": "Analysent la **séparation entre propriété et contrôle** dans la grande firme managériale."
+            },
+            {
+              "t": "R. Edward Freeman (1984)",
+              "d": "La théorie des **parties prenantes** (stakeholders) élargit la responsabilité de la firme au-delà des seuls actionnaires."
+            },
+            {
+              "t": "La codétermination allemande",
+              "d": "La *Mitbestimmung* associe les représentants des salariés aux conseils de surveillance des grandes entreprises."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Sans incitation financière claire ni sanction du marché, la multiplication d'objectifs extra-financiers risque de diluer la responsabilité des dirigeants et de freiner la réallocation du capital vers les secteurs les plus productifs."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les rachats par effet de levier (LBO)",
+              "d": "Pression accrue sur la trésorerie et hausse du risque de défaillance pour rembourser la dette d'acquisition."
+            },
+            {
+              "t": "Le partage de la valeur ajoutée",
+              "d": "Recul de la part salariale dans la valeur ajoutée sous l'effet de la gouvernance actionnariale."
+            },
+            {
+              "t": "La loi PACTE et la RSE",
+              "d": "Débat sur l'efficacité des engagements volontaires face aux contraintes de rentabilité."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Karl Polanyi (1944)",
+              "idee": "le marché et la firme doivent être réencastrés dans les normes sociales"
+            },
+            {
+              "sens": "=",
+              "nom": "Adolf Berle et Gardiner Means (1932)",
+              "idee": "constatent la divergence d'intérêts liée à la séparation propriété-contrôle"
+            },
+            {
+              "sens": "≠",
+              "nom": "Michael Jensen et William Meckling (1976)",
+              "idee": "aligner le dirigeant sur l'actionnaire par des incitations financières réduit les coûts d'agence"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1970)",
+              "idee": "la seule responsabilité sociale de l'entreprise est d'accroître ses profits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peche-originel-eichengreen-hausmann",
+      "nom": "Péché originel et vulnérabilité financière des émergents",
+      "categorie": "monnaie",
+      "type": "Notion",
+      "annee": "1999",
+      "auteur": "Barry Eichengreen et Ricardo Hausmann",
+      "accroche": "Un pays qui ne peut emprunter à l'étranger dans sa propre monnaie voit le poids de sa dette exploser dès que sa devise se déprécie.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Barry Eichengreen et Ricardo Hausmann**, *« Exchange Rates and Financial Fragility »* (1999).",
+            "Les deux économistes montrent pourquoi les économies émergentes et en développement subissent des crises de dette récurrentes, même lorsque leurs déficits budgétaires paraissent modérés."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Par manque de crédibilité monétaire et de profondeur des marchés locaux, les investisseurs étrangers refusent de prêter dans la devise du pays émergent.",
+            "L'État et les entreprises doivent s'endetter en **devises étrangères** (principalement en **dollars**), créant une asymétrie de devises (*currency mismatch*) entre dettes en dollars et recettes fiscales ou domestiques en monnaie locale.",
+            "Dès qu'un choc provoque une **dépréciation** du taux de change ou un arrêt brutal des capitaux (*sudden stop*), la valeur de la dette exprimée en monnaie nationale s'envole et précipite le **défaut souverain**."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "L'endettement extérieur des pays émergents comporte un risque de change systémique que les pays émetteurs de monnaies de réserve (comme les États-Unis et leur **privilège exorbitant**) ne connaissent pas. Cela explique pourquoi les pays émergents interviennent souvent pour stabiliser leur change (« **fear of floating** »)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Guillermo Calvo et Carmen Reinhart (2002)",
+              "d": "Le *fear of floating* pousse les banques centrales émergentes à défendre leur devise malgré un régime officiellement flottant."
+            },
+            {
+              "t": "Barry Eichengreen (2011)",
+              "d": "Le **privilège exorbitant** permet aux États-Unis d'emprunter dans leur propre monnaie à faible coût."
+            },
+            {
+              "t": "Reinhart et Rogoff (2009)",
+              "d": "L'« intolérance à la dette » montre que les pays émergents entrent en défaut à des ratios dette/PIB plus bas que les pays avancés."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Plusieurs grands émergents (Brésil, Mexique, Indonésie) ont réduit leur « péché originel » dans les années 2000-2020 en développant des marchés obligataires en **monnaie locale** et en accumulant d'importantes **réserves de change**."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les crises de dette en Amérique latine",
+              "d": "Venezuela, Argentine ou Équateur face au poids d'une dette libellée en dollars."
+            },
+            {
+              "t": "Le resserrement monétaire de la Fed",
+              "d": "La hausse des taux américains apprécie le dollar et alourdit la charge de la dette des pays en développement."
+            },
+            {
+              "t": "Le rôle du FMI",
+              "d": "Intervention en prêteur en dernier ressort international lors des crises de balance des paiements."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Guillermo Calvo et Carmen Reinhart (2002)",
+              "idee": "le péché originel explique la peur du flottement chez les émergents"
+            },
+            {
+              "sens": "=",
+              "nom": "Daron Acemoglu et James Robinson (2012)",
+              "idee": "la faiblesse des institutions aggrave l'instabilité financière et monétaire"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1953)",
+              "idee": "les changes flexibles isolent en principe une économie des chocs extérieurs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cout-unitaire-fmn-berger",
+      "nom": "Coût unitaire du travail et stratégies des firmes multinationales",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "2006",
+      "auteur": "Suzanne Berger",
+      "accroche": "Les entreprises ne délocalisent pas vers les pays aux salaires les plus bas, mais là où le rapport entre salaire, productivité et qualité des institutions est le plus favorable.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Suzanne Berger**, *Made in Monde. Les nouvelles frontières de l'économie mondiale* (2006).",
+            "À partir d'une vaste enquête internationale du MIT auprès de centaines d'entreprises industrielles et de services, la politiste américaine démonte l'idée simpliste d'un exode automatique des emplois vers les pays à très bas salaires."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les firmes arbitrent en fonction du **coût unitaire du travail** (coût salarial rapporté à la productivité), et non du seul salaire horaire.",
+            "Grâce à la **modularisation** des processus productifs, les entreprises décomposent leurs tâches (conception, fonctions support, fabrication) pour externaliser ou délocaliser les segments standardisables.",
+            "La localisation finale dépend aussi des coûts cachés : délais logistiques, protection des droits de propriété, maîtrise linguistique, qualité des infrastructures et proximité des marchés."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La compétitivité d'un territoire ne se résume pas au niveau des salaires : des pays européens à coûts intermédiaires (comme le Portugal ou l'Europe centrale) ou des bassins très productifs captent des activités de services ou d'industrie à forte valeur ajoutée. À l'inverse, l'éclatement des **chaînes de valeur** rend les firmes vulnérables aux ruptures d'approvisionnement."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Elhanan Helpman, Marc Melitz et Stephen Yeaple (2004)",
+              "d": "Seules les firmes les plus productives supportent les coûts fixes de l'**investissement direct à l'étranger** (IDE)."
+            },
+            {
+              "t": "Richard Baldwin (2016)",
+              "d": "La « grande convergence » résulte de la combinaison entre technologie du Nord et main-d'œuvre moins chère du Sud ou de la périphérie."
+            },
+            {
+              "t": "John Dunning (paradigme OLI)",
+              "d": "La multinationalisation repose sur trois avantages : spécifique (*Ownership*), de localisation (*Location*) et d'internalisation (*Internalization*)."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Même lorsque les délocalisations obéissent à une logique d'efficacité productive ou visent des pays partenaires de l'Union européenne, elles entraînent des pertes d'emplois localisées et un affaiblissement du pouvoir de négociation des salariés dans les pays d'origine."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les délocalisations de services (centres RH, informatique)",
+              "d": "Implantation de hubs européens au Portugal, en Pologne ou en Espagne plutôt que dans des pays à très bas coûts."
+            },
+            {
+              "t": "Le débat sur la compétitivité française",
+              "d": "Baisser le coût du travail ne suffit pas si la productivité et la montée en gamme font défaut."
+            },
+            {
+              "t": "Les stratégies de nearshoring",
+              "d": "Rapprochement des chaînes de valeur après les crises géopolitiques et sanitaires."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Michael Porter (1985)",
+              "idee": "la compétitivité repose sur l'organisation de la chaîne de valeur et les facteurs hors-prix"
+            },
+            {
+              "sens": "=",
+              "nom": "Elhanan Helpman, Marc Melitz et Stephen Yeaple (2004)",
+              "idee": "la productivité des firmes détermine leur capacité à s'internationaliser"
+            },
+            {
+              "sens": "≠",
+              "nom": "David Ricardo (1817)",
+              "idee": "le commerce repose sur les avantages comparatifs immobiles entre nations plutôt que sur la mobilité des firmes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retorsion-commerciale-smith",
+      "nom": "Protectionnisme de rétorsion",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "1776",
+      "auteur": "Adam Smith",
+      "accroche": "Le père du libre-échange admet des droits de douane de représailles lorsqu'ils visent à contraindre un partenaire à rouvrir son marché.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Adam Smith**, *Recherches sur la nature et les causes de la richesse des nations* (1776), livre IV, chapitre 2.",
+            "Tout en fondant la défense moderne du **libre-échange** sur les **avantages absolus** et la **division internationale du travail**, Smith identifie deux exceptions légitimes aux restrictions douanières : la défense nationale (comme les *Navigation Acts* britanniques) et la **rétorsion commerciale** face aux barrières d'un État étranger."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un État partenaire impose des **droits de douane** ou des prohibitions pour protéger ses producteurs et fermer son marché.",
+            "Le pays lésé instaure des **surtaxes de représailles** ciblées pour infliger un coût politique et économique aux exportateurs du partenaire.",
+            "Si la menace est crédible, le gouvernement étranger accepte de négocier un **désarmement tarifaire** mutuel afin d'éviter des pertes durables.",
+            "À l'inverse, si aucun camp ne cède, la rétorsion dégénère en **guerre commerciale** et détruit les gains de spécialisation des deux pays."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Même les classiques les plus libéraux ne défendent pas un **libre-échange naïf** ou unilatéral face à un partenaire qui fausse les règles : la **réciprocité** et la dissuasion tarifaire peuvent servir à défendre l'ouverture des marchés. Mais cette arme est à double tranchant : elle ne se justifie que si elle reste **temporaire** et aboutit à une baisse des barrières."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le mécanisme de règlement des différends de l'OMC",
+              "d": "L'OMC encadre les **mesures de rétorsion** autorisées pour éviter l'escalade unilatérale entre États."
+            },
+            {
+              "t": "Le dilemme du prisonnier commercial",
+              "d": "En théorie des jeux, chaque pays a intérêt à imposer des tarifs si l'autre le fait, menant à un **équilibre sous-optimal** de protection généralisée."
+            },
+            {
+              "t": "Charles Kindleberger (1973)",
+              "d": "L'escalade des droits de douane après le tarif américain **Hawley-Smoot** (1930) a contracté le commerce mondial de près des deux tiers."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Smith souligne lui-même la difficulté pratique : il appartient à « l'habileté de l'homme d'État » de juger si la rétorsion a des chances de faire plier le partenaire. Dans les faits, les droits de douane créent des **rentes** difficiles à supprimer et pénalisent d'abord les consommateurs nationaux ainsi que les entreprises importatrices d'intrants."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les tensions tarifaires États-Unis – Chine",
+              "d": "Chaque vague de surtaxes américaines entraîne des menaces de représailles chinoises ciblant l'agriculture ou les industries américaines."
+            },
+            {
+              "t": "La doctrine européenne de réciprocité",
+              "d": "L'UE se dote d'un instrument anti-coercition et de droits compensateurs sur les véhicules électriques subventionnés."
+            },
+            {
+              "t": "La crise des années 1930",
+              "d": "L'illustration historique du dérapage de représailles en cascade qui aggravent la dépression mondiale."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "David Ricardo (1817)",
+              "idee": "Prolonge l'argument du libre-échange par les avantages comparatifs et souligne le coût global du protectionnisme."
+            },
+            {
+              "sens": "=",
+              "nom": "Charles Kindleberger (1973)",
+              "idee": "Montre comment les représailles tarifaires sans leadership stabilisateur déclenchent une contraction cumulative des échanges."
+            },
+            {
+              "sens": "≠",
+              "nom": "Friedrich List (1841)",
+              "idee": "Justifie la protection douanière non par la rétorsion, mais pour protéger durablement les industries naissantes."
+            },
+            {
+              "sens": "≠",
+              "nom": "James Brander et Barbara Spencer (1985)",
+              "idee": "En concurrence imparfaite, une intervention publique offensive peut capter des rentes stratégiques même sans rétorsion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paradigme-oli-dunning",
+      "nom": "Paradigme OLI (avantage de localisation)",
+      "categorie": "commerce",
+      "type": "Modèle",
+      "annee": "1981",
+      "auteur": "John Dunning",
+      "accroche": "Une entreprise n'investit à l'étranger que si elle cumule un avantage spécifique (O), un attrait du pays d'accueil (L) et un intérêt à internaliser (I).",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**John Dunning**, *International Production and the Multinational Enterprise* (1981).",
+            "Face à l'essor des **firmes multinationales** (FMN), Dunning synthétise les théories antérieures de l'organisation industrielle (Stephen Hymer), de l'économie géographique et des coûts de transaction (Ronald Coase, Oliver Williamson) dans un cadre unifié appelé le **paradigme éclectique** ou modèle **OLI**."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "**O (Ownership)** : la firme détient un **avantage spécifique** transférable (technologie, brevet, marque, maîtrise des coûts) qui compense son handicap d'étrangère sur le marché local.",
+            "**L (Location)** : le pays d'accueil offre un **avantage de localisation** (taille du marché, salaires, infrastructures, aides publiques ou contournement de **droits de douane**).",
+            "**I (Internalisation)** : la firme a intérêt à produire elle-même via une filiale plutôt que de céder une licence ou de sous-traiter, afin de protéger son savoir-faire et réduire les **coûts de transaction**.",
+            "Si seul O est réuni, l'entreprise cède une licence ; si O et I le sont sans L, elle exporte ; si les trois conditions O, L et I sont réunies, elle réalise un **investissement direct à l'étranger** (IDE)."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Ce modèle explique pourquoi les multinationales choisissent d'ouvrir ou de racheter des usines dans un pays donné plutôt que d'y exporter depuis leur base d'origine. Il éclaire directement les politiques d'**attractivité économique** : en modifiant l'avantage L (fiscalité, normes « Made in Europe », barrières douanières), un État peut attirer des **IDE productifs** créateurs d'emplois."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "IDE horizontaux vs verticaux",
+              "d": "L'IDE horizontal vise l'accès au marché et le contournement tarifaire ; l'IDE vertical fragmente la chaîne de valeur selon les coûts."
+            },
+            {
+              "t": "Stephen Hymer (1968)",
+              "d": "Précurseur de l'avantage O : la firme doit disposer d'un avantage monopolistique pour surmonter les surcoûts à l'étranger."
+            },
+            {
+              "t": "Wladimir Andreff (2003)",
+              "d": "La « firme-réseau » globale externalise de plus en plus la fabrication tout en gardant la conception et la marque."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle OLI reste centré sur le choix individuel de la firme et suppose que les États accueillent passivement les capitaux. Il sous-estime parfois les **risques géopolitiques**, les exigences de souveraineté technologique et les rapports de force entre États et multinationales."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'implantation de BYD en Europe",
+              "d": "Fort de son avantage technologique sur les batteries (O), BYD cherche des usines en Europe (L) pour contourner les droits de douane."
+            },
+            {
+              "t": "Les sommets Choose France",
+              "d": "L'État cherche à renforcer l'avantage de localisation français (coût de l'électricité décarbonée, fiscalité) pour capter des usines."
+            },
+            {
+              "t": "La réindustrialisation américaine (IRA)",
+              "d": "Les subventions conditionnées à la production locale attirent les investissements industriels européens aux États-Unis."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Robert Mundell (1957)",
+              "idee": "Montre que les barrières douanières transforment l'avantage de localisation et substituent l'IDE au commerce."
+            },
+            {
+              "sens": "=",
+              "nom": "Ronald Coase (1937)",
+              "idee": "Fonde le critère d'internalisation (I) par la minimisation des coûts de transaction."
+            },
+            {
+              "sens": "≠",
+              "nom": "Patrick Artus",
+              "idee": "Met en garde contre l'illusion que l'attractivité suffit si le pays reste piégé dans le milieu de gamme sans montée en gamme technologique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indice-de-lerner",
+      "nom": "Indice de Lerner et pouvoir de marché",
+      "categorie": "fondamentaux",
+      "type": "Notion",
+      "annee": "1934",
+      "auteur": "Abba Lerner",
+      "accroche": "L'indice de Lerner mesure la capacité d'une entreprise à fixer ses prix au-dessus de son coût marginal grâce à son pouvoir de marché.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Abba Lerner**, « The Concept of Monopoly and the Measurement of Monopoly Power », *Review of Economic Studies* (1934).",
+            "Dans le modèle de **concurrence pure et parfaite**, toute firme est preneuse de prix (*price taker*) et vend au **coût marginal**. Au moment même où Joan Robinson et Edward Chamberlin théorisent la **concurrence imparfaite**, Lerner propose un indicateur synthétique pour mesurer l'écart entre la réalité des marchés et cet idéal concurrentiel."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'indice se définit par le ratio **L = (P − Cm) / P**, où P est le prix de vente et Cm le coût marginal de production.",
+            "En **concurrence parfaite**, P = Cm, donc l'indice vaut **0** : l'entreprise n'a aucun pouvoir de marché.",
+            "Plus la concurrence diminue (monopole, **oligopole**, ou **entente** sur les prix), plus la firme augmente son taux de marge au-dessus du coût marginal : L se rapproche de **1**.",
+            "L'indice est inversement proportionnel à l'**élasticité-prix** de la demande : moins le consommateur peut se tourner vers un substitut, plus l'entreprise peut imposer un prix élevé."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "L'indice de Lerner donne un fondement rigoureux à la **politique de la concurrence** et à la lutte contre les **cartels**. Lorsque des producteurs se coordonnent pour relever leurs prix sans baisse de coûts, ils gonflent artificiellement leur marge et prélèvent une **rente** sur le surplus des consommateurs, créant une **perte sèche** pour la collectivité."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Indice de Herfindahl-Hirschman (HHI)",
+              "d": "Complète Lerner en mesurant la **concentration** d'un secteur par la somme des carrés des parts de marché."
+            },
+            {
+              "t": "Concurrence monopolistique (Chamberlin)",
+              "d": "La différenciation des produits (marques, brevets) donne un pouvoir de marché même avec plusieurs vendeurs."
+            },
+            {
+              "t": "Théorie des marchés contestables (Baumol)",
+              "d": "Même un monopole peut maintenir L bas s'il craint l'entrée rapide de nouveaux concurrents."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "En pratique, le **coût marginal** est très difficile à observer pour les autorités de la concurrence. De plus, un indice de Lerner élevé ne prouve pas toujours une entente illicite : il peut refléter une **innovation** réussie (rente schumpétérienne temporaire) ou la nécessité d'amortir de lourds coûts fixes de R&D."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les sanctions contre les cartels",
+              "d": "Les amendes européennes contre les ententes (ingrédients de parfums, camions, verre) visent à restaurer des prix proches du coût marginal."
+            },
+            {
+              "t": "La régulation des GAFAM",
+              "d": "Les effets de réseau rendent la demande peu élastique et confèrent aux plateformes un pouvoir de marché considérable."
+            },
+            {
+              "t": "Le débat sur la « greedflation »",
+              "d": "Analyse de l'augmentation des taux de marge des entreprises lors des épisodes inflationnistes."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Joan Robinson (1933)",
+              "idee": "Rompt avec l'atomicité et montre comment les firmes en concurrence imparfaite fixent leurs prix."
+            },
+            {
+              "sens": "=",
+              "nom": "Jean Tirole",
+              "idee": "Modernise l'économie industrielle et les outils de régulation des monopoles et oligopoles."
+            },
+            {
+              "sens": "≠",
+              "nom": "Joseph Schumpeter (1942)",
+              "idee": "Défend le pouvoir de marché temporaire des grands groupes comme incitation indispensable à l'innovation."
+            },
+            {
+              "sens": "≠",
+              "nom": "Oliver Williamson (1968)",
+              "idee": "Montre qu'une concentration qui augmente le pouvoir de marché peut rester souhaitable si elle réduit fortement les coûts."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

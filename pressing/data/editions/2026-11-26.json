@@ -1,0 +1,1211 @@
+{
+ "date": "2026-11-26",
+ "cards": [
+  {
+   "id": "2026-11-26-esh-1",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conjoncture/la-chine-menace-de-riposter-face-a-l-annonce-des-nouveaux-droits-de-douane-americains-20261126",
+   "minutes": 3,
+   "titre": "Droits de douane américains : Pékin menace de riposter et fragilise la trêve commerciale",
+   "dossier": "nouveaux-droits-douane-etats-unis",
+   "suite": "Pékin avertit le 26 novembre qu'il se réserve le droit de prendre des mesures de rétorsion après l'officialisation des nouvelles surtaxes américaines.",
+   "faits": "Le 26 novembre 2026, le porte-parole du ministère chinois du Commerce, He Yadong, a averti que Pékin se réservait « le droit de prendre les mesures nécessaires » pour défendre ses intérêts, tout en exhortant Washington à revenir au dialogue. Cette mise en garde répond à l'annonce, la veille par l'administration Trump, d'une nouvelle salve de droits de douane au titre de l'article 301 visant quatorze partenaires commerciaux, dont la Chine, l'Union européenne, le Japon, la Corée du Sud, l'Inde, le Brésil et le Mexique. Le projet américain prévoit une surtaxe additionnelle de 20 % sur les importations chinoises, ce qui porterait leur taxation totale autour de 40 %, et des droits d'environ 15 % sur les produits européens ou japonais. Washington accuse ces pays de subventionner leurs industries et de nourrir des surcapacités mondiales. Une consultation publique d'un mois est ouverte avant l'entrée en vigueur éventuelle des mesures. De son côté, la Commission européenne a « contesté fermement » ces accusations américaines dès le 25 novembre.",
+   "enjeux": "Cette escalade fragilise la trêve commerciale sino-américaine et illustre le basculement du commerce mondial vers un **néomercantilisme** fondé sur des mesures unilatérales plutôt que sur les règles multilatérales de l'**OMC**. La menace de **rétorsion commerciale** fait peser le risque d'un engrenage protectionniste comparable aux années 1930, où chaque hausse tarifaire appelle une riposte symétrique. Au-delà des déficits bilatéraux, l'affrontement porte sur les **politiques industrielles** et les subventions publiques (batteries, semi-conducteurs, énergie propre) accusées de fausser la concurrence internationale. Pour l'Europe, prise en étau entre les surcapacités chinoises et le **protectionnisme** américain, le dilemme est de défendre ses filières stratégiques sans déclencher une guerre tarifaire coûteuse pour sa croissance.",
+   "image": {
+    "url": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/26/e9fa3d742ec382834d9418682b9b329a0a5124e67088b612309fb2e91863391b.JPG",
+    "alt": "Porte-conteneurs dans un port commercial symbolisant les échanges entre la Chine et les États-Unis",
+    "credit": "Le Figaro",
+    "source": "https://www.lefigaro.fr/conjoncture/la-chine-menace-de-riposter-face-a-l-annonce-des-nouveaux-droits-de-douane-americains-20261126"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+   },
+   "auteurs": [
+    {
+     "nom": "Adam Smith",
+     "ouvrage": "Recherches sur la nature et les causes de la richesse des nations",
+     "annee": "1776",
+     "ref": "retorsion-commerciale-smith",
+     "cours": "2A-01-mondialisation-commerciale",
+     "texte": "Bien que théoricien du **libre-échange**, Smith admet que le **protectionnisme de rétorsion** est légitime lorsqu'il vise à contraindre un partenaire à supprimer ses propres barrières. Cette grille éclaire la réponse chinoise qui présente ses futures représailles comme un outil de dissuasion pour rouvrir la négociation. À mobiliser pour nuancer l'opposition caricaturale entre libre-échangistes naïfs et protectionnistes, tout en rappelant le risque d'escalade."
+    },
+    {
+     "nom": "David Ricardo",
+     "ouvrage": "Des principes de l'économie politique et de l'impôt",
+     "annee": "1817",
+     "ref": "avantages-comparatifs",
+     "texte": "Ricardo démontre que l'ouverture commerciale est un jeu à somme positive grâce à la spécialisation selon les **avantages comparatifs** et à la baisse du coût des biens échangés. En imposant 40 % de droits sur la Chine et 15 % sur l'UE, Washington détruit ces gains mutuels et renchérit les **consommations intermédiaires** de ses propres entreprises. À mobiliser dans tout sujet sur la guerre commerciale pour expliquer les coûts macroéconomiques d'un repli tarifaire."
+    }
+   ],
+   "notions": [
+    [
+     "Rétorsion commerciale",
+     "Mesure douanière prise par un État en représailles à des barrières imposées par un partenaire afin de le contraindre à négocier."
+    ],
+    [
+     "Surcapacités industrielles",
+     "Excès durable de capacités de production par rapport à la demande mondiale, souvent alimenté par des subventions publiques."
+    ],
+    [
+     "Guerre commerciale",
+     "Escalade de droits de douane et de restrictions entre puissances économiques qui réduit le volume des échanges mondiaux."
+    ]
+   ],
+   "sujets": [
+    "Le retour du protectionnisme peut-il restaurer la souveraineté industrielle ?",
+    "Assiste-t-on à la fin de l'ordre commercial multilatéral ?"
+   ],
+   "anki": [
+    {
+     "q": "Surtaxe américaine envisagée sur la Chine et taux total proposé (nov. 2026)",
+     "r": "Surtaxe additionnelle de C{+20 %} portant le taux total autour de C{40 %} (et C{15 %} pour l'UE ou le Japon) contre C{14} partenaires le D{25 novembre 2026}.\n→ A{Ricardo}, O{Des principes de l'économie politique et de l'impôt} (D{1817}) : illustre l'ampleur du choc tarifaire qui détruit les gains des B{avantages comparatifs} → accroche pour un sujet sur le retour du protectionnisme."
+    },
+    {
+     "q": "Réponse officielle de Pékin aux nouveaux tarifs américains (26 nov. 2026)",
+     "r": "Le ministère chinois du Commerce avertit qu'il se réserve le droit de prendre les « mesures nécessaires » tout en appelant au dialogue.\n→ A{Adam Smith}, O{Richesse des nations} (D{1776}) : légitime la B{rétorsion} pour forcer le partenaire à négocier, mais expose à une escalade commerciale."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-esh-2",
+   "matiere": "esh",
+   "source": "Les Échos",
+   "url": "https://www.lesechos.fr/industrie-services/automobile/cest-laboutissement-de-quatre-ans-de-negociations-comment-le-gouvernement-a-arrache-linstallation-de-byd-en-france-2264691",
+   "minutes": 3,
+   "titre": "Automobile : le géant chinois BYD négocie le rachat de l'usine d'Ineos à Hambach",
+   "dossier": "implantation-byd-france",
+   "faits": "Le 25 novembre 2026, le constructeur chinois BYD, numéro un mondial du véhicule électrique, a annoncé l'ouverture de négociations exclusives avec le groupe britannique Ineos Automotive pour racheter son usine d'assemblage de Hambach, en Moselle. Ce site historique, connu sous le nom de « Smartville » et repris par Ineos en 2020, emploie environ 900 salariés. L'accord constitue l'aboutissement de quatre années de pourparlers menés par l'exécutif français pour convaincre le géant asiatique d'implanter une base industrielle en France. BYD entend y produire des modèles adaptés au marché européen et contourner ainsi les droits de douane européens appliqués aux véhicules électriques importés de Chine, tout en se conformant aux futures exigences de contenu local (« Made in Europe »). Le projet reste soumis à la consultation des instances représentatives du personnel.",
+   "enjeux": "Cette opération illustre un renversement géoéconomique majeur : les barrières douanières européennes poussent désormais les champions chinois à réaliser des **investissements directs à l'étranger** (IDE) en Europe pour préserver leur accès au marché unique. Pour la France, l'arrivée d'un leader technologique de la batterie et du véhicule électrique permet de sauvegarder un bassin d'emploi industriel et de compenser le retard de la filière européenne dans la transition électrique. Toutefois, cette stratégie dite de « cheval de Troie » industriel suscite des débats sur la **souveraineté technologique** : si l'assemblage est localisé en Moselle, la valeur ajoutée la plus élevée (cellules de batteries, logiciels, R&D) risque de demeurer en Chine.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/SIN_BYD_e6_SNF4771J_2023-10-26.jpg/1280px-SIN_BYD_e6_SNF4771J_2023-10-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Véhicule électrique du constructeur chinois BYD",
+    "credit": "S5A-0043 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:SIN_BYD_e6_SNF4771J_2023-10-26.jpg"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Robert Mundell",
+     "ouvrage": "« International Trade and Factor Mobility »",
+     "annee": "1957",
+     "ref": "substitution-ide-commerce-mundell",
+     "cours": "2A-02-ftn",
+     "texte": "Mundell montre que lorsque la libre circulation des marchandises est entravée par des droits de douane, les facteurs de production se déplacent à la place : l'**IDE se substitue à l'exportation**. La décision de BYD d'acquérir une usine en Moselle confirme ce mécanisme de contournement tarifaire. À mobiliser pour montrer comment le protectionnisme redessine la géographie des firmes multinationales sans supprimer la concurrence."
+    },
+    {
+     "nom": "John Dunning",
+     "ouvrage": "International Production and the Multinational Enterprise",
+     "annee": "1981",
+     "ref": "paradigme-oli-dunning",
+     "cours": "2A-02-ftn",
+     "texte": "Selon le **paradigme OLI**, une firme s'implante à l'étranger si elle cumule un avantage spécifique (O : maîtrise des batteries), un **avantage de localisation** (L : accès au marché unique sans droits de douane et électricité décarbonée) et un intérêt à internaliser la production (I). L'usine de Hambach permet à BYD de capter l'avantage L français tout en gardant le contrôle de son procédé industriel. À utiliser pour analyser les déterminants de l'attractivité territoriale."
+    }
+   ],
+   "notions": [
+    [
+     "Investissement direct à l'étranger (IDE)",
+     "Acquisition ou création d'une unité de production à l'étranger avec prise de participation durable (au moins 10 % du capital)."
+    ],
+    [
+     "IDE de contournement tarifaire",
+     "Implantation d'une usine à l'intérieur d'une zone douanière pour éviter des droits de douane à l'importation."
+    ],
+    [
+     "Attractivité territoriale",
+     "Capacité d'un État à attirer les capitaux et les activités productives des firmes multinationales."
+    ]
+   ],
+   "sujets": [
+    "Les droits de douane suffisent-ils à protéger l'industrie européenne ?",
+    "L'attractivité pour les IDE étrangers garantit-elle la réindustrialisation d'un pays ?"
+   ],
+   "anki": [
+    {
+     "q": "Site français visé par BYD et effectif concerné (nov. 2026)",
+     "r": "Usine Ineos Automotive de Hambach (« Smartville », Moselle), environ C{900} salariés, après C{4 ans} de négociations.\n→ A{Robert Mundell}, O{International Trade and Factor Mobility} (D{1957}) : illustre la B{substitution de l'IDE au commerce} pour contourner les droits de douane européens → accroche pour un sujet sur les FMN ou la réindustrialisation."
+    },
+    {
+     "q": "Trois conditions expliquant l'implantation d'une FMN selon John Dunning (1981)",
+     "r": "Le paradigme OLI : avantage spécifique (Ownership), avantage de localisation (Location) et intérêt à internaliser (Internalisation).\n→ A{John Dunning}, O{International Production and the Multinational Enterprise} (D{1981}) : BYD exploite l'avantage O (batteries) et recherche en France l'avantage L (marché unique, électricité décarbonée)."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-esh-3",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/26/pour-le-cartel-des-parfums-finalement-c-est-le-consommateur-qui-a-paye-l-addition_6815514_3234.html",
+   "minutes": 3,
+   "titre": "Concurrence : près de 600 millions d'euros d'amendes en Europe contre le cartel des parfums",
+   "dossier": "cartel-parfums-concurrence",
+   "faits": "Le 25 novembre 2026, la Commission européenne et l'autorité britannique de la concurrence (CMA) ont infligé des amendes cumulées de près de 600 millions d'euros à trois géants mondiaux des ingrédients parfumés : les groupes suisses Givaudan et DSM-Firmenich ainsi que l'américain International Flavors & Fragrances (IFF). Bruxelles a prononcé une sanction de 471,9 millions d'euros et Londres une amende de 85 millions de livres (environ 101 millions d'euros). Dans le cadre d'une procédure de transaction, ces groupes ont reconnu avoir échangé des informations commercialement sensibles et coordonné leurs hausses de prix entre mars 2019 et mars 2023, notamment face à leur principal client commun, Unilever. Selon la commissaire européenne à la Concurrence Teresa Ribera, cette entente en amont a renchéri les coûts de nombreux biens de consommation courante (détergents, cosmétiques, produits d'hygiène), pesant in fine sur le pouvoir d'achat des ménages.",
+   "enjeux": "Cette affaire illustre concrètement les défaillances de marché en **oligopole** : lorsque quelques fournisseurs concentrent la production mondiale d'un intrant peu substituable, la tentation de la **collusion** et du **cartel** est forte pour maintenir des marges élevées. En coordonnant leurs tarifs au-dessus du prix concurrentiel, les entreprises captent une **rente de monopole** aux dépens du **surplus du consommateur**, ce qui peut aussi alimenter l'inflation dans les produits du quotidien. L'intervention conjointe de l'UE et du Royaume-Uni rappelle le rôle central de la **politique de la concurrence** et des sanctions dissuasives pour restaurer le fonctionnement efficace des marchés.",
+   "image": {
+    "url": "https://img.lemde.fr/2026/11/26/574/0/5450/2725/644/322/60/0/1ee76e4_upload-1-50tprp9fukgh-2020-02-13t104933z-1717901904-rc2mze9dm0bv-rtrmadp-3-france-parfume-robot.JPG",
+    "alt": "Flacons de parfum sur une chaîne automatisée en laboratoire industriel",
+    "credit": "Le Monde",
+    "source": "https://www.lemonde.fr/economie/article/2026/11/26/pour-le-cartel-des-parfums-finalement-c-est-le-consommateur-qui-a-paye-l-addition_6815514_3234.html"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Joan Robinson",
+     "ouvrage": "L'Économie de la concurrence imparfaite",
+     "annee": "1933",
+     "ref": "concurrence-imparfaite-robinson",
+     "cours": "1A-entreprise",
+     "texte": "Robinson rompt avec l'hypothèse d'atomicité de la concurrence pure et parfaite pour montrer que les grandes firmes disposent d'un **pouvoir de marché** leur permettant de fixer leurs prix. Dans le secteur très concentré des arômes et parfums, trois acteurs ont pu imposer des hausses coordonnées à un acheteur pourtant puissant comme Unilever. À mobiliser sur tout sujet traitant de la concentration industrielle ou de l'antitrust."
+    },
+    {
+     "nom": "Abba Lerner",
+     "ouvrage": "« The Concept of Monopoly and the Measurement of Monopoly Power »",
+     "annee": "1934",
+     "ref": "indice-de-lerner",
+     "cours": "2A-02-ftn",
+     "texte": "Lerner propose de mesurer le pouvoir de marché par l'écart relatif entre le prix et le coût marginal, **(P − Cm) / P**, qui croît lorsque l'élasticité-prix de la demande est faible. En s'entendant entre 2019 et 2023 sur des ingrédients indispensables sans substitut immédiat, Givaudan, DSM-Firmenich et IFF ont artificiellement élevé leur indice de Lerner au détriment du **surplus des consommateurs**. À citer pour formaliser le coût social d'un cartel."
+    }
+   ],
+   "notions": [
+    [
+     "Cartel (entente illicite)",
+     "Accord secret entre entreprises concurrentes visant à fixer les prix, limiter la production ou se partager les marchés."
+    ],
+    [
+     "Pouvoir de marché",
+     "Capacité d'une entreprise à fixer durablement son prix au-dessus de son coût marginal sans perdre tous ses clients."
+    ],
+    [
+     "Surplus du consommateur",
+     "Gain net tiré par l'acheteur de la différence entre le prix maximal qu'il est prêt à payer et le prix du marché."
+    ]
+   ],
+   "sujets": [
+    "La politique de la concurrence protège-t-elle efficacement le pouvoir d'achat des consommateurs ?",
+    "La concentration des entreprises est-elle toujours nuisible à l'efficacité économique ?"
+   ],
+   "anki": [
+    {
+     "q": "Montant des amendes infligées au cartel des parfums (25 nov. 2026)",
+     "r": "Près de C{600 M€} au total (C{471,9 M€} par la Commission européenne et C{85 M£} soit environ C{101 M€} par la CMA britannique) contre Givaudan, DSM-Firmenich et IFF.\n→ A{Joan Robinson}, O{L'Économie de la concurrence imparfaite} (D{1933}) : illustre le B{pouvoir de marché} d'un oligopole et la nécessité d'une politique antitrust → accroche pour un sujet sur la concurrence ou l'inflation."
+    },
+    {
+     "q": "Formule et signification de l'indice de Lerner (1934)",
+     "r": "L = (P − Cm) / P : mesure l'écart entre prix et coût marginal (C{0} en concurrence pure et parfaite).\n→ A{Abba Lerner} (D{1934}) : un cartel sur des intrants peu substituables gonfle l'indice L et réduit le B{surplus du consommateur}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-esh-4",
+   "matiere": "esh",
+   "source": "Le Monde",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/25/les-aides-a-l-apprentissage-font-l-objet-de-nombreux-abus-et-fraudes-selon-la-cour-des-comptes_6815092_823448.html",
+   "minutes": 3,
+   "titre": "Emploi : la Cour des comptes estime jusqu'à 3 milliards d'euros les aides à l'apprentissage exposées aux abus",
+   "dossier": "aides-apprentissage-france",
+   "faits": "Dans un rapport thématique publié le 25 novembre 2026, la Cour des comptes estime qu'entre 1,5 et 3 milliards d'euros par an d'aides publiques à l'apprentissage — soit 10 % à 20 % des quelque 16 milliards d'euros dépensés en 2024 — sont exposés à des risques d'abus ou de fraudes. Alors que le nombre d'entrées en apprentissage a presque triplé entre 2018 et 2024 pour approcher 900 000 contrats par an, les magistrats financiers pointent une « faille systémique » liée à la priorité donnée à la rapidité des versements par les opérateurs de compétences (OPCO) et l'Agence de services et de paiement. Le rapport recense des contrats fictifs dans des micro-entreprises sans chiffre d'affaires, des usurpations d'identité, des formations fantômes et des maîtres d'apprentissage encadrant jusqu'à vingt alternants au lieu de deux maximum. La Cour formule cinq recommandations pour croiser les fichiers fiscaux et sociaux, tandis que les ministères jugent l'évaluation maximaliste.",
+   "enjeux": "Ce diagnostic pose la question centrale de l'efficience de la **dépense publique** et de l'évaluation des **politiques actives de l'emploi**. Si l'essor de l'apprentissage visait à accumuler du **capital humain** et à réduire le chômage des jeunes, le versement massif de primes sans contrôle ex ante a créé des **effets d'aubaine** et des comportements de captation de rente. En période de forte contrainte budgétaire, la maîtrise des fraudes et le recentrage des aides vers les niveaux de qualification les plus fragiles deviennent décisifs pour éviter que la dépense publique ne finance des formations inefficaces plutôt que de réels gains de **productivité**.",
+   "image": {
+    "url": "https://img.lemde.fr/2026/11/25/928/0/5568/2784/644/322/60/0/b9dee09_upload-1-toj6cpl7t7ko-000-322r36m.jpg",
+    "alt": "Jeune apprenti travaillant dans un atelier technique de formation professionnelle",
+    "credit": "Le Monde",
+    "source": "https://www.lemonde.fr/politique/article/2026/11/25/les-aides-a-l-apprentissage-font-l-objet-de-nombreux-abus-et-fraudes-selon-la-cour-des-comptes_6815092_823448.html"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+   },
+   "auteurs": [
+    {
+     "nom": "Gary Becker",
+     "ouvrage": "Le Capital humain",
+     "annee": "1964",
+     "ref": "capital-humain-becker",
+     "cours": "1A-croissance",
+     "texte": "Becker montre que l'éducation et la formation en entreprise constituent un investissement en **capital humain** qui élève la productivité individuelle et les salaires futurs. La politique française d'apprentissage repose sur cette logique, mais les « formations fantômes » et les contrats fictifs détruisent la rentabilité sociale de la dépense. À mobiliser pour montrer qu'une subvention à la formation ne crée de croissance que si la qualité de l'investissement éducatif est contrôlée."
+    },
+    {
+     "nom": "James Buchanan et Gordon Tullock",
+     "ouvrage": "The Calculus of Consent",
+     "annee": "1962",
+     "ref": "theorie-choix-publics",
+     "texte": "L'école des **choix publics** analyse les **défaillances de l'État** : lorsque la puissance publique distribue rapidement des subventions massives sans incitation au contrôle, elle favorise la recherche de rente (*rent-seeking*) et la captation par des acteurs opportunistes. Le défaut de vérification des OPCO et des CFA illustre ces coûts de bureaucratie et d'asymétrie d'information. À mobiliser pour nuancer l'efficacité mécanique de l'intervention publique."
+    }
+   ],
+   "notions": [
+    [
+     "Capital humain",
+     "Ensemble des connaissances, qualifications et compétences incorporées par un individu qui augmentent sa productivité."
+    ],
+    [
+     "Effet d'aubaine",
+     "Situation où un agent bénéficie d'une aide publique pour une décision qu'il aurait prise sans elle ou sans en respecter l'objectif."
+    ],
+    [
+     "Défaillance de l'État",
+     "Inefficacité économique résultant d'une intervention publique mal calibrée, insuffisamment contrôlée ou captée par des rentes."
+    ]
+   ],
+   "sujets": [
+    "Les politiques publiques de formation suffisent-elles à réduire le chômage ?",
+    "Comment améliorer l'efficacité de la dépense publique en période de contrainte budgétaire ?"
+   ],
+   "anki": [
+    {
+     "q": "Montant des aides à l'apprentissage exposées aux abus selon la Cour des comptes (25 nov. 2026)",
+     "r": "Entre C{1,5 et 3 Md€} par an (C{10 à 20 %} des C{16 Md€} de dépenses publiques en D{2024}), pour près de C{900 000} entrées annuelles.\n→ A{Gary Becker}, O{Le Capital humain} (D{1964}) : la formation n'accroît la productivité que si elle est réelle, sinon la subvention devient pure B{recherche de rente} → accroche pour un sujet sur la dépense publique ou l'emploi."
+    },
+    {
+     "q": "Concept des choix publics expliqué par les failles de contrôle des OPCO",
+     "r": "Les B{défaillances de l'État} et le B{rent-seeking} : des fonds versés sans contrôle favorisent la captation par des organismes opportunistes.\n→ A{Buchanan et Tullock}, O{The Calculus of Consent} (D{1962}) : complète l'analyse des défaillances de marché par celle des coûts bureaucratiques de l'action publique."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-esh-5",
+   "matiere": "esh",
+   "source": "Alternatives économiques",
+   "url": "https://www.alternatives-economiques.fr/les-promesses-et-les-pieges-d-un-grand-emprunt-national_26-11-2026",
+   "minutes": 3,
+   "titre": "Finances publiques : les promesses et les pièges d'un grand emprunt national",
+   "dossier": "grand-emprunt-national",
+   "faits": "Dans une analyse publiée le 26 novembre 2026, Christian Chavagneux examine l'idée récurrente dans le débat politique français de lancer un « grand emprunt national » souscrit directement par les ménages. Il rappelle qu'un tel emprunt ne réduit pas le montant de la dette publique, mais modifie le profil des créanciers en augmentant la part détenue par les résidents, limitant ainsi la dépendance aux marchés financiers étrangers. Toutefois, l'épargne des ménages finance déjà indirectement la dette via les contrats d'assurance-vie et les livrets réglementés (Livret A, LDDS), dont une part est centralisée à la Caisse des dépôts pour prêter au logement social. Attirer les épargnants vers un emprunt direct les expose au risque de taux et contraint souvent l'État à offrir des taux élevés ou des avantages fiscaux très coûteux, à l'image de l'emprunt Pinay de 1958 (exonéré de droits de succession) ou de l'emprunt Giscard de 1973 indexé sur l'or (6,5 milliards de francs levés mais 55 milliards remboursés plus 35 milliards d'intérêts).",
+   "enjeux": "Ce débat éclaire les contraintes structurelles du financement de la **dette souveraine** et l'arbitrage entre créanciers domestiques et marchés internationaux. Si le modèle japonais montre qu'une dette très élevée détenue par les résidents réduit la vulnérabilité aux attaques spéculatives, détourner l'épargne réglementée crée un **effet d'éviction** sur d'autres financements d'intérêt général comme les HLM. Surtout, renchérir la rémunération de la dette par des niches fiscales aggrave la charge d'intérêts et accentue le risque d'**effet boule de neige**, sans dispenser l'État de réduire son déficit primaire.",
+   "image": {
+    "url": "https://www.alternatives-economiques.fr/sites/default/files/styles/for_social_networks/public/images/07_Gd-Emprunt.jpg.webp?itok=i6xGPYiT",
+    "alt": "Illustration du financement de la dette publique par l'épargne nationale",
+    "credit": "Alternatives économiques",
+    "source": "https://www.alternatives-economiques.fr/les-promesses-et-les-pieges-d-un-grand-emprunt-national_26-11-2026"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "Robert Barro",
+     "ouvrage": "« Les obligations d'État sont-elles une richesse nette ? »",
+     "annee": "1974",
+     "ref": "equivalence-ricardienne",
+     "cours": "1A-hpe",
+     "texte": "Selon le théorème d'**équivalence ricardienne**, financer l'État par l'emprunt plutôt que par l'impôt ne crée pas de richesse nette : les ménages anticipent les impôts futurs nécessaires au remboursement et épargnent en conséquence. Un grand emprunt national ne résout donc pas le déséquilibre budgétaire, mais déplace seulement l'épargne domestique des livrets réglementés vers les titres publics. À mobiliser pour montrer les limites du financement par la dette."
+    },
+    {
+     "nom": "Evsey Domar",
+     "ouvrage": "« The \"Burden of the Debt\" and the National Income »",
+     "annee": "1944",
+     "ref": "effet-boule-de-neige",
+     "texte": "Domar montre que le ratio dette/PIB s'auto-alimente par **effet boule de neige** dès que le taux d'intérêt réel (r) dépasse le taux de croissance de l'économie (g), sauf à dégager un excédent primaire. Or les grands emprunts historiques (Pinay 1958, Giscard 1973) ont alourdi r via des indexations ou des exonérations fiscales coûteuses. À mobiliser pour évaluer la soutenabilité réelle d'un emprunt patriotique."
+    }
+   ],
+   "notions": [
+    [
+     "Dette souveraine",
+     "Ensemble des engagements financiers contractés par l'État et les administrations publiques pour couvrir leurs déficits passés."
+    ],
+    [
+     "Risque de taux",
+     "Risque de perte en capital subi par le détenteur d'une obligation à taux fixe lorsque les taux d'intérêt du marché augmentent."
+    ],
+    [
+     "Effet boule de neige",
+     "Dynamique explosive de la dette publique lorsque le taux d'intérêt apparent dépasse le taux de croissance nominale du PIB."
+    ]
+   ],
+   "sujets": [
+    "La détention de la dette publique par les ménages résidents garantit-elle sa soutenabilité ?",
+    "Comment financer durablement la dette publique française sans freiner l'économie ?"
+   ],
+   "anki": [
+    {
+     "q": "Coût final de l'emprunt Giscard de 1973 indexé sur l'or",
+     "r": "C{6,5 MdF} levés ont coûté C{55 MdF} de remboursement en capital plus C{35 MdF} d'intérêts.\n→ A{Evsey Domar} (D{1944}) : montre qu'un emprunt trop généreux élève le taux apparent r et alimente l'B{effet boule de neige} de la dette → accroche pour un sujet sur le financement de la dette."
+    },
+    {
+     "q": "Effet de déplacement d'épargne provoqué par un grand emprunt national en France",
+     "r": "Il ne baisse pas la dette et risque de drainer le Livret A et le LDDS centralisés à la Caisse des dépôts pour le logement social.\n→ A{Robert Barro} (D{1974}) : selon l'B{équivalence ricardienne}, l'emprunt ne supprime pas la contrainte intertemporelle de l'État."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-esh-6",
+   "matiere": "esh",
+   "source": "France Culture",
+   "url": "https://www.radiofrance.fr/franceculture/podcasts/le-journal-de-l-eco/les-manpacks-ou-quand-les-fonds-d-investissement-payent-les-dirigeants-d-entreprise-pour-les-pousser-a-plus-de-profit-7455812",
+   "minutes": 3,
+   "titre": "Gouvernance d'entreprise : les « management packages » et les LBO au cœur d'un débat fiscal",
+   "dossier": "management-packages-lbo",
+   "faits": "À l'occasion des débats sur le budget 2027, députés de gauche et sénateurs centristes se sont affrontés fin novembre 2026 autour de la fiscalité des « management packages » (« manpacks »). Ces dispositifs, utilisés principalement lors des rachats d'entreprises par des fonds d'investissement via des montages à effet de levier (LBO), permettent aux dirigeants d'investir à des conditions préférentielles pour toucher d'importants gains à la revente. Longtemps imposés comme des plus-values à 30 %, ces bonus ont été requalifiés en salaires au-delà d'un seuil par la loi de finances 2025 (jusqu'à 59 % d'imposition), avant un assouplissement en 2026 en cas de réinvestissement ; en 2024, le fisc a redressé 84 dirigeants pour 350 millions d'euros. Plus de 4 600 LBO ont été réalisés en France en dix ans — près du double de l'Allemagne — alors qu'une étude de la Banque de France citée par un rapport parlementaire de juin estime que le risque de faillite grimpe de 18 % après un LBO.",
+   "enjeux": "Cette controverse met en lumière les tensions de la **gouvernance actionnariale** et de la **financiarisation** des entreprises. En liant étroitement la rémunération des dirigeants à la plus-value de sortie, les fonds de capital-investissement cherchent à maximiser la rentabilité à court terme pour rembourser la dette d'acquisition. Si des économistes comme Ludovic Phalippou estiment que cette discipline limite les gaspillages managériaux, le modèle expose l'entreprise à un **surendettement** fragilisant son investissement productif de long terme et les conditions de travail des salariés, tout en posant une question d'équité fiscale entre revenus du travail et revenus du capital.",
+   "image": {
+    "url": "https://www.radiofrance.fr/pikapi/images/761cfdee-1c82-4490-8078-f3e082192594/1200x680",
+    "alt": "Façade vitrée d'un grand groupe hôtelier racheté par un fonds d'investissement",
+    "credit": "France Culture",
+    "source": "https://www.radiofrance.fr/franceculture/podcasts/le-journal-de-l-eco/les-manpacks-ou-quand-les-fonds-d-investissement-payent-les-dirigeants-d-entreprise-pour-les-pousser-a-plus-de-profit-7455812"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Michael Jensen et William Meckling",
+     "ouvrage": "Théorie de la firme",
+     "annee": "1976",
+     "ref": "theorie-agence-jensen-meckling",
+     "cours": "1A-entreprise",
+     "texte": "Dans la **théorie de l'agence**, l'asymétrie d'information entre l'actionnaire (principal) et le dirigeant (agent) génère des coûts d'agence et des divergences d'objectifs. Les « management packages » visent précisément à aligner les intérêts des managers sur la création de **valeur actionnariale** du fonds propriétaire. À mobiliser pour expliquer la logique incitative des rémunérations variables et des LBO."
+    },
+    {
+     "nom": "Blanche Segrestin et Armand Hatchuel",
+     "ouvrage": "Refonder l'entreprise",
+     "annee": "2012",
+     "ref": "refonder-entreprise-segrestin-hatchuel",
+     "cours": "1A-entreprise",
+     "texte": "Segrestin et Hatchuel critiquent cette capture de l'entreprise par la **gouvernance actionnariale**, qui confond la firme collective avec une simple société de capitaux. La hausse de 18 % du risque de faillite après un LBO illustre les dangers d'une gestion pilotée par la dette et la revente rapide au détriment des **parties prenantes** et de l'investissement de long terme. À mobiliser pour défendre la société à mission."
+    }
+   ],
+   "notions": [
+    [
+     "LBO (Leverage Buy-Out)",
+     "Rachat d'une entreprise financé majoritairement par de la dette dont le remboursement pèse sur les profits futurs de la cible."
+    ],
+    [
+     "Relation d'agence",
+     "Contrat par lequel un principal (actionnaire) délègue la gestion à un agent (dirigeant) dans un contexte d'asymétrie d'information."
+    ],
+    [
+     "Gouvernance actionnariale",
+     "Mode de direction de l'entreprise donnant la priorité absolue à la maximisation de la rentabilité financière pour les actionnaires."
+    ]
+   ],
+   "sujets": [
+    "La financiarisation de la gouvernance des entreprises nuit-elle à l'investissement productif ?",
+    "Comment concilier performance financière et intérêt à long terme des parties prenantes dans l'entreprise ?"
+   ],
+   "anki": [
+    {
+     "q": "Nombre de LBO en France sur 10 ans et impact sur le risque de faillite",
+     "r": "Plus de C{4 600} LBO en D{10 ans} (près du double de l'Allemagne) et une hausse de C{+18 %} du risque de faillite selon la Banque de France.\n→ A{Segrestin et Hatchuel}, O{Refonder l'entreprise} (D{2012}) : illustre les risques court-termistes de la B{gouvernance actionnariale} → accroche pour un sujet sur la gouvernance ou la financiarisation."
+    },
+    {
+     "q": "Logique théorique des « management packages » dans un LBO",
+     "r": "Aligner financièrement les dirigeants (agents) sur l'objectif de plus-value du fonds d'investissement (principal).\n→ A{Jensen et Meckling}, O{Théorie de la firme} (D{1976}) : réduit les B{coûts d'agence} mais peut encourager une prise de risque excessive."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-anglais-1",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html",
+   "minutes": 3,
+   "titre": "États-Unis : l'inflation PCE remonte à 3,8 % et maintient la Fed sur la voie d'un resserrement monétaire",
+   "dossier": "inflation-fed-etats-unis",
+   "faits": "Selon les données publiées fin novembre 2026 par le Bureau of Economic Analysis (BEA) du département du Commerce, l'indice des prix PCE — la jauge d'inflation privilégiée par la Réserve fédérale américaine — a accéléré à 3,8 % sur un an en octobre, après 3,7 % en septembre. Ce niveau, le plus élevé depuis mai, reste près du double de l'objectif de 2 % fixé par la banque centrale. L'inflation sous-jacente (hors alimentation et énergie) atteint 3,3 % sur un an, tandis que la hausse mensuelle des prix s'établit à 0,3 % en octobre contre 0,5 % en septembre. Publiés juste avant la réunion de décembre du comité de politique monétaire, ces chiffres confortent l'anticipation d'un nouveau relèvement des taux directeurs par la Fed.",
+   "enjeux": "Cette persistance des tensions inflationnistes, nourrie par la hausse des coûts de l'énergie et les pressions tarifaires, place la **Réserve fédérale** face à un arbitrage délicat entre lutte contre l'inflation et soutien à l'activité. Un nouveau tour de vis sur les **taux directeurs** renchérit le coût du crédit pour les ménages et les entreprises et alimente la volatilité des valeurs technologiques à Wall Street. Sur le plan politique, cette inflation tenace fragilise le pouvoir d'achat et devient un enjeu central de la fin de mandat après les élections de mi-mandat.",
+   "image": {
+    "url": "https://static01.nyt.com/images/2026/11/25/multimedia/25dc-inflation-gvjc/25dc-inflation-gvjc-mediumSquareAt3X.jpg",
+    "alt": "Façade du bâtiment de la Réserve fédérale américaine à Washington",
+    "credit": "The New York Times",
+    "source": "https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html"
+   },
+   "vo": {
+    "titre": "US: PCE inflation climbs to 3.8%, keeping the Fed on track to hike rates",
+    "faits": "According to data released in late November 2026 by the Commerce Department's Bureau of Economic Analysis, the Personal Consumption Expenditures (PCE) price index—the Federal Reserve's preferred inflation gauge—accelerated to 3.8% year-on-year in October, up from 3.7% in September. This reading, the highest since May, remains nearly double the central bank's 2% target. Core PCE inflation, which excludes volatile food and energy prices, reached 3.3% year-on-year, while monthly headline prices rose 0.3% in October after a 0.5% jump in September. Released just ahead of the Fed's December policy meeting, the figures reinforce expectations of another interest rate increase.",
+    "enjeux": "This stubborn inflationary pressure, fuelled by surging energy costs and tariff-related strains, confronts the Federal Reserve with a difficult trade-off between curbing price growth and sustaining economic momentum. Further monetary tightening raises borrowing costs for households and businesses and adds to stock market volatility, particularly among interest-rate-sensitive tech firms. Politically, persistent inflation erodes real purchasing power and keeps the cost of living at the heart of the US debate following the midterm elections."
+   },
+   "vocab": [
+    [
+     "preferred inflation gauge",
+     "l'indicateur d'inflation privilégié",
+     "The PCE index remains the Federal Reserve's preferred inflation gauge."
+    ],
+    [
+     "core inflation",
+     "l'inflation sous-jacente (hors énergie et alimentation)",
+     "Even excluding energy, core inflation stays well above target."
+    ],
+    [
+     "monetary tightening",
+     "le resserrement monétaire",
+     "Persistent price pressures have forced the central bank into further monetary tightening."
+    ],
+    [
+     "to curb price growth",
+     "freiner la hausse des prix",
+     "Higher interest rates are designed to curb price growth."
+    ],
+    [
+     "borrowing costs",
+     "le coût de l'emprunt / du crédit",
+     "Rising borrowing costs weigh heavily on corporate investment."
+    ],
+    [
+     "purchasing power",
+     "le pouvoir d'achat",
+     "Sustained inflation steadily erodes household purchasing power."
+    ]
+   ],
+   "sujets": [
+    "Can central banks tame inflation without triggering an economic recession?",
+    "Why does the cost of living remain a decisive political issue in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "US headline and core PCE inflation readings in October 2026",
+     "r": "Headline PCE hit C{3.8%} year-on-year (highest since May, up from C{3.7%}) and core PCE reached C{3.3%}, nearly double the Fed's C{2%} target.\n→ Shows persistent inflation keeping the Federal Reserve on track for B{monetary tightening} → strong hook for US economy or central bank essays."
+    },
+    {
+     "q": "Federal Reserve policy dilemma highlighted by October 2026 PCE data",
+     "r": "Balancing B{price stability} (raising rates to curb 3.8% inflation) against growth and market stability.\n→ Illustrates the classic monetary policy trade-off when energy shocks and tariffs push prices up."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-anglais-2",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o",
+   "minutes": 3,
+   "titre": "Royaume-Uni : la faillite de l'enseigne Poundland menace 11 000 emplois",
+   "dossier": "faillite-poundland-royaume-uni",
+   "faits": "Le distributeur à bas prix Poundland a été placé en redressement judiciaire fin novembre 2026 après l'échec de négociations de reprise de dernière minute, menaçant environ 11 000 emplois au Royaume-Uni. Les magasins et entrepôts continuent d'opérer pendant la procédure, mais l'enseigne risque d'être démantelée et cédée par lots à des concurrents. Dans une note aux salariés, le directeur général Barry Williams a indiqué que le propriétaire américain, le fonds Gordon Brothers, avait retiré les lignes de crédit et l'accès aux comptes bancaires dès le 27 octobre, empêchant l'entreprise de rester solvable. Le syndicat Usdaw a accusé le fonds d'avoir délibérément poussé l'enseigne à la faillite avant Noël, ce que Gordon Brothers rejette en affirmant avoir exploré toutes les pistes de vente globale.",
+   "enjeux": "Cette défaillance symbolise la crise prolongée des **centres-villes britanniques** (*high street*), pris en étau entre la baisse du pouvoir d'achat des ménages modestes, le loyer commercial et la concurrence du commerce en ligne. Elle relance également les critiques contre les rachats par des **fonds de capital-investissement** (*private equity*), accusés d'endetter ou de couper le financement des enseignes en difficulté au détriment de l'emploi local. Sur le plan social, la fragilisation d'une chaîne emblématique du « discount » montre que l'érosion des revenus réels affecte désormais jusqu'aux distributeurs positionnés sur les petits prix.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5177/live/c7a2f690-e8fa-11f1-99a1-253766e7ad8b.jpg",
+    "alt": "Devanture d'un magasin Poundland au Royaume-Uni",
+    "credit": "BBC News",
+    "source": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o"
+   },
+   "vo": {
+    "titre": "UK: Poundland's collapse into administration puts 11,000 jobs at risk",
+    "faits": "Discount retailer Poundland collapsed into administration in late November 2026 after last-minute talks with prospective buyers failed, putting around 11,000 UK jobs at risk. Its stores and distribution centres will keep trading during the insolvency process, though the chain is likely to be broken up and sold piecemeal to rival retailers. In a letter to staff, chief executive Barry Williams stated that US owner Gordon Brothers had withdrawn borrowing facilities and bank account access on 27 October, leaving the firm unable to remain solvent. Trade union Usdaw accused the private equity firm of forcing the chain into administration ahead of Christmas, an allegation Gordon Brothers rejected by insisting it had sought a whole-company sale.",
+    "enjeux": "The collapse underscores the protracted crisis facing Britain's high street, squeezed by weak household purchasing power, rising operating costs and intense online competition. It also fuels scrutiny of private equity ownership in retail, with unions arguing that financial investors prioritize balance-sheet exits over long-term job preservation. Socially, the failure of a flagship discount chain reveals how deeply squeezed living standards have disrupted even value-oriented retailers."
+   },
+   "vocab": [
+    [
+     "to collapse into administration",
+     "être placé en redressement judiciaire",
+     "Several high-street chains have collapsed into administration amid weak consumer spending."
+    ],
+    [
+     "to remain solvent",
+     "rester solvable",
+     "Without emergency credit lines, the retailer could no longer remain solvent."
+    ],
+    [
+     "to sell piecemeal",
+     "vendre à la découpe / par lots",
+     "Analysts expect the company's profitable stores to be sold piecemeal to competitors."
+    ],
+    [
+     "the high street",
+     "le commerce de centre-ville britannique",
+     "Rising business rates continue to put pressure on the British high street."
+    ],
+    [
+     "borrowing facilities",
+     "les lignes de crédit / facilités d'emprunt",
+     "The parent firm cut off all borrowing facilities before the restructuring."
+    ],
+    [
+     "living standards",
+     "le niveau de vie",
+     "Persistent inflation has weighed heavily on British living standards."
+    ]
+   ],
+   "sujets": [
+    "Is the decline of the British high street irreversible?",
+    "Should private equity takeovers face stricter regulation in the UK?"
+   ],
+   "anki": [
+    {
+     "q": "Number of UK jobs threatened by Poundland's administration (Nov. 2026)",
+     "r": "C{11,000} jobs at risk after US owner Gordon Brothers cut borrowing facilities on D{27 October} and rescue talks failed.\n→ Illustrates both the B{UK high-street crisis} and union criticism of B{private equity} restructuring → useful hook for UK economy or employment essays."
+    },
+    {
+     "q": "Key accusation made by union Usdaw against Poundland's US owner",
+     "r": "Accused Gordon Brothers of deliberately forcing the chain into administration before Christmas by withdrawing credit access.\n→ Highlights tensions between financial owners and B{job preservation} in struggling retail chains."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-anglais-3",
+   "matiere": "anglais",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+   "minutes": 3,
+   "titre": "États-Unis : un juge fédéral bloque le régulateur des médias au nom du Premier Amendement",
+   "dossier": "liberte-presse-fcc-abc",
+   "faits": "Le 25 novembre 2026, la juge fédérale Loren AliKhan a prononcé une injonction préliminaire empêchant l'administration Trump et le président de la Commission fédérale des communications (FCC), Brendan Carr, de lancer un réexamen anticipé des licences locales détenues par le groupe Disney pour sa chaîne ABC. Cette procédure visait les stations locales d'ABC opérant dans six des plus grands marchés américains. La magistrate a estimé que l'initiative constituait une sanction anticonstitutionnelle contraire au Premier Amendement, motivée par des émissions satiriques, des commentaires et une couverture journalistique déplaisant au président Donald Trump. Le nouveau directeur général de Disney, Josh D'Amaro, avait défendu la bataille judiciaire au nom de l'intégrité journalistique et de la liberté d'expression.",
+   "enjeux": "Cette décision illustre le rôle décisif des **contre-pouvoirs judiciaires** (*checks and balances*) face aux pressions de l'exécutif sur les agences de régulation indépendantes et les médias. En utilisant l'arme administrative de l'octroi des **licences de diffusion**, la FCC risquait d'instaurer une forme de pression financière et d'autocensure sur un grand réseau télévisé. L'arrêt rappelle la portée protectrice du **Premier Amendement** de la Constitution américaine contre toute représaille étatique visant des contenus critiques, dans un climat de polarisation politique et médiatique croissante.",
+   "image": {
+    "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x2531+0+0/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2Fa4%2F8f4bad7a4672b2a60fa7293ee33b%2Fcarr-damaro-diptych.jpg",
+    "alt": "Portraits du président de la FCC Brendan Carr et du directeur général de Disney Josh D'Amaro",
+    "credit": "NPR",
+    "source": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr"
+   },
+   "vo": {
+    "titre": "US: Federal judge blocks FCC license review of ABC under the First Amendment",
+    "faits": "On 25 November 2026, U.S. District Judge Loren AliKhan issued a preliminary injunction blocking the Trump administration and Federal Communications Commission (FCC) Chairman Brendan Carr from initiating an early review of Disney's local broadcast licenses for ABC. The targeted stations operate across six of the largest American television markets. Judge AliKhan found the move to be an unconstitutional punishment violating the First Amendment, carried out in retaliation for satire, commentary and news coverage disliked by President Donald Trump. Disney's new chief executive, Josh D'Amaro, said the company chose to fight the case in court to safeguard ABC's journalistic integrity and free speech.",
+    "enjeux": "The ruling highlights the vital role of judicial checks and balances in curbing executive pressure on independent regulatory agencies and news organizations. By threatening broadcast licenses, the FCC risked creating a chilling effect that could foster self-censorship across mainstream media outlets. The injunction reaffirms the robust constitutional protection of the First Amendment against government retaliation in an increasingly polarized US media landscape."
+   },
+   "vocab": [
+    [
+     "preliminary injunction",
+     "une injonction préliminaire (mesure conservatoire de justice)",
+     "The court granted a preliminary injunction to halt the agency's action immediately."
+    ],
+    [
+     "broadcast licenses",
+     "les licences de diffusion",
+     "Television networks rely on federal broadcast licenses to operate local stations."
+    ],
+    [
+     "checks and balances",
+     "les contre-pouvoirs institutionnels",
+     "Judicial oversight remains a cornerstone of American checks and balances."
+    ],
+    [
+     "a chilling effect",
+     "un effet dissuasif (sur la liberté d'expression)",
+     "Regulatory threats can have a chilling effect on investigative journalism."
+    ],
+    [
+     "retaliation",
+     "des représailles",
+     "The judge ruled that the review amounted to unlawful political retaliation."
+    ],
+    [
+     "journalistic integrity",
+     "l'intégrité journalistique",
+     "Newsrooms must defend their journalistic integrity against political interference."
+    ]
+   ],
+   "sujets": [
+    "Are US checks and balances strong enough to protect press freedom today?",
+    "How independent are federal regulatory agencies from presidential power in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "Federal court ruling on FCC license review of ABC (25 Nov. 2026)",
+     "r": "Judge Loren AliKhan blocked the FCC review of ABC licenses in C{6} major US markets as an unconstitutional B{First Amendment} violation.\n→ Key illustration of US B{checks and balances} protecting press freedom against executive retaliation → hook for US institutions or media essays."
+    },
+    {
+     "q": "Concept describing self-censorship caused by regulatory threats to media",
+     "r": "B{A chilling effect}: fear of losing broadcast licenses deters critical journalism and satire.\n→ Useful C1 idiom for essays on media independence and democracy."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-anglais-4",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno",
+   "minutes": 3,
+   "titre": "Australie et Pacifique : les Îles Salomon abandonnent leur pacte de sécurité avec la Chine au profit de Canberra",
+   "dossier": "salomon-australie-chine",
+   "faits": "Le 25 novembre 2026 à Canberra, le Premier ministre australien Anthony Albanese et son homologue des Îles Salomon, Matthew Wale, ont signé un traité bilatéral qualifié d'« historique » sur la sécurité et l'économie, faisant de l'Australie le « partenaire de sécurité privilégié » de l'archipel. Selon des médias australiens, Honiara a informé Pékin qu'elle ne renouvellerait pas le pacte sécuritaire controversé conclu en 2022 sous l'ancien dirigeant Manasseh Sogavare, dont l'échéance est fixée à avril 2027. Ce premier accord avait suscité de vives inquiétudes à Canberra et Washington quant à une possible implantation militaire chinoise dans le Pacifique Sud. Anthony Albanese a présenté ce nouveau partenariat comme un investissement direct dans la sécurité et la prospérité de l'Australie.",
+   "enjeux": "Ce revirement marque un succès diplomatique majeur pour Canberra et ses alliés occidentaux dans la **compétition stratégique en Indo-Pacifique**. Pendant quatre ans, l'accord sino-salomonais de 2022 avait symbolisé l'offensive d'influence de Pékin dans une région traditionnellement liée au Commonwealth et aux États-Unis. En combinant garanties de sécurité et coopération économique, l'Australie cherche à contrer la **diplomatie des infrastructures** chinoise et à stabiliser son voisinage proche, tout en ménageant la souveraineté des micro-États insulaires du Pacifique.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/33d1/live/b36a7310-e87d-11f1-98e2-c97dce6bef0d.jpg",
+    "alt": "Les Premiers ministres d'Australie et des Îles Salomon lors de la signature du traité à Canberra",
+    "credit": "BBC News",
+    "source": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
+   },
+   "vo": {
+    "titre": "Australia and Pacific: Solomon Islands drops China security pact for Canberra treaty",
+    "faits": "On 25 November 2026 in Canberra, Australian Prime Minister Anthony Albanese and Solomon Islands Prime Minister Matthew Wale signed a landmark bilateral security and economic treaty naming Australia as the Pacific nation's \"security partner of choice\". According to Australian media reports, Honiara had notified Beijing that it would not renew the controversial 2022 security and policing pact signed under former leader Manasseh Sogavare, which is due to expire in April 2027. That earlier deal had triggered alarm in Canberra and Washington over fears of a Chinese military foothold in the South Pacific. Albanese hailed the new agreement as an investment in Australia's own regional security and prosperity.",
+    "enjeux": "The diplomatic shift represents a major strategic gain for Australia and Western allies amid intensifying great-power rivalry in the Indo-Pacific. Since 2022, China's security agreement with Honiara had symbolized Beijing's growing influence across Pacific island nations traditionally aligned with the Commonwealth and the United States. By pairing security assurances with economic cooperation, Canberra aims to counter Chinese leverage in its immediate neighbourhood while respecting island states' sovereignty."
+   },
+   "vocab": [
+    [
+     "security partner of choice",
+     "le partenaire de sécurité privilégié",
+     "Canberra sought to re-establish itself as the region's security partner of choice."
+    ],
+    [
+     "a strategic foothold",
+     "un point d'appui stratégique",
+     "Western powers feared Beijing was seeking a strategic foothold in the South Pacific."
+    ],
+    [
+     "great-power rivalry",
+     "la rivalité entre grandes puissances",
+     "Small island states often navigate intense great-power rivalry in the Indo-Pacific."
+    ],
+    [
+     "to non-renew / let expire",
+     "ne pas renouveler / laisser expirer",
+     "The new government chose to let the controversial bilateral pact expire."
+    ],
+    [
+     "leverage",
+     "un levier d'influence",
+     "Economic aid gives major powers considerable diplomatic leverage."
+    ],
+    [
+     "a landmark treaty",
+     "un traité historique / majeur",
+     "The two leaders signed a landmark treaty covering both defence and trade."
+    ]
+   ],
+   "sujets": [
+    "How is Australia responding to China's growing influence in the Indo-Pacific?",
+    "Can small Pacific states preserve their sovereignty amid US-China rivalry?"
+   ],
+   "anki": [
+    {
+     "q": "Diplomatic shift by the Solomon Islands announced in Canberra (25 Nov. 2026)",
+     "r": "Signed a security and economic treaty with Australia (PM Anthony Albanese and PM Matthew Wale), choosing not to renew its D{2022} pact with China expiring in D{April 2027}.\n→ Major reversal in B{Indo-Pacific rivalry} limiting Beijing's strategic foothold → strong example for Commonwealth/geopolitics essays."
+    },
+    {
+     "q": "Status granted to Australia under the new Solomon Islands treaty",
+     "r": "Named the Pacific nation's \"security partner of choice\" in exchange for deeper security and economic backing.\n→ Shows Canberra combining aid and defence ties to counter Chinese B{leverage}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-anglais-5",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/society/2026/nov/26/uk-watchdog-calls-for-shake-up-of-private-dentistry-market",
+   "minutes": 3,
+   "titre": "Royaume-Uni : le régulateur de la concurrence alerte sur les dérives du marché des soins dentaires privés",
+   "dossier": "soins-dentaires-prives-uk",
+   "faits": "Dans des conclusions provisoires publiées le 26 novembre 2026, l'autorité britannique de la concurrence (CMA) dresse un « catalogue de préoccupations » sur le marché des soins dentaires privés, estimé à 8 milliards de livres par an, avant son rapport final attendu en mars 2027. En raison de la pénurie de places au sein du système public (NHS), environ 60 % des patients britanniques paient désormais de leur poche pour tout ou partie de leurs soins. La CMA révèle que les prix des grands groupes dentaires ont augmenté d'environ 7 % par an entre 2023 et 2025, dépassant l'inflation et la croissance des salaires, tandis que des praticiens subissent des objectifs commerciaux pour convertir les patients du NHS vers le privé. Les inégalités territoriales sont frappantes : un soin courant absorbe jusqu'à 36 % du revenu disponible dans le Nord-Est de l'Angleterre et 35 % au Pays de Galles.",
+   "enjeux": "Cette enquête met en lumière les effets pervers du sous-financement des **services publics** britanniques : la saturation du **NHS** alimente une privatisation de fait des soins de base, créant une médecine à deux vitesses. Dans un secteur caractérisé par une forte **asymétrie d'information** entre patient et praticien, l'essor de chaînes privées guidées par des objectifs financiers expose les ménages à des tarifs opaques et à des soins parfois superflus. Les écarts de reste à charge entre régions illustrent la persistance des **inégalités territoriales** et sociales au Royaume-Uni.",
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/f29e6773c3bc0a9e55e60cb571d944bff1550aa0/0_0_1885_1508/master/1885.jpg?width=700&quality=85&auto=format&fit=max&s=fbfdce10af79d3ee0e96f4d461e43026",
+    "alt": "Équipement de soin dentaire dans un cabinet britannique",
+    "credit": "The Guardian",
+    "source": "https://www.theguardian.com/society/2026/nov/26/uk-watchdog-calls-for-shake-up-of-private-dentistry-market"
+   },
+   "vo": {
+    "titre": "UK: Competition watchdog calls for shake-up of £8bn private dentistry market",
+    "faits": "In interim findings published on 26 November 2026, the UK Competition and Markets Authority (CMA) exposed a \"catalogue of concerns\" in Britain's £8bn private dentistry sector ahead of its final report due in March 2027. Driven by scarce access to NHS treatment, roughly 60% of British patients now pay privately for at least some dental care. The watchdog found that prices at large corporate chains rose by around 7% annually between 2023 and 2025, outpacing general inflation and wage growth, while some dentists face commercial targets to convert NHS patients to private plans. Regional disparities are stark: a basic filling can consume up to 36% of disposable income in North East England and 35% in Wales.",
+    "enjeux": "The inquiry exposes the unintended consequences of strained British public services: acute NHS shortages have triggered a de facto privatization of routine healthcare, widening a two-tier system. In a sector marked by strong information asymmetry between patients and providers, profit-driven dental chains risk pushing opaque fees and unnecessary treatments. Steep regional affordability gaps underscore how healthcare access increasingly mirrors Britain's enduring geographic and social inequalities."
+   },
+   "vocab": [
+    [
+     "competition watchdog",
+     "l'autorité de la concurrence",
+     "The competition watchdog has proposed stricter price transparency rules for private clinics."
+    ],
+    [
+     "out-of-pocket costs",
+     "les frais restant à la charge du patient",
+     "Rising out-of-pocket costs force low-income households to delay dental check-ups."
+    ],
+    [
+     "a two-tier system",
+     "un système à deux vitesses",
+     "Declining NHS capacity risks entrenching a two-tier healthcare system."
+    ],
+    [
+     "disposable income",
+     "le revenu disponible",
+     "Basic care absorbs a large share of disposable income in poorer regions."
+    ],
+    [
+     "to outpace inflation",
+     "progresser plus vite que l'inflation",
+     "Private treatment fees have outpaced both inflation and average wage growth."
+    ],
+    [
+     "postcode lottery",
+     "l'inégalité territoriale d'accès aux services",
+     "Patients face a postcode lottery when trying to book an NHS appointment."
+    ]
+   ],
+   "sujets": [
+    "Is the NHS crisis leading to a two-tier healthcare system in Britain?",
+    "How can regulators protect consumers in privatized essential services?"
+   ],
+   "anki": [
+    {
+     "q": "Share of UK patients using private dentistry and market size (CMA report, Nov. 2026)",
+     "r": "Around C{60%} of UK patients pay privately for some care in an C{£8bn} market, with corporate chain prices rising C{~7%} per year (D{2023–2025}).\n→ Shows how NHS shortages drive B{de facto privatization} and regional inequality (C{36%} of disposable income in North East England) → hook for UK welfare state essays."
+    },
+    {
+     "q": "Main governance concern raised by the CMA regarding UK corporate dental chains",
+     "r": "Commercial revenue targets push dentists to convert NHS patients and upsell expensive private treatments.\n→ Classic example of B{information asymmetry} harming vulnerable consumers."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-espagnol-1",
+   "matiere": "espagnol",
+   "source": "Expansión",
+   "url": "https://www.expansion.com/economia/2026/11/24/bruselas-amenaza-espana-expediente-desviarse-limite-pactado-deuda.html",
+   "minutes": 3,
+   "titre": "Espagne : Bruxelles menace Madrid d'une procédure pour dépassement de sa trajectoire de dépenses",
+   "dossier": "trajectoire-budgetaire-espana",
+   "faits": "Dans son paquet budgétaire d'automne publié le 24 novembre 2026, la Commission européenne a classé l'Espagne parmi les pays présentant un « risque matériel » de non-respect des règles budgétaires convenues avec Bruxelles. Selon les experts européens, l'écart estimé pour 2026 atteint environ 0,3 point de PIB, soit quelque 5 100 millions d'euros au-dessus de la marge de flexibilité autorisée. Bruxelles attribue ce dérapage aux dépenses destinées à contenir la crise énergétique provoquée par la guerre au Moyen-Orient, ainsi qu'à la hausse des rémunérations publiques dans les communautés autonomes et les municipalités. Comme la dette publique espagnole reste proche de 100 % du PIB — bien au-delà du seuil européen de 60 % —, la confirmation de cet écart en 2027 pourrait déclencher l'ouverture d'une procédure pour déficit ou dette excessive dès l'été prochain.",
+   "enjeux": "Cet avertissement rappelle que la réforme des **règles budgétaires européennes** réactive une surveillance stricte des trajectoires de dépenses nettes, y compris envers les économies de la zone euro à forte croissance. Pour l'Espagne, la **décentralisation budgétaire** complique le respect des engagements pris devant Bruxelles, car les communautés autonomes et les collectivités locales pèsent lourdement sur l'évolution des dépenses publiques. À quelques jours des élections générales, ce rappel à l'ordre pose la question de la marge de manœuvre réelle du futur gouvernement pour financer des mesures sociales ou énergétiques sans alourdir la **dette publique**.",
+   "image": {
+    "url": "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/10/14/17059345372069.jpeg",
+    "alt": "Le commissaire européen à l'Économie Valdis Dombrovskis lors d'une présentation budgétaire à Bruxelles",
+    "credit": "EXPANSION",
+    "source": "https://www.expansion.com/economia/2026/11/24/bruselas-amenaza-espana-expediente-desviarse-limite-pactado-deuda.html"
+   },
+   "vo": {
+    "titre": "España: Bruselas amenaza a Madrid con un expediente por desviarse de la senda fiscal pactada",
+    "faits": "En su paquete presupuestario de otoño publicado el 24 de noviembre de 2026, la Comisión Europea situó a España entre los países con «riesgo material» de incumplir las reglas fiscales pactadas con Bruselas. Según los técnicos comunitarios, la desviación estimada para 2026 asciende a unas tres décimas del PIB, es decir, unos 5.100 millones de euros por encima del límite de flexibilidad permitido. Bruselas atribuye este desajuste al gasto destinado a contener la crisis energética derivada de la guerra en Oriente Próximo, así como al aumento de la masa salarial en las comunidades autónomas y los ayuntamientos. Dado que la deuda pública española ronda el 100 % del PIB —muy por encima del umbral comunitario del 60 %—, la confirmación de estos datos en 2027 podría motivar la apertura formal de un procedimiento sancionador el próximo verano.",
+    "enjeux": "Esta advertencia demuestra que la vigilancia de las reglas fiscales europeas vuelve a restringir el margen presupuestario de los Estados miembros, incluso en economías con un crecimiento relativamente dinámico. En el caso español, la descentralización fiscal dificulta el control del gasto público agregado, puesto que las administraciones regionales y locales concentran una parte decisiva del empleo y los servicios públicos. En vísperas de las elecciones generales, el aviso comunitario plantea el dilema entre sostener el poder adquisitivo frente al choque energético y garantizar la sostenibilidad de la deuda pública."
+   },
+   "vocab": [
+    [
+     "la senda fiscal",
+     "la trajectoire budgétaire",
+     "Bruselas exige que los Estados cumplan con la senda fiscal acordada."
+    ],
+    [
+     "un expediente sancionador",
+     "une procédure de sanction",
+     "Un déficit excesivo prolongado puede desembocar en un expediente sancionador."
+    ],
+    [
+     "el umbral",
+     "le seuil",
+     "La deuda pública española supera ampliamente el umbral del 60 % del PIB."
+    ],
+    [
+     "el desvío presupuestario",
+     "le dérapage budgétaire",
+     "El desvío presupuestario se explica por las ayudas energéticas de emergencia."
+    ],
+    [
+     "las comunidades autónomas",
+     "les communautés autonomes (régions espagnoles)",
+     "El gasto sanitario depende en gran medida de las comunidades autónomas."
+    ],
+    [
+     "la sostenibilidad de la deuda",
+     "la soutenabilité de la dette",
+     "El envejecimiento poblacional presiona la sostenibilidad de la deuda a largo plazo."
+    ]
+   ],
+   "sujets": [
+    "¿Siguen siendo compatibles las reglas fiscales europeas con el Estado del bienestar en España?",
+    "¿Es la descentralización autonómica un obstáculo para el control del gasto público en España?"
+   ],
+   "anki": [
+    {
+     "q": "Desvío presupuestario de España señalado por la Comisión Europea (nov. 2026)",
+     "r": "Unos C{5.100 millones €} (C{0,3 %} del PIB) por encima del límite pactado en D{2026}, con una deuda pública cercana al C{100 %} del PIB.\n→ Ilustra la tensión entre B{reglas fiscales europeas}, gasto autonómico y ayudas energéticas → dato útil para ensayos sobre España y la UE."
+    },
+    {
+     "q": "Principales causas del desvío del gasto español según Bruselas (nov. 2026)",
+     "r": "Medidas frente a la crisis energética ligada a Oriente Próximo y subida de la remuneración pública en comunidades autónomas y ayuntamientos.\n→ Muestra el peso de la B{descentralización fiscal} en el presupuesto español."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-espagnol-2",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/chile/2026-11-26/chile-aprueba-el-acceso-universal-a-guarderias-para-los-hijos-de-todos-los-trabajadores.html",
+   "minutes": 3,
+   "titre": "Chili : le Congrès approuve la loi sur l'accès universel aux crèches pour tous les travailleurs",
+   "dossier": "creches-universelles-chili",
+   "faits": "Fin novembre 2026, le Congrès chilien a définitivement adopté au Sénat la loi de « Sala Cuna Universal » (crèche universelle), aboutissement d'un long parcours législatif traversant plusieurs gouvernements successifs. Ce texte réforme l'article 203 du Code du travail en supprimant une norme centenaire qui n'obligeait à financer une crèche que les entreprises employant au moins vingt femmes. Désormais, l'accès à la garde d'enfants de moins de deux ans devient un droit universel garanti pour toutes les mères et tous les pères salariés, indépendamment de la taille ou de la composition de l'entreprise, et s'étendra progressivement aux travailleurs indépendants. Le dispositif s'appuie sur un fonds solidaire financé par une cotisation patronale compensée par une baisse des prélèvements d'assurance chômage.",
+   "enjeux": "Cette réforme lève un obstacle structurel majeur à l'**emploi féminin** au Chili : l'ancien seuil des vingt salariées créait une incitation perverse dissuadant de nombreuses PME d'embaucher des femmes pour éviter le coût fixe de la crèche. En étendant le droit aux pères et en mutualisant son financement, la loi favorise la **coresponsabilité parentale** et réduit la pénalité salariale liée à la maternité. Au-delà de l'égalité femmes-hommes, l'accès élargi à la petite enfance constitue un levier de croissance inclusive dans un pays d'Amérique latine confronté au vieillissement démographique et à une faible participation féminine au marché du travail.",
+   "image": {
+    "url": "https://imagenes.elpais.com/resizer/v2/6F6PDSPH4VHV5DL5BZYYMLOFRA.jpg?auth=3877d59a9285c8a057b74340dce82129c5111d73cad3914413fb2163e554d964",
+    "alt": "Salle de classe d'une crèche au Chili accueillant des jeunes enfants",
+    "credit": "El País",
+    "source": "https://elpais.com/chile/2026-11-26/chile-aprueba-el-acceso-universal-a-guarderias-para-los-hijos-de-todos-los-trabajadores.html"
+   },
+   "vo": {
+    "titre": "Chile: el Congreso aprueba la ley de Sala Cuna Universal para todos los trabajadores",
+    "faits": "A finales de noviembre de 2026, el Congreso de Chile despachó definitivamente a ley en el Senado el proyecto de Sala Cuna Universal, culminando una larga tramitación legislativa que atravesó distintos gobiernos. La norma modifica el artículo 203 del Código del Trabajo para derogar la centenaria exigencia que solo obligaba a costear guarderías a las empresas con veinte o más trabajadoras. A partir de ahora, el derecho al cuidado de menores de dos años se garantiza de forma universal para madres y padres trabajadores con independencia del tamaño de la empresa, incorporando gradualmente a los independientes. El sistema se financiará mediante un fondo solidario nutrido por una cotización empresarial compensada con una rebaja en el Seguro de Cesantía.",
+    "enjeux": "Esta reforma elimina una barrera histórica contra el empleo femenino en Chile: el antiguo umbral de veinte mujeres generaba un incentivo perverso que desincentivaba la contratación femenina en numerosas empresas. Al extender el beneficio a los padres y mutualizar el coste a través de un fondo solidario, la ley impulsa la corresponsabilidad parental y combate la brecha laboral de género. En términos económicos, facilitar el acceso universal a la primera infancia fortalece la participación laboral y la cohesión social en una sociedad latinoamericana marcada por un rápido envejecimiento."
+   },
+   "vocab": [
+    [
+     "la sala cuna / guardería",
+     "la crèche / garderie",
+     "La ley de sala cuna universal beneficia a miles de familias trabajadoras."
+    ],
+    [
+     "la corresponsabilidad parental",
+     "le partage des responsabilités parentales",
+     "Incluir a los padres fomenta la corresponsabilidad en el cuidado infantil."
+    ],
+    [
+     "un incentivo perverso",
+     "une incitation perverse / effet pervers",
+     "Los umbrales legales mal diseñados crean a menudo incentivos perversos en la contratación."
+    ],
+    [
+     "derogar una norma",
+     "abroger une règle / loi",
+     "El Parlamento decidió derogar el artículo que limitaba este derecho laboral."
+    ],
+    [
+     "la brecha de género",
+     "l'écart entre femmes et hommes",
+     "El acceso al cuidado infantil contribuye a reducir la brecha salarial de género."
+    ],
+    [
+     "los trabajadores independientes",
+     "les travailleurs indépendants",
+     "La reforma prevé integrar de manera progresiva a los trabajadores independientes."
+    ]
+   ],
+   "sujets": [
+    "¿Qué políticas públicas son más eficaces para fomentar la igualdad laboral entre mujeres y hombres en América Latina?",
+    "¿Cómo conciliar la protección social de las familias con la competitividad de las empresas?"
+   ],
+   "anki": [
+    {
+     "q": "Regla discriminatoria eliminada por la ley de Sala Cuna Universal en Chile (nov. 2026)",
+     "r": "El artículo C{203} del Código del Trabajo, que solo obligaba a pagar guardería a empresas con C{20 o más} mujeres contratadas.\n→ Eliminaba un B{incentivo perverso} contra el empleo femenino y extiende el derecho a padres y trabajadores independientes → ejemplo clave sobre género y políticas sociales en América Latina."
+    },
+    {
+     "q": "Mecanismo de financiación de la Sala Cuna Universal en Chile",
+     "r": "Un fondo solidario alimentado por cotización patronal compensada con una rebaja del Seguro de Cesantía.\n→ Mutualiza el coste para evitar que recaiga únicamente sobre las empresas que contratan mujeres."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-espagnol-3",
+   "matiere": "espagnol",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/economia/2026/11/25/6b0695b7e85ecec2568b4584.html",
+   "minutes": 3,
+   "titre": "Espagne : le gouvernement élargit les congés de deuil, de maternité et de paternité",
+   "dossier": "conges-familiaux-espagne",
+   "faits": "Le Conseil des ministres espagnol a approuvé le 24 novembre 2026 un décret-loi royal élargissant les congés familiaux et de deuil, publié au Bulletin officiel de l'État et soumis la semaine prochaine à la validation de la députation permanente du Congrès. Le congé pour décès d'un conjoint, parent ou enfant passe de deux à dix jours ouvrables, utilisables de façon flexible dans les quatre semaines suivant le décès, et à trois jours ouvrables (cinq en cas de déplacement) pour les proches au second degré. Parallèlement, le congé de naissance et de soin de l'enfant est porté à vingt semaines pour chacun des deux parents — dont trois semaines flexibles jusqu'aux huit ans de l'enfant — et à trente-quatre semaines pour les familles monoparentales.",
+   "enjeux": "Cette réforme poursuit l'extension des **droits sociaux** engagée en Espagne depuis 2019 en matière de **conciliation entre vie professionnelle et vie familiale**. L'allongement égalitaire à vingt semaines pour la mère comme pour le père place l'Espagne parmi les pays européens les plus avancés sur l'égalité parentale, tout en reconnaissant enfin la spécificité des familles monoparentales. Toutefois, adoptée à la veille des élections générales par décret-loi, la mesure suscite un débat sur son coût pour la Sécurité sociale et pour l'organisation des PME, ainsi que sur sa portée électorale.",
+   "image": {
+    "url": "https://e01-phantom-elmundo.uecdn.es/3a1ae8013ff9cac7e83e820632765d99/crop/308x205/2764x1842/resize/1200/f/webp/assets/multimedia/imagenes/2025/07/31/17539740696503.jpg",
+    "alt": "Représentation symbolique du monde du travail et des congés familiaux en Espagne",
+    "credit": "El Mundo",
+    "source": "https://www.elmundo.es/economia/2026/11/25/6b0695b7e85ecec2568b4584.html"
+   },
+   "vo": {
+    "titre": "España: el Gobierno amplía los permisos laborales por duelo, maternidad y paternidad",
+    "faits": "El Consejo de Ministros español aprobó el 24 de noviembre de 2026 un real decreto-ley que amplía los permisos laborales por fallecimiento y nacimiento, publicado en el BOE y pendiente de convalidación por la diputación permanente del Congreso la próxima semana. El permiso por duelo tras el fallecimiento del cónyuge, pareja, padres o hijos pasa de dos a diez días laborables, disfrutables de forma flexible durante las cuatro semanas posteriores, y se fija en tres días (cinco con desplazamiento) para familiares de segundo grado. Al mismo tiempo, el permiso por nacimiento y cuidado de menor aumenta a veinte semanas por cada progenitor —tres de ellas flexibles hasta los ocho años del hijo— y a treinta y cuatro semanas para las familias monoparentales.",
+    "enjeux": "Esta medida profundiza la agenda de derechos sociales impulsada en España para mejorar la conciliación entre la vida laboral y familiar. Al equiparar en veinte semanas el permiso individual e intransferible de ambos progenitores y reforzar la protección a las familias monoparentales, España se sitúa a la vanguardia europea en igualdad parental. No obstante, su aprobación por decreto-ley a pocos días de las elecciones generales reaviva el debate sobre el coste para la Seguridad Social y el impacto organizativo en las pequeñas empresas."
+   },
+   "vocab": [
+    [
+     "el permiso por duelo",
+     "le congé de deuil",
+     "La reforma amplía a diez días el permiso por duelo en primer grado."
+    ],
+    [
+     "la conciliación laboral y familiar",
+     "la conciliation vie professionnelle / vie familiale",
+     "La conciliación sigue siendo un reto clave para el mercado de trabajo."
+    ],
+    [
+     "la diputación permanente",
+     "la députation permanente (organe parlementaire entre sessions)",
+     "Al estar disueltas las Cortes, la diputación permanente debe convalidar el decreto."
+    ],
+    [
+     "las familias monoparentales",
+     "les familles monoparentales",
+     "Las familias monoparentales contarán con treinta y cuatro semanas de permiso."
+    ],
+    [
+     "días laborables",
+     "des jours ouvrables",
+     "El trabajador dispone de diez días laborables para acompañar el duelo."
+    ],
+    [
+     "un real decreto-ley",
+     "un décret-loi royal",
+     "El Ejecutivo recurrió a un real decreto-ley en el último Consejo de Ministros."
+    ]
+   ],
+   "sujets": [
+    "¿Contribuye la ampliación de los permisos parentales a reducir las desigualdades en el mercado laboral?",
+    "¿Cómo equilibrar el avance de los derechos sociales con las exigencias de las pymes españolas?"
+   ],
+   "anki": [
+    {
+     "q": "Nuevas duraciones de los permisos por nacimiento y duelo aprobadas en España (nov. 2026)",
+     "r": "Nacimiento: C{20 semanas} por progenitor (C{34} en familias monoparentales). Duelo (1.er grado): de C{2} a C{10 días} laborables.\n→ Refuerza la B{conciliación laboral} y la igualdad parental en España, pendiente de convalidación parlamentaria → dato útil sobre política social española."
+    },
+    {
+     "q": "Órgano parlamentario encargado de convalidar los decretos-leyes en periodo electoral en España",
+     "r": "La B{diputación permanente} del Congreso de los Diputados.\n→ Mecanismo institucional clave cuando las Cortes están disueltas."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-espagnol-4",
+   "matiere": "espagnol",
+   "source": "El Tiempo",
+   "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/gobierno-de-abelardo-de-la-espriella-frena-ingreso-de-colombia-al-grupo-de-los-brics-y-adhesion-al-nuevo-banco-de-desarrollo-cancilleria-se-pronuncio-3604350",
+   "minutes": 3,
+   "titre": "Colombie : le gouvernement d'Abelardo De La Espriella suspend l'adhésion aux BRICS et à leur banque",
+   "dossier": "colombie-retrait-brics",
+   "faits": "Le 25 novembre 2026, le gouvernement du président colombien Abelardo De La Espriella a annoncé officiellement par un communiqué du ministère des Affaires étrangères que la Colombie mettait fin à son processus d'adhésion au groupe des BRICS ainsi qu'à la Nouvelle Banque de développement (NBD). Cette décision revient directement sur la feuille de route engagée en 2025 par son prédécesseur de gauche, Gustavo Petro, qui avait déposé la demande d'entrée à Shanghai auprès de la présidente de la NBD Dilma Rousseff et soumis un projet de loi resté inachevé au Congrès. La chancellerie dirigée par Omar Bula précise que Bogotá privilégiera désormais la coopération financière avec les institutions multilatérales traditionnelles pour financer son Plan national de développement 2026-2030.",
+   "enjeux": "Ce coup d'arrêt illustre le basculement diplomatique de la Colombie, qui s'éloigne de l'axe des pays émergents mené par la Chine, la Russie et le Brésil pour se réaligner stratégiquement sur Washington. Alors que plusieurs pays latino-américains oscillent entre diversification vers le « Sud global » et dépendance financière envers les États-Unis, le choix de Bogotá confirme combien les **alliances géopolitiques** du continent restent tributaires des alternances politiques internes. Il soulève aussi la question du financement des infrastructures en Amérique latine entre la NBD des **BRICS** et les bailleurs occidentaux traditionnels comme le FMI ou la Banque mondiale.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Casa-narino-1-fachada.jpg/1280px-Casa-narino-1-fachada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Façade de la Casa de Nariño, siège de la présidence de la Colombie à Bogotá",
+    "credit": "Juanjo70000 / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Casa-narino-1-fachada.jpg"
+   },
+   "vo": {
+    "titre": "Colombia: el Gobierno de Abelardo De La Espriella frena el ingreso a los BRICS y a su banco",
+    "faits": "El 25 de noviembre de 2026, el Gobierno del presidente colombiano Abelardo De La Espriella anunció oficialmente mediante un comunicado de la Cancillería que Colombia detiene su proceso de adhesión al bloque de los BRICS y al Nuevo Banco de Desarrollo (NBD). Esta decisión revierte la hoja de ruta impulsada en 2025 por su predecesor, Gustavo Petro, quien había formalizado la solicitud en Shanghái junto a la presidenta del NBD, Dilma Rousseff, sin que el Congreso llegara a aprobar el proyecto de ley correspondiente. El Ministerio de Relaciones Exteriores, encabezado por Omar Bula, precisó que el país canalizará su financiación hacia organismos multilaterales tradicionales para ejecutar el Plan Nacional de Desarrollo 2026-2030.",
+    "enjeux": "Este giro diplomático refleja un realineamiento estratégico de Colombia, que se distancia del polo de potencias emergentes liderado por China, Rusia y Brasil para estrechar nuevamente sus lazos con Estados Unidos. Mientras varios países latinoamericanos buscan diversificar sus socios hacia el llamado Sur Global, la decisión de Bogotá confirma la fuerte dependencia de la política exterior regional respecto a los cambios de ciclo electoral. Además, reabre el debate sobre las fuentes de financiación para el desarrollo entre los organismos occidentales clásicos y las nuevas instituciones impulsadas por los BRICS."
+   },
+   "vocab": [
+    [
+     "frenar el ingreso",
+     "freiner / suspendre l'adhésion",
+     "La Cancillería decidió frenar el ingreso del país en el bloque de los BRICS."
+    ],
+    [
+     "revertir la hoja de ruta",
+     "inverser la feuille de route",
+     "El nuevo Ejecutivo optó por revertir la hoja de ruta diplomática de su antecesor."
+    ],
+    [
+     "un realineamiento estratégico",
+     "un réalignement stratégique",
+     "La suspensión marca un realineamiento estratégico hacia Washington."
+    ],
+    [
+     "los organismos multilaterales",
+     "les institutions multilatérales",
+     "Colombia seguirá colaborando con los organismos multilaterales tradicionales."
+    ],
+    [
+     "la Cancillería",
+     "le ministère des Affaires étrangères (Amérique latine)",
+     "La Cancillería publicó un comunicado oficial aclarando su postura."
+    ],
+    [
+     "el Sur Global",
+     "le Sud global",
+     "Los BRICS aspiran a encarnar la voz económica del Sur Global."
+    ]
+   ],
+   "sujets": [
+    "¿Logra América Latina mantener una política exterior autónoma frente a la rivalidad entre Estados Unidos y China?",
+    "¿Representan los BRICS una alternativa financiera creíble para los países latinoamericanos?"
+   ],
+   "anki": [
+    {
+     "q": "Decisión diplomática de Colombia anunciada el 25 de noviembre de 2026",
+     "r": "El Gobierno de Abelardo De La Espriella frena el ingreso a los B{BRICS} y al B{Nuevo Banco de Desarrollo}, revirtiendo el trámite iniciado por Gustavo Petro en D{2025}.\n→ Muestra el B{realineamiento hacia EE. UU.} y la fragilidad de los giros geopolíticos tras alternancias políticas → gancho ideal sobre América Latina y el Sur Global."
+    },
+    {
+     "q": "Alternativa financiera elegida por Bogotá tras renunciar al NBD (nov. 2026)",
+     "r": "Recurrir a los organismos multilaterales tradicionales para financiar el Plan Nacional de Desarrollo D{2026-2030}.\n→ Ilustra la competencia entre banca multilateral occidental y financiación china/BRICS."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-espagnol-5",
+   "matiere": "espagnol",
+   "source": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/ckq5vgpwwq76o",
+   "minutes": 3,
+   "titre": "Espagne : la population approche les 50 millions d'habitants sous l'effet de l'immigration",
+   "dossier": "demographie-immigration-espagne",
+   "faits": "Selon les chiffres provisoires de l'Institut national de statistique (INE) pour octobre 2026, l'Espagne a atteint un record historique de 49 935 642 habitants, soit près de 2,5 millions de plus qu'il y a cinq ans et 3,4 millions de plus qu'il y a dix ans. Aujourd'hui, environ une personne sur cinq résidant dans le pays est née à l'étranger, contre une sur huit il y a une décennie. Dans un pays vieillissant où les décès dépassent les naissances depuis plusieurs années, cette croissance est portée par l'immigration, notamment en provenance de Colombie et du Venezuela. Ces nouveaux arrivants fournissent une main-d'œuvre décisive à la construction, l'agriculture, l'hôtellerie et l'aide aux personnes âgées, tout en avivant les débats sur le logement et les services publics à l'approche du scrutin du 29 novembre.",
+   "enjeux": "Cette mutation démographique révèle le paradoxe économique de l'Espagne contemporaine : grâce à l'apport de population active née à l'étranger — largement hispanophone et donc plus facilement intégrée sur le plan linguistique —, le pays soutient sa **croissance économique** et le financement de ses retraites malgré un solde naturel négatif. Mais cette augmentation rapide de la population exerce une forte pression sur le **marché du logement** et les équipements collectifs, faute d'offre suffisante. L'immigration s'impose ainsi comme une ligne de clivage politique majeure entre défenseurs d'une ouverture régulée et partis réclamant un contrôle strict des flux.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1200/branded_mundo/fb04/live/2aaed300-e52f-11f1-9bfd-15139fdcafee.jpg",
+    "alt": "Passants dans une rue animée d'une grande ville espagnole",
+    "credit": "BBC News Mundo",
+    "source": "https://www.bbc.com/mundo/articles/ckq5vgpwwq76o"
+   },
+   "vo": {
+    "titre": "España roza los 50 millones de habitantes impulsada por la inmigración latinoamericana",
+    "faits": "Según los datos provisionales del Instituto Nacional de Estadística (INE) de octubre de 2026, España alcanzó un máximo histórico de 49.935.642 habitantes, casi 2,5 millones más que hace cinco años y 3,4 millones más que hace una década. Actualmente, alrededor de una de cada cinco personas residentes en el país ha nacido en el extranjero, frente a una de cada ocho hace diez años. En una sociedad envejecida donde las defunciones superan desde hace años a los nacimientos, este dinamismo obedece a la inmigración, con Colombia y Venezuela entre los principales países de origen. Los recién llegados aportan mano de obra esencial a la construcción, la agricultura, la hostelería y los cuidados, al tiempo que intensifican el debate sobre la vivienda y los servicios públicos antes de las elecciones del 29 de noviembre.",
+    "enjeux": "Esta transformación demográfica ilustra una paradoja central de la economía española: la llegada de trabajadores extranjeros —en buena parte hispanohablantes y con afinidad cultural— compensa el saldo vegetativo negativo y sostiene tanto el crecimiento del PIB como las cotizaciones sociales. Sin embargo, el rápido aumento poblacional agrava la competencia por el acceso a la vivienda y tensiona los servicios públicos ante la rigidez de la oferta. De este modo, la gestión migratoria se consolida como uno de los principales ejes de polarización política en España."
+   },
+   "vocab": [
+    [
+     "el saldo vegetativo",
+     "le solde naturel (naissances moins décès)",
+     "España registra un saldo vegetativo negativo debido a su baja natalidad."
+    ],
+    [
+     "el envejecimiento poblacional",
+     "le vieillissement de la population",
+     "El envejecimiento poblacional amenaza el equilibrio del sistema de pensiones."
+    ],
+    [
+     "la mano de obra",
+     "la main-d'œuvre",
+     "Sectores como la construcción y la hostelería dependen de la mano de obra extranjera."
+    ],
+    [
+     "nacer en el extranjero",
+     "naître à l'étranger",
+     "Una de cada cinco personas residentes en España nació en el extranjero."
+    ],
+    [
+     "el cuidado de mayores",
+     "l'aide aux personnes âgées",
+     "Muchos inmigrantes trabajan en el sector esencial del cuidado de mayores."
+    ],
+    [
+     "un eje de polarización",
+     "un axe de polarisation",
+     "La inmigración se ha convertido en un eje de polarización durante la campaña."
+    ]
+   ],
+   "sujets": [
+    "¿Es la inmigración una respuesta indispensable al declive demográfico de España?",
+    "¿Cómo explicar la integración específica de la inmigración latinoamericana en la sociedad española?"
+   ],
+   "anki": [
+    {
+     "q": "Población de España según el INE en octubre de 2026 y proporción de nacidos en el extranjero",
+     "r": "C{49.935.642} habitantes (C{+3,4 millones} en 10 años), con C{1 de cada 5} residentes nacido en el extranjero (frente a C{1 de cada 8} hace una década).\n→ Compensa el B{saldo vegetativo negativo} y sostiene sectores clave, pero presiona la vivienda → gancho demográfico de primer orden sobre España."
+    },
+    {
+     "q": "Principales orígenes y sectores laborales de la inmigración reciente en España",
+     "r": "Destacan Colombia y Venezuela, con fuerte presencia en construcción, agricultura, hostelería y cuidados.\n→ Explica la rapidez de la B{integración lingüística} y el aporte al PIB español."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-espagnol-c1",
+   "matiere": "espagnol",
+   "culture": true,
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/cultura/20261126/11693366/imparable-viaje-bola-negra-oscars.html",
+   "minutes": 3,
+   "titre": "Cinéma : « La bola negra » des Javis porte l'héritage de Lorca jusqu'à la course aux Oscars",
+   "dossier": "cine-la-bola-negra",
+   "faits": "Le long métrage dramatique *La bola negra*, réalisé par Javier Ambrossi et Javier Calvo (connus comme « los Javis ») et sorti en 2026, s'est hissé en deux mois en tête du box-office espagnol de l'année et représente officiellement l'Espagne dans la course à l'Oscar du meilleur film international (99e édition, mars 2027). Présenté en première mondiale en mai au Festival de Cannes — où le duo a remporté le prix de la mise en scène —, puis récompensé par le prix du public à Toronto et à Saint-Sébastien, le film s'inspire librement de la pièce inachevée homonyme de Federico García Lorca (complétée par *La piedra oscura* d'Alberto Conejero). Il retrace, à travers l'exclusion par vote à boules blanches et noires d'un jeune homme homosexuel, la persécution et la mémoire de la guerre civile espagnole.",
+   "enjeux": "Le triomphe de *La bola negra* révèle la maturité d'une nouvelle génération de cinéastes espagnols capables d'allier **succès populaire**, reconnaissance critique internationale et exploration exigeante de la **mémoire historique**. En exhumant un manuscrit inachevé de **Federico García Lorca** — fusillé en août 1936 au début de la guerre civile —, le film montre comment l'Espagne contemporaine relit son patrimoine littéraire à travers les questions de liberté individuelle, de diversité et de droits civiques. Il confirme aussi le rayonnement du cinéma espagnol aux côtés de figures comme Pedro Almodóvar ou Rodrigo Sorogoyen, loin des clichés folkloriques.",
+   "image": {
+    "url": "https://www.lavanguardia.com/files/article_main_microformat/uploads/2026/11/26/6b07fa7ce184f.jpeg",
+    "alt": "Les réalisateurs espagnols Javier Calvo et Javier Ambrossi lors de la promotion de La bola negra",
+    "credit": "La Vanguardia",
+    "source": "https://www.lavanguardia.com/cultura/20261126/11693366/imparable-viaje-bola-negra-oscars.html"
+   },
+   "vo": {
+    "titre": "Cine: «La bola negra» de los Javis lleva el legado de Lorca hacia la carrera por los Oscar",
+    "faits": "El drama cinematográfico «La bola negra», dirigido por Javier Ambrossi y Javier Calvo (conocidos como los Javis) y estrenado en 2026, se ha convertido en apenas dos meses en la película más taquillera del año en España y ha sido elegida para representar al país en los Premios Oscar a la mejor película internacional en 2027. Tras su estreno mundial en el Festival de Cannes —donde obtuvieron el premio a la mejor dirección— y conquistar el premio del público en Toronto y San Sebastián, el filme adapta libremente la obra teatral inacabada homónima de Federico García Lorca y dialoga con «La piedra oscura» de Alberto Conejero. La historia conecta el rechazo sufrido por un joven homosexual mediante el sistema de bolas blancas y negras con la represión de la Guerra Civil.",
+    "enjeux": "El fenómeno de «La bola negra» demuestra la vitalidad de una generación de creadores españoles capaces de unir el éxito comercial con el prestigio internacional y la reflexión sobre la memoria democrática. Al rescatar un texto inconcluso de Federico García Lorca, figura universal de la Generación del 27 asesinada en 1936, la película transforma la herencia literaria en un alegato contemporáneo sobre las libertades civiles y la diversidad. Al mismo tiempo, consolida el peso cultural del cine español en los grandes circuitos estadounidenses y europeos."
+   },
+   "vocab": [
+    [
+     "ser la película más taquillera",
+     "être le film ayant fait le plus d'entrées au box-office",
+     "«La bola negra» se situó como la película más taquillera de la temporada."
+    ],
+    [
+     "una obra inacabada",
+     "une œuvre inachevée",
+     "Los directores partieron de una obra inacabada de Federico García Lorca."
+    ],
+    [
+     "la memoria histórica / democrática",
+     "la mémoire historique / démocratique",
+     "El cine español contemporáneo aborda a menudo las heridas de la memoria histórica."
+    ],
+    [
+     "el estreno mundial",
+     "la première mondiale",
+     "El largometraje recibió una gran ovación en su estreno mundial en Cannes."
+    ],
+    [
+     "el alegato",
+     "le plaidoyer",
+     "La puesta en escena funciona como un alegato contra la intolerancia."
+    ],
+    [
+     "la puesta en escena",
+     "la mise en scène",
+     "El jurado premió la fuerza visual de su puesta en escena."
+    ]
+   ],
+   "reperes": [
+    [
+     "Federico García Lorca et la Génération de 27",
+     "Poète et dramaturge majeur (*La Casa de Bernarda Alba*, *Bodas de sangre*), assassiné près de Grenade en août 1936 ; il n'avait rédigé que le premier acte de *La bola negra* avant sa mort."
+    ],
+    [
+     "Javier Ambrossi et Javier Calvo (« los Javis »)",
+     "Duo de créateurs révélés par la scène théâtrale et les séries (*Veneno*, *La Mesías*) qui renouvelle la culture populaire espagnole en mêlant récit intime, musique et critique sociale."
+    ],
+    [
+     "La piedra oscura d'Alberto Conejero (2015)",
+     "Pièce contemporaine primée qui imagine les dernières heures de Rafael Rodríguez Rapún, compagnon de Lorca, pendant la guerre civile."
+    ],
+    [
+     "Le cinéma espagnol et la mémoire depuis Almodóvar",
+     "De *La mala educación* aux œuvres de Carla Simón ou Rodrigo Sorogoyen, le cinéma espagnol utilise la création esthétique pour lever les tabous hérités du franquisme."
+    ]
+   ],
+   "entretien": "Tu peux l'amener naturellement en entretien si le jury te demande ce que tu as vu ou lu récemment, ou lorsque tu évoques tes voyages en Espagne et ton intérêt pour la création artistique : « J'ai suivi la trajectoire impressionnante de *La bola negra*, le nouveau film espagnol des Javis choisi pour représenter l'Espagne aux Oscars 2027 après avoir remporté le prix de la mise en scène à Cannes. » Explique ensuite ton avis argumenté : ce qui te touche, c'est la manière dont deux jeunes réalisateurs issus de la culture pop parviennent à s'emparer d'un manuscrit inachevé de Federico García Lorca pour en faire un grand film populaire, qui parle de liberté, d'exclusion et de mémoire sans jamais être poussiéreux. Fais le lien avec toi : comme dans la mode ou la gastronomie que tu aimes en Espagne, tu es sensible à cette capacité qu'ont les créateurs espagnols à réinventer une tradition classique avec une énergie très contemporaine. Si le jury te relance (« Qu'avez-vous retenu de Lorca ou de cette période en Espagne ? »), réponds en rappelant que Lorca incarne la Génération de 27, cet âge d'or artistique brutalement brisé par la guerre civile en 1936, dont le cinéma et la société espagnole continuent aujourd'hui de faire un patrimoine vivant.",
+   "sujets": [
+    "¿Cómo utiliza el cine español contemporáneo la herencia literaria para reflexionar sobre la memoria de la Guerra Civil?",
+    "¿Puede el cine de autor alcanzar un gran éxito popular e internacional sin renunciar a su compromiso?"
+   ],
+   "anki": [
+    {
+     "q": "Origen literario y premios principales de «La bola negra» (2026)",
+     "r": "Adaptación libre de una obra inacabada de A{Federico García Lorca} por los Javis (Javier Ambrossi y Javier Calvo), ganadora de mejor dirección en Cannes D{2026} y candidata española al Oscar D{2027}.\n→ Une la herencia de la B{Generación del 27} con el cine español actual sobre memoria y libertades → referencia sólida para entrevistas y ensayos."
+    },
+    {
+     "q": "Qué simboliza el título «La bola negra» en el texto de Lorca",
+     "r": "El sistema de votación de un casino mediante bolas blancas y negras usado para rechazar a un aspirante por su homosexualidad.\n→ Metáfora de la B{exclusión social} y la intolerancia antes y durante la Guerra Civil."
+    }
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "Faire sauter le tabou de l'université payante",
+   "url": "https://www.lesechos.fr/idees-debats/livres/faire-sauter-le-tabou-de-luniversite-payante-2264739",
+   "pourquoi": "Éclaire le débat sur le financement de l'enseignement supérieur, l'accumulation de **capital humain** et la justice sociale d'une modulation des frais d'inscription."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "« L'Afrique jouera le rôle d'arbitre de la compétition économique internationale »",
+   "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/lafrique-jouera-le-role-darbitre-de-la-competition-economique-internationale-2264532",
+   "pourquoi": "Analyse le poids croissant du continent africain — par sa **démographie**, ses ressources critiques et ses partenariats diversifiés — dans les rivalités géoéconomiques mondiales."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Sanctions contre la Russie : le pétrolier Lukoil vend ses actifs internationaux, estimés à 10 milliards de dollars",
+   "url": "https://www.lesechos.fr/industrie-services/energie-environnement/sanctions-contre-la-russie-le-petrolier-lukoil-vend-ses-actifs-internationaux-estimes-a-10-milliards-de-dollars-2264678",
+   "pourquoi": "Montre comment les **sanctions financières** occidentales redessinent la carte énergétique mondiale via une cession par échange d'actions reprise par un consortium soutenu par Washington."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« Dans la finance, l’IA oblige chacun à être meilleur dans son cœur de métier »",
+   "url": "https://www.lemonde.fr/argent/article/2026/11/25/dans-la-finance-l-intelligence-artificielle-oblige-chacun-a-etre-meilleur-dans-son-c-ur-de-metier_6815096_1657007.html",
+   "pourquoi": "Nuance l'impact macroéconomique de l'**intelligence artificielle** sur l'emploi qualifié et la productivité en rappelant les délais de diffusion propres aux révolutions technologiques (**paradoxe de Solow**)."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "« Le modèle des start-up a trouvé son point d’orgue avec l’arrivée au pouvoir d’Emmanuel Macron »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/26/le-modele-des-start-up-a-trouve-son-point-d-orgue-avec-l-arrivee-au-pouvoir-d-emmanuel-macron_6815489_3232.html",
+   "pourquoi": "Mobilise la sociologie économique de Marion Flécher sur l'institutionnalisation de la « **startup nation** » et le profil social très sélectif des entrepreneurs qui en bénéficient."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Les syndicats d’agriculteurs montent au créneau avant des discussions-clés sur la nouvelle politique agricole commune",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/26/les-syndicats-d-agriculteurs-montent-au-creneau-avant-des-discussions-cles-sur-la-nouvelle-politique-agricole-commune_6815465_3234.html",
+   "pourquoi": "Expose les arbitrages budgétaires européens autour de la future **Politique agricole commune** et le défi de concilier souveraineté alimentaire, revenu agricole et budget pluriannuel de l'UE."
+  }
+ ]
+}

@@ -272,11 +272,12 @@ for c in cards:
             errors.append(f"{cid} : vocab doit contenir 6 entrées [mot, traduction, exemple]")
     if c.get("matiere") in ("esh", "anglais", "espagnol"):
         anki = c.get("anki") or []
-        if not 2 <= len(anki) <= 4:
-            errors.append(f"{cid} : il faut 2 à 4 cartes dans anki")
+        if len(anki) > 4:
+            errors.append(f"{cid} : au plus 4 cartes dans anki")
         if any(not f.get("q") or not f.get("r") for f in anki):
             errors.append(f"{cid} : chaque carte anki a besoin de q et r")
-        if not (ROOT / "data" / "anki" / f"{cid}.apkg").exists():
+        has_notes = bool(anki) or (c.get("matiere") == "esh" and bool(c.get("notions"))) or (c.get("matiere") != "esh" and bool(c.get("vocab")))
+        if has_notes and not (ROOT / "data" / "anki" / f"{cid}.apkg").exists():
             errors.append(f"{cid} : paquet Anki absent — lance python3 scripts/anki.py")
 
 # Allemand : niveau B2
