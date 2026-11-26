@@ -36,9 +36,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bois_Verna%2C_Port-au-Prince%2C_Haiti_-_panoramio.jpg/1280px-Bois_Verna%2C_Port-au-Prince%2C_Haiti_-_panoramio.jpg",
     "alt": "Quartier de Bois-Verna à Port-au-Prince en Haïti"
    },
-   "dossiers": [
-    "Amérique Latine"
-   ]
+   "dossiers": []
   },
   "2026-11-17-esh-1": {
    "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
@@ -97,9 +95,7 @@
   "2026-11-17-espagnol-2": {
    "titre": "Mexique : 17,3 millions de personnes sont sorties de la pauvreté entre 2018 et 2026 selon la Banque mondiale",
    "matiere": "espagnol",
-   "dossiers": [
-    "Amérique Latine"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg/1280px-Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg",
     "alt": "Paseo de la Reforma à Mexico"
@@ -108,9 +104,7 @@
   "2026-11-18-anglais-1": {
    "titre": "États-Unis : la démocrate Mary Peltola remporte le Sénat en Alaska et porte la majorité à 56 sièges",
    "matiere": "anglais",
-   "dossiers": [
-    "USA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/210103_Snowy_capitol.jpg",
     "alt": "Le Capitole de l'État d'Alaska sous la neige à Juneau"
@@ -141,9 +135,7 @@
   "2026-11-19-espagnol-p1": {
    "titre": "Haïti : les gangs se vengent du soutien populaire à Nayib Bukele en exécutant au moins dix jeunes à Port-au-Prince",
    "matiere": "espagnol",
-   "dossiers": [
-    "Amérique Latine"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://images.unsplash.com/photo-1562428580-33e2cc141402?auto=format&fit=crop&w=1280&q=80",
     "alt": "Manifestation de rue dans les Caraïbes"
@@ -172,9 +164,7 @@
   "2026-11-11-anglais-4": {
    "titre": "Système électoral américain : les démocrates relancent l'initiative du vote populaire national face au Collège électoral",
    "matiere": "anglais",
-   "dossiers": [
-    "USA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg/1280px-Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg",
     "alt": "Un isoloir et un bureau de vote aux États-Unis"
@@ -205,9 +195,7 @@
   "2026-11-20-espagnol-2": {
    "titre": "Brésil : le contact inhabituel d'un groupe d'indigènes isolés awá alerte sur la pression des bûcherons en Amazonie",
    "matiere": "espagnol",
-   "dossiers": [
-    "Amérique Latine"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Aerial_view_of_the_Amazon_Rainforest.jpg",
     "alt": "Vue aérienne de la forêt amazonienne et d'un fleuve au Brésil"
@@ -226,13 +214,11 @@
   }
  },
  "dossiers": [
-  "Amérique Latine",
   "Économie",
   "Emplois",
-  "IA",
-  "USA"
+  "IA"
  ],
- "favsMaj": 1795699514245,
+ "favsMaj": 1795699517395,
  "demandes": [
   {
    "id": "dmwlvrpnt",
