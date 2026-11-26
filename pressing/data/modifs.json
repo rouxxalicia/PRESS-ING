@@ -45,9 +45,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
     "alt": "Baies de serveurs dans un centre de données"
    },
-   "dossiers": [
-    "IA"
-   ],
+   "dossiers": [],
    "note": "Nombre de postes supprimés"
   },
   "2026-11-17-esh-2": {
@@ -117,9 +115,7 @@
   "2026-11-19-allemand-3": {
    "titre": "Intelligence artificielle : Deutsche Telekom investit 100 millions d'euros dans la start-up française Mistral",
    "matiere": "allemand",
-   "dossiers": [
-    "IA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bonn_DTAG2.jpg",
     "alt": "Siège social de Deutsche Telekom à Bonn, Allemagne"
@@ -137,9 +133,7 @@
   "2026-11-13-anglais-2": {
    "titre": "Royaume-Uni : l'IA supprime les emplois de débutants dans la finance à Bournemouth",
    "matiere": "anglais",
-   "dossiers": [
-    "IA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg/1280px-Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg",
     "alt": "Tours du quartier financier de Canary Wharf à Londres"
@@ -166,9 +160,7 @@
   "2026-11-20-esh-p1": {
    "titre": "IA et droit d'auteur : des patrons de la French Tech dénoncent une proposition de loi jugée néfaste à la souveraineté technologique",
    "matiere": "esh",
-   "dossiers": [
-    "IA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
     "alt": "Salle de serveurs informatiques dans un centre de données"
@@ -202,10 +194,8 @@
    }
   }
  },
- "dossiers": [
-  "IA"
- ],
- "favsMaj": 1795699523778,
+ "dossiers": [],
+ "favsMaj": 1795699529678,
  "demandes": [
   {
    "id": "dmwlvrpnt",
