@@ -1107,6 +1107,30 @@ a.rail-box:hover .t { color: var(--accent); }
 .ctx-note { padding: 0 10px 4px; font-size: 12px; color: var(--muted); }
 .fd-clic { margin: 10px 0 0; font-size: 12.5px; }
 
+/* Favoris : collections en mosaïque */
+.fd-sub { margin: 26px 0 14px; }
+.fd-recents { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: thin; }
+.fd-rec { flex: 0 0 190px; display: flex; flex-direction: column; gap: 7px; color: var(--fg); }
+.fd-rec-ph { display: block; aspect-ratio: 4 / 3; border-radius: 14px; overflow: hidden; background: var(--soft); }
+.fd-rec-ph img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.45s cubic-bezier(.2, .7, .2, 1); }
+.fd-rec .t { font-size: 14px; line-height: 1.35; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.fd-vues { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin: 38px 0 22px; padding-top: 26px; border-top: 1px solid var(--line); }
+.fd-vues .fd-auto-note { margin: 0; font-size: 13px; }
+.coll-grid { display: grid; gap: 30px 22px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+.coll { display: flex; flex-direction: column; gap: 6px; }
+.coll-mos { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); grid-template-rows: 1fr 1fr; gap: 4px; aspect-ratio: 4 / 3; border-radius: 20px; overflow: hidden; margin-bottom: 6px; }
+.coll-mos.solo { grid-template-columns: 1fr; grid-template-rows: 1fr; }
+.coll-mos > .m:first-child { grid-row: 1 / span 2; }
+.coll-mos.solo > .m:first-child { grid-row: auto; }
+.coll-mos .m { position: relative; display: block; overflow: hidden; background: var(--soft); }
+.coll-mos .m img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.45s cubic-bezier(.2, .7, .2, 1); }
+.coll-mos .m.vide { background: linear-gradient(135deg, var(--soft), var(--line)); }
+.coll-n { font-size: 18px; font-weight: 600; line-height: 1.25; letter-spacing: -0.01em; }
+.coll-c { line-height: 1.5; }
+@media (hover: hover) { .coll:hover .coll-mos .m img, .fd-rec:hover .fd-rec-ph img { transform: scale(1.045); } .coll:hover .coll-n { color: var(--accent); } }
+@media (max-width: 599px) { .coll-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; } .coll-mos { aspect-ratio: 1; border-radius: 14px; gap: 3px; } .coll-n { font-size: 15px; } .coll-c { font-size: 9.5px; } .fd-rec { flex-basis: 150px; } }
+.coll.fd-over .coll-mos { outline: 2px solid var(--accent); outline-offset: 3px; }
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -1434,8 +1458,18 @@ a.rail-box:hover .t { color: var(--accent); }
   function fdIdsIci(v) { return fdIds(v).filter(id => !fdDz(favs[id]).some(d => d.startsWith(v + "/"))); }
   function fdVisuel(f) { const ph = '<div class="fd-ph" data-m="' + f.matiere + '"><span>' + esc(NOM[f.matiere]) + '</span></div>';
     return f.image && f.image.url ? '<div class="fd-v" data-ph="' + esc(ph) + '"><img src="' + esc(f.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.outerHTML=this.parentNode.dataset.ph"></div>' : ph; }
-  function fdTuile(v, nom) { const n = fdIds(v).length, vrai = v !== "tous" && v !== "__sans";
-    return '<a class="fd-item" href="#favoris/' + encodeURIComponent(v) + '"' + (vrai ? ' data-fd-drop="' + esc(v) + '" data-fd-dossier="' + esc(v) + '"' : '') + '><span class="fd-gl"><span class="fd-gl-n">' + esc(nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+
+  // Carte « collection » : mosaïque des photos des articles du dossier
+  function fdImg(id) { const f = favs[id] || {}, c = fdCard(id); return (f.image && f.image.url) || (c && c.image && c.image.url) || ""; }
+  function collCard(href, nom, ids, attrs) {
+    const n = ids.length, ims = ids.map(fdImg).filter(Boolean).slice(0, 3), mats = [...new Set(ids.map(id => (favs[id] || {}).matiere).filter(Boolean))];
+    const case_ = i => ims[i] ? '<span class="m"><img src="' + esc(ims[i]) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></span>' : '<span class="m vide"></span>';
+    const der = ids.length ? dShort(ids.slice().sort().reverse()[0].slice(0, 10)).slice(0, 5) : "";
+    return '<a class="fd-item coll" href="' + href + '"' + (attrs || '') + '><span class="coll-mos' + (ims.length <= 1 ? ' solo' : '') + '">' + case_(0) + (ims.length > 1 ? case_(1) + case_(2) : '') + '</span>' +
+      '<span class="coll-n">' + esc(nom) + '</span><span class="label muted coll-c">' + n + ' article' + (n > 1 ? 's' : '') + (der ? ' · dernier le ' + der : '') + (mats.length ? ' · ' + mats.map(m => esc(NOM[m] || m)).join(", ") : '') + '</span></a>';
+  }
+  function fdTuile(v, nom) { const vrai = v !== "tous" && v !== "__sans";
+    return collCard("#favoris/" + encodeURIComponent(v), nom, fdIds(v), vrai ? ' data-fd-drop="' + esc(v) + '" data-fd-dossier="' + esc(v) + '"' : ''); }
 
   // Rangement automatique des favoris : par thème et par pays, sans rien trier ni nommer
   const FD_AUTO = [
@@ -1477,7 +1511,7 @@ a.rail-box:hover .t { color: var(--accent); }
     });
     return groups;
   }
-  function fdAutoTuile(g) { const n = g.ids.length; return '<a class="fd-item" data-fd-auto="' + g.cle + '" data-fd-nom="' + esc(g.nom) + '" href="#favoris/' + encodeURIComponent("auto/" + g.cle) + '"><span class="fd-gl"><span class="fd-gl-n">' + esc(g.nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+  function fdAutoTuile(g) { return collCard("#favoris/" + encodeURIComponent("auto/" + g.cle), g.nom, g.ids, ' data-fd-auto="' + g.cle + '" data-fd-nom="' + esc(g.nom) + '"'); }
 
   // Clic droit sur un dossier : menu pour le supprimer
   function ctxClose() { const m = document.querySelector(".ctx"); if (m) m.remove(); }
@@ -1500,6 +1534,7 @@ a.rail-box:hover .t { color: var(--accent); }
   });
   document.addEventListener("click", e => {
     if (!e.target.closest(".ctx")) ctxClose();
+    const vb = e.target.closest("[data-fd-vue]"); if (vb) { state.fdVue = vb.dataset.fdVue; fdRefresh(); }
     if (e.target.closest("[data-fd-demasquer]")) { save("pressing:autoMasques", []); toast("Thèmes réaffichés"); fdRefresh(); }
   });
   document.addEventListener("keydown", e => { if (e.key === "Escape") ctxClose(); });
@@ -1528,11 +1563,16 @@ a.rail-box:hover .t { color: var(--accent); }
       else { const tri = fdIds("__sans");
         h += '<input class="search fd-search" id="fd-q" type="search" placeholder="Chercher dans tes favoris : Mexique, Keynes, chômage…" autocomplete="off"><div id="fd-res"></div><div id="fd-main">';
         const G = fdAuto(), masq = load("pressing:autoMasques", []), th = Object.values(G).filter(g => g.type === "t" && g.ids.length && !masq.includes(g.cle)).sort((x, y) => y.ids.length - x.ids.length), zo = Object.values(G).filter(g => g.type === "z" && g.ids.length && !masq.includes(g.cle)).sort((x, y) => y.ids.length - x.ids.length);
-        const glw = inner => '<div class="fd-glwrap"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + inner + '</div></div>';
-        h += '<p class="muted fd-auto-note">Tes favoris se rangent tout seuls, par thème et par pays, d\'après le contenu de chaque article.</p>';
-        h += glw(fdTuile("tous", "Tous les favoris") + th.map(fdAutoTuile).join(""));
-        if (zo.length) h += '<h2 class="label fd-h2">Par pays et région</h2>' + glw(zo.map(fdAutoTuile).join(""));
-        h += '<h2 class="label fd-h2">Mes dossiers' + (fdKids("").length ? '' : ' <span class="muted fd-astuce">— facultatif</span>') + '</h2>' + (fdKids("").length ? '<div class="fd-glwrap fd-glwrap-s"><div class="fd-grid fd-glgrid" data-fd-groupe="">' + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div>' : '') + '<div class="fd-tools label">' + fdPlus("") + (masq.length ? '<button type="button" class="more" data-fd-demasquer>Réafficher les thèmes supprimés (' + masq.length + ')</button>' : '') + '</div><p class="muted fd-astuce fd-clic">Astuce : clic droit (ou appui long) sur un dossier pour le supprimer.</p>';
+        const vue = state.fdVue || "themes", nk = fdKids("").length;
+        const rec = Object.keys(favs).sort().reverse().slice(0, 10);
+        h += '<section class="fd-rec-sec"><h2 class="label fd-sub">Derniers ajouts</h2><div class="fd-recents">' + rec.map(id => { const f = favs[id], im = fdImg(id);
+          return '<a class="fd-rec" href="#' + id + '"><span class="fd-rec-ph">' + (im ? '<img src="' + esc(im) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">' : '') + '</span><span class="label acc">' + esc(NOM[f.matiere] || "") + '</span><span class="t">' + esc(f.titre) + '</span></a>'; }).join("") + '</div></section>';
+        const seg = (k, lab, n) => '<button type="button" class="chip label" data-fd-vue="' + k + '" aria-pressed="' + (vue === k) + '">' + lab + ' · ' + n + '</button>';
+        h += '<div class="fd-vues"><div class="chips">' + seg("themes", "Thèmes", th.length) + seg("pays", "Pays", zo.length) + seg("perso", "Mes dossiers", nk) + '</div><span class="muted fd-auto-note">Rangés tout seuls d\'après le contenu des articles · clic droit pour supprimer</span></div>';
+        if (vue === "themes") h += '<div class="coll-grid">' + fdTuile("tous", "Tous les favoris") + th.map(fdAutoTuile).join("") + '</div>';
+        else if (vue === "pays") h += '<div class="coll-grid">' + zo.map(fdAutoTuile).join("") + '</div>';
+        else h += (nk ? '<div class="coll-grid" data-fd-groupe="">' + fdKids("").map(d => fdTuile(d, d)).join("") + '</div>' : '<p class="muted">Aucun dossier perso : tes favoris sont déjà rangés par thème et par pays.</p>') + '<div class="fd-tools label">' + fdPlus("") + '</div>';
+        if (masq.length) h += '<div class="fd-tools label"><button type="button" class="more" data-fd-demasquer>Réafficher les thèmes supprimés (' + masq.length + ')</button></div>';
         h += '</div>'; }
       app.innerHTML = h + '</div>';
       const q = document.getElementById("fd-q"); if (q) { q.value = state.fdQ || ""; q.addEventListener("input", () => { state.fdQ = q.value; fdChercher(q.value); }); if (state.fdQ) fdChercher(state.fdQ); }
@@ -1550,7 +1590,7 @@ a.rail-box:hover .t { color: var(--accent); }
     const tot = fdIds(arg), ids = vrai ? fdIdsIci(arg) : tot, par = vrai ? fdPar(arg) : "", k = vrai ? fdKids(arg) : [];
     let h = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris' + (par ? '/' + encodeURIComponent(par) : '') + '">← ' + esc(par ? fdLeaf(par) : 'Favoris') + '</a><div class="page-head"><span class="label muted">' + (par ? esc(fdBeau(par)) + ' · ' : '') + tot.length + ' article' + (tot.length > 1 ? 's' : '') + '</span><h1>' + esc(nom) + '</h1></div>';
     if (vrai) h += '<div class="fd-tools label">' + (tot.length ? '<a class="fd-recap-btn label" href="#favoris/recap/' + encodeURIComponent(arg) + '">Récap du dossier</a>' : '') + '<button type="button" class="more" data-fd-ren="' + esc(arg) + '">Renommer</button><button type="button" class="more" data-fd-del="' + esc(arg) + '">Supprimer le dossier</button>' + fdPlus(arg) + '</div>';
-    if (k.length) h += '<div class="fd-glwrap fd-glwrap-s"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid" data-fd-groupe="' + esc(arg) + '">' + k.map(d => fdTuile(d, fdLeaf(d))).join("") + '</div></div>';
+    if (k.length) h += '<div><div class="coll-grid" data-fd-groupe="' + esc(arg) + '">' + k.map(d => fdTuile(d, fdLeaf(d))).join("") + '</div></div>';
     if (ids.length) h += fdProds(ids); else if (!k.length) h += '<p class="muted">Aucun article ici pour l\'instant.</p>';
     app.innerHTML = h + '</div>';
   }
