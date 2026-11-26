@@ -27,9 +27,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg/1280px-Pedro_S%C3%A1nchez_P%C3%A9rez-Castej%C3%B3n_%28Oficial%29.jpg",
     "alt": "Le président du gouvernement espagnol Pedro Sánchez au palais de la Moncloa"
    },
-   "dossiers": [
-    "Politique espagnole"
-   ]
+   "dossiers": []
   },
   "2026-11-14-espagnol-3": {
    "titre": "Haïti : l'intervention militaire de Nayib Bukele met Washington dans l'embarras",
@@ -38,9 +36,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bois_Verna%2C_Port-au-Prince%2C_Haiti_-_panoramio.jpg/1280px-Bois_Verna%2C_Port-au-Prince%2C_Haiti_-_panoramio.jpg",
     "alt": "Quartier de Bois-Verna à Port-au-Prince en Haïti"
    },
-   "dossiers": [
-    "Amérique Latine"
-   ]
+   "dossiers": []
   },
   "2026-11-17-esh-1": {
    "titre": "L'essor de l'intelligence artificielle ralentit les recrutements dans les métiers automatisables",
@@ -49,10 +45,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/1280px-Datacenter_Server_Racks_%2822370909788%29.jpg",
     "alt": "Baies de serveurs dans un centre de données"
    },
-   "dossiers": [
-    "IA",
-    "Emplois"
-   ],
+   "dossiers": [],
    "note": "Nombre de postes supprimés"
   },
   "2026-11-17-esh-2": {
@@ -62,18 +55,13 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Skyline_of_Warsaw%2C_Poland.jpg/1280px-Skyline_of_Warsaw%2C_Poland.jpg",
     "alt": "Quartier financier de Varsovie en Pologne"
    },
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "note": "accroche : croissance tirée par l'armement ; soutenable ?"
   },
   "2026-11-17-anglais-1": {
    "titre": "Royaume-Uni : Andy Burnham juge que « le Brexit n'a pas fonctionné » et vise un nouvel accord avec l'UE",
    "matiere": "anglais",
-   "dossiers": [
-    "UK",
-    "UK/Brexit"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/London%2C_Palace_of_Westminster_--_2016_--_4800.jpg/1280px-London%2C_Palace_of_Westminster_--_2016_--_4800.jpg",
     "alt": "Palais de Westminster à Londres"
@@ -82,9 +70,7 @@
   "2026-11-17-anglais-2": {
    "titre": "Dette mondiale : les difficultés budgétaires des pays riches fragilisent les économies les plus pauvres",
    "matiere": "anglais",
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg/1280px-11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg",
     "alt": "Siège du Fonds monétaire international (FMI) à Washington"
@@ -93,10 +79,7 @@
   "2026-11-17-anglais-4": {
    "titre": "Royaume-Uni : un plan contre le chômage des jeunes qui divise le Parti travailliste",
    "matiere": "anglais",
-   "dossiers": [
-    "UK",
-    "UK/Emplois"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/10_Downing_Street_235.jpg/1280px-10_Downing_Street_235.jpg",
     "alt": "Façade du 10 Downing Street à Londres"
@@ -105,9 +88,7 @@
   "2026-11-17-espagnol-2": {
    "titre": "Mexique : 17,3 millions de personnes sont sorties de la pauvreté entre 2018 et 2026 selon la Banque mondiale",
    "matiere": "espagnol",
-   "dossiers": [
-    "Amérique Latine"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg/1280px-Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg",
     "alt": "Paseo de la Reforma à Mexico"
@@ -116,9 +97,7 @@
   "2026-11-18-anglais-1": {
    "titre": "États-Unis : la démocrate Mary Peltola remporte le Sénat en Alaska et porte la majorité à 56 sièges",
    "matiere": "anglais",
-   "dossiers": [
-    "USA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/210103_Snowy_capitol.jpg",
     "alt": "Le Capitole de l'État d'Alaska sous la neige à Juneau"
@@ -127,9 +106,7 @@
   "2026-11-18-allemand-2": {
    "titre": "Allemagne : les entreprises les plus automatisées sont aussi les plus optimistes pour l'emploi",
    "matiere": "allemand",
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Factory_Automation_Robotics_Palettizing_Bread.jpg",
     "alt": "Bras robotisés industriels KUKA dans une usine en Allemagne"
@@ -138,9 +115,7 @@
   "2026-11-19-allemand-3": {
    "titre": "Intelligence artificielle : Deutsche Telekom investit 100 millions d'euros dans la start-up française Mistral",
    "matiere": "allemand",
-   "dossiers": [
-    "IA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bonn_DTAG2.jpg",
     "alt": "Siège social de Deutsche Telekom à Bonn, Allemagne"
@@ -149,9 +124,7 @@
   "2026-11-19-espagnol-p1": {
    "titre": "Haïti : les gangs se vengent du soutien populaire à Nayib Bukele en exécutant au moins dix jeunes à Port-au-Prince",
    "matiere": "espagnol",
-   "dossiers": [
-    "Amérique Latine"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://images.unsplash.com/photo-1562428580-33e2cc141402?auto=format&fit=crop&w=1280&q=80",
     "alt": "Manifestation de rue dans les Caraïbes"
@@ -160,9 +133,7 @@
   "2026-11-13-anglais-2": {
    "titre": "Royaume-Uni : l'IA supprime les emplois de débutants dans la finance à Bournemouth",
    "matiere": "anglais",
-   "dossiers": [
-    "IA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg/1280px-Canary_Wharf_from_entrance_to_Limehouse_Basin_-_2022-04-03.jpg",
     "alt": "Tours du quartier financier de Canary Wharf à Londres"
@@ -171,10 +142,7 @@
   "2026-11-13-anglais-1": {
    "titre": "Royaume-Uni : Andy Burnham promet un accord « gagnant-gagnant » avec l'Union européenne",
    "matiere": "anglais",
-   "dossiers": [
-    "UK",
-    "UK/Brexit"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg/1280px-Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg",
     "alt": "Le palais de Westminster à Londres vu depuis la Tamise"
@@ -183,9 +151,7 @@
   "2026-11-11-anglais-4": {
    "titre": "Système électoral américain : les démocrates relancent l'initiative du vote populaire national face au Collège électoral",
    "matiere": "anglais",
-   "dossiers": [
-    "USA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg/1280px-Early_Voting_booth_at_the_Madison_Parish_Courthouse.jpg",
     "alt": "Un isoloir et un bureau de vote aux États-Unis"
@@ -194,9 +160,7 @@
   "2026-11-20-esh-p1": {
    "titre": "IA et droit d'auteur : des patrons de la French Tech dénoncent une proposition de loi jugée néfaste à la souveraineté technologique",
    "matiere": "esh",
-   "dossiers": [
-    "IA"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
     "alt": "Salle de serveurs informatiques dans un centre de données"
@@ -205,9 +169,7 @@
   "2026-11-12-esh-4": {
    "titre": "Vingt-cinq ans après son accession à l'OMC, la Chine affiche un excédent commercial record qui déstabilise le commerce mondial",
    "matiere": "esh",
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Shanghai-Yangshan-Port-Containers2013-01.JPG/1280px-Shanghai-Yangshan-Port-Containers2013-01.JPG",
     "alt": "Alignement de conteneurs maritimes et grues portuaires au terminal de Yangshan à Shanghai"
@@ -216,27 +178,24 @@
   "2026-11-20-espagnol-2": {
    "titre": "Brésil : le contact inhabituel d'un groupe d'indigènes isolés awá alerte sur la pression des bûcherons en Amazonie",
    "matiere": "espagnol",
-   "dossiers": [
-    "Amérique Latine"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Aerial_view_of_the_Amazon_Rainforest.jpg",
     "alt": "Vue aérienne de la forêt amazonienne et d'un fleuve au Brésil"
    }
+  },
+  "2026-11-26-esh-2": {
+   "titre": "Automobile : le géant chinois BYD négocie le rachat de l'usine d'Ineos à Hambach",
+   "matiere": "esh",
+   "dossiers": [],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/SIN_BYD_e6_SNF4771J_2023-10-26.jpg/1280px-SIN_BYD_e6_SNF4771J_2023-10-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Véhicule électrique du constructeur chinois BYD"
+   }
   }
  },
- "dossiers": [
-  "Amérique Latine",
-  "Économie",
-  "Emplois",
-  "IA",
-  "Politique espagnole",
-  "UK",
-  "UK/Brexit",
-  "UK/Emplois",
-  "USA"
- ],
- "favsMaj": 1795164597354,
+ "dossiers": [],
+ "favsMaj": 1795699529678,
  "demandes": [
   {
    "id": "dmwlvrpnt",

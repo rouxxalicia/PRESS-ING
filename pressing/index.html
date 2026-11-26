@@ -1000,6 +1000,113 @@ details.ar-mois[open] .ar-plus { display: none; }
   .mag2, .alire2 { scroll-margin-top: calc(var(--topbar, 65px) + 60px); }
 }
 
+/* Page article (lecture) */
+:root { --hl: #f3e4e7; --orange: #c24a00; }
+:root[data-theme="dark"] { --hl: rgba(160, 40, 64, 0.5); --orange: #ff8a3d; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --hl: rgba(160, 40, 64, 0.5); --orange: #ff8a3d; } }
+.art { padding-bottom: 20px; }
+.art-head { max-width: 860px; padding: 28px 0 32px; }
+.art-head .back { display: inline-block; margin-bottom: 26px; }
+.art-pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.pill2 { display: inline-block; padding: 6px 12px; border-radius: 99px; border: 1px solid var(--line); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); font-weight: 500; line-height: 1.3; }
+.pill2.on { background: var(--accent); border-color: var(--accent); color: #ffffff; font-weight: 600; }
+.art-title { margin: 0 0 20px; font-size: clamp(31px, 4.6vw, 56px); line-height: 1.05; font-weight: 700; font-stretch: 86%; letter-spacing: -0.02em; text-wrap: balance; }
+.art-chapo { margin: 0 0 24px; max-width: 760px; font-size: clamp(18px, 1.8vw, 21px); line-height: 1.5; color: var(--muted); }
+.art-meta { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0; }
+.art-meta b { color: var(--fg); font-weight: 600; }
+.art-head .seg { margin-top: 22px; }
+.art-fig { margin: 0; }
+.art-fig .ph { margin: 0; width: 100%; aspect-ratio: 16 / 9; max-height: 580px; border-radius: 20px; }
+.art-fig figcaption { margin-top: 10px; font-size: 12px; color: var(--muted); }
+.art-fig figcaption a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 699px) { .art-fig .ph { border-radius: 14px; } }
+.art-grid { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 48px 64px; padding-top: 48px; }
+.art-main { flex: 999 1 560px; min-width: 0; max-width: 700px; }
+.art-rail { flex: 1 1 260px; display: flex; flex-direction: column; gap: 14px; }
+@media (min-width: 1000px) { .art-rail { position: sticky; top: calc(var(--topbar, 0px) + 24px); } }
+.art-sec { margin-top: 56px; }
+.art-sec:first-child { margin-top: 0; }
+.art-h { display: flex; align-items: baseline; gap: 14px; margin: 0 0 16px; scroll-margin-top: calc(var(--topbar, 0px) + var(--hdr, 0px) + 30px); }
+.art-h .n { font-size: 40px; line-height: 1; font-weight: 800; font-stretch: 68%; color: var(--accent); }
+.art-h .label { color: var(--fg); font-weight: 600; font-size: 12px; }
+.art-prose p { margin: 0; font-size: 18.5px; line-height: 1.75; }
+@media (max-width: 600px) { .art-prose p { font-size: 17px; line-height: 1.7; } }
+.art-prose strong { font-weight: 650; background: linear-gradient(transparent 62%, var(--hl) 62%); }
+.drop > p:first-child::first-letter { float: left; font-size: 5em; line-height: 0.8; font-weight: 800; font-stretch: 68%; color: var(--accent); margin: 0.08em 0.12em 0 0; }
+.art-quote { margin: 44px 0 0; padding: 30px 32px; border-radius: 20px; background: var(--soft); }
+.art-quote::before { content: "“"; display: block; margin-bottom: 10px; font-size: 72px; line-height: 0.6; font-weight: 800; color: var(--accent); }
+.art-quote p { margin: 0 0 14px; font-size: clamp(20px, 2.3vw, 27px); line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; }
+.art-quote + .art-sec { margin-top: 44px; }
+.art-cards { display: grid; gap: 12px; }
+@media (min-width: 640px) { .art-cards.two { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.art-card { display: flex; flex-direction: column; gap: 8px; width: 100%; padding: 20px; border-radius: 16px; background: var(--soft); text-align: left; color: var(--fg); }
+.art-card .t { font-size: 16px; font-weight: 650; line-height: 1.3; }
+.art-card .d { font-size: 14.5px; line-height: 1.55; color: var(--muted); }
+.art-card .go { margin-top: 4px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600; color: var(--accent); }
+button.art-card:hover { box-shadow: inset 0 0 0 1px var(--fg); }
+.art-aut { padding: 22px 24px; border-radius: 16px; border: 1px solid var(--line); }
+.art-aut h3 { margin: 0 0 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; font-weight: 400; }
+.art-aut .nom { font-size: 20px; font-weight: 700; color: var(--orange); }
+.art-aut em { font-size: 15px; color: var(--muted); }
+.art-aut .prose p { margin: 0; font-size: 15.5px; line-height: 1.65; }
+.art-aut .more { margin-top: 12px; }
+.art-voc { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.art-voc > div { padding: 12px 16px; font-size: 15px; line-height: 1.4; border-top: 1px solid var(--line); }
+.art-voc > div:nth-child(-n+2) { border-top: 0; }
+.art-voc > div:nth-child(odd) { font-weight: 600; background: var(--soft); }
+.art-ent { margin-top: 44px; padding: 26px 28px; border-radius: 20px; background: var(--soft); }
+.art-ent .prose p { margin: 10px 0 0; font-size: 16.5px; line-height: 1.65; }
+.art-suj { list-style: none; margin: 0; padding: 0; }
+.art-suj li { display: grid; grid-template-columns: 44px minmax(0, 1fr); padding: 18px 0; border-bottom: 1px solid var(--line); font-size: clamp(18px, 2vw, 22px); line-height: 1.35; font-weight: 600; }
+.art-suj b { font-weight: 800; font-stretch: 68%; color: var(--accent); }
+.art-src { margin: 32px 0 0; }
+.rail-box { display: flex; flex-direction: column; gap: 8px; padding: 22px; border-radius: 18px; border: 1px solid var(--line); }
+.rail-box.soft { background: var(--soft); border-color: transparent; }
+a.rail-box:hover .t { color: var(--accent); }
+.rail-box .t { font-size: 16px; font-weight: 600; line-height: 1.35; }
+.rail-box .d { font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+.rail-toc > .label { margin-bottom: 4px; font-weight: 600; }
+.rail-toc button { display: flex; gap: 12px; padding: 6px 0; font-size: 14.5px; text-align: left; color: var(--fg); }
+.rail-toc button span { width: 22px; flex-shrink: 0; color: var(--muted); }
+.rail-toc button:hover, .rail-toc button[aria-current="true"] { color: var(--accent); }
+.rail-toc button[aria-current="true"] { font-weight: 600; }
+.rail-toc button[aria-current="true"] span { color: var(--accent); }
+.art-next { display: grid; margin: 56px 0 8px; border-radius: 22px; overflow: hidden; background: #111110; color: #ffffff; }
+.art-next .ph { margin: 0; aspect-ratio: 16 / 10; border-radius: 0; }
+.art-next .tx { display: flex; flex-direction: column; justify-content: center; gap: 14px; padding: 28px 30px 32px; }
+.art-next .k { color: #e3bcc4; font-weight: 600; }
+.art-next .t { font-size: clamp(22px, 2.6vw, 30px); line-height: 1.15; font-weight: 600; letter-spacing: -0.015em; color: #ffffff; }
+.art-next .s { color: #b8b5b0; }
+.art-next:hover .t { text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; }
+@media (min-width: 760px) { .art-next { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); } .art-next .ph { aspect-ratio: auto; height: 100%; min-height: 260px; } .art-next .tx { padding: 36px 40px; } }
+:root[data-theme="dark"] .art-next { background: #262421; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .art-next { background: #262421; } }
+.bar.pill-bar { position: sticky; bottom: calc(53px + 14px + env(safe-area-inset-bottom, 0px)); z-index: 20; width: fit-content; max-width: 100%; margin: 36px auto 0; padding: 6px; gap: 6px; border: 1px solid var(--line); border-radius: 99px; background: var(--bg); box-shadow: 0 14px 36px -14px rgba(0, 0, 0, 0.3); }
+@media (min-width: 1000px) { .bar.pill-bar { bottom: 22px; } }
+.pill-bar .fav-btn { width: 46px; height: 46px; border-radius: 99px; border-color: var(--line); }
+.pill-bar .anki-btn { height: 46px; border-radius: 99px; border-color: var(--line); padding-inline: 18px; }
+.pill-bar .next-btn { flex-grow: 0; height: 46px; border-radius: 99px; padding-inline: 22px; }
+
+/* Suggestions de rangement des favoris */
+.fd-sugg { display: flex; flex-direction: column; gap: 10px; margin: 8px 0 6px; padding: 14px; border-radius: var(--r); background: var(--soft); }
+.fd-sugg-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.fd-chip { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 8px 14px; border-radius: 16px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); font-size: 14px; font-weight: 500; text-align: left; }
+.fd-chip:hover { border-color: var(--fg); }
+.fd-chip small { font-size: 11.5px; font-weight: 400; color: var(--muted); }
+.fd-chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #ffffff; }
+.fd-chip[aria-pressed="true"] small { color: rgba(255, 255, 255, 0.8); }
+.fd-sugg-in { margin-top: 8px; }
+.fd-sugg-in .fd-chip { padding: 6px 12px; font-size: 13px; border-radius: 99px; }
+.fd-tous { display: block; margin-top: 6px; }
+.fd-auto-note { margin: 0 0 18px; font-size: 14px; }
+
+.ctx { position: fixed; z-index: 90; min-width: 220px; padding: 10px; display: flex; flex-direction: column; gap: 4px; background: var(--bg); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.35); }
+.ctx > .label { padding: 4px 8px 6px; }
+.ctx-del { width: 100%; padding: 10px 10px; border-radius: 10px; text-align: left; font-size: 14.5px; font-weight: 500; color: var(--accent); }
+.ctx-del:hover, .ctx-del:focus-visible { background: var(--soft); outline: none; }
+.ctx-note { padding: 0 10px 4px; font-size: 12px; color: var(--muted); }
+.fd-clic { margin: 10px 0 0; font-size: 12.5px; }
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -1253,7 +1360,7 @@ details.ar-mois[open] .ar-plus { display: none; }
     const idx = ed.cards.findIndex(c => c.id === id);
     if (idx < 0) { app.innerHTML = '<div class="empty narrow"><p>Cette actu est introuvable.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>'; return; }
     const c = ed.cards[idx];
-    const ref = c.notions && c.notions.length ? await referentiel().catch(() => null) : null;
+    const [ref] = await Promise.all([c.notions && c.notions.length ? referentiel().catch(() => null) : null, c.dossier ? dNoms() : null]);
     lues[id] = 1; save("pressing:lues", lues);
     const lang = state.lang[id] || (c.vo ? "vo" : "fr");
     const t = lang === "vo" && c.vo ? c.vo : c;
@@ -1261,28 +1368,43 @@ details.ar-mois[open] .ar-plus { display: none; }
     const same = ed.cards.filter(x => x.matiere === c.matiere);
     const pos = same.findIndex(x => x.id === id);
     const next = same[pos + 1] || ed.cards[(idx + 1) % ed.cards.length];
-    const dC = c.id.slice(0, 10);
-    let h = '<div class="narrow"><a class="back label" href="#accueil" data-date="' + dC + '">← ' + (dC === state.index[0] ? 'Édition' : 'Édition du ' + dShort(dC)) + '</a>';
-    h += '<article class="card">' + (c.image && c.image.url ? photo(c, "hero") + (c.image.credit ? '<p class="credit">Photo · ' + (c.image.source ? '<a href="' + esc(c.image.source) + '" target="_blank" rel="noopener">' + esc(c.image.credit) + '</a>' : esc(c.image.credit)) + '</p>' : '') : '<div class="band" data-m="' + c.matiere + '"></div>');
-    h += '<span class="label muted">' + NOM[c.matiere] + (c.culture ? ' · Culture' : '') + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
-    h += '<h1>' + esc(t.titre) + '</h1>';
+    const dC = c.id.slice(0, 10), x = pd(dC), ci = chapInfo(c);
+    const toc = [];
+    const sec = (titre, body) => { toc.push(titre); const n = toc.length; return '<section class="art-sec"><h2 class="art-h" id="art-s' + n + '"><span class="n">' + pad2(n) + '</span><span class="label">' + titre + '</span></h2>' + body + '</section>'; };
+    // phrase « à retenir » : une phrase des enjeux qui porte une notion en gras
+    const phr = String(t.enjeux || "").split(/(?<=[.!?])\s+(?=[A-ZÀ-Ý«"“])/).filter(p => /\*\*/.test(p) && p.length > 50 && p.length < 240);
+    const retenir = phr[1] || phr[0] || "";
+    let h = '<div class="art"><header class="art-head"><a class="back label" href="#accueil" data-date="' + dC + '">← ' + (dC === state.index[0] ? 'Édition' : 'Édition du ' + dShort(dC)) + '</a>';
+    h += '<p class="art-pills"><span class="pill2 on">' + NOM[c.matiere] + (c.culture ? ' · Culture' : '') + ' · ' + (pos + 1) + '/' + same.length + '</span>' + (ci ? '<span class="pill2">Module ' + esc(ci.mod) + ' · ' + esc(ci.num) + ' ' + esc(ci.titre) + '</span>' : '') + '</p>';
+    h += '<h1 class="art-title" lang="' + L + '" translate="no">' + esc(t.titre) + '</h1>';
+    if (c.suite && lang !== "vo") h += '<p class="art-chapo">' + fmt(c.suite) + '</p>';
+    h += '<p class="art-meta label muted"><b>' + esc(c.source) + '</b><span>' + cap(JOURS[x.getDay()]) + ' ' + x.getDate() + ' ' + MOIS[x.getMonth()] + '</span><span>' + (c.minutes || 3) + ' min de lecture</span></p>';
     if (c.vo) h += '<div class="seg label" role="group" aria-label="Langue du texte"><button type="button" data-lang="fr" aria-pressed="' + (lang === "fr") + '">Français</button><button type="button" data-lang="vo" aria-pressed="' + (lang === "vo") + '">' + VO_LABEL[c.matiere] + ' · C1</button></div>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + fmt(t.faits) + '</p></div></section>';
-    h += '<section class="sec"><h2 class="label">' + (lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux") + '</h2><div class="prose" lang="' + L + '" translate="no"><p>' + fmt(t.enjeux) + '</p></div></section>';
-    if (c.notions && c.notions.length) h += '<section class="sec"><h2 class="label">Notions clés</h2>' + c.notions.map(v => {
+    h += '</header>';
+    if (c.image && c.image.url) h += '<figure class="art-fig">' + photo(c) + (c.image.credit ? '<figcaption>Photo · ' + (c.image.source ? '<a href="' + esc(c.image.source) + '" target="_blank" rel="noopener">' + esc(c.image.credit) + '</a>' : esc(c.image.credit)) + '</figcaption>' : '') + '</figure>';
+    let m = sec(lang === "vo" ? VO_HEAD[c.matiere][0] : "Ce qui s'est passé", '<div class="prose art-prose drop" lang="' + L + '" translate="no"><p>' + fmt(t.faits) + '</p></div>');
+    if (retenir) m += '<blockquote class="art-quote" lang="' + L + '" translate="no"><p>' + esc(retenir.replace(/\*\*/g, "")) + '</p><span class="label muted">L\'idée à retenir</span></blockquote>';
+    m += sec(lang === "vo" ? VO_HEAD[c.matiere][1] : "Les enjeux", '<div class="prose art-prose" lang="' + L + '" translate="no"><p>' + fmt(t.enjeux) + '</p></div>');
+    if (c.notions && c.notions.length) m += sec("Notions clés", '<div class="art-cards two">' + c.notions.map(v => {
       const fid = ref ? matchNotionFiche(ref, v[0], v[2]) : null;
-      return '<div class="notion">' + (fid ? '<button type="button" class="t notion-btn" data-fiche="' + esc(fid) + '"><span>' + esc(v[0]) + '</span><span class="notion-go">Fiche →</span></button>' : '<span class="t">' + esc(v[0]) + '</span>') + '<span>' + fmt(v[1]) + '</span></div>';
-    }).join("") + '</section>';
-    if (c.vocab) h += '<section class="sec"><h2 class="label">Vocabulaire</h2><div class="vocab">' + c.vocab.map(v => '<div>' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div></section>';
-    if (c.reperes && c.reperes.length) h += '<section class="sec"><h2 class="label">Repères culturels</h2>' + c.reperes.map(v => '<div class="notion"><span class="t">' + esc(v[0]) + '</span><span>' + fmt(v[1]) + '</span></div>').join("") + '</section>';
-    if (c.entretien) h += '<aside class="prog"><span class="label">Pour l\'entretien de personnalité</span><div class="prose"><p>' + fmt(c.entretien) + '</p></div></aside>';
-    if (c.auteurs) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + c.auteurs.map(a => '<div class="auteur"><h3>' + esc(a.nom) + ' · <em>' + esc(a.ouvrage) + '</em> (' + esc(a.annee) + ')' + (a.cours ? ' <span class="label pill cours-pill">Cours</span>' : '') + '</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</section>';
-    if (c.programme) h += '<aside class="prog"><span class="label">Lien avec le programme</span><p><strong>Module</strong> · ' + esc(c.programme.module) + '</p><p><strong>Chapitre</strong> · ' + esc(c.programme.chapitre) + '</p></aside>';
-    h += '<section class="sec"><h2 class="label">Sujets possibles</h2><ol class="sujets">' + c.sujets.map((s, i) => '<li><b>0' + (i + 1) + '</b><span>' + esc(s) + '</span></li>').join("") + '</ol></section>';
-    h += '<p class="label muted source">Source · <a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.source) + ' ↗</a> · <a href="https://www.google.com/search?q=' + encodeURIComponent((() => { try { return "site:" + new URL(c.url).hostname.replace(/^www\./, "") + " "; } catch (e) { return ""; } })() + (c.vo ? c.vo.titre : c.titre)) + '" target="_blank" rel="noopener">Lien cassé ? Chercher l\'article</a></p>';
-    h += '<div class="bar"><button type="button" class="fav-btn" data-fav="' + c.id + '" aria-pressed="' + !!favs[c.id] + '" aria-label="' + (favs[c.id] ? "Retirer des favoris" : "Ajouter aux favoris") + '">' + BOOKMARK + '</button>' + ankiBtn(c) + '<a class="next-btn label" href="#' + next.id + '">Actu suivante</a></div>';
-    app.innerHTML = h + '</article></div>';
-    window.scrollTo(0, 0);
+      return fid ? '<button type="button" class="art-card" data-fiche="' + esc(fid) + '"><span class="t">' + esc(v[0]) + '</span><span class="d">' + fmt(v[1]) + '</span><span class="go">Fiche →</span></button>'
+        : '<div class="art-card"><span class="t">' + esc(v[0]) + '</span><span class="d">' + fmt(v[1]) + '</span></div>';
+    }).join("") + '</div>');
+    if (c.vocab && c.vocab.length) m += sec("Vocabulaire", '<div class="art-voc">' + c.vocab.map(v => '<div lang="' + (({ anglais: "en", espagnol: "es", allemand: "de" })[c.matiere] || "fr") + '">' + esc(v[0]) + '</div><div>' + esc(v[1]) + '</div>').join("") + '</div>');
+    if (c.reperes && c.reperes.length) m += sec("Repères culturels", '<div class="art-cards">' + c.reperes.map(v => '<div class="art-card"><span class="t">' + esc(v[0]) + '</span><span class="d">' + fmt(v[1]) + '</span></div>').join("") + '</div>');
+    if (c.entretien) m += '<aside class="art-ent"><span class="label acc">Pour l\'entretien de personnalité</span><div class="prose"><p>' + fmt(c.entretien) + '</p></div></aside>';
+    if (c.auteurs && c.auteurs.length) m += sec("Auteurs à mobiliser", '<div class="art-cards">' + c.auteurs.map(a => '<div class="art-aut"><h3><span class="nom">' + esc(a.nom) + '</span><em>' + esc(a.ouvrage) + (a.annee ? ', ' + esc(a.annee) : '') + '</em>' + (a.cours ? '<span class="pill2">Cours' + (/^1A/.test(a.cours) ? ' 1A' : /^2A/.test(a.cours) ? ' 2A' : '') + '</span>' : '') + '</h3><div class="prose"><p>' + fmt(a.texte) + '</p></div>' + (a.ref ? '<button type="button" class="label more" data-fiche="' + esc(a.ref) + '">Voir la fiche →</button>' : '') + '</div>').join("") + '</div>');
+    if (c.sujets && c.sujets.length) m += sec("Sujets possibles", '<ol class="art-suj">' + c.sujets.map((s, i) => '<li><b>' + pad2(i + 1) + '</b><span>' + esc(s) + '</span></li>').join("") + '</ol>');
+    m += '<p class="label muted art-src">Source · <a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.source) + ' ↗</a> · <a href="https://www.google.com/search?q=' + encodeURIComponent((() => { try { return "site:" + new URL(c.url).hostname.replace(/^www\./, "") + " "; } catch (e) { return ""; } })() + (c.vo ? c.vo.titre : c.titre)) + '" target="_blank" rel="noopener">Lien cassé ? Chercher l\'article</a></p>';
+    m += '<div class="bar pill-bar"><button type="button" class="fav-btn" data-fav="' + c.id + '" aria-pressed="' + !!favs[c.id] + '" aria-label="' + (favs[c.id] ? "Retirer des favoris" : "Ajouter aux favoris") + '">' + BOOKMARK + '</button>' + ankiBtn(c) + '<a class="next-btn label" href="#' + next.id + '">Suivante →</a></div>';
+    let r = '<nav class="rail-box rail-toc" aria-label="Dans cet article"><span class="label">Dans cet article</span>' + toc.map((s, i) => '<button type="button" data-goto="art-s' + (i + 1) + '"><span>' + pad2(i + 1) + '</span>' + esc(s) + '</button>').join("") + '</nav>';
+    if (c.programme && c.programme.chapitre) r += '<div class="rail-box"><span class="label acc">Lien avec le programme</span><span class="t">' + esc(c.programme.chapitre) + '</span><span class="label muted">' + esc(c.programme.module || "") + '</span></div>';
+    if (c.dossier) r += '<a class="rail-box soft" href="#archives/sujets/' + encodeURIComponent(c.dossier) + '"><span class="label acc">Sujet suivi</span><span class="t">' + esc(dNom(c.dossier)) + '</span>' + (c.suite && lang === "vo" ? '<span class="d">' + fmt(c.suite) + '</span>' : '') + '<span class="label">Voir le fil →</span></a>';
+    h += '<div class="art-grid"><div class="art-main">' + m + '</div><aside class="art-rail">' + r + '</aside></div>';
+    const nu = tt(next), npos = ed.cards.filter(z => z.matiere === next.matiere).findIndex(z => z.id === next.id);
+    h += '<a class="art-next" href="#' + next.id + '">' + photo(next) + '<span class="tx"><span class="label k">Actu suivante · ' + esc(NOM[next.matiere]) + ' ' + (npos + 1) + '/' + ed.cards.filter(z => z.matiere === next.matiere).length + '</span><span class="t">' + esc(nu.titre) + '</span><span class="label s">' + esc(next.source) + ' · ' + (next.minutes || 3) + ' min →</span></span></a>';
+    app.innerHTML = h + '</div>';
+    window.scrollTo(0, 0); syncTabs();
   }
 
   function ankiBtn(c) {
@@ -1314,6 +1436,74 @@ details.ar-mois[open] .ar-plus { display: none; }
     return f.image && f.image.url ? '<div class="fd-v" data-ph="' + esc(ph) + '"><img src="' + esc(f.image.url) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.outerHTML=this.parentNode.dataset.ph"></div>' : ph; }
   function fdTuile(v, nom) { const n = fdIds(v).length, vrai = v !== "tous" && v !== "__sans";
     return '<a class="fd-item" href="#favoris/' + encodeURIComponent(v) + '"' + (vrai ? ' data-fd-drop="' + esc(v) + '" data-fd-dossier="' + esc(v) + '"' : '') + '><span class="fd-gl"><span class="fd-gl-n">' + esc(nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+
+  // Rangement automatique des favoris : par thème et par pays, sans rien trier ni nommer
+  const FD_AUTO = [
+    ["t", "ia", "IA et numérique", ["intelligence artificielle", " ia ", "l'ia ", "algorithm", "numerique", "data center", "nvidia", "openai", "chatgpt", "cyber", "big tech", "semi-conduct", "puce"]],
+    ["t", "emploi", "Emploi et travail", ["emploi", "chomage", "recrut", "travail", "salarie", "licenci", "syndicat", "greve", "absenteisme", "jeunes diplomes"]],
+    ["t", "prix", "Inflation et pouvoir d'achat", ["inflation", "hausse des prix", "pouvoir d'achat", "cout de la vie", "salaires", "loyer", "carburant"]],
+    ["t", "finances", "Finances publiques et impôts", ["budget", "dette", "deficit", "impot", "fiscal", "niche", "prelevement", "depense publique", "retraite", "pension", "taxe"]],
+    ["t", "commerce", "Commerce et mondialisation", ["droits de douane", "douane", "tarif", "protectionn", "libre-echange", "exportation", "importation", "omc", "excedent commercial", "mondialisation", "chaines de valeur"]],
+    ["t", "energie", "Énergie et climat", ["energie", "climat", "carbone", "petrole", "gaz", "nucleaire", "electricite", "cop3", "renouvelable", "transition ecolog", "emissions"]],
+    ["t", "inegalites", "Inégalités et pauvreté", ["inegalit", "pauvrete", "precarit", "redistribution", "rsa", "minima sociaux", "les plus riches", "milliardaire"]],
+    ["t", "entreprises", "Entreprises et concurrence", ["entreprise", "concurrence", "rachat", "fusion", "monopole", "multinationale", "industrie", "usine", "automobile", "constructeur"]],
+    ["t", "finance", "Banques, monnaie et finance", ["banque", "taux d'interet", "taux directeur", "monetaire", "credit", "bourse", "marches financiers", "crypto", "epargne", "livret"]],
+    ["t", "politique", "Politique et élections", ["election", "electoral", "elu ", "scrutin", "parti ", "parlement", "democrate", "republicain", "gouvernement", "premier ministre", "coalition", "investiture"]],
+    ["t", "securite", "Violence, guerre et sécurité", ["violence", "gang", "narco", "cartel", "crime", "criminel", "militaire", "guerre", "defense", "securite", "homicide", "otan"]],
+    ["t", "migrations", "Migrations", ["migra", "immigr", "refugi", "asile", "frontiere"]],
+    ["t", "societe", "Société et culture", ["culture", "culturel", "education", "ecole", "universite", "sante", "famille", "femmes", "religion", "musee", "film", "litterature", "patrimoine", "indigene", "autochtone"]],
+    ["t", "logement", "Logement", ["logement", "loyer", "immobilier", "locataire"]],
+    ["z", "etats-unis", "États-Unis", ["etats-unis", "americain", "washington", "trump", "maison-blanche", "wall street", "californie", "new york", "alaska"]],
+    ["z", "royaume-uni", "Royaume-Uni", ["royaume-uni", "britanni", "londres", "starmer", "brexit", "angleterre", "ecosse", "westminster", "travaillist", "burnham", "reform uk"]],
+    ["z", "espagne", "Espagne", ["espagne", "espagnol", "madrid", "sanchez", "catalogne", "catalan", "barcelone", "andalou", "pays basque", "psoe", "feijoo", "valence"]],
+    ["z", "amerique-latine", "Amérique latine", ["amerique latine", "mexique", "mexicain", "bresil", "argentin", "colombi", "chili", "perou", "venezuela", "haiti", "salvador", "bolivi", "equateur", "cuba", "bukele", "milei", "lula", "sheinbaum", "uruguay", "guatemala"]],
+    ["z", "europe", "Union européenne", ["union europeenne", "bruxelles", "commission europeenne", "zone euro", "bce", " ue ", "l'ue", "eurozone", "europeen"]],
+    ["z", "france", "France", ["france", "francais", "assemblee nationale", "senat", "macron", "matignon", "insee"]],
+    ["z", "chine", "Chine", ["chine", "chinois", "pekin", "xi jinping", "byd", "taiwan"]],
+    ["z", "allemagne", "Allemagne", ["allemagne", "allemand", "berlin", "merz", "bundestag"]]
+  ];
+  function fdAuto() {
+    const groups = {};
+    FD_AUTO.forEach(([k, cle, nom]) => { groups[cle] = { cle: cle, nom: nom, type: k, ids: [] }; });
+    Object.keys(favs).sort().reverse().forEach(id => {
+      const c = fdCard(id) || {}, f = favs[id];
+      const tit = " " + fdNorm([f.titre, c.titre, c.vo && c.vo.titre].join(" ")).replace(/[«»:,.;!?()"]/g, " ") + " ";
+      const corps = " " + fdNorm([c.faits, c.enjeux, (c.notions || []).map(n => n[0]).join(" ")].join(" ")).replace(/[«»:,.;!?()"]/g, " ") + " ";
+      const sc = FD_AUTO.map(([k, cle, nom, mots]) => { let s = 0; mots.forEach(m => { if (tit.includes(m)) s += 4; const n = corps.split(m).length - 1; s += Math.min(n, 2); }); return { k: k, cle: cle, s: s }; });
+      const th = sc.filter(x => x.k === "t" && x.s >= 4).sort((a, b) => b.s - a.s).slice(0, 2);
+      const zo = sc.filter(x => x.k === "z" && x.s >= 4).sort((a, b) => b.s - a.s).slice(0, 2);
+      if (!th.length) { const b = sc.filter(x => x.k === "t" && x.s >= 2).sort((a, b) => b.s - a.s)[0]; if (b) th.push(b); }
+      th.concat(zo).forEach(x => groups[x.cle].ids.push(id));
+    });
+    return groups;
+  }
+  function fdAutoTuile(g) { const n = g.ids.length; return '<a class="fd-item" data-fd-auto="' + g.cle + '" data-fd-nom="' + esc(g.nom) + '" href="#favoris/' + encodeURIComponent("auto/" + g.cle) + '"><span class="fd-gl"><span class="fd-gl-n">' + esc(g.nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+
+  // Clic droit sur un dossier : menu pour le supprimer
+  function ctxClose() { const m = document.querySelector(".ctx"); if (m) m.remove(); }
+  document.addEventListener("contextmenu", e => {
+    const t = e.target.closest(".fd-item[data-fd-auto], .fd-item[data-fd-dossier]"); if (!t) return;
+    e.preventDefault(); ctxClose();
+    const auto = t.dataset.fdAuto, d = t.dataset.fdDossier, nom = auto ? t.dataset.fdNom : fdLeaf(d);
+    const m = document.createElement("div"); m.className = "ctx"; m.setAttribute("role", "menu");
+    m.innerHTML = '<span class="label muted">' + esc(nom) + '</span><button type="button" role="menuitem" class="ctx-del" data-ctx-del>Supprimer ' + (auto ? 'ce thème' : 'ce dossier') + '</button><span class="ctx-note">Les articles restent dans tes favoris.</span>';
+    document.body.appendChild(m);
+    const r = m.getBoundingClientRect(), x = Math.min(e.clientX, innerWidth - r.width - 8), y = Math.min(e.clientY, innerHeight - r.height - 8);
+    m.style.left = Math.max(8, x) + "px"; m.style.top = Math.max(8, y) + "px";
+    m.querySelector("[data-ctx-del]").focus();
+    m.querySelector("[data-ctx-del]").onclick = () => {
+      ctxClose();
+      if (auto) { const ms = load("pressing:autoMasques", []); if (!ms.includes(auto)) ms.push(auto); save("pressing:autoMasques", ms); toast("Thème supprimé"); }
+      else { dossiers = dossiers.filter(x => !fdIn(x, d)); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => !fdIn(x, d)); }); saveFavs("Favoris : supprime un dossier"); toast("Dossier supprimé"); }
+      fdRefresh();
+    };
+  });
+  document.addEventListener("click", e => {
+    if (!e.target.closest(".ctx")) ctxClose();
+    if (e.target.closest("[data-fd-demasquer]")) { save("pressing:autoMasques", []); toast("Thèmes réaffichés"); fdRefresh(); }
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") ctxClose(); });
+  window.addEventListener("scroll", ctxClose, { passive: true });
   function fdPlus(parent) { return '<button type="button" class="fd-new-btn label" data-fd-new="' + esc(parent) + '">+ ' + (parent ? 'Sous-dossier' : 'Nouveau dossier') + '</button>'; }
   function fdProds(ids) { return '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdTags(f);
     return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
@@ -1337,11 +1527,21 @@ details.ar-mois[open] .ar-plus { display: none; }
       if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
       else { const tri = fdIds("__sans");
         h += '<input class="search fd-search" id="fd-q" type="search" placeholder="Chercher dans tes favoris : Mexique, Keynes, chômage…" autocomplete="off"><div id="fd-res"></div><div id="fd-main">';
-        h += '<div class="fd-glwrap"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid" data-fd-groupe="">' + fdTuile("tous", "Tous les favoris") + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div><div class="fd-tools label">' + fdPlus("") + '</div>';
-        if (tri.length) h += '<h2 class="label fd-h2">À trier · ' + tri.length + '<span class="muted fd-astuce"> — fais-les glisser sur un dossier</span></h2>' + fdProds(tri);
+        const G = fdAuto(), masq = load("pressing:autoMasques", []), th = Object.values(G).filter(g => g.type === "t" && g.ids.length && !masq.includes(g.cle)).sort((x, y) => y.ids.length - x.ids.length), zo = Object.values(G).filter(g => g.type === "z" && g.ids.length && !masq.includes(g.cle)).sort((x, y) => y.ids.length - x.ids.length);
+        const glw = inner => '<div class="fd-glwrap"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + inner + '</div></div>';
+        h += '<p class="muted fd-auto-note">Tes favoris se rangent tout seuls, par thème et par pays, d\'après le contenu de chaque article.</p>';
+        h += glw(fdTuile("tous", "Tous les favoris") + th.map(fdAutoTuile).join(""));
+        if (zo.length) h += '<h2 class="label fd-h2">Par pays et région</h2>' + glw(zo.map(fdAutoTuile).join(""));
+        h += '<h2 class="label fd-h2">Mes dossiers' + (fdKids("").length ? '' : ' <span class="muted fd-astuce">— facultatif</span>') + '</h2>' + (fdKids("").length ? '<div class="fd-glwrap fd-glwrap-s"><div class="fd-grid fd-glgrid" data-fd-groupe="">' + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div>' : '') + '<div class="fd-tools label">' + fdPlus("") + (masq.length ? '<button type="button" class="more" data-fd-demasquer>Réafficher les thèmes supprimés (' + masq.length + ')</button>' : '') + '</div><p class="muted fd-astuce fd-clic">Astuce : clic droit (ou appui long) sur un dossier pour le supprimer.</p>';
         h += '</div>'; }
       app.innerHTML = h + '</div>';
       const q = document.getElementById("fd-q"); if (q) { q.value = state.fdQ || ""; q.addEventListener("input", () => { state.fdQ = q.value; fdChercher(q.value); }); if (state.fdQ) fdChercher(state.fdQ); }
+      return;
+    }
+    if (arg.startsWith("auto/")) {
+      const g = fdAuto()[arg.slice(5)]; if (!g) { location.hash = "favoris"; return; }
+      app.innerHTML = '<div class="wrap-wide fd-page"><a class="back label" href="#favoris">← Favoris</a><div class="page-head"><span class="label muted">Rangé automatiquement · ' + g.ids.length + ' article' + (g.ids.length > 1 ? 's' : '') + '</span><h1>' + esc(g.nom) + '</h1></div>' +
+        (g.ids.length ? '<div class="fd-tools label"><a class="fd-recap-btn label" href="#favoris/recap/' + encodeURIComponent(arg) + '">Récap du thème</a></div>' + fdProds(g.ids) : '<p class="muted">Aucun article ici pour l\'instant.</p>') + '</div>';
       return;
     }
     const vrai = arg !== "tous" && arg !== "__sans";
@@ -1356,10 +1556,11 @@ details.ar-mois[open] .ar-plus { display: none; }
   }
   // Récap d'un dossier : l'essentiel de chaque article réuni sur une page (tiré des articles, sans IA)
   function fdRecap(d) {
-    if (!dossiers.includes(d)) { location.hash = "favoris"; return; }
-    const ids = fdIds(d), phr = (t, n) => (String(t || "").match(/[^.!?]+[.!?]+(\s|$)/g) || [String(t || "")]).slice(0, n).join("").trim();
+    const auto = d.startsWith("auto/") ? fdAuto()[d.slice(5)] : null;
+    if (!auto && !dossiers.includes(d)) { location.hash = "favoris"; return; }
+    const ids = auto ? auto.ids : fdIds(d), phr = (t, n) => (String(t || "").match(/[^.!?]+[.!?]+(\s|$)/g) || [String(t || "")]).slice(0, n).join("").trim();
     const auts = {}; ids.forEach(id => { const c = fdCard(id); (c && c.auteurs || []).forEach(a => { const k = a.nom + "|" + a.ouvrage; (auts[k] = auts[k] || { a, ids: [] }).ids.push(id); }); });
-    let h = '<div class="narrow fd-recap"><a class="back label" href="#favoris/' + encodeURIComponent(d) + '">← ' + esc(fdLeaf(d)) + '</a><div class="page-head"><span class="label muted">Récap · ' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(fdBeau(d)) + '</h1></div>';
+    let h = '<div class="narrow fd-recap"><a class="back label" href="#favoris/' + encodeURIComponent(d) + '">← ' + esc(auto ? auto.nom : fdLeaf(d)) + '</a><div class="page-head"><span class="label muted">Récap · ' + ids.length + ' article' + (ids.length > 1 ? 's' : '') + '</span><h1>' + esc(auto ? auto.nom : fdBeau(d)) + '</h1></div>';
     const al = Object.values(auts);
     if (al.length) h += '<section class="sec"><h2 class="label">Auteurs à mobiliser</h2>' + al.map(x => '<div class="fd-r-aut"><strong>' + esc(x.a.nom) + '</strong> · <em>' + esc(x.a.ouvrage) + '</em>' + (x.a.annee ? ' (' + esc(x.a.annee) + ')' : '') + '<p>' + fmt(phr(x.a.texte, 1)) + '</p></div>').join("") + '</section>';
     h += '<section class="sec"><h2 class="label">Article par article</h2>' + ids.map(id => { const c = fdCard(id) || {}, f = favs[id];
@@ -1421,9 +1622,52 @@ details.ar-mois[open] .ar-plus { display: none; }
   function fdSheet(id, nouveau) {
     const f = favs[id], ds = f.dossiers || [];
     fdOuvrir('<span class="label muted">' + (nouveau ? 'Ajouté aux favoris · ranger dans…' : 'Ranger dans…') + '</span><h3>' + esc(f.titre) + '</h3>' +
+      (dossiers.length && fdChips(id) ? '<div class="fd-sugg"><span class="label muted">Suggestions</span><div class="fd-sugg-row">' + fdChips(id, true) + '</div></div><span class="label muted fd-tous">Tous tes dossiers</span>' : '') +
       (dossiers.length ? fdTree().map(d => '<label class="fd-check" style="padding-left:' + (d.split("/").length - 1) * 24 + 'px"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(fdLeaf(d)) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
       '<div class="fd-add"><input class="search" placeholder="Nouveau dossier" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div><button type="button" class="btn label fd-ok" data-fd-close>' + (nouveau ? 'Plus tard' : 'OK') + '</button>');
+    if (!fdSheet.charge) { fdSheet.charge = 1; favEditions().then(() => { const ok = document.querySelector(".fd-sheet [data-fd-close]"); if (ok && document.querySelector('.fd-sheet [data-fd-input="' + id + '"]')) fdSheet(id, ok.textContent === "Plus tard"); }); }
   }
+
+  // Suggestions de rangement : d'après le nom du dossier et les articles déjà rangés dedans
+  const fdNorm = x => String(x || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  const FD_STOP = new Set("dans pour avec sans sous entre leur leurs plus moins tres tout tous toute toutes cette cela comme apres avant depuis selon alors ainsi aussi elle elles sont etait etre avoir fait faire mais donc vers chez quand dont deux trois millions milliards euros dollars annee annees contre face nouveau nouvelle premier premiere encore deja quelle lors notamment".split(" "));
+  const fdTokC = {};
+  function fdToks(id) { if (fdTokC[id]) return fdTokC[id]; const c = fdCard(id) || {}, f = favs[id] || {};
+    const t = fdNorm([f.titre, c.faits, c.enjeux, (c.notions || []).map(n => n[0]).join(" ")].join(" "));
+    const r = new Set((t.match(/[a-z]{4,}/g) || []).filter(w => !FD_STOP.has(w)).map(w => w.slice(0, 7))); if (c.faits) fdTokC[id] = r; return r; }
+  const FD_SYN = { ia: ["intelligence artificielle", " ia ", "l'ia ", "algorithm", "openai", "chatgpt", "nvidia"], uk: ["royaume-uni", "britanni", "londres", "starmer", "brexit", "angleterre"], usa: ["etats-unis", "americain", "washington", "trump", "maison-blanche"],
+    "amerique latine": ["amerique latine", "mexique", "mexic", "bresil", "argentin", "colombi", "chili", "perou", "venezuela", "haiti", "salvador", "bolivi", "equateur", "cuba", "bukele", "milei", "lula", "sheinbaum"],
+    emplois: ["emploi", "chomage", "recrut", "travail", "salarie"], emploi: ["emploi", "chomage", "recrut", "travail", "salarie"], brexit: ["brexit"], economie: ["economi", "budget", "croissance", "inflation", "dette", "deficit", "fiscal", "commerc", "douane", "entreprise", " pib", "taux", "industri", "investiss", "excedent", "marche", "banque"], "politique espagnole": ["sanchez", "psoe", " vox", "partido popular", "feijoo", "congreso", "gouvernement espagnol", "moncloa"] };
+  function fdNameHit(d, txt) { const leaf = fdNorm(fdLeaf(d)), keys = FD_SYN[leaf];
+    if (keys) return keys.some(k => txt.includes(k));
+    return leaf.split(/[\s'-]+/).filter(w => w.length >= 4).some(w => txt.includes(w.slice(0, 6))); }
+  function fdSugg(id) {
+    const c = fdCard(id) || {}, f = favs[id] || {}, txt = " " + fdNorm([f.titre, c.titre, c.vo && c.vo.titre].join(" ")).replace(/[«»:,.;!?()]/g, " ") + " ", A = fdToks(id);
+    const tous = Object.keys(favs), N = tous.length + 1, df = {};
+    tous.concat([id]).forEach(x => fdToks(x).forEach(w => { df[w] = (df[w] || 0) + 1; }));
+    const idf = w => Math.log(N / (df[w] || 1));
+    let tA = 0; A.forEach(w => { tA += idf(w); });
+    const pl = n => n > 1 ? "s" : "";
+    return dossiers.map(d => {
+      const ids = tous.filter(x => x !== id && fdDz(favs[x]).includes(d));
+      let best = 0, pr = 0;
+      ids.forEach(x => { const B = fdToks(x); let k = 0; A.forEach(w => { if (B.has(w)) k += idf(w); }); const j = tA ? k / tA : 0; best = Math.max(best, j); if (j > 0.24) pr++; });
+      const nom = fdNameHit(d, txt), memeMat = ids.length ? ids.filter(x => favs[x].matiere === f.matiere).length / ids.length : 0;
+      const sc = (nom ? 1 : 0) + best * 2.2 + pr * 0.15 + memeMat * 0.35 + (d.includes("/") && nom ? 0.25 : 0);
+      return { d: d, sc: sc, mm: memeMat, why: nom && pr ? "Le sujet + " + pr + " article" + pl(pr) + " proche" + pl(pr) + " dedans" : nom ? "Le sujet de l'article" : pr ? pr + " article" + pl(pr) + " proche" + pl(pr) + " dedans" : memeMat >= 0.5 && ids.length >= 2 ? "Mêmes thèmes que ce dossier" : "" };
+    }).filter(x => x.why && (x.why.startsWith("Le sujet") || (x.sc > 0.9 && x.mm > 0))).sort((a, b) => b.sc - a.sc).slice(0, 3);
+  }
+  function fdChips(id, avecRaison) { const sg = fdSugg(id), ds = fdDz(favs[id] || {}); if (!sg.length) return "";
+    return sg.map(x => '<button type="button" class="fd-chip" data-fd-sugg="' + esc(x.d) + '" data-fd-id="' + esc(id) + '" aria-pressed="' + ds.includes(x.d) + '">' + (ds.includes(x.d) ? '✓ ' : '+ ') + esc(fdBeau(x.d)) + (avecRaison ? '<small>' + esc(x.why) + '</small>' : '') + '</button>').join(""); }
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-fd-sugg]"); if (!t) return; e.preventDefault();
+    const id = t.dataset.fdId, d = t.dataset.fdSugg, f = favs[id]; if (!f) return;
+    const dedans = (f.dossiers || []).includes(d);
+    f.dossiers = (f.dossiers || []).filter(x => x !== d); if (!dedans) f.dossiers.push(d);
+    saveFavs("Favoris : range un article"); toast(dedans ? "Retiré de « " + fdLeaf(d) + " »" : "Rangé dans « " + fdLeaf(d) + " »");
+    const ok = document.querySelector(".fd-sheet [data-fd-close]");
+    if (ok) { ok.textContent = "OK"; fdSheet(id, false); } else fdRefresh();
+  });
   function fdNoteSheet(id) {
     const f = favs[id];
     const w = fdOuvrir('<span class="label muted">Ta note</span><h3>' + esc(f.titre) + '</h3><textarea class="note-area" rows="4" placeholder="Pourquoi tu l\'as gardé : accroche, exemple, chiffre, sujet où le placer…">' + esc(f.note || "") + '</textarea><button type="button" class="btn label fd-ok" data-fd-note-ok="' + id + '">Enregistrer</button>');
@@ -2262,7 +2506,7 @@ details.ar-mois[open] .ar-plus { display: none; }
   });
   // Onglets des matières de l'édition : suivent le défilement
   function syncTabs() {
-    const nav = document.querySelector(".une-tabs"); if (!nav) return;
+    const nav = document.querySelector(".une-tabs, .rail-toc"); if (!nav) return;
     const cs = getComputedStyle(document.documentElement), off = (parseInt(cs.getPropertyValue("--hdr")) || 0) + (window.innerWidth >= 1000 ? (parseInt(cs.getPropertyValue("--topbar")) || 65) : 0) + 90;
     let cur = null; nav.querySelectorAll("[data-goto]").forEach(b => { const s = document.getElementById(b.dataset.goto); if (s && s.getBoundingClientRect().top <= off) cur = b; });
     nav.querySelectorAll("[data-goto]").forEach(b => b === cur ? b.setAttribute("aria-current", "true") : b.removeAttribute("aria-current"));
