@@ -1087,6 +1087,18 @@ a.rail-box:hover .t { color: var(--accent); }
 .pill-bar .anki-btn { height: 46px; border-radius: 99px; border-color: var(--line); padding-inline: 18px; }
 .pill-bar .next-btn { flex-grow: 0; height: 46px; border-radius: 99px; padding-inline: 22px; }
 
+/* Suggestions de rangement des favoris */
+.fd-sugg { display: flex; flex-direction: column; gap: 10px; margin: 8px 0 6px; padding: 14px; border-radius: var(--r); background: var(--soft); }
+.fd-sugg-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.fd-chip { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 8px 14px; border-radius: 16px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); font-size: 14px; font-weight: 500; text-align: left; }
+.fd-chip:hover { border-color: var(--fg); }
+.fd-chip small { font-size: 11.5px; font-weight: 400; color: var(--muted); }
+.fd-chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #ffffff; }
+.fd-chip[aria-pressed="true"] small { color: rgba(255, 255, 255, 0.8); }
+.fd-sugg-in { margin-top: 8px; }
+.fd-sugg-in .fd-chip { padding: 6px 12px; font-size: 13px; border-radius: 99px; }
+.fd-tous { display: block; margin-top: 6px; }
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -1421,6 +1433,7 @@ a.rail-box:hover .t { color: var(--accent); }
     return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
       (f.note ? '<p class="fd-note">' + esc(f.note) + '</p>' : '') +
       (ds.length ? '<span class="fd-tags label">' + ds.map(d => esc(fdBeau(d))).join(' · ') + '</span>' : '') +
+      (!ds.length && fdChips(id) ? '<span class="fd-sugg-row fd-sugg-in">' + fdChips(id) + '</span>' : '') +
       '<span class="fd-acts"><button type="button" class="more label" data-fd-ranger="' + id + '">Ranger</button><button type="button" class="more label" data-fd-note="' + id + '">' + (f.note ? 'Note ✎' : 'Note') + '</button></span></div>'; }).join("") + '</div>'; }
   function fdTexte(id) { const c = fdCard(id) || {}, f = favs[id]; return [f.titre, f.note, fdDz(f).join(" "), NOM[f.matiere], c.faits, c.enjeux, (c.auteurs || []).map(a => a.nom + " " + a.ouvrage).join(" "), (c.notions || []).map(n => n.join(" ")).join(" ")].join(" ").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
   function fdChercher(q) {
@@ -1523,9 +1536,52 @@ a.rail-box:hover .t { color: var(--accent); }
   function fdSheet(id, nouveau) {
     const f = favs[id], ds = f.dossiers || [];
     fdOuvrir('<span class="label muted">' + (nouveau ? 'Ajouté aux favoris · ranger dans…' : 'Ranger dans…') + '</span><h3>' + esc(f.titre) + '</h3>' +
+      (dossiers.length && fdChips(id) ? '<div class="fd-sugg"><span class="label muted">Suggestions</span><div class="fd-sugg-row">' + fdChips(id, true) + '</div></div><span class="label muted fd-tous">Tous tes dossiers</span>' : '') +
       (dossiers.length ? fdTree().map(d => '<label class="fd-check" style="padding-left:' + (d.split("/").length - 1) * 24 + 'px"><input type="checkbox" data-fd-tog="' + esc(id) + '" value="' + esc(d) + '"' + (ds.includes(d) ? ' checked' : '') + '> ' + esc(fdLeaf(d)) + '</label>').join("") : '<p class="muted" style="margin:0">Pas encore de dossier : crées-en un.</p>') +
       '<div class="fd-add"><input class="search" placeholder="Nouveau dossier" data-fd-input="' + esc(id) + '"><button type="button" class="btn label" data-fd-create="' + esc(id) + '">Créer</button></div><button type="button" class="btn label fd-ok" data-fd-close>' + (nouveau ? 'Plus tard' : 'OK') + '</button>');
+    if (!fdSheet.charge) { fdSheet.charge = 1; favEditions().then(() => { const ok = document.querySelector(".fd-sheet [data-fd-close]"); if (ok && document.querySelector('.fd-sheet [data-fd-input="' + id + '"]')) fdSheet(id, ok.textContent === "Plus tard"); }); }
   }
+
+  // Suggestions de rangement : d'après le nom du dossier et les articles déjà rangés dedans
+  const fdNorm = x => String(x || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  const FD_STOP = new Set("dans pour avec sans sous entre leur leurs plus moins tres tout tous toute toutes cette cela comme apres avant depuis selon alors ainsi aussi elle elles sont etait etre avoir fait faire mais donc vers chez quand dont deux trois millions milliards euros dollars annee annees contre face nouveau nouvelle premier premiere encore deja quelle lors notamment".split(" "));
+  const fdTokC = {};
+  function fdToks(id) { if (fdTokC[id]) return fdTokC[id]; const c = fdCard(id) || {}, f = favs[id] || {};
+    const t = fdNorm([f.titre, c.faits, c.enjeux, (c.notions || []).map(n => n[0]).join(" ")].join(" "));
+    const r = new Set((t.match(/[a-z]{4,}/g) || []).filter(w => !FD_STOP.has(w)).map(w => w.slice(0, 7))); if (c.faits) fdTokC[id] = r; return r; }
+  const FD_SYN = { ia: ["intelligence artificielle", " ia ", "l'ia ", "algorithm", "openai", "chatgpt", "nvidia"], uk: ["royaume-uni", "britanni", "londres", "starmer", "brexit", "angleterre"], usa: ["etats-unis", "americain", "washington", "trump", "maison-blanche"],
+    "amerique latine": ["amerique latine", "mexique", "mexic", "bresil", "argentin", "colombi", "chili", "perou", "venezuela", "haiti", "salvador", "bolivi", "equateur", "cuba", "bukele", "milei", "lula", "sheinbaum"],
+    emplois: ["emploi", "chomage", "recrut", "travail", "salarie"], emploi: ["emploi", "chomage", "recrut", "travail", "salarie"], brexit: ["brexit"], economie: ["economi", "budget", "croissance", "inflation", "dette", "deficit", "fiscal", "commerc", "douane", "entreprise", " pib", "taux", "industri", "investiss", "excedent", "marche", "banque"], "politique espagnole": ["sanchez", "psoe", " vox", "partido popular", "feijoo", "congreso", "gouvernement espagnol", "moncloa"] };
+  function fdNameHit(d, txt) { const leaf = fdNorm(fdLeaf(d)), keys = FD_SYN[leaf];
+    if (keys) return keys.some(k => txt.includes(k));
+    return leaf.split(/[\s'-]+/).filter(w => w.length >= 4).some(w => txt.includes(w.slice(0, 6))); }
+  function fdSugg(id) {
+    const c = fdCard(id) || {}, f = favs[id] || {}, txt = " " + fdNorm([f.titre, c.titre, c.vo && c.vo.titre].join(" ")).replace(/[«»:,.;!?()]/g, " ") + " ", A = fdToks(id);
+    const tous = Object.keys(favs), N = tous.length + 1, df = {};
+    tous.concat([id]).forEach(x => fdToks(x).forEach(w => { df[w] = (df[w] || 0) + 1; }));
+    const idf = w => Math.log(N / (df[w] || 1));
+    let tA = 0; A.forEach(w => { tA += idf(w); });
+    const pl = n => n > 1 ? "s" : "";
+    return dossiers.map(d => {
+      const ids = tous.filter(x => x !== id && fdDz(favs[x]).includes(d));
+      let best = 0, pr = 0;
+      ids.forEach(x => { const B = fdToks(x); let k = 0; A.forEach(w => { if (B.has(w)) k += idf(w); }); const j = tA ? k / tA : 0; best = Math.max(best, j); if (j > 0.24) pr++; });
+      const nom = fdNameHit(d, txt), memeMat = ids.length ? ids.filter(x => favs[x].matiere === f.matiere).length / ids.length : 0;
+      const sc = (nom ? 1 : 0) + best * 2.2 + pr * 0.15 + memeMat * 0.35 + (d.includes("/") && nom ? 0.25 : 0);
+      return { d: d, sc: sc, mm: memeMat, why: nom && pr ? "Le sujet + " + pr + " article" + pl(pr) + " proche" + pl(pr) + " dedans" : nom ? "Le sujet de l'article" : pr ? pr + " article" + pl(pr) + " proche" + pl(pr) + " dedans" : memeMat >= 0.5 && ids.length >= 2 ? "Mêmes thèmes que ce dossier" : "" };
+    }).filter(x => x.why && (x.why.startsWith("Le sujet") || (x.sc > 0.9 && x.mm > 0))).sort((a, b) => b.sc - a.sc).slice(0, 3);
+  }
+  function fdChips(id, avecRaison) { const sg = fdSugg(id), ds = fdDz(favs[id] || {}); if (!sg.length) return "";
+    return sg.map(x => '<button type="button" class="fd-chip" data-fd-sugg="' + esc(x.d) + '" data-fd-id="' + esc(id) + '" aria-pressed="' + ds.includes(x.d) + '">' + (ds.includes(x.d) ? '✓ ' : '+ ') + esc(fdBeau(x.d)) + (avecRaison ? '<small>' + esc(x.why) + '</small>' : '') + '</button>').join(""); }
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-fd-sugg]"); if (!t) return; e.preventDefault();
+    const id = t.dataset.fdId, d = t.dataset.fdSugg, f = favs[id]; if (!f) return;
+    const dedans = (f.dossiers || []).includes(d);
+    f.dossiers = (f.dossiers || []).filter(x => x !== d); if (!dedans) f.dossiers.push(d);
+    saveFavs("Favoris : range un article"); toast(dedans ? "Retiré de « " + fdLeaf(d) + " »" : "Rangé dans « " + fdLeaf(d) + " »");
+    const ok = document.querySelector(".fd-sheet [data-fd-close]");
+    if (ok) { ok.textContent = "OK"; fdSheet(id, false); } else fdRefresh();
+  });
   function fdNoteSheet(id) {
     const f = favs[id];
     const w = fdOuvrir('<span class="label muted">Ta note</span><h3>' + esc(f.titre) + '</h3><textarea class="note-area" rows="4" placeholder="Pourquoi tu l\'as gardé : accroche, exemple, chiffre, sujet où le placer…">' + esc(f.note || "") + '</textarea><button type="button" class="btn label fd-ok" data-fd-note-ok="' + id + '">Enregistrer</button>');
