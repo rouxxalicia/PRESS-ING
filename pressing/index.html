@@ -1100,6 +1100,13 @@ a.rail-box:hover .t { color: var(--accent); }
 .fd-tous { display: block; margin-top: 6px; }
 .fd-auto-note { margin: 0 0 18px; font-size: 14px; }
 
+.ctx { position: fixed; z-index: 90; min-width: 220px; padding: 10px; display: flex; flex-direction: column; gap: 4px; background: var(--bg); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.35); }
+.ctx > .label { padding: 4px 8px 6px; }
+.ctx-del { width: 100%; padding: 10px 10px; border-radius: 10px; text-align: left; font-size: 14.5px; font-weight: 500; color: var(--accent); }
+.ctx-del:hover, .ctx-del:focus-visible { background: var(--soft); outline: none; }
+.ctx-note { padding: 0 10px 4px; font-size: 12px; color: var(--muted); }
+.fd-clic { margin: 10px 0 0; font-size: 12.5px; }
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -1470,7 +1477,33 @@ a.rail-box:hover .t { color: var(--accent); }
     });
     return groups;
   }
-  function fdAutoTuile(g) { const n = g.ids.length; return '<a class="fd-item" href="#favoris/' + encodeURIComponent("auto/" + g.cle) + '"><span class="fd-gl"><span class="fd-gl-n">' + esc(g.nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+  function fdAutoTuile(g) { const n = g.ids.length; return '<a class="fd-item" data-fd-auto="' + g.cle + '" data-fd-nom="' + esc(g.nom) + '" href="#favoris/' + encodeURIComponent("auto/" + g.cle) + '"><span class="fd-gl"><span class="fd-gl-n">' + esc(g.nom) + '</span><span class="label fd-gl-c">' + n + ' article' + (n > 1 ? 's' : '') + '</span></span></a>'; }
+
+  // Clic droit sur un dossier : menu pour le supprimer
+  function ctxClose() { const m = document.querySelector(".ctx"); if (m) m.remove(); }
+  document.addEventListener("contextmenu", e => {
+    const t = e.target.closest(".fd-item[data-fd-auto], .fd-item[data-fd-dossier]"); if (!t) return;
+    e.preventDefault(); ctxClose();
+    const auto = t.dataset.fdAuto, d = t.dataset.fdDossier, nom = auto ? t.dataset.fdNom : fdLeaf(d);
+    const m = document.createElement("div"); m.className = "ctx"; m.setAttribute("role", "menu");
+    m.innerHTML = '<span class="label muted">' + esc(nom) + '</span><button type="button" role="menuitem" class="ctx-del" data-ctx-del>Supprimer ' + (auto ? 'ce thème' : 'ce dossier') + '</button><span class="ctx-note">Les articles restent dans tes favoris.</span>';
+    document.body.appendChild(m);
+    const r = m.getBoundingClientRect(), x = Math.min(e.clientX, innerWidth - r.width - 8), y = Math.min(e.clientY, innerHeight - r.height - 8);
+    m.style.left = Math.max(8, x) + "px"; m.style.top = Math.max(8, y) + "px";
+    m.querySelector("[data-ctx-del]").focus();
+    m.querySelector("[data-ctx-del]").onclick = () => {
+      ctxClose();
+      if (auto) { const ms = load("pressing:autoMasques", []); if (!ms.includes(auto)) ms.push(auto); save("pressing:autoMasques", ms); toast("Thème supprimé"); }
+      else { dossiers = dossiers.filter(x => !fdIn(x, d)); Object.values(favs).forEach(f => { if (f.dossiers) f.dossiers = f.dossiers.filter(x => !fdIn(x, d)); }); saveFavs("Favoris : supprime un dossier"); toast("Dossier supprimé"); }
+      fdRefresh();
+    };
+  });
+  document.addEventListener("click", e => {
+    if (!e.target.closest(".ctx")) ctxClose();
+    if (e.target.closest("[data-fd-demasquer]")) { save("pressing:autoMasques", []); toast("Thèmes réaffichés"); fdRefresh(); }
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") ctxClose(); });
+  window.addEventListener("scroll", ctxClose, { passive: true });
   function fdPlus(parent) { return '<button type="button" class="fd-new-btn label" data-fd-new="' + esc(parent) + '">+ ' + (parent ? 'Sous-dossier' : 'Nouveau dossier') + '</button>'; }
   function fdProds(ids) { return '<div class="fd-prods">' + ids.map(id => { const f = favs[id], ds = fdTags(f);
     return '<div class="fd-prod" data-fd-id="' + id + '"><a href="#' + id + '" draggable="false"><div class="fd-img">' + fdVisuel(f) + '</div><span class="label muted">' + NOM[f.matiere] + ' · ' + dShort(id.slice(0, 10)) + '</span><h3>' + esc(f.titre) + '</h3></a>' +
@@ -1494,12 +1527,12 @@ a.rail-box:hover .t { color: var(--accent); }
       if (!all.length) h += '<div class="empty"><p>Aucun favori pour l\'instant.</p><p class="muted">Sur une actu, touche le signet à côté de « Actu suivante » pour la garder ici.</p><a class="btn label" href="#accueil">Voir l\'édition</a></div>';
       else { const tri = fdIds("__sans");
         h += '<input class="search fd-search" id="fd-q" type="search" placeholder="Chercher dans tes favoris : Mexique, Keynes, chômage…" autocomplete="off"><div id="fd-res"></div><div id="fd-main">';
-        const G = fdAuto(), th = Object.values(G).filter(g => g.type === "t" && g.ids.length).sort((x, y) => y.ids.length - x.ids.length), zo = Object.values(G).filter(g => g.type === "z" && g.ids.length).sort((x, y) => y.ids.length - x.ids.length);
+        const G = fdAuto(), masq = load("pressing:autoMasques", []), th = Object.values(G).filter(g => g.type === "t" && g.ids.length && !masq.includes(g.cle)).sort((x, y) => y.ids.length - x.ids.length), zo = Object.values(G).filter(g => g.type === "z" && g.ids.length && !masq.includes(g.cle)).sort((x, y) => y.ids.length - x.ids.length);
         const glw = inner => '<div class="fd-glwrap"><div class="fd-blobs" aria-hidden="true"><i></i><i></i><i></i></div><div class="fd-grid fd-glgrid">' + inner + '</div></div>';
         h += '<p class="muted fd-auto-note">Tes favoris se rangent tout seuls, par thème et par pays, d\'après le contenu de chaque article.</p>';
         h += glw(fdTuile("tous", "Tous les favoris") + th.map(fdAutoTuile).join(""));
         if (zo.length) h += '<h2 class="label fd-h2">Par pays et région</h2>' + glw(zo.map(fdAutoTuile).join(""));
-        h += '<h2 class="label fd-h2">Mes dossiers' + (fdKids("").length ? '' : ' <span class="muted fd-astuce">— facultatif</span>') + '</h2>' + (fdKids("").length ? '<div class="fd-glwrap fd-glwrap-s"><div class="fd-grid fd-glgrid" data-fd-groupe="">' + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div>' : '') + '<div class="fd-tools label">' + fdPlus("") + '</div>';
+        h += '<h2 class="label fd-h2">Mes dossiers' + (fdKids("").length ? '' : ' <span class="muted fd-astuce">— facultatif</span>') + '</h2>' + (fdKids("").length ? '<div class="fd-glwrap fd-glwrap-s"><div class="fd-grid fd-glgrid" data-fd-groupe="">' + fdKids("").map(d => fdTuile(d, d)).join("") + '</div></div>' : '') + '<div class="fd-tools label">' + fdPlus("") + (masq.length ? '<button type="button" class="more" data-fd-demasquer>Réafficher les thèmes supprimés (' + masq.length + ')</button>' : '') + '</div><p class="muted fd-astuce fd-clic">Astuce : clic droit (ou appui long) sur un dossier pour le supprimer.</p>';
         h += '</div>'; }
       app.innerHTML = h + '</div>';
       const q = document.getElementById("fd-q"); if (q) { q.value = state.fdQ || ""; q.addEventListener("input", () => { state.fdQ = q.value; fdChercher(q.value); }); if (state.fdQ) fdChercher(state.fdQ); }
