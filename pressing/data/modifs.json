@@ -227,7 +227,9 @@
   "2026-11-26-esh-2": {
    "titre": "Automobile : le géant chinois BYD négocie le rachat de l'usine d'Ineos à Hambach",
    "matiere": "esh",
-   "dossiers": [],
+   "dossiers": [
+    "Économie"
+   ],
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/SIN_BYD_e6_SNF4771J_2023-10-26.jpg/1280px-SIN_BYD_e6_SNF4771J_2023-10-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Véhicule électrique du constructeur chinois BYD"
@@ -245,7 +247,7 @@
   "UK/Emplois",
   "USA"
  ],
- "favsMaj": 1795698370549,
+ "favsMaj": 1795698375076,
  "demandes": [
   {
    "id": "dmwlvrpnt",
