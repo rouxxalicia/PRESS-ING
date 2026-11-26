@@ -558,6 +558,11 @@ body.fs-lock { overflow: hidden; }
 .dbf-arg p { margin: 0; font-size: 16px; line-height: 1.7; }
 .dbf-arg .dbf-who { font-size: 15px; line-height: 1.5; margin-bottom: 2px; }
 .dbf .a { font-weight: 700; color: #ec5c07; }
+.ta { font-weight: 700; color: #ec5c07; }
+.tw { font-style: italic; color: #ec5c07; }
+.td { font-weight: 700; color: #38761d; white-space: nowrap; }
+.tn { font-weight: 700; color: #1155cc; }
+.te { background: var(--soft); padding: 1px 5px; border-radius: 4px; }
 .dbf .w { font-style: italic; color: #ec5c07; }
 .dbf .n { font-weight: 700; }
 .dbf .e { background: var(--soft); padding: 1px 5px; border-radius: 4px; }
@@ -917,6 +922,84 @@ details.ar-mois > summary::-webkit-details-marker { display: none; }
 .ar-plus { color: var(--fg); }
 details.ar-mois[open] .ar-plus { display: none; }
 
+/* Une plus calme + sommaire ; menu horizontal quand le menu latéral est fermé */
+.une-head { align-items: flex-end; padding: 36px 0 20px; }
+.une-date { margin: 0; display: flex; flex-direction: column; gap: 10px; font-size: clamp(32px, 4.4vw, 50px); line-height: 1.05; font-weight: 500; font-stretch: 100%; letter-spacing: -0.02em; text-transform: none; }
+.une-stats { flex-direction: row; flex-wrap: wrap; gap: 6px 22px; text-align: left; padding-bottom: 6px; }
+.une-wrap { display: grid; gap: 36px; margin-top: 28px; }
+.une { margin-top: 0; }
+.une .ph { aspect-ratio: 3 / 2; max-height: none; }
+.une-txt { display: flex; flex-direction: column; gap: 12px; padding-top: 20px; }
+.une h2 { font-size: clamp(26px, 3.2vw, 38px); }
+.somm { display: none; flex-direction: column; }
+@media (min-width: 1000px) { .somm { display: flex; } }
+.somm-h { padding-bottom: 12px; border-bottom: 1px solid var(--fg); color: var(--fg); font-weight: 600; }
+.somm-i { display: flex; flex-direction: column; gap: 6px; padding: 14px 0; border-bottom: 1px solid var(--line); text-align: left; width: 100%; }
+.somm-i .t { font-size: 15.5px; line-height: 1.35; font-weight: 500; text-wrap: pretty; }
+.somm-i:hover .t { color: var(--accent); }
+.somm-al { border-bottom: 0; }
+@media (min-width: 820px) {
+  .une .ph { aspect-ratio: 3 / 2; max-height: none; height: auto; min-height: 0; }
+  .une-txt { display: flex; padding-top: 22px; }
+}
+@media (min-width: 1000px) {
+  .une-wrap { grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 40px; }
+  .somm { border-left: 1px solid var(--line); padding-left: 32px; }
+  /* menu fermé = barre horizontale en haut */
+  body.side-closed { padding-left: 0; }
+  body.side-closed header.top { position: sticky; top: 0; bottom: auto; width: auto; border-right: 0; border-bottom: 1px solid var(--line); overflow: visible; }
+  body.side-closed header.top > .wrap { max-width: 1120px; margin: 0 auto; padding: 0 40px; min-height: 0; display: block; }
+  body.side-closed header.top .top-row { display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; align-items: center; gap: 28px; padding: 12px 0; }
+  body.side-closed .side-toggle { position: static; order: 0; width: 40px; height: 40px; margin-left: -10px; }
+  body.side-closed header.top .brand { writing-mode: horizontal-tb; transform: none; grid-column: 2; grid-row: 1; font-size: 17px; letter-spacing: 0.08em; padding: 0; margin: 0; }
+  body.side-closed .top-nav { display: flex; flex-direction: row; justify-content: center; gap: 26px; grid-column: 3; grid-row: 1; }
+  body.side-closed .top-nav > a { padding: 6px 0; font-size: 11.5px; letter-spacing: 0.14em; color: var(--muted); }
+  body.side-closed .top-nav > a:hover { color: var(--fg); }
+  body.side-closed .top-nav > a[aria-current="page"] { color: var(--accent); }
+  body.side-closed .top-nav .nl-badge { padding: 1px 6px; min-width: 0; font-size: 10.5px; }
+  body.side-closed .side-sub { display: none; }
+  body.side-closed header.top .top-right { display: flex; grid-column: 4; grid-row: 1; gap: 6px; }
+  body.side-closed header.top #qs-open, body.side-closed header.top #theme-toggle { display: inline-flex; width: 36px; height: 36px; padding: 0; margin: 0; border: 0; justify-content: center; border-radius: 99px; }
+  body.side-closed header.top #qs-open::after, body.side-closed header.top #theme-toggle::after { content: none; }
+  body.side-closed header.top .top-edit:not([hidden]) { display: inline-flex; margin: 0; }
+  body.side-closed .une-tabs { top: var(--topbar, 65px); }
+  body.side-closed .mag2, body.side-closed .alire2 { scroll-margin-top: calc(var(--topbar, 65px) + 60px); }
+}
+
+/* Coins arrondis partout */
+:root { --r: 14px; --r-s: 10px; }
+.ph, .thumb, .nl-ph, .ec-ph, .fd-cover, .fd-img, .fd-mini-img, .fd-ph, .card .hero, .hero, .oeuvre img, .deb-actu img, img.mini, .row .ph { border-radius: var(--r); overflow: hidden; }
+.cult, .alire2, .suivi, .lead, .cg-enjeux, .choice, .qs-box, .fd-sheet, .deb-gl, .enjeu, textarea, .note-area, .prog, .mes-notes, .empty { border-radius: var(--r); }
+.cult { overflow: hidden; }
+.cult .ph { border-radius: 0; }
+.btn, .chip, .nl-ok, .anki-btn, .fav-btn, .next-btn, .deb-btn2, .fd-recap-btn, .fd-drop-chip, .seg, .seg button, .ed-jump a, .pill, .toast, .search, input[type="search"], input[type="text"], input[type="password"], select, #gate input, #gate button, .bar a, .bar button, .cm-chip, .cm-btn, .fd-new-btn, .prop-item, .fd-ghost { border-radius: var(--r-s); }
+.nl-badge { border-radius: 99px; }
+.ec-day { border-top-right-radius: var(--r-s); }
+.suivi .bars i { border-radius: 2px; }
+@media (max-width: 699px) { .une .ph { border-radius: 0; } }
+/* Date de l'édition un peu plus grande */
+.une-date { font-size: clamp(40px, 6.2vw, 76px); }
+
+/* Date en gras, étroite, en capitales */
+.une-date { font-size: clamp(44px, 6.6vw, 86px); line-height: 0.95; font-weight: 800; font-stretch: 68%; letter-spacing: -0.01em; text-transform: uppercase; gap: 12px; }
+.une-date .label { font-stretch: 100%; text-transform: uppercase; font-weight: 500; letter-spacing: 0.14em; }
+/* Les photos « bumpent » au survol */
+.ph img, .ec-ph img, .nl-ph img, .fd-cover img, .fd-img img, .deb-actu img { transition: transform 0.45s cubic-bezier(.2, .7, .2, 1); }
+@media (hover: hover) {
+  a:hover .ph img, a:hover .ec-ph img, a.nl-ph:hover img, .nl-row:hover .nl-ph img, a:hover .fd-cover img, a:hover .fd-img img, .fd-prod:hover .fd-img img, a:hover.deb-actu img { transform: scale(1.045); }
+}
+@media (prefers-reduced-motion: reduce) { .ph img, .ec-ph img, .nl-ph img, .fd-cover img, .fd-img img, .deb-actu img { transition: none; } a:hover .ph img, a:hover .ec-ph img, .nl-row:hover .nl-ph img { transform: none; } }
+
+/* Le menu latéral s'ouvre par-dessus la page : rien ne bouge */
+@media (min-width: 1000px) {
+  body, body.side-closed { padding-left: 0; padding-top: var(--topbar, 65px); }
+  body.side-closed header.top { position: fixed; top: 0; left: 0; right: 0; bottom: auto; z-index: 40; background: var(--bg); }
+  body:not(.side-closed) header.top { z-index: 50; box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.25); }
+  body:not(.side-closed)::before { content: ""; position: fixed; inset: 0; height: auto; z-index: 45; background: rgba(12, 12, 11, 0.28); }
+  .une-tabs, body.side-closed .une-tabs { top: var(--topbar, 65px); }
+  .mag2, .alire2 { scroll-margin-top: calc(var(--topbar, 65px) + 60px); }
+}
+
 </style>
 <div id="gate"><form autocomplete="off"><p class="g-brand">INDEX PRÉPA</p><label class="g-label" for="g-code">Code d'accès</label><div class="g-field"><input id="g-code" type="password" required><button type="button" class="g-eye" id="g-eye" aria-label="Afficher le code" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line class="g-slash" x1="3" y1="3" x2="21" y2="21"/></svg></button></div><button type="submit">Entrer</button><p class="g-err" id="g-err" role="alert"></p></form></div>
 <script>
@@ -1036,7 +1119,7 @@ details.ar-mois[open] .ar-plus { display: none; }
   }
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
-  function fmt(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>"); }
+  function fmt(s) { return esc(s).replace(/\[(a|d|w|n):([^\]]+)\]/g, (m, t, v) => '<span class="t' + t + '">' + v + '</span>').replace(/\{e:([^{}]+)\}/g, '<span class="te">$1</span>').replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>"); }
   function pd(d) { const [y, m, j] = d.split("-").map(Number); return new Date(y, m - 1, j); }
   function dLong(d) { const x = pd(d); return JOURS[x.getDay()] + " " + x.getDate() + " " + MOIS[x.getMonth()] + " " + x.getFullYear(); }
   function dShort(d) { const x = pd(d); return String(x.getDate()).padStart(2, "0") + "." + String(x.getMonth() + 1).padStart(2, "0") + "." + String(x.getFullYear()).slice(2); }
@@ -1084,10 +1167,15 @@ details.ar-mois[open] .ar-plus { display: none; }
     const x = pd(state.date), num = state.index.length - state.index.indexOf(state.date);
     const une = ed.cards[0], u = tt(une);
     let h = latestNote();
-    h += '<div class="une-head"><div><span class="label muted">Édition n° ' + num + '</span><h1 class="une-date">' + cap(JOURS[x.getDay()]) + '<br>' + x.getDate() + ' ' + MOIS[x.getMonth()] + '</h1></div>' +
-      '<div class="une-stats label muted"><span><b>' + ed.cards.length + '</b> actualités</span><span><b>' + minutes + '</b> minutes de lecture</span><a href="#nonlues" data-nl-link></a></div></div>';
-    h += '<a class="une" href="#' + une.id + '">' + photo(une, "une-ph") + '<div class="une-txt"><span class="label acc">À la une · ' + esc(NOM[une.matiere]) + '</span><h2>' + esc(u.titre) + '</h2>' +
-      '<p class="chapo">' + fmt(firstSentence(une.faits || "")) + '</p><span class="label muted">' + esc(une.source) + (u.tag ? ' · ' + esc(u.tag) : '') + (lues[une.id] ? ' · Lue' : '') + '</span></div></a>';
+    const nAL = (ed.a_lire || []).filter(a => a && /^https:\/\//.test(a.url || "")).length;
+    h += '<div class="une-head"><h1 class="une-date"><span class="label muted">Édition n° ' + num + '</span>' + cap(JOURS[x.getDay()]) + ' ' + x.getDate() + ' ' + MOIS[x.getMonth()] + '</h1>' +
+      '<div class="une-stats label muted"><span><b>' + ed.cards.length + '</b> actualités</span><span><b>' + minutes + '</b> min de lecture</span><a href="#nonlues" data-nl-link></a></div></div>';
+    const somm = mats.map(m => { const cs = ed.cards.filter(c => c.matiere === m && c !== une); const pick = cs.filter(c => !c.culture).slice(0, 2).concat(cs.filter(c => c.culture).slice(0, 1));
+      return pick.map(c => { const v = tt(c); return '<a class="somm-i" href="#' + c.id + '"><span class="label acc">' + (c.culture ? 'Culture · ' : '') + esc(NOM[m]) + (v.tag && !c.culture ? ' · ' + esc(v.tag) : '') + '</span><span class="t">' + esc(v.titre) + '</span></a>'; }).join(""); }).join("");
+    h += '<div class="une-wrap"><a class="une" href="#' + une.id + '">' + photo(une, "une-ph") + '<div class="une-txt"><span class="label acc">À la une · ' + esc(NOM[une.matiere]) + (u.tag ? ' · ' + esc(u.tag) : '') + '</span><h2>' + esc(u.titre) + '</h2>' +
+      '<p class="chapo">' + fmt(firstSentence(une.faits || "")) + '</p><span class="label muted">' + esc(une.source) + ' · ' + (une.minutes || 3) + ' min' + (lues[une.id] ? ' · Lue' : '') + '</span></div></a>' +
+      '<aside class="somm" aria-label="Au sommaire"><span class="label somm-h">Au sommaire</span>' + somm +
+      (nAL ? '<button type="button" class="somm-i somm-al" data-goto="sec-alire"><span class="label acc">À lire</span><span class="t">' + nAL + ' articles des Échos et du Monde à lire en entier →</span></button>' : '') + '</aside></div>';
     const aL = (ed.a_lire || []).some(a => a && /^https:\/\//.test(a.url || ""));
     h += '<nav class="une-tabs" aria-label="Matières">' + mats.map(m => '<button type="button" data-goto="sec-' + m + '">' + NOM[m] + '</button>').join("") + (aL ? '<button type="button" data-goto="sec-alire">À lire</button>' : '') + '</nav>';
     let k = 0;
@@ -1173,7 +1261,8 @@ details.ar-mois[open] .ar-plus { display: none; }
     const same = ed.cards.filter(x => x.matiere === c.matiere);
     const pos = same.findIndex(x => x.id === id);
     const next = same[pos + 1] || ed.cards[(idx + 1) % ed.cards.length];
-    let h = '<div class="narrow"><a class="back label" href="#' + c.matiere + '">← ' + NOM[c.matiere] + '</a>';
+    const dC = c.id.slice(0, 10);
+    let h = '<div class="narrow"><a class="back label" href="#accueil" data-date="' + dC + '">← ' + (dC === state.index[0] ? 'Édition' : 'Édition du ' + dShort(dC)) + '</a>';
     h += '<article class="card">' + (c.image && c.image.url ? photo(c, "hero") + (c.image.credit ? '<p class="credit">Photo · ' + (c.image.source ? '<a href="' + esc(c.image.source) + '" target="_blank" rel="noopener">' + esc(c.image.credit) + '</a>' : esc(c.image.credit)) + '</p>' : '') : '<div class="band" data-m="' + c.matiere + '"></div>');
     h += '<span class="label muted">' + NOM[c.matiere] + (c.culture ? ' · Culture' : '') + ' · ' + (pos + 1) + ' / ' + same.length + ' · ' + esc(c.source) + ' · ' + c.minutes + ' min</span>';
     h += '<h1>' + esc(t.titre) + '</h1>';
@@ -1632,10 +1721,20 @@ details.ar-mois[open] .ar-plus { display: none; }
       if (!e) { location.hash = base + "/enjeux"; return; }
       const rs = cg.refs.filter(x => (x.enjeux || []).includes(e.id) && x.rub !== "dissertations");
       let h = '<div class="narrow">' + (e.code ? back("#" + base, cg.theme) : back("#" + base + "/enjeux", "Les enjeux")) + '<article class="card"><span class="label muted">' + (e.code ? 'Thème' : isPeak ? 'Enjeu' : 'Dossier') + '</span><h1>' + esc(e.nom) + '</h1>' + (e.question ? '<p class="idee">' + esc(e.question) + '</p>' : '');
-      if (e.dossier) h += '<p class="idee">' + fmt(e.dossier.chapo) + '</p>' + e.dossier.blocs.map(bloc).join("");
-      h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#' + base + '/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
+      const estDeb = e.dossier && e.dossier.blocs.some(b => b.type === "debat");
+      if (estDeb) h = h.replace('<article class="card">', '<article class="card dbf" id="dbf">');
+      const cgF = x => debFmt(x).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+      const cgPara = p => { const [hd, ...rest] = p.split("\n"); return '<div class="dbf-arg">' + (rest.length ? '<p class="dbf-who">' + cgF(hd) + '</p><p>' + cgF(rest.join(" ")) + '</p>' : '<p>' + cgF(hd) + '</p>') + '</div>'; };
+      const debBloc = b => '<section class="sec"><h2 class="label">' + esc(b.titre) + '</h2>' + (b.ti ? '<p class="dbf-ti">' + cgF(b.ti) + '</p>' : '') +
+        b.sp.map(sp => '<div class="dbf-sp">' + (sp.t ? '<h3>' + esc(sp.t) + '</h3>' : '') + '<div class="dbf-body">' + sp.p.map(cgPara).join("") + (sp.ex || []).map(x => '<p class="dbf-ex">' + cgF(x) + '</p>').join("") + '</div></div>').join("") + '</section>';
+      if (e.dossier) h += '<p class="idee">' + fmt(e.dossier.chapo) + '</p>' + (estDeb ? '<div class="dbf-tools"><button type="button" class="cm-btn" id="dbf-hide" aria-pressed="false">Mode révision</button><span class="muted">Tout est flouté sauf les titres : récite, puis touche pour vérifier.</span></div>' : '') + e.dossier.blocs.map(b => b.type === "debat" ? debBloc(b) : bloc(b)).join("");
+      if (rs.length || !estDeb) h += '<section class="sec"><h2 class="label">Références</h2><div>' + rs.map((x, i) => '<a class="cg-ref" href="#' + base + '/f/' + x.id + '"><span class="n">' + pad2(i + 1) + '</span><span><span class="t">' + esc(x.titre) + '</span><span class="s">' + esc(rubNom(x.rub)) + (x.sous ? ' · ' + esc(x.sous) : '') + '</span></span><span class="label etat' + (cg.fiches && cg.fiches[x.id] ? ' ok">Fiche →' : ' muted">À venir') + '</span></a>').join("") + '</div></section>';
       h += notesBox((isPeak ? "dossierp:" : "dossier:") + e.id, e.nom);
-      app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0); return;
+      app.innerHTML = h + '</article></div>'; window.scrollTo(0, 0);
+      if (estDeb) { const card = document.getElementById("dbf"), hb = document.getElementById("dbf-hide");
+        hb.addEventListener("click", () => { const on = card.classList.toggle("dbf-hide"); hb.setAttribute("aria-pressed", on); card.querySelectorAll(".dbf-body.open").forEach(x => x.classList.remove("open")); });
+        card.querySelectorAll(".dbf-body").forEach(el => { el.tabIndex = 0; el.addEventListener("click", () => { if (card.classList.contains("dbf-hide")) el.classList.toggle("open"); }); }); }
+      return;
     }
     if (parts[0] === "f") {
       const r = cg.refs.find(x => x.id === parts[1]);
@@ -2103,7 +2202,7 @@ details.ar-mois[open] .ar-plus { display: none; }
   function chapTitre(c) { const p = c.programme; const ch = p && typeof p === "object" ? String(p.chapitre || "") : ""; if (!ch) return ""; let t = ch.replace(/^\s*\d+(\.\d+)?\s*[–-]?\s*/, "").split(" : ")[0].replace(/\s*\(.*\)\s*$/, "").replace(/ depuis le .*$/i, "").trim(); return t.length > 46 ? t.slice(0, 44).replace(/\s+\S*$/, "") + "…" : t; }
   function tt(c) {
     const t = c.titre || "";
-    if (c.culture) return { tag: "Culture", titre: t.replace(/^Culture\s*:\s*/i, "") };
+    if (c.culture) return { tag: "Culture", titre: cap(t.replace(/^Culture\s*:\s*/i, "")) };
     const ch = chapTitre(c); if (ch) return { tag: ch, titre: t };
     const m = t.match(/^([^:]{2,26}) : (.+)$/); if (m) return { tag: m[1], titre: cap(m[2]) };
     return { tag: "", titre: t };
@@ -2164,13 +2263,13 @@ details.ar-mois[open] .ar-plus { display: none; }
   // Onglets des matières de l'édition : suivent le défilement
   function syncTabs() {
     const nav = document.querySelector(".une-tabs"); if (!nav) return;
-    const off = (parseInt(getComputedStyle(document.documentElement).getPropertyValue("--hdr")) || 0) + 90;
+    const cs = getComputedStyle(document.documentElement), off = (parseInt(cs.getPropertyValue("--hdr")) || 0) + (window.innerWidth >= 1000 ? (parseInt(cs.getPropertyValue("--topbar")) || 65) : 0) + 90;
     let cur = null; nav.querySelectorAll("[data-goto]").forEach(b => { const s = document.getElementById(b.dataset.goto); if (s && s.getBoundingClientRect().top <= off) cur = b; });
     nav.querySelectorAll("[data-goto]").forEach(b => b === cur ? b.setAttribute("aria-current", "true") : b.removeAttribute("aria-current"));
   }
   window.addEventListener("scroll", syncTabs, { passive: true });
   const hdrEl = document.querySelector("header.top");
-  function setHdr() { document.documentElement.style.setProperty("--hdr", (window.innerWidth >= 1000 || !hdrEl ? 0 : hdrEl.offsetHeight) + "px"); }
+  function setHdr() { document.documentElement.style.setProperty("--hdr", (window.innerWidth >= 1000 || !hdrEl ? 0 : hdrEl.offsetHeight) + "px"); if (hdrEl && window.innerWidth >= 1000 && document.body.classList.contains("side-closed")) document.documentElement.style.setProperty("--topbar", hdrEl.offsetHeight + "px"); }
   window.addEventListener("resize", setHdr, { passive: true }); setHdr();
 
   // Archives
@@ -2249,11 +2348,18 @@ details.ar-mois[open] .ar-plus { display: none; }
   const PANEL_SVG = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><line x1="9" y1="4" x2="9" y2="20"/><polyline points="15 9 12 12 15 15"/></svg>';
   const BURGER_SVG = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>';
   function setSide(closed) {
-    document.body.classList.toggle("side-closed", closed);
+    document.body.classList.toggle("side-closed", closed); if (typeof setHdr === "function") setHdr();
     if (sideBtn) { sideBtn.innerHTML = closed ? BURGER_SVG : PANEL_SVG; sideBtn.setAttribute("aria-label", closed ? "Ouvrir le menu" : "Fermer le menu"); sideBtn.setAttribute("aria-expanded", String(!closed)); }
   }
   setSide(true);
   if (sideBtn) sideBtn.addEventListener("click", () => setSide(!document.body.classList.contains("side-closed")));
+  // menu ouvert : un clic à côté ou sur un lien le referme
+  document.addEventListener("click", e => {
+    if (document.body.classList.contains("side-closed") || window.innerWidth < 1000) return;
+    if (e.composedPath().some(n => n && n.id === "side-toggle") || !e.target.isConnected) return;
+    if (!e.target.closest("header.top") || e.target.closest("header.top a")) setSide(true);
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !document.body.classList.contains("side-closed")) setSide(true); });
   function sideFavs() {
     const el = document.getElementById("side-favs"); if (!el) return;
     const top = dossiers.filter(d => !d.includes("/")).slice(0, 8);
@@ -2349,7 +2455,14 @@ details.ar-mois[open] .ar-plus { display: none; }
     window.addEventListener("load", () => { navigator.serviceWorker.register("./sw.js").catch(() => {}); });
   }
 
-  window.addEventListener("hashchange", () => { qsClose(); route().then(() => { window.scrollTo(0, 0); updateProg(); }); });
+  let prevHash = location.hash.slice(1);
+  window.addEventListener("hashchange", () => { qsClose(); const from = decodeURIComponent(prevHash); prevHash = location.hash.slice(1);
+    route().then(() => {
+      // retour d'un article vers l'édition : on revient à l'endroit de l'article
+      const el = state.view === "accueil" && /^\d{4}-\d{2}-\d{2}-/.test(from) ? [...app.querySelectorAll('a[href="#' + CSS.escape(from) + '"]')].pop() : null;
+      if (el) el.scrollIntoView({ block: "center" }); else window.scrollTo(0, 0);
+      updateProg(); syncTabs(); });
+  });
 
   (async function start() {
     try {

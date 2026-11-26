@@ -38,7 +38,52 @@
    "id": "t1",
    "code": "T1",
    "nom": "Définir l'homme",
-   "question": "Peut-on définir l'homme par une essence ?"
+   "question": "Peut-on définir l'homme par une essence ?",
+   "dossier": {
+    "chapo": "Définir, c'est déterminer par le langage l'**essence** d'une chose : ce qu'elle est et ce qui la distingue de toutes les autres. Mais définir l'homme pose trois problèmes : il n'a peut-être rien de fixe, toute définition trace une frontière qui exclut, et dire ce qu'est l'homme, c'est toujours dire **ce qu'il doit être.**",
+    "blocs": [
+     {
+      "type": "debat",
+      "titre": "Débat 1",
+      "ti": "L'homme a-t-il une essence ?",
+      "sp": [
+       {
+        "t": "Oui · Je veux montrer que l'homme a une essence, qu'on définit par sa différence spécifique",
+        "p": [
+         "[a:Aristote], [w:Politique]\nDéfinir, c'est situer une chose dans son **genre**, puis donner sa **différence spécifique**. Le genre de l'homme est le **vivant** (*zôon*) : il se nourrit, se reproduit, sent et désire. Sa différence spécifique, c'est d'être **politique** et doué de **logos** (langage et raison). **L'homme a donc une essence : un vivant qui se distingue des autres par le logos.**"
+        ],
+        "ex": [
+         "Les abeilles vivent ensemble, mais seul l'homme se donne ses propres lois : la différence avec l'animal est de nature, pas de degré."
+        ]
+       },
+       {
+        "t": "Oui · Je veux montrer que le propre de l'homme est le logos, qui fonde la cité",
+        "p": [
+         "[a:Aristote], [w:Politique]\nLa voix (*phônè*) des animaux exprime seulement le plaisir et la douleur. La parole (*logos*) dit le **juste** et l'**injuste**, le **bien** et le **mal** : elle permet de débattre et de fixer des **valeurs communes**, que les lois expriment. **L'homme est donc par nature un animal politique : la cité est sa fin naturelle.**"
+        ],
+        "ex": [
+         "Celui qui vit hors de la cité est une bête ou un dieu : dans les deux cas, ce n'est pas un homme."
+        ]
+       },
+       {
+        "t": "Oui · Je veux montrer que la fin de l'homme est la raison",
+        "p": [
+         "[a:Aristote], [w:Éthique à Nicomaque]\nEntre le politique et le logos, Aristote penche vers le logos : la meilleure vie est la **vie selon le logos**, politique ou contemplative. **D'où la définition de l'homme comme animal rationnel.** Nuance : Aristote ne dit jamais quel trait est le plus essentiel, et la formule « animal rationnel » est tirée de ses textes, elle n'est pas de lui."
+        ]
+       },
+       {
+        "t": "Limite · Je veux montrer que définir l'homme par une essence fonde une hiérarchie",
+        "p": [
+         "[a:Aristote], [w:Politique], I, 8\nL'homme est au centre du monde et possède les trois âmes (végétative, sensitive, intellective) : il est le modèle du vivant. **L'humanité devient une espèce supérieure, et la nature est mise à son service.**"
+        ],
+        "ex": [
+         "« Les plantes existent pour les animaux et les animaux pour les êtres humains. »"
+        ]
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "t2",
