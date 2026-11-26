@@ -62,10 +62,10 @@
    "faits": "Selon une étude de modélisation du système électrique réalisée par le laboratoire académique PyPSA Labs et publiée le 3 novembre par El País, l'essor rapide des centres de données (data centers) en Espagne pourrait renchérir la facture d'électricité des ménages et des entreprises de près de 2 milliards d'euros par an d'ici 2030 si le projet de décret gouvernemental encadrant le secteur est abandonné ou édulcoré. Attirés par l'abondance d'électricité solaire et éolienne bon marché dans la péninsule Ibérique, les géants américains du cloud et de l'intelligence artificielle multiplient les demandes de raccordement au réseau. Or, contrairement aux panneaux solaires qui ne produisent que le jour, les serveurs informatiques consomment de l'électricité vingt-quatre heures sur vingt-quatre sans interruption. Sans obligation réglementaire d'adosser chaque centre de données à des contrats d'énergie renouvelable heure par heure et à des batteries de stockage, leur consommation nocturne obligera à faire tourner à plein régime les centrales thermiques à gaz, faisant bondir de 14 % les émissions de CO2 du secteur électrique.",
    "enjeux": "Cette étude met en lumière le choc physique entre la **transition numérique** (l'entraînement et l'usage des modèles d'intelligence artificielle) et la **transition écologique** sur le marché européen de l'électricité. En Europe, le prix de gros du mégawattheure est fixé selon la règle de la **tarification au coût marginal** (*merit order*) : c'est la dernière centrale appelée pour équilibrer le réseau aux heures de pointe ou la nuit — presque toujours une centrale à gaz fossile — qui fixe le prix payé par tous les consommateurs. Dès lors, l'arrivée massive de *data centers* fonctionnant en continu crée une **externalité pécuniaire et environnementale** : les géants du numérique captent l'électricité verte disponible le jour et déclenchent l'allumage du gaz le soir, répercutant le surcoût sur l'ensemble des citoyens et des PME. Le débat montre que l'abondance renouvelable ne suffit pas sans régulation de la flexibilité et du stockage.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
-    "alt": "Des rangées de serveurs informatiques à l'intérieur d'un centre de données (data center)",
-    "credit": "BalticServers / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
+    "url": "https://live.staticflickr.com/8203/8206145827_f282d37d1b_b.jpg",
+    "alt": "Illustration : Essor de l'IA : sans régulation des centres de données, la facture d'électricité espagnole bondirait de 2 milliards d'euros par an",
+    "credit": "zigazou76 / Flickr",
+    "source": "https://www.flickr.com/photos/38712296@N07/8206145827"
    },
    "programme": {
     "module": "2 - Croissance et développement",
@@ -238,10 +238,10 @@
    "faits": "Comme le révèle le Guardian le 2 novembre, la filiale britannique de Google a signé un accord inédit avec le syndicat de cadres et d'ingénieurs Prospect, autorisant pour la première fois des représentants syndicaux à entrer dans ses locaux pour organiser et syndiquer ses quelque 7 000 salariés au Royaume-Uni (y compris chez YouTube, mais hors sa filiale d'intelligence artificielle DeepMind). Cette percée syndicale chez l'un des géants de la Silicon Valley est la conséquence directe de la nouvelle loi travailliste sur les droits des travailleurs (Employment Rights Act), qui oblige désormais les employeurs à accorder un droit d'accès physique et numérique aux syndicats sous peine d'amendes. Jusqu'ici, les grandes entreprises technologiques américaines étaient réputées pour leur hostilité envers les syndicats. Fort de cet accord chez Google, le syndicat Prospect cible désormais d'autres groupes du numérique implantés à Londres, notamment Meta, Apple, Microsoft et Amazon.",
    "enjeux": "Cet accord marque un tournant symbolique dans les **relations sociales** (*industrial relations*) britanniques après plus de quarante ans de dérégulation du marché du travail héritée des lois antisyndicales de **Margaret Thatcher** dans les années 1980. Portée au sein du gouvernement par Angela Rayner, la réforme travailliste du droit du travail abaisse les seuils requis pour obtenir la reconnaissance syndicale dans une entreprise et met fin aux contrats « zéro heure » abusifs. Dans le secteur de la **Big Tech**, longtemps dominé par une culture individualiste de hauts salaires et de *stock-options*, l'envie de syndicalisation des ingénieurs est aujourd'hui nourrie par les vagues de licenciements, les restructurations liées à l'**intelligence artificielle** et les conflits éthiques sur les contrats militaires.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Google_UK_at_6_Pancras_Square%2C_King%27s_Cross_Central_development%2C_London%2C_England_01.jpg/1280px-Google_UK_at_6_Pancras_Square%2C_King%27s_Cross_Central_development%2C_London%2C_England_01.jpg",
-    "alt": "Les bureaux de Google UK à Pancras Square, dans le quartier de King's Cross à Londres",
-    "credit": "Acabashi / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Google_UK_at_6_Pancras_Square,_King%27s_Cross_Central_development,_London,_England_01.jpg"
+    "url": "https://live.staticflickr.com/2008/1932058673_213c403dab_b.jpg",
+    "alt": "Illustration : Droits des salariés au Royaume-Uni : Google signe un accord historique ouvrant ses bureaux aux syndicats",
+    "credit": "Jean Lemoine / Flickr",
+    "source": "https://www.flickr.com/photos/7761867@N06/1932058673"
    },
    "vo": {
     "titre": "UK employment rights: Google signs landmark deal granting trade unions access to 7,000 workers",
@@ -300,10 +300,10 @@
    "faits": "Alors que les bureaux de vote ouvrent ce mardi 3 novembre 2026 aux États-Unis pour renouveler les 435 sièges de la Chambre des représentants et 35 sièges du Sénat, une enquête du Guardian donne la parole aux électeurs de la génération Z (les 18-29 ans), qui représentent environ 50 millions d'Américains en âge de voter. Leurs témoignages révèlent une jeunesse prise en étau entre la flambée du coût de la vie (loyers, alimentation, remboursement des prêts étudiants) et la crainte d'un recul des libertés publiques sous le second mandat de Donald Trump, notamment face aux opérations de la police de l'immigration (ICE) et aux menaces sur l'intégrité électorale. Pourtant, près de la moitié de ces jeunes citoyens ne sont toujours pas inscrits sur les listes électorales. Beaucoup expriment un profond scepticisme envers le bipartisme américain, reprochant aux républicains leur dérive autoritaire et aux démocrates leur incapacité à améliorer concrètement le sort des classes populaires.",
    "enjeux": "Le comportement électoral des moins de 30 ans est l'une des grandes inconnues de ces **élections de mi-mandat** (*midterms*), un scrutin où l'**abstention** des jeunes est traditionnellement beaucoup plus forte que lors d'une présidentielle. En 2024, le Parti démocrate avait subi une érosion spectaculaire de son avance historique chez les jeunes — en particulier chez les jeunes hommes non diplômés séduits par le discours économique de Donald Trump — ainsi qu'une forte démobilisation de son aile progressiste sur les campus. Deux ans plus tard, la persistance de l'inflation, aggravée par les droits de douane et la guerre avec l'Iran, pourrait ramener une partie de la **génération Z** vers l'opposition démocrate, mais la défiance envers un système perçu comme verrouillé par l'argent et la **gérontocratie** reste un frein puissant à la participation.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McAlpin_Community_Center.JPG/1280px-McAlpin_Community_Center.JPG",
-    "alt": "Des panneaux électoraux et une pancarte « Vote Here » devant un bureau de vote aux États-Unis",
-    "credit": "Michael Rivera / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:McAlpin_Community_Center.JPG"
+    "url": "https://live.staticflickr.com/2897/14440797226_197b34bda6_b.jpg",
+    "alt": "Illustration : Midterms américaines : entre vie chère et désillusion politique, comment vote la génération Z ce 3 novembre",
+    "credit": "Jocey K / Flickr",
+    "source": "https://www.flickr.com/photos/48627921@N05/14440797226"
    },
    "vo": {
     "titre": "US midterms: caught between the cost of living and political disillusionment, how Gen Z is voting on 3 November",
@@ -362,10 +362,10 @@
    "faits": "Lors de la table ronde « L'Amérique latine et l'Europe face à une économie mondiale fragmentée », organisée le 2 novembre au forum World in Progress (WIP) de Barcelone aux côtés du secrétaire exécutif de la CEPAL José Manuel Salazar-Xirinachs, l'ancien haut représentant de l'Union européenne pour les affaires étrangères Josep Borrell a appelé les pays latino-américains à bâtir une alliance stratégique autour de leurs ressources naturelles. Alors que le sous-continent détient plus de la moitié des réserves mondiales de lithium et une part décisive du cuivre nécessaires à la transition énergétique, Borrell a souligné qu'aujourd'hui encore, 70 % des ressources minières de l'Amérique latine sont exportées à l'état brut, sans être raffinées ni transformées sur place. Faisant le parallèle avec la Communauté européenne du charbon et de l'acier (CECA) de 1951, il a lancé aux dirigeants de la région : « Commencez par vous intégrer par le lithium, l'électricité et l'agriculture, et l'intégration politique viendra ensuite ».",
    "enjeux": "Cette intervention pose la question centrale du modèle de développement latino-américain au XXIe siècle : la transition verte mondiale sera-t-elle une chance d'industrialisation ou un nouveau cycle d'**extractivisme** ? Du « **triangle du lithium** » (Argentine, Bolivie, Chili) aux mines de cuivre du Pérou, l'Amérique latine est courtisée à la fois par la Chine — qui contrôle déjà l'essentiel du raffinage mondial des batteries —, par les États-Unis et par l'Union européenne. Mais comme le diagnostiquait déjà l'économiste argentin **Raúl Prebisch** à la tête de la CEPAL en 1950, exporter des matières premières brutes pour importer des biens manufacturés enferme le continent dans une **dépendance asymétrique** à faible valeur ajoutée. Or les divisions idéologiques actuelles entre gouvernements de gauche (Brésil, Colombie, Mexique) et de droite radicale (Argentine, Chili) paralysent toute politique industrielle régionale commune.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lithium_Ponds_of_Chile%27s_Salar_de_Atacama_%28SVS15006%29.jpg",
-    "alt": "Vue satellite des bassins d'évaporation de lithium dans le désert d'Atacama, au Chili",
-    "credit": "NASA / Goddard Space Flight Center / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Lithium_Ponds_of_Chile%27s_Salar_de_Atacama_(SVS15006).jpg"
+    "url": "https://live.staticflickr.com/65535/51649933837_ec5e8e8f3f_b.jpg",
+    "alt": "Illustration : Josep Borrell : « Les minerais critiques peuvent être le socle de l'intégration de l'Amérique latine »",
+    "credit": "Presidencia Perú / Flickr",
+    "source": "https://www.flickr.com/photos/65990097@N03/51649933837"
    },
    "vo": {
     "titre": "Josep Borrell: «Los minerales críticos pueden ser la base para la integración de América Latina»",
@@ -424,10 +424,10 @@
    "faits": "Selon le rapport du ministère mexicain des Finances (Secretaría de Hacienda) analysé le 2 novembre par El País, l'État fédéral a perçu 143 milliards de pesos (environ 7 milliards d'euros) de taxes sur les importations entre janvier et septembre 2026. Si ce montant progresse de 10 % sur un an en termes réels, il reste inférieur de plus de 44 milliards de pesos à l'objectif de 188 milliards inscrit par le gouvernement de la présidente Claudia Sheinbaum dans la loi de finances pour 2026. L'exécutif comptait pourtant sur le relèvement massif des droits de douane — de 5 % à 50 % sur plus de 500 catégories de produits — imposé aux pays avec lesquels le Mexique n'a pas d'accord de libre-échange, en premier lieu la Chine, le Viêt Nam et l'Inde. Ce manque à gagner s'explique par l'appréciation du peso mexicain face au dollar, qui réduit mécaniquement la valeur en monnaie nationale des marchandises taxées à la frontière, ainsi que par le contournement d'une partie des flux commerciaux.",
    "enjeux": "Ce bilan en demi-teinte illustre la position délicate du **Mexique** dans la guerre commerciale mondiale, à l'heure de la révision sous haute tension du traité nord-américain **T-MEC** (USMCA) avec les États-Unis et le Canada en 2026. Pour rassurer Washington — qui accuse le Mexique de servir de « porte dérobée » (*backdoor*) aux produits et composants chinois cherchant à entrer sans droits de douane sur le marché américain —, Claudia Sheinbaum a érigé un véritable mur tarifaire contre l'Asie et lancé le « Plan México » de **substitution aux importations**. Mais cette stratégie se heurte à deux limites économiques : d'une part, un droit de douane qui freine les importations ou un taux de change fort rapportent moins que prévu au budget de l'État ; d'autre part, l'industrie manufacturière mexicaine dépend elle-même étroitement des pièces détachées asiatiques pour assembler ses exportations.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/CSCL_Port_Angeles.jpg",
-    "alt": "Un porte-conteneurs en provenance d'Asie à quai dans le port mexicain de Manzanillo, sur la côte Pacifique",
-    "credit": "H. G. / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:CSCL_Port_Angeles.jpg"
+    "url": "https://live.staticflickr.com/2495/5851579830_7d08083593_b.jpg",
+    "alt": "Illustration : Mexique : malgré le mur douanier érigé contre l'Asie, les recettes fiscales sur les importations déçoivent",
+    "credit": "M. le Chat / Flickr",
+    "source": "https://www.flickr.com/photos/21774015@N08/5851579830"
    },
    "vo": {
     "titre": "México se queda corto en la recaudación fiscal por importaciones pese a los nuevos aranceles contra Asia",
@@ -490,10 +490,10 @@
    "faits": "À la veille de l'ouverture du XXXe Sommet ibéro-américain des chefs d'État et de gouvernement qui se tient à Madrid les 4 et 5 novembre 2026, El País souligne le défi diplomatique inédit auquel fait face le roi d'Espagne Felipe VI. Censé réunir les dirigeants des 22 pays d'Amérique latine, d'Espagne, du Portugal et d'Andorre, ce sommet est menacé de paralysie par la crise diplomatique ouverte entre le gouvernement espagnol de Pedro Sánchez et le président argentin Javier Milei, qui a de nouveau qualifié le dirigeant socialiste de « dictateur » lors de ses récents déplacements. À cette fracture s'ajoutent l'absence de plusieurs chefs d'État latino-américains et le refus de l'Argentine de signer les paragraphes de la déclaration finale consacrés à l'Agenda 2030, à l'égalité de genre et à la lutte contre le changement climatique. Le palais de la Zarzuela multiplie les contacts bilatéraux pour sauver l'image d'unité de la communauté ibéro-américaine.",
    "enjeux": "Ce sommet madrilène révèle l'épuisement du système des **Sommets ibéro-américains**, créés en 1991 au Mexique pour incarner la communauté culturelle et diplomatique entre la péninsule Ibérique et l'Amérique latine. Alors que la **Couronne espagnole** (Juan Carlos Ier hier, **Felipe VI** aujourd'hui) a toujours considéré cet espace comme le cœur de son rôle international au-dessus des alternances partisanes, la **polarisation idéologique** extrême qui traverse le monde hispanophone rend désormais tout consensus presque impossible. D'un côté, Javier Milei mène une croisade culturelle contre le multilatéralisme et le progressisme ; de l'autre, Pedro Sánchez utilise ce duel avec Buenos Aires comme un argument de campagne intérieure avant les législatives espagnoles du 29 novembre. La diplomatie d'État cède ainsi la place à la confrontation des blocs politiques.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Palacio_Real_de_Madrid_-_13.jpg/1280px-Palacio_Real_de_Madrid_-_13.jpg",
-    "alt": "Le palais royal de Madrid, lieu des réceptions officielles de la Couronne espagnole",
-    "credit": "Carlos Delgado / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_-_13.jpg"
+    "url": "https://live.staticflickr.com/2913/13893179381_f42357d7b2_b.jpg",
+    "alt": "Illustration : Sommet ibéro-américain de Madrid : Felipe VI tente d'éviter que la crise avec Javier Milei ne fasse dérailler la rencontre",
+    "credit": "xeno_sapien / Flickr",
+    "source": "https://www.flickr.com/photos/9464116@N08/13893179381"
    },
    "vo": {
     "titre": "Cumbre Iberoamericana de Madrid: Felipe VI afronta el reto de evitar que el choque con Javier Milei dinamite la cita",
