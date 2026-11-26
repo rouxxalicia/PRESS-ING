@@ -46,8 +46,7 @@
     "alt": "Baies de serveurs dans un centre de données"
    },
    "dossiers": [
-    "IA",
-    "Emplois"
+    "IA"
    ],
    "note": "Nombre de postes supprimés"
   },
@@ -204,10 +203,9 @@
   }
  },
  "dossiers": [
-  "Emplois",
   "IA"
  ],
- "favsMaj": 1795699518695,
+ "favsMaj": 1795699523778,
  "demandes": [
   {
    "id": "dmwlvrpnt",
