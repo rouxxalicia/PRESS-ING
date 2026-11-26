@@ -58,9 +58,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Skyline_of_Warsaw%2C_Poland.jpg/1280px-Skyline_of_Warsaw%2C_Poland.jpg",
     "alt": "Quartier financier de Varsovie en Pologne"
    },
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "note": "accroche : croissance tirée par l'armement ; soutenable ?"
   },
   "2026-11-17-anglais-1": {
@@ -75,9 +73,7 @@
   "2026-11-17-anglais-2": {
    "titre": "Dette mondiale : les difficultés budgétaires des pays riches fragilisent les économies les plus pauvres",
    "matiere": "anglais",
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg/1280px-11_International_Monetary_Fund_IMF_in_Washington_DC_USA_-_Creative_Commons_CC-BY.jpg",
     "alt": "Siège du Fonds monétaire international (FMI) à Washington"
@@ -113,9 +109,7 @@
   "2026-11-18-allemand-2": {
    "titre": "Allemagne : les entreprises les plus automatisées sont aussi les plus optimistes pour l'emploi",
    "matiere": "allemand",
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Factory_Automation_Robotics_Palettizing_Bread.jpg",
     "alt": "Bras robotisés industriels KUKA dans une usine en Allemagne"
@@ -184,9 +178,7 @@
   "2026-11-12-esh-4": {
    "titre": "Vingt-cinq ans après son accession à l'OMC, la Chine affiche un excédent commercial record qui déstabilise le commerce mondial",
    "matiere": "esh",
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Shanghai-Yangshan-Port-Containers2013-01.JPG/1280px-Shanghai-Yangshan-Port-Containers2013-01.JPG",
     "alt": "Alignement de conteneurs maritimes et grues portuaires au terminal de Yangshan à Shanghai"
@@ -204,9 +196,7 @@
   "2026-11-26-esh-2": {
    "titre": "Automobile : le géant chinois BYD négocie le rachat de l'usine d'Ineos à Hambach",
    "matiere": "esh",
-   "dossiers": [
-    "Économie"
-   ],
+   "dossiers": [],
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/SIN_BYD_e6_SNF4771J_2023-10-26.jpg/1280px-SIN_BYD_e6_SNF4771J_2023-10-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Véhicule électrique du constructeur chinois BYD"
@@ -214,11 +204,10 @@
   }
  },
  "dossiers": [
-  "Économie",
   "Emplois",
   "IA"
  ],
- "favsMaj": 1795699517395,
+ "favsMaj": 1795699518695,
  "demandes": [
   {
    "id": "dmwlvrpnt",
