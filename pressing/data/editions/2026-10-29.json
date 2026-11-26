@@ -11,10 +11,10 @@
    "faits": "Lors de l'examen en commission des finances du projet de loi de finances pour 2027, les députés ont adopté des amendements représentant environ 28 milliards d'euros de dépenses supplémentaires par rapport à la copie initiale du gouvernement, selon le décompte publié le 29 octobre par le rapporteur général Philippe Juvin. Ces rallonges, votées principalement par la gauche avec l'appui ponctuel d'autres groupes d'opposition, ciblent la transition écologique, les transports ferroviaires, l'hébergement d'urgence et les collectivités locales. Elles prennent le contre-pied du plan gouvernemental qui vise 54 milliards d'euros d'économies et de recettes nouvelles pour ramener le déficit public de 5,4 % à 5,0 % du PIB. Comme les votes en commission ne lient pas l'hémicycle, le gouvernement repartira de son texte initial en séance publique, quitte à recourir à l'article 49.3.",
    "enjeux": "Cet épisode illustre la difficulté de mener une **consolidation budgétaire** dans une Assemblée nationale privée de majorité absolue. Chaque groupe parlementaire défend des dépenses visibles pour son électorat tout en rejetant le coût global de l'ajustement : c'est le problème du **fonds commun** (*common pool*), où la somme des demandes particulières dégrade le solde public. En face, l'exécutif invoque le respect des **règles budgétaires européennes** et la surveillance des marchés obligataires, alors que la charge de la dette approche les 80 milliards d'euros par an. Le débat oppose aussi deux visions macroéconomiques : préserver l'investissement public dans la transition écologique et les infrastructures, ou donner la priorité absolue au désendettement.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Fa%C3%A7ade_Palais_Bourbon_3.jpg/1280px-Fa%C3%A7ade_Palais_Bourbon_3.jpg",
-    "alt": "La colonnade du palais Bourbon, siège de l'Assemblée nationale à Paris",
-    "credit": "ZeusUpsistos / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_Palais_Bourbon_3.jpg"
+    "url": "https://i.f1g.fr/media/cms/1200x630_crop/2026/10/29/d1b1576e7fc304d548c2f8fee4cb1db251b07e889b25dbb51d6117ca74c389ac.jpg",
+    "alt": "Photo de l'article : Budget 2027 : les députés votent 28 milliards d'euros de dépenses supplémentaires en commission",
+    "credit": "Le Figaro",
+    "source": "https://www.lefigaro.fr/conjoncture/budget-2027-les-deputes-votent-28-milliards-d-euros-de-depenses-supplementaires-20261029"
    },
    "programme": {
     "module": "4 - Déséquilibres, régulation et action publique",
@@ -52,10 +52,10 @@
    "faits": "Le premier constructeur automobile européen, Volkswagen, a annoncé fin octobre une perte nette de 5,82 milliards d'euros au troisième trimestre 2026, tandis que son chiffre d'affaires reculait de 6,3 % à 75,3 milliards d'euros. Ses livraisons mondiales ont chuté de 14,3 % sur un an, à 1,89 million de véhicules, pénalisées par le décrochage de ses ventes en Chine. Ce résultat s'explique aussi par une dépréciation exceptionnelle de 6,4 milliards d'euros liée à sa filiale Porsche et par les coûts de restructuration du groupe. Dans le même temps, une étude de l'institut Bruegel relayée par le Spiegel avertit que les droits de douane européens sur les voitures électriques chinoises risquent de renchérir les véhicules pour les ménages sans suffire à restaurer la compétitivité des constructeurs européens.",
    "enjeux": "Les pertes de Volkswagen symbolisent la crise structurelle d'un secteur qui représente plus de 13 millions d'emplois directs et indirects en Europe. Longtemps dominateurs sur le moteur thermique grâce à leur **compétitivité hors-prix**, les constructeurs européens accusent un retard technologique et industriel sur les batteries et les logiciels face aux groupes chinois comme BYD, qui bénéficient d'**économies d'échelle** et d'un fort soutien public. Le marché chinois, qui tirait autrefois les profits allemands, se retourne désormais contre eux. Cette mutation industrielle place l'Union européenne devant un dilemme entre **protectionnisme** défensif, qui protège l'emploi à court terme mais freine l'adoption des voitures électriques, et accélération de sa propre transition productive.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/VW_Logo_am_Heizkraftwerk_Wolfsburg_Nord.jpg/1280px-VW_Logo_am_Heizkraftwerk_Wolfsburg_Nord.jpg",
-    "alt": "L'usine historique de Volkswagen et sa centrale à Wolfsburg, en Allemagne",
-    "credit": "High Contrast / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:VW_Logo_am_Heizkraftwerk_Wolfsburg_Nord.jpg"
+    "url": "https://images.welt.de/6ae2e9822b12699033dfdb01/024ad0f090064ff8a7e61bae2b34022f/ci16x9-w1200/dpa-com-261029-936-131506-jpg",
+    "alt": "Photo de l'article : Crise de l'automobile européenne : Volkswagen plonge dans le rouge avec 5,8 milliards d'euros de pertes",
+    "credit": "DIE WELT",
+    "source": "https://www.welt.de/wirtschaft/article6ae2e9822b12699033dfdb01/vw-meldet-milliardenverlust-im-dritten-quartal.html"
    },
    "programme": {
     "module": "2 - Croissance et développement",

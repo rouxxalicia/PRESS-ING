@@ -40,9 +40,18 @@
     }
    ],
    "notions": [
-    ["Souveraineté technologique", "Capacité d'un État ou d'une union à maîtriser ses infrastructures et technologies critiques sans dépendance stratégique extérieure."],
-    ["Économies d'échelle", "Baisse du coût moyen de production lorsque la quantité produite augmente, grâce à l'étalement des coûts fixes."],
-    ["Politique industrielle", "Intervention ciblée des pouvoirs publics visant à orienter la spécialisation productive et à soutenir des secteurs jugés stratégiques."]
+    [
+     "Souveraineté technologique",
+     "Capacité d'un État ou d'une union à maîtriser ses infrastructures et technologies critiques sans dépendance stratégique extérieure."
+    ],
+    [
+     "Économies d'échelle",
+     "Baisse du coût moyen de production lorsque la quantité produite augmente, grâce à l'étalement des coûts fixes."
+    ],
+    [
+     "Politique industrielle",
+     "Intervention ciblée des pouvoirs publics visant à orienter la spécialisation productive et à soutenir des secteurs jugés stratégiques."
+    ]
    ],
    "sujets": [
     "L'Union européenne peut-elle concilier politique de la concurrence et souveraineté industrielle ?",
@@ -98,9 +107,18 @@
     }
    ],
    "notions": [
-    ["Effet d'hystérèse", "Phénomène par lequel une hausse temporaire du chômage devient durable en raison de la perte de compétences et de la stigmatisation des chômeurs."],
-    ["Politiques actives de l'emploi", "Mesures publiques visant à favoriser le retour à l'emploi par la formation, l'accompagnement ou la création d'emplois aidés, par opposition à la simple indemnisation."],
-    ["Chômage structurel", "Chômage durable lié aux déséquilibres profonds du marché du travail (inadéquation des qualifications, rigidités), indépendant de la conjoncture."]
+    [
+     "Effet d'hystérèse",
+     "Phénomène par lequel une hausse temporaire du chômage devient durable en raison de la perte de compétences et de la stigmatisation des chômeurs."
+    ],
+    [
+     "Politiques actives de l'emploi",
+     "Mesures publiques visant à favoriser le retour à l'emploi par la formation, l'accompagnement ou la création d'emplois aidés, par opposition à la simple indemnisation."
+    ],
+    [
+     "Chômage structurel",
+     "Chômage durable lié aux déséquilibres profonds du marché du travail (inadéquation des qualifications, rigidités), indépendant de la conjoncture."
+    ]
    ],
    "sujets": [
     "L'État peut-il être l'employeur en dernier ressort pour vaincre le chômage de longue durée ?",
@@ -128,10 +146,10 @@
    "faits": "Le ministre délégué chargé de l'Industrie, Sébastien Martin, a annoncé le 21 novembre dans La Tribune que plus d'une cinquantaine de nouveaux projets industriels seront présentés le 23 novembre lors de la deuxième édition du sommet « Choose France — édition France ». Organisé à la Cité internationale universitaire de Paris en complément du sommet habituel dédié aux investisseurs étrangers, l'événement réunira plus de 250 dirigeants d'entreprises françaises ayant choisi d'investir sur le territoire national. Le ministre a également mis en avant les données arrêtées à fin juin 2026 selon lesquelles une usine ouvre en moyenne tous les deux jours dans l'Hexagone. Un nouveau portail consacré aux formations industrielles doit aussi être lancé pour répondre aux difficultés de recrutement dans les usines. Cette initiative intervient alors que le climat des affaires mesuré par l'Insee vient de reculer en novembre à 95, sous sa moyenne de longue période.",
    "enjeux": "Ce sommet illustre la volonté des pouvoirs publics de soutenir la **réindustrialisation** non seulement par l'accueil d'**investissements directs à l'étranger (IDE)**, mais aussi en retenant l'investissement des entreprises nationales. L'**attractivité territoriale** dépend à la fois de la compétitivité-coût (fiscalité, prix de l'énergie) et de la **compétitivité hors-prix** : qualité des infrastructures, disponibilité de la main-d'œuvre qualifiée et stabilité du cadre institutionnel. L'accent mis sur la formation souligne un goulet d'étranglement majeur de l'industrie française, où les pénuries de compétences freinent les projets malgré les aides publiques. Toutefois, le décalage entre l'affichage politique de nouveaux projets et la baisse du climat des affaires rappelle la fragilité de la base industrielle française. La France reste confrontée à une **désindustrialisation** ancienne et à une forte concurrence internationale sur les secteurs de pointe.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/UR16e_robot_arm.png/1280px-UR16e_robot_arm.png",
-    "alt": "Bras robotisé industriel utilisé sur une ligne de production",
-    "credit": "Auledas / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:UR16e_robot_arm.png"
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/10/15/sebastien-martin-le-9-novembre-2025-a-paris-1792069920_86d140fdb81960bd140fdb8192fd14v_.jpg",
+    "alt": "Photo de l'article : Réindustrialisation : plus de 50 nouveaux projets présentés au sommet Choose France consacré aux entreprises françaises",
+    "credit": "latribune.fr",
+    "source": "https://www.latribune.fr/article/entreprises-finance/industrie/250343849401514/sommet-choose-france-une-cinquante-de-projets-industriels-sera-presentee-ce-lundi-annonce-le-ministre-de-l-industrie"
    },
    "programme": {
     "module": "Module 3 – La mondialisation économique et financière",
@@ -156,9 +174,18 @@
     }
    ],
    "notions": [
-    ["Attractivité territoriale", "Capacité d'un territoire à attirer et à retenir des investissements productifs, des entreprises et des talents."],
-    ["Réindustrialisation", "Processus visant à augmenter la part de l'industrie manufacturière dans le PIB et l'emploi après une phase de désindustrialisation."],
-    ["Compétitivité hors-prix", "Capacité d'une entreprise ou d'un pays à conquérir des parts de marché par la qualité, l'innovation, la fiabilité ou le capital humain plutôt que par les prix."]
+    [
+     "Attractivité territoriale",
+     "Capacité d'un territoire à attirer et à retenir des investissements productifs, des entreprises et des talents."
+    ],
+    [
+     "Réindustrialisation",
+     "Processus visant à augmenter la part de l'industrie manufacturière dans le PIB et l'emploi après une phase de désindustrialisation."
+    ],
+    [
+     "Compétitivité hors-prix",
+     "Capacité d'une entreprise ou d'un pays à conquérir des parts de marché par la qualité, l'innovation, la fiabilité ou le capital humain plutôt que par les prix."
+    ]
    ],
    "sujets": [
     "La réindustrialisation de la France est-elle possible dans une économie mondialisée ?",
@@ -213,9 +240,18 @@
     }
    ],
    "notions": [
-    ["Externalité négative", "Effet nuisible de l'activité d'un agent économique sur le bien-être d'un autre agent, sans compensation monétaire par le marché."],
-    ["Internalisation des externalités", "Processus par lequel les pouvoirs publics intègrent le coût social d'une pollution dans les prix ou les normes afin de modifier les comportements."],
-    ["Sécurité énergétique", "Disponibilité ininterrompue des sources d'énergie à un prix abordable pour un pays ou une zone économique."]
+    [
+     "Externalité négative",
+     "Effet nuisible de l'activité d'un agent économique sur le bien-être d'un autre agent, sans compensation monétaire par le marché."
+    ],
+    [
+     "Internalisation des externalités",
+     "Processus par lequel les pouvoirs publics intègrent le coût social d'une pollution dans les prix ou les normes afin de modifier les comportements."
+    ],
+    [
+     "Sécurité énergétique",
+     "Disponibilité ininterrompue des sources d'énergie à un prix abordable pour un pays ou une zone économique."
+    ]
    ],
    "sujets": [
     "La transition écologique est-elle compatible avec la sécurité énergétique de l'Europe ?",
@@ -254,12 +290,36 @@
     "enjeux": "This clash highlights the classic tug-of-war between fiscally constrained governments and global financial institutions. Seeking to fund household support without raising income tax or VAT, Labour targeted bank profits as a politically palatable revenue stream. Yet Dimon's warning underscores the mobility of capital and the sensitivity of the City of London's competitiveness. Moreover, if lenders pass higher levies on through pricier loans or fees, the true tax incidence may ultimately fall on consumers and businesses. The dispute therefore raises a broader question about how much fiscal autonomy a country retains when its economy relies heavily on financial services."
    },
    "vocab": [
-    ["a bank surcharge", "une surtaxe sur les banques", "The Treasury doubled the bank surcharge to fund household relief."],
-    ["to claw back", "récupérer / compenser (une perte)", "Large lenders often seek to claw back higher levies through fees."],
-    ["a trade-off", "un arbitrage / un compromis", "Policymakers face a trade-off between tax revenue and competitiveness."],
-    ["to lobby against", "faire pression contre", "Financial groups lobbied heavily against the proposed windfall tax."],
-    ["tax incidence", "l'incidence fiscale (qui paie réellement l'impôt)", "Economists debate the true tax incidence of corporate levies."],
-    ["a lender", "un établissement prêteur / une banque", "Major lenders warned that higher taxes could curb investment."]
+    [
+     "a bank surcharge",
+     "une surtaxe sur les banques",
+     "The Treasury doubled the bank surcharge to fund household relief."
+    ],
+    [
+     "to claw back",
+     "récupérer / compenser (une perte)",
+     "Large lenders often seek to claw back higher levies through fees."
+    ],
+    [
+     "a trade-off",
+     "un arbitrage / un compromis",
+     "Policymakers face a trade-off between tax revenue and competitiveness."
+    ],
+    [
+     "to lobby against",
+     "faire pression contre",
+     "Financial groups lobbied heavily against the proposed windfall tax."
+    ],
+    [
+     "tax incidence",
+     "l'incidence fiscale (qui paie réellement l'impôt)",
+     "Economists debate the true tax incidence of corporate levies."
+    ],
+    [
+     "a lender",
+     "un établissement prêteur / une banque",
+     "Major lenders warned that higher taxes could curb investment."
+    ]
    ],
    "sujets": [
     "Can governments effectively tax global banks without hurting domestic competitiveness?",
@@ -298,12 +358,36 @@
     "enjeux": "This sharp decline threatens a cornerstone of both the US higher-education business model and American soft power. Because international students typically pay full tuition fees, their departure leaves immediate holes in university budgets that often help subsidise domestic students. Beyond campus finances, the downturn risks weakening America's research and innovation ecosystem, which has long relied on foreign-born STEM graduates and entrepreneurs. Rival destinations such as Canada, Australia and European hubs stand to attract talent deterred by US visa uncertainty. The trend illustrates the long-term economic cost of restrictive immigration policies in a global knowledge economy."
    },
    "vocab": [
-    ["enrolment", "les inscriptions (universitaires)", "International student enrolment fell sharply for the second year running."],
-    ["tuition fees", "les frais de scolarité", "Foreign students often pay full tuition fees at US colleges."],
-    ["visa hurdles", "les obstacles liés aux visas", "Most universities blamed visa hurdles for the drop in applications."],
-    ["to brace for", "se préparer à (un choc)", "Public universities are bracing for further budget shortfalls."],
-    ["brain drain / brain gain", "fuite / gain de cerveaux", "Tighter borders could turn America's historic brain gain into a loss."],
-    ["soft power", "la puissance d'influence culturelle et académique", "Top universities have long been a vital asset of US soft power."]
+    [
+     "enrolment",
+     "les inscriptions (universitaires)",
+     "International student enrolment fell sharply for the second year running."
+    ],
+    [
+     "tuition fees",
+     "les frais de scolarité",
+     "Foreign students often pay full tuition fees at US colleges."
+    ],
+    [
+     "visa hurdles",
+     "les obstacles liés aux visas",
+     "Most universities blamed visa hurdles for the drop in applications."
+    ],
+    [
+     "to brace for",
+     "se préparer à (un choc)",
+     "Public universities are bracing for further budget shortfalls."
+    ],
+    [
+     "brain drain / brain gain",
+     "fuite / gain de cerveaux",
+     "Tighter borders could turn America's historic brain gain into a loss."
+    ],
+    [
+     "soft power",
+     "la puissance d'influence culturelle et académique",
+     "Top universities have long been a vital asset of US soft power."
+    ]
    ],
    "sujets": [
     "Are restrictive immigration policies undermining America's economic competitiveness?",
@@ -331,10 +415,10 @@
    "faits": "Le maire de New York, Zohran Mamdani, a présenté le 20 novembre un plan visant à fermer d'ici 2032 le célèbre complexe pénitentiaire de Rikers Island, situé entre le Queens et le Bronx. Le projet prévoit la construction de quatre nouvelles prisons de quartier et une réduction drastique de la population carcérale municipale, qui passerait de plus de 6 500 détenus actuellement à environ 4 100. Le conseil municipal avait déjà voté dès 2019 la fermeture de ce site vétuste et miné par les violences, mais le calendrier avait accumulé les retards faute de consensus sur le relogement des prisonniers. Dana Kaplan, nommée par le maire pour piloter le dossier, y voit une occasion générationnelle de refonder le système de détention new-yorkais. Le syndicat des gardiens de prison (NYC Correction Officers' Benevolent Association) a toutefois dénoncé un plafond « arbitraire » qui menacerait selon lui la sécurité publique.",
    "enjeux": "Ce dossier concentre les débats américains sur la **justice pénale**, l'**incarcération de masse** et la **sécurité urbaine**. Rikers Island, où la majorité des détenus sont en attente de jugement, symbolise depuis des décennies les défaillances des prisons locales aux États-Unis : surpopulation, manque de personnel, violences chroniques et prise en charge insuffisante des troubles psychiatriques. Pour les réformateurs, réduire le nombre de détenus passe par une justice plus rapide et des alternatives à la détention provisoire. Mais le projet se heurte à la méfiance des syndicats pénitentiaires et d'une partie des riverains opposés à l'implantation de nouvelles prisons dans leur arrondissement. Il constitue un test politique majeur pour la capacité d'un exécutif municipal progressiste à concilier réforme sociale et exigence de sécurité.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rikers_Island_from_the_air.JPG/1280px-Rikers_Island_from_the_air.JPG",
-    "alt": "Vue aérienne du complexe pénitentiaire de Rikers Island à New York",
-    "credit": "Cdogsimmons / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Rikers_Island_from_the_air.JPG"
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4622/live/d8e189d0-e52b-11f1-964d-a1d5fe40573e.jpg",
+    "alt": "Photo de l'article : États-Unis : le maire de New York Zohran Mamdani dévoile un plan pour fermer la prison de Rikers Island d'ici 2032",
+    "credit": "BBC News",
+    "source": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo"
    },
    "vo": {
     "titre": "US: New York mayor unveils plan to shut Rikers Island jail by 2032",
@@ -342,12 +426,36 @@
     "enjeux": "The debate over Rikers Island encapsulates America's broader struggle with criminal justice reform, mass incarceration and urban safety. Holding mostly detainees awaiting trial, the island complex has long come to symbolise the dysfunctions of local US jails, marked by chronic violence, staffing shortages and inadequate mental-health care. Reformers argue that shrinking the jail population requires faster court proceedings and alternatives to pre-trial detention. Yet closing the facility faces pushback from prison unions and local residents reluctant to host new jails in their neighbourhoods. For a progressive mayor, delivering on the pledge without triggering a backlash over crime is a decisive test of governance."
    },
    "vocab": [
-    ["a jail complex", "un complexe pénitentiaire", "Rikers Island is one of the most notorious jail complexes in the US."],
-    ["an inmate / a detainee", "un détenu", "The city aims to reduce the number of inmates awaiting trial."],
-    ["pre-trial detention", "la détention provisoire", "Activists have long called for reforms to pre-trial detention."],
-    ["decrepit", "vétuste / délabré", "Officials pledged to replace the decrepit island facility."],
-    ["a cap", "un plafond / une limite", "Unions opposed placing an arbitrary cap on available jail beds."],
-    ["public safety", "la sécurité publique", "Critics argued the plan could jeopardize public safety."]
+    [
+     "a jail complex",
+     "un complexe pénitentiaire",
+     "Rikers Island is one of the most notorious jail complexes in the US."
+    ],
+    [
+     "an inmate / a detainee",
+     "un détenu",
+     "The city aims to reduce the number of inmates awaiting trial."
+    ],
+    [
+     "pre-trial detention",
+     "la détention provisoire",
+     "Activists have long called for reforms to pre-trial detention."
+    ],
+    [
+     "decrepit",
+     "vétuste / délabré",
+     "Officials pledged to replace the decrepit island facility."
+    ],
+    [
+     "a cap",
+     "un plafond / une limite",
+     "Unions opposed placing an arbitrary cap on available jail beds."
+    ],
+    [
+     "public safety",
+     "la sécurité publique",
+     "Critics argued the plan could jeopardize public safety."
+    ]
    ],
    "sujets": [
     "Can major US cities reform their prison systems without undermining public safety?",
@@ -375,10 +483,10 @@
    "faits": "Dans une lettre adressée le 20 novembre au Premier ministre gallois Rhun ap Iorwerth, le Premier ministre britannique Andy Burnham a rejeté les demandes de transfert de nouvelles compétences de Westminster vers Cardiff. Il s'est dit « non convaincu » par l'intérêt de déléguer au pays de Galles la police, la justice, la gestion du Crown Estate et les infrastructures ferroviaires. Ce refus surprend d'autant plus que Burnham avait auparavant semblé ouvert à la discussion et qu'il contredit la position du chef du Parti travailliste gallois, Ken Skates. Rhun ap Iorwerth a aussitôt accusé le dirigeant britannique de « tourner le dos à la dévolution » et de ne pas traiter le pays de Galles comme une nation égale. Burnham a justifié sa décision par la nécessité de préserver un système policier et judiciaire intégré entre l'Angleterre et le pays de Galles afin de garantir son efficacité.",
    "enjeux": "Cet épisode révèle les tensions persistantes autour de la **dévolution** et de l'équilibre constitutionnel du **Royaume-Uni**. Depuis la fin des années 1990, la dévolution britannique reste asymétrique : l'Écosse et l'Irlande du Nord disposent déjà de compétences sur la police et la justice, contrairement au pays de Galles. En refusant d'aligner Cardiff sur Édimbourg, Andy Burnham — pourtant connu comme ancien maire de Manchester pour son soutien à la décentralisation régionale en Angleterre — ravive le sentiment d'injustice des nationalistes gallois de Plaid Cymru et met en difficulté sa propre aile travailliste au pays de Galles. Le dossier illustre la crainte récurrente de Westminster que de nouveaux transferts de pouvoirs n'affaiblissent la cohésion de l'Union ou n'alimentent les revendications indépendantistes.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Senedd%2C_Welsh_parliament%2C_Cardiff_Bay.jpg/1280px-Senedd%2C_Welsh_parliament%2C_Cardiff_Bay.jpg",
-    "alt": "Bâtiment du Senedd, le Parlement gallois dans la baie de Cardiff",
-    "credit": "Cardiff at wts wikivoyage / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Senedd,_Welsh_parliament,_Cardiff_Bay.jpg"
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a0e1/live/d4aecf30-c195-11f1-aa62-b37233e4aed8.jpg",
+    "alt": "Photo de l'article : Royaume-Uni : Andy Burnham rejette le transfert de nouveaux pouvoirs vers le pays de Galles",
+    "credit": "BBC News",
+    "source": "https://www.bbc.co.uk/news/articles/ck9874vydr83o"
    },
    "vo": {
     "titre": "UK: Burnham rejects devolution of policing and justice powers to Wales",
@@ -386,12 +494,36 @@
     "enjeux": "The clash highlights the unresolved tensions surrounding devolution and the constitutional balance of the United Kingdom. Since the late 1990s, British devolution has remained asymmetrical: Scotland and Northern Ireland control their own policing and justice systems, whereas Wales does not. By refusing to close that gap, Burnham—despite his reputation as a former Manchester mayor who championed regional devolution in England—has angered Welsh nationalists and embarrassed Welsh Labour. The dispute reflects Westminster's recurring hesitation over whether granting greater autonomy strengthens the Union or fuels separatist ambitions. It remains a central issue for the future cohesion of the UK."
    },
    "vocab": [
-    ["devolution", "la dévolution / le transfert de compétences", "Devolution has reshaped British politics since the late 1990s."],
-    ["to be at odds with", "être en désaccord avec", "Downing Street is at odds with Welsh Labour over policing powers."],
-    ["the Crown Estate", "le domaine de la Couronne", "Cardiff wants control over revenues generated by the Crown Estate."],
-    ["asymmetrical", "asymétrique", "Critics point out that UK devolution remains deeply asymmetrical."],
-    ["cross-border", "transfrontalier", "Ministers stressed the need for seamless cross-border policing."],
-    ["to turn one's back on", "tourner le dos à", "Opponents accused the government of turning its back on local democracy."]
+    [
+     "devolution",
+     "la dévolution / le transfert de compétences",
+     "Devolution has reshaped British politics since the late 1990s."
+    ],
+    [
+     "to be at odds with",
+     "être en désaccord avec",
+     "Downing Street is at odds with Welsh Labour over policing powers."
+    ],
+    [
+     "the Crown Estate",
+     "le domaine de la Couronne",
+     "Cardiff wants control over revenues generated by the Crown Estate."
+    ],
+    [
+     "asymmetrical",
+     "asymétrique",
+     "Critics point out that UK devolution remains deeply asymmetrical."
+    ],
+    [
+     "cross-border",
+     "transfrontalier",
+     "Ministers stressed the need for seamless cross-border policing."
+    ],
+    [
+     "to turn one's back on",
+     "tourner le dos à",
+     "Opponents accused the government of turning its back on local democracy."
+    ]
    ],
    "sujets": [
     "Has devolution strengthened or weakened the unity of the United Kingdom?",
@@ -430,12 +562,36 @@
     "enjeux": "Esta captura pone de relieve el dilema persistente de la lucha contra el narcotráfico en México. Por un lado, la caída de un capo de alto perfil responde tanto a la demanda interna de seguridad como a la presión constante de Estados Unidos para frenar a los cárteles. Por otro, la estrategia de descabezamiento suele provocar represalias inmediatas contra la población civil y fragmentar aún más a los grupos criminales, avivando disputas territoriales. En Sinaloa, un estado ya golpeado por pugnas internas, cada gran operativo paraliza temporalmente la vida cotidiana y la actividad económica. El episodio demuestra que el despliegue militar por sí solo no basta para consolidar el Estado de derecho si no se desmantelan también las redes financieras y la impunidad local."
    },
    "vocab": [
-    ["un operativo conjunto", "une opération conjointe", "Las fuerzas federales lanzaron un operativo conjunto en el norte del país."],
-    ["los narcobloqueos", "les barrages routiers des cartels", "Los narcobloqueos paralizaron las principales carreteras del estado."],
-    ["un capo", "un chef de cartel / un baron de la drogue", "La detención de un capo rara vez pone fin a la violencia criminal."],
-    ["el descabezamiento", "la décapitation (d'une organisation)", "Muchos expertos cuestionan la eficacia de la estrategia de descabezamiento."],
-    ["el Estado de derecho", "l'État de droit", "Fortalecer el Estado de derecho exige reformar la justicia local."],
-    ["las represalias", "les représailles", "Las autoridades temen nuevas represalias contra la población civil."]
+    [
+     "un operativo conjunto",
+     "une opération conjointe",
+     "Las fuerzas federales lanzaron un operativo conjunto en el norte del país."
+    ],
+    [
+     "los narcobloqueos",
+     "les barrages routiers des cartels",
+     "Los narcobloqueos paralizaron las principales carreteras del estado."
+    ],
+    [
+     "un capo",
+     "un chef de cartel / un baron de la drogue",
+     "La detención de un capo rara vez pone fin a la violencia criminal."
+    ],
+    [
+     "el descabezamiento",
+     "la décapitation (d'une organisation)",
+     "Muchos expertos cuestionan la eficacia de la estrategia de descabezamiento."
+    ],
+    [
+     "el Estado de derecho",
+     "l'État de droit",
+     "Fortalecer el Estado de derecho exige reformar la justicia local."
+    ],
+    [
+     "las represalias",
+     "les représailles",
+     "Las autoridades temen nuevas represalias contra la población civil."
+    ]
    ],
    "sujets": [
     "¿Es eficaz la estrategia militar para acabar con el narcotráfico en México?",
@@ -463,10 +619,10 @@
    "faits": "En novembre 2026, la Colombie marque les dix ans de la signature, le 24 novembre 2016, de l'accord final de paix entre le gouvernement de Juan Manuel Santos et la guérilla marxiste des FARC, après quatre années de négociations à La Havane. Fondées en 1964, les FARC avaient compté jusqu'à 16 000 à 20 000 combattants à leur apogée, dans un conflit de plus de cinquante ans ayant fait des centaines de milliers de morts et des millions de déplacés. Grâce à l'accord, plus de 13 000 guérilleros ont déposé les armes et entamé une réinsertion dans la vie civile, parfois à travers des projets culturels, agricoles ou associatifs. Dix ans plus tard, la majorité des anciens combattants sont restés fidèles à la paix malgré des menaces persistantes. Toutefois, la persistance de groupes dissidents, la lenteur de la réforme agraire et les violences dans les campagnes montrent que la pacification reste inachevée.",
    "enjeux": "Cet anniversaire est une référence majeure pour analyser les processus de **sortie de conflit** et de **justice transitionnelle** en Amérique latine. L'accord de 2016 a été salué internationalement pour son ambition : désarmement massif, participation politique des anciens rebelles, réparation des victimes et promesse de développement rural. Mais sa mise en œuvre s'est heurtée à la polarisation politique colombienne et à l'incapacité de l'État à occuper durablement tous les territoires abandonnés par les FARC. Là où l'État reste absent, d'autres groupes armés liés au trafic de drogue et à l'orpaillage illégal ont pris le relais. Ce bilan en demi-teinte prouve qu'un accord de paix ne suffit pas sans présence institutionnelle, sécurité pour les ex-combattants et réduction des **inégalités territoriales**.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Plaza_de_Bol%C3%ADvar_-_Bogot%C3%A1_-_Colombia_2024.jpg/1280px-Plaza_de_Bol%C3%ADvar_-_Bogot%C3%A1_-_Colombia_2024.jpg",
-    "alt": "Place Bolívar au centre historique de Bogotá en Colombie",
-    "credit": "José Luiz / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_Bol%C3%ADvar_-_Bogot%C3%A1_-_Colombia_2024.jpg"
+    "url": "https://ichef.bbci.co.uk/news/1200/branded_mundo/e2a6/live/8ec2bde0-d2ef-11f1-8d86-83eebc838351.jpg",
+    "alt": "Photo de l'article : Colombie : dix ans après l'accord de paix avec les FARC, un bilan contrasté",
+    "credit": "BBC News Mundo",
+    "source": "https://www.bbc.com/mundo/articles/c8zxl4rd6nq5o"
    },
    "vo": {
     "titre": "Colombia: balance agridulce diez años después del acuerdo de paz con las FARC",
@@ -474,12 +630,36 @@
     "enjeux": "Este décimo aniversario ofrece una referencia clave para reflexionar sobre la justicia transicional y la construcción de paz en América Latina. El acuerdo de 2016 fue reconocido internacionalmente por combinar desarme, reparación a las víctimas, participación política y reforma del campo. No obstante, su aplicación se vio frenada por la polarización política y por la dificultad del Estado para ocupar de forma efectiva las zonas que dejaron las FARC. En esos vacíos de poder, otros grupos armados vinculados al narcotráfico y a la minería ilegal han perpetuado el ciclo de violencia. El balance demuestra que la paz duradera exige no solo silenciar los fusiles, sino también garantizar presencia estatal y reducir las brechas territoriales."
    },
    "vocab": [
-    ["la reincorporación", "la réinsertion", "Más de trece mil exguerrilleros iniciaron su reincorporación a la vida civil."],
-    ["entregar las armas", "déposer les armes", "El acuerdo histórico permitió que la guerrilla entregara las armas."],
-    ["la justicia transicional", "la justice transitionnelle", "La justicia transicional busca equilibrar la verdad y la reparación."],
-    ["las disidencias", "les factions dissidentes", "Las disidencias aprovechan la debilidad del Estado en zonas rurales."],
-    ["los desplazados", "les personnes déplacées", "El conflicto armado generó millones de desplazados internos en Colombia."],
-    ["un vacío de poder", "un vide de pouvoir", "Los grupos ilegales ocuparon el vacío de poder tras el desarme."]
+    [
+     "la reincorporación",
+     "la réinsertion",
+     "Más de trece mil exguerrilleros iniciaron su reincorporación a la vida civil."
+    ],
+    [
+     "entregar las armas",
+     "déposer les armes",
+     "El acuerdo histórico permitió que la guerrilla entregara las armas."
+    ],
+    [
+     "la justicia transicional",
+     "la justice transitionnelle",
+     "La justicia transicional busca equilibrar la verdad y la reparación."
+    ],
+    [
+     "las disidencias",
+     "les factions dissidentes",
+     "Las disidencias aprovechan la debilidad del Estado en zonas rurales."
+    ],
+    [
+     "los desplazados",
+     "les personnes déplacées",
+     "El conflicto armado generó millones de desplazados internos en Colombia."
+    ],
+    [
+     "un vacío de poder",
+     "un vide de pouvoir",
+     "Los grupos ilegales ocuparon el vacío de poder tras el desarme."
+    ]
    ],
    "sujets": [
     "¿Se puede considerar un éxito el acuerdo de paz de 2016 en Colombia diez años después?",
@@ -507,10 +687,10 @@
    "faits": "Selon une analyse publiée le 21 novembre par La Vanguardia, la normalisation politique en Catalogne s'est consolidée au cours des dernières années grâce à la stratégie d'apaisement menée par Madrid, marquée par le dialogue, les grâces puis la loi d'amnistie liée au procés. Porté en 2024 par une demande majoritaire de « tourner la page » de la crise indépendantiste, le gouvernement régional socialiste de Salvador Illa s'est fixé pour priorité la gestion quotidienne. Pourtant, les problèmes structurels qui pèsent sur les Catalans restent largement non résolus, qu'il s'agisse du financement régional ou de l'état dégradé des transports publics. Le réseau ferroviaire de banlieue Rodalies, frappé notamment par un accident à Gelida en janvier 2026, incarne ce retard persistant d'investissement. Alors que la question catalane n'occupe plus le centre du débat national comme il y a trois ans, le quotidien des usagers continue de pâtir de ces blocages.",
    "enjeux": "Ce constat met en lumière la mutation profonde de la question territoriale en Espagne : la crise identitaire s'est refroidie, mais le malaise autour des **services publics** et du **financement autonomique** demeure intact. L'État des autonomies espagnol repose sur un équilibre complexe entre solidarité nationale et compétences régionales, dans lequel la Catalogne dénonce de longue date un déficit d'investissement de l'État central dans ses infrastructures. Le dysfonctionnement chronique des trains Rodalies est devenu un symbole politique puissant, car il affecte directement la productivité économique de l'aire métropolitaine de Barcelone et la confiance citoyenne envers les institutions. L'apaisement politique offre une fenêtre de réforme, mais l'absence de résultats tangibles risque d'alimenter à terme une nouvelle forme de désaffection démocratique.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Barcelona_Rodalies_352M_train_02.jpg/1280px-Barcelona_Rodalies_352M_train_02.jpg",
-    "alt": "Train de banlieue Rodalies en gare de Barcelone en Catalogne",
-    "credit": "Ad Meskens / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Rodalies_352M_train_02.jpg"
+    "url": "https://www.lavanguardia.com/files/image_1920_1080/uploads/2026/11/20/6b008e2330b2f.jpeg",
+    "alt": "Photo de l'article : Espagne : la Catalogne apaise son conflit politique, mais ses carences d'infrastructures se chronicisent",
+    "credit": "La Vanguardia",
+    "source": "https://www.lavanguardia.com/politica/20261121/11689451/catalunya-apacigua-conflicto-politico-antiguas-carencias-cronifican.html"
    },
    "vo": {
     "titre": "España: Cataluña apacigua el conflicto político pero arrastra carencias estructurales",
@@ -518,12 +698,36 @@
     "enjeux": "Este diagnóstico refleja la transformación del debate territorial en España: la tensión identitaria ha remitido, pero las demandas en torno a la financiación regional y los servicios públicos siguen vigentes. El Estado de las autonomías descansa sobre un delicado equilibrio entre solidaridad interterritorial e inversión estatal, en el que Cataluña denuncia desde hace años una infradotación crónica en sus infraestructuras. Las averías recurrentes de Rodalies perjudican tanto la vida diaria de miles de trabajadores como la competitividad del área metropolitana de Barcelona. La distensión política ha abierto una oportunidad para abordar reformas de fondo, pero la falta de mejoras visibles amenaza con erosionar la confianza en las instituciones."
    },
    "vocab": [
-    ["el apaciguamiento / la distensión", "l'apaisement / la détente", "La estrategia de distensión redujo la crispación política en Cataluña."],
-    ["las carencias estructurales", "les carences structurelles", "El informe subraya las carencias estructurales del transporte público."],
-    ["la financiación autonómica", "le financement des régions autonomes", "La reforma de la financiación autonómica divide a las regiones españolas."],
-    ["los trenes de cercanías", "les trains de banlieue", "Los retrasos en los trenes de cercanías afectan a miles de usuarios."],
-    ["pasar página", "tourner la page", "Muchos votantes expresaron el deseo de pasar página tras el procés."],
-    ["la infradotación", "le sous-investissement", "Los alcaldes denuncian una infradotación histórica en infraestructuras."]
+    [
+     "el apaciguamiento / la distensión",
+     "l'apaisement / la détente",
+     "La estrategia de distensión redujo la crispación política en Cataluña."
+    ],
+    [
+     "las carencias estructurales",
+     "les carences structurelles",
+     "El informe subraya las carencias estructurales del transporte público."
+    ],
+    [
+     "la financiación autonómica",
+     "le financement des régions autonomes",
+     "La reforma de la financiación autonómica divide a las regiones españolas."
+    ],
+    [
+     "los trenes de cercanías",
+     "les trains de banlieue",
+     "Los retrasos en los trenes de cercanías afectan a miles de usuarios."
+    ],
+    [
+     "pasar página",
+     "tourner la page",
+     "Muchos votantes expresaron el deseo de pasar página tras el procés."
+    ],
+    [
+     "la infradotación",
+     "le sous-investissement",
+     "Los alcaldes denuncian una infradotación histórica en infraestructuras."
+    ]
    ],
    "sujets": [
     "¿Ha logrado España resolver de forma duradera el conflicto territorial en Cataluña?",
@@ -551,10 +755,10 @@
    "faits": "Sous la pression de l'opposition et de l'Église catholique, le Sénat argentin a convenu de débattre le 26 novembre d'un projet de loi de prévention de la ludopathie et de régulation des paris en ligne, à quelques jours de la clôture de la session parlementaire le 30 novembre. Un premier texte avait été adopté par la Chambre des députés dès 2024, mais il était resté bloqué au Sénat faute de soutien de la majorité présidentielle, qui risquait de le laisser devenir caduc. Ce texte initial prévoyait notamment d'interdire la publicité des plateformes de paris en ligne, une mesure jugée trop restrictive par le parti au pouvoir La Libertad Avanza au nom des libertés commerciales et des compétences provinciales. En avril 2026, le président Javier Milei avait soumis un contre-projet davantage centré sur la répression des sites illégaux. Pour éviter d'apparaître isolé sur un sujet très sensible socialement, le camp présidentiel prépare désormais une proposition intermédiaire.",
    "enjeux": "Ce débat parlementaire reflète l'inquiétude grandissante en Argentine face à l'essor massif des **paris sportifs en ligne**, en particulier chez les adolescents et les jeunes adultes. L'omniprésence du sponsoring de plateformes de jeu dans le football, sur les réseaux sociaux et via des influenceurs a normalisé une pratique aux lourdes conséquences sociales et psychologiques. Le dossier révèle aussi une fracture idéologique classique sur la **régulation numérique** : faut-il restreindre la publicité et encadrer strictement le marché au nom de la **santé publique**, ou privilégier la liberté d'entreprise en ne poursuivant que l'offre illégale ? À cela s'ajoute un enjeu fédéral, puisque la régulation des jeux d'argent relève en Argentine des provinces. L'issue du vote du 26 novembre constituera un test de la capacité du Congrès à protéger les mineurs face à l'économie numérique.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/CongresodelaNacionArgentina-nov2017.jpg/1280px-CongresodelaNacionArgentina-nov2017.jpg",
-    "alt": "Palais du Congrès de la Nation argentine à Buenos Aires",
-    "credit": "Ezarate / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:CongresodelaNacionArgentina-nov2017.jpg"
+    "url": "https://www.clarin.com/img/2026/07/15/CffrgHpHI_2000x1500__1.jpg",
+    "alt": "Photo de l'article : Argentine : sous pression, le Congrès relance le débat sur une loi contre la ludopathie en ligne",
+    "credit": "Clarín",
+    "source": "https://www.clarin.com/politica/ley-ludopatia-presion-oficialismo-habilita-debate-buscara-imponer-proyecto-propio_0_823BoIWjhY.html"
    },
    "vo": {
     "titre": "Argentina: el Senado retoma bajo presión el debate de la ley contra la ludopatía",
@@ -562,12 +766,36 @@
     "enjeux": "El debate parlamentario refleja la alarma social en Argentina por la rápida expansión de las apuestas deportivas en línea, especialmente entre adolescentes y jóvenes. La fuerte presencia publicitaria de estas plataformas en el fútbol y en las redes sociales ha normalizado una adicción que preocupa a familias, docentes y médicos. La discusión opone además dos visiones de la regulación digital: limitar la publicidad en nombre de la salud pública o defender la libertad de mercado persiguiendo únicamente el juego ilegal. A ello se suma la complejidad del federalismo argentino, donde las provincias regulan tradicionalmente el juego. La votación del 26 de noviembre pondrá a prueba la capacidad del Estado para proteger a los menores en la era digital."
    },
    "vocab": [
-    ["la ludopatía", "l'addiction aux jeux d'argent / la ludopathie", "La ludopatía juvenil se ha convertido en un problema de salud pública."],
-    ["las apuestas en línea", "les paris en ligne", "Las plataformas de apuestas en línea multiplican sus campañas publicitarias."],
-    ["el oficialismo", "le camp présidentiel / la majorité au pouvoir", "El oficialismo aceptó debatir la ley bajo presión social."],
-    ["perder estado parlamentario", "devenir caduc (un projet de loi)", "Si el Senado no vota antes del 30 de noviembre, el texto perderá estado parlamentario."],
-    ["las competencias provinciales", "les compétences des provinces", "El reparto de competencias provinciales complica la regulación nacional."],
-    ["la salud pública", "la santé publique", "Los médicos reclaman medidas firmes en defensa de la salud pública."]
+    [
+     "la ludopatía",
+     "l'addiction aux jeux d'argent / la ludopathie",
+     "La ludopatía juvenil se ha convertido en un problema de salud pública."
+    ],
+    [
+     "las apuestas en línea",
+     "les paris en ligne",
+     "Las plataformas de apuestas en línea multiplican sus campañas publicitarias."
+    ],
+    [
+     "el oficialismo",
+     "le camp présidentiel / la majorité au pouvoir",
+     "El oficialismo aceptó debatir la ley bajo presión social."
+    ],
+    [
+     "perder estado parlamentario",
+     "devenir caduc (un projet de loi)",
+     "Si el Senado no vota antes del 30 de noviembre, el texto perderá estado parlamentario."
+    ],
+    [
+     "las competencias provinciales",
+     "les compétences des provinces",
+     "El reparto de competencias provinciales complica la regulación nacional."
+    ],
+    [
+     "la salud pública",
+     "la santé publique",
+     "Los médicos reclaman medidas firmes en defensa de la salud pública."
+    ]
    ],
    "sujets": [
     "¿Debe el Estado prohibir la publicidad de las apuestas en línea para proteger a los jóvenes?",
@@ -595,10 +823,10 @@
    "faits": "Selon un rapport confidentiel révélé le 21 novembre par Der Spiegel, l'Allemagne aura besoin de nouvelles recettes pour financer durablement l'entretien de ses autoroutes. L'étude commandée pour le gouvernement fédéral juge insuffisante la réforme envisagée par le ministre des Transports Steffen Bilger, qui souhaite autoriser la société publique Autobahn GmbH à s'endetter tout en lui reversant une partie de la taxe poids lourds. Les experts estiment que la société accumulerait des pertes continues et se heurterait à un grave manque de financement au plus tard en 2034. Pour combler ce déficit, le rapport recommande notamment l'introduction d'un péage kilométrique pour les voitures particulières (Pkw-Maut). Dans l'évaluation économique réalisée par les auteurs, la combinaison d'un péage poids lourds et d'un péage voitures obtient le meilleur score, loin devant le statu quo.",
    "enjeux": "Cette révélation relance un sujet hautement sensible en Allemagne, où la gratuité des autoroutes pour les voitures est un symbole politique et culturel fort. Le précédent projet de péage porté par l'ancien ministre Andreas Scheuer avait échoué en 2019 devant la Cour de justice de l'Union européenne et coûté des centaines de millions d'euros en indemnités. Pourtant, l'état dégradé des ponts et des routes allemandes, conséquence de décennies de sous-investissement dans les **infrastructures publiques**, impose de trouver de nouvelles sources de financement. Le débat oppose le **principe utilisateur-payeur**, jugé plus juste et plus stable par les économistes, à la crainte politique de mécontenter les automobilistes déjà confrontés à la hausse du coût de la vie. Il illustre plus largement les contraintes budgétaires allemandes face à la modernisation du pays.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Autobahn_A5_bei_Heidelberg_-_Stau.JPG/1280px-Autobahn_A5_bei_Heidelberg_-_Stau.JPG",
-    "alt": "Circulation dense sur l'autoroute allemande A5 près de Heidelberg",
-    "credit": "Radosław Drożdżewski / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Autobahn_A5_bei_Heidelberg_-_Stau.JPG"
+    "url": "https://cdn.prod.www.spiegel.de/images/3787f14f-3c5f-4314-bf15-bcd2bb9f9856_w1200_r1.778_fpx33.33_fpy49.99.jpg",
+    "alt": "Photo de l'article : Allemagne : un rapport confidentiel recommande un péage autoroutier pour les voitures",
+    "credit": "spiegel.de",
+    "source": "https://www.spiegel.de/wirtschaft/autobahnen-vertrauliches-gutachten-empfiehlt-pkw-maut-zur-finanzierung-a-e105dfef-32ed-4421-9a26-b935f697e8f9"
    },
    "vo": {
     "titre": "Experten empfehlen Pkw-Maut für deutsche Autobahnen",
@@ -606,12 +834,36 @@
     "enjeux": "Das Thema Pkw-Maut ist in Deutschland politisch sehr heikel. Viele Bürger sind gegen Gebühren auf der Autobahn. Ein früheres Projekt ist im Jahr 2019 vor Gericht gescheitert. Gleichzeitig sind viele Straßen und Brücken in Deutschland sehr alt. Der Staat braucht Milliarden für neue Bauprojekte. Die Nutzer könnten mit einer Maut direkt für die Straßen zahlen. Die Regierung hat aber Angst vor der Wut der Autofahrer."
    },
    "vocab": [
-    ["die Pkw-Maut", "le péage pour les voitures", "Viele Fahrer lehnen eine neue Pkw-Maut ab."],
-    ["das Gutachten", "l'expertise / le rapport", "Das Gutachten kritisiert die Pläne des Ministers."],
-    ["die Autobahn", "l'autoroute", "Die deutschen Autobahnen brauchen viel mehr Geld."],
-    ["der Kredit", "le crédit / l'emprunt", "Die Firma will Kredite für neue Brücken aufnehmen."],
-    ["scheitern", "échouer", "Das alte Maut-Projekt ist vor Gericht gescheitert."],
-    ["die Gebühr", "la taxe / la redevance", "Die Fahrer sollen eine Gebühr pro Kilometer zahlen."]
+    [
+     "die Pkw-Maut",
+     "le péage pour les voitures",
+     "Viele Fahrer lehnen eine neue Pkw-Maut ab."
+    ],
+    [
+     "das Gutachten",
+     "l'expertise / le rapport",
+     "Das Gutachten kritisiert die Pläne des Ministers."
+    ],
+    [
+     "die Autobahn",
+     "l'autoroute",
+     "Die deutschen Autobahnen brauchen viel mehr Geld."
+    ],
+    [
+     "der Kredit",
+     "le crédit / l'emprunt",
+     "Die Firma will Kredite für neue Brücken aufnehmen."
+    ],
+    [
+     "scheitern",
+     "échouer",
+     "Das alte Maut-Projekt ist vor Gericht gescheitert."
+    ],
+    [
+     "die Gebühr",
+     "la taxe / la redevance",
+     "Die Fahrer sollen eine Gebühr pro Kilometer zahlen."
+    ]
    ],
    "sujets": [
     "Sollte Deutschland eine Pkw-Maut für Autobahnen einführen?",
@@ -629,10 +881,10 @@
    "faits": "Un tribunal de Saint-Louis, dans le Missouri, a donné le 20 novembre son approbation définitive à l'accord collectif négocié par le groupe chimico-pharmaceutique allemand Bayer avec les plaignants américains autour du désherbant Roundup. Cet accord prévoit que la filiale Monsanto verse jusqu'à 7,25 milliards de dollars sur une période pouvant aller jusqu'à vingt et un ans dans un fonds d'indemnisation. Il vise à clore l'essentiel des poursuites actuelles et futures liées au lymphome non hodgkinien, un cancer du système lymphatique attribué par les plaignants au glyphosate. Bayer ne reconnaît toutefois aucune responsabilité et continue d'affirmer que le produit est sûr. Cette validation fait suite à un arrêt favorable de la Cour suprême américaine en juin 2026, même si des recours en appel restent encore possibles contre l'accord.",
    "enjeux": "Cette décision marque un tournant majeur pour l'un des fleurons de l'**industrie allemande**, fragilisé depuis son rachat très coûteux de l'Américain Monsanto en 2018. Pendant huit ans, l'avalanche de procès aux États-Unis a pesé sur la valorisation boursière de Bayer, englouti des milliards d'euros et freiné sa capacité d'investissement dans la recherche pharmaceutique. En plafonnant et en étalant les paiements sur plus de deux décennies, le groupe retrouve enfin une meilleure visibilité financière. Le dossier reste néanmoins un cas d'école des **risques juridiques** liés aux acquisitions transatlantiques et des tensions entre industrie agrochimique, santé publique et justice américaine.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Pano-bayer-leverkusen.jpg/1280px-Pano-bayer-leverkusen.jpg",
-    "alt": "Vue panoramique du site industriel chimique de Bayer à Leverkusen en Allemagne",
-    "credit": "A.Savin / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Pano-bayer-leverkusen.jpg"
+    "url": "https://images.tagesschau.de/image/8abc89ba-9a3f-4036-b1d7-d035db21bc32/AAABnHAaiEY/AAABnSSvrFg/16x9-big/bayer-204.jpg?width=1280",
+    "alt": "Photo de l'article : Allemagne : la justice américaine valide l'accord de 7,25 milliards de dollars de Bayer sur le glyphosate",
+    "credit": "tagesschau.de",
+    "source": "https://www.tagesschau.de/wirtschaft/bayer-glyphosat-vergleich-usa-100.html"
    },
    "vo": {
     "titre": "US-Gericht billigt Bayer-Vergleich zu Glyphosat",
@@ -640,12 +892,36 @@
     "enjeux": "Das Urteil ist ein wichtiger Schritt für die deutsche Firma. Bayer hat Monsanto im Jahr 2018 gekauft. Seitdem belasten tausende Klagen in den USA den Konzern. Das hat Bayer sehr viel Geld und Vertrauen gekostet. Durch den Vergleich kann die Firma wieder besser planen. Trotzdem bleibt der Streit um Glyphosat ein großes Thema. Kritiker sorgen sich weiter um Gesundheit und Umwelt."
    },
    "vocab": [
-    ["der Vergleich", "l'accord amiable / le règlement judiciaire", "Bayer und die Kläger haben einen Vergleich geschlossen."],
-    ["die Klage", "la plainte / le procès", "Tausende Menschen haben eine Klage eingereicht."],
-    ["billigen", "approuver / valider", "Das Gericht hat den Vertrag am Freitag gebilligt."],
-    ["der Konzern", "le grand groupe industriel", "Der deutsche Konzern will endlich Ruhe haben."],
-    ["die Schuld", "la faute / la responsabilité", "Die Firma weist jede Schuld von sich."],
-    ["der Einspruch", "le recours / l'appel", "Einige Kläger können noch Einspruch einlegen."]
+    [
+     "der Vergleich",
+     "l'accord amiable / le règlement judiciaire",
+     "Bayer und die Kläger haben einen Vergleich geschlossen."
+    ],
+    [
+     "die Klage",
+     "la plainte / le procès",
+     "Tausende Menschen haben eine Klage eingereicht."
+    ],
+    [
+     "billigen",
+     "approuver / valider",
+     "Das Gericht hat den Vertrag am Freitag gebilligt."
+    ],
+    [
+     "der Konzern",
+     "le grand groupe industriel",
+     "Der deutsche Konzern will endlich Ruhe haben."
+    ],
+    [
+     "die Schuld",
+     "la faute / la responsabilité",
+     "Die Firma weist jede Schuld von sich."
+    ],
+    [
+     "der Einspruch",
+     "le recours / l'appel",
+     "Einige Kläger können noch Einspruch einlegen."
+    ]
    ],
    "sujets": [
     "War der Kauf von Monsanto ein Fehler für Bayer?",
@@ -674,12 +950,36 @@
     "enjeux": "Viele junge Menschen fühlen sich von der Politik vergessen. Deutschland hat eine ältere Gesellschaft und andere Prioritäten. Der Staat gibt gerade viel mehr Geld für das Militär aus. Die Jugend fürchtet deshalb Kürzungen bei Bildung und Klimaschutz. Auch die Debatte über eine neue Wehrpflicht macht vielen Angst. Die Gruppen wollen nun eine dauerhafte Bewegung aufbauen. So wollen sie mehr Druck auf die Regierung machen."
    },
    "vocab": [
-    ["die Wehrpflicht", "le service militaire obligatoire", "Viele Schüler lehnen eine neue Wehrpflicht ab."],
-    ["die Kürzung", "la coupe budgétaire / la réduction", "Studierende protestieren gegen Kürzungen an ihrer Universität."],
-    ["die Gewerkschaft", "le syndicat", "Die Schüler suchen die Hilfe der Gewerkschaften."],
-    ["friedlich", "pacifique", "Der Protest in Berlin verlief zum Glück friedlich."],
-    ["die Bewegung", "le mouvement (social/politique)", "Die Jugend will aus den Demos eine Bewegung machen."],
-    ["die Bildung", "l'éducation / la formation", "Gute Bildung ist sehr wichtig für die Zukunft."]
+    [
+     "die Wehrpflicht",
+     "le service militaire obligatoire",
+     "Viele Schüler lehnen eine neue Wehrpflicht ab."
+    ],
+    [
+     "die Kürzung",
+     "la coupe budgétaire / la réduction",
+     "Studierende protestieren gegen Kürzungen an ihrer Universität."
+    ],
+    [
+     "die Gewerkschaft",
+     "le syndicat",
+     "Die Schüler suchen die Hilfe der Gewerkschaften."
+    ],
+    [
+     "friedlich",
+     "pacifique",
+     "Der Protest in Berlin verlief zum Glück friedlich."
+    ],
+    [
+     "die Bewegung",
+     "le mouvement (social/politique)",
+     "Die Jugend will aus den Demos eine Bewegung machen."
+    ],
+    [
+     "die Bildung",
+     "l'éducation / la formation",
+     "Gute Bildung ist sehr wichtig für die Zukunft."
+    ]
    ],
    "sujets": [
     "Hört die deutsche Politik genug auf junge Menschen?",
@@ -697,10 +997,10 @@
    "faits": "Deux nouvelles études publiées en Allemagne, dont une analyse de l'institut économique DIW à Berlin, nuancent le sentiment de déclassement exprimé par une majorité d'Allemands. Alors qu'un sondage récent montre que 60 % de la population craint que ses revenus ne suffisent pas durablement pour vivre, les données du DIW révèlent que les revenus réels des ménages — corrigés de l'inflation — ont augmenté en moyenne de 30 % entre 1995 et 2024. La part des Allemands satisfaits de leur revenu a même doublé depuis 2005, passant de 13 % à 26 %. Toutefois, ces gains sont très inégalement répartis : les 10 % les plus aisés ont vu leurs revenus bondir de 51 %, contre 26 % pour la classe moyenne et une stagnation pour les 10 % les plus pauvres. Une seconde étude de l'économiste Christian Dustmann souligne en revanche que les inégalités salariales pures ont nettement reculé récemment.",
    "enjeux": "Ces chiffres mettent en lumière le décalage entre les statistiques de **niveau de vie** et le ressenti subjectif des citoyens. En Allemagne, la peur du **déclassement** alimente la colère sociale et le vote protestataire, alors même que la prospérité moyenne a progressé sur trente ans. Le creusement des **inégalités de revenus** s'explique en partie par les revenus du capital (dividendes, loyers), qui profitent surtout aux plus riches, tandis que le bas de l'échelle intègre aussi de nombreux réfugiés récents confrontés à des barrières linguistiques sur le marché du travail. Le paradoxe allemand pose un défi majeur à la cohésion sociale : comment rassurer les classes moyennes sans freiner la croissance ni alourdir la fiscalité ?",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/D%C3%BClmen%2C_Marktstra%C3%9Fe_--_2023_--_6668.jpg/1280px-D%C3%BClmen%2C_Marktstra%C3%9Fe_--_2023_--_6668.jpg",
-    "alt": "Rue commerçante animée en Rhénanie-du-Nord-Westphalie en Allemagne",
-    "credit": "Dietmar Rabich / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Marktstra%C3%9Fe_--_2023_--_6668.jpg"
+    "url": "https://media0.faz.net/image/w1200h627/418b2cd99ec3/w6144h3210x0y443o/202610/10321bf4-08e3-4513-836c-82c43f5aa966/passanten-mit-einkaufsbeuteln.webp",
+    "alt": "Photo de l'article : Allemagne : les revenus réels ont progressé en trente ans, mais les inégalités se sont creusées",
+    "credit": "FAZ.NET",
+    "source": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/einkommen-gestiegen-ungleichheit-auch-was-zeigen-diw-daten-201698063.html"
    },
    "vo": {
     "titre": "Einkommen in Deutschland steigen, aber Ungleichheit auch",
@@ -708,12 +1008,36 @@
     "enjeux": "Die Zahlen zeigen einen großen Widerspruch in Deutschland. Den meisten Menschen geht es heute besser als vor dreißig Jahren. Trotzdem wächst bei vielen Bürgern die Angst vor dem Abstieg. Ein Grund dafür ist die größere Lücke zwischen Arm und Reich. Reiche Haushalte profitieren stark von Zinsen, Mieten und Aktien. Viele Migranten verdienen am Anfang oft nur wenig Geld. Die Politik muss diese sozialen Unterschiede ernst nehmen."
    },
    "vocab": [
-    ["der Wohlstand", "la prospérité / le niveau de vie", "Viele Deutsche sorgen sich um ihren Wohlstand."],
-    ["das Einkommen", "le revenu", "Die realen Einkommen sind seit 1995 deutlich gestiegen."],
-    ["die Ungleichheit", "l'inégalité", "Die Ungleichheit zwischen Arm und Reich nimmt zu."],
-    ["der Abstieg", "le déclassement", "Die Angst vor dem sozialen Abstieg ist groß."],
-    ["der Haushalt", "le ménage (foyer)", "Mittlere Haushalte haben weniger stark profitiert."],
-    ["der Widerspruch", "la contradiction", "Zwischen Gefühlen und Zahlen gibt es einen Widerspruch."]
+    [
+     "der Wohlstand",
+     "la prospérité / le niveau de vie",
+     "Viele Deutsche sorgen sich um ihren Wohlstand."
+    ],
+    [
+     "das Einkommen",
+     "le revenu",
+     "Die realen Einkommen sind seit 1995 deutlich gestiegen."
+    ],
+    [
+     "die Ungleichheit",
+     "l'inégalité",
+     "Die Ungleichheit zwischen Arm und Reich nimmt zu."
+    ],
+    [
+     "der Abstieg",
+     "le déclassement",
+     "Die Angst vor dem sozialen Abstieg ist groß."
+    ],
+    [
+     "der Haushalt",
+     "le ménage (foyer)",
+     "Mittlere Haushalte haben weniger stark profitiert."
+    ],
+    [
+     "der Widerspruch",
+     "la contradiction",
+     "Zwischen Gefühlen und Zahlen gibt es einen Widerspruch."
+    ]
    ],
    "sujets": [
     "Warum fürchten viele Deutsche den Verlust ihres Wohlstands?",

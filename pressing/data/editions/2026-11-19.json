@@ -1023,10 +1023,10 @@
    "faits": "Le géant allemand des télécommunications Deutsche Telekom, basé à Bonn, a annoncé un investissement de 100 millions d'euros dans la start-up française d'intelligence artificielle Mistral AI. Cette prise de participation, réalisée via son fonds T.Capital Tech Fund dans le cadre de la levée de fonds de série D de Mistral, pose les bases d'un partenariat stratégique de long terme. L'objectif est de fournir aux entreprises industrielles et aux administrations allemandes et européennes des solutions d'IA souveraines et sécurisées. Deutsche Telekom apportera son infrastructure informatique — notamment son « usine à IA » de Munich — ainsi que son réseau commercial, tandis que Mistral fournira ses modèles d'intelligence artificielle avancés et ses logiciels d'entreprise. Les deux groupes insistent sur la nécessité de permettre aux acteurs européens d'utiliser l'IA tout en gardant le contrôle total de leurs données. Cette annonce intervient le jour même de l'introduction en Bourse record du géant américain Anthropic.",
    "enjeux": "Cette alliance franco-allemande illustre la quête de **souveraineté numérique** de l'Europe face à la domination écrasante des géants américains (OpenAI, Anthropic, Google) et chinois. Pour l'industrie allemande, très sensible à la protection de ses secrets industriels et au respect du règlement européen sur les données, disposer d'une alternative européenne crédible est devenu un enjeu de survie économique. Néanmoins, l'écart d'échelle financière reste vertigineux : les 100 millions d'euros investis par Deutsche Telekom paraissent modestes face aux dizaines de milliards levés à Wall Street par les acteurs américains. Ce partenariat montre que la **coopération franco-allemande** tente de combiner le savoir-faire logiciel français et la puissance industrielle et d'infrastructure allemande.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bonn_DTAG2.jpg",
-    "alt": "Siège social de Deutsche Telekom à Bonn, Allemagne",
-    "credit": "Qualle / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Bonn_DTAG2.jpg"
+    "url": "https://cdn.prod.www.spiegel.de/images/6b918360-4d0c-47f4-b2c2-44b17659a22c_w1200_r1.778_fpx57.31_fpy49.99.jpg",
+    "alt": "Photo de l'article : Intelligence artificielle : Deutsche Telekom investit 100 millions d'euros dans la start-up française Mistral",
+    "credit": "spiegel.de",
+    "source": "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-telekom-steigt-bei-europas-ki-hoffnung-mistral-ein-a-d3e7a956-a3eb-4eec-8f7e-0366020961bc"
    },
    "vo": {
     "titre": "Deutsche Telekom investiert 100 Millionen Euro in Mistral",

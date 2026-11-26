@@ -11,10 +11,10 @@
    "faits": "À l'issue de la publication des résultats du troisième trimestre 2026, les grandes valeurs technologiques américaines ont subi une violente correction boursière qui a effacé près de 1 000 milliards de dollars de capitalisation sur le Nasdaq en une semaine, et environ 2 000 milliards sur l'ensemble du mois d'octobre. Les investisseurs sanctionnent l'explosion des dépenses d'investissement (capex) consacrées aux centres de données et aux puces d'intelligence artificielle : Amazon prévoit à lui seul près de 220 milliards de dollars d'investissements annuels en équipements et infrastructures. Cet effort financier inédit a fait basculer les flux de trésorerie disponibles (free cash flow) d'Amazon, d'Alphabet et de Meta en territoire négatif ou sous forte pression. Wall Street redoute désormais que ces centaines de milliards engloutis ne mettent des années à générer des profits suffisants, au moment où les activités historiques comme le commerce en ligne ou la publicité ralentissent.",
    "enjeux": "Cette secousse boursière pose la question d'une **bulle spéculative** autour de l'intelligence artificielle, comparable à celle d'Internet en 2000. D'un côté, l'IA constitue une **technologie à usage général** dont le déploiement exige d'immenses **coûts fixes** avant de produire des gains de productivité dans l'ensemble de l'économie : chaque géant du numérique est pris dans un **dilemme du prisonnier** où sous-investir reviendrait à céder le monopole de demain à ses rivaux. De l'autre, l'écart croissant entre le coût immédiat des infrastructures (serveurs, réseaux électriques, semi-conducteurs) et la monétisation réelle auprès des entreprises fait craindre un **surinvestissement**. Ce phénomène illustre aussi le **paradoxe de Solow** : une révolution technologique met toujours du temps à se traduire dans la rentabilité financière et la productivité globale.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Nasdaq_MarketSite_%2851494550508%29.jpg/1280px-Nasdaq_MarketSite_%2851494550508%29.jpg",
-    "alt": "La façade du Nasdaq MarketSite à Times Square, à New York",
-    "credit": "Ajay Suresh / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg"
+    "url": "https://imagenes.elpais.com/resizer/v2/I3THQNCVYJKQZBDNKJ7A4JYMH4.jpg?auth=b66e0bfb7af67e231247a5e17ab7c6a253a171149cb3c8d53ca798239c82b7f4&width=1200",
+    "alt": "Photo de l'article : Intelligence artificielle : la « brûlure de trésorerie » des géants de la Tech fait chuter le Nasdaq",
+    "credit": "El País",
+    "source": "https://elpais.com/economia/2026-11-01/la-multimillonaria-quema-de-caja-por-la-inversion-en-ia-castiga-a-los-gigantes-de-internet.html"
    },
    "programme": {
     "module": "2 - Croissance et développement",
@@ -394,10 +394,10 @@
    "faits": "Battu au second tour de l'élection présidentielle brésilienne d'octobre 2026 par Luiz Inácio Lula da Silva, le candidat d'extrême droite Flávio Bolsonaro a fui le Brésil dans la nuit du 27 octobre malgré l'interdiction de quitter le territoire et la confiscation de son passeport ordonnées par la Cour suprême. Après avoir franchi le pont international Tancredo Neves vers l'Argentine, il s'est envolé en jet privé depuis Puerto Iguazú vers Miami, aux États-Unis. Le ministère brésilien des Affaires étrangères a convoqué le 30 octobre la représentante diplomatique de l'Argentine à Brasilia pour demander des explications au gouvernement de Javier Milei sur les facilités accordées à cette fuite. Ce départ précipité laisse le camp bolsonariste décapité et propulse au premier plan le gouverneur réélu de l'État de São Paulo, Tarcísio de Freitas, qui a reconnu la victoire de Lula.",
    "enjeux": "Cet épisode ouvre une double crise diplomatique et politique en Amérique du Sud. Sur le plan régional, le passage de Flávio Bolsonaro par l'Argentine vers les États-Unis de Donald Trump illustre la constitution d'un **axe idéologique des droites radicales** américaines, prêt à contourner les décisions de la justice brésilienne et à tendre un peu plus les relations entre **Lula et Milei** au sein du Mercosur. Sur le plan intérieur brésilien, l'incarcération de Jair Bolsonaro pour tentative de coup d'État, suivie de la défaite et de la fuite de son fils aîné, marque l'essoufflement de la stratégie de confrontation permanente contre les **institutions démocratiques**. En s'appuyant sur le poids économique de São Paulo et sur le soutien des milieux d'affaires, **Tarcísio de Freitas** incarne la tentative d'institutionnaliser une droite conservatrice et libérale capable de tourner la page du bolsonarisme familial.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Pal%C3%A1cio_dos_Bandeirantes_Fotos_gerais_e_detalhes_do_Pal%C3%A1cio_dos_Bandeirantes._%2833638921998%29.jpg/1280px-Pal%C3%A1cio_dos_Bandeirantes_Fotos_gerais_e_detalhes_do_Pal%C3%A1cio_dos_Bandeirantes._%2833638921998%29.jpg",
-    "alt": "Le palais des Bandeirantes, siège du gouvernement de l'État de São Paulo au Brésil",
-    "credit": "Governo do Estado de São Paulo / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_dos_Bandeirantes_Fotos_gerais_e_detalhes_do_Pal%C3%A1cio_dos_Bandeirantes._(33638921998).jpg"
+    "url": "https://imagenes.elpais.com/resizer/v2/LFSJAVADURJ7JIHIPW6FYJJUIQ.jpg?auth=470aa31368ba841f8fda35cf4cd9aecc2d3e4be55c56974750a115e23cbd5702&width=1200",
+    "alt": "Photo de l'article : Brésil : après la fuite de Flávio Bolsonaro par l'Argentine, la droite se cherche un chef avec Tarcísio de Freitas",
+    "credit": "El País América",
+    "source": "https://elpais.com/america/2026-10-30/el-gobernador-de-sao-paulo-emerge-como-figura-de-la-derecha-brasilena-tras-la-fuga-de-flavio-bolsonaro.html"
    },
    "vo": {
     "titre": "Brasil: tras la fuga de Flávio Bolsonaro por Argentina, Tarcísio de Freitas emerge como líder de la derecha",
@@ -446,10 +446,10 @@
    "faits": "Confrontée à des retards chroniques, la compagnie ferroviaire publique allemande Deutsche Bahn (et sa filiale d'infrastructure DB InfraGO) met en place le 3 novembre une commission d'experts indépendante baptisée « Horaire robuste » (Robuster Fahrplan), épaulée par le cabinet suisse spécialisé SMA. Selon les informations publiées fin octobre par le Spiegel, cette commission doit évaluer la capacité réelle d'un réseau ferré vétuste où plus de 10 % des trains circulaient en 2025 sur des tronçons déclarés en surcharge extrême. L'ancien délégué fédéral au rail Enak Ferlemann, membre de la commission, résume le diagnostic sans détour : « Au vu de l'état du réseau, il y a beaucoup trop de trains qui roulent sur nos voies ». Pour créer des marges de sécurité et éviter qu'un incident ne paralyse tout le pays, la Bahn envisage désormais de supprimer des liaisons, par exemple en passant d'une cadence de trente minutes à une heure sur certains grands axes comme Berlin-Hambourg.",
    "enjeux": "Ce constat d'aveu d'impuissance symbolise la dégradation des **infrastructures publiques** allemandes après des décennies de sous-investissement liées à l'orthodoxie budgétaire et au **frein à l'endettement** (*Schuldenbremse*). Alors que le pays s'était fixé pour objectif politique de doubler le trafic ferroviaire voyageurs d'ici 2030 afin de réussir la **transition écologique des transports** (*Verkehrswende*), l'état physique des rails, des aiguillages et des ponts oblige au contraire à rationner l'offre. Le paradoxe est que les grands chantiers de rénovation par corridors lancés par Berlin et financés par le nouveau fonds spécial de 500 milliards d'euros réduisent encore davantage la capacité disponible à court terme. La crise de la Deutsche Bahn est ainsi devenue le symbole d'un **Standort Deutschland** qui peine à entretenir ses réseaux de base.",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg/1280px-DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg",
-    "alt": "Un train à grande vitesse ICE de la Deutsche Bahn en gare centrale de Munich",
-    "credit": "Julian Herzog / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:DB_ICE_1_M%C3%BCnchen_Hauptbahnhof_2015_01.jpg"
+    "url": "https://cdn.prod.www.spiegel.de/images/e0037b74-392f-4965-a0ea-1e7049e408cb_w1200_r1.778_fpx60_fpy50.jpg",
+    "alt": "Photo de l'article : Réseau saturé : la Deutsche Bahn envisage de réduire le nombre de trains pour améliorer sa ponctualité",
+    "credit": "spiegel.de",
+    "source": "https://www.spiegel.de/wirtschaft/unternehmen/ueberlastetes-netz-bahn-erwaegt-reduzierung-des-zugverkehrs-fuer-mehr-puenktlichkeit-a-9bfc605e-c05d-4cfd-af52-2a7cbe8f6d46"
    },
    "vo": {
     "titre": "Überlastetes Netz: Deutsche Bahn erwägt Reduzierung des Zugverkehrs für mehr Pünktlichkeit",
@@ -550,10 +550,10 @@
    "faits": "Sous le feu des critiques des associations caritatives, des Länder et d'une partie du SPD, la ministre fédérale de la Famille Karin Prien (CDU) a annoncé le 30 octobre vouloir renégocier la suppression prévue de l'avance publique sur pension alimentaire (Unterhaltsvorschuss) pour les jeunes de 16 et 17 ans. Dans le cadre des économies du budget fédéral 2027, son ministère avait proposé cet été d'arrêter le versement de cette aide dès le seizième anniversaire de l'enfant, au lieu de dix-huit ans aujourd'hui. Cette prestation est versée par l'État aux parents isolés — des mères dans la grande majorité des cas — lorsque l'autre parent ne paie pas la pension alimentaire due, et concerne entre 80 000 et plus de 100 000 adolescents en Allemagne. Karin Prien reconnaît désormais qu'il est « difficilement défendable » de faire des économies sur cette aide au regard des autres dépenses de l'État.",
    "enjeux": "Ce recul gouvernemental met en lumière la question de la **pauvreté des enfants** (*Kinderarmut*) et de la vulnérabilité des **familles monoparentales** (*Alleinerziehende*) dans l'une des plus riches économies du monde. En Allemagne, plus de 40 % des foyers monoparentaux sont exposés au risque de pauvreté, car le manque de places de garde à temps plein et la fiscalité du couple marié (*Ehegattensplitting*) pénalisent structurellement les mères seules. Couper l'avance sur pension alimentaire à 16 ans, au moment précis où les adolescents terminent leur scolarité ou débutent un apprentissage, revenait à faire porter l'effort de **consolidation budgétaire** sur les ménages les plus fragiles, d'autant que l'État ne parvient à récupérer auprès des parents défaillants qu'environ un cinquième des sommes avancées. Ce débat illustre les limites politiques d'une rigueur budgétaire qui touche au cœur de l'**État social** (*Sozialstaat*).",
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Berlin_-_Eckhaus_Unter_den_Linden_-_Glinkastra%C3%9Fe.jpg/1280px-Berlin_-_Eckhaus_Unter_den_Linden_-_Glinkastra%C3%9Fe.jpg",
-    "alt": "L'angle d'Unter den Linden et de la Glinkastraße à Berlin, quartier du ministère fédéral de la Famille",
-    "credit": "Taxiarchos228 / Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Berlin_-_Eckhaus_Unter_den_Linden_-_Glinkastra%C3%9Fe.jpg"
+    "url": "https://cdn.prod.www.spiegel.de/images/2701490b-6276-423f-bf73-8d633b9ad28a_w1200_r1.778_fpx37.02_fpy49.99.jpg",
+    "alt": "Photo de l'article : Familles monoparentales : face au tollé, la ministre Karin Prien veut renégocier la coupe sur les pensions alimentaires",
+    "credit": "spiegel.de",
+    "source": "https://www.spiegel.de/wirtschaft/unterhaltsvorschuss-bundesfamilienministerin-will-nachverhandeln-a-10ddf2c5-b6d1-4bc7-90b3-d732572a6ad1"
    },
    "vo": {
     "titre": "Alleinerziehende: Nach heftiger Kritik will Familienministerin Karin Prien beim Unterhaltsvorschuss nachverhandeln",
