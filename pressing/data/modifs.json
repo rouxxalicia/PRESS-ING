@@ -210,10 +210,19 @@
     "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/26/la-banque-en-ligne-a-toujours-ete-un-sujet-complexe-au-sein-du-groupe-mutualiste-credit-agricole-1795689045_1e9fa6795cf9612afa6795cf9e5afav_.jpg",
     "alt": "Façade et identité visuelle du groupe bancaire Crédit agricole"
    }
+  },
+  "2026-11-27-anglais-1": {
+   "titre": "Royaume-Uni : l'immigration nette chute à 77 000 personnes, son plus bas niveau depuis 1997 hors pandémie",
+   "matiere": "anglais",
+   "dossiers": [],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cc65/live/28a10870-e99f-11f1-b880-15b494ba858d.jpg",
+    "alt": "Voyageurs et contrôles à l'arrivée dans un aéroport britannique"
+   }
   }
  },
  "dossiers": [],
- "favsMaj": 1795769454408,
+ "favsMaj": 1795769483609,
  "demandes": [
   {
    "id": "dmwlvrpnt",
