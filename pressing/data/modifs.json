@@ -201,10 +201,19 @@
     "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/27/pierre-andre-buigues-et-denis-lacoste-1795759592_174ebbcd190b61b4ebbcd190bde4ebv_.jpg",
     "alt": "Portraits des économistes Pierre-André Buigues et Denis Lacoste"
    }
+  },
+  "2026-11-27-esh-6": {
+   "titre": "Banque et IA : le Crédit agricole investit 500 millions d'euros dans des agents d'intelligence artificielle européens",
+   "matiere": "esh",
+   "dossiers": [],
+   "image": {
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/26/la-banque-en-ligne-a-toujours-ete-un-sujet-complexe-au-sein-du-groupe-mutualiste-credit-agricole-1795689045_1e9fa6795cf9612afa6795cf9e5afav_.jpg",
+    "alt": "Façade et identité visuelle du groupe bancaire Crédit agricole"
+   }
   }
  },
  "dossiers": [],
- "favsMaj": 1795769355975,
+ "favsMaj": 1795769454408,
  "demandes": [
   {
    "id": "dmwlvrpnt",
