@@ -8862,6 +8862,605 @@
           ]
         }
       ]
+    },
+    {
+      "id": "evaluation-politiques-publiques-duflo",
+      "nom": "Évaluation expérimentale des politiques publiques",
+      "categorie": "politiques",
+      "type": "Modèle",
+      "annee": "2011",
+      "auteur": "Esther Duflo et Abhijit Banerjee",
+      "accroche": "On ne peut pas juger une politique publique sur ses intentions ni sur des modèles abstraits : il faut mesurer son effet causal réel sur le terrain par des expérimentations rigoureuses.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Esther Duflo** et **Abhijit Banerjee**, *Repenser la pauvreté* (*Poor Economics*, 2011), travaux récompensés par le prix Nobel d'économie en 2019 aux côtés de Michael Kremer.",
+            "Contre les grands débats idéologiques entre partisans du « tout État » et du « tout marché », ils importent en économie la méthode des **essais contrôlés randomisés** (*randomized controlled trials*) inspirée de la médecine pour évaluer concrètement l'efficacité de chaque dépense publique ou programme d'aide."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "On définit une **politique publique précise** (subvention, crédit d'impôt, prime scolaire, microcrédit) dont on veut mesurer l'impact réel.",
+            "On tire au sort deux groupes comparables : un **groupe traité** qui bénéficie du dispositif et un **groupe témoin** qui n'en bénéficie pas.",
+            "On compare les résultats des deux groupes après l'intervention afin d'isoler l'**effet causal** net, en éliminant les **effets d'aubaine** et les biais de sélection."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Une dépense publique élevée n'est pas synonyme d'efficacité : beaucoup de dispositifs coûteux financent des comportements qui auraient existé sans aide publique (**effet d'aubaine**). L'évaluation ex post permet donc d'arbitrer entre des dépenses utiles et des niches fiscales inefficaces, sans tomber dans l'austérité aveugle."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les effets d'aubaine des aides aux entreprises",
+              "d": "L'OCDE et France Stratégie montrent que les crédits d'impôt recherche profitent fortement aux PME mais génèrent peu d'effet additionnel dans les très grandes firmes."
+            },
+            {
+              "t": "La conditionnalité des aides publiques",
+              "d": "De nombreux économistes proposent de lier subventions et allègements fiscaux à des objectifs mesurables d'emploi, d'investissement ou de décarbonation."
+            },
+            {
+              "t": "L'économie comportementale et les nudges",
+              "d": "Richard Thaler montre aussi que de petits ajustements institutionnels peuvent améliorer l'efficacité d'une politique à moindre coût budgétaire."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Les expérimentations aléatoires répondent bien à des questions **microéconomiques** ciblées, mais peinent à évaluer des politiques **macroéconomiques** d'ensemble (taux d'intérêt, réforme fiscale générale, effets d'équilibre général). Un dispositif efficace à petite échelle peut aussi perdre son efficacité lorsqu'il est généralisé."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les aides publiques aux entreprises en France",
+              "d": "Entre 166 et 211 milliards d'euros répartis sur plus de 450 dispositifs, dont la majorité n'a jamais fait l'objet d'une évaluation rigoureuse."
+            },
+            {
+              "t": "Le Crédit d'impôt recherche (CIR)",
+              "d": "Un euro d'aide engendre 1,40 euro de R&D privée dans une PME contre seulement 0,40 euro dans une grande entreprise."
+            },
+            {
+              "t": "La TVA réduite dans la restauration (2009)",
+              "d": "Un manque à gagner budgétaire de plus de 4 milliards d'euros par an dont plus de la moitié a accru les marges plutôt que l'emploi ou la baisse des prix."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Mariana Mazzucato (2013)",
+              "idee": "exiger des contreparties et une orientation stratégique aux aides publiques"
+            },
+            {
+              "sens": "≠",
+              "nom": "Arthur Laffer",
+              "idee": "raisonne de manière globale sur le taux d'imposition agrégé plutôt que dispositif par dispositif"
+            },
+            {
+              "sens": "≠",
+              "nom": "John Maynard Keynes (1936)",
+              "idee": "privilégie les effets multiplicateurs macroéconomiques de la dépense publique"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "libre-echange-regule-lamy",
+      "nom": "Libre-échange régulé et précautionnisme",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "2017",
+      "auteur": "Pascal Lamy",
+      "accroche": "Le libre-échange pur n'existe pas : la mondialisation contemporaine ne porte plus tant sur les droits de douane que sur l'harmonisation ou la confrontation des normes sanitaires, sociales et environnementales.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Pascal Lamy**, ancien commissaire européen au Commerce et directeur général de l'OMC (2005-2013), « Le libre-échange n'existe pas », *Revue internationale et stratégique* (2017).",
+            "Alors que les débats opposent traditionnellement libre-échangistes et protectionnistes autour des droits de douane, Lamy montre que le commerce du XXIe siècle est structuré par des **obstacles non tarifaires** : normes de qualité, sécurité alimentaire, règles environnementales et sociales."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les droits de douane moyens ayant fortement baissé depuis le GATT puis l'OMC, les échanges sont désormais freinés ou façonnés par les **normes réglementaires**.",
+            "Ces normes reflètent les **préférences collectives** d'une société (santé, climat, bien-être animal) et peuvent créer des distorsions de concurrence si un partenaire produit à moindre coût sous des règles plus laxistes.",
+            "L'État ou l'Union européenne doit donc combiner l'ouverture commerciale avec des **clauses miroir** ou des mécanismes d'ajustement pour éviter un dumping réglementaire."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "On peut refuser un accord commercial ou imposer des normes aux frontières sans tomber dans un protectionnisme mercantiliste archaïque : le **précautionnisme** protège les consommateurs et prévient la **concurrence déloyale** envers les producteurs soumis à des standards exigeants."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les clauses miroir",
+              "d": "Exiger que les produits agricoles importés respectent les mêmes normes sanitaires et environnementales que celles imposées aux producteurs européens."
+            },
+            {
+              "t": "Le MACF européen",
+              "d": "Le mécanisme d'ajustement carbone aux frontières applique un prix du carbone équivalent aux importations industrielles polluantes."
+            },
+            {
+              "t": "La nouvelle géopolitique des normes",
+              "d": "Anu Bradford parle d'« effet Bruxelles » : l'UE exporte ses standards via l'accès à son grand marché unique."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "La frontière entre une **norme légitime** (sanitaire ou écologique) et un **protectionnisme déguisé** est souvent floue. Les pays en développement dénoncent fréquemment des standards européens difficiles à respecter pour leurs petits producteurs, qui risquent de les exclure des marchés riches."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'accord UE-Mercosur",
+              "d": "La France conteste l'ouverture aux viandes sud-américaines faute de clauses miroir effectives, contrairement aux garanties invoquées pour le CETA."
+            },
+            {
+              "t": "La suspension des viandes brésiliennes",
+              "d": "L'UE a bloqué en 2026 certaines importations ne respectant pas les standards sanitaires européens."
+            },
+            {
+              "t": "La régulation des plateformes ultra-low-cost",
+              "d": "Les contrôles de sécurité sur les jouets et textiles importés hors UE illustrent l'enjeu des barrières réglementaires."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "David Ricardo (1817)",
+              "idee": "modélise un échange pur sans coûts réglementaires ni asymétries de normes"
+            },
+            {
+              "sens": "=",
+              "nom": "Joseph Stiglitz (2002)",
+              "idee": "critique les règles commerciales asymétriques et appelle à une mondialisation régulée"
+            },
+            {
+              "sens": "=",
+              "nom": "Dani Rodrik (2011)",
+              "idee": "souligne le trilemme entre hypermondialisation, souveraineté réglementaire et démocratie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competitivite-nationale-tyson",
+      "nom": "Compétitivité nationale et concurrence stratégique",
+      "categorie": "commerce",
+      "type": "Notion",
+      "annee": "1993",
+      "auteur": "Laura D'Andrea Tyson",
+      "accroche": "Une économie compétitive n'est pas celle qui brade ses salaires pour dégager un excédent, mais celle qui affronte la concurrence internationale tout en élevant le niveau de vie de sa population.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Laura D'Andrea Tyson**, *Who's Bashing Whom? Trade Conflict in High-Technology Industries* (1993), présidente du Council of Economic Advisers sous Bill Clinton.",
+            "Face à la montée en puissance du Japon et aux débats américains sur la désindustrialisation, elle propose une définition rigoureuse de la **compétitivité** d'une nation, centrée sur la capacité à produire des biens à haute valeur ajoutée et à soutenir les revenus réels."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les entreprises d'un pays sont confrontées à la **concurrence internationale** sur les secteurs exposés (industrie manufacturière, hautes technologies).",
+            "Dans les industries à rendements croissants et forts effets d'apprentissage, les **avantages comparatifs sont construits** par l'investissement, la fiscalité et le tissu productif, et non simplement donnés par la nature.",
+            "Une politique publique ciblée (fiscalité de production adaptée, R&D, soutien aux entreprises de taille intermédiaire) permet de préserver une base industrielle capable de financer des **salaires élevés** et un niveau de vie croissant."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "La compétitivité ne se réduit ni au seul **coût du travail** ni à un solde commercial brut : elle repose sur l'écosystème productif (PME, ETI, fiscalité stable, innovation) qui permet de rester performant sur les marchés mondiaux sans appauvrir les salariés."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Compétitivité-prix et hors-prix (Porter)",
+              "d": "Michael Porter distingue les avantages de coûts des avantages liés à l'innovation, à la qualité et aux pôles industriels locaux."
+            },
+            {
+              "t": "Le modèle du Mittelstand allemand",
+              "d": "La force exportatrice allemande repose sur un dense réseau d'entreprises industrielles familiales de taille intermédiaire spécialisées sur des niches mondiales."
+            },
+            {
+              "t": "La politique commerciale stratégique",
+              "d": "Brander et Spencer montrent que l'État peut aider des firmes nationales à capter des rentes oligopolistiques mondiales."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Paul Krugman (1994) met en garde contre une « obsession dangereuse » de la compétitivité nationale : les États ne sont pas des entreprises en faillite qui se font concurrence à somme nulle, et la croissance du niveau de vie dépend d'abord de la **productivité interne**, y compris dans les services abrités."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Le « chaînon manquant » des ETI en France",
+              "d": "La France compte 19 ETI industrielles par million d'habitants contre 52 en Allemagne, et des impôts de production plus de quatre fois supérieurs en part du PIB."
+            },
+            {
+              "t": "La désindustrialisation française",
+              "d": "L'industrie manufacturière pèse moins de 10 % du PIB français contre 18 % en Allemagne, nourrissant un déficit commercial industriel persistant."
+            },
+            {
+              "t": "La rivalité technologique États-Unis – Chine",
+              "d": "Les subventions américaines et chinoises illustrent le retour d'une concurrence stratégique assumée sur les secteurs de pointe."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "Paul Krugman (1994)",
+              "idee": "juge que la notion de compétitivité nationale entretient une confusion mercantiliste"
+            },
+            {
+              "sens": "=",
+              "nom": "Michael Porter (1990)",
+              "idee": "met l'accent sur la compétitivité hors-prix et l'environnement productif national"
+            },
+            {
+              "sens": "=",
+              "nom": "Lionel Fontagné (2014)",
+              "idee": "souligne l'importance stratégique des activités industrielles à forte valeur ajoutée"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "principe-de-population-malthus",
+      "nom": "Principe de population et piège malthusien",
+      "categorie": "croissance",
+      "type": "Loi",
+      "annee": "1798",
+      "auteur": "Thomas Robert Malthus",
+      "accroche": "Lorsque la population croît plus vite que les ressources agricoles soumises aux rendements décroissants, les pénuries et la hausse des prix alimentaires viennent périodiquement freiner la croissance.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Thomas Robert Malthus**, *Essai sur le principe de population* (1798), économiste classique britannique contemporain des débuts de la révolution industrielle.",
+            "Il s'oppose à l'optimisme des Lumières (Condorcet, Godwin) en soutenant que l'amélioration durable du sort des populations se heurte à la contrainte physique des **subsistances** et à la rareté des terres fertiles."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "La population tend à croître selon une **progression géométrique** (1, 2, 4, 8…), tandis que la production agricole n'augmente que selon une **progression arithmétique** (1, 2, 3, 4…) en raison des rendements décroissants des terres.",
+            "Chaque hausse de niveau de vie stimule la natalité et accroît la pression sur l'offre alimentaire, provoquant une envolée des **prix agricoles** et une baisse des salaires réels.",
+            "Des **freins destructifs** (famines, disettes, conflits) ou des **freins préventifs** (retard du mariage, limitation volontaire des naissances) ramènent alors la population au niveau permis par les subsistances."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Malthus explique la persistance de tensions sur les marchés alimentaires dès qu'un choc climatique ou démographique réduit les rendements agricoles. Il sert aussi de point de départ aux débats néo-malthusiens contemporains sur les **limites écologiques** et les conflits d'usage des ressources (eau, terres arables, énergie)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Ester Boserup (1965)",
+              "d": "Inverse le lien de causalité : la pression démographique pousse au contraire les sociétés à innover et à intensifier l'agriculture."
+            },
+            {
+              "t": "L'équation IPAT (Ehrlich, 1968)",
+              "d": "Décompose l'impact environnemental en trois facteurs : population, niveau de consommation par habitant et technologie."
+            },
+            {
+              "t": "Le rapport Meadows (1972)",
+              "d": "Actualise l'alerte malthusienne en modélisant les limites physiques à la croissance économique et démographique."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Malthus avait sous-estimé le **progrès technique agricole** (mécanisation, engrais, révolution verte) qui a permis à la production alimentaire de dépasser la croissance démographique mondiale. De plus, **Amartya Sen** (1981) a montré que les crises alimentaires viennent souvent moins d'un manque absolu de nourriture que d'inégalités d'accès, de spéculation ou de **restrictions politiques aux exportations**."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les tensions sur le marché mondial du riz",
+              "d": "La baisse de la production indienne sous l'effet d'El Niño fait flamber les prix et menace l'approvisionnement des pays importateurs."
+            },
+            {
+              "t": "Les conflits d'usage des terres agricoles",
+              "d": "La concurrence entre alimentation humaine, alimentation animale et biocarburants (riz brisé pour l'éthanol, maïs) renchérit les denrées de base."
+            },
+            {
+              "t": "La transition démographique et la soutenabilité",
+              "d": "Le maintien de la sécurité alimentaire face au changement climatique reste un défi majeur pour les pays en développement."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "Ester Boserup (1965)",
+              "idee": "la croissance démographique stimule l'innovation agricole plutôt qu'elle ne conduit à la famine"
+            },
+            {
+              "sens": "≠",
+              "nom": "Amartya Sen (1981)",
+              "idee": "les famines résultent d'un défaut de droits d'accès économiques plutôt que d'une pénurie physique absolue"
+            },
+            {
+              "sens": "=",
+              "nom": "David Ricardo (1817)",
+              "idee": "partage l'idée des rendements décroissants de la terre menant à l'état stationnaire"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "libre-echange-imparfait-lamy",
+      "nom": "Le libre-échange n'existe pas",
+      "categorie": "commerce",
+      "type": "Notion",
+      "annee": "2017",
+      "auteur": "Pascal Lamy",
+      "accroche": "Le libre-échange pur est une fiction : les accords commerciaux contemporains arbitrent entre ouverture tarifaire et protection par les normes.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Pascal Lamy**, *« Le libre-échange n'existe pas »*, *Revue internationale et stratégique* (2017).",
+            "Ancien directeur général de l'OMC (2005-2013), Lamy critique la vision binaire qui oppose un **libre-échange** absolu à un **protectionnisme** fermé. Dans les faits, aucun État n'ouvre totalement son marché sans règles sanitaires, environnementales ou sociales."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Les droits de douane ayant fortement baissé depuis le GATT (1947), l'enjeu commercial s'est déplacé vers les **obstacles non tarifaires** (normes, labels, contrôles).",
+            "Les accords récents portent sur la **précaution** et la protection du consommateur ou du climat autant que sur l'efficacité marchande.",
+            "Faute de **clauses miroirs** ou d'harmonisation réglementaire, l'ouverture crée une concurrence jugée déloyale par les producteurs soumis à des normes plus strictes."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette notion permet de dépasser l'opposition scolaire entre **Ricardo** et le protectionnisme dans une dissertation sur le commerce international. Elle montre que le débat actuel porte moins sur le niveau des tarifs douaniers que sur la **légitimité des normes** (sanitaires, climatiques, sociales) qui encadrent l'échange et peuvent servir soit de garde-fou éthique, soit de protectionnisme déguisé."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Les clauses miroirs",
+              "d": "Exiger des produits importés qu'ils respectent les mêmes normes sanitaires et environnementales que la production européenne."
+            },
+            {
+              "t": "Le mécanisme d'ajustement carbone (MACF)",
+              "d": "L'Union européenne taxe certaines importations polluantes pour éviter les **fuites de carbone** et préserver la compétitivité de son industrie."
+            },
+            {
+              "t": "La géopolitisation des échanges",
+              "d": "La sécurité d'approvisionnement (*friend-shoring*) et les subventions vertes redessinent la mondialisation commerciale."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Insister sur la régulation par les normes ne résout pas le risque de **capture réglementaire** : des groupes de pression peuvent utiliser des standards techniques pour fermer un marché aux pays en développement incapables d'en supporter le coût de certification."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'accord UE-Mercosur",
+              "d": "Opposition française au nom de l'absence de clauses miroirs suffisantes face à la viande brésilienne."
+            },
+            {
+              "t": "Le CETA avec le Canada",
+              "d": "Défendu par Paris car assorti d'instruments de vérification sanitaire et de garde-fous réglementaires."
+            },
+            {
+              "t": "Le MACF européen",
+              "d": "Illustration concrète d'un commerce conditionné au respect de standards climatiques."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "David Ricardo (1817)",
+              "idee": "le libre-échange pur maximise le bien-être par les avantages comparatifs"
+            },
+            {
+              "sens": "=",
+              "nom": "Dani Rodrik (2011)",
+              "idee": "le trilemme de la mondialisation limite la souveraineté réglementaire"
+            },
+            {
+              "sens": "=",
+              "nom": "Joseph Stiglitz (2002)",
+              "idee": "les règles commerciales reflètent des rapports de force asymétriques"
+            },
+            {
+              "sens": "≠",
+              "nom": "Paul Bairoch (1993)",
+              "idee": "souligne historiquement l'efficacité des tarifs douaniers classiques plutôt que des normes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inflation-goulets-etranglement-kaldor",
+      "nom": "Inflation et goulets d'étranglement",
+      "categorie": "monnaie",
+      "type": "Théorie",
+      "annee": "1959",
+      "auteur": "Nicholas Kaldor",
+      "accroche": "L'inflation peut naître bien avant le plein-emploi lorsque l'offre de certains biens essentiels se heurte à des goulets d'étranglement.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Nicholas Kaldor**, *Economic Growth and the Problem of Inflation* (1959).",
+            "Contre l'idée keynésienne simple selon laquelle la hausse des prix n'apparaît qu'une fois le **plein-emploi** atteint, Kaldor montre que l'économie est hétérogène : certains secteurs (agriculture, énergie, matières premières) saturent ou subissent des pénuries bien avant les autres."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "L'offre de biens primaires ou agricoles est **inélastique à court terme** : on ne peut pas doubler une récolte ou une capacité extractive instantanément.",
+            "Un choc climatique ou une hausse sectorielle de la demande crée des **goulets d'étranglement** sur ces intrants.",
+            "La hausse de leurs prix se diffuse au reste de l'économie via les coûts de production et les revendications salariales, alimentant une **inflation par les coûts**."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette analyse montre qu'une **hausse des taux d'intérêt** par la banque centrale est souvent mal adaptée pour traiter une inflation d'origine sectorielle ou climatique. En freinant la demande globale sans lever les contraintes physiques de l'offre, la politique monétaire risque de casser l'activité tout en laissant subsister la pénurie."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "L'inflation sectorielle post-Covid (2021-2023)",
+              "d": "Les ruptures de chaînes logistiques et les pénuries de semi-conducteurs ont déclenché une poussée des prix avant la surchauffe salariale."
+            },
+            {
+              "t": "La « climateflation »",
+              "d": "Les aléas climatiques (El Niño, sécheresses) créent des chocs d'offre agricoles récurrents qui tirent les prix alimentaires."
+            },
+            {
+              "t": "La courbe de Phillips augmentée",
+              "d": "Intègre les chocs d'offre (énergie, matières premières) à côté du chômage et des anticipations."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Pour les monétaristes comme **Milton Friedman**, un choc de prix relatif sur un bien (riz, pétrole) ne provoque qu'un ajustement temporaire des prix, sauf si la **création monétaire** valide la hausse et la transforme en inflation durable."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Tensions sur le riz indien (2026)",
+              "d": "El Niño réduit la récolte de variétés premium que les stocks publics standards ne peuvent pas substituer."
+            },
+            {
+              "t": "Crise des chaînes d'approvisionnement (2021-2022)",
+              "d": "Congestion portuaire et pénurie de composants freinant l'industrie mondiale."
+            },
+            {
+              "t": "Choc énergétique en Europe (2022)",
+              "d": "Hausse du gaz se diffusant à l'ensemble des coûts industriels et alimentaires."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1968)",
+              "idee": "l'inflation reste toujours et partout un phénomène monétaire"
+            },
+            {
+              "sens": "≠",
+              "nom": "John Maynard Keynes (1940)",
+              "idee": "l'écart inflationniste survient surtout lorsque l'économie atteint le plein-emploi"
+            },
+            {
+              "sens": "=",
+              "nom": "Iain Macleod (1965)",
+              "idee": "la stagflation combine choc d'offre inflationniste et ralentissement réel"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

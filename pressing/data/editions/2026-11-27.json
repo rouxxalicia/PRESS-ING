@@ -1,0 +1,1177 @@
+{
+ "date": "2026-11-27",
+ "cards": [
+  {
+   "id": "2026-11-27-esh-1",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conjoncture/l-espagnol-pablo-hernandez-de-cos-va-succeder-a-christine-lagarde-a-la-bce-20261126",
+   "minutes": 3,
+   "titre": "BCE : l'Espagnol Pablo Hernández de Cos désigné pour succéder à Christine Lagarde",
+   "dossier": "succession-lagarde-bce",
+   "suite": "Les États de la zone euro s'accordent pour désigner Pablo Hernández de Cos à la présidence de la BCE à compter de février 2027.",
+   "faits": "Réunis en sommet européen à Bruxelles jeudi 26 novembre, les dirigeants de la zone euro ont choisi l'Espagnol Pablo Hernández de Cos pour succéder à Christine Lagarde à la présidence de la Banque centrale européenne (BCE). Âgé de 55 ans, l'ancien gouverneur de la Banque d'Espagne (2018-2024) dirige actuellement la Banque des règlements internationaux (BRI) à Bâle. Il a été préféré au Néerlandais Klaas Knot après avoir obtenu le soutien décisif de Paris et de Berlin, conduisant les Pays-Bas à se rallier à sa candidature. Ce renouvellement fait suite à l'annonce fin octobre du départ anticipé de Christine Lagarde, qui quittera Francfort le 7 février 2027. Parallèlement, les États de la zone euro doivent valider l'entrée au directoire du tandem franco-allemand composé de Laurence Boone et de Markus Brunnermeier, seuls candidats en lice pour remplacer Isabel Schnabel et Philip Lane. La désignation formelle de Pablo Hernández de Cos interviendra après consultation du Parlement européen et du conseil des gouverneurs de la BCE.",
+   "enjeux": "Cette nomination parachève l'équilibre institutionnel européen à un moment critique pour la **politique monétaire** de la zone euro, confrontée à un regain d'**inflation** lié aux tensions énergétiques. En confiant la présidence à un ancien directeur général de la BRI réputé pragmatique et consensuel, tout en intégrant l'économiste allemand Markus Brunnermeier et la Française Laurence Boone au directoire, les États cherchent à concilier **crédibilité anti-inflationniste** auprès des marchés du Nord et attention portée à la **stabilité financière** des pays très endettés du Sud et de la France. La procédure rappelle toutefois le poids politique des gouvernements dans la désignation des dirigeants d'une institution pourtant juridiquement **indépendante**. Pour une dissertation sur l'intégration européenne ou l'action des banques centrales, ce renouvellement illustre le délicat arbitrage entre **ancrage des anticipations** d'inflation et prévention de la **fragmentation financière** au sein d'une union monétaire sans véritable budget fédéral.",
+   "image": {
+    "url": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/26/a710e5271a88fcd51efb7f4bd30adc18a2b5b0db0d4c28bd71d1fbc402eed91a.JPG",
+    "alt": "Portrait de Pablo Hernández de Cos lors d'une conférence économique",
+    "credit": "Le Figaro",
+    "source": "https://www.lefigaro.fr/conjoncture/l-espagnol-pablo-hernandez-de-cos-va-succeder-a-christine-lagarde-a-la-bce-20261126"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : la monnaie et le financement de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "Finn Kydland et Edward Prescott",
+     "ouvrage": "« Les règles plutôt que la discrétion »",
+     "annee": "1977",
+     "ref": "incoherence-temporelle",
+     "cours": "1A-hpe",
+     "texte": "Kydland et Prescott montrent que les politiques discrétionnaires souffrent d'**incohérence temporelle** : un gouvernement tenté de relancer par surprise finit par générer de l'inflation sans gain durable d'emploi, ce qui justifie une **banque centrale indépendante**. Dans cette actualité, le choix d'un profil technique passé par la BRI et le ralliement néerlandais visent précisément à préserver la **crédibilité** de la BCE face aux marchés obligataires. À mobiliser dans tout sujet sur l'indépendance des banques centrales ou la lutte contre l'inflation."
+    },
+    {
+     "nom": "John Maynard Keynes",
+     "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+     "annee": "1936",
+     "ref": "demande-effective-keynes",
+     "cours": "1A-hpe",
+     "texte": "Keynes souligne que la politique monétaire seule ne peut soutenir durablement la **demande effective** lorsque les anticipations des entrepreneurs se dégradent ou en situation de trappe à liquidité, et appelle à une coordination avec la **politique budgétaire**. Alors que les États membres peinent à s'accorder sur le budget européen, l'arrivée d'un nouveau directoire à Francfort montre que la BCE reste souvent contrainte de compenser l'absence de fédéralisme budgétaire en zone euro. À mobiliser pour discuter les limites du **policy mix** européen."
+    }
+   ],
+   "notions": [
+    [
+     "Indépendance de la banque centrale",
+     "Autonomie statutaire et opérationnelle garantissant que les décisions monétaires échappent aux pressions électorales de court terme."
+    ],
+    [
+     "Incohérence temporelle",
+     "Biais conduisant les décideurs à renoncer à une promesse de stabilité des prix une fois les anticipations privées fixées."
+    ],
+    [
+     "Directoire de la BCE",
+     "Organe exécutif de six membres chargé de mettre en œuvre la politique monétaire décidée par le Conseil des gouverneurs."
+    ],
+    [
+     "Policy mix",
+     "Articulation entre la politique monétaire de la banque centrale et les politiques budgétaires nationales ou européennes."
+    ]
+   ],
+   "sujets": [
+    "L'indépendance des banques centrales est-elle toujours la meilleure garantie de stabilité économique ?",
+    "La zone euro souffre-t-elle d'un déséquilibre entre sa politique monétaire unique et ses politiques budgétaires nationales ?"
+   ],
+   "anki": [
+    {
+     "q": "Date du départ anticipé de Christine Lagarde de la BCE et nom de son successeur désigné",
+     "r": "Départ effectif le D{7 février 2027}, remplacée par l'Espagnol Pablo Hernández de Cos (ancien gouverneur de la Banque d'Espagne et directeur de la BRI).\n→ Ce passage de témoin avant la présidentielle française illustre l'enjeu de B{crédibilité} d'une banque centrale indépendante (A{Kydland et Prescott}, O{« Les règles plutôt que la discrétion »}, D{1977}) dans un contexte d'inflation et de dette élevée."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-esh-2",
+   "matiere": "esh",
+   "source": "Alternatives économiques",
+   "url": "https://www.alternatives-economiques.fr/faut-il-imposer-une-regle-d-or-pour-redresser-les-comptes-publics_25-11-2026",
+   "minutes": 3,
+   "titre": "Finances publiques : le débat sur une règle d'or budgétaire relancé en France face aux limites du modèle allemand",
+   "dossier": "regle-dor-budgetaire-france",
+   "faits": "À l'approche de l'élection présidentielle de 2027, l'idée d'inscrire une règle d'or budgétaire dans la Constitution revient au premier plan du débat français. L'exécutif envisage de reprendre la révision constitutionnelle avortée de 2011 imposant des lois-cadres d'équilibre sur trois ans, tandis que plusieurs candidats de droite et du centre proposent un référendum interdisant tout déficit excessif. Marine Le Pen défend de son côté une règle indexée sur le solde nominal permettant de stabiliser la dette. Ces projets s'inspirent du « frein à la dette » inscrit dans la Constitution allemande en 2009, qui plafonnait le déficit structurel à 0,35 % du PIB. Toutefois, Berlin a dû assouplir ce mécanisme en 2025 pour en exclure les dépenses militaires et un fonds destiné à rénover des infrastructures dégradées. Selon l'Institut Avant-garde, l'inaction climatique entraînerait par ailleurs une hausse du taux d'endettement d'environ 25 points de PIB d'ici à 2070.",
+   "enjeux": "Cette controverse met en lumière l'opposition théorique entre **discipline budgétaire** par des règles constitutionnelles et **politique budgétaire contracyclique**. Pour les partisans de la règle d'or, l'engagement contraignant limite le **biais déficitaire** des gouvernements et rassure les créanciers sur la soutenabilité de la dette. À l'inverse, des économistes comme Éric Heyer rappellent qu'une règle rigide — surtout si elle porte sur le **déficit nominal** et non sur le **déficit structurel** — devient **procyclique** : en freinant les dépenses lors d'un ralentissement, elle réduit la croissance et aggrave finalement le déficit. L'expérience allemande montre de surcroît qu'un plafond strict peut sacrifier l'**investissement public** de long terme et pousser l'économie à accumuler un excédent extérieur excessif au détriment de sa demande intérieure.",
+   "image": {
+    "url": "https://www.alternatives-economiques.fr/sites/default/files/styles/for_social_networks/public/images/AFP__20261123__D8CR4FY__v2__HighRes__FrancePoliticsIndustryAviationAirbus.jpg.webp?itok=EbzhEF3r",
+    "alt": "Illustration économique et politique française sur fond de débat budgétaire",
+    "credit": "Alternatives économiques",
+    "source": "https://www.alternatives-economiques.fr/faut-il-imposer-une-regle-d-or-pour-redresser-les-comptes-publics_25-11-2026"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "Théorie des finances publiques",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "cours": "1A-acteurs-fonctions",
+     "texte": "Musgrave assigne à l'État trois fonctions économiques : **allocation des ressources**, **redistribution** et **stabilisation** de la conjoncture. Inscrire un plafond rigide sur le déficit nominal entrave directement la fonction de stabilisation en empêchant les stabilisateurs automatiques et la relance de jouer en récession, tout en risquant de comprimer les dépenses d'allocation (infrastructures, transition). À mobiliser pour évaluer la pertinence des règles budgétaires face aux fonctions de l'État."
+    },
+    {
+     "nom": "Evsey Domar",
+     "ouvrage": "« The 'Burden of the Debt' and the National Income »",
+     "annee": "1944",
+     "ref": "effet-boule-de-neige",
+     "texte": "Domar formalise la dynamique du ratio dette/PIB et montre que la dette s'emballe par **effet boule de neige** lorsque le taux d'intérêt réel dépasse le taux de croissance de l'économie (`r > g`), obligeant à dégager des excédents primaires. Si cet argument explique pourquoi les partisans d'une règle d'or cherchent à verrouiller la trajectoire budgétaire, Domar rappelle aussi qu'une politique qui détruit la **croissance** dégrade le dénominateur du ratio. À mobiliser pour nuancer l'austérité par les règles."
+    }
+   ],
+   "notions": [
+    [
+     "Règle d'or budgétaire",
+     "Disposition juridique ou constitutionnelle plafonnant le déficit ou réservant l'emprunt public au seul financement des dépenses d'investissement."
+    ],
+    [
+     "Déficit structurel",
+     "Solde des administrations publiques corrigé des effets de la conjoncture économique et des mesures exceptionnelles."
+    ],
+    [
+     "Politique contracyclique",
+     "Action publique qui soutient l'activité en période de récession et reconstitue des marges budgétaires en phase d'expansion."
+    ],
+    [
+     "Frein à la dette allemand",
+     "Règle constitutionnelle adoptée en 2009 limitant le déficit structurel fédéral à 0,35 % du PIB, assouplie en 2025 pour la défense et les infrastructures."
+    ]
+   ],
+   "sujets": [
+    "Les règles budgétaires constitutionnelles sont-elles un remède efficace aux déficits publics ?",
+    "Faut-il privilégier la soutenabilité de la dette ou le maintien des investissements publics ?"
+   ],
+   "anki": [
+    {
+     "q": "Plafond du frein à la dette allemand (2009) et évolution décidée en 2025",
+     "r": "Plafond de C{0,35 %} du PIB pour le déficit structurel depuis D{2009}, assoupli en D{2025} pour exclure la défense et un fonds d'infrastructures.\n→ Montre qu'une règle rigide finit par sacrifier l'investissement public et la fonction d'B{allocation} de l'État (A{Musgrave}, O{Théorie des finances publiques}, D{1959})."
+    },
+    {
+     "q": "Impact de l'inaction climatique sur l'endettement public d'ici 2070 (Institut Avant-garde)",
+     "r": "Environ C{+25 points} de PIB d'endettement supplémentaire d'ici D{2070}.\n→ Accroche pour un sujet sur la soutenabilité budgétaire ou la règle d'or : couper les investissements verts aujourd'hui alourdit la dette de demain."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-esh-3",
+   "matiere": "esh",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/conjoncture/ca-a-ete-le-combat-de-l-annee-emmanuel-macron-reaffirme-son-opposition-a-l-accord-ue-mercosur-et-charge-la-viande-dopee-du-bresil-20261126",
+   "minutes": 3,
+   "titre": "UE-Mercosur : Emmanuel Macron réaffirme l'opposition de la France face aux importations brésiliennes",
+   "dossier": "accord-ue-mercosur-agriculture",
+   "faits": "Recevant les principales organisations agricoles à l'Élysée le 25 novembre, Emmanuel Macron a réaffirmé l'opposition de la France à l'accord commercial entre l'Union européenne et le Mercosur. Ce traité est pourtant appliqué à titre provisoire depuis le 1er mai 2026, dans l'attente de l'examen juridique de la Cour de justice de l'UE saisie par le Parlement européen. Le chef de l'État a mis en avant la suspension par Bruxelles, depuis le 3 septembre 2026, des importations de viandes bovines et de volailles brésiliennes jugées non conformes aux normes sanitaires européennes. Il a opposé le CETA avec le Canada, défendu en 2019 au nom de ses instruments de vérification et de ses clauses miroirs, à un traité avec le Mercosur dépourvu à ses yeux des verrous nécessaires contre la concurrence déloyale. Cette prise de position intervient alors que le Conseil européen négocie le prochain budget pluriannuel jusqu'en 2034, marqué par une proposition de coupe de 204 milliards d'euros sur un projet initial de 2 000 milliards, faisant craindre au secteur agricole une réduction de la PAC.",
+   "enjeux": "Ce conflit illustre le basculement du commerce international d'une logique purement tarifaire vers un affrontement sur les **normes sanitaires et environnementales**. Pour les défenseurs de l'accord, ouvrir le marché européen aux produits agricoles sud-américains contre des débouchés industriels crée un gain global conforme à la logique des **avantages comparatifs**. Mais la France dénonce une **asymétrie réglementaire** et réclame des **clauses miroirs** : imposer aux producteurs européens des contraintes environnementales et sanitaires tout en important des biens qui y échappent génère une concurrence perçue comme déloyale et alimente les **fuites environnementales**. Dans une copie sur le libre-échange ou la politique commerciale européenne, cet épisode montre la tension entre intérêts industriels allemands ou espagnols, souveraineté alimentaire et préservation du modèle agricole de la **PAC**.",
+   "image": {
+    "url": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/26/ef1b93632ce4fec25f540a220873798de3bc3484459cf0cf2d455c36fe1ed3f6.jpg",
+    "alt": "Emmanuel Macron recevant des représentants agricoles à l'Élysée",
+    "credit": "Le Figaro",
+    "source": "https://www.lefigaro.fr/conjoncture/ca-a-ete-le-combat-de-l-annee-emmanuel-macron-reaffirme-son-opposition-a-l-accord-ue-mercosur-et-charge-la-viande-dopee-du-bresil-20261126"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'analyse économique des échanges internationaux"
+   },
+   "auteurs": [
+    {
+     "nom": "David Ricardo",
+     "ouvrage": "Des principes de l'économie politique et de l'impôt",
+     "annee": "1817",
+     "ref": "avantages-comparatifs",
+     "cours": "2A-01-mondialisation-commerciale",
+     "texte": "Ricardo démontre que chaque pays gagne à se spécialiser selon son **avantage comparatif**, même s'il est moins efficace partout : l'ouverture élargit la consommation nationale et profite aux exportateurs industriels européens vers le Mercosur. Toutefois, comme le souligne le théorème de Stolper-Samuelson, le gain agrégé s'accompagne de perdants sectoriels — ici les éleveurs européens — ce qui explique la résistance politique à la ratification. À mobiliser pour poser les bases et limites sociales du libre-échange."
+    },
+    {
+     "nom": "Pascal Lamy",
+     "ouvrage": "« Le libre-échange n'existe pas », Revue internationale et stratégique",
+     "annee": "2017",
+     "ref": "libre-echange-imparfait-lamy",
+     "cours": "2A-01-mondialisation-commerciale",
+     "texte": "Pascal Lamy rappelle que le **libre-échange** pur est une fiction : les accords contemporains portent avant tout sur l'encadrement réglementaire des échanges et sur les **normes** de précaution sanitaire ou environnementale. L'exigence française de **clauses miroirs** et la suspension des importations brésiliennes non conformes confirment que la bataille commerciale se joue sur la régulation non tarifaire autant que sur les droits de douane. À mobiliser pour nuancer l'opposition binaire entre ouverture et protectionnisme."
+    }
+   ],
+   "notions": [
+    [
+     "Clauses miroirs",
+     "Mécanisme conditionnant l'accès d'un produit importé au respect des mêmes normes sanitaires et environnementales que celles imposées aux producteurs nationaux."
+    ],
+    [
+     "Barrières non tarifaires",
+     "Restrictions aux échanges prenant la forme de normes techniques, sanitaires, environnementales ou de quotas plutôt que de droits de douane."
+    ],
+    [
+     "Accord de libre-échange",
+     "Traité réduisant les droits de douane et harmonisant certaines règles commerciales entre pays signataires sans tarif extérieur commun."
+    ],
+    [
+     "Dumping environnemental",
+     "Avantage de coût tiré par un pays exportateur de normes écologiques ou sanitaires moins contraignantes que chez ses partenaires."
+    ]
+   ],
+   "sujets": [
+    "Les normes environnementales et sanitaires sont-elles une nouvelle forme de protectionnisme ?",
+    "L'Union européenne doit-elle conditionner ses accords commerciaux à l'adoption de clauses miroirs ?"
+   ],
+   "anki": [
+    {
+     "q": "Date d'application provisoire de l'accord UE-Mercosur et mesure prise par Bruxelles le 3 septembre 2026",
+     "r": "Application provisoire depuis le D{1er mai 2026}, suivie de la suspension des importations de viandes bovines et volailles brésiliennes le D{3 septembre 2026}.\n→ Illustre que le commerce moderne se régule par les B{normes sanitaires} plus que par les tarifs (A{Pascal Lamy}, O{« Le libre-échange n'existe pas »}, D{2017})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-esh-4",
+   "matiere": "esh",
+   "source": "La Tribune",
+   "url": "https://www.latribune.fr/article/idees/1955657473771214/opinion-la-france-devrait-aider-les-entreprises-industrielles-dont-elle-a-le-plus-besoin-ses-eti-pas-ses-multinationales",
+   "minutes": 3,
+   "titre": "Réindustrialisation : pourquoi le déficit d'ETI industrielles freine l'économie française",
+   "dossier": "eti-reindustrialisation-france",
+   "faits": "Dans une analyse publiée le 27 novembre par La Tribune, les économistes Pierre-André Buigues et Denis Lacoste dressent un bilan sévère de la réindustrialisation française : la part de l'industrie manufacturière est passée de 10 % du PIB en 2017 à 9,6 % en 2025, contre 15 % en Italie et 18 % en Allemagne. Selon Trendeo, le solde net entre ouvertures et fermetures d'usines a chuté à −63 en 2025, un plus bas depuis 2013, tandis que le déficit commercial sur les biens atteint 69 milliards d'euros. L'appareil productif français souffre d'une forte polarisation : la France compte 13 des 100 plus grandes multinationales mondiales (Cnuced, 2025), mais seulement 19 ETI industrielles par million d'habitants (1 275 au total en 2022), contre 52 en Allemagne. Parallèlement, les PME françaises ne réalisent que 5 % des exportations de biens, contre 47 % en Italie selon Bpifrance Le Lab (2026). Enfin, les impôts de production représentent 2,9 % du PIB en 2024 en France, contre 1,4 % en moyenne en zone euro et 0,7 % en Allemagne, et les grands groupes captent 40 % du Crédit d'impôt recherche.",
+   "enjeux": "Ce diagnostic remet en cause une **politique industrielle** centrée sur les méga-projets et les champions multinationaux plutôt que sur l'écosystème des **PME et ETI**. Alors que les multinationales françaises emploient à l'étranger l'équivalent de 63 % de leur main-d'œuvre industrielle domestique (contre 38 % en Allemagne), les ETI ancrent leurs sites productifs et exportent sur des niches à forte **compétitivité hors-prix**. La France cumule ainsi des **impôts de production** élevés qui pèsent indépendamment de la rentabilité, un taux effectif d'impôt sur les sociétés plus lourd pour les PME (21,4 %) que pour les grandes entreprises (14,3 %), et des coûts administratifs estimés à 3 % du PIB par le Sénat. Pour les concours, ces chiffres permettent de comparer efficacement le modèle français (très grandes firmes et micro-entreprises) au **Mittelstand** allemand et aux **districts industriels** italiens.",
+   "image": {
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/27/pierre-andre-buigues-et-denis-lacoste-1795759592_174ebbcd190b61b4ebbcd190bde4ebv_.jpg",
+    "alt": "Portraits des économistes Pierre-André Buigues et Denis Lacoste",
+    "credit": "latribune.fr",
+    "source": "https://www.latribune.fr/article/idees/1955657473771214/opinion-la-france-devrait-aider-les-entreprises-industrielles-dont-elle-a-le-plus-besoin-ses-eti-pas-ses-multinationales"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Élie Cohen et Jean-Hervé Lorenzi",
+     "ouvrage": "Politiques industrielles pour l'Europe",
+     "annee": "2000",
+     "ref": "politique-industrielle-cohen-lorenzi",
+     "cours": "2A-02-ftn",
+     "texte": "Cohen et Lorenzi définissent la **politique industrielle** comme une action publique ciblée visant à pallier les défaillances de l'initiative privée et à bâtir l'**autonomie technologique**. L'analyse montre cependant que l'efficacité de cette politique dépend de la cible choisie : en concentrant les aides (CIR, grands sommets) sur les grandes firmes plutôt que sur la croissance des **ETI**, l'État risque de subventionner des groupes déjà internationalisés sans densifier le tissu productif national. À mobiliser sur l'évaluation des politiques de réindustrialisation."
+    },
+    {
+     "nom": "Lionel Fontagné",
+     "ouvrage": "Pas d'industrie, pas d'avenir ?",
+     "annee": "2014",
+     "ref": "activite-industrielle-fontagne",
+     "cours": "2A-02-ftn",
+     "texte": "Fontagné distingue l'**industrie au sens strict** (la fabrication) de l'**activité industrielle** globale (conception, R&D, marque, organisation des chaînes de valeur) qu'une multinationale peut conserver en France tout en délocalisant ses usines. Cet éclairage explique le paradoxe français : 13 des 100 plus grandes firmes mondiales sont françaises, mais l'emploi industriel de leurs filiales étrangères équivaut à 63 % de celui en France et la balance commerciale reste très déficitaire. À mobiliser pour analyser désindustrialisation et stratégie des **FMN**."
+    }
+   ],
+   "notions": [
+    [
+     "Entreprise de taille intermédiaire (ETI)",
+     "Entreprise comptant entre 250 et 4 999 salariés, pilier de l'ancrage territorial et de l'exportation industrielle dans le modèle allemand."
+    ],
+    [
+     "Impôts de production",
+     "Prélèvements pesant sur les facteurs de production et le chiffre d'affaires des entreprises indépendamment de leurs bénéfices (2,9 % du PIB en France)."
+    ],
+    [
+     "Désindustrialisation",
+     "Recul durable de la part de l'industrie manufacturière dans le PIB et l'emploi total d'une économie développée."
+    ],
+    [
+     "District industriel",
+     "Concentration géographique de PME spécialisées coopérant sur un même territoire autour d'un savoir-faire et de services partagés, typique du modèle italien."
+    ]
+   ],
+   "sujets": [
+    "La réindustrialisation de la France passe-t-elle par le soutien aux grands groupes ou aux ETI ?",
+    "Comment expliquer la divergence de compétitivité industrielle entre la France, l'Allemagne et l'Italie ?"
+   ],
+   "anki": [
+    {
+     "q": "Part de l'industrie manufacturière dans le PIB en France, Italie et Allemagne (2025)",
+     "r": "C{9,6 %} du PIB en France (contre C{10 %} en D{2017}), contre C{15 %} en Italie et C{18 %} en Allemagne.\n→ Chiffre d'accroche sur la B{désindustrialisation} française et le rôle de l'B{activité industrielle} (A{Fontagné}, O{Pas d'industrie, pas d'avenir ?}, D{2014})."
+    },
+    {
+     "q": "Nombre d'ETI industrielles par million d'habitants en France vs Allemagne et part des PME dans les exportations (France vs Italie)",
+     "r": "C{19} ETI industrielles par million d'habitants en France contre C{52} en Allemagne ; C{5 %} des exportations de biens assurés par les PME en France contre C{47 %} en Italie.\n→ Montre la polarisation du tissu productif français et l'intérêt de réorienter la B{politique industrielle} vers les ETI (A{Cohen et Lorenzi}, O{Politiques industrielles pour l'Europe}, D{2000})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-esh-5",
+   "matiere": "esh",
+   "source": "RFI",
+   "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20261127-le-march%C3%A9-mondial-va-t-il-bient%C3%B4t-devoir-se-priver-de-riz-indien",
+   "minutes": 3,
+   "titre": "Matières premières : la baisse des récoltes de riz en Inde fait flamber les prix et menace l'offre mondiale",
+   "dossier": "marche-mondial-riz-inde",
+   "faits": "Premier exportateur mondial avec environ 40 % de l'approvisionnement international, l'Inde devrait enregistrer sa première baisse de production de riz depuis dix ans sous l'effet d'un déficit de précipitations lié au phénomène climatique El Niño. En octobre 2026, les prix indiens du riz ont progressé de 12 % sur un an en moyenne, mais les variétés haut de gamme consommées dans le sud du pays ont presque doublé. Le riz brisé renchérit également, tiré par une double demande : l'alimentation animale (en substitution à un maïs trop cher) et la production d'éthanol. Paradoxalement, l'Inde disposait au 1er octobre de réserves publiques supérieures à 55 millions de tonnes, soit quatre fois le niveau recommandé par le gouvernement ; mais ces stocks se composent de riz blanc standard, inadapté aux variétés locales touchées. Les tensions gagnent aussi le Pakistan et la Thaïlande, tandis que les négociants redoutent que New Delhi n'instaure de nouvelles restrictions à l'exportation comme en 2022.",
+   "enjeux": "Cet épisode illustre la vulnérabilité des marchés agricoles face aux **chocs d'offre climatiques** et au risque de **nationalisme alimentaire**. Contrairement à une inflation tirée par un excès de demande globale, la flambée du riz naît de **goulets d'étranglement** sectoriels et d'une **inélasticité de l'offre** à court terme, que des stocks publics mal ciblés ne suffisent pas à corriger. Elle met aussi en évidence la concurrence croissante entre usages alimentaires et énergétiques des cultures (biocarburants). Sur le plan international, d'éventuelles restrictions indiennes à l'exportation constitueraient un choc d'**inflation importée** sévère pour les pays importateurs d'Afrique subsaharienne, illustrant les failles de la spécialisation primaire et de la dépendance alimentaire.",
+   "image": {
+    "url": "https://s.rfi.fr/media/display/8bfb580c-e9eb-11f1-b5d8-81bc2b1dcd65/w:1280/p:16x9/AP25219838296753.jpg",
+    "alt": "Rizières et récolte de riz en Inde",
+    "credit": "RFI",
+    "source": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20261127-le-march%C3%A9-mondial-va-t-il-bient%C3%B4t-devoir-se-priver-de-riz-indien"
+   },
+   "programme": {
+    "module": "Module 4 – Déséquilibres, régulation et action publique",
+    "chapitre": "4.1 – Équilibres et déséquilibres macroéconomiques : l'inflation et le chômage"
+   },
+   "auteurs": [
+    {
+     "nom": "Nicholas Kaldor",
+     "ouvrage": "Economic Growth and the Problem of Inflation",
+     "annee": "1959",
+     "ref": "inflation-goulets-etranglement-kaldor",
+     "cours": "1A-inflation",
+     "texte": "Kaldor montre que l'inflation surgit bien avant le plein-emploi lorsque l'offre de secteurs clés (agriculture, matières premières) s'adapte trop lentement et crée des **goulets d'étranglement**. Le cas du riz indien — où El Niño et la concurrence de l'éthanol compriment des variétés précises malgré 55 millions de tonnes de stocks standards — confirme le rôle des rigidités sectorielles dans la hausse des prix. À mobiliser pour montrer les limites d'une réponse purement monétaire face à une **inflation par l'offre**."
+    },
+    {
+     "nom": "Raúl Prebisch",
+     "ouvrage": "Le développement économique de l'Amérique latine et ses principaux problèmes",
+     "annee": "1950",
+     "ref": "degradation-termes-echange-prebisch",
+     "cours": "1A-inegalites-developpement",
+     "texte": "Prebisch souligne la vulnérabilité structurelle des pays en développement enfermés dans une spécialisation primaire face à la volatilité des cours mondiaux et à l'asymétrie du commerce international. Lorsqu'un grand exportateur comme l'Inde privilégie son marché intérieur en restreignant ses ventes, les pays africains importateurs nets subissent de plein fouet l'instabilité des prix alimentaires et la dépendance extérieure. À mobiliser sur les risques de la spécialisation primaire et la sécurité alimentaire."
+    }
+   ],
+   "notions": [
+    [
+     "Choc d'offre négatif",
+     "Perturbation exogène (aléa climatique, guerre, hausse des intrants) réduisant la capacité de production et tirant les prix à la hausse."
+    ],
+    [
+     "Goulet d'étranglement",
+     "Saturation physique d'un segment de l'offre incapable de répondre rapidement à la demande, générant une poussée inflationniste sectorielle."
+    ],
+    [
+     "Nationalisme alimentaire",
+     "Recours d'un État à des restrictions aux exportations agricoles pour contenir ses prix intérieurs, au détriment de l'approvisionnement mondial."
+    ],
+    [
+     "Inflation importée",
+     "Hausse du niveau général des prix domestiques provoquée par le renchérissement des biens et matières premières importés."
+    ]
+   ],
+   "sujets": [
+    "Les politiques monétaires sont-elles efficaces face aux chocs d'offre climatiques ?",
+    "Comment assurer la sécurité alimentaire dans une économie mondialisée exposée aux aléas climatiques ?"
+   ],
+   "anki": [
+    {
+     "q": "Part de l'Inde dans l'offre mondiale de riz et hausse des prix indiens en octobre 2026",
+     "r": "L'Inde assure C{40 %} de l'approvisionnement mondial ; ses prix ont augmenté de C{+12 %} sur un an en D{octobre 2026} (et presque doublé pour les variétés premium).\n→ Illustre l'B{inflation par les goulets d'étranglement} (A{Kaldor}, O{Economic Growth and the Problem of Inflation}, D{1959}) et le risque de restrictions à l'exportation pour les pays importateurs."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-esh-6",
+   "matiere": "esh",
+   "source": "La Tribune",
+   "url": "https://www.latribune.fr/article/tech/125018808878414/ia-pour-tous-le-credit-agricole-lance-son-grand-chantier-en-interne-et-bientot-pour-les-clients",
+   "minutes": 3,
+   "titre": "Banque et IA : le Crédit agricole investit 500 millions d'euros dans des agents d'intelligence artificielle européens",
+   "dossier": "ia-agentique-credit-agricole",
+   "faits": "Le groupe Crédit agricole a annoncé fin octobre la montée en puissance de son entité Crédit Agricole Artificial Intelligence (CA AI) autour d'une enveloppe de près de 500 millions d'euros sur trois ans (2026-2028) dans le cadre de son plan stratégique Acte 2028. Pour équiper l'ensemble de ses collaborateurs en agents d'IA générative et agentique, la banque s'allie notamment aux acteurs français Mistral et Prisme.ai. Cette stratégie d'« IA pour tous » vise à mutualiser les outils en interne afin de limiter le « shadow AI », c'est-à-dire l'utilisation non encadrée d'outils grand public par les salariés. Selon le groupe, près de neuf collaborateurs formés sur dix utilisent déjà régulièrement l'assistant interne existant. Avec la nouvelle version Sécur'IA, les équipes métiers peuvent concevoir et partager leurs propres agents pour vérifier la conformité réglementaire d'un projet ou transcrire des réunions, tandis que des « champions » internes diffusent ces usages.",
+   "enjeux": "Cet investissement massif illustre les conditions concrètes nécessaires pour transformer l'**intelligence artificielle** en gains réels de **productivité globale des facteurs**. L'enjeu ne se limite pas à l'achat de logiciels : il exige une réorganisation du travail, la formation continue des salariés (augmentation du **capital humain**) et l'émergence de nouveaux usages métiers pour éviter que la technologie ne reste stérile. Par ailleurs, le choix délibéré de partenaires français comme Mistral et Prisme.ai plutôt que de solutions exclusivement américaines soulève la question de la **souveraineté numérique** européenne et de la sécurité des données financières. Pour une dissertation sur le progrès technique et la croissance, cet exemple montre comment une grande entreprise de services tente d'internaliser les **externalités de réseau** et l'apprentissage organisationnel.",
+   "image": {
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/26/la-banque-en-ligne-a-toujours-ete-un-sujet-complexe-au-sein-du-groupe-mutualiste-credit-agricole-1795689045_1e9fa6795cf9612afa6795cf9e5afav_.jpg",
+    "alt": "Façade et identité visuelle du groupe bancaire Crédit agricole",
+    "credit": "latribune.fr",
+    "source": "https://www.latribune.fr/article/tech/125018808878414/ia-pour-tous-le-credit-agricole-lance-son-grand-chantier-en-interne-et-bientot-pour-les-clients"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+   },
+   "auteurs": [
+    {
+     "nom": "Robert Solow",
+     "ouvrage": "« We'd Better Watch Out » (Paradoxe de Solow)",
+     "annee": "1987",
+     "ref": "paradoxe-de-solow",
+     "cours": "1A-croissance",
+     "texte": "Solow résumait le **paradoxe de la productivité** par la formule célèbre : « on voit des ordinateurs partout sauf dans les statistiques de productivité ». Ce décalage montre qu'une technologie générale comme l'IA ne dope l'efficacité qu'après un temps d'adaptation des processus, de gouvernance des données et d'organisation du travail — exactement ce que cherche le Crédit agricole avec Sécur'IA et ses « champions » internes. À mobiliser dans tout sujet sur l'impact économique de l'IA et le progrès technique."
+    },
+    {
+     "nom": "Gary Becker",
+     "ouvrage": "Le Capital humain",
+     "annee": "1964",
+     "ref": "capital-humain-becker",
+     "cours": "1A-croissance",
+     "texte": "Becker montre que les dépenses d'éducation et de formation constituent un véritable investissement en **capital humain** qui élève la productivité individuelle et collective. En accompagnant ses 500 millions d'euros d'outils techniques par un programme généralisé de montée en compétences (« IA pour tous »), la banque cherche la complémentarité entre capital technologique et qualification des salariés. À mobiliser pour souligner que l'innovation technologique ne porte ses fruits qu'adossée à la formation."
+    }
+   ],
+   "notions": [
+    [
+     "Paradoxe de Solow",
+     "Décalage temporel entre la diffusion rapide d'une innovation technologique (informatique, IA) et l'apparition de gains mesurables de productivité."
+    ],
+    [
+     "Productivité globale des facteurs (PGF)",
+     "Part de la croissance économique non expliquée par le volume de travail et de capital, reflétant l'efficacité organisationnelle et le progrès technique."
+    ],
+    [
+     "Capital humain",
+     "Ensemble des connaissances, qualifications et compétences détenues par les individus et accumulées par la formation et l'expérience."
+    ],
+    [
+     "Souveraineté numérique",
+     "Capacité d'un État ou d'entreprises européennes à maîtriser leurs infrastructures, modèles d'IA et données critiques sans dépendance critique extérieure."
+    ]
+   ],
+   "sujets": [
+    "L'intelligence artificielle suffira-t-elle à relancer les gains de productivité en Europe ?",
+    "L'investissement technologique des entreprises peut-il réussir sans transformation du capital humain et de l'organisation du travail ?"
+   ],
+   "anki": [
+    {
+     "q": "Investissement du Crédit agricole dans l'IA (2026-2028) et taux d'adoption interne",
+     "r": "Près de C{500 M€} sur trois ans (D{2026-2028}) en partenariat avec Mistral et Prisme.ai ; près de C{9 collaborateurs formés sur 10} utilisent régulièrement l'assistant.\n→ Montre que lever le B{paradoxe de Solow} (A{Solow}, D{1987}) exige formation (A{Becker}, O{Le Capital humain}, D{1964}) et réorganisation des métiers."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-anglais-1",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o?at_medium=RSS&at_campaign=rss",
+   "minutes": 3,
+   "titre": "Royaume-Uni : l'immigration nette chute à 77 000 personnes, son plus bas niveau depuis 1997 hors pandémie",
+   "dossier": "immigration-royaume-uni",
+   "faits": "Selon les chiffres publiés jeudi 26 novembre par l'Office for National Statistics (ONS), le solde migratoire net du Royaume-Uni est tombé à 77 000 personnes sur l'année arrêtée en juin 2026, soit 738 000 arrivées pour 661 000 départs. Hors restrictions sanitaires de 2020, il s'agit du niveau le plus faible enregistré depuis 1997, en chute de 92 % par rapport au pic record de 944 000 atteint sur l'année achevée en mars 2023. Pour la première fois depuis l'engagement controversé de David Cameron en 2010, l'immigration nette repasse ainsi sous la barre des 100 000. Cette décrue s'explique par le recul des visas hors Union européenne dans trois catégories clés : les visas de travail (−45 000), les visas étudiants (−33 000) et les demandes d'asile (−19 000). Le Premier ministre Andy Burnham a salué un « degré de contrôle suffisant », tandis que travaillistes et conservateurs se disputent la paternité des mesures restrictives.",
+   "enjeux": "Ce retournement spectaculaire rebat les cartes d'un débat britannique dominé depuis quinze ans par la promesse non tenue de réduire le solde migratoire. S'il répond politiquement aux attentes d'une partie de l'électorat et réduit la pression sur certains services publics, ce reflux pose un dilemme **économique et démographique** majeur : le Royaume-Uni dépend fortement de la main-d'œuvre étrangère dans la santé, les **soins à la personne** (*social care*) et le financement des **universités**, très tributaires des frais de scolarité des étudiants internationaux. La baisse de 33 000 visas étudiants et de 45 000 visas de travail risque ainsi d'aggraver les pénuries de compétences et la fragilité financière de l'enseignement supérieur. En khôlle d'anglais, cet exemple montre la tension permanente entre **souveraineté migratoire** post-Brexit et besoins structurels du **marché du travail**.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cc65/live/28a10870-e99f-11f1-b880-15b494ba858d.jpg",
+    "alt": "Voyageurs et contrôles à l'arrivée dans un aéroport britannique",
+    "credit": "BBC News",
+    "source": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o?at_medium=RSS&at_campaign=rss"
+   },
+   "vo": {
+    "titre": "UK net migration plunges to 77,000, lowest level since 1997 excluding the pandemic",
+    "faits": "Figures released on 26 November by the Office for National Statistics (ONS) show UK net migration fell to 77,000 in the year to June 2026, with 738,000 arrivals and 661,000 departures. Excluding the pandemic travel restrictions of 2020, this is the lowest figure since 1997 and represents a 92% drop from the record peak of 944,000 in the year to March 2023. For the first time since David Cameron's 2010 pledge, net migration has returned to the tens of thousands. The sharp fall was driven by lower non-EU arrivals across three categories: work visas fell by 45,000, student visas by 33,000 and asylum claims by 19,000. Prime Minister Andy Burnham hailed a « sufficient degree of control », while Labour and the Conservatives clashed over whose visa restrictions deserved credit.",
+    "enjeux": "This dramatic reversal reshapes a British political debate long dominated by unmet pledges to curb immigration. While it answers voters' demands for tighter border control, the steep decline creates a sharp economic and demographic dilemma: Britain relies heavily on overseas workers in healthcare and social care, as well as on international students whose tuition fees help fund universities. Cuts of 45,000 in work visas and 33,000 in student arrivals therefore threaten to deepen labour shortages and strain higher education finances. In an exam essay, this illustrates the tension between post-Brexit migration control and the structural needs of an ageing labour market."
+   },
+   "vocab": [
+    [
+     "net migration",
+     "le solde migratoire net",
+     "UK net migration dropped sharply as fewer work visas were issued."
+    ],
+    [
+     "a steep decline",
+     "une forte baisse / décrue",
+     "Universities fear a steep decline in overseas tuition revenues."
+    ],
+    [
+     "to tighten visa rules",
+     "durcir les règles d'attribution des visas",
+     "Successive governments moved to tighten visa rules for care workers."
+    ],
+    [
+     "labour shortages",
+     "les pénuries de main-d'œuvre",
+     "Restricting foreign recruitment could worsen labour shortages in healthcare."
+    ],
+    [
+     "social care",
+     "l'aide sociale / les soins à la personne",
+     "The social care sector has struggled to fill thousands of vacancies."
+    ],
+    [
+     "to take credit for",
+     "s'attribuer le mérite de",
+     "Both major parties tried to take credit for the lower migration figures."
+    ]
+   ],
+   "sujets": [
+    "Can the United Kingdom drastically reduce immigration without damaging its economy and public services?",
+    "Is immigration control still the defining issue of post-Brexit British politics?"
+   ],
+   "anki": [
+    {
+     "q": "UK net migration in the year to June 2026 vs March 2023 peak (ONS)",
+     "r": "Dropped C{92%} to C{77,000} (from C{944,000} in D{March 2023}) — lowest since D{1997} excluding the pandemic.\n→ Ideal hook for essays on the trade-off between B{border control}, university funding and B{labour shortages} in the UK."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-anglais-2",
+   "matiere": "anglais",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/money/2026/nov/26/430000-uk-homeowners-500-jump-monthly-mortgage-payments-bank-of-england-interest-rates",
+   "minutes": 3,
+   "titre": "Royaume-Uni : 6,5 millions de ménages propriétaires confrontés à une hausse des mensualités immobilières",
+   "dossier": "taux-hypothecaires-royaume-uni",
+   "faits": "Dans son rapport sur la stabilité financière publié jeudi 26 novembre, la Banque d'Angleterre avertit qu'environ 6,5 millions de propriétaires britanniques sur les 7 millions dont le prêt à taux fixe arrive à échéance avant décembre 2029 verront leurs mensualités augmenter. Sur ce total, quelque 430 000 ménages devraient subir un bond supérieur à 500 livres sterling par mois. À plus court terme, près d'un million d'emprunteurs bénéficiant encore de taux inférieurs à 3 % et devant renégocier d'ici à fin 2027 feront face à une hausse moyenne de près de 200 livres mensuelles. Dans un contexte d'incertitude mondiale alimentée par la guerre au Moyen-Orient, les taux moyens des prêts immobiliers fixes à deux et cinq ans ont atteint près de 6 % fin novembre (5,99 % à deux ans selon Moneyfacts). La banque centrale estime que la hausse moyenne de l'ensemble des renégociations jusqu'en 2029 atteindra 100 livres par mois, plus du double de l'estimation de 45 livres avancée en juillet.",
+   "enjeux": "Cet avertissement met en lumière le mécanisme de **transmission retardée** de la politique monétaire dans un pays où la majorité des emprunts immobiliers sont contractés à taux fixe sur deux à cinq ans seulement. Contrairement aux ménages français qui empruntent majoritairement à taux fixe sur vingt ans, les propriétaires britanniques subissent de plein fouet le renchérissement du crédit dès la fin de leur période de blocage, ce qui transforme la remontée des taux en choc direct sur le **pouvoir d'achat** et le **coût de la vie**. Conjugué à la hausse des factures d'énergie, ce surcoût risque de contraindre les ménages à réduire leur **consommation discrétionnaire** ou à puiser dans leur épargne, freinant la croissance britannique. En civilisation britannique, cette fragilité illustre le poids politique du marché du logement (*home-owning democracy*) face aux chocs inflationnistes.",
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/76bae3267d5d42beeecac666ece9772680ada6e6/795_0_2761_2210/master/2761.jpg?width=700&quality=85&auto=format&fit=max&s=5d18df0b76f42348beaf77b62b7b2faf",
+    "alt": "Maisons mitoyennes britanniques typiques dans un quartier résidentiel",
+    "credit": "The Guardian",
+    "source": "https://www.theguardian.com/money/2026/nov/26/430000-uk-homeowners-500-jump-monthly-mortgage-payments-bank-of-england-interest-rates"
+   },
+   "vo": {
+    "titre": "Bank of England warns 6.5m UK homeowners face higher mortgage repayments",
+    "faits": "In its Financial Stability Report published on 26 November, the Bank of England warned that around 6.5 million out of 7 million UK homeowners rolling off fixed-rate mortgages before December 2029 face higher monthly payments. Roughly 430,000 borrowers are projected to see their repayments surge by more than £500 a month. In the shorter term, about one million households currently locked into rates below 3% and due to refinance by the end of 2027 face an average monthly jump of nearly £200. Amid global uncertainty driven by the war in the Middle East, average two- and five-year fixed mortgage rates have climbed to roughly 6%. Overall, the Bank forecasts an average £100 monthly increase by 2029, more than double its July estimate of £45.",
+    "enjeux": "This warning highlights the delayed transmission of interest rate shocks in Britain, where most mortgages are fixed for only two or five years rather than across the entire loan term. Once those cheap deals expire, higher borrowing costs hit household budgets directly, turning monetary tightening into an acute cost-of-living squeeze. Combined with rising energy bills, steeper mortgage repayments are likely to force millions of families to cut discretionary spending or draw down savings, weighing on UK growth. In British society, housing affordability and mortgage pain remain decisive tests for any government."
+   },
+   "vocab": [
+    [
+     "a fixed-rate mortgage",
+     "un prêt immobilier à taux fixe",
+     "Millions of Britons are about to roll off cheap fixed-rate mortgages."
+    ],
+    [
+     "monthly repayments",
+     "les mensualités de remboursement",
+     "Higher interest rates will push up monthly repayments for young families."
+    ],
+    [
+     "to refinance / remortgage",
+     "renégocier / refinancer son emprunt immobilier",
+     "Borrowers due to refinance next year face rates near 6%."
+    ],
+    [
+     "cost-of-living squeeze",
+     "l'étranglement du pouvoir d'achat",
+     "Rising housing and energy bills are deepening the cost-of-living squeeze."
+    ],
+    [
+     "discretionary spending",
+     "les dépenses discrétionnaires / non essentielles",
+     "Households are cutting back on discretionary spending to pay their loans."
+    ],
+    [
+     "financial stability",
+     "la stabilité financière",
+     "The central bank assesses household debt risks in its financial stability report."
+    ]
+   ],
+   "sujets": [
+    "Why is the British housing market so vulnerable to interest rate shocks?",
+    "How does the cost-of-living crisis reshape economic policy in the United Kingdom?"
+   ],
+   "anki": [
+    {
+     "q": "Number of UK homeowners facing higher mortgage payments by 2029 and £500+/month jumps (BoE)",
+     "r": "C{6.5 million} households face higher payments (average C{+£100}/month), including C{430,000} facing hikes above C{£500}/month.\n→ Shows how short-term B{fixed-rate mortgages} amplify monetary shocks on British household consumption."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-anglais-3",
+   "matiere": "anglais",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/26/us/politics/snap-food-stamps-school-meals.html",
+   "minutes": 3,
+   "titre": "États-Unis : les coupes dans l'aide alimentaire SNAP menacent la gratuité des repas scolaires",
+   "dossier": "aides-alimentaires-snap-etats-unis",
+   "faits": "Selon des informations rapportées par le New York Times le 26 novembre, le durcissement des critères d'éligibilité au programme fédéral d'aide alimentaire SNAP (*food stamps*) engagé par l'administration Trump risque de priver automatiquement près de 1,8 million d'enfants de la gratuité des repas scolaires. Aux États-Unis, le dispositif d'éligibilité catégorielle accorde en effet automatiquement les petits-déjeuners et déjeuners scolaires gratuits ou à tarif réduit aux élèves dont la famille bénéficie de SNAP, sans dossier supplémentaire. Les modifications proposées par le ministère de l'Agriculture (USDA) restreignent l'accès élargi à SNAP en imposant des plafonds de patrimoine et de revenus plus stricts. Bien que l'USDA estime que la grande majorité de ces enfants resteraient techniquement éligibles sur critères de revenus, leurs familles devraient remplir de nouvelles démarches administratives. Les districts scolaires et associations anti-faim alertent sur le risque d'un recul de la couverture et d'un alourdissement des impayés de cantine.",
+   "enjeux": "Cette réforme illustre un débat récurrent de la politique sociale américaine entre **ciblage restrictif** de la dépense publique et **filet de sécurité universel** contre la pauvreté infantile. Les partisans du durcissement souhaitent réserver l'aide fédérale aux ménages les plus démunis et contenir les coûts budgétaires en éliminant les effets de seuil. Mais les chercheurs et collectivités locales soulignent le rôle décisif des **coûts administratifs** (*administrative burden*) : multiplier les formulaires exclut mécaniquement des familles vulnérables pourtant éligibles, fragilise le dispositif d'accès collectif (*Community Eligibility Provision*) dans les écoles défavorisées et reporte le coût des repas impayés sur les budgets scolaires locaux. Pour un essai sur les **inégalités aux États-Unis**, cet exemple montre le lien direct entre politique sociale fédérale, **insécurité alimentaire** et réussite éducative.",
+   "image": {
+    "url": "https://static01.nyt.com/images/2026/11/25/multimedia/00dc-schoolmeals-01-glzv/00dc-schoolmeals-01-glzv-mediumSquareAt3X.jpg",
+    "alt": "Élèves et repas servis dans une cantine scolaire aux États-Unis",
+    "credit": "The New York Times",
+    "source": "https://www.nytimes.com/2026/11/26/us/politics/snap-food-stamps-school-meals.html"
+   },
+   "vo": {
+    "titre": "Trump administration cuts to SNAP threaten free school meals for 1.8m US children",
+    "faits": "According to the New York Times on 26 November, tighter eligibility rules for the federal SNAP food assistance program under the Trump administration threaten automatic free school meals for nearly 1.8 million children. Under US law, « categorical eligibility » automatically grants free or reduced-price school breakfasts and lunches to students whose families receive SNAP, without requiring separate paperwork. The Department of Agriculture's proposed restrictions target broad-based categorical eligibility by imposing stricter asset and income tests. Although the USDA estimates that most affected children would still qualify on income grounds, families would have to submit new applications to avoid losing coverage. Anti-hunger groups and school districts warn that added red tape will increase child food insecurity and leave schools absorbing rising unpaid meal debt.",
+    "enjeux": "This policy clash captures a central debate in US social policy between restricting welfare spending and preserving a reliable safety net against child poverty. Supporters argue that stricter asset and income limits target aid to the neediest households and curb federal outlays. Critics, however, point to the reality of « administrative burden »: extra forms routinely cause eligible low-income families to fall through the cracks and undermine school-wide meal programs in disadvantaged districts. In US society essays, this illustrates how federal welfare cuts spill over onto local school budgets and deepen educational inequalities."
+   },
+   "vocab": [
+    [
+     "food stamps / SNAP",
+     "les bons alimentaires fédéraux (programme SNAP)",
+     "Millions of low-income American families rely on SNAP to buy groceries."
+    ],
+    [
+     "eligibility rules",
+     "les critères d'éligibilité",
+     "Stricter eligibility rules could exclude vulnerable households from aid."
+    ],
+    [
+     "red tape / administrative burden",
+     "la lourdeur administrative / les formalités excessives",
+     "Extra red tape often prevents eligible families from claiming benefits."
+    ],
+    [
+     "food insecurity",
+     "l'insécurité alimentaire",
+     "Free school lunches play a vital role in fighting child food insecurity."
+    ],
+    [
+     "to fall through the cracks",
+     "passer entre les mailles du filet (être oublié par le système)",
+     "Advocates warn that needy students will fall through the cracks."
+    ],
+    [
+     "safety net",
+     "le filet de sécurité social",
+     "Debates over the social safety net divide Republicans and Democrats."
+    ]
+   ],
+   "sujets": [
+    "Should US welfare programs rely on stricter eligibility tests or broader automatic access?",
+    "How do federal budget cuts affect inequality and public education in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "Number of US children at risk of losing automatic free school meals from SNAP rule changes",
+     "r": "Nearly C{1.8 million} children could lose automatic B{categorical eligibility}, forcing families to file new applications.\n→ Concrete example of how B{administrative burden} weakens the US social safety net."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-anglais-4",
+   "matiere": "anglais",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+   "minutes": 3,
+   "titre": "Porto Rico : la Cour suprême autorise la gouverneure à résilier le contrat de l'opérateur privé du réseau électrique",
+   "dossier": "reseau-electrique-porto-rico",
+   "faits": "La Cour suprême de Porto Rico a jugé le 25 novembre que la gouverneure Jenniffer González-Colón peut mettre fin au contrat de l'opérateur privé LUMA Energy, chargé depuis cinq ans du réseau électrique défaillant de l'île. Après la destruction du réseau par l'ouragan Maria en 2017, les autorités avaient privatisé la distribution électrique en signant en 2021 un contrat de quinze ans avec ce consortium américano-canadien. Mais la persistance des coupures de courant a suscité un vif rejet populaire et poussé la gouverneure à saisir la justice l'an dernier pour annuler l'accord. La Cour suprême a invalidé le contrat pour vice de procédure lors de son approbation initiale et accordé un an au gouvernement pour trouver un nouvel opérateur. LUMA Energy dispose de dix jours pour demander un réexamen, tandis que le conseil fédéral de supervision budgétaire instauré par le Congrès américain craint des ruptures de service durant la transition.",
+   "enjeux": "Ce jugement relance le débat américain et international sur la **privatisation des monopoles naturels** et des infrastructures critiques. L'exemple portoricain montre qu'une délégation au secteur privé ne garantit ni l'efficacité opérationnelle ni la modernisation lorsque le réseau initial est très dégradé et que la **gouvernance contractuelle** manque de transparence. Il met aussi en évidence le statut institutionnel particulier de Porto Rico, territoire non incorporé des États-Unis placé sous tutelle d'un **conseil fédéral de supervision financière** nommé par Washington depuis sa crise de la dette. En civilisation américaine, cette affaire éclaire les inégalités territoriales, l'adaptation des réseaux aux **aléas climatiques** et les tensions entre autonomie locale et contrôle fédéral.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Waunakee_Electrical_Substation_-_panoramio.jpg/1280px-Waunakee_Electrical_Substation_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Poste de transformation électrique et lignes à haute tension",
+    "credit": "Corey Coyle / Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Waunakee_Electrical_Substation_-_panoramio.jpg"
+   },
+   "vo": {
+    "titre": "Puerto Rico Supreme Court lets governor cancel private power grid operator's contract",
+    "faits": "On 25 November, Puerto Rico's Supreme Court ruled that Governor Jenniffer González-Colón can terminate the contract of LUMA Energy, the private consortium that has operated the island's troubled power grid since 2021. Following Hurricane Maria's devastation in 2017, Puerto Rico privatized power transmission under a 15-year deal meant to modernize the grid and curb chronic outages. However, persistent blackouts fuelled public outrage and prompted the governor to sue last year to void the agreement. The court nullified the contract on procedural grounds and gave the local government one year to select a replacement via public bidding. While LUMA has ten days to seek reconsideration, the federally appointed fiscal oversight board warned that ending the contract without a successor ready risks disrupting electricity service.",
+    "enjeux": "This ruling highlights the risks of privatizing essential infrastructure and natural monopolies when oversight and initial investment fall short. Puerto Rico's five-year deadlock shows that handing a dilapidated utility to a private operator does not automatically deliver reliability if accountability and grid resilience remain weak. It also underscores the island's ambiguous constitutional status as a US territory whose public contracts require approval from a federal oversight board created by Congress to manage bankruptcy. For US civilisation topics, this case links climate vulnerability, infrastructure governance and tensions between local self-rule and federal oversight."
+   },
+   "vocab": [
+    [
+     "a power grid",
+     "un réseau électrique",
+     "Hurricane Maria exposed the extreme fragility of Puerto Rico's power grid."
+    ],
+    [
+     "rolling outages / blackouts",
+     "les pannes / coupures de courant",
+     "Frequent blackouts have angered residents and hurt small businesses."
+    ],
+    [
+     "to nullify / void a contract",
+     "annuler / invalider un contrat",
+     "The supreme court moved to nullify the 15-year utility contract."
+    ],
+    [
+     "a public bid / tender",
+     "un appel d'offres public",
+     "Officials promised an open public bid to choose a new operator."
+    ],
+    [
+     "an oversight board",
+     "un conseil de supervision / tutelle",
+     "A federal oversight board still reviews Puerto Rico's major fiscal decisions."
+    ],
+    [
+     "continuity of service",
+     "la continuité du service public",
+     "Regulators warned that a hasty handover could threaten continuity of service."
+    ]
+   ],
+   "sujets": [
+    "Does privatization improve the reliability of essential public utilities in the United States?",
+    "What does the crisis in Puerto Rico reveal about the governance of US territories?"
+   ],
+   "anki": [
+    {
+     "q": "Outcome of Puerto Rico's Supreme Court ruling on LUMA Energy (Nov 2026)",
+     "r": "Nullified LUMA Energy's D{15-year} power grid contract (signed D{2021}), giving the governor C{1 year} to find a new operator.\n→ Case study on the limits of B{infrastructure privatization} and federal oversight in US territories."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-anglais-5",
+   "matiere": "anglais",
+   "source": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+   "minutes": 3,
+   "titre": "Nouvelle-Zélande : les résultats définitifs privent la coalition sortante de la majorité à un siège près",
+   "dossier": "elections-nouvelle-zelande",
+   "faits": "Selon les résultats officiels proclamés vendredi 27 novembre en Nouvelle-Zélande, la coalition gouvernementale sortante échoue à un siège de la majorité absolue au Parlement (65 sièges sur 130 au lieu des 66 requis). Le Parti national du Premier ministre Christopher Luxon obtient 40 sièges, tandis que ses alliés ACT et New Zealand First en remportent respectivement 13 et 12. Alors que les résultats préliminaires du scrutin du 7 novembre lui accordaient une courte avance, le décompte des « votes spéciaux » — bulletins déposés à l'étranger ou hors circonscription — lui a fait perdre deux sièges. Dans l'opposition, le Parti travailliste obtient 36 sièges, les Verts 17 et Te Pāti Māori 5, un bloc insuffisant même avec l'appoint du parti centriste Opportunity (7 sièges). Désormais faiseur de rois, Opportunity doit négocier avec Christopher Luxon pour éviter la convocation de nouvelles élections.",
+   "enjeux": "Cette impasse politique met en lumière le fonctionnement du système électoral **proportionnel mixte** néo-zélandais (*mixed-member proportional*), adopté dans les années 1990 pour éviter l'hégémonie d'un seul parti mais générateur de **coalitions fragiles** et de longs marchandages post-électoraux. Elle reflète aussi le malaise économique d'un pays anglophone du Pacifique confronté à une **croissance atone** et à la lassitude des électeurs face au coût de la vie, qui ont poussé le Parti travailliste à revendiquer le vote populaire malgré son incapacité arithmétique à gouverner. Pour élargir ses références au-delà de Westminster et de Washington en khôlle, cet épisode montre comment le mode de scrutin façonne l'instabilité ou le compromis parlementaire dans le Commonwealth.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+    "alt": "Le Premier ministre néo-zélandais Christopher Luxon s'adressant à la presse",
+    "credit": "BBC News",
+    "source": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss"
+   },
+   "vo": {
+    "titre": "New Zealand ruling coalition falls one seat short of majority in official tally",
+    "faits": "Official election results released on 27 November show New Zealand's ruling coalition has fallen one seat short of a parliamentary majority, winning 65 of 130 seats. Prime Minister Christopher Luxon's National Party secured 40 seats, alongside 13 for ACT and 12 for New Zealand First. Although preliminary results on election day, 7 November, had pointed to a narrow majority, the counting of special votes cast overseas or outside voters' home electorates cost the bloc two seats. On the left, Labour won 36 seats, the Greens 17 and Te Pāti Māori 5 — too few to form a government even with the centrist Opportunity Party's seven seats. Opportunity now holds the balance of power as talks begin to avoid a snap election.",
+    "enjeux": "The deadlock illustrates how New Zealand's mixed-member proportional voting system curbs single-party dominance while frequently producing hung parliaments and protracted coalition talks. Shaped by a sluggish economy and voter frustration over living costs, the result leaves Labour claiming a moral mandate from the popular vote yet shut out of power by coalition arithmetic. Beyond Britain and the United States, this case offers a clear Commonwealth example of how electoral rules shape political stability, consensus-building and the influence of small kingmaker parties."
+   },
+   "vocab": [
+    [
+     "a parliamentary majority",
+     "une majorité parlementaire",
+     "The outgoing coalition fell just one seat short of a parliamentary majority."
+    ],
+    [
+     "to hold the balance of power / kingmaker",
+     "détenir la clé du pouvoir / être faiseur de rois",
+     "A small centrist party now holds the balance of power in Wellington."
+    ],
+    [
+     "a proportional voting system",
+     "un scrutin proportionnel",
+     "Proportional voting systems tend to produce multi-party coalitions."
+    ],
+    [
+     "a sluggish economy",
+     "une économie atone / poussive",
+     "Voters punished the government after months of a sluggish economy."
+    ],
+    [
+     "the popular vote",
+     "le vote populaire (nombre total de voix)",
+     "The opposition won the popular vote but lacked enough coalition partners."
+    ],
+    [
+     "to go back to the polls",
+     "retourner aux urnes",
+     "Failure to reach a coalition deal could force New Zealanders back to the polls."
+    ]
+   ],
+   "sujets": [
+    "Does proportional representation produce fairer democracy at the cost of government stability?",
+    "How do economic sluggishness and cost-of-living pressures drive voter volatility across English-speaking democracies?"
+   ],
+   "anki": [
+    {
+     "q": "Final seat count of New Zealand's ruling coalition in the 130-seat Parliament (Nov 2026)",
+     "r": "Won C{65} seats (one short of a C{66}-seat majority), making the centrist Opportunity Party (C{7} seats) kingmaker.\n→ Illustrates how B{proportional representation} produces coalition bargaining amid sluggish economic growth."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-espagnol-1",
+   "matiere": "espagnol",
+   "source": "elDiario.es",
+   "url": "https://www.eldiario.es/economia/congreso-ratifica-subida-sueldo-4-5-funcionarios-salario-minimo-2027-no-pague-irpf_1_13695386.html",
+   "minutes": 3,
+   "titre": "Espagne : le Congrès valide la hausse de 4,5 % des salaires des fonctionnaires et l'exonération d'IRPF du SMIC 2027",
+   "dossier": "salaires-fonctionnaires-espagne",
+   "faits": "À trois jours des élections générales du 29 novembre, la députation permanente du Congrès des députés espagnol a validé définitivement jeudi 26 novembre deux décrets-lois sociaux majeurs. Le premier acte une hausse salariale de 4,5 % à compter de janvier 2027 pour environ trois millions d'agents des administrations publiques, conformément à l'accord pluriannuel conclu en novembre 2025 avec les syndicats CCOO, UGT et CSIF, ainsi qu'une revalorisation de 4,5 % des aides sociales internes. Le second décret relève la déduction d'impôt sur le revenu (IRPF) à 18 004 euros annuels afin que le salaire minimum interprofessionnel (SMI) de 2027, fixé à 1 286 euros bruts par mois, demeure exonéré d'impôt, tout en actualisant les dotations financières versées aux communautés autonomes. La séance a été marquée par le boycott de Vox et par les critiques du Parti populaire, qui accuse l'exécutif d'instrumentaliser ces accords à des fins électorales, tandis que la gauche a pointé l'abus persistant des contrats précaires dans les administrations régionales.",
+   "enjeux": "Ces votes illustrent les tensions politiques et budgétaires autour du **partage des fruits de la croissance** en Espagne. Le gouvernement défend une stratégie de soutien au **pouvoir d'achat** des travailleurs modestes et des agents publics en indexant les seuils fiscaux sur le **salaire minimum**, afin d'éviter qu'une hausse du brut ne soit annulée par la progressivité de l'IRPF. Mais cette décision met aussi en lumière la fragilité du dialogue politique espagnol à la veille du scrutin : les syndicats sont attaqués par la droite régionale, l'extrême droite pratique la politique de la chaise vide et Bruxelles maintient la pression sur l'Espagne pour réduire la **précarité contractuelle** (*temporalidad*) dans la fonction publique territoriale. En colle d'espagnol, ce texte relie fiscalité du travail, rôle des syndicats et décentralisation budgétaire.",
+   "image": {
+    "url": "https://static.eldiario.es/clip/05acdd27-6efb-4399-9753-fa3b9c283303_facebook-aspect-ratio-1200-675_default_0.jpg",
+    "alt": "Les ministres espagnols Óscar López et Arcadi España au Congrès des députés",
+    "credit": "elDiario.es",
+    "source": "https://www.eldiario.es/economia/congreso-ratifica-subida-sueldo-4-5-funcionarios-salario-minimo-2027-no-pague-irpf_1_13695386.html"
+   },
+   "vo": {
+    "titre": "El Congreso ratifica la subida del 4,5 % a los funcionarios y la exención de IRPF del SMI de 2027",
+    "faits": "A tres días de las elecciones generales del 29 de noviembre, la Diputación Permanente del Congreso convalidó este jueves dos reales decretos-ley de gran alcance social. El primero garantiza una subida salarial del 4,5 % a partir de enero de 2027 para unos tres millones de empleados públicos, en cumplimiento del acuerdo plurianual firmado en noviembre de 2025 con los sindicatos CCOO, UGT y CSIF, además de incrementar en el mismo porcentaje los planes de acción social. El segundo decreto eleva la deducción en el IRPF hasta los 18.004 euros anuales para que el salario mínimo interprofesional (SMI) de 2027, situado en 1.286 euros brutos al mes, siga exento de tributación, al tiempo que actualiza las entregas a cuenta de las comunidades autónomas. La sesión estuvo marcada por el plantón de Vox y los reproches del PP por el uso electoral del calendario, mientras Sumar y Podemos denunciaron el abuso de la temporalidad en las administraciones autonómicas.",
+    "enjeux": "Estas convalidaciones reflejan el debate español sobre cómo trasladar el crecimiento económico a las rentas del trabajo y proteger el poder adquisitivo frente a la inflación. Al adaptar el mínimo exento del IRPF al aumento del SMI, el Ejecutivo evita que la progresividad fiscal absorba la mejora salarial de los trabajadores con menores ingresos. Sin embargo, el episodio evidencia también la polarización institucional previa a los comicios, con la ausencia de la extrema derecha en la cámara y la presión sostenida de Bruselas para atajar la elevada temporalidad en las comunidades autónomas y los ayuntamientos. En un ensayo, permite articular fiscalidad, diálogo social y modelo territorial."
+   },
+   "vocab": [
+    [
+     "el salario mínimo interprofesional (SMI)",
+     "le salaire minimum interprofessionnel",
+     "El SMI de 2027 seguirá exento de pagar el impuesto sobre la renta."
+    ],
+    [
+     "estar exento de tributación",
+     "être exonéré d'impôt",
+     "Los trabajadores con menores ingresos estarán exentos de tributación este año."
+    ],
+    [
+     "dar plantón",
+     "boycotter / poser un lapin (politique)",
+     "La oposición de extrema derecha dio plantón al debate parlamentario."
+    ],
+    [
+     "la temporalidad laboral",
+     "la précarité / les contrats temporaires",
+     "Bruselas exige a España reducir la temporalidad en el sector público."
+    ],
+    [
+     "convalidar un decreto",
+     "ratifier un décret",
+     "La Diputación Permanente logró convalidar cinco decretos antes de las urnas."
+    ],
+    [
+     "las entregas a cuenta",
+     "les dotations / acomptes fiscaux aux régions",
+     "Las comunidades autónomas dependen de las entregas a cuenta para sus presupuestos."
+    ]
+   ],
+   "sujets": [
+    "¿Es eficaz la exención fiscal del salario mínimo para proteger el poder adquisitivo en España?",
+    "¿Qué revela el debate sobre los empleados públicos acerca de los desafíos del Estado social español?"
+   ],
+   "anki": [
+    {
+     "q": "Subida salarial de los funcionarios españoles y cuantía del SMI exento de IRPF para 2027",
+     "r": "Alza del C{4,5 %} para C{3 millones} de empleados públicos ; el SMI de D{2027} (C{1.286 €}/mes, C{18.004 €}/año) sigue exento de IRPF.\n→ Muestra cómo la B{política fiscal} evita que la inflación y la progresividad anulen el poder adquisitivo del salario mínimo."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-espagnol-2",
+   "matiere": "espagnol",
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/economia/20261126/11694328/inflacion-tipos-ponen-prueba-black-friday-clave-comercio.html",
+   "minutes": 3,
+   "titre": "Espagne : l'inflation et la hausse des taux mettent le commerce à l'épreuve lors du Black Friday",
+   "dossier": "inflation-consommation-black-friday",
+   "faits": "Selon une analyse publiée par La Vanguardia le 26 novembre, la campagne du Black Friday constitue un test décisif pour la consommation des ménages espagnols, confrontés à un net regain d'inflation. En octobre 2026, l'indice des prix à la consommation (IPC) a atteint 4,9 % sur un an, alors que les hausses salariales négociées dans les conventions collectives ne s'élèvent en moyenne qu'à 3,06 %. Cette tension est tirée par les dépenses contraintes, notamment le logement (+7,6 %) et les transports (+10,3 %), tandis que l'habillement et la chaussure n'ont augmenté que de 1,8 %. Dans le secteur textile, l'association Acotex a enregistré deux mois de baisse des ventes (−2,8 % en septembre et −3,6 % en octobre) et seul un commerçant catalan sur dix de l'association Comertia espère dépasser ses ventes de l'an dernier. Les ménages compensent toutefois en partie ce choc grâce à la baisse de leur taux d'épargne, revenu de 11,7 % à 11 % selon CaixaBank Research.",
+   "enjeux": "Ces chiffres révèlent le paradoxe de l'économie espagnole en cette fin 2026 : malgré un dynamisme macroéconomique et une création d'emplois soutenue, le **pouvoir d'achat réel** des ménages est rogné par le retour de l'inflation et la remontée des **taux d'intérêt**. L'écart de près de deux points entre l'IPC (4,9 %) et les salaires conventionnels (3,06 %) pèse en priorité sur la **consommation discrétionnaire** — textile, équipement, loisirs — au profit du logement et des transports. Pour les enseignes espagnoles comme celles regroupées au sein de la patronale ARTE (Inditex, Mango), les périodes promotionnelles et le commerce en ligne (+2,1 % attendus) deviennent indispensables pour écouler les stocks sans sacrifier les marges. Un contraste utile pour expliquer le décalage entre **croissance du PIB** et ressenti social en Espagne.",
+   "image": {
+    "url": "https://www.lavanguardia.com/files/article_main_microformat/uploads/2026/11/26/6b0866cfb7f40.jpeg",
+    "alt": "Acheteurs dans une rue commerçante en Espagne durant la période de promotions",
+    "credit": "La Vanguardia",
+    "source": "https://www.lavanguardia.com/economia/20261126/11694328/inflacion-tipos-ponen-prueba-black-friday-clave-comercio.html"
+   },
+   "vo": {
+    "titre": "La inflación y los tipos ponen a prueba un 'black friday' clave para el comercio español",
+    "faits": "Según analiza La Vanguardia este 26 de noviembre, el arranque del 'black friday' representa una prueba decisiva para el consumo en España en un contexto de repunte inflacionista y subida de tipos. En octubre de 2026, el IPC escaló hasta el 4,9 % interanual, muy por encima del 3,06 % de subida salarial media pactada en los convenios colectivos. El encarecimiento se concentra en partidas esenciales como la vivienda (+7,6 %) y el transporte (+10,3 %), mientras que el vestido y el calzado apenas crecieron un 1,8 %. El comercio textil acumula dos meses consecutivos de caídas según Acotex (−2,8 % en septiembre y −3,6 % en octubre) y solo uno de cada diez comercios familiares catalanes de Comertia confía en superar las ventas del año anterior. Pese a todo, los hogares sostienen parte de su gasto reduciendo su tasa de ahorro, que bajó del 11,7 % al 11 % según CaixaBank Research.",
+    "enjeux": "Estos datos ilustran la brecha entre la buena marcha macroeconómica de España y la presión cotidiana sobre el poder adquisitivo de las familias. Cuando la inflación supera en casi dos puntos a los salarios pactados en convenio, los gastos inelásticos en vivienda y energía desplazan el consumo discrecional hacia los descuentos estacionales. Para el gran comercio y la moda, el comercio electrónico (+2,1 % previsto) y la concentración de compras navideñas en noviembre resultan clave para compensar la atonía otoñal. En un ensayo sobre la sociedad española, permite explicar por qué un crecimiento robusto del PIB convive con una percepción de pérdida de nivel de vida."
+   },
+   "vocab": [
+    [
+     "el índice de precios al consumo (IPC)",
+     "l'indice des prix à la consommation",
+     "El IPC interanual volvió a acelerar en octubre por el coste de la energía."
+    ],
+    [
+     "los convenios colectivos",
+     "les conventions collectives",
+     "Las subidas pactadas en los convenios colectivos quedaron por debajo de la inflación."
+    ],
+    [
+     "el coste de la vida",
+     "le coût de la vie",
+     "El encarecimiento del coste de la vida obliga a las familias a ajustar su presupuesto."
+    ],
+    [
+     "la tasa de ahorro",
+     "le taux d'épargne",
+     "Muchos hogares recurren a su tasa de ahorro para mantener su consumo."
+    ],
+    [
+     "la facturación",
+     "le chiffre d'affaires",
+     "El sector textil espera recuperar su facturación durante las campañas de descuentos."
+    ],
+    [
+     "el comercio electrónico",
+     "le commerce en ligne",
+     "Las ventas a través del comercio electrónico siguen creciendo pese al freno en tiendas."
+    ]
+   ],
+   "sujets": [
+    "¿Por qué el dinamismo económico de España no se traduce siempre en una mejora percibida del poder adquisitivo?",
+    "¿Está cambiando la inflación los hábitos de consumo y la estructura del comercio en España?"
+   ],
+   "anki": [
+    {
+     "q": "Inflación en España (octubre 2026) frente a la subida salarial media en convenios",
+     "r": "IPC del C{4,9 %} interanual (vivienda C{+7,6 %}, transporte C{+10,3 %}) frente a C{3,06 %} en convenios colectivos.\n→ Explica la pérdida de B{poder adquisitivo} y el desfase entre crecimiento del PIB y malestar social en España."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-espagnol-3",
+   "matiere": "espagnol",
+   "source": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/ck1ewnv46x70o?at_medium=RSS&at_campaign=rss",
+   "minutes": 3,
+   "titre": "Brésil : l'implantation géante de BYD à Bahia, laboratoire industriel de la Chine en Amérique latine",
+   "dossier": "byd-investissements-chinois-bresil",
+   "faits": "Dans un reportage publié le 26 novembre, BBC Mundo analyse l'impact de l'usine installée par le constructeur chinois de véhicules électriques BYD à Camaçari, dans l'État brésilien de Bahia. Devenu le premier producteur mondial de véhicules électriques devant Tesla en 2025, BYD a choisi ce site du Nordeste pour y bâtir sa plus grande usine d'Amérique latine. Inaugurée en octobre 2025, l'usine a assemblé plus de 100 000 véhicules en moins d'un an à partir de kits importés, en attendant une production intégralement « made in Brasil » prévue fin 2026. Le complexe emploie déjà 7 618 salariés directs, dont 6 % (457 personnes) sont étrangers, principalement chinois, tandis que 2 310 visas de résidence ont été délivrés dans la zone depuis 2024. L'arrivée de cette main-d'œuvre a alimenté au début de 2026 de fausses rumeurs d'« invasion chinoise » sur les réseaux sociaux, alors que les expatriés vivent dispersés et travaillent intensément.",
+   "enjeux": "Cette implantation symbolise le basculement stratégique des **investissements directs étrangers (IDE)** chinois en Amérique latine : Pékin ne se contente plus d'importer des matières premières agricoles ou minières, mais déploie ses propres usines industrielles pour contourner les barrières douanières et conquérir le marché régional. Pour le Brésil, ce projet offre une opportunité de **réindustrialisation verte** et d'emploi dans le Nordeste, tout en soulevant des défis d'intégration culturelle, de respect du droit du travail et de **souveraineté technologique** face à l'assemblage initial de composants importés. En khôlle d'espagnol, le « cas BYD à Bahia » est un exemple concret de la **présence croissante de la Chine en Amérique latine** et de la rivalité géoéconomique avec les États-Unis et l'Europe.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1200/branded_mundo/33b6/live/89d23650-e995-11f1-b880-15b494ba858d.jpg",
+    "alt": "Véhicules électriques et présence industrielle chinoise à Camaçari au Brésil",
+    "credit": "BBC News Mundo",
+    "source": "https://www.bbc.com/mundo/articles/ck1ewnv46x70o?at_medium=RSS&at_campaign=rss"
+   },
+   "vo": {
+    "titre": "Efecto BYD: Brasil se convierte en laboratorio industrial de las empresas chinas en América Latina",
+    "faits": "En un reportaje publicado el 26 de noviembre, BBC Mundo analiza el impacto de la megafactoría instalada por el gigante chino del coche eléctrico BYD en Camaçari, en el estado brasileño de Bahía. Tras superar a Tesla en 2025 como mayor fabricante mundial de vehículos eléctricos, BYD inauguró en octubre de 2025 en esta ciudad del noreste su mayor planta de América Latina. En menos de un año, de sus líneas han salido más de 100.000 vehículos ensamblados a partir de kits importados, antes de iniciar la producción íntegra en Brasil a finales de 2026. La planta cuenta con 7.618 trabajadores directos, de los cuales un 6 % (457) son extranjeros, mayoritariamente chinos, mientras que la región suma 2.310 visados expedidos desde 2024. La llegada de estos técnicos desató a principios de 2026 bulos sobre una supuesta «invasión china» en redes sociales, pese a su discreta integración en la vida local.",
+    "enjeux": "Este proyecto refleja un giro estratégico de la inversión china en América Latina: Pekín pasa de comprar materias primas a implantar capacidad manufacturera propia para ganar cuota de mercado y sortear aranceles. Para Brasil, la llegada de BYD impulsa el empleo industrial y la transición hacia la movilidad eléctrica en una región históricamente rezagada, aunque plantea debates sobre la transferencia tecnológica real frente al mero ensamblaje y sobre la cohesión social local. En un ensayo sobre geopolítica latinoamericana, ilustra el avance industrial de China frente a la influencia tradicional estadounidense."
+   },
+   "vocab": [
+    [
+     "el vehículo eléctrico",
+     "le véhicule électrique",
+     "China lidera la producción mundial de vehículos eléctricos e híbridos."
+    ],
+    [
+     "ensamblar",
+     "assembler / monter",
+     "La fábrica comenzó a ensamblar automóviles con piezas importadas de Asia."
+    ],
+    [
+     "la inversión extranjera directa",
+     "l'investissement direct étranger (IDE)",
+     "Brasil busca atraer inversión extranjera directa para modernizar su industria."
+    ],
+    [
+     "un bulo / una noticia falsa",
+     "une infox / fausse rumeur",
+     "Varios bulos en redes sociales exageraron el número de trabajadores extranjeros."
+    ],
+    [
+     "el visado de residencia",
+     "le visa de résidence",
+     "Las autoridades locales expidieron más de dos mil visados para técnicos especializados."
+    ],
+    [
+     "sortear los aranceles",
+     "contourner les droits de douane",
+     "Producir localmente permite a las marcas asiáticas sortear los aranceles de importación."
+    ]
+   ],
+   "sujets": [
+    "¿Es la creciente presencia industrial de China una oportunidad o una nueva dependencia para América Latina?",
+    "¿Cómo transforma la transición energética las relaciones económicas entre Asia y América Latina?"
+   ],
+   "anki": [
+    {
+     "q": "Cifras clave de la planta de BYD en Camaçari (Brasil) un año después de su apertura",
+     "r": "Más de C{100.000} vehículos ensamblados desde D{octubre de 2025} y C{7.618} empleados directos (C{6 %} extranjeros).\n→ Ilustra el giro de la inversión china en B{América Latina}, del extractivismo a la implantación industrial."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-espagnol-4",
+   "matiere": "espagnol",
+   "source": "El País",
+   "url": "https://elpais.com/mexico/economia/2026-11-26/el-banco-de-mexico-aumenta-su-prevision-de-crecimiento-del-pib-este-ano-a-19-pese-a-las-presiones-inflacionarias-y-a-la-depreciacion-del-peso.html",
+   "minutes": 3,
+   "titre": "Mexique : la Banque centrale relève sa prévision de croissance à 1,9 % malgré l'inflation et la baisse du peso",
+   "dossier": "croissance-banxico-mexique",
+   "faits": "Dans son rapport trimestriel présenté jeudi 26 novembre par sa gouverneure Victoria Rodríguez Ceja, la Banque du Mexique (Banxico) a relevé sa prévision de croissance du PIB mexicain pour 2026 à 1,9 % (dans une fourchette comprise entre 1,7 % et 2,1 %), contre 1,5 % estimé en août dernier. Cette révision à la hausse s'appuie sur une activité économique plus vigoureuse qu'attendu au troisième trimestre, portée par les exportations manufacturières et le redressement de la demande intérieure. L'institut d'émission estime toutefois que le rebond actuel de l'inflation demeure transitoire et pointe plusieurs facteurs de fragilité pour les mois à venir : la dépréciation du peso, les tensions commerciales avec les États-Unis et l'incertitude entourant la révision de l'accord de libre-échange nord-américain (T-MEC). Banxico anticipe ainsi un ralentissement de la dynamique productive dès le quatrième trimestre.",
+   "enjeux": "Cette annonce met en évidence la position paradoxale de l'économie mexicaine, tiraillée entre sa forte intégration industrielle avec le marché américain et sa vulnérabilité aux chocs politiques et commerciaux. D'un côté, le Mexique bénéficie de la relocalisation d'activités manufacturières (*nearshoring*) qui soutient ses exportations industrielles. De l'autre, la dépendance commerciale vis-à-vis de Washington expose le **peso** et l'investissement privé aux menaces tarifaires et aux négociations du **T-MEC**, tandis que l'inflation contraint la marge de manœuvre de la **banque centrale**. En civilisation latino-américaine, cet exemple éclaire la difficulté du Mexique à concilier stabilité macroéconomique, politique monétaire prudente et autonomie face au cycle américain.",
+   "image": {
+    "url": "https://imagenes.elpais.com/resizer/v2/YV246XVSJJN3ZLX236JQHKYNB4.jpg?auth=4307d466d72036621123b74c5b4caec3fbbce4330c2b397669360799cf6f6d04&width=1200",
+    "alt": "Siège et façade institutionnelle au Mexique illustrant la conjoncture financière",
+    "credit": "El País México",
+    "source": "https://elpais.com/mexico/economia/2026-11-26/el-banco-de-mexico-aumenta-su-prevision-de-crecimiento-del-pib-este-ano-a-19-pese-a-las-presiones-inflacionarias-y-a-la-depreciacion-del-peso.html"
+   },
+   "vo": {
+    "titre": "El Banco de México eleva al 1,9 % su previsión de crecimiento del PIB pese a la inflación y la caída del peso",
+    "faits": "En su informe trimestral presentado el jueves 26 de noviembre por su gobernadora, Victoria Rodríguez Ceja, el Banco de México (Banxico) elevó su previsión de crecimiento del PIB para 2026 hasta el 1,9 % (en un rango de entre el 1,7 % y el 2,1 %), frente al 1,5 % estimado en agosto. Esta revisión al alza responde a un desempeño económico superior al previsto durante el tercer trimestre, impulsado por las exportaciones manufactureras y cierta reactivación interna. La entidad monetaria pronostica que el repunte inflacionario será transitorio, pero advierte de riesgos relevantes como la depreciación del peso mexicano, las tensiones comerciales y la incertidumbre ante la revisión del T-MEC. Por ello, Banxico anticipa una moderación de la actividad productiva ya en el cuarto trimestre.",
+    "enjeux": "Este diagnóstico refleja la posición ambivalente de México, atrapado entre las oportunidades industriales del 'nearshoring' y su elevada vulnerabilidad frente a Estados Unidos. Aunque las exportaciones manufactureras sostienen la actividad a corto plazo, la dependencia del mercado norteamericano expone al tipo de cambio y a la inversión privada a la amenaza de nuevos aranceles y al futuro del tratado trilateral. Al mismo tiempo, las presiones inflacionarias limitan el margen de la política monetaria para estimular la economía. En un ensayo sobre México, permite analizar los límites estructurales de un modelo orientado al mercado estadounidense."
+   },
+   "vocab": [
+    [
+     "el banco central / instituto emisor",
+     "la banque centrale",
+     "El banco central mantuvo la prudencia ante el repunte de los precios."
+    ],
+    [
+     "revisar al alza",
+     "revoir à la hausse",
+     "Las autoridades decidieron revisar al alza el pronóstico de crecimiento anual."
+    ],
+    [
+     "la depreciación de la moneda",
+     "la dépréciation de la monnaie",
+     "La depreciación del peso encarece las importaciones y presiona la inflación."
+    ],
+    [
+     "las exportaciones manufactureras",
+     "les exportations manufacturières",
+     "Las exportaciones manufactureras hacia Estados Unidos impulsaron el tercer trimestre."
+    ],
+    [
+     "la incertidumbre comercial",
+     "l'incertitude commerciale",
+     "La incertidumbre comercial frena nuevas inversiones extranjeras en el norte del país."
+    ],
+    [
+     "la moderación de la actividad",
+     "le ralentissement / la modération de l'activité",
+     "Los analistas prevén una moderación de la actividad económica hacia fin de año."
+    ]
+   ],
+   "sujets": [
+    "¿Es la estrecha integración económica con Estados Unidos una fortaleza o una vulnerabilidad para México?",
+    "¿Puede México consolidar su crecimiento económico sin resolver la incertidumbre en torno al T-MEC?"
+   ],
+   "anki": [
+    {
+     "q": "Nueva previsión de crecimiento del PIB de México para 2026 según Banxico (noviembre 2026)",
+     "r": "Subió del C{1,5 %} al C{1,9 %} por el empuje manufacturero, pese a la depreciación del peso y las dudas sobre el T-MEC.\n→ Muestra el equilibrio frágil de México entre B{exportaciones industriales} y B{dependencia comercial} de EE. UU."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-espagnol-5",
+   "matiere": "espagnol",
+   "source": "elDiario.es",
+   "url": "https://www.eldiario.es/sociedad/almodovar-rosa-montero-bardem-130-personalidades-cultura-respaldan-huelga-educativa-madrid_1_13695615.html",
+   "minutes": 3,
+   "titre": "Espagne : plus de 130 personnalités de la culture soutiennent la grève de l'éducation publique à Madrid",
+   "dossier": "greve-education-madrid",
+   "faits": "Plus de 130 personnalités du monde culturel espagnol — parmi lesquelles Pedro Almodóvar, Javier Bardem, Rosa Montero et Antonio Muñoz Molina — ont signé un manifeste de soutien aux enseignants en grève pour l'éducation publique dans la Communauté de Madrid, rapporte elDiario.es le 26 novembre. Impulsé par le professeur de littérature José Antonio López García, le texte défend les sept revendications du mouvement : amélioration des conditions de travail, réduction des effectifs par classe et davantage de temps pour enseigner. Les signataires dénoncent également les attaques verbales du gouvernement régional d'Isabel Díaz Ayuso, qui a qualifié certains syndicalistes et enseignants grévistes de « déchets syndicaux » et de « parasites ». Le manifeste rejette par ailleurs les accusations d'« endoctrinement » adressées aux établissements publics après des incidents avec l'inspection académique autour de rubans verts accrochés en soutien à l'école publique.",
+   "enjeux": "Ce conflit dépasse le cadre d'une grève sectorielle et cristallise une fracture profonde de la société espagnole sur le modèle de l'**école publique** face à l'essor de l'enseignement privé et concerté (*concertada*) à Madrid. L'intervention d'intellectuels et de cinéastes de premier plan réactive une tradition espagnole d'engagement du monde culturel en défense des **services publics** et de la **liberté académique** (*cátedra*). Elle met aussi en lumière la forte **polarisation politique** et territoriale : la gestion autonome de l'éducation par les communautés autonomes transforme la capitale en laboratoire d'affrontement idéologique entre la droite régionale conservatrice et la communauté éducative. Un exemple parlant pour illustrer les débats sur les inégalités sociales et la territorialisation des services publics en Espagne.",
+   "image": {
+    "url": "https://static.eldiario.es/clip/ebb4579f-2678-4fc8-8fb2-adf030af50e9_facebook-aspect-ratio-1200-675_default_0.jpg",
+    "alt": "Manifestation et mobilisation pour l'éducation publique à Madrid",
+    "credit": "elDiario.es",
+    "source": "https://www.eldiario.es/sociedad/almodovar-rosa-montero-bardem-130-personalidades-cultura-respaldan-huelga-educativa-madrid_1_13695615.html"
+   },
+   "vo": {
+    "titre": "Más de 130 figuras de la cultura española respaldan la huelga de la educación pública en Madrid",
+    "faits": "Más de 130 personalidades de la cultura española —entre ellas Pedro Almodóvar, Javier Bardem, Rosa Montero y Antonio Muñoz Molina— firmaron un manifiesto en apoyo al profesorado en huelga de la educación pública en Madrid, según publicó elDiario.es el 26 de noviembre. Impulsado por el docente José Antonio López García, el documento respalda siete reivindicaciones centrales, como la reducción del número de alumnos por aula y mejores condiciones laborales para enseñar y aprender. Los firmantes rechazan los insultos lanzados desde el Gobierno regional de Isabel Díaz Ayuso, que llegó a tildar a sindicalistas y huelguistas de «basura sindical» y «garrapatas». Asimismo, critican las presiones de la inspección educativa contra gestos simbólicos como los lazos verdes en defensa de la escuela pública.",
+    "enjeux": "Este conflicto refleja un debate estructural de la sociedad española sobre la financiación y el prestigio de la enseñanza pública frente al auge de la educación concertada y privada en Madrid. La movilización conjunta de docentes y creadores retoma una tradición histórica en la que el mundo de la cultura se implica activamente en la defensa de los servicios públicos y la autonomía pedagógica. Al mismo tiempo, pone de relieve la aguda polarización política en torno a unas competencias educativas transferidas a las comunidades autónomas. En un ensayo sobre España, permite abordar tanto la cuestión de la igualdad de oportunidades como la confrontación ideológica territorial."
+   },
+   "vocab": [
+    [
+     "el manifiesto",
+     "le manifeste",
+     "Decenas de escritores firmaron un manifiesto en favor de la escuela pública."
+    ],
+    [
+     "el profesorado / los docentes",
+     "le corps enseignant",
+     "El profesorado reclama menos burocracia y aulas menos masificadas."
+    ],
+    [
+     "las reivindicaciones",
+     "les revendications",
+     "La huelga busca visibilizar siete reivindicaciones laborales y educativas."
+    ],
+    [
+     "la igualdad de oportunidades",
+     "l'égalité des chances",
+     "Una educación pública sólida garantiza la igualdad de oportunidades."
+    ],
+    [
+     "el adoctrinamiento",
+     "l'endoctrinement",
+     "Los docentes rechazaron las acusaciones de adoctrinamiento político en las aulas."
+    ],
+    [
+     "respaldar una movilización",
+     "soutenir une mobilisation",
+     "Cineastas y novelistas decidieron respaldar la movilización educativa en la capital."
+    ]
+   ],
+   "sujets": [
+    "¿Está amenazada la igualdad de oportunidades por las desigualdades educativas entre regiones en España?",
+    "¿Qué papel desempeña el mundo de la cultura en los debates sociales y políticos de la España contemporánea?"
+   ],
+   "anki": [
+    {
+     "q": "Acontecimiento que unió a más de 130 figuras culturales españolas (Almodóvar, Bardem, Montero) en noviembre de 2026",
+     "r": "Manifiesto de respaldo a la huelga de la educación pública en Madrid frente a la masificación y los ataques del Gobierno regional.\n→ Ilustra el compromiso cívico de la B{cultura española} y la polarización sobre los B{servicios públicos}."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-espagnol-c1",
+   "matiere": "espagnol",
+   "culture": true,
+   "source": "ABC",
+   "url": "https://www.abc.es/cultura/archivo-custodia-verdadera-historia-maria-lejarraga-20261127013327-nt.html",
+   "minutes": 3,
+   "titre": "Patrimoine : Madrid acquiert les archives de María Lejárraga, autrice longtemps dissimulée sous le nom de son mari",
+   "dossier": "archives-maria-lejarraga",
+   "faits": "Le journal ABC révèle le 27 novembre que la Communauté de Madrid vient d'acquérir pour 300 000 euros les archives personnelles de l'écrivaine, dramaturge et députée féministe María Lejárraga (1874-1974), destinées à la Bibliothèque régionale de Madrid après une exposition consacrée à l'autrice par la Bibliothèque nationale d'Espagne fin 2024. Ce fonds exceptionnel réunit environ 40 boîtes et plus de 2 000 documents : 30 manuscrits originaux (dont *Nana del amor perdido*), sa bibliothèque personnelle et une vaste correspondance avec Juan Ramón Jiménez (plus de 70 documents), Rubén Darío, Valle-Inclán, Unamuno, Pérez Galdós ou Manuel de Falla. Pendant des décennies, les pièces à succès qu'elle rédigeait — surtout à partir de 1909 lorsque son mari Gregorio Martínez Sierra dirigea le Teatro Eslava — ont paru sous le seul nom de son époux. Ce n'est qu'après la mort de ce dernier en 1947 qu'elle revendiqua publiquement la paternité de son œuvre dans ses mémoires *Gregorio y yo*, signant désormais María Martínez Sierra.",
+   "enjeux": "Cette acquisition patrimoniale consacre la réhabilitation tardive d'une figure majeure de l'âge d'argent (*Edad de Plata*) espagnol, longtemps victime d'invisibilisation littéraire en tant que femme. L'histoire de María Lejárraga dépasse le seul cadre littéraire : militante féministe avant 1914 et élue députée socialiste aux Cortes en 1933, elle incarne l'élan modernisateur et émancipateur de la **Seconde République espagnole**, brisé par la Guerre civile et l'exil vers la Suisse, Nice puis Buenos Aires jusqu'à sa mort en 1974. Préserver ces lettres et manuscrits permet de restituer aux femmes créatrices leur juste place dans l'histoire culturelle hispanique et de nourrir une réflexion sur la mémoire démocratique et artistique de l'Espagne du XXe siècle.",
+   "image": {
+    "url": "https://s1.abcstatics.com/abc/www/multimedia/cultura/2026/11/27/5571513-U86066484875OWc-1200x630@diario_abc.jpg",
+    "alt": "Portrait d'archive de l'écrivaine espagnole María Lejárraga",
+    "credit": "Diario ABC",
+    "source": "https://www.abc.es/cultura/archivo-custodia-verdadera-historia-maria-lejarraga-20261127013327-nt.html"
+   },
+   "vo": {
+    "titre": "Madrid adquiere el archivo que custodia la verdadera historia literaria y política de María Lejárraga",
+    "faits": "El diario ABC informa este 27 de noviembre de que la Comunidad de Madrid ha formalizado la compra por 300.000 euros del archivo personal de la escritora, dramaturga y diputada feminista María Lejárraga (1874-1974) para su custodia en la Biblioteca Regional de Madrid. El legado comprende unas 40 cajas y más de 2.000 documentos, entre ellos 30 manuscritos originales, su biblioteca y cartas autógrafas de figuras como Juan Ramón Jiménez, Rubén Darío, Valle-Inclán, Unamuno, Galdós y Manuel de Falla. Durante décadas, gran parte de las obras teatrales y libretos que redactó —especialmente desde 1909, cuando Gregorio Martínez Sierra asumió la dirección del Teatro Eslava— se publicaron bajo el nombre exclusivo de su marido. Tras el fallecimiento de este en 1947, Lejárraga reclamó la autoría en sus memorias 'Gregorio y yo' y pasó a firmar como María Martínez Sierra.",
+    "enjeux": "Esta adquisición institucional consolida la recuperación histórica de una voz imprescindible de la Edad de Plata española, cuya autoría permaneció oculta durante décadas por las convenciones de género de su época. Más allá de su talento literario y de su vínculo con las revistas 'Helios' y 'Renacimiento', Lejárraga fue pionera del feminismo español y una de las primeras diputadas de la Segunda República en 1933, antes de emprender un exilio definitivo tras la Guerra Civil hasta su muerte en Buenos Aires en 1974. Preservar este fondo documental repara un olvido cultural y conecta la memoria literaria de España con la conquista de los derechos de las mujeres."
+   },
+   "vocab": [
+    [
+     "la autoría",
+     "la paternité (d'une œuvre)",
+     "La escritora tuvo que reclamar la autoría de sus obras teatrales."
+    ],
+    [
+     "el legado documental",
+     "le legs / fonds documentaire",
+     "La biblioteca pública catalogará el legado documental para los investigadores."
+    ],
+    [
+     "el manuscrito autógrafo",
+     "le manuscrit autographe",
+     "El archivo conserva decenas de manuscritos autógrafos de poetas del siglo XX."
+    ],
+    [
+     "el mecenazgo / la adquisición",
+     "le mécénat / l'acquisition",
+     "La adquisición de colecciones privadas enriquece el patrimonio nacional."
+    ],
+    [
+     "reivindicar",
+     "revendiquer / réhabiliter",
+     "Hoy numerosas exposiciones buscan reivindicar a las creadoras olvidadas."
+    ],
+    [
+     "el exilio republicano",
+     "l'exil républicain",
+     "Como tantos intelectuales, Lejárraga sufrió el exilio republicano en América."
+    ]
+   ],
+   "reperes": [
+    [
+     "La Edad de Plata (1898-1936)",
+     "Âge d'or culturel entre la Génération de 98 et la Guerre civile ; le foyer des Lejárraga-Martínez Sierra anima les revues *Helios* et *Renacimiento* et collabore avec Unamuno, Galdós ou Juan Ramón Jiménez."
+    ],
+    [
+     "Le livret de *El amor brujo* (1915)",
+     "Œuvre phare de Manuel de Falla imprégnée d'âme andalouse et gitane : c'est en réalité María Lejárraga qui en écrivit le livret, comme pour *El sombrero de tres picos*."
+    ],
+    [
+     "Les femmes députées de la Seconde République (1931-1936)",
+     "Aux côtés de Clara Campoamor ou Victoria Kent, Lejárraga est élue députée PSOE en 1933 avant de s'exiler en France puis à Buenos Aires en 1936."
+    ],
+    [
+     "Effacement des créatrices (effet Matilda artistique)",
+     "Comme Camille Claudel en sculpture ou Colette en France à ses débuts sous le nom de Willy, son œuvre fut longtemps attribuée à son mari jusqu'à ses mémoires *Gregorio y yo*."
+    ]
+   ],
+   "entretien": "En entretien, je peux amener ce sujet en parlant de mon goût pour l'histoire culturelle espagnole et la manière dont Madrid met en valeur ses créatrices méconnues : « J'ai lu récemment que Madrid venait de racheter les archives de María Lejárraga, une autrice brillante dont les pièces et même le livret d'*El amor brujo* de Manuel de Falla étaient signés par son mari. » Mon avis est que cette redécouverte corrige une injustice historique sans effacer la complexité de leur collaboration créative, et montre combien la culture espagnole du début du XXe siècle était moderne et audacieuse — ce que j'ai ressenti lors de mes séjours en Espagne en découvrant l'effervescence intellectuelle de Madrid. Si le jury me demande si ce phénomène existe aussi en France, je peux immédiatement faire le parallèle avec Colette signant les *Claudine* sous le nom de Willy ou avec Camille Claudel face à Rodin, afin de montrer ma capacité à relier les deux cultures.",
+   "sujets": [
+    "¿Por qué tardó tanto la historia cultural española en reconocer el papel de sus escritoras y artistas?",
+    "¿Qué importancia tiene la conservación pública de los archivos literarios para la memoria democrática de un país?"
+   ],
+   "anki": [
+    {
+     "q": "Escritora y diputada española cuyas obras firmó su marido Gregorio Martínez Sierra y cuyo archivo compró Madrid en 2026",
+     "r": "María Lejárraga (D{1874-1974}) ; archivo de C{40 cajas} adquirido por C{300.000 €} tras reclamar su autoría en O{Gregorio y yo}.\n→ Referencia cultural clave sobre el B{feminismo republicano} y la invisibilización de las creadoras españolas."
+    }
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "La carte bancaire a détrôné le cash dans les paiements en magasin en Europe",
+   "url": "https://www.lesechos.fr/finance-marches/banque-assurances/la-carte-bancaire-a-detrone-le-cash-dans-les-paiements-en-magasin-en-europe-2264504",
+   "pourquoi": "Apporte les derniers chiffres de l'étude SPACE de la BCE sur la **dématérialisation de la monnaie** (45 % par carte contre 44 % en espèces) tout en nuançant avec l'attachement persistant au cash."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Dépendance étrangère, explosion de la demande électrique… Ce rapport qui tempère l'enthousiasme français pour les data centers",
+   "url": "https://www.lesechos.fr/tech-medias/hightech/dependance-etrangere-explosion-de-la-demande-electrique-ce-rapport-qui-tempere-lenthousiasme-francais-pour-les-data-centers-2264901",
+   "pourquoi": "Utile pour nuancer l'euphorie autour de l'IA en croisant **souveraineté technologique**, dépendance matérielle aux puces étrangères et **contrainte énergétique** de la transition écologique."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "La commande publique peut-elle faire plus de place au made in France ?",
+   "url": "https://www.lesechos.fr/idees-debats/editos-analyses/la-commande-publique-peut-elle-faire-plus-de-place-au-made-in-france-2264911",
+   "pourquoi": "Éclaire le débat sur le **protectionnisme** et la **politique industrielle** en montrant comment les marchés publics peuvent soutenir l'offre nationale dans le respect des règles européennes de concurrence."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Logement : plus de la moitié du parc privé est aux mains de multipropriétaires",
+   "url": "https://www.lemonde.fr/le-monde-evenements/article/2026/11/27/logement-plus-de-la-moitie-du-parc-prive-est-aux-mains-de-multiproprietaires_6815810_4333359.html",
+   "pourquoi": "Fournit un chiffre clé (54 % du parc privé aux mains de multipropriétaires) pour analyser la **concentration du patrimoine** immobilier et les tensions sur le marché locatif en sociologie et en économie."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Dans les rues de Shanghaï, l’essor des marques chinoises menace les champions européens du luxe",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/27/dans-les-rues-de-shanghai-l-essor-des-marques-chinoises-menace-les-champions-europeens-du-luxe_6815807_3234.html",
+   "pourquoi": "Illustre la **montée en gamme** industrielle de la Chine et la fragilité de l'avantage comparatif européen dans la **compétitivité hors-prix**, y compris sur le segment du luxe."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Assurance-vie : pourquoi les épargnants se ruent-ils au Luxembourg ?",
+   "url": "https://www.lemonde.fr/argent/article/2026/11/27/assurance-vie-pourquoi-les-epargnants-se-ruent-ils-au-luxembourg_6815801_1657007.html",
+   "pourquoi": "Permet d'illustrer la **mobilité internationale du capital**, la concurrence réglementaire intra-européenne et l'impact de l'incertitude fiscale et politique sur les choix d'épargne."
+  }
+ ]
+}
