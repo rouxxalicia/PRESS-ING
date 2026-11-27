@@ -219,10 +219,19 @@
     "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cc65/live/28a10870-e99f-11f1-b880-15b494ba858d.jpg",
     "alt": "Voyageurs et contrôles à l'arrivée dans un aéroport britannique"
    }
+  },
+  "2026-11-27-anglais-3": {
+   "titre": "États-Unis : les coupes dans l'aide alimentaire SNAP menacent la gratuité des repas scolaires",
+   "matiere": "anglais",
+   "dossiers": [],
+   "image": {
+    "url": "https://static01.nyt.com/images/2026/11/25/multimedia/00dc-schoolmeals-01-glzv/00dc-schoolmeals-01-glzv-mediumSquareAt3X.jpg",
+    "alt": "Élèves et repas servis dans une cantine scolaire aux États-Unis"
+   }
   }
  },
  "dossiers": [],
- "favsMaj": 1795769483609,
+ "favsMaj": 1795769591409,
  "demandes": [
   {
    "id": "dmwlvrpnt",
