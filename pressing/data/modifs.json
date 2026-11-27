@@ -237,10 +237,19 @@
     "url": "https://s1.abcstatics.com/abc/www/multimedia/cultura/2026/11/27/5571513-U86066484875OWc-1200x630@diario_abc.jpg",
     "alt": "Portrait d'archive de l'écrivaine espagnole María Lejárraga"
    }
+  },
+  "2026-11-27-espagnol-1": {
+   "titre": "Espagne : le Congrès valide la hausse de 4,5 % des salaires des fonctionnaires et l'exonération d'IRPF du SMIC 2027",
+   "matiere": "espagnol",
+   "dossiers": [],
+   "image": {
+    "url": "https://static.eldiario.es/clip/05acdd27-6efb-4399-9753-fa3b9c283303_facebook-aspect-ratio-1200-675_default_0.jpg",
+    "alt": "Les ministres espagnols Óscar López et Arcadi España au Congrès des députés"
+   }
   }
  },
  "dossiers": [],
- "favsMaj": 1795769827117,
+ "favsMaj": 1795770129732,
  "demandes": [
   {
    "id": "dmwlvrpnt",
