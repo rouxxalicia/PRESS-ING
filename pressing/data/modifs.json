@@ -228,10 +228,19 @@
     "url": "https://static01.nyt.com/images/2026/11/25/multimedia/00dc-schoolmeals-01-glzv/00dc-schoolmeals-01-glzv-mediumSquareAt3X.jpg",
     "alt": "Élèves et repas servis dans une cantine scolaire aux États-Unis"
    }
+  },
+  "2026-11-27-espagnol-c1": {
+   "titre": "Patrimoine : Madrid acquiert les archives de María Lejárraga, autrice longtemps dissimulée sous le nom de son mari",
+   "matiere": "espagnol",
+   "dossiers": [],
+   "image": {
+    "url": "https://s1.abcstatics.com/abc/www/multimedia/cultura/2026/11/27/5571513-U86066484875OWc-1200x630@diario_abc.jpg",
+    "alt": "Portrait d'archive de l'écrivaine espagnole María Lejárraga"
+   }
   }
  },
  "dossiers": [],
- "favsMaj": 1795769591409,
+ "favsMaj": 1795769827117,
  "demandes": [
   {
    "id": "dmwlvrpnt",
