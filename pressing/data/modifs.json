@@ -192,10 +192,64 @@
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/SIN_BYD_e6_SNF4771J_2023-10-26.jpg/1280px-SIN_BYD_e6_SNF4771J_2023-10-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "alt": "Véhicule électrique du constructeur chinois BYD"
    }
+  },
+  "2026-11-27-esh-4": {
+   "titre": "Réindustrialisation : pourquoi le déficit d'ETI industrielles freine l'économie française",
+   "matiere": "esh",
+   "dossiers": [],
+   "image": {
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/27/pierre-andre-buigues-et-denis-lacoste-1795759592_174ebbcd190b61b4ebbcd190bde4ebv_.jpg",
+    "alt": "Portraits des économistes Pierre-André Buigues et Denis Lacoste"
+   }
+  },
+  "2026-11-27-esh-6": {
+   "titre": "Banque et IA : le Crédit agricole investit 500 millions d'euros dans des agents d'intelligence artificielle européens",
+   "matiere": "esh",
+   "dossiers": [],
+   "image": {
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/26/la-banque-en-ligne-a-toujours-ete-un-sujet-complexe-au-sein-du-groupe-mutualiste-credit-agricole-1795689045_1e9fa6795cf9612afa6795cf9e5afav_.jpg",
+    "alt": "Façade et identité visuelle du groupe bancaire Crédit agricole"
+   }
+  },
+  "2026-11-27-anglais-1": {
+   "titre": "Royaume-Uni : l'immigration nette chute à 77 000 personnes, son plus bas niveau depuis 1997 hors pandémie",
+   "matiere": "anglais",
+   "dossiers": [],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cc65/live/28a10870-e99f-11f1-b880-15b494ba858d.jpg",
+    "alt": "Voyageurs et contrôles à l'arrivée dans un aéroport britannique"
+   }
+  },
+  "2026-11-27-anglais-3": {
+   "titre": "États-Unis : les coupes dans l'aide alimentaire SNAP menacent la gratuité des repas scolaires",
+   "matiere": "anglais",
+   "dossiers": [],
+   "image": {
+    "url": "https://static01.nyt.com/images/2026/11/25/multimedia/00dc-schoolmeals-01-glzv/00dc-schoolmeals-01-glzv-mediumSquareAt3X.jpg",
+    "alt": "Élèves et repas servis dans une cantine scolaire aux États-Unis"
+   }
+  },
+  "2026-11-27-espagnol-c1": {
+   "titre": "Patrimoine : Madrid acquiert les archives de María Lejárraga, autrice longtemps dissimulée sous le nom de son mari",
+   "matiere": "espagnol",
+   "dossiers": [],
+   "image": {
+    "url": "https://s1.abcstatics.com/abc/www/multimedia/cultura/2026/11/27/5571513-U86066484875OWc-1200x630@diario_abc.jpg",
+    "alt": "Portrait d'archive de l'écrivaine espagnole María Lejárraga"
+   }
+  },
+  "2026-11-27-espagnol-1": {
+   "titre": "Espagne : le Congrès valide la hausse de 4,5 % des salaires des fonctionnaires et l'exonération d'IRPF du SMIC 2027",
+   "matiere": "espagnol",
+   "dossiers": [],
+   "image": {
+    "url": "https://static.eldiario.es/clip/05acdd27-6efb-4399-9753-fa3b9c283303_facebook-aspect-ratio-1200-675_default_0.jpg",
+    "alt": "Les ministres espagnols Óscar López et Arcadi España au Congrès des députés"
+   }
   }
  },
  "dossiers": [],
- "favsMaj": 1795699529678,
+ "favsMaj": 1795770129732,
  "demandes": [
   {
    "id": "dmwlvrpnt",
