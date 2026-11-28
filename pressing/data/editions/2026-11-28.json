@@ -1,0 +1,1185 @@
+{
+ "date": "2026-11-28",
+ "cards": [
+  {
+   "id": "2026-11-28-esh-1",
+   "matiere": "esh",
+   "source": "La Tribune",
+   "url": "https://www.latribune.fr/article/economie/30991424411632/dette-s-p-abaisse-la-perspective-de-la-france-la-recession-inquiete",
+   "minutes": 3,
+   "titre": "France : entrée en récession technique et perspective négative de Standard & Poor's",
+   "dossier": "finances-publiques-france",
+   "suite": "L'Insee révise la croissance française en récession technique (−0,2 % au 3e trimestre après un léger recul au 2e) et S&P abaisse la perspective de la note A+ à négative.",
+   "faits": "Le 27 novembre, l'Insee a publié ses comptes nationaux détaillés montrant un recul du PIB français de 0,2 % au troisième trimestre 2026, après une contraction de 0,2 % au premier trimestre et une légère baisse au deuxième. La France entre ainsi en récession technique, définie par deux trimestres consécutifs de contraction de l'activité. L'acquis de croissance pour 2026 plafonne à 0,1 %, rendant la prévision gouvernementale de 0,5 % quasi inaccessible. Le même soir, l'agence Standard & Poor's a maintenu la note souveraine française à A+, mais a abaissé sa perspective de stable à négative. S&P prévient qu'une dégradation interviendrait si les déficits ne diminuent pas sensiblement ou si la croissance reste durablement inférieure aux attentes. L'agence anticipe pour 2027 un déficit global d'environ 5,3 % du PIB, la baisse du déficit primaire (de 2,8 % à 2,2 %) étant absorbée par la hausse de la charge d'intérêts (de 2,7 % à 3,1 % du PIB). La France porte désormais une perspective négative chez les trois grandes agences : S&P (A+), Fitch (A+) et Moody's (Aa3).",
+   "enjeux": "La conjonction d'une **récession technique** et d'une mise sous surveillance négative illustre le piège classique des finances publiques en phase de ralentissement. Moins d'activité signifie moins de recettes fiscales (TVA, impôt sur les sociétés), alors que les **stabilisateurs automatiques** soutiennent la dépense publique et que la **charge de la dette** grimpe à plus de 3 % du PIB. S&P pointe aussi l'**instabilité politique**, qui bloque la consolidation budgétaire et entretient l'incertitude des investisseurs. Pour la politique économique, le dilemme est aigu : une cure d'austérité brutale risque de creuser la récession via le **multiplicateur budgétaire**, tandis que l'inaction renchérit les taux d'emprunt exigés par les marchés obligataires. Cet épisode montre enfin l'**effet boule de neige** potentiel lorsque le taux d'intérêt apparent sur la dette dépasse durablement la croissance nominale.",
+   "image": {
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/11/27/file-photo-the-s-p-global-logo-is-displayed-on-its-offices-in-the-financial-district-in-new-york-cit-1795814649_c35aae49790b6585aae49790b1c5aav_.jpg",
+    "alt": "Façade des bureaux de l'agence de notation S&P Global à New York",
+    "credit": "La Tribune",
+    "source": "https://www.latribune.fr/article/economie/30991424411632/dette-s-p-abaisse-la-perspective-de-la-france-la-recession-inquiete"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "John Maynard Keynes",
+     "ouvrage": "Théorie générale de l'emploi, de l'intérêt et de la monnaie",
+     "annee": "1936",
+     "ref": "demande-effective-keynes",
+     "cours": "1A-acteurs-fonctions",
+     "texte": "Keynes montre qu'en période de contraction de l'activité, le soutien de la **demande effective** par la dépense publique permet de relancer le revenu national grâce au **multiplicateur budgétaire**. Appliqué à la France fin 2026, ce cadre avertit qu'une réduction trop rapide du déficit en pleine récession technique risque d'aggraver la chute du PIB et de réduire les rentrées fiscales. À mobiliser en dissertation sur l'efficacité des politiques budgétaires pour justifier un ajustement graduel plutôt qu'une austérité procyclique."
+    },
+    {
+     "nom": "Robert Barro",
+     "ouvrage": "Les obligations d'État sont-elles une richesse nette ?",
+     "annee": "1974",
+     "ref": "equivalence-ricardienne",
+     "cours": "1A-hpe",
+     "texte": "Selon l'**équivalence ricardienne**, les ménages anticipent que la dette émise aujourd'hui sera payée par des impôts futurs et épargnent donc davantage, ce qui rend la relance par le déficit inefficace. Dans le cas français, la hausse annoncée de la **charge d'intérêts** à 3,1 % du PIB et la perspective négative de S&P renforcent la crédibilité de cette contrainte intertemporelle auprès des épargnants et des marchés. À mobiliser pour nuancer Keynes et expliquer pourquoi un État déjà très endetté perd ses marges de manœuvre contracycliques."
+    }
+   ],
+   "notions": [
+    [
+     "Récession technique",
+     "Contraction du produit intérieur brut en volume pendant au moins deux trimestres consécutifs."
+    ],
+    [
+     "Acquis de croissance",
+     "Taux de croissance annuel qui serait observé si le PIB restait exactement au niveau du dernier trimestre connu jusqu'à la fin de l'année."
+    ],
+    [
+     "Déficit primaire",
+     "Solde budgétaire d'un État calculé hors paiement des intérêts de la dette publique."
+    ],
+    [
+     "Charge de la dette",
+     "Montant annuel des intérêts versés par les administrations publiques à leurs créanciers."
+    ]
+   ],
+   "sujets": [
+    "Peut-on réduire le déficit public en période de récession ?",
+    "Les agences de notation contraignent-elles la souveraineté budgétaire des États ?"
+   ],
+   "anki": [
+    {
+     "q": "Récession technique et perspective S&P (France, novembre 2026)",
+     "r": "PIB à C{−0,2 %} au T3 (après le T1 et le T2) et acquis à C{0,1 %} ; S&P maintient A+ mais passe en perspective négative.\n→ Montre l'effet ciseaux d'un ralentissement sur les recettes fiscales et la contrainte des marchés obligataires.\nA{Keynes}, O{Théorie générale} (D{1936}) : une austérité brutale en récession risque d'amplifier la contraction."
+    },
+    {
+     "q": "Charge d'intérêts et déficit global prévus en France par S&P (2027)",
+     "r": "Déficit primaire ramené à C{2,2 %} du PIB mais intérêts à C{3,1 %}, soit C{5,3 %} de déficit total.\n→ Illustre comment la montée du service de la dette annule les efforts budgétaires primaires.\nA{Barro}, O{Les obligations d'État sont-elles une richesse nette ?} (D{1974}) : l'endettement passé limite les marges budgétaires présentes."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-esh-2",
+   "matiere": "esh",
+   "source": "Alternatives économiques",
+   "url": "https://www.alternatives-economiques.fr/depenses-publiques-et-si-l-on-regardait-enfin-du-cote-des-aides-aux-entreprises_27-11-2026",
+   "minutes": 3,
+   "titre": "Aides aux entreprises en France : 166 à 211 milliards d'euros sous-évalués",
+   "dossier": "aides-publiques-entreprises",
+   "faits": "Pour la première fois, le projet de loi de finances comporte une annexe dédiée au recensement des aides publiques aux entreprises, à la suite de travaux universitaires et d'une commission d'enquête sénatoriale. Selon le périmètre retenu, leur montant atteint 166 milliards d'euros en 2024 pour Bercy, 187 milliards en 2023 pour le Haut-Commissariat à la stratégie et au plan, et jusqu'à 211 milliards pour le Sénat. Bercy recense plus de 450 dispositifs dont les effets sont rarement mesurés. Les exonérations de cotisations sociales représentent la première dépense avec 69 milliards d'euros en 2024, devant des niches comme le crédit d'impôt recherche (CIR, 7,8 milliards d'euros en 2023) ou la TVA réduite dans la restauration (4,2 milliards). Selon l'OCDE, 1 euro de CIR génère 1,40 euro de R&D dans une PME contre seulement 0,40 euro dans une grande firme, alors que les PME ne captent que 2,2 milliards sur 7,8. Des économistes proposent de réduire progressivement ces aides ou de les conditionner plutôt que de les supprimer brutalement.",
+   "enjeux": "Ce chiffrage révèle un angle mort majeur de la gestion des finances publiques françaises : l'empilement de **dépenses fiscales** et d'allègements sans évaluation systématique. Le débat oppose deux lectures de la **politique de l'offre**. D'un côté, les économistes libéraux rappellent le niveau élevé du **taux de prélèvement net** sur les sociétés non financières (environ 20 % de la valeur ajoutée brute en 2023, deuxième rang européen derrière la Suède), même si ce taux a reculé de 4,2 points entre 2000 et 2024. De l'autre, l'analyse empirique met en évidence d'importants **effets d'aubaine** : plus de la moitié de la baisse de TVA dans la restauration a été absorbée par les marges des entreprises, et les exonérations générales de cotisations sociales ont un faible effet sur la compétitivité globale. L'enjeu pour la **politique industrielle** et budgétaire consiste donc à remplacer des subventions indifférenciées par des aides ciblées et conditionnées.",
+   "image": {
+    "url": "https://www.alternatives-economiques.fr/sites/default/files/styles/for_social_networks/public/images/04_AIDES-ENTREPRISES.jpg.webp?itok=MLYBBxIn",
+    "alt": "Illustration d'aides financières publiques versées aux entreprises",
+    "credit": "Alternatives économiques",
+    "source": "https://www.alternatives-economiques.fr/depenses-publiques-et-si-l-on-regardait-enfin-du-cote-des-aides-aux-entreprises_27-11-2026"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la croissance économique"
+   },
+   "auteurs": [
+    {
+     "nom": "Paul Romer",
+     "ouvrage": "Increasing Returns and Long-Run Growth",
+     "annee": "1986",
+     "ref": "croissance-endogene",
+     "cours": "1A-croissance",
+     "texte": "Romer montre que l'accumulation de capital et la R&D génèrent des **externalités positives** qui rendent la **croissance endogène** auto-entretenue, ce qui justifie que l'État subventionne l'investissement privé et l'innovation. Dans le cas français, cet argument légitime un dispositif comme le CIR sur le plan théorique, à condition qu'il déclenche un surplus réel de recherche, comme chez les PME (1,40 € pour 1 € d'aide). À mobiliser pour défendre le principe d'un soutien public à l'innovation tout en exigeant un meilleur ciblage."
+    },
+    {
+     "nom": "Esther Duflo et Abhijit Banerjee",
+     "ouvrage": "Repenser la pauvreté",
+     "annee": "2011",
+     "ref": "evaluation-politiques-publiques-duflo",
+     "cours": "1A-hpe",
+     "texte": "Duflo et Banerjee défendent une **évaluation empirique** rigoureuse de chaque politique publique afin de mesurer son efficacité réelle plutôt que de se fier à des postulats théoriques généraux. Appliquée aux plus de 450 aides françaises aux entreprises, cette exigence explique pourquoi les exonérations générales ou le CIR aux grandes firmes (0,40 € de R&D par euro public) sont aujourd'hui contestés faute de preuve d'impact. À mobiliser dans un sujet sur la dépense publique pour montrer qu'évaluer permet d'économiser sans nuire à la croissance."
+    }
+   ],
+   "notions": [
+    [
+     "Effet d'aubaine",
+     "Situation dans laquelle une aide publique finance un comportement ou un investissement que l'entreprise aurait réalisé même sans subvention."
+    ],
+    [
+     "Dépense fiscale",
+     "Manque à gagner budgétaire résultant d'une exonération, d'une réduction d'impôt ou d'un crédit d'impôt ciblé."
+    ],
+    [
+     "Politique de l'offre",
+     "Ensemble de mesures visant à stimuler la production en réduisant les coûts, les prélèvements ou les contraintes réglementaires des entreprises."
+    ],
+    [
+     "Conditionnalité des aides",
+     "Subordination d'une subvention ou d'un allègement fiscal au respect d'engagements mesurables en matière d'emploi, d'investissement ou de transition écologique."
+    ]
+   ],
+   "sujets": [
+    "Les aides publiques aux entreprises sont-elles un levier efficace de croissance ?",
+    "Comment rendre la dépense publique plus efficace sans freiner l'activité économique ?"
+   ],
+   "anki": [
+    {
+     "q": "Montant des aides publiques aux entreprises en France (PLF, 2023-2024)",
+     "r": "Entre C{166 Md€} (Bercy, D{2024}) et C{211 Md€} (Sénat, D{2023}), répartis en plus de C{450} dispositifs.\n→ Chiffre d'accroche sur l'ampleur des dépenses fiscales et l'urgence d'évaluer la politique de l'offre.\nA{Duflo et Banerjee}, O{Repenser la pauvreté} (D{2011}) : seule l'évaluation empirique distingue les aides utiles des effets d'aubaine."
+    },
+    {
+     "q": "Efficacité comparée du CIR entre PME et grandes entreprises (OCDE)",
+     "r": "C{1 €} de CIR crée C{1,40 €} de R&D dans une PME contre C{0,40 €} dans une grande firme (sur C{7,8 Md€}, seuls C{2,2 Md€} vont aux PME).\n→ Prouve que l'effet de levier d'une subvention à l'innovation dépend du ciblage des bénéficiaires.\nA{Romer}, O{Increasing Returns and Long-Run Growth} (D{1986}) : subventionner la R&D ne se justifie que si les externalités de connaissance augmentent."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-esh-3",
+   "matiere": "esh",
+   "source": "POLITICO",
+   "url": "https://www.politico.eu/article/ue-tech-americaine-dependance-souverainete-ia-cloud/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "minutes": 3,
+   "titre": "Souveraineté numérique : de fortes fractures européennes face aux géants américains du cloud",
+   "dossier": "souverainete-numerique-europe",
+   "faits": "Une étude de l'université finlandaise Aalto, menée sur les sites publics de 158 pays, révèle de profondes disparités dans le recours des administrations européennes aux géants américains Amazon, Microsoft et Google. Au sein de l'Union européenne, Malte (78,5 %), la Finlande (56,1 %) et l'Irlande (45,8 %) affichent les taux d'hébergement américain les plus élevés, contre 9,3 % en France et 2,9 % en Allemagne. Hors UE, le Royaume-Uni atteint 50,9 % après avoir massivement migré ses ministères vers le cloud américain il y a une quinzaine d'années, tandis que la Russie et la Chine n'enregistrent aucun site public lié aux trois acteurs américains. Les chercheurs expliquent ces écarts par la taille du marché intérieur : le cloud exige d'immenses investissements initiaux et repose sur des économies d'échelle que seuls les grands pays peuvent rentabiliser localement. Dans le secteur privé, les entreprises européennes dépensent environ 330 milliards d'euros par an en logiciels et cloud américains, soit 83 % de part de marché. Bruxelles négocie actuellement le Cloud and AI Development Act (CADA), qui pourrait imposer des tests de souveraineté dans les marchés publics.",
+   "enjeux": "Cette étude éclaire le lien étroit entre **taille de marché**, **rendements croissants** et **autonomie stratégique**. Le numérique est une industrie à coûts fixes très élevés et à coûts marginaux faibles : plus un acteur dessert d'utilisateurs, plus son coût unitaire baisse, ce qui favorise un **oligopole mondial** dominé par les hyperscalers américains. Même lorsque l'État français ou allemand conserve une certaine souveraineté sur les portails publics centraux, le secteur privé européen reste dépendant à 83 %, générant un déficit structurel dans la balance des services numériques. Le projet de Cloud and AI Development Act pose ainsi un dilemme de **politique industrielle européenne** : recourir à la **commande publique** comme levier pour faire émerger des champions européens, au risque de tensions commerciales avec Washington et de divisions entre petits pays sans offre nationale et grands pays industriels.",
+   "image": {
+    "url": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/11/26/GettyImages-1258377934-scaled.jpg",
+    "alt": "Salle de serveurs informatiques illustrant les infrastructures de cloud computing",
+    "credit": "POLITICO",
+    "source": "https://www.politico.eu/article/ue-tech-americaine-dependance-souverainete-ia-cloud/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+   },
+   "programme": {
+    "module": "Module 3 – La mondialisation économique et financière",
+    "chapitre": "3.1 – La dynamique de la mondialisation économique : l'ouverture des économies depuis le XIXe siècle, évolution et acteurs"
+   },
+   "auteurs": [
+    {
+     "nom": "Élie Cohen et Jean-Hervé Lorenzi",
+     "ouvrage": "Politiques industrielles pour l'Europe",
+     "annee": "2000",
+     "ref": "politique-industrielle-cohen-lorenzi",
+     "cours": "2A-02-ftn",
+     "texte": "Cohen et Lorenzi définissent la **politique industrielle** comme une action publique ciblée, justifiée par la dépendance nationale, la recherche d'**autonomie technologique** ou la défaillance de l'initiative privée. Le projet européen de Cloud and AI Development Act, face à une part de marché américaine de 83 % dans le privé, illustre exactement cette réhabilitation de la commande publique comme outil de souveraineté. À mobiliser pour justifier la préférence européenne dans les secteurs stratégiques à rendements croissants."
+    },
+    {
+     "nom": "Philippe Aghion et Peter Howitt",
+     "ouvrage": "Appropriate Growth Policy: A Unifying Framework",
+     "annee": "2005",
+     "ref": "frontiere-technologique-aghion",
+     "cours": "2A-02-ftn",
+     "texte": "Aghion et Howitt montrent que les économies proches de la **frontière technologique** doivent privilégier l'innovation radicale, le financement par capital-risque et la concurrence plutôt que de protéger des acteurs peu compétitifs. Dans le cloud européen, imposer des critères de souveraineté aux administrations (où France et Allemagne sont déjà à moins de 10 % de dépendance) ne suffira pas si l'Europe ne comble pas son retard d'échelle et d'investissement privé face aux géants américains. À mobiliser pour nuancer le volontarisme réglementaire européen."
+    }
+   ],
+   "notions": [
+    [
+     "Économies d'échelle",
+     "Baisse du coût unitaire de production permise par l'augmentation du volume produit, grâce à l'étalement des coûts fixes."
+    ],
+    [
+     "Souveraineté numérique",
+     "Capacité d'un État ou d'une union économique à maîtriser ses infrastructures de données, ses logiciels et ses choix technologiques sans dépendance critique extérieure."
+    ],
+    [
+     "Commande publique",
+     "Ensemble des achats de biens, de travaux et de services réalisés par les administrations publiques, parfois utilisé comme levier de politique industrielle."
+    ],
+    [
+     "Effet de verrouillage",
+     "Situation dans laquelle le coût de changement de fournisseur ou de technologie rend très difficile la sortie d'une dépendance passée."
+    ]
+   ],
+   "sujets": [
+    "L'Europe peut-elle encore conquérir sa souveraineté numérique ?",
+    "La commande publique est-elle un outil pertinent de politique industrielle dans l'Union européenne ?"
+   ],
+   "anki": [
+    {
+     "q": "Part de marché des Big Tech américaines dans le cloud privé européen (2025)",
+     "r": "C{83 %} du marché, soit environ C{330 Md€} dépensés par an par les entreprises européennes.\n→ Chiffre frappant pour montrer l'ampleur de la dépendance technologique et des rendements croissants dans le numérique.\nA{Cohen et Lorenzi}, O{Politiques industrielles pour l'Europe} (D{2000}) : la dépendance technologique justifie une politique industrielle ciblée."
+    },
+    {
+     "q": "Dépendance des services publics nationaux au cloud américain : France vs Irlande et Royaume-Uni",
+     "r": "C{9,3 %} en France (C{2,9 %} en Allemagne) contre C{45,8 %} en Irlande, C{50,9 %} au Royaume-Uni et C{56,1 %} en Finlande.\n→ Illustre le rôle de la taille du marché intérieur et des choix politiques passés dans la souveraineté numérique."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-esh-4",
+   "matiere": "esh",
+   "source": "Public Sénat",
+   "url": "https://www.publicsenat.fr/actualites/economie/seniors-le-gouvernement-modifie-le-mode-de-calcul-de-lallocation-personnalisee-dautonomie",
+   "minutes": 3,
+   "titre": "Dépendance : le gouvernement relève le reste à charge de l'APA dès 2027",
+   "dossier": "dependance-seniors-apa",
+   "faits": "Un décret publié au Journal officiel le 27 novembre modifie à compter du 1er janvier 2027 le mode de calcul de l'Allocation personnalisée d'autonomie (APA), versée par les départements à 830 000 seniors vivant à domicile. Le gouvernement souhaite « recentrer » l'aide sur les personnes les plus modestes et les plus dépendantes afin d'économiser 250 millions d'euros sur les budgets départementaux. Concrètement, le reste à charge augmentera en moyenne de 12 euros par mois, et jusqu'à 36 euros après crédit d'impôt, tandis que les bénéficiaires gagnant moins de 940 euros par mois resteront exonérés. Les acteurs du grand âge et la commission des affaires sociales du Sénat alertent sur le risque d'aggraver le non-recours, alors qu'environ 20 % des heures d'aide accordées ne sont déjà pas consommées selon le Haut Conseil de l'âge. Cette mesure intervient alors que l'APA à domicile coûte aujourd'hui 4,5 milliards d'euros par an et que le nombre de Français âgés de 75 à 84 ans doit augmenter de 50 % entre 2020 et 2030 (de 4,1 à 6,1 millions).",
+   "enjeux": "Cette réforme illustre la tension croissante entre le **vieillissement démographique** et la **contrainte budgétaire** des collectivités territoriales. L'APA relève d'une logique de **solidarité nationale** universelle, ouverte à toute personne âgée en perte d'autonomie sans condition préalable de cotisation, mais modulée selon le revenu. En relevant le ticket modérateur des classes moyennes, l'exécutif arbitre en faveur d'un ciblage accru de la dépense publique pour soulager les départements. Toutefois, les spécialistes soulignent un effet pervers bien connu de l'économie sociale : le **non-recours aux droits**. Si des ménages âgés renoncent au maintien à domicile faute de pouvoir payer le reste à charge, leur état de santé risque de se dégrader plus vite et d'entraîner à moyen terme des hospitalisations ou des entrées en établissement bien plus coûteuses pour la collectivité.",
+   "image": {
+    "url": "https://www.publicsenat.fr/app/uploads/2026/11/SIPA_01253827_000006-scaled.jpg",
+    "alt": "Personne âgée accompagnée à domicile par une aide-soignante",
+    "credit": "Public Sénat",
+    "source": "https://www.publicsenat.fr/actualites/economie/seniors-le-gouvernement-modifie-le-mode-de-calcul-de-lallocation-personnalisee-dautonomie"
+   },
+   "programme": {
+    "module": "Module 1 – Les fondements de l'économie et de la sociologie",
+    "chapitre": "1.1 – Les fondements de l'économie : les acteurs et les grandes fonctions de l'économie"
+   },
+   "auteurs": [
+    {
+     "nom": "William Beveridge",
+     "ouvrage": "Rapport Beveridge",
+     "annee": "1942",
+     "ref": "modele-beveridgien-assistance",
+     "cours": "1A-acteurs-fonctions",
+     "texte": "Beveridge fonde le modèle d'**assistance sociale universelle** financée par l'impôt et ouverte à tous selon le besoin, indépendamment des cotisations passées. L'APA incarne cette logique universelle pour le risque dépendance, mais le relèvement du reste à charge et l'exonération limitée aux revenus inférieurs à 940 € rapprochent la prestation d'un ciblage restrictif qui fragilise les classes moyennes. À mobiliser pour montrer le glissement de la protection sociale française vers une sélectivité accrue sous contrainte budgétaire."
+    },
+    {
+     "nom": "Richard Musgrave",
+     "ouvrage": "Théorie des finances publiques",
+     "annee": "1959",
+     "ref": "fonctions-etat",
+     "texte": "Musgrave distingue trois fonctions de l'intervention publique : l'**allocation** des ressources, la **redistribution** des revenus et la **stabilisation** macroéconomique, qui peuvent entrer en conflit. Ici, l'objectif de maîtrise des comptes publics (250 millions d'euros d'économies pour les départements) entre en friction avec la fonction de redistribution et d'allocation efficace, puisque le non-recours (déjà 20 % des heures d'APA) risque de reporter un coût plus élevé sur l'hôpital public. À mobiliser sur les arbitrages de l'État-providence."
+    }
+   ],
+   "notions": [
+    [
+     "Non-recours aux droits",
+     "Fait pour une personne éligible à une prestation sociale de ne pas la demander ou de ne pas consommer l'intégralité des droits qui lui sont ouverts."
+    ],
+    [
+     "Reste à charge",
+     "Part d'une dépense de santé ou de dépendance qui demeure à la charge du ménage après intervention des régimes obligatoires et des aides publiques."
+    ],
+    [
+     "Modèle beveridgien",
+     "Système de protection sociale universel financé par l'impôt, garantissant un minimum à chacun sans condition de cotisation préalable."
+    ],
+    [
+     "Transition démographique",
+     "Passage d'un régime démographique à forte natalité et mortalité à un régime à faible natalité et espérance de vie élevée, entraînant le vieillissement de la population."
+    ]
+   ],
+   "sujets": [
+    "Le vieillissement démographique remet-il en cause le caractère universel de la protection sociale ?",
+    "Réduire les dépenses sociales permet-il toujours de réaliser des économies publiques durables ?"
+   ],
+   "anki": [
+    {
+     "q": "Réforme de l'APA et dynamique démographique des 75-84 ans en France",
+     "r": "C{830 000} bénéficiaires (C{4,5 Md€}/an) ; hausse moyenne du reste à charge de C{12 €}/mois pour économiser C{250 M€}, alors que les 75-84 ans bondissent de C{+50 %} entre D{2020} et D{2030}.\n→ Montre le choc démographique sur les dépenses de dépendance et la tentation du ciblage budgétaire.\nA{Beveridge}, O{Rapport Beveridge} (D{1942}) : le recul de l'universalité augmente le risque de non-recours."
+    },
+    {
+     "q": "Taux de non-consommation de l'APA à domicile (Haut Conseil de l'âge)",
+     "r": "Environ C{20 %} des heures d'aide accordées ne sont pas consommées.\n→ Illustre l'écart entre droit théorique et accès effectif dans les politiques sociales."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-esh-5",
+   "matiere": "esh",
+   "source": "La Tribune",
+   "url": "https://www.latribune.fr/article/economie/63696189292921/attractivite-ou-gestion-de-leau-a-grenoble-un-batiment-de-hautes-technologies-cristallise-les-tensions",
+   "minutes": 3,
+   "titre": "Grenoble : un projet pour la microélectronique contesté pour sa consommation d'eau",
+   "dossier": "microelectronique-eau-grenoble",
+   "faits": "Début novembre, Grenoble Alpes Métropole a voté la cession d'un terrain de 24 562 m² sur le polygone scientifique pour accueillir le BHT Fab, quatrième bâtiment de hautes technologies de l'agglomération, prévu pour 2029. Ce site doit offrir 3 300 m² de salles blanches sur trois étages afin d'aider les start-up de la microélectronique, de l'IA, du quantique et des medtechs à passer du laboratoire à la pré-industrialisation et ainsi éviter leur fuite à l'étranger. Toutefois, le projet suscite la vive opposition du collectif StopMicro, dont le slogan « De l'eau, pas des puces » dénonce la ponction sur la ressource hydrique locale. Selon les données présentées, le futur bâtiment pourrait consommer jusqu'à 50 m³ d'eau par heure dans sa première phase — soit l'équivalent de la consommation annuelle d'un Français chaque heure — et atteindre 80 m³/h à terme. Les élus métropolitains ont adopté un amendement visant à encadrer cet usage, jugé insuffisant par les opposants.",
+   "enjeux": "Ce conflit local condense un arbitrage majeur de l'économie contemporaine : comment concilier **attractivité industrielle** et **soutenabilité écologique**. La concentration de laboratoires et de start-up à Grenoble repose sur la logique des **clusters**, où la proximité géographique produit des externalités de savoir décisives pour rester dans la course mondiale aux semi-conducteurs. Mais cette industrie de pointe est fortement consommatrice d'eau ultra-pure et d'énergie, ce qui crée une rivalité d'usage sur un **bien commun** local déjà sous pression climatique. Le cas grenoblois montre ainsi que les limites environnementales ne concernent pas seulement les industries lourdes traditionnelles : la **réindustrialisation verte et numérique** se heurte elle aussi à la rareté physique des ressources et à l'acceptabilité territoriale.",
+   "image": {
+    "url": "https://pictures.latribune.fr/cdn-cgi/image/format=auto,fit=cover,width=1200,height=675/media/melody/2026/10/06/a-grenoble-le-monde-economique-s-est-leve-pour-suggerer-l-accueil-de-la-patinoire-des-jeux-des-alpes-1791277819_acf009cf8fc96900109cf8fc964010v_.jpg",
+    "alt": "Vue de l'agglomération grenobloise au pied des massifs alpins",
+    "credit": "La Tribune",
+    "source": "https://www.latribune.fr/article/economie/63696189292921/attractivite-ou-gestion-de-leau-a-grenoble-un-batiment-de-hautes-technologies-cristallise-les-tensions"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.1 – La croissance et le développement depuis le XIXe siècle : la soutenabilité de la croissance et du développement"
+   },
+   "auteurs": [
+    {
+     "nom": "Paul Krugman",
+     "ouvrage": "Geography and Trade",
+     "annee": "1991",
+     "ref": "clusters-agglomeration-krugman",
+     "cours": "2A-02-ftn",
+     "texte": "Krugman montre que les entreprises gagnent à se localiser dans des **clusters** déjà denses en recherche, fournisseurs spécialisés et main-d'œuvre qualifiée, grâce aux **économies d'agglomération**. Le projet BHT Fab à Grenoble vise précisément à combler le chaînon manquant entre laboratoire et pré-industrialisation pour retenir les start-up de haute technologie sur le territoire. À mobiliser pour expliquer les déterminants de l'attractivité territoriale dans la mondialisation."
+    },
+    {
+     "nom": "Garrett Hardin",
+     "ouvrage": "La tragédie des biens communs",
+     "annee": "1968",
+     "ref": "tragedie-des-communs-hardin",
+     "cours": "1A-soutenabilite",
+     "texte": "Hardin montre que le libre accès ou la sous-tarification d'une **ressource commune** rivale conduit chaque usager rationnel à la surexploiter au détriment de la collectivité. À Grenoble, l'implantation d'un pôle microélectronique consommant jusqu'à 80 m³ d'eau par heure cristallise cette tension sur le partage de l'eau entre usages industriels, agricoles et domestiques, obligeant la puissance publique à imposer des règles d'encadrement. À mobiliser pour nuancer l'essor des clusters par les limites écologiques locales."
+    }
+   ],
+   "notions": [
+    [
+     "Cluster (pôle de compétitivité)",
+     "Concentration géographique d'entreprises, de laboratoires et d'institutions d'un même secteur générant des externalités positives d'innovation."
+    ],
+    [
+     "Bien commun",
+     "Ressource à la fois rivale (sa consommation par un acteur réduit ce qui reste pour les autres) et difficilement excluable, exposée à la surexploitation."
+    ],
+    [
+     "Externalité négative",
+     "Coût infligé à des tiers ou à l'environnement par une activité économique sans compensation monétaire."
+    ],
+    [
+     "Soutenabilité forte",
+     "Conception du développement durable selon laquelle le capital naturel n'est pas substituable par du capital technique et doit être préservé en tant que tel."
+    ]
+   ],
+   "sujets": [
+    "Réindustrialisation et préservation des ressources naturelles sont-elles compatibles ?",
+    "L'attractivité des territoires repose-t-elle uniquement sur les économies d'agglomération ?"
+   ],
+   "anki": [
+    {
+     "q": "Conflit d'usage de l'eau autour du BHT Fab à Grenoble (microélectronique)",
+     "r": "Consommation prévue de C{50 m³/h} puis C{80 m³/h} pour C{3 300 m²} de salles blanches, soit l'équivalent horaire de la conso annuelle d'un Français.\n→ Exemple précis montrant que la haute technologie et la réindustrialisation se heurtent à la rareté des biens communs locaux.\nA{Krugman}, O{Geography and Trade} (D{1991}) vs A{Hardin}, O{La tragédie des biens communs} (D{1968})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-esh-6",
+   "matiere": "esh",
+   "source": "Alternatives économiques",
+   "url": "https://www.alternatives-economiques.fr/contre-les-pressions-economiques-et-editoriales-des-medias-font-le-pari-de-la-cooperative_28-11",
+   "minutes": 3,
+   "titre": "Médias indépendants : le modèle coopératif face à la concentration économique",
+   "dossier": "cooperatives-medias-ess",
+   "faits": "Face à la concentration des rédactions aux mains de grands groupes privés, à l'érosion du lectorat papier et à la concurrence des contenus gratuits générés par l'intelligence artificielle, plusieurs médias indépendants adoptent le statut coopératif. La coopérative Coop-médias fédère ainsi près de 75 titres indépendants autour de l'idée d'une information conçue comme un « bien commun ». Certains titres, comme Alternatives Économiques ou Rue89Lyon, fonctionnent en société coopérative et participative (Scop), où les salariés détiennent la majorité du capital selon le principe « une personne = une voix ». D'autres choisissent la société coopérative d'intérêt collectif (Scic), à l'image de l'hebdomadaire Politis depuis septembre 2024, qui réunit près de 2 000 lecteurs sociétaires via une part sociale de 50 euros et associe ONG et salariés sans ingérence dans les articles quotidiens. À l'échelle européenne, le média multilingue Voxeurop a adopté dès 2017 le statut de société coopérative européenne (SCE), seule entité de ce type en France, avec environ 250 sociétaires de plus de 30 nationalités et une majorité de sièges éditoriaux au conseil de surveillance.",
+   "enjeux": "Cette dynamique illustre la vitalité de l'**économie sociale et solidaire (ESS)** comme réponse aux défaillances de la **gouvernance actionnariale** classique dans des secteurs à forte utilité démocratique. Dans une société anonyme traditionnelle, la priorité donnée à la rentabilité du capital ou à l'influence stratégique de l'actionnaire majoritaire peut entrer en conflit avec l'indépendance d'une rédaction. Les statuts de **Scop** et de **Scic** réalignent propriété, pouvoir décisionnel et projet collectif en plafonnant le pouvoir du capital grâce à la règle démocratique « une personne = une voix » et en intégrant les **parties prenantes** (salariés, lecteurs, société civile). Pour la théorie économique de l'entreprise, ce modèle montre qu'il existe une pluralité de formes institutionnelles efficaces, même si la capitalisation reste plus contrainte que sur les marchés financiers.",
+   "image": {
+    "url": "https://www.alternatives-economiques.fr/sites/default/files/styles/for_social_networks/public/images/ESS_2026_07_Web.jpg.webp?itok=GgxrhrVT",
+    "alt": "Illustration d'une rédaction de presse fonctionnant en gouvernance coopérative",
+    "credit": "Alternatives économiques",
+    "source": "https://www.alternatives-economiques.fr/contre-les-pressions-economiques-et-editoriales-des-medias-font-le-pari-de-la-cooperative_28-11"
+   },
+   "programme": {
+    "module": "Module 2 – Croissance et développement",
+    "chapitre": "2.3 – Entreprise et organisations : les transformations de l'entreprise et de sa gouvernance depuis le XIXe siècle"
+   },
+   "auteurs": [
+    {
+     "nom": "Blanche Segrestin et Armand Hatchuel",
+     "ouvrage": "Refonder l'entreprise",
+     "annee": "2012",
+     "ref": "refonder-entreprise-segrestin-hatchuel",
+     "cours": "1A-entreprise",
+     "texte": "Segrestin et Hatchuel soutiennent qu'il faut réformer les statuts et les règles de **gouvernance** de l'entreprise pour dépasser la seule primauté actionnariale et intégrer les **parties prenantes** autour d'un projet collectif. L'essor des Scop, des Scic comme Politis et des sociétés coopératives européennes comme Voxeurop montre concrètement comment le droit des sociétés peut sanctuariser une finalité non purement lucrative. À mobiliser dans une dissertation sur les transformations de la gouvernance d'entreprise."
+    },
+    {
+     "nom": "Adolf Berle et Gardiner Means",
+     "ouvrage": "The Modern Corporation and Private Property",
+     "annee": "1932",
+     "ref": "separation-propriete-controle-berle-means",
+     "cours": "1A-entreprise",
+     "texte": "Berle et Means ont montré que la grande entreprise moderne repose sur la **séparation entre la propriété** (actionnaires) et le **contrôle** (dirigeants), source de conflits d'intérêts et de captation de pouvoir. Le modèle coopératif des médias inverse délibérément cette séparation en rendant la maîtrise du capital et du vote aux producteurs (journalistes en Scop) ou aux usagers-sociétaires (lecteurs en Scic). À mobiliser pour contraster la firme managériale cotée et les modèles alternatifs de l'ESS."
+    }
+   ],
+   "notions": [
+    [
+     "Économie sociale et solidaire (ESS)",
+     "Ensemble d'organisations (coopératives, mutuelles, associations, fondations) à finalité sociale ou collective, gouvernées démocratiquement et à lucrativité encadrée."
+    ],
+    [
+     "Scop (Société coopérative et participative)",
+     "Entreprise dans laquelle les salariés détiennent la majorité du capital social et exercent le pouvoir selon le principe « une personne = une voix »."
+    ],
+    [
+     "Scic (Société coopérative d'intérêt collectif)",
+     "Coopérative associant plusieurs collèges de parties prenantes (salariés, usagers, partenaires publics ou associatifs) autour d'un projet d'intérêt général."
+    ],
+    [
+     "Gouvernance partenariale",
+     "Mode de direction d'une entreprise qui associe l'ensemble des parties prenantes aux décisions stratégiques, et non les seuls actionnaires."
+    ]
+   ],
+   "sujets": [
+    "L'entreprise coopérative est-elle une alternative crédible à la gouvernance actionnariale ?",
+    "La gouvernance des entreprises doit-elle intégrer l'ensemble des parties prenantes ?"
+   ],
+   "anki": [
+    {
+     "q": "Modèle coopératif dans les médias indépendants français (2024-2026)",
+     "r": "Coop-médias fédère près de C{75} titres ; Politis (Scic depuis D{2024}) compte C{2 000} lecteurs sociétaires et Voxeurop est la seule SCE en France.\n→ Exemple contemporain d'ESS et de gouvernance partenariale contre la concentration capitalistique.\nA{Segrestin et Hatchuel}, O{Refonder l'entreprise} (D{2012}) : réformer les statuts protège la mission collective face aux actionnaires."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-anglais-1",
+   "matiere": "anglais",
+   "source": "BBC News",
+   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+   "minutes": 3,
+   "titre": "Canada : la Cour suprême valide l'essentiel de la loi québécoise sur la laïcité",
+   "dossier": "laicite-quebec-cour-supreme",
+   "faits": "Le 27 novembre, la Cour suprême du Canada a validé l'essentiel de la loi 21 du Québec, adoptée en 2019 pour interdire aux agents publics en position d'autorité — notamment les enseignants, juges et policiers — de porter des signes religieux comme le hijab ou la croix. Pour adopter ce texte, la province avait invoqué la « clause dérogatoire » de la Constitution canadienne, qui permet aux parlements de déroger à certains droits fondamentaux. La haute juridiction a confirmé la validité générale de la loi tout en invalidant l'interdiction faite aux élus de porter un couvre-chef ou un voile couvrant le visage, jugée contraire aux droits démocratiques. Les juges ont aussi affirmé que les tribunaux conservent le pouvoir de déclarer si une loi déroge à la Charte des droits et libertés, sans toutefois prononcer une telle déclaration dans ce dossier. Trois des sept juges ont émis une opinion dissidente, estimant que la clause dérogatoire ne saurait autoriser des lois incompatibles avec le caractère libre et démocratique du Canada. Le Premier ministre Mark Carney a appelé toutes les législatures à respecter les libertés des minorités, tandis que des organisations musulmanes et des commissions scolaires anglophones ont dénoncé une décision discriminatoire.",
+   "enjeux": "Cet arrêt historique met en lumière la tension structurelle du **fédéralisme canadien** entre droits individuels fédéraux et autonomie identitaire du Québec. Alors que le modèle canadien s'est historiquement construit sur le **multiculturalisme** et les accommodements raisonnables, le Québec défend une approche inspirée de la **laïcité** républicaine à la française, fondée sur la neutralité religieuse de l'État. L'usage répété de la **clause dérogatoire** relance un débat constitutionnel majeur sur les limites du pouvoir des majorités provinciales face aux garanties de la Charte de 1982. Enfin, la vive opposition des groupes de défense des libertés civiles illustre le clivage persistant sur la place des minorités religieuses dans l'emploi public, les critiques accusant la loi d'exclure de fait certaines femmes musulmanes de la fonction publique.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b5e9/live/7ddd01c0-ea82-11f1-a739-457c2295eaba.jpg",
+    "alt": "Façade de la Cour suprême du Canada à Ottawa",
+    "credit": "BBC News",
+    "source": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss"
+   },
+   "vo": {
+    "titre": "Canada: Supreme Court largely upholds Quebec's secularism law",
+    "faits": "On 27 November, the Supreme Court of Canada largely upheld Quebec's Bill 21, enacted in 2019 to ban public sector workers in positions of authority — including teachers, judges and police officers — from wearing religious symbols such as the hijab or the cross. Quebec passed the legislation using the constitution's 'notwithstanding clause', a mechanism allowing legislatures to override specific charter rights. While confirming the law's core validity, the court struck down the ban on elected officials wearing religious face coverings, finding it violated democratic rights. The justices also affirmed that courts retain the authority to declare whether a statute conflicts with the Canadian Charter of Rights and Freedoms even when the clause is invoked, though they declined to issue such a declaration here. Three of the seven justices dissented, arguing the notwithstanding clause cannot shield laws incompatible with Canada's free and democratic character. Prime Minister Mark Carney urged legislatures to safeguard minority rights, while Muslim advocacy groups and English-language school boards condemned the ruling as discriminatory.",
+    "enjeux": "This landmark ruling exposes the enduring tension within Canadian federalism between national Charter protections and Quebec's distinct conception of state neutrality. While English-speaking Canada has historically championed multiculturalism and reasonable accommodation, Quebec favours a model closer to French-style secularism, prioritising visible neutrality in public institutions. The province's reliance on the notwithstanding clause also reignites a constitutional debate over how far provincial majorities may go in curbing fundamental freedoms without judicial veto. For civil liberties advocates, the decision risks entrenching the exclusion of religious minorities — particularly Muslim women — from key areas of public employment."
+   },
+   "vocab": [
+    [
+     "to uphold a ruling / law",
+     "confirmer, valider une décision / une loi",
+     "The Supreme Court largely upheld the provincial ban on religious symbols."
+    ],
+    [
+     "the notwithstanding clause",
+     "la clause dérogatoire (droit canadien)",
+     "Provincial governments rarely invoke the notwithstanding clause without sparking debate."
+    ],
+    [
+     "to override",
+     "passer outre, déroger à",
+     "Lawmakers used a constitutional provision to override certain charter protections."
+    ],
+    [
+     "to infringe on",
+     "porter atteinte à, enfreindre",
+     "The judges ruled that part of the statute infringed on democratic rights."
+    ],
+    [
+     "dissenting opinion",
+     "opinion dissidente (d'un juge)",
+     "Three justices wrote a strongly worded dissenting opinion on equality."
+    ],
+    [
+     "secularism",
+     "la laïcité",
+     "Debates over secularism differ sharply between Quebec and the rest of Canada."
+    ]
+   ],
+   "sujets": [
+    "Does Quebec's secularism law challenge Canada's multicultural model?",
+    "Should constitutional courts be allowed to strike down laws passed under the notwithstanding clause?"
+   ],
+   "anki": [
+    {
+     "q": "Decision of Canada's Supreme Court on Quebec's Bill 21 (Nov 2026)",
+     "r": "Largely upheld the D{2019} ban on religious symbols for public servants (C{4} to C{3} split on key limits), striking down only the face-covering ban for elected officials.\n→ Key example of the clash between Canadian B{multiculturalism} and Quebec B{secularism} via the notwithstanding clause."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-anglais-2",
+   "matiere": "anglais",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+   "minutes": 3,
+   "titre": "États-Unis : l'effondrement du droit d'asile porté devant la Cour suprême",
+   "dossier": "asile-cour-supreme-etats-unis",
+   "faits": "Depuis près de deux ans, l'administration Trump a interdit les demandes d'asile à la frontière mexicaine, annulé des milliers de dossiers en attente et licencié de nombreux juges de l'immigration. Selon les données officielles des douanes (CBP), les interpellations à la frontière sud-ouest ont chuté de 95 % au cours de l'exercice 2026, passant sous la barre des 99 000 personnes contre plus de 1,8 million par an sous Joe Biden. Parallèlement, le taux national de rejet des demandes d'asile a bondi à 94 % en juin 2026, contre environ 50 % en 2024 d'après le projet de recherche TRAC de l'université de Syracuse. Rejetée par deux tribunaux fédéraux inférieurs, l'interdiction présidentielle reste néanmoins appliquée le temps des recours et doit bientôt être examinée par la Cour suprême. En décembre, la haute cour doit également statuer sur l'expulsion de demandeurs vers des pays tiers et sur la détention prolongée des migrants. Les soutiens de la Maison-Blanche, comme la Heritage Foundation, défendent une barrière indispensable contre l'immigration économique déguisée, tandis que l'ACLU dénonce un abus de pouvoir exécutif contraire aux lois votées par le Congrès.",
+   "enjeux": "Cette bataille judiciaire touche au cœur de la **séparation des pouvoirs** et du statut international des États-Unis comme terre d'accueil. Sur le plan constitutionnel, la Cour suprême devra trancher si le président peut invoquer une menace « d'invasion » pour contourner le cadre législatif fixé par le Congrès et les traités sur les réfugiés. Sur le plan politique et économique, la chute spectaculaire des arrivées à la frontière satisfait la base conservatrice mais pose à moyen terme la question des **pénuries de main-d'œuvre** dans l'agriculture, le bâtiment et les services. Enfin, le recours aux expulsions vers des pays tiers interroge le respect du **principe de non-refoulement** et l'État de droit américain.",
+   "image": {
+    "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5079x2857+0+265/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F22%2F2e%2Fbd2ef7014b16a3b474a9ef7aad59%2Fgettyimages-2301934612.jpg",
+    "alt": "Section du mur frontalier entre les États-Unis et le Mexique",
+    "credit": "NPR",
+    "source": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court"
+   },
+   "vo": {
+    "titre": "US: Supreme Court set to review Trump's near-total shutdown of asylum",
+    "faits": "Over the past two years, the Trump administration has barred asylum claims at the US-Mexico border, cancelled thousands of pending applications and dismissed numerous immigration judges. According to Customs and Border Protection data, Southwest border apprehensions plunged by 95% in fiscal year 2026 to fewer than 99,000, down from over 1.8 million a year under President Biden. Meanwhile, the national asylum denial rate surged to 94% in June 2026, up from roughly 50% in 2024, according to Syracuse University's TRAC research centre. Although two lower federal courts rejected the presidential ban, it has remained largely in force pending appeal and will soon be reviewed by the US Supreme Court. In December, the justices will also examine third-country deportations and indefinite detention policies. Conservative groups such as the Heritage Foundation praise the crackdown for deterring economic migrants, whereas the ACLU condemns an unlawful executive power grab overriding Congress.",
+    "enjeux": "This legal showdown tests both the separation of powers and America's longstanding legal commitments toward refugees. Constitutionally, the Supreme Court must decide whether the executive branch can suspend statutory asylum protections enacted by Congress by invoking border security emergencies. Politically, the dramatic drop in border crossings delivers a visible enforcement result for supporters, yet human rights lawyers warn that genuine victims of persecution are being denied due process. Economically and diplomatically, externalising asylum processing to third countries also strains relations with regional partners while tightening labour supply in key US industries."
+   },
+   "vocab": [
+    [
+     "to circumvent",
+     "contourner (une loi, une règle)",
+     "Advocates argue the president cannot circumvent federal immigration statutes."
+    ],
+    [
+     "due process",
+     "le droit à une procédure régulière / équitable",
+     "Critics contend that rapid deportations strip migrants of basic due process."
+    ],
+    [
+     "apprehensions",
+     "les interpellations (à la frontière)",
+     "Border apprehensions fell sharply after the new restrictions took effect."
+    ],
+    [
+     "a safe third country",
+     "un pays tiers sûr",
+     "Deporting claimants to a safe third country remains legally contested."
+    ],
+    [
+     "to plummet",
+     "s'effondrer, chuter brutalement",
+     "Approval rates for asylum petitions have plummeted since early 2025."
+    ],
+    [
+     "an executive power grab",
+     "un coup de force du pouvoir exécutif",
+     "Civil rights groups described the proclamation as an unprecedented power grab."
+    ]
+   ],
+   "sujets": [
+    "Can presidential border security powers override statutory asylum rights in the US?",
+    "Has the US Supreme Court become the ultimate arbiter of American immigration policy?"
+   ],
+   "anki": [
+    {
+     "q": "Southwest border apprehensions and US asylum denial rate (FY 2026)",
+     "r": "Apprehensions down C{95 %} (under C{99,000} vs C{>1.8M}/year under Biden); asylum denial rate reached C{94 %} in June D{2026} (vs ~C{50 %} in D{2024}).\n→ Concrete evidence of how executive action reshaped US B{asylum policy} ahead of Supreme Court review."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-anglais-3",
+   "matiere": "anglais",
+   "source": "The Independent",
+   "url": "https://www.independent.co.uk/news/uk/politics/kemi-badenoch-conservatives-net-zero-ehrc-b3092924.html",
+   "minutes": 3,
+   "titre": "Royaume-Uni : Kemi Badenoch impose aux candidats conservateurs le retrait de la CEDH et la fin du Net Zero",
+   "dossier": "conservateurs-climat-royaume-uni",
+   "faits": "Lors d'une conférence régionale des Midlands de l'Est le 27 novembre, la cheffe du Parti conservateur britannique Kemi Badenoch a imposé à tous les futurs candidats aux élections législatives de signer un « pacte de candidature » (*candidate covenant*). Ce document contraignant engage chaque candidat à soutenir deux mesures phares : le retrait du Royaume-Uni de la Convention européenne des droits de l'homme (CEDH) et l'abandon de l'objectif légal de neutralité carbone d'ici 2050, inscrit dans le Climate Change Act de 2008. Kemi Badenoch a averti que tout accord conclu entre-temps avec l'Union européenne qui empêcherait de quitter la CEDH serait annulé par un futur gouvernement conservateur. L'ancien ministre Tobias Ellwood a révélé que cette exigence l'excluait de la sélection, dénonçant des « tests de pureté » idéologique contraires au pluralisme interne. À l'inverse, l'ancien chef de file parlementaire Sir Mark Spencer a signé le texte publiquement sur scène aux côtés de la dirigeante.",
+   "enjeux": "Ce durcissement marque une rupture nette avec le consensus britannique des deux dernières décennies, puisque le **Climate Change Act** de 2008 et la trajectoire **Net Zero** avaient été défendus et renforcés par d'anciens gouvernements conservateurs. Stratégiquement, le parti cherche à reconquérir l'électorat souverainiste et climato-sceptique séduit par Reform UK, en liant contrôle migratoire, souveraineté juridique face à Strasbourg et pouvoir d'achat face aux coûts de la transition. Ce virage révèle toutefois une fracture profonde entre l'aile modérée « One Nation » et la direction actuelle. Sur le plan international, remettre en cause l'appartenance à la **CEDH** menace l'accord de paix du Vendredi saint en Irlande du Nord ainsi que les négociations de coopération judiciaire et sécuritaire avec l'Union européenne.",
+   "image": {
+    "url": "https://static.independent.co.uk/2026/11/27/13/01M8EH06YHVXQ70EJENCPS878R.jpg?width=1200&height=800&crop=1200:800",
+    "alt": "Kemi Badenoch lors d'un rassemblement du Parti conservateur britannique",
+    "credit": "The Independent",
+    "source": "https://www.independent.co.uk/news/uk/politics/kemi-badenoch-conservatives-net-zero-ehrc-b3092924.html"
+   },
+   "vo": {
+    "titre": "UK: Badenoch requires Tory candidates to back ECHR exit and Net Zero repeal",
+    "faits": "Speaking at an East Midlands regional conference on 27 November, Conservative leader Kemi Badenoch announced that every prospective Tory parliamentary candidate at the next general election must sign a binding 'candidate covenant'. The pledge commits candidates to two flagship policies: withdrawing Britain from the European Convention on Human Rights (ECHR) and repealing the 2008 Climate Change Act's 2050 net zero emissions target. Badenoch warned that any interim agreement with the European Union preventing an ECHR exit would be reversed by a future Conservative government. Former minister Tobias Ellwood revealed that the requirement barred him from standing again, criticising it as an ideological 'purity test' undermining internal party debate. Meanwhile, former chief whip Sir Mark Spencer became the first to sign the document onstage alongside Badenoch.",
+    "enjeux": "This mandatory pledge signals a dramatic break from Britain's long-standing bipartisan climate consensus, as previous Conservative administrations had championed the 2008 Climate Change Act and the 2050 net zero goal. Politically, Badenoch is seeking to win back populist and Eurosceptic voters by linking border control, legal sovereignty from European courts and scepticism toward green regulations. Yet the move deepens divisions with moderate 'One Nation' Conservatives, who fear alienating centrist constituencies. Diplomatically, leaving the ECHR would also carry major consequences for Northern Ireland's Good Friday Agreement and future UK-EU security cooperation."
+   },
+   "vocab": [
+    [
+     "to repeal",
+     "abroger (une loi)",
+     "The party leadership pledged to repeal the 2008 climate legislation."
+    ],
+    [
+     "a binding covenant / pledge",
+     "un engagement contraignant",
+     "Signing the binding covenant is now mandatory for prospective candidates."
+    ],
+    [
+     "a purity test",
+     "un test de conformité idéologique",
+     "Moderates warned that ideological purity tests could split the party."
+    ],
+    [
+     "net zero emissions",
+     "la neutralité carbone",
+     "Business groups rely on stable net zero targets to plan green investment."
+    ],
+    [
+     "to stand for election",
+     "se présenter à une élection",
+     "Several former MPs said the rule prevents them from standing for election."
+    ],
+    [
+     "a flagship policy",
+     "une mesure phare",
+     "Leaving the convention has become the opposition's flagship policy."
+    ]
+   ],
+   "sujets": [
+    "Is the British political consensus on Net Zero breaking down?",
+    "What would be the constitutional and diplomatic consequences of the UK leaving the ECHR?"
+   ],
+   "anki": [
+    {
+     "q": "Two pledges in Kemi Badenoch's Tory 'candidate covenant' (Nov 2026)",
+     "r": "Leaving the B{ECHR} and repealing the D{2008} Climate Change Act's D{2050} B{Net Zero} target.\n→ Marks the end of Britain's cross-party climate consensus and sharpens right-wing competition."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-anglais-4",
+   "matiere": "anglais",
+   "source": "POLITICO",
+   "url": "https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "minutes": 3,
+   "titre": "Royaume-Uni : Meta contraint d'assumer davantage de responsabilité juridique pour son agent IA",
+   "dossier": "ia-responsabilite-consommateurs-uk",
+   "faits": "Après plusieurs semaines de discussions avec l'autorité britannique de la concurrence et des marchés (CMA), Meta a lancé cette semaine au Royaume-Uni « Muse », son premier agent d'intelligence artificielle capable d'agir pour le compte des utilisateurs, notamment pour effectuer des paiements, réclamer des remboursements ou renouveler des assurances. Pour obtenir l'accès au marché britannique, le groupe américain a dû modifier ses conditions d'utilisation afin d'offrir aux consommateurs britanniques davantage de voies de recours en cas d'erreur de l'IA. Aux États-Unis, où l'outil avait été lancé plusieurs mois plus tôt, les contrats de Meta plafonnent la responsabilité de l'entreprise à 250 dollars et l'exonèrent largement des pertes causées par une action erronée ou non autorisée de l'agent. Au Royaume-Uni, la CMA veille à l'application du droit de la consommation et a exigé des clauses jugées plus équitables.",
+   "enjeux": "Cet épisode révèle comment la **régulation du numérique** diverge entre les deux rives de l'Atlantique à l'ère de l'**IA agentique**. Lorsqu'un algorithme ne se contente plus de répondre à des questions mais exécute des transactions financières autonomes, la question juridique de l'**imputation de la responsabilité** en cas d'erreur devient centrale. Les conditions restrictives acceptées aux États-Unis montrent la faiblesse relative de la protection fédérale des consommateurs américains face aux géants de la tech. À l'inverse, l'intervention proactive de la **CMA** britannique démontre qu'un régulateur national doté d'un marché attractif peut contraindre les plateformes à relever leurs standards juridiques avant même la mise en marché.",
+   "image": {
+    "url": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/11/27/GettyImages-2256533371.jpg",
+    "alt": "Stand de Meta lors du Forum économique mondial de Davos",
+    "credit": "POLITICO",
+    "source": "https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+   },
+   "vo": {
+    "titre": "UK: Regulator forces Meta to accept broader liability for Muse AI agent",
+    "faits": "Following weeks of engagement with the UK's Competition and Markets Authority (CMA), Meta has rolled out its personal AI agent 'Muse' in Britain, months after its US debut. Muse is designed to act autonomously on users' behalf — from chasing refunds and renewing car insurance to completing authorised payments. To enter the British market, Meta revised its terms of service to grant UK consumers broader scope to seek redress if the agent makes mistakes. By contrast, its US terms cap corporate liability at $250 — except in cases of gross negligence or fraud — and broadly shield Meta from losses linked to erroneous or unauthorised AI actions. The CMA said the revisions were necessary to enforce UK consumer law and ensure fairer contractual terms.",
+    "enjeux": "This regulatory divergence highlights a critical legal challenge posed by agentic AI: who bears financial responsibility when autonomous software makes costly mistakes? Whereas US federal consumer rules allow Big Tech firms to limit liability through restrictive user agreements, Britain's CMA leveraged market access to force higher accountability standards before deployment. The case also illustrates post-Brexit UK regulatory strategy, positioning London as an assertive consumer watchdog capable of shaping tech governance independently of both Washington and Brussels. As AI agents increasingly handle banking and retail transactions, liability rules will be decisive for public trust."
+   },
+   "vocab": [
+    [
+     "liability",
+     "la responsabilité juridique / financière",
+     "Tech firms often seek to limit their liability for software errors."
+    ],
+    [
+     "to seek redress",
+     "demander réparation, obtenir un recours",
+     "Stronger terms allow consumers to seek redress if an AI agent overpays."
+    ],
+    [
+     "terms of service",
+     "les conditions générales d'utilisation",
+     "Regulators forced the platform to rewrite its standard terms of service."
+    ],
+    [
+     "to cap",
+     "plafonner",
+     "The American contract caps damages at $250 for most user claims."
+    ],
+    [
+     "to roll out",
+     "déployer, lancer",
+     "Companies sometimes delay rolling out new AI tools in tightly regulated markets."
+    ],
+    [
+     "on behalf of",
+     "au nom de, pour le compte de",
+     "Autonomous agents can soon negotiate contracts on behalf of consumers."
+    ]
+   ],
+   "sujets": [
+    "Should tech companies be held strictly liable for mistakes made by AI agents?",
+    "How does UK tech regulation compare with the US approach?"
+   ],
+   "anki": [
+    {
+     "q": "Meta's liability cap for its Muse AI agent in the US vs the UK (Nov 2026)",
+     "r": "US terms cap liability at C{$250}, whereas Britain's B{CMA} forced broader consumer redress before launch.\n→ Shows transatlantic divergence on B{AI liability} and consumer protection."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-anglais-5",
+   "matiere": "anglais",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/27/nx-s1-6026486/macys-tries-to-reinvent-with-luxury",
+   "minutes": 3,
+   "titre": "États-Unis : l'économie en K fragilise la classe moyenne et pousse Macy's vers le luxe",
+   "dossier": "economie-k-classe-moyenne-us",
+   "faits": "À l'occasion du centenaire de sa célèbre parade de Thanksgiving, le groupe américain Macy's tente une transformation stratégique vers le haut de gamme pour survivre à l'érosion de sa clientèle traditionnelle. Coincée entre les enseignes à bas prix comme Walmart, Target ou T.J.Maxx et les grands magasins de luxe comme Nordstrom ou Bergdorf Goodman, l'enseigne historique a vu son cœur de marché s'effriter bien avant 2020. Pendant la pandémie, ses pertes prévisionnelles ont atteint 1,1 milliard de dollars, entraînant sa sortie de l'indice boursier S&P 500, avant une nouvelle baisse de près de 7 % des ventes en 2023. En 2024, l'ancien dirigeant de Bloomingdale's (filiale haut de gamme du groupe) a pris la tête de Macy's et lancé un plan de redressement prévoyant la fermeture de 150 magasins et la modernisation de plus de 300 autres. En misant sur des marques plus chères et des matériaux plus nobles, le prix de vente moyen a progressé de 9 % au dernier trimestre, permettant un retour à la croissance des ventes.",
+   "enjeux": "La mutation de Macy's est révélatrice d'une **économie américaine en K**, où la consommation se polarise entre ménages modestes contraints de privilégier le discount et ménages aisés qui tirent l'essentiel de la dépense vers le luxe. Ce phénomène traduit le **déclassement** relatif du segment intermédiaire de la distribution, miroir de la contraction économique de la **classe moyenne** américaine face au coût du logement, de la santé et de l'inflation cumulée. Il illustre aussi la pression concurrentielle du commerce en ligne et de la vente directe par les marques, qui oblige les acteurs physiques centenaires (168 ans pour Macy's) à se repositionner vers la montée en gamme pour préserver leurs marges.",
+   "image": {
+    "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6192x3483+0+323/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fce%2F42%2Fe92e56684604ba12db67369743e2%2Fgettyimages-2305985820.jpg",
+    "alt": "Client tenant un sac du discounter Target à l'intérieur d'un magasin Macy's à New York",
+    "credit": "NPR",
+    "source": "https://www.npr.org/2026/11/27/nx-s1-6026486/macys-tries-to-reinvent-with-luxury"
+   },
+   "vo": {
+    "titre": "US: K-shaped economy squeezes middle-tier shoppers, pushing Macy's upmarket",
+    "faits": "As it marks the 100th edition of its Thanksgiving Day Parade, US department store chain Macy's is attempting an upmarket pivot to survive the squeeze on its core middle-class shoppers. Caught between discounters such as Walmart, Target and T.J.Maxx and luxury retailers like Nordstrom or Bergdorf Goodman, the 168-year-old chain saw its middle-market base erode long before the pandemic. COVID-19 closures led to projected losses of $1.1 billion and its removal from the S&P 500 index, followed by a nearly 7% drop in sales in 2023. In 2024, the former head of upscale subsidiary Bloomingdale's took over Macy's, unveiling a turnaround plan to shut 150 stores and upgrade over 300 others. By introducing higher-end brands and quality materials, Macy's lifted its average selling price by 9% in its latest quarter and recently posted a year of sales growth.",
+    "enjeux": "Macy's restructuring offers a telling snapshot of America's K-shaped economy, where consumer spending is increasingly split between budget-conscious households trading down to discounters and wealthier Americans driving demand at the top end. This retail polarisation mirrors the broader squeeze on the US middle class amid elevated living costs and persistent income inequality. It also underscores the structural disruption caused by e-commerce and direct-to-consumer brands, forcing legacy brick-and-mortar stores to abandon mass-market volume in favour of higher-margin luxury positioning."
+   },
+   "vocab": [
+    [
+     "a K-shaped economy",
+     "une économie en K (divergente selon les revenus)",
+     "Retail analysts point to a K-shaped economy that favours discounters and luxury."
+    ],
+    [
+     "to go upmarket",
+     "monter en gamme",
+     "Traditional retailers are trying to go upmarket to protect their profit margins."
+    ],
+    [
+     "squeezed in the middle",
+     "pris en étau (segment intermédiaire)",
+     "Middle-income households feel increasingly squeezed in the middle by inflation."
+    ],
+    [
+     "a turnaround plan",
+     "un plan de redressement",
+     "The new CEO launched an ambitious turnaround plan involving 150 store closures."
+    ],
+    [
+     "brick-and-mortar stores",
+     "les magasins physiques",
+     "Online competition continues to weigh heavily on brick-and-mortar stores."
+    ],
+    [
+     "the shrinking middle class",
+     "le rétrécissement de la classe moyenne",
+     "Economists link retail polarisation to the shrinking middle class in the US."
+    ]
+   ],
+   "sujets": [
+    "Does the polarisation of US retail reflect a lasting decline of the American middle class?",
+    "How is the K-shaped economy reshaping consumer society in the United States?"
+   ],
+   "anki": [
+    {
+     "q": "Macy's turnaround strategy amid the US K-shaped economy (2024-2026)",
+     "r": "Closing C{150} stores and shifting upmarket (+C{9 %} average selling price) after losing its S&P 500 spot and seeing sales fall C{7 %} in D{2023}.\n→ Vivid illustration of B{middle-class squeeze} and B{retail polarisation} in the US."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-espagnol-1",
+   "matiere": "espagnol",
+   "source": "El Mundo",
+   "url": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html",
+   "minutes": 3,
+   "titre": "Espagne : le remorquage d'un pétrolier naufragé à Ibiza déclenche un bras de fer territorial",
+   "dossier": "naufragio-ibiza-med-emre",
+   "faits": "Le navire turc *Med Emre*, qui a chaviré mercredi 25 novembre au large d'Ibiza avec 7 000 tonnes de gazole maritime dans ses soutes (faisant un mort et six blessés), a commencé le 27 novembre à être remorqué vers le port de Carthagène, en Murcie. Après inspection sous-marine confirmant l'intégrité des cuves, le gouvernement espagnol a validé le plan de sauvetage financé par l'armateur, estimant impossible le pompage en haute mer. Sur 18 ports méditerranéens étudiés selon six critères techniques — dont un tirant d'eau supérieur à 45 mètres et la proximité d'équipements antipollution —, seule la darse d'Escombreras à Carthagène remplissait toutes les conditions. Les exécutifs autonomes des Baléares et de la Communauté valencienne avaient auparavant refusé d'accueillir le navire. Le président de la Région de Murcie, Fernando López Miras, et la maire de Carthagène ont vivement dénoncé une « décision unilatérale » menaçant dix espaces protégés du réseau Natura 2000, la lagune du Mar Menor et le complexe industriel d'Escombreras, d'où provient 40 % du carburant du pays. En vertu d'un décret de 2014 adopté après la catastrophe du *Prestige*, la compétence finale revient toutefois à la Direction générale de la Marine marchande.",
+   "enjeux": "Cette crise maritime ravive deux sujets sensibles en Espagne : la mémoire traumatique de la marée noire du *Prestige* en 2002 et les tensions entre l'État central et les **communautés autonomes**. Comme lors du naufrage du *Prestige*, aucune région ne souhaite assumer sur ses côtes le risque écologique et touristique d'un navire accidenté (phénomène du *NIMBY*), bien que la législation post-2002 confie précisément la décision à l'État pour éviter qu'un bateau en détresse ne soit balloté en mer. La crainte pour le **Mar Menor**, écosystème déjà gravement dégradé et symbole national de crise environnementale, explique la virulence de l'opposition murcienne, d'autant plus que le site concentre également des infrastructures énergétiques stratégiques.",
+   "image": {
+    "url": "https://e01-phantom-elmundo.uecdn.es/1eea94b2c4c13a7fd6cd7317e89b9494/crop/0x0/1600x1067/resize/1200/f/webp/assets/multimedia/imagenes/2026/11/27/17958008449861.jpg",
+    "alt": "Le navire Med Emre retourné en mer lors de l'opération de sauvetage maritime",
+    "credit": "El Mundo",
+    "source": "https://www.elmundo.es/baleares/2026/11/27/6b097728e4d4d8d5478b458d.html"
+   },
+   "vo": {
+    "titre": "España: el remolque del buque Med Emre a Cartagena desata un choque con las autonomías",
+    "faits": "El buque turco *Med Emre*, que naufragó el miércoles 25 de noviembre frente a las costas de Ibiza con 7.000 toneladas de gasóleo marítimo —dejando un fallecido y seis heridos—, comenzó a ser remolcado el 27 de noviembre hacia la dársena exterior de Escombreras, en el puerto de Cartagena. Tras comprobar los buzos que los tanques de combustible no están dañados, el Gobierno central aceptó el plan de salvamento sufragado por el armador al considerar inviable trasvasar la carga en alta mar. De los 18 puertos mediterráneos analizados bajo seis parámetros técnicos, incluido un calado superior a 45 metros, solo Escombreras cumplía todos los requisitos. Previamente, los gobiernos de Baleares y la Comunidad Valenciana habían rechazado acoger la embarcación. El presidente de la Región de Murcia, Fernando López Miras, y la alcaldesa de Cartagena criticaron una «decisión unilateral» que amenaza diez espacios protegidos de la Red Natura 2000, el Mar Menor y un polo industrial del que sale el 40 % del combustible español. No obstante, el Decreto 210/2014, aprobado tras la tragedia del *Prestige*, otorga la competencia exclusiva a la Dirección General de la Marina Mercante.",
+    "enjeux": "Este episodio reabre dos debates profundos en España: la gestión de riesgos medioambientales heredada del desastre del *Prestige* (2002) y el conflicto competencial entre el Estado central y las comunidades autónomas. Al igual que en 2002, ninguna región quiere asumir el riesgo ecológico y turístico de recibir un buque accidentado, pero la normativa posterior centralizó la designación de puertos refugio para evitar que el barco quede a la deriva. La oposición murciana se ve reforzada por la extrema fragilidad del Mar Menor y por el peso estratégico de Escombreras en el suministro energético nacional."
+   },
+   "vocab": [
+    [
+     "el remolque",
+     "le remorquage",
+     "Las autoridades ordenaron el remolque inmediato del buque hacia un puerto seguro."
+    ],
+    [
+     "el vertido",
+     "le déversement, la marée noire",
+     "Los ecologistas temen un vertido tóxico cerca de las reservas marinas."
+    ],
+    [
+     "el calado",
+     "le tirant d'eau",
+     "Pocos puertos cuentan con el calado suficiente para acoger barcos semisumergidos."
+    ],
+    [
+     "la naviera / el armador",
+     "la compagnie maritime / l'armateur",
+     "La naviera propietaria deberá sufragar el coste completo del salvamento."
+    ],
+    [
+     "el puerto de refugio",
+     "le port refuge",
+     "La ley española regula de forma estricta la designación de puertos de refugio."
+    ],
+    [
+     "la competencia autonómica",
+     "la compétence régionale",
+     "La crisis ilustra los límites de la competencia autonómica frente al Estado central."
+    ]
+   ],
+   "sujets": [
+    "¿Debe prevalecer la autoridad del Estado sobre las comunidades autónomas ante una crisis medioambiental?",
+    "¿Ha aprendido España las lecciones ecológicas del desastre del Prestige?"
+   ],
+   "anki": [
+    {
+     "q": "Normativa española tras el Prestige para designar puertos de refugio (caso Med Emre, 2026)",
+     "r": "El Decreto D{210/2014} otorga la decisión exclusiva a la Marina Mercante (aquí Cartagena para un buque con C{7.000 t} de gasóleo).\n→ Muestra el arbitraje entre seguridad marítima centralizada y rechazo ecológico regional (B{Mar Menor})."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-espagnol-2",
+   "matiere": "espagnol",
+   "source": "Expansión",
+   "url": "https://www.expansion.com/economia/2026/11/28/golpe-1-000-millones-empresas-subida-cotizacion-maxima.html",
+   "minutes": 3,
+   "titre": "Espagne : la hausse du plafond des cotisations sociales coûtera près d'un milliard aux entreprises",
+   "dossier": "cotizaciones-maximas-espana",
+   "faits": "À la suite de l'annonce d'une revalorisation des pensions de 3,5 % liée à l'inflation anticipée de novembre (4,1 %), le ministère espagnol de la Sécurité sociale a confirmé le relèvement de 4,7 % de la base maximale de cotisation pour 2027. Ce plafond passera ainsi de 5 101,2 euros à 5 340,9 euros par mois, soit 64 090 euros par an. Cette hausse résulte du mécanisme de « déplafonnement » adopté dans la réforme des retraites de 2023, qui ajoute 1,2 point à l'inflation chaque année jusqu'en 2050. Selon la fondation Fedea et les projections gouvernementales, la mesure rapportera environ 1 000 millions d'euros par an, dont plus de 82 % (environ 820 millions) seront supportés par les employeurs, affectant quelque 765 569 salariés qualifiés. Dans le même temps, la pension maximale n'augmentera que de 3,615 % (à 48 734 euros annuels). L'écart entre cotisation maximale et pension maximale se creusera ainsi à 23,96 % en 2027, contre 19,95 % en 2017.",
+   "enjeux": "Cette mesure illustre le choix politique espagnol de financer la soutenabilité du système de retraites par une hausse des prélèvements sur les **hauts salaires** et sur le **coût du travail** des entreprises plutôt que par une baisse des pensions. Les organisations patronales et les économistes critiques alertent toutefois sur deux risques économiques. D'une part, le lien entre cotisations versées et pension perçue (**contributivité**) s'érode, transformant la cotisation sociale en un impôt implicite sur l'emploi qualifié. D'autre part, renchérir l'embauche des cadres, ingénieurs et profils techniques peut freiner la **compétitivité** des secteurs à forte valeur ajoutée et encourager la fuite des talents vers d'autres pays européens à fiscalité plus douce.",
+   "image": {
+    "url": "https://e00-xlk-ue-expansion.uecdn.es/files/article_main_microformat/uploads/2026/11/27/6b09e47138374.jpeg",
+    "alt": "La ministre espagnole de la Sécurité sociale Elma Saiz lors d'une prise de parole",
+    "credit": "Expansión",
+    "source": "https://www.expansion.com/economia/2026/11/28/golpe-1-000-millones-empresas-subida-cotizacion-maxima.html"
+   },
+   "vo": {
+    "titre": "España: el destope de la cotización máxima supondrá casi 1.000 millones para las empresas",
+    "faits": "Tras confirmar una subida de las pensiones del 3,5 % ligada al dato adelantado de inflación de noviembre (4,1 %), el Ministerio de Seguridad Social ratificó un incremento del 4,7 % de la base máxima de cotización para 2027. El tope pasará de 5.101,2 a 5.340,9 euros mensuales, es decir, 64.090 euros anuales. Esta alza responde al mecanismo de destope aprobado en la reforma de 2023, que suma 1,2 puntos adicionales al IPC cada año hasta 2050. Según Fedea y las previsiones oficiales, la medida aportará cerca de 1.000 millones de euros anuales, de los cuales más del 82 % (unos 820 millones) recaerá sobre las empresas, afectando a unos 765.569 trabajadores cualificados. Al mismo tiempo, la pensión máxima subirá solo un 3,615 % hasta 48.734 euros anuales, ampliando la brecha respecto a la base máxima al 23,96 % en 2027 frente al 19,95 % de 2017.",
+    "enjeux": "Esta medida refleja la apuesta del modelo español por sostener los ingresos públicos elevando las cargas sobre los salarios más altos en lugar de recortar prestaciones. Sin embargo, los empresarios y numerosos economistas advierten de un doble riesgo para la economía española. Por un lado, la erosión de la proporcionalidad contributiva convierte parte de la cotización en un impuesto implícito sobre el talento. Por otro, encarecer el coste laboral de directivos e ingenieros puede lastrar la competitividad de los sectores intensivos en conocimiento y dificultar la retención de talento."
+   },
+   "vocab": [
+    [
+     "la base máxima de cotización",
+     "le plafond des cotisations sociales",
+     "El Gobierno eleva la base máxima de cotización por encima de la inflación."
+    ],
+    [
+     "el destope",
+     "le déplafonnement progressif",
+     "El destope salarial busca reforzar los ingresos de la Seguridad Social."
+    ],
+    [
+     "la brecha contributiva",
+     "l'écart entre cotisations et prestations",
+     "Los expertos critican que la brecha contributiva desincentiva las carreras largas."
+    ],
+    [
+     "el coste laboral",
+     "le coût du travail",
+     "Las patronales temen que el alza del coste laboral frene la contratación cualificada."
+    ],
+    [
+     "la retención de talento",
+     "la rétention des talents",
+     "La presión fiscal sobre los sueldos altos complica la retención de talento."
+    ],
+    [
+     "la tasa de cobertura",
+     "le taux de remplacement / de couverture",
+     "La tasa de cobertura de la pensión máxima respecto al salario cotizado ha caído al 76 %."
+    ]
+   ],
+   "sujets": [
+    "¿Pone en peligro la competitividad española el aumento de las cotizaciones sociales sobre los salarios altos?",
+    "¿Es justo financiar las pensiones mediante el destope de las cotizaciones máximas?"
+   ],
+   "anki": [
+    {
+     "q": "Impacto del destope de la base máxima de cotización en España (2027)",
+     "r": "Sube un C{4,7 %} hasta C{64.090 €}/año, recaudando unos C{1.000 M€} (el C{82 %} a cargo de las empresas) mientras la pensión máxima sube solo C{3,615 %}.\n→ Ilustra la pérdida de B{contributividad} y el encarecimiento del B{coste laboral} del empleo cualificado."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-espagnol-3",
+   "matiere": "espagnol",
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/vida/20261128/11695198/jovenes-quieren-trabajar-privada-funcionarios.html",
+   "minutes": 3,
+   "titre": "Espagne : la génération Z plébiscite la fonction publique face à la précarité du privé",
+   "dossier": "jovenes-empleo-publico-espana",
+   "faits": "Une tribune parue le 28 novembre dans *La Vanguardia* analyse l'attrait croissant des jeunes Espagnols de la génération Z pour les concours de la fonction publique (*oposiciones*), confirmé par une enquête récente de l'organisme Adams auprès des jeunes de 25 ans. Beaucoup acceptent de préparer n'importe quel concours administratif, même sans rapport avec leur diplôme universitaire, afin de sécuriser un emploi stable. Cet engouement s'explique par un écart matériel net : selon l'Enquête de population active (EPA), un salarié du secteur public gagne en moyenne 1 050 euros de plus par mois qu'un travailleur du privé, soit environ 20 % de plus. De plus, les fonctionnaires bénéficient d'une hausse salariale de 4,5 % cette année et d'un accord prévoyant 11 % d'augmentation cumulée d'ici 2028, ainsi que de nouveaux congés et d'horaires plus courts. À l'inverse, le secteur privé impose souvent une forte pression concurrentielle, des heures supplémentaires non rémunérées, une précarité persistante et un lien au travail affaibli par le télétravail, dans un contexte de crise aiguë du logement.",
+   "enjeux": "Ce phénomène traduit une mutation profonde du rapport au travail et de l'aversion au risque chez la jeunesse espagnole, marquée par des crises successives depuis 2008 et par la cherté du **logement**. Le contrat implicite du secteur privé — s'investir et prendre des risques pour obtenir une meilleure rémunération — semble rompu lorsque l'emploi public offre à la fois la sécurité de l'emploi et un **avantage salarial** de 20 %. À l'échelle macroéconomique, cette fuite des jeunes diplômés vers l'administration pose un problème de **productivité** et d'innovation : une part croissante de la jeunesse qualifiée aspire à travailler pour le secteur qui redistribue la richesse plutôt que pour les entreprises privées qui la produisent et financent les budgets publics.",
+   "image": {
+    "url": "https://www.lavanguardia.com/files/image_1920_1080/files/fp/uploads/2025/09/18/68cbe0a29afb6.r_d.510-476.jpeg",
+    "alt": "Jeunes candidats préparant des concours de la fonction publique espagnole",
+    "credit": "La Vanguardia",
+    "source": "https://www.lavanguardia.com/vida/20261128/11695198/jovenes-quieren-trabajar-privada-funcionarios.html"
+   },
+   "vo": {
+    "titre": "España: los jóvenes prefieren opositar a funcionario ante la precariedad del sector privado",
+    "faits": "Un análisis publicado el 28 de noviembre en *La Vanguardia* examina el creciente atractivo de las oposiciones entre la generación Z en España, respaldado por una encuesta reciente de la academia Adams entre jóvenes de 25 años. Muchos universitarios optan por preparar cualquier plaza pública, aunque no guarde relación con su titulación, con tal de garantizarse estabilidad. Esta elección responde a cifras concretas: según la EPA, un empleado público cobra de media 1.050 euros más al mes que uno del sector privado —un 20 % más—, y los funcionarios disfrutan de una subida del 4,5 % este año dentro de un alza acumulada pactada del 11 % hasta 2028. Frente a jornadas más cortas y empleo fijo, la empresa privada ofrece con frecuencia inestabilidad, horas extra no pagadas y menor arraigo laboral por el teletrabajo, en plena crisis de acceso a la vivienda.",
+    "enjeux": "Este giro refleja una creciente aversión al riesgo entre los jóvenes españoles, golpeados por la dificultad para emanciparse y comprar o alquilar una vivienda. Al romperse la promesa meritocrática de que asumir riesgos en la empresa privada conduce a mejores salarios, la función pública aparece como un refugio racional. Sin embargo, para la economía del país supone un desafío estructural: si el talento joven más formado abandona la iniciativa privada para buscar seguridad en la Administración, el tejido productivo corre el riesgo de perder dinamismo e innovación."
+   },
+   "vocab": [
+    [
+     "opositar",
+     "préparer un concours de la fonction publique",
+     "Cada vez más graduados deciden opositar nada más terminar la universidad."
+    ],
+    [
+     "la brecha salarial público-privado",
+     "l'écart salarial entre public et privé",
+     "La brecha salarial a favor del empleo público desincentiva el emprendimiento juvenil."
+    ],
+    [
+     "el arraigo laboral",
+     "l'attachement à l'entreprise",
+     "La alta rotación y el teletrabajo debilitan el arraigo laboral de los jóvenes."
+    ],
+    [
+     "la aversión al riesgo",
+     "l'aversion au risque",
+     "La crisis de la vivienda ha incrementado la aversión al riesgo de la generación Z."
+    ],
+    [
+     "la plaza fija",
+     "le poste titulaire / stable",
+     "Conseguir una plaza fija se ha convertido en el principal objetivo profesional."
+    ],
+    [
+     "el tejido productivo",
+     "le tissu productif",
+     "El tejido productivo privado necesita atraer a los perfiles mejor cualificados."
+    ]
+   ],
+   "sujets": [
+    "¿Es la preferencia de los jóvenes españoles por la función pública un síntoma de la fragilidad del mercado laboral?",
+    "¿Cómo afecta a la economía española la pérdida de atractivo del sector privado?"
+   ],
+   "anki": [
+    {
+     "q": "Diferencia salarial media entre sector público y privado en España (EPA)",
+     "r": "Un empleado público gana de media C{1.050 €} más al mes (+C{20 %}) que en el privado, con un alza pactada del C{11 %} hasta D{2028}.\n→ Explica la fiebre por las B{oposiciones} en la generación Z y el reto de competitividad del sector privado."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-espagnol-4",
+   "matiere": "espagnol",
+   "source": "BBC Mundo",
+   "url": "https://www.bbc.com/mundo/articles/cmpqrv8e8n32o?at_medium=RSS&at_campaign=rss",
+   "minutes": 3,
+   "titre": "Costa Rica : l'interdiction d'entrée imposée à une rapporteuse de l'ONU provoque un tollé",
+   "dossier": "costa-rica-onu-albanese",
+   "faits": "Le 26 novembre, les autorités migratoires du Costa Rica ont refusé l'entrée sur le territoire à Francesca Albanese, rapporteuse spéciale de l'ONU sur les Territoires palestiniens occupés, en invoquant des motifs de « sécurité nationale ». Le directeur de la Migration, Omer Badilla, a affirmé qu'elle faisait l'objet d'une alerte internationale pour des liens présumés avec des actes terroristes. Invitée par l'Université du Costa Rica pour recevoir un doctorat *honoris causa*, Francesca Albanese est restée bloquée à l'aéroport international Juan Santamaría avant de participer à la cérémonie par visioconférence et d'annoncer son départ pour le Mexique. Elle a dénoncé des informations fausses et rappelé que défendre les droits humains ne saurait être assimilé au terrorisme. Le Haut-Commissaire des Nations unies aux droits de l'homme Volker Türk, Amnesty International, la Commission interaméricaine des droits de l'homme ainsi que les anciens présidents costariciens Óscar Arias et Laura Chinchilla ont condamné la décision et demandé sa révision.",
+   "enjeux": "Cet incident diplomatique illustre la polarisation géopolitique croissante en **Amérique latine** autour du conflit israélo-palestinien et de l'alignement sur Washington. Le Costa Rica, traditionnellement perçu comme un modèle régional de démocratie, de pacifisme et de respect du droit international (siège de la Cour interaméricaine des droits de l'homme), voit son image mise à rude épreuve, comme le souligne la réaction unanime des anciens présidents Arias et Chinchilla. L'affaire interroge également l'immunité et l'indépendance des **experts des Nations unies** dans l'exercice de leur mandat face aux pressions bilatérales ou aux sanctions politiques.",
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1200/branded_mundo/7cf3/live/854361b0-ea8d-11f1-a739-457c2295eaba.jpg",
+    "alt": "Francesca Albanese, rapporteuse spéciale des Nations unies sur les Territoires palestiniens",
+    "credit": "BBC News Mundo",
+    "source": "https://www.bbc.com/mundo/articles/cmpqrv8e8n32o?at_medium=RSS&at_campaign=rss"
+   },
+   "vo": {
+    "titre": "Costa Rica: el veto migratorio a la relatora de la ONU Francesca Albanese desata críticas internacionales",
+    "faits": "El 26 de noviembre, las autoridades migratorias de Costa Rica impidieron la entrada al país a la relatora especial de la ONU sobre los Territorios Palestinos Ocupados, Francesca Albanese, alegando razones de «seguridad nacional». El director de Migración, Omer Badilla, sostuvo que pesaba sobre ella una alerta internacional por presuntos vínculos con actos terroristas. Invitada por la Universidad de Costa Rica para recibir un doctorado *honoris causa*, Albanese permaneció en el aeropuerto Juan Santamaría, intervino de forma virtual en el acto académico y anunció su viaje a México. La relatora rechazó por falsas las acusaciones y defendió su labor en favor de los derechos humanos. El alto comisionado Volker Türk, Amnistía Internacional, la CIDH y los expresidentes costarricenses Óscar Arias y Laura Chinchilla condenaron el veto y exigieron al Gobierno rectificar.",
+    "enjeux": "Este choque diplomático refleja las crecientes tensiones geopolíticas en América Latina en torno al conflicto en Oriente Próximo y la relación con Estados Unidos. Para Costa Rica, país históricamente reconocido por su tradición democrática, la defensa de la libertad académica y su papel como sede de la Corte Interamericana de Derechos Humanos, la medida supone un golpe reputacional considerable. Asimismo, el caso plantea un precedente inquietante sobre la protección jurídica y la libertad de movimiento de los relatores independientes de Naciones Unidas."
+   },
+   "vocab": [
+    [
+     "impedir el ingreso",
+     "refuser l'entrée sur le territoire",
+     "Migración decidió impedir el ingreso de la experta en el aeropuerto internacional."
+    ],
+    [
+     "la relatora especial",
+     "la rapporteuse spéciale",
+     "La relatora especial de la ONU documenta posibles violaciones del derecho internacional."
+    ],
+    [
+     "la libertad académica",
+     "la liberté académique",
+     "Las universidades reclamaron respeto a la libertad académica tras la prohibición."
+    ],
+    [
+     "el Estado de derecho",
+     "l'État de droit",
+     "Los expresidentes advirtieron que la medida debilita la tradición del Estado de derecho."
+    ],
+    [
+     "reconsiderar una medida",
+     "reconsidérer, revenir sur une décision",
+     "Varios organismos internacionales pidieron al Ejecutivo reconsiderar la medida de inmediato."
+    ],
+    [
+     "las represalias políticas",
+     "les représailles politiques",
+     "Organizaciones civiles denunciaron represalias políticas contra defensores de derechos."
+    ]
+   ],
+   "sujets": [
+    "¿Pueden los Estados limitar la entrada de relatores de la ONU invocando la seguridad nacional?",
+    "¿Está cambiando la tradicional política exterior costarricense en materia de derechos humanos?"
+   ],
+   "anki": [
+    {
+     "q": "Motivo oficial del veto de Costa Rica a Francesca Albanese (noviembre 2026)",
+     "r": "Razones de «seguridad nacional» ante su visita académica a la UCR, provocando la condena de la ONU, la CIDH y los expresidentes B{Arias} y B{Chinchilla}.\n→ Ilustra la tensión entre B{derecho internacional} y alineamientos geopolíticos en América Latina."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-espagnol-5",
+   "matiere": "espagnol",
+   "source": "La Tercera",
+   "url": "https://www.latercera.com/nacional/noticia/el-clima-feroz-un-ano-entre-incendios-lluvias-intensas-aluviones-y-tornados-en-primavera/",
+   "minutes": 3,
+   "titre": "Chili : une année de catastrophes climatiques extrêmes entre El Niño et réchauffement",
+   "dossier": "clima-extremo-el-nino-chile",
+   "faits": "Un bilan publié le 28 novembre par *La Tercera* retrace une année météorologique exceptionnelle au Chili, marquée par des incendies estivaux suivis de pluies torrentielles, de coulées de boue et de quatre tornades dans le centre et le sud du pays. En juillet, un « fleuve atmosphérique » de catégorie 5 (le niveau maximal) a poussé le gouvernement à décréter l'état d'urgence préventif dans dix régions et à mobiliser l'armée ; il est tombé 108,7 mm de pluie en 24 heures à Valparaíso et 176,4 mm en juillet à La Serena, soit plus du double de sa moyenne annuelle. En août, des précipitations inédites ont même frappé le désert d'Atacama et coupé la Route 1 dans le Nord, avant de provoquer de nouvelles coulées de boue à Santiago en octobre et une tornade de catégorie EF-2 à Requínoa le 26 octobre (vents jusqu'à 218 km/h). Selon les climatologues chiliens, la zone centrale a connu son printemps le plus pluvieux depuis le début des relevés fiables. Les chercheurs soulignent l'interaction entre l'un des épisodes *El Niño* les plus intenses des dernières décennies et le réchauffement climatique, qui accroît d'environ 7 % la vapeur d'eau atmosphérique par degré supplémentaire et élève l'isotherme zéro en cordillère des Andes.",
+   "enjeux": "Cette succession de désastres illustre la vulnérabilité extrême de l'**Amérique latine** et singulièrement du Chili face au **dérèglement climatique** combiné aux cycles naturels du Pacifique. L'élévation de l'isotherme zéro dans la cordillère des Andes transforme les précipitations hivernales et printanières de neige en pluie liquide, multipliant le risque de crues éclair et de glissements de terrain sur des infrastructures routières, électriques et scolaires souvent vulnérables (47 000 foyers sans électricité dès mai). Au-delà des pertes humaines et matérielles, le coût budgétaire de l'**adaptation climatique** et de la reconstruction devient un défi majeur pour les États latino-américains, qui subissent de plein fouet des chocs qu'ils contribuent peu à provoquer.",
+   "image": {
+    "url": "https://www.latercera.com/resizer/v2/TJSZ2E2GUNES3H5KPVSERUXIJI.jpeg?auth=4d008a9bcd0e75b2ec31e477bca005e8e7a6b7f5d6db50d63e8e3ab384be1609&height=630&width=1200&smart=true",
+    "alt": "Dégâts causés par des intempéries extrêmes et inondations au Chili",
+    "credit": "La Tercera",
+    "source": "https://www.latercera.com/nacional/noticia/el-clima-feroz-un-ano-entre-incendios-lluvias-intensas-aluviones-y-tornados-en-primavera/"
+   },
+   "vo": {
+    "titre": "Chile: un año de fenómenos climáticos extremos por el cruce entre El Niño y el calentamiento global",
+    "faits": "Un balance publicado el 28 de noviembre por *La Tercera* repasa un año meteorológico extraordinario en Chile, marcado por incendios veraniegos, lluvias torrenciales, aluviones y cuatro tornados en la zona centro y centro-sur. En julio, un río atmosférico de categoría 5 —la máxima de la escala— llevó al Ejecutivo a decretar emergencia preventiva en diez regiones y acuartelar al Ejército; cayeron 108,7 milímetros en 24 horas en Valparaíso y 176,4 milímetros en La Serena durante julio, más del doble de su promedio anual. En agosto, las lluvias afectaron incluso al Norte Grande y al desierto de Atacama, antes de nuevos aluviones en Santiago y un tornado EF-2 en Requínoa el 26 de octubre con vientos de hasta 218 km/h. Según climatólogos locales, se registró la primavera más lluviosa desde que existen datos fiables en la zona central. Los científicos atribuyen esta virulencia al cruce entre un evento muy intenso de *El Niño* y el calentamiento global, que eleva un 7 % el vapor de agua atmosférico por grado y sube la isoterma cero andina.",
+    "enjeux": "Esta cadena de emergencias evidencia la alta vulnerabilidad física y económica de América Latina frente al cambio climático, agravada en el Cono Sur por la variabilidad del Pacífico. En la cordillera de los Andes, el ascenso de la isoterma cero convierte en lluvia lo que antes caía en forma de nieve, acelerando crecidas repentinas que dañan viviendas, escuelas y redes eléctricas. Frente a desastres cada vez más frecuentes en zonas antes áridas, la inversión en infraestructuras resilientes y prevención se convierte en una prioridad presupuestaria urgente."
+   },
+   "vocab": [
+    [
+     "el aluvión",
+     "la coulée de boue, la crue torrentielle",
+     "Los intensos temporales provocaron graves aluviones en varios barrios de Santiago."
+    ],
+    [
+     "el río atmosférico",
+     "la rivière atmosphérique",
+     "Un río atmosférico de máxima categoría descargó lluvias récord en la costa."
+    ],
+    [
+     "la isoterma cero",
+     "l'isotherme zéro",
+     "El ascenso de la isoterma cero multiplica el riesgo de inundaciones en la cordillera."
+    ],
+    [
+     "los damnificados",
+     "les sinistrés",
+     "El Gobierno habilitó albergues de emergencia para cientos de familias damnificadas."
+    ],
+    [
+     "la infraestructura resiliente",
+     "l'infrastructure résiliente",
+     "Los expertos reclaman más inversión en infraestructuras resilientes al clima extremo."
+    ],
+    [
+     "cargar los dados",
+     "piper les dés / accroître la probabilité",
+     "Los científicos explican que El Niño carga los dados a favor de lluvias extremas."
+    ]
+   ],
+   "sujets": [
+    "¿Está preparada América Latina para asumir el coste económico de la adaptación climática?",
+    "¿Cómo transforma el calentamiento global el impacto de fenómenos naturales como El Niño en Chile?"
+   ],
+   "anki": [
+    {
+     "q": "Datos del año climático extremo en Chile (2026, La Tercera)",
+     "r": "Emergencia en C{10} regiones, C{4} tornados (EF-2 en Requínoa), C{176,4 mm} en julio en La Serena (>2x su media anual) y C{+7 %} de vapor de agua por cada C{+1 °C}.\n→ Ejemplo concreto del coste de la B{adaptación climática} en América Latina."
+    }
+   ]
+  },
+  {
+   "id": "2026-11-28-espagnol-c1",
+   "matiere": "espagnol",
+   "culture": true,
+   "source": "La Vanguardia",
+   "url": "https://www.lavanguardia.com/cultura/20261128/11695363/cultura-elecciones-teatro-cine-m-musica-danza-iva-ia-cocapitalidad.html",
+   "minutes": 3,
+   "titre": "Culture en Espagne : TVA à 21 %, IA générative et co-capitalité de Barcelone au cœur des débats",
+   "dossier": "politica-cultural-espana",
+   "faits": "Dans un dossier publié le 28 novembre, *La Vanguardia* dresse l'état des lieux des chantiers urgents des industries culturelles espagnoles à la veille des élections du 29 novembre. Le secteur artistique réclame depuis dix ans l'alignement de la TVA sur les ventes d'œuvres d'art en galerie, maintenue à 21 % en Espagne contre 5,5 % en France, 7 % en Allemagne et 5 % en Italie, malgré une directive européenne de 2022 autorisant le taux réduit à 5 %. Le cinéma attend toujours l'adoption de la nouvelle loi sur l'audiovisuel (présentée dès 2022 mais bloquée par les dissolutions parlementaires) et demande une fenêtre d'exclusivité de 100 jours en salle avant la mise en ligne sur les plateformes. De son côté, l'édition — première industrie culturelle du pays en valeur économique — s'alarme du pillage des œuvres protégées par l'intelligence artificielle générative, tandis que la SGAE réclame des quotas de « création humaine ». Enfin, Barcelone défend le maintien de sa dotation de 20 millions d'euros au titre de la co-capitalité culturelle ainsi que l'engagement financier de l'État (33,8 millions sur 112 millions) pour l'agrandissement du Musée national d'art de Catalogne (MNAC).",
+   "enjeux": "Ce panorama met en lumière les fragilités structurelles d'un secteur culturel espagnol pris entre une fiscalité pénalisante, l'héritage de la centralisation madrilène et les bouleversements technologiques. La comparaison avec la France (TVA à 5,5 %, politique historique d'**exception culturelle**) montre combien l'Espagne souffre d'un soutien public plus discontinu et vulnérable aux alternances politiques. La question de la **co-capitalité culturelle** entre Madrid et Barcelone révèle par ailleurs l'importance symbolique et budgétaire des cultures territoriales dans l'Espagne démocratique — une dotation créée sous Zapatero, supprimée sous Rajoy et aujourd'hui indispensable à des institutions comme le **MNAC** ou le Palau de la Música. Enfin, l'émergence de la revendication de **quotas de création humaine** face à l'IA place les créateurs espagnols à l'avant-garde des débats européens sur le droit d'auteur.",
+   "image": {
+    "url": "https://www.lavanguardia.com/files/image_1920_1080/uploads/2026/11/27/6b09d41c9d988.jpeg",
+    "alt": "Façade et dômes du Museu Nacional d'Art de Catalunya (MNAC) à Barcelone",
+    "credit": "La Vanguardia",
+    "source": "https://www.lavanguardia.com/cultura/20261128/11695363/cultura-elecciones-teatro-cine-m-musica-danza-iva-ia-cocapitalidad.html"
+   },
+   "vo": {
+    "titre": "Cultura en España: IVA al 21 %, cuotas frente a la IA y cocapitalidad de Barcelona en el centro del debate",
+    "faits": "En un informe publicado el 28 de noviembre, *La Vanguardia* repasa los retos urgentes de las industrias culturales españolas ante las elecciones generales del 29 de noviembre. Las galerías de arte reclaman desde hace una década rebajar el IVA sobre la compraventa de obras, situado en el 21 % en España frente al 5,5 % en Francia, el 7 % en Alemania y el 5 % en Italia, pese a que una directiva europea de 2022 permite bajarlo al 5 %. El sector audiovisual exige aprobar por fin la Ley del Cine pendiente desde 2022 y fijar una ventana de 100 días de exhibición exclusiva en salas antes de pasar a las plataformas. Por su parte, la industria del libro —principal sector cultural del país por valor económico— y la SGAE piden proteger los derechos de autor frente a la IA generativa mediante cuotas de presencia para la creación humana. Asimismo, las instituciones catalanas reclaman garantizar los 20 millones de euros anuales de la cocapitalidad cultural de Barcelona y los 33,8 millones comprometidos por el Ministerio para ampliar el Museo Nacional de Arte de Cataluña (MNAC), valorada en 112 millones.",
+    "enjeux": "Este diagnóstico ilustra la vulnerabilidad de la política cultural española ante los vaivenes políticos, una fiscalidad poco competitiva y la concentración histórica de instituciones nacionales en Madrid. El contraste con el modelo francés de excepción cultural explica la pérdida de competitividad de las galerías y del teatro españoles frente a sus vecinos europeos. Al mismo tiempo, el debate sobre la cocapitalidad cultural de Barcelona recuerda la tensión territorial propia de la España democrática, mientras que la exigencia de cuotas de creación humana sitúa al mundo artístico español en la vanguardia europea frente a la IA generativa."
+   },
+   "vocab": [
+    [
+     "la cocapitalidad cultural",
+     "la co-capitalité culturelle",
+     "Barcelona defiende los fondos de cocapitalidad cultural para sus grandes museos."
+    ],
+    [
+     "el IVA cultural",
+     "la TVA culturelle",
+     "El elevado IVA cultural del 21 % resta competitividad a las galerías españolas."
+    ],
+    [
+     "los derechos de propiedad intelectual",
+     "les droits de propriété intellectuelle",
+     "Los editores exigen proteger los derechos de propiedad intelectual frente a la IA."
+    ],
+    [
+     "la ventana de exhibición",
+     "la chronologie des médias / fenêtre d'exploitation en salle",
+     "Los cines piden una ventana de exhibición de cien días antes del estreno en plataformas."
+    ],
+    [
+     "el estatuto del artista",
+     "le statut de l'artiste",
+     "El desarrollo del estatuto del artista busca paliar la intermitencia laboral."
+    ],
+    [
+     "el mecenazgo / las ayudas públicas",
+     "le mécénat / les aides publiques",
+     "La ópera y la danza requieren ayudas públicas estables más allá de la lógica de mercado."
+    ]
+   ],
+   "reperes": [
+    [
+     "Le MNAC (Museu Nacional d'Art de Catalunya)",
+     "Installé au Palau Nacional de Montjuïc à Barcelone (Exposition internationale de 1929), il abrite l'une des plus riches collections d'art roman au monde ainsi que le modernisme catalan (Casas, Rusiñol)."
+    ],
+    [
+     "La co-capitalité culturelle Madrid-Barcelone",
+     "Mécanisme financier créé sous le gouvernement Zapatero pour reconnaître le rôle de Barcelone (édition, musées, musique) face au poids des grandes institutions nationales concentrées à Madrid (Prado, Reina Sofía)."
+    ],
+    [
+     "L'industrie du livre en Espagne",
+     "Première industrie culturelle espagnole en chiffre d'affaires, structurée autour du prix unique du livre et de grandes foires mondiales (Liber en Espagne, FIL de Guadalajara au Mexique), faisant le pont avec toute l'Amérique hispanophone."
+    ],
+    [
+     "La comparaison avec l'exception culturelle française",
+     "Alors que la France applique une TVA à 5,5 % sur les œuvres d'art et le spectacle vivant et protège la chronologie des médias, l'Espagne maintient 21 % de TVA sur les galeries, illustrant deux conceptions très différentes du soutien public à la culture."
+    ]
+   ],
+   "entretien": "En entretien de personnalité, tu peux amener ce sujet naturellement en évoquant une visite à Barcelone ou ta curiosité pour le marché de l'art et le cinéma : « Lors de mes séjours en Espagne, j'ai été frappée par la vitalité culturelle de villes comme Barcelone, autour du MNAC ou du Palau de la Música, mais aussi par le contraste économique avec la France. » Défends ensuite un avis nuancé : la culture espagnole rayonne mondialement, mais elle reste fragilisée par une fiscalité plus lourde (21 % de TVA sur les galeries d'art contre 5,5 % en France) et par la dépendance de financements comme la co-capitalité barcelonaise aux alternances politiques. Relie-le à tes centres d'intérêt : tu peux faire le parallèle avec le secteur de la mode ou du design, où la protection de la création humaine et de la propriété intellectuelle face à l'IA générative devient un enjeu décisif pour les créateurs. Si le jury te demande : « L'État doit-il subventionner la culture ou la laisser au marché ? », réponds que certaines disciplines comme l'opéra, le patrimoine ou l'édition indépendante génèrent des externalités culturelles positives impossibles à rentabiliser à court terme, ce qui justifie des règles stables comme le prix unique du livre ou un taux de TVA réduit.",
+   "sujets": [
+    "¿Debe España reforzar su política de excepción cultural para proteger sus industrias creativas frente a la IA?",
+    "¿Cómo equilibrar la centralidad cultural de Madrid y la cocapitalidad de Barcelona?"
+   ],
+   "anki": [
+    {
+     "q": "IVA español sobre galerías de arte frente a Francia y la directiva europea de 2022",
+     "r": "C{21 %} en España frente al C{5,5 %} en Francia (C{5 %} en Italia, C{7 %} en Alemania), pese a poder reducirse al C{5 %}.\n→ Dato comparativo clave para explicar la debilidad de la política cultural española."
+    }
+   ]
+  }
+ ],
+ "a_lire": [
+  {
+   "journal": "Les Échos",
+   "titre": "Coût du travail : le gel du barème des allègements de charges va provoquer des destructions massives d'emplois, selon un rapport officiel",
+   "url": "https://www.lesechos.fr/economie-france/social/cout-du-travail-le-gel-du-bareme-des-allegements-de-charges-va-provoquer-des-destructions-massives-demplois-selon-un-rapport-officiel-2265100",
+   "pourquoi": "Chiffre l'arbitrage délicat entre économies budgétaires sur les exonérations de cotisations et préservation de l'emploi peu qualifié au cœur du chapitre sur le **coût du travail**."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "La dette publique grecque poursuit sa désescalade historique",
+   "url": "https://www.lesechos.fr/monde/europe/la-dette-publique-grecque-poursuit-sa-desescalade-historique-2265101",
+   "pourquoi": "Offre un contre-exemple européen précieux à la trajectoire française en montrant comment croissance et excédents primaires inversent l'**effet boule de neige** de la dette."
+  },
+  {
+   "journal": "Les Échos",
+   "titre": "Au Brésil, Lula cherche à rassurer les marchés en confiant le portefeuille des Finances à un banquier",
+   "url": "https://www.lesechos.fr/monde/ameriques/au-bresil-lula-cherche-a-rassurer-les-marches-en-confiant-le-portefeuille-des-finances-a-un-banquier-2265037",
+   "pourquoi": "Illustre le rôle de la **crédibilité budgétaire** et de l'indépendance des signaux politiques vis-à-vis des marchés financiers dans les économies émergentes."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Jézabel Couppey-Soubeyran, économiste : « Pour mettre la politique monétaire au service de la transition écologique, c’est un “pivert” qu’il faut à la tête de la BCE »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/27/jezabel-couppey-soubeyran-economiste-pour-mettre-la-politique-monetaire-au-service-de-la-transition-ecologique-c-est-un-pic-vert-qu-il-faut-a-la-tete-de-la-bce_6815809_3232.html",
+   "pourquoi": "Renouvelle le débat classique entre **faucons et colombes** à la BCE en posant la question du verdissement du mandat monétaire."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Règle d’or budgétaire : « Ce qui discipline la dépense, ce ne sont pas les règles, mais la croissance économique »",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/28/regle-d-or-budgetaire-ce-qui-discipline-la-depense-ce-ne-sont-pas-les-regles-mais-la-croissance-economique_6816079_3232.html",
+   "pourquoi": "Apporte des arguments de fond contre la constitutionnalisation d'une **règle d'or budgétaire** rigide en privilégiant le retour de la croissance potentielle."
+  },
+  {
+   "journal": "Le Monde",
+   "titre": "Pourquoi l’agriculture française tarde à s’adapter au changement climatique : « On le voyait arriver, mais pas aussi brutalement »",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/28/pourquoi-l-agriculture-francaise-tarde-a-s-adapter-au-changement-climatique-on-le-voyait-arriver-mais-pas-aussi-brutalement_6816070_3234.html",
+   "pourquoi": "Éclaire les blocages économiques, assurantiels et agronomiques de l'**adaptation climatique** dans un secteur stratégique de la balance commerciale française."
+  }
+ ]
+}

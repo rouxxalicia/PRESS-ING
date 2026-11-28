@@ -9461,6 +9461,332 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zones-monetaires-optimales",
+      "nom": "Zones monétaires optimales",
+      "categorie": "monnaie",
+      "type": "Théorie",
+      "annee": "1961",
+      "auteur": "Robert Mundell",
+      "accroche": "Partager une même monnaie n'est avantageux que si la mobilité du travail et l'intégration budgétaire compensent la perte du taux de change comme outil d'ajustement.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Robert Mundell**, *« A Theory of Optimum Currency Areas »* (*American Economic Review*, 1961).",
+            "Au moment où l'Europe engage son intégration économique et où le système de Bretton Woods repose sur des changes fixes, Mundell pose une question simple : **quelle est la bonne taille géographique d'une monnaie ?** Renoncer à sa devise nationale supprime les coûts de change et de transaction, mais prive chaque État de la **dévaluation** et d'une politique monétaire autonome en cas de crise."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un **choc asymétrique** (baisse brutale de la demande ou perte de compétitivité) frappe une région ou un pays de l'union monétaire, mais pas ses partenaires.",
+            "Privé de sa monnaie nationale, le pays touché ne peut ni **dévaluer** pour relancer ses exportations ni baisser ses taux d'intérêt de façon isolée.",
+            "L'ajustement ne peut alors se faire sans chômage durable que si les travailleurs émigrent facilement vers les régions dynamiques (**mobilité du travail**), si les salaires sont flexibles, ou si des **transferts budgétaires** automatiques soutiennent la zone en difficulté."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Une union monétaire incomplète amplifie les **divergences macroéconomiques** entre pays membres. C'est la grille de lecture centrale de la **crise de la zone euro** (2010-2015) : faute de budget fédéral et avec une mobilité linguistique et professionnelle limitée, les pays du Sud (Grèce, Espagne, Portugal) ont dû subir une coûteuse **dévaluation interne** (baisse des salaires et austérité budgétaire) pour regagner en compétitivité et réduire leur dette."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Ronald McKinnon (1963)",
+              "d": "Plus les économies sont **ouvertes et commercialement intégrées**, plus elles ont intérêt à partager une monnaie fixe."
+            },
+            {
+              "t": "Peter Kenen (1969)",
+              "d": "Des économies **diversifiées** et dotées d'un **budget fédéral** résistent mieux aux chocs sectoriels sans taux de change national."
+            },
+            {
+              "t": "Jeffrey Frankel et Andrew Rose (1998)",
+              "d": "Thèse de l'**endogénéité** des zones monétaires optimales : partager une monnaie intensifie le commerce et finit par rapprocher les cycles économiques."
+            },
+            {
+              "t": "Paul Krugman (1993)",
+              "d": "Vision opposée (spécialisation) : l'union monétaire favorise les **effets d'agglomération** industriels et rend les régions plus asymétriques."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Le modèle statique de Mundell sous-estime le rôle des **marchés financiers** et de la **crédibilité monétaire**. Une monnaie unique protège contre les attaques spéculatives entre partenaires et réduit les primes d'inflation, mais sans union bancaire ni solidarité budgétaire, elle expose chaque État à un risque de crise de **dette souveraine** (absence de prêteur en dernier ressort national)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "La trajectoire de la Grèce en zone euro",
+              "d": "Après une décennie de dévaluation interne douloureuse et de réformes sous tutelle, Athènes parvient à réduire fortement son ratio dette/PIB."
+            },
+            {
+              "t": "La comparaison zone euro / États-Unis",
+              "d": "Aux États-Unis, le budget fédéral absorbe une part importante des chocs régionaux, ce que l'UE n'a amorcé que ponctuellement avec NextGenerationEU (2020)."
+            },
+            {
+              "t": "L'élargissement de la zone euro",
+              "d": "Débat sur l'entrée de pays d'Europe centrale ou balkanique et leur capacité à absorber des chocs sans taux de change autonome."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "James Ingram et Harry Johnson (1969)",
+              "idee": "une union monétaire exige des transferts budgétaires face aux chocs asymétriques"
+            },
+            {
+              "sens": "=",
+              "nom": "Barry Eichengreen (2011)",
+              "idee": "l'euro reste une « monnaie sans État » vulnérable sans dette commune"
+            },
+            {
+              "sens": "≠",
+              "nom": "Jeffrey Frankel et Andrew Rose (1998)",
+              "idee": "l'union monétaire crée elle-même sa propre convergence avec le temps"
+            },
+            {
+              "sens": "≠",
+              "nom": "Milton Friedman (1953)",
+              "idee": "les changes flexibles sont préférables pour absorber rapidement les chocs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clusters-agglomeration-krugman",
+      "nom": "Clusters et économies d'agglomération",
+      "categorie": "commerce",
+      "type": "Théorie",
+      "annee": "1991",
+      "auteur": "Paul Krugman",
+      "accroche": "Les entreprises d'un même secteur ont intérêt à se concentrer géographiquement pour bénéficier d'externalités positives, même si le coût du foncier y est plus élevé.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Paul Krugman**, *Geography and Trade* (1991), fondement de la **nouvelle économie géographique** (prix Nobel 2008).",
+            "Krugman formalise une intuition d'**Alfred Marshall** (*Principes d'économie politique*, 1890) sur les **districts industriels** : les activités économiques ne se répartissent pas uniformément dans l'espace mais s'agglomèrent autour de pôles spécialisés."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un bassin d'emploi dense attire à la fois les **travailleurs qualifiés** et les entreprises qui cherchent des compétences rares.",
+            "La concentration de clients industriels permet l'émergence de **fournisseurs spécialisés** (laboratoires, sous-traitants, salles blanches) à coûts réduits grâce aux **économies d'échelle**.",
+            "La proximité physique facilite les **externalités technologiques** (*knowledge spillovers*) : les idées, brevets et savoir-faire circulent plus vite entre chercheurs et ingénieurs.",
+            "Ces **forces centripètes** créent un cercle vertueux auto-entretenu qui verrouille l'avantage du territoire, tant qu'elles dépassent les coûts de congestion."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Cette théorie explique pourquoi des territoires pourtant coûteux en salaires et en foncier (Silicon Valley, Grenoble, Paris-Saclay) restent ultra-attractifs dans la **mondialisation productive**. Elle justifie les **politiques industrielles territoriales** (pôles de compétitivité en France) qui misent sur la **compétitivité hors-prix** et les rendements croissants plutôt que sur le seul moins-disant fiscal ou salarial."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Alfred Marshall (1890)",
+              "d": "L'inventeur des **économies externes d'agglomération** dans les districts industriels britanniques (« les secrets de l'industrie sont dans l'air »)."
+            },
+            {
+              "t": "Michael Porter (1990)",
+              "d": "Popularise la notion de **cluster** dans *L'Avantage concurrentiel des nations* : la proximité stimule à la fois la coopération et l'émulation."
+            },
+            {
+              "t": "Modèle centre-périphérie",
+              "d": "Krugman (1991) montre que la baisse des **coûts de transport** peut accentuer les inégalités territoriales au profit des régions déjà industrialisées."
+            },
+            {
+              "t": "Lionel Fontagné (2014)",
+              "d": "Distingue la fabrication (délocalisable) de l'**activité industrielle** (R&D, conception), qui reste ancrée dans les clusters du Nord."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "À partir d'un certain seuil, les **forces centrifuges** (flambée du foncier, saturation des transports, tensions sur les **ressources naturelles** comme l'eau ou l'électricité) freinent la concentration. La spécialisation extrême d'un cluster le rend aussi vulnérable aux **chocs sectoriels** (ex. déclin de Détroit avec l'automobile)."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Microélectronique à Grenoble",
+              "d": "Proximité entre laboratoires (CEA-Leti), start-up et industriels des semi-conducteurs, confrontée aux limites de la ressource en eau."
+            },
+            {
+              "t": "Silicon Valley et IA générative",
+              "d": "Concentration mondiale des capitaux-risqueurs, des universités (Stanford) et des ingénieurs malgré des coûts salariaux records."
+            },
+            {
+              "t": "Pôles de compétitivité en France",
+              "d": "Stratégie lancée en 2004 pour regrouper entreprises, centres de recherche et formations sur un même territoire (ex. Aerospace Valley à Toulouse)."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Alfred Marshall (1890)",
+              "idee": "districts industriels et externalités locales de savoir-faire"
+            },
+            {
+              "sens": "=",
+              "nom": "Michael Porter (1990)",
+              "idee": "clusters et compétitivité hors-prix fondée sur l'écosystème local"
+            },
+            {
+              "sens": "≠",
+              "nom": "Suzanne Berger (2006)",
+              "idee": "la fragmentation internationale des chaînes de valeur disperse la production"
+            },
+            {
+              "sens": "≠",
+              "nom": "Garrett Hardin (1968)",
+              "idee": "la concentration d'usages intensifs peut saturer et épuiser les ressources communes locales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tragedie-des-communs-hardin",
+      "nom": "La tragédie des biens communs",
+      "categorie": "croissance",
+      "type": "Modèle",
+      "annee": "1968",
+      "auteur": "Garrett Hardin",
+      "accroche": "En l'absence de règles d'accès, chaque acteur rationnel surexploite une ressource commune rivale mais non excluable, conduisant à son épuisement collectif.",
+      "blocs": [
+        {
+          "titre": "D'où ça vient",
+          "type": "texte",
+          "paras": [
+            "**Garrett Hardin**, « The Tragedy of the Commons », publié dans la revue *Science* (1968).",
+            "L'écologue américain imagine un **pâturage en libre accès** ouvert à tous les éleveurs d'un village pour montrer comment la somme des intérêts individuels aboutit à une **défaillance de marché** écologique."
+          ]
+        },
+        {
+          "titre": "Le mécanisme",
+          "type": "etapes",
+          "items": [
+            "Un **bien commun** est une ressource **rivale** (ce qu'un acteur prélève n'est plus disponible pour les autres) et **non excluable** (personne ne peut être empêché d'y accéder).",
+            "Chaque éleveur qui ajoute une bête sur le pré reçoit **100 % du gain** privé de cette bête supplémentaire.",
+            "En revanche, le coût du surpâturage (dégradation du sol) est **partagé entre tous** les éleveurs.",
+            "Par **rationalité individuelle**, chacun augmente son troupeau jusqu'à ce que la ressource commune soit totalement épuisée."
+          ]
+        },
+        {
+          "titre": "Ce que ça permet de montrer",
+          "type": "texte",
+          "paras": [
+            "Ce modèle prouve que la **main invisible** d'Adam Smith échoue dès qu'une ressource est gratuite et partagée : le marché seul ne protège ni l'eau, ni les stocks halieutiques, ni le climat. Il justifie une **intervention publique** ou une régulation collective pour restreindre l'accès (quotas, droits de propriété, tarification)."
+          ]
+        },
+        {
+          "titre": "Les prolongements à connaître",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Typologie des biens (Samuelson et Ostrom)",
+              "d": "Distingue les biens privés, les biens collectifs purs, les biens de club et les **biens communs** (rivaux et non excluables)."
+            },
+            {
+              "t": "Elinor Ostrom (1990)",
+              "d": "Dans *La Gouvernance des biens communs*, elle démontre empiriquement que les communautés locales s'auto-organisent pour éviter la tragédie."
+            },
+            {
+              "t": "Arthur Cecil Pigou (1920)",
+              "d": "Propose d'internaliser les **externalités négatives** par une taxe égale au coût marginal social infligé aux autres usagers."
+            },
+            {
+              "t": "Biens publics mondiaux",
+              "d": "Le climat et la biodiversité posent le même problème de **passager clandestin** à l'échelle internationale (négociations climatiques)."
+            }
+          ]
+        },
+        {
+          "titre": "Ce que ça ne dit pas",
+          "type": "texte",
+          "paras": [
+            "Hardin confond un **bien commun** (géré par une communauté avec des règles) et une ressource en **libre accès** sans institution. **Elinor Ostrom** (prix Nobel 2009) montre qu'entre la privatisation intégrale et le contrôle étatique centralisé prônés par Hardin, il existe une troisième voie efficace : des règles locales co-construites par les usagers."
+          ]
+        },
+        {
+          "titre": "Où l'utiliser",
+          "type": "cartes",
+          "items": [
+            {
+              "t": "Conflits d'usage autour de l'eau",
+              "d": "Arbitrage entre agriculture irriguée, industrie (semi-conducteurs, data centers) et eau potable lors des épisodes de sécheresse."
+            },
+            {
+              "t": "Surpêche et quotas maritimes",
+              "d": "Sans quotas européens de captures ni aires protégées, chaque flottille a intérêt à pêcher le maximum avant ses concurrents."
+            },
+            {
+              "t": "Budget carbone et COP climatiques",
+              "d": "L'atmosphère agit comme un commun mondial : chaque État profite de ses émissions fossiles tout en diluant le coût climatique."
+            }
+          ]
+        },
+        {
+          "titre": "Dialogue",
+          "type": "liens",
+          "items": [
+            {
+              "sens": "=",
+              "nom": "Arthur Cecil Pigou (1920)",
+              "idee": "l'écart entre coût privé et coût social impose une régulation publique"
+            },
+            {
+              "sens": "≠",
+              "nom": "Adam Smith (1776)",
+              "idee": "l'intérêt individuel ne produit pas l'intérêt général sur les ressources communes"
+            },
+            {
+              "sens": "≠",
+              "nom": "Elinor Ostrom (1990)",
+              "idee": "une gouvernance polycentrique et locale évite la tragédie sans tout privatiser ni étatiser"
+            },
+            {
+              "sens": "≠",
+              "nom": "Ronald Coase (1960)",
+              "idee": "l'attribution claire de droits de propriété négociables suffit si les coûts de transaction sont nuls"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
